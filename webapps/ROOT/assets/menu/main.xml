@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="../schema/menu/menu.rng" type="xml"?>
+<root xmlns="http://www.kcl.ac.uk/artshums/depts/ddh/kiln/ns/1.0"
+      xmlns:i18n="http://apache.org/cocoon/i18n/2.1">
+  <menu label="Documents" match="local-tei-index-display"
+        i18n:key="menu-texts" />
+  <menu label="Places" match="local-index-display-html" params="tei place"/>
+  <menu label="Persons" match="local-index-display-html" params="tei person"/>
+  <menu label="Institutions" match="local-index-display-html" params="tei institution"/>
+  <!--<menu label="Indices" match="local-indices-type-display" params="tei">
+    <item label="Places" match="local-index-display-html" params="tei place"/>
+    <item label="Persons" match="local-index-display-html" params="tei person"/>
+  </menu>-->
+  <menu label="Search" match="local-search" i18n:key="menu-search" />
+  <menu label="Admin" language="" match="local-admin-home-page" i18n:key="menu-admin" />
+</root>

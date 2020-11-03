@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kiln:root xmlns:i18n="http://apache.org/cocoon/i18n/2.1"
+           xmlns:kiln="http://www.kcl.ac.uk/artshums/depts/ddh/kiln/ns/1.0"
+           xmlns:xi="http://www.w3.org/2001/XInclude"
+           xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+  <kiln:parent>
+    <xi:include href="base.xml" />
+  </kiln:parent>
+
+  <kiln:child>
+    <kiln:block name="title">
+      <i18n:text>Home</i18n:text>
+    </kiln:block>
+
+    <kiln:block name="page-header">
+      <div class="row">
+        <div class="large-12 columns text-center">
+          <h1 id="site-name">
+            <span>
+              <i18n:text i18n:key="home-title">Fiscus</i18n:text>
+            </span>
+          </h1>
+        </div>
+      </div>
+    </kiln:block>
+
+    <kiln:block name="content-section">
+      <main>
+        <div class="row">
+          <div class="small-9 large-centered columns" style="text-align:center">
+            <p><strong>Fiscal Estate in Medieval Italy: Continuity and Change (9th – 12th centuries)</strong></p>
+            <p><br/></p>
+              <p>Università di Torino (Coordinatore scientifico: Massimo Valerio Vallerani)
+                <br/>Università di Bologna (Coordinatore scientifico: Tiziana Lazzari)
+                <br/>Università di Pisa (Coordinatore scientifico: Simone Maria Collavini)
+                <br/>Università di Roma Tre (Coordinatore scientifico: Vito Lorè)</p>
+          </div>
+        </div>
+        <div><p><br/><br/></p></div>
+        <div class="row">
+          <div class="large-3 columns">
+            <div class="panel radius" style="text-align:center">
+              <p><strong><a
+                href="{kiln:url-for-match('local-tei-index-display', ($language), 0)}">Documents</a></strong></p>
+            </div>
+          </div>
+          <div class="large-3 columns">
+            <div class="panel radius" style="text-align:center">
+              <p><strong><a
+                href="{kiln:url-for-match('local-tei-index-display', ($language), 0)}">Places</a></strong></p>
+            </div>
+          </div>
+          <div class="large-3 columns">
+            <div class="panel radius" style="text-align:center">
+              <p><strong><a
+                href="{kiln:url-for-match('local-tei-index-display', ($language), 0)}">Persons</a></strong></p>
+            </div>
+          </div>
+          <div class="large-3 columns">
+            <div class="panel radius" style="text-align:center">
+              <p><strong><a
+                href="{kiln:url-for-match('local-tei-index-display', ($language), 0)}">Institutions</a></strong></p>
+            </div>
+          </div>
+        </div>
+        <div><p><br/><br/><br/><br/></p></div>
+      </main>
+    </kiln:block>
+  </kiln:child>
+</kiln:root>
