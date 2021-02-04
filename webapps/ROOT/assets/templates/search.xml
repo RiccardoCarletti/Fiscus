@@ -41,7 +41,7 @@
       <div class="row">
         <div class="large-4 columns">
           <form action="." id="search-form" method="get">
-            <input name="q" placeholder="Search terms" type="search">
+            <input id="write" name="q" placeholder="Search terms" type="search">
               <xsl:attribute name="value">
                 <xsl:value-of select="$q_value" />
               </xsl:attribute>
@@ -53,11 +53,18 @@
                     <xsl:attribute name="checked">checked</xsl:attribute>
                   </xsl:if>
                 </input>
-                <xsl:text>Search lemmatised text</xsl:text>
+                <xsl:text> Search lemmatised text</xsl:text>
               </label>
             </xsl:if>
+            
+            <label>
+              <p>
+              <a href="{kiln:url-for-match('local-search', ($language), 0)}"><xsl:text>Reset search</xsl:text></a>
+              </p>
+            </label>
+            
             <h4>Date <span id="date-slider-label"></span></h4>
-            <div id="date-slider-widget" data-range-min="-500" data-range-max="1600" data-value-min="-200" data-value-max="1400" data-step="25" data-label-prefix="" data-label-suffix="A.D." data-field-name="origin_date" />
+            <div id="date-slider-widget" data-range-min="500" data-range-max="1500" data-value-min="500" data-value-max="1500" data-step="25" data-label-prefix="" data-label-suffix="A.D." data-field-name="origin_date" />
           </form>
           <!-- List of currently applied facets. -->
           <xsl:apply-templates mode="search-results" select="/aggregation/response/lst[@name='responseHeader']/lst[@name='params']/*[@name='fq']" />
@@ -87,6 +94,17 @@
         prepare_form(form, widget, inputs, checked_inputs);
         setup_slider(widget, label);
       });
+      </script>
+      
+      <!-- The following script enables to show or hide the facets items and the Greek keyboard. -->
+      <script>
+        function toggle_visibility(id) {
+        var e = document.getElementById(id);
+        if(e.style.display == 'block')
+        e.style.display = 'none';
+        else
+        e.style.display = 'block';
+        }
       </script>
     </kiln:block>
   </kiln:child>

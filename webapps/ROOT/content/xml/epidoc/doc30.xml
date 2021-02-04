@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc30">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Archivio Storico Diocesano di Novara, Documentario Episcopale I, n. 2 (Rotolo dei Diplomi, n. 13)</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+                <principal>
+                    <persName ref="lmotta">Loris Motta</persName>
+                </principal>
+                <respStmt>
+                    <resp>Metadata</resp>
+                    <persName ref="lmotta">Loris Motta</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>TEI encoding</resp>
+                    <persName ref="lmotta">Loris Motta</persName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="uri">http://137.204.128.125/documents/doc30</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="https://ausohnum.huma-num.fr/concept/c25666">Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="https://ausohnum.huma-num.fr/concept/c26116">Original document</rs>
+                            <rs type="document_tradition" ref="https://ausohnum.huma-num.fr/concept/c26113">Copy</rs>
+                            <rs type="fiscal_property">yes</rs>
+                        </summary>
+                        <msItem xml:id="doc30-msItem1">
+                            <textLang mainLang="undefined" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0915">915</origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance type="findspot">
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                </listPlace>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+            <listPerson type="peopleInDocument">
+            
+    <person corresp="http://137.204.128.125/people/21">
+            <persName xml:lang="en">Berengario I</persName>
+        </person>
+    <person corresp="http://137.204.128.125/people/73">
+            <persName xml:lang="en">Dagibertus, episcopus di Novara</persName>
+        </person>
+    <person corresp="http://137.204.128.125/people/74">
+            <persName xml:lang="en">Heriwinus</persName>
+        </person>
+    
+    
+    </listPerson>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change who="lmotta" when="2021-01-21T08:04:00.294-08:00">Creation of this file</change>
+           <change when="2021-01-21T08:40:51.355-08:00" who="http://137.204.128.125/people/lmotta"/>
+           <change when="2021-01-21T08:47:56.573-08:00" who="http://137.204.128.125/people/lmotta"/>
+           <change when="2021-01-21T08:56:57.736-08:00" who="http://137.204.128.125/people/lmotta"/>
+           <change when="2021-01-21T09:04:04.207-08:00" who="http://137.204.128.125/people/lmotta"/>
+           <change when="2021-01-21T09:39:01.359-08:00" who="http://137.204.128.125/people/lmotta"/>
+           <change when="2021-01-21T09:43:42.451-08:00" who="http://137.204.128.125/people/lmotta"/>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine Dei eterni. <persName key="emperor/king" ref="http://137.204.128.125/people/21">Berengarius</persName> gratia Dei
+<rs key="emperor/king">rex</rs>. Noverit omnium fidelium Sancte Dei
+Ecclesie nostrorum presentium scilicet et futurorum industria, qualiter
+<persName>Anna</persName> dilectissima coniuncx nostram adiens
+excellentiam obnixe deprecata est, cuidam <rs key="fidelis of">fideli</rs>
+nostro nomine <persName key="fidelis of" ref="http://137.204.128.125/people/74">Hervino</persName> nepoti
+reverentissimi presulis <persName key="bishops" ref="http://137.204.128.125/people/73">Dagiberti</persName>
+<rs key="bishops">episcopi</rs> quoddam <rs key="mansi">mansum</rs> in <rs key="vici">villa</rs>
+<placeName key="fiscal property, object, redistributive, iure proprietatis/pleno iure, mansum, vici" ref="http://137.204.128.125/places/56">Evurio</placeName> situm actenus pertinentem de <rs key="comitatus">comitatu</rs>
+<placeName key="comitatus" ref="http://137.204.128.125/places/54">Oxilense</placeName>, de <geogName>
+                            <rs key="curtes" ref="http://137.204.128.125/people/75">corticella</rs> scilicet que nominatur <placeName key="curtes" ref="http://137.204.128.125/places/55">Beura</placeName>
+                        </geogName>, cum omnibus sibi
+pertinentibus vel aspicientibus per hoc nostre auctoritatis preceptum <rs key="iure proprietatis/pleno iure">iure proprietario</rs> concederemus.
+Cuius preces libentissime suscipientes, quod petiit pro amore Dei et mercede
+anime nostre ac etiam et devotionem et fidelitatem iam dicti fidelis nostri
+Hervini animadvertentes, benigne et libenti animo iure proprietario
+concedimus, predictum mansum ex integro de iure et dominio nostri regni in
+ius et potestatem pretaxati Hervini per hoc nostre concessionis preceptum in
+omnibus modis transfundimus, cedimus atque donamus ad abendum, tenendum,
+vendendum, commutandum et quicquid voluerit faciendum, totius potestatis
+contradictione remota. Si quis ergo [hoc nostre concessionis preceptum
+infringere vel violare quandoque temptaverit, sciat se compositurum <rs key="penalty">auri
+optimi libras .XL.</rs>, medietatem <rs key="camera regis">kamere nostre</rs> et medietatem predicto Hervino
+vel cui ipse habere concesserit vel statuerit. Quod ut vetrius credatur
+diligentiusque ab omnibus observetur, manu propria roborantes de anulo
+nostro subter sigillari iussimus]</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>DD B I, n. 107, pp. 275-276; CACNo, n. 38, p. 52</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

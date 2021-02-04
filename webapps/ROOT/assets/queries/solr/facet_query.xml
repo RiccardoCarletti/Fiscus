@@ -4,12 +4,17 @@
   <q default="true">*</q>
   <document_type>(tei or epidoc)</document_type>
   <facet>true</facet>
-  <facet.field>found_provenance</facet.field>
-  <facet.field>origin_place</facet.field>
-  <facet.field>source_repository</facet.field>
-  <facet.field>support_material</facet.field>
-  <facet.field>support_object_type</facet.field>
-  <facet.field>origin_date_evidence</facet.field>
+  <facet.field>ancient_document_type</facet.field> 
+  <facet.field>record_source</facet.field>
+  <facet.field>document_tradition</facet.field>
+  <facet.field>fiscal_property</facet.field>
+  <facet.field>provenance</facet.field>
+  <facet.field>topical_date</facet.field>
+  <facet.field>mentioned_places</facet.field>
+  <facet.field>mentioned_estates</facet.field>
+  <facet.field>mentioned_people</facet.field>
+  <facet.field>mentioned_juridical_persons</facet.field>
+  <facet.field>mentioned_thesaurus_items</facet.field>
   <facet.limit>-1</facet.limit>
   <facet.mincount>1</facet.mincount>
   <!-- facet.sort's value may be either "index" (alphabetic order of
@@ -17,6 +22,6 @@
   <facet.sort>index</facet.sort>
   <!-- The number of rows returned by Solr at once (that is the number
        displayed per page of results). -->
-  <rows default="true">20</rows>
+  <rows default="true">10000</rows>
   <start default="true">0</start>
 </query>

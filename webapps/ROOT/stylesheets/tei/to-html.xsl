@@ -9,14 +9,5 @@
        to-html.xsl (which should not be changed). -->
 
   <xsl:import href="../../kiln/stylesheets/tei/to-html.xsl" />
-  
-  <xsl:template match="tei:body">
-    <h3>Testo</h3>
-    <xsl:apply-templates select="tei:div[@type='edition']"/>
-    <!--<xsl:apply-templates select="tei:div[@type='apparatus']"/>-->
-    <h3>Note</h3>
-    <xsl:apply-templates select="tei:div[@type='commentary']"/>
-    <!--<xsl:apply-templates select="tei:div[@type='bibliography']"/>-->
-  </xsl:template>
 
 </xsl:stylesheet>

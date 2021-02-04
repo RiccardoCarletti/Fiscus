@@ -58,11 +58,9 @@ Contents
     :maxdepth: 1
 
     quickstart
-    tutorial
     structure
     components
     running
-    solr
     navigation
     url
     templating
@@ -75,7 +73,6 @@ Contents
     webservice
     admin
     pdf
-    testing
     error
     license
     projects

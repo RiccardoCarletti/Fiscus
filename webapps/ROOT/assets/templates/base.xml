@@ -19,7 +19,7 @@
           <meta content="width=device-width" name="viewport" />
           <meta content="IE=edge,chrome=IE8" http-equiv="X-UA-Compatible" />
           <title>
-            <kiln:block name="title">Fiscus: </kiln:block>
+            <kiln:block name="title">Fiscus </kiln:block>
           </title>
           <kiln:block name="css">
             <link href="{$kiln:assets-path}/foundation/css/normalize.css"
@@ -30,6 +30,7 @@
                   type="text/css" />
             <link href="{$kiln:assets-path}/styles/site.css" rel="stylesheet"
                   type="text/css" />
+            <link href="{$kiln:assets-path}/images/favicon.png" rel="shortcut icon" type="image/png"/>
           </kiln:block>
           <kiln:block name="js">
             <script src="{$kiln:assets-path}/foundation/js/vendor/custom.modernizr.js">&#160;</script>
@@ -40,11 +41,14 @@
       <kiln:block name="body">
         <body>
           <kiln:block name="navigation">
+            <div id="header" class="text-center">
+              <h1 id="site-name">Fiscus</h1>
+            </div>
             <nav class="top-bar">
               <kiln:block name="main-navigation">
                 <ul class="title-area">
                   <li class="name">
-                    <h1><a href="{kiln:url-for-match('local-language-home-page', ($language), 0)}">Fiscus</a></h1>
+                    <h1><a href="{kiln:url-for-match('local-language-home-page', ($language), 0)}">Home</a></h1>
                   </li>
                   <li class="toggle-topbar menu-icon">
                     <a href="#"><span>Menu</span></a>
@@ -82,10 +86,10 @@
             </main>
           </kiln:block>
           <kiln:block name="footer">
-            <footer>
+            <!--<footer>
               <p>Powered by <a href="http://kcl-ddh.github.io/kiln/">Kiln</a></p>
               <p>Theme by <a href="http://foundation.zurb.com/">Foundation</a></p>
-            </footer>
+            </footer>-->
           </kiln:block>
           <kiln:block name="end-js">
             <!-- Since we make use of jQuery for other purposes, there

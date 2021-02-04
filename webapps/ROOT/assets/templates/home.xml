@@ -10,16 +10,14 @@
 
   <kiln:child>
     <kiln:block name="title">
-      <i18n:text>Home</i18n:text>
+      <i18n:text>Fiscus</i18n:text>
     </kiln:block>
 
     <kiln:block name="page-header">
       <div class="row">
         <div class="large-12 columns text-center">
-          <h1 id="site-name">
-            <span>
+          <h1>
               <i18n:text i18n:key="home-title">Fiscus</i18n:text>
-            </span>
           </h1>
         </div>
       </div>
@@ -28,43 +26,14 @@
     <kiln:block name="content-section">
       <main>
         <div class="row">
-          <div class="small-9 large-centered columns" style="text-align:center">
-            <p><strong>Fiscal Estate in Medieval Italy: Continuity and Change (9th – 12th centuries)</strong></p>
-            <p><br/></p>
-              <p>Università di Torino (Coordinatore scientifico: Massimo Valerio Vallerani)
-                <br/>Università di Bologna (Coordinatore scientifico: Tiziana Lazzari)
-                <br/>Università di Pisa (Coordinatore scientifico: Simone Maria Collavini)
-                <br/>Università di Roma Tre (Coordinatore scientifico: Vito Lorè)</p>
+          <div id="home-text" class="small-8 large-centered columns">
+            <p>Obiettivo del progetto è studiare la dimensione economica e patrimoniale del potere pubblico nei secoli centrali del Medioevo, indagando le relazioni tra gli enti religiosi e civili e le strutture del regno in età postcarolingia. In particolare, si intende studiare il rapporto fra lo statuto dei beni fiscali, dati e ricevuti nel corso dei secoli X e XI, e la sopravvivenza di una dimensione pubblica legata al possesso di quei beni: dalle forme di appropriazione e gestione delle corti già pubbliche nei secoli XI e XII, allo statuto dei patrimoni monastici nell’Italia padana, alla riproposizione delle collettività urbane come enti pubblici nel secolo XII.</p>
+            <p>L’unità di ricerca di Bologna condurrà una ricognizione sistematica della presenza di beni del fisco regio nei diplomi e nelle carte di placito edite relative all’Italia settentrionale, con un focus specifico sull’area cremonese, particolarmente fortunata dal punto di vista documentario, grazie soprattutto al Codex Siccardi. La ricerca prevede poi tre analisi specifiche sui patrimoni dei monasteri di S. Sisto di Piacenza, Nonantola e S. Maria di Pomposa. Le carte di S. Sisto sono andate disperse in fondi archivistici diversi (Cremona, Piacenza, Pavia) e una ricostruzione virtuale dell’archivio dell’ente costituisce un primo, fondamentale passo per seguire la traccia dei larghi beni del fisco donati dall’imperatrice Angelberga all’atto della sua fondazione. La documentazione di Nonantola non ha invece subito dispersioni ma è edita nelle ChLA solo per gli originali del secolo IX; il progetto per l’edizione delle carte del secolo X rende possibile una prima ricognizione mirata, sulla documentazione pubblica e sulle carte. Infine, la recentissima edizione delle carte di S. Maria di Pomposa mette a disposizione, fino alla metà del secolo XI, le carte dell’ente, strategico per il confronto fra la gestione del fisco in area esarcale e nel regno italico.</p>
+            <p>La ricerca prevede di procedere a una schedatura completa delle proprietà degli enti monastici di pertinenza regia e alla loro identificazione e georeferenziazione. Sulla base della carta prodotta, la componente archeologica dell’unità locale procederà a una ricognizione sistematica della pubblicazione dei risultati di scavi archeologici già condotti sulle aree interessate e a una ricognizione di superficie delle aree meno indagate, per provare a determinare la natura economica di tali beni, confrontando le evidenze con i modelli messi a punto in area toscana.
+            </p>
+            <p>Powered by <a href="http://kcl-ddh.github.io/kiln/">Kiln</a>. Theme by <a href="http://foundation.zurb.com/">Foundation</a>.</p>
           </div>
         </div>
-        <div><p><br/><br/></p></div>
-        <div class="row">
-          <div class="large-3 columns">
-            <div class="panel radius" style="text-align:center">
-              <p><strong><a
-                href="{kiln:url-for-match('local-tei-index-display', ($language), 0)}">Documents</a></strong></p>
-            </div>
-          </div>
-          <div class="large-3 columns">
-            <div class="panel radius" style="text-align:center">
-              <p><strong><a
-                href="{kiln:url-for-match('local-tei-index-display', ($language), 0)}">Places</a></strong></p>
-            </div>
-          </div>
-          <div class="large-3 columns">
-            <div class="panel radius" style="text-align:center">
-              <p><strong><a
-                href="{kiln:url-for-match('local-tei-index-display', ($language), 0)}">Persons</a></strong></p>
-            </div>
-          </div>
-          <div class="large-3 columns">
-            <div class="panel radius" style="text-align:center">
-              <p><strong><a
-                href="{kiln:url-for-match('local-tei-index-display', ($language), 0)}">Institutions</a></strong></p>
-            </div>
-          </div>
-        </div>
-        <div><p><br/><br/><br/><br/></p></div>
       </main>
     </kiln:block>
   </kiln:child>

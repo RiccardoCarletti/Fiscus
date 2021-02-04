@@ -7,7 +7,6 @@
 
   <xsl:include href="cocoon://_internal/url/reverse.xsl" />
 
-  <xsl:param name="base_dir" />
   <xsl:param name="type" />
 
   <xsl:template match="/">
@@ -30,6 +29,6 @@
     <xsl:param name="root" select="''" />
     <xsl:variable name="name" select="substring-before(@name, '.xml')" />
     <xi:include href="{kiln:url-for-match('local-typed-metadata',
-                      ($type, $base_dir, concat($root, $name)), 1)}" />
+                      ($type, concat($root, $name)), 1)}" />
   </xsl:template>
 </xsl:stylesheet>

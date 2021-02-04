@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc19">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Archivio di Stato di Roma, Pergamene, S. Silvestro in Capite, cass. 38, nr. 1</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+                <principal>
+                    <persName ref="dinternullo"/>
+                </principal>
+                <respStmt>
+                    <resp>Metadata</resp>
+                    <persName ref="dinternullo">Dario Internullo</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>TEI encoding</resp>
+                    <persName ref="dinternullo">Dario Internullo</persName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="uri">http://137.204.128.125/documents/doc19</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="https://ausohnum.huma-num.fr/concept/c26227">Papal concession (papyrus)</rs>
+                            <rs type="record_source" ref="https://ausohnum.huma-num.fr/concept/c26116">Original document</rs>
+                            <rs type="document_tradition" ref="https://ausohnum.huma-num.fr/concept/c26113">Copy</rs>
+                            <rs type="fiscal_property">yes</rs>
+                        </summary>
+                        <msItem xml:id="doc19-msItem1">
+                            <textLang mainLang="undefined" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0844" evidence="Anno di pontificato di Sergio II" corresp=""> 844</origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance type="findspot">
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                </listPlace>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+            <listPerson type="peopleInDocument">
+            
+    <person corresp="http://137.204.128.125/people/70">
+            <persName xml:lang="en">Sergius II (844-847), papa</persName>
+        </person>
+    </listPerson>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change who="dinternullo" when="2021-01-14T07:23:21.634-08:00">Creation of this file</change>
+           <change when="2021-01-14T07:25:30.482-08:00" who="http://137.204.128.125/people/dinternullo"/>
+           <change when="2021-01-14T07:30:42.808-08:00" who="http://137.204.128.125/people/fiscus"/>
+           <change when="2021-01-17T05:19:57.401-08:00" who="http://137.204.128.125/people/dinternullo"/>
+           <change when="2021-01-17T05:41:21.173-08:00" who="http://137.204.128.125/people/dinternullo"/>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>(C) <persName key="popes" ref="http://137.204.128.125/people/70">Sergius</persName>
+<rs key="popes">episcopus, servus servorum Dei</rs>, dilecto <persName key="abbots">
+<rs key="abbots">. . . monachum adque
+abbatem</rs>
+ </persName>
+<orgName key="monasteries">
+<rs key="monasteries">monasterii</rs> sanctorum Christi martirum Stephani et
+Silvestri adque Dionisii</orgName> et per te in eodem venerabili
+monasterio . . . . [Petentium desideriis ita nos convenit] impertire
+assensum at tamen nul . . . . . . tti dispendiis ea que pro restauratione
+predicti monasterii concedimus perpetuo <rs key="clusae/gates">porta</rs>
+que vocatur <placeName key="clusae/gates">Sancti Valentini</placeName>,
+fundatas et coniunctas dum claudendum aperiendum vestri custodes phu . . . .
+. . . ingrediendi et egrediendi quicquid exigitur et fuerit ph . . . cum
+terra intus et phoris ad eius porte, nostre pertinen . . . concedimus vobis
+<rs key="monasteries">monasterium</rs>
+<orgName key="monasteries">Sancti Valentini</orgName> phoris eadem porta . .
+. . sive et <rs key="bridges/pontoons">ponte lapideo</rs> qui appellatur
+<placeName key="bridges/pontoons, tolls">Molvium</placeName>
+<rs key="tolls">cum omni datione</rs> . . . . <rs key="rivers">fluvium
+Tyberis</rs>. Hec omnia, ut dictum est, a presenti prima indictione ita
+sane ut vobis singulis quibus rationibus ecclesiasticis <rs key="rent in money">auri solidis (C) TRES (C)</rs> difficultate . . .
+statuentes apostolica censura sub divini iudicii, obtestatione anathematis
+interdictum ut nulli umquam successorum nostrorum pontificum hec . . .
+monasterio molestari vel alienare, set qui hoc presumpserit persona qui eas
+contendit adversus vestro monasterio, sit a regno Dei alienus et vinculo sit
+innodatus in infernus, et cum Diabulo adque cum Iuda traditore domini nostri
+Ihesu Christi, aeterni incendii deputatus . . . intuito observatores in
+omnibus et iam dicto vestro monasterio defensores . . . a misericordiissimo
+domino Deo nostro consequar, et vitae eternae . . . amen. Scriptum per manus
+<persName key="scriniarius, judge">Gaudiosus</persName>
+<rs key="scriniarius, judge">protoscrinius</rs> sancte Romane ecclesie indictione
+suprascripta prima. † Bene valete. [Datum] . . . regionarii et
+bliviothecarium sancte Romane Ecclesie, <date>anno Deo propitio,
+pontificatus domini <persName key="popes">Sergii secundi</persName>
+<rs key="popes">pape</rs>, anno primo, regnante <persName key="emperor/king">Lothario</persName>
+<rs key="emperor/king">a Deo coronato imperatore</rs> indictione
+suprascripta prima</date>.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>S. Silvestro in Capite, nr. 2, pp. 246-247, 263-264
+                            </p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p>Lenzi 1999, pp. 817-821, 837-838
+                            </p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>Copia di XII secolo del documento papiraceo originale
+                            </p>
+            </div>
+           
+        </body>
+    </text>
+</TEI>

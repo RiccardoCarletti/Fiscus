@@ -21,10 +21,58 @@
       <xsl:apply-imports />
     </add>
   </xsl:template>
-
+  
+  <xsl:template match="tei:summary/tei:rs[@type='text_type']" mode="facet_ancient_document_type">
+    <field name="ancient_document_type">
+      <xsl:value-of select="."/>
+    </field>
+  </xsl:template>
+  
+  <xsl:template match="tei:rs[@key]" mode="facet_mentioned_thesaurus_items">
+    <xsl:for-each select="tokenize(@key, ',\s+')">
+      <field name="mentioned_thesaurus_items">
+      <xsl:value-of select="."/>
+    </field>
+    </xsl:for-each>
+  </xsl:template>
+  
+  <xsl:template match="tei:geogName" mode="facet_mentioned_estates">
+    <field name="mentioned_estates">
+      <xsl:value-of select="."/>
+    </field>
+  </xsl:template>
+  
+  <xsl:template match="tei:persName/tei:name[@nymRef]" mode="facet_person_name">
+    <field name="person_name">
+      <xsl:value-of select="@nymRef"/>
+    </field>
+  </xsl:template>
+  
   <!-- This template is called by the Kiln tei-to-solr.xsl as part of
        the main doc for the indexed file. Put any code to generate
        additional Solr field data (such as new facets) here. -->
-  <xsl:template name="extra_fields" />
+  
+  <xsl:template name="extra_fields">
+    <xsl:call-template name="field_ancient_document_type"/>
+    <xsl:call-template name="field_mentioned_thesaurus_items"/>
+    <xsl:call-template name="field_mentioned_estates"/>
+    <xsl:call-template name="field_person_name"/>
+  </xsl:template>
+  
+  <xsl:template name="field_ancient_document_type">
+    <xsl:apply-templates mode="facet_ancient_document_type" select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msContents/tei:summary/tei:rs[@type='text_type']"/>
+  </xsl:template>
+  
+  <xsl:template name="field_mentioned_thesaurus_items">
+    <xsl:apply-templates mode="facet_mentioned_thesaurus_items" select="//tei:text/tei:body/tei:div[@type='edition']"/>
+  </xsl:template>
+  
+   <xsl:template name="field_mentioned_estates">
+    <xsl:apply-templates mode="facet_mentioned_estates" select="//tei:text/tei:body/tei:div[@type='edition']" />
+  </xsl:template>
+  
+  <xsl:template name="field_person_name">
+    <xsl:apply-templates mode="facet_person_name" select="//tei:text/tei:body/tei:div[@type='edition']" />
+  </xsl:template>
 
 </xsl:stylesheet>

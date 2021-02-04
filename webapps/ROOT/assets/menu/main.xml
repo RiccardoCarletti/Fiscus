@@ -2,15 +2,19 @@
 <?oxygen RNGSchema="../schema/menu/menu.rng" type="xml"?>
 <root xmlns="http://www.kcl.ac.uk/artshums/depts/ddh/kiln/ns/1.0"
       xmlns:i18n="http://apache.org/cocoon/i18n/2.1">
-  <menu label="Documents" match="local-tei-index-display"
-        i18n:key="menu-texts" />
-  <menu label="Places" match="local-index-display-html" params="tei place"/>
-  <menu label="Persons" match="local-index-display-html" params="tei person"/>
-  <menu label="Institutions" match="local-index-display-html" params="tei institution"/>
-  <!--<menu label="Indices" match="local-indices-type-display" params="tei">
-    <item label="Places" match="local-index-display-html" params="tei place"/>
-    <item label="Persons" match="local-index-display-html" params="tei person"/>
+  <menu label="Documents" match="local-epidoc-index-display"
+    i18n:key="menu-documents" />
+  <menu label="Indices" match="local-indices-type-display" params="epidoc" i18n:key="menu-indices">
+     <item label="People" match="local-index-display-html" params="epidoc prosopography" i18n:key="prosopography"/> 
+    <item label="Places" match="local-index-display-html" params="epidoc mentioned_places" i18n:key="mentioned_places"/>
+    <item label="Juridical persons" match="local-index-display-html" params="epidoc juridical_persons" i18n:key="juridical_persons"/> 
+    <item label="Estates" match="local-index-display-html" params="epidoc estates" i18n:key="estates"/>
+    <item label="Thesaurus" match="local-index-display-html" params="epidoc thesaurus" i18n:key="menu-index-thesaurus"/>
+  </menu>
+  <!--<menu label="Concordances" i18n:key="menu-concordances">
+    <item label="Bibliographic" match="local-concordance-bibliography"
+          i18n:key="menu-concordance-bibliography" />
   </menu>-->
   <menu label="Search" match="local-search" i18n:key="menu-search" />
-  <menu label="Admin" language="" match="local-admin-home-page" i18n:key="menu-admin" />
+  <!--<menu label="Admin" language="" match="local-admin-home-page" i18n:key="menu-admin" />-->
 </root>

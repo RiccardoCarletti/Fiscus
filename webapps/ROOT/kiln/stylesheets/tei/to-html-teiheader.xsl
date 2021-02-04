@@ -6,50 +6,109 @@
 
   <!-- Transform a TEI document's teiHeader into HTML. -->
 
-  <xsl:template match="tei:teiHeader">
-    <!-- Display metadata about this document, drawn from the TEI header. -->
-    <div>
-    <!--<p>Documento: <xsl:apply-templates select="//tei:titleStmt/tei:title"/></p>-->
-      <p><strong>Responsabili scheda</strong>: <xsl:for-each select="//tei:editor[ancestor::tei:titleStmt]"><xsl:apply-templates select="."/><!--<xsl:if test="@role"><xsl:text> (</xsl:text><xsl:choose>
-        <xsl:when test="@role='edition'"><xsl:text>edizione</xsl:text></xsl:when>
-        <xsl:when test="@role='encoding'"><xsl:text>codifica</xsl:text></xsl:when>
-        <xsl:otherwise><xsl:value-of select="@role"/></xsl:otherwise>
-      </xsl:choose><xsl:text>)</xsl:text></xsl:if>--><xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if></xsl:for-each><br/>
-        <strong>Numero scheda</strong>: <xsl:apply-templates select="//tei:publicationStmt/tei:authority"/><xsl:text> </xsl:text><xsl:apply-templates select="//tei:publicationStmt/tei:idno[@type='filename']"/> <xsl:text> (pubblicazione online: </xsl:text><xsl:value-of select="//tei:publicationStmt/tei:date/@when"/><xsl:text>)</xsl:text></p>
-    </div>
-    <div>
-      <p><strong>Collocazione del documento</strong>: <xsl:apply-templates select="//tei:msIdentifier/tei:repository"/> <xsl:apply-templates select="//tei:msIdentifier/tei:idno[@type='invNo']"/><br/>
-        <strong>Edizioni del documento</strong>: <xsl:for-each select="//tei:bibl[ancestor::tei:listBibl]"><xsl:apply-templates select="."/><xsl:if test="position()!=last()"><xsl:text>; </xsl:text></xsl:if><xsl:if test="position()=last()"><xsl:text>.</xsl:text></xsl:if></xsl:for-each><br/>
-        <strong>Tipologia di documento</strong>: <xsl:apply-templates select="//tei:summary/tei:term[@type='textType']"/><br/> <!-- *** -->
-        <strong>Provenienza</strong>: <xsl:apply-templates select="//tei:origPlace"/><br/>
-        <strong>Data</strong>: <xsl:apply-templates select="//tei:origDate"/></p>
-    </div>
-    <div>
-      <p><strong>Luoghi</strong>: <xsl:for-each select="//tei:placeName[ancestor::tei:listPlace]"><xsl:apply-templates select="."/><xsl:if test="position()!=last()"><xsl:text>; </xsl:text></xsl:if><xsl:if test="position()=last()"><xsl:text>.</xsl:text></xsl:if></xsl:for-each><br/>
-        <strong>Persone</strong>: <xsl:for-each select="//tei:persName[ancestor::tei:listPerson]"><xsl:apply-templates select="."/><xsl:if test="position()!=last()"><xsl:text>; </xsl:text></xsl:if><xsl:if test="position()=last()"><xsl:text>.</xsl:text></xsl:if></xsl:for-each><br/>
-      <strong>Istituzioni/Enti</strong>: <xsl:for-each select="//tei:orgName[ancestor::tei:listOrg]"><xsl:apply-templates select="."/><xsl:if test="position()!=last()"><xsl:text>; </xsl:text></xsl:if><xsl:if test="position()=last()"><xsl:text>.</xsl:text></xsl:if></xsl:for-each></p>
-    </div>
-    
-    <xsl:if test="//tei:summary/tei:p/text()">
-      <div>
-        <h3>Regesto</h3>
-        <xsl:apply-templates select="//tei:summary/tei:p"/>
-      </div>
+  <xsl:template match="tei:author">
+    <xsl:if test="not(preceding-sibling::tei:author)">
+      <p>
+        <strong>
+          <xsl:text>Author</xsl:text>
+          <xsl:if test="following-sibling::tei:author">
+            <xsl:text>s</xsl:text>
+          </xsl:if>
+          <xsl:text>:</xsl:text>
+        </strong>
+        <xsl:text> </xsl:text>
+        <xsl:apply-templates />
+        <xsl:for-each select="following-sibling::tei:author">
+          <xsl:text>; </xsl:text>
+          <xsl:apply-templates />
+        </xsl:for-each>
+      </p>
     </xsl:if>
   </xsl:template>
-  
-  <xsl:template match="tei:foreign">
-    <i><xsl:apply-templates /></i>
+
+  <xsl:template match="tei:bibl">
+    <xsl:value-of select="." />
   </xsl:template>
 
   <xsl:template match="tei:change">
     <li>
       <xsl:apply-templates select="@when" />
+      <!-- A tei:change may contain so much markup that it is best to
+           use the base templates to render it. -->
       <xsl:apply-templates />
       <xsl:apply-templates select="@who" />
     </li>
   </xsl:template>
-  
+
+  <xsl:template match="tei:publicationStmt/tei:date">
+    <p>
+      <strong>Publication date: </strong>
+      <xsl:text> </xsl:text>
+      <xsl:value-of select="." />
+    </p>
+  </xsl:template>
+
+  <xsl:template match="tei:encodingDesc">
+    <section>
+      <h2 class="title" data-section-title="">
+        <small><a href="#">Encoding description</a></small>
+      </h2>
+      <div class="content" data-section-content="">
+        <xsl:apply-templates />
+      </div>
+    </section>
+  </xsl:template>
+
+  <xsl:template match="tei:extent">
+    <p>
+      <strong>Extent:</strong>
+      <xsl:text> </xsl:text>
+      <xsl:value-of select="normalize-space(.)" />
+    </p>
+  </xsl:template>
+
+  <xsl:template match="tei:fileDesc">
+    <section>
+      <h2 class="title" data-section-title="">
+        <small><a href="#">Digital document details</a></small>
+      </h2>
+      <div class="content" data-section-content="">
+        <xsl:apply-templates select="tei:*[not(local-name()='sourceDesc')]" />
+      </div>
+    </section>
+    <xsl:apply-templates select="tei:sourceDesc" />
+  </xsl:template>
+
+  <xsl:template match="tei:funder">
+    <p>
+      <strong>Funder: </strong>
+      <xsl:text> </xsl:text>
+      <xsl:apply-templates />
+    </p>
+  </xsl:template>
+
+  <xsl:template match="tei:msDesc">
+    <xsl:apply-templates select="tei:msIdentifier" />
+  </xsl:template>
+
+  <xsl:template match="tei:profileDesc" />
+
+  <xsl:template match="tei:publisher">
+    <p>
+      <strong>Publisher:</strong>
+      <xsl:text> </xsl:text>
+      <xsl:apply-templates />
+    </p>
+  </xsl:template>
+
+  <xsl:template match="tei:pubPlace">
+    <p>
+      <strong>Place of publication:</strong>
+      <xsl:text> </xsl:text>
+      <xsl:apply-templates />
+    </p>
+  </xsl:template>
+
   <xsl:template match="tei:respStmt">
     <p>
       <strong>
@@ -72,6 +131,56 @@
         </ul>
       </div>
     </section>
+  </xsl:template>
+
+  <xsl:template match="tei:sourceDesc">
+    <section>
+      <h2 class="title" data-section-title="">
+        <small><a href="#">Source document details</a></small>
+      </h2>
+      <div class="content" data-section-content="">
+        <xsl:apply-templates />
+      </div>
+    </section>
+  </xsl:template>
+
+  <xsl:template match="tei:teiHeader">
+    <!-- Display metadata about this document, drawn from the TEI
+         header. -->
+    <div class="section-container accordion" data-section="accordion">
+      <xsl:apply-templates />
+      <section>
+        <h2 class="title" data-section-title="">
+          <small><a href="#">Other Formats</a></small>
+        </h2>
+        <div class="content" data-section-content="">
+          <ul class="no-bullet">
+            <li>
+              <a href="{../@xml:id}.xml">
+                <abbr title="Text Encoding for Interchange">TEI</abbr>
+                <xsl:text> source</xsl:text>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </div>
+  </xsl:template>
+
+  <xsl:template match="tei:seriesStmt/tei:title">
+    <p>
+      <strong>Series title:</strong>
+      <xsl:text> </xsl:text>
+      <xsl:apply-templates />
+    </p>
+  </xsl:template>
+
+  <xsl:template match="tei:titleStmt/tei:title">
+    <p>
+      <strong>Title:</strong>
+      <xsl:text> </xsl:text>
+      <xsl:apply-templates />
+    </p>
   </xsl:template>
 
   <xsl:template match="tei:change/@when">

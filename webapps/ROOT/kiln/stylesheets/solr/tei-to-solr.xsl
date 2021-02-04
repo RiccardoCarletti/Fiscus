@@ -34,16 +34,15 @@
         <xsl:call-template name="field_text" />
         <xsl:call-template name="field_lemmatised_text" />
         <!-- Facets. -->
-        <xsl:call-template name="field_found_provenance" />
+        <xsl:call-template name="field_mentioned_persons" />
         <xsl:call-template name="field_mentioned_people" />
         <xsl:call-template name="field_mentioned_places" />
-        <xsl:call-template name="field_tei_mentioned_people" />
-        <xsl:call-template name="field_tei_mentioned_places" />
-        <xsl:call-template name="field_origin_place" />
-        <xsl:call-template name="field_source_repository"/>
-        <xsl:call-template name="field_support_object_type" />
-        <xsl:call-template name="field_support_material" />
-        <xsl:call-template name="field_origin_date_evidence"/>
+        <xsl:call-template name="field_provenance" />
+        <xsl:call-template name="field_record_source"/>
+        <xsl:call-template name="field_fiscal_property" />
+        <xsl:call-template name="field_document_tradition" />
+        <xsl:call-template name="field_mentioned_juridical_persons"/>
+        <xsl:call-template name="field_topical_date"/>
         <xsl:call-template name="extra_fields" />
       </doc>
     </xsl:if>
@@ -158,84 +157,66 @@
     </doc>
   </xsl:template>
 
-  <xsl:template match="tei:repository[@ref]" mode="facet_source_repository">
-    <field name="source_repository">
-      <xsl:value-of select="@ref"/>
+  <xsl:template match="tei:summary/tei:rs[@type='record_source']" mode="facet_record_source">
+    <field name="record_source">
+      <xsl:value-of select="."/>
     </field>
   </xsl:template>
 
-  <xsl:template match="tei:material[@ref]" mode="facet_support_material">
-    <field name="support_material">
-      <xsl:value-of select="@ref" />
+  <xsl:template match="tei:msContents/tei:summary/tei:rs[@type='document_tradition']" mode="facet_document_tradition">
+    <field name="document_tradition">
+      <xsl:value-of select="." />
     </field>
   </xsl:template>
 
-  <xsl:template match="tei:origPlace[@ref]" mode="facet_origin_place">
+  <xsl:template match="tei:origPlace[@ref]" mode="facet_provenance">
     <!-- This does nothing to prevent duplicate instances of the same
          @ref value being recorded. -->
-    <field name="origin_place">
-      <xsl:value-of select="@ref" />
+    <field name="provenance">
+      <xsl:value-of select="." />
     </field>
   </xsl:template>
   
-  <xsl:template match="tei:origDate[@evidence]" mode="facet_origin_date_evidence">
-    <xsl:for-each select="tokenize(@evidence, '\s+')">
-      <field name="origin_date_evidence">
+  <xsl:template match="tei:orgName" mode="facet_mentioned_juridical_persons">
+      <field name="mentioned_juridical_persons">
         <xsl:value-of select="." />
       </field>
-    </xsl:for-each>
   </xsl:template>
-
-  <xsl:template match="tei:objectType[@ref]" mode="facet_support_object_type">
-    <field name="support_object_type">
-      <xsl:value-of select="@ref" />
+  
+  <xsl:template match="tei:origDate/@corresp" mode="facet_topical_date">
+    <field name="topical_date">
+      <xsl:value-of select="." />
     </field>
   </xsl:template>
 
-  <xsl:template match="tei:persName[@ref]" mode="facet_mentioned_people">
+  <xsl:template match="tei:msContents/tei:summary/tei:rs[@type='fiscal_property']" mode="facet_fiscal_property">
+    <field name="fiscal_property">
+      <xsl:choose>
+        <xsl:when test="contains(lower-case(.), 'yes')"><xsl:text>Yes</xsl:text></xsl:when>
+        <xsl:otherwise><xsl:text>No or uncertain</xsl:text></xsl:otherwise>
+      </xsl:choose>
+    </field>
+  </xsl:template>
+
+  <xsl:template match="tei:persName" mode="facet_mentioned_persons">
+    <field name="mentioned_persons">
+      <xsl:value-of select="." />
+    </field>
+  </xsl:template>
+
+  <xsl:template match="tei:persName" mode="facet_mentioned_people">
     <field name="mentioned_people">
-      <xsl:value-of select="@ref" />
+      <xsl:value-of select="." />
     </field>
   </xsl:template>
 
-  <xsl:template match="text()" mode="facet_mentioned_people" />
-
-  <xsl:template match="tei:placeName[@ref]" mode="facet_found_provenance">
-    <field name="found_provenance">
-      <xsl:value-of select="@ref" />
-    </field>
-  </xsl:template>
-
-  <xsl:template match="tei:placeName[@ref] | tei:geogName[@ref]" mode="facet_mentioned_places">
+  <xsl:template match="tei:placeName" mode="facet_mentioned_places">
     <field name="mentioned_places">
-      <xsl:value-of select="@ref" />
+      <xsl:value-of select="." />
     </field>
   </xsl:template>
 
   <xsl:template match="text()" mode="facet_mentioned_places" />
-  
-  <xsl:template match="tei:persName" mode="facet_tei_mentioned_people">
-    <field name="tei_mentioned_people">
-      <xsl:variable name="pers-id" select="tokenize(replace(@ref,'#',''),' ')"/>
-      <xsl:variable name="person-id" select="document('../../../content/xml/authority/listPerson.xml')//tei:person[@xml:id=$pers-id]/tei:persName"/>
-      <xsl:choose>
-        <xsl:when test="$person-id[descendant::tei:forename]"><xsl:value-of select="$person-id/tei:surname"/><xsl:text> </xsl:text><xsl:value-of select="$person-id/tei:forename"/></xsl:when>
-        <xsl:when test="$person-id[not(descendant::tei:forename)]"><xsl:value-of select="$person-id"/></xsl:when>
-        <xsl:otherwise><xsl:value-of select="."/></xsl:otherwise>
-      </xsl:choose>
-    </field>
-  </xsl:template>
-  
-  <xsl:template match="tei:placeName" mode="facet_tei_mentioned_places">
-    <field name="tei_mentioned_places">
-      <xsl:variable name="pl-id" select="substring-after(@ref,'#')"/>
-      <xsl:variable name="place-id" select="document('../../../content/xml/authority/listPlace.xml')//tei:place[@xml:id=$pl-id]/tei:placeName"/>
-      <xsl:choose>
-        <xsl:when test="$place-id"><xsl:value-of select="$place-id"/></xsl:when>
-        <xsl:otherwise><xsl:value-of select="."/></xsl:otherwise>
-      </xsl:choose>
-    </field>
-  </xsl:template>
 
   <xsl:template name="field_document_id">
     <field name="document_id">
@@ -263,8 +244,8 @@
     </field>
   </xsl:template>
 
-  <xsl:template name="field_found_provenance">
-    <xsl:apply-templates mode="facet_found_provenance" select="//tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:provenance[@type='found']" />
+  <xsl:template name="field_mentioned_persons">
+    <xsl:apply-templates mode="facet_mentioned_persons" select="//tei:text/tei:body/tei:div[@type='edition']" />
   </xsl:template>
 
   <xsl:template name="field_lemmatised_text">
@@ -280,35 +261,30 @@
   <xsl:template name="field_mentioned_places">
     <xsl:apply-templates mode="facet_mentioned_places" select="//tei:text/tei:body/tei:div[@type='edition']" />
   </xsl:template>
-  
-  <xsl:template name="field_tei_mentioned_people">
-    <xsl:apply-templates mode="facet_tei_mentioned_people" select="//tei:text/tei:body/tei:div" />
-  </xsl:template>
-  
-  <xsl:template name="field_tei_mentioned_places">
-    <xsl:apply-templates mode="facet_tei_mentioned_places" select="//tei:text/tei:body/tei:div" />
+
+  <xsl:template name="field_provenance">
+    <xsl:apply-templates mode="facet_provenance" select="//tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:provenance//tei:placeName" />
   </xsl:template>
 
-  <xsl:template name="field_origin_place">
-    <xsl:apply-templates mode="facet_origin_place" select="//tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:origPlace[@ref]" />
+  <xsl:template name="field_record_source">
+    <xsl:apply-templates mode="facet_record_source" select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msContents/tei:summary/tei:rs[@type='record_source']"/>
   </xsl:template>
 
-  <xsl:template name="field_source_repository">
-    <xsl:apply-templates mode="facet_source_repository" select="//tei:teiHeader/tei:fileDesc/tei:sourceDesc//tei:repository[@ref]"/>
-  </xsl:template>
-
-  <xsl:template name="field_support_material">
-    <xsl:apply-templates mode="facet_support_material" select="//tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:support/tei:material[@ref]" />
+  <xsl:template name="field_document_tradition">
+    <xsl:apply-templates mode="facet_document_tradition" select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msContents/tei:summary/tei:rs[@type='document_tradition']" />
   </xsl:template>
   
-  <xsl:template name="field_origin_date_evidence">
-    <xsl:apply-templates mode="facet_origin_date_evidence" select="//tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:origDate[@evidence]"/>
-  </xsl:template>
-
-  <xsl:template name="field_support_object_type">
-    <xsl:apply-templates mode="facet_support_object_type" select="//tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:support/tei:objectType[@ref]" />
+  <xsl:template name="field_mentioned_juridical_persons">
+    <xsl:apply-templates mode="facet_mentioned_juridical_persons" select="//tei:text/tei:body/tei:div[@type='edition']//tei:orgName" />
   </xsl:template>
   
+  <xsl:template name="field_topical_date">
+    <xsl:apply-templates mode="facet_topical_date" select="/tei:TEI/tei:teiHeader//tei:origDate/@corresp"/>
+  </xsl:template>
+
+  <xsl:template name="field_fiscal_property">
+    <xsl:apply-templates mode="facet_fiscal_property" select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msContents/tei:summary/tei:rs[@type='fiscal_property']" />
+  </xsl:template>
 
   <xsl:template name="field_text">
     <field name="text">

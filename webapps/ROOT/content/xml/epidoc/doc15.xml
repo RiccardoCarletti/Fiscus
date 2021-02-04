@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc15">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Biblioteca Apostolica Vaticana, Vat. Lat. 3833, ff. 80r-80v</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2020">2020</date>
+                </edition>
+                <principal>
+                    <persName ref="#fiscus"/>
+                </principal>
+                <respStmt>
+                    <resp>Metadata</resp>
+                    <persName ref="#fiscus">Fiscus Team</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>TEI encoding</resp>
+                    <persName ref="#fiscus">Fiscus Team</persName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="uri">http://137.204.128.125/documents/doc15</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2020"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="https://ausohnum.huma-num.fr/concept/c26227">Papal concession (papyrus)</rs>
+                            <rs type="record_source" ref="https://ausohnum.huma-num.fr/concept/c26116">Original document</rs>
+                            <rs type="document_tradition" ref="https://ausohnum.huma-num.fr/concept/c26113">Copy</rs>
+                            <rs type="fiscal_property">yes</rs>
+                        </summary>
+                        <msItem xml:id="doc15-msItem1">
+                            <textLang mainLang="undefined" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0625-12-13" evidence="" corresp=""> 13 dicembre 625</origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance type="findspot">
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                </listPlace>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+            <listPerson type="peopleInDocument">
+            
+    <person corresp="http://137.204.128.125/people/68">
+            <persName xml:lang="en">Honorius I (625-638), papa</persName>
+        </person>
+    </listPerson>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change who="dinternullo" when="2020-12-30T04:54:12.846-08:00">Creation of this file</change>
+           <change when="2020-12-30T05:02:04.97-08:00" who="http://137.204.128.125/people/dinternullo"/>
+           <change when="2020-12-30T23:55:47.431-08:00" who="http://137.204.128.125/people/dinternullo"/>
+           <change when="2020-12-30T23:59:10.998-08:00" who="http://137.204.128.125/people/dinternullo"/>
+           <change when="2020-12-31T00:04:19.401-08:00" who="http://137.204.128.125/people/dinternullo"/>
+           <change when="2020-12-31T00:38:03.52-08:00" who="http://137.204.128.125/people/dinternullo"/>
+           <change when="2021-01-15T05:47:19.691-08:00" who="http://137.204.128.125/people/dinternullo"/>
+           <change when="2021-01-15T05:50:24.032-08:00" who="http://137.204.128.125/people/dinternullo"/>
+           <change when="2021-01-17T04:47:41.851-08:00" who="http://137.204.128.125/people/dinternullo"/>
+           <change when="2021-01-17T04:51:44.805-08:00" who="http://137.204.128.125/people/dinternullo"/>
+           <change when="2021-01-17T04:52:22.314-08:00" who="http://137.204.128.125/people/dinternullo"/>
+           <change when="2021-01-17T04:55:23.512-08:00" who="http://137.204.128.125/people/dinternullo"/>
+           <change when="2021-01-17T05:29:35.29-08:00" who="http://137.204.128.125/people/dinternullo"/>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>Ex registro Honorii pape.
+<persName key="popes" ref="http://137.204.128.125/people/68">Honorius</persName> <persName key="subdeacons" ref="">Gratioso</persName> <rs key="subdeacons">subdiacono</rs>.
+Ne cuiquam labor ac diligentia, quam in rebus aecclesiae adhibet, possit esse damnosa, ita disponendum est, ut illi suus labor sit utilis et detrimentum aecclesiasticae res non agnoscant. Proinde <rs key="fiscal property, popes, object, allocation to individuals" ref="">domum cum orto suo</rs> positam in hac urbe <placeName key="" ref="">Roma</placeName> iuxta <placeName key="" ref="">termas Diocletianas</placeName> regione quarta cum omnibus ad eam pertinentibus tibi in<rs key="allocation to individuals" ref=""> .XXVIIII. annorum spatia <rs key="rent in money" ref="">ad unum auri solidum persolvendum </rs>singulis quibusque annis rationibus aecclesiasticis pensionis nomine possidendam concedimus</rs>; nec te exinde eici vel augmentum pensionis illic constituimus imponendum. Ita sane, ut reparatio eiusdem domus in cunctis utilitatibus studere sicut diligens paterfamilias debeas. Post .XX. vero .VIIII. annorum curricula eadem domus cum orto suo ad ius Sanctae Romanae Aecclesiae, cuius est proprietas, sine dubio revertatur, nec aliquid ex his, quae in eius melioratione expensa fuerint, vel a te vel tuis heredibus sit repetendi licentia: quia rationis ordo non sinit, ut rei meliorationem expensam repetat, qui in eadem pensione augmentum non recepit. <date>Data idibus Decembris indictione .XIIII. anno domini ill</date>.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>Deusdedit, Collectio canonum, nr. 138, pp. 326-327</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p>https://digi.vatlib.it/view/MSS_Vat.lat.3833</p>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+           
+        </body>
+    </text>
+</TEI>

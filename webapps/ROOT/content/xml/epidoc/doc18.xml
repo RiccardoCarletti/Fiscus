@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc18">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Biblioteca Apostolica Vaticana, Vat. Lat. 3833, f. 80v</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+                <principal>
+                    <persName ref="#fiscus"/>
+                </principal>
+                <respStmt>
+                    <resp>Metadata</resp>
+                    <persName ref="#fiscus">Fiscus Team</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>TEI encoding</resp>
+                    <persName ref="#fiscus">Fiscus Team</persName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="uri">http://137.204.128.125/documents/doc18</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="https://ausohnum.huma-num.fr/concept/c26227">Papal concession (papyrus)</rs>
+                            <rs type="record_source" ref="https://ausohnum.huma-num.fr/concept/c26116">Original document</rs>
+                            <rs type="document_tradition" ref="https://ausohnum.huma-num.fr/concept/c26113">Copy</rs>
+                            <rs type="fiscal_property">yes</rs>
+                        </summary>
+                        <msItem xml:id="doc18-msItem1">
+                            <textLang mainLang="undefined" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0626-05-12" evidence="" corresp="">12 maggio 626</origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance type="findspot">
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                </listPlace>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+            <listPerson type="peopleInDocument">
+            
+    <person corresp="http://137.204.128.125/people/68">
+            <persName xml:lang="en">Honorius I (625-638), papa</persName>
+        </person>
+    </listPerson>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change who="fiscus" when="2021-01-14T02:49:33.151-08:00">Creation of this file</change>
+           <change when="2021-01-14T06:54:56.659-08:00" who="http://137.204.128.125/people/fiscus"/>
+           <change when="2021-01-17T05:03:14.771-08:00" who="http://137.204.128.125/people/dinternullo"/>
+           <change when="2021-01-17T05:04:54.759-08:00" who="http://137.204.128.125/people/dinternullo"/>
+           <change when="2021-01-17T05:07:01.706-08:00" who="http://137.204.128.125/people/dinternullo"/>
+           <change when="2021-01-17T05:30:02.785-08:00" who="http://137.204.128.125/people/dinternullo"/>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>
+                        <persName key="popes" ref="http://137.204.128.125/people/68">Honorius</persName> <persName key="notary" ref="">Servodei</persName> <rs key="notary">notario</rs>. 
+                        Quotiens a nobis illud petitur, quod rationi noscitur convenire, animo nos decet libenti concedere. Ideoque quia petisti a nobis, ut <rs key="casali">casale</rs>, quod appellatur <placeName key="casali, fiscal property, popes, objects, allocation to individuals, rent in money" ref="">Aurelianum</placeName>, in integro una cum vineis suis positum via Portuensi iuxta <orgName key="" ref="">Sanctos Abdon et Sennen</orgName>, prestantem auri solidos .II. semis iuris Sanctae Romanae cui Deo auctore deservimus Aecclesiae, tibi ad certum tempus debemus concedere. Eapropter huius precepti seriae emissa suprascriptum casale cum omnibus ad se pertinentibus tibi <rs key="allocation to individuals" ref="">presenti .XIIII. indictione diebus vitae tuae concedimus</rs>: ita sane, ut a <rs key="rent in money" ref="">te annis singulis pensionis nomine rationibus aecclesiasticis duo auri solidi et tremissis unus </rs>sine mora aliqua persolvantur, quatinus et tu aliquod exinde possis habere remedium et aecclesiae nostrae utilitas non decrescat. Post tuum vero obitum predictum casale ad ius Sanctae Ecclesiae nostrae, cuius est proprietas, revertatur sine dubio. <date>Dat. .IIII. idus Maii indictione .XIIII. anno domini ill</date>.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p>Deudesdit, Collectio Canonum, nr. 139, p. 327</p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p>https://digi.vatlib.it/view/MSS_Vat.lat.3833</p>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+           
+        </body>
+    </text>
+</TEI>
