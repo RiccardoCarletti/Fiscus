@@ -159,21 +159,42 @@
 
   <xsl:template match="tei:summary/tei:rs[@type='record_source']" mode="facet_record_source">
     <field name="record_source">
-      <xsl:value-of select="."/>
+      <xsl:choose>
+        <xsl:when test="text()">
+          <xsl:apply-templates select="."/>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:text>-</xsl:text>
+        </xsl:otherwise>
+      </xsl:choose>
     </field>
   </xsl:template>
 
   <xsl:template match="tei:msContents/tei:summary/tei:rs[@type='document_tradition']" mode="facet_document_tradition">
     <field name="document_tradition">
-      <xsl:value-of select="." />
+      <xsl:choose>
+        <xsl:when test="text()">
+          <xsl:apply-templates select="."/>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:text>-</xsl:text>
+        </xsl:otherwise>
+      </xsl:choose>
     </field>
   </xsl:template>
 
-  <xsl:template match="tei:origPlace[@ref]" mode="facet_provenance">
+  <xsl:template match="//tei:provenance[1]//tei:placeName" mode="facet_provenance">
     <!-- This does nothing to prevent duplicate instances of the same
          @ref value being recorded. -->
     <field name="provenance">
-      <xsl:value-of select="." />
+      <xsl:choose>
+        <xsl:when test="text()">
+          <xsl:apply-templates select="."/>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:text>-</xsl:text>
+        </xsl:otherwise>
+      </xsl:choose>
     </field>
   </xsl:template>
   
@@ -185,7 +206,14 @@
   
   <xsl:template match="tei:origDate/@corresp" mode="facet_topical_date">
     <field name="topical_date">
-      <xsl:value-of select="." />
+      <xsl:choose>
+        <xsl:when test=".!=''">
+          <xsl:apply-templates select="."/>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:text>-</xsl:text>
+        </xsl:otherwise>
+      </xsl:choose>
     </field>
   </xsl:template>
 
@@ -279,7 +307,7 @@
   </xsl:template>
   
   <xsl:template name="field_topical_date">
-    <xsl:apply-templates mode="facet_topical_date" select="/tei:TEI/tei:teiHeader//tei:origDate/@corresp"/>
+    <xsl:apply-templates mode="facet_topical_date" select="/tei:TEI/tei:teiHeader//tei:origDate"/>
   </xsl:template>
 
   <xsl:template name="field_fiscal_property">

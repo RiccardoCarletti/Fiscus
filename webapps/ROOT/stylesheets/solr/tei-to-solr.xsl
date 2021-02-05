@@ -24,7 +24,14 @@
   
   <xsl:template match="tei:summary/tei:rs[@type='text_type']" mode="facet_ancient_document_type">
     <field name="ancient_document_type">
-      <xsl:value-of select="."/>
+      <xsl:choose>
+        <xsl:when test="text()">
+          <xsl:apply-templates select="."/>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:text>-</xsl:text>
+        </xsl:otherwise>
+      </xsl:choose>
     </field>
   </xsl:template>
   
