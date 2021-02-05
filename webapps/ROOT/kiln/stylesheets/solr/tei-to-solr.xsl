@@ -307,7 +307,7 @@
   </xsl:template>
   
   <xsl:template name="field_topical_date">
-    <xsl:apply-templates mode="facet_topical_date" select="/tei:TEI/tei:teiHeader//tei:origDate"/>
+    <xsl:apply-templates mode="facet_topical_date" select="/tei:TEI/tei:teiHeader//tei:origDate/@corresp"/>
   </xsl:template>
 
   <xsl:template name="field_fiscal_property">

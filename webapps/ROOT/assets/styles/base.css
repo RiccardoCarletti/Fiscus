@@ -55,7 +55,14 @@ div#edition {
     padding-top: 20px;
 }
 
-b {
+b, strong {
+    color: #168059;
+}
+
+#team_members strong {
+    font-variant: small-caps;
+    font-size: 22px;
+    font-weight: 400;
     color: #168059;
 }
 

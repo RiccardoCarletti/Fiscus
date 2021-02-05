@@ -234,6 +234,17 @@
      </xsl:choose>
    </xsl:template>
   
+  <xsl:template match="t:div//t:ref[@corresp]">
+    <xsl:choose>
+      <xsl:when test="@type='fiscus'">
+        <a><xsl:attribute name="href"><xsl:value-of select="concat('./',@corresp,'.html')"/></xsl:attribute><xsl:attribute name="target"><xsl:value-of select="'_blank'"/></xsl:attribute><xsl:apply-templates/></a>
+      </xsl:when>
+      <xsl:otherwise>
+        <a><xsl:attribute name="href"><xsl:value-of select="@corresp"/></xsl:attribute><xsl:attribute name="target"><xsl:value-of select="'_blank'"/></xsl:attribute><xsl:apply-templates/></a>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+  
   <!--  old code for inscription numbers now in <idno type="ircyr2012">:
     <xsl:template name="fiscus-title">
      <xsl:choose>
