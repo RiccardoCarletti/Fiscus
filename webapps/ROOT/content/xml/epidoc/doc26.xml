@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc26">
     <teiHeader xml:lang="en">
         <fileDesc>
@@ -84,18 +85,13 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>Il <rs key="clerical concubinage">
-                            <rs key="priests">prete</rs>
-<persName key="priests" ref="">Tetbaldo</persName> figlio della <persName key="" ref="">fu
-Rodilinda detta Rozia</persName>
-                        </rs>, vende ai fratelli
+                    <ab>Il <rs key="clerical concubinage"><rs key="priests">prete</rs><persName key="priests" ref="">Tetbaldo</persName> figlio della <persName key="" ref="">fu 
+                        Rodilinda detta Rozia</persName></rs>, vende ai fratelli
 <persName key="" ref="">Erizio detto Venerando</persName> e
 <persName key="" ref="">Pietro</persName> del <persName key="" ref="">fu Pietro</persName> un
 appezzamento di terra, cum cassina super se abentes, posto in loco et
-finibus <placeName key="" ref="">Catiana</placeName> ubi dicitur <placeName key="curtes, queen, petiae, emperor/king, fiscal property, mention" ref="">
-                            <rs key="curtes">Curte</rs>
-<rs key="queen">Regine</rs>
-                        </placeName> quas mihi per cartule scripte
+finibus <placeName key="" ref="">Catiana</placeName> ubi dicitur <placeName key="curtes, queen, petiae, emperor/king, fiscal property, mention" ref=""><rs key="curtes">Curte</rs>
+<rs key="queen">Regine</rs></placeName> quas mihi per cartule scripte
 sunt manibus <persName key="notary" ref="">Heriberti</persName>
 <rs key="notary">notarii domni imperatoris</rs>
 <rs key="venditio">ex conparationem</rs> obvenit da
@@ -106,11 +102,8 @@ via publica, lato uno con <rs key="petiae">terra</rs> del <rs key="emperor/king"
 con tutte le sue dipendenze et cum exempler de suprascripte cartule, per il
 prezzo di 15 soldi d'argento. Chiede al notaio imperiale Eriberto la stesura
 della cartula. Actum in loco ubi dicitur <placeName key="" ref="">Bibbia</placeName> prope
-<rs key="castle">castello</rs> et <orgName key="churches" ref="">
-                            <rs key="churches">eclesia</rs>
-<placeName key="castle, churches" ref="">Sancte Marie ubi dicitur ad
-Monte</placeName>
-                        </orgName>. Testimoni sottoscrittori:
+<rs key="castle">castello</rs> et <orgName key="churches" ref=""><rs key="churches">eclesia</rs><placeName key="castle, churches" ref="">Sancte Marie ubi dicitur ad
+Monte</placeName></orgName>. Testimoni sottoscrittori:
 <persName key="" ref="">Rozio</persName> del <persName key="" ref="">fu Rozio detto
 Omicio</persName>, <persName key="" ref="">Ildebrando</persName> del <persName key="" ref="">fu
 Rodolfo</persName>, <persName key="" ref="">Rodolfo</persName> del <persName key="" ref="">fu

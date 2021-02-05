@@ -9,118 +9,120 @@
    <!-- Called from htm-tpl-structure.xsl -->
 
    <xsl:template name="fiscus-body-structure">
-     <p><b><i18n:text i18n:key="epidoc-xslt-fiscus-description">Description</i18n:text>: </b>
-     <xsl:choose>
-       <xsl:when test="//t:support/t:p/text()">
-         <xsl:apply-templates select="//t:support/t:p" mode="fiscus-dimensions"/>
-       </xsl:when>
-       <xsl:when test="//t:support//text()">
-         <xsl:apply-templates select="//t:support" mode="fiscus-dimensions"/>
-       </xsl:when>
-       <xsl:otherwise><i18n:text i18n:key="epidoc-xslt-fiscus-unknown">Unknown</i18n:text></xsl:otherwise>
-     </xsl:choose>
-
-     <br />
-     <b><i18n:text i18n:key="epidoc-xslt-fiscus-text">Text</i18n:text>: </b>
-     <xsl:choose>
-       <xsl:when test="//t:layoutDesc/t:layout//text()">
-         <xsl:value-of select="//t:layoutDesc/t:layout"/>
-       </xsl:when>
-       <xsl:otherwise><i18n:text i18n:key="epidoc-xslt-fiscus-unknown">Unknown</i18n:text>.</xsl:otherwise>
-     </xsl:choose>
-     <br />
-     <b><i18n:text i18n:key="epidoc-xslt-fiscus-letters">Letters</i18n:text>: </b>
-     <xsl:if test="//t:handDesc/t:handNote/text()">
-       <xsl:value-of select="//t:handDesc/t:handNote"/>
-     </xsl:if>
+     <p>
+       <b>Document number: </b> <xsl:value-of select="substring-after(//t:TEI/@xml:id, 'doc')"/>
+       <br/><b>Author(s): </b> <xsl:choose>
+         <xsl:when test="contains(//t:change[1]/@who, 'admin')"><xsl:text>Admin Fiscus</xsl:text></xsl:when>
+         <xsl:when test="contains(//t:change[1]/@who, 'fiscus')"><xsl:text>Admin Fiscus</xsl:text></xsl:when>
+         <xsl:when test="contains(//t:change[1]/@who, 'csalvaterra')"><xsl:text>Carla Salvaterra</xsl:text></xsl:when>
+         <xsl:when test="contains(//t:change[1]/@who, 'tlazzari')"><xsl:text>Tiziana Lazzari</xsl:text></xsl:when>
+         <xsl:when test="contains(//t:change[1]/@who, 'ltabarrini')"><xsl:text>Lorenzo Tabarrini</xsl:text></xsl:when>
+         <xsl:when test="contains(//t:change[1]/@who, 'gvignodelli')"><xsl:text>Giacomo Vignodelli</xsl:text></xsl:when>
+         <xsl:when test="contains(//t:change[1]/@who, 'smcollavini')"><xsl:text>Simone Maria Collavini</xsl:text></xsl:when>
+         <xsl:when test="contains(//t:change[1]/@who, 'ptomei')"><xsl:text>Paolo Tomei</xsl:text></xsl:when>
+         <xsl:when test="contains(//t:change[1]/@who, 'dinternullo')"><xsl:text>Dario Internullo</xsl:text></xsl:when>
+         <xsl:when test="contains(//t:change[1]/@who, 'vlore')"><xsl:text>Vito Loré</xsl:text></xsl:when>
+         <xsl:when test="contains(//t:change[1]/@who, 'cciccopiedi')"><xsl:text>Caterina Ciccopiedi</xsl:text></xsl:when>
+         <xsl:when test="contains(//t:change[1]/@who, 'emanarini')"><xsl:text>Edoardo Manarini</xsl:text></xsl:when>
+         <xsl:when test="contains(//t:change[1]/@who, 'mvvallerani')"><xsl:text>Massimo Valerio Vallerani</xsl:text></xsl:when>
+         <xsl:when test="contains(//t:change[1]/@who, 'ecinello')"><xsl:text>Erika Cinello</xsl:text></xsl:when>
+         <xsl:when test="contains(//t:change[1]/@who, 'atagliente')"><xsl:text>Antonio Tagliente</xsl:text></xsl:when>
+         <xsl:when test="contains(//t:change[1]/@who, 'gzornetta')"><xsl:text>Giulia Zornetta</xsl:text></xsl:when>
+         <xsl:when test="contains(//t:change[1]/@who, 'adimuro')"><xsl:text>Alessandro Di Muro</xsl:text></xsl:when>
+         <xsl:when test="contains(//t:change[1]/@who, 'vriveramagos')"><xsl:text>Victor Rivera Magos</xsl:text></xsl:when>
+         <xsl:when test="contains(//t:change[1]/@who, 'lmotta')"><xsl:text>Loris Motta</xsl:text></xsl:when>
+         <xsl:when test="contains(//t:change[1]/@who, 'fdefalco')"><xsl:text>Fabrizio De Falco</xsl:text></xsl:when>
+         <!--<xsl:when test="contains(//t:change[1]/@who, 'people/')"><xsl:value-of select="substring-after(//t:change[1]/@who, 'people/')"/></xsl:when>-->
+         <xsl:otherwise>
+           <xsl:value-of select="//t:change[1]/@who"/>
+         </xsl:otherwise>
+       </xsl:choose>
+       <xsl:text> (file creation on </xsl:text><xsl:value-of select="substring-before(//t:change[1]/@when, 'T')"/><xsl:text>); </xsl:text>
+       <xsl:choose>
+         <xsl:when test="contains(//t:change[last()]/@who, 'admin')"><xsl:text>Admin Fiscus</xsl:text></xsl:when>
+         <xsl:when test="contains(//t:change[last()]/@who, 'fiscus')"><xsl:text>Admin Fiscus</xsl:text></xsl:when>
+         <xsl:when test="contains(//t:change[last()]/@who, 'csalvaterra')"><xsl:text>Carla Salvaterra</xsl:text></xsl:when>
+         <xsl:when test="contains(//t:change[last()]/@who, 'tlazzari')"><xsl:text>Tiziana Lazzari</xsl:text></xsl:when>
+         <xsl:when test="contains(//t:change[last()]/@who, 'ltabarrini')"><xsl:text>Lorenzo Tabarrini</xsl:text></xsl:when>
+         <xsl:when test="contains(//t:change[last()]/@who, 'gvignodelli')"><xsl:text>Giacomo Vignodelli</xsl:text></xsl:when>
+         <xsl:when test="contains(//t:change[last()]/@who, 'smcollavini')"><xsl:text>Simone Maria Collavini</xsl:text></xsl:when>
+         <xsl:when test="contains(//t:change[last()]/@who, 'ptomei')"><xsl:text>Paolo Tomei</xsl:text></xsl:when>
+         <xsl:when test="contains(//t:change[last()]/@who, 'dinternullo')"><xsl:text>Dario Internullo</xsl:text></xsl:when>
+         <xsl:when test="contains(//t:change[last()]/@who, 'vlore')"><xsl:text>Vito Loré</xsl:text></xsl:when>
+         <xsl:when test="contains(//t:change[last()]/@who, 'cciccopiedi')"><xsl:text>Caterina Ciccopiedi</xsl:text></xsl:when>
+         <xsl:when test="contains(//t:change[last()]/@who, 'emanarini')"><xsl:text>Edoardo Manarini</xsl:text></xsl:when>
+         <xsl:when test="contains(//t:change[last()]/@who, 'mvvallerani')"><xsl:text>Massimo Valerio Vallerani</xsl:text></xsl:when>
+         <xsl:when test="contains(//t:change[last()]/@who, 'ecinello')"><xsl:text>Erika Cinello</xsl:text></xsl:when>
+         <xsl:when test="contains(//t:change[last()]/@who, 'atagliente')"><xsl:text>Antonio Tagliente</xsl:text></xsl:when>
+         <xsl:when test="contains(//t:change[last()]/@who, 'gzornetta')"><xsl:text>Giulia Zornetta</xsl:text></xsl:when>
+         <xsl:when test="contains(//t:change[last()]/@who, 'adimuro')"><xsl:text>Alessandro Di Muro</xsl:text></xsl:when>
+         <xsl:when test="contains(//t:change[last()]/@who, 'vriveramagos')"><xsl:text>Victor Rivera Magos</xsl:text></xsl:when>
+         <xsl:when test="contains(//t:change[last()]/@who, 'lmotta')"><xsl:text>Loris Motta</xsl:text></xsl:when>
+         <xsl:when test="contains(//t:change[last()]/@who, 'fdefalco')"><xsl:text>Fabrizio De Falco</xsl:text></xsl:when>
+         <!--<xsl:when test="contains(//t:change[last()]/@who, 'people/')"><xsl:value-of select="substring-after(//t:change[last()]/@who, 'people/')"/></xsl:when>-->
+         <xsl:otherwise><xsl:value-of select="//t:change[last()]/@who"/></xsl:otherwise>
+       </xsl:choose>
+       <xsl:text> (last change on </xsl:text><xsl:value-of select="substring-before(//t:change[last()]/@when, 'T')"/><xsl:text>)</xsl:text>
+       <!--<xsl:for-each select="//t:change">
+         <xsl:choose>
+           <xsl:when test="contains(@who, 'people/')">
+             <xsl:value-of select="substring-after(@who, 'people/')"/>
+           </xsl:when>
+           <xsl:otherwise>
+             <xsl:value-of select="@who"/>
+           </xsl:otherwise>
+         </xsl:choose>
+         <xsl:text> (</xsl:text><xsl:value-of select="substring-before(@when, 'T')"/><xsl:text>). </xsl:text>
+       </xsl:for-each>-->
+       <br/><b>Record source: </b> <xsl:apply-templates select="//t:summary/t:rs[@type='record_source']"/>
+       <br/><b>Document type: </b> <xsl:apply-templates select="//t:summary/t:rs[@type='text_type']"/>
+       <br/><b>Document tradition: </b> <xsl:apply-templates select="//t:summary/t:rs[@type='document_tradition']"/>
+       <br/><b>Fiscal property: </b> <xsl:apply-templates select="//t:summary/t:rs[@type='fiscal_property']"/>
+       <br/><b>Provenance: </b> <xsl:apply-templates select="//t:provenance[1]//t:placeName"/>
      </p>
-
-     <p><b><i18n:text i18n:key="epidoc-xslt-fiscus-date">Date</i18n:text>: </b>
-     <xsl:choose>
-       <xsl:when test="//t:origin/t:origDate/text()">
-         <xsl:value-of select="//t:origin/t:origDate"/>
-         <xsl:if test="//t:origin/t:origDate[@type='evidence']">
-           <xsl:text>(</xsl:text>
-           <xsl:for-each select="tokenize(//t:origin/t:origDate[@evidence],' ')">
-             <xsl:value-of select="translate(.,'-',' ')"/>
-             <xsl:if test="position()!=last()">
-               <xsl:text>, </xsl:text>
-             </xsl:if>
-           </xsl:for-each>
-           <xsl:text>)</xsl:text>
-         </xsl:if>
-       </xsl:when>
-       <xsl:otherwise><i18n:text i18n:key="epidoc-xslt-fiscus-unknown">Unknown</i18n:text>.</xsl:otherwise>
-     </xsl:choose>
-     </p>
-
-     <p><b><i18n:text i18n:key="epidoc-xslt-fiscus-findspot">Findspot</i18n:text>: </b>
-     <xsl:choose>
-       <xsl:when test="//t:provenance[@type='found'][string(translate(normalize-space(.),' ',''))]">
-         <xsl:apply-templates select="//t:provenance[@type='found']" mode="fiscus-placename"/>
-       </xsl:when>
-       <xsl:otherwise><i18n:text i18n:key="epidoc-xslt-fiscus-unknown">Unknown</i18n:text></xsl:otherwise>
-     </xsl:choose>
-     <br/>
-     <b><i18n:text i18n:key="epidoc-xslt-fiscus-original-location">Original location</i18n:text>: </b>
-     <xsl:choose>
-       <xsl:when test="//t:origin/t:origPlace/text()">
-         <xsl:apply-templates select="//t:origin/t:origPlace" mode="fiscus-placename"/>
-       </xsl:when>
-       <xsl:otherwise><i18n:text i18n:key="epidoc-xslt-fiscus-unknown">Unknown</i18n:text></xsl:otherwise>
-     </xsl:choose>
-     <br/>
-     <b><i18n:text i18n:key="epidoc-xslt-fiscus-last-recorded-location">Last recorded location</i18n:text>: </b>
-     <xsl:choose>
-       <xsl:when test="//t:provenance[@type='observed'][string(translate(normalize-space(.),' ',''))]">
-         <xsl:apply-templates select="//t:provenance[@type='observed']" mode="fiscus-placename"/>
-         <!-- Named template found below. -->
-         <xsl:call-template name="fiscus-invno"/> 
-       </xsl:when>
-       <xsl:when test="//t:msIdentifier//t:repository[string(translate(normalize-space(.),' ',''))]">
-         <xsl:value-of select="//t:msIdentifier//t:repository[1]"/>
-         <!-- Named template found below. -->
-         <xsl:call-template name="fiscus-invno"/>
-       </xsl:when>
-       <xsl:otherwise><i18n:text i18n:key="epidoc-xslt-fiscus-unknown">Unknown</i18n:text></xsl:otherwise>
-     </xsl:choose>
+     <p>
+       <b>Date: </b> <xsl:apply-templates select="//t:origin/t:origDate"/>
+       <br/><b>Topical date: </b> <xsl:apply-templates select="//t:origin/t:origDate/@corresp"/>
+       <br/><b>Dating elements: </b> <xsl:apply-templates select="//t:origin/t:origDate/@evidence"/>
      </p>
      
          <div class="content" id="edition" data-section-content="data-section-content">
-           <!-- Edited text output -->
            <xsl:variable name="edtxt">
              <xsl:apply-templates select="//t:div[@type='edition']">
                <xsl:with-param name="parm-edition-type" select="'interpretive'" tunnel="yes"/>
              </xsl:apply-templates>
            </xsl:variable>
-           <!-- Moded templates found in htm-tpl-sqbrackets.xsl -->
            <xsl:apply-templates select="$edtxt" mode="sqbrackets"/>
          </div>
 
      <div id="apparatus">
-       <!-- Apparatus text output -->
        <xsl:variable name="apptxt">
          <xsl:apply-templates select="//t:div[@type='apparatus']"/>
        </xsl:variable>
-       <!-- Moded templates found in htm-tpl-sqbrackets.xsl -->
        <xsl:apply-templates select="$apptxt" mode="sqbrackets"/>
      </div>
      
+     <div id="bibliography">
+     <p><b><i18n:text i18n:key="epidoc-xslt-fiscus-bibliography">Editions and document summaries</i18n:text>: </b>
+       <xsl:apply-templates select="//t:div[@type='bibliography'][@subtype='editions']/t:p/node()"/> 
+     </p>
+     <p><b><i18n:text i18n:key="epidoc-xslt-fiscus-bibliography">Bibliography</i18n:text>: </b>
+       <xsl:apply-templates select="//t:div[@type='bibliography'][@subtype='additional']/t:p/node()"/> 
+     </p>
+       <p><b><i18n:text i18n:key="epidoc-xslt-fiscus-bibliography">Links</i18n:text>: </b>
+         <xsl:apply-templates select="//t:div[@type='bibliography'][@subtype='links']/t:p/node()"/> 
+       </p>
+     </div>
+     
      <div id="commentary">
-       <p><b><i18n:text i18n:key="epidoc-xslt-fiscus-commentary">Commentary</i18n:text></b>: </p>
-       <!-- Commentary text output -->
+       <p><b><i18n:text i18n:key="epidoc-xslt-fiscus-commentary">Commentary</i18n:text></b></p>
        <xsl:variable name="commtxt">
          <xsl:apply-templates select="//t:div[@type='commentary']//t:p"/>
        </xsl:variable>
-       <!-- Moded templates found in htm-tpl-sqbrackets.xsl -->
        <xsl:apply-templates select="$commtxt" mode="sqbrackets"/>
      </div>
-
-     <p><b><i18n:text i18n:key="epidoc-xslt-fiscus-bibliography">Bibliography</i18n:text>: </b>
-     <xsl:apply-templates select="//t:div[@type='bibliography']/t:p/node()"/> 
-     </p>
      
-     <div id="images">
+     <!--<div id="images">
        <p><b>Images: </b></p>
        <xsl:choose>
          <xsl:when test="//t:facsimile//t:graphic">
@@ -135,7 +137,7 @@
            </xsl:for-each>
          </xsl:otherwise>
        </xsl:choose>
-     </div>
+     </div>-->
    </xsl:template>
 
    <xsl:template name="fiscus-structure">

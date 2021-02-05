@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc18">
     <teiHeader xml:lang="en">
         <fileDesc>
@@ -51,7 +52,7 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate when="0626-05-12" evidence="" corresp="">12 maggio 626</origDate>
+                            <origDate when="0626-05-12" evidence="">12 maggio 626</origDate>
                             <origPlace/>
                         </origin>
                         <provenance type="findspot">

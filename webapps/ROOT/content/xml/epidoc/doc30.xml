@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc30">
     <teiHeader xml:lang="en">
         <fileDesc>
@@ -111,8 +112,8 @@ nostro nomine <persName key="fidelis of" ref="http://137.204.128.125/people/74">
 reverentissimi presulis <persName key="bishops" ref="http://137.204.128.125/people/73">Dagiberti</persName>
 <rs key="bishops">episcopi</rs> quoddam <rs key="mansi">mansum</rs> in <rs key="vici">villa</rs>
 <placeName key="fiscal property, object, redistributive, iure proprietatis/pleno iure, mansum, vici" ref="http://137.204.128.125/places/56">Evurio</placeName> situm actenus pertinentem de <rs key="comitatus">comitatu</rs>
-<placeName key="comitatus" ref="http://137.204.128.125/places/54">Oxilense</placeName>, de <geogName>
-                            <rs key="curtes" ref="http://137.204.128.125/people/75">corticella</rs> scilicet que nominatur <placeName key="curtes" ref="http://137.204.128.125/places/55">Beura</placeName>
+                        <placeName key="comitatus" ref="http://137.204.128.125/places/54">Oxilense</placeName>, de <geogName ref="http://137.204.128.125/people/75">
+                            <rs key="curtes">corticella</rs> scilicet que nominatur <placeName key="curtes" ref="http://137.204.128.125/places/55">Beura</placeName>
                         </geogName>, cum omnibus sibi
 pertinentibus vel aspicientibus per hoc nostre auctoritatis preceptum <rs key="iure proprietatis/pleno iure">iure proprietario</rs> concederemus.
 Cuius preces libentissime suscipientes, quod petiit pro amore Dei et mercede

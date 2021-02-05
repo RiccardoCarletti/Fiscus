@@ -15,22 +15,7 @@
   </teiHeader>
   <text>
     <body>
-      <div xml:id="prosopography">
-        <head>People</head>
-        <div type="headings">
-          <list>
-            <item>Name</item>
-            <item>Name (standardized)</item>
-            <item>Keys</item>
-            <item>References</item>
-          </list>
-        </div>
-        <!--<div type="notes">
-          <p>Square brackets [ ] indicate that the name/word is partially or completely restored in this inscription.</p>
-        </div>-->
-      </div>
-      
-      <div xml:id="mentioned_places">
+      <div xml:id="places">
         <head>Places</head>
         <div type="headings">
           <list>
@@ -41,22 +26,7 @@
           </list>
         </div>
         <!--<div type="notes">
-          <p>Square brackets [ ] indicate that the name/word is partially or completely restored in this inscription.</p>
-        </div>-->
-      </div>
-      
-      <div xml:id="juridical_persons">
-        <head>Juridical persons</head>
-        <div type="headings">
-          <list>
-            <item>Name</item>
-            <item>Name (standardized)</item>
-            <item>Keys</item>
-            <item>References</item>
-          </list>
-        </div>
-        <!--<div type="notes">
-          <p>Square brackets [ ] indicate that the name/word is partially or completely restored in this inscription.</p>
+          <p></p>
         </div>-->
       </div>
       
@@ -71,12 +41,12 @@
           </list>
         </div>
         <!--<div type="notes">
-          <p>Square brackets [ ] indicate that the name/word is partially or completely restored in this inscription.</p>
+          <p></p>
         </div> -->
       </div>
       
-      <div xml:id="thesaurus">
-        <head>Thesaurus items</head>
+      <div xml:id="prosopography">
+        <head>People</head>
         <div type="headings">
           <list>
             <item>Name</item>
@@ -86,7 +56,37 @@
           </list>
         </div>
         <!--<div type="notes">
-          <p>Square brackets [ ] indicate that the name/word is partially or completely restored in this inscription.</p>
+          <p></p>
+        </div>-->
+      </div>
+      
+      <div xml:id="juridical_persons">
+        <head>Juridical persons</head>
+        <div type="headings">
+          <list>
+            <item>Name</item>
+            <item>Name (standardized)</item>
+            <item>Keys</item>
+            <item>References</item>
+          </list>
+        </div>
+        <!--<div type="notes">
+          <p></p>
+        </div>-->
+      </div>
+      
+      <div xml:id="keywords">
+        <head>Keywords</head>
+        <div type="headings">
+          <list>
+            <item>Term</item>
+            <!--<item>Name (standardized)</item>-->
+            <item>Keys</item>
+            <item>References</item>
+          </list>
+        </div>
+        <!--<div type="notes">
+          <p></p>
         </div> -->
       </div>
     </body>

@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc22">
     <teiHeader xml:lang="en">
         <fileDesc>
@@ -114,7 +115,7 @@ Ecclesiae fid[elium nostrorumque presentium scilicet ac fu]turorum comperiat
 sollicitudo, quia <persName key="count, consiliarius regis" ref="http://137.204.128.125/people/57">Sigefredus</persName> 
 illustris <rs key="count">comes</rs> et fidelissimus <rs key="consiliarius regis"> 
 consiliarius </rs> noster per <persName key="bishop, Archchancellor" ref="http://137.204.128.125/people/58">Petrum</persName> venerabilem 
-<rs key="bishop">episcopum</rs> strennuum <rs key="Archchancellor">archicancellarium</rs> nostrum serenitatis nostrae
+<rs key="bishop">episcopum</rs> strennuum <rs key="archchancellor">archicancellarium</rs> nostrum serenitatis nostrae
 expetiit maiestatem, [quatinus cuidam fideli nostro nomine <persName ref="http://137.204.128.125/people/19">Vul]ferio</persName> ex <rs key="fiscal property">terra nostra regia</rs> tres sortes hactenus
 pertinentes de <rs key="comitatus">comitatu</rs>
 <placeName key="comitatus" ref="http://137.204.128.125/places/43">Piacentino</placeName> cum omnibus rebus ad
@@ -143,7 +144,7 @@ pertinentiis et adiacentiis earum, ter[ ri]s scilicet, campis, vineis,
 pratis, silvis, pascuis, aquis aquarumq[ue decursibus, servis,] ancillis,
 libellariis, montibus, vallib[us, cultis et] incultis omnia in [in]tegrum.
 Potestatem a nobis sibi concessam h[abeat i]pse suisque heredibus easdem
-sortes, sicut a <rs key="Other minor officer">publico exactore</rs> usque modo possideba[ntur, quiete
+sortes, sicut a <rs key="other minor officer">publico exactore</rs> usque modo possideba[ntur, quiete
 po]ssidere, heredibus dimittere, vendere, donare et modo quolibet voluerit
 mancipare absque alicuius molestia vel diminoratione, nullo eum aut suos
 heredes duce, comite, aut publica procuratore pro his sor[tibus imp]ediente

@@ -155,7 +155,7 @@
      multiValued="true" required="false" type="string" />
    <field name="person_name" stored="true" indexed="true"
      multiValued="true" required="false" type="string" />   
-   <field name="mentioned_thesaurus_items" stored="true" indexed="true"
+   <field name="mentioned_keywords" stored="true" indexed="true"
      multiValued="true" required="false" type="string" />
    <field indexed="true" multiValued="true" name="ancient_document_type"
      required="false" stored="true" type="string" />

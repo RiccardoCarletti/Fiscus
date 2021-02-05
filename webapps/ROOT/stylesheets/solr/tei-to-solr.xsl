@@ -28,9 +28,9 @@
     </field>
   </xsl:template>
   
-  <xsl:template match="tei:rs[@key]" mode="facet_mentioned_thesaurus_items">
+  <xsl:template match="tei:rs[@key]" mode="facet_mentioned_keywords">
     <xsl:for-each select="tokenize(@key, ',\s+')">
-      <field name="mentioned_thesaurus_items">
+      <field name="mentioned_keywords">
       <xsl:value-of select="."/>
     </field>
     </xsl:for-each>
@@ -54,7 +54,7 @@
   
   <xsl:template name="extra_fields">
     <xsl:call-template name="field_ancient_document_type"/>
-    <xsl:call-template name="field_mentioned_thesaurus_items"/>
+    <xsl:call-template name="field_mentioned_keywords"/>
     <xsl:call-template name="field_mentioned_estates"/>
     <xsl:call-template name="field_person_name"/>
   </xsl:template>
@@ -63,8 +63,8 @@
     <xsl:apply-templates mode="facet_ancient_document_type" select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msContents/tei:summary/tei:rs[@type='text_type']"/>
   </xsl:template>
   
-  <xsl:template name="field_mentioned_thesaurus_items">
-    <xsl:apply-templates mode="facet_mentioned_thesaurus_items" select="//tei:text/tei:body/tei:div[@type='edition']"/>
+  <xsl:template name="field_mentioned_keywords">
+    <xsl:apply-templates mode="facet_mentioned_keywords" select="//tei:text/tei:body/tei:div[@type='edition']"/>
   </xsl:template>
   
    <xsl:template name="field_mentioned_estates">
