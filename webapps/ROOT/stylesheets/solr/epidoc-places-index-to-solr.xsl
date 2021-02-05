@@ -17,7 +17,7 @@
     <add>
       <xsl:for-each-group select="//tei:placeName[ancestor::tei:div/@type='edition']" group-by="concat(., '-', @ref, '-', @key)">
         <xsl:variable name="pl-id" select="@ref"/>
-        <xsl:variable name="place-id" select="document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/xml/authority/places.xml'))//tei:place[descendant::tei:idno=$pl-id]/tei:placeName"/>
+        <xsl:variable name="place-id" select="document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/xml/authority/places.xml'))//tei:place[descendant::tei:idno=$pl-id]"/>
         <doc>
           <field name="document_type">
             <xsl:value-of select="$subdirectory" />
@@ -31,7 +31,9 @@
           </field>
           <field name="index_base_form">
             <xsl:choose>
-              <xsl:when test="$place-id"><xsl:value-of select="$place-id" /></xsl:when>
+              <xsl:when test="$place-id/tei:placeName"><xsl:value-of select="$place-id/tei:placeName[1]" /> 
+                <xsl:if test="$place-id/tei:placeName[2]"><xsl:text> [</xsl:text><xsl:value-of select="$place-id/tei:placeName[2]" /><xsl:text>]</xsl:text></xsl:if>
+              </xsl:when>
               <xsl:otherwise><xsl:value-of select="@ref" /></xsl:otherwise>
             </xsl:choose>
           </field>
