@@ -1,0 +1,2673 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:dct="http://purl.org/dc/terms/" xmlns:periodo="http://perio.do/#" xmlns:skosThesau="https://ausohnum.huma-num.fr/skosThesau/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:time="http://www.w3.org/2006/time#" xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Fiscus Thesaurus</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Ausonius Institute</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p></p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <list>
+    <skos:ConceptScheme xml:id="https://ausohnum.huma-num.fr/thesaurus/fiscus/">
+        <skos:hasTopConcept corresp="https://ausohnum.huma-num.fr/concept/c25660"/>
+    </skos:ConceptScheme>
+                
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25660">
+        <skos:prefLabel xml:lang="en">Fiscus</skos:prefLabel>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25661"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25697"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25714"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25917"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25982"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25987"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26002"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26028"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26115"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26120"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25661">
+        <skos:prefLabel xml:lang="en">Document features</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25660"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25662"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25691"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25694"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25696"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26237"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26111"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25662">
+        <skos:prefLabel xml:lang="en">Type of document</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25661"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25663"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25664"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25684"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25685"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25686"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25688"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25663">
+        <skos:prefLabel xml:lang="en">Archaeological sources</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25662"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25664">
+        <skos:prefLabel xml:lang="en">Parchment documents</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25662"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25665"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25669"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25670"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25679"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25683"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26227"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26220"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25665">
+        <skos:prefLabel xml:lang="en">Diploma</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25664"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25666"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25667"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25668"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25666">
+        <skos:prefLabel xml:lang="en">Imperial/royal diploma</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25665"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25667">
+        <skos:prefLabel xml:lang="en">Marquis’/ducal/princely diploma</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25665"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25668">
+        <skos:prefLabel xml:lang="en">Episcopal diploma</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25665"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25669">
+        <skos:prefLabel xml:lang="en">Placitum/iudicatum</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25664"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25670">
+        <skos:prefLabel xml:lang="en">Cartula</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25664"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25671"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25672"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25673"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25674"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25675"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25676"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25677"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25678"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25671">
+        <skos:prefLabel xml:lang="en">Venditio</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25670"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25672">
+        <skos:prefLabel xml:lang="en">Commutatio</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25670"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25673">
+        <skos:prefLabel xml:lang="en">Libellus/precaria/emphyteusis</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25670"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25674">
+        <skos:prefLabel xml:lang="en">Offersio/donatio</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25670"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25675">
+        <skos:prefLabel xml:lang="en">Promissio</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25670"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25676">
+        <skos:prefLabel xml:lang="en">Ordinatio</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25670"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25677">
+        <skos:prefLabel xml:lang="en">Testamentum/iudicatum</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25670"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25678">
+        <skos:prefLabel xml:lang="en">Morgengabe</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25670"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25679">
+        <skos:prefLabel xml:lang="en">Breve</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25664"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25680"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25681"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25682"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25680">
+        <skos:prefLabel xml:lang="en">List/inventory</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25679"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25681">
+        <skos:prefLabel xml:lang="en">Judicial breve</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25679"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25682">
+        <skos:prefLabel xml:lang="en">Transactional breve</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25679"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26220">
+        <skos:prefLabel xml:lang="en">Catalogus</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25664"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25683">
+        <skos:prefLabel xml:lang="en">Littera/mandatum</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25664"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26227">
+        <skos:prefLabel xml:lang="en">Papal concession</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25664"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25684">
+        <skos:prefLabel xml:lang="en">Epigraphic documents</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25662"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25685">
+        <skos:prefLabel xml:lang="en">Papyrological documents</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25662"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25686">
+        <skos:prefLabel xml:lang="en">Literary sources</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25662"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25687"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25687">
+        <skos:prefLabel xml:lang="en">Author</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25686"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25688">
+        <skos:prefLabel xml:lang="en">Juridical sources</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25662"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25689"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25690"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25689">
+        <skos:prefLabel xml:lang="en">Lex</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25688"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25690">
+        <skos:prefLabel xml:lang="en">Capitulum</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25688"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25691">
+        <skos:prefLabel xml:lang="en">Language</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25661"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25692"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25693"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25692">
+        <skos:prefLabel xml:lang="en">Latin</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25691"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25693">
+        <skos:prefLabel xml:lang="en">Greek</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25691"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25694">
+        <skos:prefLabel xml:lang="en">Writer</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25661"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25695"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25695">
+        <skos:prefLabel xml:lang="en">Copyist</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25694"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25696">
+        <skos:prefLabel xml:lang="en">Intercessory</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25661"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26111">
+        <skos:prefLabel xml:lang="en">Document tradition</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25661"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26112"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26113"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26114"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26112">
+        <skos:prefLabel xml:lang="en">Original</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26111"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26113">
+        <skos:prefLabel xml:lang="en">Copy</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26111"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26237">
+        <skos:prefLabel xml:lang="en">Compendium</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26111"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26114">
+        <skos:prefLabel xml:lang="en">Uncertain tradition</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26111"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25697">
+        <skos:prefLabel xml:lang="en">Geography</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25660"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25698"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25699"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25700"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25704"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25706"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25707"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25698">
+        <skos:prefLabel xml:lang="en">Geographic regions</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25697"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25699">
+        <skos:prefLabel xml:lang="en">Cities</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25697"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25700">
+        <skos:prefLabel xml:lang="en">Villages/settlements</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25697"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25701"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25702"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25701">
+        <skos:prefLabel xml:lang="en">Vici</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25700"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25702">
+        <skos:prefLabel xml:lang="en">Burgi</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25700"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25704">
+        <skos:prefLabel xml:lang="en">Areas</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25697"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25705"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25705">
+        <skos:prefLabel xml:lang="en">Fines</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25704"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25706">
+        <skos:prefLabel xml:lang="en">Modern places</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25697"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25707">
+        <skos:prefLabel xml:lang="en">Natural landscape</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25697"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25708"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25709"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25710"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25711"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25712"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25713"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25708">
+        <skos:prefLabel xml:lang="en">Rivers</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25707"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25709">
+        <skos:prefLabel xml:lang="en">Lakes</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25707"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25710">
+        <skos:prefLabel xml:lang="en">Marshes/lagoons/tombolos</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25707"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25711">
+        <skos:prefLabel xml:lang="en">Islands</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25707"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25712">
+        <skos:prefLabel xml:lang="en">Sea</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25707"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25713">
+        <skos:prefLabel xml:lang="en">Mountains</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25707"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25714">
+        <skos:prefLabel xml:lang="en">Economy</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25660"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25715"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25744"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25748"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25749"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25820"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25875"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25880"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25889"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25896"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25905"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25906"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25909"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25715">
+        <skos:prefLabel xml:lang="en">Production units</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25714"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25716"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25717"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25718"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25719"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25720"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25721"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25722"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25723"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25724"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25725"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25726"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25727"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26246"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25728"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25729"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25730"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25733"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25734"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25735"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25736"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25739"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25742"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25716">
+        <skos:prefLabel xml:lang="en">Villas</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25715"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25717">
+        <skos:prefLabel xml:lang="en">Curtes</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25715"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25718">
+        <skos:prefLabel xml:lang="en">Gai</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25715"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25719">
+        <skos:prefLabel xml:lang="en">Massae</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25715"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25720">
+        <skos:prefLabel xml:lang="en">Salae</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25715"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25721">
+        <skos:prefLabel xml:lang="en">Demesnes</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25715"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25723">
+        <skos:prefLabel xml:lang="en">Casali</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25715"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25724">
+        <skos:prefLabel xml:lang="en">Mansi</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25715"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25725">
+        <skos:prefLabel xml:lang="en">Casae/cassinae massaricie</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25715"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25726">
+        <skos:prefLabel xml:lang="en">Casalini/fundamenta</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25715"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25727">
+        <skos:prefLabel xml:lang="en">Petiae</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25715"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26246">
+        <skos:prefLabel xml:lang="en">Landed possessions</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25715"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25728">
+        <skos:prefLabel xml:lang="en">Mines</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25715"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25729">
+        <skos:prefLabel xml:lang="en">Quarries</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25715"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25730">
+        <skos:prefLabel xml:lang="en">Forests</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25715"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25731"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25732"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25731">
+        <skos:prefLabel xml:lang="en">Gualdi</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25730"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25732">
+        <skos:prefLabel xml:lang="en">Cafagia</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25730"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25733">
+        <skos:prefLabel xml:lang="en">Fisheries</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25715"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25734">
+        <skos:prefLabel xml:lang="en">Saltworks</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25715"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25735">
+        <skos:prefLabel xml:lang="en">Other basins</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25715"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25736">
+        <skos:prefLabel xml:lang="en">Processing units</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25715"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25737"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25738"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25737">
+        <skos:prefLabel xml:lang="en">Mills</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25736"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25738">
+        <skos:prefLabel xml:lang="en">Kilns</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25736"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25739">
+        <skos:prefLabel xml:lang="en">Storage units</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25715"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25740"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25741"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25740">
+        <skos:prefLabel xml:lang="en">Granaries</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25739"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25741">
+        <skos:prefLabel xml:lang="en">Barns</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25739"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25742">
+        <skos:prefLabel xml:lang="en">Workshops</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25715"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25743"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25743">
+        <skos:prefLabel xml:lang="en">Gynaecea</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25742"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25744">
+        <skos:prefLabel xml:lang="en">Value</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25714"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25745"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25746"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25747"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25745">
+        <skos:prefLabel xml:lang="en">Price</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25744"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25746">
+        <skos:prefLabel xml:lang="en">Meritum/launechild</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25744"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25747">
+        <skos:prefLabel xml:lang="en">Penalty</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25744"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25748">
+        <skos:prefLabel xml:lang="en">Size</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25714"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25749">
+        <skos:prefLabel xml:lang="en">Production</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25714"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25750"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25753"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25754"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25755"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25756"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25757"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25758"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25759"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25760"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25761"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25762"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25763"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25764"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25765"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25766"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25767"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25779"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25786"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25789"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25790"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25791"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25792"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25793"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25794"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25795"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25796"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25797"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25798"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25799"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25800"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25801"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25805"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25806"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25808"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25809"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25750">
+        <skos:prefLabel xml:lang="en">Cereals</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25749"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25751"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25752"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25751">
+        <skos:prefLabel xml:lang="en">Maiores</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25750"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25752">
+        <skos:prefLabel xml:lang="en">Minores</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25750"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25753">
+        <skos:prefLabel xml:lang="en">Legumes</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25749"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25754">
+        <skos:prefLabel xml:lang="en">Wine</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25749"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25755">
+        <skos:prefLabel xml:lang="en">Oil</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25749"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25756">
+        <skos:prefLabel xml:lang="en">Fruits/vegetables</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25749"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25757">
+        <skos:prefLabel xml:lang="en">Dried fruits</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25749"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25758">
+        <skos:prefLabel xml:lang="en">Chestnuts</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25749"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25759">
+        <skos:prefLabel xml:lang="en">Acorns</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25749"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25760">
+        <skos:prefLabel xml:lang="en">Hay</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25749"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25761">
+        <skos:prefLabel xml:lang="en">Honey</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25749"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25762">
+        <skos:prefLabel xml:lang="en">Cheese</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25749"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25763">
+        <skos:prefLabel xml:lang="en">Eggs</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25749"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25764">
+        <skos:prefLabel xml:lang="en">Soap</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25749"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25765">
+        <skos:prefLabel xml:lang="en">Papyrus</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25749"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25766">
+        <skos:prefLabel xml:lang="en">Reed</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25749"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25767">
+        <skos:prefLabel xml:lang="en">Stone</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25749"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25768"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25769"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25770"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25771"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25774"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25775"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25776"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25777"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25778"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25768">
+        <skos:prefLabel xml:lang="en">Marble</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25767"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25769">
+        <skos:prefLabel xml:lang="en">Granite</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25767"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25770">
+        <skos:prefLabel xml:lang="en">Porphyry</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25767"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25771">
+        <skos:prefLabel xml:lang="en">Soapstone</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25767"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25772"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25773"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25772">
+        <skos:prefLabel xml:lang="en">Steatite</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25771"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25773">
+        <skos:prefLabel xml:lang="en">Pietra ollare</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25771"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25774">
+        <skos:prefLabel xml:lang="en">Gypsum</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25767"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25775">
+        <skos:prefLabel xml:lang="en">Limestone</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25767"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25776">
+        <skos:prefLabel xml:lang="en">Sandstone</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25767"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25777">
+        <skos:prefLabel xml:lang="en">Slate</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25767"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25778">
+        <skos:prefLabel xml:lang="en">Verrucano</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25767"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25779">
+        <skos:prefLabel xml:lang="en">Metals</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25749"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25780"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25781"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25782"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25783"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25784"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25785"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25780">
+        <skos:prefLabel xml:lang="en">Gold</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25779"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25781">
+        <skos:prefLabel xml:lang="en">Silver</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25779"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25782">
+        <skos:prefLabel xml:lang="en">Iron</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25779"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25783">
+        <skos:prefLabel xml:lang="en">Copper</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25779"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25784">
+        <skos:prefLabel xml:lang="en">Lead</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25779"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25785">
+        <skos:prefLabel xml:lang="en">Argentiferous lead</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25779"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25786">
+        <skos:prefLabel xml:lang="en">Salt</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25749"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25787"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25788"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25787">
+        <skos:prefLabel xml:lang="en">Sea salt</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25786"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25788">
+        <skos:prefLabel xml:lang="en">Rock salt</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25786"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25789">
+        <skos:prefLabel xml:lang="en">Alum</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25749"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25790">
+        <skos:prefLabel xml:lang="en">Sulphur</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25749"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25791">
+        <skos:prefLabel xml:lang="en">Gems</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25749"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25792">
+        <skos:prefLabel xml:lang="en">Wood</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25749"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25793">
+        <skos:prefLabel xml:lang="en">Garum</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25749"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25794">
+        <skos:prefLabel xml:lang="en">Bread</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25749"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25795">
+        <skos:prefLabel xml:lang="en">Glass</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25749"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25796">
+        <skos:prefLabel xml:lang="en">Bricks</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25749"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25797">
+        <skos:prefLabel xml:lang="en">Tiles</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25749"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25798">
+        <skos:prefLabel xml:lang="en">Ceramics</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25749"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25799">
+        <skos:prefLabel xml:lang="en">Weapons</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25749"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25800">
+        <skos:prefLabel xml:lang="en">Wool</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25749"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25801">
+        <skos:prefLabel xml:lang="en">Tissues</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25749"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25802"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25803"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25804"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25802">
+        <skos:prefLabel xml:lang="en">Silk</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25801"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25803">
+        <skos:prefLabel xml:lang="en">Linen</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25801"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25804">
+        <skos:prefLabel xml:lang="en">Hemp</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25801"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25805">
+        <skos:prefLabel xml:lang="en">Leather</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25749"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25806">
+        <skos:prefLabel xml:lang="en">Pigments</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25749"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25807"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25807">
+        <skos:prefLabel xml:lang="en">Woad</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25806"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25808">
+        <skos:prefLabel xml:lang="en">Clothings</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25749"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25809">
+        <skos:prefLabel xml:lang="en">Animals</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25749"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25810"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25811"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25812"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25813"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25814"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25815"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25816"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25817"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25818"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25819"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25810">
+        <skos:prefLabel xml:lang="en">Cows</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25809"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25811">
+        <skos:prefLabel xml:lang="en">Goats</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25809"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25812">
+        <skos:prefLabel xml:lang="en">Horses</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25809"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25813">
+        <skos:prefLabel xml:lang="en">Fish</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25809"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25814">
+        <skos:prefLabel xml:lang="en">Pigs</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25809"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25815">
+        <skos:prefLabel xml:lang="en">Sheep</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25809"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25816">
+        <skos:prefLabel xml:lang="en">Game</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25809"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25817">
+        <skos:prefLabel xml:lang="en">Poultry</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25809"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25818">
+        <skos:prefLabel xml:lang="en">Wildfowl</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25809"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25819">
+        <skos:prefLabel xml:lang="en">Birds of prey</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25809"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25820">
+        <skos:prefLabel xml:lang="en">Fiscal property</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25714"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25821"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25837"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25843"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25849"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25854"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25855"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25856"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25857"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25858"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25859"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25860"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25861"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25865"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25821">
+        <skos:prefLabel xml:lang="en">Occurrence</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25820"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25822"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25823"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25822">
+        <skos:prefLabel xml:lang="en">Object</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25821"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25823">
+        <skos:prefLabel xml:lang="en">Mention</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25821"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25837">
+        <skos:prefLabel xml:lang="en">Function</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25820"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25838"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25839"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25840"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25838">
+        <skos:prefLabel xml:lang="en">Residential</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25837"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25839">
+        <skos:prefLabel xml:lang="en">Redistributive</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25837"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25840">
+        <skos:prefLabel xml:lang="en">Exceptive</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25837"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25841"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25842"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25841">
+        <skos:prefLabel xml:lang="en">Dowry</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25840"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25842">
+        <skos:prefLabel xml:lang="en">Land reserve</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25840"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25843">
+        <skos:prefLabel xml:lang="en">Acquisitions</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25820"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25844"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25845"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25846"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25847"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25848"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25844">
+        <skos:prefLabel xml:lang="en">Inheritance</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25843"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25845">
+        <skos:prefLabel xml:lang="en">Confiscation</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25843"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25846">
+        <skos:prefLabel xml:lang="en">Purchase</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25843"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25847">
+        <skos:prefLabel xml:lang="en">Forced purchase</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25843"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25848">
+        <skos:prefLabel xml:lang="en">Gift</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25843"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25849">
+        <skos:prefLabel xml:lang="en">Alienations</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25820"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26245"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25850"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25851"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25852"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25853"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26245">
+        <skos:prefLabel xml:lang="en">Iure proprietatis/pleno iure</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25849"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25850">
+        <skos:prefLabel xml:lang="en">Allocation to individuals</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25849"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25851">
+        <skos:prefLabel xml:lang="en">Allocation to groups</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25849"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25852">
+        <skos:prefLabel xml:lang="en">Allocation to churches</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25849"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25853">
+        <skos:prefLabel xml:lang="en">Counter-gift</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25849"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25854">
+        <skos:prefLabel xml:lang="en">Works of art</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25820"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25855">
+        <skos:prefLabel xml:lang="en">Furniture</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25820"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25856">
+        <skos:prefLabel xml:lang="en">Jewels</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25820"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25857">
+        <skos:prefLabel xml:lang="en">Luxury clothes</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25820"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25858">
+        <skos:prefLabel xml:lang="en">Exotic animals</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25820"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25859">
+        <skos:prefLabel xml:lang="en">Exotic coins</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25820"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25860">
+        <skos:prefLabel xml:lang="en">Books</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25820"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25861">
+        <skos:prefLabel xml:lang="en">Residences</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25820"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25862"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25863"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25864"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25862">
+        <skos:prefLabel xml:lang="en">Palatium</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25861"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25863">
+        <skos:prefLabel xml:lang="en">Laubia/topia</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25861"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25864">
+        <skos:prefLabel xml:lang="en">Spolia</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25861"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25865">
+        <skos:prefLabel xml:lang="en">Management</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25820"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25869"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25869">
+        <skos:prefLabel xml:lang="en">Coloni/tenants</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25865"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25870"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25871"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25870">
+        <skos:prefLabel xml:lang="en">Manentes</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25869"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25871">
+        <skos:prefLabel xml:lang="en">Condomae</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25869"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25875">
+        <skos:prefLabel xml:lang="en">Rent type</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25714"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25876"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25877"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25878"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25879"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25876">
+        <skos:prefLabel xml:lang="en">Rent in kind</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25875"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25877">
+        <skos:prefLabel xml:lang="en">Rent in money</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25875"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25878">
+        <skos:prefLabel xml:lang="en">Exenia</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25875"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25879">
+        <skos:prefLabel xml:lang="en">Operae</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25875"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25880">
+        <skos:prefLabel xml:lang="en">Work and workers</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25714"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25881"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25882"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25883"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25884"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25885"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25886"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25887"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25888"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25881">
+        <skos:prefLabel xml:lang="en">Paid workforce</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25880"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25882">
+        <skos:prefLabel xml:lang="en">Slave labour</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25880"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25883">
+        <skos:prefLabel xml:lang="en">Agricultural workers</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25880"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25884">
+        <skos:prefLabel xml:lang="en">Unskilled workers</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25880"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25885">
+        <skos:prefLabel xml:lang="en">Specialized workers</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25880"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25886">
+        <skos:prefLabel xml:lang="en">Stonemasons</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25880"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25887">
+        <skos:prefLabel xml:lang="en">Miners</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25880"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25888">
+        <skos:prefLabel xml:lang="en">Moneyers</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25880"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25889">
+        <skos:prefLabel xml:lang="en">Fortifications</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25714"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25890"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25891"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25892"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25893"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25894"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25895"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25890">
+        <skos:prefLabel xml:lang="en">Castle</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25889"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25891">
+        <skos:prefLabel xml:lang="en">Tower</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25889"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25892">
+        <skos:prefLabel xml:lang="en">Clusae/gates</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25889"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25893">
+        <skos:prefLabel xml:lang="en">Walls</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25889"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25894">
+        <skos:prefLabel xml:lang="en">Carbonaria</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25889"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25895">
+        <skos:prefLabel xml:lang="en">Defensive elements</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25889"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25896">
+        <skos:prefLabel xml:lang="en">Infrastructures</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25714"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25897"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25898"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25899"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25900"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25901"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25902"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25903"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25904"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25897">
+        <skos:prefLabel xml:lang="en">Ports</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25896"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25898">
+        <skos:prefLabel xml:lang="en">Storage buildings</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25896"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25899">
+        <skos:prefLabel xml:lang="en">Roads</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25896"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25900">
+        <skos:prefLabel xml:lang="en">Aqueducts</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25896"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25901">
+        <skos:prefLabel xml:lang="en">Cisterns/pits</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25896"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25902">
+        <skos:prefLabel xml:lang="en">Fountains</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25896"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25903">
+        <skos:prefLabel xml:lang="en">Bridges/pontoons</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25896"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25904">
+        <skos:prefLabel xml:lang="en">Canals</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25896"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25905">
+        <skos:prefLabel xml:lang="en">Mints</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25714"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25906">
+        <skos:prefLabel xml:lang="en">Finance</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25714"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25907"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25908"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25907">
+        <skos:prefLabel xml:lang="en">Interest bearing loans</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25906"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25908">
+        <skos:prefLabel xml:lang="en">Loans with no interest</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25906"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25909">
+        <skos:prefLabel xml:lang="en">Trade</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25714"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25910"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25911"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25912"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25913"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25914"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25915"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25916"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25910">
+        <skos:prefLabel xml:lang="en">Maritime trade</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25909"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25911">
+        <skos:prefLabel xml:lang="en">Overland transport</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25909"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25912">
+        <skos:prefLabel xml:lang="en">Fluvial transport</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25909"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25913">
+        <skos:prefLabel xml:lang="en">Transport contracts</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25909"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25914">
+        <skos:prefLabel xml:lang="en">Navicularii</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25909"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25915">
+        <skos:prefLabel xml:lang="en">Local markets</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25909"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25916">
+        <skos:prefLabel xml:lang="en">Periodic markets</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25909"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25917">
+        <skos:prefLabel xml:lang="en">Administration</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25660"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25918"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25919"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26221"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25920"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25921"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25922"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25923"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25924"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25925"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25926"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25927"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25928"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25929"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25930"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25933"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25936"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25937"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25940"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25943"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25946"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25954"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25955"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25956"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25959"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25962"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25970"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25971"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25976"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25977"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25978"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25979"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25980"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25981"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26208"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26211"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25918">
+        <skos:prefLabel xml:lang="en">Emperor/king</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25917"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25919">
+        <skos:prefLabel xml:lang="en">Queen</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25917"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26221">
+        <skos:prefLabel xml:lang="en">Prince</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25917"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25920">
+        <skos:prefLabel xml:lang="en">Marquis/duke</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25917"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25921">
+        <skos:prefLabel xml:lang="en">Count</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25917"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25922">
+        <skos:prefLabel xml:lang="en">Countess</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25917"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25923">
+        <skos:prefLabel xml:lang="en">Palatine count</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25917"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25924">
+        <skos:prefLabel xml:lang="en">Viscount</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25917"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25925">
+        <skos:prefLabel xml:lang="en">Gastaldus/vicegastaldus</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25917"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25926">
+        <skos:prefLabel xml:lang="en">Sculdahis</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25917"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25927">
+        <skos:prefLabel xml:lang="en">Marepahis</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25917"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25928">
+        <skos:prefLabel xml:lang="en">Other palatine official</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25917"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25929">
+        <skos:prefLabel xml:lang="en">Other minor official</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25917"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25930">
+        <skos:prefLabel xml:lang="en">Court clergyman</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25917"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26243"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25931"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26244"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25932"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26243">
+        <skos:prefLabel xml:lang="en">Archchancellor</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25930"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25931">
+        <skos:prefLabel xml:lang="en">Chancellor</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25930"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26244">
+        <skos:prefLabel xml:lang="en">Archchaplain</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25930"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25932">
+        <skos:prefLabel xml:lang="en">Chaplain</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25930"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25933">
+        <skos:prefLabel xml:lang="en">Professional writer</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25917"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25934"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26222"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26242"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25935"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25934">
+        <skos:prefLabel xml:lang="en">Notary</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25933"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26222">
+        <skos:prefLabel xml:lang="en">Tabellio</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25933"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26242">
+        <skos:prefLabel xml:lang="en">Scriniarius</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25933"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25935">
+        <skos:prefLabel xml:lang="en">Judge</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25933"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25936">
+        <skos:prefLabel xml:lang="en">Consiliarius regis</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25917"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25937">
+        <skos:prefLabel xml:lang="en">Missus</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25917"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25938"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25939"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25938">
+        <skos:prefLabel xml:lang="en">Missus regis</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25937"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25939">
+        <skos:prefLabel xml:lang="en">Missus of other public authorities</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25937"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25940">
+        <skos:prefLabel xml:lang="en">Advocatus</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25917"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25941"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25942"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25941">
+        <skos:prefLabel xml:lang="en">Advocatus regis</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25940"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25942">
+        <skos:prefLabel xml:lang="en">Advocatus of other public authorities</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25940"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25943">
+        <skos:prefLabel xml:lang="en">Camera</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25917"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25944"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25945"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25944">
+        <skos:prefLabel xml:lang="en">Camera regis</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25943"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25945">
+        <skos:prefLabel xml:lang="en">Camera of other public authorities</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25943"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25946">
+        <skos:prefLabel xml:lang="en">Administrative units</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25917"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25947"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25948"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26241"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25949"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25950"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25951"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25952"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25953"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25947">
+        <skos:prefLabel xml:lang="en">Iudiciaria</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25946"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25948">
+        <skos:prefLabel xml:lang="en">Comitatus</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25946"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26241">
+        <skos:prefLabel xml:lang="en">Pagus</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25946"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25949">
+        <skos:prefLabel xml:lang="en">Fines</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25946"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25950">
+        <skos:prefLabel xml:lang="en">Actio</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25946"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25951">
+        <skos:prefLabel xml:lang="en">Subactio</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25946"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25952">
+        <skos:prefLabel xml:lang="en">Dioecesis</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25946"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25953">
+        <skos:prefLabel xml:lang="en">Plebs</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25946"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25954">
+        <skos:prefLabel xml:lang="en">Assembly</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25917"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25955">
+        <skos:prefLabel xml:lang="en">Army</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25917"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25956">
+        <skos:prefLabel xml:lang="en">Armed group</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25917"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25957"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25958"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25957">
+        <skos:prefLabel xml:lang="en">Hungarians</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25956"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25958">
+        <skos:prefLabel xml:lang="en">Masnada</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25956"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25959">
+        <skos:prefLabel xml:lang="en">Levies</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25917"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25960"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25961"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25960">
+        <skos:prefLabel xml:lang="en">Decima</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25959"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25961">
+        <skos:prefLabel xml:lang="en">Nona et decima</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25959"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25962">
+        <skos:prefLabel xml:lang="en">Revenues</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25917"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25963"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25964"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25965"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25966"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25967"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25968"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25969"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25963">
+        <skos:prefLabel xml:lang="en">Fodrum</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25962"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25964">
+        <skos:prefLabel xml:lang="en">Albergaria/gifori</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25962"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25965">
+        <skos:prefLabel xml:lang="en">Profits of justice</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25962"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25966">
+        <skos:prefLabel xml:lang="en">Profits of mining/minting</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25962"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25967">
+        <skos:prefLabel xml:lang="en">Tolls</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25962"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25968">
+        <skos:prefLabel xml:lang="en">Teloneum</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25962"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25969">
+        <skos:prefLabel xml:lang="en">Rights of use on woods/pastures/waters</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25962"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25970">
+        <skos:prefLabel xml:lang="en">Malus usus</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25917"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25971">
+        <skos:prefLabel xml:lang="en">Privileges</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25917"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25972"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25973"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26239"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25974"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26240"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25975"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25972">
+        <skos:prefLabel xml:lang="en">Immunity</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25971"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25973">
+        <skos:prefLabel xml:lang="en">Exemption</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25971"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26239">
+        <skos:prefLabel xml:lang="en">Districtio</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25971"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25974">
+        <skos:prefLabel xml:lang="en">Incastellamento</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25971"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26240">
+        <skos:prefLabel xml:lang="en">Public infrastructures</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25971"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25975">
+        <skos:prefLabel xml:lang="en">Coinage</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25971"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25976">
+        <skos:prefLabel xml:lang="en">Royal ordinances</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25917"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25977">
+        <skos:prefLabel xml:lang="en">Letters from public authorities</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25917"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25978">
+        <skos:prefLabel xml:lang="en">Substitution of a beneficium</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25917"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25979">
+        <skos:prefLabel xml:lang="en">Itinerary</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25917"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25980">
+        <skos:prefLabel xml:lang="en">Scufiae/transport service</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25917"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25981">
+        <skos:prefLabel xml:lang="en">Extortions by officials</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25917"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26208">
+        <skos:prefLabel xml:lang="en">Contractors</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25917"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26209"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26210"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26209">
+        <skos:prefLabel xml:lang="en">Conductores</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26208"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26210">
+        <skos:prefLabel xml:lang="en">Actionarii/actores</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26208"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26211">
+        <skos:prefLabel xml:lang="en">Estate supervisors/vilici</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25917"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26212"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26213"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26212">
+        <skos:prefLabel xml:lang="en">Gualdemanni/silvani</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26211"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26213">
+        <skos:prefLabel xml:lang="en">Porcarii</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26211"/>
+    </skos:Concept>***
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25982">
+        <skos:prefLabel xml:lang="en">Law</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25660"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25983"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25984"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25985"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25986"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25983">
+        <skos:prefLabel xml:lang="en">Property of persons without heirs</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25982"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25984">
+        <skos:prefLabel xml:lang="en">Property of criminals/political traitors</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25982"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25985">
+        <skos:prefLabel xml:lang="en">Boundary disputes</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25982"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25986">
+        <skos:prefLabel xml:lang="en">Boundary settings</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25982"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25987">
+        <skos:prefLabel xml:lang="en">Local institutions</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25660"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25988"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25991"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25992"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25993"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25997"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25998"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25999"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26000"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26001"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25988">
+        <skos:prefLabel xml:lang="en">City authorities</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25987"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25989"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25990"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25989">
+        <skos:prefLabel xml:lang="en">Consules</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25988"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25990">
+        <skos:prefLabel xml:lang="en">Potestas</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25988"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25991">
+        <skos:prefLabel xml:lang="en">City assembly</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25987"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25992">
+        <skos:prefLabel xml:lang="en">City territory</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25987"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25993">
+        <skos:prefLabel xml:lang="en">Local elites</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25987"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25994"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25995"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c25996"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25994">
+        <skos:prefLabel xml:lang="en">Scabini</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25993"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25995">
+        <skos:prefLabel xml:lang="en">Lociservatores</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25993"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25996">
+        <skos:prefLabel xml:lang="en">Boni viri/boni homines</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25993"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25997">
+        <skos:prefLabel xml:lang="en">Village/castle representatives</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25987"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25998">
+        <skos:prefLabel xml:lang="en">Village/castle territory</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25987"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c25999">
+        <skos:prefLabel xml:lang="en">Embassies/ambassadors</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25987"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26000">
+        <skos:prefLabel xml:lang="en">Rural communities</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25987"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26001">
+        <skos:prefLabel xml:lang="en">Common land</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25987"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26002">
+        <skos:prefLabel xml:lang="en">Religion</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25660"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26003"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26011"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26012"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26013"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26238"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26014"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26015"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26016"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26017"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26018"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26003">
+        <skos:prefLabel xml:lang="en">Churches/religious bodies</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26002"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26004"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26005"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26006"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26007"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26008"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26009"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26010"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26004">
+        <skos:prefLabel xml:lang="en">Churches</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26003"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26005">
+        <skos:prefLabel xml:lang="en">Baptismal churches</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26003"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26006">
+        <skos:prefLabel xml:lang="en">Collegiate churches</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26003"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26007">
+        <skos:prefLabel xml:lang="en">Mother churches</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26003"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26008">
+        <skos:prefLabel xml:lang="en">Monasteries</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26003"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26009">
+        <skos:prefLabel xml:lang="en">Cells/hermitages</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26003"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26010">
+        <skos:prefLabel xml:lang="en">Hospitals</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26003"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26011">
+        <skos:prefLabel xml:lang="en">Altars</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26002"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26012">
+        <skos:prefLabel xml:lang="en">Funerary rituals</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26002"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26013">
+        <skos:prefLabel xml:lang="en">Funerary monuments/cemeteries</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26002"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26238">
+        <skos:prefLabel xml:lang="en">Relics</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26002"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26014">
+        <skos:prefLabel xml:lang="en">Popular devotions</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26002"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26015">
+        <skos:prefLabel xml:lang="en">Religious festivals</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26002"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26016">
+        <skos:prefLabel xml:lang="en">Processions</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26002"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26017">
+        <skos:prefLabel xml:lang="en">Pilgrimages</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26002"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26018">
+        <skos:prefLabel xml:lang="en">Clergy/religious persons</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26228"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26223"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26223"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26019"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26224"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26020"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26225"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26021"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26022"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26023"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26226"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26024"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26025"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26026"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26027"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26228">
+        <skos:prefLabel xml:lang="en">Popes</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26018"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26223">
+        <skos:prefLabel xml:lang="en">Archbishops</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26018"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26019">
+        <skos:prefLabel xml:lang="en">Bishops</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26018"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26224">
+        <skos:prefLabel xml:lang="en">Archpriests</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26018"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26020">
+        <skos:prefLabel xml:lang="en">Priests</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26018"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26225">
+        <skos:prefLabel xml:lang="en">Archdeacons</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26018"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26021">
+        <skos:prefLabel xml:lang="en">Deacons</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26018"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26022">
+        <skos:prefLabel xml:lang="en">Subdeacons</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26018"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26023">
+        <skos:prefLabel xml:lang="en">Other clerics</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26018"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26226">
+        <skos:prefLabel xml:lang="en">Prevosts</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26018"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26024">
+        <skos:prefLabel xml:lang="en">Abbots</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26018"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26025">
+        <skos:prefLabel xml:lang="en">Abbesses</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26018"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26026">
+        <skos:prefLabel xml:lang="en">Monks</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26018"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26027">
+        <skos:prefLabel xml:lang="en">Nuns/sanctimoniales</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26018"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26028">
+        <skos:prefLabel xml:lang="en">Society</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25660"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26029"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26045"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26054"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26062"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26065"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26066"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26067"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26068"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26069"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26070"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26071"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26072"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26073"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26074"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26075"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26076"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26079"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26125"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26029">
+        <skos:prefLabel xml:lang="en">Personal statuses</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26028"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26030"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26031"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26032"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26033"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26034"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26035"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26036"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26037"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26038"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26030">
+        <skos:prefLabel xml:lang="en">Freeborn</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26029"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26031">
+        <skos:prefLabel xml:lang="en">Aldius</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26029"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26032">
+        <skos:prefLabel xml:lang="en">Slave</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26029"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26033">
+        <skos:prefLabel xml:lang="en">Freedman</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26029"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26034">
+        <skos:prefLabel xml:lang="en">Royal slave</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26029"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26035">
+        <skos:prefLabel xml:lang="en">Royal freedman</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26029"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26036">
+        <skos:prefLabel xml:lang="en">Royal aldius</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26029"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26037">
+        <skos:prefLabel xml:lang="en">Arimannus</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26029"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26038">
+        <skos:prefLabel xml:lang="en">Lambardus</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26029"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26045">
+        <skos:prefLabel xml:lang="en">Personal rank</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26028"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26046"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26047"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26048"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26049"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26050"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26051"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26052"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26053"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26046">
+        <skos:prefLabel xml:lang="en">Vir devotus/vir honestus</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26045"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26047">
+        <skos:prefLabel xml:lang="en">Vir magnificus</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26045"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26048">
+        <skos:prefLabel xml:lang="en">Vir clarissimus</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26045"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26049">
+        <skos:prefLabel xml:lang="en">Vir spectabilis</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26045"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26050">
+        <skos:prefLabel xml:lang="en">Vir inluster</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26045"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26051">
+        <skos:prefLabel xml:lang="en">Vir gloriosus/vir sublimis</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26045"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26052">
+        <skos:prefLabel xml:lang="en">Consul/hypatos</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26045"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26053">
+        <skos:prefLabel xml:lang="en">Patricius</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26045"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26054">
+        <skos:prefLabel xml:lang="en">Natio</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26028"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26055"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26056"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26057"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26058"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26059"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26060"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26061"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26055">
+        <skos:prefLabel xml:lang="en">Roman</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26054"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26056">
+        <skos:prefLabel xml:lang="en">Lombard</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26054"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26057">
+        <skos:prefLabel xml:lang="en">Salian</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26054"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26058">
+        <skos:prefLabel xml:lang="en">Ripuarian</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26054"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26059">
+        <skos:prefLabel xml:lang="en">Bavarian</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26054"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26060">
+        <skos:prefLabel xml:lang="en">Burgundian</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26054"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26061">
+        <skos:prefLabel xml:lang="en">Alemannus</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26054"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26062">
+        <skos:prefLabel xml:lang="en">Public rituals</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26028"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26063"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26064"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26063">
+        <skos:prefLabel xml:lang="en">Adventus/occursus</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26062"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26064">
+        <skos:prefLabel xml:lang="en">Deditio</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26062"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26065">
+        <skos:prefLabel xml:lang="en">Public decorum</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26028"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26066">
+        <skos:prefLabel xml:lang="en">Conviviality</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26028"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26067">
+        <skos:prefLabel xml:lang="en">Beneficium</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26028"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26068">
+        <skos:prefLabel xml:lang="en">Feudum</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26028"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26069">
+        <skos:prefLabel xml:lang="en">Honor</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26028"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26070">
+        <skos:prefLabel xml:lang="en">Munus</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26028"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26071">
+        <skos:prefLabel xml:lang="en">Meritum/launechild</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26028"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26072">
+        <skos:prefLabel xml:lang="en">Private foundations</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26028"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26073">
+        <skos:prefLabel xml:lang="en">Joint foundations</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26028"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26074">
+        <skos:prefLabel xml:lang="en">Distributions of moveable goods</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26028"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26075">
+        <skos:prefLabel xml:lang="en">Marriages</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26028"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26076">
+        <skos:prefLabel xml:lang="en">Clerical concubinage</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26028"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26079">
+        <skos:prefLabel xml:lang="en">Manumission</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26028"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26125">
+        <skos:prefLabel xml:lang="en">Bonds</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26028"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26126"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26127"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26128"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26129"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26130"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26131"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26132"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26133"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26134"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26135"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26136"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26137"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26138"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26139"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26140"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26141"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26142"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26143"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26144"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26145"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26146"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26147"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26148"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26149"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26150"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26151"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26152"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26153"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26154"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26155"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26156"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26157"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26158"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26159"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26160"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26161"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26162"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26163"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26164"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26165"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26166"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26167"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26168"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26169"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26170"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26171"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26172"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26173"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26174"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26175"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26176"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26177"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26178"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26179"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26180"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26181"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26182"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26183"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26184"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26185"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26186"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26187"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26188"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26189"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26190"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26191"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26192"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26193"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26194"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26195"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26196"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26197"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26198"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26199"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26200"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26201"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26202"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26203"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26204"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26205"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26206"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26207"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26126">
+        <skos:prefLabel xml:lang="en">Legally recognised union with</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">LegallyRecognisedUnionWith</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26125"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26127">
+        <skos:prefLabel xml:lang="en">Serious intimate relationship with</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">SeriousIntimateRelationshipWith</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26125"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26128">
+        <skos:prefLabel xml:lang="en">Casual intimate relationship with</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">CasualIntimateRelationshipWith</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26125"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26129">
+        <skos:prefLabel xml:lang="en">Intimate relationship with</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">IntimateRelationshipWith</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26125"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26130">
+        <skos:prefLabel xml:lang="en">Father of</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">FatherOf</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26125"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26131">
+        <skos:prefLabel xml:lang="en">Father in law of</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">FatherInLawOf</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26125"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26132">
+        <skos:prefLabel xml:lang="en">Mother of</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">MotherOf</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26125"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26133">
+        <skos:prefLabel xml:lang="en">Mother in law of</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">MotherInLawOf</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26125"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26134">
+        <skos:prefLabel xml:lang="en">Parent of</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">ParentOf</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26125"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26135">
+        <skos:prefLabel xml:lang="en">Foster parent of</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">FosterParentOf</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26125"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26136">
+        <skos:prefLabel xml:lang="en">Son of</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">SonOf</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26125"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26137">
+        <skos:prefLabel xml:lang="en">Son in law of</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">SonInLawOf</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26125"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26138">
+        <skos:prefLabel xml:lang="en">Daughter of</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">DaughterOf</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26125"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26139">
+        <skos:prefLabel xml:lang="en">Daughter in law of</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">DaughterInLawOf</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26125"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26140">
+        <skos:prefLabel xml:lang="en">Child of</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">ChildOf</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26125"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26141">
+        <skos:prefLabel xml:lang="en">Grandfather of</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">GrandfatherOf</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26125"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26142">
+        <skos:prefLabel xml:lang="en">Grandmother of</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">GrandmotherOf</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26125"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26143">
+        <skos:prefLabel xml:lang="en">Grandparent of</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">GrandparentOf</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26125"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26144">
+        <skos:prefLabel xml:lang="en">Grandson of</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">GrandsonOf</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26125"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26145">
+        <skos:prefLabel xml:lang="en">Granddaughter of</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">GranddaughterOf</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26125"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26146">
+        <skos:prefLabel xml:lang="en">Grandchild of</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">GrandchildOf</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26125"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26147">
+        <skos:prefLabel xml:lang="en">Great grandfather of</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">GreatGrandfatherOf</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26125"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26148">
+        <skos:prefLabel xml:lang="en">Great grandmother of</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">GreatGrandmotherOf</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26125"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26149">
+        <skos:prefLabel xml:lang="en">Great grandparent of</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">GreatGrandparentOf</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26125"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26150">
+        <skos:prefLabel xml:lang="en">Great grandson of</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">GreatGrandsonOf</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26125"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26151">
+        <skos:prefLabel xml:lang="en">Great granddaughter of</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">GreatGranddaughterOf</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26125"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26152">
+        <skos:prefLabel xml:lang="en">Brother of</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">BrotherOf</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26125"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26153">
+        <skos:prefLabel xml:lang="en">Brother in law of</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">BrotherInLawOf</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26125"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26154">
+        <skos:prefLabel xml:lang="en">Sister of</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">SisterOf</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26125"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26155">
+        <skos:prefLabel xml:lang="en">Sister in law of</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">SisterInLawOf</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26125"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26156">
+        <skos:prefLabel xml:lang="en">Sibling of</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">SiblingOf</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26125"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26157">
+        <skos:prefLabel xml:lang="en">Aunt of</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">AuntOf</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26125"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26158">
+        <skos:prefLabel xml:lang="en">Uncle of</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">UncleOf</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26125"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26159">
+        <skos:prefLabel xml:lang="en">Nephew of</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">NephewOf</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26125"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26160">
+        <skos:prefLabel xml:lang="en">Niece of</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">NieceOf</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26125"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26161">
+        <skos:prefLabel xml:lang="en">Child of sibling of</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">ChildOfSiblingOf</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26125"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26162">
+        <skos:prefLabel xml:lang="en">Cousin of</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">CousinOf</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26125"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26163">
+        <skos:prefLabel xml:lang="en">Kin of</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">KinOf</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26125"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26164">
+        <skos:prefLabel xml:lang="en">Ancestor of</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">AncestorOf</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26125"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26165">
+        <skos:prefLabel xml:lang="en">Descendent of</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">DescendantOf</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26125"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26166">
+        <skos:prefLabel xml:lang="en">Family of</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">FamilyOf</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26125"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26167">
+        <skos:prefLabel xml:lang="en">Extended family of</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">ExtendedFamilyOf</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26125"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26168">
+        <skos:prefLabel xml:lang="en">Hereditary family of</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">HereditaryFamilyOf</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26125"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26169">
+        <skos:prefLabel xml:lang="en">Household of</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">HouseholdOf</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26125"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26170">
+        <skos:prefLabel xml:lang="en">Extended household of</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">ExtendedHouseholdOf</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26125"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26171">
+        <skos:prefLabel xml:lang="en">Patron of</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">PatronOf</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26125"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26172">
+        <skos:prefLabel xml:lang="en">Client of</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">ClientOf</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26125"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26173">
+        <skos:prefLabel xml:lang="en">Master of</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">MasterOf</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26125"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26174">
+        <skos:prefLabel xml:lang="en">Former master of</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">FormerMasterOf</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26125"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26175">
+        <skos:prefLabel xml:lang="en">Slave of</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">SlaveOf</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26125"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26176">
+        <skos:prefLabel xml:lang="en">House slave of</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">HouseSlaveOf</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26125"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26177">
+        <skos:prefLabel xml:lang="en">Former slave of</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">FormerSlaveOf</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26125"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26178">
+        <skos:prefLabel xml:lang="en">Freed slave of</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">FreedSlaveOf</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26125"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26179">
+        <skos:prefLabel xml:lang="en">Freedman of</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">FreedmanOf</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26125"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26180">
+        <skos:prefLabel xml:lang="en">Freedwoman of</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">FreedwomanOf</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26125"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26181">
+        <skos:prefLabel xml:lang="en">Fellow freedman of</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">FellowFreedmanOf</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26125"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26182">
+        <skos:prefLabel xml:lang="en">Godfather of</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">GodfatherOf</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26125"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26183">
+        <skos:prefLabel xml:lang="en">Godmother of</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">GodmotherOf</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26125"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26184">
+        <skos:prefLabel xml:lang="en">Godson of</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">GodsonOf</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26125"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26185">
+        <skos:prefLabel xml:lang="en">Goddaughter of</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">GoddaughterOf</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26125"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26186">
+        <skos:prefLabel xml:lang="en">Compater of</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">CompaterOf</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26125"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26187">
+        <skos:prefLabel xml:lang="en">Commater of</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">CommaterOf</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26125"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26188">
+        <skos:prefLabel xml:lang="en">Nutritus of</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">NutritusOf</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26125"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26189">
+        <skos:prefLabel xml:lang="en">Nutritor of</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">NutritorOf</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26125"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26190">
+        <skos:prefLabel xml:lang="en">Benefactor of</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">BenefactorOf</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26125"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26191">
+        <skos:prefLabel xml:lang="en">Gratitude to</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">GratitudeTo</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26125"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26192">
+        <skos:prefLabel xml:lang="en">Testamentary link with</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">TestamentaryLinkWith</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26125"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26193">
+        <skos:prefLabel xml:lang="en">Legatee of</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">LegateeOf</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26125"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26194">
+        <skos:prefLabel xml:lang="en">Heir to</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">HeirTo</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26125"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26195">
+        <skos:prefLabel xml:lang="en">Friendship for</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">FriendshipFor</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26125"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26196">
+        <skos:prefLabel xml:lang="en">Alliance with</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">AllianceWith</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26125"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26197">
+        <skos:prefLabel xml:lang="en">Enmity for</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">EnmityFor</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26125"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26198">
+        <skos:prefLabel xml:lang="en">Dominus of</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">DominusOf</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26125"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26199">
+        <skos:prefLabel xml:lang="en">Senior of</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">SeniorOf</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26125"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26200">
+        <skos:prefLabel xml:lang="en">Vassus of</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">VassusOf</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26125"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26201">
+        <skos:prefLabel xml:lang="en">Gasindius of</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">GasindiusOf</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26125"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26202">
+        <skos:prefLabel xml:lang="en">Fidelis of</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">FidelisOf</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26125"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26203">
+        <skos:prefLabel xml:lang="en">Miles of</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">MilesOf</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26125"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26204">
+        <skos:prefLabel xml:lang="en">Homo of</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">HomoOf</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26125"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26205">
+        <skos:prefLabel xml:lang="en">Agent for</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">AgentFor</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26125"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26206">
+        <skos:prefLabel xml:lang="en">Professional relationship</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">ProfessionalRelationship</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26125"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26207">
+        <skos:prefLabel xml:lang="en">Link</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">Link</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26125"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26115">
+        <skos:prefLabel xml:lang="en">Record source</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25660"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26116"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26117"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26118"/>
+        <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26119"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26116">
+        <skos:prefLabel xml:lang="en">Original document</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26115"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26117">
+        <skos:prefLabel xml:lang="en">Critical edition</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26115"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26118">
+        <skos:prefLabel xml:lang="en">Document summary</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26115"/>
+    </skos:Concept>
+    <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26119">
+        <skos:prefLabel xml:lang="en">Scientific literature</skos:prefLabel>
+        <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26115"/>
+    </skos:Concept>
+        <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26120">
+            <skos:prefLabel xml:lang="en">Entry type</skos:prefLabel>
+            <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c25660"/>
+            <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26121"/>
+            <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26122"/>
+            <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26123"/>
+            <skos:narrower corresp="https://ausohnum.huma-num.fr/concept/c26124"/>
+        </skos:Concept>
+        <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26121">
+            <skos:prefLabel xml:lang="en">Person</skos:prefLabel>
+            <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26120"/>
+        </skos:Concept>
+        <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26122">
+            <skos:prefLabel xml:lang="en">Juridical person</skos:prefLabel>
+            <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26120"/>
+        </skos:Concept>
+        <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26123">
+            <skos:prefLabel xml:lang="en">Estate</skos:prefLabel>
+            <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26120"/>
+        </skos:Concept>
+        <skos:Concept xml:id="https://ausohnum.huma-num.fr/concept/c26124">
+            <skos:prefLabel xml:lang="en">Place</skos:prefLabel>
+            <skos:broader corresp="https://ausohnum.huma-num.fr/concept/c26120"/>
+        </skos:Concept>
+            </list>
+        </body>
+    </text>
+</TEI>
