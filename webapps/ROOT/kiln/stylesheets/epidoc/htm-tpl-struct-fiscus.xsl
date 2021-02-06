@@ -75,15 +75,15 @@
          <xsl:text> (</xsl:text><xsl:value-of select="substring-before(@when, 'T')"/><xsl:text>). </xsl:text>
        </xsl:for-each>-->
        <br/><b>Record source: </b> <xsl:apply-templates select="//t:summary/t:rs[@type='record_source']"/>
-       <br/><b>Document type: </b> <xsl:apply-templates select="//t:summary/t:rs[@type='text_type']"/>
+       <br/><b>Document type: </b> <xsl:value-of select="translate(//t:summary/t:rs[@type='text_type'], '-', '')"/>
        <br/><b>Document tradition: </b> <xsl:apply-templates select="//t:summary/t:rs[@type='document_tradition']"/>
        <br/><b>Fiscal property: </b> <xsl:apply-templates select="//t:summary/t:rs[@type='fiscal_property']"/>
-       <br/><b>Provenance: </b> <xsl:apply-templates select="//t:provenance[1]//t:placeName"/>
+       <br/><b>Provenance: </b> <xsl:apply-templates select="//t:origPlace"/>
      </p>
      <p>
-       <b>Date: </b> <xsl:apply-templates select="//t:origin/t:origDate"/>
+       <b>Date: </b> <xsl:apply-templates select="//t:origin/t:origDate/text()"/>
        <br/><b>Topical date: </b> <xsl:apply-templates select="//t:origin/t:origDate/@corresp"/>
-       <br/><b>Dating elements: </b> <xsl:apply-templates select="//t:origin/t:origDate/@evidence"/>
+       <br/><b>Dating elements: </b> <xsl:apply-templates select="//t:origin/t:origDate/t:note/text()"/>
      </p>
      
          <div class="content" id="edition" data-section-content="data-section-content">

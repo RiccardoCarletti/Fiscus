@@ -10,17 +10,6 @@
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
                     <date when="2020">2020</date>
                 </edition>
-                <principal>
-                    <persName ref="#fiscus"/>
-                </principal>
-                <respStmt>
-                    <resp>Metadata</resp>
-                    <persName ref="#fiscus">Fiscus Team</persName>
-                </respStmt>
-                <respStmt>
-                    <resp>TEI encoding</resp>
-                    <persName ref="#fiscus">Fiscus Team</persName>
-                </respStmt>
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
@@ -46,16 +35,16 @@
                             <rs type="document_tradition" ref="https://ausohnum.huma-num.fr/concept/c26112">Original</rs>
                             <rs type="fiscal_property">yes</rs>
                         </summary>
-                        <msItem xml:id="doc3-msItem1">
+                        <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
                         </msItem>
                     </msContents>
                     <history>
                         <origin>
-                            <origDate when="0977-11-03" evidence="Anno di impero di Ottone" corresp="Lucca">3 November 977</origDate>
+                            <origDate when="0977-11-03" corresp="Lucca">3 November 977 <note>Anno di impero di Ottone</note></origDate>
                             <origPlace/>
                         </origin>
-                        <provenance type="findspot">
+                        <provenance>
                             <location>
                                 <placeName/>
                             </location>
@@ -63,7 +52,16 @@
                     </history>
                 </msDesc>
                 <listPlace>
+                   <place></place>
                 </listPlace>
+            <listPerson>
+    <person corresp="http://137.204.128.125/people/4">
+            <persName xml:lang="en">Stefano</persName>
+        </person>
+    <person corresp="http://137.204.128.125/people/5">
+            <persName xml:lang="en">Gherardo</persName>
+        </person>
+    </listPerson>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
@@ -72,20 +70,10 @@
                     <term/>
                 </keywords>
             </textClass>
-            <listPerson type="peopleInDocument">
-            
-    <person corresp="http://137.204.128.125/people/4">
-            <persName xml:lang="en">Stefano</persName>
-        </person>
-    <person corresp="http://137.204.128.125/people/5">
-            <persName xml:lang="en">Gherardo</persName>
-        </person>
-    
-    </listPerson>
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change who="ptomei" when="2020-12-11T01:38:23.578-08:00">Creation of this file</change>
+                <change who="ptomei" when="2020-12-11T01:38:23.578-08:00">creation of record</change>
            <change when="2020-12-11T02:16:53.043-08:00" who="http://137.204.128.125/people/ptomei"/>
            <change when="2020-12-11T02:50:00.405-08:00" who="http://137.204.128.125/people/ptomei"/>
            <change when="2020-12-11T03:11:57.455-08:00" who="http://137.204.128.125/people/ptomei"/>
@@ -116,23 +104,21 @@
             <div type="edition">
                 <div type="textpart">
                     <ab>
-                        <persName key="" ref="http://137.204.128.125/people/4">Stefano</persName> del <persName key="" ref="">fu Antonio</persName> cambia beni con il vescovo di Lucca <persName key="" ref="">Adalongo</persName>, ad pars del <orgName key="" ref="">vescovato di San Martino</orgName>.
-Dà al vescovo medietatem di 6 appezzamenti di terra posti in loco et finibus <placeName key="" ref="">Saltucclo</placeName> prope <placeName key="" ref="">Marilla</placeName>: il primo confinante uno capo con terra della <orgName key="" ref="">chiesa di San Pancrazio</orgName>, alio capo cum uno lato in via, alio lato con terra dello stesso vescovato e con terra del <persName key="" ref="">fu Sisemundo</persName>; il secondo, quod est vinea, confinante uno capo cum uno lato con terra dello stesso vescovato, alio capo cum alio lato in via; il terzo, quod est vinea, confinante uno capo in via, alio capo in rivo, uno lato con terra dello stesso vescovato, alio lato con terra della chiesa di San Pancrazio; il quarto confinante uno capo in via publica e con terra dello stesso vescovato, alio capo con terra di <persName key="" ref="">Willerado de <placeName key="" ref="">Albiano</placeName>
-                        </persName>, lato uno in via, alio lato con terra dello stesso vescovato, con terra del <persName key="" ref="">fu Erizio</persName> e con terra di <persName key="" ref="">...ulo</persName>; il quinto confinante uno capo in via publica, alio capo con terra di <persName key="" ref="">Adam</persName> e <persName key="" ref="">Gottifridi</persName>, lato uno con terra dello stesso vescovato e con terra del <persName key="" ref="">fu Pietro</persName>, alio lato con terra del suddetto Gottifridi e con terra di <persName key="" ref="">Andrea</persName>; il sesto, dicitur <placeName key="petiae, count, fiscal property, mention" ref="">Casalino</placeName>, confinante uno capo in via, alio capo con terra del suddetto Gottifridi, ambas lateras con <rs key="petiae">terra</rs> del <persName key="count" ref="http://137.204.128.125/people/4">fu Gherardo</persName> <rs key="count">conte</rs>, per una misura complessiva di 60 staia con tutte le loro dipendenze.
-                        Riceve dal vescovo, de pars dello stesso vescovato, un appezzamento di terra, cum casis super se abentes seo curte, orto, posto in loco et finibus <placeName key="" ref="">Vico Strata</placeName> ubi dicitur <placeName key="petiae, emperor/king, marquis/duke, fiscal property, mention" ref="">a <rs key="salae">Sala</rs>
-                        </placeName>, confinante uno capo in via publica, alio capo cum ambas lateras con <rs key="petiae">terra</rs> del <rs key="emperor/king">re</rs> que vocitatur <placeName key="" ref="">
+                        <persName key="" ref="http://137.204.128.125/people/4">Stefano</persName> del <persName key="">fu Antonio</persName> cambia beni con il vescovo di Lucca <persName key="">Adalongo</persName>, ad pars del <orgName key="">vescovato di San Martino</orgName>.
+Dà al vescovo medietatem di 6 appezzamenti di terra posti in loco et finibus <placeName key="">Saltucclo</placeName> prope <placeName key="">Marilla</placeName>: il primo confinante uno capo con terra della <orgName key="">chiesa di San Pancrazio</orgName>, alio capo cum uno lato in via, alio lato con terra dello stesso vescovato e con terra del <persName key="">fu Sisemundo</persName>; il secondo, quod est vinea, confinante uno capo cum uno lato con terra dello stesso vescovato, alio capo cum alio lato in via; il terzo, quod est vinea, confinante uno capo in via, alio capo in rivo, uno lato con terra dello stesso vescovato, alio lato con terra della chiesa di San Pancrazio; il quarto confinante uno capo in via publica e con terra dello stesso vescovato, alio capo con terra di <persName key="">Willerado de <placeName key="">Albiano</placeName>
+                        </persName>, lato uno in via, alio lato con terra dello stesso vescovato, con terra del <persName key="">fu Erizio</persName> e con terra di <persName key="">...ulo</persName>; il quinto confinante uno capo in via publica, alio capo con terra di <persName key="">Adam</persName> e <persName key="">Gottifridi</persName>, lato uno con terra dello stesso vescovato e con terra del <persName key="">fu Pietro</persName>, alio lato con terra del suddetto Gottifridi e con terra di <persName key="">Andrea</persName>; il sesto, dicitur <placeName key="petiae, count, fiscal property, mention">Casalino</placeName>, confinante uno capo in via, alio capo con terra del suddetto Gottifridi, ambas lateras con <rs key="petiae">terra</rs> del <persName key="count" ref="http://137.204.128.125/people/4">fu Gherardo</persName> <rs key="count">conte</rs>, per una misura complessiva di 60 staia con tutte le loro dipendenze.
+                        Riceve dal vescovo, de pars dello stesso vescovato, un appezzamento di terra, cum casis super se abentes seo curte, orto, posto in loco et finibus <placeName key="">Vico Strata</placeName> ubi dicitur <placeName key="petiae, emperor/king, marquis/duke, fiscal property, mention">a <rs key="salae">Sala</rs>
+                        </placeName>, confinante uno capo in via publica, alio capo cum ambas lateras con <rs key="petiae">terra</rs> del <rs key="emperor/king">re</rs> que vocitatur <placeName key="">
                             <rs key="marquis/duke">Marchisciana</rs>
-                        </placeName>; un appezzamento di terra posto in loco et finibus ubi dicitur <placeName key="" ref="">Waturaticha</placeName> prope suprascripto Vicho Strata, confinante uno capo con terra sua, alio capo con terra dello stesso vescovato, lato uno con terra della <orgName key="" ref="">chiesa di San Frediano</orgName>, alio lato con terra di <persName key="" ref="">Domenico</persName>, per una misura complessiva di 31 staia et dimidio con tutte le sue dipendenze.
-Il vescovo secondo la legge invia i suoi missos <persName key="" ref="">Andrea</persName> prete e visdomino del <persName key="" ref="">fu Altiprando</persName>, <persName key="" ref="">Benedetto</persName> del <persName key="" ref="">fu Giovanni</persName>, <persName key="" ref="">Leone</persName> del <persName key="" ref="">fu Benedetto</persName>, per sovrintendere alla permuta.
-Chiedono al notaio imperiale <persName key="" ref="">Pietro</persName> la stesura della cartula.
-Actum <placeName key="" ref="">Luca</placeName>.
-Testimoni sottoscrittori: <persName key="" ref="">Andrea</persName> presbiter et vicedominus del <persName key="" ref="">fu Altiprando</persName>, <persName key="" ref="">Benedetto</persName> del <persName key="" ref="">fu Giovanni</persName>, <persName key="" ref="">Leone</persName> del <persName key="" ref="">fu Benedetto</persName>, ... , ..., <persName key="" ref="">Pietro</persName> notarius dom. imp.</ab>
+                        </placeName>; un appezzamento di terra posto in loco et finibus ubi dicitur <placeName key="">Waturaticha</placeName> prope suprascripto Vicho Strata, confinante uno capo con terra sua, alio capo con terra dello stesso vescovato, lato uno con terra della <orgName key="">chiesa di San Frediano</orgName>, alio lato con terra di <persName key="">Domenico</persName>, per una misura complessiva di 31 staia et dimidio con tutte le sue dipendenze.
+Il vescovo secondo la legge invia i suoi missos <persName key="">Andrea</persName> prete e visdomino del <persName key="">fu Altiprando</persName>, <persName key="">Benedetto</persName> del <persName key="">fu Giovanni</persName>, <persName key="">Leone</persName> del <persName key="">fu Benedetto</persName>, per sovrintendere alla permuta.
+Chiedono al notaio imperiale <persName key="">Pietro</persName> la stesura della cartula.
+Actum <placeName key="">Luca</placeName>.
+Testimoni sottoscrittori: <persName key="">Andrea</persName> presbiter et vicedominus del <persName key="">fu Altiprando</persName>, <persName key="">Benedetto</persName> del <persName key="">fu Giovanni</persName>, <persName key="">Leone</persName> del <persName key="">fu Benedetto</persName>, ... , ..., <persName key="">Pietro</persName> notarius dom. imp.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p>
-                    <span style="text-align: justify; color: rgb(51, 51, 51); font-family: helvetica, gardiner, sans-serif; font-size: 14px;">MDL, 5/3, n. 1490, pp. 372-373.</span>
-                </p>
+                <p>MDL, 5/3, n. 1490, pp. 372-373.</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p>Tomei 2019a, pp. 236, 242.</p>

@@ -10,17 +10,6 @@
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
                     <date when="2020">2020</date>
                 </edition>
-                <principal>
-                    <persName ref="#fiscus"/>
-                </principal>
-                <respStmt>
-                    <resp>Metadata</resp>
-                    <persName ref="#fiscus">Fiscus Team</persName>
-                </respStmt>
-                <respStmt>
-                    <resp>TEI encoding</resp>
-                    <persName ref="#fiscus">Fiscus Team</persName>
-                </respStmt>
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
@@ -42,20 +31,20 @@
                     <msContents>
                         <summary>
                             <rs type="text_type" ref="https://ausohnum.huma-num.fr/concept/c25672">Commutatio</rs>
-                            <rs type="record_source" ref=""/>
-                            <rs type="document_tradition" ref=""/>
+                            <rs type="record_source" ref="#"/>
+                            <rs type="document_tradition" ref="#"/>
                             <rs type="fiscal_property"/>
                         </summary>
-                        <msItem xml:id="doc8-msItem1">
+                        <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
                         </msItem>
                     </msContents>
                     <history>
                         <origin>
-                            <origDate when="0936-05-07" evidence="anno pontefice (Leone VII); anno regno (Ugo e Lotario)" corresp="in vico Luculeta nella pieve di S. Giovanni in Persiceto (Bologna)"> 7 maggio 936</origDate>
+                            <origDate when="0936-05-07" corresp="in vico Luculeta nella pieve di S. Giovanni in Persiceto (Bologna)"> 7 maggio 936 <note>anno pontefice (Leone VII); anno regno (Ugo e Lotario)</note></origDate>
                             <origPlace/>
                         </origin>
-                        <provenance type="findspot">
+                        <provenance>
                             <location>
                                 <placeName/>
                             </location>
@@ -63,7 +52,16 @@
                     </history>
                 </msDesc>
                 <listPlace>
+                   <place></place>
                 </listPlace>
+            <listPerson>
+    <person corresp="http://137.204.128.125/people/23">
+            <persName xml:lang="en">Bonifacio</persName>
+        </person>
+    <person corresp="http://137.204.128.125/people/22">
+            <persName xml:lang="en">Ingelberto</persName>
+        </person>
+    </listPerson>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
@@ -72,20 +70,10 @@
                     <term/>
                 </keywords>
             </textClass>
-            <listPerson type="peopleInDocument">
-            
-    <person corresp="http://137.204.128.125/people/23">
-            <persName xml:lang="en">Bonifacio</persName>
-        </person>
-    <person corresp="http://137.204.128.125/people/22">
-            <persName xml:lang="en">Ingelberto</persName>
-        </person>
-    
-    </listPerson>
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change who="emanarini" when="2020-12-21T02:52:00.773-08:00">Creation of this file</change>
+                <change who="emanarini" when="2020-12-21T02:52:00.773-08:00">creation of record</change>
            <change when="2020-12-21T03:54:24.004-08:00" who="http://137.204.128.125/people/emanarini"/>
            <change when="2020-12-21T03:54:52.839-08:00" who="http://137.204.128.125/people/emanarini"/>
            <change when="2020-12-21T04:00:30.336-08:00" who="http://137.204.128.125/people/emanarini"/>
@@ -104,7 +92,7 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>In nomine Domini temporibus domni Leoni apostolici, pontificatus eius in Dei nomini anno primo, | regnate domno Ugone et domno Lothario filio eius magnis regibus anno domni | Ugoni decimo et domni Lothari VI, die septimo mensis ma(i)i, indictione VIIII, in vico Luco|leta ( ) infra plebe <orgName key="">Sancti Iohannis</orgName> in <placeName key="">Persecita</placeName>, territorio motinense vel bononiense ( ). Commutant inter se | presenti die domnus <persName key="count" ref="http://137.204.128.125/people/23">Bonefatius</persName> <rs key="count">comes</rs> filius bone memorie dom(ni) Ubaldi <rs key="count">comitis</rs>, dans ipse suprascriptus do(m)nu(s) | Bonefatius comes de iure suo in iure domni <persName key="" ref="http://137.204.128.125/people/22">Ingelberti</persName> venerabilis abbatis <placeName type="" key="" ref="http://137.204.128.125/places/15">monasterii Nonantule</placeName> territorio moti|(ne)nsi eiusque successoribus in perpetuis temporibus possidendum. Idest in fundo <placeName key="">Gaiolo</placeName> omnibus rebus et casis qu(e) | fuerunt recte et laborate per Geminiano Paulicio et modo fiunt laborate per Iohannes Presurio et detinet | de ipsis rebus per infiteosin Berno et Urso Paulicio, Azo et Urso dec(ani), et sunt ipse res ad ratione | facta int(er) terra aratoria et vineata et terra cum frascario iuge L et VI. Item in fundo Viniole | omnibus rebus et casis et vineis, terris cum omni sua pertinentia int(er) terra aratoria et frascario et vineata | ad ratione facta sunt iuges XVI et fiunt laborate ipse res per Samuhelem et Iohannem et Petrum; | simulque in fundo Riolo omnibus rebus et casis, terris, vineis, c[u]m omni sua pertinentia in integrum, quod est int(er) terra | de Hismahel et alia terra cum silva et frascario, iuges XVII et habet ibi massaricia una que | fuit recta et laborata per Andream Glutto que habet int(er) terra aratoria et vineata et silva|ta iuges XVIII. Et sunt de ipsis rebus in Arcuado iuges IIIIor ( ). E(t) est de suprascripis rebus in fundo | Rusti, massaricia I, insimul cum terra aratoria et frascario et vineata ad ratione facta | iuges XXVI in suprascripto fundo. Item in fundo Gavili super totas omnes res meas et pertinen|tias que ad nomen meum pertinent in suprascripto fundo (a) aut in circumiacentiis fundi[s] et modo | detinent per enfiteusin Rainfreus, Petrus, Adelbertus, Iohannes Cristini, Daibertus, Petrus et res | de Siginulfo et Andrea, item Petrus, Martinus presbiter et Leo et reliqui. Et in Gebolini massariciola | una que est iuges  III. Iteque terra que dicitur Regia in fundo Persecetano per singulas petiolas | mihi pertinente ad ratione facta iuges XXX. Item in fundo Corticelle, terra aratoria | cum frascario quanta ibi habemus omnia in integrum, quod est ad ratione facta iuges LXXV. | (b) Et est ipsa res super totum insimul per singula loca et fundoras sicut superius legitur iu[ges] | CCXLVII ( ). Simulque dans suprascriptus domnus Bonefatius comes de iure suo in iure domni I[n]|gelberti venerabili abbatis monasterii Nonantule suisque successoribus, idest omnibus rebus et casis iuris sui qu[e] | habere visus est trans flumen trans fluvium Padum in locis et fundis seu casalibus que dicitur Fabrica (c) et Badr[i]|niana et in pago Figariole seu in plebe de Septi Policino omnia in integrum quicquid invenire potueri|tis in ipsis suprascriptis casalibus vel fundoras cum curte mea que dicitur Septi Policino in comita|tu ferariense, cum omnia pertinentia que superius leguntur, que pertinet ad ipsam curtem cum omnia super se et infra se habente sicut superius legitur in integrum, cum terris, casis, edificiis, cispidibus, curtis, | hortis, areis, puteis, aquis, rivis, rupinis aquarum, paludibus, piscacionibus, miscionibus, venatio|nibus, arbustis, arboribus vel [animal]ibus a suprascritis rebus mihi (d) pertinentibus in suprascriptas fundoras | sicut superius legitur in integrum. Et si amplius de ipsis rebus in suprascriptis locis inveneritis (e) | in vestro iure vestrorumque successorum permaneat. Et sunt ipse res insimul super totum per singula | loca una cum ipsa curte cum suis pertinentiis et  apenditiis vel cum super se aut in[fra] | se aspicientibus iuges DCCCCXVIII. Hec autem que superius leguntur temp[ore] | domni Ingelberti abbatis translata sunt de breviario domni Bonifatii bone memorie | comitis causa recordationis in breviari(um) sancte nonantulensis ecclesiae. Et hec que | sequuntur tra[n]slata sunt de breviario nonantulensis ecclesie in breviarium domni | Bonefatii bone memorie comitis. Dedit ipse suprascriptus venerabilis Ingelbertus abbas monasteri Non[antule] | de iure ecclesie in iure domni Bonefatii bone memorie comitis eiusque heredibus in perpet[uis tem]|poribus possidendum curtem unam que vocatur Funziano in comitatu florentino [in lo]|co qui vocatur Maceline qui et Funziano vocatus cum omnibus rebus et pertinentiis su[is] | ad ipsam curtem pertinentibus una cum casis et rebus illis que sunt posite in loco qui dicitur Sebe[..2..]|no et in loco que dicitur Susiano et Memuniano vel ubi et ubi infra suprascriptis com|itatibus ad ipsa curtem pertinentibus per quovis titulum in integrum una cum terris, vineis, ca|sis, edificiis, seu colonis et massariciis. Et hec sunt nomina illorum: Sigo, Lupo, Alperto, | Leopardo, Barantino, Savino, Baruntio, Giso, Leopardo, Martino, Ildo, Lupo, | Stephano, Taiberto, Urso, Teoperto, item Urso, Rozo et alio Urso, Donato, Urseste|do, Ursi et alio Urso, Grimizo, Leo, Ansulo. Istis suprascriptis residentibus in terra | qu(i) pertinet de suprascript(a) curtem et est ipsa cors per apodismu(m) ad rationem facta | iuges mil(le) CLXIIIor, et sunt tulpi vinearum in ea per num(erum) XXX, et tres | milia XXV una cum silvis et casteneto et oliveto et pascuis, pratis, silvis, | salectis, arbustis, arboribus pomiferis, fructiferis diversique generibus, aquis, rivis, | rupinis, usibus aquarum fontibus, cultum et incultum cum omnia super se et infra se ha|bentem (f) omnia in integrum sicut superius comprehensum est ad ipsam curtem pertinentibus; | et si amplius de ipsis rebus infra prenominata loca invenire potueritis in vestro iure | permaneat.</ab>
+                    <ab>In nomine Domini temporibus domni Leoni apostolici, pontificatus eius in Dei nomini anno primo, | regnate domno Ugone et domno Lothario filio eius magnis regibus anno domni | Ugoni decimo et domni Lothari VI, die septimo mensis ma(i)i, indictione VIIII, in vico Luco|leta ( ) infra plebe <orgName key="">Sancti Iohannis</orgName> in <placeName key="">Persecita</placeName>, territorio motinense vel bononiense ( ). Commutant inter se | presenti die domnus <persName key="count" ref="http://137.204.128.125/people/23">Bonefatius</persName> <rs key="count">comes</rs> filius bone memorie dom(ni) Ubaldi <rs key="count">comitis</rs>, dans ipse suprascriptus do(m)nu(s) | Bonefatius comes de iure suo in iure domni <persName ref="http://137.204.128.125/people/22">Ingelberti</persName> venerabilis abbatis <placeName ref="http://137.204.128.125/places/15">monasterii Nonantule</placeName> territorio moti|(ne)nsi eiusque successoribus in perpetuis temporibus possidendum. Idest in fundo <placeName>Gaiolo</placeName> omnibus rebus et casis qu(e) | fuerunt recte et laborate per Geminiano Paulicio et modo fiunt laborate per Iohannes Presurio et detinet | de ipsis rebus per infiteosin Berno et Urso Paulicio, Azo et Urso dec(ani), et sunt ipse res ad ratione | facta int(er) terra aratoria et vineata et terra cum frascario iuge L et VI. Item in fundo Viniole | omnibus rebus et casis et vineis, terris cum omni sua pertinentia int(er) terra aratoria et frascario et vineata | ad ratione facta sunt iuges XVI et fiunt laborate ipse res per Samuhelem et Iohannem et Petrum; | simulque in fundo Riolo omnibus rebus et casis, terris, vineis, c[u]m omni sua pertinentia in integrum, quod est int(er) terra | de Hismahel et alia terra cum silva et frascario, iuges XVII et habet ibi massaricia una que | fuit recta et laborata per Andream Glutto que habet int(er) terra aratoria et vineata et silva|ta iuges XVIII. Et sunt de ipsis rebus in Arcuado iuges IIIIor ( ). E(t) est de suprascripis rebus in fundo | Rusti, massaricia I, insimul cum terra aratoria et frascario et vineata ad ratione facta | iuges XXVI in suprascripto fundo. Item in fundo Gavili super totas omnes res meas et pertinen|tias que ad nomen meum pertinent in suprascripto fundo (a) aut in circumiacentiis fundi[s] et modo | detinent per enfiteusin Rainfreus, Petrus, Adelbertus, Iohannes Cristini, Daibertus, Petrus et res | de Siginulfo et Andrea, item Petrus, Martinus presbiter et Leo et reliqui. Et in Gebolini massariciola | una que est iuges  III. Iteque terra que dicitur Regia in fundo Persecetano per singulas petiolas | mihi pertinente ad ratione facta iuges XXX. Item in fundo Corticelle, terra aratoria | cum frascario quanta ibi habemus omnia in integrum, quod est ad ratione facta iuges LXXV. | (b) Et est ipsa res super totum insimul per singula loca et fundoras sicut superius legitur iu[ges] | CCXLVII ( ). Simulque dans suprascriptus domnus Bonefatius comes de iure suo in iure domni I[n]|gelberti venerabili abbatis monasterii Nonantule suisque successoribus, idest omnibus rebus et casis iuris sui qu[e] | habere visus est trans flumen trans fluvium Padum in locis et fundis seu casalibus que dicitur Fabrica (c) et Badr[i]|niana et in pago Figariole seu in plebe de Septi Policino omnia in integrum quicquid invenire potueri|tis in ipsis suprascriptis casalibus vel fundoras cum curte mea que dicitur Septi Policino in comita|tu ferariense, cum omnia pertinentia que superius leguntur, que pertinet ad ipsam curtem cum omnia super se et infra se habente sicut superius legitur in integrum, cum terris, casis, edificiis, cispidibus, curtis, | hortis, areis, puteis, aquis, rivis, rupinis aquarum, paludibus, piscacionibus, miscionibus, venatio|nibus, arbustis, arboribus vel [animal]ibus a suprascritis rebus mihi (d) pertinentibus in suprascriptas fundoras | sicut superius legitur in integrum. Et si amplius de ipsis rebus in suprascriptis locis inveneritis (e) | in vestro iure vestrorumque successorum permaneat. Et sunt ipse res insimul super totum per singula | loca una cum ipsa curte cum suis pertinentiis et  apenditiis vel cum super se aut in[fra] | se aspicientibus iuges DCCCCXVIII. Hec autem que superius leguntur temp[ore] | domni Ingelberti abbatis translata sunt de breviario domni Bonifatii bone memorie | comitis causa recordationis in breviari(um) sancte nonantulensis ecclesiae. Et hec que | sequuntur tra[n]slata sunt de breviario nonantulensis ecclesie in breviarium domni | Bonefatii bone memorie comitis. Dedit ipse suprascriptus venerabilis Ingelbertus abbas monasteri Non[antule] | de iure ecclesie in iure domni Bonefatii bone memorie comitis eiusque heredibus in perpet[uis tem]|poribus possidendum curtem unam que vocatur Funziano in comitatu florentino [in lo]|co qui vocatur Maceline qui et Funziano vocatus cum omnibus rebus et pertinentiis su[is] | ad ipsam curtem pertinentibus una cum casis et rebus illis que sunt posite in loco qui dicitur Sebe[..2..]|no et in loco que dicitur Susiano et Memuniano vel ubi et ubi infra suprascriptis com|itatibus ad ipsa curtem pertinentibus per quovis titulum in integrum una cum terris, vineis, ca|sis, edificiis, seu colonis et massariciis. Et hec sunt nomina illorum: Sigo, Lupo, Alperto, | Leopardo, Barantino, Savino, Baruntio, Giso, Leopardo, Martino, Ildo, Lupo, | Stephano, Taiberto, Urso, Teoperto, item Urso, Rozo et alio Urso, Donato, Urseste|do, Ursi et alio Urso, Grimizo, Leo, Ansulo. Istis suprascriptis residentibus in terra | qu(i) pertinet de suprascript(a) curtem et est ipsa cors per apodismu(m) ad rationem facta | iuges mil(le) CLXIIIor, et sunt tulpi vinearum in ea per num(erum) XXX, et tres | milia XXV una cum silvis et casteneto et oliveto et pascuis, pratis, silvis, | salectis, arbustis, arboribus pomiferis, fructiferis diversique generibus, aquis, rivis, | rupinis, usibus aquarum fontibus, cultum et incultum cum omnia super se et infra se ha|bentem (f) omnia in integrum sicut superius comprehensum est ad ipsam curtem pertinentibus; | et si amplius de ipsis rebus infra prenominata loca invenire potueritis in vestro iure | permaneat.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">

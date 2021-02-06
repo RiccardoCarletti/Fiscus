@@ -10,17 +10,6 @@
                 <edition>Digital edition encoded for <ref target="http://137.204.128.125">Project Fiscus</ref>
                     <date when="2020">2020</date>
                 </edition>
-                <principal>
-                    <persName ref="#fiscus"/>
-                </principal>
-                <respStmt>
-                    <resp>Metadata</resp>
-                    <persName ref="#fiscus">Fiscus Team</persName>
-                </respStmt>
-                <respStmt>
-                    <resp>TEI encoding</resp>
-                    <persName ref="#fiscus">Fiscus Team</persName>
-                </respStmt>
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
@@ -46,16 +35,16 @@
                             <rs type="document_tradition" ref="https://ausohnum.huma-num.fr/concept/c26113">Copy</rs>
                             <rs type="fiscal_property">yes</rs>
                         </summary>
-                        <msItem xml:id="doc1-msItem1">
+                        <msItem xml:id="msItem1">
                             <textLang mainLang=" " otherLangs=""/>
                         </msItem>
                     </msContents>
                     <history>
                         <origin>
-                            <origDate notBefore="1004-09-24" notAfter="1052-05-06" evidence="prova prova">24 September 1004 - 6 May 1052</origDate>
+                            <origDate notBefore="1004-09-24" notAfter="1052-05-06">24 September 1004 - 6 May 1052 <note></note></origDate>
                             <origPlace/>
                         </origin>
-                        <provenance type="findspot">
+                        <provenance>
                             <location>
                                 <placeName/>
                             </location>
@@ -77,8 +66,15 @@
     <place>
         <placeName ref="http://137.204.128.125/places/4 undefined" ana="Place-of-writing-and-origin">Lucca</placeName>
         </place>
-
     </listPlace>
+            <listPerson>
+                <person corresp="http://137.204.128.125/people/1">
+            <persName xml:lang="en">Bonifacio</persName>
+        </person>
+                <person corresp="http://137.204.128.125/people/2">
+            <persName xml:lang="en">Cantaro</persName>
+        </person>
+    </listPerson>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
@@ -87,20 +83,10 @@
                       <term/>
                 </keywords>
             </textClass>
-            <listPerson type="peopleInDocument">
-            
-                <person corresp="http://137.204.128.125/people/1">
-            <persName xml:lang="en">Bonifacio</persName>
-        </person>
-                <person corresp="http://137.204.128.125/people/2">
-            <persName xml:lang="en">Cantaro</persName>
-        </person>
-    
-    </listPerson>
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change who="admin" when="2020-10-13T15:21:54.914+02:00">Creation of this file</change>
+                <change who="admin" when="2020-10-13T15:21:54.914+02:00">creation of record</change>
                 <change when="2020-10-13T15:26:21.662+02:00" who="http://137.204.128.125/people/admin"/>
                 <change when="2020-10-13T15:26:36.926+02:00" who="http://137.204.128.125/people/admin"/>
                 <change when="2020-12-04T03:33:36.514-08:00" who="http://137.204.128.125/people/fiscus"/>
@@ -132,8 +118,8 @@
             <div type="edition">
                 <div type="textpart">
                     <ab>
-                        <persName key="gastaldus/vicegastaldus, letters from public authority, property of criminals/political traitors" ref="http://137.204.128.125/people/2">Cantarus</persName> <rs key="gastaldus/vicegastaldus">gastaldius</rs> <persName key="marquis/duke, dominus/senior" ref="http://137.204.128.125/people/1">Bonefatii</persName> <rs key="marquis/duke">marchionis</rs> omnibus hominibus de <orgName key="" ref="">plebe de <placeName key="" ref="">Ilice</placeName>
-                        </orgName> ex parte <rs key="dominus/senior">senioris</rs> nostri <persName key="" ref="">Bonefatii</persName> marchionis et <rs key="letters from public authorities">nostra mandamus vobis</rs> ut omnes veniatis sicut per meos missos vobis mandavi excepto omnes qui sunt <rs key="manentes">manentes</rs> de <orgName key="manentes" ref="">canonica Sancti Martini</orgName> ipsi vero manentes remaneant et custodiant <placeName key="castle" ref="">
+                        <persName key="gastaldus/vicegastaldus, letters from public authority, property of criminals/political traitors" ref="http://137.204.128.125/people/2">Cantarus</persName> <rs key="gastaldus/vicegastaldus">gastaldius</rs> <persName key="marquis/duke, dominus/senior" ref="http://137.204.128.125/people/1">Bonefatii</persName> <rs key="marquis/duke">marchionis</rs> omnibus hominibus de <orgName key="">plebe de <placeName key="">Ilice</placeName>
+                        </orgName> ex parte <rs key="dominus/senior">senioris</rs> nostri <persName key="">Bonefatii</persName> marchionis et <rs key="letters from public authorities">nostra mandamus vobis</rs> ut omnes veniatis sicut per meos missos vobis mandavi excepto omnes qui sunt <rs key="manentes">manentes</rs> de <orgName key="manentes">canonica Sancti Martini</orgName> ipsi vero manentes remaneant et custodiant <placeName key="castle">
                             <rs key="castle">castellum</rs>
                         </placeName> quantum melius potuerint quia domnus noster marchio precepit eos remanere si autem alii remanserint sciant quia <rs key="property of criminals/political traitors">omnia sua bona perdent</rs>
                     </ab>

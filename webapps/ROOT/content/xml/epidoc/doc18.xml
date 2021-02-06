@@ -10,17 +10,6 @@
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
                     <date when="2021">2021</date>
                 </edition>
-                <principal>
-                    <persName ref="#fiscus"/>
-                </principal>
-                <respStmt>
-                    <resp>Metadata</resp>
-                    <persName ref="#fiscus">Fiscus Team</persName>
-                </respStmt>
-                <respStmt>
-                    <resp>TEI encoding</resp>
-                    <persName ref="#fiscus">Fiscus Team</persName>
-                </respStmt>
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
@@ -46,16 +35,16 @@
                             <rs type="document_tradition" ref="https://ausohnum.huma-num.fr/concept/c26113">Copy</rs>
                             <rs type="fiscal_property">yes</rs>
                         </summary>
-                        <msItem xml:id="doc18-msItem1">
+                        <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
                         </msItem>
                     </msContents>
                     <history>
                         <origin>
-                            <origDate when="0626-05-12" evidence="">12 maggio 626</origDate>
+                            <origDate when="0626-05-12">12 maggio 626 <note></note></origDate>
                             <origPlace/>
                         </origin>
-                        <provenance type="findspot">
+                        <provenance>
                             <location>
                                 <placeName/>
                             </location>
@@ -63,7 +52,13 @@
                     </history>
                 </msDesc>
                 <listPlace>
+                   <place></place>
                 </listPlace>
+            <listPerson>
+    <person corresp="http://137.204.128.125/people/68">
+            <persName xml:lang="en">Honorius I (625-638), papa</persName>
+        </person>
+    </listPerson>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
@@ -72,16 +67,10 @@
                     <term/>
                 </keywords>
             </textClass>
-            <listPerson type="peopleInDocument">
-            
-    <person corresp="http://137.204.128.125/people/68">
-            <persName xml:lang="en">Honorius I (625-638), papa</persName>
-        </person>
-    </listPerson>
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change who="fiscus" when="2021-01-14T02:49:33.151-08:00">Creation of this file</change>
+                <change who="fiscus" when="2021-01-14T02:49:33.151-08:00">creation of record</change>
            <change when="2021-01-14T06:54:56.659-08:00" who="http://137.204.128.125/people/fiscus"/>
            <change when="2021-01-17T05:03:14.771-08:00" who="http://137.204.128.125/people/dinternullo"/>
            <change when="2021-01-17T05:04:54.759-08:00" who="http://137.204.128.125/people/dinternullo"/>
@@ -95,8 +84,8 @@
             <div type="edition">
                 <div type="textpart">
                     <ab>
-                        <persName key="popes" ref="http://137.204.128.125/people/68">Honorius</persName> <persName key="notary" ref="">Servodei</persName> <rs key="notary">notario</rs>. 
-                        Quotiens a nobis illud petitur, quod rationi noscitur convenire, animo nos decet libenti concedere. Ideoque quia petisti a nobis, ut <rs key="casali">casale</rs>, quod appellatur <placeName key="casali, fiscal property, popes, objects, allocation to individuals, rent in money" ref="">Aurelianum</placeName>, in integro una cum vineis suis positum via Portuensi iuxta <orgName key="" ref="">Sanctos Abdon et Sennen</orgName>, prestantem auri solidos .II. semis iuris Sanctae Romanae cui Deo auctore deservimus Aecclesiae, tibi ad certum tempus debemus concedere. Eapropter huius precepti seriae emissa suprascriptum casale cum omnibus ad se pertinentibus tibi <rs key="allocation to individuals" ref="">presenti .XIIII. indictione diebus vitae tuae concedimus</rs>: ita sane, ut a <rs key="rent in money" ref="">te annis singulis pensionis nomine rationibus aecclesiasticis duo auri solidi et tremissis unus </rs>sine mora aliqua persolvantur, quatinus et tu aliquod exinde possis habere remedium et aecclesiae nostrae utilitas non decrescat. Post tuum vero obitum predictum casale ad ius Sanctae Ecclesiae nostrae, cuius est proprietas, revertatur sine dubio. <date>Dat. .IIII. idus Maii indictione .XIIII. anno domini ill</date>.</ab>
+                        <persName key="popes" ref="http://137.204.128.125/people/68">Honorius</persName> <persName key="notary">Servodei</persName> <rs key="notary">notario</rs>. 
+                        Quotiens a nobis illud petitur, quod rationi noscitur convenire, animo nos decet libenti concedere. Ideoque quia petisti a nobis, ut <rs key="casali">casale</rs>, quod appellatur <placeName key="casali, fiscal property, popes, objects, allocation to individuals, rent in money">Aurelianum</placeName>, in integro una cum vineis suis positum via Portuensi iuxta <orgName key="">Sanctos Abdon et Sennen</orgName>, prestantem auri solidos .II. semis iuris Sanctae Romanae cui Deo auctore deservimus Aecclesiae, tibi ad certum tempus debemus concedere. Eapropter huius precepti seriae emissa suprascriptum casale cum omnibus ad se pertinentibus tibi <rs key="allocation to individuals">presenti .XIIII. indictione diebus vitae tuae concedimus</rs>: ita sane, ut a <rs key="rent in money">te annis singulis pensionis nomine rationibus aecclesiasticis duo auri solidi et tremissis unus </rs>sine mora aliqua persolvantur, quatinus et tu aliquod exinde possis habere remedium et aecclesiae nostrae utilitas non decrescat. Post tuum vero obitum predictum casale ad ius Sanctae Ecclesiae nostrae, cuius est proprietas, revertatur sine dubio. <date>Dat. .IIII. idus Maii indictione .XIIII. anno domini ill</date>.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">

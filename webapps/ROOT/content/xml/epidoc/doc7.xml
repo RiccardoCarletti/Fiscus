@@ -10,17 +10,6 @@
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
                     <date when="2020">2020</date>
                 </edition>
-                <principal>
-                    <persName ref="#fiscus"/>
-                </principal>
-                <respStmt>
-                    <resp>Metadata</resp>
-                    <persName ref="#fiscus">Fiscus Team</persName>
-                </respStmt>
-                <respStmt>
-                    <resp>TEI encoding</resp>
-                    <persName ref="#fiscus">Fiscus Team</persName>
-                </respStmt>
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
@@ -42,20 +31,20 @@
                     <msContents>
                         <summary>
                             <rs type="text_type" ref="https://ausohnum.huma-num.fr/concept/c25676">Ordinatio</rs>
-                            <rs type="record_source" ref=""></rs>
-                            <rs type="document_tradition" ref=""></rs>
+                            <rs type="record_source" ref="#"></rs>
+                            <rs type="document_tradition" ref="#"></rs>
                             <rs type="fiscal_property"/>
                         </summary>
-                        <msItem xml:id="doc7-msItem1">
+                        <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
                         </msItem>
                     </msContents>
                     <history>
                         <origin>
-                            <origDate when="0905-05-03" evidence="18 anno di regno di Berengario I" corresp="Piacenza"> 3 maggio 905</origDate>
+                            <origDate when="0905-05-03" corresp="Piacenza"> 3 maggio 905 <note>18 anno di regno di Berengario I</note></origDate>
                             <origPlace/>
                         </origin>
-                        <provenance type="findspot">
+                        <provenance>
                             <location>
                                 <placeName/>
                             </location>
@@ -63,17 +52,9 @@
                     </history>
                 </msDesc>
                 <listPlace>
+                   <place></place>
                 </listPlace>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords>
-                    <term/>
-                </keywords>
-            </textClass>
-            <listPerson type="peopleInDocument">
-            
+            <listPerson>
     <person corresp="http://137.204.128.125/people/17">
             <persName xml:lang="en">Ilduino</persName>
         </person>
@@ -89,15 +70,19 @@
     <person corresp="http://137.204.128.125/people/20">
             <persName xml:lang="en">Everardo vescovo di Piacenza</persName>
         </person>
-    
-    
-    
-    
     </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change who="gvignodelli" when="2020-12-21T02:02:40.244-08:00">Creation of this file</change>
+                <change who="gvignodelli" when="2020-12-21T02:02:40.244-08:00">creation of record</change>
            <change when="2020-12-21T02:04:39.32-08:00" who="http://137.204.128.125/people/gvignodelli"/>
            <change when="2020-12-21T02:27:59.064-08:00" who="http://137.204.128.125/people/gvignodelli"/>
            <change when="2020-12-21T02:33:44.07-08:00" who="http://137.204.128.125/people/gvignodelli"/>

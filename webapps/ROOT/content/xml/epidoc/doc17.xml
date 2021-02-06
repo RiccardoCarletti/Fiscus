@@ -10,17 +10,6 @@
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
                     <date when="2020">2020</date>
                 </edition>
-                <principal>
-                    <persName ref="#fiscus"/>
-                </principal>
-                <respStmt>
-                    <resp>Metadata</resp>
-                    <persName ref="#fiscus">Fiscus Team</persName>
-                </respStmt>
-                <respStmt>
-                    <resp>TEI encoding</resp>
-                    <persName ref="#fiscus">Fiscus Team</persName>
-                </respStmt>
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
@@ -46,16 +35,16 @@
                             <rs type="document_tradition" ref="https://ausohnum.huma-num.fr/concept/c26112">Original</rs>
                             <rs type="fiscal_property"/>
                         </summary>
-                        <msItem xml:id="doc17-msItem1">
+                        <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
                         </msItem>
                     </msContents>
                     <history>
                         <origin>
-                            <origDate when="1131-11-26" evidence="anno dell'incarnazione 1131; indizione 10" corresp="Pratello, comitato di Volterra">26 novembre 1131</origDate>
+                            <origDate when="1131-11-26" corresp="Pratello, comitato di Volterra">26 novembre 1131 <note>anno dell'incarnazione 1131; indizione 10</note></origDate>
                             <origPlace/>
                         </origin>
-                        <provenance type="findspot">
+                        <provenance>
                             <location>
                                 <placeName/>
                             </location>
@@ -63,7 +52,13 @@
                     </history>
                 </msDesc>
                 <listPlace>
+                   <place></place>
                 </listPlace>
+            <listPerson>
+    <person corresp="http://137.204.128.125/people/44">
+            <persName xml:lang="en">Rampretto marchese di Tuscia</persName>
+        </person>
+    </listPerson>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
@@ -72,16 +67,10 @@
                     <term/>
                 </keywords>
             </textClass>
-            <listPerson type="peopleInDocument">
-            
-    <person corresp="http://137.204.128.125/people/44">
-            <persName xml:lang="en">Rampretto marchese di Tuscia</persName>
-        </person>
-    </listPerson>
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change who="smcollavini" when="2020-12-30T10:00:50.981-08:00">Creation of this file</change>
+                <change who="smcollavini" when="2020-12-30T10:00:50.981-08:00">creation of record</change>
            <change when="2020-12-30T10:07:22.001-08:00" who="http://137.204.128.125/people/smcollavini"/>
            <change when="2020-12-30T10:10:22.688-08:00" who="http://137.204.128.125/people/smcollavini"/>
            <change when="2020-12-30T10:28:03.415-08:00" who="http://137.204.128.125/people/smcollavini"/>
@@ -101,13 +90,13 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>(S) In nomine sancte et individue trinitatis, amen. <persName key="" ref="">Ramprettus</persName> divino munere Tuscie <rs key="marquis/duke">preses ac marchio</rs> omnibus quidem notum fieri volumus quomodo concedimus atque damus <orgName key="" ref="">ecclesie et monasterio Sancti Pontiani</orgName> fundato prope muros <placeName key="" ref="">Lucane civitatis</placeName> unam videlicet petiam de terra culta et inculta in qua casalinum et fontanam habetur et est in loco <placeName key="" ref="">Monteflexesi</placeName>, ubi | dicitur <placeName key="" ref="">Alberetum</placeName> et vocatur <placeName key="" ref="">
+                    <ab>(S) In nomine sancte et individue trinitatis, amen. <persName key="">Ramprettus</persName> divino munere Tuscie <rs key="marquis/duke">preses ac marchio</rs> omnibus quidem notum fieri volumus quomodo concedimus atque damus <orgName key="">ecclesie et monasterio Sancti Pontiani</orgName> fundato prope muros <placeName key="">Lucane civitatis</placeName> unam videlicet petiam de terra culta et inculta in qua casalinum et fontanam habetur et est in loco <placeName key="">Monteflexesi</placeName>, ubi | dicitur <placeName key="">Alberetum</placeName> et vocatur <placeName key="">
                             <rs key="fiscal property, alienations, allocation to churches, petiae, casalini/fundamenta, fountains">Mons Calvuli</rs>
                         </placeName>, sicut in circuitu designata est, que est per mensuram cum iusta pertica mensurata modiora quadraginta, una cum inferioribus et superioribus et cum accessionibus et ingressibus suis, quatenus deinceps in antea sit in potestate ipsius ecclesie et monasterii et illius abbatis atque illorum monachorum qui in ea pro tempore fuerint eam ad partem prefate ecclesie et monasterii habendi tenendi possidendi imperandi laborare faciendi et usufructuandi atque faciendi de ea quicquid voluerint et quod ex ea ad utilitatem predicte ecclesie et monasterii fecerint stabile permaneat semper. Statuimus preterea ut quicumque contra hanc nostram concessionems seu dationem ire vel agere tempaverit vel presumpserit sive aliquam abbatibus seu monachis qui in prefato monasterio aliquo tempore fuerint de ea litem vel molestiam aliquam inferre presmpserit, sciat se compositurum <rs key="penalty">argenti optimi libras centum</rs> medietatem <rs key="camera of other public authorities">nostre camere</rs>, alteram vero medietatem abbati et monachis predicti monasterii et ut hec presidalis auctoritas nostreque concessionis pagina de cetero inlibata permaneat roburque firmissimum semper obtienat venerabili crucis singno propria manu subscripto firmamus et nostri sigilli inpressione iussimus insigniri.
 + (LS)
-Hec acta sunt infra comitatum Vulterrensem in loco <placeName key="" ref="">Pratello</placeName>, prope <orgName key="" ref="">ecclesiam Sancti Frigiani</orgName>, presentibus <persName key="" ref="">Guidone Maloconsilio</persName> <persName key="" ref="">qd. Rolandi</persName>, <persName key="" ref="">Fulcerio</persName> <persName key="" ref="">qd. Rainerii</persName>, <persName key="" ref="">Balbano</persName> <persName key="" ref="">qd. Gerardi</persName>, <persName key="" ref="">Adaldo</persName> filio <persName key="" ref="">Opiti</persName>, | <persName key="" ref="">Ludrigo</persName> qd. filio <persName key="" ref="">Guidi</persName>, <persName key="" ref="">Sighirolo</persName> qd. <persName key="" ref="">Morandi</persName>, <persName key="" ref="">Guiscardo</persName> filio <persName key="" ref="">Rustici</persName>.
+Hec acta sunt infra comitatum Vulterrensem in loco <placeName key="">Pratello</placeName>, prope <orgName key="">ecclesiam Sancti Frigiani</orgName>, presentibus <persName key="">Guidone Maloconsilio</persName> <persName key="">qd. Rolandi</persName>, <persName key="">Fulcerio</persName> <persName key="">qd. Rainerii</persName>, <persName key="">Balbano</persName> <persName key="">qd. Gerardi</persName>, <persName key="">Adaldo</persName> filio <persName key="">Opiti</persName>, | <persName key="">Ludrigo</persName> qd. filio <persName key="">Guidi</persName>, <persName key="">Sighirolo</persName> qd. <persName key="">Morandi</persName>, <persName key="">Guiscardo</persName> filio <persName key="">Rustici</persName>.
 Anno dominice incarnationis millesimo centesimo trigesimo primo, sexto kalendas decembris, indictione decima.
-(S) <persName key="" ref="">Ugo notarius domni imperatoris</persName> cui presentia hec omnia acta ex iussione prefati domni Rampretti marchionis hec memorie causa scripsi.</ab>
+(S) <persName key="">Ugo notarius domni imperatoris</persName> cui presentia hec omnia acta ex iussione prefati domni Rampretti marchionis hec memorie causa scripsi.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">

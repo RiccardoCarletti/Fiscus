@@ -10,17 +10,6 @@
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
                     <date when="2020">2020</date>
                 </edition>
-                <principal>
-                    <persName ref="#fiscus"/>
-                </principal>
-                <respStmt>
-                    <resp>Metadata</resp>
-                    <persName ref="#fiscus">Fiscus Team</persName>
-                </respStmt>
-                <respStmt>
-                    <resp>TEI encoding</resp>
-                    <persName ref="#fiscus">Fiscus Team</persName>
-                </respStmt>
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
@@ -41,21 +30,21 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref=""></rs>
-                            <rs type="record_source" ref=""></rs>
-                            <rs type="document_tradition" ref=""></rs>
+                            <rs type="text_type" ref="#"></rs>
+                            <rs type="record_source" ref="#"></rs>
+                            <rs type="document_tradition" ref="#"></rs>
                             <rs type="fiscal_property">Yes</rs>
                         </summary>
-                        <msItem xml:id="doc4-msItem1">
+                        <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
                         </msItem>
                     </msContents>
                     <history>
                         <origin>
-                            <origDate when="0848-03-16" evidence="" corresp="Aachen (D) - Aquisgrani, palatio">16 March 848</origDate>
+                            <origDate when="0848-03-16" corresp="Aachen (D) - Aquisgrani, palatio">16 March 848 <note></note></origDate>
                             <origPlace/>
                         </origin>
-                        <provenance type="findspot">
+                        <provenance>
                             <location>
                                 <placeName/>
                             </location>
@@ -63,17 +52,9 @@
                     </history>
                 </msDesc>
                 <listPlace>
+                   <place></place>
                 </listPlace>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords>
-                    <term/>
-                </keywords>
-            </textClass>
-            <listPerson type="peopleInDocument">
-            
+            <listPerson>
     <person corresp="http://137.204.128.125/people/9">
             <persName xml:lang="en">Lotario I</persName>
         </person>
@@ -86,14 +67,19 @@
     <person corresp="http://137.204.128.125/people/30">
             <persName xml:lang="en">San Salvatore / Santa Giulia di Brescia</persName>
         </person>
-    
-    
-    
-    </listPerson>
+            </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change who="tlazzari" when="2020-12-18T11:24:47.236-08:00">Creation of this file</change>
+                <change who="tlazzari" when="2020-12-18T11:24:47.236-08:00">creation of record</change>
            <change when="2020-12-18T11:47:22.716-08:00" who="http://137.204.128.125/people/tlazzari"/>
            <change when="2020-12-19T11:14:01.492-08:00" who="http://137.204.128.125/people/tlazzari"/>
            <change when="2020-12-19T11:14:19.11-08:00" who="http://137.204.128.125/people/tlazzari"/>

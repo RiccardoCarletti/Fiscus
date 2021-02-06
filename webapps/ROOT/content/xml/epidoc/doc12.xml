@@ -10,17 +10,6 @@
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
                     <date when="2020">2020</date>
                 </edition>
-                <principal>
-                    <persName ref="#fiscus"/>
-                </principal>
-                <respStmt>
-                    <resp>Metadata</resp>
-                    <persName ref="#fiscus">Fiscus Team</persName>
-                </respStmt>
-                <respStmt>
-                    <resp>TEI encoding</resp>
-                    <persName ref="#fiscus">Fiscus Team</persName>
-                </respStmt>
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
@@ -42,20 +31,20 @@
                     <msContents>
                         <summary>
                             <rs type="text_type" ref="https://ausohnum.huma-num.fr/concept/c25688https://ausohnum.huma-num.fr/concept/c25690https://ausohnum.huma-num.fr/concept/c25689">Juridical sources</rs>
-                            <rs type="record_source" ref=""></rs>
-                            <rs type="document_tradition" ref=" "></rs>
+                            <rs type="record_source" ref="#"></rs>
+                            <rs type="document_tradition" ref="#"></rs>
                             <rs type="fiscal_property"/>
                         </summary>
-                        <msItem xml:id="doc12-msItem1">
+                        <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
                         </msItem>
                     </msContents>
                     <history>
                         <origin>
-                            <origDate notBefore="1202-04-05" notAfter="1202-12-31" evidence="" corresp="Piacenza (I) – in maiori ecclesia"> 1202 April 5</origDate>
+                            <origDate notBefore="1202-04-05" notAfter="1202-12-31" corresp="Piacenza (I) – in maiori ecclesia"> 5 April 1202 <note></note></origDate>
                             <origPlace>Monastery of S. Sisto, Piacenza</origPlace>
                         </origin>
-                        <provenance type="findspot">
+                        <provenance>
                             <location>
                                 <placeName/>
                             </location>
@@ -63,7 +52,11 @@
                     </history>
                 </msDesc>
                 <listPlace>
+                   <place></place>
                 </listPlace>
+            <listPerson>
+            	<person></person>
+            </listPerson>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
@@ -72,12 +65,10 @@
                     <term/>
                 </keywords>
             </textClass>
-            <listPerson type="peopleInDocument">
-            </listPerson>
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change who="ltabarrini" when="2020-12-22T01:49:51.888-08:00">Creation of this file</change>
+                <change who="ltabarrini" when="2020-12-22T01:49:51.888-08:00">creation of record</change>
            <change when="2020-12-22T02:08:49.952-08:00" who="http://137.204.128.125/people/ltabarrini"/>
            <change when="2020-12-22T02:19:34.224-08:00" who="http://137.204.128.125/people/ltabarrini"/>
            <change when="2020-12-22T02:35:15.937-08:00" who="http://137.204.128.125/people/ltabarrini"/>
@@ -100,9 +91,9 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>Lis <persName key="" ref="">Gerardi de Puteo</persName> contra <persName key="" ref="">Antolinum oclum bovis</persName> et <persName key="" ref="">fratrem predicti</persName>. <date>1202, indictione quinta, ultimo mensis Aprelis.</date> <persName key="" ref="">Petrus de Cesa de Rivalta</persName> interrogatus dicit XXIIII anni sunt quod primo usus sui in <placeName key="" ref="">Gosolengo</placeName> et tunc intravi ad standum cum quadam <persName key="" ref="">Bosone de Puteo</persName> cum quo steti tres annos et tunc <rs key="rights of use on woods/pastures/waters">pro eo taliavi boscavi</rs> in glareis et insulis de quibus lis est et inde <rs key="rights of use on woods/pastures/waters">lignum extraxi</rs> nemine contradicente, et videbam rusticos eius in eis <rs key="rights of use on woods/pastures/waters">taliare et pascuare et eas insulas et glareas pro eo godere et ex ipsis lignum extrahere</rs> et ipsum Bosonem dare ipsas insulas et glareas alteri ad incidendum ad medium et expellere ex ipsis homines quos invenit, quo defuncto vidi <persName key="" ref="">Gerardum</persName> et <persName key="" ref="">Guillelmum</persName> eius filios ipsas <rs key="islands">insulas et glareas</rs> tenere et possidere donec Guillelmum vixit sicuti ceteri domini faciebant, faciendo in ipsis insulis et glareis incidere et boscare et ex eis lignum extrahere et rusticos suos in ipsis taliare et boscare et pascuare et inde lignum extrahere et ego pro ipsis fratribus in eis incidi et boscavi et ex eis lignum extraxi, quo Guillielmo defuncto vidi postea Gerardum facere similiter pro se et nepote et rusticos eorum pro eis et ceteris fama est per Gosolengum quod predicte insule et glaree ita sunt isti Gerardi et nepotis quemadmodum ceterorum dominorum Gosolengi et vidi ipsum Bosonem donec vixit et usus sui cum eo et post eius mortem Guillelmum et Gerardum habere ita suam partem pascuum sicuti ceteri domini habebant que pascua omnia erant sicuti erant iste insule et glaree. <date>1202, ind. sexta die martis, ultimo mensis Decembris</date>, Plaç(entia) in maiori ecclesia, coram <persName key="" ref="">Ugone Gislando</persName>, <persName key="" ref="">Guillelmo Codeporco</persName>, <persName key="" ref="">Alberto B[a]reino</persName> et <persName key="" ref="">Alberteno de Vivellis</persName>, <persName key="" ref="">Musso Ianatti</persName>, <persName key="" ref="">Petro Rubeo</persName>, <persName key="" ref="">Guillelmo Bellengario</persName> testibus rogatis. § <persName key="" ref="">Albericus vicedominus</persName> consul iusticie concordia et presencia <persName key="" ref="">Rainerii de Cario</persName> et <persName key="" ref="">Guillelmi de Pigaciano</persName> sociorum suorum precepit <persName key="" ref="">Petro de Rustico</persName> ut istum testem publicaret et in publicam fermam reddigeret.
+                    <ab>Lis <persName key="">Gerardi de Puteo</persName> contra <persName key="">Antolinum oclum bovis</persName> et <persName key="">fratrem predicti</persName>. <date>1202, indictione quinta, ultimo mensis Aprelis.</date> <persName key="">Petrus de Cesa de Rivalta</persName> interrogatus dicit XXIIII anni sunt quod primo usus sui in <placeName key="">Gosolengo</placeName> et tunc intravi ad standum cum quadam <persName key="">Bosone de Puteo</persName> cum quo steti tres annos et tunc <rs key="rights of use on woods/pastures/waters">pro eo taliavi boscavi</rs> in glareis et insulis de quibus lis est et inde <rs key="rights of use on woods/pastures/waters">lignum extraxi</rs> nemine contradicente, et videbam rusticos eius in eis <rs key="rights of use on woods/pastures/waters">taliare et pascuare et eas insulas et glareas pro eo godere et ex ipsis lignum extrahere</rs> et ipsum Bosonem dare ipsas insulas et glareas alteri ad incidendum ad medium et expellere ex ipsis homines quos invenit, quo defuncto vidi <persName key="">Gerardum</persName> et <persName key="">Guillelmum</persName> eius filios ipsas <rs key="islands">insulas et glareas</rs> tenere et possidere donec Guillelmum vixit sicuti ceteri domini faciebant, faciendo in ipsis insulis et glareis incidere et boscare et ex eis lignum extrahere et rusticos suos in ipsis taliare et boscare et pascuare et inde lignum extrahere et ego pro ipsis fratribus in eis incidi et boscavi et ex eis lignum extraxi, quo Guillielmo defuncto vidi postea Gerardum facere similiter pro se et nepote et rusticos eorum pro eis et ceteris fama est per Gosolengum quod predicte insule et glaree ita sunt isti Gerardi et nepotis quemadmodum ceterorum dominorum Gosolengi et vidi ipsum Bosonem donec vixit et usus sui cum eo et post eius mortem Guillelmum et Gerardum habere ita suam partem pascuum sicuti ceteri domini habebant que pascua omnia erant sicuti erant iste insule et glaree. <date>1202, ind. sexta die martis, ultimo mensis Decembris</date>, Plaç(entia) in maiori ecclesia, coram <persName key="">Ugone Gislando</persName>, <persName key="">Guillelmo Codeporco</persName>, <persName key="">Alberto B[a]reino</persName> et <persName key="">Alberteno de Vivellis</persName>, <persName key="">Musso Ianatti</persName>, <persName key="">Petro Rubeo</persName>, <persName key="">Guillelmo Bellengario</persName> testibus rogatis. § <persName key="">Albericus vicedominus</persName> consul iusticie concordia et presencia <persName key="">Rainerii de Cario</persName> et <persName key="">Guillelmi de Pigaciano</persName> sociorum suorum precepit <persName key="">Petro de Rustico</persName> ut istum testem publicaret et in publicam fermam reddigeret.
 
-Ego <persName key="" ref="">Iohannes filius Guitelmi de Cellolis</persName> notarius, mandato Petri de Rustico istum testem publicavi et in publicam formam reddegi.
+Ego <persName key="">Iohannes filius Guitelmi de Cellolis</persName> notarius, mandato Petri de Rustico istum testem publicavi et in publicam formam reddegi.
 
 Ego idem Petrus de Rustico notarius interfui et istam attestationem mandato meo a isto Iohanne publicatam confirmavi et subscripsi.
 </ab>

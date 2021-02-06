@@ -10,17 +10,6 @@
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
                     <date when="2020">2020</date>
                 </edition>
-                <principal>
-                    <persName ref="#fiscus"/>
-                </principal>
-                <respStmt>
-                    <resp>Metadata</resp>
-                    <persName ref="#fiscus">Fiscus Team</persName>
-                </respStmt>
-                <respStmt>
-                    <resp>TEI encoding</resp>
-                    <persName ref="#fiscus">Fiscus Team</persName>
-                </respStmt>
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
@@ -46,16 +35,16 @@
                             <rs type="document_tradition" ref="https://ausohnum.huma-num.fr/concept/c26112">Original</rs>
                             <rs type="fiscal_property"/>
                         </summary>
-                        <msItem xml:id="doc16-msItem1">
+                        <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
                         </msItem>
                     </msContents>
                     <history>
                         <origin>
-                            <origDate when="1104-07-06" evidence="Anno incarnazione 1104; Indizione 12" corresp="Lucca">6 luglio 1104</origDate>
+                            <origDate when="1104-07-06" corresp="Lucca">6 luglio 1104 <note>Anno incarnazione 1104; Indizione 12</note></origDate>
                             <origPlace/>
                         </origin>
-                        <provenance type="findspot">
+                        <provenance>
                             <location>
                                 <placeName/>
                             </location>
@@ -63,7 +52,11 @@
                     </history>
                 </msDesc>
                 <listPlace>
+                   <place></place>
                 </listPlace>
+            <listPerson>
+            	<person></person>
+            </listPerson>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
@@ -72,12 +65,10 @@
                     <term/>
                 </keywords>
             </textClass>
-            <listPerson type="peopleInDocument">
-            </listPerson>
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change who="smcollavini" when="2020-12-30T08:58:48.035-08:00">Creation of this file</change>
+                <change who="smcollavini" when="2020-12-30T08:58:48.035-08:00">creation of record</change>
            <change when="2020-12-30T08:59:54.075-08:00" who="http://137.204.128.125/people/smcollavini"/>
            <change when="2020-12-30T09:23:27.167-08:00" who="http://137.204.128.125/people/smcollavini"/>
            <change when="2020-12-30T09:23:54.381-08:00" who="http://137.204.128.125/people/smcollavini"/>
@@ -92,9 +83,9 @@
             <div type="edition">
                 <div type="textpart">
                     <ab>
-                        <persName key="" ref="">Ildebrandus</persName> filius <persName key="" ref="">b.m. Tecti</persName> et <persName key="" ref="">Lieta</persName> genitrix eius et relicta qd. suprascripti Tecti et filia <persName key="" ref="">b.m. Oppiti</persName> ricevuto a nome di Brunus in Christi nomine abbas de <orgName key="" ref="">ecclesia et monasterii Sancti Pontiani</orgName> (…) meritum da <persName key="" ref="">Iohannes iudex</persName> pro pendo uno ex auro pro solidis duocemtum pro persona tua qui supra <persName key="" ref="">Brunus abbati</persName> (…) promettono di non contestare o sottrarre de tertia portione ex integra et de alia tertia portione ex integra due portiones ex imtegre de una cassina et re massaricia que esse videtur in loco et finibus <placeName key="" ref="">Saltucclo</placeName>, ubi dicitur <placeName key="" ref="">
+                        <persName key="">Ildebrandus</persName> filius <persName key="">b.m. Tecti</persName> et <persName key="">Lieta</persName> genitrix eius et relicta qd. suprascripti Tecti et filia <persName key="">b.m. Oppiti</persName> ricevuto a nome di Brunus in Christi nomine abbas de <orgName key="">ecclesia et monasterii Sancti Pontiani</orgName> (…) meritum da <persName key="">Iohannes iudex</persName> pro pendo uno ex auro pro solidis duocemtum pro persona tua qui supra <persName key="">Brunus abbati</persName> (…) promettono di non contestare o sottrarre de tertia portione ex integra et de alia tertia portione ex integra due portiones ex imtegre de una cassina et re massaricia que esse videtur in loco et finibus <placeName key="">Saltucclo</placeName>, ubi dicitur <placeName key="">
                             <rs key="emperor/king">Vinea Regis</rs>
-                        </placeName> que recta et laborata esse videtur per *** massarium quas tibi per cartulam scripta ex manibus <persName key="" ref="">Conradi notarii</persName> domini imperatoris ex comparatione obvenit a nobis ipsis. Pena: argentum obtimum libras viginti. (…) Actum <placeName key="" ref="">Luca</placeName>.  SM Ildebrandi et Liete. SM <persName key="" ref="">Alberti</persName> filii <persName key="" ref="">b.m. Teudegrimi iudicis</persName>. SM <persName key="" ref="">Henrichi</persName> filii b.m. <persName key="" ref="">Iohannis iudicis</persName>. SM <persName key="" ref="">Mucciani</persName> filii <persName key="" ref="">b.m. Barocci</persName>. Scrive: <persName key="" ref="">Conradus notarius domini imperatoris</persName>
+                        </placeName> que recta et laborata esse videtur per *** massarium quas tibi per cartulam scripta ex manibus <persName key="">Conradi notarii</persName> domini imperatoris ex comparatione obvenit a nobis ipsis. Pena: argentum obtimum libras viginti. (…) Actum <placeName key="">Luca</placeName>.  SM Ildebrandi et Liete. SM <persName key="">Alberti</persName> filii <persName key="">b.m. Teudegrimi iudicis</persName>. SM <persName key="">Henrichi</persName> filii b.m. <persName key="">Iohannis iudicis</persName>. SM <persName key="">Mucciani</persName> filii <persName key="">b.m. Barocci</persName>. Scrive: <persName key="">Conradus notarius domini imperatoris</persName>
                     </ab>
                 </div>
             </div>

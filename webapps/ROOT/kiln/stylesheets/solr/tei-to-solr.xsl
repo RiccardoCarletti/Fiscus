@@ -161,7 +161,7 @@
     <field name="record_source">
       <xsl:choose>
         <xsl:when test="text()">
-          <xsl:apply-templates select="."/>
+          <xsl:value-of select="translate(., '/', '／')"/>
         </xsl:when>
         <xsl:otherwise>
           <xsl:text>-</xsl:text>
@@ -174,7 +174,7 @@
     <field name="document_tradition">
       <xsl:choose>
         <xsl:when test="text()">
-          <xsl:apply-templates select="."/>
+          <xsl:value-of select="translate(., '/', '／')"/>
         </xsl:when>
         <xsl:otherwise>
           <xsl:text>-</xsl:text>
@@ -183,13 +183,13 @@
     </field>
   </xsl:template>
 
-  <xsl:template match="//tei:provenance[1]//tei:placeName" mode="facet_provenance">
+  <xsl:template match="//tei:origPlace" mode="facet_provenance">
     <!-- This does nothing to prevent duplicate instances of the same
          @ref value being recorded. -->
     <field name="provenance">
       <xsl:choose>
         <xsl:when test="text()">
-          <xsl:apply-templates select="."/>
+          <xsl:value-of select="translate(., '/', '／')"/>
         </xsl:when>
         <xsl:otherwise>
           <xsl:text>-</xsl:text>
@@ -200,7 +200,7 @@
   
   <xsl:template match="tei:orgName" mode="facet_mentioned_juridical_persons">
       <field name="mentioned_juridical_persons">
-        <xsl:value-of select="." />
+        <xsl:value-of select="translate(., '/', '／')" />
       </field>
   </xsl:template>
   
@@ -208,7 +208,7 @@
     <field name="topical_date">
       <xsl:choose>
         <xsl:when test=".!=''">
-          <xsl:apply-templates select="."/>
+          <xsl:value-of select="translate(., '/', '／')"/>
         </xsl:when>
         <xsl:otherwise>
           <xsl:text>-</xsl:text>
@@ -221,6 +221,8 @@
     <field name="fiscal_property">
       <xsl:choose>
         <xsl:when test="contains(lower-case(.), 'yes')"><xsl:text>Yes</xsl:text></xsl:when>
+        <xsl:when test="contains(lower-case(.), 'no')"><xsl:text>No</xsl:text></xsl:when>
+        <xsl:when test="contains(lower-case(.), 'uncertain')"><xsl:text>Uncertain</xsl:text></xsl:when>
         <xsl:otherwise><xsl:text>No or uncertain</xsl:text></xsl:otherwise>
       </xsl:choose>
     </field>
@@ -228,19 +230,19 @@
 
   <xsl:template match="tei:persName" mode="facet_mentioned_persons">
     <field name="mentioned_persons">
-      <xsl:value-of select="." />
+      <xsl:value-of select="translate(., '/', '／')" />
     </field>
   </xsl:template>
 
   <xsl:template match="tei:persName" mode="facet_mentioned_people">
     <field name="mentioned_people">
-      <xsl:value-of select="." />
+      <xsl:value-of select="translate(., '/', '／')" />
     </field>
   </xsl:template>
 
   <xsl:template match="tei:placeName" mode="facet_mentioned_places">
     <field name="mentioned_places">
-      <xsl:value-of select="." />
+      <xsl:value-of select="translate(., '/', '／')" />
     </field>
   </xsl:template>
 
@@ -291,7 +293,7 @@
   </xsl:template>
 
   <xsl:template name="field_provenance">
-    <xsl:apply-templates mode="facet_provenance" select="//tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:provenance//tei:placeName" />
+    <xsl:apply-templates mode="facet_provenance" select="//tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:origPlace" />
   </xsl:template>
 
   <xsl:template name="field_record_source">

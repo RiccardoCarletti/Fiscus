@@ -10,17 +10,6 @@
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
                     <date when="2021">2021</date>
                 </edition>
-                <principal>
-                    <persName ref="emanarini">Edoardo Manarini</persName>
-                </principal>
-                <respStmt>
-                    <resp>Metadata</resp>
-                    <persName ref="emanarini">Edoardo Manarini</persName>
-                </respStmt>
-                <respStmt>
-                    <resp>TEI encoding</resp>
-                    <persName ref="emanarini">Edoardo Manarini</persName>
-                </respStmt>
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
@@ -46,16 +35,16 @@
                             <rs type="document_tradition" ref="https://ausohnum.huma-num.fr/concept/c26112">Original</rs>
                             <rs type="fiscal_property">yes</rs>
                         </summary>
-                        <msItem xml:id="doc24-msItem1">
+                        <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
                         </msItem>
                     </msContents>
                     <history>
                         <origin>
-                            <origDate when="0780-07-28" corresp="Lippspringe (Sassonia)">28 luglio 780</origDate>
+                            <origDate when="0780-07-28" corresp="Lippspringe (Sassonia)">28 luglio 780 <note></note></origDate>
                             <origPlace/>
                         </origin>
-                        <provenance type="findspot">
+                        <provenance>
                             <location>
                                 <placeName/>
                             </location>
@@ -63,17 +52,9 @@
                     </history>
                 </msDesc>
                 <listPlace>
+                   <place></place>
                 </listPlace>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords>
-                    <term/>
-                </keywords>
-            </textClass>
-            <listPerson type="peopleInDocument">
-            
+            <listPerson>
     <person corresp="http://137.204.128.125/people/14">
             <persName xml:lang="en">Carlo Magno</persName>
         </person>
@@ -89,15 +70,19 @@
     <person corresp="http://137.204.128.125/people/50">
             <persName xml:lang="en">Curtis di Cittanova</persName>
         </person>
-    
-    
-    
-    
     </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change who="emanarini" when="2021-01-14T08:03:31.091-08:00">Creation of this file</change>
+                <change who="emanarini" when="2021-01-14T08:03:31.091-08:00">creation of record</change>
            <change when="2021-01-14T08:48:59.703-08:00" who="http://137.204.128.125/people/emanarini"/>
            <change when="2021-01-14T08:52:05.288-08:00" who="http://137.204.128.125/people/emanarini"/>
             </listChange>

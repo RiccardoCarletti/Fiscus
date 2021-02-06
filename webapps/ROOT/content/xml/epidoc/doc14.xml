@@ -10,17 +10,6 @@
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
                     <date when="2020">2020</date>
                 </edition>
-                <principal>
-                    <persName ref="#fiscus"/>
-                </principal>
-                <respStmt>
-                    <resp>Metadata</resp>
-                    <persName ref="#fiscus">Fiscus Team</persName>
-                </respStmt>
-                <respStmt>
-                    <resp>TEI encoding</resp>
-                    <persName ref="#fiscus">Fiscus Team</persName>
-                </respStmt>
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
@@ -46,16 +35,16 @@
                             <rs type="document_tradition" ref="https://ausohnum.huma-num.fr/concept/c26112">Original</rs>
                             <rs type="fiscal_property">Yes</rs>
                         </summary>
-                        <msItem xml:id="doc14-msItem1">
+                        <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
                         </msItem>
                     </msContents>
                     <history>
                         <origin>
-                            <origDate when="0924-11-12" evidence="Incarnation Style, Third Year of Rodulf's Reign in Italy " corresp="Verona (IT)">12 November 924</origDate>
+                            <origDate when="0924-11-12" corresp="Verona (IT)">12 November 924 <note>Incarnation Style, Third Year of Rodulf's Reign in Italy</note></origDate>
                             <origPlace>Monastery of S. Sisto, Piacenza</origPlace>
                         </origin>
-                        <provenance type="findspot">
+                        <provenance>
                             <location>
                                 <placeName/>
                             </location>
@@ -63,17 +52,9 @@
                     </history>
                 </msDesc>
                 <listPlace>
+                   <place></place>
                 </listPlace>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords>
-                    <term/>
-                </keywords>
-            </textClass>
-            <listPerson type="peopleInDocument">
-            
+            <listPerson>
     <person corresp="http://137.204.128.125/people/37">
             <persName xml:lang="en">Rudolf II of Burgundy (911-33)</persName>
         </person>
@@ -89,15 +70,19 @@
     <person corresp="http://137.204.128.125/people/45">
             <persName xml:lang="en">Lamperto, Bishop of Milan (921-31)</persName>
         </person>
-    
-    
-    
-    
     </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change who="ltabarrini" when="2020-12-28T07:33:03.283-08:00">Creation of this file</change>
+                <change who="ltabarrini" when="2020-12-28T07:33:03.283-08:00">creation of record</change>
            <change when="2020-12-28T08:50:34.58-08:00" who="http://137.204.128.125/people/ltabarrini"/>
            <change when="2020-12-28T09:01:00.797-08:00" who="http://137.204.128.125/people/ltabarrini"/>
            <change when="2020-12-28T09:04:34.671-08:00" who="http://137.204.128.125/people/ltabarrini"/>
@@ -143,11 +128,12 @@
                             <placeName key="curtes, fiscal property" ref="http://137.204.128.125/places/32">Luzariam</placeName>
                         </geogName>, Litora Paludiana, Villolę, <geogName key="" ref="http://137.204.128.125/people/42">
                             <placeName key="curtes, fiscal property" ref="http://137.204.128.125/places/34">Piguniarius</placeName>
-                        </geogName>, e tutte le cose che la predetta imperatrice trasferì al cenobio. Il monastero è affidato a Berta che ne sarà dominatrix, ordinatrix atque retrix. Concediamo tutti i possessi mobiles ac immobiles, tam per cartulas quamque extra cartulas o pervenuti a qualsiasi altro titolo, acquisiti o da acquisire, tutto quello che è stato concesso dagli imperatori, atque cellulam quandam que antiquitus monasterium dicebatur non procul a Placentina urbe sitam, loco qui Caput Trebiae vocatur, che era stata data da Carlomanno al monastero proprietario iure. Familias quoque utriusque sexus et conditionis cum curtibus et cappellis e segue l’elenco di tutte le appendici. Per chiunque violerà gli accordi, pena di £150 d’oro, metà da pagare camerę nostre, metà a Berta.SM Rodulfi piissimi regis.<persName key="" ref="">Manno cancellarius</persName> ad vicem venerabilis Beati episcopi et archicancellarii rec. et sub. Data. Actum Veronę, in Christi nomine feliciter, amen.</ab>
+                        </geogName>, e tutte le cose che la predetta imperatrice trasferì al cenobio. Il monastero è affidato a Berta che ne sarà dominatrix, ordinatrix atque retrix. Concediamo tutti i possessi mobiles ac immobiles, tam per cartulas quamque extra cartulas o pervenuti a qualsiasi altro titolo, acquisiti o da acquisire, tutto quello che è stato concesso dagli imperatori, atque cellulam quandam que antiquitus monasterium dicebatur non procul a Placentina urbe sitam, loco qui Caput Trebiae vocatur, che era stata data da Carlomanno al monastero proprietario iure. Familias quoque utriusque sexus et conditionis cum curtibus et cappellis e segue l’elenco di tutte le appendici. Per chiunque violerà gli accordi, pena di £150 d’oro, metà da pagare camerę nostre, metà a Berta.SM Rodulfi piissimi regis.<persName>Manno cancellarius</persName> ad vicem venerabilis Beati episcopi et archicancellarii rec. et sub. Data. Actum Veronę, in Christi nomine feliciter, amen.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p>Schiaparelli, <i xmlns="">I diplomi di Rodolfo II</i>, pp. 117-20, no. VIII<br xmlns=""/>Drei, <i xmlns="">Le carte </i>I,101-4, no. XXXI</p>
+                <p>Schiaparelli, <foreign>I diplomi di Rodolfo II</foreign>, pp. 117-20, no. VIII</p>
+                <p>Drei, <foreign>Le carte I</foreign>,101-4, no. XXXI</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p>Cimino 2012</p>

@@ -10,17 +10,6 @@
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
                     <date when="2020">2020</date>
                 </edition>
-                <principal>
-                    <persName ref="#fiscus"/>
-                </principal>
-                <respStmt>
-                    <resp>Metadata</resp>
-                    <persName ref="#fiscus">Fiscus Team</persName>
-                </respStmt>
-                <respStmt>
-                    <resp>TEI encoding</resp>
-                    <persName ref="#fiscus">Fiscus Team</persName>
-                </respStmt>
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
@@ -42,20 +31,20 @@
                     <msContents>
                         <summary>
                             <rs type="text_type" ref="https://ausohnum.huma-num.fr/concept/c25670https://ausohnum.huma-num.fr/concept/c25672https://ausohnum.huma-num.fr/concept/c25673https://ausohnum.huma-num.fr/concept/c25678https://ausohnum.huma-num.fr/concept/c25674https://ausohnum.huma-num.fr/concept/c25676https://ausohnum.huma-num.fr/concept/c25675https://ausohnum.huma-num.fr/concept/c25677https://ausohnum.huma-num.fr/concept/c25671">Cartula</rs>
-                            <rs type="record_source" ref=""></rs>
-                            <rs type="document_tradition" ref=""></rs>
+                            <rs type="record_source" ref="#"></rs>
+                            <rs type="document_tradition" ref="#"></rs>
                             <rs type="fiscal_property">Yes</rs>
                         </summary>
-                        <msItem xml:id="doc6-msItem1">
+                        <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
                         </msItem>
                     </msContents>
                     <history>
                         <origin>
-                            <origDate when="1190-07-26" evidence="" corresp="Piacenza (I) - in claustro Sancti Sisti">26 July 1190</origDate>
+                            <origDate when="1190-07-26" corresp="Piacenza (I) - in claustro Sancti Sisti">26 July 1190 <note></note></origDate>
                             <origPlace>Monastery of S. Sisto, Piacenza</origPlace>
                         </origin>
-                        <provenance type="findspot">
+                        <provenance>
                             <location>
                                 <placeName/>
                             </location>
@@ -63,7 +52,13 @@
                     </history>
                 </msDesc>
                 <listPlace>
+                   <place></place>
                 </listPlace>
+            <listPerson>
+    <person corresp="http://137.204.128.125/people/16">
+            <persName xml:lang="en">Abbot Gandolfo</persName>
+        </person>
+    </listPerson>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
@@ -72,16 +67,10 @@
                     <term/>
                 </keywords>
             </textClass>
-            <listPerson type="peopleInDocument">
-            
-    <person corresp="http://137.204.128.125/people/16">
-            <persName xml:lang="en">Abbot Gandolfo</persName>
-        </person>
-    </listPerson>
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change who="ltabarrini" when="2020-12-21T01:36:43.303-08:00">Creation of this file</change>
+                <change who="ltabarrini" when="2020-12-21T01:36:43.303-08:00">creation of record</change>
            <change when="2020-12-21T01:51:02.92-08:00" who="http://137.204.128.125/people/ltabarrini"/>
            <change when="2020-12-21T01:59:39.326-08:00" who="http://137.204.128.125/people/ltabarrini"/>
            <change when="2020-12-21T02:03:28.052-08:00" who="http://137.204.128.125/people/ltabarrini"/>
@@ -110,13 +99,10 @@
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p>
-                    <span xmlns="" class="s1" style="font-kerning: none;">Drei, <i>Le carte</i> III/2, no. 677, pp. 510-1</span>
-                </p>
+                <p>Drei, <foreign>Le carte</foreign> III/2, no. 677, pp. 510-1</p>
             </div>
             <div type="bibliography" subtype="additional">
-                <p>Zaninoni, <i xmlns="">Cotrebbia</i>
-                </p>
+                <p>Zaninoni, <foreign>Cotrebbia</foreign></p>
             </div>
             <div type="bibliography" subtype="links">
                 <p/>

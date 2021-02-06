@@ -26,7 +26,7 @@
     <field name="ancient_document_type">
       <xsl:choose>
         <xsl:when test="text()">
-          <xsl:apply-templates select="."/>
+          <xsl:value-of select="translate(translate(., '-', ''), '/', '／')"/>
         </xsl:when>
         <xsl:otherwise>
           <xsl:text>-</xsl:text>
@@ -38,14 +38,14 @@
   <xsl:template match="tei:rs[@key]" mode="facet_mentioned_keywords">
     <xsl:for-each select="tokenize(@key, ',\s+')">
       <field name="mentioned_keywords">
-      <xsl:value-of select="."/>
+        <xsl:value-of select="translate(., '/', '／')"/>
     </field>
     </xsl:for-each>
   </xsl:template>
   
   <xsl:template match="tei:geogName" mode="facet_mentioned_estates">
     <field name="mentioned_estates">
-      <xsl:value-of select="."/>
+      <xsl:value-of select="translate(., '/', '／')"/>
     </field>
   </xsl:template>
   
