@@ -16,7 +16,7 @@
   <xsl:template match="/">
     <add>
       <xsl:for-each-group select="//tei:geogName[ancestor::tei:div/@type='edition']" group-by="concat(., '-', @ref, '-', @key)">
-        <xsl:variable name="est-id" select="translate(@ref, '#', '')"/>
+        <xsl:variable name="est-id" select="translate(replace(@ref, ' #', '; '), '#', '')"/>
         <xsl:variable name="estate-id" select="document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/xml/tei/estates.xml'))//tei:place[descendant::tei:idno=$est-id]/tei:geogName"/>
         <doc>
           <field name="document_type">
@@ -32,11 +32,11 @@
           <field name="index_base_form">
             <xsl:choose>
               <xsl:when test="$estate-id"><xsl:value-of select="$estate-id" /></xsl:when>
-              <xsl:otherwise><xsl:value-of select="translate(@ref, '#', '')" /></xsl:otherwise>
+              <xsl:otherwise><xsl:value-of select="$est-id" /></xsl:otherwise>
             </xsl:choose>
           </field>
           <field name="index_keys">
-            <xsl:value-of select="translate(@key, '#', '')" />
+            <xsl:value-of select="translate(replace(@key, ' #', '; '), '#', '')" />
           </field>
           <xsl:apply-templates select="current-group()" />
         </doc>

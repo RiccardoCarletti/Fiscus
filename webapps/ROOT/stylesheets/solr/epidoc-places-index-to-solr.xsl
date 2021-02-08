@@ -16,7 +16,7 @@
   <xsl:template match="/">
     <add>
       <xsl:for-each-group select="//tei:placeName[ancestor::tei:div/@type='edition']" group-by="concat(., '-', @ref, '-', @key)">
-        <xsl:variable name="pl-id" select="translate(@ref, '#', '')"/>
+        <xsl:variable name="pl-id" select="translate(replace(@ref, ' #', '; '), '#', '')"/>
         <xsl:variable name="place-id" select="document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/xml/tei/places.xml'))//tei:place[descendant::tei:idno=$pl-id]"/>
         <doc>
           <field name="document_type">
@@ -34,11 +34,11 @@
               <xsl:when test="$place-id/tei:placeName"><xsl:value-of select="$place-id/tei:placeName[1]" /> 
                 <xsl:if test="$place-id/tei:placeName[2]"><xsl:text> [</xsl:text><xsl:value-of select="$place-id/tei:placeName[2]" /><xsl:text>]</xsl:text></xsl:if>
               </xsl:when>
-              <xsl:otherwise><xsl:value-of select="translate(@ref, '#', '')" /></xsl:otherwise>
+              <xsl:otherwise><xsl:value-of select="$pl-id" /></xsl:otherwise>
             </xsl:choose>
           </field>
           <field name="index_keys">
-            <xsl:value-of select="translate(@key, '#', '')" />
+            <xsl:value-of select="translate(replace(@key, ' #', '; '), '#', '')" />
           </field>
           <xsl:apply-templates select="current-group()" />
         </doc>
