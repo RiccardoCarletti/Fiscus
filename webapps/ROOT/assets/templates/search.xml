@@ -77,6 +77,38 @@
                                mode="search-results" />
         </div>
       </div>
+      
+      <div class="row">
+        <div type="map"><div id="map" style="height:320px; margin-bottom:4em">
+          <link href="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v5.3.0/css/ol.css" rel="stylesheet" type="text/css"/>
+          <script src="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v5.3.0/build/ol.js"></script>
+          <script type="text/javascript">
+            var mapBoxBackground = new ol.Map({
+            target: 'map',
+            layers: [
+            new ol.layer.Tile({
+            source: new ol.source.XYZ({
+            url: "https://{a-c}.tile.thunderforest.com/cycle/{z}/{x}/{y}.png" +
+            "?apikey=edd389ca6c8f43068da70d6664fb48fc"
+            })
+            })
+            ],
+            sphericalMercator: true,
+            wrapDateLine: true,
+            transitionEffect: 'resize',
+            buffer: 1,
+            numZoomLevels: 13,
+            view: new ol.View({
+            center: ol.proj.fromLonLat([10.335706471960295, 43.885173623043144]),
+            zoom: 8
+            })
+            });
+          </script>
+          <p style="text-align:center; font-size:12px; margin-top:1em">© <a href='https://openlayers.org/'>OpenLayers</a> 
+            | Data © <a href='https://openlayers.org/'>OpenLayers</a> contributors, CC-BY-SA 
+            | Tiles and Data © 2013 <a href='https://openlayers.org/'>OpenLayers</a> CC-BY-NC 3.0</p>
+        </div></div>
+      </div>
     </kiln:block>
 
     <kiln:block name="end-js">
@@ -106,6 +138,7 @@
         e.style.display = 'block';
         }
       </script>
+      
     </kiln:block>
   </kiln:child>
 
