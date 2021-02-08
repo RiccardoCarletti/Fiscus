@@ -52,13 +52,6 @@
     
       <add>
         <xsl:for-each-group select="//tei:rs[ancestor::tei:div/@type='edition']" group-by="concat(., '-', @ref, '-', @key)">
-          <xsl:variable name="key-values">
-            <xsl:for-each select="@key"><xsl:value-of select="translate(normalize-space(.), ', ', '__')" /></xsl:for-each>
-          </xsl:variable>
-          <xsl:variable name="keys" select="distinct-values(tokenize($key-values, '__'))" />
-          <xsl:variable name="key-value">
-            <xsl:for-each select="$keys"><xsl:value-of select="." /></xsl:for-each>
-          </xsl:variable>
         <doc>
           <field name="document_type">
             <xsl:value-of select="$subdirectory" />
@@ -74,7 +67,7 @@
             <xsl:value-of select="@ref" />
           </field>-->
             <field name="index_keys">
-              <xsl:value-of select="@key" />
+              <xsl:value-of select="translate(@key, '#', '')" />
             </field>
           <xsl:apply-templates select="current-group()" />
         </doc>
