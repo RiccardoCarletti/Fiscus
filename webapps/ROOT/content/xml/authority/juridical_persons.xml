@@ -4,7 +4,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Fiscus Juridical orgs</title>
+                <title>Fiscus Juridical persons</title>
             </titleStmt>
             <publicationStmt>
                 <p></p>
@@ -20,15 +20,15 @@
                 <org>
                     <orgName>San Salvatore / Santa Giulia di Brescia</orgName>
                     <idno>http://137.204.128.125/people/30</idno>
-                    <link type="Link" corresp="http://137.204.128.125/people/27"/>
-                    <link type="Link" corresp="http://137.204.128.125/people/28"/>
-                    <link type="Link" corresp="http://137.204.128.125/people/29"/>
-                    <link type="Link" corresp="http://137.204.128.125/people/67"/>
+                    <link type="estates" subtype="Link" corresp="http://137.204.128.125/people/27"/>
+                    <link type="estates" subtype="Link" corresp="http://137.204.128.125/people/28"/>
+                    <link type="estates" subtype="Link" corresp="http://137.204.128.125/people/29"/>
+                    <link type="people" subtype="Link" corresp="http://137.204.128.125/people/67"/>
                     <note>Monasteries</note>
                 </org>
                 
                 <org>
-                    <orgName>San Nicomede, chiesa</orgName>
+                    <orgName>San Nicomede; chiesa</orgName>
                     <idno>http://137.204.128.125/people/34</idno>
                     <note>chiesa di S. Nicomede, attualmente in comune di Salsomaggiore (PR).
                         Da Destefanis, p. 176, nota 62: "Un’anonima opera dal titolo Storia e bellezze di Salsominore a beneficio dei
@@ -44,7 +44,7 @@
                 <org>
                     <orgName>Cappella di San Matteo di Caresana</orgName>
                     <idno>http://137.204.128.125/people/43</idno>
-                    <link type="Link" corresp="http://137.204.128.125/people/41"/>
+                    <link type="estates" subtype="Link" corresp="http://137.204.128.125/people/41"/>
                     <note></note>
                 </org>
                 
@@ -55,9 +55,9 @@
                 </org>
                 
                 <org>
-                    <orgName>Sanctus Sixtus, monasterium (Piacenza)</orgName>
+                    <orgName>Sanctus Sixtus; monasterium (Piacenza)</orgName>
                     <idno>http://137.204.128.125/people/53</idno>
-                    <link type="Link" corresp="http://137.204.128.125/people/67"/>
+                    <link type="people" subtype="Link" corresp="http://137.204.128.125/people/67"/>
                     <note></note>
                 </org>
                 
@@ -68,7 +68,7 @@
                 </org>
                 
                 <org>
-                    <orgName>Santa Maria e Santa Giustina, chiesa</orgName>
+                    <orgName>Santa Maria e Santa Giustina; chiesa</orgName>
                     <idno>http://137.204.128.125/people/65</idno>
                     <note></note>
                 </org>
@@ -82,7 +82,10 @@
                 <!--<org>
                     <orgName></orgName>
                     <idno>http://137.204.128.125/people/76</idno>
-                    <link type="" corresp=""/>
+                    <link type="places"/>
+                    <link type="people"/>
+                    <link type="juridical_persons"/>
+                    <link type="estates"/>
                     <note></note>
                 </org>-->
                 
