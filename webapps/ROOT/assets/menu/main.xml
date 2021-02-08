@@ -3,8 +3,11 @@
 <root xmlns="http://www.kcl.ac.uk/artshums/depts/ddh/kiln/ns/1.0"
       xmlns:i18n="http://apache.org/cocoon/i18n/2.1">
   <menu label="Team" match="local-tei-display-html" params="team" i18n:key="menu-team"/>
-  <menu label="Documents" match="local-epidoc-index-display"
-    i18n:key="menu-documents" />
+  <menu label="Documents" match="local-epidoc-index-display" i18n:key="menu-documents" />
+  <menu label="Places" match="local-tei-display-html" params="places" i18n:key="places"/>
+  <menu label="Estates" match="local-tei-display-html" params="estates" i18n:key="estates"/>
+  <menu label="People" match="local-tei-display-html" params="people" i18n:key="prosopography"/>
+  <menu label="Juridical persons" match="local-tei-display-html" params="juridical_persons" i18n:key="juridical_persons"/>
   <menu label="Indices" match="local-indices-type-display" params="epidoc" i18n:key="menu-indices">
     <item label="Places" match="local-index-display-html" params="epidoc places" i18n:key="places"/>
     <item label="Estates" match="local-index-display-html" params="epidoc estates" i18n:key="estates"/>

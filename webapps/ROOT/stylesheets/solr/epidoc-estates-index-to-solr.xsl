@@ -17,7 +17,7 @@
     <add>
       <xsl:for-each-group select="//tei:geogName[ancestor::tei:div/@type='edition']" group-by="concat(., '-', @ref, '-', @key)">
         <xsl:variable name="est-id" select="translate(@ref, '#', '')"/>
-        <xsl:variable name="estate-id" select="document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/xml/authority/estates.xml'))//tei:place[descendant::tei:idno=$est-id]/tei:geogName"/>
+        <xsl:variable name="estate-id" select="document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/xml/tei/estates.xml'))//tei:place[descendant::tei:idno=$est-id]/tei:geogName"/>
         <doc>
           <field name="document_type">
             <xsl:value-of select="$subdirectory" />
