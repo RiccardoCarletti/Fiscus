@@ -1,0 +1,1579 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fiscus Thesaurus</title>
+      </titleStmt>
+      <publicationStmt>
+        <p/>
+      </publicationStmt>
+      <sourceDesc>
+        <p/>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy xml:id="thesaurus">
+          <category>
+            <catDesc>Record source</catDesc>
+            <category>
+              <catDesc>Original document</catDesc>
+            </category>
+            <category>
+              <catDesc>Critical edition</catDesc>
+            </category>
+            <category>
+              <catDesc>Document summary</catDesc>
+            </category>
+            <category>
+              <catDesc>Scientific literature</catDesc>
+            </category>
+          </category>
+          <category>
+            <catDesc>Document features</catDesc>
+          </category>
+          <category>
+            <catDesc>Document tradition</catDesc>
+          </category>
+          <category>
+            <catDesc>Original</catDesc>
+          </category>
+          <category>
+            <catDesc>Copy</catDesc>
+          </category>
+          <category>
+            <catDesc>Compendium</catDesc>
+          </category>
+          <category>
+            <catDesc>Uncertain tradition</catDesc>
+          </category>
+          <category>
+            <catDesc>Type of document</catDesc>
+          </category>
+          <category>
+            <catDesc>Archaeological sources</catDesc>
+          </category>
+          <category>
+            <catDesc>Parchment documents</catDesc>
+          </category>
+          <category>
+            <catDesc>Diploma</catDesc>
+          </category>
+          <category>
+            <catDesc>Imperial/royal diploma</catDesc>
+          </category>
+          <category>
+            <catDesc>Marquis’/ducal/princely diploma</catDesc>
+          </category>
+          <category>
+            <catDesc>Episcopal diploma</catDesc>
+          </category>
+          <category>
+            <catDesc>Placitum/iudicatum</catDesc>
+          </category>
+          <category>
+            <catDesc>Cartula</catDesc>
+          </category>
+          <category>
+            <catDesc>Venditio</catDesc>
+          </category>
+          <category>
+            <catDesc>Commutatio</catDesc>
+          </category>
+          <category>
+            <catDesc>Libellus/precaria/emphyteusis</catDesc>
+          </category>
+          <category>
+            <catDesc>Offersio/donatio</catDesc>
+          </category>
+          <category>
+            <catDesc>Promissio</catDesc>
+          </category>
+          <category>
+            <catDesc>Ordinatio</catDesc>
+          </category>
+          <category>
+            <catDesc>Testamentum/iudicatum</catDesc>
+          </category>
+          <category>
+            <catDesc>Morgengabe</catDesc>
+          </category>
+          <category>
+            <catDesc>Breve</catDesc>
+          </category>
+          <category>
+            <catDesc>List/inventory</catDesc>
+          </category>
+          <category>
+            <catDesc>Judicial breve</catDesc>
+          </category>
+          <category>
+            <catDesc>Transactional breve</catDesc>
+          </category>
+          <category>
+            <catDesc>Catalogus</catDesc>
+          </category>
+          <category>
+            <catDesc>Littera/mandatum</catDesc>
+          </category>
+          <category>
+            <catDesc>Papal concession</catDesc>
+          </category>
+          <category>
+            <catDesc>Epigraphic documents</catDesc>
+          </category>
+          <category>
+            <catDesc>Papyrological documents</catDesc>
+          </category>
+          <category>
+            <catDesc>Papal concession (papyrus)</catDesc>
+          </category>
+          <category>
+            <catDesc>Breve (papyrus)</catDesc>
+          </category>
+          <category>
+            <catDesc>Literary sources</catDesc>
+          </category>
+          <category>
+            <catDesc>Author</catDesc>
+          </category>
+          <category>
+            <catDesc>Juridical sources</catDesc>
+          </category>
+          <category>
+            <catDesc>Lex</catDesc>
+          </category>
+          <category>
+            <catDesc>Capitulum</catDesc>
+          </category>
+          <category>
+            <catDesc>Language</catDesc>
+          </category>
+          <category>
+            <catDesc>Latin</catDesc>
+          </category>
+          <category>
+            <catDesc>Greek</catDesc>
+          </category>
+          <category>
+            <catDesc>Writer</catDesc>
+          </category>
+          <category>
+            <catDesc>Copyist</catDesc>
+          </category>
+          <category>
+            <catDesc>Intercessory</catDesc>
+          </category>
+          <category>
+            <catDesc>Geography</catDesc>
+          </category>
+          <category>
+            <catDesc>Geographic regions</catDesc>
+          </category>
+          <category>
+            <catDesc>Cities</catDesc>
+          </category>
+          <category>
+            <catDesc>Villages/settlements</catDesc>
+          </category>
+          <category>
+            <catDesc>Vici</catDesc>
+          </category>
+          <category>
+            <catDesc>Burgi</catDesc>
+          </category>
+          <category>
+            <catDesc>Areas</catDesc>
+          </category>
+          <category>
+            <catDesc>Fines</catDesc>
+          </category>
+          <category>
+            <catDesc>Modern places</catDesc>
+          </category>
+          <category>
+            <catDesc>Natural landscape</catDesc>
+          </category>
+          <category>
+            <catDesc>Rivers</catDesc>
+          </category>
+          <category>
+            <catDesc>Lakes</catDesc>
+          </category>
+          <category>
+            <catDesc>Marshes/lagoons/tombolos</catDesc>
+          </category>
+          <category>
+            <catDesc>Islands</catDesc>
+          </category>
+          <category>
+            <catDesc>Sea</catDesc>
+          </category>
+          <category>
+            <catDesc>Mountains</catDesc>
+          </category>
+          <category>
+            <catDesc>Economy</catDesc>
+          </category>
+          <category>
+            <catDesc>Production units</catDesc>
+          </category>
+          <category>
+            <catDesc>Villas</catDesc>
+          </category>
+          <category>
+            <catDesc>Curtes</catDesc>
+          </category>
+          <category>
+            <catDesc>Gai</catDesc>
+          </category>
+          <category>
+            <catDesc>Massae</catDesc>
+          </category>
+          <category>
+            <catDesc>Salae</catDesc>
+          </category>
+          <category>
+            <catDesc>Demesnes</catDesc>
+          </category>
+          <category>
+            <catDesc>Domuscultae</catDesc>
+          </category>
+          <category>
+            <catDesc>Fundi</catDesc>
+          </category>
+          <category>
+            <catDesc>Casali</catDesc>
+          </category>
+          <category>
+            <catDesc>Mansi</catDesc>
+          </category>
+          <category>
+            <catDesc>Casae/cassinae massaricie</catDesc>
+          </category>
+          <category>
+            <catDesc>Casalini/fundamenta</catDesc>
+          </category>
+          <category>
+            <catDesc>Petiae</catDesc>
+          </category>
+          <category>
+            <catDesc>Landed possessions</catDesc>
+          </category>
+          <category>
+            <catDesc>Mines</catDesc>
+          </category>
+          <category>
+            <catDesc>Quarries</catDesc>
+          </category>
+          <category>
+            <catDesc>Forests</catDesc>
+          </category>
+          <category>
+            <catDesc>Gualdi</catDesc>
+          </category>
+          <category>
+            <catDesc>Cafagia</catDesc>
+          </category>
+          <category>
+            <catDesc>Fisheries</catDesc>
+          </category>
+          <category>
+            <catDesc>Saltworks</catDesc>
+          </category>
+          <category>
+            <catDesc>Other basins</catDesc>
+          </category>
+          <category>
+            <catDesc>Processing units</catDesc>
+          </category>
+          <category>
+            <catDesc>Mills</catDesc>
+          </category>
+          <category>
+            <catDesc>Kilns</catDesc>
+          </category>
+          <category>
+            <catDesc>Storage units</catDesc>
+          </category>
+          <category>
+            <catDesc>Granaries</catDesc>
+          </category>
+          <category>
+            <catDesc>Barns</catDesc>
+          </category>
+          <category>
+            <catDesc>Workshops</catDesc>
+          </category>
+          <category>
+            <catDesc>Gynaecea</catDesc>
+          </category>
+          <category>
+            <catDesc>Value</catDesc>
+          </category>
+          <category>
+            <catDesc>Price</catDesc>
+          </category>
+          <category>
+            <catDesc>Meritum/launechild</catDesc>
+          </category>
+          <category>
+            <catDesc>Penalty</catDesc>
+          </category>
+          <category>
+            <catDesc>Size</catDesc>
+          </category>
+          <category>
+            <catDesc>Production</catDesc>
+          </category>
+          <category>
+            <catDesc>Cereals</catDesc>
+          </category>
+          <category>
+            <catDesc>Maiores</catDesc>
+          </category>
+          <category>
+            <catDesc>Minores</catDesc>
+          </category>
+          <category>
+            <catDesc>Legumes</catDesc>
+          </category>
+          <category>
+            <catDesc>Wine</catDesc>
+          </category>
+          <category>
+            <catDesc>Oil</catDesc>
+          </category>
+          <category>
+            <catDesc>Fruits/vegetables</catDesc>
+          </category>
+          <category>
+            <catDesc>Dried fruits</catDesc>
+          </category>
+          <category>
+            <catDesc>Chestnuts</catDesc>
+          </category>
+          <category>
+            <catDesc>Acorns</catDesc>
+          </category>
+          <category>
+            <catDesc>Hay</catDesc>
+          </category>
+          <category>
+            <catDesc>Honey</catDesc>
+          </category>
+          <category>
+            <catDesc>Cheese</catDesc>
+          </category>
+          <category>
+            <catDesc>Eggs</catDesc>
+          </category>
+          <category>
+            <catDesc>Soap</catDesc>
+          </category>
+          <category>
+            <catDesc>Papyrus</catDesc>
+          </category>
+          <category>
+            <catDesc>Reed</catDesc>
+          </category>
+          <category>
+            <catDesc>Stone</catDesc>
+          </category>
+          <category>
+            <catDesc>Marble</catDesc>
+          </category>
+          <category>
+            <catDesc>Granite</catDesc>
+          </category>
+          <category>
+            <catDesc>Porphyry</catDesc>
+          </category>
+          <category>
+            <catDesc>Soapstone</catDesc>
+          </category>
+          <category>
+            <catDesc>Steatite</catDesc>
+          </category>
+          <category>
+            <catDesc>Pietra ollare</catDesc>
+          </category>
+          <category>
+            <catDesc>Gypsum</catDesc>
+          </category>
+          <category>
+            <catDesc>Limestone</catDesc>
+          </category>
+          <category>
+            <catDesc>Sandstone</catDesc>
+          </category>
+          <category>
+            <catDesc>Slate</catDesc>
+          </category>
+          <category>
+            <catDesc>Verrucano</catDesc>
+          </category>
+          <category>
+            <catDesc>Metals</catDesc>
+          </category>
+          <category>
+            <catDesc>Gold</catDesc>
+          </category>
+          <category>
+            <catDesc>Silver</catDesc>
+          </category>
+          <category>
+            <catDesc>Iron</catDesc>
+          </category>
+          <category>
+            <catDesc>Copper</catDesc>
+          </category>
+          <category>
+            <catDesc>Lead</catDesc>
+          </category>
+          <category>
+            <catDesc>Argentiferous lead</catDesc>
+          </category>
+          <category>
+            <catDesc>Salt</catDesc>
+          </category>
+          <category>
+            <catDesc>Sea salt</catDesc>
+          </category>
+          <category>
+            <catDesc>Rock salt</catDesc>
+          </category>
+          <category>
+            <catDesc>Alum</catDesc>
+          </category>
+          <category>
+            <catDesc>Sulphur</catDesc>
+          </category>
+          <category>
+            <catDesc>Gems</catDesc>
+          </category>
+          <category>
+            <catDesc>Wood</catDesc>
+          </category>
+          <category>
+            <catDesc>Garum</catDesc>
+          </category>
+          <category>
+            <catDesc>Bread</catDesc>
+          </category>
+          <category>
+            <catDesc>Glass</catDesc>
+          </category>
+          <category>
+            <catDesc>Bricks</catDesc>
+          </category>
+          <category>
+            <catDesc>Tiles</catDesc>
+          </category>
+          <category>
+            <catDesc>Ceramics</catDesc>
+          </category>
+          <category>
+            <catDesc>Weapons</catDesc>
+          </category>
+          <category>
+            <catDesc>Wool</catDesc>
+          </category>
+          <category>
+            <catDesc>Tissues</catDesc>
+          </category>
+          <category>
+            <catDesc>Silk</catDesc>
+          </category>
+          <category>
+            <catDesc>Linen</catDesc>
+          </category>
+          <category>
+            <catDesc>Hemp</catDesc>
+          </category>
+          <category>
+            <catDesc>Leather</catDesc>
+          </category>
+          <category>
+            <catDesc>Pigments</catDesc>
+          </category>
+          <category>
+            <catDesc>Woad</catDesc>
+          </category>
+          <category>
+            <catDesc>Clothings</catDesc>
+          </category>
+          <category>
+            <catDesc>Animals</catDesc>
+          </category>
+          <category>
+            <catDesc>Cows</catDesc>
+          </category>
+          <category>
+            <catDesc>Goats</catDesc>
+          </category>
+          <category>
+            <catDesc>Horses</catDesc>
+          </category>
+          <category>
+            <catDesc>Fish</catDesc>
+          </category>
+          <category>
+            <catDesc>Pigs</catDesc>
+          </category>
+          <category>
+            <catDesc>Sheep</catDesc>
+          </category>
+          <category>
+            <catDesc>Game</catDesc>
+          </category>
+          <category>
+            <catDesc>Poultry</catDesc>
+          </category>
+          <category>
+            <catDesc>Wildfowl</catDesc>
+          </category>
+          <category>
+            <catDesc>Birds of prey</catDesc>
+          </category>
+          <category>
+            <catDesc>Fiscal property</catDesc>
+          </category>
+          <category>
+            <catDesc>Occurrence</catDesc>
+          </category>
+          <category>
+            <catDesc>Object</catDesc>
+          </category>
+          <category>
+            <catDesc>Mention</catDesc>
+          </category>
+          <category>
+            <catDesc>Function</catDesc>
+          </category>
+          <category>
+            <catDesc>Residential</catDesc>
+          </category>
+          <category>
+            <catDesc>Redistributive</catDesc>
+          </category>
+          <category>
+            <catDesc>Exceptive</catDesc>
+          </category>
+          <category>
+            <catDesc>Dowry</catDesc>
+          </category>
+          <category>
+            <catDesc>Land reserve</catDesc>
+          </category>
+          <category>
+            <catDesc>Acquisitions</catDesc>
+          </category>
+          <category>
+            <catDesc>Inheritance</catDesc>
+          </category>
+          <category>
+            <catDesc>Confiscation</catDesc>
+          </category>
+          <category>
+            <catDesc>Purchase</catDesc>
+          </category>
+          <category>
+            <catDesc>Forced purchase</catDesc>
+          </category>
+          <category>
+            <catDesc>Gift</catDesc>
+          </category>
+          <category>
+            <catDesc>Alienations</catDesc>
+          </category>
+          <category>
+            <catDesc>Iure proprietatis/pleno iure</catDesc>
+          </category>
+          <category>
+            <catDesc>Allocation to individuals</catDesc>
+          </category>
+          <category>
+            <catDesc>Allocation to groups</catDesc>
+          </category>
+          <category>
+            <catDesc>Allocation to churches</catDesc>
+          </category>
+          <category>
+            <catDesc>Counter-gift</catDesc>
+          </category>
+          <category>
+            <catDesc>Works of art</catDesc>
+          </category>
+          <category>
+            <catDesc>Furniture</catDesc>
+          </category>
+          <category>
+            <catDesc>Jewels</catDesc>
+          </category>
+          <category>
+            <catDesc>Luxury clothes</catDesc>
+          </category>
+          <category>
+            <catDesc>Exotic animals</catDesc>
+          </category>
+          <category>
+            <catDesc>Exotic coins</catDesc>
+          </category>
+          <category>
+            <catDesc>Books</catDesc>
+          </category>
+          <category>
+            <catDesc>Residences</catDesc>
+          </category>
+          <category>
+            <catDesc>Palatium</catDesc>
+          </category>
+          <category>
+            <catDesc>Laubia/topia</catDesc>
+          </category>
+          <category>
+            <catDesc>Spolia</catDesc>
+          </category>
+          <category>
+            <catDesc>Management</catDesc>
+          </category>
+          <category>
+            <catDesc>Coloni/tenants</catDesc>
+          </category>
+          <category>
+            <catDesc>Manentes</catDesc>
+          </category>
+          <category>
+            <catDesc>Condomae</catDesc>
+          </category>
+          <category>
+            <catDesc>Rent type</catDesc>
+          </category>
+          <category>
+            <catDesc>Rent in kind</catDesc>
+          </category>
+          <category>
+            <catDesc>Rent in money</catDesc>
+          </category>
+          <category>
+            <catDesc>Exenia</catDesc>
+          </category>
+          <category>
+            <catDesc>Operae</catDesc>
+          </category>
+          <category>
+            <catDesc>Work and workers</catDesc>
+          </category>
+          <category>
+            <catDesc>Paid workforce</catDesc>
+          </category>
+          <category>
+            <catDesc>Slave labour</catDesc>
+          </category>
+          <category>
+            <catDesc>Agricultural workers</catDesc>
+          </category>
+          <category>
+            <catDesc>Unskilled workers</catDesc>
+          </category>
+          <category>
+            <catDesc>Specialized workers</catDesc>
+          </category>
+          <category>
+            <catDesc>Stonemasons</catDesc>
+          </category>
+          <category>
+            <catDesc>Miners</catDesc>
+          </category>
+          <category>
+            <catDesc>Moneyers</catDesc>
+          </category>
+          <category>
+            <catDesc>Fortifications</catDesc>
+          </category>
+          <category>
+            <catDesc>Castle</catDesc>
+          </category>
+          <category>
+            <catDesc>Tower</catDesc>
+          </category>
+          <category>
+            <catDesc>Clusae/gates</catDesc>
+          </category>
+          <category>
+            <catDesc>Walls</catDesc>
+          </category>
+          <category>
+            <catDesc>Carbonaria</catDesc>
+          </category>
+          <category>
+            <catDesc>Defensive elements</catDesc>
+          </category>
+          <category>
+            <catDesc>Infrastructures</catDesc>
+          </category>
+          <category>
+            <catDesc>Ports</catDesc>
+          </category>
+          <category>
+            <catDesc>Storage buildings</catDesc>
+          </category>
+          <category>
+            <catDesc>Roads</catDesc>
+          </category>
+          <category>
+            <catDesc>Aqueducts</catDesc>
+          </category>
+          <category>
+            <catDesc>Cisterns/pits</catDesc>
+          </category>
+          <category>
+            <catDesc>Fountains</catDesc>
+          </category>
+          <category>
+            <catDesc>Bridges/pontoons</catDesc>
+          </category>
+          <category>
+            <catDesc>Canals</catDesc>
+          </category>
+          <category>
+            <catDesc>Mints</catDesc>
+          </category>
+          <category>
+            <catDesc>Finance</catDesc>
+          </category>
+          <category>
+            <catDesc>Interest bearing loans</catDesc>
+          </category>
+          <category>
+            <catDesc>Loans with no interest</catDesc>
+          </category>
+          <category>
+            <catDesc>Trade</catDesc>
+          </category>
+          <category>
+            <catDesc>Maritime trade</catDesc>
+          </category>
+          <category>
+            <catDesc>Overland transport</catDesc>
+          </category>
+          <category>
+            <catDesc>Fluvial transport</catDesc>
+          </category>
+          <category>
+            <catDesc>Transport contracts</catDesc>
+          </category>
+          <category>
+            <catDesc>Navicularii</catDesc>
+          </category>
+          <category>
+            <catDesc>Local markets</catDesc>
+          </category>
+          <category>
+            <catDesc>Periodic markets</catDesc>
+          </category>
+          <category>
+            <catDesc>Administration</catDesc>
+          </category>
+          <category>
+            <catDesc>Emperor/king</catDesc>
+          </category>
+          <category>
+            <catDesc>Queen</catDesc>
+          </category>
+          <category>
+            <catDesc>Prince</catDesc>
+          </category>
+          <category>
+            <catDesc>Marquis/duke</catDesc>
+          </category>
+          <category>
+            <catDesc>Count</catDesc>
+          </category>
+          <category>
+            <catDesc>Countess</catDesc>
+          </category>
+          <category>
+            <catDesc>Palatine count</catDesc>
+          </category>
+          <category>
+            <catDesc>Viscount</catDesc>
+          </category>
+          <category>
+            <catDesc>Gastaldus/vicegastaldus</catDesc>
+          </category>
+          <category>
+            <catDesc>Sculdahis</catDesc>
+          </category>
+          <category>
+            <catDesc>Marepahis</catDesc>
+          </category>
+          <category>
+            <catDesc>Other palatine officer</catDesc>
+          </category>
+          <category>
+            <catDesc>Other minor officer</catDesc>
+          </category>
+          <category>
+            <catDesc>Court clergyman</catDesc>
+          </category>
+          <category>
+            <catDesc>Archchancellor</catDesc>
+          </category>
+          <category>
+            <catDesc>Chancellor</catDesc>
+          </category>
+          <category>
+            <catDesc>Archchaplain</catDesc>
+          </category>
+          <category>
+            <catDesc>Chaplain</catDesc>
+          </category>
+          <category>
+            <catDesc>Professional writer</catDesc>
+          </category>
+          <category>
+            <catDesc>Notary</catDesc>
+          </category>
+          <category>
+            <catDesc>Tabellio</catDesc>
+          </category>
+          <category>
+            <catDesc>Scriniarius</catDesc>
+          </category>
+          <category>
+            <catDesc>Judge</catDesc>
+          </category>
+          <category>
+            <catDesc>Consiliarius regis</catDesc>
+          </category>
+          <category>
+            <catDesc>Missus</catDesc>
+          </category>
+          <category>
+            <catDesc>Missus regis</catDesc>
+          </category>
+          <category>
+            <catDesc>Missus of other public authorities</catDesc>
+          </category>
+          <category>
+            <catDesc>Advocatus</catDesc>
+          </category>
+          <category>
+            <catDesc>Advocatus regis</catDesc>
+          </category>
+          <category>
+            <catDesc>Advocatus of other public authorities</catDesc>
+          </category>
+          <category>
+            <catDesc>Camera</catDesc>
+          </category>
+          <category>
+            <catDesc>Camera regis</catDesc>
+          </category>
+          <category>
+            <catDesc>Camera of other public authorities</catDesc>
+          </category>
+          <category>
+            <catDesc>Contractors </catDesc>
+          </category>
+          <category>
+            <catDesc>Conductores</catDesc>
+          </category>
+          <category>
+            <catDesc>Actionarii/actores</catDesc>
+          </category>
+          <category>
+            <catDesc>Estate supervisors/vilici</catDesc>
+          </category>
+          <category>
+            <catDesc>Gualdemanni/silvani</catDesc>
+          </category>
+          <category>
+            <catDesc>Porcarii</catDesc>
+          </category>
+          <category>
+            <catDesc>Administrative units</catDesc>
+          </category>
+          <category>
+            <catDesc>Iudiciaria</catDesc>
+          </category>
+          <category>
+            <catDesc>Comitatus</catDesc>
+          </category>
+          <category>
+            <catDesc>Patrimonium</catDesc>
+          </category>
+          <category>
+            <catDesc>Pagus</catDesc>
+          </category>
+          <category>
+            <catDesc>Fines</catDesc>
+          </category>
+          <category>
+            <catDesc>Actio</catDesc>
+          </category>
+          <category>
+            <catDesc>Subactio</catDesc>
+          </category>
+          <category>
+            <catDesc>Dioecesis</catDesc>
+          </category>
+          <category>
+            <catDesc>Plebs</catDesc>
+          </category>
+          <category>
+            <catDesc>Assembly</catDesc>
+          </category>
+          <category>
+            <catDesc>Army</catDesc>
+          </category>
+          <category>
+            <catDesc>Armed group</catDesc>
+          </category>
+          <category>
+            <catDesc>Hungarians</catDesc>
+          </category>
+          <category>
+            <catDesc>Masnada</catDesc>
+          </category>
+          <category>
+            <catDesc>Levies</catDesc>
+          </category>
+          <category>
+            <catDesc>Decima</catDesc>
+          </category>
+          <category>
+            <catDesc>Nona et decima</catDesc>
+          </category>
+          <category>
+            <catDesc>Revenues</catDesc>
+          </category>
+          <category>
+            <catDesc>Fodrum</catDesc>
+          </category>
+          <category>
+            <catDesc>Albergaria/gifori</catDesc>
+          </category>
+          <category>
+            <catDesc>Profits of justice</catDesc>
+          </category>
+          <category>
+            <catDesc>Profits of mining/minting</catDesc>
+          </category>
+          <category>
+            <catDesc>Tolls</catDesc>
+          </category>
+          <category>
+            <catDesc>Teloneum</catDesc>
+          </category>
+          <category>
+            <catDesc>Rights of use on woods/pastures/waters</catDesc>
+          </category>
+          <category>
+            <catDesc>Malus usus</catDesc>
+          </category>
+          <category>
+            <catDesc>Privileges</catDesc>
+          </category>
+          <category>
+            <catDesc>Immunity</catDesc>
+          </category>
+          <category>
+            <catDesc>Exemption</catDesc>
+          </category>
+          <category>
+            <catDesc>Districtio</catDesc>
+          </category>
+          <category>
+            <catDesc>Incastellamento</catDesc>
+          </category>
+          <category>
+            <catDesc>Public infrastructures</catDesc>
+          </category>
+          <category>
+            <catDesc>Coinage</catDesc>
+          </category>
+          <category>
+            <catDesc>Royal ordinances</catDesc>
+          </category>
+          <category>
+            <catDesc>Letters from public authorities</catDesc>
+          </category>
+          <category>
+            <catDesc>Substitution of a beneficium</catDesc>
+          </category>
+          <category>
+            <catDesc>Itinerary</catDesc>
+          </category>
+          <category>
+            <catDesc>Scufiae/transport service</catDesc>
+          </category>
+          <category>
+            <catDesc>Extortions by officers</catDesc>
+          </category>
+          <category>
+            <catDesc>Law</catDesc>
+          </category>
+          <category>
+            <catDesc>Property of persons without heirs</catDesc>
+          </category>
+          <category>
+            <catDesc>Property of criminals/political traitors</catDesc>
+          </category>
+          <category>
+            <catDesc>Boundary disputes</catDesc>
+          </category>
+          <category>
+            <catDesc>Boundary settings</catDesc>
+          </category>
+          <category>
+            <catDesc>Local institutions</catDesc>
+          </category>
+          <category>
+            <catDesc>City authorities</catDesc>
+          </category>
+          <category>
+            <catDesc>Consules</catDesc>
+          </category>
+          <category>
+            <catDesc>Potestas</catDesc>
+          </category>
+          <category>
+            <catDesc>City assembly</catDesc>
+          </category>
+          <category>
+            <catDesc>City territory</catDesc>
+          </category>
+          <category>
+            <catDesc>Local elites</catDesc>
+          </category>
+          <category>
+            <catDesc>Scabini</catDesc>
+          </category>
+          <category>
+            <catDesc>Lociservatores</catDesc>
+          </category>
+          <category>
+            <catDesc>Boni viri/boni homines</catDesc>
+          </category>
+          <category>
+            <catDesc>Village/castle representatives</catDesc>
+          </category>
+          <category>
+            <catDesc>Village/castle territory</catDesc>
+          </category>
+          <category>
+            <catDesc>Embassies/ambassadors</catDesc>
+          </category>
+          <category>
+            <catDesc>Rural communities</catDesc>
+          </category>
+          <category>
+            <catDesc>Common land</catDesc>
+          </category>
+          <category>
+            <catDesc>Religion</catDesc>
+          </category>
+          <category>
+            <catDesc>Churches/religious bodies</catDesc>
+          </category>
+          <category>
+            <catDesc>Churches</catDesc>
+          </category>
+          <category>
+            <catDesc>Baptismal churches</catDesc>
+          </category>
+          <category>
+            <catDesc>Collegiate churches</catDesc>
+          </category>
+          <category>
+            <catDesc>Mother churches</catDesc>
+          </category>
+          <category>
+            <catDesc>Monasteries</catDesc>
+          </category>
+          <category>
+            <catDesc>Cells/hermitages</catDesc>
+          </category>
+          <category>
+            <catDesc>Hospitals</catDesc>
+          </category>
+          <category>
+            <catDesc>Altars</catDesc>
+          </category>
+          <category>
+            <catDesc>Funerary rituals</catDesc>
+          </category>
+          <category>
+            <catDesc>Funerary monuments/cemeteries</catDesc>
+          </category>
+          <category>
+            <catDesc>Relics</catDesc>
+          </category>
+          <category>
+            <catDesc>Popular devotions</catDesc>
+          </category>
+          <category>
+            <catDesc>Religious festivals</catDesc>
+          </category>
+          <category>
+            <catDesc>Processions</catDesc>
+          </category>
+          <category>
+            <catDesc>Pilgrimages</catDesc>
+          </category>
+          <category>
+            <catDesc>Clergy/religious persons</catDesc>
+          </category>
+          <category>
+            <catDesc>Popes</catDesc>
+          </category>
+          <category>
+            <catDesc>Archbishops</catDesc>
+          </category>
+          <category>
+            <catDesc>Bishops</catDesc>
+          </category>
+          <category>
+            <catDesc>Archpriests</catDesc>
+          </category>
+          <category>
+            <catDesc>Priests</catDesc>
+          </category>
+          <category>
+            <catDesc>Archdeacons</catDesc>
+          </category>
+          <category>
+            <catDesc>Deacons</catDesc>
+          </category>
+          <category>
+            <catDesc>Subdeacons</catDesc>
+          </category>
+          <category>
+            <catDesc>Other clerics</catDesc>
+          </category>
+          <category>
+            <catDesc>Prevosts</catDesc>
+          </category>
+          <category>
+            <catDesc>Abbots</catDesc>
+          </category>
+          <category>
+            <catDesc>Abbesses</catDesc>
+          </category>
+          <category>
+            <catDesc>Monks</catDesc>
+          </category>
+          <category>
+            <catDesc>Nuns/sanctimoniales</catDesc>
+          </category>
+          <category>
+            <catDesc>Society</catDesc>
+          </category>
+          <category>
+            <catDesc>Personal statuses</catDesc>
+          </category>
+          <category>
+            <catDesc>Freeborn</catDesc>
+          </category>
+          <category>
+            <catDesc>Aldius</catDesc>
+          </category>
+          <category>
+            <catDesc>Slave</catDesc>
+          </category>
+          <category>
+            <catDesc>Freedman</catDesc>
+          </category>
+          <category>
+            <catDesc>Royal slave</catDesc>
+          </category>
+          <category>
+            <catDesc>Royal freedman</catDesc>
+          </category>
+          <category>
+            <catDesc>Royal aldius</catDesc>
+          </category>
+          <category>
+            <catDesc>Arimannus</catDesc>
+          </category>
+          <category>
+            <catDesc>Lambardus</catDesc>
+          </category>
+          <category>
+            <catDesc>Personal rank</catDesc>
+          </category>
+          <category>
+            <catDesc>Vir devotus/vir honestus</catDesc>
+          </category>
+          <category>
+            <catDesc>Vir magnificus</catDesc>
+          </category>
+          <category>
+            <catDesc>Vir clarissimus</catDesc>
+          </category>
+          <category>
+            <catDesc>Vir spectabilis</catDesc>
+          </category>
+          <category>
+            <catDesc>Vir inluster</catDesc>
+          </category>
+          <category>
+            <catDesc>Vir gloriosus/vir sublimis</catDesc>
+          </category>
+          <category>
+            <catDesc>Consul/hypatos</catDesc>
+          </category>
+          <category>
+            <catDesc>Patricius</catDesc>
+          </category>
+          <category>
+            <catDesc>Natio</catDesc>
+          </category>
+          <category>
+            <catDesc>Roman</catDesc>
+          </category>
+          <category>
+            <catDesc>Lombard</catDesc>
+          </category>
+          <category>
+            <catDesc>Salian</catDesc>
+          </category>
+          <category>
+            <catDesc>Ripuarian</catDesc>
+          </category>
+          <category>
+            <catDesc>Bavarian</catDesc>
+          </category>
+          <category>
+            <catDesc>Burgundian</catDesc>
+          </category>
+          <category>
+            <catDesc>Alemannus</catDesc>
+          </category>
+          <category>
+            <catDesc>Public rituals</catDesc>
+          </category>
+          <category>
+            <catDesc>Adventus/occursus</catDesc>
+          </category>
+          <category>
+            <catDesc>Deditio</catDesc>
+          </category>
+          <category>
+            <catDesc>Public decorum</catDesc>
+          </category>
+          <category>
+            <catDesc>Conviviality</catDesc>
+          </category>
+          <category>
+            <catDesc>Beneficium</catDesc>
+          </category>
+          <category>
+            <catDesc>Feudum</catDesc>
+          </category>
+          <category>
+            <catDesc>Honor</catDesc>
+          </category>
+          <category>
+            <catDesc>Munus</catDesc>
+          </category>
+          <category>
+            <catDesc>Meritum/launechild</catDesc>
+          </category>
+          <category>
+            <catDesc>Private foundations</catDesc>
+          </category>
+          <category>
+            <catDesc>Joint foundations</catDesc>
+          </category>
+          <category>
+            <catDesc>Distributions of moveable goods</catDesc>
+          </category>
+          <category>
+            <catDesc>Marriages</catDesc>
+          </category>
+          <category>
+            <catDesc>Clerical concubinage</catDesc>
+          </category>
+          <category>
+            <catDesc>Manumission</catDesc>
+          </category>
+          <category>
+            <catDesc>Bonds</catDesc>
+          </category>
+          <category>
+            <catDesc>Legally recognised union with</catDesc>
+          </category>
+          <category>
+            <catDesc>Serious intimate relationship with</catDesc>
+          </category>
+          <category>
+            <catDesc>Casual intimate relationship with</catDesc>
+          </category>
+          <category>
+            <catDesc>Intimate relationship with</catDesc>
+          </category>
+          <category>
+            <catDesc>Father of</catDesc>
+          </category>
+          <category>
+            <catDesc>Father in law of</catDesc>
+          </category>
+          <category>
+            <catDesc>Mother of</catDesc>
+          </category>
+          <category>
+            <catDesc>Mother in law of</catDesc>
+          </category>
+          <category>
+            <catDesc>Parent of</catDesc>
+          </category>
+          <category>
+            <catDesc>Foster parent of</catDesc>
+          </category>
+          <category>
+            <catDesc>Son of</catDesc>
+          </category>
+          <category>
+            <catDesc>Son in law of</catDesc>
+          </category>
+          <category>
+            <catDesc>Daughter of</catDesc>
+          </category>
+          <category>
+            <catDesc>Daughter in law of</catDesc>
+          </category>
+          <category>
+            <catDesc>Child of</catDesc>
+          </category>
+          <category>
+            <catDesc>Grandfather of</catDesc>
+          </category>
+          <category>
+            <catDesc>Grandmother of</catDesc>
+          </category>
+          <category>
+            <catDesc>Grandparent of</catDesc>
+          </category>
+          <category>
+            <catDesc>Grandson of</catDesc>
+          </category>
+          <category>
+            <catDesc>Granddaughter of</catDesc>
+          </category>
+          <category>
+            <catDesc>Grandchild of</catDesc>
+          </category>
+          <category>
+            <catDesc>Great grandfather of</catDesc>
+          </category>
+          <category>
+            <catDesc>Great grandmother of</catDesc>
+          </category>
+          <category>
+            <catDesc>Great grandparent of</catDesc>
+          </category>
+          <category>
+            <catDesc>Great grandson of</catDesc>
+          </category>
+          <category>
+            <catDesc>Great granddaughter of</catDesc>
+          </category>
+          <category>
+            <catDesc>Brother of</catDesc>
+          </category>
+          <category>
+            <catDesc>Brother in law of</catDesc>
+          </category>
+          <category>
+            <catDesc>Sister of</catDesc>
+          </category>
+          <category>
+            <catDesc>Sister in law of</catDesc>
+          </category>
+          <category>
+            <catDesc>Sibling of</catDesc>
+          </category>
+          <category>
+            <catDesc>Aunt of</catDesc>
+          </category>
+          <category>
+            <catDesc>Uncle of</catDesc>
+          </category>
+          <category>
+            <catDesc>Nephew of</catDesc>
+          </category>
+          <category>
+            <catDesc>Niece of</catDesc>
+          </category>
+          <category>
+            <catDesc>Child of sibling of</catDesc>
+          </category>
+          <category>
+            <catDesc>Cousin of</catDesc>
+          </category>
+          <category>
+            <catDesc>Kin of</catDesc>
+          </category>
+          <category>
+            <catDesc>Ancestor of</catDesc>
+          </category>
+          <category>
+            <catDesc>Descendent of</catDesc>
+          </category>
+          <category>
+            <catDesc>Family of</catDesc>
+          </category>
+          <category>
+            <catDesc>Extended family of</catDesc>
+          </category>
+          <category>
+            <catDesc>Hereditary family of</catDesc>
+          </category>
+          <category>
+            <catDesc>Household of</catDesc>
+          </category>
+          <category>
+            <catDesc>Extended household of</catDesc>
+          </category>
+          <category>
+            <catDesc>Patron of</catDesc>
+          </category>
+          <category>
+            <catDesc>Client of</catDesc>
+          </category>
+          <category>
+            <catDesc>Master of</catDesc>
+          </category>
+          <category>
+            <catDesc>Former master of</catDesc>
+          </category>
+          <category>
+            <catDesc>Slave of</catDesc>
+          </category>
+          <category>
+            <catDesc>House slave of</catDesc>
+          </category>
+          <category>
+            <catDesc>Former slave of</catDesc>
+          </category>
+          <category>
+            <catDesc>Freed slave of</catDesc>
+          </category>
+          <category>
+            <catDesc>Freedman of</catDesc>
+          </category>
+          <category>
+            <catDesc>Freedwoman of</catDesc>
+          </category>
+          <category>
+            <catDesc>Fellow freedman of</catDesc>
+          </category>
+          <category>
+            <catDesc>Godfather of</catDesc>
+          </category>
+          <category>
+            <catDesc>Godmother of</catDesc>
+          </category>
+          <category>
+            <catDesc>Godson of</catDesc>
+          </category>
+          <category>
+            <catDesc>Goddaughter of</catDesc>
+          </category>
+          <category>
+            <catDesc>Compater of</catDesc>
+          </category>
+          <category>
+            <catDesc>Commater of</catDesc>
+          </category>
+          <category>
+            <catDesc>Nutritus of</catDesc>
+          </category>
+          <category>
+            <catDesc>Nutritor of</catDesc>
+          </category>
+          <category>
+            <catDesc>Benefactor of</catDesc>
+          </category>
+          <category>
+            <catDesc>Gratitude to</catDesc>
+          </category>
+          <category>
+            <catDesc>Testamentary link with</catDesc>
+          </category>
+          <category>
+            <catDesc>Legatee of</catDesc>
+          </category>
+          <category>
+            <catDesc>Heir to</catDesc>
+          </category>
+          <category>
+            <catDesc>Friendship for</catDesc>
+          </category>
+          <category>
+            <catDesc>Alliance with</catDesc>
+          </category>
+          <category>
+            <catDesc>Enmity for</catDesc>
+          </category>
+          <category>
+            <catDesc>Dominus of</catDesc>
+          </category>
+          <category>
+            <catDesc>Senior of</catDesc>
+          </category>
+          <category>
+            <catDesc>Vassus of</catDesc>
+          </category>
+          <category>
+            <catDesc>Gasindius of</catDesc>
+          </category>
+          <category>
+            <catDesc>Fidelis of</catDesc>
+          </category>
+          <category>
+            <catDesc>Miles of</catDesc>
+          </category>
+          <category>
+            <catDesc>Homo of</catDesc>
+          </category>
+          <category>
+            <catDesc>Agent for</catDesc>
+          </category>
+          <category>
+            <catDesc>Professional relationship</catDesc>
+          </category>
+          <category>
+            <catDesc>Link</catDesc>
+          </category>
+          <category>
+            <catDesc>Entry type</catDesc>
+          </category>
+          <category>
+            <catDesc>Person</catDesc>
+          </category>
+          <category>
+            <catDesc>Juridical person</catDesc>
+          </category>
+          <category>
+            <catDesc>Place</catDesc>
+          </category>
+          <category>
+            <catDesc>Estate</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <ab></ab>
+    </body>
+  </text>
+</TEI>

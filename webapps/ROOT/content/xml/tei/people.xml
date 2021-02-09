@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Fiscus People</title>
+            </titleStmt>
+            <publicationStmt>
+                <p></p>
+            </publicationStmt>
+            <sourceDesc>
+                <p></p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPerson>
+                <person>
+                    <persName>Bonifacio</persName>
+                    <idno>http://137.204.128.125/people/1</idno>
+                    <link type="people" subtype="Link" corresp="http://137.204.128.125/people/2"/>
+                    <note>marchese</note>
+                </person>
+                
+                <person>
+                    <persName>Cantarus; gastaldio</persName>
+                    <idno>http://137.204.128.125/people/2</idno>
+                    <link type="people" subtype="Link" corresp="http://137.204.128.125/people/1"/>
+                    <note></note>
+                </person>
+                
+                <person>
+                    <persName>Ugo II marchese di Toscana (970-1001)</persName>
+                    <idno>http://137.204.128.125/people/3</idno>
+                    <link type="people" subtype="SonOf" corresp="http://137.204.128.125/people/8"/>
+                    <note>Marchese di Tuscia, figlio di Uberto marchese di Tuscia</note>
+                </person>
+                
+                <person>
+                    <persName>Stefano</persName>
+                    <idno>http://137.204.128.125/people/4</idno>
+                    <note>Figlio del fu Antonio</note>
+                </person>
+                
+                <person>
+                    <persName>Gherardo</persName>
+                    <idno>http://137.204.128.125/people/5</idno>
+                    <note>Cf. COLLAVINI, Honorabilis domus, pp. 75-76, 79.</note>
+                </person>
+                
+                <person>
+                    <persName>Alberico iudex et missus</persName>
+                    <idno>http://137.204.128.125/people/6</idno>
+                    <note>iudex et missus</note>
+                </person>
+                
+                <person>
+                    <persName>Ottone III</persName>
+                    <idno>http://137.204.128.125/people/7</idno>
+                    <note>emperor</note>
+                </person>
+                
+                <person>
+                    <persName>Uberto marchese di Toscana</persName>
+                    <idno>http://137.204.128.125/people/8</idno>
+                    <link type="people" subtype="FatherOf" corresp="http://137.204.128.125/people/3"/>
+                    <note>Marchese di Toscana</note>
+                </person>
+                
+                <person>
+                    <persName>Lotario I</persName>
+                    <idno>http://137.204.128.125/people/9</idno>
+                    <link type="people" subtype="LegallyRecognisedUnionWith" corresp="http://137.204.128.125/people/10"/>
+                    <link type="people" subtype="FatherOf" corresp="http://137.204.128.125/people/11"/>
+                    <note>Emperor/king</note>
+                </person>
+                
+                <person>
+                    <persName>Ermengarda</persName>
+                    <idno>http://137.204.128.125/people/10</idno>
+                    <link type="people" subtype="LegallyRecognisedUnionWith" corresp="http://137.204.128.125/people/9"/>
+                    <link type="people" subtype="MotherOf" corresp="http://137.204.128.125/people/11"/>
+                    <note>Emperor/king</note>
+                </person>
+                
+                <person>
+                    <persName>Gisla</persName>
+                    <idno>http://137.204.128.125/people/11</idno>
+                    <link type="people" subtype="DaughterOf" corresp="http://137.204.128.125/people/9"/>
+                    <link type="people" subtype="DaughterOf" corresp="http://137.204.128.125/people/10"/>
+                    <note>Nuns/sanctimoniales</note>
+                </person>
+                
+                <person>
+                    <persName>Adelchi</persName>
+                    <idno>http://137.204.128.125/people/12</idno>
+                    <note></note>
+                </person>
+                
+                <person>
+                    <persName>Adelchi</persName>
+                    <idno>http://137.204.128.125/people/13</idno>
+                    <note>Emperor/king</note>
+                </person>
+                
+                <person>
+                    <persName>Carlo Magno</persName>
+                    <idno>http://137.204.128.125/people/14</idno>
+                    <note>Emperor/king</note>
+                </person>
+                
+                <person>
+                    <persName>Beato abate</persName>
+                    <idno>http://137.204.128.125/people/15</idno>
+                    <note></note>
+                </person>
+                
+                <person>
+                    <persName>Gandolfo abate</persName>
+                    <idno>http://137.204.128.125/people/16</idno>
+                    <note></note>
+                </person>
+                
+                <person>
+                    <persName>Ilduino</persName>
+                    <idno>http://137.204.128.125/people/17</idno>
+                    <link type="people" subtype="KinOf" corresp="http://137.204.128.125/people/20"/>
+                    <note>presbiter, figlio di Alboino di Olubra; di legge longobarda</note>
+                </person>
+                
+                <person>
+                    <persName>Rategausa</persName>
+                    <idno>http://137.204.128.125/people/18</idno>
+                    <link type="people" subtype="LegallyRecognisedUnionWith" corresp="http://137.204.128.125/people/19"/>
+                    <note>Moglie del gastaldo Wulferio</note>
+                </person>
+                
+                <person>
+                    <persName>Vulferio gastaldo</persName>
+                    <idno>http://137.204.128.125/people/19</idno>
+                    <link type="people" subtype="LegallyRecognisedUnionWith" corresp="http://137.204.128.125/people/18"/>
+                    <note>gastaldo, quondam 4 maggio 905</note>
+                </person>
+                
+                <person>
+                    <persName>Everardo vescovo di Piacenza</persName>
+                    <idno>http://137.204.128.125/people/20</idno>
+                    <link type="people" subtype="KinOf" corresp="http://137.204.128.125/people/17"/>
+                    <note>quondam 4 maggio 905</note>
+                </person>
+                
+                <person>
+                    <persName>Berengario I</persName>
+                    <idno>http://137.204.128.125/people/21</idno>
+                    <link type="people" subtype="FatherOf" corresp="http://137.204.128.125/people/67"/>
+                    <link type="people" subtype="SeniorOf" corresp="http://137.204.128.125/people/74"/>
+                    <link type="estates" subtype="Link" corresp="http://137.204.128.125/people/75"/>
+                    <note></note>
+                </person>
+                
+                <person>
+                    <persName>Ingelberto</persName>
+                    <idno>http://137.204.128.125/people/22</idno>
+                    <note>Abate di Nonantola (929-941)</note>
+                </person>
+                
+                <person>
+                    <persName>Bonifacio I degli Hucpoldingi</persName>
+                    <idno>http://137.204.128.125/people/23</idno>
+                    <link type="people" subtype="SonOf" corresp="http://137.204.128.125/people/24"/>
+                    <note>Bonifacio I degli Hucpoldingi (pre923-q.957), marchio, comes, consiliarius regis (Rodolfo II 924-6). Cf. Manarini, I due volti del potere.</note>
+                </person>
+                
+                <person>
+                    <persName>Ubaldo I degli Hucpoldingi</persName>
+                    <idno>http://137.204.128.125/people/24</idno>
+                    <link type="people" subtype="FatherOf" corresp="http://137.204.128.125/people/23"/>
+                    <note></note>
+                </person>
+                
+                <person>
+                    <persName>Pincio</persName>
+                    <idno>http://137.204.128.125/people/25</idno>
+                    <link type="people" subtype="SonOf" corresp="http://137.204.128.125/people/26"/>
+                    <note></note>
+                </person>
+                
+                <person>
+                    <persName>Orso</persName>
+                    <idno>http://137.204.128.125/people/26</idno>
+                    <link type="people" subtype="FatherOf" corresp="http://137.204.128.125/people/25"/>
+                    <note></note>
+                </person>
+                
+                <person>
+                    <persName>Guibodo</persName>
+                    <idno>http://137.204.128.125/people/31</idno>
+                    <note>Bishops</note>
+                </person>
+                
+                <person>
+                    <persName>Carlo III imperatore</persName>
+                    <idno>http://137.204.128.125/people/32</idno>
+                    <link type="people" subtype="Link" corresp="http://137.204.128.125/people/33"/>
+                    <note></note>
+                </person>
+                
+                <person>
+                    <persName>Liutward</persName>
+                    <idno>http://137.204.128.125/people/33</idno>
+                    <link type="people" subtype="Link" corresp="http://137.204.128.125/people/32"/>
+                    <link type="estates" subtype="Link" corresp="http://137.204.128.125/people/60"/>
+                    <note>Consiliarius regis</note>
+                </person>
+                
+                <person>
+                    <persName>Rudolf II of Burgundy (911-33)</persName>
+                    <idno>http://137.204.128.125/people/37</idno>
+                    <link type="people" subtype="LegallyRecognisedUnionWith" corresp="http://137.204.128.125/people/39"/>
+                    <note></note>
+                </person>
+                
+                <person>
+                    <persName>Bertha of Swabia (922-47)</persName>
+                    <idno>http://137.204.128.125/people/39</idno>
+                    <link type="people" subtype="LegallyRecognisedUnionWith" corresp="http://137.204.128.125/people/37"/>
+                    <note></note>
+                </person>
+                
+                <person>
+                    <persName>Rampretto marchese di Tuscia</persName>
+                    <idno>http://137.204.128.125/people/44</idno>
+                    <note></note>
+                </person>
+                
+                <person>
+                    <persName>Lamperto; Bishop of Milan (921-31)</persName>
+                    <idno>http://137.204.128.125/people/45</idno>
+                    <note></note>
+                </person>
+                
+                <person>
+                    <persName>Astolfo re (749-56)</persName>
+                    <idno>http://137.204.128.125/people/48</idno>
+                    <note></note>
+                </person>
+                
+                <person>
+                    <persName>Anselmo abate di Nonantola</persName>
+                    <idno>http://137.204.128.125/people/49</idno>
+                    <note></note>
+                </person>
+                
+                <person>
+                    <persName>Innocentius II (?-1143); papa</persName>
+                    <idno>http://137.204.128.125/people/51</idno>
+                    <note></note>
+                </person>
+                
+                <person>
+                    <persName>Paschalis II (1050?-1118); papa</persName>
+                    <idno>http://137.204.128.125/people/52</idno>
+                    <note></note>
+                </person>
+                
+                <person>
+                    <persName>Callixtus II (1060-1124); papa</persName>
+                    <idno>http://137.204.128.125/people/54</idno>
+                    <note></note>
+                </person>
+                
+                <person>
+                    <persName>Angelberga (830?-896/901); imperatrix</persName>
+                    <idno>http://137.204.128.125/people/55</idno>
+                    <note></note>
+                </person>
+                
+                <person>
+                    <persName>Sigefredus (892-904); comes palatii</persName>
+                    <idno>http://137.204.128.125/people/57</idno>
+                    <note></note>
+                </person>
+                
+                <person>
+                    <persName>Petrus (881-900); episcopus Patavinus; archicancellarius</persName>
+                    <idno>http://137.204.128.125/people/58</idno>
+                    <note></note>
+                </person>
+                
+                <person>
+                    <persName>Berta; abbatissa (880 ca.- 952)</persName>
+                    <idno>http://137.204.128.125/people/67</idno>
+                    <link/>
+                    <link type="juridical_persons" subtype="Link" corresp="http://137.204.128.125/people/30"/>
+                    <link type="juridical_persons" subtype="Link" corresp="http://137.204.128.125/people/53"/>
+                    <note>Badessa e rettrice di Santa Giulia di Brescia e di San Sisto a Piacenza</note>
+                </person>
+                
+                <person>
+                    <persName>Honorius I (625-638); papa</persName>
+                    <idno>http://137.204.128.125/people/68</idno>
+                    <note>Cf. Sennis 2013.</note>
+                </person>
+                
+                <person>
+                    <persName>Zacharias (741-752); papa</persName>
+                    <idno>http://137.204.128.125/people/69</idno>
+                    <note>Cf. Delogu 2020.</note>
+                </person>
+                
+                <person>
+                    <persName>Sergius II (844-847); papa</persName>
+                    <idno>http://137.204.128.125/people/70</idno>
+                    <note>Cf. Bonaccorsi 2018.</note>
+                </person>
+                
+                <person>
+                    <persName>Gregorius II (715-731); papa</persName>
+                    <idno>http://137.204.128.125/people/71</idno>
+                    <note>Cf. Delogu 2002.</note>
+                </person>
+                
+                <person>
+                    <persName>Prova...</persName>
+                    <idno>http://137.204.128.125/people/72</idno>
+                    <note></note>
+                </person>
+                
+                <person>
+                    <persName>Dagibertus; episcopus di Novara</persName>
+                    <idno>http://137.204.128.125/people/73</idno>
+                    <link type="people" subtype="UncleOf" corresp="http://137.204.128.125/people/74"/>
+                    <note></note>
+                </person>
+                
+                <person>
+                    <persName>Heriwinus</persName>
+                    <idno>http://137.204.128.125/people/74</idno>
+                    <link type="people" subtype="FidelisOf" corresp="http://137.204.128.125/people/21"/>
+                    <link type="people" subtype="NephewOf" corresp="http://137.204.128.125/people/73"/>
+                    <link type="estates" subtype="Link" corresp="http://137.204.128.125/people/75"/>
+                    <note></note>
+                </person>
+                
+            </listPerson>
+        </body>
+    </text>
+</TEI>

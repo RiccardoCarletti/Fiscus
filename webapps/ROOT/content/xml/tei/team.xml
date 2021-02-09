@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Team</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Fiscus</authority>
+                <idno type="filename">Team</idno>
+                <availability><licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence></availability>
+            </publicationStmt>
+            <sourceDesc><p>Born digital document.</p></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="commentary" xml:id="team_members">
+                    <p><emph>Caterina Ciccopiedi</emph>
+                        Università degli Studi di Torino</p>
+                    <p><emph>Erika Cinello</emph>
+                        Alma Mater Studiorum Università di Bologna</p>
+                        <p><emph>Simone Maria Collavini</emph>
+                        Università di Pisa</p>
+                        <p><emph>Dario Internullo</emph>
+                        Università degli Studi Roma Tre</p>
+                        <p><emph>Tiziana Lazzari</emph>
+                        Alma Mater Studiorum Università di Bologna</p>
+                        <p><emph>Vito Loré</emph>
+                        Università degli Studi Roma Tre</p>
+                        <p><emph>Edoardo Manarini</emph>
+                        Università degli Studi di Torino</p>
+                        <p><emph>Lorenzo Tabarrini</emph>
+                        Alma Mater Studiorum Università di Bologna</p>
+                        <p><emph>Paolo Tomei</emph>
+                        Università di Pisa</p>
+                        <p><emph>Massimo Valerio Vallerani</emph>
+                        Università degli Studi di Torino</p>
+                        <p><emph>Giacomo Vignodelli</emph>
+                        Alma Mater Studiorum Università di Bologna</p>
+            </div>
+        </body>
+    </text>
+</TEI>
