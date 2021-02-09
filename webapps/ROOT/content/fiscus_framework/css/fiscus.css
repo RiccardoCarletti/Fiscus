@@ -59,7 +59,7 @@
            display:block;
     }
         
-           body listPlace place placeName, body listPlace place geogName:not([type="coord"]), body listOrg org orgName, body listPerson person persName {
+           body listPlace place placeName:before, body listPlace place geogName:not([type="coord"]):before, body listOrg org orgName:before, body listPerson person persName:before {
         content: "Name: "
         oxy_editor(
            type, text,
@@ -68,7 +68,7 @@
            display:block;
     }
     
-    body listPlace place placeName[type="other"] {
+    body listPlace place placeName[type="other"]:before {
         content: "Also known as: "
         oxy_editor(
            type, text,
@@ -76,7 +76,8 @@
            columns, 40);
            display:block;
     }
-    body listPlace place geo {
+    
+    body listPlace place geo:before {
         content: "Coordinates (Lat, Long): "
         oxy_editor(
            type, text,
@@ -84,7 +85,8 @@
            columns, 40);
            display:block;
     }
-    body listPlace place idno, body listOrg org idno, body listPerson person idno {
+    
+    body listPlace place idno:before, body listOrg org idno:before, body listPerson person idno:before {
         content: "Item number: "
         oxy_editor(
            type, text,
@@ -92,14 +94,20 @@
            columns, 30);
            display:block;
     }
-    body listPlace place note, body listOrg org note, body listPerson person note {
+    
+    body listPlace place note:before, body listOrg org note:before, body listPerson person note:before {
         content: "Commentary/Bibliography: "
         oxy_editor(
            type, text,
            edit, "#text"
-           columns, 40);
+           columns, 100);
            display:block;
     }
+    
+    body listPlace place geo, body listPlace place placeName, body listPlace place geogName:not([type="coord"]), body listOrg org orgName, body listPerson person persName, body listPlace place placeName[type="other"], body listPlace place idno, body listOrg org idno, body listPerson person idno, body listPlace place note, body listOrg org note, body listPerson person note {
+          visibility: -oxy-collapse-text ;
+    }
+    
     body listPlace place link[type="places"], body listOrg org link[type="places"], body listPerson person link[type="places"] {
         content: "This item is linked to (place): "
         oxy_editor(
@@ -765,11 +773,6 @@ ab placeName:before {
         display:block;
         -oxy-placeholder-content: 'text here';
     }*/
-
-
-
-    div[type="edition"], div[type="commentary"], div[type="translation"]  {
-    }
     
 /*     div[type="apparatus"]  {
     }*/
