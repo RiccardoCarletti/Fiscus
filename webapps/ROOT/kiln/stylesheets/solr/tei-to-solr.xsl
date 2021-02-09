@@ -204,10 +204,10 @@
       </field>
   </xsl:template>
   
-  <xsl:template match="tei:origDate/@corresp" mode="facet_topical_date">
+  <xsl:template match="tei:origDate/tei:note[@type='topical_date']" mode="facet_topical_date">
     <field name="topical_date">
       <xsl:choose>
-        <xsl:when test=".!=''">
+        <xsl:when test="text()">
           <xsl:value-of select="translate(., '/', '／')"/>
         </xsl:when>
         <xsl:otherwise>
@@ -309,7 +309,7 @@
   </xsl:template>
   
   <xsl:template name="field_topical_date">
-    <xsl:apply-templates mode="facet_topical_date" select="/tei:TEI/tei:teiHeader//tei:origDate/@corresp"/>
+    <xsl:apply-templates mode="facet_topical_date" select="/tei:TEI/tei:teiHeader//tei:origDate/tei:note[@type='topical_date']"/>
   </xsl:template>
 
   <xsl:template name="field_fiscal_property">

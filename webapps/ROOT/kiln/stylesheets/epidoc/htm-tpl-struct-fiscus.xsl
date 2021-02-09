@@ -10,7 +10,8 @@
 
    <xsl:template name="fiscus-body-structure">
      <p>
-       <b>Document number: </b> <xsl:value-of select="substring-after(//t:TEI/@xml:id, 'doc')"/>
+       <b>Title: </b> <xsl:apply-templates select="//t:titleStmt/t:title"/>
+       <br/><b>Document number: </b> <xsl:value-of select="substring-after(//t:TEI/@xml:id, 'doc')"/>
        <br/><b>Author(s): </b> <xsl:choose>
          <xsl:when test="contains(//t:change[1]/@who, 'admin')"><xsl:text>Admin Fiscus</xsl:text></xsl:when>
          <xsl:when test="contains(//t:change[1]/@who, 'fiscus')"><xsl:text>Admin Fiscus</xsl:text></xsl:when>
@@ -82,8 +83,8 @@
      </p>
      <p>
        <b>Date: </b> <xsl:apply-templates select="//t:origin/t:origDate/text()"/>
-       <br/><b>Topical date: </b> <xsl:apply-templates select="//t:origin/t:origDate/@corresp"/>
-       <br/><b>Dating elements: </b> <xsl:apply-templates select="//t:origin/t:origDate/t:note/text()"/>
+       <br/><b>Topical date: </b> <xsl:apply-templates select="//t:origin/t:origDate/t:note[@type='topical_date']/node()"/>
+       <br/><b>Dating elements: </b> <xsl:apply-templates select="//t:origin/t:origDate/t:note[@type='dating_elements']/node()"/>
      </p>
      
          <div class="content" id="edition" data-section-content="data-section-content">
@@ -156,7 +157,7 @@
          </head>
          <body>
             <h1>
-               <xsl:value-of select="$title"/>
+               <xsl:apply-templates select="$title"/>
             </h1>
             <xsl:call-template name="fiscus-body-structure" />
          </body>
@@ -243,6 +244,14 @@
         <a><xsl:attribute name="href"><xsl:value-of select="@corresp"/></xsl:attribute><xsl:attribute name="target"><xsl:value-of select="'_blank'"/></xsl:attribute><xsl:apply-templates/></a>
       </xsl:otherwise>
     </xsl:choose>
+  </xsl:template>
+
+  <xsl:template match="t:foreign[not(ancestor::t:div[@type='edition'])]">
+      <i><xsl:apply-templates/></i>
+  </xsl:template>
+  
+  <xsl:template match="t:title[not(ancestor::t:titleStmt)][not(ancestor::t:div[@type='edition'])]">
+      <i><xsl:apply-templates/></i>
   </xsl:template>
   
   <!--  old code for inscription numbers now in <idno type="ircyr2012">:
