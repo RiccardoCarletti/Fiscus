@@ -43,9 +43,10 @@
     </xsl:for-each>
   </xsl:template>
   
-  <xsl:template match="tei:geogName" mode="facet_mentioned_estates">
+  <xsl:template match="tei:geogName[@ref]" mode="facet_mentioned_estates">
     <field name="mentioned_estates">
-      <xsl:value-of select="translate(., '/', '／')"/>
+      <xsl:variable name="ref" select="translate(@ref,' #', '')"/>
+      <xsl:value-of select="translate(document('../../content/xml/tei/estates.xml')//tei:place[descendant::tei:idno=$ref]/tei:geogName, '/', '／')" />
     </field>
   </xsl:template>
   

@@ -198,9 +198,10 @@
     </field>
   </xsl:template>
   
-  <xsl:template match="tei:orgName" mode="facet_mentioned_juridical_persons">
+  <xsl:template match="tei:orgName[@ref]" mode="facet_mentioned_juridical_persons">
       <field name="mentioned_juridical_persons">
-        <xsl:value-of select="translate(., '/', '／')" />
+        <xsl:variable name="ref" select="translate(@ref,' #', '')"/>
+        <xsl:value-of select="document('../../../content/xml/tei/juridical_persons.xml')//tei:org[descendant::tei:idno=$ref]/tei:orgName[1]"/>
       </field>
   </xsl:template>
   
@@ -228,21 +229,24 @@
     </field>
   </xsl:template>
 
-  <xsl:template match="tei:persName" mode="facet_mentioned_persons">
+  <xsl:template match="tei:persName[@ref]" mode="facet_mentioned_persons">
     <field name="mentioned_persons">
-      <xsl:value-of select="translate(., '/', '／')" />
+      <xsl:variable name="ref" select="translate(@ref,' #', '')"/>
+      <xsl:value-of select="translate(document('../../../content/xml/tei/people.xml')//tei:person[descendant::tei:idno=$ref]/tei:persName, '/', '／')" />
     </field>
   </xsl:template>
 
-  <xsl:template match="tei:persName" mode="facet_mentioned_people">
+  <xsl:template match="tei:persName[@ref]" mode="facet_mentioned_people">
     <field name="mentioned_people">
-      <xsl:value-of select="translate(., '/', '／')" />
+      <xsl:variable name="ref" select="translate(@ref,' #', '')"/>
+      <xsl:value-of select="translate(document('../../../content/xml/tei/people.xml')//tei:person[descendant::tei:idno=$ref]/tei:persName, '/', '／')" />
     </field>
   </xsl:template>
 
-  <xsl:template match="tei:placeName" mode="facet_mentioned_places">
+  <xsl:template match="tei:placeName[@ref]" mode="facet_mentioned_places">
     <field name="mentioned_places">
-      <xsl:value-of select="translate(., '/', '／')" />
+      <xsl:variable name="ref" select="translate(@ref,' #', '')"/>
+      <xsl:value-of select="translate(document('../../../content/xml/tei/places.xml')//tei:place[descendant::tei:idno=$ref]/tei:placeName[not(@type)], '/', '／')" />
     </field>
   </xsl:template>
 

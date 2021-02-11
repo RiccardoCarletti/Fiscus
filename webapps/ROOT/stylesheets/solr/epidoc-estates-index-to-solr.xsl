@@ -15,7 +15,7 @@
 
   <xsl:template match="/">
     <add>
-      <xsl:for-each-group select="//tei:geogName[ancestor::tei:div/@type='edition']" group-by="concat(., '-', @ref, '-', @key)">
+      <xsl:for-each-group select="//tei:geogName[ancestor::tei:div/@type='edition']" group-by="concat(@ref, '-', ., '-', @key)">
         <xsl:variable name="est-id" select="translate(replace(@ref, ' #', '; '), '#', '')"/>
         <xsl:variable name="estate-id" select="document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/xml/tei/estates.xml'))//tei:place[descendant::tei:idno=$est-id]/tei:geogName"/>
         <doc>
@@ -27,13 +27,14 @@
           </field>
           <xsl:call-template name="field_file_path" />
           <field name="index_item_name">
-            <xsl:value-of select="." />
-          </field>
-          <field name="index_base_form">
             <xsl:choose>
               <xsl:when test="$estate-id"><xsl:value-of select="$estate-id" /></xsl:when>
-              <xsl:otherwise><xsl:value-of select="$est-id" /></xsl:otherwise>
+              <xsl:when test="$est-id and not($estate-id)"><xsl:value-of select="$est-id" /></xsl:when>
+              <xsl:otherwise><xsl:text>~</xsl:text></xsl:otherwise>
             </xsl:choose>
+          </field>
+          <field name="index_base_form">
+            <xsl:value-of select="." />
           </field>
           <field name="index_keys">
             <xsl:value-of select="translate(replace(@key, ' #', '; '), '#', '')" />
