@@ -11,19 +11,40 @@
 
   <xsl:import href="../../kiln/stylesheets/tei/to-html.xsl" />
   
-  <!-- 
-   <xsl:variable name="ref" select="translate(@ref,' #', '')"/>
-      <xsl:value-of select="translate(document('../../../content/fiscus_framework/resources/places.xml')//tei:place[descendant::tei:idno=$ref]/tei:placeName[not(@type)], '/', '／')" />
-  
-  
-  <xsl:variable name="pl-id" select="translate(replace(@ref, ' #', '; '), '#', '')"/>
-        <xsl:variable name="place-id" select="document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/fiscus_framework/resources/places.xml'))//tei:place[descendant::tei:idno=$pl-id]"/>-->
-  <!--<xsl:template match="//xi:include">
+  <xsl:template match="//tei:p[@n='import'][ancestor::tei:TEI[@xml:id='places']]">
+    <xsl:variable name="imported_text" select="document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/fiscus_framework/resources/places.xml'))//tei:listPlace"/>
     <div class="imported_list">
-      <xsl:value-of select="//tei:listPlace"/>
-      <xsl:text>AAA</xsl:text>
+      <xsl:apply-templates select="$imported_text"/>
     </div>
-  </xsl:template>-->
+  </xsl:template>
+  
+  <xsl:template match="//tei:p[@n='import'][ancestor::tei:TEI[@xml:id='juridical_persons']]">
+    <xsl:variable name="imported_text" select="document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/fiscus_framework/resources/juridical_persons.xml'))//tei:listOrg"/>
+    <div class="imported_list">
+      <xsl:apply-templates select="$imported_text"/>
+    </div>
+  </xsl:template>
+  
+  <xsl:template match="//tei:p[@n='import'][ancestor::tei:TEI[@xml:id='estates']]">
+    <xsl:variable name="imported_text" select="document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/fiscus_framework/resources/estates.xml'))//tei:listPlace"/>
+    <div class="imported_list">
+      <xsl:apply-templates select="$imported_text"/>
+    </div>
+  </xsl:template>
+  
+  <xsl:template match="//tei:p[@n='import'][ancestor::tei:TEI[@xml:id='people']]">
+    <xsl:variable name="imported_text" select="document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/fiscus_framework/resources/people.xml'))//tei:listPerson"/>
+    <div class="imported_list">
+      <xsl:apply-templates select="$imported_text"/>
+    </div>
+  </xsl:template>
+  
+  <xsl:template match="//tei:p[@n='import'][ancestor::tei:TEI[@xml:id='thesaurus']]">
+    <xsl:variable name="imported_text" select="document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/fiscus_framework/resources/thesaurus.xml'))//tei:taxonomy"/>
+    <div class="imported_list">
+      <xsl:apply-templates select="$imported_text"/>
+    </div>
+  </xsl:template>
   
   <xsl:template match="//tei:listPlace/tei:place">
     <div class="list_item">
@@ -54,5 +75,11 @@
       <xsl:if test="tei:link"><xsl:for-each select="tei:link"><p><i><xsl:text>Linked item (</xsl:text><xsl:value-of select="@type"/><xsl:text>): </xsl:text></i> <xsl:value-of select="@corresp"/> <xsl:if test="@subtype"><xsl:text> (</xsl:text><xsl:value-of select="@subtype"/><xsl:text>)</xsl:text></xsl:if></p></xsl:for-each></xsl:if>
     </div>
   </xsl:template>
-  
+
+  <xsl:template match="//tei:taxonomy//tei:catDesc">
+    <div class="list_item">
+      <p><xsl:value-of select="."/></p>
+    </div>
+  </xsl:template>
+
 </xsl:stylesheet>
