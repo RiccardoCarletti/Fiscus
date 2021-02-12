@@ -17,7 +17,7 @@
     <add>
       <xsl:for-each-group select="//tei:placeName[ancestor::tei:div/@type='edition']" group-by="concat(@ref, '-', ., '-', @key)">
         <xsl:variable name="pl-id" select="translate(replace(@ref, ' #', '; '), '#', '')"/>
-        <xsl:variable name="place-id" select="document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/xml/tei/places.xml'))//tei:place[descendant::tei:idno=$pl-id]"/>
+        <xsl:variable name="place-id" select="document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/fiscus_framework/resources/places.xml'))//tei:place[descendant::tei:idno=$pl-id]"/>
         <doc>
           <field name="document_type">
             <xsl:value-of select="$subdirectory" />

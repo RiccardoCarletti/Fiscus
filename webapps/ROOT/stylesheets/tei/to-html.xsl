@@ -2,6 +2,7 @@
 <xsl:stylesheet version="2.0"
                 xmlns:kiln="http://www.kcl.ac.uk/artshums/depts/ddh/kiln/ns/1.0"
                 xmlns:tei="http://www.tei-c.org/ns/1.0"
+                xmlns:xi="http://www.w3.org/2001/XInclude"
                 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
   <!-- Project-specific XSLT for transforming TEI to
@@ -9,6 +10,20 @@
        to-html.xsl (which should not be changed). -->
 
   <xsl:import href="../../kiln/stylesheets/tei/to-html.xsl" />
+  
+  <!-- 
+   <xsl:variable name="ref" select="translate(@ref,' #', '')"/>
+      <xsl:value-of select="translate(document('../../../content/fiscus_framework/resources/places.xml')//tei:place[descendant::tei:idno=$ref]/tei:placeName[not(@type)], '/', '／')" />
+  
+  
+  <xsl:variable name="pl-id" select="translate(replace(@ref, ' #', '; '), '#', '')"/>
+        <xsl:variable name="place-id" select="document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/fiscus_framework/resources/places.xml'))//tei:place[descendant::tei:idno=$pl-id]"/>-->
+  <!--<xsl:template match="//xi:include">
+    <div class="imported_list">
+      <xsl:value-of select="//tei:listPlace"/>
+      <xsl:text>AAA</xsl:text>
+    </div>
+  </xsl:template>-->
   
   <xsl:template match="//tei:listPlace/tei:place">
     <div class="list_item">
