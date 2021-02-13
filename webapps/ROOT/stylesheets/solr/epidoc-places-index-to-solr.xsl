@@ -15,9 +15,9 @@
 
   <xsl:template match="/">
     <add>
-      <xsl:for-each-group select="//tei:placeName[ancestor::tei:div/@type='edition']" group-by="concat(., '-', @ref, '-', @key)">
+      <xsl:for-each-group select="//tei:placeName[ancestor::tei:div/@type='edition']" group-by="concat(@ref, '-', ., '-', @key)">
         <xsl:variable name="pl-id" select="translate(replace(@ref, ' #', '; '), '#', '')"/>
-        <xsl:variable name="place-id" select="document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/xml/tei/places.xml'))//tei:place[descendant::tei:idno=$pl-id]"/>
+        <xsl:variable name="place-id" select="document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/fiscus_framework/resources/places.xml'))//tei:place[descendant::tei:idno=$pl-id]"/>
         <doc>
           <field name="document_type">
             <xsl:value-of select="$subdirectory" />
@@ -27,15 +27,16 @@
           </field>
           <xsl:call-template name="field_file_path" />
           <field name="index_item_name">
-                <xsl:value-of select="." />
-          </field>
-          <field name="index_base_form">
             <xsl:choose>
               <xsl:when test="$place-id/tei:placeName"><xsl:value-of select="$place-id/tei:placeName[1]" /> 
                 <xsl:if test="$place-id/tei:placeName[2]"><xsl:text> [</xsl:text><xsl:value-of select="$place-id/tei:placeName[2]" /><xsl:text>]</xsl:text></xsl:if>
               </xsl:when>
-              <xsl:otherwise><xsl:value-of select="$pl-id" /></xsl:otherwise>
+              <xsl:when test="$pl-id and not($place-id)"><xsl:value-of select="$pl-id" /></xsl:when>
+              <xsl:otherwise><xsl:text>~</xsl:text></xsl:otherwise>
             </xsl:choose>
+          </field>
+          <field name="index_base_form">
+            <xsl:value-of select="."/>
           </field>
           <field name="index_keys">
             <xsl:value-of select="translate(replace(@key, ' #', '; '), '#', '')" />

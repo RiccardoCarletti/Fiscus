@@ -18,14 +18,14 @@
         <body>
             <listPerson>
                 <person>
-                    <persName>Bonifacio</persName>
+                    <persName>Bonifacius (985?-1052), marchio Tusciae</persName>
                     <idno>http://137.204.128.125/people/1</idno>
-                    <link type="people" subtype="Link" corresp="http://137.204.128.125/people/2"/>
-                    <note>marchese</note>
+                    <link type="people" subtype="Link" corresp="#http://137.204.128.125/people/2"/>
+                    <note/>
                 </person>
                 
                 <person>
-                    <persName>Cantarus; gastaldio</persName>
+                    <persName>Cantarus, gastaldio</persName>
                     <idno>http://137.204.128.125/people/2</idno>
                     <link type="people" subtype="Link" corresp="http://137.204.128.125/people/1"/>
                     <note></note>
@@ -45,7 +45,7 @@
                 </person>
                 
                 <person>
-                    <persName>Gherardo</persName>
+                    <persName>Gherardus (-961), comes (Aldobrandeschi)</persName>
                     <idno>http://137.204.128.125/people/5</idno>
                     <note>Cf. COLLAVINI, Honorabilis domus, pp. 75-76, 79.</note>
                 </person>
@@ -342,6 +342,11 @@
                     <link type="people" subtype="NephewOf" corresp="http://137.204.128.125/people/73"/>
                     <link type="estates" subtype="Link" corresp="http://137.204.128.125/people/75"/>
                     <note></note>
+                </person>
+                <person>
+                    <persName>Paganus de Arcellis (1187)</persName>
+                    <idno>http://137.204.128.125/people/76</idno>
+                    <note/>
                 </person>
                 
             </listPerson>

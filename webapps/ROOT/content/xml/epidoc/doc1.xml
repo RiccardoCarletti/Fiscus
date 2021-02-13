@@ -33,7 +33,7 @@
                             <rs type="text_type" ref="https://ausohnum.huma-num.fr/concept/c25683">Littera/mandatum</rs>
                             <rs type="record_source" ref="https://ausohnum.huma-num.fr/concept/c26116">Original document</rs>
                             <rs type="document_tradition" ref="https://ausohnum.huma-num.fr/concept/c26113">Copy</rs>
-                            <rs type="fiscal_property">yes</rs>
+                            <rs type="fiscal_property"/>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang=" " otherLangs=""/>
@@ -41,9 +41,9 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate notBefore="1004-09-24" notAfter="1052-05-06">24 September 1004 - 6 May 1052 
-                                <note type="dating_elements"></note>
-                                <note type="topical_date"></note>
+                            <origDate notBefore="1004-09-24" notAfter="1052-05-06">1004 September 24
+                                - 1052 May 6<note type="dating_elements"/>
+                                <note type="topical_date"/>
                             </origDate>
                             <origPlace/>
                         </origin>
@@ -113,6 +113,7 @@
            <change when="2020-12-21T23:53:40.857-08:00" who="http://137.204.128.125/people/ptomei"/>
            <change when="2021-01-14T02:04:19.334-08:00" who="http://137.204.128.125/people/fiscus"/>
            <change when="2021-01-18T09:26:46.464-08:00" who="http://137.204.128.125/people/fiscus"/>
+                <change when="2021-02-13" who="ptomei">changes</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -121,10 +122,30 @@
             <div type="edition">
                 <div type="textpart">
                     <ab>
-                        <persName key="#gastaldus/vicegastaldus #letters from public authority #property of criminals/political traitors" ref="http://137.204.128.125/people/2">Cantarus</persName> <rs key="#gastaldus/vicegastaldus">gastaldius</rs> <persName key="#marquis/duke #dominus/senior" ref="http://137.204.128.125/people/1">Bonefatii</persName> <rs key="#marquis/duke">marchionis</rs> omnibus hominibus de <orgName key="#">plebe de <placeName key="#">Ilice</placeName>
-                        </orgName> ex parte <rs key="#dominus/senior">senioris</rs> nostri <persName key="#">Bonefatii</persName> marchionis et <rs key="#letters from public authorities">nostra mandamus vobis</rs> ut omnes veniatis sicut per meos missos vobis mandavi excepto omnes qui sunt <rs key="#manentes">manentes</rs> de <orgName key="#manentes">canonica Sancti Martini</orgName> ipsi vero manentes remaneant et custodiant <placeName key="#castle">
-                            <rs key="#castle">castellum</rs>
-                        </placeName> quantum melius potuerint quia domnus noster marchio precepit eos remanere si autem alii remanserint sciant quia <rs key="#property of criminals/political traitors">omnia sua bona perdent</rs>
+                        <persName
+                            key="#Gastaldus/vicegastaldus #Missus of other public authorities #Letters from public authorities"
+                            ref="#http://137.204.128.125/people/2">Cantarus</persName>
+                        <rs key="Gastaldus/vicegastaldus">gastaldius</rs>
+                        <persName key="#Marquis/duke #Dominus of #Senior of"
+                            ref="#http://137.204.128.125/people/1">Bonefatii</persName>
+                        <rs key="Marquis/duke">marchionis</rs> omnibus hominibus de <orgName
+                            key="#Baptismal churches"><rs key="Baptismal churches">plebe</rs> de
+                                <placeName key="#Baptismal churches"
+                                ref="#http://137.204.128.125/places/1">Ilice</placeName>
+                        </orgName> ex parte <rs key="Senior of">senioris</rs> nostri Bonefatii
+                        marchionis et <rs key="Letters from public authorities">nostra mandamus
+                            vobis</rs> ut omnes veniatis sicut <rs
+                            key="Missus of other public authorities">per meos missos</rs> vobis
+                        mandavi excepto omnes qui sunt <rs key="Manentes">manentes</rs> de <orgName
+                            key="#Manentes #Collegiate churches"><rs key="Collegiate churches"
+                                >canonica</rs> Sancti Martini</orgName> ipsi vero manentes remaneant
+                        et custodiant <placeName key="#Castle"
+                            ref="#http://137.204.128.125/places/24">
+                            <rs key="Castle">castellum</rs>
+                        </placeName> quantum melius potuerint quia <rs key="Dominus of">domnus</rs>
+                        noster marchio precepit eos remanere si autem alii remanserint sciant quia
+                            <rs key="Property of criminals/political traitors">omnia sua bona
+                            perdent</rs>
                     </ab>
                 </div>
             </div>
@@ -138,7 +159,9 @@
                 <p> </p>
             </div>
             <div type="commentary">
-                <p>Resta incertezza fra i marchesi di Tuscia Bonifacio Hucpoldingi e Bonifacio Canossa. Il castello dei canonici della chiesa matrice è senz'altro Massarosa, nel piviere di Elici.</p>
+                <p>Resta incertezza fra i marchesi di Tuscia Bonifacio Hucpoldingi e Bonifacio
+                    Canossa, anche se il secondo sembra preferibile. Il castello dei canonici della
+                    chiesa matrice è senz'altro Massarosa, nel piviere di Elici.</p>
             </div>
         </body>
     </text>
