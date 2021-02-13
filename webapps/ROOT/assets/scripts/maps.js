@@ -1,3 +1,4 @@
+/*Last update 13 Feb 2021*/
 var mymap = L.map('mapid').setView([44, 10.335], 6.5); L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoiaXZhZ2lvbmFraXMiLCJhIjoiY2treTVmZnhyMDBzdTJ2bWxyemY4anJtNSJ9.QrP-0v-7btCzG97ll23HKw', {
           maxZoom: 18,
           attribution: 'Map data <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, ' +
@@ -62,6 +63,8 @@ var mymap = L.map('mapid').setView([44, 10.335], 6.5); L.tileLayer('https://api.
           L.marker([46.116498450522876, 8.293138760964213]).addTo(mymap).bindPopup("<b>Domodossola [Oxila]</b>");  
           L.marker([46.07957, 8.29973]).addTo(mymap).bindPopup("<b>Beura</b>");                                 
           L.marker([45.75679717465874, 8.487411159912883]).addTo(mymap).bindPopup("<b>Invorio</b>");    
+          L.marker([44.974590, 9.831090]).addTo(mymap).bindPopup("<b>Cadeo (Piacenza) [Casa Dei]</b>");                                 
+          L.marker([45.133247, 10.022651]).addTo(mymap).bindPopup("<b>Cremona</b>");
           
           L.polygon([
           [45.21625206214063,8.293893188238146],
