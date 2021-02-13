@@ -41,8 +41,8 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate when="0977-11-03">3 November 977 
-                                <note type="dating_elements">Anno di impero di Ottone</note>
+                            <origDate when="0977-11-03">977 November 3<note type="dating_elements"
+                                    >Anno di impero di Ottone II</note>
                                 <note type="topical_date">Lucca</note>
                             </origDate>
                             <origPlace/>
@@ -99,6 +99,7 @@
            <change when="2020-12-21T23:57:43.394-08:00" who="http://137.204.128.125/people/ptomei"/>
            <change when="2020-12-22T00:04:26.573-08:00" who="http://137.204.128.125/people/ptomei"/>
            <change when="2020-12-22T00:09:09.107-08:00" who="http://137.204.128.125/people/ptomei"/>
+                <change when="2021-02-13" who="ptomei">changes</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -107,17 +108,68 @@
             <div type="edition">
                 <div type="textpart">
                     <ab>
-                        <persName key="#" ref="http://137.204.128.125/people/4">Stefano</persName> del <persName key="#">fu Antonio</persName> cambia beni con il vescovo di Lucca <persName key="#">Adalongo</persName>, ad pars del <orgName key="#">vescovato di San Martino</orgName>.
-Dà al vescovo medietatem di 6 appezzamenti di terra posti in loco et finibus <placeName key="#">Saltucclo</placeName> prope <placeName key="#">Marilla</placeName>: il primo confinante uno capo con terra della <orgName key="#">chiesa di San Pancrazio</orgName>, alio capo cum uno lato in via, alio lato con terra dello stesso vescovato e con terra del <persName key="#">fu Sisemundo</persName>; il secondo, quod est vinea, confinante uno capo cum uno lato con terra dello stesso vescovato, alio capo cum alio lato in via; il terzo, quod est vinea, confinante uno capo in via, alio capo in rivo, uno lato con terra dello stesso vescovato, alio lato con terra della chiesa di San Pancrazio; il quarto confinante uno capo in via publica e con terra dello stesso vescovato, alio capo con terra di <persName key="#">Willerado de <placeName key="#">Albiano</placeName>
-                        </persName>, lato uno in via, alio lato con terra dello stesso vescovato, con terra del <persName key="#">fu Erizio</persName> e con terra di <persName key="#">...ulo</persName>; il quinto confinante uno capo in via publica, alio capo con terra di <persName key="#">Adam</persName> e <persName key="#">Gottifridi</persName>, lato uno con terra dello stesso vescovato e con terra del <persName key="#">fu Pietro</persName>, alio lato con terra del suddetto Gottifridi e con terra di <persName key="#">Andrea</persName>; il sesto, dicitur <placeName key="#petiae #count #fiscal property #mention">Casalino</placeName>, confinante uno capo in via, alio capo con terra del suddetto Gottifridi, ambas lateras con <rs key="#petiae">terra</rs> del <persName key="#count" ref="http://137.204.128.125/people/4">fu Gherardo</persName> <rs key="#count">conte</rs>, per una misura complessiva di 60 staia con tutte le loro dipendenze.
-                        Riceve dal vescovo, de pars dello stesso vescovato, un appezzamento di terra, cum casis super se abentes seo curte, orto, posto in loco et finibus <placeName key="#">Vico Strata</placeName> ubi dicitur <placeName key="#petiae #emperor/king #marquis/duke #fiscal property #mention">a <rs key="#salae">Sala</rs>
-                        </placeName>, confinante uno capo in via publica, alio capo cum ambas lateras con <rs key="#petiae">terra</rs> del <rs key="#emperor/king">re</rs> que vocitatur <placeName key="#">
-                            <rs key="#marquis/duke">Marchisciana</rs>
-                        </placeName>; un appezzamento di terra posto in loco et finibus ubi dicitur <placeName key="#">Waturaticha</placeName> prope suprascripto Vicho Strata, confinante uno capo con terra sua, alio capo con terra dello stesso vescovato, lato uno con terra della <orgName key="#">chiesa di San Frediano</orgName>, alio lato con terra di <persName key="#">Domenico</persName>, per una misura complessiva di 31 staia et dimidio con tutte le sue dipendenze.
-Il vescovo secondo la legge invia i suoi missos <persName key="#">Andrea</persName> prete e visdomino del <persName key="#">fu Altiprando</persName>, <persName key="#">Benedetto</persName> del <persName key="#">fu Giovanni</persName>, <persName key="#">Leone</persName> del <persName key="#">fu Benedetto</persName>, per sovrintendere alla permuta.
-Chiedono al notaio imperiale <persName key="#">Pietro</persName> la stesura della cartula.
-Actum <placeName key="#">Luca</placeName>.
-Testimoni sottoscrittori: <persName key="#">Andrea</persName> presbiter et vicedominus del <persName key="#">fu Altiprando</persName>, <persName key="#">Benedetto</persName> del <persName key="#">fu Giovanni</persName>, <persName key="#">Leone</persName> del <persName key="#">fu Benedetto</persName>, ... , ..., <persName key="#">Pietro</persName> notarius dom. imp.</ab>
+                        <persName key="">Stefano</persName> del <persName key="">fu
+                            Antonio</persName> cambia beni con il <rs key="Bishops">vescovo</rs> di
+                        Lucca <persName key="#Bishops">Adalongo</persName>, ad pars del <orgName
+                            key="#Mother churches"><rs key="Mother churches">vescovato</rs> di San
+                            Martino</orgName>. Dà al vescovo medietatem di 6 appezzamenti di terra
+                        posti in loco et finibus <placeName key=""
+                            ref="#http://137.204.128.125/places/36">Saltucclo</placeName> prope
+                            <placeName key="">Marilla</placeName>: il primo confinante uno capo con
+                        terra della <orgName key="#Churches"><rs key="Churches">chiesa</rs> di San
+                            Pancrazio</orgName>, alio capo cum uno lato in via, alio lato con terra
+                        dello stesso vescovato e con terra del <persName key="">fu
+                            Sisemundo</persName>; il secondo, quod est vinea, confinante uno capo
+                        cum uno lato con terra dello stesso vescovato, alio capo cum alio lato in
+                        via; il terzo, quod est vinea, confinante uno capo in via, alio capo in
+                        rivo, uno lato con terra dello stesso vescovato, alio lato con terra della
+                        chiesa di San Pancrazio; il quarto confinante uno capo in via publica e con
+                        terra dello stesso vescovato, alio capo con terra di <persName key=""
+                            >Willerado de <placeName key="">Albiano</placeName>
+                        </persName>, lato uno in via, alio lato con terra dello stesso vescovato,
+                        con terra del <persName key="">fu Erizio</persName> e con terra di <persName
+                            key="">...ulo</persName>; il quinto confinante uno capo in via publica,
+                        alio capo con terra di <persName key="">Adam</persName> e <persName key=""
+                            >Gottifridi</persName>, lato uno con terra dello stesso vescovato e con
+                        terra del <persName key="">fu Pietro</persName>, alio lato con terra del
+                        suddetto Gottifridi e con terra di <persName key="">Andrea</persName>; il
+                        sesto, dicitur <placeName key="#Petiae #Count #Fiscal property #Mention"
+                            >Casalino</placeName>, confinante uno capo in via, alio capo con terra
+                        del suddetto Gottifridi, ambas lateras con <rs key="Petiae">terra</rs> del
+                            <persName key="#Count" ref="#http://137.204.128.125/people/5">fu
+                            Gherardo</persName>
+                        <rs key="Count">conte</rs>, per una misura complessiva di 60 staia con tutte
+                        le loro dipendenze. Riceve dal vescovo, de pars dello stesso vescovato, un
+                        appezzamento di terra, cum casis super se abentes seo curte, orto, posto in
+                        loco et finibus <placeName key="#Salae">Vico Strata</placeName> ubi dicitur
+                            <placeName
+                            key="#Petiae #Emperor/king #Marquis/duke #Fiscal property #Mention">a
+                                <rs key="Salae">Sala</rs>
+                        </placeName>, confinante uno capo in via publica, alio capo cum ambas
+                        lateras con <rs key="Petiae">terra</rs> del <rs key="Emperor/king">re</rs>
+                        que vocitatur <placeName key="">
+                            <rs key="Marquis/duke">Marchisciana</rs>
+                        </placeName>; un appezzamento di terra posto in loco et finibus ubi dicitur
+                            <placeName key="">Waturaticha</placeName> prope suprascripto Vicho
+                        Strata, confinante uno capo con terra sua, alio capo con terra dello stesso
+                        vescovato, lato uno con terra della <orgName key="#Churches"><rs
+                                key="Churches">chiesa</rs> di San Frediano</orgName>, alio lato con
+                        terra di <persName key="">Domenico</persName>, per una misura complessiva di
+                        31 staia et dimidio con tutte le sue dipendenze. Il vescovo secondo la legge
+                        invia i suoi <rs key="Missus of other public authorities">missos</rs> Andrea
+                        prete e visdomino del fu Altiprando, Benedetto del fu Giovanni, Leone del fu
+                        Benedetto, per sovrintendere alla permuta. Chiedono al <rs key="Notary"
+                            >notaio imperiale</rs>
+                        <persName key="#Notary">Pietro</persName> la stesura della cartula. Actum
+                            <placeName key="" ref="#http://137.204.128.125/places/4"
+                            >Luca</placeName>. Testimoni sottoscrittori: <persName
+                            key="#Missus of other public authorities #Priests">Andrea</persName>
+                        <rs key="Priests">presbiter et vicedominus</rs> del <persName key="">fu
+                            Altiprando</persName>, <persName
+                            key="#Missus of other public authorities">Benedetto</persName> del
+                            <persName key="">fu Giovanni</persName>, <persName
+                            key="#Missus of other public authorities">Leone</persName> del <persName
+                            key="">fu Benedetto</persName>, ... , ... .</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
