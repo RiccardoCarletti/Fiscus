@@ -38,7 +38,10 @@
            <xsl:value-of select="//t:change[1]/@who"/>
          </xsl:otherwise>
        </xsl:choose>
-       <xsl:text> (file creation on </xsl:text><xsl:value-of select="substring-before(//t:change[1]/@when, 'T')"/><xsl:text>); </xsl:text>
+       <xsl:text> (file creation on </xsl:text><xsl:choose>
+         <xsl:when test="contains(//t:change[1]/@when, 'T')"><xsl:value-of select="substring-before(//t:change[1]/@when, 'T')"/></xsl:when>
+         <xsl:otherwise><xsl:value-of select="//t:change[1]/@when"/></xsl:otherwise>
+       </xsl:choose><xsl:text>); </xsl:text>
        <xsl:choose>
          <xsl:when test="contains(//t:change[last()]/@who, 'admin')"><xsl:text>Admin Fiscus</xsl:text></xsl:when>
          <xsl:when test="contains(//t:change[last()]/@who, 'fiscus')"><xsl:text>Admin Fiscus</xsl:text></xsl:when>
@@ -63,7 +66,10 @@
          <!--<xsl:when test="contains(//t:change[last()]/@who, 'people/')"><xsl:value-of select="substring-after(//t:change[last()]/@who, 'people/')"/></xsl:when>-->
          <xsl:otherwise><xsl:value-of select="//t:change[last()]/@who"/></xsl:otherwise>
        </xsl:choose>
-       <xsl:text> (last change on </xsl:text><xsl:value-of select="substring-before(//t:change[last()]/@when, 'T')"/><xsl:text>)</xsl:text>
+       <xsl:text> (last change on </xsl:text><xsl:choose>
+         <xsl:when test="contains(//t:change[last()]/@when, 'T')"><xsl:value-of select="substring-before(//t:change[last()]/@when, 'T')"/></xsl:when>
+         <xsl:otherwise><xsl:value-of select="//t:change[last()]/@when"/></xsl:otherwise>
+       </xsl:choose><xsl:text>)</xsl:text>
        <!--<xsl:for-each select="//t:change">
          <xsl:choose>
            <xsl:when test="contains(@who, 'people/')">
