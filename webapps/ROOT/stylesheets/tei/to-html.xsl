@@ -46,6 +46,19 @@
     </div>
   </xsl:template>
   
+  <xsl:template match="//tei:listPlace[@type='places']">
+    <xsl:apply-templates><xsl:sort select="tei:place/tei:placeName[1]" order="ascending"></xsl:sort></xsl:apply-templates>
+  </xsl:template>
+  <xsl:template match="//tei:listPlace[@type='estates']">
+    <xsl:apply-templates><xsl:sort select="tei:place/tei:geogName" order="ascending"></xsl:sort></xsl:apply-templates>
+  </xsl:template>
+  <xsl:template match="//tei:listOrg">
+    <xsl:apply-templates><xsl:sort select="tei:org/tei:orgName" order="ascending"></xsl:sort></xsl:apply-templates>
+  </xsl:template>
+  <xsl:template match="//tei:listPerson">
+    <xsl:apply-templates><xsl:sort select="tei:person/tei:persName" order="ascending"></xsl:sort></xsl:apply-templates>
+  </xsl:template>
+  
   <xsl:template match="//tei:listPlace/tei:place">
     <div class="list_item">
       <xsl:if test="tei:placeName"><p><strong><xsl:apply-templates select="tei:placeName[1]"/></strong></p></xsl:if>
@@ -83,6 +96,22 @@
   </xsl:template>
   
   <xsl:template match="//tei:addSpan[@xml:id='map']">
+    <xsl:variable name="imported_text" select="document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/fiscus_framework/resources/places.xml'))//tei:listPlace"/>
+    <xsl:variable name="map_points">
+      <xsl:text>{</xsl:text><xsl:for-each select="$imported_text/tei:place">
+        <xsl:text>"</xsl:text><xsl:value-of select="translate(tei:placeName[1], ',', '; ')"/><xsl:text>": "</xsl:text><xsl:choose>
+          <xsl:when test="contains(tei:geogName/tei:geo, ';')"><xsl:value-of select="substring-before(tei:geogName/tei:geo, ';')"/></xsl:when>
+          <xsl:otherwise><xsl:value-of select="tei:geogName/tei:geo"/></xsl:otherwise>
+        </xsl:choose><xsl:text>"</xsl:text><xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if></xsl:for-each><xsl:text>}</xsl:text>
+    </xsl:variable>
+    <xsl:variable name="map_polygons">
+      <xsl:text>{</xsl:text>
+      <xsl:for-each select="$imported_text/tei:place[contains(descendant::tei:geo, ';')]">
+        <xsl:text>"</xsl:text><xsl:value-of select="translate(tei:placeName[1], ',', '; ')"/><xsl:text>": "[</xsl:text><xsl:value-of select="replace(translate(tei:geogName/tei:geo, ',', ''), '; ', '], [')"/><xsl:text>]"</xsl:text><xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if>
+      </xsl:for-each>
+      <xsl:text>}</xsl:text>
+    </xsl:variable>
+    
     <div class="row">
       <div id="mapid" class="map"></div>
       <script>
@@ -94,71 +123,15 @@
         tileSize: 512,
         zoomOffset: -1
         }).addTo(mymap);
-        
-        L.marker([43.885173623043144, 10.335706471960295]).addTo(mymap).bindPopup("<b>Elici</b>");
-        L.marker([43.77357293200428, 11.253433227539064]).addTo(mymap).bindPopup("<b>Firenze</b>");
-        L.marker([45.222008, 8.506020]).addTo(mymap).bindPopup("<b>Caresana</b>");
-        L.marker([43.84368925703925, 10.50121307373047]).addTo(mymap).bindPopup("<b>Lucca</b>");
-        L.marker([44.979350105922016, 8.80963459621853]).addTo(mymap).bindPopup("<b>Sale (AL)</b>");
-        L.marker([44.653024159812, 9.60308074951172]).addTo(mymap).bindPopup("<b>Montereggio</b>");         
-        L.marker([44.49433763356321, 11.346564442028466]).addTo(mymap).bindPopup("<b>Bologna</b>");                                    
-        L.marker([45.070514475196006, 7.686738520969813]).addTo(mymap).bindPopup("<b>Torino</b>");                                    
-        L.marker([45.53956, 10.22676]).addTo(mymap).bindPopup("<b>Brescia</b>");                                    
-        L.marker([45.67856, 9.6499]).addTo(mymap).bindPopup("<b>Bergamo</b>");                                    
-        L.marker([45.848337832045104, 12.815530702537218]).addTo(mymap).bindPopup("<b>Santa Maria di Sesto</b>");                                    
-        L.marker([46.09394806275944, 13.431441663124135]).addTo(mymap).bindPopup("<b>Cividale</b>");                                    
-        L.marker([45.66673498781084, 12.241601497044032]).addTo(mymap).bindPopup("<b>Treviso</b>");                                    
-        L.marker([45.071910, 9.630140]).addTo(mymap).bindPopup("<b>Cotrebbia</b>");                                    
-        L.marker([44.677747331712865, 11.043420284986498]).addTo(mymap).bindPopup("<b>Nonantola [Nonantula]</b>");                                    
-        L.marker([45.060146181134385, 9.437843263149263]).addTo(mymap).bindPopup("<b>Olubra (Castel San Giovanni)</b>");                                    
-        L.marker([44.831543726908244, 8.644868200644853]).addTo(mymap).bindPopup("<b>Orba</b>"); 
-        L.marker([44.893879440219706, 8.666680678725244]).addTo(mymap).bindPopup("<b>Marengo</b>");      
-        L.marker([45.69372, 12.71281]).addTo(mymap).bindPopup("<b>Biverone (San Stino di Livenza)</b>");                                    
-        L.marker([45.22217726183735, 8.292337507009508]).addTo(mymap).bindPopup("<b>Auriola</b>");                                    
-        L.marker([43.83489826128234, 10.41731986217201]).addTo(mymap).bindPopup("<b>Nozzano (Lucca)</b>");                                    
-        L.marker([43.839336483090854, 10.446958271786572]).addTo(mymap).bindPopup("<b>Flexo (Montuolo)</b>");  
-        L.marker([0, 0]).addTo(mymap).bindPopup("<b>Subto Ripa</b>");                                    
-        L.marker([43.86639591266458, 10.344561338424684]).addTo(mymap).bindPopup("<b>Massarosa</b>");
-        L.marker([44.47600751575516, 11.275609731674194]).addTo(mymap).bindPopup("<b>Casalecchio di Reno</b>");                                    
-        L.marker([45.64322, 9.99241]).addTo(mymap).bindPopup("<b>Timoline; frazione di Corte Franca (BS) [Temulina]</b>");    
-        L.marker([45.64322, 9.99241]).addTo(mymap).bindPopup("<b>Timoline</b>");                                    
-        L.marker([45.599, 9.97193]).addTo(mymap).bindPopup("<b>Canelle Secco; Erbusco (BS) [Canellas]</b>");                                               
-        L.marker([44.84143, 9.98257]).addTo(mymap).bindPopup("<b>Pieve di San Nicomede [Fontanabroculi; loco et fundo]</b>");
-        L.marker([45.001480, 9.617170]).addTo(mymap).bindPopup("<b>Gossolengo</b>");    
-        L.marker([0, 0]).addTo(mymap).bindPopup("<b>Griliano</b>");                                    
-        L.marker([44.958611, 10.691410]).addTo(mymap).bindPopup("<b>Luzzara</b>");                                    
-        L.marker([44.916199, 10.653110]).addTo(mymap).bindPopup("<b>Guastalla</b>");      
-        L.marker([44.993778, 10.860800]).addTo(mymap).bindPopup("<b>Pegognaga</b>");               
-        L.marker([43.901912348717254, 10.537523478269577]).addTo(mymap).bindPopup("<b>Saltocchio</b>");                                    
-        L.marker([43.901742279092616, 10.538293942809105]).addTo(mymap).bindPopup("<b>Vinea Regis</b>");                                    
-        L.marker([44.646673791982664, 10.919609097763898]).addTo(mymap).bindPopup("<b>Modena</b>");                                    
-        L.marker([45.308989873094525, 12.073837271891536]).addTo(mymap).bindPopup("<b>Sacco (Piove di Sacco)</b>");                                    
-        L.marker([44.64722337052603, 10.843892097473146]).addTo(mymap).bindPopup("<b>Cittanova [Cive Nova]</b>");                                    
-        L.marker([45.407817096623695, 11.885859690573854]).addTo(mymap).bindPopup("<b>Padova</b>");       
-        L.marker([45.76828142666548, 12.280131205916407]).addTo(mymap).bindPopup("<b>Lovadina (Spresiano; Treviso)</b>");    
-        L.marker([45.05240425535817, 9.693280756473543]).addTo(mymap).bindPopup("<b>Piacenza</b>");                    
-        L.marker([44.66718785944645, 9.533557891845705]).addTo(mymap).bindPopup("<b>Centenaro (Ferriere; Piacenza) </b>");      
-        L.marker([44.66831404365939, 9.665308836847544]).addTo(mymap).bindPopup("<b>Boccolo dei Tassi (Bardi; Parma)</b>");     
-        L.marker([45.95758532919401, 12.659462414649171]).addTo(mymap).bindPopup("<b>Pordenone [Naones]</b>");     
-        L.marker([44.697088964344644, 9.598995619453492]).addTo(mymap).bindPopup("<b>Groppallo (Farini; Piacenza)</b>");         
-        L.marker([45.2998119223148, 7.78668926563114]).addTo(mymap).bindPopup("<b>Cortereggio</b>");  
-        L.marker([45.27361048143624, 7.820867355912925]).addTo(mymap).bindPopup("<b>Foglizzo Fulgitio</b>");       
-        L.marker([45.563042358229524, 8.057964323088527]).addTo(mymap).bindPopup("<b>Biella [Bugella]</b>");     
-        L.marker([45.65244828675087, 8.270537853240969]).addTo(mymap).bindPopup("<b>Sostegno [Sestinium]</b>");   
-        L.marker([41.902782, 12.496366]).addTo(mymap).bindPopup("<b>Roma</b>");                                    
-        L.marker([44.80205764295119, 10.322227464057507]).addTo(mymap).bindPopup("<b>Parma (prova)</b>");  
-        L.marker([46.116498450522876, 8.293138760964213]).addTo(mymap).bindPopup("<b>Domodossola [Oxila]</b>");  
-        L.marker([46.07957, 8.29973]).addTo(mymap).bindPopup("<b>Beura</b>");                                 
-        L.marker([45.75679717465874, 8.487411159912883]).addTo(mymap).bindPopup("<b>Invorio</b>");    
-        L.marker([44.974590, 9.831090]).addTo(mymap).bindPopup("<b>Cadeo (Piacenza) [Casa Dei]</b>");                                 
-        L.marker([45.133247, 10.022651]).addTo(mymap).bindPopup("<b>Cremona</b>");
-        
-        <!--L.circle([43.885, 10.335], {
-          color: 'red',
-          fillColor: '#f03',
-          fillOpacity: 0.5,
-          radius: 500
-          }).addTo(mymap);-->
+       
+        const points = <xsl:value-of select="$map_points"/>;
+        const polygons = <xsl:value-of select="$map_polygons"/>;
+        for (const [key, value] of Object.entries(points)) {
+        L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)]).addTo(mymap).bindPopup(key);
+        }
+        <!--for (const [key, value] of Object.entries(polygons)) {
+        L.polygon([value.replaceAll(" ", ", ").replaceAll(",,", ",")]).addTo(mymap).bindPopup(key);
+        }--> <!-- tranform string value into array -->
         
         L.polygon([
         [45.21625206214063,8.293893188238146],
@@ -169,6 +142,15 @@
         [45.218978453364016,8.306558579206468],
         [45.21625206214063,8.293893188238146]
         ]).addTo(mymap).bindPopup("<b>Predalbora (Farini; Piacenza)</b>");
+        
+        <!-- L.marker([43, 11]).addTo(mymap).bindPopup("Nome luogo"); -->
+        
+        <!--L.circle([43.885, 10.335], {
+          color: 'red',
+          fillColor: '#f03',
+          fillOpacity: 0.5,
+          radius: 500
+          }).addTo(mymap);-->
       </script>
     </div>
   </xsl:template>
