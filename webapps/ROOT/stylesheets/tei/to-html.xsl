@@ -65,27 +65,27 @@
       <xsl:if test="tei:geogName[not(descendant::tei:geo)]"><p><strong><xsl:apply-templates select="tei:geogName[not(descendant::tei:geo)]"/></strong></p></xsl:if>
       <xsl:if test="tei:placeName[@type='other']//text()"><p><i><xsl:text>Also known as: </xsl:text></i><xsl:apply-templates select="tei:placeName[@type='other']"/></p></xsl:if>
       <xsl:if test="tei:geogName/tei:geo"><p><i><xsl:text>Coordinates (Lat, Long): </xsl:text></i><xsl:value-of select="tei:geogName/tei:geo"/></p></xsl:if>
-      <xsl:if test="tei:idno"><p><i><xsl:text>Item number: </xsl:text></i><xsl:apply-templates select="tei:idno"/></p></xsl:if>
+      <xsl:if test="tei:idno"><p><i><xsl:text>Item number: </xsl:text></i><xsl:value-of select="translate(tei:idno, '#', '')"/></p></xsl:if>
       <xsl:if test="tei:note//text()"><p><i><xsl:text>Commentary/Bibliography: </xsl:text></i><xsl:apply-templates select="tei:note"/></p></xsl:if>
-      <xsl:if test="tei:link"><xsl:for-each select="tei:link"><p><i><xsl:text>Linked item (</xsl:text><xsl:value-of select="@type"/><xsl:text>): </xsl:text></i> <xsl:value-of select="@corresp"/> <xsl:if test="@subtype"><xsl:text> (</xsl:text><xsl:value-of select="@subtype"/><xsl:text>)</xsl:text></xsl:if></p></xsl:for-each></xsl:if>
+      <xsl:if test="tei:link"><xsl:for-each select="tei:link"><p><i><xsl:text>Linked item (</xsl:text><xsl:value-of select="@type"/><xsl:text>): </xsl:text></i> <xsl:apply-templates select="@corresp"/> <xsl:if test="@subtype"><xsl:text> (</xsl:text><xsl:value-of select="@subtype"/><xsl:text>)</xsl:text></xsl:if></p></xsl:for-each></xsl:if>
     </div>
   </xsl:template>
 
   <xsl:template match="//tei:listOrg/tei:org">
     <div class="list_item">
       <xsl:if test="tei:orgName"><p><strong><xsl:apply-templates select="tei:orgName"/></strong></p></xsl:if>
-      <xsl:if test="tei:idno"><p><i><xsl:text>Item number: </xsl:text></i><xsl:apply-templates select="tei:idno"/></p></xsl:if>
+      <xsl:if test="tei:idno"><p><i><xsl:text>Item number: </xsl:text></i><xsl:value-of select="translate(tei:idno, '#', '')"/></p></xsl:if>
       <xsl:if test="tei:note//text()"><p><i><xsl:text>Commentary/Bibliography: </xsl:text></i><xsl:apply-templates select="tei:note"/></p></xsl:if>
-      <xsl:if test="tei:link"><xsl:for-each select="tei:link"><p><i><xsl:text>Linked item (</xsl:text><xsl:value-of select="@type"/><xsl:text>): </xsl:text></i> <xsl:value-of select="@corresp"/> <xsl:if test="@subtype"><xsl:text> (</xsl:text><xsl:value-of select="@subtype"/><xsl:text>)</xsl:text></xsl:if></p></xsl:for-each></xsl:if>
+      <xsl:if test="tei:link"><xsl:for-each select="tei:link"><p><i><xsl:text>Linked item (</xsl:text><xsl:value-of select="@type"/><xsl:text>): </xsl:text></i> <xsl:apply-templates select="@corresp"/> <xsl:if test="@subtype"><xsl:text> (</xsl:text><xsl:value-of select="@subtype"/><xsl:text>)</xsl:text></xsl:if></p></xsl:for-each></xsl:if>
     </div>
   </xsl:template>
   
   <xsl:template match="//tei:listPerson/tei:person">
     <div class="list_item">
       <xsl:if test="tei:persName"><p><strong><xsl:apply-templates select="tei:persName"/></strong></p></xsl:if>
-      <xsl:if test="tei:idno"><p><i><xsl:text>Item number: </xsl:text></i><xsl:apply-templates select="tei:idno"/></p></xsl:if>
+      <xsl:if test="tei:idno"><p><i><xsl:text>Item number: </xsl:text></i><xsl:value-of select="translate(tei:idno, '#', '')"/></p></xsl:if>
       <xsl:if test="tei:note//text()"><p><i><xsl:text>Commentary/Bibliography: </xsl:text></i><xsl:apply-templates select="tei:note"/></p></xsl:if>
-      <xsl:if test="tei:link"><xsl:for-each select="tei:link"><p><i><xsl:text>Linked item (</xsl:text><xsl:value-of select="@type"/><xsl:text>): </xsl:text></i> <xsl:value-of select="@corresp"/> <xsl:if test="@subtype"><xsl:text> (</xsl:text><xsl:value-of select="@subtype"/><xsl:text>)</xsl:text></xsl:if></p></xsl:for-each></xsl:if>
+      <xsl:if test="tei:link"><xsl:for-each select="tei:link"><p><i><xsl:text>Linked item (</xsl:text><xsl:value-of select="@type"/><xsl:text>): </xsl:text></i> <xsl:apply-templates select="@corresp"/> <xsl:if test="@subtype"><xsl:text> (</xsl:text><xsl:value-of select="@subtype"/><xsl:text>)</xsl:text></xsl:if></p></xsl:for-each></xsl:if>
     </div>
   </xsl:template>
 
@@ -93,6 +93,21 @@
     <div class="list_item">
       <p><xsl:value-of select="."/></p>
     </div>
+  </xsl:template>
+  
+  <xsl:template match="//*/@corresp">
+    <xsl:variable select="." name="corresp"/>
+    <xsl:variable name="place" select="document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/fiscus_framework/resources/places.xml'))//tei:listPlace/tei:place[tei:idno=$corresp]/tei:placeName[1]"/>
+    <xsl:variable name="estate" select="document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/fiscus_framework/resources/estates.xml'))//tei:listPlace/tei:place[tei:idno=$corresp]/tei:geogName[1]"/>
+    <xsl:variable name="person" select="document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/fiscus_framework/resources/people.xml'))//tei:listPerson/tei:person[tei:idno=$corresp]/tei:persName[1]"/>
+    <xsl:variable name="juridical_person" select="document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/fiscus_framework/resources/juridical_persons.xml'))//tei:listOrg/tei:org[tei:idno=$corresp]/tei:orgName[1]"/>
+    <xsl:choose>
+      <xsl:when test="$place"><xsl:apply-templates select="$place"/> <xsl:text> [</xsl:text><xsl:value-of select="."/><xsl:text>]</xsl:text></xsl:when>
+      <xsl:when test="$estate"><xsl:apply-templates select="$estate"/> <xsl:text> [</xsl:text><xsl:value-of select="."/><xsl:text>]</xsl:text></xsl:when>
+      <xsl:when test="$person"><xsl:apply-templates select="$person"/> <xsl:text> [</xsl:text><xsl:value-of select="."/><xsl:text>]</xsl:text></xsl:when>
+      <xsl:when test="$juridical_person"><xsl:apply-templates select="$juridical_person"/> <xsl:text> [</xsl:text><xsl:value-of select="."/><xsl:text>]</xsl:text></xsl:when>
+      <xsl:otherwise><xsl:value-of select="."/></xsl:otherwise>
+    </xsl:choose>
   </xsl:template>
   
   <xsl:template match="//tei:addSpan[@xml:id='map']">
