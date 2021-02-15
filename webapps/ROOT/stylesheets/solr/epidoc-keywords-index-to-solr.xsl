@@ -51,7 +51,7 @@
     </add>-->
     
       <add>
-        <xsl:for-each-group select="//tei:rs[ancestor::tei:div/@type='edition']" group-by="lower-case(concat(@key, '-', .))">
+        <xsl:for-each-group select="//tei:rs[ancestor::tei:div/@type='edition']" group-by="lower-case(concat(@key, '-', ancestor::tei:TEI/tei:teiHeader//tei:origDate, '-', .))">
         <doc>
           <field name="document_type">
             <xsl:value-of select="$subdirectory" />
@@ -69,6 +69,13 @@
             <field name="index_keys">
               <xsl:value-of select="." />
             </field>
+          <field name="index_date">
+            <!--<xsl:value-of select="ancestor::tei:TEI/tei:teiHeader//tei:origDate" />-->
+            <xsl:choose>
+              <xsl:when test="ancestor::tei:TEI/tei:teiHeader//tei:origDate/@when"><xsl:value-of select="ancestor::tei:TEI/tei:teiHeader//tei:origDate/@when" /></xsl:when>
+              <xsl:otherwise><xsl:value-of select="ancestor::tei:TEI/tei:teiHeader//tei:origDate/@notBefore" /><xsl:text> – </xsl:text><xsl:value-of select="ancestor::tei:TEI/tei:teiHeader//tei:origDate/@notAfter" /></xsl:otherwise>
+            </xsl:choose>
+          </field>
           <xsl:apply-templates select="current-group()" />
         </doc>
       </xsl:for-each-group>

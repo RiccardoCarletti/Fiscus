@@ -44,6 +44,7 @@
       <xsl:apply-templates select="str[@name='index_institution_role']" />
       <xsl:apply-templates select="str[@name='index_base_form']" />
       <xsl:apply-templates select="str[@name='index_keys']" />
+      <xsl:apply-templates select="str[@name='index_date']" />
       <xsl:apply-templates select="arr[@name='index_instance_location']" />
     </tr>
   </xsl:template>
@@ -105,6 +106,12 @@
   </xsl:template>
   
   <xsl:template match="str[@name='index_keys']">
+    <td>
+      <xsl:value-of select="."/>
+    </td>
+  </xsl:template>
+  
+  <xsl:template match="str[@name='index_date']">
     <td>
       <xsl:value-of select="."/>
     </td>
