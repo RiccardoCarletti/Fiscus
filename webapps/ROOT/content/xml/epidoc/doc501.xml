@@ -87,7 +87,7 @@
                         servitium, stabilisce che nessuna potestas abbia la licenza, sine legali
                         iuditio, di danneggiare <rs key="Walls">murum</rs>
                         <placeName ref="#http://137.204.128.125/places/4"
-                            key="#Cities #Villages/settlements #Burgi #Walls #Rural communities #Palatium"
+                            key="#Cities #Villages/settlements #Burgi #Palatium #Walls #Roads #Districtio #Incastellamento"
                             >Lucane</placeName>
                         <rs key="Cities">civitatis</rs>, antiquum sive novum, di distruggere le <rs
                             key="Villages/settlements">domos</rs> costruite o in corso di
@@ -95,42 +95,60 @@
                             key="Palatium">nostrum regalem palatium</rs> infra civitatem vel in <rs
                             key="Burgi">burgo</rs> eorum non edificent aut inibi vi vel potestate
                         hospitia capiantur; che nessuno esiga da loro il <rs key="Fodrum"
-                            >fodrum</rs> e la <rs key="Teloneum">curaturam</rs> a Papia usque Romam
-                        ac <rs key="Tolls">ripaticum</rs> in <rs key="Cities">civitate</rs>
-                        <geogName key="#Comitatus"><placeName key="#Cities">Pisana</placeName> vel
-                            in eius <rs key="Comitatus">comitatu</rs></geogName>. Ordina che, si qui
-                        homines introierint in <rs key="Rivers">fluvio Serculo</rs> vel in <rs
-                            key="Rivers">Motrone</rs> cum navi sive cum navibus causa negotiandi cum
-                        Lucensibus, nullus hominum eos vel Lucenses in mari vel in suprascriptis
-                        fluminibus eundo vel redeundo vel stando aut aliquam iniuriam eis inferre
-                        vel depredationem facere aut aliquo modo hoc eis interdicere presumat; e
-                        che, si qui negotiatores venerint per stratam a Luna usque Lucam, nullus
-                        homo eos venire interdicat vel alio conducat sive ad sinistram eos
-                        retorqueat sed secure usque Lucam veniant. Stabilisce, inoltre, che non
-                        siano edificati castelli a predicta urbe infra sex miliaria; che sia
+                            >fodrum</rs> e la <rs key="Teloneum">curaturam</rs> a <placeName
+                            key="#Fodrum #Teloneum">Papia</placeName> usque <placeName
+                            ref="#http://137.204.128.125/places/52" key="#Fodrum #Teloneum"
+                            >Romam</placeName> ac <rs key="Tolls">ripaticum</rs> in <rs key="Cities"
+                            >civitate</rs>
+                        <geogName key="#Comitatus"><placeName key="#Cities #Comitatus #Tolls"
+                                >Pisana</placeName> vel in eius <rs key="Comitatus"
+                            >comitatu</rs></geogName>. Ordina che, si qui homines introierint in <rs
+                            key="Rivers">fluvio Serculo</rs> vel in <rs key="Rivers">Motrone</rs>
+                        <rs key="#Maritime trade #Fluvial transport">cum navi sive cum navibus causa
+                            negotiandi</rs> cum Lucensibus, nullus hominum eos vel Lucenses in <rs
+                            key="#Sea">mari</rs> vel in suprascriptis fluminibus eundo vel redeundo
+                        vel stando aut aliquam iniuriam eis inferre vel depredationem facere aut
+                        aliquo modo hoc eis interdicere presumat; e che, si qui <rs
+                            key="#Overland transport">negotiatores</rs> venerint per <rs
+                            key="#Roads">stratam</rs> a <placeName key="#Roads">Luna</placeName>
+                        usque Lucam, nullus homo eos venire interdicat vel alio conducat sive ad
+                        sinistram eos retorqueat sed secure usque Lucam veniant. Stabilisce,
+                        inoltre, che non siano edificati <rs key="#Incastellamento">castelli</rs> a
+                        predicta urbe <rs key="#Districtio">infra sex miliaria</rs>; che sia
                         distrutto nostro imperio et auxilio se qualcuno munire presumpserit e che
                         gli uomini della città e del suburbio non siano giudicati sine legitima
                         iudicatione. Et si aliquis civium predictorum vel aliquam trecennalem
                         possessionem tenuerit si auctorem vel datorem habuerit per pugnam vel per
                         duellum non fatigetur. Prescrive che i Lucchesi abbiano la licenza di
-                        comprare e vendere in mercato <orgName>Sancti Donnini</orgName> et cum
-                        Parmensi ea conditione ut Florentini predictam licentiam non habeant.
-                        Consuetudines etiam perversas a tempore Bonifatii marchionis duriter eisdem
-                        hominibus impositas omnino interdicimus et ne ulterius fiant precipimus;
-                        concede, inoltre, che le securitates fissate con loro dai marchesi vel alia
-                        quelibet potestas rimangano firme et rate. Ordina che nessun Longobardus
-                        iudex possa tenere giudizio aut placitum nella città e nel borgo nisi nostra
-                        aut filii nostri regni presente persona vel etiam cancellarii nostri.
-                        Stabilisce una pena di 100 libbre d'oro, contro le ingerenze di dux marchio
-                        comes nullaque regni nostri persona, metà da versare alla camera regia, metà
-                        cui iniuria illata fuerit, e fa apporre il proprio sigillo.</ab>
+                        comprare e vendere in <rs key="#Periodic markets">mercato</rs>
+                        <placeName key="#Periodic markets">Sancti Donnini</placeName> et cum
+                            <placeName ref="#http://137.204.128.125/places/53"
+                            key="#Rural communities"><rs key="#Rural communities"
+                            >Parmensi</rs></placeName> ea conditione ut <placeName
+                            key="#Rural communities"><rs key="#Rural communities"
+                            >Florentini</rs></placeName> predictam licentiam non habeant. <rs
+                            key="#Extortions by officers">Consuetudines etiam perversas</rs> a
+                        tempore <persName key="#Marquis/duke #Extortions by officers"
+                            ref="#http://137.204.128.125/people/1">Bonifatii</persName>
+                        <rs key="#Marquis/duke">marchionis</rs> duriter eisdem hominibus impositas
+                        omnino interdicimus et ne ulterius fiant precipimus; concede, inoltre, che
+                        le securitates fissate con loro dai marchesi vel alia quelibet potestas
+                        rimangano firme et rate. Ordina che nessun <rs key="#Lombard"
+                            >Longobardus</rs>
+                        <rs key="#Judge">iudex</rs> possa tenere <rs key="#Assembly">giudizio aut
+                            placitum</rs> nella città e nel borgo nisi nostra aut filii nostri regni
+                        presente persona vel etiam <rs key="#Chancellor">cancellarii nostri</rs>.
+                        Stabilisce una pena di <rs key="#Penalty">100 libbre d'oro</rs>, contro le
+                        ingerenze di dux marchio comes nullaque regni nostri persona, metà da
+                        versare alla <rs key="#Camera regis">camera regia</rs>, metà cui iniuria
+                        illata fuerit, e fa apporre il proprio sigillo.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p/>
+                <p>MGH, DD H IV, n. 357, pp. 471-472.</p>
             </div>
             <div type="bibliography" subtype="additional">
-                <p/>
+                <p>Ronzani 2012.</p>
             </div>
             <div type="bibliography" subtype="links">
                 <p/>
