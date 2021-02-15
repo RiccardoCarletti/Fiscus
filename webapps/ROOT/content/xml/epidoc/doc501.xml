@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc501">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Archivio di Stato di Lucca, Capitoli, 2, c. 3</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus
+                        Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="uri">http://137.204.128.125/documents/doc1</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate notBefore="1084-03-21" notAfter="1084-05-23"> 1084 March 21 -
+                                1084 May 23<note type="dating_elements"/>
+                                <note type="topical_date"/>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-02-15" who="ptomei">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>Il <rs key="Emperor/king">re</rs>
+                        <persName key="#Emperor/king">Enrico</persName>, in ragione della fidelitas
+                        mostratagli dai <rs key="Rural communities">cives</rs> di Lucca e del loro
+                        studiosum servitium, stabilisce che nessuna potestas abbia la licenza, sine
+                        legali iuditio, di danneggiare <rs key="Walls">murum</rs>
+                        <placeName ref="#http://137.204.128.125/places/4"
+                            key="#Cities #Villages/settlements #Burgi #Walls #Rural communities #Palatium"
+                            >Lucane</placeName>
+                        <rs key="Cities">civitatis</rs>, antiquum sive novum, di distruggere le <rs
+                            key="Villages/settlements">domos</rs> costruite o in corso di
+                        edificazione infra murum hunc e circa in suburbio. Concede che <rs
+                            key="Palatium">nostrum regalem palatium</rs> infra civitatem vel in <rs
+                            key="Burgi">burgo</rs> eorum non edificent aut inibi vi vel potestate
+                        hospitia capiantur; che nessuno esiga da loro il <rs key="Fodrum"
+                            >fodrum</rs> e la <rs key="Teloneum">curaturam</rs> a Papia usque Romam
+                        ac <rs key="Tolls">ripaticum</rs> in <rs key="Cities">civitate</rs>
+                        <geogName key="#Comitatus"><placeName key="#Cities">Pisana</placeName> vel
+                            in eius <rs key="Comitatus">comitatu</rs></geogName>. Ordina che, si qui
+                        homines introierint in <rs key="Rivers">fluvio Serculo</rs> vel in <rs
+                            key="Rivers">Motrone</rs> cum navi sive cum navibus causa negotiandi cum
+                        Lucensibus, nullus hominum eos vel Lucenses in mari vel in suprascriptis
+                        fluminibus eundo vel redeundo vel stando aut aliquam iniuriam eis inferre
+                        vel depredationem facere aut aliquo modo hoc eis interdicere presumat; e
+                        che, si qui negotiatores venerint per stratam a Luna usque Lucam, nullus
+                        homo eos venire interdicat vel alio conducat sive ad sinistram eos
+                        retorqueat sed secure usque Lucam veniant. Stabilisce, inoltre, che non
+                        siano edificati castelli a predicta urbe infra sex miliaria; che sia
+                        distrutto nostro imperio et auxilio se qualcuno munire presumpserit e che
+                        gli uomini della città e del suburbio non siano giudicati sine legitima
+                        iudicatione. Et si aliquis civium predictorum vel aliquam trecennalem
+                        possessionem tenuerit si auctorem vel datorem habuerit per pugnam vel per
+                        duellum non fatigetur. Prescrive che i Lucchesi abbiano la licenza di
+                        comprare e vendere in mercato <orgName>Sancti Donnini</orgName> et cum
+                        Parmensi ea conditione ut Florentini predictam licentiam non habeant.
+                        Consuetudines etiam perversas a tempore Bonifatii marchionis duriter eisdem
+                        hominibus impositas omnino interdicimus et ne ulterius fiant precipimus;
+                        concede, inoltre, che le securitates fissate con loro dai marchesi vel alia
+                        quelibet potestas rimangano firme et rate. Ordina che nessun Longobardus
+                        iudex possa tenere giudizio aut placitum nella città e nel borgo nisi nostra
+                        aut filii nostri regni presente persona vel etiam cancellarii nostri.
+                        Stabilisce una pena di 100 libbre d'oro, contro le ingerenze di dux marchio
+                        comes nullaque regni nostri persona, metà da versare alla camera regia, metà
+                        cui iniuria illata fuerit, e fa apporre il proprio sigillo.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
