@@ -15,7 +15,7 @@
 
   <xsl:template match="/">
     <add>
-      <xsl:for-each-group select="//tei:geogName[ancestor::tei:div/@type='edition']" group-by="concat(@ref, '-', ., '-', @key)">
+      <xsl:for-each-group select="//tei:geogName[ancestor::tei:div/@type='edition']" group-by="lower-case(concat(@ref, '-', ., '-', @key))">
         <xsl:variable name="est-id" select="translate(replace(@ref, ' #', '; '), '#', '')"/>
         <xsl:variable name="estate-id" select="document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/fiscus_framework/resources/estates.xml'))//tei:place[descendant::tei:idno=$est-id]/tei:geogName"/>
         <doc>
@@ -37,7 +37,7 @@
             <xsl:value-of select="." />
           </field>
           <field name="index_keys">
-            <xsl:value-of select="translate(replace(@key, ' #', '; '), '#', '')" />
+            <xsl:value-of select="lower-case(translate(replace(@key, ' #', '; '), '#', ''))" />
           </field>
           <xsl:apply-templates select="current-group()" />
         </doc>

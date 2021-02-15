@@ -38,7 +38,7 @@
   <xsl:template match="tei:rs[@key]" mode="facet_mentioned_keywords">
     <xsl:for-each select="tokenize(@key, ' #')">
       <field name="mentioned_keywords">
-        <xsl:value-of select="translate(translate(., '/', '／'), '#', '')"/>
+        <xsl:value-of select="lower-case(translate(translate(., '/', '／'), '#', ''))"/>
     </field>
     </xsl:for-each>
   </xsl:template>
