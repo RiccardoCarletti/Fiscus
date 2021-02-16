@@ -33,7 +33,7 @@
                             <rs type="text_type" ref="https://ausohnum.huma-num.fr/concept/c25674">Offersio/donatio</rs>
                             <rs type="record_source" ref="https://ausohnum.huma-num.fr/concept/c26116">Original document</rs>
                             <rs type="document_tradition" ref="https://ausohnum.huma-num.fr/concept/c26112">Original</rs>
-                            <rs type="fiscal_property">yes</rs>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -43,7 +43,7 @@
                         <origin>
                             <origDate when="1057-10-05">1057 October 5<note type="dating_elements"
                                     >Stile dell'incarnazione</note>
-                                <note type="topical_date">Lucca, near the monatsery of S.
+                                <note type="topical_date">Lucca, presso il monastero di S.
                                     Ponziano</note>
                             </origDate>
                             <origPlace/>
@@ -96,7 +96,8 @@
            <change when="2020-12-22T08:16:55.068-08:00" who="http://137.204.128.125/people/ptomei"/>
            <change when="2020-12-28T00:49:18.814-08:00" who="http://137.204.128.125/people/ptomei"/>
            <change when="2020-12-28T00:52:22.208-08:00" who="http://137.204.128.125/people/ptomei"/>
-                <change when="2021-02-13" who="ptomei"/>
+                <change when="2021-02-13" who="ptomei">changes</change>
+                <change when="2021-02-16" who="ptomei">minor changes</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -106,33 +107,33 @@
                 <div type="textpart">
                     <ab>
                         <persName key="">Pincio</persName> del <persName key="">fu Orso</persName>
-                        offre pro anima sua al <orgName key="#Monasteries"><rs key="Monasteries"
+                        offre pro anima sua al <orgName key="#Monasteries"><rs key="#Monasteries"
                                 >monastero</rs> di San Ponziano</orgName> posto iusta muro istius
-                            <rs key="Cities">civitatis</rs>
+                            <rs key="#Cities">civitatis</rs>
                         <placeName key="#Cities" ref="#http://137.204.128.125/places/4"
                             >Lucemse</placeName>, un appezzamento di terra cum casa super se abemtes
                         posto infra civitatem ista Lucemse prope la <orgName key="#Churches"><rs
-                                key="Churches">chiesa</rs> di San Pietro</orgName> e la <orgName
-                            key="#Churches"><rs key="Churches">chiesa</rs> di San Giorgio</orgName>,
-                        confinante amba capitas in vie publiche, lato uno con una casa del suddetto
-                        monastero, alio lato con una casa di <persName key="">Bono</persName> et de
-                        consortibus suis, con tutte le sue dipendenze; meam portionem di 4
-                        appezzamenti di terra posti in loco et finibus <placeName key=""
-                            ref="#http://137.204.128.125/places/22">Flexso</placeName>: duo
-                        portionis del primo, quod est campo ubi dicitur <placeName key=""
-                            >Dardatico</placeName>, confinante uno capo in via publica, alio capo
-                        con terra di <persName key="">Ermengarda</persName>, lato uno con terra
-                        della <orgName key="#Churches"><rs key="Churches">chiesa</rs> di San
-                            Martino</orgName>, alio lato con terra dei fratelli <persName key=""
-                            >Martino</persName> e <persName key="">Vitale</persName>, per una misura
-                        complessiva di 3 staia; medietatem del secondo, quod est orto, posto nello
-                        stesso luogo e confinante uno capo in via publica, alio capo in <placeName
-                            key="">terra Freiorese</placeName>, lateras ambas con terra della chiesa
-                        di San Martino; medietatem del terzo, quod est campo dicitur <placeName
-                            key="#Petiae #Fiscal property #Mention">Supto Ripa</placeName>,
-                        confinante uno capo con <rs key="Petiae">terra</rs> de <geogName
-                            key="#Curtes" ref="http://137.204.128.125/people/36">
-                            <rs key="Curtes">curte</rs> de <placeName
+                                key="#Churches">chiesa</rs> di San Pietro</orgName> e la <orgName
+                            key="#Churches"><rs key="#Churches">chiesa</rs> di San
+                        Giorgio</orgName>, confinante amba capitas in vie publiche, lato uno con una
+                        casa del suddetto monastero, alio lato con una casa di <persName key=""
+                            >Bono</persName> et de consortibus suis, con tutte le sue dipendenze;
+                        meam portionem di 4 appezzamenti di terra posti in loco et finibus
+                            <placeName key="" ref="#http://137.204.128.125/places/22"
+                            >Flexso</placeName>: duo portionis del primo, quod est campo ubi dicitur
+                            <placeName key="">Dardatico</placeName>, confinante uno capo in via
+                        publica, alio capo con terra di <persName key="">Ermengarda</persName>, lato
+                        uno con terra della <orgName key="#Churches"><rs key="#Churches">chiesa</rs>
+                            di San Martino</orgName>, alio lato con terra dei fratelli <persName
+                            key="">Martino</persName> e <persName key="">Vitale</persName>, per una
+                        misura complessiva di 3 staia; medietatem del secondo, quod est orto, posto
+                        nello stesso luogo e confinante uno capo in via publica, alio capo in
+                            <placeName key="">terra Freiorese</placeName>, lateras ambas con terra
+                        della chiesa di San Martino; medietatem del terzo, quod est campo dicitur
+                            <placeName key="#Petiae #Fiscal property #Mention">Supto
+                            Ripa</placeName>, confinante uno capo con <rs key="#Petiae">terra</rs>
+                        de <geogName key="#Curtes" ref="http://137.204.128.125/people/36">
+                            <rs key="#Curtes">curte</rs> de <placeName
                                 key="#Curtes #Fiscal property #Mention"
                                 ref="http://137.204.128.125/places/21">Notiano</placeName>
                         </geogName>, alio capo con terra di <persName key="">Saracino</persName>,
@@ -141,7 +142,7 @@
                         quod est orto cum cassina super se abentes seo curte, posto in loco ubi
                         dicitur <placeName key="">Vinea Berte</placeName>, confinante uno capo con
                         terra della <orgName key="#Collegiate churches"><rs
-                                key="Collegiate churches">canonica</rs> di San Donato</orgName>,
+                                key="#Collegiate churches">canonica</rs> di San Donato</orgName>,
                         alio capo cum uno lato con terra di <persName key="">Pietro</persName> e con
                         terra del suddetto monastero di San Ponziano, alio lato con terra di
                             <persName key="">Pagano</persName>, per una misura complessiva di 9
@@ -150,10 +151,10 @@
                         onni cartule et moniminas. Chiede al notaio imperiale <persName key=""
                             >Guido</persName> la stesura della cartula. Actum prope suprascripta
                         ecclesia et monasterio Sancti Pomtiani. Testimoni sottoscrittori: <persName
-                            key="#Judge">Giovanni</persName>
-                        <rs key="Judge">iudex sacri palatii</rs>, <persName key="#Judge"
+                            key="#Witness #Judge">Giovanni</persName>
+                        <rs key="#Judge">iudex sacri palatii</rs>, <persName key="#Witness #Judge"
                             >Rodilando</persName>
-                        <rs key="Judge">iudex sacri palatii</rs>, <persName key=""
+                        <rs key="#Judge">iudex sacri palatii</rs>, <persName key="#Witness"
                             >Benedetto</persName> del <persName key="">fu Giovanni</persName>.</ab>
                 </div>
             </div>

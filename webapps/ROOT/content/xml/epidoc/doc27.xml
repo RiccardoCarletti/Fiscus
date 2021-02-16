@@ -4,10 +4,12 @@
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
-                <title>Archivio Storico Diocesano di Lucca, Archivio Capitolare di Lucca, LL 1, c. 5v</title>
+                <title>Archivio Storico Diocesano di Lucca, Archivio Capitolare di Lucca, LL 1, c.
+                    5v</title>
             </titleStmt>
             <editionStmt>
-                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus
+                        Project</ref>
                     <date when="2021">2021</date>
                 </edition>
             </editionStmt>
@@ -30,10 +32,14 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="https://ausohnum.huma-num.fr/concept/c25674">Offersio/donatio</rs>
-                            <rs type="record_source" ref="https://ausohnum.huma-num.fr/concept/c26116">Original document</rs>
-                            <rs type="document_tradition" ref="https://ausohnum.huma-num.fr/concept/c26237">Compendium</rs>
-                            <rs type="fiscal_property">yes</rs>
+                            <rs type="text_type" ref="https://ausohnum.huma-num.fr/concept/c25674"
+                                >Offersio/donatio</rs>
+                            <rs type="record_source"
+                                ref="https://ausohnum.huma-num.fr/concept/c26116">Original
+                                document</rs>
+                            <rs type="document_tradition"
+                                ref="https://ausohnum.huma-num.fr/concept/c26237">Compendium</rs>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -41,9 +47,9 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate when="1069-03-28">28 marzo 1069
-                                <note type="dating_elements">Stile dell'incarnazione</note>
-                                <note type="topical_date"></note>
+                            <origDate when="1069-03-28">1069 March 28<note type="dating_elements"
+                                    >Stile dell'incarnazione</note>
+                                <note type="topical_date"/>
                             </origDate>
                             <origPlace/>
                         </origin>
@@ -55,11 +61,11 @@
                     </history>
                 </msDesc>
                 <listPlace>
-                   <place></place>
+                    <place/>
                 </listPlace>
-            <listPerson>
-                <person></person>
-            </listPerson>
+                <listPerson>
+                    <person/>
+                </listPerson>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
@@ -71,7 +77,9 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change who="ptomei" when="2021-01-14T08:16:43.823-08:00">creation of record</change>
+                <change who="ptomei" when="2021-01-14T08:16:43.823-08:00">creation of
+                    record</change>
+                <change when="2021-02-16" who="ptomei">changes</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -79,7 +87,24 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>Offersio <persName key="#">Gerberge que Bulgarella</persName> dicebatur relicta <persName key="#">Cunimundi</persName> et filia <persName key="#">Guidi</persName> <rs key="#mother churches">ecclesie</rs> <orgName key="#mother churches">Sancti Martini</orgName> de tribus petiis in <placeName key="#petiae #emperor/king #fiscal property #mention">Vico Solari</placeName> prima dicitur <placeName key="#">Campus Regis</placeName> prope <placeName key="#">Vineam Moringhi</placeName> que tenet caput in via publica, alterum caput cum ambo lateribus in terra <persName key="#">Ferrucci</persName>; secunda petia tenet caput in <rs key="#petiae">terra</rs> <rs key="#emperor/king">regis</rs>, alterum in terra <persName key="#">Erithi</persName> et est in loco ubi dicitur <placeName key="#">Ysula</placeName>; tertia in eodem loco Ysula que tenet caput cum latere in <placeName key="#">terra Berithinga</placeName> (idest <persName key="#">Porcariensium</persName>), alterum caput in terra <persName key="#">Iohannis</persName>, latus in <placeName key="#">terra Cottianese</placeName>.</ab>
+                    <ab>Offersio <persName key="">Gerberge que Bulgarella</persName> dicebatur
+                        relicta <persName key="">Cunimundi</persName> et filia <persName key=""
+                            >Guidi</persName>
+                        <rs key="#Mother churches">ecclesie</rs>
+                        <orgName key="#Mother churches">Sancti Martini</orgName> de tribus petiis in
+                            <placeName key="#Petiae #Fiscal property #Mention #Emperor/king">Vico
+                            Solari</placeName> prima dicitur <placeName key="">Campus
+                            Regis</placeName> prope <placeName key="">Vineam Moringhi</placeName>
+                        que tenet caput in via publica, alterum caput cum ambo lateribus in terra
+                            <persName key="">Ferrucci</persName>; secunda petia tenet caput in <rs
+                            key="#Petiae">terra</rs>
+                        <rs key="#Emperor/king">regis</rs>, alterum in terra <persName key=""
+                            >Erithi</persName> et est in loco ubi dicitur <placeName key=""
+                            >Ysula</placeName>; tertia in eodem loco Ysula que tenet caput cum
+                        latere in <placeName key="">terra Berithinga (idest
+                            Porcariensium)</placeName>, alterum caput in terra <persName key=""
+                            >Iohannis</persName>, latus in <placeName key="">terra
+                            Cottianese</placeName>.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
