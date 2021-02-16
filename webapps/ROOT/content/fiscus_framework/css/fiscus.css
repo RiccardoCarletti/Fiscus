@@ -211,6 +211,9 @@
     line-height:175%;
     width: 75%;
     margin-left: 50px;
+    border:2px solid rgb(153, 153, 143);
+    background-color:rgb(245, 243, 221);
+    margin:10px 20px 15px 20px;
    }
 
    TEI:before {
@@ -512,11 +515,7 @@ ab placeName:before {
         font-weight:bold;
         font-size: 120%;
       }*/
-
-       /*origin placeName {
-           visibility: -oxy-collapse-text;
-       }
-*/
+      
        origDate, summary {
             display:block;
             border:2px solid rgb(153, 153, 143);
