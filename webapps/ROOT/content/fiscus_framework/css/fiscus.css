@@ -8,21 +8,17 @@
     content: "";
    }
 
-   respStmt, xi|include, include, encodingDesc, oxy|doctype, handNote height, scriptDesc, profileDesc, authority, provenance, msItem, teiHeader listPlace, teiHeader listPerson, editionStmt, publicationStmt date, publisher, availability, msIdentifier, textLang {
+   respStmt, xi|include, include, oxy|doctype, handNote height, scriptDesc, profileDesc, authority, provenance, msItem, teiHeader listPlace, teiHeader listPerson, editionStmt, publicationStmt date, publisher, availability, msIdentifier, textLang {
         display:none;
           visibility: -oxy-collapse-text ;
     }
-
+    
         /*Authority Lists*/
         body listPlace place, body listPerson person, body listOrg org {
         display:block;
         margin-bottom: 3em;
         background-color:rgb(245, 243, 221);
         }
-        
-        /*publicationStmt p,  sourceDesc p {
-            display:none;
-        }*/
         
         body listPlace[type="places"]:after {
         content: 
@@ -89,17 +85,8 @@
            edit, "#text"
            columns, 30);
            display:block;
-    }
-    
-/*    body listPlace place note:before, body listOrg org note:before, body listPerson person note:before {
-        content: "Commentary/Bibliography: "
-        oxy_editor(
-           type, text,
-           edit, "#text"
-           columns, 100);
-           display:block;
-    }
-    */
+    }    
+
          body listPlace place note, body listOrg org note, body listPerson person note {
         border:2px solid rgb(153, 153, 143);
         background-color: #fdfdfd;
@@ -203,6 +190,21 @@
            display:block;
     }
     
+    encodingDesc category catDesc {
+           display:block;
+    }
+    
+        encodingDesc category:before {
+        content: "Category"
+        oxy_editor(
+           type, text,
+           edit, "@n"
+           columns, 30);
+        font-weight:bold;
+        display:block;
+        visibility: -oxy-collapse-text ;
+    }
+    
 /*End Authority Lists*/
 
    TEI {
@@ -234,14 +236,6 @@
     div[type="edition"], div[type="translation"], lb   {
         display:block;
     }
-
-    lb {
-        content:none;
-    }
-    
-   /* fileDesc, titleStmt,  titleStmt title {
-    -oxy-display-tags: none;
-    }*/
     
     titleStmt:before {
         font-weight:bold;
@@ -271,20 +265,9 @@
            display:block;
     }
 
-   repository:before {
-       content: "Repository Abbreviation (optional): "
-          oxy_editor(
-          type, text,
-          edit, "#text",
-          columns, 10);
-        visibility: -oxy-collapse-text ;
-        display:block;
-   }
-
     region, institution, settlement, repository, idno {
         visibility: -oxy-collapse-text;
-    }
-    
+    }       
     
     summary rs[type=text_type] {
         content: "Document type: "
@@ -293,7 +276,7 @@
              edit, "#text",
              editable, true,
              columns, 25,
-             values, "Archaeological sources, Parchment documents, -Diploma, --Imperial/royal diploma, --Marquis’/ducal/princely diploma, --Episcopal diploma, -Placitum/iudicatum, -Cartula, --Venditio, --Commutatio, --Libellus/precaria/emphyteusis, --Offersio/donatio, --Promissio, --Ordinatio, --Testamentum/iudicatum, --Morgengabe, -Breve, --List/inventory, --Judicial breve, --Transactional breve, -Catalogus, -Littera/mandatum, -Papal concession, Epigraphic documents, Papyrological documents, -Papal concession (papyrus), -Breve (papyrus), Literary sources, -Author, Juridical sources, -Lex, -Capitulum");
+              values, "Archaeological sources, Parchment documents, -Diploma, --Imperial/royal diploma, --Marquis’/ducal/princely diploma, --Episcopal diploma, -Placitum/iudicatum, -Cartula, --Venditio, --Commutatio, --Libellus/precaria/emphyteusis, --Offersio/donatio, --Promissio, --Ordinatio, --Testamentum/iudicatum, --Morgengabe, -Breve, --List/inventory, --Judicial breve, --Transactional breve, -Catalogus, -Littera/mandatum, -Papal concession, Epigraphic documents, Papyrological documents, -Papal concession (papyrus), -Breve (papyrus), Literary sources, -Author, Juridical sources, -Lex, -Capitulum");
            display:block;
     }
     
@@ -329,192 +312,6 @@
              values, "Yes, No, Uncertain");
            display:block;
     }
-
-/*Markup inside the text*/
-
-ab rs:before {
-        content:  "KEY: " 
-        oxy_editor(
-             type, popupSelection,
-             edit, "@key",
-             editable, false,
-             values, oxy_concat("#", oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/thesaurus.xml'), '")//taxonomy[@xml:id="thesaurus"]//category/catDesc, ",#")'))),
-             labels, oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/thesaurus.xml'), '")//taxonomy[@xml:id="thesaurus"]//category/catDesc, ",")' ))
-             );
-        display:inline;
-    }
-    
-ab rs {
-    border-style:dashed;
-    border-color:black;
-    border-width: thin;
-}
-
-ab placeName {
-    background-color: #e6e6ff;
-}
-ab persName {
-    background-color: #ffffcc;
-}
-ab orgName {
-    background-color: #ffe6e6;
-}
-ab geogName {
-    background-color: #ccffcc;
-}
-ab date {
-    background-color: #ffccff;
-}
-    
-ab placeName:before {
-        content:  "KEY: " 
-        oxy_editor(
-             type, popupSelection,
-             edit, "@key",
-             editable, false,
-             values, oxy_concat("#", oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/thesaurus.xml'), '")//taxonomy[@xml:id="thesaurus"]//category/catDesc, ",#")'))),
-             labels, oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/thesaurus.xml'), '")//taxonomy[@xml:id="thesaurus"]//category/catDesc, ",")' ))
-             )
-             " REF: " 
-        oxy_editor(
-             type, popupSelection,
-             edit, "@ref",
-             editable, false,
-             values, oxy_concat("#", oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/places.xml'), '")//listPlace//place/idno, ",#")'))),
-             labels, oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/places.xml'), '")//listPlace//place/placeName[1], ",")' ))
-             );
-        display:inline;
-    }
-    
-    ab persName:before {
-        content:  "KEY: " 
-        oxy_editor(
-             type, popupSelection,
-             edit, "@key",
-             editable, false,
-             values, oxy_concat("#", oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/thesaurus.xml'), '")//taxonomy[@xml:id="thesaurus"]//category/catDesc, ",#")'))),
-             labels, oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/thesaurus.xml'), '")//taxonomy[@xml:id="thesaurus"]//category/catDesc, ",")' ))
-             )
-             " REF: " 
-        oxy_editor(
-             type, popupSelection,
-             edit, "@ref",
-             editable, false,
-             values, oxy_concat("#", oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/people.xml'), '")//listPerson//person/idno, ",#")'))),
-             labels, oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/people.xml'), '")//listPerson//person/persName, ",")' ))
-             );
-        display:inline;
-    }
-  
-    ab geogName:before {
-        content:  "KEY: " 
-        oxy_editor(
-             type, popupSelection,
-             edit, "@key",
-             editable, false,
-             values, oxy_concat("#", oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/thesaurus.xml'), '")//taxonomy[@xml:id="thesaurus"]//category/catDesc, ",#")'))),
-             labels, oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/thesaurus.xml'), '")//taxonomy[@xml:id="thesaurus"]//category/catDesc, ",")' ))
-             )
-             " REF: " 
-        oxy_editor(
-             type, popupSelection,
-             edit, "@ref",
-             editable, false,
-             values, oxy_concat("#", oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/estates.xml'), '")//listPlace//place/idno, ",#")'))),
-             labels, oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/estates.xml'), '")//listPlace//place/geogName, ",")' ))
-             );
-        display:inline;
-    }  
-    
-    ab orgName:before {
-        content:  "KEY: " 
-        oxy_editor(
-             type, popupSelection,
-             edit, "@key",
-             editable, false,
-             values, oxy_concat("#", oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/thesaurus.xml'), '")//taxonomy[@xml:id="thesaurus"]//category/catDesc, ",#")'))),
-             labels, oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/thesaurus.xml'), '")//taxonomy[@xml:id="thesaurus"]//category/catDesc, ",")' ))
-             )
-             " REF: " 
-        oxy_editor(
-             type, popupSelection,
-             edit, "@ref",
-             editable, false,
-             values, oxy_concat("#", oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/juridical_persons.xml'), '")//listOrg//org/idno, ",#")'))),
-             labels, oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/juridical_persons.xml'), '")//listOrg//org/orgName, ",")' ))
-             );
-        display:inline;
-    }  
-    
-/*End of markup inside the text*/
-    
-    objectDesc:before {
-        content: "Type of Object (Click blue text; check one or more boxes.): "
-        oxy_editor(
-             type, popupSelection,
-             edit, "@ana",
-             columns 20,
-             editable, false,
-             values, oxy_concat("#", oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/thesaurus.xml'), '")//taxonomy[@xml:id="thesaurus"]//category/@xml:id, ",#")'))),
-             labels, oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/thesaurus.xml'), '")//taxonomy[@xml:id="thesaurus"]//category/catDesc, ",")' ))
-             );
-        display:block;
-    }
-
-  supportDesc:before {
-        content: "Material (Click blue text; check one or more boxes.): "
-        oxy_editor(
-             type, popupSelection,
-             edit, "@ana",
-             columns 20,
-             editable, false,
-             values, oxy_concat("#", oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/thesaurus.xml'), '")//taxonomy[@xml:id="thesaurus"]//category/@xml:id, ",#")'))),
-             labels, oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/thesaurus.xml'), '")//taxonomy[@xml:id="thesaurus"]//category/catDesc, ",")' ))
-             );
-        display:block;
-    }
-
-    support p, support {
-        visibility: -oxy-collapse-text;
-        display: block;
-    }
-
-    support p {
-        content: "Short summary of material and support: "
-        oxy_editor(
-            type, text,
-            edit, "#text",
-            columns, 50);
-        visibility: -oxy-collapse-text;
-    }
-
-       /* **************** Layout **************** */
-
-    layout:before {
-        content: "Columns: "
-          oxy_editor(
-             type, text,
-             edit, "@columns"
-             columns, 5)
-             "  Written Lines: "
-             oxy_editor(
-             type, text,
-             edit, "@writtenLines",
-             columns, 5);
-    }
-
-      
-       /* **************** History  **************** */
- 
-       /*history:after {
-       display:block;
-       content:
-        oxy_editor(
-            type, button,
-            actionID, "insert_provenance");
-        font-weight:bold;
-        font-size: 120%;
-      }*/
       
        origDate, summary {
             display:block;
@@ -566,35 +363,6 @@ ab placeName:before {
         -oxy-placeholder-content: 'Topical date here';
     }
 
-       /*provenance:before {
-       content: "Subsequent Provenance Information\AType: "
-       oxy_editor(
-             type, combo,
-             edit, "@type"
-             columns, 25,
-             editable, false,
-             values, "found, observed, not-observed, transferred")
-           "\ASubtype: "
-           oxy_editor(
-             type, combo,
-             edit, "@type"
-             columns, 25,
-             editable, false,
-             values, "--If 'found', discovered, rediscovered, first-recorded, --If 'observed', seen, recorded, reported, --If 'transferred', moved, sold, given, loaned, purchased, acquired, donated, ")
-           oxy_editor(
-             type, text,
-             edit, "#text"
-             columns, 25);
-           display: block;
-           visibility: -oxy-collapse-text;
-       }*/
-   
-       /*provenance location placeName {
-        border:1px solid rgb(153, 153, 143);
-        margin:10px 20px 15px 20px;
-        display:block;
-        -oxy-placeholder-content: 'Provenance information here. Tag persons, places and dates.';
-    }*/
        
     origPlace {
         border:2px solid rgb(153, 153, 143);
@@ -602,20 +370,126 @@ ab placeName:before {
         display:block;
         -oxy-placeholder-content: 'Provenance here';
     }
+    
+    
+/*Markup inside the text*/
 
+ab rs:before {
+        content:  "KEY: " 
+        oxy_editor(
+             type, popupSelection,
+             edit, "@key",
+             editable, false,
+             values, oxy_concat("#", oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/thesaurus.xml'), '")//taxonomy[@xml:id="thesaurus"]//category/catDesc/@n, ",#")'))),
+             labels, oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/thesaurus.xml'), '")//taxonomy[@xml:id="thesaurus"]//category/catDesc, ",")' ))
+             );
+        display:inline;
+    }
+    
+ab rs {
+    border-style:dashed;
+    border-color:black;
+    border-width: thin;
+}
 
-       /* **************** Explanatory Paragraphs  **************** */
+ab placeName {
+    background-color: #e6e6ff;
+}
+ab persName {
+    background-color: #ffffcc;
+}
+ab orgName {
+    background-color: #ffe6e6;
+}
+ab geogName {
+    background-color: #ccffcc;
+}
+ab date {
+    background-color: #ffccff;
+}
+    
+ab placeName:before {
+        content:  "KEY: " 
+        oxy_editor(
+             type, popupSelection,
+             edit, "@key",
+             editable, false,
+             values, oxy_concat("#", oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/thesaurus.xml'), '")//taxonomy[@xml:id="thesaurus"]//category/catDesc/@n, ",#")'))),
+             labels, oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/thesaurus.xml'), '")//taxonomy[@xml:id="thesaurus"]//category/catDesc, ",")' ))
+             )
+             " REF: " 
+        oxy_editor(
+             type, popupSelection,
+             edit, "@ref",
+             editable, false,
+             values, oxy_concat("#", oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/places.xml'), '")//listPlace//place/idno, ",#")'))),
+             labels, oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/places.xml'), '")//listPlace//place/placeName[1], ",")' ))
+             );
+        display:inline;
+    }
+    
+    ab persName:before {
+        content:  "KEY: " 
+        oxy_editor(
+             type, popupSelection,
+             edit, "@key",
+             editable, false,
+             values, oxy_concat("#", oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/thesaurus.xml'), '")//taxonomy[@xml:id="thesaurus"]//category/catDesc/@n, ",#")'))),
+             labels, oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/thesaurus.xml'), '")//taxonomy[@xml:id="thesaurus"]//category/catDesc, ",")' ))
+             )
+             " REF: " 
+        oxy_editor(
+             type, popupSelection,
+             edit, "@ref",
+             editable, false,
+             values, oxy_concat("#", oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/people.xml'), '")//listPerson//person/idno, ",#")'))),
+             labels, oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/people.xml'), '")//listPerson//person/persName, ",")' ))
+             );
+        display:inline;
+    }
+  
+    ab geogName:before {
+        content:  "KEY: " 
+        oxy_editor(
+             type, popupSelection,
+             edit, "@key",
+             editable, false,
+             values, oxy_concat("#", oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/thesaurus.xml'), '")//taxonomy[@xml:id="thesaurus"]//category/catDesc/@n, ",#")'))),
+             labels, oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/thesaurus.xml'), '")//taxonomy[@xml:id="thesaurus"]//category/catDesc, ",")' ))
+             )
+             " REF: " 
+        oxy_editor(
+             type, popupSelection,
+             edit, "@ref",
+             editable, false,
+             values, oxy_concat("#", oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/estates.xml'), '")//listPlace//place/idno, ",#")'))),
+             labels, oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/estates.xml'), '")//listPlace//place/geogName, ",")' ))
+             );
+        display:inline;
+    }  
+    
+    ab orgName:before {
+        content:  "KEY: " 
+        oxy_editor(
+             type, popupSelection,
+             edit, "@key",
+             editable, false,
+             values, oxy_concat("#", oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/thesaurus.xml'), '")//taxonomy[@xml:id="thesaurus"]//category/catDesc/@n, ",#")'))),
+             labels, oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/thesaurus.xml'), '")//taxonomy[@xml:id="thesaurus"]//category/catDesc, ",")' ))
+             )
+             " REF: " 
+        oxy_editor(
+             type, popupSelection,
+             edit, "@ref",
+             editable, false,
+             values, oxy_concat("#", oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/juridical_persons.xml'), '")//listOrg//org/idno, ",#")'))),
+             labels, oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/juridical_persons.xml'), '")//listOrg//org/orgName, ",")' ))
+             );
+        display:inline;
+    }  
+    
+/*End of markup inside the text*/      
 
-       origin p, layout p, condition p, handNote p {
-           content: "More detail if necessary: "
-           oxy_editor(
-             type, text,
-             edit, "#text"
-             columns, 40);
-             display:block;
-             visibility: -oxy-collapse-text ;
-
-       }
 
 
        /* **************** Revision  **************** */
@@ -664,8 +538,8 @@ ab placeName:before {
           visibility: -oxy-collapse-text ;
           display:block;
       }
-
-
+      
+ 
       /* **************** Body and full text  **************** */
    
    div[type="edition"]:before {
@@ -709,26 +583,14 @@ ab placeName:before {
         display:block;
         visibility: -oxy-collapse-text ;
     }
-/*
+
         div[type="apparatus"]:before {
         font-weight:bold;
-        content: "Apparatus (optional)";
+        content: "Apparatus";
         display:block;
         visibility: -oxy-collapse-text ;
-    }*/
+    }
 
-
-/*
-    div[subtype="transcription"]:after {
-       display:block;
-       content:
-        oxy_editor(
-            type, button,
-            actionID, "Hebrew");
-        font-weight:bold;
-        font-size: 120%;
-      }
- */
 
     div[type="edition"] ab {
         border:2px solid rgb(153, 153, 143);
@@ -762,20 +624,84 @@ ab placeName:before {
         -oxy-placeholder-content: 'Text here';
     }
 
- /*      div[type="apparatus"] p {
+       div[type="apparatus"] p {
         border:2px solid rgb(153, 153, 143);
         background-color: #fdfdfd;
         margin:10px 20px 15px 20px;
         display:block;
         -oxy-placeholder-content: 'Text here';
+    }
+    
+    
+    /* **************** Not used elements **************** */
+
+       /*provenance:before {
+       content: "Subsequent Provenance Information\AType: "
+       oxy_editor(
+             type, combo,
+             edit, "@type"
+             columns, 25,
+             editable, false,
+             values, "found, observed, not-observed, transferred")
+           "\ASubtype: "
+           oxy_editor(
+             type, combo,
+             edit, "@type"
+             columns, 25,
+             editable, false,
+             values, "--If 'found', discovered, rediscovered, first-recorded, --If 'observed', seen, recorded, reported, --If 'transferred', moved, sold, given, loaned, purchased, acquired, donated, ")
+           oxy_editor(
+             type, text,
+             edit, "#text"
+             columns, 25);
+           display: block;
+           visibility: -oxy-collapse-text;
+       }
+   
+       provenance location placeName {
+        border:1px solid rgb(153, 153, 143);
+        margin:10px 20px 15px 20px;
+        display:block;
+        -oxy-placeholder-content: 'Provenance information here. Tag persons, places and dates.';
     }*/
     
-/*     div[type="apparatus"]  {
-    }*/
+    support p, support {
+        visibility: -oxy-collapse-text;
+        display: block;
+    }
 
+    support p {
+        content: "Short summary of material and support: "
+        oxy_editor(
+            type, text,
+            edit, "#text",
+            columns, 50);
+        visibility: -oxy-collapse-text;
+    }
+    
+    layout:before {
+        content: "Columns: "
+          oxy_editor(
+             type, text,
+             edit, "@columns"
+             columns, 5)
+             "  Written Lines: "
+             oxy_editor(
+             type, text,
+             edit, "@writtenLines",
+             columns, 5);
+    }
 
+       origin p, layout p, condition p, handNote p {
+           content: "More detail if necessary: "
+           oxy_editor(
+             type, text,
+             edit, "#text"
+             columns, 40);
+             display:block;
+             visibility: -oxy-collapse-text ;
 
-
+       }
 
     /* ******************   Images   ******************* */
 
