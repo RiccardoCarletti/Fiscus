@@ -13,10 +13,6 @@
           visibility: -oxy-collapse-text ;
     }
 
-    fileDesc, titleStmt,  titleStmt title {
-    -oxy-display-tags: none;
-    }
-
         /*Authority Lists*/
         body listPlace place, body listPerson person, body listOrg org {
         display:block;
@@ -95,7 +91,7 @@
            display:block;
     }
     
-    body listPlace place note:before, body listOrg org note:before, body listPerson person note:before {
+/*    body listPlace place note:before, body listOrg org note:before, body listPerson person note:before {
         content: "Commentary/Bibliography: "
         oxy_editor(
            type, text,
@@ -103,8 +99,16 @@
            columns, 100);
            display:block;
     }
+    */
+         body listPlace place note, body listOrg org note, body listPerson person note {
+        border:2px solid rgb(153, 153, 143);
+        background-color: #fdfdfd;
+        margin:10px 20px 15px 20px;
+        display:block;
+        -oxy-placeholder-content: 'Commentary/Bibliography here';
+    }
     
-    body listPlace place geo, body listPlace place placeName, body listPlace place geogName:not([type="coord"]), body listOrg org orgName, body listPerson person persName, body listPlace place placeName[type="other"], body listPlace place idno, body listOrg org idno, body listPerson person idno, body listPlace place note, body listOrg org note, body listPerson person note {
+    body listPlace place geo, body listPlace place placeName, body listPlace place geogName:not([type="coord"]), body listOrg org orgName, body listPerson person persName, body listPlace place placeName[type="other"], body listPlace place idno, body listOrg org idno, body listPerson person idno {
           visibility: -oxy-collapse-text ;
     }
     
@@ -199,7 +203,7 @@
            display:block;
     }
     
-            /*End Authority Lists*/
+/*End Authority Lists*/
 
    TEI {
     display:block;
@@ -210,7 +214,6 @@
    }
 
    TEI:before {
-       background-color:rgb(245, 243, 221);
         content: "Document number: " 
         oxy_editor(
            type, text,
@@ -218,10 +221,10 @@
            columns, 40);
         display:block;
    }
-
-    titleStmt {
-        visibility: -oxy-collapse-text ;
-       background-color:rgb(245, 243, 221);
+    
+    foreign, div title, history title, note title {
+        display:inline;
+        font-style: italic;
     }
 
     msContents, dimensions, listBibl,  div[type="commentary"],
@@ -233,18 +236,27 @@
         content:none;
     }
     
-    titleStmt title:before {
-        content: "Title: "
-        oxy_editor(
-           type, text,
-           edit, "#text"
-           columns, 40);
-           display:block;
+   /* fileDesc, titleStmt,  titleStmt title {
+    -oxy-display-tags: none;
+    }*/
+    
+    titleStmt:before {
+        font-weight:bold;
+        content: "Document title";
+        display:block;
+        visibility: -oxy-collapse-text ;
+    }
+    
+    titleStmt title {
+        border:2px solid rgb(153, 153, 143);
+        background-color: #fdfdfd;
+        margin:10px 20px 15px 20px;
+        display:block;
+        -oxy-placeholder-content: 'Title here';
     }
 
-     publicationStmt {
+     publicationStmt:before {
         visibility: -oxy-collapse-text;
-        background-color:rgb(245, 243, 221);
     }
 
     idno[type=uri]:before { 
@@ -270,9 +282,6 @@
         visibility: -oxy-collapse-text;
     }
     
-    msContents {
-        background-color:rgb(245, 243, 221);
-    }
     
     summary rs[type=text_type] {
         content: "Document type: "
@@ -478,10 +487,6 @@ ab placeName:before {
 
        /* **************** Layout **************** */
 
-    layoutDesc, handDesc, history {
-        background-color:rgb(245, 243, 221);
-    }
-
     layout:before {
         content: "Columns: "
           oxy_editor(
@@ -512,7 +517,13 @@ ab placeName:before {
            visibility: -oxy-collapse-text;
        }
 */
-       origDate:before {
+       origDate, summary {
+            display:block;
+            border:2px solid rgb(153, 153, 143);
+            margin:10px 20px 15px 20px;
+            }
+            
+          origDate:before {
           content: "Date (YYYY-MM-DD). "
              " When: "
              oxy_editor(
@@ -532,35 +543,29 @@ ab placeName:before {
              display:block;
        }
 
-       origDate {
-           content: "Date (to be displayed): "
-           oxy_editor(
-             type, text,
-             edit, "#text"
-             columns, 40);
-             display:block;
-             visibility: -oxy-collapse-text ;
-       }
-       
-       origDate note[type="dating_elements"]:after {
-           content: " Dating elements: "
-             oxy_editor(
-             type, text,
-             edit, "#text"
-             columns, 50);
-             display:block;
-             visibility: -oxy-collapse-text ;
-       }
-       
-       origDate note[type="topical_date"]:after {
-           content: " Topical date: "
-             oxy_editor(
-             type, text,
-             edit, "#text"
-             columns, 50);
-             display:block;
-             visibility: -oxy-collapse-text ;
-       }
+       note[type="displayed_date"] {
+        border:2px solid rgb(153, 153, 143);
+        margin:10px 20px 15px 20px;
+        background-color: #fdfdfd;
+        display:block;
+        -oxy-placeholder-content: 'Date (to be displayed) here';
+    }
+    
+    note[type="dating_elements"] {
+        border:2px solid rgb(153, 153, 143);
+        margin:10px 20px 15px 20px;
+        background-color: #fdfdfd;
+        display:block;
+        -oxy-placeholder-content: 'Dating elements here';
+    }
+    
+       note[type="topical_date"] {
+        border:2px solid rgb(153, 153, 143);
+        margin:10px 20px 15px 20px;
+        background-color: #fdfdfd;
+        display:block;
+        -oxy-placeholder-content: 'Topical date here';
+    }
 
        /*provenance:before {
        content: "Subsequent Provenance Information\AType: "
@@ -587,21 +592,17 @@ ab placeName:before {
    
        /*provenance location placeName {
         border:1px solid rgb(153, 153, 143);
-        background-color:rgb(245, 243, 221);
         margin:10px 20px 15px 20px;
         display:block;
         -oxy-placeholder-content: 'Provenance information here. Tag persons, places and dates.';
     }*/
-    
-   origPlace:before {
-        content: "Provenance: "
-        oxy_editor(
-           type, text,
-           edit, "#text"
-           columns, 40);
-           display:block;
+       
+    origPlace {
+        border:2px solid rgb(153, 153, 143);
+        margin:10px 20px 15px 20px;
+        display:block;
+        -oxy-placeholder-content: 'Provenance here';
     }
-
 
 
        /* **************** Explanatory Paragraphs  **************** */
@@ -624,10 +625,6 @@ ab placeName:before {
           content: "Changes";
           font-weight:bold;
       }
-
-      revisionDesc {
-           background-color: #fdfdfd;
-       }
 
        revisionDesc:after {
        display:block;
@@ -739,39 +736,39 @@ ab placeName:before {
         background-color: #fdfdfd;
         margin:10px 20px 15px 20px;
         display:block;
-        -oxy-placeholder-content: 'text here';
+        -oxy-placeholder-content: 'Text here';
     }
 
         div[subtype="editions"] p, div[subtype="additional"] p, div[subtype="links"] p {
         border:2px solid rgb(153, 153, 143);
-        background-color:rgb(245, 243, 221);
+        background-color: #fdfdfd;
         margin:10px 20px 15px 20px;
         display:block;
-        -oxy-placeholder-content: 'text here';
+        -oxy-placeholder-content: 'Text here';
     }
     
     div[type="commentary"] p {
         border:2px solid rgb(153, 153, 143);
-        background-color:rgb(245, 243, 221);
+        background-color: #fdfdfd;
         margin:10px 20px 15px 20px;
         display:block;
-        -oxy-placeholder-content: 'text here';
+        -oxy-placeholder-content: 'Text here';
     }
     
         div[type="translation"] p {
         border:2px solid rgb(153, 153, 143);
-        background-color:rgb(245, 243, 221);
+        background-color: #fdfdfd;
         margin:10px 20px 15px 20px;
         display:block;
-        -oxy-placeholder-content: 'text here';
+        -oxy-placeholder-content: 'Text here';
     }
 
  /*      div[type="apparatus"] p {
         border:2px solid rgb(153, 153, 143);
-        background-color:rgb(245, 243, 221);
+        background-color: #fdfdfd;
         margin:10px 20px 15px 20px;
         display:block;
-        -oxy-placeholder-content: 'text here';
+        -oxy-placeholder-content: 'Text here';
     }*/
     
 /*     div[type="apparatus"]  {
@@ -791,7 +788,7 @@ ab placeName:before {
     }
     facsimile {
         border:2px solid rgb(153, 153, 143);
-        background-color:rgb(245, 243, 221);
+        background-color: #fdfdfd;
         font-size: 110%;
     }
 

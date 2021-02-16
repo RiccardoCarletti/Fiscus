@@ -88,7 +88,14 @@
        <br/><b>Provenance: </b> <xsl:apply-templates select="//t:origPlace"/>
      </p>
      <p>
-       <b>Date: </b> <xsl:apply-templates select="//t:origin/t:origDate/text()"/>
+       <b>Date: </b> <xsl:choose>
+         <xsl:when test="//t:origin/t:origDate/t:note[@type='displayed_date']/text()">
+           <xsl:apply-templates select="//t:origin/t:origDate/t:note[@type='displayed_date']/node()"/>
+         </xsl:when>
+         <xsl:otherwise>
+           <xsl:apply-templates select="//t:origin/t:origDate/text()"/>
+         </xsl:otherwise>
+       </xsl:choose>
        <br/><b>Topical date: </b> <xsl:apply-templates select="//t:origin/t:origDate/t:note[@type='topical_date']/node()"/>
        <br/><b>Dating elements: </b> <xsl:apply-templates select="//t:origin/t:origDate/t:note[@type='dating_elements']/node()"/>
      </p>
