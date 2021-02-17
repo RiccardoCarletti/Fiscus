@@ -55,7 +55,7 @@
                     </history>
                 </msDesc>
                 <listPlace>
-                   <place></place>
+                   <place/>
                 </listPlace>
             <listPerson>
     <person corresp="http://137.204.128.125/people/37">
@@ -139,7 +139,8 @@
                         <rs key="#marquis">marchio</rs>, concede e conferma al monastero fondato
                             dall’<rs key="#queen">imperatrice</rs>
                         <persName key="#queen" ref="http://137.204.128.125/people/55"
-                            >Angelberga</persName> e dedicato da Berta a <orgName
+                            >Angelberga</persName> e dedicato da <persName key="#abbess"
+                            ref="#http://137.204.128.125/people/67">Berta</persName> a <orgName
                             ref="#http://137.204.128.125/people/53">S. Sisto</orgName>
                         <geogName key="#curtes #fiscal property"
                             ref="http://137.204.128.125/people/40">quasdam <rs key="#curtes"
@@ -150,24 +151,28 @@
                             ref="http://137.204.128.125/people/38">
                             <placeName key="#curtes #fiscal property"
                                 ref="http://137.204.128.125/places/32">Luzariam</placeName>
-                        </geogName>, Litora Paludiana, Villolę, <geogName key=""
-                            ref="http://137.204.128.125/people/42">
+                        </geogName>, <geogName key="#curtes #fiscal property"
+                            ref="#http://137.204.128.125/estates/77">Litora Paludiana</geogName>,
+                        Villolę, <geogName key="" ref="http://137.204.128.125/people/42">
                             <placeName key="#curtes #fiscal property"
                                 ref="http://137.204.128.125/places/34">Piguniarius</placeName>
                         </geogName>, e tutte le cose che la predetta imperatrice trasferì al
                         cenobio. Il monastero è affidato a Berta che ne sarà dominatrix, ordinatrix
-                        atque retrix. Concediamo tutti i possessi mobiles ac immobiles, tam per
-                        cartulas quamque extra cartulas o pervenuti a qualsiasi altro titolo,
-                        acquisiti o da acquisire, tutto quello che è stato concesso dagli
-                        imperatori, atque cellulam quandam que antiquitus monasterium dicebatur non
-                        procul a Placentina urbe sitam, loco qui Caput Trebiae vocatur, che era
-                        stata data da Carlomanno al monastero proprietario iure. Familias quoque
-                        utriusque sexus et conditionis cum curtibus et cappellis e segue l’elenco di
-                        tutte le appendici. Per chiunque violerà gli accordi, pena di £150 d’oro,
-                        metà da pagare camerę nostre, metà a Berta.SM Rodulfi piissimi
-                            regis.<persName>Manno cancellarius</persName> ad vicem venerabilis Beati
-                        episcopi et archicancellarii rec. et sub. Data. Actum Veronę, in Christi
-                        nomine feliciter, amen.</ab>
+                        atque retrix. Concediamo tutti i <rs key="#landed possessions">possessi
+                            mobiles ac immobiles</rs>, tam per <rs key="#parchment documents">cartulas</rs> quamque extra
+                        cartulas o pervenuti a qualsiasi altro titolo, acquisiti o da acquisire,
+                        tutto quello che è stato concesso dagli imperatori, atque <rs
+                            key="#curtes #fiscal property">cellulam</rs> quandam que antiquitus
+                        monasterium dicebatur non procul a <placeName
+                            ref="#http://137.204.128.125/places/43">Placentina urbe</placeName>
+                        sitam, loco qui Caput Trebiae vocatur, che era stata data da Carlomanno al
+                        monastero proprietario iure. Familias quoque utriusque sexus et conditionis
+                        cum curtibus et cappellis e segue l’elenco di tutte le appendici. Per
+                        chiunque violerà gli accordi, pena di £150 d’oro, metà da pagare camerę
+                        nostre, metà a Berta.SM Rodulfi piissimi regis.<persName>Manno
+                            cancellarius</persName> ad vicem venerabilis Beati episcopi et
+                        archicancellarii rec. et sub. Data. Actum Veronę, in Christi nomine
+                        feliciter, amen.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
