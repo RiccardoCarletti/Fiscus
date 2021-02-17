@@ -42,6 +42,7 @@
       <xsl:apply-templates select="arr[@name='language_code']"/>
       <xsl:apply-templates select="str[@name='index_institution_type']" />
       <xsl:apply-templates select="str[@name='index_institution_role']" />
+      <xsl:apply-templates select="str[@name='index_external_resource']" />
       <xsl:apply-templates select="str[@name='index_base_form']" />
       <xsl:apply-templates select="str[@name='index_keys']" />
       <xsl:apply-templates select="str[@name='index_date']" />
@@ -96,6 +97,23 @@
   <xsl:template match="str[@name='index_institution_role']">
     <td>
       <xsl:value-of select="."/>
+    </td>
+  </xsl:template>
+  
+  <xsl:template match="str[@name='index_external_resource']">
+    <td>
+      <xsl:choose>
+        <xsl:when test=".!='~'">
+          <xsl:for-each select="tokenize(., ' ')">
+            <a target="_blank">
+              <xsl:attribute name="href"><xsl:value-of select="."/></xsl:attribute>
+              <xsl:text>See entry</xsl:text>
+            </a>
+            <xsl:text> </xsl:text>
+          </xsl:for-each>
+        </xsl:when>
+        <xsl:otherwise><xsl:text>~</xsl:text></xsl:otherwise>
+      </xsl:choose>
     </td>
   </xsl:template>
   
