@@ -9,6 +9,7 @@
    <!-- Called from htm-tpl-structure.xsl -->
 
    <xsl:template name="fiscus-body-structure">
+     <div id="metadata">
      <p>
        <b>Title: </b> <xsl:apply-templates select="//t:titleStmt/t:title"/>
        <br/><b>Document number: </b> <xsl:value-of select="substring-after(//t:TEI/@xml:id, 'doc')"/>
@@ -99,6 +100,39 @@
        <br/><b>Topical date: </b> <xsl:apply-templates select="//t:origin/t:origDate/t:note[@type='topical_date']/node()"/>
        <br/><b>Dating elements: </b> <xsl:apply-templates select="//t:origin/t:origDate/t:note[@type='dating_elements']/node()"/>
      </p>
+       <!--<button  onclick="toggle_places()">Show/Hide places</button>
+       <button  onclick="toggle_people()">Show/Hide people</button>
+       <button  onclick="toggle_juridical_persons()">Show/Hide juridical persons</button>
+       <button  onclick="toggle_estates()">Show/Hide estates</button>
+       <button  onclick="toggle_dates()">Show/Hide dates</button>
+       <button  onclick="toggle_keywords()">Show/Hide keywords</button>
+       <script>
+         function toggle_places() {
+         var element = document.getElementsByClassName("placeName");
+         element.classList.toggle("_placeName");
+         }
+         function toggle_people() {
+         var element = document.getElementsByClassName("persName");
+         element.classList.toggle("_persName");
+         }
+         function toggle_juridical_persons() {
+         var element = document.getElementsByClassName("orgName");
+         element.classList.toggle("_orgName");
+         }
+         function toggle_estates() {
+         var element = document.getElementsByClassName("geogName");
+         element.classList.toggle("_geogName");
+         }
+         function toggle_dates() {
+         var element = document.getElementsByClassName("date");
+         element.classList.toggle("_date");
+         }
+         function toggle_keywords() {
+         var element = document.getElementsByClassName("rs");
+         element.classList.toggle("_rs");
+         }
+       </script>-->
+     </div>
      
          <div class="content" id="edition" data-section-content="data-section-content">
            <xsl:variable name="edtxt">
@@ -268,20 +302,49 @@
   </xsl:template>
   
   <xsl:template match="t:persName[ancestor::t:div[@type='edition']][@ref!='']">
-    <a target="_blank"><xsl:attribute name="href"><xsl:value-of select="concat('../texts/people.html#', substring-after(substring-after(translate(@ref, '#', ''), 'http://137.204.128.125/'), '/'))"/></xsl:attribute><xsl:apply-templates/></a>
+    <a target="_blank"><xsl:attribute name="href"><xsl:value-of select="concat('../texts/people.html#', substring-after(substring-after(translate(@ref, '#', ''), 'http://137.204.128.125/'), '/'))"/></xsl:attribute><span class="persName"><!--<xsl:text>⚲ </xsl:text>--><xsl:apply-templates/></span></a>
   </xsl:template>
   
   <xsl:template match="t:placeName[ancestor::t:div[@type='edition']][@ref!='']">
-    <a target="_blank"><xsl:attribute name="href"><xsl:value-of select="concat('../texts/places.html#', substring-after(substring-after(translate(@ref, '#', ''), 'http://137.204.128.125/'), '/'))"/></xsl:attribute><xsl:apply-templates/></a>
+    <a target="_blank"><xsl:attribute name="href"><xsl:value-of select="concat('../texts/places.html#', substring-after(substring-after(translate(@ref, '#', ''), 'http://137.204.128.125/'), '/'))"/></xsl:attribute><span class="placeName"><!--<xsl:text>⌘ </xsl:text>--><xsl:apply-templates/></span></a>
   </xsl:template>
   
   <xsl:template match="t:orgName[ancestor::t:div[@type='edition']][@ref!='']">
-    <a target="_blank"><xsl:attribute name="href"><xsl:value-of select="concat('../texts/juridical_persons.html#', substring-after(substring-after(translate(@ref, '#', ''), 'http://137.204.128.125/'), '/'))"/></xsl:attribute><xsl:apply-templates/></a>
+    <a target="_blank"><xsl:attribute name="href"><xsl:value-of select="concat('../texts/juridical_persons.html#', substring-after(substring-after(translate(@ref, '#', ''), 'http://137.204.128.125/'), '/'))"/></xsl:attribute><span class="orgName"><!--<xsl:text>☩ </xsl:text>--><xsl:apply-templates/></span></a>
   </xsl:template>
   
   <xsl:template match="t:geogName[ancestor::t:div[@type='edition']][@ref!='']">
-    <a target="_blank"><xsl:attribute name="href"><xsl:value-of select="concat('../texts/estates.html#', substring-after(substring-after(translate(@ref, '#', ''), 'http://137.204.128.125/'), '/'))"/></xsl:attribute><xsl:apply-templates/></a>
+    <a target="_blank"><xsl:attribute name="href"><xsl:value-of select="concat('../texts/estates.html#', substring-after(substring-after(translate(@ref, '#', ''), 'http://137.204.128.125/'), '/'))"/></xsl:attribute><span class="geogName"><!--<xsl:text>✿ </xsl:text>--><xsl:apply-templates/></span></a>
   </xsl:template>
+  
+  
+  <xsl:template match="t:persName[ancestor::t:div[@type='edition']][not(@ref)]">
+    <!--<xsl:text>⚲ </xsl:text>--><span class="persName"><xsl:apply-templates/></span>
+  </xsl:template>
+  
+  <xsl:template match="t:placeName[ancestor::t:div[@type='edition']][not(@ref)]">
+    <!--<xsl:text>⌘ </xsl:text>--><span class="placeName"><xsl:apply-templates/></span>
+  </xsl:template>
+  
+  <xsl:template match="t:orgName[ancestor::t:div[@type='edition']][not(@ref)]">
+    <!--<xsl:text>☩ </xsl:text>--><span class="orgName"><xsl:apply-templates/></span>
+  </xsl:template>
+  
+  <xsl:template match="t:geogName[ancestor::t:div[@type='edition']][not(@ref)]">
+    <!--<xsl:text>✿ </xsl:text>--><span class="geogName"><xsl:apply-templates/></span>
+  </xsl:template>
+  
+  <xsl:template match="t:rs[ancestor::t:div[@type='edition']][not(@ref)]">
+    <!--<xsl:text>☆ </xsl:text>--><span class="rs"><xsl:apply-templates/></span>
+  </xsl:template>
+  
+  <xsl:template match="t:date[ancestor::t:div[@type='edition']]">
+    <!--<xsl:text>⧗ </xsl:text>--><span class="date"><xsl:apply-templates/></span>
+  </xsl:template>
+  
+  
+
+ 
   
   <!--  old code for inscription numbers now in <idno type="ircyr2012">:
     <xsl:template name="fiscus-title">

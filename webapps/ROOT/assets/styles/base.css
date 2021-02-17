@@ -87,6 +87,34 @@ p {
     text-align: justify;
 }
 
+
+.rs {
+  border-style:dashed;
+  border-color:black;
+  border-width: thin;
+  padding: 4px 2px 1px 2px;
+  }
+.persName {
+  background-color: #ffffcc;
+  padding: 4px 0px 1px 0px;
+  }
+.orgName {
+  background-color: #ffe6e6;
+  padding: 4px 0px 1px 0px;
+  }
+.geogName {
+  background-color: #ccffcc;
+  padding: 4px 0px 1px 0px;
+  }
+.placeName {
+  background-color: #e6e6ff;
+  padding: 4px 0px 1px 0px;
+  }
+.date {
+  background-color: #ffccff;
+  padding: 4px 0px 1px 0px;
+  }
+
 /*Keyboard*/
 #keyboard_box {
     display:none;
