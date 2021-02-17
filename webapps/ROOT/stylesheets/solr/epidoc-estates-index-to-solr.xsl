@@ -15,7 +15,7 @@
 
   <xsl:template match="/">
     <add>
-      <xsl:for-each-group select="//tei:geogName[ancestor::tei:div/@type='edition']" group-by="lower-case(concat(@ref, '-', ., '-', ancestor::tei:TEI/tei:teiHeader//tei:origDate, '-', @key))">
+      <xsl:for-each-group select="//tei:geogName[ancestor::tei:div/@type='edition']" group-by="lower-case(concat(@ref, '-', ., '-', @key))"> <!-- ancestor::tei:TEI/tei:teiHeader//tei:origDate, '-',  -->
         <xsl:variable name="est-id" select="translate(replace(@ref, ' #', '; '), '#', '')"/>
         <xsl:variable name="estate-id" select="document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/fiscus_framework/resources/estates.xml'))//tei:place[descendant::tei:idno=$est-id]/tei:geogName"/>
         <doc>
@@ -39,13 +39,13 @@
           <field name="index_keys">
             <xsl:value-of select="lower-case(translate(replace(@key, ' #', '; '), '#', ''))" />
           </field>
-          <field name="index_date">
-            <!--<xsl:value-of select="ancestor::tei:TEI/tei:teiHeader//tei:origDate" />-->
+          <!--<field name="index_date">
+            <!-\-<xsl:value-of select="ancestor::tei:TEI/tei:teiHeader//tei:origDate" />-\->
             <xsl:choose>
               <xsl:when test="ancestor::tei:TEI/tei:teiHeader//tei:origDate/@when"><xsl:value-of select="ancestor::tei:TEI/tei:teiHeader//tei:origDate/@when" /></xsl:when>
               <xsl:otherwise><xsl:value-of select="ancestor::tei:TEI/tei:teiHeader//tei:origDate/@notBefore" /><xsl:text> – </xsl:text><xsl:value-of select="ancestor::tei:TEI/tei:teiHeader//tei:origDate/@notAfter" /></xsl:otherwise>
             </xsl:choose>
-          </field>
+          </field>-->
           <xsl:apply-templates select="current-group()" />
         </doc>
       </xsl:for-each-group>

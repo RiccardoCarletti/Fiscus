@@ -119,7 +119,16 @@
       </xsl:when>
       <xsl:when test="doc">
         <ul>
-          <xsl:apply-templates mode="search-results" select="doc"><xsl:sort select="str[@name='document_id']" order="ascending"/></xsl:apply-templates>
+          <xsl:apply-templates mode="search-results" select="doc">
+            <xsl:sort>
+              <xsl:variable name="id" select="substring-after(str[@name='document_id'], 'doc')"/>
+              <xsl:choose>
+                <xsl:when test="string-length($id) = 1"><xsl:value-of select="concat('000',$id)"/></xsl:when>
+                <xsl:when test="string-length($id) = 2"><xsl:value-of select="concat('00',$id)"/></xsl:when>
+                <xsl:when test="string-length($id) = 3"><xsl:value-of select="concat('0',$id)"/></xsl:when>
+                <xsl:otherwise><xsl:value-of select="$id"/></xsl:otherwise>
+              </xsl:choose></xsl:sort>
+          </xsl:apply-templates>
         </ul>
 
         <xsl:call-template name="add-results-pagination" />

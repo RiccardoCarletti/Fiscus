@@ -67,6 +67,38 @@
           <xsl:text>0</xsl:text>
         </xsl:otherwise>
       </xsl:choose>
+      <xsl:text>#</xsl:text>
+      <xsl:choose>
+        <xsl:when test="ancestor::tei:TEI/tei:teiHeader//tei:origDate/@when!=''">
+          <xsl:choose>
+            <xsl:when test="starts-with(ancestor::tei:TEI/tei:teiHeader//tei:origDate/@when, '0')">
+              <xsl:value-of select="substring(ancestor::tei:TEI/tei:teiHeader//tei:origDate/@when, 2)" />
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:value-of select="ancestor::tei:TEI/tei:teiHeader//tei:origDate/@when" />
+            </xsl:otherwise>
+          </xsl:choose>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:choose>
+            <xsl:when test="starts-with(ancestor::tei:TEI/tei:teiHeader//tei:origDate/@notBefore, '0')">
+              <xsl:value-of select="substring(ancestor::tei:TEI/tei:teiHeader//tei:origDate/@notBefore, 2)" />
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:value-of select="ancestor::tei:TEI/tei:teiHeader//tei:origDate/@notBefore" />
+            </xsl:otherwise>
+          </xsl:choose>
+          <xsl:text>–</xsl:text>
+          <xsl:choose>
+            <xsl:when test="starts-with(ancestor::tei:TEI/tei:teiHeader//tei:origDate/@notAfter, '0')">
+              <xsl:value-of select="substring(ancestor::tei:TEI/tei:teiHeader//tei:origDate/@notAfter, 2)" />
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:value-of select="ancestor::tei:TEI/tei:teiHeader//tei:origDate/@notAfter" />
+            </xsl:otherwise>
+          </xsl:choose>
+        </xsl:otherwise>
+      </xsl:choose>
     </field>
   </xsl:template>
 

@@ -46,9 +46,10 @@
           <xsl:text>[</xsl:text>
         </xsl:if>
         <span class="index-instance-file">
-          <xsl:value-of select="$location_parts[2]" />
+          <xsl:value-of select="substring-after($location_parts[2], 'doc')" />
+          <xsl:text> (</xsl:text><xsl:value-of select="replace($location_parts[6], '–', ' – ')"/><xsl:text>)</xsl:text>
         </span>
-        <xsl:if test="$location_parts[3]">
+        <!--<xsl:if test="$location_parts[3]">
           <span class="index-instance-text-parts">
             <xsl:text>.</xsl:text>
             <xsl:value-of select="$location_parts[3]" />
@@ -60,7 +61,7 @@
         </span>
         <xsl:if test="$location_parts[5] = '1'">
           <xsl:text>]</xsl:text>
-        </xsl:if>
+        </xsl:if>-->
       </a>
     </li>
   </xsl:template>
