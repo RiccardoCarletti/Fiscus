@@ -47,45 +47,45 @@
   </xsl:template>
   
   <xsl:template match="//tei:listPlace[@type='places']">
-    <xsl:apply-templates><xsl:sort select="tei:place/tei:placeName[1]" order="ascending"></xsl:sort></xsl:apply-templates>
+    <xsl:apply-templates select="tei:place"><xsl:sort select="./tei:placeName[1]" order="ascending"></xsl:sort></xsl:apply-templates>
   </xsl:template>
   <xsl:template match="//tei:listPlace[@type='estates']">
-    <xsl:apply-templates><xsl:sort select="tei:place/tei:geogName" order="ascending"></xsl:sort></xsl:apply-templates>
+    <xsl:apply-templates select="tei:place"><xsl:sort select="./tei:geogName[1]" order="ascending"></xsl:sort></xsl:apply-templates>
   </xsl:template>
   <xsl:template match="//tei:listOrg">
-    <xsl:apply-templates><xsl:sort select="tei:org/tei:orgName" order="ascending"></xsl:sort></xsl:apply-templates>
+    <xsl:apply-templates select="tei:org"><xsl:sort select="./tei:orgName[1]" order="ascending"></xsl:sort></xsl:apply-templates>
   </xsl:template>
   <xsl:template match="//tei:listPerson">
-    <xsl:apply-templates><xsl:sort select="tei:person/tei:persName" order="ascending"></xsl:sort></xsl:apply-templates>
+    <xsl:apply-templates select="tei:person"><xsl:sort select="./tei:persName[1]" order="ascending"></xsl:sort></xsl:apply-templates>
   </xsl:template>
   
   <xsl:template match="//tei:listPlace/tei:place">
     <div class="list_item">
-      <xsl:if test="tei:placeName"><p><strong><xsl:apply-templates select="tei:placeName[1]"/></strong></p></xsl:if>
-      <xsl:if test="tei:geogName[not(descendant::tei:geo)]"><p><strong><xsl:apply-templates select="tei:geogName[not(descendant::tei:geo)]"/></strong></p></xsl:if>
-      <xsl:if test="tei:placeName[@type='other']//text()"><p><i><xsl:text>Also known as: </xsl:text></i><xsl:apply-templates select="tei:placeName[@type='other']"/></p></xsl:if>
-      <xsl:if test="tei:geogName/tei:geo"><p><i><xsl:text>Coordinates (Lat, Long): </xsl:text></i><xsl:value-of select="tei:geogName/tei:geo"/></p></xsl:if>
-      <xsl:if test="tei:idno"><p><i><xsl:text>Item number: </xsl:text></i><xsl:value-of select="translate(tei:idno, '#', '')"/></p></xsl:if>
-      <xsl:if test="tei:note//text()"><p><i><xsl:text>Commentary/Bibliography: </xsl:text></i><xsl:apply-templates select="tei:note"/></p></xsl:if>
-      <xsl:if test="tei:link"><xsl:for-each select="tei:link"><p><i><xsl:text>Linked item (</xsl:text><xsl:value-of select="@type"/><xsl:text>): </xsl:text></i> <xsl:apply-templates select="@corresp"/> <xsl:if test="@subtype"><xsl:text> (</xsl:text><xsl:value-of select="@subtype"/><xsl:text>)</xsl:text></xsl:if></p></xsl:for-each></xsl:if>
+      <xsl:if test="tei:placeName"><p class="item_name"><xsl:apply-templates select="tei:placeName[1]"/></p></xsl:if>
+      <xsl:if test="tei:geogName[not(descendant::tei:geo)]"><p class="item_name"><xsl:apply-templates select="tei:geogName[not(descendant::tei:geo)]"/></p></xsl:if>
+      <p><xsl:if test="tei:placeName[@type='other']//text()"><strong><xsl:text>Also known as: </xsl:text></strong><xsl:apply-templates select="tei:placeName[@type='other']"/><br/></xsl:if>
+      <xsl:if test="tei:geogName/tei:geo"><strong><xsl:text>Coordinates (Lat, Long): </xsl:text></strong><xsl:value-of select="tei:geogName/tei:geo"/><br/></xsl:if>
+      <xsl:if test="tei:idno"><strong><xsl:text>Item number: </xsl:text></strong><xsl:value-of select="translate(tei:idno, '#', '')"/><br/></xsl:if>
+      <xsl:if test="tei:note//text()"><strong><xsl:text>Commentary/Bibliography: </xsl:text></strong><xsl:apply-templates select="tei:note"/><br/></xsl:if>
+        <xsl:if test="tei:link[@corresp]"><xsl:for-each select="tei:link[@corresp]"><strong><xsl:text>Linked item (</xsl:text><xsl:value-of select="@type"/><xsl:if test="@subtype"><xsl:text>; </xsl:text><xsl:value-of select="@subtype"/></xsl:if><xsl:text>): </xsl:text></strong> <xsl:apply-templates select="@corresp"/><br/></xsl:for-each></xsl:if></p>
     </div>
   </xsl:template>
 
   <xsl:template match="//tei:listOrg/tei:org">
     <div class="list_item">
-      <xsl:if test="tei:orgName"><p><strong><xsl:apply-templates select="tei:orgName"/></strong></p></xsl:if>
-      <xsl:if test="tei:idno"><p><i><xsl:text>Item number: </xsl:text></i><xsl:value-of select="translate(tei:idno, '#', '')"/></p></xsl:if>
-      <xsl:if test="tei:note//text()"><p><i><xsl:text>Commentary/Bibliography: </xsl:text></i><xsl:apply-templates select="tei:note"/></p></xsl:if>
-      <xsl:if test="tei:link"><xsl:for-each select="tei:link"><p><i><xsl:text>Linked item (</xsl:text><xsl:value-of select="@type"/><xsl:text>): </xsl:text></i> <xsl:apply-templates select="@corresp"/> <xsl:if test="@subtype"><xsl:text> (</xsl:text><xsl:value-of select="@subtype"/><xsl:text>)</xsl:text></xsl:if></p></xsl:for-each></xsl:if>
+      <xsl:if test="tei:orgName"><p class="item_name"><xsl:apply-templates select="tei:orgName"/></p></xsl:if>
+      <p><xsl:if test="tei:idno"><strong><xsl:text>Item number: </xsl:text></strong><xsl:value-of select="translate(tei:idno, '#', '')"/><br/></xsl:if>
+      <xsl:if test="tei:note//text()"><strong><xsl:text>Commentary/Bibliography: </xsl:text></strong><xsl:apply-templates select="tei:note"/><br/></xsl:if>
+        <xsl:if test="tei:link[@corresp]"><xsl:for-each select="tei:link[@corresp]"><strong><xsl:text>Linked item (</xsl:text><xsl:value-of select="@type"/><xsl:if test="@subtype"><xsl:text>; </xsl:text><xsl:value-of select="@subtype"/></xsl:if><xsl:text>): </xsl:text></strong> <xsl:apply-templates select="@corresp"/><br/></xsl:for-each></xsl:if></p>
     </div>
   </xsl:template>
   
   <xsl:template match="//tei:listPerson/tei:person">
     <div class="list_item">
-      <xsl:if test="tei:persName"><p><strong><xsl:apply-templates select="tei:persName"/></strong></p></xsl:if>
-      <xsl:if test="tei:idno"><p><i><xsl:text>Item number: </xsl:text></i><xsl:value-of select="translate(tei:idno, '#', '')"/></p></xsl:if>
-      <xsl:if test="tei:note//text()"><p><i><xsl:text>Commentary/Bibliography: </xsl:text></i><xsl:apply-templates select="tei:note"/></p></xsl:if>
-      <xsl:if test="tei:link"><xsl:for-each select="tei:link"><p><i><xsl:text>Linked item (</xsl:text><xsl:value-of select="@type"/><xsl:text>): </xsl:text></i> <xsl:apply-templates select="@corresp"/> <xsl:if test="@subtype"><xsl:text> (</xsl:text><xsl:value-of select="@subtype"/><xsl:text>)</xsl:text></xsl:if></p></xsl:for-each></xsl:if>
+      <xsl:if test="tei:persName"><p class="item_name"><xsl:apply-templates select="tei:persName"/></p></xsl:if>
+      <p><xsl:if test="tei:idno"><strong><xsl:text>Item number: </xsl:text></strong><xsl:value-of select="translate(tei:idno, '#', '')"/><br/></xsl:if>
+        <xsl:if test="tei:note//text()"><strong><xsl:text>Commentary/Bibliography: </xsl:text></strong><xsl:apply-templates select="tei:note"/><br/></xsl:if>
+        <xsl:if test="tei:link[@corresp]"><xsl:for-each select="tei:link[@corresp]"><strong><xsl:text>Linked item (</xsl:text><xsl:value-of select="@type"/><xsl:if test="@subtype"><xsl:text>; </xsl:text><xsl:value-of select="@subtype"/></xsl:if><xsl:text>): </xsl:text></strong> <xsl:apply-templates select="@corresp"/><br/></xsl:for-each></xsl:if></p>
     </div>
   </xsl:template>
 

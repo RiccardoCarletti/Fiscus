@@ -25,6 +25,11 @@ div.list_item {
   height:600px;
   margin-bottom:4em;
 }
+
+.item_name {
+     font-weight: bold;
+     color: #168059;
+}
           
 nav.top-bar, nav.top-bar ul.right li, nav.top-bar ul.left * {
     background-color: #168059;
@@ -65,7 +70,7 @@ div#edition {
     padding-top: 20px;
 }
 
-b, strong {
+b {
     color: #168059;
 }
 
