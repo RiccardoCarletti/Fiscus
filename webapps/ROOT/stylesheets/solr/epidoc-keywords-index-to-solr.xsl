@@ -17,17 +17,20 @@
     <xsl:variable name="root" select="." />
     
     <!--<xsl:variable name="key-values">
-      <xsl:for-each select="//tei:rs[ancestor::tei:div/@type='edition']/@key">
-        <xsl:value-of select="translate(normalize-space(.), ', ', '__')" />
+      <xsl:for-each select="//tei:rs[ancestor::tei:div/@type='edition'][@key[not(.='')]]/@key">
+        <xsl:choose>
+          <xsl:when test="starts-with(., '#')"><xsl:value-of select="replace(substring(lower-case(.), 2), ' #', '#')" /></xsl:when>
+          <xsl:otherwise><xsl:value-of select="replace(lower-case(.), ' #', '#')" /></xsl:otherwise>
+        </xsl:choose>
+        <xsl:text>#</xsl:text>
       </xsl:for-each>
     </xsl:variable>
-    <xsl:variable name="keys" select="distinct-values(tokenize($key-values, '__'))" />
+    <xsl:variable name="keys" select="distinct-values(tokenize(replace($key-values, '##', '#'), '#'))" />-->
     
-    <add>
+    <!--<add>
       <xsl:for-each select="$keys">
-        <xsl:variable name="key-value" select="." />
-        <xsl:variable name="keyword" select="$root//tei:div[@type='edition']//tei:rs[contains(@key, $key-value)]" />
-        <xsl:variable name="keyword_ref" select="$root//tei:rs[ancestor::tei:div/@type='edition'][contains(@key, $key-value)]/@ref" />
+        <xsl:variable name="key-value" select="concat('#',.,'#')" />
+        <xsl:variable name="keyword" select="$root//tei:div[@type='edition']//tei:rs[@key[not(.='')]][contains(concat('#', @key, '#'), $key-value)]" />
         <doc>
           <field name="document_type">
             <xsl:value-of select="$subdirectory" />
@@ -37,15 +40,12 @@
           </field>
           <xsl:call-template name="field_file_path" />
           <field name="index_item_name">
-            <xsl:value-of select="$key-value" />
-          </field>
-          <!-\-<field name="index_base_form">
-            <xsl:value-of select="$keyword_ref" />
+            <xsl:value-of select="replace($key-value, '#', '')" />
           </field>
           <field name="index_keys">
             <xsl:value-of select="$keyword" />
-          </field>-\->
-          <xsl:apply-templates select="." />
+          </field>
+          <xsl:apply-templates select="$keyword" />
         </doc>
       </xsl:for-each>
     </add>-->
@@ -70,9 +70,6 @@
               </xsl:otherwise>
             </xsl:choose>
           </field>
-          <!--<field name="index_base_form">
-            <xsl:value-of select="@ref" />
-          </field>-->
             <field name="index_keys">
               <xsl:value-of select="." />
             </field>

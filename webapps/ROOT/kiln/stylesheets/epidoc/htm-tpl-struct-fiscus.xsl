@@ -267,6 +267,22 @@
       <i><xsl:apply-templates/></i>
   </xsl:template>
   
+  <xsl:template match="t:persName[ancestor::t:div[@type='edition']][@ref!='']">
+    <a target="_blank"><xsl:attribute name="href"><xsl:value-of select="concat('../texts/people.html#', substring-after(substring-after(translate(@ref, '#', ''), 'http://137.204.128.125/'), '/'))"/></xsl:attribute><xsl:apply-templates/></a>
+  </xsl:template>
+  
+  <xsl:template match="t:placeName[ancestor::t:div[@type='edition']][@ref!='']">
+    <a target="_blank"><xsl:attribute name="href"><xsl:value-of select="concat('../texts/places.html#', substring-after(substring-after(translate(@ref, '#', ''), 'http://137.204.128.125/'), '/'))"/></xsl:attribute><xsl:apply-templates/></a>
+  </xsl:template>
+  
+  <xsl:template match="t:orgName[ancestor::t:div[@type='edition']][@ref!='']">
+    <a target="_blank"><xsl:attribute name="href"><xsl:value-of select="concat('../texts/juridical_persons.html#', substring-after(substring-after(translate(@ref, '#', ''), 'http://137.204.128.125/'), '/'))"/></xsl:attribute><xsl:apply-templates/></a>
+  </xsl:template>
+  
+  <xsl:template match="t:geogName[ancestor::t:div[@type='edition']][@ref!='']">
+    <a target="_blank"><xsl:attribute name="href"><xsl:value-of select="concat('../texts/estates.html#', substring-after(substring-after(translate(@ref, '#', ''), 'http://137.204.128.125/'), '/'))"/></xsl:attribute><xsl:apply-templates/></a>
+  </xsl:template>
+  
   <!--  old code for inscription numbers now in <idno type="ircyr2012">:
     <xsl:template name="fiscus-title">
      <xsl:choose>
