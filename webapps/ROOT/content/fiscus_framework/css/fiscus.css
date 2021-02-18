@@ -103,7 +103,7 @@
           visibility: -oxy-collapse-text ;
     }
     
-    body listPlace place link[type="places"], body listOrg org link[type="places"], body listPerson person link[type="places"] {
+    body listPlace place link[type="places"], body listPerson person link[type="places"] {
         content: "This item is linked to (place): "
         oxy_editor(
              type, popupSelection,
@@ -122,6 +122,27 @@
              values, "isPartOf, isMadeOf, isInVicinityOf, hasInItsVicinity, isAdjacentTo, hasConnectionWith");
            display:block;
     }
+    
+    body listOrg org link[type="places"] {
+        content: "This item is linked to (place): "
+        oxy_editor(
+             type, popupSelection,
+             edit, "@corresp",
+             editable, false,
+             sort, ascending,
+             values, oxy_concat("#", oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/places.xml'), '")//listPlace//place/idno, ",#")'))),
+             labels, oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/places.xml'), '")//listPlace//place/placeName[1], ",")' ))
+             )
+             " Link type: "
+             oxy_editor(
+           type, combo,
+           edit, "@subtype"
+           editable, true,
+             columns, 25,
+             values, "isPartOf, isWithin, isAdjacentTo, hasConnectionWith");
+           display:block;
+    }
+      
       
      body listPlace place link[type="people"], body listOrg org link[type="people"], body listPerson person link[type="people"] {
         content: "This item is linked to (person): "

@@ -239,7 +239,7 @@
   <xsl:template match="tei:persName[@ref]" mode="facet_mentioned_people">
     <field name="mentioned_people">
       <xsl:variable name="ref" select="translate(@ref,' #', '')"/>
-      <xsl:value-of select="translate(document('../../../content/fiscus_framework/resources/people.xml')//tei:person[descendant::tei:idno=$ref]/tei:persName, '/', '／')" />
+      <xsl:value-of select="translate(translate(document('../../../content/fiscus_framework/resources/people.xml')//tei:person[descendant::tei:idno=$ref]/tei:persName, '/', '／'), '?', '')" />
     </field>
   </xsl:template>
 

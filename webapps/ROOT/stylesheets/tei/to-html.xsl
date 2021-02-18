@@ -96,17 +96,17 @@
   </xsl:template>
   
   <xsl:template match="//*/@corresp">
-    <xsl:variable select="." name="corresp"/>
+    <xsl:variable select="translate(.,'#','')" name="corresp"/>
     <xsl:variable name="place" select="document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/fiscus_framework/resources/places.xml'))//tei:listPlace/tei:place[tei:idno=$corresp]/tei:placeName[1]"/>
     <xsl:variable name="estate" select="document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/fiscus_framework/resources/estates.xml'))//tei:listPlace/tei:place[tei:idno=$corresp]/tei:geogName[1]"/>
     <xsl:variable name="person" select="document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/fiscus_framework/resources/people.xml'))//tei:listPerson/tei:person[tei:idno=$corresp]/tei:persName[1]"/>
     <xsl:variable name="juridical_person" select="document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/fiscus_framework/resources/juridical_persons.xml'))//tei:listOrg/tei:org[tei:idno=$corresp]/tei:orgName[1]"/>
     <xsl:choose>
-      <xsl:when test="$place"><xsl:apply-templates select="$place"/> <xsl:text> [</xsl:text><xsl:value-of select="."/><xsl:text>]</xsl:text></xsl:when>
-      <xsl:when test="$estate"><xsl:apply-templates select="$estate"/> <xsl:text> [</xsl:text><xsl:value-of select="."/><xsl:text>]</xsl:text></xsl:when>
-      <xsl:when test="$person"><xsl:apply-templates select="$person"/> <xsl:text> [</xsl:text><xsl:value-of select="."/><xsl:text>]</xsl:text></xsl:when>
-      <xsl:when test="$juridical_person"><xsl:apply-templates select="$juridical_person"/> <xsl:text> [</xsl:text><xsl:value-of select="."/><xsl:text>]</xsl:text></xsl:when>
-      <xsl:otherwise><xsl:value-of select="."/></xsl:otherwise>
+      <xsl:when test="$place"><xsl:apply-templates select="$place"/> <xsl:text> [</xsl:text><xsl:value-of select="translate(.,'#','')"/><xsl:text>]</xsl:text></xsl:when>
+      <xsl:when test="$estate"><xsl:apply-templates select="$estate"/> <xsl:text> [</xsl:text><xsl:value-of select="translate(.,'#','')"/><xsl:text>]</xsl:text></xsl:when>
+      <xsl:when test="$person"><xsl:apply-templates select="$person"/> <xsl:text> [</xsl:text><xsl:value-of select="translate(.,'#','')"/><xsl:text>]</xsl:text></xsl:when>
+      <xsl:when test="$juridical_person"><xsl:apply-templates select="$juridical_person"/> <xsl:text> [</xsl:text><xsl:value-of select="translate(.,'#','')"/><xsl:text>]</xsl:text></xsl:when>
+      <xsl:otherwise><xsl:value-of select="translate(.,'#','')"/></xsl:otherwise>
     </xsl:choose>
   </xsl:template>
   

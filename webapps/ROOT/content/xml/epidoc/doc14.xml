@@ -41,7 +41,8 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate when="0924-11-12">12 November 924
+                            <origDate when="0924-11-12">
+                                <note type="displayed_date">12 November 924</note>
                                 <note type="dating_elements">Incarnation Style, Third Year of Rodulf's Reign in Italy</note>
                                 <note type="topical_date">Verona (IT)</note>
                                 </origDate>
@@ -61,13 +62,13 @@
     <person corresp="http://137.204.128.125/people/37">
             <persName xml:lang="en">Rudolf II of Burgundy (911-33)</persName>
         </person>
-    <person corresp="http://137.204.128.125/people/38">
+    <person corresp="http://137.204.128.125/estates/38">
             <persName xml:lang="en">Curtis of Luzzara</persName>
         </person>
-    <person corresp="http://137.204.128.125/people/40">
+                <person corresp="http://137.204.128.125/estates/40">
             <persName xml:lang="en">Curtis of Guastalla</persName>
         </person>
-    <person corresp="http://137.204.128.125/people/42">
+                <person corresp="http://137.204.128.125/estates/42">
             <persName xml:lang="en">Curtis of Pegognaga</persName>
         </person>
     <person corresp="http://137.204.128.125/people/45">
@@ -141,19 +142,19 @@
                         <persName key="#queen" ref="http://137.204.128.125/people/55"
                             >Angelberga</persName> e dedicato da <persName key="#abbess"
                             ref="#http://137.204.128.125/people/67">Berta</persName> a <orgName
-                            ref="#http://137.204.128.125/people/53">S. Sisto</orgName>
+                                ref="#http://137.204.128.125/juridical_persons/53">S. Sisto</orgName>
                         <geogName key="#curtes #fiscal property"
-                            ref="http://137.204.128.125/people/40">quasdam <rs key="#curtes"
+                            ref="http://137.204.128.125/estates/40">quasdam <rs key="#curtes"
                                 >curtes</rs>
                             <placeName key="#curtes #fiscal property"
                                 ref="http://137.204.128.125/places/33">Vuardestallam</placeName>
                         </geogName> scilicet, <geogName key=""
-                            ref="http://137.204.128.125/people/38">
+                            ref="http://137.204.128.125/estates/38">
                             <placeName key="#curtes #fiscal property"
                                 ref="http://137.204.128.125/places/32">Luzariam</placeName>
                         </geogName>, <geogName key="#curtes #fiscal property"
                             ref="#http://137.204.128.125/estates/77">Litora Paludiana</geogName>,
-                        Villolę, <geogName key="" ref="http://137.204.128.125/people/42">
+                        Villolę, <geogName key="" ref="http://137.204.128.125/estates/42">
                             <placeName key="#curtes #fiscal property"
                                 ref="http://137.204.128.125/places/34">Piguniarius</placeName>
                         </geogName>, e tutte le cose che la predetta imperatrice trasferì al

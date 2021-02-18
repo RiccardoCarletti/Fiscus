@@ -41,7 +41,8 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate when="0897-05-05">5 maggio 897
+                            <origDate when="0897-05-05">
+                                <note type="displayed_date">5 maggio 897</note>
                                 <note type="dating_elements"></note>
                                 <note type="topical_date">Pordenone</note>
                             </origDate>
@@ -64,13 +65,13 @@
 				    <person corresp="http://137.204.128.125/people/58">
 				            <persName xml:lang="en">Petrus (881-900), episcopus Patavinus, archicancellarius</persName>
 				        </person>
-				    <person corresp="http://137.204.128.125/people/61">
+                                                            <person corresp="http://137.204.128.125/estates/61">
 				            <persName xml:lang="en">Curtis di Sacco </persName>
 				        </person>
-				    <person corresp="http://137.204.128.125/people/65">
+                                                        <person corresp="http://137.204.128.125/juridical_persons/65">
 				            <persName xml:lang="en">Santa Maria e Santa Giustina, chiesa </persName>
 				        </person>
-				    <person corresp="http://137.204.128.125/people/64">
+                                                            <person corresp="http://137.204.128.125/estates/64">
 				            <persName xml:lang="en">Curtis di Pordenone</persName>
 				        </person>
                 </listPerson>
@@ -104,10 +105,10 @@ presentium scilicet ac futurorum industria, <persName key="#bishops #archchancel
 <rs key="#bishops">episcopum</rs> dilectumque fidelem et <rs key="#archchancellor">archicancellarium</rs> nostrum suppliciter
 nostrae serenitatis exorasse clementiam, quatenus quandam <rs key="#curtes #fiscal property">cortem</rs> iuris regni
 nostri quae nuncupatur <placeName key="#curtes #fiscal property" ref="http://137.204.128.125/places/39">
-                            <geogName key="#curtes #fiscal property #rivers #mills #fisheries #profits of justice #districtio #revenues" ref="http://137.204.128.125/people/61">Sacco</geogName>
+    <geogName key="#curtes #fiscal property #rivers #mills #fisheries #profits of justice #districtio #revenues" ref="http://137.204.128.125/estates/61">Sacco</geogName>
                         </placeName> iuxta <geogName key="#fines #sea">maritimos fines</geogName>, adiacentem scilicet in
 <rs key="#comitatus">comitatu</rs> <placeName key="#comitatus" ref="http://137.204.128.125/places/13">Tarvisianense</placeName>, pertinentem siquidem <rs key="#camera regis">de camera palatii</rs> nostri,
-<orgName key="#churches" ref="http://137.204.128.125/people/65">episcopio sanctae<placeName ref="http://137.204.128.125/places/41">Patavensis</placeName> ecclesiae in honore sanctae Dei genitricis
+<orgName key="#churches" ref="http://137.204.128.125/juridical_persons/65">episcopio sanctae<placeName ref="http://137.204.128.125/places/41">Patavensis</placeName> ecclesiae in honore sanctae Dei genitricis
     virginis Mariae sanctaeque Iustinae martyris</orgName> constructo, in quo ipse <persName key="#bishops #archchancellor">Petrus</persName>
 venerabilis pontifex preesse dinoscitur, pro Dei omnipotentis amore
 nostraeque animae remedio statuque regni nostri a Deo nobis collati per
@@ -138,7 +139,7 @@ roboravimus et anuli nostri inpressione insigniri iussimus. Signum domni (MF)
 <persName key="#emperor/king">Berengarii</persName> gl[orio]sissimi <rs key="#emperor/king">regis</rs>. <persName key="#chancellor">Vitalis</persName> <rs key="#chancellor">cancellarius</rs> ad vicem <persName key="#bishops #archchancellor">Petri</persName> episcopi
 et archicancellarii recognovi et subscripsi (SR) (SI D). Data .III. non. mai(i), anno
 dominicae [i]ncarnationis .DCCCXCVII., regni vero domni Berengarii serenissimi
-regis .X., indictione .XV. Actum <geogName key="#curtes #fiscal property" ref="http://137.204.128.125/people/64">Naones</geogName>
+regis .X., indictione .XV. Actum <geogName key="#curtes #fiscal property" ref="http://137.204.128.125/estates/64">Naones</geogName>
                         <rs key="#curtes #fiscal property">corte regia</rs>. in Christi nomine
 feliciter, amen.</ab>
                 </div>
