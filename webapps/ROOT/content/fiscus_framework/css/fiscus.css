@@ -74,7 +74,11 @@
         oxy_editor(
            type, text,
            edit, "#text"
-           columns, 40);
+           columns, 40)
+        /*oxy_browser(
+      href, 'https://www.latlong.net/',
+      width, 600px,
+      height, 600px)*/;
            display:block;
     }
     
@@ -105,6 +109,7 @@
              type, popupSelection,
              edit, "@corresp",
              editable, false,
+             sort, ascending,
              values, oxy_concat("#", oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/places.xml'), '")//listPlace//place/idno, ",#")'))),
              labels, oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/places.xml'), '")//listPlace//place/placeName[1], ",")' ))
              )
@@ -124,6 +129,7 @@
              type, popupSelection,
              edit, "@corresp",
              editable, false,
+             sort, ascending,
              values, oxy_concat("#", oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/people.xml'), '")//listPerson//person/idno, ",#")'))),
              labels, oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/people.xml'), '")//listPerson//person/persName, ",")' ))
              )
@@ -142,6 +148,7 @@
              type, popupSelection,
              edit, "@corresp",
              editable, false,
+             sort, ascending,
              values, oxy_concat("#", oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/juridical_persons.xml'), '")//listOrg//org/idno, ",#")'))),
              labels, oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/juridical_persons.xml'), '")//listOrg//org/orgName, ",")' ))
              )
@@ -160,6 +167,7 @@
              type, popupSelection,
              edit, "@corresp",
              editable, false,
+             sort, ascending,
              values, oxy_concat("#", oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/estates.xml'), '")//listPlace//place/idno, ",#")'))),
              labels, oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/estates.xml'), '")//listPlace//place/geogName, ",")' ))
              )
@@ -423,6 +431,7 @@ ab placeName:before {
              type, popupSelection,
              edit, "@ref",
              editable, false,
+             sort, ascending,
              values, oxy_concat("#", oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/places.xml'), '")//listPlace//place/idno, ",#")'))),
              labels, oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/places.xml'), '")//listPlace//place/placeName[1], ",")' ))
              );
@@ -443,6 +452,7 @@ ab placeName:before {
              type, popupSelection,
              edit, "@ref",
              editable, false,
+             sort, ascending,
              values, oxy_concat("#", oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/people.xml'), '")//listPerson//person/idno, ",#")'))),
              labels, oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/people.xml'), '")//listPerson//person/persName, ",")' ))
              );
@@ -463,6 +473,7 @@ ab placeName:before {
              type, popupSelection,
              edit, "@ref",
              editable, false,
+             sort, ascending,
              values, oxy_concat("#", oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/estates.xml'), '")//listPlace//place/idno, ",#")'))),
              labels, oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/estates.xml'), '")//listPlace//place/geogName, ",")' ))
              );
@@ -483,6 +494,7 @@ ab placeName:before {
              type, popupSelection,
              edit, "@ref",
              editable, false,
+             sort, ascending,
              values, oxy_concat("#", oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/juridical_persons.xml'), '")//listOrg//org/idno, ",#")'))),
              labels, oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/juridical_persons.xml'), '")//listOrg//org/orgName, ",")' ))
              );
