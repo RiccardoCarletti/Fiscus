@@ -1,12 +1,15 @@
-ul.index-instances { }
+ul.index-instances {
+}
 
 .index-instance-file {
     font-weight: bolder;
 }
 
-.index-instance-text-parts { }
+.index-instance-text-parts {
+}
 
-.index-instance-line { }
+.index-instance-line {
+}
 
 footer {
     background: none repeat scroll 0 0 #fafafa;
@@ -21,18 +24,20 @@ div.list_item {
 }
 
 .map {
-  width: 100%;
-  height:600px;
-  margin-bottom:5em;
-  margin-top:4em;
+    width: 100%;
+    height: 600px;
+    margin-bottom: 5em;
+    margin-top: 4em;
 }
 
 .item_name {
-     font-weight: bold;
-     color: #168059;
+    font-weight: bold;
+    color: #168059;
 }
-          
-nav.top-bar, nav.top-bar ul.right li, nav.top-bar ul.left * {
+
+nav.top-bar,
+nav.top-bar ul.right li,
+nav.top-bar ul.left * {
     background-color: #168059;
     font-size: 14px;
     font-weight: 400;
@@ -62,7 +67,8 @@ h1 {
     font-size: 36px;
 }
 
-div#commentary, div#bibliography {
+div#commentary,
+div#bibliography {
     padding-top: 40px;
     text-align: justify;
 }
@@ -87,37 +93,76 @@ p {
     text-align: justify;
 }
 
+/* Tagged terms in the text */
+._rs {
+    border-style: dashed;
+    border-color: black;
+    border-width: thin;
+    padding: 4px 2px 1px 2px;
+}
+._persName {
+    background-color: #ffffcc;
+    padding: 4px 0px 1px 0px;
+}
+._orgName {
+    background-color: #ffe6e6;
+    padding: 4px 0px 1px 0px;
+}
+._geogName {
+    background-color: #ccffcc;
+    padding: 4px 0px 1px 0px;
+}
+._placeName {
+    background-color: #e6e6ff;
+    padding: 4px 0px 1px 0px;
+}
+._date {
+    background-color: #ffccff;
+    padding: 4px 0px 1px 0px;
+}
 
-.rs {
-  border-style:dashed;
-  border-color:black;
-  border-width: thin;
-  padding: 4px 2px 1px 2px;
-  }
-.persName {
-  background-color: #ffffcc;
-  padding: 4px 0px 1px 0px;
-  }
-.orgName {
-  background-color: #ffe6e6;
-  padding: 4px 0px 1px 0px;
-  }
-.geogName {
-  background-color: #ccffcc;
-  padding: 4px 0px 1px 0px;
-  }
-.placeName {
-  background-color: #e6e6ff;
-  padding: 4px 0px 1px 0px;
-  }
-.date {
-  background-color: #ffccff;
-  padding: 4px 0px 1px 0px;
-  }
+#toggle_buttons button {
+    margin: 5px;
+    font-weight: normal;
+    color: black;
+}
+
+#toggle_rs {
+    border-style: dashed;
+    border-color: black;
+    border-width: thin;
+    background-color: white;
+    padding: 6px 6px 4px 6px;
+}
+#toggle_persName {
+    background-color: #ffffcc;
+    border-style: none;
+    padding: 8px 8px 6px 8px;
+}
+#toggle_orgName {
+    background-color: #ffe6e6;
+    border-style: none;
+    padding: 8px 8px 6px 8px;
+}
+#toggle_geogName {
+    background-color: #ccffcc;
+    border-style: none;
+    padding: 8px 8px 6px 8px;
+}
+#toggle_placeName {
+    background-color: #e6e6ff;
+    border-style: none;
+    padding: 8px 8px 6px 8px;
+}
+#toggle_date {
+    background-color: #ffccff;
+    border-style: none;
+    padding: 8px 8px 6px 8px;
+}
 
 /*Keyboard*/
 #keyboard_box {
-    display:none;
+    display: none;
     margin-top: 1em;
     margin-right: 1em;
     margin-bottom: 4em;
