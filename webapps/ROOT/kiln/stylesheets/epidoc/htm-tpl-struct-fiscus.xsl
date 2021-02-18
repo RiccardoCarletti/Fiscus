@@ -187,14 +187,14 @@
         <b>Document type: </b>
         <xsl:value-of select="translate(//t:summary/t:rs[@type = 'text_type'], '-', '')"/>
         <br/>
-        <b>Document tradition: </b>
+          <b>Document tradition: </b>
         <xsl:apply-templates select="//t:summary/t:rs[@type = 'document_tradition']"/>
-        <br/>
+        <xsl:if test="//t:summary/t:rs[@type = 'fiscal_property']/text()"><br/>
         <b>Fiscal property: </b>
-        <xsl:apply-templates select="//t:summary/t:rs[@type = 'fiscal_property']"/>
-        <br/>
+        <xsl:apply-templates select="//t:summary/t:rs[@type = 'fiscal_property']"/></xsl:if>
+        <xsl:if test="//t:origPlace/text()"><br/>
         <b>Provenance: </b>
-        <xsl:apply-templates select="//t:origPlace"/>
+        <xsl:apply-templates select="//t:origPlace"/></xsl:if>
       </p>
       <p>
         <b>Date: </b>
@@ -207,22 +207,21 @@
             <xsl:apply-templates select="//t:origin/t:origDate/text()"/>
           </xsl:otherwise>
         </xsl:choose>
-        <br/>
+        <xsl:if test="//t:origin/t:origDate/t:note[@type = 'topical_date']/text()"><br/>
         <b>Topical date: </b>
-        <xsl:apply-templates select="//t:origin/t:origDate/t:note[@type = 'topical_date']/node()"/>
-        <br/>
+        <xsl:apply-templates select="//t:origin/t:origDate/t:note[@type = 'topical_date']/node()"/></xsl:if>
+        <xsl:if test="//t:origin/t:origDate/t:note[@type = 'dating_elements']/text()"><br/>
         <b>Dating elements: </b>
-        <xsl:apply-templates select="//t:origin/t:origDate/t:note[@type = 'dating_elements']/node()"
-        />
+        <xsl:apply-templates select="//t:origin/t:origDate/t:note[@type = 'dating_elements']/node()"/></xsl:if>
       </p>
 
       <p id="toggle_buttons"><b>Show/hide in the text: </b>
-        <button id="toggle_placeName">places</button>
-        <button id="toggle_persName">people</button>
-        <button id="toggle_orgName">juridical persons</button>
-        <button id="toggle_geogName">estates</button>
-        <button id="toggle_date">dates</button>
-        <button id="toggle_rs">keywords</button>
+        <button class="placeName" id="toggle_placeName">places</button>
+        <button class="persName" id="toggle_persName">people</button>
+        <button class="orgName" id="toggle_orgName">juridical persons</button>
+        <button class="geogName" id="toggle_geogName">estates</button>
+        <button class="date" id="toggle_date">dates</button>
+        <button class="rs" id="toggle_rs">keywords</button>
       </p>
       <script>
          $(document).ready(function(){
@@ -280,30 +279,24 @@
     </div>
 
     <div id="bibliography">
-      <p>
+      <xsl:if test="//t:div[@type = 'bibliography'][@subtype = 'editions']/t:p/text()"><p>
         <b><i18n:text i18n:key="epidoc-xslt-fiscus-bibliography">Editions and document
             summaries</i18n:text>: </b>
-        <xsl:apply-templates
-          select="//t:div[@type = 'bibliography'][@subtype = 'editions']/t:p/node()"/>
-      </p>
-      <p>
+        <xsl:apply-templates select="//t:div[@type = 'bibliography'][@subtype = 'editions']/t:p/node()"/>
+      </p></xsl:if>
+      <xsl:if test="//t:div[@type = 'bibliography'][@subtype = 'additional']/t:p/text()"><p>
         <b><i18n:text i18n:key="epidoc-xslt-fiscus-bibliography">Bibliography</i18n:text>: </b>
         <xsl:apply-templates
           select="//t:div[@type = 'bibliography'][@subtype = 'additional']/t:p/node()"/>
-      </p>
-      <p>
+      </p></xsl:if>
+      <xsl:if test="//t:div[@type = 'bibliography'][@subtype = 'links']/t:p/text()"><p>
         <b><i18n:text i18n:key="epidoc-xslt-fiscus-bibliography">Links</i18n:text>: </b>
-        <xsl:apply-templates select="//t:div[@type = 'bibliography'][@subtype = 'links']/t:p/node()"
-        />
-      </p>
+        <xsl:apply-templates select="//t:div[@type = 'bibliography'][@subtype = 'links']/t:p/node()"/>
+      </p></xsl:if>
     </div>
 
     <div id="commentary">
-      <p>
-        <b>
-          <i18n:text i18n:key="epidoc-xslt-fiscus-commentary">Commentary</i18n:text>
-        </b>
-      </p>
+      <p><b><i18n:text i18n:key="epidoc-xslt-fiscus-commentary">Commentary</i18n:text></b></p>
       <xsl:variable name="commtxt">
         <xsl:apply-templates select="//t:div[@type = 'commentary']//t:p"/>
       </xsl:variable>

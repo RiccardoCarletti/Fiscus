@@ -95,29 +95,29 @@ p {
 
 /* Tagged terms in the text */
 ._rs {
-    border-style: dashed;
-    border-color: black;
-    border-width: thin;
+    border-style: dashed !important;
+    border-color: black !important;
+    border-width: thin !important;
     padding: 4px 2px 1px 2px;
 }
 ._persName {
-    background-color: #ffffcc;
+    background-color: #ffffcc !important;
     padding: 4px 0px 1px 0px;
 }
 ._orgName {
-    background-color: #ffe6e6;
+    background-color: #ffe6e6 !important;
     padding: 4px 0px 1px 0px;
 }
 ._geogName {
-    background-color: #ccffcc;
+    background-color: #ccffcc !important;
     padding: 4px 0px 1px 0px;
 }
 ._placeName {
-    background-color: #e6e6ff;
+    background-color: #e6e6ff !important;
     padding: 4px 0px 1px 0px;
 }
 ._date {
-    background-color: #ffccff;
+    background-color: #ffccff !important;
     padding: 4px 0px 1px 0px;
 }
 
@@ -128,34 +128,42 @@ p {
 }
 
 #toggle_rs {
+    background-color: #f6f6f6;
+    border-style: none;
+    padding: 8px 8px 6px 8px;
+    /*background-color: white;
     border-style: dashed;
     border-color: black;
     border-width: thin;
-    background-color: white;
-    padding: 6px 6px 4px 6px;
+    padding: 6px 6px 4px 6px;*/
 }
 #toggle_persName {
-    background-color: #ffffcc;
+    background-color: #f6f6f6;
+    /*background-color: #ffffcc;*/
     border-style: none;
     padding: 8px 8px 6px 8px;
 }
 #toggle_orgName {
-    background-color: #ffe6e6;
+    background-color: #f6f6f6;
+    /*background-color: #ffe6e6;*/
     border-style: none;
     padding: 8px 8px 6px 8px;
 }
 #toggle_geogName {
-    background-color: #ccffcc;
+    background-color: #f6f6f6;
+    /*background-color: #ccffcc;*/
     border-style: none;
     padding: 8px 8px 6px 8px;
 }
 #toggle_placeName {
-    background-color: #e6e6ff;
+    background-color: #f6f6f6;
+    /*background-color: #e6e6ff;*/
     border-style: none;
     padding: 8px 8px 6px 8px;
 }
 #toggle_date {
-    background-color: #ffccff;
+    background-color: #f6f6f6;
+    /*background-color: #ffccff;*/
     border-style: none;
     padding: 8px 8px 6px 8px;
 }
