@@ -20,7 +20,8 @@
                 <person>
                     <persName>Bonifacius (985?-1052); marchio Tusciae</persName>
                     <idno>http://137.204.128.125/people/1</idno>
-                    <link type="people" subtype="Link" corresp="#http://137.204.128.125/people/2"/>
+                    <link type="people" subtype="dominusOf"
+                        corresp="#http://137.204.128.125/people/2"/>
                     <note/>
                     <link type="places"/>
                 </person>
@@ -28,7 +29,8 @@
                 <person>
                     <persName>Cantarus; gastaldio</persName>
                     <idno>http://137.204.128.125/people/2</idno>
-                    <link type="people" subtype="Link" corresp="http://137.204.128.125/people/1"/>
+                    <link type="people" subtype="agentFor"
+                        corresp="#http://137.204.128.125/people/1"/>
                     <note></note>
                 </person>
                 
