@@ -81,21 +81,6 @@
         <revisionDesc>
             <listChange>
                 <change who="ptomei" when="2020-12-21T11:06:42.486-08:00">creation of record</change>
-           <change when="2020-12-21T11:28:53.554-08:00" who="http://137.204.128.125/people/ptomei"/>
-           <change when="2020-12-21T11:44:43.359-08:00" who="http://137.204.128.125/people/ptomei"/>
-           <change when="2020-12-21T11:52:34.649-08:00" who="http://137.204.128.125/people/ptomei"/>
-           <change when="2020-12-21T11:54:09.475-08:00" who="http://137.204.128.125/people/ptomei"/>
-           <change when="2020-12-21T12:06:31.396-08:00" who="http://137.204.128.125/people/ptomei"/>
-           <change when="2020-12-21T12:13:51.09-08:00" who="http://137.204.128.125/people/ptomei"/>
-           <change when="2020-12-21T12:14:26.413-08:00" who="http://137.204.128.125/people/ptomei"/>
-           <change when="2020-12-21T12:15:54.575-08:00" who="http://137.204.128.125/people/ptomei"/>
-           <change when="2020-12-21T12:22:57.655-08:00" who="http://137.204.128.125/people/ptomei"/>
-           <change when="2020-12-21T12:24:06.336-08:00" who="http://137.204.128.125/people/ptomei"/>
-           <change when="2020-12-22T00:18:20.412-08:00" who="http://137.204.128.125/people/ptomei"/>
-           <change when="2020-12-22T00:21:21.57-08:00" who="http://137.204.128.125/people/ptomei"/>
-           <change when="2020-12-22T08:16:55.068-08:00" who="http://137.204.128.125/people/ptomei"/>
-           <change when="2020-12-28T00:49:18.814-08:00" who="http://137.204.128.125/people/ptomei"/>
-           <change when="2020-12-28T00:52:22.208-08:00" who="http://137.204.128.125/people/ptomei"/>
                 <change when="2021-02-13" who="ptomei">changes</change>
                 <change when="2021-02-16" who="ptomei">minor changes</change>
             </listChange>
@@ -107,9 +92,10 @@
                 <div type="textpart">
                     <ab>
                         <persName key="">Pincio</persName> del <persName key="">fu Orso</persName>
-                        offre pro anima sua al <orgName key="#Monasteries"><rs key="#Monasteries"
-                                >monastero</rs> di San Ponziano</orgName> posto iusta muro istius
-                            <rs key="#Cities">civitatis</rs>
+                        offre pro anima sua al <orgName key="#Monasteries"
+                            ref="#http://137.204.128.125/juridical_persons/71"><rs
+                                key="#Monasteries">monastero</rs> di San Ponziano</orgName> posto
+                        iusta muro istius <rs key="#Cities">civitatis</rs>
                         <placeName key="#Cities" ref="#http://137.204.128.125/places/4"
                             >Lucemse</placeName>, un appezzamento di terra cum casa super se abemtes
                         posto infra civitatem ista Lucemse prope la <orgName key="#Churches"><rs
@@ -121,37 +107,40 @@
                         meam portionem di 4 appezzamenti di terra posti in loco et finibus
                             <placeName key="" ref="#http://137.204.128.125/places/22"
                             >Flexso</placeName>: duo portionis del primo, quod est campo ubi dicitur
-                            <placeName key="">Dardatico</placeName>, confinante uno capo in via
-                        publica, alio capo con terra di <persName key="">Ermengarda</persName>, lato
-                        uno con terra della <orgName key="#Churches"><rs key="#Churches">chiesa</rs>
-                            di San Martino</orgName>, alio lato con terra dei fratelli <persName
-                            key="">Martino</persName> e <persName key="">Vitale</persName>, per una
-                        misura complessiva di 3 staia; medietatem del secondo, quod est orto, posto
-                        nello stesso luogo e confinante uno capo in via publica, alio capo in
-                            <placeName key="">terra Freiorese</placeName>, lateras ambas con terra
-                        della chiesa di San Martino; medietatem del terzo, quod est campo dicitur
-                            <placeName key="#Petiae #Fiscal property #Mention">Supto
-                            Ripa</placeName>, confinante uno capo con <rs key="#Petiae">terra</rs>
-                        de <geogName key="#Curtes" ref="http://137.204.128.125/estates/36">
+                            <placeName key="" ref="#http://137.204.128.125/places/22"
+                            >Dardatico</placeName>, confinante uno capo in via publica, alio capo
+                        con terra di <persName key="">Ermengarda</persName>, lato uno con terra
+                        della <orgName key="#Churches"><rs key="#Churches">chiesa</rs> di San
+                            Martino</orgName>, alio lato con terra dei fratelli <persName key=""
+                            >Martino</persName> e <persName key="">Vitale</persName>, per una misura
+                        complessiva di 3 staia; medietatem del secondo, quod est orto, posto nello
+                        stesso luogo e confinante uno capo in via publica, alio capo in <placeName
+                            key="" ref="#http://137.204.128.125/places/22">terra
+                            Freiorese</placeName>, lateras ambas con terra della chiesa di San
+                        Martino; medietatem del terzo, quod est campo dicitur <placeName
+                            key="#Petiae #Fiscal property #Mention"
+                            ref="#http://137.204.128.125/places/22">Supto Ripa</placeName>,
+                        confinante uno capo con <rs key="#Petiae">terra</rs> de <geogName
+                            key="#Curtes" ref="#http://137.204.128.125/estates/36">
                             <rs key="#Curtes">curte</rs> de <placeName
                                 key="#Curtes #Fiscal property #Mention"
-                                ref="http://137.204.128.125/places/21">Notiano</placeName>
+                                ref="#http://137.204.128.125/places/21">Notiano</placeName>
                         </geogName>, alio capo con terra di <persName key="">Saracino</persName>,
                         lato uno con terra di <persName key="">Pietro</persName> et de suis
                         consortibus, alio lato in terra Fraiorese; quartam portionem del quarto,
                         quod est orto cum cassina super se abentes seo curte, posto in loco ubi
-                        dicitur <placeName key="">Vinea Berte</placeName>, confinante uno capo con
-                        terra della <orgName key="#Collegiate churches"><rs
-                                key="#Collegiate churches">canonica</rs> di San Donato</orgName>,
-                        alio capo cum uno lato con terra di <persName key="">Pietro</persName> e con
-                        terra del suddetto monastero di San Ponziano, alio lato con terra di
-                            <persName key="">Pagano</persName>, per una misura complessiva di 9
-                        staia, con tutte le loro dipendenze; omnibus terris et rebus poste in
-                        suprascripto loco et finibus Flexso, con tutte le loro dipendenze et cum
-                        onni cartule et moniminas. Chiede al notaio imperiale <persName key=""
-                            >Guido</persName> la stesura della cartula. Actum prope suprascripta
-                        ecclesia et monasterio Sancti Pomtiani. Testimoni sottoscrittori: <persName
-                            key="#Witness #Judge">Giovanni</persName>
+                        dicitur <placeName key="" ref="#http://137.204.128.125/places/22">Vinea
+                            Berte</placeName>, confinante uno capo con terra della <orgName
+                            key="#Collegiate churches"><rs key="#Collegiate churches">canonica</rs>
+                            di San Donato</orgName>, alio capo cum uno lato con terra di <persName
+                            key="">Pietro</persName> e con terra del suddetto monastero di San
+                        Ponziano, alio lato con terra di <persName key="">Pagano</persName>, per una
+                        misura complessiva di 9 staia, con tutte le loro dipendenze; omnibus terris
+                        et rebus poste in suprascripto loco et finibus Flexso, con tutte le loro
+                        dipendenze et cum onni cartule et moniminas. Chiede al notaio imperiale
+                            <persName key="">Guido</persName> la stesura della cartula. Actum prope
+                        suprascripta ecclesia et monasterio Sancti Pomtiani. Testimoni
+                        sottoscrittori: <persName key="#Witness #Judge">Giovanni</persName>
                         <rs key="#Judge">iudex sacri palatii</rs>, <persName key="#Witness #Judge"
                             >Rodilando</persName>
                         <rs key="#Judge">iudex sacri palatii</rs>, <persName key="#Witness"
