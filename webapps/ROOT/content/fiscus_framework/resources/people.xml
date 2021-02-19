@@ -18,7 +18,7 @@
         <body>
             <listPerson>
                 <person>
-                    <persName>Bonifacius (985?-1052); marchio Tusciae</persName>
+                    <persName>Bonifacius (985?-1052) marchio Tusciae</persName>
                     <idno>http://137.204.128.125/people/1</idno>
                     <link type="people" subtype="dominusOf"
                         corresp="#http://137.204.128.125/people/2"/>
@@ -27,7 +27,7 @@
                 </person>
                 
                 <person>
-                    <persName>Cantarus; gastaldio</persName>
+                    <persName>Cantarus (p. m. XI) gastaldio</persName>
                     <idno>http://137.204.128.125/people/2</idno>
                     <link type="people" subtype="agentFor"
                         corresp="#http://137.204.128.125/people/1"/>
@@ -35,9 +35,9 @@
                 </person>
                 
                 <person>
-                    <persName>Ugo II marchese di Toscana (970-1001)</persName>
+                    <persName>Hugo (970-1001) marchio Tusciae</persName>
                     <idno>http://137.204.128.125/people/3</idno>
-                    <link type="people" subtype="SonOf" corresp="http://137.204.128.125/people/8"/>
+                    <link type="people" subtype="SonOf" corresp="#http://137.204.128.125/people/8"/>
                     <note>Marchese di Tuscia, figlio di Uberto marchese di Tuscia</note>
                 </person>
                 
@@ -60,15 +60,16 @@
                 </person>
                 
                 <person>
-                    <persName>Ottone III</persName>
+                    <persName>Otto III (980-1002) imperator</persName>
                     <idno>http://137.204.128.125/people/7</idno>
                     <note>emperor</note>
                 </person>
                 
                 <person>
-                    <persName>Uberto marchese di Toscana</persName>
+                    <persName>Hubertus (922?-961) marchio Tusciae</persName>
                     <idno>http://137.204.128.125/people/8</idno>
-                    <link type="people" subtype="FatherOf" corresp="http://137.204.128.125/people/3"/>
+                    <link type="people" subtype="FatherOf"
+                        corresp="#http://137.204.128.125/people/3"/>
                     <note>Marchese di Toscana</note>
                 </person>
                 
