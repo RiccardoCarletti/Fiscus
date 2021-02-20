@@ -60,15 +60,17 @@
                 </place>
                 
                 <place>
-                    <geogName>Curtis of Luzzara</geogName>
+                    <geogName>Luzzara; curtis</geogName>
                     <idno>http://137.204.128.125/estates/38</idno>
                     <note></note>
                 </place>
                 
                 <place>
-                    <geogName>Curtis of Guastalla</geogName>
+                    <geogName>Guastalla; curtis</geogName>
                     <idno>http://137.204.128.125/estates/40</idno>
                     <note></note>
+                    <link type="juridical_persons"
+                        corresp="#http://137.204.128.125/juridical_persons/53"/>
                 </place>
                 
                 <place>
@@ -79,9 +81,11 @@
                 </place>
                 
                 <place>
-                    <geogName>Curtis of Pegognaga</geogName>
+                    <geogName>Pegognaga; curtis</geogName>
                     <idno>http://137.204.128.125/estates/42</idno>
                     <note></note>
+                    <link type="juridical_persons"
+                        corresp="#http://137.204.128.125/juridical_persons/53"/>
                 </place>
                 
                 <place>
@@ -144,11 +148,15 @@
                     <geogName>Cotrebbia; curtis</geogName>
                     <idno>http://137.204.128.125/estates/76</idno>
                     <note/>
+                    <link type="juridical_persons"
+                        corresp="#http://137.204.128.125/juridical_persons/53"/>
                 </place>
                 <place>
                     <geogName>Litora Paludiana; curtis</geogName>
                     <idno>http://137.204.128.125/estates/77</idno>
                     <note/>
+                    <link type="juridical_persons"
+                        corresp="#http://137.204.128.125/juridical_persons/53"/>
                 </place>
                 <place>
                     <geogName>Lucca; curtis</geogName>
@@ -163,6 +171,14 @@
                     <note/>
                     <link type="places" subtype="hasConnectionWith"
                         corresp="#http://137.204.128.125/places/66"/>
+                </place>
+                <place>
+                    <geogName>Villola; curtis</geogName>
+                    <idno>http://137.204.128.125/estates/80</idno>
+                    <note>Secondo il Tiraboschi, Dizionario, vol. II, p. 409, si trova nel
+                        Mantovano. Da notare che passa da Nonantola a S. Sisto.</note>
+                    <link type="juridical_persons"
+                        corresp="#http://137.204.128.125/juridical_persons/53"/>
                 </place>
                 
             </listPlace>
