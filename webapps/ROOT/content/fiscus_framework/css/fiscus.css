@@ -84,14 +84,12 @@
     
     body listPlace place geo:before {
         content: "Coordinates (Lat, Long): "
+        oxy_htmlContent(
+             content, "<span style='font:11px'>[<a href='https://www.latlong.net/'>Search</a>]</span>")
         oxy_editor(
            type, text,
            edit, "#text"
-           columns, 40)
-        /*oxy_browser(
-      href, 'https://www.latlong.net/',
-      width, 600px,
-      height, 600px)*/;
+           columns, 40);
            display:block;
            padding-left:20px;
     }
