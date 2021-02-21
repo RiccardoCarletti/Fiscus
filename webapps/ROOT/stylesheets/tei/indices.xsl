@@ -118,7 +118,7 @@
       <xsl:choose>
         <xsl:when test=".!='~'">
           <xsl:for-each select="tokenize(., ' ')">
-            <a target="_blank">
+            <a>
               <xsl:attribute name="href"><xsl:value-of select="."/></xsl:attribute>
               <xsl:text>See entry</xsl:text>
             </a>

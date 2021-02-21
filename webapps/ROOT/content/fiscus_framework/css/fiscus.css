@@ -17,7 +17,8 @@
         body listPlace place, body listPerson person, body listOrg org {
         display:block;
         margin-bottom: 3em;
-        background-color:rgb(245, 243, 221);
+        background-color:#E8E8E8;
+        border:5px solid rgb(153, 153, 143);
         }
         
         body listPlace[type="places"]:after {
@@ -51,23 +52,35 @@
            display:block;
     }
         
-           body listPlace place placeName:before, body listPlace place geogName:not([type="coord"]):before, body listOrg org orgName:before, body listPerson person persName:before {
-        content: "Name: "
-        oxy_editor(
-           type, text,
-           edit, "#text"
-           columns, 90);
-           display:block;
+          body listPlace place geo {
+          visibility: -oxy-collapse-text ;
     }
     
-    body listPlace place placeName[type="other"]:before {
-        content: "Also known as: "
-        oxy_editor(
-           type, text,
-           edit, "#text"
-           columns, 40);
-           display:block;
+     body listPlace place:before, body listOrg org:before, body listPerson person:before {
+         font-weight:bold;
+        content: "Item name";
+        display:block;
+        visibility: -oxy-collapse-text ;
+           padding-left:20px;
+          }
+           
+          
+    body listPlace place placeName, body listPlace place geogName:not([type="coord"]), body listOrg org orgName, body listPerson person persName {
+        border:2px solid rgb(153, 153, 143);
+        background-color: #fdfdfd;
+        margin:10px 20px 15px 20px;
+        display:block;
+        -oxy-placeholder-content: 'Standardized name';     
     }
+    
+    body listPlace place placeName[type="other"], body listPlace place geogName[type="other"], body listOrg org orgName[type="other"], body listPerson person persName[type="other"] {
+        border:2px solid rgb(153, 153, 143);
+        background-color: #fdfdfd;
+        margin:10px 20px 15px 20px;
+        display:block;
+        -oxy-placeholder-content: 'Also known as';
+    }    
+
     
     body listPlace place geo:before {
         content: "Coordinates (Lat, Long): "
@@ -80,6 +93,7 @@
       width, 600px,
       height, 600px)*/;
            display:block;
+           padding-left:20px;
     }
     
     body listPlace place idno:before, body listOrg org idno:before, body listPerson person idno:before {
@@ -89,6 +103,7 @@
            edit, "#text"
            columns, 30);
            display:block;
+           padding-left:20px;
     }    
 
          body listPlace place note, body listOrg org note, body listPerson person note {
@@ -96,16 +111,13 @@
         background-color: #fdfdfd;
         margin:10px 20px 15px 20px;
         display:block;
-        -oxy-placeholder-content: 'Commentary/Bibliography here';
+        -oxy-placeholder-content: 'Commentary/Bibliography';
     }
     
-    body listPlace place geo, body listPlace place placeName, body listPlace place geogName:not([type="coord"]), body listOrg org orgName, body listPerson person persName, body listPlace place placeName[type="other"], body listPlace place idno, body listOrg org idno, body listPerson person idno {
-          visibility: -oxy-collapse-text ;
-    }
     
     /* Links from people, places, juridical persons, estates to PLACES*/
     body listPerson person link[type="places"] {
-        content: "This item is linked to (place): "
+        content: "Linked to (place): "
         oxy_editor(
              type, popupSelection,
              edit, "@corresp",
@@ -122,10 +134,11 @@
              columns, 25,
              values, "isPartOf, isMadeOf, isInVicinityOf, hasInItsVicinity, isAdjacentTo, hasConnectionWith");
            display:block;
+           padding-left:20px;
     }
     
     body listPlace[type="estates"] place link[type="places"] {
-        content: "This item is linked to (place): "
+        content: "Linked to (place): "
         oxy_editor(
              type, popupSelection,
              edit, "@corresp",
@@ -142,10 +155,11 @@
              columns, 25,
              values, "isPartOf, isMadeOf, isInVicinityOf, hasInItsVicinity, isAdjacentTo, hasConnectionWith");
            display:block;
+           padding-left:20px;
     }
     
     body listPlace[type="places"] place link[type="places"] {
-        content: "This item is linked to (place): "
+        content: "Linked to (place): "
         oxy_editor(
              type, popupSelection,
              edit, "@corresp",
@@ -162,10 +176,11 @@
              columns, 25,
              values, "isPartOf, isMadeOf, isInVicinityOf, hasInItsVicinity, isAdjacentTo, hasConnectionWith");
            display:block;
+           padding-left:20px;
     }
     
     body listOrg org link[type="places"] {
-        content: "This item is linked to (place): "
+        content: "Linked to (place): "
         oxy_editor(
              type, popupSelection,
              edit, "@corresp",
@@ -182,11 +197,12 @@
              columns, 25,
              values, "isPartOf, isWithin, isAdjacentTo, hasConnectionWith");
            display:block;
+           padding-left:20px;
     }
       
           /* Links from people, places, juridical persons, estates to PEOPLE*/
      body listPlace place link[type="people"], body listOrg org link[type="people"] {
-        content: "This item is linked to (person): "
+        content: "Linked to (person): "
         oxy_editor(
              type, popupSelection,
              edit, "@corresp",
@@ -195,7 +211,7 @@
              values, oxy_concat("#", oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/people.xml'), '")//listPerson//person/idno, ",#")'))),
              labels, oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/people.xml'), '")//listPerson//person/persName, ",")' ))
              )
-             " Bond type: "
+             " Link type: "
              oxy_editor(
            type, combo,
            edit, "@subtype"
@@ -203,10 +219,11 @@
              columns, 25,
              values, "legallyRecognisedUnionWith, seriousIntimateRelationshipWith, casualIntimateRelationshipWith, intimateRelationshipWith, fatherOf, fatherInLawOf, motherOf, motherInLawOf, parentOf, fosterParentOf, sonOf, sonInLawOf, daughterOf, daughterInLawOf, childOf, grandfatherOf, grandmotherOf, grandparentOf, grandsonOf, granddaughterOf, grandchildOf, greatGrandfatherOf, greatGrandmotherOf, greatGrandparentOf, greatGrandsonOf, greatGranddaughterOf, brotherOf, brotherInLawOf, sisterOf, sisterInLawOf, siblingOf, auntOf, uncleOf, nephewOf, nieceOf, childOfSiblingOf, cousinOf, kinOf, ancestorOf, descendentOf, familyOf, extendedFamilyOf, hereditaryFamilyOf, householdOf, extendedHouseholdOf, patronOf, clientOf, masterOf, formerMasterOf, slaveOf, houseSlaveOf, formerSlaveOf, freedSlaveOf, freedmanOf, freedwomanOf, fellowFreedmanOf, godfatherOf, godmotherOf, godsonOf, goddaughterOf, compaterOf, commaterOf, nutritusOf, nutritorOf, benefactorOf, GratitudeTo, testamentaryLinkWith, legateeOf, heirTo, friendshipFor, allianceWith, enmityFor, dominusOf, seniorOf, vassusOf, gasindiusOf, fidelisOf, milesOf, homoOf, agentFor, professionalRelationship, link");
            display:block;
+           padding-left:20px;
     }
     
     body listPerson person link[type="people"] {
-        content: "This item is linked to (person): "
+        content: "Linked to (person): "
         oxy_editor(
              type, popupSelection,
              edit, "@corresp",
@@ -215,7 +232,7 @@
              values, oxy_concat("#", oxy_xpath(oxy_concat('string-join(//listPerson//person/idno, ",#")'))),
              labels, oxy_xpath(oxy_concat('string-join(//listPerson//person/persName, ",")' ))
              )
-             " Bond type: "
+             " Link type: "
              oxy_editor(
            type, combo,
            edit, "@subtype"
@@ -223,11 +240,12 @@
              columns, 25,
              values, "legallyRecognisedUnionWith, seriousIntimateRelationshipWith, casualIntimateRelationshipWith, intimateRelationshipWith, fatherOf, fatherInLawOf, motherOf, motherInLawOf, parentOf, fosterParentOf, sonOf, sonInLawOf, daughterOf, daughterInLawOf, childOf, grandfatherOf, grandmotherOf, grandparentOf, grandsonOf, granddaughterOf, grandchildOf, greatGrandfatherOf, greatGrandmotherOf, greatGrandparentOf, greatGrandsonOf, greatGranddaughterOf, brotherOf, brotherInLawOf, sisterOf, sisterInLawOf, siblingOf, auntOf, uncleOf, nephewOf, nieceOf, childOfSiblingOf, cousinOf, kinOf, ancestorOf, descendentOf, familyOf, extendedFamilyOf, hereditaryFamilyOf, householdOf, extendedHouseholdOf, patronOf, clientOf, masterOf, formerMasterOf, slaveOf, houseSlaveOf, formerSlaveOf, freedSlaveOf, freedmanOf, freedwomanOf, fellowFreedmanOf, godfatherOf, godmotherOf, godsonOf, goddaughterOf, compaterOf, commaterOf, nutritusOf, nutritorOf, benefactorOf, GratitudeTo, testamentaryLinkWith, legateeOf, heirTo, friendshipFor, allianceWith, enmityFor, dominusOf, seniorOf, vassusOf, gasindiusOf, fidelisOf, milesOf, homoOf, agentFor, professionalRelationship, link");
            display:block;
+           padding-left:20px;
     }
     
         /* Links from people, places, juridical persons, estates to JURIDICAL PERSONS*/
     body listPlace place link[type="juridical_persons"], body listPerson person link[type="juridical_persons"] {
-        content: "This item is linked to (juridical person): "
+        content: "Linked to (juridical person): "
         oxy_editor(
              type, popupSelection,
              edit, "@corresp",
@@ -236,7 +254,7 @@
              values, oxy_concat("#", oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/juridical_persons.xml'), '")//listOrg//org/idno, ",#")'))),
              labels, oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/juridical_persons.xml'), '")//listOrg//org/orgName, ",")' ))
              )
-             " Bond type: "
+             " Link type: "
              oxy_editor(
            type, combo,
            edit, "@subtype"
@@ -244,10 +262,11 @@
              columns, 25,
              values, "legallyRecognisedUnionWith, seriousIntimateRelationshipWith, casualIntimateRelationshipWith, intimateRelationshipWith, fatherOf, fatherInLawOf, motherOf, motherInLawOf, parentOf, fosterParentOf, sonOf, sonInLawOf, daughterOf, daughterInLawOf, childOf, grandfatherOf, grandmotherOf, grandparentOf, grandsonOf, granddaughterOf, grandchildOf, greatGrandfatherOf, greatGrandmotherOf, greatGrandparentOf, greatGrandsonOf, greatGranddaughterOf, brotherOf, brotherInLawOf, sisterOf, sisterInLawOf, siblingOf, auntOf, uncleOf, nephewOf, nieceOf, childOfSiblingOf, cousinOf, kinOf, ancestorOf, descendentOf, familyOf, extendedFamilyOf, hereditaryFamilyOf, householdOf, extendedHouseholdOf, patronOf, clientOf, masterOf, formerMasterOf, slaveOf, houseSlaveOf, formerSlaveOf, freedSlaveOf, freedmanOf, freedwomanOf, fellowFreedmanOf, godfatherOf, godmotherOf, godsonOf, goddaughterOf, compaterOf, commaterOf, nutritusOf, nutritorOf, benefactorOf, GratitudeTo, testamentaryLinkWith, legateeOf, heirTo, friendshipFor, allianceWith, enmityFor, dominusOf, seniorOf, vassusOf, gasindiusOf, fidelisOf, milesOf, homoOf, agentFor, professionalRelationship, link");
            display:block;
+           padding-left:20px;
     }
     
     body listOrg org link[type="juridical_persons"] {
-        content: "This item is linked to (juridical person): "
+        content: "Linked to (juridical person): "
         oxy_editor(
              type, popupSelection,
              edit, "@corresp",
@@ -256,7 +275,7 @@
              values, oxy_concat("#", oxy_xpath(oxy_concat('string-join(//listOrg//org/idno, ",#")'))),
              labels, oxy_xpath(oxy_concat('string-join(//listOrg//org/orgName, ",")' ))
              )
-             " Bond type: "
+             " Link type: "
              oxy_editor(
            type, combo,
            edit, "@subtype"
@@ -264,11 +283,12 @@
              columns, 25,
              values, "legallyRecognisedUnionWith, seriousIntimateRelationshipWith, casualIntimateRelationshipWith, intimateRelationshipWith, fatherOf, fatherInLawOf, motherOf, motherInLawOf, parentOf, fosterParentOf, sonOf, sonInLawOf, daughterOf, daughterInLawOf, childOf, grandfatherOf, grandmotherOf, grandparentOf, grandsonOf, granddaughterOf, grandchildOf, greatGrandfatherOf, greatGrandmotherOf, greatGrandparentOf, greatGrandsonOf, greatGranddaughterOf, brotherOf, brotherInLawOf, sisterOf, sisterInLawOf, siblingOf, auntOf, uncleOf, nephewOf, nieceOf, childOfSiblingOf, cousinOf, kinOf, ancestorOf, descendentOf, familyOf, extendedFamilyOf, hereditaryFamilyOf, householdOf, extendedHouseholdOf, patronOf, clientOf, masterOf, formerMasterOf, slaveOf, houseSlaveOf, formerSlaveOf, freedSlaveOf, freedmanOf, freedwomanOf, fellowFreedmanOf, godfatherOf, godmotherOf, godsonOf, goddaughterOf, compaterOf, commaterOf, nutritusOf, nutritorOf, benefactorOf, GratitudeTo, testamentaryLinkWith, legateeOf, heirTo, friendshipFor, allianceWith, enmityFor, dominusOf, seniorOf, vassusOf, gasindiusOf, fidelisOf, milesOf, homoOf, agentFor, professionalRelationship, link");
            display:block;
+           padding-left:20px;
     }
     
         /* Links from people, places, juridical persons, estates to ESTATES*/
     body listPlace[type="places"] place link[type="estates"], body listOrg org link[type="estates"], body listPerson person link[type="estates"] {
-        content: "This item is linked to (estate): "
+        content: "Linked to (estate): "
         oxy_editor(
              type, popupSelection,
              edit, "@corresp",
@@ -285,10 +305,11 @@
              columns, 25,
              values, "isPartOf, isMadeOf, isInVicinityOf, hasInItsVicinity, isAdjacentTo, hasConnectionWith");
            display:block;
+           padding-left:20px;
     }
     
     body listPlace[type="estates"] place link[type="estates"] {
-        content: "This item is linked to (estate): "
+        content: "Linked to (estate): "
         oxy_editor(
              type, popupSelection,
              edit, "@corresp",
@@ -305,6 +326,7 @@
              columns, 25,
              values, "isPartOf, isMadeOf, isInVicinityOf, hasInItsVicinity, isAdjacentTo, hasConnectionWith");
            display:block;
+           padding-left:20px;
     }
     
     
@@ -324,6 +346,7 @@
             type, button,
             actionID, "add_estate_link");
            display:block;
+           padding-left:20px;
     }
     
     encodingDesc category catDesc {
@@ -363,7 +386,7 @@
         display:block;
    }
     
-    foreign, div title, history title, note title {
+    foreign, div title, history title, note title, body listPlace title, body listPerson title, body listOrg title {
         display:inline;
         font-style: italic;
     }

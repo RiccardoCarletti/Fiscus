@@ -104,6 +104,31 @@
         <xsl:when test="@key!='' and not(self::tei:rs)"><xsl:value-of select="lower-case(translate(replace(@key, ' #', '; '), '#', ''))"/></xsl:when>
         <xsl:otherwise><xsl:text>~</xsl:text></xsl:otherwise>
       </xsl:choose>
+      <xsl:text>#</xsl:text>
+      <xsl:variable select="translate(ancestor::tei:placeName/@ref ,'#','')" name="ancestor_place"/>
+      <xsl:variable select="translate(ancestor::tei:persName/@ref ,'#','')" name="ancestor_person"/>
+      <xsl:variable select="translate(ancestor::tei:orgName/@ref ,'#','')" name="ancestor_org"/>
+      <xsl:variable select="translate(ancestor::tei:geogName/@ref ,'#','')" name="ancestor_geog"/>
+      <xsl:variable select="translate(descendant::tei:placeName/@ref,'#','')" name="descendant_place"/>
+      <xsl:variable select="translate(descendant::tei:persName/@ref,'#','')" name="descendant_person"/>
+      <xsl:variable select="translate(descendant::tei:orgName/@ref,'#','')" name="descendant_org"/>
+      <xsl:variable select="translate(descendant::tei:geogName/@ref,'#','')" name="descendant_geog"/>
+      <xsl:variable name="place_ancestor" select="document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/fiscus_framework/resources/places.xml'))//tei:listPlace/tei:place[tei:idno=$ancestor_place]/tei:placeName[1]"/>
+      <xsl:variable name="estate_ancestor" select="document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/fiscus_framework/resources/estates.xml'))//tei:listPlace/tei:place[tei:idno=$ancestor_geog]/tei:geogName[1]"/>
+      <xsl:variable name="person_ancestor" select="document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/fiscus_framework/resources/people.xml'))//tei:listPerson/tei:person[tei:idno=$ancestor_person]/tei:persName[1]"/>
+      <xsl:variable name="juridical_person_ancestor" select="document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/fiscus_framework/resources/juridical_persons.xml'))//tei:listOrg/tei:org[tei:idno=$ancestor_org]/tei:orgName[1]"/>
+      <xsl:variable name="place_descendant" select="document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/fiscus_framework/resources/places.xml'))//tei:listPlace/tei:place[tei:idno=$descendant_place]/tei:placeName[1]"/>
+      <xsl:variable name="estate_descendant" select="document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/fiscus_framework/resources/estates.xml'))//tei:listPlace/tei:place[tei:idno=$descendant_geog]/tei:geogName[1]"/>
+      <xsl:variable name="person_descendant" select="document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/fiscus_framework/resources/people.xml'))//tei:listPerson/tei:person[tei:idno=$descendant_person]/tei:persName[1]"/>
+      <xsl:variable name="juridical_person_descendant" select="document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/fiscus_framework/resources/juridical_persons.xml'))//tei:listOrg/tei:org[tei:idno=$descendant_org]/tei:orgName[1]"/>
+      <xsl:if test="ancestor::tei:persName[@ref]"><xsl:text> </xsl:text><xsl:value-of select="$person_ancestor"/></xsl:if>
+      <xsl:if test="ancestor::tei:placeName[@ref]"><xsl:text> </xsl:text><xsl:value-of select="$place_ancestor"/></xsl:if>
+      <xsl:if test="ancestor::tei:orgName[@ref]"><xsl:text> </xsl:text><xsl:value-of select="$juridical_person_ancestor"/></xsl:if>
+      <xsl:if test="ancestor::tei:geogName[@ref]"><xsl:text> </xsl:text><xsl:value-of select="$estate_ancestor"/></xsl:if>
+      <xsl:if test="descendant::tei:persName[@ref]"><xsl:text> </xsl:text><xsl:value-of select="$person_descendant"/></xsl:if>
+      <xsl:if test="descendant::tei:placeName[@ref]"><xsl:text> </xsl:text><xsl:value-of select="$place_descendant"/></xsl:if>
+      <xsl:if test="descendant::tei:orgName[@ref]"><xsl:text> </xsl:text><xsl:value-of select="$juridical_person_descendant"/></xsl:if>
+      <xsl:if test="descendant::tei:geogName[@ref]"><xsl:text> </xsl:text><xsl:value-of select="$estate_descendant"/></xsl:if>
     </field>
   </xsl:template>
 

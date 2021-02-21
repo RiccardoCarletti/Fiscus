@@ -45,6 +45,7 @@
         <span class="index-instance-file"><xsl:value-of select="substring-after($location_parts[2], 'doc')" /></span>
         <span class="index-instance-file-date"><xsl:text> [</xsl:text><xsl:value-of select="replace($location_parts[6], '–', ' – ')"/><xsl:text>]</xsl:text></span>
         <xsl:if test="$location_parts[7]!='~'"><span class="index-instance-file-keys"><xsl:text>: </xsl:text><xsl:value-of select="$location_parts[7]" /></span></xsl:if>
+       <!-- <xsl:if test="$location_parts[8]!=''"><span class="index-instance-file-links"><xsl:text> [Linked to:</xsl:text><xsl:value-of select="$location_parts[8]" /><xsl:text>]</xsl:text></span></xsl:if>-->
       </a>
     </li>
     <br/>
