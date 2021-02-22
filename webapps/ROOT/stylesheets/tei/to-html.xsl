@@ -144,16 +144,40 @@
     <div class="row">
       <div id="mapid" class="map"></div>
       <script>
-        var mymap = L.map('mapid').setView([44, 10.335], 6.5); L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoiaXZhZ2lvbmFraXMiLCJhIjoiY2treTVmZnhyMDBzdTJ2bWxyemY4anJtNSJ9.QrP-0v-7btCzG97ll23HKw', {
-        maxZoom: 18,
-        attribution: 'Map data <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, ' +
-        'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-        id: 'mapbox/streets-v11',
-        tileSize: 512,
-        zoomOffset: -1
-        }).addTo(mymap);
+        var streets = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoiaXZhZ2lvbmFraXMiLCJhIjoiY2treTVmZnhyMDBzdTJ2bWxyemY4anJtNSJ9.QrP-0v-7btCzG97ll23HKw', {
+        id: 'mapbox/streets-v11', 
+        tileSize: 512, 
+        zoomOffset: -1, 
+        attribution: 'Map data <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors,  Imagery © <a href="https://www.mapbox.com/">Mapbox</a>'
+        });
         
-     var LeafIcon = L.Icon.extend({
+        var grayscale = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoiaXZhZ2lvbmFraXMiLCJhIjoiY2treTVmZnhyMDBzdTJ2bWxyemY4anJtNSJ9.QrP-0v-7btCzG97ll23HKw', {
+        id: 'mapbox/light-v10', 
+        tileSize: 512, 
+        zoomOffset: -1, 
+        attribution: 'Map data <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors,  Imagery © <a href="https://www.mapbox.com/">Mapbox</a>'
+        });
+        
+        var satellite = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoiaXZhZ2lvbmFraXMiLCJhIjoiY2treTVmZnhyMDBzdTJ2bWxyemY4anJtNSJ9.QrP-0v-7btCzG97ll23HKw', {
+        id: 'mapbox/satellite-streets-v11', 
+        tileSize: 512, 
+        zoomOffset: -1, 
+        attribution: 'Map data <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors,  Imagery © <a href="https://www.mapbox.com/">Mapbox</a>'
+        });
+        
+        var dare = L.tileLayer('https://dh.gu.se/tiles/imperium/{z}/{x}/{y}.png', {
+        tileSize: 512, 
+        zoomOffset: -1, 
+        attribution: 'Map data <a href="https://imperium.ahlfeldt.se/">Digital Atlas of the Roman Empire</a> CC BY 4.0'
+        });
+        
+        var mymap = L.map('mapid', {
+        center: [44, 10.335],
+        zoom: 6.5,
+        layers: [streets, grayscale, satellite]
+        });
+        
+        var LeafIcon = L.Icon.extend({
         options: {iconSize: [15, 15]}
         });
         var blueIcon = new LeafIcon({iconUrl: '../../../assets/images/blue.png'}),
@@ -161,32 +185,58 @@
         redIcon = new LeafIcon({iconUrl: '../../../assets/images/red.png'}),
         greenredIcon = new LeafIcon({iconUrl: '../../../assets/images/green-red.png'}); 
         
+        
+        
+        
+        
+        
+        
         const points = <xsl:value-of select="$map_points"/>;
         const polygons = <xsl:value-of select="$map_polygons"/>;
         
         for (const [key, value] of Object.entries(points)) {
-        L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: blueIcon}).addTo(mymap).bindPopup(key);
+        var place = L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: blueIcon}).addTo(mymap).bindPopup(key);
         }
         
-        L.marker([43.726686, 10.397634], {icon: greenIcon}).addTo(mymap).bindPopup("Pisa");
-        L.marker([43.83489826128234, 10.41731986217201], {icon: greenIcon}).addTo(mymap).bindPopup("Nozzano (Lucca)");
-        L.marker([44.64722337052603, 10.843892097473146], {icon: greenIcon}).addTo(mymap).bindPopup("Cittanova (Modena)");
+        var blue_places = L.layerGroup([place]);
         
-        L.marker([43.84368925703925, 10.50121307373047], {icon: greenredIcon}).addTo(mymap).bindPopup("Lucca");
-        L.marker([43.839336483090854, 10.446958271786572], {icon: greenredIcon}).addTo(mymap).bindPopup("Flexo (Montuolo; Lucca)");
-        L.marker([45.53956, 10.22676], {icon: greenredIcon}).addTo(mymap).bindPopup("Brescia");
-        L.marker([45.05240425535817, 9.693280756473543], {icon: greenredIcon}).addTo(mymap).bindPopup("Piacenza");
-        L.marker([45.222008, 8.506020], {icon: greenredIcon}).addTo(mymap).bindPopup("Caresana (Vercelli)");
+        var pisa = L.marker([43.726686, 10.397634], {icon: greenIcon}).addTo(mymap).bindPopup("Pisa"),
+        nozzano = L.marker([43.83489826128234, 10.41731986217201], {icon: greenIcon}).addTo(mymap).bindPopup("Nozzano (Lucca)"),
+        cittanova = L.marker([44.64722337052603, 10.843892097473146], {icon: greenIcon}).addTo(mymap).bindPopup("Cittanova (Modena)");
         
-        L.marker([43.700940, 10.690000], {icon: redIcon}).addTo(mymap).bindPopup("Santa Maria a Monte (Pisa)");
-        L.marker([43.887021, 10.520043], {icon: redIcon}).addTo(mymap).bindPopup("Vico Strata (San Lorenzo di Moriano; Lucca)");
-        L.marker([44.84143, 9.98257], {icon: redIcon}).addTo(mymap).bindPopup("San Nicomede (Parma)");
-        L.marker([44.66831404365939, 9.665308836847544], {icon: redIcon}).addTo(mymap).bindPopup("Boccolo dei Tassi (Parma)");
-        L.marker([44.677747331712865, 11.043420284986498], {icon: redIcon}).addTo(mymap).bindPopup("Nonantola (Modena)");
+        var green_places = L.layerGroup([pisa, nozzano, cittanova]);
         
-        <!-- green: estates
-           red: juridical persons
-         -->
+        var lucca = L.marker([43.84368925703925, 10.50121307373047], {icon: greenredIcon}).addTo(mymap).bindPopup("Lucca"),
+        flexo = L.marker([43.839336483090854, 10.446958271786572], {icon: greenredIcon}).addTo(mymap).bindPopup("Flexo (Montuolo; Lucca)"),
+        brescia = L.marker([45.53956, 10.22676], {icon: greenredIcon}).addTo(mymap).bindPopup("Brescia"),
+        piacenza = L.marker([45.05240425535817, 9.693280756473543], {icon: greenredIcon}).addTo(mymap).bindPopup("Piacenza"),
+        caresana = L.marker([45.222008, 8.506020], {icon: greenredIcon}).addTo(mymap).bindPopup("Caresana (Vercelli)");
+        
+        var greenred_places = L.layerGroup([lucca, flexo, brescia, piacenza, caresana]);
+        
+        var smmonte = L.marker([43.700940, 10.690000], {icon: redIcon}).addTo(mymap).bindPopup("Santa Maria a Monte (Pisa)"),
+        slmoriano = L.marker([43.887021, 10.520043], {icon: redIcon}).addTo(mymap).bindPopup("Vico Strata (San Lorenzo di Moriano; Lucca)"),
+        snicomede = L.marker([44.84143, 9.98257], {icon: redIcon}).addTo(mymap).bindPopup("San Nicomede (Parma)"),
+        boccolo = L.marker([44.66831404365939, 9.665308836847544], {icon: redIcon}).addTo(mymap).bindPopup("Boccolo dei Tassi (Parma)"),
+        nonantola = L.marker([44.677747331712865, 11.043420284986498], {icon: redIcon}).addTo(mymap).bindPopup("Nonantola (Modena)");
+        
+        var red_places = L.layerGroup([smmonte, slmoriano, snicomede, boccolo, nonantola]);
+        
+        
+        
+        var baseMaps = {
+        "DARE": dare,
+        "Grayscale": grayscale,
+        "Satellite": satellite,
+        "Streets": streets
+        };
+        var overlayMaps = {
+        "Places linked to estates": green_places,
+        "Places linked to juridical persons": red_places,
+        "Places linked to estates and juridical persons": greenred_places,
+        "Places not linked to estates/juridical persons": blue_places
+        };
+        L.control.layers(baseMaps, overlayMaps).addTo(mymap);
         
         <!--for (const [key, value] of Object.entries(polygons)) {
         L.polygon([value.split(';')<!-\-value.replaceAll(";", ",")-\->]).addTo(mymap).bindPopup(key);
