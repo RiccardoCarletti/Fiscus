@@ -51,7 +51,7 @@
     </add>-->
     
       <add>
-        <xsl:for-each-group select="//tei:rs[ancestor::tei:div/@type='edition']" group-by="lower-case(concat(@key, '-', .))"> <!-- ancestor::tei:TEI/tei:teiHeader//tei:origDate, '-',  -->
+        <xsl:for-each-group select="//tei:rs[ancestor::tei:div/@type='edition']" group-by="lower-case(concat(@key, '-', .))">
         <doc>
           <field name="document_type">
             <xsl:value-of select="$subdirectory" />
@@ -63,10 +63,10 @@
           <field name="index_item_name">
             <xsl:choose>
               <xsl:when test="starts-with(@key, '#')">
-                <xsl:value-of select="lower-case(replace(substring(@key, 2), ' #', '; '))" />
+                <xsl:value-of select="lower-case(replace(substring(translate(@key, '_', ' '), 2), ' #', '; '))" />
               </xsl:when>
               <xsl:otherwise>
-                <xsl:value-of select="lower-case(replace(@key, ' #', '; '))" />
+                <xsl:value-of select="lower-case(replace(translate(@key, '_', ' '), ' #', '; '))" />
               </xsl:otherwise>
             </xsl:choose>
           </field>

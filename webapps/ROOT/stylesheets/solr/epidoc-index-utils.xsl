@@ -101,7 +101,7 @@
       </xsl:choose>
       <xsl:text>#</xsl:text>
       <xsl:choose>
-        <xsl:when test="@key!='' and not(self::tei:rs)"><xsl:value-of select="lower-case(translate(replace(@key, ' #', '; '), '#', ''))"/></xsl:when>
+        <xsl:when test="@key!='' and not(self::tei:rs)"><xsl:value-of select="lower-case(translate(replace(translate(@key, '_', ' '), ' #', '; '), '#', ''))"/></xsl:when>
         <xsl:otherwise><xsl:text>~</xsl:text></xsl:otherwise>
       </xsl:choose>
       <xsl:text>#</xsl:text>
