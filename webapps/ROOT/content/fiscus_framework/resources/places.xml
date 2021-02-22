@@ -18,7 +18,7 @@
         <body>
             <listPlace type="places"> 
                 <place>
-                   <placeName>Ilice (Pieve a Elici; Lucca)</placeName>
+                   <placeName><foreign>Ilice</foreign> (Pieve a Elici; Lucca)</placeName>
                     <geogName type="coord"><geo>43.885173623043144, 10.335706471960295</geo></geogName>
                     <idno>http://137.204.128.125/places/1</idno>
                     <note></note>
@@ -30,7 +30,7 @@
                     <note></note>
                 </place>
                 <place>
-                    <placeName>Caresana</placeName>
+                    <placeName>Caresana (Vercelli)</placeName>
                     <geogName type="coord"><geo>45.222008, 8.506020</geo></geogName>
                     <idno>http://137.204.128.125/places/3</idno>
                     <note></note>
@@ -49,7 +49,7 @@
                 </place>
                 <place>
                     <placeName>Montereggio (Piacenza)</placeName>
-                    <placeName type="other">Monte regio</placeName>
+                    <placeName type="other"><foreign>Monte regio</foreign></placeName>
                     <geogName type="coord"><geo>44.653024159812, 9.60308074951172</geo></geogName>
                     <idno>http://137.204.128.125/places/6</idno>
                     <note></note>
@@ -79,10 +79,10 @@
                     <note></note>
                 </place>
                 <place>
-                    <placeName>(Sesto al Reghena; Pordenone)</placeName>
+                    <placeName>Sesto al Reghena (Pordenone)</placeName>
                     <geogName type="coord"><geo>45.848337832045104, 12.815530702537218</geo></geogName>
                     <idno>http://137.204.128.125/places/11</idno>
-                    <note></note>
+                    <note>Da collegare a S. Andrea di Sesto (juridical person?)</note>
                 </place>
                 <place>
                     <placeName>Cividale del Friuli (Udine)</placeName>
@@ -104,40 +104,46 @@
                 </place>
                 <place>
                     <placeName>Nonantola (Modena)</placeName>
-                    <placeName type="other">Nonantula</placeName>
+                    <placeName type="other"><foreign>Nonantula</foreign></placeName>
                     <geogName type="coord"><geo>44.677747331712865, 11.043420284986498</geo></geogName>
                     <idno>http://137.204.128.125/places/15</idno>
                     <note></note>
+                    <link type="people" corresp="#http://137.204.128.125/people/49" subtype="link"/>
+                    <link type="juridical_persons"
+                        corresp="#http://137.204.128.125/juridical_persons/47"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/48" subtype="link"/>
                 </place>
                 <place>
-                    <placeName>Olubra (Castel San Giovanni; Piacenza)</placeName>
+                    <placeName><foreign>Olubra</foreign> (Castel San Giovanni; Piacenza)</placeName>
                     <geogName type="coord"><geo>45.060146181134385, 9.437843263149263</geo></geogName>
                     <idno>http://137.204.128.125/places/16</idno>
                     <note></note>
                 </place>
                 <place>
-                    <placeName>Orba (Frugarolo; Alessandria)</placeName>
+                    <placeName><foreign>Orba</foreign> (Frugarolo; Alessandria)</placeName>
                     <geogName type="coord"><geo>44.831543726908244, 8.644868200644853</geo></geogName>
                     <idno>http://137.204.128.125/places/17</idno>
-                    <note>Odierna cascina La Torre tra Frugarolo e Casal Cermelli; Caput curtis della curtis di Orba</note>
+                    <note>Odierna cascina La Torre tra Frugarolo e Casal Cermelli; <foreign>caput
+                            curtis</foreign> della <foreign>curtis</foreign> di Orba</note>
                 </place>
                 <place>
                     <placeName>Marengo (Alessandria)</placeName>
                     <geogName type="coord"><geo>44.893879440219706, 8.666680678725244</geo></geogName>
                     <idno>http://137.204.128.125/places/18</idno>
-                    <note>Probabile Caput Curtis della curtis di Marengo</note>
+                    <note>Probabile <foreign>caput curtis</foreign> della <foreign>curtis</foreign>
+                        di Marengo</note>
                 </place>
                 <place>
-                    <placeName>Biverone (San Stino di Livenza; Venezia)</placeName>
+                    <placeName>Biverone (Venezia)</placeName>
                     <geogName type="coord"><geo>45.69372, 12.71281</geo></geogName>
                     <idno>http://137.204.128.125/places/19</idno>
-                    <note></note>
+                    <note>Frazione di San Stino di Livenza</note>
                 </place>
                 <place>
-                    <placeName>Auriola (Trino; Vercelli)</placeName>
+                    <placeName><foreign>Auriola</foreign> (Trino; Vercelli)</placeName>
                     <geogName type="coord"><geo>45.22217726183735, 8.292337507009508</geo></geogName>
                     <idno>http://137.204.128.125/places/20</idno>
-                    <note>Caput curtis compreso tra Trino e Tricerro</note>
+                    <note><foreign>Caput curtis</foreign> compreso tra Trino e Tricerro</note>
                 </place>
                 <place>
                     <placeName>Nozzano (Lucca)</placeName>
@@ -146,17 +152,18 @@
                     <note></note>
                 </place>
                 <place>
-                    <placeName>Flexo (Montuolo; Lucca)</placeName>
+                    <placeName><foreign>Flexo</foreign> (Montuolo; Lucca)</placeName>
                     <geogName type="coord"><geo>43.839336483090854, 10.446958271786572</geo></geogName>
                     <idno>http://137.204.128.125/places/22</idno>
-                    <note>Microtoponomastica: Dardatico, terra Freiorese, Supto Ripa, Vinea
-                        Berte.</note>
+                    <note>Microtoponomastica: <foreign>Dardatico</foreign>; <foreign>terra
+                            Freiorese</foreign>; <foreign>Supto Ripa</foreign>; <foreign>Vinea
+                            Berte</foreign></note>
                 </place>
                 <place>
-                    <placeName>Catiana (Castelfranco di Sotto; Pisa)</placeName>
+                    <placeName><foreign>Catiana</foreign> (Castelfranco di Sotto; Pisa)</placeName>
                     <geogName type="coord"><geo>43.698990, 10.742420</geo></geogName>
                     <idno>http://137.204.128.125/places/23</idno>
-                    <note>Microtoponomastica: Curte Regine.</note>
+                    <note>Microtoponomastica: <foreign>Curte Regine</foreign></note>
                 </place>
                 <place>
                     <placeName>Massarosa (Lucca)</placeName>
@@ -173,19 +180,20 @@
                 </place>
                 <place>
                     <placeName>Timoline (Brescia)</placeName>
-                    <placeName type="other">Temulina</placeName>
+                    <placeName type="other"><foreign>Temulina</foreign></placeName>
                     <geogName type="coord"><geo>45.64322, 9.99241</geo></geogName>
                     <idno>http://137.204.128.125/places/26</idno>
                     <note>frazione di Corte Franca</note>
                 </place>
                 <place>
-                    <placeName>Timoline</placeName>
-                    <geogName type="coord"><geo>45.64322, 9.99241</geo></geogName>
+                    <geogName>DA USARE</geogName>
+                    <geogName type="coord"><geo/></geogName>
                     <idno>http://137.204.128.125/places/27</idno>
                     <note></note>
                 </place>
                 <place>
-                    <placeName> Canellas (Erbusco; Brescia)</placeName>
+                    <placeName>
+                        <foreign>Canellas</foreign> (Erbusco; Brescia)</placeName>
                     <placeName type="other">Canelle Secco</placeName>
                     <geogName type="coord"><geo>45.599, 9.97193</geo></geogName>
                     <idno>http://137.204.128.125/places/28</idno>
@@ -193,7 +201,8 @@
                 </place>
                 <place>
                     <placeName>San Nicomede (Parma)</placeName>
-                    <placeName type="other">Fontanabroculi (loco et fundo)</placeName>
+                    <placeName type="other"><foreign>loco et fundo
+                        Fontanabroculi</foreign></placeName>
                     <geogName type="coord"><geo>44.84143, 9.98257</geo></geogName>
                     <idno>http://137.204.128.125/places/29</idno>
                     <note>Frazione di Salsomaggiore Terme</note>
@@ -241,7 +250,7 @@
                     <note>Microtoponomastica: Casalino.</note>
                 </place>
                 <place>
-                    <placeName>Vinea Regis (Saltocchio; Lucca)</placeName>
+                    <placeName><foreign>Vinea Regis</foreign> (Saltocchio; Lucca)</placeName>
                     <geogName type="coord"><geo>43.901742279092616, 10.538293942809105</geo></geogName>
                     <idno>http://137.204.128.125/places/37</idno>
                     <note>Microtoponimo entro la frazione di Saltocchio</note>
@@ -253,17 +262,19 @@
                     <note></note>
                 </place>
                 <place>
-                    <placeName>Sacco (Piove di Sacco; Padova)</placeName>
+                    <placeName><foreign>Sacco</foreign> (Piove di Sacco; Padova)</placeName>
                     <geogName type="coord"><geo>45.308989873094525, 12.073837271891536</geo></geogName>
                     <idno>http://137.204.128.125/places/39</idno>
-                    <note></note>
+                    <note>Attuale Corte (frazione di Piove di Sacco)</note>
                 </place>
                 <place>
                     <placeName>Cittanova (Modena)</placeName>
-                    <placeName type="other">Cive Nova</placeName>
+                    <placeName type="other"><foreign>Cive Nova</foreign></placeName>
                     <geogName type="coord"><geo>44.64722337052603, 10.843892097473146</geo></geogName>
                     <idno>http://137.204.128.125/places/40</idno>
                     <note></note>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/50"
+                        subtype="isMadeOf"/>
                 </place>
                 <place>
                     <placeName>Padova</placeName>
@@ -297,7 +308,7 @@
                 </place>
                 <place>
                     <placeName>Pordenone</placeName>
-                    <placeName type="other">Naones</placeName>
+                    <placeName type="other"><foreign>Naones</foreign></placeName>
                     <geogName type="coord"><geo>45.95758532919401, 12.659462414649171</geo></geogName>
                     <idno>http://137.204.128.125/places/46</idno>
                     <note></note>
@@ -316,21 +327,21 @@
                 </place>
                 <place>
                     <placeName>Foglizzo (Torino)</placeName>
-                    <placeName type="other">Fulgitio</placeName>
+                    <placeName type="other"><foreign>Fulgitio</foreign></placeName>
                     <geogName type="coord"><geo>45.27361048143624, 7.820867355912925</geo></geogName>
                     <idno>http://137.204.128.125/places/49</idno>
                     <note></note>
                 </place>
                 <place>
                     <placeName>Biella</placeName>
-                    <placeName type="other">Bugella</placeName>
+                    <placeName type="other"><foreign>Bugella</foreign></placeName>
                     <geogName type="coord"><geo>45.563042358229524, 8.057964323088527</geo></geogName>
                     <idno>http://137.204.128.125/places/50</idno>
                     <note></note>
                 </place>
                 <place>
                     <placeName>Sostegno (Biella)</placeName>
-                    <placeName type="other">Sestinium</placeName>
+                    <placeName type="other"><foreign>Sestinium</foreign></placeName>
                     <geogName type="coord"><geo>45.65244828675087, 8.270537853240969</geo></geogName>
                     <idno>http://137.204.128.125/places/51</idno>
                     <note></note>
@@ -349,13 +360,14 @@
                 </place>
                 <place>
                     <placeName>Domodossola (Verbano-Cusio-Ossola)</placeName>
-                    <placeName type="other">Oxila</placeName>
+                    <placeName type="other"><foreign>Oxila</foreign></placeName>
                     <geogName type="coord"><geo>46.116498450522876, 8.293138760964213</geo></geogName>
                     <idno>http://137.204.128.125/places/54</idno>
                     <note></note>
                 </place>
                 <place>
-                    <placeName>Beura (Beura-cardezza; Verbano-Cusio-Ossola)</placeName>
+                    <placeName><foreign>Beura</foreign> (Beura-cardezza;
+                        Verbano-Cusio-Ossola)</placeName>
                     <geogName type="coord"><geo>46.07957, 8.29973</geo></geogName>
                     <idno>http://137.204.128.125/places/55</idno>
                     <note></note>
@@ -368,7 +380,7 @@
                 </place>
                 <place>
                     <placeName>Cadeo (Piacenza)</placeName>
-                    <placeName type="other">Casa Dei</placeName>
+                    <placeName type="other"><foreign>Casa Dei</foreign></placeName>
                     <geogName type="coord">
                         <geo>44.974590, 9.831090</geo>
                     </geogName>
@@ -401,16 +413,19 @@
                     <note/>
                 </place>
                 <place>
-                    <placeName>Vico Strata (San Lorenzo di Moriano; Lucca)</placeName>
-                    <placeName type="other">Secturia</placeName>
+                    <placeName><foreign>Vico Strata</foreign> (San Lorenzo di Moriano;
+                        Lucca)</placeName>
+                    <placeName type="other"><foreign>Secturia</foreign></placeName>
                     <geogName type="coord"><geo>43.887021, 10.520043</geo></geogName>
                     <idno>http://137.204.128.125/places/61</idno>
-                    <note>Tomei 2019a, pp. 235-236, 242, 280. Microtoponomastica: Sala,
-                        Marchisciana, Waturaticha. </note>
+                    <note>Tomei 2019a (pp. 235-236, 242, 280). Microtoponomastica:
+                            <foreign>Sala</foreign>; <foreign>Marchisciana</foreign>;
+                            <foreign>Waturaticha</foreign>. </note>
                 </place>
                 <place>
-                    <placeName>Bibbiano (Ponticelli di Santa Maria a Monte; Pisa)</placeName>
-                    <placeName type="other">Bibbia</placeName>
+                    <placeName><foreign>Bibbiano</foreign> (Ponticelli di Santa Maria a Monte;
+                        Pisa)</placeName>
+                    <placeName type="other"><foreign>Bibbia</foreign></placeName>
                     <geogName type="coord"><geo>43.689246, 10.714330</geo></geogName>
                     <idno>http://137.204.128.125/places/62</idno>
                     <note/>
@@ -427,16 +442,18 @@
                         subtype="isInVicinityOf"/>
                 </place>
                 <place>
-                    <placeName>Vico Asulari (San Pietro a Vico; Lucca)</placeName>
+                    <placeName><foreign>Vico Asulari</foreign> (San Pietro a Vico;
+                        Lucca)</placeName>
                     <placeName type="other"/>
                     <geogName type="coord"><geo>43.868881, 10.538127</geo></geogName>
                     <idno>http://137.204.128.125/places/64</idno>
-                    <note>Microtoponomastica: Campus Regis, Vinea Moringhi, Ysula, terra Berithinga,
-                        terra Cottianese.</note>
+                    <note>Microtoponomastica: <foreign>Campus Regis</foreign>; <foreign>Vinea
+                            Moringhi</foreign>; <foreign>Ysula</foreign>; <foreign>terra
+                            Berithinga</foreign>; <foreign>terra Cottianese</foreign>.</note>
                 </place>
                 <place>
                     <placeName>Pavia</placeName>
-                    <placeName type="other">Ticinum</placeName>
+                    <placeName type="other"><foreign>Ticinum</foreign></placeName>
                     <geogName type="coord"><geo>45.184457, 9.158511</geo></geogName>
                     <idno>http://137.204.128.125/places/65</idno>
                     <note/>
