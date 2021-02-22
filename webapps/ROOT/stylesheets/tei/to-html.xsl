@@ -153,30 +153,44 @@
         zoomOffset: -1
         }).addTo(mymap);
         
+     var LeafIcon = L.Icon.extend({
+        options: {iconSize: [15, 15]}
+        });
+        var blueIcon = new LeafIcon({iconUrl: '../../../assets/images/blue.png'}),
+        greenIcon = new LeafIcon({iconUrl: '../../../assets/images/green.png'}),
+        redIcon = new LeafIcon({iconUrl: '../../../assets/images/red.png'}),
+        greenredIcon = new LeafIcon({iconUrl: '../../../assets/images/green-red.png'}); 
+        
         const points = <xsl:value-of select="$map_points"/>;
         const polygons = <xsl:value-of select="$map_polygons"/>;
         
         for (const [key, value] of Object.entries(points)) {
-        L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)]).addTo(mymap).bindPopup(key);
+        L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: blueIcon}).addTo(mymap).bindPopup(key);
         }
+        
+        L.marker([43.726686, 10.397634], {icon: greenIcon}).addTo(mymap).bindPopup("Pisa");
+        L.marker([43.83489826128234, 10.41731986217201], {icon: greenIcon}).addTo(mymap).bindPopup("Nozzano (Lucca)");
+        L.marker([44.64722337052603, 10.843892097473146], {icon: greenIcon}).addTo(mymap).bindPopup("Cittanova (Modena)");
+        
+        L.marker([43.84368925703925, 10.50121307373047], {icon: greenredIcon}).addTo(mymap).bindPopup("Lucca");
+        L.marker([43.839336483090854, 10.446958271786572], {icon: greenredIcon}).addTo(mymap).bindPopup("Flexo (Montuolo; Lucca)");
+        L.marker([45.53956, 10.22676], {icon: greenredIcon}).addTo(mymap).bindPopup("Brescia");
+        L.marker([45.05240425535817, 9.693280756473543], {icon: greenredIcon}).addTo(mymap).bindPopup("Piacenza");
+        L.marker([45.222008, 8.506020], {icon: greenredIcon}).addTo(mymap).bindPopup("Caresana (Vercelli)");
+        
+        L.marker([43.700940, 10.690000], {icon: redIcon}).addTo(mymap).bindPopup("Santa Maria a Monte (Pisa)");
+        L.marker([43.887021, 10.520043], {icon: redIcon}).addTo(mymap).bindPopup("Vico Strata (San Lorenzo di Moriano; Lucca)");
+        L.marker([44.84143, 9.98257], {icon: redIcon}).addTo(mymap).bindPopup("San Nicomede (Parma)");
+        L.marker([44.66831404365939, 9.665308836847544], {icon: redIcon}).addTo(mymap).bindPopup("Boccolo dei Tassi (Parma)");
+        L.marker([44.677747331712865, 11.043420284986498], {icon: redIcon}).addTo(mymap).bindPopup("Nonantola (Modena)");
+        
+        <!-- green: estates
+           red: juridical persons
+         -->
         
         <!--for (const [key, value] of Object.entries(polygons)) {
         L.polygon([value.split(';')<!-\-value.replaceAll(";", ",")-\->]).addTo(mymap).bindPopup(key);
         }-->
-        
-        <!--var LeafIcon = L.Icon.extend({
-        options: {
-        iconSize:     [38, 95],
-        iconAnchor:   [22, 94],
-        popupAnchor:  [-3, -76]
-        }
-        });
-        
-        greenIcon = new LeafIcon({iconUrl: 'green.png'}),
-        redIcon = new LeafIcon({iconUrl: 'red.png'}),
-        blueIcon = new LeafIcon({iconUrl: 'blue.png'});
-        -->
-        
         L.polygon([
         [45.21625206214063,8.293893188238146],
         [45.22292799339423,8.286163732409479],
@@ -185,7 +199,7 @@
         [45.2354063021579,8.319860994815828],
         [45.218978453364016,8.306558579206468],
         [45.21625206214063,8.293893188238146]
-        ], {color: 'red'}).addTo(mymap).bindPopup("Predalbora (Farini; Piacenza)");
+        ], {color: 'blue'}).addTo(mymap).bindPopup("Predalbora (Farini; Piacenza)");
         
         <!-- L.marker([43, 11]).addTo(mymap).bindPopup("Nome luogo"); -->
         <!--L.circle([43.885, 10.335], {
