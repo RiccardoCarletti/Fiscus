@@ -125,7 +125,7 @@
     <xsl:variable name="imported_text" select="document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/fiscus_framework/resources/places.xml'))//tei:listPlace"/>
     <xsl:variable name="map_points">
       <xsl:text>{</xsl:text><xsl:for-each select="$imported_text/tei:place[descendant::tei:geo/text()]">
-        <xsl:text>"</xsl:text><xsl:value-of select="translate(tei:placeName[1], ',', '; ')"/><xsl:text>": "</xsl:text><xsl:choose>
+        <xsl:text>"</xsl:text><xsl:value-of select="normalize-space(translate(tei:placeName[1], ',', '; '))"/><xsl:text>": "</xsl:text><xsl:choose>
           <xsl:when test="contains(tei:geogName/tei:geo, ';')"><xsl:value-of select="substring-before(tei:geogName/tei:geo, ';')"/></xsl:when>
           <xsl:otherwise><xsl:value-of select="tei:geogName/tei:geo"/></xsl:otherwise>
         </xsl:choose><xsl:text>"</xsl:text><xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if></xsl:for-each><xsl:text>}</xsl:text>
@@ -133,7 +133,7 @@
     <xsl:variable name="map_polygons">
       <xsl:text>{</xsl:text>
       <xsl:for-each select="$imported_text/tei:place[contains(descendant::tei:geo, ';')][descendant::tei:geo/text()]">
-        <xsl:text>"</xsl:text><xsl:value-of select="translate(tei:placeName[1], ',', '; ')"/><xsl:text>": "[</xsl:text><xsl:value-of select="replace(translate(tei:geogName/tei:geo, ',', ''), '; ', '], [')"/><xsl:text>]"</xsl:text><xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if>
+        <xsl:text>"</xsl:text><xsl:value-of select="normalize-space(translate(tei:placeName[1], ',', '; '))"/><xsl:text>": "[</xsl:text><xsl:value-of select="replace(translate(tei:geogName/tei:geo, ',', ''), '; ', '], [')"/><xsl:text>]"</xsl:text><xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if>
       </xsl:for-each>
       <xsl:text>}</xsl:text>
     </xsl:variable>
