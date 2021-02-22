@@ -86,6 +86,10 @@
         content: "Coordinates (Lat, Long): "
         oxy_htmlContent(
              content, "<span style='font:11px'>[<a href='https://www.latlong.net/'>Search</a>]</span>")
+              /*oxy_htmlContent(
+             href, "../resources/map.html",
+            id, "p_prova",
+            width, 400px)*/
         oxy_editor(
            type, text,
            edit, "#text"
