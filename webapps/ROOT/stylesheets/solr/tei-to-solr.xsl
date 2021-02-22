@@ -46,7 +46,7 @@
   <xsl:template match="tei:geogName[@ref]" mode="facet_mentioned_estates">
     <field name="mentioned_estates">
       <xsl:variable name="ref" select="translate(@ref,' #', '')"/>
-      <xsl:value-of select="translate(document('../../content/fiscus_framework/resources/estates.xml')//tei:place[descendant::tei:idno=$ref]/tei:geogName, '/', '／')" />
+      <xsl:value-of select="translate(document('../../content/fiscus_framework/resources/estates.xml')//tei:place[descendant::tei:idno=$ref]/tei:geogName[1], '/', '／')" />
     </field>
   </xsl:template>
   

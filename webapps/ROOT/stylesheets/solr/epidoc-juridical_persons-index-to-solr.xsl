@@ -17,7 +17,7 @@
     <add>
       <xsl:for-each-group select="//tei:orgName[ancestor::tei:div/@type='edition'][@ref!='']" group-by="lower-case(@ref)">
         <xsl:variable name="jur-id" select="translate(replace(@ref, ' #', '; '), '#', '')"/>
-        <xsl:variable name="juridical-id" select="document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/fiscus_framework/resources/juridical_persons.xml'))//tei:org[descendant::tei:idno=$jur-id]/tei:orgName"/>
+        <xsl:variable name="juridical-id" select="document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/fiscus_framework/resources/juridical_persons.xml'))//tei:org[descendant::tei:idno=$jur-id]"/>
         <doc>
           <field name="document_type">
             <xsl:value-of select="$subdirectory" />
@@ -28,7 +28,10 @@
           <xsl:call-template name="field_file_path" />
           <field name="index_item_name">
             <xsl:choose>
-              <xsl:when test="$juridical-id"><xsl:value-of select="$juridical-id" /></xsl:when>
+              <xsl:when test="$juridical-id">
+                <xsl:value-of select="$juridical-id/tei:orgName[1]" />
+                <xsl:if test="$juridical-id/tei:orgName[2]/text()"><xsl:text> [</xsl:text><xsl:value-of select="$juridical-id/tei:orgName[2]" /><xsl:text>]</xsl:text></xsl:if>
+              </xsl:when>
               <xsl:when test="$jur-id and not($juridical-id)"><xsl:value-of select="$jur-id" /></xsl:when>
               <xsl:otherwise>
                 <xsl:text>~ </xsl:text>
@@ -41,7 +44,7 @@
           </field>
           <field name="index_external_resource">
             <xsl:choose>
-              <xsl:when test="$juridical-id"><xsl:value-of select="concat('../../texts/juridical_persons.html#', substring-after(substring-after(translate($juridical-id/following-sibling::tei:idno, '#', ''), 'http://137.204.128.125/'), '/'))" /></xsl:when>
+              <xsl:when test="$juridical-id"><xsl:value-of select="concat('../../texts/juridical_persons.html#', substring-after(substring-after(translate($juridical-id/tei:idno, '#', ''), 'http://137.204.128.125/'), '/'))" /></xsl:when>
               <xsl:otherwise><xsl:text>~</xsl:text></xsl:otherwise>
             </xsl:choose>
           </field>

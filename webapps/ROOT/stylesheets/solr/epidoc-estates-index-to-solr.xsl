@@ -17,7 +17,7 @@
     <add>
       <xsl:for-each-group select="//tei:geogName[ancestor::tei:div/@type='edition'][@ref!='']" group-by="lower-case(@ref)">
         <xsl:variable name="est-id" select="translate(replace(@ref, ' #', '; '), '#', '')"/>
-        <xsl:variable name="estate-id" select="document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/fiscus_framework/resources/estates.xml'))//tei:place[descendant::tei:idno=$est-id]/tei:geogName"/>
+        <xsl:variable name="estate-id" select="document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/fiscus_framework/resources/estates.xml'))//tei:place[descendant::tei:idno=$est-id]"/>
         <doc>
           <field name="document_type">
             <xsl:value-of select="$subdirectory" />
@@ -28,7 +28,9 @@
           <xsl:call-template name="field_file_path" />
           <field name="index_item_name">
             <xsl:choose>
-              <xsl:when test="$estate-id"><xsl:value-of select="$estate-id" /></xsl:when>
+              <xsl:when test="$estate-id"><xsl:value-of select="$estate-id/tei:geogName[1]" />
+                <xsl:if test="$estate-id/tei:geogName[2]/text()"><xsl:text> [</xsl:text><xsl:value-of select="$estate-id/tei:geogName[2]" /><xsl:text>]</xsl:text></xsl:if>
+              </xsl:when>
               <xsl:when test="$est-id and not($estate-id)"><xsl:value-of select="$est-id" /></xsl:when>
               <xsl:otherwise>
                 <xsl:text>~ </xsl:text>
@@ -41,7 +43,7 @@
           </field>
           <field name="index_external_resource">
             <xsl:choose>
-              <xsl:when test="$estate-id"><xsl:value-of select="concat('../../texts/estates.html#', substring-after(substring-after(translate($estate-id/following-sibling::tei:idno, '#', ''), 'http://137.204.128.125/'), '/'))" /></xsl:when>
+              <xsl:when test="$estate-id"><xsl:value-of select="concat('../../texts/estates.html#', substring-after(substring-after(translate($estate-id/tei:idno, '#', ''), 'http://137.204.128.125/'), '/'))" /></xsl:when>
               <xsl:otherwise><xsl:text>~</xsl:text></xsl:otherwise>
             </xsl:choose>
           </field>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xsl:stylesheet version="2.0"
-                xmlns:kiln="http://www.kcl.ac.uk/artshums/depts/ddh/kiln/ns/1.0"
-                xmlns:tei="http://www.tei-c.org/ns/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
-                xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-
+  xmlns:kiln="http://www.kcl.ac.uk/artshums/depts/ddh/kiln/ns/1.0"
+  xmlns:tei="http://www.tei-c.org/ns/1.0"
+  xmlns:xi="http://www.w3.org/2001/XInclude"
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+  
   <!-- Project-specific XSLT for transforming TEI to
        HTML. Customisations here override those in the core
        to-html.xsl (which should not be changed). -->
-
+  
   <xsl:import href="../../kiln/stylesheets/tei/to-html.xsl" />
   
   <xsl:template match="//tei:p[@n='import'][ancestor::tei:TEI[@xml:id='places']]">
@@ -62,11 +62,12 @@
   <xsl:template match="//tei:listPlace/tei:place">
     <div class="list_item"><xsl:attribute name="id"><xsl:value-of select="substring-after(substring-after(translate(tei:idno, '#', ''), 'http://137.204.128.125/'), '/')"/></xsl:attribute>
       <xsl:if test="tei:placeName"><p class="item_name"><xsl:apply-templates select="tei:placeName[1]"/></p></xsl:if>
-      <xsl:if test="tei:geogName[not(descendant::tei:geo)]"><p class="item_name"><xsl:apply-templates select="tei:geogName[not(descendant::tei:geo)]"/></p></xsl:if>
+      <xsl:if test="tei:geogName[not(descendant::tei:geo)]"><p class="item_name"><xsl:apply-templates select="tei:geogName[not(descendant::tei:geo)][1]"/></p></xsl:if>
       <p><xsl:if test="tei:placeName[@type='other']//text()"><strong><xsl:text>Also known as: </xsl:text></strong><xsl:apply-templates select="tei:placeName[@type='other']"/><br/></xsl:if>
-      <xsl:if test="tei:geogName/tei:geo"><strong><xsl:text>Coordinates (Lat, Long): </xsl:text></strong><xsl:value-of select="tei:geogName/tei:geo"/><br/></xsl:if>
-      <xsl:if test="tei:idno"><strong><xsl:text>Item number: </xsl:text></strong><xsl:value-of select="translate(tei:idno, '#', '')"/><br/></xsl:if>
-      <xsl:if test="tei:note//text()"><strong><xsl:text>Commentary/Bibliography: </xsl:text></strong><xsl:apply-templates select="tei:note"/><br/></xsl:if>
+        <xsl:if test="tei:geogName[@type='other']//text()"><strong><xsl:text>Also known as: </xsl:text></strong><xsl:apply-templates select="tei:geogName[@type='other']"/><br/></xsl:if>
+        <xsl:if test="tei:geogName/tei:geo"><strong><xsl:text>Coordinates (Lat, Long): </xsl:text></strong><xsl:value-of select="tei:geogName/tei:geo"/><br/></xsl:if>
+        <xsl:if test="tei:idno"><strong><xsl:text>Item number: </xsl:text></strong><xsl:value-of select="translate(tei:idno, '#', '')"/><br/></xsl:if>
+        <xsl:if test="tei:note//text()"><strong><xsl:text>Commentary/Bibliography: </xsl:text></strong><xsl:apply-templates select="tei:note"/><br/></xsl:if>
         <xsl:if test="tei:link[@corresp]"><xsl:for-each select="tei:link[@corresp]"><strong><xsl:text>Linked to (</xsl:text><xsl:value-of select="@type"/><xsl:if test="@subtype"><xsl:text>; </xsl:text><xsl:value-of select="@subtype"/></xsl:if><xsl:text>): </xsl:text></strong> <xsl:apply-templates select="@corresp"/><br/></xsl:for-each></xsl:if>
         <xsl:if test="tei:idno"><strong><a><xsl:attribute name="href">
           <xsl:choose>
@@ -77,12 +78,13 @@
       </p>
     </div>
   </xsl:template>
-
+  
   <xsl:template match="//tei:listOrg/tei:org">
     <div class="list_item"><xsl:attribute name="id"><xsl:value-of select="substring-after(substring-after(translate(tei:idno, '#', ''), 'http://137.204.128.125/'), '/')"/></xsl:attribute>
-      <xsl:if test="tei:orgName"><p class="item_name"><xsl:apply-templates select="tei:orgName"/></p></xsl:if>
-      <p><xsl:if test="tei:idno"><strong><xsl:text>Item number: </xsl:text></strong><xsl:value-of select="translate(tei:idno, '#', '')"/><br/></xsl:if>
-      <xsl:if test="tei:note//text()"><strong><xsl:text>Commentary/Bibliography: </xsl:text></strong><xsl:apply-templates select="tei:note"/><br/></xsl:if>
+      <xsl:if test="tei:orgName"><p class="item_name"><xsl:apply-templates select="tei:orgName[1]"/></p></xsl:if>
+      <p><xsl:if test="tei:orgName[@type='other']//text()"><strong><xsl:text>Also known as: </xsl:text></strong><xsl:apply-templates select="tei:orgName[@type='other']"/><br/></xsl:if>
+        <xsl:if test="tei:idno"><strong><xsl:text>Item number: </xsl:text></strong><xsl:value-of select="translate(tei:idno, '#', '')"/><br/></xsl:if>
+        <xsl:if test="tei:note//text()"><strong><xsl:text>Commentary/Bibliography: </xsl:text></strong><xsl:apply-templates select="tei:note"/><br/></xsl:if>
         <xsl:if test="tei:link[@corresp]"><xsl:for-each select="tei:link[@corresp]"><strong><xsl:text>Linked to (</xsl:text><xsl:value-of select="@type"/><xsl:if test="@subtype"><xsl:text>; </xsl:text><xsl:value-of select="@subtype"/></xsl:if><xsl:text>): </xsl:text></strong> <xsl:apply-templates select="@corresp"/><br/></xsl:for-each></xsl:if>
         <xsl:if test="tei:idno"><strong><a><xsl:attribute name="href"><xsl:value-of select="concat('../indices/epidoc/juridical_persons.html#', substring-after(substring-after(translate(tei:idno, '#', ''), 'http://137.204.128.125/'), '/'))"/></xsl:attribute><xsl:text>See linked documents</xsl:text></a></strong><br/></xsl:if>
       </p>
@@ -91,15 +93,16 @@
   
   <xsl:template match="//tei:listPerson/tei:person">
     <div class="list_item"><xsl:attribute name="id"><xsl:value-of select="substring-after(substring-after(translate(tei:idno, '#', ''), 'http://137.204.128.125/'), '/')"/></xsl:attribute>
-      <xsl:if test="tei:persName"><p class="item_name"><xsl:apply-templates select="tei:persName"/></p></xsl:if>
-      <p><xsl:if test="tei:idno"><strong><xsl:text>Item number: </xsl:text></strong><xsl:value-of select="translate(tei:idno, '#', '')"/><br/></xsl:if>
+      <xsl:if test="tei:persName"><p class="item_name"><xsl:apply-templates select="tei:persName[1]"/></p></xsl:if>
+      <p><xsl:if test="tei:persName[@type='other']//text()"><strong><xsl:text>Also known as: </xsl:text></strong><xsl:apply-templates select="tei:persName[@type='other']"/><br/></xsl:if>
+        <xsl:if test="tei:idno"><strong><xsl:text>Item number: </xsl:text></strong><xsl:value-of select="translate(tei:idno, '#', '')"/><br/></xsl:if>
         <xsl:if test="tei:note//text()"><strong><xsl:text>Commentary/Bibliography: </xsl:text></strong><xsl:apply-templates select="tei:note"/><br/></xsl:if>
         <xsl:if test="tei:link[@corresp]"><xsl:for-each select="tei:link[@corresp]"><strong><xsl:text>Linked to (</xsl:text><xsl:value-of select="@type"/><xsl:if test="@subtype"><xsl:text>; </xsl:text><xsl:value-of select="@subtype"/></xsl:if><xsl:text>): </xsl:text></strong> <xsl:apply-templates select="@corresp"/><br/></xsl:for-each></xsl:if>
         <xsl:if test="tei:idno"><strong><a><xsl:attribute name="href"><xsl:value-of select="concat('../indices/epidoc/people.html#', substring-after(substring-after(translate(tei:idno, '#', ''), 'http://137.204.128.125/'), '/'))"/></xsl:attribute><xsl:text>See linked documents</xsl:text></a></strong><br/></xsl:if>
       </p>
     </div>
   </xsl:template>
-
+  
   <xsl:template match="//tei:taxonomy//tei:catDesc">
     <div class="list_item">
       <p><xsl:value-of select="."/></p>
@@ -126,14 +129,14 @@
     <xsl:variable name="map_points">
       <xsl:text>{</xsl:text><xsl:for-each select="$imported_text/tei:place[descendant::tei:geo/text()]">
         <xsl:text>"</xsl:text><xsl:value-of select="normalize-space(translate(tei:placeName[1], ',', '; '))"/><xsl:text>": "</xsl:text><xsl:choose>
-          <xsl:when test="contains(tei:geogName/tei:geo, ';')"><xsl:value-of select="substring-before(tei:geogName/tei:geo, ';')"/></xsl:when>
-          <xsl:otherwise><xsl:value-of select="tei:geogName/tei:geo"/></xsl:otherwise>
+          <xsl:when test="contains(normalize-space(tei:geogName/tei:geo), ';')"><xsl:value-of select="substring-before(tei:geogName/tei:geo, ';')"/></xsl:when>
+          <xsl:otherwise><xsl:value-of select="normalize-space(tei:geogName/tei:geo)"/></xsl:otherwise>
         </xsl:choose><xsl:text>"</xsl:text><xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if></xsl:for-each><xsl:text>}</xsl:text>
     </xsl:variable>
     <xsl:variable name="map_polygons">
       <xsl:text>{</xsl:text>
       <xsl:for-each select="$imported_text/tei:place[contains(descendant::tei:geo, ';')][descendant::tei:geo/text()]">
-        <xsl:text>"</xsl:text><xsl:value-of select="normalize-space(translate(tei:placeName[1], ',', '; '))"/><xsl:text>": "[</xsl:text><xsl:value-of select="replace(translate(tei:geogName/tei:geo, ',', ''), '; ', '], [')"/><xsl:text>]"</xsl:text><xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if>
+        <xsl:text>"</xsl:text><xsl:value-of select="normalize-space(translate(tei:placeName[1], ',', '; '))"/><xsl:text>": "[</xsl:text><xsl:value-of select="replace(replace(normalize-space(tei:geogName/tei:geo), ', ', ','), '; ', ']; [')"/><xsl:text>]"</xsl:text><xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if>
       </xsl:for-each>
       <xsl:text>}</xsl:text>
     </xsl:variable>
@@ -149,15 +152,30 @@
         tileSize: 512,
         zoomOffset: -1
         }).addTo(mymap);
-       
+        
         const points = <xsl:value-of select="$map_points"/>;
         const polygons = <xsl:value-of select="$map_polygons"/>;
+        
         for (const [key, value] of Object.entries(points)) {
         L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)]).addTo(mymap).bindPopup(key);
         }
+        
         <!--for (const [key, value] of Object.entries(polygons)) {
-        L.polygon([value.replaceAll(" ", ", ").replaceAll(",,", ",")]).addTo(mymap).bindPopup(key);
-        }--> <!-- tranform string value into array -->
+        L.polygon([value.split(';')<!-\-value.replaceAll(";", ",")-\->]).addTo(mymap).bindPopup(key);
+        }-->
+        
+        <!--var LeafIcon = L.Icon.extend({
+        options: {
+        iconSize:     [38, 95],
+        iconAnchor:   [22, 94],
+        popupAnchor:  [-3, -76]
+        }
+        });
+        
+        greenIcon = new LeafIcon({iconUrl: 'green.png'}),
+        redIcon = new LeafIcon({iconUrl: 'red.png'}),
+        blueIcon = new LeafIcon({iconUrl: 'blue.png'});
+        -->
         
         L.polygon([
         [45.21625206214063,8.293893188238146],
@@ -167,10 +185,9 @@
         [45.2354063021579,8.319860994815828],
         [45.218978453364016,8.306558579206468],
         [45.21625206214063,8.293893188238146]
-        ]).addTo(mymap).bindPopup("<b>Predalbora (Farini; Piacenza)</b>");
+        ], {color: 'red'}).addTo(mymap).bindPopup("Predalbora (Farini; Piacenza)");
         
         <!-- L.marker([43, 11]).addTo(mymap).bindPopup("Nome luogo"); -->
-        
         <!--L.circle([43.885, 10.335], {
           color: 'red',
           fillColor: '#f03',
@@ -180,5 +197,5 @@
       </script>
     </div>
   </xsl:template>
-
+  
 </xsl:stylesheet>
