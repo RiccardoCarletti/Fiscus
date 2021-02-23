@@ -274,10 +274,25 @@
         greenred_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: greenredIcon}).bindPopup(key));
         };
         
+        var polygons_places = [];
+        <!--for (const [key, value] of Object.entries(polygons)) {
+        L.polygon([value.split(';')<!-\-value.replaceAll(";", ",")-\->]).addTo(mymap).bindPopup('<a href="#0">'.replace("0", key.substring(key.lastIndexOf("#") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> <br/>See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("#") +1)) + '➚</a>'));
+        }-->
+        polygons_places.push(L.polygon([
+        [45.21625206214063,8.293893188238146],
+        [45.22292799339423,8.286163732409479],
+        [45.23431881528846,8.29482525587082],
+        [45.24012999402467,8.301339000463487],
+        [45.2354063021579,8.319860994815828],
+        [45.218978453364016,8.306558579206468],
+        [45.21625206214063,8.293893188238146]
+        ], {color: 'orange'}).bindPopup('Predalbora (Piacenza)'));
+        
         var toggle_blue_places = L.layerGroup(blue_places).addTo(mymap); 
         var toggle_green_places = L.layerGroup(green_places).addTo(mymap);
         var toggle_red_places = L.layerGroup(red_places).addTo(mymap);
         var toggle_greenred_places = L.layerGroup(greenred_places).addTo(mymap);
+        var toggle_polygons = L.layerGroup(polygons_places).addTo(mymap);
         
         var baseMaps = {
         "DARE": dare,
@@ -292,24 +307,12 @@
         "Places linked to estates (green)": toggle_green_places,
         "Places linked to juridical persons (red)": toggle_red_places,
         "Places linked to estates and juridical persons (green&amp;red)": toggle_greenred_places,
-        "Places not linked to estates/juridical persons (blue)": toggle_blue_places
+        "Places not linked to estates/juridical persons (blue)": toggle_blue_places,
+        "Places not precisely located (orange)": toggle_polygons
         };
         
         L.control.layers(baseMaps, overlayMaps).addTo(mymap);
         
-        <!--for (const [key, value] of Object.entries(polygons)) {
-        L.polygon([value.split(';')<!-\-value.replaceAll(";", ",")-\->]).addTo(mymap).bindPopup(key);
-        }-->
-        L.polygon([
-        [45.21625206214063,8.293893188238146],
-        [45.22292799339423,8.286163732409479],
-        [45.23431881528846,8.29482525587082],
-        [45.24012999402467,8.301339000463487],
-        [45.2354063021579,8.319860994815828],
-        [45.218978453364016,8.306558579206468],
-        [45.21625206214063,8.293893188238146]
-        ], {color: 'blue'}).addTo(mymap).bindPopup("Predalbora (Farini; Piacenza)");
-        <!-- L.marker([43, 11]).addTo(mymap).bindPopup("Nome luogo"); -->
       </script>
     </div>
   </xsl:template>
