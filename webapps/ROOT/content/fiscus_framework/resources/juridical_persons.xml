@@ -53,9 +53,16 @@
                 </org>
                 
                 <org>
-                    <orgName>Sanctus Silvester; monasterium (Nonantola)</orgName>
+                    <orgName>Sanctus Silvester; monasterium (Nonantola, Modena)</orgName>
                     <idno>http://137.204.128.125/juridical_persons/47</idno>
                     <note></note>
+                    <link type="places" corresp="#http://137.204.128.125/places/15"
+                        subtype="isWithin"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/48" subtype="link"/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/50"
+                        subtype="hasConnectionWith"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/49" subtype="link"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/22" subtype="link"/>
                 </org>
                 
                 <org>
@@ -80,9 +87,11 @@
                 </org>
                 
                 <org>
-                    <orgName>Sancta Maria in Silvis; monasterium (Sesto al Reghena) </orgName>
+                    <orgName>Sancta Maria in Silvis; monasterium (Sesto al Reghena, Pordenone) </orgName>
                     <idno>http://137.204.128.125/juridical_persons/66</idno>
                     <note></note>
+                    <link type="places" corresp="#http://137.204.128.125/places/11"
+                        subtype="isAdjacentTo"/>
                 </org>
                 <org>
                     <orgName>Casa Dei; coenobium (Cadeo; Piacenza)</orgName>

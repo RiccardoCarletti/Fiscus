@@ -4,7 +4,7 @@
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
-                <title>Nonantola, Archivio Abbaziale, Pergamene I 8</title>
+                <title>Archivio Abbaziale di Nonantola, Pergamene, I 8</title>
             </titleStmt>
             <editionStmt>
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
@@ -42,7 +42,7 @@
                     <history>
                         <origin>
                             <origDate when="0780-07-28">
-                                <note type="displayed_date">28 luglio 780</note>
+                                <note type="displayed_date">780 July 28</note>
                                 <note type="dating_elements"></note>
                                 <note type="topical_date">Lippspringe (Sassonia)</note>
                             </origDate>
@@ -97,33 +97,36 @@
                 <div type="textpart">
                     <ab>
                         <persName key="#emperor/king #patricius"
-                            ref="http://137.204.128.125/people/14">Carolus</persName> gratia Dei <rs
-                            key="#Emperor/king">rex</rs> Francorum et Langobadorum ac <rs
+                            ref="#http://137.204.128.125/people/14">Carolus</persName> gratia Dei
+                            <rs key="#Emperor/king">rex</rs> Francorum et Langobadorum ac <rs
                             key="#patricius">patricius</rs> Romanorum omnibus fidelibus nostris tam
                         presentibus quamque futuris. Si ea, que erga locis venerabilibus per
                         strumenta anteriorum regum iuste ac rationabiliter largita vel condonata
                         sunt, nostro munimine confirmamus, regiam, inquit, exercimus consuetudinem,
                         atque hoc nobis ad eternam beatitudinem in Dei nomine pertinere confidimus.
                         Unde compertum sit omnium vestrorum magnitudini, qualiter venerabilis vir
-                            <persName key="#abbots" ref="http://137.204.128.125/people/49"
-                            >Anselmus</persName> abbas de monasterio noncupante <orgName
-                            key="#monasteries" ref="http://137.204.128.125/juridical_persons/47">
-                            <placeName ref="http://137.204.128.125/places/15">Nonantola</placeName>
+                            <persName key="#abbots" ref="#http://137.204.128.125/people/49"
+                            >Anselmus</persName>
+                        <rs key="#Abbots">abbas</rs> de <rs key="#Monasteries">monasterio</rs>
+                        noncupante <orgName key="#monasteries"
+                            ref="#http://137.204.128.125/juridical_persons/47">
+                            <placeName ref="#http://137.204.128.125/places/15">Nonantola</placeName>
                         </orgName>, quod est constructum in onore omnium apostolorum et beati
-                        Silvestri confessoris, situm in terraturio <placeName key="#fines"
-                            ref="http://137.204.128.125/places/38">Motinense</placeName>, clementiae
-                        regni nostri petiit, eo quod <persName key="#emperor/king"
-                            ref="http://137.204.128.125/people/48">Haixtulfus</persName> vel ceteri
-                        quondam reges ac reliqui Deo timentes homines eorum res ad memoratum sanctum
-                        locum condonassent. Idcirco memoratus abbas celsitudini, nostre, ut
-                        ecclesias duas in onore <orgName>
-                            <orgName>Sancti Martini</orgName>
-                        </orgName> sitas in ipsas <rs key="#fines">fine</rs> Motinense una cum earum
-                        apendiciis, etiam et waldora, terris, silvis, pratis, pascois, saltora,
-                        confinibus, piscariis seu et <rs key="#tolls">portatico</rs> illo de
-                            <geogName key="#curtes #tolls #fiscal_property"
-                            ref="http://137.204.128.125/estates/50"><placeName
-                                ref="http://137.204.128.125/places/40" key="#tolls">Cive
+                        Silvestri confessoris, situm in <rs key="#Fines">terraturio</rs>
+                        <placeName key="#fines" ref="#http://137.204.128.125/places/38"
+                            >Motinense</placeName>, clementiae regni nostri petiit, eo quod
+                            <persName key="#emperor/king" ref="#http://137.204.128.125/people/48"
+                            >Haixtulfus</persName> vel ceteri quondam reges ac reliqui Deo timentes
+                        homines eorum res ad memoratum sanctum locum condonassent. Idcirco memoratus
+                        abbas celsitudini, nostre, ut ecclesias duas in onore <orgName
+                            key="#Churches">
+                            <orgName key="#Churches">Sancti Martini</orgName>
+                        </orgName> sitas in ipsas fine Motinense una cum earum apendiciis, etiam et
+                        waldora, terris, silvis, pratis, pascois, saltora, confinibus, piscariis seu
+                        et <rs key="#tolls">portatico</rs> illo de <geogName
+                            key="#curtes #tolls #fiscal_property"
+                            ref="#http://137.204.128.125/estates/50"><placeName
+                                ref="#http://137.204.128.125/places/40" key="#tolls">Cive
                                 Nova</placeName></geogName>, que annue collegitur, etiam hoc, quod
                         per bonum hominum largietate ibidem iuste conlatum fuit aut in antea
                         delegatum fuerit, per nostrum preceptum, sicut in eorum anteriora decleratur
@@ -142,8 +145,8 @@
                         credatis, de anulo nostro subter sigellavimus <persName key="#notary"
                             >Giltbertus</persName> advicem <persName key="#chancellor"
                             >Radoni</persName> recognovi et s. <date>Data V Kalendas Augustas anno
-                            XII et septimo regni nostri</date>; actum <placeName>Lippia
-                            Gyspringae</placeName> in <placeName>Saxonia</placeName>, in Dei
+                            XII et septimo regni nostri</date>; actum <placeName key="#Palatium"
+                            >Lippia Gyspringae</placeName> in <placeName>Saxonia</placeName>, in Dei
                         nominine feliciter. Amen semper.</ab>
                 </div>
             </div>
@@ -151,7 +154,7 @@
                 <p>CHLA 29, n. 883</p>
             </div>
             <div type="bibliography" subtype="additional">
-                <p>Manarini, Politiche regie e attivismo</p>
+                <p>Manarini 2017</p>
             </div>
             <div type="bibliography" subtype="links">
                 <p/>
