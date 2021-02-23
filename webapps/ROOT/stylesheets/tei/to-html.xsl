@@ -130,7 +130,7 @@
       <xsl:text>{</xsl:text><xsl:for-each select="$imported_text/tei:place[descendant::tei:geo/text()]">
         <xsl:variable name="name" select="normalize-space(translate(tei:placeName[1], ',', '; '))"/>
         <xsl:variable name="id" select="substring-after(substring-after(translate(descendant::tei:idno,'#',''), 'http://137.204.128.125/'), '/')"/>
-        <xsl:text>"</xsl:text><xsl:value-of select="$name"/><xsl:text>#</xsl:text><xsl:value-of select="$id"/><xsl:text>": "</xsl:text><xsl:choose>
+        <xsl:text>"</xsl:text><xsl:value-of select="$name"/><xsl:text>": "</xsl:text><xsl:choose>
           <xsl:when test="contains(normalize-space(tei:geogName/tei:geo), ';')"><xsl:value-of select="substring-before(tei:geogName/tei:geo, ';')"/></xsl:when>
           <xsl:otherwise><xsl:value-of select="normalize-space(tei:geogName/tei:geo)"/></xsl:otherwise>
         </xsl:choose><xsl:text>"</xsl:text><xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if></xsl:for-each><xsl:text>}</xsl:text>
@@ -140,7 +140,7 @@
       <xsl:for-each select="$imported_text/tei:place[contains(descendant::tei:geo, ';')][descendant::tei:geo/text()]">
         <xsl:variable name="name" select="normalize-space(translate(tei:placeName[1], ',', '; '))"/>
         <xsl:variable name="id" select="substring-after(substring-after(translate(descendant::tei:idno,'#',''), 'http://137.204.128.125/'), '/')"/>
-        <xsl:text>"</xsl:text><xsl:value-of select="$name"/><xsl:text>#</xsl:text><xsl:value-of select="$id"/><xsl:text>": "[</xsl:text><xsl:value-of select="replace(replace(normalize-space(tei:geogName/tei:geo), ', ', ','), '; ', ']; [')"/><xsl:text>]"</xsl:text><xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if>
+        <xsl:text>"</xsl:text><xsl:value-of select="$name"/><xsl:text>": "[</xsl:text><xsl:value-of select="replace(replace(normalize-space(tei:geogName/tei:geo), ', ', ','), '; ', ']; [')"/><xsl:text>]"</xsl:text><xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if>
       </xsl:for-each>
       <xsl:text>}</xsl:text>
     </xsl:variable>
@@ -150,7 +150,7 @@
         <xsl:variable name="name" select="normalize-space(translate(tei:placeName[1], ',', '; '))"/>
         <xsl:variable name="id" select="substring-after(substring-after(translate(descendant::tei:idno,'#',''), 'http://137.204.128.125/'), '/')"/>
         <xsl:if test="$id='1' or $id='2' or $id='20' or $id='10' or $id='62' or $id='19' or $id='7' or $id='57' or $id='25' or $id='23' or $id='44' or $id='12' or $id='58' or $id='54' or $id='68' or $id='49' or $id='30' or $id='56' or $id='67' or $id='18' or $id='60' or $id='24' or $id='38' or $id='6' or $id='16' or $id='41' or $id='53' or $id='65' or $id='27' or $id='35' or $id='52' or $id='5' or $id='36' or $id='8' or $id='13' or $id='59' or $id='64' or $id='37' or $id='69'">
-          <xsl:text>"</xsl:text><xsl:value-of select="$name"/><xsl:text>#</xsl:text><xsl:value-of select="$id"/><xsl:text>": "</xsl:text><xsl:choose>
+          <xsl:text>"</xsl:text><xsl:value-of select="$name"/><xsl:text>": "</xsl:text><xsl:choose>
           <xsl:when test="contains(normalize-space(tei:geogName/tei:geo), ';')"><xsl:value-of select="substring-before(tei:geogName/tei:geo, ';')"/></xsl:when>
           <xsl:otherwise><xsl:value-of select="normalize-space(tei:geogName/tei:geo)"/></xsl:otherwise>
         </xsl:choose><xsl:text>"</xsl:text><xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if></xsl:if></xsl:for-each><xsl:text>}</xsl:text>
@@ -161,7 +161,7 @@
         <xsl:variable name="name" select="normalize-space(translate(tei:placeName[1], ',', '; '))"/>
         <xsl:variable name="id" select="substring-after(substring-after(translate(descendant::tei:idno,'#',''), 'http://137.204.128.125/'), '/')"/>
         <xsl:if test="$id='66' or $id='21' or $id='55' or $id='50' or $id='28' or $id='48' or $id='14' or $id='33' or $id='42' or $id='32' or $id='17' or $id='34' or $id='39' or $id='46' or $id='51' or $id='26'">
-          <xsl:text>"</xsl:text><xsl:value-of select="$name"/><xsl:text>#</xsl:text><xsl:value-of select="$id"/><xsl:text>": "</xsl:text><xsl:choose>
+          <xsl:text>"</xsl:text><xsl:value-of select="$name"/><xsl:text>": "</xsl:text><xsl:choose>
           <xsl:when test="contains(normalize-space(tei:geogName/tei:geo), ';')"><xsl:value-of select="substring-before(tei:geogName/tei:geo, ';')"/></xsl:when>
           <xsl:otherwise><xsl:value-of select="normalize-space(tei:geogName/tei:geo)"/></xsl:otherwise>
         </xsl:choose><xsl:text>"</xsl:text><xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if></xsl:if></xsl:for-each><xsl:text>}</xsl:text>
@@ -172,7 +172,7 @@
         <xsl:variable name="name" select="normalize-space(translate(tei:placeName[1], ',', '; '))"/>
         <xsl:variable name="id" select="substring-after(substring-after(translate(descendant::tei:idno,'#',''), 'http://137.204.128.125/'), '/')"/>
         <xsl:if test="$id='63' or $id='11' or $id='61' or $id='29' or $id='45' or $id='15'">
-          <xsl:text>"</xsl:text><xsl:value-of select="$name"/><xsl:text>#</xsl:text><xsl:value-of select="$id"/><xsl:text>": "</xsl:text><xsl:choose>
+          <xsl:text>"</xsl:text><xsl:value-of select="$name"/><xsl:text>": "</xsl:text><xsl:choose>
           <xsl:when test="contains(normalize-space(tei:geogName/tei:geo), ';')"><xsl:value-of select="substring-before(tei:geogName/tei:geo, ';')"/></xsl:when>
           <xsl:otherwise><xsl:value-of select="normalize-space(tei:geogName/tei:geo)"/></xsl:otherwise>
         </xsl:choose><xsl:text>"</xsl:text><xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if></xsl:if></xsl:for-each><xsl:text>}</xsl:text>
@@ -184,7 +184,7 @@
         <xsl:variable name="id" select="substring-after(substring-after(translate(descendant::tei:idno,'#',''), 'http://137.204.128.125/'), '/')"/>
         <xsl:if test="$id='4' or $id='22' or $id='40' or $id='9' or $id='43' or $id='47' or $id='3'">
         <!--<xsl:if test="tei:link[@type='estates'] and tei:link[@type='juridical_persons']">-->
-          <xsl:text>"</xsl:text><xsl:value-of select="$name"/><xsl:text>#</xsl:text><xsl:value-of select="$id"/><xsl:text>": "</xsl:text><xsl:choose>
+          <xsl:text>"</xsl:text><xsl:value-of select="$name"/><xsl:text>": "</xsl:text><xsl:choose>
           <xsl:when test="contains(normalize-space(tei:geogName/tei:geo), ';')"><xsl:value-of select="substring-before(tei:geogName/tei:geo, ';')"/></xsl:when>
           <xsl:otherwise><xsl:value-of select="normalize-space(tei:geogName/tei:geo)"/></xsl:otherwise>
         </xsl:choose><xsl:text>"</xsl:text><xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if></xsl:if></xsl:for-each><xsl:text>}</xsl:text>
@@ -256,43 +256,28 @@
         
         var blue_places = [];
         for (const [key, value] of Object.entries(blue_points)) {
-        blue_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: blueIcon}).bindPopup('<a href="#0">'.replace("0", key.substring(key.lastIndexOf("#") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> <br/>See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("#") +1)) + '➚</a>'));
+        blue_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: blueIcon}).bindPopup(key));
         };
         
         var green_places = [];
         for (const [key, value] of Object.entries(green_points)) {
-        green_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: greenIcon}).bindPopup('<a href="#0">'.replace("0", key.substring(key.lastIndexOf("#") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> <br/>See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("#") +1)) + '➚</a>'));
+        green_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: greenIcon}).bindPopup(key));
         };
        
        var red_places = [];
        for (const [key, value] of Object.entries(red_points)) {
-       red_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: redIcon}).bindPopup('<a href="#0">'.replace("0", key.substring(key.lastIndexOf("#") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> <br/>See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("#") +1)) + '➚</a>'));
+       red_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: redIcon}).bindPopup(key));
        };
         
         var greenred_places = [];
         for (const [key, value] of Object.entries(greenred_points)) {
-        greenred_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: greenredIcon}).bindPopup('<a href="#0">'.replace("0", key.substring(key.lastIndexOf("#") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> <br/>See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("#") +1)) + '➚</a>'));
+        greenred_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: greenredIcon}).bindPopup(key));
         };
-        
-        var polygons_places = [];
-        <!--for (const [key, value] of Object.entries(polygons)) {
-        L.polygon([value.split(';')<!-\-value.replaceAll(";", ",")-\->]).addTo(mymap).bindPopup('<a href="#0">'.replace("0", key.substring(key.lastIndexOf("#") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> <br/>See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("#") +1)) + '➚</a>'));
-        }-->
-        polygons_places.push(L.polygon([
-        [45.21625206214063,8.293893188238146],
-        [45.22292799339423,8.286163732409479],
-        [45.23431881528846,8.29482525587082],
-        [45.24012999402467,8.301339000463487],
-        [45.2354063021579,8.319860994815828],
-        [45.218978453364016,8.306558579206468],
-        [45.21625206214063,8.293893188238146]
-        ], {color: 'orange'}).bindPopup('<a href="#35">Predalbora (Piacenza)</a> <br/>See linked documents: <a href="../indices/epidoc/places.html#35">➚</a>'));
         
         var toggle_blue_places = L.layerGroup(blue_places).addTo(mymap); 
         var toggle_green_places = L.layerGroup(green_places).addTo(mymap);
         var toggle_red_places = L.layerGroup(red_places).addTo(mymap);
         var toggle_greenred_places = L.layerGroup(greenred_places).addTo(mymap);
-        var toggle_polygons = L.layerGroup(polygons_places).addTo(mymap);
         
         var baseMaps = {
         "DARE": dare,
@@ -307,12 +292,24 @@
         "Places linked to estates (green)": toggle_green_places,
         "Places linked to juridical persons (red)": toggle_red_places,
         "Places linked to estates and juridical persons (green&amp;red)": toggle_greenred_places,
-        "Places not linked to estates/juridical persons (blue)": toggle_blue_places,
-        "Places not precisely located (orange)": toggle_polygons
+        "Places not linked to estates/juridical persons (blue)": toggle_blue_places
         };
         
         L.control.layers(baseMaps, overlayMaps).addTo(mymap);
         
+        <!--for (const [key, value] of Object.entries(polygons)) {
+        L.polygon([value.split(';')<!-\-value.replaceAll(";", ",")-\->]).addTo(mymap).bindPopup(key);
+        }-->
+        L.polygon([
+        [45.21625206214063,8.293893188238146],
+        [45.22292799339423,8.286163732409479],
+        [45.23431881528846,8.29482525587082],
+        [45.24012999402467,8.301339000463487],
+        [45.2354063021579,8.319860994815828],
+        [45.218978453364016,8.306558579206468],
+        [45.21625206214063,8.293893188238146]
+        ], {color: 'blue'}).addTo(mymap).bindPopup("Predalbora (Farini; Piacenza)");
+        <!-- L.marker([43, 11]).addTo(mymap).bindPopup("Nome luogo"); -->
       </script>
     </div>
   </xsl:template>
