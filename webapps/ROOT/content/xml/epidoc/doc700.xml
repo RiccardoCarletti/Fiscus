@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc700">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Archivio Abbaziale di Nonantola, Pergamene I 11</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus
+                        Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="uri">http://137.204.128.125/documents/doc700</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">Yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate notBefore="0797-01" notAfter="0797-06" when="0001">
+                                <note type="displayed_date">797 Jannuary/June</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Aachen (DE)</note>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-02-23" who="emanarini">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>
+                        <persName key="emperor/king, patricius"
+                            ref="#http://137.204.128.125/people/14">Carolus</persName> gratia Dei
+                            <rs key="emperor/king">rex</rs> Francorum et Langobardorum ac <rs
+                            key="patricius">Patricius</rs> Romanorum. […] qualiter vir venerabilis
+                            <persName ref="#http://137.204.128.125/people/49"> Anselmus</persName>
+                        abba ex <orgName ref="#http://137.204.128.125/juridical_persons/47"
+                            >monasterio</orgName>, quod est constructum in honore Dei et sanctorun
+                        omnium apostolorum vel Sancti Silvestri confessor Christi et Sancti
+                        Benedicti abbatis in <rs key="#Fines">territorio <placeName
+                                ref="#http://137.204.128.125/places/38" key="#Fines"
+                                >Motoninse</placeName></rs> loco noncupante <placeName
+                            ref="#http://137.204.128.125/places/15">Nonantulas</placeName>, missa
+                        petitioni serenitate nostrae suggessit, eo quod quidam Langobardus nomine
+                            <persName>Adoin, filius <persName>Vectari</persName> quondam</persName>,
+                        omnes res proprietatis sue, quantumcumque in <rs>territoria
+                                <placeName>Vicentina</placeName></rs> et
+                            <placeName>Veroninse</placeName> ubi et ubi per singulas civitates et
+                        territoria visus fuit habere, cum omni integritate ad super scriptum
+                        monasterium per cartolam donationis sue visus est delegasse, et adserit se
+                        ipsas res cum aequitatis ordine ad partem monasterii sui quieto tramite
+                        possidere. Sed pro integra firmitate petiit celsitudini nostrae, ut hoc
+                        denuo circa ipsum sanctum locum ex nostra indulgentia, quicquid praedictus
+                        Adoinus ad ipsam causam Dei iuste et racionabiliter visus est delegasse,
+                        plenissima deliberatione cedere et confirmare deberemus, sicuti pro mercedes
+                        nostrae augmentum visi sumus fecisse. Quapropter per presentem auctoritatem
+                        nostram decernimus ac iubemus, ut inspecta ipsa donatione praedicti Adoini
+                        quondam, sicut per eam declaratur quicquid ad praephatum monasterium iusto
+                        tramite delegavit, deinceps per hoc nostrum serenitatis atque confirmationis
+                        praeceptum ad ipsum sanctum locum perpetualiter proficiat in augmentis. Et
+                        specialiter concedimus ad super scriptum monasterium pro anime nostrae
+                        salutem res illas in territurio <placeName key="#Fines"
+                            >Bononiense</placeName>, quas <persName>Liutprandus quondam
+                            rex</persName>
+                        <persName>Gregorio quondam <persName>Greco</persName> iocatori</persName>
+                        suo et eius filiis per suum confirmavit praeceptum, fundo
+                            <placeName>Caldario</placeName> et <placeName>Cesaretico</placeName> et
+                        fundo <placeName>Casa Novola</placeName>, sicut ipse Gregorius per
+                        praeceptum ante dicti Liutprandi regis vel per enfiteusi tenuit et postea
+                        iure legitimo nostro devenerunt dominio in integrum, ita ut ab hodiernum
+                        diem ante dictus Anselmus abba suique successores, qui fuerint rectores in
+                        ipso monasterio, vel monachi inibi sub sancta regula consistentes per hanc
+                        nostram auctoritatem habeant concessum, quatenus melius eis delectet pro
+                        nobis vel pro stabilitate regni nostri adtentius Domini misericordiam
+                        exorare. Et ut haec praeceptio atque confirmatio firmior habeantur et
+                        diuturnis temporibus melius conservetur, manu propria subter firmavimus et
+                        de anulo nostro sigillari iussimus. Signum Caroli gloriosissimi regis
+                            <persName>Ercanbaldus</persName> relegi et sub […] Actum
+                            <placeName>Aquis palatio publico</placeName>. […] </ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>CHLA 29, n. 884</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p>Manarini 2017</p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
