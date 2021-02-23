@@ -141,6 +141,46 @@
       <xsl:text>}</xsl:text>
     </xsl:variable>
     
+    <xsl:variable name="map_blue_points">
+      <xsl:text>{</xsl:text><xsl:for-each select="$imported_text/tei:place[descendant::tei:geo/text()]">
+        <xsl:variable name="id" select="substring-after(substring-after(translate(descendant::tei:idno,'#',''), 'http://137.204.128.125/'), '/')"/>
+        <xsl:if test="$id='1' or $id='2' or $id='20' or $id='10' or $id='62' or $id='19' or $id='7' or $id='57' or $id='25' or $id='23' or $id='44' or $id='12' or $id='58' or $id='54' or $id='68' or $id='2' or $id='49' or $id='30' or $id='47' or $id='1' or $id='56' or $id='67' or $id='18' or $id='60' or $id='24' or $id='38' or $id='6' or $id='16' or $id='41' or $id='53' or $id='65' or $id='27' or $id='35' or $id='52' or $id='5' or $id='36' or $id='11' or $id='8' or $id='13' or $id='59' or $id='64' or $id='37'">
+        <xsl:text>"</xsl:text><xsl:value-of select="normalize-space(translate(tei:placeName[1], ',', '; '))"/><xsl:text>": "</xsl:text><xsl:choose>
+          <xsl:when test="contains(normalize-space(tei:geogName/tei:geo), ';')"><xsl:value-of select="substring-before(tei:geogName/tei:geo, ';')"/></xsl:when>
+          <xsl:otherwise><xsl:value-of select="normalize-space(tei:geogName/tei:geo)"/></xsl:otherwise>
+        </xsl:choose><xsl:text>"</xsl:text><xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if></xsl:if></xsl:for-each><xsl:text>}</xsl:text>
+    </xsl:variable>
+    
+    <xsl:variable name="map_green_points">
+      <xsl:text>{</xsl:text><xsl:for-each select="$imported_text/tei:place[descendant::tei:geo/text()]">
+        <xsl:variable name="id" select="substring-after(substring-after(translate(descendant::tei:idno,'#',''), 'http://137.204.128.125/'), '/')"/>
+        <xsl:if test="$id='66' or $id='21' or $id='40' or $id='55' or $id='50' or $id='28' or $id='48' or $id='14' or $id='33' or $id='42' or $id='32' or $id='17' or $id='34' or $id='39' or $id='46' or $id='51' or $id='26'">
+          <xsl:text>"</xsl:text><xsl:value-of select="normalize-space(translate(tei:placeName[1], ',', '; '))"/><xsl:text>": "</xsl:text><xsl:choose>
+          <xsl:when test="contains(normalize-space(tei:geogName/tei:geo), ';')"><xsl:value-of select="substring-before(tei:geogName/tei:geo, ';')"/></xsl:when>
+          <xsl:otherwise><xsl:value-of select="normalize-space(tei:geogName/tei:geo)"/></xsl:otherwise>
+        </xsl:choose><xsl:text>"</xsl:text><xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if></xsl:if></xsl:for-each><xsl:text>}</xsl:text>
+    </xsl:variable>
+    
+    <xsl:variable name="map_red_points">
+      <xsl:text>{</xsl:text><xsl:for-each select="$imported_text/tei:place[descendant::tei:geo/text()]">
+        <xsl:variable name="id" select="substring-after(substring-after(translate(descendant::tei:idno,'#',''), 'http://137.204.128.125/'), '/')"/>
+        <xsl:if test="$id='63' or $id='61' or $id='29' or $id='45' or $id='15'">
+          <xsl:text>"</xsl:text><xsl:value-of select="normalize-space(translate(tei:placeName[1], ',', '; '))"/><xsl:text>": "</xsl:text><xsl:choose>
+          <xsl:when test="contains(normalize-space(tei:geogName/tei:geo), ';')"><xsl:value-of select="substring-before(tei:geogName/tei:geo, ';')"/></xsl:when>
+          <xsl:otherwise><xsl:value-of select="normalize-space(tei:geogName/tei:geo)"/></xsl:otherwise>
+        </xsl:choose><xsl:text>"</xsl:text><xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if></xsl:if></xsl:for-each><xsl:text>}</xsl:text>
+    </xsl:variable>
+    
+    <xsl:variable name="map_greenred_points">
+      <xsl:text>{</xsl:text><xsl:for-each select="$imported_text/tei:place[descendant::tei:geo/text()]">
+        <xsl:variable name="id" select="substring-after(substring-after(translate(descendant::tei:idno,'#',''), 'http://137.204.128.125/'), '/')"/>
+        <xsl:if test="$id='4' or $id='22' or $id='9' or $id='43' or $id='3'">
+          <xsl:text>"</xsl:text><xsl:value-of select="normalize-space(translate(tei:placeName[1], ',', '; '))"/><xsl:text>": "</xsl:text><xsl:choose>
+          <xsl:when test="contains(normalize-space(tei:geogName/tei:geo), ';')"><xsl:value-of select="substring-before(tei:geogName/tei:geo, ';')"/></xsl:when>
+          <xsl:otherwise><xsl:value-of select="normalize-space(tei:geogName/tei:geo)"/></xsl:otherwise>
+        </xsl:choose><xsl:text>"</xsl:text><xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if></xsl:if></xsl:for-each><xsl:text>}</xsl:text>
+    </xsl:variable>
+    
     <div class="row">
       <div id="mapid" class="map"></div>
       <script>
@@ -198,47 +238,36 @@
         redIcon = new LeafIcon({iconUrl: '../../../assets/images/red.png'}),
         greenredIcon = new LeafIcon({iconUrl: '../../../assets/images/green-red.png'}); 
         
-        
-        
-        
-        
-        
-        
-        
-        
-        
         const points = <xsl:value-of select="$map_points"/>;
+        const blue_points = <xsl:value-of select="$map_blue_points"/>;
+        const green_points = <xsl:value-of select="$map_green_points"/>;
+        const red_points = <xsl:value-of select="$map_red_points"/>;
+        const greenred_points = <xsl:value-of select="$map_greenred_points"/>;
         const polygons = <xsl:value-of select="$map_polygons"/>;
         
-        for (const [key, value] of Object.entries(points)) {
-        var place = L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: blueIcon}).addTo(mymap).bindPopup(key);
-        }
+        var blue_places = [];
+        for (const [key, value] of Object.entries(blue_points)) {
+        blue_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: blueIcon}).addTo(mymap).bindPopup(key));
+        };
+        var toggle_blue_places = L.layerGroup(blue_places); 
         
-        var blue_places = L.layerGroup([place]);
+        var green_places = [];
+        for (const [key, value] of Object.entries(green_points)) {
+        green_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: greenIcon}).addTo(mymap).bindPopup(key));
+        };
+        var toggle_green_places = L.layerGroup(green_places);
+       
+       var red_places = [];
+       for (const [key, value] of Object.entries(red_points)) {
+       red_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: redIcon}).addTo(mymap).bindPopup(key));
+       };
+        var toggle_red_places = L.layerGroup(red_places);
         
-        var pisa = L.marker([43.726686, 10.397634], {icon: greenIcon}).addTo(mymap).bindPopup("Pisa"),
-        nozzano = L.marker([43.83489826128234, 10.41731986217201], {icon: greenIcon}).addTo(mymap).bindPopup("Nozzano (Lucca)"),
-        cittanova = L.marker([44.64722337052603, 10.843892097473146], {icon: greenIcon}).addTo(mymap).bindPopup("Cittanova (Modena)");
-        
-        var green_places = L.layerGroup([pisa, nozzano, cittanova]);
-        
-        var lucca = L.marker([43.84368925703925, 10.50121307373047], {icon: greenredIcon}).addTo(mymap).bindPopup("Lucca"),
-        flexo = L.marker([43.839336483090854, 10.446958271786572], {icon: greenredIcon}).addTo(mymap).bindPopup("Flexo (Montuolo; Lucca)"),
-        brescia = L.marker([45.53956, 10.22676], {icon: greenredIcon}).addTo(mymap).bindPopup("Brescia"),
-        piacenza = L.marker([45.05240425535817, 9.693280756473543], {icon: greenredIcon}).addTo(mymap).bindPopup("Piacenza"),
-        caresana = L.marker([45.222008, 8.506020], {icon: greenredIcon}).addTo(mymap).bindPopup("Caresana (Vercelli)");
-        
-        var greenred_places = L.layerGroup([lucca, flexo, brescia, piacenza, caresana]);
-        
-        var smmonte = L.marker([43.700940, 10.690000], {icon: redIcon}).addTo(mymap).bindPopup("Santa Maria a Monte (Pisa)"),
-        slmoriano = L.marker([43.887021, 10.520043], {icon: redIcon}).addTo(mymap).bindPopup("Vico Strata (San Lorenzo di Moriano; Lucca)"),
-        snicomede = L.marker([44.84143, 9.98257], {icon: redIcon}).addTo(mymap).bindPopup("San Nicomede (Parma)"),
-        boccolo = L.marker([44.66831404365939, 9.665308836847544], {icon: redIcon}).addTo(mymap).bindPopup("Boccolo dei Tassi (Parma)"),
-        nonantola = L.marker([44.677747331712865, 11.043420284986498], {icon: redIcon}).addTo(mymap).bindPopup("Nonantola (Modena)");
-        
-        var red_places = L.layerGroup([smmonte, slmoriano, snicomede, boccolo, nonantola]);
-        
-        
+        var greenred_places = [];
+        for (const [key, value] of Object.entries(greenred_points)) {
+        greenred_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: greenredIcon}).addTo(mymap).bindPopup(key));
+        };
+        var toggle_greenred_places = L.layerGroup(greenred_places);
         
         var baseMaps = {
         "DARE": dare,
@@ -249,10 +278,10 @@
         "Streets": streets
         };
         var overlayMaps = {
-        "Places linked to estates": green_places,
-        "Places linked to juridical persons": red_places,
-        "Places linked to estates and juridical persons": greenred_places,
-        "Places not linked to estates/juridical persons": blue_places
+        "Places linked to estates": toggle_green_places,
+        "Places linked to juridical persons": toggle_red_places,
+        "Places linked to estates and juridical persons": toggle_greenred_places,
+        "Places not linked to estates/juridical persons": toggle_blue_places
         };
         L.control.layers(baseMaps, overlayMaps).addTo(mymap);
         
@@ -268,14 +297,7 @@
         [45.218978453364016,8.306558579206468],
         [45.21625206214063,8.293893188238146]
         ], {color: 'blue'}).addTo(mymap).bindPopup("Predalbora (Farini; Piacenza)");
-        
         <!-- L.marker([43, 11]).addTo(mymap).bindPopup("Nome luogo"); -->
-        <!--L.circle([43.885, 10.335], {
-          color: 'red',
-          fillColor: '#f03',
-          fillOpacity: 0.5,
-          radius: 500
-          }).addTo(mymap);-->
       </script>
     </div>
   </xsl:template>
