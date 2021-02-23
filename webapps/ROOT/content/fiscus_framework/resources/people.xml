@@ -278,6 +278,8 @@
                     <persName>Anselmus (752-803) abbas Nonantulensis</persName>
                     <idno>http://137.204.128.125/people/49</idno>
                     <note></note>
+                    <link type="people" corresp="#http://137.204.128.125/people/48"
+                        subtype="brotherInLawOf"/>
                 </person>
                 
                 <person>
@@ -459,6 +461,15 @@
                         subtype="legallyRecognisedUnionWith"/>
                     <link type="people" corresp="#http://137.204.128.125/people/84"
                         subtype="sonInLawOf"/>
+                </person>
+                <person>
+                    <persName>Adoin (797)</persName>
+                    <persName type="other">Adoin filius quondam Vectari</persName>
+                    <idno>http://137.204.128.125/people/86</idno>
+                    <note/>
+                    <link type="juridical_persons"
+                        corresp="#http://137.204.128.125/juridical_persons/47" subtype="link"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/49" subtype="link"/>
                 </person>
                 
             </listPerson>
