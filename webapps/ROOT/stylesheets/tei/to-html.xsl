@@ -166,15 +166,28 @@
         });
         
         var dare = L.tileLayer('https://dh.gu.se/tiles/imperium/{z}/{x}/{y}.png', {
-        tileSize: 512, 
-        zoomOffset: -1, 
+        minZoom: 4,
+        maxZoom: 11,
         attribution: 'Map data <a href="https://imperium.ahlfeldt.se/">Digital Atlas of the Roman Empire</a> CC BY 4.0'
+        });
+        
+        var terrain = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Shaded_Relief/MapServer/tile/{z}/{y}/{x}', {
+        attribution: 'Tiles: Esri. Source: Esri',
+        maxZoom: 13
+        });
+        
+        var watercolor = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.{ext}', {
+        attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Map data: <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+        subdomains: 'abcd',
+        minZoom: 1,
+        maxZoom: 16,
+        ext: 'jpg'
         });
         
         var mymap = L.map('mapid', {
         center: [44, 10.335],
         zoom: 6.5,
-        layers: [streets, grayscale, satellite]
+        layers: [streets, grayscale, satellite, terrain, watercolor]
         });
         
         var LeafIcon = L.Icon.extend({
@@ -184,6 +197,9 @@
         greenIcon = new LeafIcon({iconUrl: '../../../assets/images/green.png'}),
         redIcon = new LeafIcon({iconUrl: '../../../assets/images/red.png'}),
         greenredIcon = new LeafIcon({iconUrl: '../../../assets/images/green-red.png'}); 
+        
+        
+        
         
         
         
@@ -226,8 +242,10 @@
         
         var baseMaps = {
         "DARE": dare,
+        "Terrain": terrain, 
         "Grayscale": grayscale,
         "Satellite": satellite,
+        "Watercolor": watercolor,
         "Streets": streets
         };
         var overlayMaps = {
