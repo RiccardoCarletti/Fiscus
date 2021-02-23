@@ -175,6 +175,7 @@
       <xsl:text>{</xsl:text><xsl:for-each select="$imported_text/tei:place[descendant::tei:geo/text()]">
         <xsl:variable name="id" select="substring-after(substring-after(translate(descendant::tei:idno,'#',''), 'http://137.204.128.125/'), '/')"/>
         <xsl:if test="$id='4' or $id='22' or $id='9' or $id='43' or $id='3'">
+        <!--<xsl:if test="tei:link[@type='estates'] and tei:link[@type='juridical_persons']">-->
           <xsl:text>"</xsl:text><xsl:value-of select="normalize-space(translate(tei:placeName[1], ',', '; '))"/><xsl:text>": "</xsl:text><xsl:choose>
           <xsl:when test="contains(normalize-space(tei:geogName/tei:geo), ';')"><xsl:value-of select="substring-before(tei:geogName/tei:geo, ';')"/></xsl:when>
           <xsl:otherwise><xsl:value-of select="normalize-space(tei:geogName/tei:geo)"/></xsl:otherwise>
@@ -247,27 +248,28 @@
         
         var blue_places = [];
         for (const [key, value] of Object.entries(blue_points)) {
-        blue_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: blueIcon}).addTo(mymap).bindPopup(key));
+        blue_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: blueIcon}).bindPopup(key));
         };
-        var toggle_blue_places = L.layerGroup(blue_places); 
         
         var green_places = [];
         for (const [key, value] of Object.entries(green_points)) {
-        green_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: greenIcon}).addTo(mymap).bindPopup(key));
+        green_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: greenIcon}).bindPopup(key));
         };
-        var toggle_green_places = L.layerGroup(green_places);
        
        var red_places = [];
        for (const [key, value] of Object.entries(red_points)) {
-       red_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: redIcon}).addTo(mymap).bindPopup(key));
+       red_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: redIcon}).bindPopup(key));
        };
-        var toggle_red_places = L.layerGroup(red_places);
         
         var greenred_places = [];
         for (const [key, value] of Object.entries(greenred_points)) {
-        greenred_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: greenredIcon}).addTo(mymap).bindPopup(key));
+        greenred_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: greenredIcon}).bindPopup(key));
         };
-        var toggle_greenred_places = L.layerGroup(greenred_places);
+        
+        var toggle_blue_places = L.layerGroup(blue_places).addTo(mymap); 
+        var toggle_green_places = L.layerGroup(green_places).addTo(mymap);
+        var toggle_red_places = L.layerGroup(red_places).addTo(mymap);
+        var toggle_greenred_places = L.layerGroup(greenred_places).addTo(mymap);
         
         var baseMaps = {
         "DARE": dare,
@@ -277,12 +279,14 @@
         "Watercolor": watercolor,
         "Streets": streets
         };
+        
         var overlayMaps = {
-        "Places linked to estates": toggle_green_places,
-        "Places linked to juridical persons": toggle_red_places,
-        "Places linked to estates and juridical persons": toggle_greenred_places,
-        "Places not linked to estates/juridical persons": toggle_blue_places
+        "Places linked to estates (green)": toggle_green_places,
+        "Places linked to juridical persons (red)": toggle_red_places,
+        "Places linked to estates and juridical persons (green&amp;red)": toggle_greenred_places,
+        "Places not linked to estates/juridical persons (blue)": toggle_blue_places
         };
+        
         L.control.layers(baseMaps, overlayMaps).addTo(mymap);
         
         <!--for (const [key, value] of Object.entries(polygons)) {
