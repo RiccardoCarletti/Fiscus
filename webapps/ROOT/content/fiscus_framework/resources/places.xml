@@ -214,7 +214,7 @@
                     <note></note>
                 </place>
                 <place>
-                    <placeName>Griliano</placeName>
+                    <placeName><foreign>Griliano</foreign></placeName>
                     <geogName type="coord"><geo>0, 0</geo></geogName>
                     <idno>http://137.204.128.125/places/31</idno>
                     <note></note>
@@ -274,7 +274,9 @@
                     <idno>http://137.204.128.125/places/40</idno>
                     <note></note>
                     <link type="estates" corresp="#http://137.204.128.125/estates/50"
-                        subtype="isMadeOf"/>
+                        subtype="hasConnectionWith"/>
+                    <link type="juridical_persons"
+                        corresp="#http://137.204.128.125/juridical_persons/47" subtype="link"/>
                 </place>
                 <place>
                     <placeName>Padova</placeName>
