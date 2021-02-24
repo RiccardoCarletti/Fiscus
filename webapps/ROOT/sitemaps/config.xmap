@@ -69,9 +69,9 @@
              the label for each facet value from the RDF store rather
              than using the Solr data directly. -->
         <rdf-facet-lookup-fields>mentioned_juridical_persons,mentioned_persons,mentioned_people,mentioned_places,provenance,record_source,document_tradition,fiscal_property,ancient_document_type, mentioned_keywords,mentioned_estates,person_name</rdf-facet-lookup-fields>
-        <sesame-server>http://localhost:8443/openrdf-sesame/</sesame-server>
+        <sesame-server>http://localhost:9999/openrdf-sesame/</sesame-server>
         <sesame-server-repository>kiln</sesame-server-repository>
-        <solr-server>http://localhost:8443/solr/</solr-server>
+        <solr-server>http://localhost:9999/solr/</solr-server>
         <!-- If 'search-lemma' is 1, present user interface to search
              over lemmatised text rather than original text. This
              setting does not influence what gets indexed, only the
