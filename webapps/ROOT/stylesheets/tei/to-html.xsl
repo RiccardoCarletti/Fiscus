@@ -156,7 +156,7 @@
       <xsl:text>{</xsl:text><xsl:for-each select="$imported_places/tei:place[descendant::tei:geo/text()]">
         <xsl:variable name="name" select="normalize-space(translate(tei:placeName[1], ',', '; '))"/>
         <xsl:variable name="id" select="substring-after(substring-after(translate(descendant::tei:idno,'#',''), 'http://137.204.128.125/'), '/')"/>
-        <xsl:if test="$id='1' or $id='2' or $id='20' or $id='10' or $id='62' or $id='19' or $id='7' or $id='57' or $id='25' or $id='44' or $id='12' or $id='58' or $id='54' or $id='68' or $id='49' or $id='30' or $id='67' or $id='18' or $id='60' or $id='24' or $id='38' or $id='6' or $id='16' or $id='41' or $id='53' or $id='65' or $id='27' or $id='35' or $id='52' or $id='5' or $id='8' or $id='13' or $id='59' or $id='37' or $id='69'">
+        <xsl:if test="$id='1' or $id='2' or $id='20' or $id='10' or $id='62' or $id='19' or $id='7' or $id='57' or $id='25' or $id='44' or $id='12' or $id='58' or $id='54' or $id='68' or $id='49' or $id='30' or $id='67' or $id='18' or $id='60' or $id='24' or $id='38' or $id='6' or $id='16' or $id='41' or $id='53' or $id='65' or $id='27' or $id='35' or $id='5' or $id='8' or $id='13' or $id='59' or $id='37' or $id='69' or $id='70'">
           <xsl:text>"</xsl:text><xsl:value-of select="$name"/><xsl:text>#</xsl:text><xsl:value-of select="$id"/><xsl:text>": "</xsl:text><xsl:choose>
           <xsl:when test="contains(normalize-space(tei:geogName/tei:geo), ';')"><xsl:value-of select="substring-before(tei:geogName/tei:geo, ';')"/></xsl:when>
           <xsl:otherwise><xsl:value-of select="normalize-space(tei:geogName/tei:geo)"/></xsl:otherwise>
@@ -167,11 +167,22 @@
       <xsl:text>{</xsl:text><xsl:for-each select="$imported_places/tei:place[descendant::tei:geo/text()]">
         <xsl:variable name="name" select="normalize-space(translate(tei:placeName[1], ',', '; '))"/>
         <xsl:variable name="id" select="substring-after(substring-after(translate(descendant::tei:idno,'#',''), 'http://137.204.128.125/'), '/')"/>
-        <xsl:if test="$id='66' or $id='21' or $id='23' or $id='55' or $id='50' or $id='28' or $id='48' or $id='14' or $id='33' or $id='42' or $id='32' or $id='17' or $id='34' or $id='39' or $id='36' or $id='46' or $id='51' or $id='56' or $id='64' or $id='26'">
+        <xsl:if test="$id='52' or $id='21' or $id='23' or $id='55' or $id='50' or $id='28' or $id='48' or $id='14' or $id='33' or $id='42' or $id='32' or $id='17' or $id='34' or $id='39' or $id='36' or $id='46' or $id='51' or $id='56' or $id='64' or $id='26'">
           <xsl:text>"</xsl:text><xsl:value-of select="$name"/><xsl:text>#</xsl:text><xsl:value-of select="$id"/><xsl:text>": "</xsl:text><xsl:choose>
           <xsl:when test="contains(normalize-space(tei:geogName/tei:geo), ';')"><xsl:value-of select="substring-before(tei:geogName/tei:geo, ';')"/></xsl:when>
           <xsl:otherwise><xsl:value-of select="normalize-space(tei:geogName/tei:geo)"/></xsl:otherwise>
         </xsl:choose><xsl:text>"</xsl:text><xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if></xsl:if></xsl:for-each><xsl:text>}</xsl:text>
+    </xsl:variable>
+    
+    <xsl:variable name="map_greensquare_points">
+      <xsl:text>{</xsl:text><xsl:for-each select="$imported_places/tei:place[descendant::tei:geo/text()]">
+        <xsl:variable name="name" select="normalize-space(translate(tei:placeName[1], ',', '; '))"/>
+        <xsl:variable name="id" select="substring-after(substring-after(translate(descendant::tei:idno,'#',''), 'http://137.204.128.125/'), '/')"/>
+        <xsl:if test="$id='66'">
+          <xsl:text>"</xsl:text><xsl:value-of select="$name"/><xsl:text>#</xsl:text><xsl:value-of select="$id"/><xsl:text>": "</xsl:text><xsl:choose>
+            <xsl:when test="contains(normalize-space(tei:geogName/tei:geo), ';')"><xsl:value-of select="substring-before(tei:geogName/tei:geo, ';')"/></xsl:when>
+            <xsl:otherwise><xsl:value-of select="normalize-space(tei:geogName/tei:geo)"/></xsl:otherwise>
+          </xsl:choose><xsl:text>"</xsl:text><xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if></xsl:if></xsl:for-each><xsl:text>}</xsl:text>
     </xsl:variable>
     
     <xsl:variable name="map_red_points">
@@ -189,12 +200,24 @@
       <xsl:text>{</xsl:text><xsl:for-each select="$imported_places/tei:place[descendant::tei:geo/text()]">
         <xsl:variable name="name" select="normalize-space(translate(tei:placeName[1], ',', '; '))"/>
         <xsl:variable name="id" select="substring-after(substring-after(translate(descendant::tei:idno,'#',''), 'http://137.204.128.125/'), '/')"/>
-        <xsl:if test="$id='4' or $id='22' or $id='40' or $id='9' or $id='43' or $id='47' or $id='3'">
+        <xsl:if test="$id='4' or $id='22' or $id='40' or $id='43' or $id='47' or $id='3'">
         <!--<xsl:if test="tei:link[@type='estates'] and tei:link[@type='juridical_persons']">-->
           <xsl:text>"</xsl:text><xsl:value-of select="$name"/><xsl:text>#</xsl:text><xsl:value-of select="$id"/><xsl:text>": "</xsl:text><xsl:choose>
           <xsl:when test="contains(normalize-space(tei:geogName/tei:geo), ';')"><xsl:value-of select="substring-before(tei:geogName/tei:geo, ';')"/></xsl:when>
           <xsl:otherwise><xsl:value-of select="normalize-space(tei:geogName/tei:geo)"/></xsl:otherwise>
         </xsl:choose><xsl:text>"</xsl:text><xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if></xsl:if></xsl:for-each><xsl:text>}</xsl:text>
+    </xsl:variable>
+    
+    <xsl:variable name="map_greenredsquare_points">
+      <xsl:text>{</xsl:text><xsl:for-each select="$imported_places/tei:place[descendant::tei:geo/text()]">
+        <xsl:variable name="name" select="normalize-space(translate(tei:placeName[1], ',', '; '))"/>
+        <xsl:variable name="id" select="substring-after(substring-after(translate(descendant::tei:idno,'#',''), 'http://137.204.128.125/'), '/')"/>
+        <xsl:if test="$id='9'">
+          <!--<xsl:if test="tei:link[@type='estates'] and tei:link[@type='juridical_persons']">-->
+          <xsl:text>"</xsl:text><xsl:value-of select="$name"/><xsl:text>#</xsl:text><xsl:value-of select="$id"/><xsl:text>": "</xsl:text><xsl:choose>
+            <xsl:when test="contains(normalize-space(tei:geogName/tei:geo), ';')"><xsl:value-of select="substring-before(tei:geogName/tei:geo, ';')"/></xsl:when>
+            <xsl:otherwise><xsl:value-of select="normalize-space(tei:geogName/tei:geo)"/></xsl:otherwise>
+          </xsl:choose><xsl:text>"</xsl:text><xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if></xsl:if></xsl:for-each><xsl:text>}</xsl:text>
     </xsl:variable>
     
     <div class="row">
@@ -253,12 +276,16 @@
         greenIcon = new LeafIcon({iconUrl: '../../../assets/images/green.png'}),
         redIcon = new LeafIcon({iconUrl: '../../../assets/images/red.png'}),
         greenredIcon = new LeafIcon({iconUrl: '../../../assets/images/green-red.png'}); 
+        greensquareIcon = new LeafIcon({iconUrl: '../../../assets/images/green-square.png'}),
+        greenredsquareIcon = new LeafIcon({iconUrl: '../../../assets/images/green-red-square.png'}); 
         
         const points = <xsl:value-of select="$map_points"/>;
         const blue_points = <xsl:value-of select="$map_blue_points"/>;
         const green_points = <xsl:value-of select="$map_green_points"/>;
         const red_points = <xsl:value-of select="$map_red_points"/>;
         const greenred_points = <xsl:value-of select="$map_greenred_points"/>;
+        const greensquare_points = <xsl:value-of select="$map_greensquare_points"/>;
+        const greenredsquare_points = <xsl:value-of select="$map_greenredsquare_points"/>;
         const polygons = <xsl:value-of select="$map_polygons"/>;
         
         var blue_places = [];
@@ -281,6 +308,16 @@
         greenred_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: greenredIcon}).bindPopup('<a href="#0">'.replace("0", key.substring(key.lastIndexOf("#") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("#") +1)) + '➚</a></span>'));
         };
         
+        var greensquare_places = [];
+        for (const [key, value] of Object.entries(greensquare_points)) {
+        greensquare_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: greensquareIcon}).bindPopup('<a href="#0">'.replace("0", key.substring(key.lastIndexOf("#") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("#") +1)) + '➚</a></span>'));
+        };
+        
+        var greenredsquare_places = [];
+        for (const [key, value] of Object.entries(greenredsquare_points)) {
+        greenredsquare_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: greenredsquareIcon}).bindPopup('<a href="#0">'.replace("0", key.substring(key.lastIndexOf("#") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("#") +1)) + '➚</a></span>'));
+        };
+        
         var polygons_places = [];
         <!--for (const [key, value] of Object.entries(polygons)) {
         L.polygon([value.split(';')<!-\-value.replaceAll(";", ",")-\->]).addTo(mymap).bindPopup('<a href="#0">'.replace("0", key.substring(key.lastIndexOf("#") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("#") +1)) + '➚</a></span>'));
@@ -298,6 +335,8 @@
         var toggle_blue_places = L.layerGroup(blue_places).addTo(mymap); 
         var toggle_green_places = L.layerGroup(green_places).addTo(mymap);
         var toggle_red_places = L.layerGroup(red_places).addTo(mymap);
+        var toggle_greensquare_places = L.layerGroup(greensquare_places).addTo(mymap);
+        var toggle_greenredsquare_places = L.layerGroup(greenredsquare_places).addTo(mymap);
         var toggle_greenred_places = L.layerGroup(greenred_places).addTo(mymap);
         var toggle_polygons = L.layerGroup(polygons_places).addTo(mymap);
         
@@ -311,11 +350,13 @@
         };
         
         var overlayMaps = {
-        "Places linked to estates (green)": toggle_green_places,
-        "Places linked to juridical persons (red)": toggle_red_places,
-        "Places linked to estates and juridical persons (green&amp;red)": toggle_greenred_places,
-        "Places not linked to estates/juridical persons (blue)": toggle_blue_places,
-        "Places not precisely located (orange)": toggle_polygons
+        "Places linked to fiscal estates (green circle)": toggle_green_places,
+        "Places linked to other estates (green square)": toggle_greensquare_places ,
+        "Places linked to juridical persons (red circle)": toggle_red_places,
+        "Places linked to fiscal estates and juridical persons (green&amp;red circle)": toggle_greenred_places,
+        "Places linked to other estates and juridical persons (green&amp;red square)": toggle_greenredsquare_places,
+        "Places not linked to estates/juridical persons (blue circle)": toggle_blue_places,
+        "Places not precisely located (orange area)": toggle_polygons
         };
         
         L.control.layers(baseMaps, overlayMaps).addTo(mymap);

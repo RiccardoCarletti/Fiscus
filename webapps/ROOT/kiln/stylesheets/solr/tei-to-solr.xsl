@@ -76,7 +76,7 @@
   </xsl:template>
 
   <!-- For all origDates, use only the year. -->
-  <xsl:template match="tei:origDate[@when]" mode="document-metadata">
+  <xsl:template match="tei:origDate[@when][not(@notBefore)][not(@notAfter)]|tei:origDate[@when][@notBefore='0001']|tei:origDate[@when][@notAfter='0001']" mode="document-metadata">
     <xsl:variable name="year">
       <xsl:call-template name="get-year-from-date">
         <xsl:with-param name="date" select="@when" />
@@ -89,7 +89,7 @@
 
   <!-- If @notBefore is specified, @notAfter is assumed to be
        specified, and vice versa. -->
-  <xsl:template match="tei:origDate[@notBefore]" mode="document-metadata">
+  <xsl:template match="tei:origDate[@notBefore][@notAfter][not(@when)]|tei:origDate[@notBefore][@notAfter][@when='0001']" mode="document-metadata">
     <xsl:variable name="start-year">
       <xsl:call-template name="get-year-from-date">
         <xsl:with-param name="date" select="@notBefore" />
