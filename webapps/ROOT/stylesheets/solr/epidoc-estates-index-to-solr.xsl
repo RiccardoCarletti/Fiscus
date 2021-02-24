@@ -15,7 +15,7 @@
 
   <xsl:template match="/">
     <add>
-      <xsl:for-each-group select="//tei:geogName[ancestor::tei:div/@type='edition'][@ref!='']" group-by="lower-case(@ref)">
+      <xsl:for-each-group select="//tei:geogName[ancestor::tei:div/@type='edition'][@ref!='']" group-by="lower-case(translate(replace(@ref, ' #', '; '), '#', ''))">
         <xsl:variable name="est-id" select="translate(replace(@ref, ' #', '; '), '#', '')"/>
         <xsl:variable name="estate-id" select="document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/fiscus_framework/resources/estates.xml'))//tei:place[descendant::tei:idno=$est-id]"/>
         <doc>

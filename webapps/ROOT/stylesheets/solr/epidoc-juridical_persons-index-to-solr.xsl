@@ -15,7 +15,7 @@
 
   <xsl:template match="/">
     <add>
-      <xsl:for-each-group select="//tei:orgName[ancestor::tei:div/@type='edition'][@ref!='']" group-by="lower-case(@ref)">
+      <xsl:for-each-group select="//tei:orgName[ancestor::tei:div/@type='edition'][@ref!='']" group-by="lower-case(translate(replace(@ref, ' #', '; '), '#', ''))">
         <xsl:variable name="jur-id" select="translate(replace(@ref, ' #', '; '), '#', '')"/>
         <xsl:variable name="juridical-id" select="document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/fiscus_framework/resources/juridical_persons.xml'))//tei:org[descendant::tei:idno=$jur-id]"/>
         <doc>

@@ -15,7 +15,7 @@
 
   <xsl:template match="/">
     <add>
-      <xsl:for-each-group select="//tei:persName[ancestor::tei:div/@type='edition'][@ref!='']" group-by="lower-case(@ref)">
+      <xsl:for-each-group select="//tei:persName[ancestor::tei:div/@type='edition'][@ref!='']" group-by="lower-case(translate(replace(@ref, ' #', '; '), '#', ''))">
         <xsl:variable name="pers-id" select="translate(replace(@ref, ' #', '; '), '#', '')"/>
         <xsl:variable name="person-id" select="document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/fiscus_framework/resources/people.xml'))//tei:person[descendant::tei:idno=$pers-id]"/>
         <doc>

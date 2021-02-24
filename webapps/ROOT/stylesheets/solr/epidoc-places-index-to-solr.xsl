@@ -15,7 +15,7 @@
 
   <xsl:template match="/">
     <add>
-      <xsl:for-each-group select="//tei:placeName[ancestor::tei:div/@type='edition'][@ref!='']" group-by="lower-case(@ref)">
+      <xsl:for-each-group select="//tei:placeName[ancestor::tei:div/@type='edition'][@ref!='']" group-by="lower-case(translate(replace(@ref, ' #', '; '), '#', ''))">
         <xsl:variable name="pl-id" select="translate(replace(@ref, ' #', '; '), '#', '')"/>
         <xsl:variable name="place-id" select="document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/fiscus_framework/resources/places.xml'))//tei:place[descendant::tei:idno=$pl-id]"/>
         <doc>
