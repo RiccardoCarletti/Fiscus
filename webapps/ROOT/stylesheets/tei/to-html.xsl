@@ -124,10 +124,16 @@
     </xsl:choose>
   </xsl:template>
   
+  <!-- map -->
   <xsl:template match="//tei:addSpan[@xml:id='map']">
-    <xsl:variable name="imported_text" select="document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/fiscus_framework/resources/places.xml'))//tei:listPlace"/>
+    <xsl:variable name="imported_places" select="document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/fiscus_framework/resources/places.xml'))//tei:listPlace"/>
+    <xsl:variable name="imported_people" select="document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/fiscus_framework/resources/people.xml'))//tei:listPerson"/>
+    <xsl:variable name="imported_juridical_persons" select="document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/fiscus_framework/resources/juridical_persons.xml'))//tei:listOrg"/>
+    <xsl:variable name="imported_estates" select="document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/fiscus_framework/resources/estates.xml'))//tei:listPlace"/>
+    <xsl:variable name="imported_thesaurus" select="document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/fiscus_framework/resources/thesaurus.xml'))//tei:taxonomy"/>
+    
     <xsl:variable name="map_points">
-      <xsl:text>{</xsl:text><xsl:for-each select="$imported_text/tei:place[descendant::tei:geo/text()]">
+      <xsl:text>{</xsl:text><xsl:for-each select="$imported_places/tei:place[descendant::tei:geo/text()]">
         <xsl:variable name="name" select="normalize-space(translate(tei:placeName[1], ',', '; '))"/>
         <xsl:variable name="id" select="substring-after(substring-after(translate(descendant::tei:idno,'#',''), 'http://137.204.128.125/'), '/')"/>
         <xsl:text>"</xsl:text><xsl:value-of select="$name"/><xsl:text>#</xsl:text><xsl:value-of select="$id"/><xsl:text>": "</xsl:text><xsl:choose>
@@ -135,9 +141,10 @@
           <xsl:otherwise><xsl:value-of select="normalize-space(tei:geogName/tei:geo)"/></xsl:otherwise>
         </xsl:choose><xsl:text>"</xsl:text><xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if></xsl:for-each><xsl:text>}</xsl:text>
     </xsl:variable>
+    
     <xsl:variable name="map_polygons">
       <xsl:text>{</xsl:text>
-      <xsl:for-each select="$imported_text/tei:place[contains(descendant::tei:geo, ';')][descendant::tei:geo/text()]">
+      <xsl:for-each select="$imported_places/tei:place[contains(descendant::tei:geo, ';')][descendant::tei:geo/text()]">
         <xsl:variable name="name" select="normalize-space(translate(tei:placeName[1], ',', '; '))"/>
         <xsl:variable name="id" select="substring-after(substring-after(translate(descendant::tei:idno,'#',''), 'http://137.204.128.125/'), '/')"/>
         <xsl:text>"</xsl:text><xsl:value-of select="$name"/><xsl:text>#</xsl:text><xsl:value-of select="$id"/><xsl:text>": "[</xsl:text><xsl:value-of select="replace(replace(normalize-space(tei:geogName/tei:geo), ', ', ','), '; ', ']; [')"/><xsl:text>]"</xsl:text><xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if>
@@ -146,10 +153,10 @@
     </xsl:variable>
     
     <xsl:variable name="map_blue_points">
-      <xsl:text>{</xsl:text><xsl:for-each select="$imported_text/tei:place[descendant::tei:geo/text()]">
+      <xsl:text>{</xsl:text><xsl:for-each select="$imported_places/tei:place[descendant::tei:geo/text()]">
         <xsl:variable name="name" select="normalize-space(translate(tei:placeName[1], ',', '; '))"/>
         <xsl:variable name="id" select="substring-after(substring-after(translate(descendant::tei:idno,'#',''), 'http://137.204.128.125/'), '/')"/>
-        <xsl:if test="$id='1' or $id='2' or $id='20' or $id='10' or $id='62' or $id='19' or $id='7' or $id='57' or $id='25' or $id='23' or $id='44' or $id='12' or $id='58' or $id='54' or $id='68' or $id='49' or $id='30' or $id='56' or $id='67' or $id='18' or $id='60' or $id='24' or $id='38' or $id='6' or $id='16' or $id='41' or $id='53' or $id='65' or $id='27' or $id='35' or $id='52' or $id='5' or $id='36' or $id='8' or $id='13' or $id='59' or $id='64' or $id='37' or $id='69'">
+        <xsl:if test="$id='1' or $id='2' or $id='20' or $id='10' or $id='62' or $id='19' or $id='7' or $id='57' or $id='25' or $id='44' or $id='12' or $id='58' or $id='54' or $id='68' or $id='49' or $id='30' or $id='67' or $id='18' or $id='60' or $id='24' or $id='38' or $id='6' or $id='16' or $id='41' or $id='53' or $id='65' or $id='27' or $id='35' or $id='52' or $id='5' or $id='8' or $id='13' or $id='59' or $id='37' or $id='69'">
           <xsl:text>"</xsl:text><xsl:value-of select="$name"/><xsl:text>#</xsl:text><xsl:value-of select="$id"/><xsl:text>": "</xsl:text><xsl:choose>
           <xsl:when test="contains(normalize-space(tei:geogName/tei:geo), ';')"><xsl:value-of select="substring-before(tei:geogName/tei:geo, ';')"/></xsl:when>
           <xsl:otherwise><xsl:value-of select="normalize-space(tei:geogName/tei:geo)"/></xsl:otherwise>
@@ -157,10 +164,10 @@
     </xsl:variable>
     
     <xsl:variable name="map_green_points">
-      <xsl:text>{</xsl:text><xsl:for-each select="$imported_text/tei:place[descendant::tei:geo/text()]">
+      <xsl:text>{</xsl:text><xsl:for-each select="$imported_places/tei:place[descendant::tei:geo/text()]">
         <xsl:variable name="name" select="normalize-space(translate(tei:placeName[1], ',', '; '))"/>
         <xsl:variable name="id" select="substring-after(substring-after(translate(descendant::tei:idno,'#',''), 'http://137.204.128.125/'), '/')"/>
-        <xsl:if test="$id='66' or $id='21' or $id='55' or $id='50' or $id='28' or $id='48' or $id='14' or $id='33' or $id='42' or $id='32' or $id='17' or $id='34' or $id='39' or $id='46' or $id='51' or $id='26'">
+        <xsl:if test="$id='66' or $id='21' or $id='23' or $id='55' or $id='50' or $id='28' or $id='48' or $id='14' or $id='33' or $id='42' or $id='32' or $id='17' or $id='34' or $id='39' or $id='36' or $id='46' or $id='51' or $id='56' or $id='64' or $id='26'">
           <xsl:text>"</xsl:text><xsl:value-of select="$name"/><xsl:text>#</xsl:text><xsl:value-of select="$id"/><xsl:text>": "</xsl:text><xsl:choose>
           <xsl:when test="contains(normalize-space(tei:geogName/tei:geo), ';')"><xsl:value-of select="substring-before(tei:geogName/tei:geo, ';')"/></xsl:when>
           <xsl:otherwise><xsl:value-of select="normalize-space(tei:geogName/tei:geo)"/></xsl:otherwise>
@@ -168,7 +175,7 @@
     </xsl:variable>
     
     <xsl:variable name="map_red_points">
-      <xsl:text>{</xsl:text><xsl:for-each select="$imported_text/tei:place[descendant::tei:geo/text()]">
+      <xsl:text>{</xsl:text><xsl:for-each select="$imported_places/tei:place[descendant::tei:geo/text()]">
         <xsl:variable name="name" select="normalize-space(translate(tei:placeName[1], ',', '; '))"/>
         <xsl:variable name="id" select="substring-after(substring-after(translate(descendant::tei:idno,'#',''), 'http://137.204.128.125/'), '/')"/>
         <xsl:if test="$id='63' or $id='11' or $id='61' or $id='29' or $id='45' or $id='15'">
@@ -179,7 +186,7 @@
     </xsl:variable>
     
     <xsl:variable name="map_greenred_points">
-      <xsl:text>{</xsl:text><xsl:for-each select="$imported_text/tei:place[descendant::tei:geo/text()]">
+      <xsl:text>{</xsl:text><xsl:for-each select="$imported_places/tei:place[descendant::tei:geo/text()]">
         <xsl:variable name="name" select="normalize-space(translate(tei:placeName[1], ',', '; '))"/>
         <xsl:variable name="id" select="substring-after(substring-after(translate(descendant::tei:idno,'#',''), 'http://137.204.128.125/'), '/')"/>
         <xsl:if test="$id='4' or $id='22' or $id='40' or $id='9' or $id='43' or $id='47' or $id='3'">
