@@ -186,7 +186,7 @@
         <xsl:variable name="linking_estates" select="$imported_estates//tei:place[descendant::tei:link[contains(concat('#', substring-after(substring-after(translate(@corresp,'#',''), 'http://137.204.128.125/'), '/'), '#'), concat('#', $id, '#'))]]"/>
         <xsl:variable name="linked_keys"><xsl:for-each select="$keys//p[@id=$id]"><xsl:value-of select="lower-case(.)"/></xsl:for-each></xsl:variable>
         <xsl:variable name="all_keys" select="concat($linked_keys, ' ')"/>
-        <xsl:if test="not($linked_jp) and not($linked_estates) and not($linking_jp) and not($linking_estates) and not(contains($all_keys, 'fiscal_property'))">
+        <xsl:if test="not($linked_jp) and not($linked_estates) and not($linking_jp) and not($linking_estates) and not(matches($all_keys, '.*(fiscal_property).*'))">
           <xsl:text>"</xsl:text><xsl:value-of select="$name"/><xsl:text>#</xsl:text><xsl:value-of select="$id"/><xsl:text>": "</xsl:text><xsl:choose>
           <xsl:when test="contains(normalize-space(tei:geogName/tei:geo), ';')"><xsl:value-of select="substring-before(tei:geogName/tei:geo, ';')"/></xsl:when>
           <xsl:otherwise><xsl:value-of select="normalize-space(tei:geogName/tei:geo)"/></xsl:otherwise>
@@ -203,7 +203,7 @@
         <xsl:variable name="linking_estates" select="$imported_estates//tei:place[descendant::tei:link[contains(concat('#', substring-after(substring-after(translate(@corresp,'#',''), 'http://137.204.128.125/'), '/'), '#'), concat('#', $id, '#'))]]"/>
         <xsl:variable name="linked_keys"><xsl:for-each select="$keys//p[@id=$id]"><xsl:value-of select="lower-case(.)"/></xsl:for-each></xsl:variable>
         <xsl:variable name="all_keys" select="concat($linked_keys, ' ')"/>
-        <xsl:if test="contains($all_keys, 'fiscal_property') and not($linked_jp) and not($linking_jp)"> <!--<xsl:if test="$id='14' or $id='17'">-->
+        <xsl:if test="matches($all_keys, '.*(fiscal_property).*') and not($linked_jp) and not($linking_jp)"> <!--<xsl:if test="$id='14' or $id='17'">-->
           <xsl:text>"</xsl:text><xsl:value-of select="$name"/><xsl:text>#</xsl:text><xsl:value-of select="$id"/><xsl:text>": "</xsl:text><xsl:choose>
           <xsl:when test="contains(normalize-space(tei:geogName/tei:geo), ';')"><xsl:value-of select="substring-before(tei:geogName/tei:geo, ';')"/></xsl:when>
           <xsl:otherwise><xsl:value-of select="normalize-space(tei:geogName/tei:geo)"/></xsl:otherwise>
@@ -220,7 +220,7 @@
         <xsl:variable name="linking_estates" select="$imported_estates//tei:place[descendant::tei:link[contains(concat('#', substring-after(substring-after(translate(@corresp,'#',''), 'http://137.204.128.125/'), '/'), '#'), concat('#', $id, '#'))]]"/>
         <xsl:variable name="linked_keys"><xsl:for-each select="$keys//p[@id=$id]"><xsl:value-of select="lower-case(.)"/></xsl:for-each></xsl:variable>
         <xsl:variable name="all_keys" select="concat($linked_keys, ' ')"/>
-        <xsl:if test="not(contains($all_keys, 'fiscal_property')) and not($linked_jp) and not($linking_jp)">
+        <xsl:if test="not(matches($all_keys, '.*(fiscal_property).*')) and not($linked_jp) and not($linking_jp)">
             <xsl:if test="$linked_estates or $linking_estates">
         <!--<xsl:if test="$imported_estates//tei:place[descendant::tei:link[contains(concat('#', substring-after(substring-after(translate(@corresp,'#',''), 'http://137.204.128.125/'), '/'), '#'), concat('#', $id, '#'))]]">-->
           <xsl:text>"</xsl:text><xsl:value-of select="$name"/><xsl:text>#</xsl:text><xsl:value-of select="$id"/><xsl:text>": "</xsl:text><xsl:choose>
@@ -239,7 +239,7 @@
         <xsl:variable name="linking_estates" select="$imported_estates//tei:place[descendant::tei:link[contains(concat('#', substring-after(substring-after(translate(@corresp,'#',''), 'http://137.204.128.125/'), '/'), '#'), concat('#', $id, '#'))]]"/>
         <xsl:variable name="linked_keys"><xsl:for-each select="$keys//p[@id=$id]"><xsl:value-of select="lower-case(.)"/></xsl:for-each></xsl:variable>
         <xsl:variable name="all_keys" select="concat($linked_keys, ' ')"/>
-        <xsl:if test="not(contains($all_keys, 'fiscal_property')) and not($linked_estates) and not($linking_estates)">
+        <xsl:if test="not(matches($all_keys, '.*(fiscal_property).*')) and not($linked_estates) and not($linking_estates)">
           <xsl:if test="$linked_jp or $linking_jp">
           <xsl:text>"</xsl:text><xsl:value-of select="$name"/><xsl:text>#</xsl:text><xsl:value-of select="$id"/><xsl:text>": "</xsl:text><xsl:choose>
           <xsl:when test="contains(normalize-space(tei:geogName/tei:geo), ';')"><xsl:value-of select="substring-before(tei:geogName/tei:geo, ';')"/></xsl:when>
@@ -258,7 +258,7 @@
         <xsl:variable name="linked_keys"><xsl:for-each select="$keys//p[@id=$id]"><xsl:value-of select="lower-case(.)"/></xsl:for-each></xsl:variable>
         <xsl:variable name="all_keys" select="concat($linked_keys, ' ')"/>
         <xsl:if test="$linked_jp or $linking_jp">
-          <xsl:if test="contains($all_keys, 'fiscal_property')">
+          <xsl:if test="matches($all_keys, '.*(fiscal_property).*')">
           <xsl:text>"</xsl:text><xsl:value-of select="$name"/><xsl:text>#</xsl:text><xsl:value-of select="$id"/><xsl:text>": "</xsl:text><xsl:choose>
           <xsl:when test="contains(normalize-space(tei:geogName/tei:geo), ';')"><xsl:value-of select="substring-before(tei:geogName/tei:geo, ';')"/></xsl:when>
           <xsl:otherwise><xsl:value-of select="normalize-space(tei:geogName/tei:geo)"/></xsl:otherwise>
@@ -277,7 +277,7 @@
         <xsl:variable name="all_keys" select="concat($linked_keys, ' ')"/>
         <xsl:if test="$linked_jp or $linking_jp">
           <xsl:if test="$linked_estates or $linking_estates">
-          <xsl:if test="not(contains($all_keys, 'fiscal_property'))">
+            <xsl:if test="not(matches($all_keys, '.*(fiscal_property).*'))">
           <xsl:text>"</xsl:text><xsl:value-of select="$name"/><xsl:text>#</xsl:text><xsl:value-of select="$id"/><xsl:text>": "</xsl:text><xsl:choose>
             <xsl:when test="contains(normalize-space(tei:geogName/tei:geo), ';')"><xsl:value-of select="substring-before(tei:geogName/tei:geo, ';')"/></xsl:when>
             <xsl:otherwise><xsl:value-of select="normalize-space(tei:geogName/tei:geo)"/></xsl:otherwise>
