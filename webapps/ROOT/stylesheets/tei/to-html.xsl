@@ -4,7 +4,8 @@
   xmlns:tei="http://www.tei-c.org/ns/1.0"
   xmlns:xi="http://www.w3.org/2001/XInclude"
   xmlns:fn="http://www.w3.org/2005/xpath-functions"
-  xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema">
   
   <!-- Project-specific XSLT for transforming TEI to
        HTML. Customisations here override those in the core
@@ -62,7 +63,9 @@
   </xsl:template>
   
   <xsl:template match="//tei:listPlace/tei:place">
-    <div class="list_item"><xsl:attribute name="id"><xsl:value-of select="substring-after(substring-after(translate(tei:idno, '#', ''), 'http://137.204.128.125/'), '/')"/></xsl:attribute>
+    <xsl:variable name="id" select="substring-after(substring-after(translate(tei:idno, '#', ''), 'http://137.204.128.125/'), '/')"/>
+    
+    <div class="list_item"><xsl:attribute name="id"><xsl:value-of select="$id"/></xsl:attribute>
       <xsl:if test="tei:placeName"><p class="item_name"><xsl:apply-templates select="tei:placeName[1]"/></p></xsl:if>
       <xsl:if test="tei:geogName[not(descendant::tei:geo)]"><p class="item_name"><xsl:apply-templates select="tei:geogName[not(descendant::tei:geo)][1]"/></p></xsl:if>
       <p><xsl:if test="tei:placeName[@type='other']//text()"><strong><xsl:text>Also known as: </xsl:text></strong><xsl:apply-templates select="tei:placeName[@type='other']"/><br/></xsl:if>
@@ -144,14 +147,9 @@
             <xsl:if test="fn:doc-available(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/xml/epidoc/', $doc_name)) = fn:true()">
               <xsl:for-each select="document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/xml/epidoc/', $doc_name))//tei:div[@type='edition']//tei:placeName[@key][@ref]">
                 <p><xsl:attribute name="id"><xsl:value-of select="substring-after(@ref, 'places/')"/></xsl:attribute>
-                  <xsl:text>#</xsl:text>
-                <xsl:value-of select="substring-after(@ref, 'places/')"/>
-                  <xsl:text>: </xsl:text>
-                  <xsl:value-of select="translate(@key, '#', '')"/>
-                <xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if>
-                </p>
+                  <xsl:text>#</xsl:text><xsl:value-of select="substring-after(@ref, 'places/')"/><xsl:text>: </xsl:text>
+                  <xsl:value-of select="translate(@key, '#', '')"/></p>
               </xsl:for-each>
-              <xsl:if test="position()!=last()"><xsl:text>; </xsl:text></xsl:if>
           </xsl:if>
       </xsl:for-each>
     </xsl:variable>
