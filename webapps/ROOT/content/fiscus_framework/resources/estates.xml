@@ -32,7 +32,8 @@
                     <idno>http://137.204.128.125/estates/28</idno>
                     <link type="juridical_persons" subtype="Link"
                         corresp="#http://137.204.128.125/juridical_persons/30"/>
-                    <note>Identificata da Pasquali con Timoline, frazione di Corte Franca (BS). Cf. G. Pasquali, Sistemi di produzione agraria ..., Bologna 2008.</note>
+                    <note>Identificata da Pasquali con Timoline, frazione di Corte Franca (BS). Cfr.
+                        Pasquali 2008.</note>
                     <link type="places" corresp="#http://137.204.128.125/places/26"
                         subtype="hasConnectionWith"/>
                 </place>
@@ -42,7 +43,8 @@
                     <idno>http://137.204.128.125/estates/29</idno>
                     <link type="juridical_persons" subtype="Link"
                         corresp="#http://137.204.128.125/juridical_persons/30"/>
-                    <note>Identificata da Pasquali con Canelle Secco, Erbusco (BS). Cf. Pasquali, Sistemi di produzione agraria ..., Bologna 2008, p. 330.</note>
+                    <note>Identificata da Pasquali con Canelle Secco, Erbusco (BS). Cfr. Pasquali
+                        2008, p. 330.</note>
                     <link type="places" corresp="#http://137.204.128.125/places/28"
                         subtype="hasConnectionWith"/>
                 </place>
@@ -50,7 +52,7 @@
                 <place>
                     <geogName><foreign>Evorianum</foreign>; <foreign>curticella</foreign></geogName>
                     <idno>http://137.204.128.125/estates/35</idno>
-                    <note>Curtis, "in comitatu Parmense" (DD Kar III, 126)</note>
+                    <note>Curtis, "in comitatu Parmense" (DD Kar III, 126).</note>
                 </place>
                 
                 <place>
@@ -136,7 +138,7 @@
                 <place>
                     <geogName>Sacco; <foreign>curtis</foreign></geogName>
                     <idno>http://137.204.128.125/estates/61</idno>
-                    <note>Cf. A. CASTAGNETTI, "Regno, signoria vescovile, arimanni e vassalli nella Saccisica dalla tarda età longobarda all’età comunale", Verona, 1997.</note>
+                    <note>Cfr. Castagnetti 1997.</note>
                     <link type="places" corresp="#http://137.204.128.125/places/39"
                         subtype="hasConnectionWith"/>
                 </place>
@@ -207,10 +209,53 @@
                 <place>
                     <geogName><foreign>Villola</foreign>; <foreign>curtis</foreign></geogName>
                     <idno>http://137.204.128.125/estates/80</idno>
-                    <note>Secondo il Tiraboschi, Dizionario, vol. II, p. 409, si trova nel
-                        Mantovano. Da notare che passa da Nonantola a S. Sisto.</note>
+                    <note>Secondo il Tiraboschi Dizionario, II, p. 409, si trova nel Mantovano. Da
+                        notare che passa da Nonantola a S. Sisto.</note>
                     <link type="juridical_persons"
                         corresp="#http://137.204.128.125/juridical_persons/53"/>
+                </place>
+                <place>
+                    <geogName>Settepolesini; <foreign>curtis</foreign></geogName>
+                    <geogName type="other"/>
+                    <idno>http://137.204.128.125/estates/81</idno>
+                    <note/>
+                    <link type="places" corresp="#http://137.204.128.125/places/79"
+                        subtype="hasConnectionWith"/>
+                    <link type="juridical_persons"
+                        corresp="#http://137.204.128.125/juridical_persons/76" subtype="link"/>
+                    <link type="juridical_persons"
+                        corresp="#http://137.204.128.125/juridical_persons/47" subtype="link"/>
+                    <link type="people"
+                        corresp="#http://137.204.128.125/people/23 #http://137.204.128.125/people/22"
+                        subtype="link"/>
+                </place>
+                <place>
+                    <geogName><foreign>Funziano</foreign>; <foreign>curtis</foreign></geogName>
+                    <geogName type="other"/>
+                    <idno>http://137.204.128.125/estates/82</idno>
+                    <note/>
+                    <link type="places" corresp="#http://137.204.128.125/places/81"
+                        subtype="hasConnectionWith"/>
+                    <link type="juridical_persons"
+                        corresp="#http://137.204.128.125/juridical_persons/47" subtype="link"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/22" subtype="link"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/23" subtype="link"/>
+                </place>
+                <place>
+                    <geogName>Firenze; <foreign>comitatus</foreign></geogName>
+                    <geogName type="other"/>
+                    <idno>http://137.204.128.125/estates/83</idno>
+                    <note/>
+                    <link type="places" corresp="#http://137.204.128.125/places/2"
+                        subtype="hasConnectionWith"/>
+                </place>
+                <place>
+                    <geogName>Ferrara; <foreign>comitatus</foreign></geogName>
+                    <geogName type="other"/>
+                    <idno>http://137.204.128.125/estates/84</idno>
+                    <note/>
+                    <link type="places" corresp="#http://137.204.128.125/places/80"
+                        subtype="hasConnectionWith"/>
                 </place>
                 
             </listPlace>

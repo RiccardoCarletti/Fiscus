@@ -39,7 +39,7 @@
                     <placeName>Lucca</placeName>
                     <geogName type="coord"><geo>43.84368925703925, 10.50121307373047</geo></geogName>
                     <idno>http://137.204.128.125/places/4</idno>
-                    <note>Microtoponomastica: Porta Sancti Petri.</note>
+                    <note>Microtoponomastica: <foreign>Porta Sancti Petri</foreign>.</note>
                 </place>
                 <place>
                     <placeName>Sale (Alessandria)</placeName>
@@ -82,7 +82,9 @@
                     <placeName>Sesto al Reghena (Pordenone)</placeName>
                     <geogName type="coord"><geo>45.848337832045104, 12.815530702537218</geo></geogName>
                     <idno>http://137.204.128.125/places/11</idno>
-                    <note>Da collegare a S. Andrea di Sesto (juridical person?)</note>
+                    <note/>
+                    <link type="juridical_persons"
+                        corresp="#http://137.204.128.125/juridical_persons/66"/>
                 </place>
                 <place>
                     <placeName>Cividale del Friuli (Udine)</placeName>
@@ -490,6 +492,95 @@
                     <placeName type="other"/>
                     <geogName type="coord"><geo>44.599220, 10.859480</geo></geogName>
                     <idno>http://137.204.128.125/places/71</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>Vignola (Modena)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>44.478069, 11.007980</geo></geogName>
+                    <idno>http://137.204.128.125/places/72</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>Riolo (Modena)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>44.615950, 11.088185</geo></geogName>
+                    <idno>http://137.204.128.125/places/73</idno>
+                    <note>Frazione di Castelfranco Emilia</note>
+                </place>
+                <place>
+                    <placeName>Recovato (Modena)</placeName>
+                    <placeName type="other">Arcuado; Archoatum</placeName>
+                    <geogName type="coord"><geo>44.638200, 11.062840</geo></geogName>
+                    <idno>http://137.204.128.125/places/74</idno>
+                    <note>Tiraboschi Dizionario, I, p. 25. Frazione di Castelfranco Emilia</note>
+                </place>
+                <place>
+                    <placeName><foreign>Gavili</foreign> (Manzolino; Modena)</placeName>
+                    <placeName type="other">Gavile</placeName>
+                    <geogName type="coord"><geo>44.583965, 11.122980</geo></geogName>
+                    <idno>http://137.204.128.125/places/75</idno>
+                    <note>Il toponimo diede il nome alla chiesa di S. Maria di Gavile presso
+                        Manzolino. Cfr. Manarini 2016, p. 202</note>
+                </place>
+                <place>
+                    <placeName><foreign>Gebolini</foreign> (San Giovanni in Persiceto; Bologna)</placeName>
+                    <placeName type="other"><foreign>limes Gebolini</foreign></placeName>
+                    <geogName type="coord"><geo>44.639712, 11.186808</geo></geogName>
+                    <idno>http://137.204.128.125/places/76</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>Ficarolo (Rovigo)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>44.955310, 11.435960</geo></geogName>
+                    <idno>http://137.204.128.125/places/77</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName><foreign>Badriniana</foreign> (Castelnovo Bariano; Rovigo)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>45.027056913095606,
+                        11.287214632160223</geo></geogName>
+                    <idno>http://137.204.128.125/places/78</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>Settepolesini (Bondeno; Ferrara)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>44.896340922882764,
+                        11.45812168465294</geo></geogName>
+                    <idno>http://137.204.128.125/places/79</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>Ferrara</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>44.837329576774, 11.619491681367217</geo></geogName>
+                    <idno>http://137.204.128.125/places/80</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName><foreign>Funziano</foreign> (Badia a Cerreto; Firenze)</placeName>
+                    <placeName type="other"><foreign>Maceline</foreign>; <foreign>Fonziano</foreign>
+                    </placeName>
+                    <geogName type="coord"><geo>43.54551, 11.01733</geo></geogName>
+                    <idno>http://137.204.128.125/places/81</idno>
+                    <note>Ipotesi di identificazione a partire da un documento camaldolese del 1085
+                        rogato <foreign>in Fonziano</foreign> presso la chiesa di S. Pietro
+                            <foreign>in Cerreto</foreign> col quale Bolgarello figlio di Rodolfo
+                        cedè ai Camaldolensi la chiesa di S. Pietro a Fonziano per entrare in
+                        monastero; cfr. Repetti, II, p. 692.</note>
+                </place>
+                <place>
+                    <placeName>Corticella (Bologna)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>44.54895708135218,
+                        11.35478613287745</geo></geogName>
+                    <idno>http://137.204.128.125/places/82</idno>
+                    <note><foreign>Corticelle</foreign> identificato con Corticella nel Bolognese
+                        per prossimità alle altre terre oggetto della permuta del 936 fra l'abate
+                        Ingelberto e Bonifacio degli Hucpoldingi. </note>
                     <note/>
                 </place>
                 

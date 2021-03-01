@@ -63,7 +63,6 @@
                         subtype="hasConnectionWith"/>
                     <link type="people" corresp="#http://137.204.128.125/people/49" subtype="link"/>
                     <link type="people" corresp="#http://137.204.128.125/people/22" subtype="link"/>
-                    <link type="juridical_persons"/>
                 </org>
                 
                 <org>
@@ -93,14 +92,13 @@
                     <note></note>
                     <link type="places" corresp="#http://137.204.128.125/places/11"
                         subtype="isAdjacentTo"/>
-                    <link type="juridical_persons"/>
                     <link type="juridical_persons"
                         corresp="#http://137.204.128.125/juridical_persons/34"/>
                 </org>
                 <org>
                     <orgName>Casa Dei; coenobium (Cadeo; Piacenza)</orgName>
                     <idno>http://137.204.128.125/juridical_persons/67</idno>
-                    <note>Ciliberti e Salvestrini 2014</note>
+                    <note>Ciliberti e Salvestrini 2014.</note>
                 </org>
                 <org>
                     <orgName>Sanctus Martinus; episcopium (Lucca)</orgName>
@@ -163,7 +161,16 @@
                     <link type="places" corresp="#http://137.204.128.125/places/43"
                         subtype="isWithin"/>
                 </org>
-
+                <org>
+                    <orgName>Sancta Maria de Septi Policino; plebs (Ferrara)</orgName>
+                    <orgName type="other"/>
+                    <idno>http://137.204.128.125/juridical_persons/76</idno>
+                    <note>Dalla permuta del 936 non si desume la dedicazione. Si riporta qui la
+                        dedicazione moderna.</note>
+                    <link type="places" corresp="#http://137.204.128.125/places/79"
+                        subtype="hasConnectionWith"/>
+                </org>
+             
             </listOrg>
         </body>
     </text>
