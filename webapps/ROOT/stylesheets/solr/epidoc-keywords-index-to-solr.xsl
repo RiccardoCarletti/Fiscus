@@ -51,7 +51,7 @@
     </add>-->
     
       <add>
-        <xsl:for-each-group select="//tei:rs[ancestor::tei:div/@type='edition']" group-by="lower-case(concat(@key, '-', .))">
+        <xsl:for-each-group select="//tei:rs[ancestor::tei:div[@type='edition']]" group-by="lower-case(@key)">
         <doc>
           <field name="document_type">
             <xsl:value-of select="$subdirectory" />
@@ -70,9 +70,9 @@
               </xsl:otherwise>
             </xsl:choose>
           </field>
-            <field name="index_keys">
+            <!--<field name="index_keys">
               <xsl:value-of select="." />
-            </field>
+            </field>-->
           <xsl:apply-templates select="current-group()" />
         </doc>
       </xsl:for-each-group>

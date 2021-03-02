@@ -85,7 +85,7 @@
     body listPlace place geo:before {
         content: "Coordinates (Lat, Long): "
         oxy_htmlContent(
-             content, "<span style='font:11px'>[<a href='https://www.latlong.net/'>Search</a>]</span>")
+             content, "<span style='font:11px'>[<a href='https://www.gps-coordinates.net/'>Search</a>]</span>")
               /*oxy_htmlContent(
              href, "../resources/map.html",
             id, "p_prova",
