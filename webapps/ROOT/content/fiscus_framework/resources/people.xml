@@ -54,7 +54,7 @@
                 </person>
                 
                 <person>
-                    <persName>Gherardus (-961) comes (Aldobrandeschi)</persName>
+                    <persName>Gherardus (961) comes (Aldobrandeschi)</persName>
                     <idno>http://137.204.128.125/people/5</idno>
                     <note>Collavini 1998, pp. 75-76, 79.</note>
                     <link type="places" corresp="#http://137.204.128.125/places/36"
@@ -106,19 +106,20 @@
                 </person>
                 
                 <person>
-                    <persName>Adelchis</persName>
+                    <persName>Liutprandus (690?-744) rex</persName>
                     <idno>http://137.204.128.125/people/12</idno>
                     <note></note>
+                    <link type="people" corresp="#http://137.204.128.125/people/88"
+                        subtype="dominusOf"/>
                 </person>
                 
                 <person>
-                    <persName>Adelchis</persName>
+                    <persName>Adelchis (759-788?) rex</persName>
                     <idno>http://137.204.128.125/people/13</idno>
-                    <note>Emperor/king</note>
                 </person>
                 
                 <person>
-                    <persName>Carolus Magnus (742?-814) imperator</persName>
+                    <persName>Carolus I Magnus (742?-814) imperator</persName>
                     <idno>http://137.204.128.125/people/14</idno>
                     <note/>
                 </person>
@@ -475,12 +476,29 @@
                     <link type="juridical_persons"
                         corresp="#http://137.204.128.125/juridical_persons/47" subtype="link"/>
                     <link type="people" corresp="#http://137.204.128.125/people/49" subtype="link"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/89" subtype="sonOf"/>
                 </person>
                 <person>
                     <persName>Leo VII (935-939) papa</persName>
                     <persName type="other"/>
                     <idno>http://137.204.128.125/people/87</idno>
                     <note/>
+                </person>
+                <person>
+                    <persName>Gregorius (q.797) iocator</persName>
+                    <persName type="other"/>
+                    <idno>http://137.204.128.125/people/88</idno>
+                    <note>Filius quondam Greco.</note>
+                    <link type="people" corresp="#http://137.204.128.125/people/12"
+                        subtype="extendedHouseholdOf"/>
+                </person>
+                <person>
+                    <persName>Vectari (q.797)</persName>
+                    <persName type="other"/>
+                    <idno>http://137.204.128.125/people/89</idno>
+                    <note/>
+                    <link type="people" corresp="#http://137.204.128.125/people/86"
+                        subtype="fatherOf"/>
                 </person>
                 
             </listPerson>

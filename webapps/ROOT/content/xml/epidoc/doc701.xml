@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc701">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Archivio Abbaziale di Nonantola, Pergamene, II 1bis</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus
+                        Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="uri">http://137.204.128.125/documents/doc701</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">Yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0801-05-29">
+                                <note type="displayed_date">801 May 29</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date"><foreign>super fluvium Renum</foreign>
+                                    (Bologna)</note>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-02-08" who="emanarini">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab> In nomine Patris et Filii et Spiritus Sancti. Karolus serenissimus augustus
+                        a Deo coronatus magnus pacificus imperator Romanum gubernans imperium, qui
+                        et per misericordiam Dei rex Francorum atque Langobardorum. Cum nos in Dei
+                        nomine territorio Bononiense a Roma redeuntibus pervenissemus, ibique super
+                        fluvium Renum una cum episcopis abbatibus ducibus comitibus seu reliquis
+                        obtimatibus et ceteris fidelibus nostris ad universorum causas audiendas vel
+                        recta iudicia termi- nanda resederemus, Vitalis sancte Bononiensium urbis
+                        ecclesie episcopus interpellavit Anselmum venerabilem abbatem ex monasterio,
+                        quod est in honore domini et salvatoris nostri Iesu Christi et sanctorum
+                        apostolorum atque sancti Silvestri pontifìcis in loco nuncupante Nonantola
+                        constructum, dicens quod de una ecclesia baptismali, quae est constructa in
+                        honone sancti Mamme in loco nuncupante vico Liciano, pertinentem ad suum
+                        episcopatum, presbiterum suum nomine Ursum foras expulisset inlicite et
+                        omnia, quicquid ipse pres]biter ad ipsam ecclesiam conlaboratum habuerat,
+                        tam ipse abba quamque et monachi sui exinde contra iustitiam abstraxissent
+                        atque nullam potestam ei aut suo presbitero de ipsa ecclesia habere
+                        permisissent. Praedictus vero Anselmus venerabilis abba in praesente adstans
+                        taliter dedit in responsis, dicens quod Haistulfus quondam rex Langobardorum
+                        praedictum vicum Licianum una cum hominibus inibi pertinentibus, liberos pro
+                        liberis, servos pro servis, cum omni integritate per suum praeceptum ei ad
+                        partem praedicti monasterii sui delegasset et postea ipse cum habitatoribus
+                        loci illius ipsam ecclesiam una cum consensu Romani quondam episcopi
+                        suprascripte civitatis Bononiensium aedificasset et praedictus Romanus
+                        episcopus ad eius deprecationem consecrasset. Et cum inter eos non minima,
+                        sed maxirna vertebatur altercatio, adduxit in medio antedictus Anselmus abba
+                        praeceptum iam fati regis Haistulfi, ubi continebatur qualiter suprascriptum
+                        vicum cum aliis rebus ad se pertinentibus ei ad partem sepe dicti monasterii
+                        sui delegaverat vel confirmaverat. Ad haec iterum Vitalis episcopus cum suis
+                        sacerdotibus dixit, quia ipsa ecclesia de consacratione antecessores sui
+                        fuisset et legibus ad suam pertinere deberet parochiam. Cui iterum Anselmus
+                        abba dixit: ‘Consecrationem et confirmationem acque predicationem, quam
+                        antecessor eius in ipsa sancta Dei ecclesia secundum canonicam auctoritatem
+                        fecit, nos non contradicimus nec contradicere volumus neque suprascriptum
+                        Ursonem presbiterum de ipsa ecclesia foras misimus, sed ipse fuga lapsus
+                        ipsam ecclesiam dimisit; et si ipse presbiter suum ministerium canonice
+                        peragere potest, nos voluntarie et ipsam ecclesiam habere permitemus, in quo
+                        ordinatus fuit’. Ideoque visum est nobis una cum fidelibus nostris et iustum
+                        esse iudicavimus, ut memoratus vir venerabilis Vitalis sanctae Bononiensium
+                        urbis ecclesiae episcopus secundum canonicam auctoritatem in ipsa ecclesia
+                        consecrationem et praedicationem ..10..tionem peragere absque ullius
+                        inlicita contrarietate et presbiterum canonice ex suo ministerio inquirere
+                        et corrigere debeat atque memoratus presbiter Urso de ipsa ecclesia vel
+                        conlaboratu suo revestitus fieret; sed et iam fatus vir venerabilis Anselmus
+                        abba suique successores donationem, quam Haistulfus quondam rex ex suo
+                        largitatis munere ad partem monasterii sui delegavit vel confirmavit,
+                        pleniter teneat atque possideat cum omnia superposita et ibidem iuste et
+                        rationabiliter pertinentia et sit in postmodum ex ac re iuter eos sopita
+                        atque diffinita causatio. Et ut haec praeceptio atque diffinitio firmior
+                        habeatur et per tempora melior conservetur, de anulo nostro subter sigillari
+                        iussimus. Genesius ad vicem Enrcanbaldi scripsi et SR NT SID.  Data IIII
+                        kalendas iunias, anno primo Christo propitio imperii nostri et XXXIII regni
+                        nostri in Francia atque XXVIII in Italia. Actum in suprascripto territorio
+                        Bononiense super fluvium Renum; in Dei nomine feliciter. Amen. </ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>CHLA 88, n. 28; Manaresi, n. 12</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p>Manarini 2017</p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>Placito sotto forma di diploma</p>
+            </div>
+        </body>
+    </text>
+</TEI>
