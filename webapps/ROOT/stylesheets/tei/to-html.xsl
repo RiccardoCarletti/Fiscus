@@ -14,41 +14,58 @@
   <xsl:output method="html"/>
   <xsl:import href="../../kiln/stylesheets/tei/to-html.xsl" />
   
+  <!-- recurring paths & lists -->
+  <xsl:variable name="IP"><xsl:text>http://137.204.128.125/</xsl:text></xsl:variable>
+  <xsl:variable name="resources"><xsl:value-of select="concat('file:',system-property('user.dir'),'/webapps/ROOT/content/fiscus_framework/resources/')"/></xsl:variable>
+  <xsl:variable name="epidoc"><xsl:value-of select="concat('file:',system-property('user.dir'),'/webapps/ROOT/content/xml/epidoc/')"/></xsl:variable>
+  <xsl:variable name="places" select="document(concat($resources, 'places.xml'))//tei:listPlace"/>
+  <xsl:variable name="juridical_persons" select="document(concat($resources, 'juridical_persons.xml'))//tei:listOrg"/>
+  <xsl:variable name="estates" select="document(concat($resources, 'estates.xml'))//tei:listPlace"/>
+  <xsl:variable name="people" select="document(concat($resources, 'people.xml'))//tei:listPerson"/>
+  <xsl:variable name="thesaurus" select="document(concat($resources, 'thesaurus.xml'))//tei:taxonomy"/>
+  
+  <!-- import @key values from markup in documents -->
+  <xsl:variable name="docnames"><xsl:for-each select="document(concat($resources, 'all_documents.xml'))//tei:item"><xsl:value-of select="@n"/><xsl:text>#</xsl:text></xsl:for-each></xsl:variable>
+  <xsl:variable name="docname" select="distinct-values(tokenize($docnames, '#'))"/>
+  <xsl:variable name="keys">
+    <xsl:for-each select="$docname">
+      <xsl:variable name="doc_name" select="."/>
+      <xsl:if test="fn:doc-available(concat($epidoc, $doc_name)) = fn:true()">
+        <xsl:for-each select="document(concat($epidoc, $doc_name))//tei:div[@type='edition']//tei:placeName[@key!=''][@ref]">
+          <p class="place_keys"><xsl:attribute name="id"><xsl:value-of select="substring-after(@ref, 'places/')"/></xsl:attribute><!--<xsl:attribute name="resource"><xsl:value-of select="substring-after(substring-before($doc_name, '.xml'), 'doc')"/></xsl:attribute>--><xsl:value-of select="translate(@key, '#', '')"/><xsl:if test="position()!=last()"><xsl:text> </xsl:text></xsl:if></p>
+        </xsl:for-each>
+        <xsl:for-each select="document(concat($epidoc, $doc_name))//tei:div[@type='edition']//tei:geogName[@key!=''][@ref]">
+          <p class="estate_keys"><xsl:attribute name="id"><xsl:value-of select="substring-after(@ref, 'estates/')"/></xsl:attribute><!--<xsl:attribute name="resource"><xsl:value-of select="substring-after(substring-before($doc_name, '.xml'), 'doc')"/></xsl:attribute>--><xsl:value-of select="translate(@key, '#', '')"/><xsl:if test="position()!=last()"><xsl:text> </xsl:text></xsl:if></p>
+        </xsl:for-each>
+        <xsl:for-each select="document(concat($epidoc, $doc_name))//tei:div[@type='edition']//tei:persName[@key!=''][@ref]">
+          <p class="person_keys"><xsl:attribute name="id"><xsl:value-of select="substring-after(@ref, 'people/')"/></xsl:attribute><!--<xsl:attribute name="resource"><xsl:value-of select="substring-after(substring-before($doc_name, '.xml'), 'doc')"/></xsl:attribute>--><xsl:value-of select="translate(@key, '#', '')"/><xsl:if test="position()!=last()"><xsl:text> </xsl:text></xsl:if></p>
+        </xsl:for-each>
+        <xsl:for-each select="document(concat($epidoc, $doc_name))//tei:div[@type='edition']//tei:orgName[@key!=''][@ref]">
+          <p class="jp_keys"><xsl:attribute name="id"><xsl:value-of select="substring-after(@ref, 'juridical_persons/')"/></xsl:attribute><!--<xsl:attribute name="resource"><xsl:value-of select="substring-after(substring-before($doc_name, '.xml'), 'doc')"/></xsl:attribute>--><xsl:value-of select="translate(@key, '#', '')"/><xsl:if test="position()!=last()"><xsl:text> </xsl:text></xsl:if></p>
+        </xsl:for-each>
+      
+      </xsl:if>
+    </xsl:for-each>
+  </xsl:variable>
+  
+  <!-- import lists -->
   <xsl:template match="//tei:p[@n='import'][ancestor::tei:TEI[@xml:id='places']]">
-    <xsl:variable name="imported_text" select="document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/fiscus_framework/resources/places.xml'))//tei:listPlace"/>
-    <div class="imported_list">
-      <xsl:apply-templates select="$imported_text"/>
-    </div>
+    <div class="imported_list"><xsl:apply-templates select="$places"/></div>
   </xsl:template>
-  
   <xsl:template match="//tei:p[@n='import'][ancestor::tei:TEI[@xml:id='juridical_persons']]">
-    <xsl:variable name="imported_text" select="document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/fiscus_framework/resources/juridical_persons.xml'))//tei:listOrg"/>
-    <div class="imported_list">
-      <xsl:apply-templates select="$imported_text"/>
-    </div>
+    <div class="imported_list"><xsl:apply-templates select="$juridical_persons"/></div>
   </xsl:template>
-  
   <xsl:template match="//tei:p[@n='import'][ancestor::tei:TEI[@xml:id='estates']]">
-    <xsl:variable name="imported_text" select="document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/fiscus_framework/resources/estates.xml'))//tei:listPlace"/>
-    <div class="imported_list">
-      <xsl:apply-templates select="$imported_text"/>
-    </div>
+    <div class="imported_list"><xsl:apply-templates select="$estates"/></div>
   </xsl:template>
-  
   <xsl:template match="//tei:p[@n='import'][ancestor::tei:TEI[@xml:id='people']]">
-    <xsl:variable name="imported_text" select="document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/fiscus_framework/resources/people.xml'))//tei:listPerson"/>
-    <div class="imported_list">
-      <xsl:apply-templates select="$imported_text"/>
-    </div>
+    <div class="imported_list"><xsl:apply-templates select="$people"/></div>
   </xsl:template>
-  
   <xsl:template match="//tei:p[@n='import'][ancestor::tei:TEI[@xml:id='thesaurus']]">
-    <xsl:variable name="imported_text" select="document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/fiscus_framework/resources/thesaurus.xml'))//tei:taxonomy"/>
-    <div class="imported_list">
-      <xsl:apply-templates select="$imported_text"/>
-    </div>
+    <div class="imported_list"><xsl:apply-templates select="$thesaurus"/></div>
   </xsl:template>
   
+  <!-- order lists items -->
   <xsl:template match="//tei:listPlace[@type='places']">
     <xsl:apply-templates select="tei:place"><xsl:sort select="./tei:placeName[1]" order="ascending"></xsl:sort></xsl:apply-templates>
   </xsl:template>
@@ -62,8 +79,24 @@
     <xsl:apply-templates select="tei:person"><xsl:sort select="./tei:persName[1]" order="ascending"></xsl:sort></xsl:apply-templates>
   </xsl:template>
   
+  <!-- display places and estates -->
   <xsl:template match="//tei:listPlace/tei:place">
-    <xsl:variable name="id" select="substring-after(substring-after(translate(tei:idno, '#', ''), 'http://137.204.128.125/'), '/')"/>
+    <xsl:variable name="type-id" select="substring-after(translate(tei:idno, '#', ''), $IP)"/>
+    <xsl:variable name="id" select="substring-after($type-id, '/')"/>
+    
+    <xsl:variable name="linked_keys_place"><xsl:for-each select="$keys//p[@class='place_keys'][@id=$id]">
+      <xsl:value-of select="lower-case(.)"/><xsl:if test="position()!=last()"><xsl:text> </xsl:text></xsl:if></xsl:for-each></xsl:variable>
+    <xsl:variable name="all_linked_keys_place" select="distinct-values(tokenize(lower-case($linked_keys_place), '\s+?'))"/>
+    <xsl:variable name="all_keys_place">
+      <xsl:for-each select="$all_linked_keys_place"><xsl:sort order="ascending"/><xsl:value-of select="replace(., '_', ' ')"/><xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if></xsl:for-each>
+    </xsl:variable>
+    
+    <xsl:variable name="linked_keys_estate"><xsl:for-each select="$keys//p[@class='estate_keys'][@id=$id]">
+      <xsl:value-of select="lower-case(.)"/><xsl:if test="position()!=last()"><xsl:text> </xsl:text></xsl:if></xsl:for-each></xsl:variable>
+    <xsl:variable name="all_linked_keys_estate" select="distinct-values(tokenize(lower-case($linked_keys_estate), '\s+?'))"/>
+    <xsl:variable name="all_keys_estate">
+      <xsl:for-each select="$all_linked_keys_estate"><xsl:sort order="ascending"/><xsl:value-of select="replace(., '_', ' ')"/><xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if></xsl:for-each>
+    </xsl:variable>
     
     <div class="list_item"><xsl:attribute name="id"><xsl:value-of select="$id"/></xsl:attribute>
       <xsl:if test="tei:placeName"><p class="item_name"><xsl:apply-templates select="tei:placeName[1]"/></p></xsl:if>
@@ -74,90 +107,106 @@
         <xsl:if test="tei:idno"><strong><xsl:text>Item number: </xsl:text></strong><xsl:value-of select="translate(tei:idno, '#', '')"/><br/></xsl:if>
         <xsl:if test="tei:note//text()"><strong><xsl:text>Commentary/Bibliography: </xsl:text></strong><xsl:apply-templates select="tei:note"/><br/></xsl:if>
         <xsl:if test="tei:link[@corresp]"><xsl:for-each select="tei:link[@corresp]"><strong><xsl:text>Linked to (</xsl:text><xsl:value-of select="@type"/><xsl:if test="@subtype"><xsl:text>; </xsl:text><xsl:value-of select="@subtype"/></xsl:if><xsl:text>): </xsl:text></strong> <xsl:apply-templates select="@corresp"/><br/></xsl:for-each></xsl:if>
+        <xsl:if test="tei:geogName[descendant::tei:geo]"><xsl:if test="matches($all_keys_place, '.*[a-zA-Z].*')"><strong><xsl:text>Linked keys: </xsl:text></strong> 
+          <xsl:value-of select="replace(replace($all_keys_place, ',$', ''), '^, ', '')"/>
+            <br/></xsl:if></xsl:if>
+        <xsl:if test="tei:geogName[not(descendant::tei:geo)]"><xsl:if test="matches($all_keys_estate, '.*[a-zA-Z].*')"><strong><xsl:text>Linked keys: </xsl:text></strong> 
+          <xsl:value-of select="replace(replace($all_keys_estate, ',$', ''), '^, ', '')"/><br/></xsl:if></xsl:if>
         <xsl:if test="tei:idno"><strong><a><xsl:attribute name="href">
           <xsl:choose>
-            <xsl:when test="ancestor::tei:listPlace[@type='places']"><xsl:value-of select="concat('../indices/epidoc/places.html#', substring-after(substring-after(translate(tei:idno, '#', ''), 'http://137.204.128.125/'), '/'))"/></xsl:when>
-            <xsl:otherwise><xsl:value-of select="concat('../indices/epidoc/estates.html#', substring-after(substring-after(translate(tei:idno, '#', ''), 'http://137.204.128.125/'), '/'))"/></xsl:otherwise>
+            <xsl:when test="ancestor::tei:listPlace[@type='places']"><xsl:value-of select="concat('../indices/epidoc/places.html#', substring-after(substring-after(translate(tei:idno, '#', ''), $IP), '/'))"/></xsl:when>
+            <xsl:otherwise><xsl:value-of select="concat('../indices/epidoc/estates.html#', substring-after(substring-after(translate(tei:idno, '#', ''), $IP), '/'))"/></xsl:otherwise>
           </xsl:choose>
-        </xsl:attribute><xsl:text>See linked documents</xsl:text></a></strong><br/></xsl:if>
+        </xsl:attribute>
+          <xsl:text>See linked documents</xsl:text></a></strong><br/></xsl:if>
       </p>
     </div>
   </xsl:template>
   
+  <!-- display juridical persons -->
   <xsl:template match="//tei:listOrg/tei:org">
-    <div class="list_item"><xsl:attribute name="id"><xsl:value-of select="substring-after(substring-after(translate(tei:idno, '#', ''), 'http://137.204.128.125/'), '/')"/></xsl:attribute>
+    <xsl:variable name="type-id" select="substring-after(translate(tei:idno, '#', ''), $IP)"/>
+    <xsl:variable name="id" select="substring-after($type-id, '/')"/>
+    
+    <xsl:variable name="linked_keys"><xsl:for-each select="$keys//p[@class='jp_keys'][@id=$id]">
+      <xsl:value-of select="lower-case(.)"/><xsl:if test="position()!=last()"><xsl:text> </xsl:text></xsl:if></xsl:for-each></xsl:variable>
+    <xsl:variable name="all_linked_keys" select="distinct-values(tokenize(lower-case($linked_keys), '\s+?'))"/>
+    <xsl:variable name="all_keys">
+      <xsl:for-each select="$all_linked_keys"><xsl:sort order="ascending"/><xsl:value-of select="replace(., '_', ' ')"/><xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if></xsl:for-each>
+    </xsl:variable>
+    
+    <div class="list_item"><xsl:attribute name="id"><xsl:value-of select="substring-after(substring-after(translate(tei:idno, '#', ''), $IP), '/')"/></xsl:attribute>
       <xsl:if test="tei:orgName"><p class="item_name"><xsl:apply-templates select="tei:orgName[1]"/></p></xsl:if>
       <p><xsl:if test="tei:orgName[@type='other']//text()"><strong><xsl:text>Also known as: </xsl:text></strong><xsl:apply-templates select="tei:orgName[@type='other']"/><br/></xsl:if>
         <xsl:if test="tei:idno"><strong><xsl:text>Item number: </xsl:text></strong><xsl:value-of select="translate(tei:idno, '#', '')"/><br/></xsl:if>
         <xsl:if test="tei:note//text()"><strong><xsl:text>Commentary/Bibliography: </xsl:text></strong><xsl:apply-templates select="tei:note"/><br/></xsl:if>
         <xsl:if test="tei:link[@corresp]"><xsl:for-each select="tei:link[@corresp]"><strong><xsl:text>Linked to (</xsl:text><xsl:value-of select="@type"/><xsl:if test="@subtype"><xsl:text>; </xsl:text><xsl:value-of select="@subtype"/></xsl:if><xsl:text>): </xsl:text></strong> <xsl:apply-templates select="@corresp"/><br/></xsl:for-each></xsl:if>
-        <xsl:if test="tei:idno"><strong><a><xsl:attribute name="href"><xsl:value-of select="concat('../indices/epidoc/juridical_persons.html#', substring-after(substring-after(translate(tei:idno, '#', ''), 'http://137.204.128.125/'), '/'))"/></xsl:attribute><xsl:text>See linked documents</xsl:text></a></strong><br/></xsl:if>
+        <xsl:if test="matches($all_keys, '.*[a-zA-Z].*')"><strong><xsl:text>Linked keys: </xsl:text></strong> 
+          <xsl:value-of select="replace(replace($all_keys, ',$', ''), '^, ', '')"/><br/></xsl:if>
+        <xsl:if test="tei:idno"><strong><a><xsl:attribute name="href"><xsl:value-of select="concat('../indices/epidoc/juridical_persons.html#', substring-after(substring-after(translate(tei:idno, '#', ''), $IP), '/'))"/></xsl:attribute><xsl:text>See linked documents</xsl:text></a></strong><br/></xsl:if>
       </p>
     </div>
   </xsl:template>
   
+  <!-- display persons -->
   <xsl:template match="//tei:listPerson/tei:person">
-    <div class="list_item"><xsl:attribute name="id"><xsl:value-of select="substring-after(substring-after(translate(tei:idno, '#', ''), 'http://137.204.128.125/'), '/')"/></xsl:attribute>
+    <xsl:variable name="type-id" select="substring-after(translate(tei:idno, '#', ''), $IP)"/>
+    <xsl:variable name="id" select="substring-after($type-id, '/')"/>
+
+    <xsl:variable name="linked_keys"><xsl:for-each select="$keys//p[@class='person_keys'][@id=$id]">
+      <xsl:value-of select="lower-case(.)"/><xsl:if test="position()!=last()"><xsl:text> </xsl:text></xsl:if></xsl:for-each></xsl:variable>
+    <xsl:variable name="all_linked_keys" select="distinct-values(tokenize(lower-case($linked_keys), '\s+?'))"/>
+    <xsl:variable name="all_keys">
+      <xsl:for-each select="$all_linked_keys"><xsl:sort order="ascending"/><xsl:value-of select="replace(., '_', ' ')"/><xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if></xsl:for-each>
+    </xsl:variable>
+    
+    <div class="list_item"><xsl:attribute name="id"><xsl:value-of select="substring-after(substring-after(translate(tei:idno, '#', ''), $IP), '/')"/></xsl:attribute>
       <xsl:if test="tei:persName"><p class="item_name"><xsl:apply-templates select="tei:persName[1]"/></p></xsl:if>
       <p><xsl:if test="tei:persName[@type='other']//text()"><strong><xsl:text>Also known as: </xsl:text></strong><xsl:apply-templates select="tei:persName[@type='other']"/><br/></xsl:if>
         <xsl:if test="tei:idno"><strong><xsl:text>Item number: </xsl:text></strong><xsl:value-of select="translate(tei:idno, '#', '')"/><br/></xsl:if>
         <xsl:if test="tei:note//text()"><strong><xsl:text>Commentary/Bibliography: </xsl:text></strong><xsl:apply-templates select="tei:note"/><br/></xsl:if>
         <xsl:if test="tei:link[@corresp]"><xsl:for-each select="tei:link[@corresp]"><strong><xsl:text>Linked to (</xsl:text><xsl:value-of select="@type"/><xsl:if test="@subtype"><xsl:text>; </xsl:text><xsl:value-of select="@subtype"/></xsl:if><xsl:text>): </xsl:text></strong> <xsl:apply-templates select="@corresp"/><br/></xsl:for-each></xsl:if>
-        <xsl:if test="tei:idno"><strong><a><xsl:attribute name="href"><xsl:value-of select="concat('../indices/epidoc/people.html#', substring-after(substring-after(translate(tei:idno, '#', ''), 'http://137.204.128.125/'), '/'))"/></xsl:attribute><xsl:text>See linked documents</xsl:text></a></strong><br/></xsl:if>
+        <xsl:if test="matches($all_keys, '.*[a-zA-Z].*')"><strong><xsl:text>Linked keys: </xsl:text></strong> 
+          <xsl:value-of select="replace(replace($all_keys, ',$', ''), '^, ', '')"/><br/></xsl:if>
+        <xsl:if test="tei:idno"><strong><a><xsl:attribute name="href"><xsl:value-of select="concat('../indices/epidoc/people.html#', substring-after(substring-after(translate(tei:idno, '#', ''), $IP), '/'))"/></xsl:attribute><xsl:text>See linked documents</xsl:text></a></strong><br/></xsl:if>
       </p>
     </div>
   </xsl:template>
   
+  <!-- display thesaurus -->
   <xsl:template match="//tei:taxonomy//tei:catDesc">
     <div class="list_item">
       <p><xsl:value-of select="."/></p>
     </div>
   </xsl:template>
   
+  <!-- links to linked items -->
   <xsl:template match="//*/@corresp">
     <xsl:variable select="translate(.,'#','')" name="corresp"/>
-    <xsl:variable name="place" select="document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/fiscus_framework/resources/places.xml'))//tei:listPlace/tei:place[tei:idno=$corresp]/tei:placeName[1]"/>
-    <xsl:variable name="estate" select="document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/fiscus_framework/resources/estates.xml'))//tei:listPlace/tei:place[tei:idno=$corresp]/tei:geogName[1]"/>
-    <xsl:variable name="person" select="document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/fiscus_framework/resources/people.xml'))//tei:listPerson/tei:person[tei:idno=$corresp]/tei:persName[1]"/>
-    <xsl:variable name="juridical_person" select="document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/fiscus_framework/resources/juridical_persons.xml'))//tei:listOrg/tei:org[tei:idno=$corresp]/tei:orgName[1]"/>
+    <xsl:variable name="place" select="$places/tei:place[tei:idno=$corresp]/tei:placeName[1]"/>
+    <xsl:variable name="estate" select="$estates/tei:place[tei:idno=$corresp]/tei:geogName[1]"/>
+    <xsl:variable name="person" select="$people/tei:person[tei:idno=$corresp]/tei:persName[1]"/>
+    <xsl:variable name="juridical_person" select="$juridical_persons/tei:org[tei:idno=$corresp]/tei:orgName[1]"/>
     <xsl:choose>
-      <xsl:when test="$place"><a><xsl:attribute name="href"><xsl:value-of select="concat('./places.html#', substring-after(substring-after(translate(.,'#',''), 'http://137.204.128.125/'), '/'))"/></xsl:attribute><xsl:apply-templates select="$place"/></a></xsl:when>
-      <xsl:when test="$estate"><a><xsl:attribute name="href"><xsl:value-of select="concat('./estates.html#', substring-after(substring-after(translate(.,'#',''), 'http://137.204.128.125/'), '/'))"/></xsl:attribute><xsl:apply-templates select="$estate"/></a></xsl:when>
-      <xsl:when test="$person"><a><xsl:attribute name="href"><xsl:value-of select="concat('./people.html#', substring-after(substring-after(translate(.,'#',''), 'http://137.204.128.125/'), '/'))"/></xsl:attribute><xsl:apply-templates select="$person"/></a></xsl:when>
-      <xsl:when test="$juridical_person"><a><xsl:attribute name="href"><xsl:value-of select="concat('./juridical_persons.html#', substring-after(substring-after(translate(.,'#',''), 'http://137.204.128.125/'), '/'))"/></xsl:attribute><xsl:apply-templates select="$juridical_person"/></a></xsl:when>
+      <xsl:when test="$place"><a><xsl:attribute name="href"><xsl:value-of select="concat('./places.html#', substring-after(substring-after(translate(.,'#',''), $IP), '/'))"/></xsl:attribute><xsl:apply-templates select="$place"/></a></xsl:when>
+      <xsl:when test="$estate"><a><xsl:attribute name="href"><xsl:value-of select="concat('./estates.html#', substring-after(substring-after(translate(.,'#',''), $IP), '/'))"/></xsl:attribute><xsl:apply-templates select="$estate"/></a></xsl:when>
+      <xsl:when test="$person"><a><xsl:attribute name="href"><xsl:value-of select="concat('./people.html#', substring-after(substring-after(translate(.,'#',''), $IP), '/'))"/></xsl:attribute><xsl:apply-templates select="$person"/></a></xsl:when>
+      <xsl:when test="$juridical_person"><a><xsl:attribute name="href"><xsl:value-of select="concat('./juridical_persons.html#', substring-after(substring-after(translate(.,'#',''), $IP), '/'))"/></xsl:attribute><xsl:apply-templates select="$juridical_person"/></a></xsl:when>
       <xsl:otherwise><xsl:value-of select="translate(.,'#','')"/></xsl:otherwise>
     </xsl:choose>
   </xsl:template>
   
+  
+  
+  
   <!-- MAP -->
   <xsl:template match="//tei:addSpan[@xml:id='map']">
-    <xsl:variable name="imported_places" select="document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/fiscus_framework/resources/places.xml'))//tei:listPlace"/>
-    <xsl:variable name="imported_people" select="document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/fiscus_framework/resources/people.xml'))//tei:listPerson"/>
-    <xsl:variable name="imported_juridical_persons" select="document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/fiscus_framework/resources/juridical_persons.xml'))//tei:listOrg"/>
-    <xsl:variable name="imported_estates" select="document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/fiscus_framework/resources/estates.xml'))//tei:listPlace"/>
-    <xsl:variable name="imported_thesaurus" select="document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/fiscus_framework/resources/thesaurus.xml'))//tei:taxonomy"/>
-     
-     <!-- to import keys related to <placeName>s from documents -->
-    <xsl:variable name="docnames">
-       <xsl:for-each select="document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/fiscus_framework/resources/all_documents.xml'))//tei:item"><xsl:value-of select="@n"/><xsl:text>#</xsl:text></xsl:for-each></xsl:variable>
-    <xsl:variable name="docname" select="distinct-values(tokenize($docnames, '#'))"/>
-      <xsl:variable name="keys">
-        <xsl:for-each select="$docname">
-          <xsl:variable name="doc_name" select="."/>
-            <xsl:if test="fn:doc-available(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/xml/epidoc/', $doc_name)) = fn:true()">
-              <xsl:for-each select="document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/xml/epidoc/', $doc_name))//tei:div[@type='edition']//tei:placeName[@key][@ref]">
-                <p><xsl:attribute name="id"><xsl:value-of select="substring-after(@ref, 'places/')"/></xsl:attribute>
-                  <xsl:text>#</xsl:text><xsl:value-of select="substring-after(@ref, 'places/')"/><xsl:text>: </xsl:text>
-                  <xsl:value-of select="translate(@key, '#', '')"/></p>
-              </xsl:for-each>
-          </xsl:if>
-      </xsl:for-each>
-    </xsl:variable>
     
     <xsl:variable name="map_points">
-      <xsl:text>{</xsl:text><xsl:for-each select="$imported_places/tei:place[descendant::tei:geo/text()]">
+      <xsl:text>{</xsl:text><xsl:for-each select="$places/tei:place[descendant::tei:geo/text()]">
         <xsl:variable name="name" select="normalize-space(translate(tei:placeName[1], ',', '; '))"/>
-        <xsl:variable name="id" select="substring-after(substring-after(translate(descendant::tei:idno,'#',''), 'http://137.204.128.125/'), '/')"/>
+        <xsl:variable name="type-id" select="substring-after(translate(descendant::tei:idno,'#',''), $IP)"/>
+        <xsl:variable name="id" select="substring-after($type-id, '/')"/>
         <xsl:text>"</xsl:text><xsl:value-of select="$name"/><xsl:text>#</xsl:text><xsl:value-of select="$id"/><xsl:text>": "</xsl:text><xsl:choose>
           <xsl:when test="contains(normalize-space(tei:geogName/tei:geo), ';')"><xsl:value-of select="substring-before(tei:geogName/tei:geo, ';')"/></xsl:when>
           <xsl:otherwise><xsl:value-of select="normalize-space(tei:geogName/tei:geo)"/></xsl:otherwise>
@@ -166,24 +215,26 @@
     
     <xsl:variable name="map_polygons">
       <xsl:text>{</xsl:text>
-      <xsl:for-each select="$imported_places/tei:place[contains(descendant::tei:geo, ';')][descendant::tei:geo/text()]">
+      <xsl:for-each select="$places/tei:place[contains(descendant::tei:geo, ';')][descendant::tei:geo/text()]">
         <xsl:variable name="name" select="normalize-space(translate(tei:placeName[1], ',', '; '))"/>
-        <xsl:variable name="id" select="substring-after(substring-after(translate(descendant::tei:idno,'#',''), 'http://137.204.128.125/'), '/')"/>
+        <xsl:variable name="type-id" select="substring-after(translate(descendant::tei:idno,'#',''), $IP)"/>
+        <xsl:variable name="id" select="substring-after($type-id, '/')"/>
         <xsl:text>"</xsl:text><xsl:value-of select="$name"/><xsl:text>#</xsl:text><xsl:value-of select="$id"/><xsl:text>": "[</xsl:text><xsl:value-of select="replace(replace(normalize-space(tei:geogName/tei:geo), ', ', ','), '; ', ']; [')"/><xsl:text>]"</xsl:text><xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if>
       </xsl:for-each>
       <xsl:text>}</xsl:text>
     </xsl:variable>
     
     <xsl:variable name="map_blue_points">
-      <xsl:text>{</xsl:text><xsl:for-each select="$imported_places/tei:place[descendant::tei:geo/text()]">
+      <xsl:text>{</xsl:text><xsl:for-each select="$places/tei:place[descendant::tei:geo/text()]">
         <xsl:variable name="name" select="normalize-space(translate(tei:placeName[1], ',', '; '))"/>
-        <xsl:variable name="id" select="substring-after(substring-after(translate(descendant::tei:idno,'#',''), 'http://137.204.128.125/'), '/')"/>
+        <xsl:variable name="type-id" select="substring-after(translate(descendant::tei:idno,'#',''), $IP)"/>
+        <xsl:variable name="id" select="substring-after($type-id, '/')"/>
         <xsl:variable name="linked_jp" select="descendant::tei:link[@type='juridical_persons']"/>
         <xsl:variable name="linked_estates" select="descendant::tei:link[@type='estates']"/>
-        <xsl:variable name="linking_jp" select="$imported_juridical_persons//tei:org[descendant::tei:link[contains(concat('#', substring-after(substring-after(translate(@corresp,'#',''), 'http://137.204.128.125/'), '/'), '#'), concat('#', $id, '#'))]]"/>
-        <xsl:variable name="linking_estates" select="$imported_estates//tei:place[descendant::tei:link[contains(concat('#', substring-after(substring-after(translate(@corresp,'#',''), 'http://137.204.128.125/'), '/'), '#'), concat('#', $id, '#'))]]"/>
-        <xsl:variable name="linked_keys"><xsl:for-each select="$keys//p[@id=$id]"><xsl:value-of select="lower-case(.)"/></xsl:for-each></xsl:variable>
-        <xsl:variable name="all_keys" select="concat($linked_keys, ' ')"/>
+        <xsl:variable name="linking_jp" select="$juridical_persons//tei:org[descendant::tei:link[contains(concat('#', substring-after(substring-after(translate(@corresp,'#',''), $IP), '/'), '#'), concat('#', $id, '#'))]]"/>
+        <xsl:variable name="linking_estates" select="$estates//tei:place[descendant::tei:link[contains(concat('#', substring-after(substring-after(translate(@corresp,'#',''), $IP), '/'), '#'), concat('#', $id, '#'))]]"/>
+        <xsl:variable name="linked_keys"><xsl:for-each select="$keys//p[@class='place_keys'][@id=$id]"><xsl:value-of select="lower-case(.)"/><xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if></xsl:for-each></xsl:variable>
+        <xsl:variable name="all_keys" select="replace(normalize-space($linked_keys), ' ,', '')"/>
         <xsl:if test="not($linked_jp) and not($linked_estates) and not($linking_jp) and not($linking_estates) and not(matches($all_keys, '.*(fiscal_property).*'))">
           <xsl:text>"</xsl:text><xsl:value-of select="$name"/><xsl:text>#</xsl:text><xsl:value-of select="$id"/><xsl:text>": "</xsl:text><xsl:choose>
           <xsl:when test="contains(normalize-space(tei:geogName/tei:geo), ';')"><xsl:value-of select="substring-before(tei:geogName/tei:geo, ';')"/></xsl:when>
@@ -192,15 +243,16 @@
     </xsl:variable>
     
     <xsl:variable name="map_green_points">
-      <xsl:text>{</xsl:text><xsl:for-each select="$imported_places/tei:place[descendant::tei:geo/text()]">
+      <xsl:text>{</xsl:text><xsl:for-each select="$places/tei:place[descendant::tei:geo/text()]">
         <xsl:variable name="name" select="normalize-space(translate(tei:placeName[1], ',', '; '))"/>
-        <xsl:variable name="id" select="substring-after(substring-after(translate(descendant::tei:idno,'#',''), 'http://137.204.128.125/'), '/')"/>
+        <xsl:variable name="type-id" select="substring-after(translate(descendant::tei:idno,'#',''), $IP)"/>
+        <xsl:variable name="id" select="substring-after($type-id, '/')"/>
         <xsl:variable name="linked_jp" select="descendant::tei:link[@type='juridical_persons']"/>
         <xsl:variable name="linked_estates" select="descendant::tei:link[@type='estates']"/>
-        <xsl:variable name="linking_jp" select="$imported_juridical_persons//tei:org[descendant::tei:link[contains(concat('#', substring-after(substring-after(translate(@corresp,'#',''), 'http://137.204.128.125/'), '/'), '#'), concat('#', $id, '#'))]]"/>
-        <xsl:variable name="linking_estates" select="$imported_estates//tei:place[descendant::tei:link[contains(concat('#', substring-after(substring-after(translate(@corresp,'#',''), 'http://137.204.128.125/'), '/'), '#'), concat('#', $id, '#'))]]"/>
-        <xsl:variable name="linked_keys"><xsl:for-each select="$keys//p[@id=$id]"><xsl:value-of select="lower-case(.)"/></xsl:for-each></xsl:variable>
-        <xsl:variable name="all_keys" select="concat($linked_keys, ' ')"/>
+        <xsl:variable name="linking_jp" select="$juridical_persons//tei:org[descendant::tei:link[contains(concat('#', substring-after(substring-after(translate(@corresp,'#',''), $IP), '/'), '#'), concat('#', $id, '#'))]]"/>
+        <xsl:variable name="linking_estates" select="$estates//tei:place[descendant::tei:link[contains(concat('#', substring-after(substring-after(translate(@corresp,'#',''), $IP), '/'), '#'), concat('#', $id, '#'))]]"/>
+        <xsl:variable name="linked_keys"><xsl:for-each select="$keys//p[@class='place_keys'][@id=$id]"><xsl:value-of select="lower-case(.)"/><xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if></xsl:for-each></xsl:variable>
+        <xsl:variable name="all_keys" select="replace(normalize-space($linked_keys), ' ,', '')"/>
         <xsl:if test="matches($all_keys, '.*(fiscal_property).*') and not($linked_jp) and not($linking_jp)"> <!--<xsl:if test="$id='14' or $id='17'">-->
           <xsl:text>"</xsl:text><xsl:value-of select="$name"/><xsl:text>#</xsl:text><xsl:value-of select="$id"/><xsl:text>": "</xsl:text><xsl:choose>
           <xsl:when test="contains(normalize-space(tei:geogName/tei:geo), ';')"><xsl:value-of select="substring-before(tei:geogName/tei:geo, ';')"/></xsl:when>
@@ -209,18 +261,19 @@
     </xsl:variable>
     
     <xsl:variable name="map_greensquare_points">
-      <xsl:text>{</xsl:text><xsl:for-each select="$imported_places/tei:place[descendant::tei:geo/text()]">
+      <xsl:text>{</xsl:text><xsl:for-each select="$places/tei:place[descendant::tei:geo/text()]">
         <xsl:variable name="name" select="normalize-space(translate(tei:placeName[1], ',', '; '))"/>
-        <xsl:variable name="id" select="substring-after(substring-after(translate(descendant::tei:idno,'#',''), 'http://137.204.128.125/'), '/')"/>
+        <xsl:variable name="type-id" select="substring-after(translate(descendant::tei:idno,'#',''), $IP)"/>
+        <xsl:variable name="id" select="substring-after($type-id, '/')"/>
         <xsl:variable name="linked_jp" select="descendant::tei:link[@type='juridical_persons']"/>
         <xsl:variable name="linked_estates" select="descendant::tei:link[@type='estates']"/>
-        <xsl:variable name="linking_jp" select="$imported_juridical_persons//tei:org[descendant::tei:link[contains(concat('#', substring-after(substring-after(translate(@corresp,'#',''), 'http://137.204.128.125/'), '/'), '#'), concat('#', $id, '#'))]]"/>
-        <xsl:variable name="linking_estates" select="$imported_estates//tei:place[descendant::tei:link[contains(concat('#', substring-after(substring-after(translate(@corresp,'#',''), 'http://137.204.128.125/'), '/'), '#'), concat('#', $id, '#'))]]"/>
-        <xsl:variable name="linked_keys"><xsl:for-each select="$keys//p[@id=$id]"><xsl:value-of select="lower-case(.)"/></xsl:for-each></xsl:variable>
-        <xsl:variable name="all_keys" select="concat($linked_keys, ' ')"/>
+        <xsl:variable name="linking_jp" select="$juridical_persons//tei:org[descendant::tei:link[contains(concat('#', substring-after(substring-after(translate(@corresp,'#',''), $IP), '/'), '#'), concat('#', $id, '#'))]]"/>
+        <xsl:variable name="linking_estates" select="$estates//tei:place[descendant::tei:link[contains(concat('#', substring-after(substring-after(translate(@corresp,'#',''), $IP), '/'), '#'), concat('#', $id, '#'))]]"/>
+        <xsl:variable name="linked_keys"><xsl:for-each select="$keys//p[@class='place_keys'][@id=$id]"><xsl:value-of select="lower-case(.)"/><xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if></xsl:for-each></xsl:variable>
+        <xsl:variable name="all_keys" select="replace(normalize-space($linked_keys), ' ,', '')"/>
         <xsl:if test="not(matches($all_keys, '.*(fiscal_property).*')) and not($linked_jp) and not($linking_jp)">
             <xsl:if test="$linked_estates or $linking_estates">
-        <!--<xsl:if test="$imported_estates//tei:place[descendant::tei:link[contains(concat('#', substring-after(substring-after(translate(@corresp,'#',''), 'http://137.204.128.125/'), '/'), '#'), concat('#', $id, '#'))]]">-->
+        <!--<xsl:if test="$estates//tei:place[descendant::tei:link[contains(concat('#', substring-after(substring-after(translate(@corresp,'#',''), $IP), '/'), '#'), concat('#', $id, '#'))]]">-->
           <xsl:text>"</xsl:text><xsl:value-of select="$name"/><xsl:text>#</xsl:text><xsl:value-of select="$id"/><xsl:text>": "</xsl:text><xsl:choose>
             <xsl:when test="contains(normalize-space(tei:geogName/tei:geo), ';')"><xsl:value-of select="substring-before(tei:geogName/tei:geo, ';')"/></xsl:when>
             <xsl:otherwise><xsl:value-of select="normalize-space(tei:geogName/tei:geo)"/></xsl:otherwise>
@@ -228,15 +281,16 @@
     </xsl:variable>
     
     <xsl:variable name="map_red_points">
-      <xsl:text>{</xsl:text><xsl:for-each select="$imported_places/tei:place[descendant::tei:geo/text()]">
+      <xsl:text>{</xsl:text><xsl:for-each select="$places/tei:place[descendant::tei:geo/text()]">
         <xsl:variable name="name" select="normalize-space(translate(tei:placeName[1], ',', '; '))"/>
-        <xsl:variable name="id" select="substring-after(substring-after(translate(descendant::tei:idno,'#',''), 'http://137.204.128.125/'), '/')"/>
+        <xsl:variable name="type-id" select="substring-after(translate(descendant::tei:idno,'#',''), $IP)"/>
+        <xsl:variable name="id" select="substring-after($type-id, '/')"/>
         <xsl:variable name="linked_jp" select="descendant::tei:link[@type='juridical_persons']"/>
         <xsl:variable name="linked_estates" select="descendant::tei:link[@type='estates']"/>
-        <xsl:variable name="linking_jp" select="$imported_juridical_persons//tei:org[descendant::tei:link[contains(concat('#', substring-after(substring-after(translate(@corresp,'#',''), 'http://137.204.128.125/'), '/'), '#'), concat('#', $id, '#'))]]"/>
-        <xsl:variable name="linking_estates" select="$imported_estates//tei:place[descendant::tei:link[contains(concat('#', substring-after(substring-after(translate(@corresp,'#',''), 'http://137.204.128.125/'), '/'), '#'), concat('#', $id, '#'))]]"/>
-        <xsl:variable name="linked_keys"><xsl:for-each select="$keys//p[@id=$id]"><xsl:value-of select="lower-case(.)"/></xsl:for-each></xsl:variable>
-        <xsl:variable name="all_keys" select="concat($linked_keys, ' ')"/>
+        <xsl:variable name="linking_jp" select="$juridical_persons//tei:org[descendant::tei:link[contains(concat('#', substring-after(substring-after(translate(@corresp,'#',''), $IP), '/'), '#'), concat('#', $id, '#'))]]"/>
+        <xsl:variable name="linking_estates" select="$estates//tei:place[descendant::tei:link[contains(concat('#', substring-after(substring-after(translate(@corresp,'#',''), $IP), '/'), '#'), concat('#', $id, '#'))]]"/>
+        <xsl:variable name="linked_keys"><xsl:for-each select="$keys//p[@class='place_keys'][@id=$id]"><xsl:value-of select="lower-case(.)"/><xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if></xsl:for-each></xsl:variable>
+        <xsl:variable name="all_keys" select="replace(normalize-space($linked_keys), ' ,', '')"/>
         <xsl:if test="not(matches($all_keys, '.*(fiscal_property).*')) and not($linked_estates) and not($linking_estates)">
           <xsl:if test="$linked_jp or $linking_jp">
           <xsl:text>"</xsl:text><xsl:value-of select="$name"/><xsl:text>#</xsl:text><xsl:value-of select="$id"/><xsl:text>": "</xsl:text><xsl:choose>
@@ -246,15 +300,16 @@
     </xsl:variable>
     
     <xsl:variable name="map_greenred_points">
-      <xsl:text>{</xsl:text><xsl:for-each select="$imported_places/tei:place[descendant::tei:geo/text()]">
+      <xsl:text>{</xsl:text><xsl:for-each select="$places/tei:place[descendant::tei:geo/text()]">
         <xsl:variable name="name" select="normalize-space(translate(tei:placeName[1], ',', '; '))"/>
-        <xsl:variable name="id" select="substring-after(substring-after(translate(descendant::tei:idno,'#',''), 'http://137.204.128.125/'), '/')"/>
+        <xsl:variable name="type-id" select="substring-after(translate(descendant::tei:idno,'#',''), $IP)"/>
+        <xsl:variable name="id" select="substring-after($type-id, '/')"/>
         <xsl:variable name="linked_jp" select="descendant::tei:link[@type='juridical_persons']"/>
         <xsl:variable name="linked_estates" select="descendant::tei:link[@type='estates']"/>
-        <xsl:variable name="linking_jp" select="$imported_juridical_persons//tei:org[descendant::tei:link[contains(concat('#', substring-after(substring-after(translate(@corresp,'#',''), 'http://137.204.128.125/'), '/'), '#'), concat('#', $id, '#'))]]"/>
-        <xsl:variable name="linking_estates" select="$imported_estates//tei:place[descendant::tei:link[contains(concat('#', substring-after(substring-after(translate(@corresp,'#',''), 'http://137.204.128.125/'), '/'), '#'), concat('#', $id, '#'))]]"/>
-        <xsl:variable name="linked_keys"><xsl:for-each select="$keys//p[@id=$id]"><xsl:value-of select="lower-case(.)"/></xsl:for-each></xsl:variable>
-        <xsl:variable name="all_keys" select="concat($linked_keys, ' ')"/>
+        <xsl:variable name="linking_jp" select="$juridical_persons//tei:org[descendant::tei:link[contains(concat('#', substring-after(substring-after(translate(@corresp,'#',''), $IP), '/'), '#'), concat('#', $id, '#'))]]"/>
+        <xsl:variable name="linking_estates" select="$estates//tei:place[descendant::tei:link[contains(concat('#', substring-after(substring-after(translate(@corresp,'#',''), $IP), '/'), '#'), concat('#', $id, '#'))]]"/>
+        <xsl:variable name="linked_keys"><xsl:for-each select="$keys//p[@class='place_keys'][@id=$id]"><xsl:value-of select="lower-case(.)"/><xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if></xsl:for-each></xsl:variable>
+        <xsl:variable name="all_keys" select="replace(normalize-space($linked_keys), ' ,', '')"/>
         <xsl:if test="$linked_jp or $linking_jp">
           <xsl:if test="matches($all_keys, '.*(fiscal_property).*')">
           <xsl:text>"</xsl:text><xsl:value-of select="$name"/><xsl:text>#</xsl:text><xsl:value-of select="$id"/><xsl:text>": "</xsl:text><xsl:choose>
@@ -264,15 +319,16 @@
     </xsl:variable>
     
     <xsl:variable name="map_greenredsquare_points">
-      <xsl:text>{</xsl:text><xsl:for-each select="$imported_places/tei:place[descendant::tei:geo/text()]">
+      <xsl:text>{</xsl:text><xsl:for-each select="$places/tei:place[descendant::tei:geo/text()]">
         <xsl:variable name="name" select="normalize-space(translate(tei:placeName[1], ',', '; '))"/>
-        <xsl:variable name="id" select="substring-after(substring-after(translate(descendant::tei:idno,'#',''), 'http://137.204.128.125/'), '/')"/>
+        <xsl:variable name="type-id" select="substring-after(translate(descendant::tei:idno,'#',''), $IP)"/>
+        <xsl:variable name="id" select="substring-after($type-id, '/')"/>
         <xsl:variable name="linked_jp" select="descendant::tei:link[@type='juridical_persons']"/>
         <xsl:variable name="linked_estates" select="descendant::tei:link[@type='estates']"/>
-        <xsl:variable name="linking_jp" select="$imported_juridical_persons//tei:org[descendant::tei:link[contains(concat('#', substring-after(substring-after(translate(@corresp,'#',''), 'http://137.204.128.125/'), '/'), '#'), concat('#', $id, '#'))]]"/>
-        <xsl:variable name="linking_estates" select="$imported_estates//tei:place[descendant::tei:link[contains(concat('#', substring-after(substring-after(translate(@corresp,'#',''), 'http://137.204.128.125/'), '/'), '#'), concat('#', $id, '#'))]]"/>
-        <xsl:variable name="linked_keys"><xsl:for-each select="$keys//p[@id=$id]"><xsl:value-of select="lower-case(.)"/></xsl:for-each></xsl:variable>
-        <xsl:variable name="all_keys" select="concat($linked_keys, ' ')"/>
+        <xsl:variable name="linking_jp" select="$juridical_persons//tei:org[descendant::tei:link[contains(concat('#', substring-after(substring-after(translate(@corresp,'#',''), $IP), '/'), '#'), concat('#', $id, '#'))]]"/>
+        <xsl:variable name="linking_estates" select="$estates//tei:place[descendant::tei:link[contains(concat('#', substring-after(substring-after(translate(@corresp,'#',''), $IP), '/'), '#'), concat('#', $id, '#'))]]"/>
+        <xsl:variable name="linked_keys"><xsl:for-each select="$keys//p[@class='place_keys'][@id=$id]"><xsl:value-of select="lower-case(.)"/><xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if></xsl:for-each></xsl:variable>
+        <xsl:variable name="all_keys" select="replace(normalize-space($linked_keys), ' ,', '')"/>
         <xsl:if test="$linked_jp or $linking_jp">
           <xsl:if test="$linked_estates or $linking_estates">
             <xsl:if test="not(matches($all_keys, '.*(fiscal_property).*'))">
