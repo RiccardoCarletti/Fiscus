@@ -26,9 +26,8 @@
     
     <add>
       <xsl:for-each select="$keys">
-        <xsl:variable name="key-value">
-          <xsl:value-of select="."/>
-        </xsl:variable>
+        <xsl:variable name="key-value" select="."/>
+        <xsl:variable name="key" select="document('../../content/fiscus_framework/resources/thesaurus.xml')//tei:catDesc[lower-case(@n)=$key-value]"/>
         <xsl:variable name="keyword" select="$root//tei:div[@type='edition']//tei:rs[@key!=''][@key!=' '][@key!='#']/@key[contains(concat(' ', replace(lower-case(.), '#', ''), ' '), concat(' ', $key-value, ' '))]" />
         <doc>
           <field name="document_type">
@@ -40,6 +39,12 @@
           <xsl:call-template name="field_file_path" />
           <field name="index_item_name">
             <xsl:value-of select="normalize-space(replace($key-value, '_', ' '))" />
+          </field>
+          <field name="index_external_resource">
+            <xsl:choose>
+              <xsl:when test="$key"><xsl:value-of select="concat('https://ausohnum.huma-num.fr/concept/', $key[1]/@xml:id)" /></xsl:when>
+              <xsl:otherwise><xsl:text>~</xsl:text></xsl:otherwise>
+            </xsl:choose>
           </field>
           <!--<field name="index_keys">
             <xsl:value-of select="$keyword" />
