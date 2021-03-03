@@ -50,6 +50,12 @@
     </field>
   </xsl:template>
   
+  <xsl:template match="tei:date" mode="facet_mentioned_dates">
+    <field name="mentioned_dates">
+      <xsl:value-of select="translate(., '/', '／')" />
+    </field>
+  </xsl:template>
+  
   <xsl:template match="tei:persName/tei:name[@nymRef]" mode="facet_person_name">
     <field name="person_name">
       <xsl:value-of select="@nymRef"/>
@@ -70,6 +76,7 @@
     <xsl:call-template name="field_ancient_document_type"/>
     <xsl:call-template name="field_mentioned_keywords"/>
     <xsl:call-template name="field_mentioned_estates"/>
+    <xsl:call-template name="field_mentioned_dates"/>
     <xsl:call-template name="field_person_name"/>
     <xsl:call-template name="field_complete_edition"/>
   </xsl:template>
@@ -84,6 +91,10 @@
   
    <xsl:template name="field_mentioned_estates">
     <xsl:apply-templates mode="facet_mentioned_estates" select="//tei:text/tei:body/tei:div[@type='edition']" />
+   </xsl:template>
+  
+  <xsl:template name="field_mentioned_dates">
+    <xsl:apply-templates mode="facet_mentioned_dates" select="//tei:text/tei:body/tei:div[@type='edition']" />
   </xsl:template>
   
   <xsl:template name="field_person_name">
