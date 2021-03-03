@@ -16,21 +16,20 @@
   <xsl:template match="/">
     <xsl:variable name="root" select="." />
     
-    <!--<xsl:variable name="key-values">
-      <xsl:for-each select="//tei:rs[ancestor::tei:div/@type='edition'][@key[not(.='')]]/@key">
-        <xsl:choose>
-          <xsl:when test="starts-with(., '#')"><xsl:value-of select="replace(substring(lower-case(.), 2), ' #', '#')" /></xsl:when>
-          <xsl:otherwise><xsl:value-of select="replace(lower-case(.), ' #', '#')" /></xsl:otherwise>
-        </xsl:choose>
-        <xsl:text>#</xsl:text>
+    <xsl:variable name="key-values">
+      <xsl:for-each select="//tei:rs[ancestor::tei:div/@type='edition'][@key!=''][@key!=' '][@key!='#']/@key">
+        <xsl:value-of select="replace(lower-case(.), '#', '')" />
+        <xsl:text> </xsl:text>
       </xsl:for-each>
     </xsl:variable>
-    <xsl:variable name="keys" select="distinct-values(tokenize(replace($key-values, '##', '#'), '#'))" />-->
+    <xsl:variable name="keys" select="distinct-values(tokenize($key-values, '\s+'))" />
     
-    <!--<add>
+    <add>
       <xsl:for-each select="$keys">
-        <xsl:variable name="key-value" select="concat('#',.,'#')" />
-        <xsl:variable name="keyword" select="$root//tei:div[@type='edition']//tei:rs[@key[not(.='')]][contains(concat('#', @key, '#'), $key-value)]" />
+        <xsl:variable name="key-value">
+          <xsl:value-of select="."/>
+        </xsl:variable>
+        <xsl:variable name="keyword" select="$root//tei:div[@type='edition']//tei:rs[@key!=''][@key!=' '][@key!='#']/@key[contains(concat(' ', replace(lower-case(.), '#', ''), ' '), concat(' ', $key-value, ' '))]" />
         <doc>
           <field name="document_type">
             <xsl:value-of select="$subdirectory" />
@@ -40,18 +39,18 @@
           </field>
           <xsl:call-template name="field_file_path" />
           <field name="index_item_name">
-            <xsl:value-of select="replace($key-value, '#', '')" />
+            <xsl:value-of select="normalize-space(replace($key-value, '_', ' '))" />
           </field>
-          <field name="index_keys">
+          <!--<field name="index_keys">
             <xsl:value-of select="$keyword" />
-          </field>
+          </field>-->
           <xsl:apply-templates select="$keyword" />
         </doc>
       </xsl:for-each>
-    </add>-->
+    </add>
     
-      <add>
-        <xsl:for-each-group select="//tei:rs[ancestor::tei:div[@type='edition']]" group-by="lower-case(@key)">
+      <!--<add>
+        <xsl:for-each-group select="//tei:rs[ancestor::tei:div[@type='edition']][@key!='']/@key" group-by="lower-case(translate(., '#', ''))">
         <doc>
           <field name="document_type">
             <xsl:value-of select="$subdirectory" />
@@ -62,24 +61,24 @@
           <xsl:call-template name="field_file_path" />
           <field name="index_item_name">
             <xsl:choose>
-              <xsl:when test="starts-with(@key, '#')">
-                <xsl:value-of select="lower-case(replace(substring(translate(@key, '_', ' '), 2), ' #', '; '))" />
+              <xsl:when test="starts-with(., '#')">
+                <xsl:value-of select="lower-case(replace(substring(translate(., '_', ' '), 2), ' #', '; '))" />
               </xsl:when>
               <xsl:otherwise>
-                <xsl:value-of select="lower-case(replace(translate(@key, '_', ' '), ' #', '; '))" />
+                <xsl:value-of select="lower-case(replace(translate(., '_', ' '), ' #', '; '))" />
               </xsl:otherwise>
             </xsl:choose>
           </field>
-            <!--<field name="index_keys">
+            <!-\-<field name="index_keys">
               <xsl:value-of select="." />
-            </field>-->
+            </field>-\->
           <xsl:apply-templates select="current-group()" />
         </doc>
       </xsl:for-each-group>
-      </add>
+      </add>-->
   </xsl:template>
 
-  <xsl:template match="tei:rs">
+  <xsl:template match="tei:rs/@key">
     <xsl:call-template name="field_index_instance_location" />
   </xsl:template>
 

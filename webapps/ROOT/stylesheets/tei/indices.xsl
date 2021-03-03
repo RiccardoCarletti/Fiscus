@@ -55,7 +55,7 @@
 
   <!-- separate results by having or not a @ref -->
   <xsl:template match="response/result">
-        <table class="index tablesorter">
+    <table class="index tablesorter" style="width:100%">
           <xsl:apply-templates select="/aggregation/index_metadata/tei:div/tei:div[@type='headings']" />
           <tbody>
             <xsl:apply-templates select="doc[str[@name='index_item_name'][not(starts-with(., '~'))]]"><xsl:sort select="translate(normalize-unicode(lower-case(.),'NFD'), '&#x0300;&#x0301;&#x0308;&#x0303;&#x0304;&#x0313;&#x0314;&#x0345;&#x0342;' ,'')"/></xsl:apply-templates>
@@ -96,7 +96,16 @@
   <xsl:template match="arr[@name='index_instance_location']">
     <td>
       <ul class="index-instances inline-list">
-        <xsl:apply-templates select="str" />
+        <xsl:apply-templates select="str">
+          <!--<xsl:sort>
+            <xsl:variable name="id" select="substring-before(., ' [')"/>
+            <xsl:choose>
+              <xsl:when test="string-length($id) = 1"><xsl:value-of select="concat('000',$id)"/></xsl:when>
+              <xsl:when test="string-length($id) = 2"><xsl:value-of select="concat('00',$id)"/></xsl:when>
+              <xsl:when test="string-length($id) = 3"><xsl:value-of select="concat('0',$id)"/></xsl:when>
+              <xsl:otherwise><xsl:value-of select="$id"/></xsl:otherwise>
+            </xsl:choose></xsl:sort>-->
+        </xsl:apply-templates>
       </ul>
     </td>
   </xsl:template>
