@@ -371,6 +371,8 @@
         layers: [streets, grayscale, satellite, terrain, watercolor]
         });
         
+        L.control.scale().addTo(mymap);
+        
         var LeafIcon = L.Icon.extend({
         options: {iconSize: [15, 15]}
         });

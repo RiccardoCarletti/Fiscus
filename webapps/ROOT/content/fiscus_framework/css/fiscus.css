@@ -82,20 +82,21 @@
     }    
 
     
-    body listPlace place geo:before {
+    body listPlace place geo:after {
         content: "Coordinates (Lat, Long): "
         oxy_htmlContent(
              content, "<span style='font:11px'>[<a href='https://www.gps-coordinates.net/'>Search</a>]</span>")
-              /*oxy_htmlContent(
-             href, "../resources/map.html",
-            id, "p_prova",
-            width, 400px)*/
+       oxy_browser(
+          href, '../resources/map.html',
+          width, 100%,
+          height, 400px)
         oxy_editor(
            type, text,
            edit, "#text"
            columns, 40);
            display:block;
            padding-left:20px;
+           padding-right:20px;
     }
     
     body listPlace place idno:before, body listOrg org idno:before, body listPerson person idno:before {
