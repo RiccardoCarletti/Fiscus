@@ -26,9 +26,10 @@
             <link href="{$kiln:assets-path}/foundation/css/foundation.min.css" rel="stylesheet" type="text/css" />
             <link href="{$kiln:assets-path}/styles/base.css" rel="stylesheet" type="text/css" />
             <link href="{$kiln:assets-path}/styles/site.css" rel="stylesheet" type="text/css" />
-            <link href="{$kiln:assets-path}/images/favicon.png" rel="shortcut icon" type="image/png"/>
             <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
               crossorigin=""/>
+            <link rel="stylesheet" href="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css" />
+            <link href="{$kiln:assets-path}/images/favicon.png" rel="shortcut icon" type="image/png"/>
           </kiln:block>
           <kiln:block name="js">
             <script src="{$kiln:assets-path}/foundation/js/vendor/custom.modernizr.js">&#160;</script>
@@ -36,6 +37,7 @@
               integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
               crossorigin=""></script>
             <script src="{$kiln:assets-path}/scripts/leaflet-providers.js"></script>
+            <script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
           </kiln:block>
           <kiln:block name="head-extra"></kiln:block>

@@ -365,10 +365,14 @@
         ext: 'jpg'
         });
         
+        var osm = L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: 'Map data: <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        });
+        
         var mymap = L.map('mapid', {
         center: [44, 10.335],
         zoom: 6.5,
-        layers: [streets, grayscale, satellite, terrain, watercolor]
+        layers: [osm, streets, grayscale, satellite, terrain, watercolor]
         });
         
         L.control.scale().addTo(mymap);
@@ -450,12 +454,13 @@
         "Grayscale": grayscale,
         "Satellite": satellite,
         "Watercolor": watercolor,
-        "Streets": streets
+        "Streets": streets,
+        "Open Street Map": osm
         };
         
         var overlayMaps = {
         "Places linked to fiscal estates (green circle)": toggle_green_places,
-        "Places linked to other estates (green square)": toggle_greensquare_places ,
+        "Places linked to other estates (green square)": toggle_greensquare_places,
         "Places linked to juridical persons (red circle)": toggle_red_places,
         "Places linked to fiscal estates and juridical persons (green&amp;red circle)": toggle_greenred_places,
         "Places linked to other estates and juridical persons (green&amp;red square)": toggle_greenredsquare_places,
@@ -464,6 +469,8 @@
         };
         
         L.control.layers(baseMaps, overlayMaps).addTo(mymap);
+        
+        L.Control.geocoder().addTo(mymap);
         
       </script>
     </div>

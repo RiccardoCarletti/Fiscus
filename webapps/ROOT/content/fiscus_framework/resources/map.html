@@ -8,18 +8,21 @@
         <link href="../../../assets/styles/site.css" rel="stylesheet" type="text/css" />
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
             crossorigin=""/>
+        <link rel="stylesheet" href="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css" />
+        
             <script src="../../../assets/foundation/js/vendor/custom.modernizr.js"></script>
             <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
               integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
               crossorigin=""></script>
-            <script src="../../../assets/scripts/leaflet-providers.js"></script>
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="../../../assets/scripts/leaflet-providers.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
     </head>
     <body>
         <div class="row">
             <div id="mapid" class="map" style="height:400px; width:100%; padding:0; margin:0">
                 <script>
-        var streets = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoiaXZhZ2lvbmFraXMiLCJhIjoiY2treTVmZnhyMDBzdTJ2bWxyemY4anJtNSJ9.QrP-0v-7btCzG97ll23HKw', {
+               var streets = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoiaXZhZ2lvbmFraXMiLCJhIjoiY2treTVmZnhyMDBzdTJ2bWxyemY4anJtNSJ9.QrP-0v-7btCzG97ll23HKw', {
         id: 'mapbox/streets-v11', 
         tileSize: 512, 
         zoomOffset: -1, 
@@ -59,11 +62,15 @@
         ext: 'jpg'
         });
         
+        var osm = L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: 'Map data: <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        });
+        
         var mymap = L.map('mapid', {
         center: [44, 10.335],
         zoom: 6.5,
         zoomControl: false,
-        layers: [streets, grayscale, satellite, terrain, watercolor]
+        layers: [osm, streets, grayscale, satellite, terrain, watercolor]
         });
         
         var LeafIcon = L.Icon.extend({
@@ -77,7 +84,8 @@
         "Grayscale": grayscale,
         "Satellite": satellite,
         "Watercolor": watercolor,
-        "Streets": streets
+        "Streets": streets,
+        "Open Street Map": osm
         };
         
         var overlayMaps = {
@@ -85,29 +93,19 @@
         
         L.control.layers(baseMaps, null).addTo(mymap);
         
+        
         var popup = L.popup();
-
 	function onMapClick(e) {
 		popup
 			.setLatLng(e.latlng)
 			.setContent(e.latlng.toString())
 			.openOn(mymap);
 	}
-
 	mymap.on('click', onMapClick);
 	
 	  L.control.scale().addTo(mymap);
 	  
-	  
-	  var searchControl = new L.esri.Controls.Geosearch().addTo(mymap);
-              var results = new L.LayerGroup().addTo(mymap);
-
-  searchControl.on('results', function(data){
-    results.clearLayers();
-    for (var i = data.results.length - 1; i >= 0; i--) {
-      results.addLayer(L.marker(data.results[i].latlng));
-    }
-  });
+	  L.Control.geocoder().addTo(mymap);
         
       </script>
             </div>
