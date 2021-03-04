@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc1404">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Archivio di Stato di Firenze, Diplomatico, Riformagioni. Atti Pubblici, 1029
+                    gennaio 3, n. 4 (Giorgetti, n. 50)</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus
+                        Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="uri">http://137.204.128.125/documents/doc1404</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Transactional breve</rs>
+                            <rs type="record_source" ref="#">Original document</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">Yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate notAfter="1108">
+                                <note type="displayed_date">December 13</note>
+                                <note type="dating_elements">Databile ante 1108 in base ai
+                                    personaggi citati; post morte Ugo (???)</note>
+                                <note type="topical_date">Suvereto (Livorno)</note>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-03-04" who="scollavini">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>Breve de Franciano. Breve recordationis de posponsione, quam fecit
+                            <persName>Wiliccione</persName> et uxor eius, de <rs
+                            key="#Landed_possessions">terra</rs> quam dedit <persName key="#Count"
+                            >Ugo</persName> pater eius ad <rs key="#Churches">ecclesia</rs> beati
+                            <orgName ref="#http://137.204.128.125/juridical_persons/78"
+                            key="#Churches #Monasteries">Sancti Quirici</orgName>, et est posita in
+                        locis et vocabulis, sicut in cartula quam predicto Ugo <rs key="#Count"
+                            >comes</rs> fecit ad iamdicta aecclesia Sancti Quirici. Ipse Wiliccione
+                        et uxor eius <rs key="#Allocation_to_churches"/> dedit in manibus <rs
+                            key="#Abbots">abbati</rs>, qui preerat in <rs key="#Monasteries"
+                            >monasterio</rs> Sancti Quirici, ut a modo in antea non habeat
+                        potestatem tollendi, neque contendendi, neque molestandi, neque per se neque
+                        per suam emissam personam, et si hoc non observav[er]it, debeat componere
+                        pena, sicut in iamdicta cartula legitur. Hoc factum est in presentia <rs
+                            key="#Boni_viri/boni_homines">bonorum hominum</rs>, quorum nomina eorum
+                        subter leguntur. <persName>Ugo</persName> filius
+                            <persName>Rollandi</persName>, <persName>Petro</persName> filius
+                            <persName>Rollandi</persName>, <persName>Pagani</persName> filius
+                            <persName>Ioci</persName>, <persName>Ildizo</persName> filius quondam
+                            <persName>Ilditi</persName> et alii plures. Hoc factum est idus
+                        decembris ad <rs key="#Castle">castello</rs> qui vocitatur <placeName
+                            key="#Castle" ref="#http://137.204.128.125/places/87"
+                            >Suvereto</placeName>. </ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>Giorgetti, n. 50</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
