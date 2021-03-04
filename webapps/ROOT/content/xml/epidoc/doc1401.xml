@@ -4,7 +4,8 @@
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
-                <title/>
+                <title>Archivio di Stato di Firenze, Diplomatico, Riformagioni. Atti Pubblici, 1029
+                    gennaio 3 (Giorgetti, Cartulario, n. 40)</title>
             </titleStmt>
             <editionStmt>
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus
@@ -31,9 +32,9 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#"/>
-                            <rs type="record_source" ref="#"/>
-                            <rs type="document_tradition" ref="#"/>
+                            <rs type="text_type" ref="#">--Offersio/donatio</rs>
+                            <rs type="record_source" ref="#">Original document</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
                             <rs type="fiscal_property"/>
                         </summary>
                         <msItem xml:id="msItem1">
@@ -42,10 +43,13 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate notBefore="0001" notAfter="0001" when="0001">
-                                <note type="displayed_date"/>
-                                <note type="dating_elements"/>
-                                <note type="topical_date"/>
+                            <origDate notBefore="1121-03-01" notAfter="1121-03-24">
+                                <note type="displayed_date">1121 March (1-24)</note>
+                                <note type="dating_elements">Così in base allo stile
+                                    senese-fiorentino dell'incarnazione (1121) e all’indizione
+                                    (10a)</note>
+                                <note type="topical_date">Suvereto (Livorno), in
+                                        <foreign>Cornino</foreign>; Magliano (Grosseto)</note>
                             </origDate>
                             <origPlace/>
                         </origin>
@@ -74,6 +78,7 @@
         <revisionDesc>
             <listChange>
                 <change when="2021-02-08">creation of record</change>
+                <change when="2021-03-04" who="scollavini">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -81,7 +86,54 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab/>
+                    <ab>Cart(ul)a de Franciano. In nomine domini nostri Ihesu Christi. Millesimo
+                        centesimo vicesimo primo, mense martio, anno ab incarnatione eius,
+                        indictione quarta Xa. Constat me <persName>Ildebrandum</persName>
+                        <rs key="#Count">comitem</rs>, filium Raineri <rs key="#Count">comitis</rs>,
+                        qui Malabranca vocabatur, qui professus sum vivere <rs key="#Roman">lege
+                            Romana</rs> et Maximilla <rs key="#Countess">comitissa</rs> et <rs
+                            key="#Countess">comitissam</rs> Lupam, filiam Soffredi, relictam
+                        Malagalie, que professa sum, propter legem patris mei, <rs key="#Lombard"
+                            >legem vivere Longobardorum</rs>, ipso namque Ildebrando mihi
+                        consentiente, in mundio cuius permanere volo, presens presentibus in Dei
+                        nomine dixisse: “Vita et mors in manu Dei est et melius est homini metu
+                        mortis vivere, quam spe vivendi morte subitanea pervenire”. Ideo nos
+                        recordantes animarum nostrorum parentum atque comitis Malagalie, nec non
+                        nostrarum, ut dominus peccata nostra minuere dignetur, donamus atque igitur
+                        concedimus atque offerimus nec non tradimus Deo et <rs key="#Monasteries"
+                            >monasterio</rs> Sancti Quirici de Populonio, idest medietatem de
+                        omnibus terris, cultis et incultis, agrestis, aquis aquarumque decursibus,
+                        et <rs key="#Saltworks #Sea_salt">salinis</rs>, quas vos recipistis et
+                        tenuistis olim per comitem Rainerium et a <rs key="#Countess">comitissa</rs>
+                        Adalasia in <rs key="#Curtes">curte</rs> de Franciano, etiam medietatem de
+                        ipso castellare, idest medietatem de omnibus terris nostris, quam vos olim
+                        habuistis et tenuistis vel alii per vos, que sunt inter hos fines: nam
+                        Petralata est ex una parte et Cornachini et rivus Pertuli currit in Notulo
+                        et Notulo vadit in stagno, ex altera parte est terra Sancti Petri de
+                        Monteviridi et Sancte Marie Grasse et tenet secus Stagnum et usque in
+                        Notulum. Quas autem res istas una cum accessione et ingressione, omnia in
+                        integrum sicut supra legitur, ego prefatus comes Ildebrandus et comitissa
+                        Maximlla et comitissa Lupa una cum nostris heredibus tibi domino Dei gratia
+                        Mauro venerabili <rs key="#Abbots">abbati</rs> damus atque tradimus, ut tu
+                        et successores tui faciatis inde proprietario iure nomine quicquid
+                        volueritis sine omni nostra nostrorumque heredum contradictione; etiam
+                        promitto ego prefatus comes et Maximilla comitissa et Lupa comitissa una cum
+                        nostris heredibus tibi Mauro venerabili abbati tuisque successoribus
+                        prefatas terras defendere ab omni homine, quid si facere non potuerimus aut
+                        si prefatas terras vobis tollere vel minuere voluerimus quovis ingenio,
+                        promittimus eas vobis prefato abbati et tuis successoribus restituere in
+                        duplum sicut pro tempore fuerint meliorate aut valuerint sub estimatione in
+                        consimilibus locis, quia inter nos taliter convenimus. Actum in Cornino, in
+                            <rs key="#Castle">castello</rs> de Suvereto. Signa manuum […]comitis
+                        Ildebrandi et Maximille comitisse et Lupe comitisse, q(ui) q(ue)ve hanc
+                        cartula qualiter super legitur, scribere rogaverunt. Signa manuum Rugeri <rs
+                            key="#Viscount">vicecomitis</rs> filii Ildebrandi et Wlpelli filii
+                        [Perli] et Berardini filii Petri Grassi et Malpilli filii eius et Raineri
+                        filii Rufinelli et Tancredi filii Ugiccionis Berardoni et Salarii filii
+                        Walfredi da Tremali et Wazonis de Monteliverenti et Widonis de Monticulo.
+                        Confirmatum est hoc a comitissa Maximilla in Malliano, testibus Widone de
+                        Monticulo et Rugeri et Banbarini. Ego Agimerigus iudex et notarius domni
+                        imperatoris post tradita complevi et dedi. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
