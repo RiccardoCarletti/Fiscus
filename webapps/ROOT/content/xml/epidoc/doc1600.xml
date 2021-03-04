@@ -4,7 +4,8 @@
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
-                <title/>
+                <title>Archivio della SS. Trinità di Cava de’ Tirreni, A, 3 (Codex Diplomaticus
+                    Cavensis, I, n. 101)</title>
             </titleStmt>
             <editionStmt>
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus
@@ -33,8 +34,8 @@
                         <summary>
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
-                            <rs type="document_tradition" ref="#"/>
-                            <rs type="fiscal_property"/>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -42,10 +43,10 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate notBefore="0001" notAfter="0001" when="0001">
-                                <note type="displayed_date"/>
+                            <origDate when="0886">
+                                <note type="displayed_date">886-05-00</note>
                                 <note type="dating_elements"/>
-                                <note type="topical_date"/>
+                                <note type="topical_date">Salerno</note>
                             </origDate>
                             <origPlace/>
                         </origin>
@@ -73,7 +74,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2021-02-08">creation of record</change>
+                <change when="2021-02-08" who="vlore">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -81,7 +82,29 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab/>
+                    <ab>+ In nomine domini dei salvatoris ihesu cristi. Concessimus nos vir
+                        gloriosissimus <persName key="#Princex">waimarius</persName> dei prebidentia
+                        langobardorum gentis <rs key="#Princex">princeps</rs> per postulationem
+                        domne <persName>landelaiche</persName> matris mee in <rs key="#Churches"
+                            >ecclesia</rs>
+                        <orgName key="#Churches">sancti maximi</orgName>, quod domnus <persName
+                            key="#Princex">waiferius</persName> princeps pater meus intus, hec
+                        cibitate salerno a nobo construxit fundamine, integram rebus
+                            <persName>benenati</persName> et <persName>ademari</persName> omnia
+                        illorum pertinentia, ubique exinde fuerit inbentus, eo quod <rs
+                            key="#Inheritance #Iure_proprietatis/pleno_iure #Property_of_persons_without_heirs"
+                            >sine heredes mortui sunt</rs> et sacri nostri palatii pertinet de<rs>
+                            loco supter ipsa fistula, ubi propio puteo regente bocatur</rs>
+                        <rs key="#Fines">nucerina fines</rs> et pertinet de<rs key="#Actio"> acto
+                            salernitano</rs>, in ea bidelicet ratione, ut ammodo et deinceps per hoc
+                        nostrum roboreum preceptum cungta ea, que supra legitur, in eadem sanctam
+                        sedem permaneat eius rectoribus dominandum in perpetuum, et a nullo ex
+                        nostris iudicibus, idest comitibus, gastaldeis, bel a quibuscumque agentibus
+                        numquam abeat aliquam requisitionem, sed perpetui tempore in supradicta
+                        sancta ecclesia permaneat. Quod vero preceptum concessionis ex iussione
+                        suprascripte potestati scripsit ego (+) <persName key="#Writer"
+                            >dausdedi</persName> notarius. Actum salerno decimo anno mense magius
+                        quarta indictione feliciter.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
