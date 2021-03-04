@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc1402">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Archivio di Stato di Firenze, Diplomatico, Riformagioni. Atti Pubblici, 1029
+                    gennaio 3, n. 2 (Giorgetti, n. 41)</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus
+                        Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="uri">http://137.204.128.125/documents/doc1402</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Promissio</rs>
+                            <rs type="record_source" ref="#">Original document</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">Yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate notBefore="1121-03-01" notAfter="1121-03-24">
+                                <note type="displayed_date">1121 March (1-24)</note>
+                                <note type="dating_elements">
+                                    <note type="displayed_date"/>
+                                    <note type="dating_elements">Così in base allo stile
+                                        senese-fiorentino dell'incarnazione (1121) e all’indizione
+                                        (10a)</note>
+                                </note>
+                                <note type="topical_date">Suvereto (Livorno); Magliano in Toscana
+                                    (Grosseto)</note>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-03-04" who="scollavini">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>Cartula de Franciano. In nomine domini nostri Iesu Christi. Anno ab
+                        incarnatione eius millesimo centesimo vicegimo primo, mense martio,
+                        indictione quarta Xa. Manifestus sum ego <persName key="#Count"
+                            >Ildebrandus</persName>
+                        <rs key="#Count">comes</rs> filius <persName key="#Count">Raineri</persName>
+                        <rs key="#Count">comitis</rs>, qui professus sum lege viv[ere …] et
+                            <persName key="#Countess">Maximilla</persName>
+                        <rs key="#Countess">comitissa</rs> iugales et <rs key="#Countess"
+                            >comitissam</rs>
+                        <persName key="#Countess">Lupa</persName> qualiter comuniter et
+                        consentientes promittimus venerabili <persName key="#Abbots"
+                            >Mauro</persName>
+                        <rs key="#Abbots">abbati</rs> stipulanti quod ab hac hora in antea nos, nec
+                        alii per nos, nec nostri hered[es …]bimus adversus <rs key="#Monasteries"
+                            >monasterium</rs>
+                        <orgName ref="#http://137.204.128.125/juridical_persons/78"
+                            key="#Monasteries">Sancti Quilici </orgName>nec adversus suos rectores
+                        nec adversus aliquem vestro nomine possidentes agemus, nominatim de
+                        medietate omnium <rs key="#Landed_possessions">terrarum</rs>, quas olim
+                        abuistis et tenuistis, vel alii per vo[s, a co]mite Rainerio et a <rs
+                            key="#Countess">comitissa</rs>
+                        <persName key="#Countess">Adalasia</persName> in <placeName
+                            ref="#http://137.204.128.125/places/89"
+                            key="#Landed_possessions #Castle">Franciano</placeName>, sicuti in ipsa
+                        cartula legitur, et finibus circumdata, et etiam de medietate de ipso <rs
+                            key="#Castle">castellare</rs>. Et si apparuerit ullum datum aut factum
+                        vel ali[a da]tio vel obligatio, quam nos in aliquam partem fecissemus et nos
+                        inde vos defendere non potuerimus ab omnibus hominibus, promittimus tibi
+                        Mauro abbati et tuis successoribus stipulanti componere penam quinquaginta
+                        librarum Lucensium et post penam solutam hoc pactum maneat firmum verbis
+                        subnixum, quia inter nos taliter convenimus. Launehild, idest meritum,
+                        recipimus a te prefato abbate, ut hec obbligatio valeat et firma permaneat.
+                        Actum in <placeName ref="#http://137.204.128.125/places/87"
+                            >Suvereto</placeName>. Signa manuum Ildebrandi comitis et Lupe comitisse
+                        et Maximille iugalis, qui queve hoc pactum verbis subnixum scribere
+                        rogaverunt. Signa manuum <persName key="#Viscount">Rugeri</persName>
+                        <rs key="#Viscount">vicecomitis</rs> filii <persName>Ildibrandi</persName>
+                        et <persName>Wlpelli</persName> filii <persName>Perli</persName> et
+                            <persName>Berardini</persName> filii <persName>Petri Crassi</persName>
+                        et <persName>Malpilli</persName> filii eius et <persName>Rainerii</persName>
+                        filii <persName>Rufinelli</persName> et <persName>Tancredi</persName> filii
+                            <persName>Ugiccionis Berardoni</persName> et
+                            <persName>Salarii</persName> filii <persName>Walfredi</persName> de
+                            <placeName>Tremali</placeName> et <persName>Wazonis</persName> de
+                            <placeName>Monte Liverenti</placeName> et <persName>Widonis</persName>
+                        de <placeName>Monticulo</placeName> testium. Maximilla comitissa filia <rs
+                            key="#Count">comitis</rs>
+                        <persName key="#Count">Rogerii</persName> confirmavit hoc in <placeName
+                            ref="#http://137.204.128.125/places/88">Malliano</placeName>, testibus
+                            <persName>Rugerio</persName> de <placeName>Biserno</placeName> et
+                            <persName>Widone</persName> et <persName>Banbarino</persName>. || Ego
+                            <persName key="#Notary #Judge">Aimerigus</persName>
+                        <rs key="#Judge">iudex</rs> et <rs key="#Notary">notarius</rs> domini
+                        inperatoris post tradita complevi et dedi. </ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>Giorgetti, n. 41</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
