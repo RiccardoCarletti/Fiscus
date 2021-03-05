@@ -550,6 +550,8 @@
                     <link type="people" corresp="#http://137.204.128.125/people/97" subtype="sonOf"/>
                     <link type="people" corresp="#http://137.204.128.125/people/98"
                         subtype="legallyRecognisedUnionWith"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/100"
+                        subtype="brotherOf"/>
                 </person>
                 <person>
                     <persName>Rainerius Malabranca comes (II Aldobrandeschi; 1070-1096?; q.1097?;
@@ -558,6 +560,8 @@
                     <idno>http://137.204.128.125/people/97</idno>
                     <note/>
                     <link type="people" corresp="#http://137.204.128.125/people/96"
+                        subtype="fatherOf"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/100"
                         subtype="fatherOf"/>
                 </person>
                 <person>
@@ -573,12 +577,19 @@
                     <persName type="other"/>
                     <idno>http://137.204.128.125/people/99</idno>
                     <note/>
+                    <link type="people" corresp="#http://137.204.128.125/people/100"
+                        subtype="legallyRecognisedUnionWith"/>
                 </person>
                 <person>
                     <persName>Malagalea comes (Aldobrandeschi; 1100-1114; q.1121)</persName>
                     <persName type="other"/>
                     <idno>http://137.204.128.125/people/100</idno>
                     <note/>
+                    <link type="people" subtype="sonOf" corresp="#http://137.204.128.125/people/97"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/99"
+                        subtype="legallyRecognisedUnionWith"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/96"
+                        subtype="brotherOf"/>
                 </person>
                 
             </listPerson>
