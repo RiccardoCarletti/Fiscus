@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc2000">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Archivio di Montecassino, aula III, capsa XII, n. 21</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus
+                        Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="uri">http://137.204.128.125/documents/doc2000</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">Yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0885-05">
+                                <note type="displayed_date">885 May</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Benevento</note>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-02-08" who="gzornetta">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition"/>
+            <div type="bibliography" subtype="editions">
+                <p>+ In (no)m(ine) Domini Dei Salv(a)t(or)i(s) Iesu Christi. Concessi(mus) nos vir
+                    gloriosissi(mus) Aio Dei previdentia Langobardorum gentis princeps, per rogum
+                    Ladelchis dilecti germani nostri, tibi Criscio medico nostro atque preposito ad
+                    parte monasterii Sancii Benedicati quod situm est Monte Casino, h[ob] an(i)me
+                    nostre salute, hec est omnibus rebus omnibusque pertinentiis quibus fuit Potoni
+                    fi(lii) Potitionis infra finibus Alifanis et Telesinis, pro quo ipse Poto in
+                    anima dom(ini) Adelchis princip(is) dilectissi(mi) genitori nostro consiliatus
+                    fuit eumque interfecit, et legibus omnibus eius rebus et facultatibus nostre
+                    hevenit potestati, in ea videlicet ratione ut amodo et deinceps per hoc nostrum
+                    roboreum preceptum siperius d(ic)tis omnibus rebus hac pertinentiis eodem Sancti
+                    Benedicti cenobio eiusque rectores habere et possidere valeas, et a nullo ex
+                    nostris iudicibus, id est comitibus, gast(aldeis) vel a quibuscumque agentibus
+                    prephato monasterio habeas aliquam requisitionem, sed p(er)p(etuis) temporibus
+                    possideas. Quod vero preceptum concessionis ex iussione s(upra)§(crip)tac
+                    potestatis scripsi ego (locus sigilli) Petrus notarius. Ac(tum)d Benev(enti)
+                    primo anno, mense Maio, tertia indictione. Fe(liciter).</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
