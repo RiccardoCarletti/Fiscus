@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc1">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc803">
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
-                <title></title>
+                <title>Archivio di Stato di Parma, Diplomatico, Atti privati (Drei, <foreign>Le
+                        carte</foreign> III/2, n. 680, p. 512)</title>
             </titleStmt>
             <editionStmt>
-                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus
+                        Project</ref>
                     <date when="2021">2021</date>
                 </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
-                <idno type="uri">http://137.204.128.125/documents/doc1</idno>
+                <idno type="uri">http://137.204.128.125/documents/doc803</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -30,10 +32,10 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#"/>
-                            <rs type="record_source" ref="#"/>
-                            <rs type="document_tradition" ref="#"/>
-                            <rs type="fiscal_property"/>
+                            <rs type="text_type" ref="#">--Venditio</rs>
+                            <rs type="record_source" ref="#">Document summary</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">No</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -41,12 +43,12 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate notBefore="0001" notAfter="0001" when="0001"> 
-                                <note type="displayed_date"></note>
-                                <note type="dating_elements"></note>
-                                <note type="topical_date"></note>
+                            <origDate when="1190-08-10">
+                                <note type="displayed_date">1190 August 8</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Piacenza</note>
                             </origDate>
-                            <origPlace/>
+                            <origPlace>Sanctus Sixtus; monasterium (Piacenza)</origPlace>
                         </origin>
                         <provenance>
                             <location>
@@ -56,10 +58,10 @@
                     </history>
                 </msDesc>
                 <listPlace>
-                    <place></place>
+                    <place/>
                 </listPlace>
                 <listPerson>
-                    <person></person>
+                    <person/>
                 </listPerson>
             </sourceDesc>
         </fileDesc>
@@ -80,7 +82,18 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab></ab>
+                    <ab>(S.T.) Anno Incarnationis MCXC, die veneris, X mensis Augusti, indictione
+                        VIII, in Placentia. Iohannes Dianus lege Romana vivens, precio XVI librarum
+                        Placentie vendidit domino Gandulfo abbati monasterii Sancti Sisti edificium
+                        I muratum cum furno in eo habente et cum omnibus eiusdem furni utensiliis et
+                        cum omni iure et ratione et est positum in Placentia in convicinia ecclesie
+                        Sancti Petri in senodochio, reddendo tamen habiaticis quondam Fuclonis
+                        Strictis omni anno III solidos Placentinos nomine ficti terre et curie
+                        eiusdem domus, quam terram suprascripti abiatici tenent per feodum ab illis
+                        de Arzellis, qui similiter eam per feodum tenent a suprascripto monasterio.
+                        Testes: Antoninus de Porta, Alberichus Brachiumforte, Guidum Salinbonum
+                        notarius, Iohannes Comes de Santo Sisto, Guido magister. (S.T.) Presbiter de
+                        Lombardo notario.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
