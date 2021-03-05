@@ -194,6 +194,7 @@
   <!-- MAP -->
   <xsl:template match="//tei:addSpan[@xml:id='map']">
     
+    <!-- generate lists of places by type -->
     <xsl:variable name="map_points">
       <xsl:text>{</xsl:text><xsl:for-each select="$places/tei:place[descendant::tei:geo/text()]">
         <xsl:variable name="name" select="normalize-space(translate(tei:placeName[1], ',', '; '))"/>
@@ -206,10 +207,12 @@
     
     <xsl:variable name="map_polygons">
       <xsl:text>{</xsl:text>
-      <xsl:for-each select="$places/tei:place[contains(descendant::tei:geo, ';')][descendant::tei:geo/text()]">
+      <xsl:for-each select="$places/tei:place[contains(descendant::tei:geo, ';')]">
         <xsl:variable name="name" select="normalize-space(translate(tei:placeName[1], ',', '; '))"/>
         <xsl:variable name="id" select="substring-after(substring-after(translate(descendant::tei:idno,'#',''), $IP), '/')"/>
-        <xsl:text>"</xsl:text><xsl:value-of select="$name"/><xsl:text>#</xsl:text><xsl:value-of select="$id"/><xsl:text>": "[</xsl:text><xsl:value-of select="replace(replace(normalize-space(tei:geogName/tei:geo), ', ', ','), '; ', ']; [')"/><xsl:text>]"</xsl:text><xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if>
+        <xsl:text>"</xsl:text><xsl:value-of select="$name"/><xsl:text>#</xsl:text><xsl:value-of select="$id"/><xsl:text>": "</xsl:text>
+        <xsl:value-of select="replace(replace(normalize-space(tei:geogName/tei:geo), ', ', ';'), '; ', ';')"/>
+        <xsl:text>"</xsl:text><xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if>
       </xsl:for-each>
       <xsl:text>}</xsl:text>
     </xsl:variable>
@@ -322,9 +325,10 @@
           </xsl:choose><xsl:text>"</xsl:text><xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if></xsl:if></xsl:if></xsl:if></xsl:for-each><xsl:text>}</xsl:text>
     </xsl:variable>
     
+    <!-- add map -->
     <div class="row">
       <div id="mapid" class="map"></div>
-      <script>
+      <script type="text/javascript">
         var streets = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoiaXZhZ2lvbmFraXMiLCJhIjoiY2treTVmZnhyMDBzdTJ2bWxyemY4anJtNSJ9.QrP-0v-7btCzG97ll23HKw', {
         id: 'mapbox/streets-v11', 
         tileSize: 512, 
@@ -427,18 +431,14 @@
         };
         
         var polygons_places = [];
-        <!--for (const [key, value] of Object.entries(polygons)) {
-        L.polygon([value.split(';')<!-\-value.replaceAll(";", ",")-\->]).addTo(mymap).bindPopup('<a href="#0">'.replace("0", key.substring(key.lastIndexOf("#") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("#") +1)) + '➚</a></span>'));
-        }-->
-        polygons_places.push(L.polygon([
-        [45.21625206214063,8.293893188238146],
-        [45.22292799339423,8.286163732409479],
-        [45.23431881528846,8.29482525587082],
-        [45.24012999402467,8.301339000463487],
-        [45.2354063021579,8.319860994815828],
-        [45.218978453364016,8.306558579206468],
-        [45.21625206214063,8.293893188238146]
-        ], {color: 'orange'}).bindPopup('<a href="#35">Predalbora (Piacenza)</a> <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#35">➚</a></span>'));
+        for (const [key, value] of Object.entries(polygons)) {
+                var split_values = value.split(';');
+                split_values.forEach(function(item, index, array) {
+                array[index] = parseFloat(item);
+                });
+              var coords = chunkArray(split_values, 2);  <!-- function called from assets/scripts/maps.js -->
+        polygons_places.push(L.polygon([coords], {color: 'orange'}).bindPopup('<a href="#0">'.replace("0", key.substring(key.lastIndexOf("#") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("#") +1)) + '➚</a></span>'));
+        }; 
         
         var toggle_blue_places = L.layerGroup(blue_places).addTo(mymap); 
         var toggle_green_places = L.layerGroup(green_places).addTo(mymap);
