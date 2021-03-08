@@ -341,14 +341,17 @@
                     <geogName type="other"/>
                     <idno>http://137.204.128.125/estates/92</idno>
                     <note/>
-                    <link type="people" corresp="#http://137.204.128.125/people/92"/>
-                    <link type="people" corresp="#http://137.204.128.125/people/93"/>
-                    <link type="people" corresp="#http://137.204.128.125/people/74"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/92" subtype="link"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/93" subtype="link"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/74" subtype="link"/>
                     <link type="places"
-                        corresp="#http://137.204.128.125/places/55 #http://137.204.128.125/places/90 #http://137.204.128.125/places/54 #http://137.204.128.125/places/93 #http://137.204.128.125/places/92"/>
+                        corresp="#http://137.204.128.125/places/55 #http://137.204.128.125/places/90 #http://137.204.128.125/places/54 #http://137.204.128.125/places/93 #http://137.204.128.125/places/92"
+                        subtype="hasConnectionWith"/>
                     <link type="estates"
-                        corresp="#http://137.204.128.125/estates/75 #http://137.204.128.125/estates/93 #http://137.204.128.125/estates/95 #http://137.204.128.125/estates/94"/>
-                    <link type="places" corresp="#http://137.204.128.125/places/56"/>
+                        corresp="#http://137.204.128.125/estates/75 #http://137.204.128.125/estates/93 #http://137.204.128.125/estates/95 #http://137.204.128.125/estates/94"
+                        subtype="hasConnectionWith"/>
+                    <link type="places" corresp="#http://137.204.128.125/places/56"
+                        subtype="hasConnectionWith"/>
                 </place>
                 <place>
                     <geogName>Caddo; <foreign>curtis</foreign></geogName>
