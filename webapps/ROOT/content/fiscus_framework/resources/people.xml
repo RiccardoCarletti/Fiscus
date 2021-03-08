@@ -552,8 +552,8 @@
                         subtype="hasConnectionWith"/>
                 </person>
                 <person>
-                    <persName>Ildebrandinus (VI Aldobrandeschi; f. Raineri Malabranca; 1100-1123; q.
-                        1125) comes</persName>
+                    <persName>Ildebrandinus comes (VI Aldobrandeschi; f. Raineri Malabranca;
+                        1100-1123; q.1125)</persName>
                     <persName type="other">Ildebrandus comes</persName>
                     <idno>http://137.204.128.125/people/96</idno>
                     <note>Collavini 1995-1996: 531-532</note>
@@ -563,6 +563,7 @@
                     <link type="people" corresp="#http://137.204.128.125/people/100"
                         subtype="brotherOf"/>
                     <link type="people" corresp="#http://137.204.128.125/people/101" subtype="sonOf"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/104" subtype="link"/>
                 </person>
                 <person>
                     <persName>Rainerius Malabranca comes (II Aldobrandeschi; 1070-1096?; q.1097?;
@@ -578,6 +579,8 @@
                         subtype="fatherOf"/>
                     <link type="people" corresp="#http://137.204.128.125/people/101"
                         subtype="legallyRecognisedUnionWith"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/102" subtype="sonOf"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/105" subtype="link"/>
                 </person>
                 <person>
                     <persName>Maximilla comitissa (Aldobrandeschi; 1114-1121)</persName>
@@ -620,6 +623,44 @@
                     <link type="people"
                         corresp="#http://137.204.128.125/people/96 #http://137.204.128.125/people/100"
                         subtype="motherOf"/>
+                </person>
+                <person>
+                    <persName>Ildebrandus comes (V; Aldobrandeschi; 1040-1076; q.1077)</persName>
+                    <persName type="other"/>
+                    <idno>http://137.204.128.125/people/102</idno>
+                    <note>Collavini 1995-1996: 525</note>
+                    <link type="people" corresp="#http://137.204.128.125/people/97"
+                        subtype="fatherOf"/>
+                </person>
+                <person>
+                    <persName>Maurus abbas monasterii S. Quirici</persName>
+                    <persName type="other"/>
+                    <idno>http://137.204.128.125/people/103</idno>
+                    <note/>
+                    <link type="juridical_persons"
+                        corresp="#http://137.204.128.125/juridical_persons/78" subtype="link"/>
+                </person>
+                <person>
+                    <persName>Rogerius vicecomes (1121-1125)</persName>
+                    <persName type="other">Rugerius</persName>
+                    <idno>http://137.204.128.125/people/104</idno>
+                    <note>Collavini S. Quirico (RIVEDI); visconte per gli Aldobrandeschi nel
+                        territorio di Populonia; f. Ildebrando</note>
+                    <link type="people" corresp="#http://137.204.128.125/people/96" subtype="link"/>
+                </person>
+                <person>
+                    <persName>Teudici vicecomes (1094)</persName>
+                    <persName type="other"/>
+                    <idno>http://137.204.128.125/people/105</idno>
+                    <note>Visconte a Populonia per gli Aldobrandeschi (Ranieri Malabranca)</note>
+                    <link type="people" corresp="#http://137.204.128.125/people/97" subtype="link"/>
+                </person>
+                <person>
+                    <persName>Wiliccione (Aldobrandeschi; <foreign>ante</foreign> 1108;
+                        q.1108)</persName>
+                    <persName type="other"/>
+                    <idno>http://137.204.128.125/people/1406</idno>
+                    <note>Collavini 1995-1996: 530</note>
                 </person>
                 
             </listPerson>

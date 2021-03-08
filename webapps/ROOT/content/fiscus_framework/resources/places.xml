@@ -751,8 +751,25 @@
                     <geogName type="coord"><geo>45.225624, 8.510349</geo></geogName>
                     <idno>http://137.204.128.125/places/100</idno>
                     <note/>
-                    <link type="estates"/>
-                    <link type="estates"/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/41"
+                        subtype="hasConnectionWith"/>
+                </place>
+                <place>
+                    <placeName>Asigliano Vercellese</placeName>
+                    <placeName type="other">Pasiliano</placeName>
+                    <geogName type="coord"><geo>45.258697, 8.408833</geo></geogName>
+                    <idno>http://137.204.128.125/places/101</idno>
+                    <note/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/97"
+                        subtype="hasConnectionWith"/>
+                </place>
+                <place>
+                    <placeName>Cortereggio</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>45.298075, 7.785873</geo></geogName>
+                    <idno>http://137.204.128.125/places/102</idno>
+                    <note/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/60"/>
                 </place>
                 
             </listPlace>
