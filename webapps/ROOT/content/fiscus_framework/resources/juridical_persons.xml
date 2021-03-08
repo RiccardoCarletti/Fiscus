@@ -209,6 +209,12 @@
                     <link type="people" corresp="#http://137.204.128.125/people/33" subtype="link"/>
                     <link type="estates" corresp="#http://137.204.128.125/estates/60"
                         subtype="hasConnectionWith"/>
+                    <link type="estates"
+                        corresp="#http://137.204.128.125/estates/97 #http://137.204.128.125/estates/41 #http://137.204.128.125/estates/60 #http://137.204.128.125/estates/96 #http://137.204.128.125/estates/98 #http://137.204.128.125/estates/88 #http://137.204.128.125/estates/99 #http://137.204.128.125/estates/63 #http://137.204.128.125/estates/89"
+                        subtype="hasConnectionWith"/>
+                    <link type="places"
+                        corresp="#http://137.204.128.125/places/50 #http://137.204.128.125/places/3 #http://137.204.128.125/places/102 #http://137.204.128.125/places/49 #http://137.204.128.125/places/99 #http://137.204.128.125/places/100 #http://137.204.128.125/places/ #http://137.204.128.125/places/104 #http://137.204.128.125/places/96 #http://137.204.128.125/places/51 #http://137.204.128.125/places/103"
+                        subtype="hasConnectionWith"/>
                 </org>
                 <org>
                     <orgName>Sanctus Petrus; ecclesia (Piacenza)</orgName>
@@ -217,6 +223,17 @@
                     <note/>
                     <link type="places" corresp="#http://137.204.128.125/places/43"
                         subtype="isWithin"/>
+                </org>
+                <org>
+                    <orgName>Sanctus Laurentius; plebs (Vercelli)</orgName>
+                    <orgName type="other"/>
+                    <idno>http://137.204.128.125/juridical_persons/83</idno>
+                    <note/>
+                    <link type="juridical_persons"
+                        corresp="#http://137.204.128.125/juridical_persons/81" subtype="link"/>
+                    <link type="people"
+                        corresp="#http://137.204.128.125/people/32 #http://137.204.128.125/people/33"
+                        subtype="link"/>
                 </org>
              
             </listOrg>
