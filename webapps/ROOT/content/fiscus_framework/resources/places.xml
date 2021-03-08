@@ -740,19 +740,21 @@
                     <note/>
                 </place>
                 <place>
-                    <placeName>Formigliana</placeName>
-                    <placeName type="other">Firminiana</placeName>
+                    <placeName>Formigliana (Vercelli)</placeName>
+                    <placeName type="other"><foreign>Firminiana</foreign></placeName>
                     <geogName type="coord"><geo>45.429178, 8.291073</geo></geogName>
                     <idno>http://137.204.128.125/places/99</idno>
                     <note/>
-                    <link type="people" corresp="#http://137.204.128.125/people/33"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/33" subtype="link"/>
                     <link type="juridical_persons"
-                        corresp="#http://137.204.128.125/juridical_persons/81"/>
-                    <link type="estates" corresp="#http://137.204.128.125/estates/96"/>
+                        corresp="#http://137.204.128.125/juridical_persons/81" subtype="link"/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/96"
+                        subtype="hasConnectionWith"/>
                 </place>
                 <place>
-                    <placeName>Langosco</placeName>
-                    <placeName type="other">Langusco (Vercelli)</placeName>
+                    <placeName>Langosco (Caresana; Vercelli)</placeName>
+                    <placeName type="other"><foreign>Langusco</foreign>
+                    </placeName>
                     <geogName type="coord"><geo>45.225624, 8.510349</geo></geogName>
                     <idno>http://137.204.128.125/places/100</idno>
                     <note/>
@@ -760,8 +762,8 @@
                         subtype="hasConnectionWith"/>
                 </place>
                 <place>
-                    <placeName>Asigliano Vercellese</placeName>
-                    <placeName type="other">Pasiliano</placeName>
+                    <placeName>Asigliano Vercellese (Vercelli)</placeName>
+                    <placeName type="other"><foreign>Pasiliano</foreign></placeName>
                     <geogName type="coord"><geo>45.258697, 8.408833</geo></geogName>
                     <idno>http://137.204.128.125/places/101</idno>
                     <note/>
@@ -769,20 +771,21 @@
                         subtype="hasConnectionWith"/>
                 </place>
                 <place>
-                    <placeName>Cortereggio</placeName>
+                    <placeName>Cortereggio (Torino)</placeName>
                     <placeName type="other"/>
                     <geogName type="coord"><geo>45.298075, 7.785873</geo></geogName>
                     <idno>http://137.204.128.125/places/102</idno>
                     <note/>
-                    <link type="estates" corresp="#http://137.204.128.125/estates/60"/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/60"
+                        subtype="hasConnectionWith"/>
                 </place>
                 <place>
-                    <placeName>Valchiusella</placeName>
+                    <placeName>Valchiusella (Traversella; Torino)</placeName>
                     <placeName type="other"/>
                     <geogName type="coord"><geo>45.506106, 7.750168</geo></geogName>
                     <idno>http://137.204.128.125/places/103</idno>
                     <note>Le coordinate di localizzazione si basano su Traversella, comune
-                        all'imbocco della Val chiusella</note>
+                        all'imbocco della Val Chiusella.</note>
                     <link type="people"
                         corresp="#http://137.204.128.125/people/32 #http://137.204.128.125/people/33"
                         subtype="link"/>
@@ -797,7 +800,7 @@
                     <geogName type="coord"><geo/></geogName>
                     <idno>http://137.204.128.125/places/104</idno>
                     <note>Il ponte Notingo è situato presso Matasco (si veda Panero 2014) non
-                        localizzabile nelle carte</note>
+                        localizzabile nelle carte.</note>
                     <link type="people"
                         corresp="#http://137.204.128.125/people/32 #http://137.204.128.125/people/33"/>
                     <link type="juridical_persons"
@@ -805,10 +808,10 @@
                     <link type="people" corresp="#http://137.204.128.125/people/1409"/>
                 </place>
                 <place>
-                    <placeName>Occimiano </placeName>
+                    <placeName>Occimiano (Alessandria)</placeName>
                     <placeName type="other"/>
                     <geogName type="coord"><geo>45.059699, 8.509769</geo></geogName>
-                    <idno>http://137.204.128.125/places/</idno>
+                    <idno>http://137.204.128.125/places/105</idno>
                     <note/>
                     <link type="estates" corresp="#http://137.204.128.125/estates/98"
                         subtype="hasConnectionWith"/>
@@ -816,6 +819,15 @@
                         corresp="#http://137.204.128.125/juridical_persons/81" subtype="link"/>
                     <link type="people" corresp="#http://137.204.128.125/people/32" subtype="link"/>
                     <link type="people" corresp="#http://137.204.128.125/people/33" subtype="link"/>
+                </place>
+                <place>
+                    <placeName>Vercelli</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>45.324392, 8.42411</geo></geogName>
+                    <idno>http://137.204.128.125/places/106</idno>
+                    <note/>
+                    <link type="juridical_persons"
+                        corresp="#http://137.204.128.125/juridical_persons/81" subtype="link"/>
                 </place>
                 
             </listPlace>
