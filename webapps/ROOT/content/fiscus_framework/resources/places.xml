@@ -613,7 +613,7 @@
                     <idno>http://137.204.128.125/places/85</idno>
                     <note/>
                     <link type="juridical_persons"
-                        corresp="#http://137.204.128.125/juridical_persons/79"/>
+                        corresp="#http://137.204.128.125/juridical_persons/79" subtype="link"/>
                 </place>
                 <place>
                     <placeName>Populonia (Livorno)</placeName>
@@ -622,7 +622,7 @@
                     <idno>http://137.204.128.125/places/86</idno>
                     <note/>
                     <link type="juridical_persons"
-                        corresp="#http://137.204.128.125/juridical_persons/78"/>
+                        corresp="#http://137.204.128.125/juridical_persons/78" subtype="link"/>
                 </place>
                 <place>
                     <placeName>Suvereto (Livorno)</placeName>
@@ -630,7 +630,8 @@
                     <geogName type="coord"><geo>43.078982, 10.678539</geo></geogName>
                     <idno>http://137.204.128.125/places/87</idno>
                     <note/>
-                    <link type="estates" corresp="#http://137.204.128.125/estates/86"/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/86"
+                        subtype="hasConnectionWith"/>
                 </place>
                 <place>
                     <placeName>Magliano in Toscana (Grosseto)</placeName>
@@ -645,8 +646,10 @@
                     <geogName type="coord"><geo>42.98468, 10.63095</geo></geogName>
                     <idno>http://137.204.128.125/places/89</idno>
                     <note/>
-                    <link type="estates" corresp="#http://137.204.128.125/estates/85"/>
-                    <link type="juridical_persons"/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/85"
+                        subtype="hasConnectionWith"/>
+                    <link type="juridical_persons"
+                        corresp="#http://137.204.128.125/juridical_persons/78" subtype="link"/>
                 </place>
                 <place>
                     <placeName>Caddo (Crevoladossola; Verbano-Cusio-Ossola)</placeName>
@@ -664,7 +667,8 @@
                     <geogName type="coord"><geo>42.989447, 10.491567</geo></geogName>
                     <idno>http://137.204.128.125/places/91</idno>
                     <note>Le coordinate, momentanee, sono quelle di Populonia</note>
-                    <link type="estates" corresp="#http://137.204.128.125/estates/86"/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/86"
+                        subtype="hasConnectionWith"/>
                 </place>
                 <place>
                     <placeName>Premosello (Verbano-Cusio-Ossola)</placeName>
