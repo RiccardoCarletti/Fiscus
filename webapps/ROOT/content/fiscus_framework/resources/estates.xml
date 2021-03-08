@@ -266,7 +266,8 @@
                     <idno>http://137.204.128.125/estates/85</idno>
                     <note/>
                     <link type="juridical_persons"
-                        corresp="#http://137.204.128.125/juridical_persons/79 #http://137.204.128.125/juridical_persons/78"/>
+                        corresp="#http://137.204.128.125/juridical_persons/79 #http://137.204.128.125/juridical_persons/78"
+                        subtype="link"/>
                     <link type="places" corresp="#http://137.204.128.125/places/89"
                         subtype="isMadeOf"/>
                     <link type="juridical_persons"
@@ -277,14 +278,16 @@
                     <geogName type="other">Corninus comitatus; Cornini fines</geogName>
                     <idno>http://137.204.128.125/estates/86</idno>
                     <note/>
-                    <link type="places" corresp="#http://137.204.128.125/places/91"/>
+                    <link type="places" corresp="#http://137.204.128.125/places/91"
+                        subtype="hasConnectionWith"/>
                 </place>
                 <place>
                     <geogName>Populonia; <foreign>comitatus</foreign></geogName>
                     <geogName type="other">territorium</geogName>
                     <idno>http://137.204.128.125/estates/87</idno>
                     <note/>
-                    <link type="places" corresp="#http://137.204.128.125/places/86"/>
+                    <link type="places" corresp="#http://137.204.128.125/places/86"
+                        subtype="hasConnectionWith"/>
                 </place>
                 <place>
                     <geogName>Romanianum; <foreign>curtis</foreign></geogName>
