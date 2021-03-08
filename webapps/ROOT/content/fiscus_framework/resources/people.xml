@@ -378,9 +378,11 @@
                     <link type="people" subtype="NephewOf" corresp="#http://137.204.128.125/people/73"/>
                     <link type="estates" subtype="Link" corresp="#http://137.204.128.125/estates/75"/>
                     <note></note>
-                    <link type="estates" corresp="#http://137.204.128.125/estates/92"/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/92"
+                        subtype="hasConnectionWith"/>
                     <link type="places"
-                        corresp="#http://137.204.128.125/places/55 #http://137.204.128.125/places/56"/>
+                        corresp="#http://137.204.128.125/places/55 #http://137.204.128.125/places/56"
+                        subtype="hasConnectionWith"/>
                 </person>
                 <person>
                     <persName>Paganus de Arcellis (1187)</persName>
@@ -521,6 +523,8 @@
                     <persName type="other"/>
                     <idno>http://137.204.128.125/people/92</idno>
                     <note/>
+                    <link type="people" corresp="#http://137.204.128.125/people/93"
+                        subtype="seniorOf"/>
                 </person>
                 <person>
                     <persName>Gariardus (q. 945) vicecomes</persName>
