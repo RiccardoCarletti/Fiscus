@@ -370,19 +370,23 @@
                     <geogName type="coord"><geo>46.116498450522876, 8.293138760964213</geo></geogName>
                     <idno>http://137.204.128.125/places/54</idno>
                     <note></note>
-                    <link type="estates" corresp="#http://137.204.128.125/estates/92"/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/92"
+                        subtype="hasConnectionWith"/>
                     <link type="people"
-                        corresp="#http://137.204.128.125/people/93 #http://137.204.128.125/people/74"/>
+                        corresp="#http://137.204.128.125/people/93 #http://137.204.128.125/people/74"
+                        subtype="link"/>
                 </place>
                 <place>
                     <placeName><foreign>Beura</foreign> (Beura-cardezza; Verbano-Cusio-Ossola)</placeName>
                     <geogName type="coord"><geo>46.07957, 8.29973</geo></geogName>
                     <idno>http://137.204.128.125/places/55</idno>
                     <note></note>
-                    <link type="places" corresp="#http://137.204.128.125/places/56"/>
+                    <link type="places" corresp="#http://137.204.128.125/places/56"
+                        subtype="hasConnectionWith"/>
                     <link type="estates"
-                        corresp="#http://137.204.128.125/estates/75 #http://137.204.128.125/estates/92"/>
-                    <link type="people" corresp="#http://137.204.128.125/people/74"/>
+                        corresp="#http://137.204.128.125/estates/75 #http://137.204.128.125/estates/92"
+                        subtype="hasConnectionWith"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/74" subtype="link"/>
                 </place>
                 <place>
                     <placeName>Invorio (Novara)</placeName>
@@ -657,9 +661,11 @@
                     <geogName type="coord"><geo>46.1286177, 8.2784194</geo></geogName>
                     <idno>http://137.204.128.125/places/90</idno>
                     <note/>
-                    <link type="people" corresp="#http://137.204.128.125/people/93"/>
-                    <link type="estates" corresp="#http://137.204.128.125/estates/93"/>
-                    <link type="estates" corresp="#http://137.204.128.125/estates/92"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/93" subtype="link"/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/93"
+                        subtype="hasConnectionWith"/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/92"
+                        subtype="hasConnectionWith"/>
                 </place>
                 <place>
                     <placeName><foreign>Cornino</foreign> (territorium)</placeName>
@@ -676,9 +682,11 @@
                     <geogName type="coord"><geo>46.0039555, 8.3275904</geo></geogName>
                     <idno>http://137.204.128.125/places/92</idno>
                     <note/>
-                    <link type="people" corresp="#http://137.204.128.125/people/93"/>
-                    <link type="estates" corresp="#http://137.204.128.125/estates/94"/>
-                    <link type="estates" corresp="#http://137.204.128.125/estates/92"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/93" subtype="link"/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/94"
+                        subtype="hasConnectionWith"/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/92"
+                        subtype="hasConnectionWith"/>
                 </place>
                 <place>
                     <placeName>Lomese (Montecrestese; Verbano-Cusio-Ossola)</placeName>
@@ -688,8 +696,10 @@
                     <idno>http://137.204.128.125/places/93</idno>
                     <note/>
                     <link type="people" corresp="#http://137.204.128.125/people/93" subtype="link"/>
-                    <link type="estates" corresp="#http://137.204.128.125/estates/95"/>
-                    <link type="estates" corresp="#http://137.204.128.125/estates/92"/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/95"
+                        subtype="hasConnectionWith"/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/92"
+                        subtype="hasConnectionWith"/>
                 </place>
                 <place>
                     <placeName>Redù (Nonantola; Modena)</placeName>
