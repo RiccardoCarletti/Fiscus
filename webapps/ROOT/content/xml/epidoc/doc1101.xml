@@ -33,7 +33,7 @@
                         <summary>
                             <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
-                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
                             <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
@@ -74,7 +74,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2021-02-08">creation of record</change>
+                <change when="2021-02-08" who="Chiara Stedile">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -82,22 +82,26 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>In nomine sancte et individue trinitatis. Karlomannus divina favente
-                        clementia rex. Omnibus sancte dei ecclesie nostrisque fidelibus presentibus
-                        videlicet ac futuris cognitum fieri volumus, Angilbergam dive memorie
-                        Hludouuici piissimi imperatoris fratris et consobrini nostri coniugem
-                        augustam, dilectam sororem nostram, quoddam noviter coenobium ancillarum dei
-                        ad laudem et gloriam dominice resurrectionis infra muros urbis Placentinae
-                        in solo proprio pia devotione fundasse. Ad cuius operis suplementum nos
-                        quoque ob honorem dei et eiusdem fratris et consobrini nostri amorem et
-                        nostrae mercedis augmentum cellulam quamdam haud procul ab eadem urbe
-                        Placentina sitam loco qui Caput Trebie vocatur, in qua et ecclesia
-                        apostolorum principis honori dicata consistit et, ut fertur, monasticis
-                        quondam habitationibus adtributa, cum omni integritate sua ad famularum
-                        Christi usus praefato monasterio clementi liberalitate conferimus donamus
-                        atque largimur et per hanc nostre auctoritatis paginam in ius et potestatem
-                        praenominati loci sollemniter transfundimus confirmamus roboamus et
-                        stabilimus cum universis intrinsecus et extrinsecus appendiciis casis et
+                    <ab>In nomine sancte et individue trinitatis. <persName key="#Emperor/king"
+                            ref="#http://137.204.128.125/people/80">Karlomannus</persName> divina
+                        favente clementia <rs key="#Emperor/king">rex</rs>. Omnibus sancte dei
+                        ecclesie nostrisque fidelibus presentibus videlicet ac futuris cognitum
+                        fieri volumus, <persName key="#Queen"
+                            ref="#http://137.204.128.125/people/55">Angilbergam</persName> dive
+                        memorie <persName key="#Emperor/king">Hludouuici</persName> piissimi <rs
+                            key="#Emperor/king">imperatoris</rs> fratris et consobrini nostri
+                        coniugem augustam, dilectam sororem nostram, quoddam noviter coenobium
+                        ancillarum dei ad laudem et gloriam dominice resurrectionis infra muros
+                        urbis Placentinae in solo proprio pia devotione fundasse. Ad cuius operis
+                        suplementum nos quoque ob honorem dei et eiusdem fratris et consobrini
+                        nostri amorem et nostrae mercedis augmentum cellulam quamdam haud procul ab
+                        eadem urbe Placentina sitam loco qui Caput Trebie vocatur, in qua et
+                        ecclesia apostolorum principis honori dicata consistit et, ut fertur,
+                        monasticis quondam habitationibus adtributa, cum omni integritate sua ad
+                        famularum Christi usus praefato monasterio clementi liberalitate conferimus
+                        donamus atque largimur et per hanc nostre auctoritatis paginam in ius et
+                        potestatem praenominati loci sollemniter transfundimus confirmamus roboamus
+                        et stabilimus cum universis intrinsecus et extrinsecus appendiciis casis et
                         rebus mobilibus et immobilibus ac promiscui sexus familiis ad ipsam cellulam
                         respicientibus, ut habeant illam famule Christi inibi militantes ex hoc nunc
                         et deinceps et possideant iure quieto ac pacifico absque ullius in posterum
@@ -119,13 +123,15 @@
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p/>
+                <p>MGH DD Km, pp. 291-292, n. 5; Benassi, <foreign>Codice diplomatico
+                        Parmense</foreign> 1, 157 n° 23; Muratori, <foreign>Antiquitates
+                        italicae</foreign> 5, 501</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>
             </div>
             <div type="bibliography" subtype="links">
-                <p/>
+                <p>https://www.dmgh.de/mgh_dd_ldd__dd_km__dd_ldj/index.htm#page/291/mode/1up</p>
             </div>
             <div type="commentary">
                 <p/>
