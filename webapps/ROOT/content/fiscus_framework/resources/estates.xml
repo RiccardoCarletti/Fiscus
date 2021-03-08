@@ -396,10 +396,20 @@
                     <geogName type="other">Pasiliano</geogName>
                     <idno>http://137.204.128.125/estates/97</idno>
                     <note/>
-                    <link type="people" corresp="#http://137.204.128.125/people/33"/>
-                    <link type="people" corresp="#http://137.204.128.125/people/32"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/33" subtype="link"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/32" subtype="link"/>
                     <link type="juridical_persons"
-                        corresp="#http://137.204.128.125/juridical_persons/81"/>
+                        corresp="#http://137.204.128.125/juridical_persons/81" subtype="link"/>
+                </place>
+                <place>
+                    <geogName>Occimiano; <foreign>curtis</foreign></geogName>
+                    <geogName type="other">Aucumiano</geogName>
+                    <idno>http://137.204.128.125/estates/98</idno>
+                    <note/>
+                    <link type="juridical_persons"
+                        corresp="#http://137.204.128.125/juridical_persons/81" subtype="link"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/32" subtype="link"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/33" subtype="link"/>
                 </place>
             </listPlace>
         </body>
