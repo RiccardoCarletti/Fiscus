@@ -531,13 +531,19 @@
                     <persName type="other"/>
                     <idno>http://137.204.128.125/people/93</idno>
                     <note/>
-                    <link type="people" corresp="#http://137.204.128.125/people/92"/>
-                    <link type="places" corresp="#http://137.204.128.125/places/54"/>
-                    <link type="estates" corresp="#http://137.204.128.125/estates/95"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/92"
+                        subtype="fidelisOf"/>
+                    <link type="places" corresp="#http://137.204.128.125/places/54"
+                        subtype="hasConnectionWith"/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/95"
+                        subtype="hasConnectionWith"/>
                     <link type="estates"
-                        corresp="#http://137.204.128.125/estates/93 #http://137.204.128.125/estates/95"/>
-                    <link type="estates" corresp="#http://137.204.128.125/estates/94"/>
-                    <link type="estates" corresp="#http://137.204.128.125/estates/92"/>
+                        corresp="#http://137.204.128.125/estates/93 #http://137.204.128.125/estates/95"
+                        subtype="hasConnectionWith"/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/94"
+                        subtype="hasConnectionWith"/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/92"
+                        subtype="hasConnectionWith"/>
                 </person>
                 <person>
                     <persName>Vitalis (801) episcopus Bononiensis</persName>
