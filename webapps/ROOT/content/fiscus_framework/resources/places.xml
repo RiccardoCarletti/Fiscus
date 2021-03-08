@@ -802,6 +802,20 @@
                         corresp="#http://137.204.128.125/people/32 #http://137.204.128.125/people/33"/>
                     <link type="juridical_persons"
                         corresp="#http://137.204.128.125/juridical_persons/81"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/1409"/>
+                </place>
+                <place>
+                    <placeName>Occimiano </placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>45.059699, 8.509769</geo></geogName>
+                    <idno>http://137.204.128.125/places/</idno>
+                    <note/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/98"
+                        subtype="hasConnectionWith"/>
+                    <link type="juridical_persons"
+                        corresp="#http://137.204.128.125/juridical_persons/81" subtype="link"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/32" subtype="link"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/33" subtype="link"/>
                 </place>
                 
             </listPlace>
