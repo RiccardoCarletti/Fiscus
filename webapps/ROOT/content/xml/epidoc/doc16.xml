@@ -33,7 +33,7 @@
                             <rs type="text_type" ref="https://ausohnum.huma-num.fr/concept/c25675">Promissio</rs>
                             <rs type="record_source" ref="https://ausohnum.huma-num.fr/concept/c26116">Original document</rs>
                             <rs type="document_tradition" ref="https://ausohnum.huma-num.fr/concept/c26112">Original</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -42,7 +42,7 @@
                     <history>
                         <origin>
                             <origDate when="1104-07-06">
-                                <note type="displayed_date">6 luglio 1104</note>
+                                <note type="displayed_date">1104 July 6</note>
                                 <note type="dating_elements">Anno incarnazione 1104; Indizione 12</note>
                                 <note type="topical_date">Lucca</note>
                             </origDate>
@@ -73,7 +73,7 @@
         <revisionDesc>
             <listChange>
                 <change who="smcollavini" when="2020-12-30T08:58:48.035-08:00">creation of record</change>
-           <change when="2020-12-30T09:39:23.641-08:00" who="http://137.204.128.125/people/smcollavini"/>
+           <change when="2021-03-08" who="scollavini">major changes</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -82,10 +82,33 @@
             <div type="edition">
                 <div type="textpart">
                     <ab>
-                        <persName key="">Ildebrandus</persName> filius <persName key="">b.m. Tecti</persName> et <persName key="">Lieta</persName> genitrix eius et relicta qd. suprascripti Tecti et filia <persName key="">b.m. Oppiti</persName> ricevuto a nome di Brunus in Christi nomine abbas de <orgName key="">ecclesia et monasterii Sancti Pontiani</orgName> (…) meritum da <persName key="">Iohannes iudex</persName> pro pendo uno ex auro pro solidis duocemtum pro persona tua qui supra <persName key="">Brunus abbati</persName> (…) promettono di non contestare o sottrarre de tertia portione ex integra et de alia tertia portione ex integra due portiones ex imtegre de una cassina et re massaricia que esse videtur in loco et finibus <placeName key="">Saltucclo</placeName>, ubi dicitur <placeName key="">
-                            <rs key="#emperor/king">Vinea Regis</rs>
-                        </placeName> que recta et laborata esse videtur per *** massarium quas tibi per cartulam scripta ex manibus <persName key="">Conradi notarii</persName> domini imperatoris ex comparatione obvenit a nobis ipsis. Pena: argentum obtimum libras viginti. (…) Actum <placeName key="">Luca</placeName>.  SM Ildebrandi et Liete. SM <persName key="">Alberti</persName> filii <persName key="">b.m. Teudegrimi iudicis</persName>. SM <persName key="">Henrichi</persName> filii b.m. <persName key="">Iohannis iudicis</persName>. SM <persName key="">Mucciani</persName> filii <persName key="">b.m. Barocci</persName>. Scrive: <persName key="">Conradus notarius domini imperatoris</persName>
-                    </ab>
+                        <persName key="">Ildebrandus</persName> filius <persName key="">b.m.
+                            Tecti</persName> et <persName key="">Lieta</persName> genitrix eius et
+                        relicta qd. suprascripti Tecti et filia <persName key="">b.m.
+                            Oppiti</persName> ricevuto a nome di <persName key="#Abbots"
+                            >Brunus</persName> in Christi nomine <rs key="#Abbots">abbas</rs> de
+                            <orgName key="" ref="#http://137.204.128.125/juridical_persons/71"
+                            >ecclesia et monasterii Sancti Pontiani</orgName> (…) meritum da
+                            <persName key="#Judge">Iohannes <rs key="#Judge">iudex</rs></persName>
+                        pro pendo uno ex auro pro solidis duocemtum pro persona tua qui supra Brunus
+                        abbati  (…) promettono di non contestare o sottrarre de tertia portione ex
+                        integra et de alia tertia portione ex integra due portiones ex imtegre de
+                        una <rs key="#Casae/cassinae_massaricie">cassina et re massaricia</rs> que
+                        esse videtur in loco et finibus <placeName key="#Casae/cassinae_massaricie"
+                            ref="#http://137.204.128.125/places/36">Saltucclo</placeName>, ubi
+                        dicitur <rs key="#Landed_possessions #Wine #Emperor/king"><placeName
+                                ref="#http://137.204.128.125/places/36">Vinea
+                        Regis</placeName></rs>, que recta et laborata esse videtur per *** massarium
+                        quas tibi per cartulam scripta ex manibus <persName key="#Notary">Conradi
+                                <rs key="#Notary">notarii</rs></persName> domini imperatoris ex
+                        comparatione obvenit a nobis ipsis. Pena: argentum obtimum libras viginti.
+                        (…) Actum <placeName key="">Luca</placeName>. SM Ildebrandi et Liete. SM
+                            <persName key="">Alberti</persName> filii <persName key="">b.m.
+                            Teudegrimi iudicis</persName>. SM <persName key="">Henrichi</persName>
+                        filii b.m. <persName key="">Iohannis iudicis</persName>. SM <persName key=""
+                            >Mucciani</persName> filii <persName key="">b.m. Barocci</persName>.
+                        Scrive: <persName key="#Notary">Conradus</persName>
+                        <rs key="#Notary">notarius</rs> domini imperatoris </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
