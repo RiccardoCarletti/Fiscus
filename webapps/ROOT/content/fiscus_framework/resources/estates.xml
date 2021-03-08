@@ -267,19 +267,20 @@
                     <note/>
                     <link type="juridical_persons"
                         corresp="#http://137.204.128.125/juridical_persons/79 #http://137.204.128.125/juridical_persons/78"/>
-                    <link type="places" corresp="#http://137.204.128.125/places/89"/>
+                    <link type="places" corresp="#http://137.204.128.125/places/89"
+                        subtype="isMadeOf"/>
                     <link type="juridical_persons"
                         corresp="#http://137.204.128.125/juridical_persons/78" subtype="link"/>
                 </place>
                 <place>
-                    <geogName><foreign>Corninus</foreign> (territorium)</geogName>
+                    <geogName><foreign>Corninus</foreign>; <foreign>territorium</foreign></geogName>
                     <geogName type="other">Corninus comitatus; Cornini fines</geogName>
                     <idno>http://137.204.128.125/estates/86</idno>
                     <note/>
                     <link type="places" corresp="#http://137.204.128.125/places/91"/>
                 </place>
                 <place>
-                    <geogName>Populonia (comitatus)</geogName>
+                    <geogName>Populonia; <foreign>comitatus</foreign></geogName>
                     <geogName type="other">territorium</geogName>
                     <idno>http://137.204.128.125/estates/87</idno>
                     <note/>
@@ -351,7 +352,7 @@
                     <geogName type="other"/>
                     <idno>http://137.204.128.125/estates/93</idno>
                     <note/>
-                    <link type="people" corresp="#http://137.204.128.125/people/93"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/93" subtype="link"/>
                     <link type="places" corresp="#http://137.204.128.125/places/90"/>
                     <link type="estates" corresp="#http://137.204.128.125/estates/95"/>
                     <link type="estates" corresp="#http://137.204.128.125/estates/94"/>
@@ -362,7 +363,7 @@
                     <geogName type="other"/>
                     <idno>http://137.204.128.125/estates/94</idno>
                     <note/>
-                    <link type="people" corresp="#http://137.204.128.125/people/93"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/93" subtype="link"/>
                     <link type="places" corresp="#http://137.204.128.125/places/92"/>
                     <link type="estates" corresp="#http://137.204.128.125/estates/93"/>
                     <link type="estates" corresp="#http://137.204.128.125/estates/95"/>
@@ -373,7 +374,7 @@
                     <geogName type="other"/>
                     <idno>http://137.204.128.125/estates/95</idno>
                     <note/>
-                    <link type="people" corresp="#http://137.204.128.125/people/93"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/93" subtype="link"/>
                     <link type="places" corresp="#http://137.204.128.125/places/93"/>
                     <link type="estates" corresp="#http://137.204.128.125/estates/93"/>
                     <link type="estates" corresp="#http://137.204.128.125/estates/94"/>
