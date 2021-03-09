@@ -710,14 +710,16 @@
                         subtype="cousinOf"/>
                 </person>
                 <person>
-                    <persName>Aio (884-891); princeps </persName>
+                    <persName>Aio (884-891) princeps </persName>
                     <persName type="other"/>
                     <idno>http://137.204.128.125/people/1411</idno>
                     <note>Gasparri 1988: 129-130</note>
                     <link type="juridical_persons"
                         corresp="#http://137.204.128.125/juridical_persons/84" subtype="link"/>
-                    <link type="people" corresp="#http://137.204.128.125/people/"
+                    <link type="people" corresp="#http://137.204.128.125/people/1412"
                         subtype="brotherOf"/>
+                    <link type="places" corresp="#http://137.204.128.125/places/110"
+                        subtype="hasConnectionWith"/>
                 </person>
                 <person>
                     <persName>Ladelchis (885)</persName>
@@ -728,14 +730,21 @@
                         subtype="brotherOf"/>
                 </person>
                 <person>
-                    <persName>Criscius (876-885)</persName>
-                    <persName type="other"/>
+                    <persName>Criscius (876-885) medicus</persName>
                     <idno>http://137.204.128.125/people/1413</idno>
                     <note/>
                     <link type="people" corresp="#http://137.204.128.125/people/1411"
                         subtype="professionalRelationship"/>
                     <link type="juridical_persons"
                         corresp="#http://137.204.128.125/juridical_persons/84" subtype="agentFor"/>
+                </person>
+                <person>
+                    <persName>Petrus (885) notarius</persName>
+                    <persName type="other"/>
+                    <idno>http://137.204.128.125/people/1414</idno>
+                    <note/>
+                    <link type="places" corresp="#http://137.204.128.125/places/110"
+                        subtype="hasConnectionWith"/>
                 </person>
                 
             </listPerson>
