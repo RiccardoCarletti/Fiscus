@@ -369,42 +369,42 @@
         <xsl:variable name="links_jp"><xsl:for-each select="$linked_jp|$linking_jp|$i_linked_jp1|$i_linked_jp|$i_linking_jp1|$i_linking_jp"><xsl:value-of select="." /></xsl:for-each></xsl:variable>
         <!-- blue points -->
           <xsl:if test="not(contains($links_est, 'estates')) and not(contains($links_jp, 'juridical_persons')) and not(matches($all_keys, '.*(fiscal_property).*'))">
-           <xsl:text>"</xsl:text><xsl:value-of select="$name"/><xsl:text>#a§</xsl:text><xsl:value-of select="$id"/><xsl:text>": "</xsl:text><xsl:choose>
+           <xsl:text>"</xsl:text><xsl:value-of select="$name"/><xsl:text>#a@</xsl:text><xsl:value-of select="$id"/><xsl:text>": "</xsl:text><xsl:choose>
             <xsl:when test="contains(normalize-space(tei:geogName/tei:geo), ';')"><xsl:value-of select="substring-before(tei:geogName/tei:geo, ';')"/></xsl:when>
             <xsl:otherwise><xsl:value-of select="normalize-space(tei:geogName/tei:geo)"/></xsl:otherwise>
           </xsl:choose><xsl:text>"</xsl:text><xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if>
           </xsl:if>
         <!-- green points -->
           <xsl:if test="contains($links_est, 'estates') and not(contains($links_jp, 'juridical_persons')) and matches($all_keys, '.*(fiscal_property).*')">
-            <xsl:text>"</xsl:text><xsl:value-of select="$name"/><xsl:text>#b§</xsl:text><xsl:value-of select="$id"/><xsl:text>": "</xsl:text><xsl:choose>
+            <xsl:text>"</xsl:text><xsl:value-of select="$name"/><xsl:text>#b@</xsl:text><xsl:value-of select="$id"/><xsl:text>": "</xsl:text><xsl:choose>
             <xsl:when test="contains(normalize-space(tei:geogName/tei:geo), ';')"><xsl:value-of select="substring-before(tei:geogName/tei:geo, ';')"/></xsl:when>
             <xsl:otherwise><xsl:value-of select="normalize-space(tei:geogName/tei:geo)"/></xsl:otherwise>
           </xsl:choose><xsl:text>"</xsl:text><xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if>
           </xsl:if>
        <!-- green squares -->
         <xsl:if test="contains($links_est, 'estates') and not(contains($links_jp, 'juridical_persons')) and not(matches($all_keys, '.*(fiscal_property).*'))">
-          <xsl:text>"</xsl:text><xsl:value-of select="$name"/><xsl:text>#c§</xsl:text><xsl:value-of select="$id"/><xsl:text>": "</xsl:text><xsl:choose>
+          <xsl:text>"</xsl:text><xsl:value-of select="$name"/><xsl:text>#c@</xsl:text><xsl:value-of select="$id"/><xsl:text>": "</xsl:text><xsl:choose>
             <xsl:when test="contains(normalize-space(tei:geogName/tei:geo), ';')"><xsl:value-of select="substring-before(tei:geogName/tei:geo, ';')"/></xsl:when>
             <xsl:otherwise><xsl:value-of select="normalize-space(tei:geogName/tei:geo)"/></xsl:otherwise>
           </xsl:choose><xsl:text>"</xsl:text><xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if>
         </xsl:if>
         <!-- red points -->
         <xsl:if test="not(contains($links_est, 'estates')) and contains($links_jp, 'juridical_persons') and not(matches($all_keys, '.*(fiscal_property).*'))">
-          <xsl:text>"</xsl:text><xsl:value-of select="$name"/><xsl:text>#d§</xsl:text><xsl:value-of select="$id"/><xsl:text>": "</xsl:text><xsl:choose>
+          <xsl:text>"</xsl:text><xsl:value-of select="$name"/><xsl:text>#d@</xsl:text><xsl:value-of select="$id"/><xsl:text>": "</xsl:text><xsl:choose>
             <xsl:when test="contains(normalize-space(tei:geogName/tei:geo), ';')"><xsl:value-of select="substring-before(tei:geogName/tei:geo, ';')"/></xsl:when>
             <xsl:otherwise><xsl:value-of select="normalize-space(tei:geogName/tei:geo)"/></xsl:otherwise>
           </xsl:choose><xsl:text>"</xsl:text><xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if>
         </xsl:if>
         <!-- green+red points -->
         <xsl:if test="contains($links_est, 'estates') and contains($links_jp, 'juridical_persons') and matches($all_keys, '.*(fiscal_property).*')">
-          <xsl:text>"</xsl:text><xsl:value-of select="$name"/><xsl:text>#e§</xsl:text><xsl:value-of select="$id"/><xsl:text>": "</xsl:text><xsl:choose>
+          <xsl:text>"</xsl:text><xsl:value-of select="$name"/><xsl:text>#e@</xsl:text><xsl:value-of select="$id"/><xsl:text>": "</xsl:text><xsl:choose>
             <xsl:when test="contains(normalize-space(tei:geogName/tei:geo), ';')"><xsl:value-of select="substring-before(tei:geogName/tei:geo, ';')"/></xsl:when>
             <xsl:otherwise><xsl:value-of select="normalize-space(tei:geogName/tei:geo)"/></xsl:otherwise>
           </xsl:choose><xsl:text>"</xsl:text><xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if>
         </xsl:if>
         <!-- green+red squares -->
         <xsl:if test="contains($links_est, 'estates') and contains($links_jp, 'juridical_persons') and not(matches($all_keys, '.*(fiscal_property).*'))">
-          <xsl:text>"</xsl:text><xsl:value-of select="$name"/><xsl:text>#f§</xsl:text><xsl:value-of select="$id"/><xsl:text>": "</xsl:text><xsl:choose>
+          <xsl:text>"</xsl:text><xsl:value-of select="$name"/><xsl:text>#f@</xsl:text><xsl:value-of select="$id"/><xsl:text>": "</xsl:text><xsl:choose>
             <xsl:when test="contains(normalize-space(tei:geogName/tei:geo), ';')"><xsl:value-of select="substring-before(tei:geogName/tei:geo, ';')"/></xsl:when>
             <xsl:otherwise><xsl:value-of select="normalize-space(tei:geogName/tei:geo)"/></xsl:otherwise>
           </xsl:choose><xsl:text>"</xsl:text><xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if>
@@ -491,23 +491,23 @@
         var greenredsquare_places = [];
         
         for (const [key, value] of Object.entries(points)) {
-        if (key.includes('#a§')) {
-        blue_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: blueIcon}).bindPopup('<a href="#0">'.replace("0", key.substring(key.lastIndexOf("§") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("§") +1)) + '➚</a></span>'));
+        if (key.includes('#a@')) {
+        blue_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: blueIcon}).bindPopup('<a href="#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
         }
-        if (key.includes('#b§')) {
-        green_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: greenIcon}).bindPopup('<a href="#0">'.replace("0", key.substring(key.lastIndexOf("§") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("§") +1)) + '➚</a></span>'));
+        if (key.includes('#b@')) {
+        green_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: greenIcon}).bindPopup('<a href="#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
         }
-        if (key.includes('#c§')) {
-        greensquare_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: greensquareIcon}).bindPopup('<a href="#0">'.replace("0", key.substring(key.lastIndexOf("§") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("§") +1)) + '➚</a></span>'));
+        if (key.includes('#c@')) {
+        greensquare_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: greensquareIcon}).bindPopup('<a href="#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
         }
-        if (key.includes('#d§')) {
-        red_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: redIcon}).bindPopup('<a href="#0">'.replace("0", key.substring(key.lastIndexOf("§") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("§") +1)) + '➚</a></span>'));
+        if (key.includes('#d@')) {
+        red_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: redIcon}).bindPopup('<a href="#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
         }
-        if (key.includes('#e§')) {
-        greenred_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: greenredIcon}).bindPopup('<a href="#0">'.replace("0", key.substring(key.lastIndexOf("§") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("§") +1)) + '➚</a></span>'));
+        if (key.includes('#e@')) {
+        greenred_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: greenredIcon}).bindPopup('<a href="#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
         }
-        if (key.includes('#f§')) {
-        greenredsquare_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: greenredsquareIcon}).bindPopup('<a href="#0">'.replace("0", key.substring(key.lastIndexOf("§") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("§") +1)) + '➚</a></span>'));
+        if (key.includes('#f@')) {
+        greenredsquare_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: greenredsquareIcon}).bindPopup('<a href="#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
         }
         };
         
