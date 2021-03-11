@@ -4,7 +4,8 @@
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
-                <title>Biblioteca Apostolica Vaticana, Vat. Lat. 3833, f. 87v</title>
+                <title>Biblioteca Apostolica Vaticana, Vat. Lat. 3833, f. 87v (Deusdedit, nr.
+                    209)</title>
             </titleStmt>
             <editionStmt>
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus
@@ -42,8 +43,8 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate notBefore="0001" notAfter="0001" when="0001">
-                                <note type="displayed_date"/>
+                            <origDate notBefore="0625-11-03" notAfter="0638-10-12">
+                                <note type="displayed_date">625 November 3 - 638 October 12</note>
                                 <note type="dating_elements"/>
                                 <note type="topical_date"/>
                             </origDate>
@@ -73,7 +74,8 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2021-02-08">creation of record</change>
+                <change when="2021-03-04" who="dinternullo">creation of record</change>
+                <change/>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -81,7 +83,13 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab/>
+                    <ab>(<persName key="#Landed_possessions #Rent_in_money #Popes"
+                            ref="#http://137.204.128.125/people/68">Honorius I</persName> locat)
+                            <persName>Dominico</persName>
+                        <rs key="#Landed_possessions">terras et vineas et prata</rs> foris
+                            <placeName key="#Clusae/gates">portam Flammineam</placeName> usque ad
+                            <placeName key="#Bridges/pontoons">pontem Molvium</placeName> sub annua
+                        pensione <rs key="#Rent_type #Rent_in_money">.XXX. solidorum auri.</rs></ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
