@@ -480,10 +480,13 @@
                     <link type="people" corresp="#http://137.204.128.125/people/71" subtype="link"/>
                 </place>
                 <place>
-                    <geogName>Hochburg (Ö)</geogName>
+                    <geogName>Hochburg (Ö); <foreign>curtis</foreign></geogName>
                     <geogName type="other">Hohbaerahah</geogName>
                     <idno>http://137.204.128.125/estates/104</idno>
                     <note/>
+                    <link type="places" corresp="#http://137.204.128.125/places/113"
+                        subtype="hasConnectionWith"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/80" subtype="link"/>
                 </place>             
             </listPlace>
         </body>
