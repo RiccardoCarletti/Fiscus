@@ -97,14 +97,15 @@
     <td>
       <ul class="index-instances inline-list">
         <xsl:apply-templates select="str">
-          <!--<xsl:sort>
-            <xsl:variable name="id" select="substring-before(., ' [')"/>
+          <xsl:sort>
+            <xsl:variable name="id" select="substring-before(substring-after(., '#doc'), '#')"/>
             <xsl:choose>
               <xsl:when test="string-length($id) = 1"><xsl:value-of select="concat('000',$id)"/></xsl:when>
               <xsl:when test="string-length($id) = 2"><xsl:value-of select="concat('00',$id)"/></xsl:when>
               <xsl:when test="string-length($id) = 3"><xsl:value-of select="concat('0',$id)"/></xsl:when>
-              <xsl:otherwise><xsl:value-of select="$id"/></xsl:otherwise>
-            </xsl:choose></xsl:sort>-->
+              <xsl:when test="string-length($id) = 4"><xsl:value-of select="$id"/></xsl:when>
+              <xsl:otherwise><xsl:value-of select="."/></xsl:otherwise>
+            </xsl:choose></xsl:sort>
         </xsl:apply-templates>
       </ul>
     </td>
