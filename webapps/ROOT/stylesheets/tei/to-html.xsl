@@ -276,6 +276,36 @@
     </div>
   </xsl:template>
   
+  <!-- GRAPH -->
+  <!--<xsl:template match="//tei:addSpan[@xml:id='graph']">
+    <div class="row" style="padding: 40px 20px 60px 20px">
+      <div id="mynetwork" style="width: 100%; height: 500px; border: 1px solid lightgray"></div>
+      <script type="text/javascript">
+        var nodes = new vis.DataSet([
+        {id: 1, label: 'Ottone I'},
+        {id: 2, label: 'Adalbertus'},
+        {id: 3, label: 'Carlo Magno'},
+        {id: 4, label: 'Ottone III'},
+        {id: 5, label: 'Carlo il Grosso'}
+        ]);
+        
+        var edges = new vis.DataSet([
+        {from: 1, to: 3, label: 'father of', arrows: "to"},
+        {from: 1, to: 2, label: 'child of', arrows: "to"},
+        {from: 2, to: 4, label: 'father of', arrows: "to"},
+        {from: 2, to: 5, label: 'child of', arrows: "to"}
+        ]);
+        
+        var container = document.getElementById('mynetwork');
+        var data = {
+        nodes: nodes,
+        edges: edges
+        };
+        var options = {};
+        var network = new vis.Network(container, data, options);
+      </script>
+    </div>
+  </xsl:template>-->
   
   <!-- MAP -->
   <xsl:template match="//tei:addSpan[@xml:id='map']">
