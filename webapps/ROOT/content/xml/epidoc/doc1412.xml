@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc1412">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Archivio di Stato di Firenze, Diplomatico, Riformagioni. Atti Pubblici, 1029
+                    gennaio 3, n. 12 (Giorgetti, n. 7)</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus
+                        Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="uri">http://137.204.128.125/documents/doc1412</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Offersio/donatio</rs>
+                            <rs type="record_source" ref="#">Original document</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">Yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1049-03-05">
+                                <note type="displayed_date">1049 March 5</note>
+                                <note type="dating_elements">Giorgetti la data al 1050, ma III anno
+                                    impero Enrico III (25-12-1048 / 24-12-1049); e ind. II (= 1049) </note>
+                                <note type="topical_date">S. Quirico (Populonia)</note>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-03-16" who="scollavini">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>Cartula da Sancto Fridiano. In nomine domini nostri Iesu Christi. Regnante
+                        domino nostro Enricus, gratia Dei imperator augustus, anno inperii eius Deo
+                        propitio in Italia tertio, tertio nonas martii, indictione secunda.
+                        Manifestus sum ego <persName>Rodulfus</persName> filius bone memorie
+                            <persName>Gerardi</persName> quia per hanc cartula dono et trado tibi
+                            <persName>Dominico</persName> filio bone memorie
+                            <persName>Albithe</persName>, idest integre duo <rs key="#Petiae"
+                            >petie</rs> de terre mee ille iuris, que sunt posite in loco et vocabulo
+                        ubi dicitur <placeName ref="#http://137.204.128.125/places/131"
+                            key="#Petiae #Wine">Sancto Fridiano</placeName>. Una de ex ipse petie de
+                        terra cum <rs key="#Wine">vinea</rs> super se abentes in eodem loco Sancto
+                        Fridiano, qui detinet <persName>Martja</persName> mulier
+                            <persName>Petri</persName>, quod uno capo tenet in <placeName>terra
+                            Rollandinga</placeName>, et alio capo detinet in terra de filiis bone
+                        memorie <persName>Gottuli</persName> et de eorum consortes, quod uno lato
+                        detinet in terra <orgName key="#Landed_possessions"
+                            ref="#http://137.204.128.125/juridical_persons/68">Sancti
+                            Martini</orgName>, et alio lato detinet in via puplica; seo una insimul
+                        integra medietate de iamdicta petia de terra cum vinea super se habentes, in
+                        eodem loco Sancto Fridi[an]o, quod uno capo detinet in terra <orgName
+                            key="#Landed_possessions">Sancti Petri</orgName> et alio capo detinet in
+                        terra <orgName key="#Landed_possessions"
+                            ref="#http://137.204.128.125/juridical_persons/70">Sancti
+                            Fridiani</orgName>, quod uno lato detinet in terra <orgName
+                            key="#Landed_possessions">Sancti Cerbonii</orgName>, et alio lato
+                        detinet in terra <persName>Rodulfi, qui Pelegrino vocatur</persName>, et est
+                        ipsa petia de terra qui vocatur <placeName
+                            ref="#http://137.204.128.125/places/131">Pratale</placeName>. As
+                        predicte petie de terre mee iuris ille cum vinee super se habentes, qualiter
+                        ab omni parte sunt circumdate et per locas designate cum curtificias,
+                        ortalias, terris, vineis, olivetis, quercetis, silvis, virgareis, pratis,
+                        pascuis, cultis vel incultis rebus, mobile vel immobile, omnia ex omnibus,
+                        in integrum sicut superius legitur, tibi eas qui supra Dominico dono et
+                        trado. Pro quibus ad te pretium recepi <rs key="#Meritum/launechild"
+                            >meritum</rs> et launichil nappo uno d[e] argento in prefinito. Unde
+                        repromitto ego qui supra Rodulfo, una cum meis heredibus, tibi qui supra
+                        Dominico, vel ad tuos heredes aut eidem homini, cui vos suprascripta mea
+                        donatio dederitis vel habere decreveritis ut si nos vobis eas a[..pre] in
+                        aliquid exinde intentionaverimus aut retolli vel subtragi quesiermus nos vel
+                        ille homo cui nos eas dedissemus aut dederimus per quodlibet ingenio et si
+                        nos exinde auctores dare volueritis et nobis eas ab omni homines defendere
+                        non potuerimus et non defensaverimus, spondimus nos vobis componere
+                        suprascripta mea donatio in duplum inferquidem loco sub estimatione,
+                        qualiter tunc fuerit. Sic tamen si nos exinde auctores et defensores
+                        quaerere nec dar[e] volueritis, licentiam habeatis absque nostra persona si
+                        vestra fuerit voluntas, exinde causas agendi, querimoniam faciendi et
+                        deliberandi, responsum reddendi, finem ponendi, modis omnibus nobis eas
+                        defensandi cum cartula ista vel quo modo aut qualiter iusta legem melius
+                        potueritis, quia in tali ordinem hanc cartula Ildebrandus notarius domni
+                        inperatoris scribere rogavi. Actum <orgName
+                            ref="#http://137.204.128.125/juridical_persons/78">Sancto
+                            Quirico</orgName>, territorio <placeName
+                            ref="#http://137.204.128.125/places/86">Populoniense</placeName>. Signum
+                        manus infrascripti Rodulfi qui hanc cartula donationis scribere rogavit.
+                        Signa manuum <persName>Stephani</persName> filii <persName>Clonci</persName>
+                        et <persName>Vitali</persName> filii <persName>Christiani</persName>,
+                        testium. Ego <persName>Ildibradus</persName> rogatus testis subscripsi.
+                            <persName key="#Notary">Ildebrandus</persName>
+                        <rs key="#Notary">notarius</rs> domini imperatoris post tradita complevi et
+                        dedi. </ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
