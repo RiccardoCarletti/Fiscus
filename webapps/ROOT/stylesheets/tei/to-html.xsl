@@ -277,24 +277,46 @@
   </xsl:template>
   
   <!-- GRAPH -->
-  <!--<xsl:template match="//tei:addSpan[@xml:id='graph']">
+  <xsl:template match="//tei:addSpan[@xml:id='graph']">
+    <xsl:variable name="graph_people">
+      <xsl:text>[</xsl:text>
+      <xsl:for-each select="$people/tei:person">
+        <xsl:variable name="name" select="normalize-space(translate(tei:persName[1], ',', '; '))"/>
+        <xsl:variable name="id" select="substring-after(translate(tei:idno,'#',''), 'people/')"/>
+        <xsl:text>{id: </xsl:text><xsl:value-of select="$id"/><xsl:text>, label: '</xsl:text><xsl:value-of select="$name"/><xsl:text>'}</xsl:text>
+        <xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if>
+      </xsl:for-each>
+      <xsl:text>]</xsl:text>
+    </xsl:variable>
+    
+    <xsl:variable name="graph_relations">
+      <xsl:text>[</xsl:text>
+      <xsl:for-each select="$people/tei:person/tei:link[@type='people']">
+        <xsl:variable name="id" select="substring-after(ancestor::tei:person/tei:idno, 'people/')"/>
+        <xsl:variable name="subtype" select="@subtype"/>
+        <!--<xsl:for-each select="distinct-values(tokenize(@corresp, '\s+'))">-->
+        <xsl:variable name="linked_id"><xsl:choose>
+            <xsl:when test="contains(@corresp, ' ')"><xsl:value-of select="substring-after(substring-before(@corresp, ' '), 'people/')"/></xsl:when>
+            <xsl:otherwise><xsl:value-of select="substring-after(@corresp, 'people/')"/></xsl:otherwise>
+          </xsl:choose></xsl:variable>
+          <xsl:variable name="relation_type"><xsl:choose>
+            <xsl:when test="$subtype"><xsl:value-of select="$subtype"/></xsl:when><xsl:otherwise><xsl:text>link</xsl:text></xsl:otherwise>
+          </xsl:choose></xsl:variable>
+          <xsl:text>{from: </xsl:text><xsl:value-of select="$id"/><xsl:text>, to: </xsl:text><xsl:value-of select="$linked_id"/>
+        <xsl:text>, label: '</xsl:text><xsl:value-of select="$relation_type"/><xsl:text>', arrows: "to"}</xsl:text>
+        <!-- </xsl:for-each> -->
+        <xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if>
+      </xsl:for-each>
+      <xsl:text>]</xsl:text>
+    </xsl:variable>
+    
     <div class="row" style="padding: 40px 20px 60px 20px">
       <div id="mynetwork" style="width: 100%; height: 500px; border: 1px solid lightgray"></div>
       <script type="text/javascript">
-        var nodes = new vis.DataSet([
-        {id: 1, label: 'Ottone I'},
-        {id: 2, label: 'Adalbertus'},
-        {id: 3, label: 'Carlo Magno'},
-        {id: 4, label: 'Ottone III'},
-        {id: 5, label: 'Carlo il Grosso'}
-        ]);
-        
-        var edges = new vis.DataSet([
-        {from: 1, to: 3, label: 'father of', arrows: "to"},
-        {from: 1, to: 2, label: 'child of', arrows: "to"},
-        {from: 2, to: 4, label: 'father of', arrows: "to"},
-        {from: 2, to: 5, label: 'child of', arrows: "to"}
-        ]);
+        const people = <xsl:value-of select="$graph_people"/>;
+        const relations = <xsl:value-of select="$graph_relations"/>;
+        var nodes = new vis.DataSet(people);
+        var edges = new vis.DataSet(relations);
         
         var container = document.getElementById('mynetwork');
         var data = {
@@ -305,7 +327,7 @@
         var network = new vis.Network(container, data, options);
       </script>
     </div>
-  </xsl:template>-->
+  </xsl:template>
   
   <!-- MAP -->
   <xsl:template match="//tei:addSpan[@xml:id='map']">
