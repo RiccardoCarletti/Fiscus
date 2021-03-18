@@ -1036,9 +1036,20 @@
                     <geogName type="coord"><geo>41.587722, 12.969578</geo></geogName>
                     <idno>http://137.204.128.125/places/138</idno>
                     <note/>
-                    <link type="people"/>
-                    <link type="estates"/>
-                    <link type="estates"/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/109"
+                        subtype="hasConnectionWith"/>
+                </place>
+                <place>
+                    <placeName><foreign>Aureliano</foreign> (Roma)</placeName>
+                    <placeName><foreign>Aurelianum</foreign></placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>41.879466, 12.463156</geo></geogName>
+                    <idno>http://137.204.128.125/places/139</idno>
+                    <note>Località oggi scomparsa localizzabile grazie alla sua prossimità con
+                        l'antica chiesa di Abdon e Sennen (oggi a Roma in Via Alessandro Poerio 55):
+                        De Francesco 2004: 208. </note>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/101"
+                        subtype="hasConnectionWith"/>
                 </place>
                 
             </listPlace>
