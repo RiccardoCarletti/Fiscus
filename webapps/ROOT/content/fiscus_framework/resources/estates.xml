@@ -467,10 +467,13 @@
                     <geogName>Capanianum; <foreign>fundus</foreign></geogName>
                     <geogName type="other"/>
                     <idno>http://137.204.128.125/estates/102</idno>
-                    <note/>
-                    <link type="places" corresp="#http://137.204.128.125/places/52"
+                    <note>Cf. De Francesco 2004: 219-223: le fonti scritte collocano il
+                            <foreign>fundus</foreign> «al quattordicesimo miglio della via
+                        Flaminia». Il luogo in cui esso doveva trovarsi corrisponde al km 21.600
+                        della via Flaminia e cioè due km a nord di Malborghetto.</note>
+                    <link type="places" corresp="#http://137.204.128.125/places/136"
                         subtype="hasConnectionWith"/>
-                    <link type="people" corresp="#http://137.204.128.125/people/71"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/71" subtype="link"/>
                 </place>
                 <place>
                     <geogName>Tuscia; <foreign>patrimonium</foreign></geogName>
@@ -512,6 +515,20 @@
                     <note/>
                     <link type="places" corresp="#http://137.204.128.125/places/128"
                         subtype="hasConnectionWith"/>
+                </place>
+                <place>
+                    <geogName>Nymphas; <foreign>massa</foreign></geogName>
+                    <geogName type="other">Ninfa</geogName>
+                    <idno>http://137.204.128.125/estates/108</idno>
+                    <note/>
+                    <link type="people" corresp="#http://137.204.128.125/people/69" subtype="link"/>
+                </place>
+                <place>
+                    <geogName>Normias; <foreign>massa</foreign></geogName>
+                    <geogName type="other">Norma</geogName>
+                    <idno>http://137.204.128.125/estates/</idno>
+                    <note/>
+                    <link type="people" corresp="#http://137.204.128.125/people/69" subtype="link"/>
                 </place>             
             </listPlace>
         </body>
