@@ -35,7 +35,7 @@
                             <rs type="text_type" ref="#">--Venditio</rs>
                             <rs type="record_source" ref="#">Original document</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property">No</rs>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -105,10 +105,12 @@
                             key="#Landed_possessions">Sancti Cerbonii</orgName>, aliud in terra de
                         suprascripto monasterio; altera terre petia tenet capud in terra de
                         suprascripto monasterio, latus unum in <rs key="#Rivers">Cornea morta</rs>,
-                        alio in terra <orgName key="#Landed_possessions">Sancti Pancratii</orgName>
-                        et de suprascripto monasterio; tertia terre petia videtur esse prope
-                        ecclesia eiusdem Sancti Christofori, quam tenet capud uno cum lato uno in
-                        terra Teudicinga, capud alio in terra de <orgName key="#Landed_possessions"
+                        alio in terra <orgName key="#Landed_possessions"
+                            ref="#http://137.204.128.125/juridical_persons/88">Sancti
+                            Pancratii</orgName> et de suprascripto monasterio; tertia terre petia
+                        videtur esse prope ecclesia eiusdem Sancti Christofori, quam tenet capud uno
+                        cum lato uno in terra Teudicinga, capud alio in terra de <orgName
+                            key="#Landed_possessions"
                             ref="#http://137.204.128.125/juridical_persons/87">Sancta
                             Maria</orgName> de <placeName>Serena</placeName>, aliud latus in terra
                         de filiis quondam <persName>Henrici</persName>, per terminos et confines ut
