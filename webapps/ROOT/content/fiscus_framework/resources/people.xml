@@ -113,6 +113,8 @@
                     <persName>Carolus I Magnus (742?-814) imperator</persName>
                     <idno>http://137.204.128.125/people/14</idno>
                     <note/>
+                    <link type="places" corresp="#http://137.204.128.125/places/83"
+                        subtype="hasConnectionWith"/>
                 </person>
                 
                 <person>
@@ -724,13 +726,34 @@
                     <link type="juridical_persons"
                         corresp="#http://137.204.128.125/juridical_persons/30 #http://137.204.128.125/juridical_persons/47"
                         subtype="link"/>
-                    <link type="people"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/119" subtype="link"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/120" subtype="link"/>
+                    <link type="places" corresp="#http://137.204.128.125/places/83"
+                        subtype="hasConnectionWith"/>
                 </person>
                 <person>
-                    <persName>Petrus () abbas Nonantulensis</persName>
+                    <persName>Petrus (804-824/5) abbas Nonantulensis</persName>
                     <persName type="other"/>
                     <idno>http://137.204.128.125/people/119</idno>
                     <note/>
+                    <link type="juridical_persons"
+                        corresp="#http://137.204.128.125/juridical_persons/47" subtype="link"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/118" subtype="link"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/120" subtype="link"/>
+                    <link type="places" corresp="#http://137.204.128.125/places/83"
+                        subtype="hasConnectionWith"/>
+                </person>
+                <person>
+                    <persName>Rodulfus (814) rector monasterii Santi Salvatoris</persName>
+                    <persName type="other"/>
+                    <idno>http://137.204.128.125/people/120</idno>
+                    <note/>
+                    <link type="juridical_persons"
+                        corresp="#http://137.204.128.125/juridical_persons/30" subtype="link"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/118" subtype="link"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/119" subtype="link"/>
+                    <link type="places" corresp="#http://137.204.128.125/places/83"
+                        subtype="hasConnectionWith"/>
                 </person>
                 
                 

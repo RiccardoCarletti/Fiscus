@@ -24,23 +24,24 @@
                     <link type="estates" subtype="Link" corresp="#http://137.204.128.125/estates/28"/>
                     <link type="estates" subtype="Link" corresp="#http://137.204.128.125/estates/29"/>
                     <link type="people" subtype="Link" corresp="#http://137.204.128.125/people/67"/>
-                    <note>Monasteries</note>
+                    <note/>
                     <link type="places" corresp="#http://137.204.128.125/places/9"
                         subtype="isAdjacentTo"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/120" subtype="link"/>
                 </org>
                 
                 <org>
                     <orgName>Sanctus Nicomedes; ecclesia (Salsomaggiore; Parma)</orgName>
                     <idno>http://137.204.128.125/juridical_persons/34</idno>
-                    <note>chiesa di S. Nicomede, attualmente in comune di Salsomaggiore (PR).
-                        Da Destefanis, p. 176, nota 62: "Un’anonima opera dal titolo Storia e bellezze di Salsominore a beneficio dei
-                        restauri della chiesa parrocchiale, s.l. (Salsomaggiore), Unione Tipografi ca Salsese, 1928, p. 7 riferisce della scoperta 
-                        di «molte ossa e molti marmi lavorati» attorno alla chiesa, mentre, già nella seconda metà dell’Ottocento, Giovanni Valentini,
-                        Guida storica medica e pittoresca di Salsomaggiore e Tabiano, Parma, 1861 (rist. an. Bologna, Atesa, 1987), p. 112 ricorda, 
-                        nella stessa zona, il rinvenimento di «certe reliquie di antico edifizio scoperte sotterra, rimasto col volger del tempo distrutto».
-                        Cf. Eleonora Destefanis, Tracce altomedievali nell’Appennino piacentino-parmense: le testimonianze scultoree,
-                        in Medioevo piacentino e altri studi, Atti della Giornata di studi in onore di Piero Castignoli (Piacenza, 16 maggio 2008), 
-                        a cura di A. Riva, Piacenza 2009, pp. 147-188, alle pp. 167-181, con foto dei resti marmorei.</note>
+                    <note>Chiesa di S. Nicomede, attualmente in comune di Salsomaggiore (PR). Da
+                        Destefanis, p. 176, nota 62: "Un’anonima opera dal titolo Storia e bellezze
+                        di Salsominore a beneficio dei restauri della chiesa parrocchiale, s.l.
+                        (Salsomaggiore), Unione Tipografi ca Salsese, 1928, p. 7 riferisce della
+                        scoperta di «molte ossa e molti marmi lavorati» attorno alla chiesa, mentre,
+                        già nella seconda metà dell’Ottocento". Valentini 1861, 112 ricorda, nella
+                        stessa zona, il rinvenimento di «certe reliquie di antico edifizio scoperte
+                        sotterra, rimasto col volger del tempo distrutto». Cf. Destefanis 2009,
+                        147-188, alle pp. 167-181, con foto dei resti marmorei.</note>
                     <link type="places" corresp="#http://137.204.128.125/places/29"
                         subtype="hasConnectionWith"/>
                 </org>
@@ -63,6 +64,9 @@
                         subtype="hasConnectionWith"/>
                     <link type="people" corresp="#http://137.204.128.125/people/49" subtype="link"/>
                     <link type="people" corresp="#http://137.204.128.125/people/22" subtype="link"/>
+                    <link type="people"
+                        corresp="#http://137.204.128.125/people/14 #http://137.204.128.125/people/118 #http://137.204.128.125/people/119"
+                        subtype="link"/>
                 </org>
                 
                 <org>
@@ -284,8 +288,7 @@
                         subtype="hasConnectionWith"/>
                 </org>
                 <org>
-                    <orgName>Sanctus Pancratius de Luto; monasterium (Badia al Fango;
-                        Grosseto)</orgName>
+                    <orgName>Sanctus Pancratius de Luto; monasterium (Badia al Fango; Grosseto)</orgName>
                     <orgName type="other"/>
                     <idno>http://137.204.128.125/juridical_persons/88</idno>
                     <note>Kehr, <foreign>IP</foreign>, III, p. 264</note>
