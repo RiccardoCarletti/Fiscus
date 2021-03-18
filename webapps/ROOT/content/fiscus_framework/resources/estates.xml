@@ -283,7 +283,7 @@
                 </place>
                 <place>
                     <geogName>Populonia; <foreign>comitatus</foreign></geogName>
-                    <geogName type="other">territorium</geogName>
+                    <geogName type="other"><foreign>territorium</foreign></geogName>
                     <idno>http://137.204.128.125/estates/87</idno>
                     <note/>
                     <link type="places" corresp="#http://137.204.128.125/places/86"
@@ -458,19 +458,25 @@
                     <geogName>Aurelianum; <foreign>casale</foreign></geogName>
                     <geogName type="other"/>
                     <idno>http://137.204.128.125/estates/101</idno>
-                    <note/>
+                    <note>La sua prossimità con l'antica chiesa di Abdon e Sennen consente una
+                        localizzazione nei pressi di Via Alessandro Poerio 55(Roma): cf. De
+                        Francesco 2004: 208</note>
                     <link type="people" corresp="#http://137.204.128.125/people/68" subtype="link"/>
-                    <link type="places" corresp="#http://137.204.128.125/places/52"
+                    <link type="places"
+                        corresp="#http://137.204.128.125/places/139 #http://137.204.128.125/places/52"
                         subtype="hasConnectionWith"/>
                 </place>
                 <place>
                     <geogName>Capanianum; <foreign>fundus</foreign></geogName>
                     <geogName type="other"/>
                     <idno>http://137.204.128.125/estates/102</idno>
-                    <note/>
-                    <link type="places" corresp="#http://137.204.128.125/places/52"
+                    <note>Cf. De Francesco 2004: 219-223: le fonti scritte collocano il
+                            <foreign>fundus</foreign> «al quattordicesimo miglio della via
+                        Flaminia». Il luogo in cui esso doveva trovarsi corrisponde al km 21.600
+                        della via Flaminia e cioè due km a nord di Malborghetto.</note>
+                    <link type="places" corresp="#http://137.204.128.125/places/136"
                         subtype="hasConnectionWith"/>
-                    <link type="people" corresp="#http://137.204.128.125/people/71"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/71" subtype="link"/>
                 </place>
                 <place>
                     <geogName>Tuscia; <foreign>patrimonium</foreign></geogName>
@@ -478,6 +484,58 @@
                     <idno>http://137.204.128.125/estates/103</idno>
                     <note/>
                     <link type="people" corresp="#http://137.204.128.125/people/71" subtype="link"/>
+                </place>
+                <place>
+                    <geogName>Hochburg (Ö); <foreign>curtis</foreign></geogName>
+                    <geogName type="other">Hohbaerahah</geogName>
+                    <idno>http://137.204.128.125/estates/104</idno>
+                    <note/>
+                    <link type="places" corresp="#http://137.204.128.125/places/113"
+                        subtype="hasConnectionWith"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/80" subtype="link"/>
+                </place>
+                <place>
+                    <geogName>Placentia; <foreign>comitatus</foreign></geogName>
+                    <geogName type="other"/>
+                    <idno>http://137.204.128.125/estates/105</idno>
+                    <note/>
+                    <link type="people" corresp="#http://137.204.128.125/people/55" subtype="link"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/80" subtype="link"/>
+                </place>
+                <place>
+                    <geogName>Ötting (DE); <foreign>curtis</foreign></geogName>
+                    <geogName type="other">Otinga</geogName>
+                    <idno>http://137.204.128.125/estates/106</idno>
+                    <note/>
+                    <link type="places" corresp="#http://137.204.128.125/places/"
+                        subtype="hasConnectionWith"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/80" subtype="link"/>
+                </place>
+                <place>
+                    <geogName>Volterra; <foreign>comitatus</foreign></geogName>
+                    <geogName type="other"/>
+                    <idno>http://137.204.128.125/estates/107</idno>
+                    <note/>
+                    <link type="places" corresp="#http://137.204.128.125/places/128"
+                        subtype="hasConnectionWith"/>
+                </place>
+                <place>
+                    <geogName>Nymphas; <foreign>massa</foreign></geogName>
+                    <geogName type="other">Ninfa</geogName>
+                    <idno>http://137.204.128.125/estates/108</idno>
+                    <note/>
+                    <link type="people" corresp="#http://137.204.128.125/people/69" subtype="link"/>
+                    <link type="places" corresp="#http://137.204.128.125/places/137"
+                        subtype="hasConnectionWith"/>
+                </place>
+                <place>
+                    <geogName>Normias; <foreign>massa</foreign></geogName>
+                    <geogName type="other">Norma</geogName>
+                    <idno>http://137.204.128.125/estates/109</idno>
+                    <note/>
+                    <link type="people" corresp="#http://137.204.128.125/people/69" subtype="link"/>
+                    <link type="places" corresp="#http://137.204.128.125/places/138"
+                        subtype="hasConnectionWith"/>
                 </place>             
             </listPlace>
         </body>

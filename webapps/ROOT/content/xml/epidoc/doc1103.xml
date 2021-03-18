@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc1103">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+
+                
+                <title>Archivio di Stato di Parma, Sezione diplomatica, secolo IX, [A]</title>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus
+                        Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="uri">http://137.204.128.125/documents/doc1103</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">Yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0888-05-08">
+                                <note type="displayed_date">888 May 8</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Pavia (IT)</note>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-02-08" who="Chiara Stedile">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine domini Dei aeterni. <persName key="#Emperor/king"
+                            ref="#http://137.204.128.125/people/21">Berengarius</persName>
+                        <rs key="#Emperor/king">rex</rs>. Omnibus sanctae Dei Ecclesiae fidelibus
+                        nostrisque presentibus scilicet et futuris notum esse volumus, qualiter
+                        Adelardus et Antonius venerabiles <rs key="#Bishops">episcopi</rs> atque
+                        Vualfredus illuster <rs key="#Marquis/duke">marchio</rs> nostri dilectissimi
+                            <rs key="#Fidelis_of">fideles</rs> nostram humiliter postulaverunt
+                        clementiam, quatenus <persName key="#Queen"
+                            ref="#http://137.204.128.125/people/55">Angilbergae</persName>
+                        serenissimae <rs key="#Queen">imperatrici</rs> concedere et confirmare
+                        nostrae auctoritatis precepto dignaremur quandam <rs key="#Monasteries"
+                            >abbatiam</rs> in honore apostolorum principis dicatam et non longe ab
+                        urbe <placeName ref="#http://137.204.128.125/places/43"
+                            >Placentina</placeName> fundatam in loco nuncupato <placeName
+                            ref="#http://137.204.128.125/places/14">Caput Trebie</placeName>, seu
+                        etiam quasdam <rs key="#Curtes">cortes</rs>
+                        <placeName ref="#http://137.204.128.125/places/33">Vuardistallam</placeName>
+                        videlicet, <placeName ref="#http://137.204.128.125/places/32"
+                            >Luciariam</placeName>, <placeName>Litora Palludiana</placeName>, Campum
+                        Miliacium, Sextum, Iverne, Massini atque Leocarni quemadmodum domnus
+                        Hludovicus gloriosus olim imperator avunculus et senior noster eidem
+                        imperatrici per suorum preceptorum paginas concessit atque perdonavit.
+                        Quorum precibus inflexi prenominatam abbatiam atque familiis utriusque sexus
+                        seu etiam quae dici aut nominari possunt per diversa nostri regni loca ad
+                        pretaxatam abbatiam vel ad easdem cortes pertinentibus in integrum, veluti
+                        prelibatus serenissimus imperator Hludovicus et quondam noster avunculus
+                        nosterque carissimus senior Karolus videlicet invictissimus imperator per
+                        preceptorum suorum aucoritatem iam saepe nominatae Angilbergae gloriosae
+                        imperatrici tribuerunt ac confirmaverunt. Nec non et omnia quae in aliis
+                        preceptis tam sibi quamque monasterio in honore sancti Sixti dicato et ab
+                        ipsa infra civitatem Placentinam constructo ab aliis nostris antecessoribus
+                        donata et corroborata fuisse noscuntur. Nos ob Dei amorem tam ad utilitatem
+                        ipsius Angilbergae imperatricis quamque ad usus et alimenta monacharum quae
+                        pro tempore in eodem monasterio Christo domino servierint de nostro iure et
+                        dominio in ipsius Angilbergae excellentissimae imperatricis et monasterii
+                        ius et dominium usque in perpetuum iure peroprietario concedimus ac
+                        perdonamus, modisque omnibus confirmamus et conroboramus per hanc nostrae
+                        inscriptionis paginam una cum casis, terris, vineis, campis, pratis,
+                        pascuis, silvis, salectis, sationibus, aquis squarumque decursibus,
+                        molendinis, piscationibus, servis et ancillis, aldionibus et aldianis,
+                        montibus, vallibus, planiciebus, coltis et incoltis, divisis et indivisis,
+                        ripis, rupunis, vestigalibus, districtionibus, reddibitionibus universisque
+                        ad predictam abbatiam vel iam nominatas cortes pertinentibus vel
+                        aspicientibus ex integro, quatenus ipsa, quoad vixerit, eandem abbatiam et
+                        pretaxatas cortes potestative teneat ac possideat et ordinet, totius
+                        potestatis contradictione remota. Quicumque ergo hoc nostrae concessionis et
+                        confirmationis preceptum infringere vel violare quandoque temptaverit, sciat
+                        se compositurum auri obtimi libras centum sexaginta, medietatem palacii
+                        nostri camerae et medietatem cui inuste facta fuerit molestia. Quod autem ut
+                        verius credatur et diligentius ab omnibus perpetualiter observetur, manu
+                        propria roboantes de anulo nostro subter insigniri iussimus. Signum domni
+                        (MF) Berengarii serenissimi regis. Petrus cancellarius ad vicem Adelardi
+                        episcopi et archicancellarii recognovi et subscripsi. (SR) (SID). Data VIII
+                        id. mai(i), anno incarnationis Domini DCCCLXXXVIII, domni autem Berengarii
+                        gloriosissimi regis I, indictione VI actum Papie. In Dei nomine feliciter
+                        amen.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>Schiaparelli, <foreign>I diplomi di Berengario I</foreign>, pp. 25-27, n° IV</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

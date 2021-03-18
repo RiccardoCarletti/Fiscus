@@ -106,6 +106,8 @@
                     <note/>
                     <link type="places" corresp="#http://137.204.128.125/places/4"
                         subtype="isWithin"/>
+                    <link type="places" corresp="#http://137.204.128.125/places/131"
+                        subtype="hasConnectionWith"/>
                 </org>
                 <org>
                     <orgName>Sanctus Martinus; capitulum canonicorum cathedralis (Lucca)</orgName>
@@ -122,6 +124,8 @@
                         subtype="hasConnectionWith"/>
                     <link type="places" corresp="#http://137.204.128.125/places/4"
                         subtype="isWithin"/>
+                    <link type="places" corresp="#http://137.204.128.125/places/131"
+                        subtype="hasConnectionWith"/>
                 </org>
                 <org>
                     <orgName>Sanctus Pontianus; monasterium (Lucca)</orgName>
@@ -193,6 +197,10 @@
                     <note/>
                     <link type="places" corresp="#http://137.204.128.125/places/85"
                         subtype="isWithin"/>
+                    <link type="places" corresp="#http://137.204.128.125/places/89"
+                        subtype="hasConnectionWith"/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/85"
+                        subtype="hasConnectionWith"/>
                 </org>
                 <org>
                     <orgName>Sanctus Petrus; episcopium (Bologna)</orgName>
@@ -256,6 +264,30 @@
                         subtype="isWithin"/>
                     <link type="people" corresp="#http://137.204.128.125/people/113"
                         subtype="agentFor"/>
+                </org>
+                <org>
+                    <orgName>Sanctus Cerbonius; episcopium (Populonia; Livorno)</orgName>
+                    <orgName type="other"/>
+                    <idno>http://137.204.128.125/juridical_persons/86</idno>
+                    <note/>
+                    <link type="places" corresp="#http://137.204.128.125/places/86"
+                        subtype="isWithin"/>
+                    <link type="places" corresp="#http://137.204.128.125/places/131"
+                        subtype="hasConnectionWith"/>
+                </org>
+                <org>
+                    <orgName>Sancta Maria de Serena; monasterium</orgName>
+                    <orgName type="other"/>
+                    <idno>http://137.204.128.125/juridical_persons/87</idno>
+                    <note/>
+                    <link type="places" corresp="#http://137.204.128.125/places/134"
+                        subtype="hasConnectionWith"/>
+                </org>
+                <org>
+                    <orgName>Sanctus Pancratius de Luto (Badia al Fango); monasterium</orgName>
+                    <orgName type="other"/>
+                    <idno>http://137.204.128.125/juridical_persons/88</idno>
+                    <note>Kehr, <foreign>IP</foreign>, III, p. 264</note>
                 </org>
              
             </listOrg>
