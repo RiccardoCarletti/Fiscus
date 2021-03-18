@@ -295,6 +295,14 @@
                     <orgName type="other"/>
                     <idno>http://137.204.128.125/juridical_persons/89</idno>
                     <note/>
+                    <link type="places" corresp="#http://137.204.128.125/places/134"
+                        subtype="hasConnectionWith"/>
+                    <link type="juridical_persons"
+                        corresp="#http://137.204.128.125/juridical_persons/80 #http://137.204.128.125/juridical_persons/47"
+                        subtype="link"/>
+                    <link type="people"
+                        corresp="#http://137.204.128.125/people/48 #http://137.204.128.125/people/49 #http://137.204.128.125/people/14 #http://137.204.128.125/people/117 #http://137.204.128.125/people/94"
+                        subtype="link"/>
                 </org>
              
             </listOrg>
