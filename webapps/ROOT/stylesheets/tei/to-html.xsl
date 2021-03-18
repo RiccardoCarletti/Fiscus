@@ -283,7 +283,7 @@
       <xsl:for-each select="$people/tei:person">
         <xsl:variable name="name" select="normalize-space(translate(tei:persName[1], ',', '; '))"/>
         <xsl:variable name="id" select="substring-after(translate(tei:idno,'#',''), 'people/')"/>
-        <xsl:text>{id: </xsl:text><xsl:value-of select="$id"/><xsl:text>, label: '</xsl:text><xsl:value-of select="$name"/><xsl:text>'}</xsl:text>
+        <xsl:text>{id: </xsl:text><xsl:value-of select="$id"/><xsl:text>, widthConstraint: { maximum: 200 }, label: '</xsl:text><xsl:value-of select="$name"/><xsl:text>'}</xsl:text>
         <xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if>
       </xsl:for-each>
       <xsl:text>]</xsl:text>
@@ -303,7 +303,7 @@
             <xsl:when test="$subtype"><xsl:value-of select="$subtype"/></xsl:when><xsl:otherwise><xsl:text>link</xsl:text></xsl:otherwise>
           </xsl:choose></xsl:variable>
           <xsl:text>{from: </xsl:text><xsl:value-of select="$id"/><xsl:text>, to: </xsl:text><xsl:value-of select="$linked_id"/>
-        <xsl:text>, label: '</xsl:text><xsl:value-of select="$relation_type"/><xsl:text>', arrows: "to"}</xsl:text>
+        <xsl:text>, widthConstraint: { minimum: 1000 }, label: '</xsl:text><xsl:value-of select="$relation_type"/><xsl:text>', font: { align: "middle" }, arrows: "to"}</xsl:text>
         <!-- </xsl:for-each> -->
         <xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if>
       </xsl:for-each>
