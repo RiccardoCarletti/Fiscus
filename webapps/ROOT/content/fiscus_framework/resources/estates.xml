@@ -473,7 +473,7 @@
                         della via Flaminia e cioè due km a nord di Malborghetto.</note>
                     <link type="places" corresp="#http://137.204.128.125/places/136"
                         subtype="hasConnectionWith"/>
-                    <link type="people" corresp="#http://137.204.128.125/people/71"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/71" subtype="link"/>
                 </place>
                 <place>
                     <geogName>Tuscia; <foreign>patrimonium</foreign></geogName>
@@ -521,6 +521,14 @@
                     <geogName type="other">Ninfa</geogName>
                     <idno>http://137.204.128.125/estates/108</idno>
                     <note/>
+                    <link type="people" corresp="#http://137.204.128.125/people/69" subtype="link"/>
+                </place>
+                <place>
+                    <geogName>Normias; <foreign>massa</foreign></geogName>
+                    <geogName type="other">Norma</geogName>
+                    <idno>http://137.204.128.125/estates/</idno>
+                    <note/>
+                    <link type="people" corresp="#http://137.204.128.125/people/69" subtype="link"/>
                 </place>             
             </listPlace>
         </body>
