@@ -303,7 +303,7 @@
             <xsl:when test="$subtype"><xsl:value-of select="$subtype"/></xsl:when><xsl:otherwise><xsl:text>link</xsl:text></xsl:otherwise>
           </xsl:choose></xsl:variable>
           <xsl:text>{from: </xsl:text><xsl:value-of select="$id"/><xsl:text>, to: </xsl:text><xsl:value-of select="$linked_id"/>
-        <xsl:text>, widthConstraint: { minimum: 1000 }, label: '</xsl:text><xsl:value-of select="$relation_type"/><xsl:text>', font: { align: "middle" }, arrows: "to"}</xsl:text>
+        <xsl:text>, label: '</xsl:text><xsl:value-of select="$relation_type"/><xsl:text>', font: { align: "middle" }, arrows: "to"}</xsl:text>
         <!-- </xsl:for-each> -->
         <xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if>
       </xsl:for-each>
@@ -323,7 +323,11 @@
         nodes: nodes,
         edges: edges
         };
-        var options = {};
+        var options = {
+        edges:{
+        length: 600
+        }
+        };
         var network = new vis.Network(container, data, options);
       </script>
     </div>
