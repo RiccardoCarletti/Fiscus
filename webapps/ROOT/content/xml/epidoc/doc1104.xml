@@ -4,7 +4,7 @@
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
-                <title>Archivio di Verona, Orfanotrofio femminile, dipl. n° 5</title>
+                <title>Archivio di Stato di Verona, Orfanotrofio femminile, dipl. n° 5</title>
             </titleStmt>
             <editionStmt>
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus
@@ -31,10 +31,10 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#"/>
-                            <rs type="record_source" ref="#"/>
-                            <rs type="document_tradition" ref="#"/>
-                            <rs type="fiscal_property"/>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -42,10 +42,10 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate notBefore="0001" notAfter="0001" when="0001">
-                                <note type="displayed_date"/>
+                            <origDate when="0889-09-10">
+                                <note type="displayed_date">889 september 10</note>
                                 <note type="dating_elements"/>
-                                <note type="topical_date"/>
+                                <note type="topical_date">Verona</note>
                             </origDate>
                             <origPlace/>
                         </origin>
@@ -73,7 +73,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2021-02-08">creation of record</change>
+                <change when="2021-02-08" who="Chiara Stedile">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -113,7 +113,9 @@
                 <p/>
             </div>
             <div type="bibliography" subtype="links">
-                <p/>
+                <p>http://cdavr.dtesis.univr.it/iipzoom/image.php?collect=OF%20Diplomi&amp;imgname=ASVr_OF_Diplomi_5r.tif
+                    http://cdavr.dtesis.univr.it/iipzoom/image.php?collect=OF%20Diplomi&amp;imgname=ASVr_OF_Diplomi_5v.tif
+                    http://cdavr.dtesis.univr.it/iipzoom/image.php?collect=OF%20Diplomi&amp;imgname=ASVr_OF_Diplomi_5r_sigillo_2.tif</p>
             </div>
             <div type="commentary">
                 <p/>
