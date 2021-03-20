@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc1104">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus
+                        Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="uri">http://137.204.128.125/documents/doc1104</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#"/>
+                            <rs type="record_source" ref="#"/>
+                            <rs type="document_tradition" ref="#"/>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate notBefore="0001" notAfter="0001" when="0001">
+                                <note type="displayed_date"/>
+                                <note type="dating_elements"/>
+                                <note type="topical_date"/>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-02-08">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine domini nostri Iesu Christi Dei aeterni. Berengarius rex. Noverit
+                        omnium fidelium sanctae Dei Ecclesiae nostrorumque presentium scilicet ac
+                        futurorum industria, Vualtfredum illustrem comitem summumque consiliarium
+                        nostrum nostram adiisse munificentiam exorantem, quatenus Attoni fideli
+                        nostro ortum in civitate Verona situm cum horreo antiquo murisque
+                        precingentibus concederemus. Cuius supplicationi nos merito assensum prebere
+                        ducentes, prefato Attoni fideli nostro eundem hortum, cui ex una parte
+                        Sancti Petri Celuario et Sancti Petri cuius domus ibidem est constituta et
+                        Sancti Zenonis iura coherent, ex alia parte Bundone presbitero habitante et
+                        ex ceteris partibus publica via currente, prout ipse Vualtfredus dilectus
+                        fidelis noster expetiit, in integrum per huius precepti nostri documentum ad
+                        habendum et quicquid voluerit faciendum proprietatis iure tam sibi quam
+                        heredibus suis concedimus et firmamus. Contra quod nostri documenti precepti
+                        si quis insurgere temptavert ipsumque infringere, ne temptatum possit
+                        explere, viginti libras auri obrizi, medietatem camere nostrae et medietatem
+                        cui ex hoc molestia illata fuerit, sciat se compositurum. Et ut hoc verius
+                        ab omnibus credatur et diligentius observetur, anuli nostri impressionem
+                        subter iussimus fieri. Signum (MF) domni Berengarii gloriosissimi regis.
+                        Restaldus notarius iussione regia ad vicem Adelardi episcopi et
+                        archicancellarii recognovi et subscripsi. (SR) (SI n. I). data IIII id.
+                        septemb., anno incarnationis Domini DCCCLXXXVIIII, anno vero regni domni
+                        Berengarii gloriosissimi regis II, indictione VIII. Actum Verona. In Dei
+                        nomine feliciter, amen.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
