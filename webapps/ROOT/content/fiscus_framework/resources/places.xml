@@ -930,6 +930,8 @@
                     <geogName type="coord"><geo>43.06638, 10.553978</geo></geogName>
                     <idno>http://137.204.128.125/places/127</idno>
                     <note/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/87"
+                        subtype="isPartOf"/>
                 </place>
                 <place>
                     <placeName>Volterra (Pisa)</placeName>
@@ -975,7 +977,8 @@
                             <foreign>Pratale</foreign></note>
                     <link type="places" corresp="#http://137.204.128.125/places/91"
                         subtype="isPartOf"/>
-                    <link type="estates" subtype="isPartOf"/>
+                    <link type="estates" subtype="isPartOf"
+                        corresp="#http://137.204.128.125/estates/87"/>
                 </place>
                 <place>
                     <placeName>Vignale Vecchio (Piombino; Livorno)</placeName>
