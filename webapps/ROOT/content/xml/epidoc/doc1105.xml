@@ -4,7 +4,7 @@
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
-                <title/>
+                <title>Archivio capitolare di S. Ambrogio di Milano</title>
             </titleStmt>
             <editionStmt>
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus
@@ -31,10 +31,10 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#"/>
-                            <rs type="record_source" ref="#"/>
-                            <rs type="document_tradition" ref="#"/>
-                            <rs type="fiscal_property"/>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -42,10 +42,10 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate notBefore="0001" notAfter="0001" when="0001">
-                                <note type="displayed_date"/>
+                            <origDate when="0894-12-02">
+                                <note type="displayed_date">894 December 2</note>
                                 <note type="dating_elements"/>
-                                <note type="topical_date"/>
+                                <note type="topical_date">Milano</note>
                             </origDate>
                             <origPlace/>
                         </origin>
@@ -73,7 +73,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2021-02-08">creation of record</change>
+                <change when="2021-02-08" who="Chiara Stedile">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -81,11 +81,42 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab/>
+                    <ab>In nomine domini nostri Iesu Christi Dei aeterni. <persName
+                            key="#Emperor/king" ref="#http://137.204.128.125/people/21"
+                            >Berengarius</persName> gratia Dei <rs key="#Emperor/king">rex</rs>. Si
+                        circa <rs key="#Monks">Dei famulos</rs> nostrae concessionis benignitatem
+                        impendimus, devotiores illos pro nobis ad divinum implorandum auxilium
+                        reddimus ac per hoc supernam pietatem nostro regno proficere non diffidimus.
+                        Ideoque omnium sanctae Dei Ecclesiae nostrorum fidelium presentium scilicet
+                        ac futurorum nosse volumus cognitionem, <persName>Ermenulfum</persName>
+                        nostrae <rs>militiae comitem</rs> nostrae suggessisse sublimitati pro
+                        quibusdam <rs key="#Priests">presbiteris</rs> atque <rs key="#Other_clerics"
+                            >officialibus</rs>
+                        <orgName>Sancti Ambrosii</orgName>, ubi eius corpus venerabiliter tumulatum
+                        est, quatenus eis vel eorum successoribus ob nostrae mercedis cumulum
+                        concessa nostra largitatis benivolentia mansum illud quod est in Cornaledo
+                        pertinens ex comitatu Stazionensi cum finibus et subiacentiis suis ex
+                        integro, omni aliorum impeditione postposita, ad habendum debiti causa
+                        concedamus offitii. Quod nos ratum et congruum omnimodis arbitrantes, eius
+                        petitioni concessum prebuimus. Si ergo contra hoc regale preceptum temerario
+                        ausu aliquid contrarium suae presumptione stultitiae facere, quod absit,
+                        temptaverit, a nobis statuto dampnetur iuditio, scilicet mancosos auri duo
+                        milia cogatur persolvere, medietatem regiae camere et medietatem ipsis
+                        presbiteris quibus ausus fuit impedire nequissimus. Et ut hoc nostrae
+                        celsitudinis inviolabile preceptum firmum et inconvulsum habeatur im
+                        posterum, proprie manus subscriptione innotatum atque, ut mos est,
+                        roboratum, anulo nostro subtus iussimus siggillari. Signum (MF) domni
+                        Berengarii gloriosissimi regis. Restaldus notarius iussione regia ad vicem
+                        Adelardi episcopi et archicancelarii recognovi et subscripsi. (SR) (SI D).
+                        Data IIII non decemb., anno incarnationis Domini DCCCXCIIII, anno vero regni
+                        domni Berengarii gloriosissimi regis VII, indictione XIIII. Actum in
+                        Mediolanum ad Sanctum Ambrosium. In Dei nomine feliciter, amen, amen,
+                        amen.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p/>
+                <p>Schiaparelli, <foreign>I diplomi di Berengario I</foreign>, pp. 46-48, n°
+                    XIII</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>
