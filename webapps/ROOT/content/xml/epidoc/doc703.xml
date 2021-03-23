@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc703">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Archivio Abbaziale di Nonantola, Pergamene, II 5</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus
+                        Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="uri">http://137.204.128.125/documents/doc703</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Uncertain tradition</rs>
+                            <rs type="fiscal_property">No</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0819">
+                                <note type="displayed_date">819</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date"/>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-02-08" who="emanarini">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>Hludovicus divina ordinante providentia imperator augustus. Omnibus … Petru
+                        abbas venerabilis monasterii Nonantule, quod est constructum … quoddam
+                        pactum confirmationis inter ipsum et Gisonem episcopum Motinensis aecclesiae
+                        … de aecclesiis … unum in quo legebatur, quod dedit … ipse abbas ex parte
+                        monasterii … cum omnibus pertinentiis suis prope Lama ad partem aecclesiae
+                        Motinensis pro cunctis aecclesiis baptismalibus .. et rebus predictis. Et
+                        obligaverunt [..] Signum M Hludovici serenissimi imperatoris … recognovi et
+                        subscripsi SI. Data … anno sexto Christo propritio Imperii nostri,
+                        indictione duodecima …</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>CHLA 89, n. 2.</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p>Manarini, 2019.</p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>L'editore considera il documento un falso databile paleograficamente tra la fine
+                    del IX e l'inizio del X secolo. Il contenuto permette di proporre l'abbaziato di
+                    Teodorico a Nonatola (870-887) quale periodo di redazione.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
