@@ -160,6 +160,8 @@
                     <note>Microtoponomastica: <foreign>Dardatico</foreign>; <foreign>terra
                             Freiorese</foreign>; <foreign>Supto Ripa</foreign>; <foreign>Vinea
                             Berte</foreign></note>
+                    <link type="juridical_persons"
+                        corresp="#http://137.204.128.125/juridical_persons/71" subtype="link"/>
                 </place>
                 <place>
                     <placeName><foreign>Catiana</foreign> (Castelfranco di Sotto; Pisa)</placeName>
@@ -963,7 +965,8 @@
                         subtype="isPartOf"/>
                 </place>
                 <place>
-                    <placeName>Podere San Frediano (Piombino; Livorno)</placeName>
+                    <placeName><foreign>Sancto Fridiano</foreign> (Podere San Frediano; Piombino;
+                        Livorno)</placeName>
                     <placeName type="other"><foreign>Sancto Fridiano</foreign></placeName>
                     <geogName type="coord"><geo>43.0291341338974, 10.6594400220373</geo></geogName>
                     <idno>http://137.204.128.125/places/131</idno>
@@ -972,6 +975,7 @@
                             <foreign>Pratale</foreign></note>
                     <link type="places" corresp="#http://137.204.128.125/places/91"
                         subtype="isPartOf"/>
+                    <link type="estates" subtype="isPartOf"/>
                 </place>
                 <place>
                     <placeName>Vignale Vecchio (Piombino; Livorno)</placeName>
@@ -1116,6 +1120,13 @@
                     <note/>
                     <link type="estates" corresp="#http://137.204.128.125/estates/116"
                         subtype="isMadeOf"/>
+                </place>
+                <place>
+                    <placeName>Campiglia Marittima (Livorno)</placeName>
+                    <placeName type="other"><foreign>Campilia</foreign></placeName>
+                    <geogName type="coord"><geo>43.060628, 10.615496</geo></geogName>
+                    <idno>http://137.204.128.125/places/146</idno>
+                    <note/>
                 </place>
                 
             </listPlace>
