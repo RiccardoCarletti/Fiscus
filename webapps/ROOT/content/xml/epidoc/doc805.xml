@@ -83,15 +83,21 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>In parlatorio S. Sisti. Domnus <persName
+                    <ab>In parlatorio <orgName ref="#http://137.204.128.125/juridical_persons/53"
+                            key="#Rent_in_kind #Monasteries">S. Sisti</orgName>. Domnus <persName
                             ref="#http://137.204.128.125/people/16" key="#Abbots"
                             >Gandulfus</persName>
-                        <rs key="#Abbots">abbas</rs> predicti monasterii, investivit per fictum
-                        Saracenum mulinarium de medietate unius molendini siti intus fossatum
-                        civitatis non multum longe a predicto monasterio, reddendo parti predicti
-                        monasterii fictum omni anno III mod. frumenti conductum ad pred.
-                        monasterium. Pena L sol Plac. et pro hac investitura predictus abbas recepit
-                        IV solidos Plac. Zuzanus de Arcellis not.</ab>
+                        <rs key="#Abbots">abbas</rs> predicti <rs key="#Monasteries"
+                        >monasterii</rs>, investivit per fictum Saracenum mulinarium de medietate
+                        unius <rs key="#Mills">molendini</rs> siti intus fossatum <placeName
+                            ref="#http://137.204.128.125/places/43" key="#Mills"
+                            >civitatis</placeName> non multum longe a predicto monasterio, reddendo
+                        parti predicti monasterii fictum omni anno <rs key="#Rent_in_kind">III mod.
+                            frumenti</rs> conductum ad pred. monasterium. <rs key="#Penalty"
+                            >Pena</rs> L sol Plac. et pro hac investitura predictus abbas recepit
+                            <rs key="#Price">IV solidos Plac</rs>. <persName key="#Notary">Zuzanus
+                            de Arcellis</persName>
+                        <rs key="#Notary">not.</rs></ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
