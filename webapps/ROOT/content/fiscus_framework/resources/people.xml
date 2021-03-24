@@ -199,6 +199,8 @@
                     <link type="people" corresp="#http://137.204.128.125/people/81" subtype="sonInLawOf"/>
                     <link type="people" corresp="#http://137.204.128.125/people/84" subtype="fatherOf"/>
                     <link type="people" corresp="#http://137.204.128.125/people/83" subtype="grandfatherOf"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/150"
+                        subtype="greatGrandsonOf"/>
                 </person>
                 
                 <person>
@@ -209,6 +211,8 @@
                     <link type="people" corresp="#http://137.204.128.125/people/4" subtype="fatherInLawOf"/>
                     <link type="people" corresp="#http://137.204.128.125/people/84" subtype="grandfatherOf"/>
                     <link type="people" corresp="#http://137.204.128.125/people/83" subtype="greatGrandfatherOf"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/150"
+                        subtype="grandsonOf"/>
                 </person>
                 
                 <person>
@@ -1017,11 +1021,21 @@
                     <persName type="other"/>
                     <idno>http://137.204.128.125/people/150</idno>
                     <note/>
+                    <link type="people" corresp="#http://137.204.128.125/people/26"
+                        subtype="grandfatherOf"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/25"
+                        subtype="greatGrandfatherOf"/>
                 </person>
                 <person>
-                    <persName>Adaldus (; Figli di Huscit)</persName>
+                    <persName>Adaldus (858-887; q. 897; Figli di Huscit)</persName>
                     <persName type="other"/>
                     <idno>http://137.204.128.125/people/151</idno>
+                    <note/>
+                </person>
+                <person>
+                    <persName>Giso (796-819) episcopus Mutinensis</persName>
+                    <persName type="other"/>
+                    <idno>http://137.204.128.125/people/152</idno>
                     <note/>
                 </person>
                 
