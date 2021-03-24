@@ -4,7 +4,8 @@
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
-                <title>ASDL, AAL, D, * M 44 (n. 1026)</title>
+                <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    Diplomatico, * M 44</title>
             </titleStmt>
             <editionStmt>
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus
@@ -31,9 +32,9 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#">Cartula venditionis</rs>
-                            <rs type="record_source" ref="#"/>
-                            <rs type="document_tradition" ref="#"/>
+                            <rs type="text_type" ref="#">--Venditio</rs>
+                            <rs type="record_source" ref="#">Original document</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
                             <rs type="fiscal_property"/>
                         </summary>
                         <msItem xml:id="msItem1">
@@ -42,10 +43,10 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate notBefore="0001" notAfter="0001" when="0001">
-                                <note type="displayed_date">0896/12/31</note>
-                                <note type="dating_elements"/>
-                                <note type="topical_date">Actum ad loco Cornio (Prato)</note>
+                            <origDate when="0896-12-31">
+                                <note type="displayed_date">896 December 31</note>
+                                <note type="dating_elements">Anno d’impero di Lamberto</note>
+                                <note type="topical_date"><foreign>Cornio</foreign> (Prato)</note>
                             </origDate>
                             <origPlace/>
                         </origin>
@@ -73,7 +74,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2021-01-06" who="ptomei">creation of record</change>
+                <change when="2021-03-24" who="ptomei">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -81,16 +82,16 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab> Giovanni del fu Pietro vende a Ansighisi del fu Teudighisi un appezzamento
+                    <ab>Giovanni del fu Pietro vende a Ansighisi del fu Teudighisi un appezzamento
                         di terra posto in loco qui dicitur Canpo Vitallani ubi Valiano vocatur,
                         confinante da oriente con terra di Isalberto, da aquilone et occidente con
-                        terra di Teudigrimo del fu Teudigrimo, da meridie via publica decurrente,
+                        terra di Teudelgrimo del fu Teudelgrimo, da meridie via publica decurrente,
                         della misura per longo di 19 pertiche, per traverso di 6 pertiche, per il
                         prezzo di 20 soldi d’argento. Chiede al notaio Walprando la stesura della
-                        cartula. <persName>Autori: + Giovanni del fu Pietro, Ansighisi del fu
-                            Teudighisi. Scrittore: Walprando notarius. Testimoni sottoscrittori:
-                            Witterado schabinus, Pietro, Atrualdo, + Orso del fu Willerado. Altro:
-                            Isalberto, Teudigrimo del fu Teudigrimo.</persName>
+                        cartula. Actum ad loco Cornio. <persName>Autori: + Giovanni del fu Pietro,
+                            Ansighisi del fu Teudighisi. Scrittore: Walprando notarius. Testimoni
+                            sottoscrittori: Witterado schabinus, Pietro, Atrualdo, + Orso del fu
+                            Willerado. Altro: Isalberto, Teudigrimo del fu Teudigrimo.</persName>
                         <placeName>Canpo Vitallani ubi Valiano vocatur (Vaiano), Cornio
                             (Prato).</placeName>
                         <orgName/>
@@ -108,9 +109,8 @@
                 <p/>
             </div>
             <div type="commentary">
-                <p>Anno d’impero di Lamberto. Nota dorsale X sec.: libelario. Nota dorsale moderna:
-                    894 pro Tegrimi (nel testo la stessa mano ha sottolineato il nome di Teudigrimo
-                    del fu Teudigrimo).</p>
+                <p>Nota dorsale X sec.: libelario. Nota dorsale moderna: 894 pro Tegrimi (nel testo
+                    la stessa mano ha sottolineato il nome di Teudelgrimo del fu Teudelgrimo).</p>
                 <p><note>Mod_id: 44</note></p>
             </div>
         </body>
