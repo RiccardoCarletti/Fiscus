@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc504">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>ASDL, AAL, D, * M 44 (n. 1026)</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus
+                        Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="uri">http://137.204.128.125/documents/doc504</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">Cartula venditionis</rs>
+                            <rs type="record_source" ref="#"/>
+                            <rs type="document_tradition" ref="#"/>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate notBefore="0001" notAfter="0001" when="0001">
+                                <note type="displayed_date">0896/12/31</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Actum ad loco Cornio (Prato)</note>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-01-06" who="ptomei">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab> Giovanni del fu Pietro vende a Ansighisi del fu Teudighisi un appezzamento
+                        di terra posto in loco qui dicitur Canpo Vitallani ubi Valiano vocatur,
+                        confinante da oriente con terra di Isalberto, da aquilone et occidente con
+                        terra di Teudigrimo del fu Teudigrimo, da meridie via publica decurrente,
+                        della misura per longo di 19 pertiche, per traverso di 6 pertiche, per il
+                        prezzo di 20 soldi d’argento. Chiede al notaio Walprando la stesura della
+                        cartula. <persName>Autori: + Giovanni del fu Pietro, Ansighisi del fu
+                            Teudighisi. Scrittore: Walprando notarius. Testimoni sottoscrittori:
+                            Witterado schabinus, Pietro, Atrualdo, + Orso del fu Willerado. Altro:
+                            Isalberto, Teudigrimo del fu Teudigrimo.</persName>
+                        <placeName>Canpo Vitallani ubi Valiano vocatur (Vaiano), Cornio
+                            (Prato).</placeName>
+                        <orgName/>
+                    </ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>MDL, V/2, n. 1000, p. 618</p>
+                <p>ChLA, LXXXVI, n. 44, pp. 134-136</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>Anno d’impero di Lamberto. Nota dorsale X sec.: libelario. Nota dorsale moderna:
+                    894 pro Tegrimi (nel testo la stessa mano ha sottolineato il nome di Teudigrimo
+                    del fu Teudigrimo).</p>
+                <p><note>Mod_id: 44</note></p>
+            </div>
+        </body>
+    </text>
+</TEI>
