@@ -81,15 +81,33 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>Hludovicus divina ordinante providentia imperator augustus. Omnibus … Petru
-                        abbas venerabilis monasterii Nonantule, quod est constructum … quoddam
-                        pactum confirmationis inter ipsum et Gisonem episcopum Motinensis aecclesiae
-                        … de aecclesiis … unum in quo legebatur, quod dedit … ipse abbas ex parte
-                        monasterii … cum omnibus pertinentiis suis prope Lama ad partem aecclesiae
-                        Motinensis pro cunctis aecclesiis baptismalibus .. et rebus predictis. Et
-                        obligaverunt [..] Signum M Hludovici serenissimi imperatoris … recognovi et
-                        subscripsi SI. Data … anno sexto Christo propritio Imperii nostri,
-                        indictione duodecima …</ab>
+                    <ab><persName ref="#http://137.204.128.125/people/118"
+                            key="#Commutatio #Emperor/king">Hludovicus</persName> divina ordinante
+                        providentia <rs key="#Emperor/king">imperator</rs> augustus. Omnibus …
+                            <persName ref="#http://137.204.128.125/people/119"
+                            key="#Commutatio #Churches #Baptismal_churches #Monasteries #Abbots"
+                            >Petrus</persName>
+                        <rs key="#Abbots">abbas</rs> venerabilis <rs key="#Monasteries"
+                            >monasterii</rs>
+                        <placeName ref="#http://137.204.128.125/places/15" key="#Monasteries"
+                                ><orgName ref="#http://137.204.128.125/juridical_persons/47"
+                                key="#Commutatio #Churches #Baptismal_churches #Abbots"
+                                >Nonantule</orgName></placeName>, quod est constructum … quoddam <rs
+                            key="#Commutatio">pactum</rs> confirmationis inter ipsum et <persName
+                            key="#Commutatio #Churches #Baptismal_churches"
+                            ref="#http://137.204.128.125/people/152">Gisonem</persName>
+                        <rs key="#Bishops">episcopum</rs>
+                        <placeName ref="#http://137.204.128.125/places/38" key="#Mother_churches"
+                            >Motinensis</placeName>
+                        <orgName key="#Commutatio #Churches #Baptismal_churches"
+                            ref="#http://137.204.128.125/juridical_persons/96">aecclesiae</orgName>
+                        … de <rs key="#Churches">aecclesiis</rs> … unum in quo legebatur, quod dedit
+                        … ipse abbas ex parte monasterii … cum omnibus pertinentiis suis prope
+                            <placeName>Lama</placeName> ad partem aecclesiae Motinensis pro cunctis
+                            <rs key="#Baptismal_churches">aecclesiis baptismalibus</rs> .. et rebus
+                        predictis. Et obligaverunt [..] Signum M Hludovici serenissimi imperatoris …
+                        recognovi et subscripsi SI. <date>Data … anno sexto Christo propritio
+                            imperii nostri, indictione duodecima</date> …</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
@@ -104,7 +122,7 @@
             <div type="commentary">
                 <p>L'editore considera il documento un falso databile paleograficamente tra la fine
                     del IX e l'inizio del X secolo. Il contenuto permette di proporre l'abbaziato di
-                    Teodorico a Nonatola (870-887) quale periodo di redazione.</p>
+                    Teodorico di Nonatola (870-887) quale periodo di redazione.</p>
             </div>
         </body>
     </text>
