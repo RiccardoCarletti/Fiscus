@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc1106">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus
+                        Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="uri">http://137.204.128.125/documents/doc1106</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#"/>
+                            <rs type="record_source" ref="#"/>
+                            <rs type="document_tradition" ref="#"/>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate notBefore="0001" notAfter="0001" when="0001">
+                                <note type="displayed_date"/>
+                                <note type="dating_elements"/>
+                                <note type="topical_date"/>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-02-08">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine domini nostri Iesu Christi Dei eterni. Berengarius divina favente
+                        clementia rex. Si at vota et legitimam nostrorum fidelium postulationem
+                        aures clementie satagimus inclinare, devotiores eos ad nostram fidelitatem
+                        efficimus, insuper ab eterno remuneratore premia sine fine mansura percipere
+                        non ambigimus. Quapropter noverit universorum sancte Dei Ecclesie fidelium
+                        nostrorumque presentium scilicet et futurorum industria, Landulfus
+                        venerabilem archiepiscopus sancte Mediolanensis ecclesie suplicasset nostram
+                        clementiam, quatenus Ermenulfi dilecto fideli nostro concederemus aliquantos
+                        servos et aldiones in vico et fundo Luano pertinentibus de iure regni
+                        nostri, idest nomina eorum: Deusdedi clerico cum germanis suis et uxores
+                        illorum cum agnitione illorum et Ursone cum uxore sua cum filiis et filias
+                        nec non et Lupone cum uxore et filiis et filias et nepotis. Cuius precibus
+                        assensu prebentes, ea videlicet que iuste et legaliter nos est deprecatus,
+                        inde hoc strenuitatis nostre preceptum fieri decrevimus, per quod predictus
+                        fidelis noster Ermenulfus eosdem servis et ancillis, aldiones vel aldianas
+                        superius nominatis cum omni iure adiacentiis et pertinentiis earum, que sunt
+                        casis cum universis territoriis mobilibus et inmobilibus et Florane cum
+                        filias suas et possessiones illarum, omnia et ex omnibus seu per aliis
+                        singulis locis de ipsis aut eorum iure pertinentes inventum fuerit iuste et
+                        legaliter ad ipsis servis et aldionibus superius nominatis futuris
+                        temporibus absque ullius contradictione perpetualiter tam ipse predictus
+                        fidelis noster Ermenulfus quam sui heredes possideant, liberam quoque et
+                        firmissimam in omnibus habeant potestatem donandi, ordinandi, comutandi,
+                        vendendi, seu quovis tituloinscripcionis alienandi, remota tocius publice
+                        potestatis inquietudine. Si quis vero, quod minime credimus, quicumque
+                        temerarius contra hoc nostrum regali preceptum quandoque tempore insurgere
+                        aut inrumpere temptaverit, sciat se compositutum auri optimi libras XX,
+                        meditatem palatio nostro et reliquam medietatem sepe fato Ermenulfo suisque
+                        heredibus ac proheredibus. Ut autem ab omnibus verius credatur et
+                        diligentius observetur, manu propria supter firmavimus et anulo nostro
+                        inpressione insigniri iussimus. Signum (MF) domni Berengarii gloriosissimi
+                        regis. Restaldus notarius iussione regia ad vicem Petri episcopi et
+                        archicancellarii recognovi et subscripsi. (SR) (SI D). data XV kal. Mar.,
+                        anno incarnationis Domini DCCCXCVIII, anno vero regni domni Berengarii
+                        gloriosissimi regis X, indictione prima. Actum Mediolano in monasterio
+                        Sancti Ambrosii. In Dei nomine feliciter amen.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
