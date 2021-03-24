@@ -4,7 +4,8 @@
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
-                <title/>
+                <title>Biblioteca comunale di Bergamo, <foreign>Pergamene Lupi</foreign>, Salone,
+                    cass. 3, G, cassetto F, n. VIII</title>
             </titleStmt>
             <editionStmt>
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus
@@ -31,9 +32,9 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#"/>
-                            <rs type="record_source" ref="#"/>
-                            <rs type="document_tradition" ref="#"/>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
                             <rs type="fiscal_property"/>
                         </summary>
                         <msItem xml:id="msItem1">
@@ -42,10 +43,10 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate notBefore="0001" notAfter="0001" when="0001">
-                                <note type="displayed_date"/>
+                            <origDate when="0898-02-15">
+                                <note type="displayed_date">898 february 15</note>
                                 <note type="dating_elements"/>
-                                <note type="topical_date"/>
+                                <note type="topical_date">Milano</note>
                             </origDate>
                             <origPlace/>
                         </origin>
@@ -73,7 +74,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2021-02-08">creation of record</change>
+                <change when="2021-02-08" who="Chiara Stedile">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -81,8 +82,10 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>In nomine domini nostri Iesu Christi Dei eterni. Berengarius divina favente
-                        clementia rex. Si at vota et legitimam nostrorum fidelium postulationem
+                    <ab>In nomine domini nostri Iesu Christi Dei eterni. <persName
+                            key="#Emperor/king" ref="#http://137.204.128.125/people/21"
+                            >Berengarius</persName> divina favente clementia <rs key="#Emperor/king"
+                            >rex</rs>. Si at vota et legitimam nostrorum fidelium postulationem
                         aures clementie satagimus inclinare, devotiores eos ad nostram fidelitatem
                         efficimus, insuper ab eterno remuneratore premia sine fine mansura percipere
                         non ambigimus. Quapropter noverit universorum sancte Dei Ecclesie fidelium
@@ -120,7 +123,7 @@
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p/>
+                <p>Schiaparelli, <foreign>I diplomi di Berengario I</foreign>, pp. 58-60, n° XIX</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>
