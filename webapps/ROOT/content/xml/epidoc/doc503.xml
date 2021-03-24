@@ -1,115 +1,127 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc16">
-            <teiHeader xml:lang="en">
-                <fileDesc>
-                    <titleStmt>
-                        <title>ASDL, AAL, D, * G 4 (n. 1025)</title>
-                    </titleStmt>
-                    <editionStmt>
-                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
-                            <date when="2021">2021</date>
-                        </edition>
-                        </editionStmt>
-                    <publicationStmt>
-                        <publisher>Fiscus - DISCI UniBo</publisher>
-                        <idno type="uri">http://137.204.128.125/documents/doc16</idno>
-                        <availability xml:lang="en" status="free">
-                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
-                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
-                                4.0)</licence>
-                        </availability>
-                        <date when="2021"/>
-                    </publicationStmt>
-                    <sourceDesc>
-                        <msDesc>
-                            <msIdentifier>
-                                <altIdentifier>
-                                    <idno type="uri"/>
-                                </altIdentifier>
-                            </msIdentifier>
-                            <msContents>
-                                <summary>
-                                    <rs type="text_type" ref="#">Cartula ad censum perexolvendum</rs>
-                                    <rs type="record_source" ref="#"/>
-                                    <rs type="document_tradition" ref="#"/>
-                                    <rs type="fiscal_property"/>
-                                </summary>
-                                <msItem xml:id="msItem1">
-                                    <textLang mainLang="" otherLangs=""/>
-                                </msItem>
-                            </msContents>
-                            <history>
-                                <origin>
-                                    <origDate notBefore="0001" notAfter="0001" when="0001">
-                                    <note type="displayed_date">0896/10/29</note>
-                                    <note type="dating_elements"></note>
-                                    <note type="topical_date">Actum Luca (Lucca)</note>
-                                    </origDate>
-                                    <origPlace/>
-                                </origin>
-                                <provenance>
-                                    <location>
-                                        <placeName/>
-                                    </location>
-                                </provenance>
-                            </history>
-                        </msDesc>
-                        <listPlace>
-                            <place></place>
-                        </listPlace>
-                        <listPerson>
-                            <person></person>
-                        </listPerson>
-                    </sourceDesc>
-                </fileDesc>
-                <profileDesc>
-                    <textClass>
-                        <keywords>
-                            <term/>
-                        </keywords>
-                    </textClass>
-                </profileDesc>
-                <revisionDesc>
-                    <listChange>
-                        <change when="2021-01-06" who="ptomei">creation of record</change>
-                    </listChange>
-                </revisionDesc>
-            </teiHeader>
-            <text>
-                <body>
-                    <div type="edition">
-                        <div type="textpart">
-                            <ab>
-                                Ghisalberto del fu Gumberto e Salvestro del fu Sunardo ricevono in livello dal vescovo di Lucca Pietro, una res posta in loco ubi dicitur (...) di pertinenza della chiesa di San Michele Arcangelo sito hic Luca, qui est de suppotestatem dello stesso vescovato, in precedenza tenuta dallo stesso Sunardo, con tutte le sue dipendenze.
-Si impegnano entro i successivi due anni, infra ipsa res, a levare et claudere seo coperire una casa, con i loro eredi a mettervi uomini ad residendum et abitandum i quali dovranno bene laborare et gubernare seu meliorare la suddetta casa et res.
-Si impegnano a versare pro omni censum et iustitiam al vescovo e ai suoi successori a Lucca ogni mese di dicembre il censo annuale di 9 soldi d’argento ad pars del vescovato di San Martino, e a far venire a Lucca due volte l’anno legem et iustitiam faciendum, gli stessi uomini che abiteranno la casa a mandato del vescovo.
-Se non rispetteranno i suddetti impegni, promettono con i loro eredi di versare al vescovo e ai suoi successori la pena di 50 soldi d’argento.
-Chiedono al notaio Andrea la stesura di due cartulas.
-                                <persName>Autori: Pietro episcopus, + Ghisalberto del fu Gumberto, + Salvestro del fu Sunardo.
-Scrittore: Andrea notarius.
-Testimoni sottoscrittori: Adalberto, Alone, + Eriberto del fu Warnifridi, Pietro.</persName>
-                                <placeName>Luca (Lucca), Ripule (Ripoli, Cerreto Guidi).</placeName>
-                                <orgName>San Michele Arcangelo di Lucca (?), San Martino di Lucca (chiesa matrice).</orgName>
-                            </ab>
-                        </div>
-                    </div>
-                    <div type="bibliography" subtype="editions">
-                        <p>MDL, V/2, n. 999, p. 617</p>
-                        <p>ChLA, LXXXVI, n. 43, pp. 132-133</p>
-                    </div>
-                    <div type="bibliography" subtype="additional">
-                        <p/>
-                    </div>
-                    <div type="bibliography" subtype="links">
-                        <p/>
-                    </div>
-                    <div type="commentary">
-                        <p>Stile dell’incarnazione.
-Nota dorsale coeva: Petri episcopi libello da Ghisalberto et Salvestro de Ripule.
-Nota dorsale XI sec.: da Ghisalberto et Salvestro libello de terra in Ripule cum cartis de Sancta Maria ad Montem.</p>
-                        <p><note>Mod_id: 43</note></p>
-                    </div>
-                </body>
-            </text>
-        </TEI>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc503">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>ASDL, AAL, D, * G 4 (n. 1025)</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus
+                        Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="uri">http://137.204.128.125/documents/doc503</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">Cartula ad censum perexolvendum</rs>
+                            <rs type="record_source" ref="#"/>
+                            <rs type="document_tradition" ref="#"/>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate notBefore="0001" notAfter="0001" when="0001">
+                                <note type="displayed_date">0896/10/29</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Actum Luca (Lucca)</note>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-01-06" who="ptomei">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab> Ghisalberto del fu Gumberto e Salvestro del fu Sunardo ricevono in livello
+                        dal vescovo di Lucca Pietro, una res posta in loco ubi dicitur (...) di
+                        pertinenza della chiesa di San Michele Arcangelo sito hic Luca, qui est de
+                        suppotestatem dello stesso vescovato, in precedenza tenuta dallo stesso
+                        Sunardo, con tutte le sue dipendenze. Si impegnano entro i successivi due
+                        anni, infra ipsa res, a levare et claudere seo coperire una casa, con i loro
+                        eredi a mettervi uomini ad residendum et abitandum i quali dovranno bene
+                        laborare et gubernare seu meliorare la suddetta casa et res. Si impegnano a
+                        versare pro omni censum et iustitiam al vescovo e ai suoi successori a Lucca
+                        ogni mese di dicembre il censo annuale di 9 soldi d’argento ad pars del
+                        vescovato di San Martino, e a far venire a Lucca due volte l’anno legem et
+                        iustitiam faciendum, gli stessi uomini che abiteranno la casa a mandato del
+                        vescovo. Se non rispetteranno i suddetti impegni, promettono con i loro
+                        eredi di versare al vescovo e ai suoi successori la pena di 50 soldi
+                        d’argento. Chiedono al notaio Andrea la stesura di due cartulas.
+                            <persName>Autori: Pietro episcopus, + Ghisalberto del fu Gumberto, +
+                            Salvestro del fu Sunardo. Scrittore: Andrea notarius. Testimoni
+                            sottoscrittori: Adalberto, Alone, + Eriberto del fu Warnifridi,
+                            Pietro.</persName>
+                        <placeName>Luca (Lucca), Ripule (Ripoli, Cerreto Guidi).</placeName>
+                        <orgName>San Michele Arcangelo di Lucca (?), San Martino di Lucca (chiesa
+                            matrice).</orgName>
+                    </ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>MDL, V/2, n. 999, p. 617</p>
+                <p>ChLA, LXXXVI, n. 43, pp. 132-133</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>Stile dell’incarnazione. Nota dorsale coeva: Petri episcopi libello da
+                    Ghisalberto et Salvestro de Ripule. Nota dorsale XI sec.: da Ghisalberto et
+                    Salvestro libello de terra in Ripule cum cartis de Sancta Maria ad Montem.</p>
+                <p><note>Mod_id: 43</note></p>
+            </div>
+        </body>
+    </text>
+</TEI>
