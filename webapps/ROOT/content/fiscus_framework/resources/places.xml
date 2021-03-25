@@ -1485,8 +1485,8 @@
                     <note/>
                 </place>
                 <place>
-                    <placeName>Cegna; Ailano (Caserta)</placeName>
-                    <placeName type="other"/>
+                    <placeName>Cegna (Ailano; Caserta)</placeName>
+                    <placeName type="other"><foreign>Cingla</foreign></placeName>
                     <geogName type="coord"><geo>41.3775, 14.17796</geo></geogName>
                     <idno>http://137.204.128.125/places/193</idno>
                     <note/>
@@ -1500,6 +1500,20 @@
                             41.333795, 14.162766; 41.324133, 14.173121; 41.310698, 14.142587;
                             41.309344, 14.103695; 41.324312, 14.093329</geo></geogName>
                     <idno>http://137.204.128.125/places/194</idno>
+                    <note/>
+                    <link type="juridical_persons"
+                        corresp="#http://137.204.128.125/juridical_persons/97" subtype="link"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/114" subtype="link"/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/121"
+                        subtype="isPartOf"/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/122"
+                        subtype="isMadeOf"/>
+                </place>
+                <place>
+                    <placeName>mons</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo/></geogName>
+                    <idno>http://137.204.128.125/places/195</idno>
                     <note/>
                 </place>
             </listPlace>
