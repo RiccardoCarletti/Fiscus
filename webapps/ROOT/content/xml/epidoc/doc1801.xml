@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc1801">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Archivio comunale di Vercelli, <foreign>Libri Biscioni</foreign>, vol.1, f.
+                    60 (MGH DD O III, D.323) </title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus
+                        Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="uri">http://137.204.128.125/documents/doc1801</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">Yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate notBefore="0001" notAfter="0001" when="0999-05-07">
+                                <note type="displayed_date">999 May 7</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Roma</note>
+                            </origDate>
+                            <origPlace>Archivio Vescovile di Vercelli</origPlace>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-03-25" who="caterinaciccopiedi">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine sancte et individue trinitatis. <persName>Otto</persName> divina
+                        favente misericordia Romanorum <rs>imperator</rs> augustus. Iam dudum omnia
+                        quae data sunt <orgName>sancto Eusebio</orgName> confirmavimus, sed ea que
+                        sunt necessaria et maxime ea que <persName>Karulus</persName> imperator
+                            <persName>Lituardo</persName>
+                        <rs>episcopo</rs> aut dedit aut reddidit, iterum et iterum ex nunc
+                        confirmamus et successores nostros idem agere rogamus, quia nos ipsi
+                        imperatoris Karuli. <rs>precepta</rs> legimus et litere in <rs>ecclesia</rs>
+                        sancti Eusebii a tempore Karuli super altare sancti Iohannis baptiste
+                        scripte testimonium donant et ad veritatem recognoscendam fidem legentibus
+                        faciunt, id est <rs>toloneum</rs> et <rs>districtum</rs> suarum
+                            <rs>plebium</rs> et super sua <rs>habitancium</rs>, <rs key="#Rivers"
+                            >aquam de Scicida</rs>, aquam de Saruo, aquam de Eleuo cum utrisque
+                        ripis a loco ubi nascuntur, usque in Padum, aquam de Pado cum duabus rippis
+                        a <placeName>Lionna</placeName> usque <orgName>plebem Martori</orgName>,
+                        aquam de Duria cum utrisque ripis a <placeName>Petra grossa
+                        </placeName>usque <placeName>Verucham</placeName>. Confirmamus
+                            <placeName>Malascum</placeName>,
+                                <geogName><placeName>Firminianam</placeName></geogName>,
+                                <placeName><geogName>Sestignum</geogName></placeName>,
+                                <geogName><placeName>Carexianam</placeName></geogName> cum utraque
+                        ripa, <placeName><geogName key="#Curtes #Castle"
+                                ref="#http://137.204.128.125/estates/62"
+                            >Buiellam</geogName></placeName> cum omnibus suis appendiciis,
+                            <placeName>Galianicum</placeName>, <placeName>Ponderanam</placeName>,
+                            <placeName>Mulinariam</placeName>, <placeName>Andornum</placeName>,
+                            <placeName>Causades</placeName>, montem <placeName>Cisidola</placeName>,
+                            <placeName>Pedroro</placeName>, <placeName>Blatini</placeName>,
+                            <placeName>Beduluum</placeName> et <placeName>Clauaziam</placeName>,
+                            <placeName>Candele</placeName> et <placeName>Cliuoli</placeName> quia
+                            <persName>Berengarius</persName> et <persName>Albertus</persName> reges
+                        quorum <rs
+                            key="#Fiscal_property #Occurrence #Object #Alienations #Allocation_to_churches"
+                            >proprietates</rs> fuerunt, ei dederunt, <placeName>Treuerem</placeName>
+                        et districtum per totum Buiellensem et <placeName>Calaniago</placeName>,
+                            <placeName>Redigada</placeName>, <placeName>Readigadella</placeName>,
+                            <placeName>Trebledo</placeName>, <placeName>Orco</placeName>, vallem
+                            <placeName ref="#http://137.204.128.125/places/103">Cledi</placeName>,
+                            <placeName key="#Gualdi">Walda</placeName>. Damus omnia predia
+                            <persName>Ardoini</persName> filii <persName>Daidonis</persName>, quia
+                        hostis publicus adiudicatus episcopum <persName>Petrum</persName>
+                        <placeName>Vercellensem</placeName> interfecit et interfectum incendere non
+                        expavit, et predia eorum qui exploratu armis et ipsis manibus huic
+                        crudelitati interfuerunt, id est filiorum <persName>Teperti</persName> de
+                            <placeName>Cassale</placeName>
+                        <persName>Goslini</persName>, <persName>Aimini</persName> de
+                            <placeName>Liuurno</placeName>, <persName>Alberti</persName> et
+                            <persName>Gribaldi</persName> de <placeName>Vnglano</placeName>. Damus
+                        predia illorum qui cum armis ecclesiam sancti Eusebii vastaverunt, id est
+                            <persName>Olrici</persName> de <placeName>Bayna</placeName>,
+                            <persName>Roderardi</persName> de <placeName>Sandiliano</placeName>,
+                            <persName>Arderici</persName> de <placeName>Magnanigulo</placeName>,
+                            <rs>servi</rs> sancti Eusebii, <persName>Alberti</persName> et
+                            <persName>Vilielmi</persName> de <placeName>Saluciola</placeName>,
+                            <persName>Astulfi</persName> et fratrum eius de
+                            <placeName>Vualdingo</placeName>, <persName>Vghonis</persName> de
+                            <placeName>Palestre</placeName>, Stephani de Cliuolo, Ademari de
+                        Gambolade, Vgonis de Ciriago, Aldonis de Leuriana, Ysac et fratris eius.
+                        Confirmamus <placeName key="#Forests">Sulciam</placeName> cum silva
+                            <placeName key="#Forests">Salsa</placeName>, <rs>castellum</rs>
+                        <placeName key="#Castle">Uictimuli</placeName>, <rs>mercatum</rs> et
+                        districtum <orgName key="#Dominus_of #Homo_of">plebis <placeName>sancte
+                                Aghate</placeName></orgName> et <rs>curtis</rs> de
+                                <geogName><placeName>Asiliano</placeName></geogName> et in
+                            <placeName>Tronciano</placeName> et in altero
+                            <placeName>Tronziano</placeName> et per totam campaniam et castrum
+                            <placeName key="#Castle">Quirini</placeName>. Damus predia <persName
+                            key="#Subdeacons">Agadi</persName>
+                        <rs>subdiaconi</rs> de sancta Aghata, Goslini, Constancii, Guidonis,
+                        Eurardi, Amizonis fratris Gunterii. Confirmamus sanctam Mariam Moliade que
+                        dicitur Monasteriolum, cum sua pertinentia, cum Bornade et Grignasco et
+                        districtu vallis Scicide et erimannos de Nauola et de Cassaliclo et sciluam
+                        Rouaxindam; damus Gatinariam cum districtu et omnia predia Gisalberti
+                        archidiaconi Vercellensis, et hoc iuste quia, cum esset de familia sancti
+                        Eusebii, inflatus divitiis ecclesie ecclesiam Vercellensem dominam suam
+                        fugit eamque cum Ardoino miserabiliter vastavit; similiter damus predia
+                        suorum generorum, id est Vuilimanni de Causade et Vgonis de Rade et predia
+                        parentum eius servorum fugitivorum, id est Liprandi et Hermanni fratrum et
+                        Giselberti iudicis. Districtum et teloneum in Rade, Gislaringo, Arbori,
+                        Gregi, Albano, Conflencia, Odonicum cum districtu reddimus et ecclesiam
+                        sancti Salvatoris ultra Padum sicut Karulus augustus fecit, confirmamus.
+                        Montem Pedogletum et Brosule et districtum in Palazolo, Gorzano, Liuagi,
+                        Gabiano, Cantauenna, Carderisi, Vliaco, Malione, Azellii, Medule, Herbara
+                        confirmamus. Districtum sancti Euaxii a Pado usque in Sturam, in Fraxaneto,
+                        Paxiliano, Ticinesse, Sarmaza et sancto Georgio et in Ozano ultra tria
+                        miliaria, predia Alberici de Monterone, Milonis de Salerana, Tedisi de
+                        Lauagna, Disonis de Vacaria, Hermanni iudicis Graseuerti de Cirisudo et
+                        fratrum eius, Cerrocaualli, castellum sancti Angeli in Lacu maiore, abbaciam
+                        de Arona confirmamus sicut preceptum Karuli testatur; Cerretum, Vulpara,
+                        Cassanoua, curticellem in Bremide confirmamus, quia propria fuerunt Albani
+                        servi sancti Eusebii de plebe Buiella; cortem Torcelli confirmamus sicut
+                        Liprandus rex donavit; cortem Canauam reddimus sicuti Ludouicus imperator
+                        donavit. Damus autem sancto Eusebio omnia predia Cuniberti archipresbiteri
+                        et hoc iuste et rationabiliter, quia omnia que de bonis ecclesie exierunt,
+                        iudicio ecclesie et seculi ad ecclesiam cuius fuerunt, pertinebunt.
+                        Confirmamus sancto Eusebio abbaciam de Luceio sicuti Karulus augustus et
+                        dive memorie genitor noster fecerunt; confirmamus sancto Michaeli de Loceio
+                        hanc pertinenciam quam Ortum sancti Michaelis vocamus, id est a Monte regis
+                        usque Aquam nigram sicut currit Ampori, et usque Solarium arsum et usque
+                        fossatum Axinarium et sicut est ecclesia sancte Marie a Ponte et Stura
+                        currit subtus Broilum vetus; confirmamus Aleram usque Gardinam et usque
+                        Ronchum sichum et a Terra monacorum sicut Ampori tenet, usque in caput
+                        montis Salacesse et usque in Padum; confirmamus Camassa nigra et totum
+                        Versare usque in Ampori et totum Andolinum intra Duriam et Padum et
+                        Zebadasco; confirmamus sancto Michaeli de Lozaio sicut Lotarius augustus
+                        donavit, quando corpus sancti Ianuarii ibi collocavit, cortem Guadradula cum
+                        districtu herimannorum et teloneo et aquam Padi a portu Cleuasi cum utrisque
+                        rippis usque ad Clerum ubi vetus Duria intrat in Padum et a Clero usque
+                        Mundine et Marnunca, scilvam de Loceio et Ronchum sichum et Conzuningun et
+                        scilvam Palazolascam confirmamus sancto Eusebio sicut ab antiquis semper
+                        pertinuit. Confirmamus Romanianum, Aucimianum sicut Karulus augustus donavit
+                        et confirmavit. Quod ut credatur et conservetur, hoc preceptum manu nostra
+                        firmavimus et amore Leonis episcopi qui nobis fidei testimonio aureus est,
+                        aureo sigillo nostro iussimus insigniri. Signum domni Ottonis gloriosissimi
+                        (M.) Romanorum imperatoris augusti. Heribertus canzellarius vice Petri
+                        Cumani episcopi et archicanzellarii recognovit. Data non. maii anno dominice
+                        incarnationis DCCCCXCVIIII, indictione XII, anno tercii Ottonis regnantis
+                        XV, imperii III; actum Rome; feliciter amen. </ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>MGH DD O III, D.323</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p>Panero 2004</p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>Diploma interpolato. Sono da ritenersi spurie tutte le proposizioni introdottre
+                    da 'damus' in quanto lo scopo del diploma non era la donazione per la quale
+                    invece Leone sollecitò e ottenne altri tre diplomi; sono inverosimili le
+                    confische ai danni di Arduino e dei suoi seguaci; Il vescovo ottenne la conferma
+                    di quelle curtes e terre che, pur essendo donate alla chiesa erano sicuramente
+                    nella disponibilità dei marchesi di Ivrea e dei loro familiari e sostenitori: -
+                    Sostegno - Val Chiusella - corte di Orco - curtis Canava.  </p>
+            </div>
+        </body>
+    </text>
+</TEI>
