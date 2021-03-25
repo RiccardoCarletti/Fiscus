@@ -479,6 +479,8 @@
                     <link type="places" corresp="#http://137.204.128.125/places/136"
                         subtype="hasConnectionWith"/>
                     <link type="people" corresp="#http://137.204.128.125/people/71" subtype="link"/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/103"
+                        subtype="hasConnectionWith"/>
                 </place>
                 <place>
                     <geogName>Tuscia; <foreign>patrimonium</foreign></geogName>
@@ -486,6 +488,9 @@
                     <idno>http://137.204.128.125/estates/103</idno>
                     <note/>
                     <link type="people" corresp="#http://137.204.128.125/people/71" subtype="link"/>
+                    <link type="estates"
+                        corresp="#http://137.204.128.125/estates/102 #http://137.204.128.125/estates/118"
+                        subtype="hasConnectionWith"/>
                 </place>
                 <place>
                     <geogName>Hochburg; <foreign>curtis</foreign></geogName>
@@ -617,11 +622,23 @@
                         subtype="hasConnectionWith"/>
                 </place>
                 <place>
-                    <geogName><foreign>Quartodecimo</foreign>;
-                        <foreign>domusculta</foreign></geogName>
-                    <geogName type="other">domusculta in quartodecimo miliario ab hac Romana urbe
-                        patrimonio Tuscie</geogName>
+                    <geogName>Quartodecimo; <foreign>domusculta</foreign></geogName>
+                    <geogName type="other"><foreign>domusculta in quartodecimo miliario ab hac
+                            Romana urbe patrimonio Tuscie</foreign></geogName>
                     <idno>http://137.204.128.125/estates/118</idno>
+                    <note>Sulla localizzazione di questa <foreign>domusculta</foreign> presso il
+                        quattordicesimo miglio della via Flaminia cfr. De Francesco 2004: 219-223 e
+                        252-253</note>
+                    <link type="places" corresp="#http://137.204.128.125/places/136"
+                        subtype="hasConnectionWith"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/69" subtype="link"/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/103"
+                        subtype="hasConnectionWith"/>
+                </place>
+                <place>
+                    <geogName>Lauretum; <foreign>domusculta</foreign></geogName>
+                    <geogName type="other"/>
+                    <idno>http://137.204.128.125/estates/119</idno>
                     <note/>
                 </place>             
             </listPlace>
