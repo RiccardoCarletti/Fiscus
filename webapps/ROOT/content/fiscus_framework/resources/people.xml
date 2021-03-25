@@ -690,10 +690,12 @@
                     <persName type="other">Atenolfus (944) comes</persName>
                     <idno>http://137.204.128.125/people/114</idno>
                     <note/>
-                    <link type="places" corresp="#http://137.204.128.125/places/110" subtype="hasConnectionWith"/>
+                    <link type="places" subtype="hasConnectionWith"/>
                     <link type="people" corresp="#http://137.204.128.125/people/154" subtype="sonOf"/>
                     <link type="juridical_persons"
-                        corresp="#http://137.204.128.125/juridical_persons/97" subtype="enmityFor"/>
+                        corresp="#http://137.204.128.125/juridical_persons/97" subtype="link"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/156"
+                        subtype="cousinOf"/>
                 </person>
                 <person>
                     <persName>Adelchis (854-878) princeps</persName>
@@ -992,7 +994,7 @@
                     <link type="juridical_persons" corresp="#http://137.204.128.125/juridical_persons/92"/>
                 </person>
                 <person>
-                    <persName>Atenolfus (910/911-941) princeps</persName>
+                    <persName>Atenolfus (910/911-940/941) princeps</persName>
                     <persName type="other">Atenolf II </persName>
                     <idno>http://137.204.128.125/people/154</idno>
                     <note/>
@@ -1000,6 +1002,8 @@
                     <link type="places" corresp="#http://137.204.128.125/places/110" subtype="hasConnectionWith"/>
                     <link type="places" corresp="#http://137.204.128.125/places/173"
                         subtype="hasConnectionWith"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/156"
+                        subtype="uncleOf"/>
                 </person>
                 <person>
                     <persName>Bertilla (860?-915) imperatrix</persName>
@@ -1009,7 +1013,7 @@
                     <link type="people" corresp="#http://137.204.128.125/people/21" subtype="legallyRecognisedUnionWith"/>
                 </person>
                 <person>
-                    <persName>Landolf (939-961) princeps</persName>
+                    <persName>Landolfus (939-961) princeps</persName>
                     <persName type="other">Landolf II of Benevento; Landolf IV of Capua</persName>
                     <idno>http://137.204.128.125/people/156</idno>
                     <note/>
@@ -1018,6 +1022,10 @@
                     <link type="people" corresp="#http://137.204.128.125/people/157"
                         subtype="fatherOf"/>
                     <link type="people" subtype="link" corresp="#http://137.204.128.125/people/159"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/154"
+                        subtype="nephewOf"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/114"
+                        subtype="cousinOf"/>
                 </person>
                 <person>
                     <persName>Pandolf (944-981) princeps</persName>
@@ -1033,7 +1041,7 @@
                     <link type="people" corresp="#http://137.204.128.125/people/159" subtype="link"/>
                 </person>
                 <person>
-                    <persName>Gisulf (720?-751) dux</persName>
+                    <persName>Gisulfus (720?-751) dux</persName>
                     <persName type="other">Gisulf II of Benevento</persName>
                     <idno>http://137.204.128.125/people/158</idno>
                     <note/>
