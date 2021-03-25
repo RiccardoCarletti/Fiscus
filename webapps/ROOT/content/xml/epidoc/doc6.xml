@@ -4,8 +4,8 @@
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
-                <title>Archivio di Stato di Parma, Diplomatico, Atti privati (Drei, Le carte III/2,
-                    n. 677, pp. 510-511)</title>
+                <title>Archivio di Stato di Parma, Diplomatico, Atti privati (Drei, <foreign>Le
+                        carte</foreign> III/2, n. 677, pp. 510-511)</title>
             </titleStmt>
             <editionStmt>
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
@@ -47,7 +47,7 @@
                                 <note type="dating_elements"></note>
                                 <note type="topical_date">Piacenza, in claustro Sancti Sisti</note>
                             </origDate>
-                            <origPlace>Sanctus Sixtus, monasterium (Piacenza)</origPlace>
+                            <origPlace>Sanctus Sixtus; monasterium (Piacenza)</origPlace>
                         </origin>
                         <provenance>
                             <location>
@@ -76,7 +76,7 @@
         <revisionDesc>
             <listChange>
                 <change who="ltabarrini" when="2020-12-21T01:36:43.303-08:00">creation of record</change>
-           <change when="2020-12-21T01:51:02.92-08:00" who="http://137.204.128.125/people/ltabarrini"/>
+           <change when="2020-12-21T01:51:02.92-08:00" who="ltabarrini"/>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -84,8 +84,7 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>
-                        <lb n="1"/>Die iovis, VII kal. agusti, in claustro <orgName
+                    <ab> Die iovis, VII kal. agusti, in claustro <orgName
                             ref="#http://137.204.128.125/juridical_persons/53">Sancti
                             Sisti</orgName>. <persName key="">Ercarius Ferrarius</persName> et
                             <persName key="">Robertus filii</persName> quondam <persName key=""
@@ -96,8 +95,10 @@
                             >Gandulfo</persName>
                         <rs key="#Abbots">abbati</rs> Sancti Sisti de <rs key="#Landed_possessions"
                             >XXV iugeris terre</rs> posite ad <placeName
-                            key="#Curtes #Fiscal_property" ref="#http://137.204.128.125/places/14"
-                                ><geogName ref="#http://137.204.128.125/estates/76"
+                            key="#Curtes #Landed_possessions #Fiscal_property #Textual_occurrence #Object #Purchase"
+                            ref="#http://137.204.128.125/places/14"><geogName
+                                ref="#http://137.204.128.125/estates/76"
+                                key="#Curtes #Fiscal_property #Textual_occurrence #Object #Acquisitions #Purchase"
                                 >Cotreviam</geogName></placeName> que ab eodem monesterio tenebant.
                         Gerardus vero et Obertus Iohannes et Bernardus fecerunt hanc finem quia
                         receperunt <rs key="#Feudum">cambium de feudo</rs> eorum comuni quod tenent
@@ -117,7 +118,7 @@
                 <p>Drei, <foreign>Le carte</foreign> III/2, no. 677, pp. 510-1</p>
             </div>
             <div type="bibliography" subtype="additional">
-                <p>Zaninoni, <foreign>Cotrebbia</foreign></p>
+                <p>Zaninoni 2001</p>
             </div>
             <div type="bibliography" subtype="links">
                 <p/>

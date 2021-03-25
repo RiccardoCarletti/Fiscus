@@ -43,10 +43,11 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate notAfter="1108">
+                            <origDate notAfter="1108" notBefore="1099">
                                 <note type="displayed_date">December 13</note>
-                                <note type="dating_elements">Databile ante 1108 in base ai
-                                    personaggi citati; post morte Ugo (???)</note>
+                                <note type="dating_elements">Databile <foreign>post mortem</foreign>
+                                    Ugo I Aldobrandeschi (q.1099); e <foreign>ante</foreign> 1108
+                                    (morte di Wiliccione).</note>
                                 <note type="topical_date">Suvereto (Livorno)</note>
                             </origDate>
                             <origPlace/>
@@ -83,22 +84,25 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>Breve de Franciano. Breve recordationis de posponsione, quam fecit <persName
-                            ref="#http://137.204.128.125/people/1406">Wiliccione</persName> et uxor
-                        eius, de <rs key="#Landed_possessions">terra</rs> quam dedit <persName
-                            key="#Count"
-                            ref="#http://137.204.128.125/people/78 #http://137.204.128.125/people/1407"
-                            >Ugo</persName> pater eius ad <rs key="#Churches">ecclesia</rs> beati
-                            <orgName ref="#http://137.204.128.125/juridical_persons/78"
+                    <ab>Breve de <placeName ref="#http://137.204.128.125/places/89"
+                            key="#Landed_possessions #Fiscal_property #Object #Redistributive #Allocation_to_churches"
+                            >Franciano</placeName>. Breve recordationis de posponsione, quam fecit
+                            <persName ref="#http://137.204.128.125/people/106">Wiliccione</persName>
+                        et uxor eius, de <rs
+                            key="#Landed_possessions #Fiscal_property #Redistributive #Allocation_to_churches"
+                            >terra</rs> quam dedit <persName key="#Count"
+                            ref="#http://137.204.128.125/people/107">Ugo</persName> pater eius ad
+                            <rs key="#Churches">ecclesia</rs> beati <orgName
+                            ref="#http://137.204.128.125/juridical_persons/78"
                             key="#Churches #Monasteries">Sancti Quirici</orgName>, et est posita in
-                        locis et vocabulis, sicut in cartula quam predicto Ugo <rs key="#Count"
-                            >comes</rs> fecit ad iamdicta aecclesia Sancti Quirici. Ipse Wiliccione
-                        et uxor eius <rs key="#Allocation_to_churches"/> dedit in manibus <rs
-                            key="#Abbots">abbati</rs>, qui preerat in <rs key="#Monasteries"
-                            >monasterio</rs> Sancti Quirici, ut a modo in antea non habeat
-                        potestatem tollendi, neque contendendi, neque molestandi, neque per se neque
-                        per suam emissam personam, et si hoc non observav[er]it, debeat componere
-                        pena, sicut in iamdicta cartula legitur. Hoc factum est in presentia <rs
+                        locis et vocabulis, sicut in <rs key="#Offersio/donatio">cartula</rs> quam
+                        predicto Ugo <rs key="#Count">comes</rs> fecit ad iamdicta aecclesia Sancti
+                        Quirici. Ipse Wiliccione et uxor eius dedit in manibus <rs key="#Abbots"
+                            >abbati</rs>, qui preerat in <rs key="#Monasteries">monasterio</rs>
+                        Sancti Quirici, ut a modo in antea non habeat potestatem tollendi, neque
+                        contendendi, neque molestandi, neque per se neque per suam emissam personam,
+                        et si hoc non observav[er]it, debeat componere pena, sicut in iamdicta
+                        cartula legitur. Hoc factum est in presentia <rs
                             key="#Boni_viri/boni_homines">bonorum hominum</rs>, quorum nomina eorum
                         subter leguntur. <persName>Ugo</persName> filius
                             <persName>Rollandi</persName>, <persName>Petro</persName> filius
@@ -106,8 +110,8 @@
                             <persName>Ioci</persName>, <persName>Ildizo</persName> filius quondam
                             <persName>Ilditi</persName> et alii plures. Hoc factum est idus
                         decembris ad <rs key="#Castle">castello</rs> qui vocitatur <placeName
-                            key="#Castle" ref="#http://137.204.128.125/places/87"
-                            >Suvereto</placeName>. </ab>
+                            key="#Fiscal_property #Residential #Castle #Count"
+                            ref="#http://137.204.128.125/places/87">Suvereto</placeName>. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">

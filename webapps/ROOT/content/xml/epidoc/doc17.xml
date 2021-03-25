@@ -33,7 +33,7 @@
                             <rs type="text_type" ref="https://ausohnum.huma-num.fr/concept/c25667">Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="https://ausohnum.huma-num.fr/concept/c26116">Original document</rs>
                             <rs type="document_tradition" ref="https://ausohnum.huma-num.fr/concept/c26112">Original</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -42,7 +42,7 @@
                     <history>
                         <origin>
                             <origDate when="1131-11-26">
-                                <note type="displayed_date">26 novembre 1131</note>
+                                <note type="displayed_date">1131 November 26</note>
                                 <note type="dating_elements">anno dell'incarnazione 1131; indizione 10</note>
                                 <note type="topical_date">Pratello, comitato di Volterra</note>
                             </origDate>
@@ -74,8 +74,9 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change who="smcollavini" when="2020-12-30T10:00:50.981-08:00">creation of record</change>
-           <change when="2020-12-30T10:44:13.02-08:00" who="http://137.204.128.125/people/smcollavini"/>
+                <change who="scollavini" when="2020-12-30T10:00:50.981-08:00">creation of
+                    record</change>
+           <change when="2021-03-08" who="scollavini">major changes</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -83,13 +84,65 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>(S) In nomine sancte et individue trinitatis, amen. <persName key="">Ramprettus</persName> divino munere Tuscie <rs key="#marquis/duke">preses ac marchio</rs> omnibus quidem notum fieri volumus quomodo concedimus atque damus <orgName key="">ecclesie et monasterio Sancti Pontiani</orgName> fundato prope muros <placeName key="">Lucane civitatis</placeName> unam videlicet petiam de terra culta et inculta in qua casalinum et fontanam habetur et est in loco <placeName key="">Monteflexesi</placeName>, ubi | dicitur <placeName key="">Alberetum</placeName> et vocatur <placeName key="">
-                            <rs key="#fiscal_property #alienations #allocation_to_churches #petiae #casalini/fundamenta #fountains">Mons Calvuli</rs>
-                        </placeName>, sicut in circuitu designata est, que est per mensuram cum iusta pertica mensurata modiora quadraginta, una cum inferioribus et superioribus et cum accessionibus et ingressibus suis, quatenus deinceps in antea sit in potestate ipsius ecclesie et monasterii et illius abbatis atque illorum monachorum qui in ea pro tempore fuerint eam ad partem prefate ecclesie et monasterii habendi tenendi possidendi imperandi laborare faciendi et usufructuandi atque faciendi de ea quicquid voluerint et quod ex ea ad utilitatem predicte ecclesie et monasterii fecerint stabile permaneat semper. Statuimus preterea ut quicumque contra hanc nostram concessionems seu dationem ire vel agere tempaverit vel presumpserit sive aliquam abbatibus seu monachis qui in prefato monasterio aliquo tempore fuerint de ea litem vel molestiam aliquam inferre presmpserit, sciat se compositurum <rs key="#penalty">argenti optimi libras centum</rs> medietatem <rs key="#camera_of_other_public_authorities">nostre camere</rs>, alteram vero medietatem abbati et monachis predicti monasterii et ut hec presidalis auctoritas nostreque concessionis pagina de cetero inlibata permaneat roburque firmissimum semper obtienat venerabili crucis singno propria manu subscripto firmamus et nostri sigilli inpressione iussimus insigniri.
-+ (LS)
-Hec acta sunt infra comitatum Vulterrensem in loco <placeName key="">Pratello</placeName>, prope <orgName key="">ecclesiam Sancti Frigiani</orgName>, presentibus <persName key="">Guidone Maloconsilio</persName> <persName key="">qd. Rolandi</persName>, <persName key="">Fulcerio</persName> <persName key="">qd. Rainerii</persName>, <persName key="">Balbano</persName> <persName key="">qd. Gerardi</persName>, <persName key="">Adaldo</persName> filio <persName key="">Opiti</persName>, | <persName key="">Ludrigo</persName> qd. filio <persName key="">Guidi</persName>, <persName key="">Sighirolo</persName> qd. <persName key="">Morandi</persName>, <persName key="">Guiscardo</persName> filio <persName key="">Rustici</persName>.
-Anno dominice incarnationis millesimo centesimo trigesimo primo, sexto kalendas decembris, indictione decima.
-(S) <persName key="">Ugo notarius domni imperatoris</persName> cui presentia hec omnia acta ex iussione prefati domni Rampretti marchionis hec memorie causa scripsi.</ab>
+                    <ab>(S) In nomine sancte et individue trinitatis, amen. <persName
+                            key="#Marquis’/ducal/princely_diploma #Marquis/duke"
+                            ref="#http://137.204.128.125/people/44">Ramprettus</persName> divino
+                        munere <placeName>Tuscie</placeName>
+                        <rs key="#Marquis/duke">preses ac marchio</rs> omnibus quidem notum fieri
+                        volumus quomodo concedimus atque damus <rs key="#Churches">ecclesie</rs> et
+                            <rs key="#Monasteries">monasterio</rs>
+                        <orgName key="#Churches #Monasteries"
+                            ref="#http://137.204.128.125/juridical_persons/71">Sancti
+                            Pontiani</orgName> fundato prope muros <placeName key=""
+                            ref="#http://137.204.128.125/places/4">Lucane civitatis</placeName> unam
+                        videlicet <rs key="#Petiae">petiam de terra</rs> culta et inculta in qua <rs
+                            key="#Casalini/fundamenta">casalinum</rs> et <rs key="#Fountains"
+                            >fontanam</rs> habetur et est in loco <placeName key=""
+                            >Monteflexesi</placeName>, ubi dicitur <placeName key=""
+                            >Alberetum</placeName> et vocatur <placeName
+                            key="#Casalini/fundamenta #Petiae #Size #Fiscal_property #Object #Redistributive #Allocation_to_churches #Fountains"
+                            >Mons Calvuli</placeName>, sicut in circuitu designata est, que est per
+                        mensuram cum iusta pertica mensurata <rs key="#Size">modiora
+                            quadraginta</rs>, una cum inferioribus et superioribus et cum
+                        accessionibus et ingressibus suis, quatenus deinceps in antea sit in
+                        potestate ipsius ecclesie et monasterii et illius abbatis atque illorum
+                        monachorum qui in ea pro tempore fuerint eam ad partem prefate ecclesie et
+                        monasterii habendi tenendi possidendi imperandi laborare faciendi et
+                        usufructuandi atque faciendi de ea quicquid voluerint et quod ex ea ad
+                        utilitatem predicte ecclesie et monasterii fecerint stabile permaneat
+                        semper. Statuimus preterea ut quicumque contra hanc nostram concessionems
+                        seu dationem ire vel agere temptaverit vel presumpserit sive aliquam
+                        abbatibus seu monachis qui in prefato monasterio aliquo tempore fuerint de
+                        ea litem vel molestiam aliquam inferre presumpserit, sciat se compositurum
+                            <rs key="#Penalty">argenti optimi libras centum</rs> medietatem <rs
+                            key="#Camera_of_other_public_authorities">nostre camere</rs>, alteram
+                        vero medietatem abbati et monachis predicti monasterii et ut hec <rs
+                            key="#Marquis’/ducal/princely_diploma">presidalis auctoritas</rs>
+                        nostreque concessionis pagina de cetero inlibata permaneat roburque
+                        firmissimum semper obtieneat venerabili crucis singno propria manu
+                        subscripto firmamus et nostri sigilli inpressione iussimus insigniri. + (LS)
+                        Hec acta sunt infra <rs key="#Comitatus">comitatum</rs>
+                        <geogName ref="#http://137.204.128.125/estates/107"><placeName
+                                ref="#http://137.204.128.125/places/128"
+                            >Vulterrensem</placeName></geogName> in loco <placeName key=""
+                            >Pratello</placeName>, prope <orgName key="">ecclesiam Sancti
+                            Frigiani</orgName>, presentibus <persName key="">Guidone
+                            Maloconsilio</persName>
+                        <persName key="">qd. Rolandi</persName>, <persName key=""
+                            >Fulcerio</persName>
+                        <persName key="">qd. Rainerii</persName>, <persName key=""
+                            >Balbano</persName>
+                        <persName key="">qd. Gerardi</persName>, <persName key="">Adaldo</persName>
+                        filio <persName key="">Opiti</persName>, | <persName key=""
+                            >Ludrigo</persName> qd. filio <persName key="">Guidi</persName>,
+                            <persName key="">Sighirolo</persName> qd. <persName key=""
+                            >Morandi</persName>, <persName key="">Guiscardo</persName> filio
+                            <persName key="">Rustici</persName>. Anno dominice incarnationis
+                        millesimo centesimo trigesimo primo, sexto kalendas decembris, indictione
+                        decima. (S) <persName key="#Notary">Ugo</persName>
+                        <rs key="#Notary">notarius</rs> domni imperatoris cui presentia hec omnia
+                        acta ex iussione prefati domni Rampretti marchionis hec memorie causa
+                        scripsi.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">

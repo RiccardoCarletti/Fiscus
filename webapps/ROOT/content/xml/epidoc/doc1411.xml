@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc1411">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Archivio di Stato di Firenze, Diplomatico, Riformagioni. Atti Pubblici, 1029
+                    gennaio 3, n. 11 (Giorgetti, n. 16)</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus
+                        Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="uri">http://137.204.128.125/documents/doc1411</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">-Placitum/iudicatum</rs>
+                            <rs type="record_source" ref="#">Original document</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">Yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1076-03-15">
+                                <note type="displayed_date">1076 March 15</note>
+                                <note type="dating_elements">. La carta è datata secondo lo stile
+                                    pisano dell'incarnazione. Giorgetti la data al 1077.</note>
+                                <note type="topical_date">Pisa (Palazzo del re)</note>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-03-16" who="scollavini">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>Notitia de terra de Piscina Lifredi et da Sancto Fridiano et de Pratale. In
+                        Christi nomine. Breve pro futuris et modernis temporibus securitatem ac
+                        firmitatem ad memoriam habendam vel retinendam, qualiter infra civitate
+                            <placeName ref="#http://137.204.128.125/places/66"
+                            key="#Fiscal_property #Mention #Residential #Palatium #Emperor/king"
+                            >Pisa</placeName>, in <rs key="#Palatium #Emperor/king">palatio domni
+                            regis</rs>, in placido residisse domina <persName key="#Marquis/duke"
+                            >Beatrix</persName>
+                        <rs key="#Marquis/duke">ducatrix et marchionissa</rs> hac causas audienda
+                        hac deliberanda, residentibus cum ea, <persName key="#Judge"
+                            >Uberto</persName>, <persName key="#Judge">Winitho</persName>, <persName
+                            key="#Judge">Enrigo</persName>, <persName key="#Judge">Ugo</persName>,
+                            <persName key="#Judge">Signorecto</persName>, <persName key="#Judge"
+                            >Lamberto</persName>, <persName key="#Judge">Ildebrando</persName> et
+                        alio <persName key="#Judge">Ugo</persName>
+                        <rs key="#Judge">iudicibus</rs>, <persName>Ugo</persName>,
+                            <persName>Sesmundo</persName>, <persName>Winizo</persName>,
+                            <persName>Bernardo</persName> causidicis, <persName key="#Notary"
+                            >Wido</persName>, <persName key="#Notary">Currado</persName>
+                        <rs key="#Notary">notariis</rs>, <persName>Sicheri</persName> quondam
+                            <persName>Matti</persName>, <persName>Lamberto</persName> quondam
+                            <persName>Speciosi</persName>, <persName>Rodilando</persName> quondam
+                            <persName>Rollandi</persName>, <persName>Gontulino</persName> quondam
+                            <persName>Pandolfi</persName>, <persName>Rodolfino</persName> quondam
+                            <persName>Rollandi</persName>, <persName>Erizo</persName> filio
+                            <persName>Enrigi</persName>, <persName>Iohanni</persName> quondam
+                            <persName>Widi</persName>, <persName>Baroncello</persName> quondam
+                            <persName>Hermigarde</persName>, <persName>Glandolfo</persName> quondam
+                            <persName>Carli</persName>, <persName>Alcheri</persName> quondam
+                            <persName>Ildibrandi</persName>, <persName>Leo</persName> quondam
+                            <persName>Rustici</persName>, et reliquis pluribus. Ibique eorum
+                        presentiis venientes <persName>Bonitho</persName> prior de <rs
+                            key="#Monasteries">monasterio</rs>
+                        <orgName ref="#http://137.204.128.125/juridical_persons/78"
+                            key="#Monasteries">Domini et Sancti Quirici et Sancti Salvatori et
+                            Sancte Marie et Sancti Benedicti</orgName> de <placeName
+                            ref="#http://137.204.128.125/places/86">Populonio</placeName>
+                        proclamavit una cum <persName key="#Advocatus">Ugo</persName>
+                        <rs key="#Advocatus">avocato</rs> suprascripti monasterii quod
+                            <persName>Peregrino</persName> de <placeName
+                            ref="#http://137.204.128.125/places/132">Vignale</placeName> filius bone
+                        menorie *** contendit suprascripto monasterii tres <rs key="#Petiae"
+                            >petiis</rs> de terris, quibus sunt positi in loco et finibus <placeName
+                            ref="#http://137.204.128.125/places/91">Cornino</placeName>, una ubi
+                        dicitur <placeName ref="#http://137.204.128.125/places/130" key="#Petiae"
+                            >Piscina Lifredi</placeName>, secunda ubi dicitur <placeName
+                            ref="#http://137.204.128.125/places/131" key="#Petiae">Sancto
+                            Fridiano</placeName>, tertia ubi dicitur <placeName
+                            ref="#http://137.204.128.125/places/131" key="#Petiae"
+                            >Pratale</placeName>, de quibus suprascripto prior una cum <persName
+                            key="#Abbots" ref="#http://137.204.128.125/people/108">Cunizo</persName>
+                        <rs key="#Abbots">abbate</rs> suo et de suprascripto monasterio, <rs
+                            key="#Judicial_breve">proclamaverunt</rs> domine <persName
+                            ref="#http://137.204.128.125/people/125">Mattilde</persName>. Cum
+                        suprascripta domina Beatrix proclamationem audisse, per fustes quas in suis
+                        detinebat manibus, investivit cum consilio iudicum suprascripto priore una
+                        cum suprascripto avocato suo, pro suprascripto monasterio de suprascriptis
+                        tres petiis de terris et insuper misit <rs key="#Emperor/king #Marquis/duke"
+                            >bannum</rs> domni regis super predicto priore et super iam dicto
+                        avocato suo et super predicto monasterio in bisantios aureos duomilia, ut
+                        nullus quilibet homo, magna parvaque persona, eodem monasterio de predictis
+                        rebus sine legale iudicio disvestire presumat. Qui vero fecerit, predicti
+                        duomilia bisanteos aureos composituro se agnoscat, medietatem <rs
+                            key="#Emperor/king #Camera_regis">regali camere</rs> et alia
+                        medie|[tatem] suprascripti monasterii eiusque rectoribus. Hoc factum est
+                        anno dominice incarnationis millesimo septuagesimo VI, idibus martii,
+                        indictione quarta Xa. Quidem et ego <persName key="#Notary"
+                            >Erimundus</persName>
+                        <rs key="#Notary">notarius</rs> domni inperatoris ex iussione suprascripte
+                        domine Beatrix seo iudicum ammonitjone scripsi. <persName key="#Judge"
+                            >Winitho</persName> regis <rs key="#Judge">iudex</rs> interfui et
+                        subscripsi. <persName key="#Judge">Henricus</persName>
+                        <rs key="#Judge">iudex</rs> sacri palatii interfui et subscripsi. <persName
+                            key="#Judge">Lambertus</persName>
+                        <rs key="#Judge">iudex</rs> sacri palatii interfui et subscripsi. <persName
+                            key="#Judge">Ugo</persName>
+                        <rs key="#Judge">iudex</rs> sacri palatii interfui et subscripsi. <persName
+                            key="#Judge">Teodericus</persName>
+                        <rs key="#Judge">iudex</rs> sacri palatii interfui et subscripsi.
+                            <persName>Ugo</persName> causidicus ibi fui et subscripsi. </ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>Della Rena, Camici 1798, p. 76, n. XVIII Giorgetti, n. 16; Manaresi, , III/1, n.
+                    436; </p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p>Cfr. MGH, D Math, Dep. 20, p. 404</p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

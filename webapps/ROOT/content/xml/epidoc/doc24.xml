@@ -87,7 +87,7 @@
         <revisionDesc>
             <listChange>
                 <change who="emanarini" when="2021-01-14T08:03:31.091-08:00">creation of record</change>
-           <change when="2021-01-14T08:52:05.288-08:00" who="http://137.204.128.125/people/emanarini"/>
+           <change when="2021-01-14T08:52:05.288-08:00" who="emanarini"/>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -105,15 +105,16 @@
                         sunt, nostro munimine confirmamus, regiam, inquit, exercimus consuetudinem,
                         atque hoc nobis ad eternam beatitudinem in Dei nomine pertinere confidimus.
                         Unde compertum sit omnium vestrorum magnitudini, qualiter venerabilis vir
-                            <persName key="#abbots" ref="#http://137.204.128.125/people/49"
-                            >Anselmus</persName>
+                            <persName key="#Imperial/royal_diploma #Curtes #Tolls #Monasteries"
+                            ref="#http://137.204.128.125/people/49">Anselmus</persName>
                         <rs key="#Abbots">abbas</rs> de <rs key="#Monasteries">monasterio</rs>
                         noncupante <orgName key="#monasteries"
                             ref="#http://137.204.128.125/juridical_persons/47">
-                            <placeName ref="#http://137.204.128.125/places/15">Nonantola</placeName>
+                            <placeName ref="#http://137.204.128.125/places/15" key="#Monasteries"
+                                >Nonantola</placeName>
                         </orgName>, quod est constructum in onore omnium apostolorum et beati
-                        Silvestri confessoris, situm in <rs key="#Fines">terraturio</rs>
-                        <placeName key="#fines" ref="#http://137.204.128.125/places/38"
+                        Silvestri confessoris, situm in <rs key="#City_territory">terraturio</rs>
+                        <placeName key="#City_territory" ref="#http://137.204.128.125/places/38"
                             >Motinense</placeName>, clementiae regni nostri petiit, eo quod
                             <persName key="#emperor/king" ref="#http://137.204.128.125/people/48"
                             >Haixtulfus</persName> vel ceteri quondam reges ac reliqui Deo timentes
@@ -129,25 +130,26 @@
                                 ref="#http://137.204.128.125/places/40" key="#tolls">Cive
                                 Nova</placeName></geogName>, que annue collegitur, etiam hoc, quod
                         per bonum hominum largietate ibidem iuste conlatum fuit aut in antea
-                        delegatum fuerit, per nostrum preceptum, sicut in eorum anteriora decleratur
-                        precepta, que anteriores reges ibidem delegaverunt, confirmare deberemus.
-                        Cuis petitioni denegare noluimus, sed ita prestitisse atque in omnibus
-                        confirmasse cognuscite. Precipientes enim iubemus, ut, sicut, in anteriorum
-                        regum declaratur precepta, omnes res, que ad illo monasterio, ut superius
-                        intimata legitur, pertinentur, etiam terris, waldora, silvis, saltora,
-                        confinibus atque piscariis seu de portatico illo de Cive Nova, quod annoe
-                        collegitur, vel quicquid nos seu, ut diximus, anteriores reges vel ceteri
-                        homines ibidem delegavimus, cum omnia, quicquid dici vel nominari potest, in
-                        quibuslibet locis hoc quieto ordine teneant atque possedeant, vel quicquid
-                        exinde agere pro oportunitate ipsius monastirii voluerint, liberum in
-                        omnibus perfruantur arbitrium, quatenus melius eis delectet pro nobis etiam
-                        fidelibus nostri Domini misericordia adtentius exorare. Et ut certius
-                        credatis, de anulo nostro subter sigellavimus <persName key="#notary"
-                            >Giltbertus</persName> advicem <persName key="#chancellor"
-                            >Radoni</persName> recognovi et s. <date>Data V Kalendas Augustas anno
-                            XII et septimo regni nostri</date>; actum <placeName key="#Palatium"
-                            >Lippia Gyspringae</placeName> in <placeName>Saxonia</placeName>, in Dei
-                        nominine feliciter. Amen semper.</ab>
+                        delegatum fuerit, per nostrum <rs key="#Imperial/royal_diploma"
+                            >preceptum</rs>, sicut in eorum anteriora decleratur precepta, que
+                        anteriores reges ibidem delegaverunt, confirmare deberemus. Cuis petitioni
+                        denegare noluimus, sed ita prestitisse atque in omnibus confirmasse
+                        cognuscite. Precipientes enim iubemus, ut, sicut, in anteriorum regum
+                        declaratur precepta, omnes res, que ad illo monasterio, ut superius intimata
+                        legitur, pertinentur, etiam terris, waldora, silvis, saltora, confinibus
+                        atque piscariis seu de portatico illo de Cive Nova, quod annoe collegitur,
+                        vel quicquid nos seu, ut diximus, anteriores reges vel ceteri homines ibidem
+                        delegavimus, cum omnia, quicquid dici vel nominari potest, in quibuslibet
+                        locis hoc quieto ordine teneant atque possedeant, vel quicquid exinde agere
+                        pro oportunitate ipsius monastirii voluerint, liberum in omnibus perfruantur
+                        arbitrium, quatenus melius eis delectet pro nobis etiam fidelibus nostri
+                        Domini misericordia adtentius exorare. Et ut certius credatis, de anulo
+                        nostro subter sigellavimus <persName key="#notary">Giltbertus</persName>
+                        advicem <persName key="#chancellor">Radoni</persName> recognovi et s.
+                            <date>Data V Kalendas Augustas anno XII et septimo regni nostri</date>;
+                        actum <placeName key="#Palatium">Lippia Gyspringae</placeName> in
+                            <placeName>Saxonia</placeName>, in Dei nominine feliciter. Amen
+                        semper.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">

@@ -105,14 +105,14 @@
         <xsl:otherwise><xsl:text>~</xsl:text></xsl:otherwise>
       </xsl:choose>
       <xsl:text>#</xsl:text>
-      <xsl:variable select="translate(ancestor::tei:placeName/@ref ,'#','')" name="ancestor_place"/>
-      <xsl:variable select="translate(ancestor::tei:persName/@ref ,'#','')" name="ancestor_person"/>
-      <xsl:variable select="translate(ancestor::tei:orgName/@ref ,'#','')" name="ancestor_org"/>
-      <xsl:variable select="translate(ancestor::tei:geogName/@ref ,'#','')" name="ancestor_geog"/>
-      <xsl:variable select="translate(descendant::tei:placeName/@ref,'#','')" name="descendant_place"/>
-      <xsl:variable select="translate(descendant::tei:persName/@ref,'#','')" name="descendant_person"/>
-      <xsl:variable select="translate(descendant::tei:orgName/@ref,'#','')" name="descendant_org"/>
-      <xsl:variable select="translate(descendant::tei:geogName/@ref,'#','')" name="descendant_geog"/>
+      <xsl:variable name="ancestor_place"><xsl:for-each select="ancestor::tei:placeName/@ref "><xsl:value-of select="translate(.,'#','')"/></xsl:for-each></xsl:variable>
+      <xsl:variable name="ancestor_person"><xsl:for-each select="ancestor::tei:persName/@ref "><xsl:value-of select="translate(.,'#','')"/></xsl:for-each></xsl:variable>
+      <xsl:variable name="ancestor_org"><xsl:for-each select="ancestor::tei:orgName/@ref "><xsl:value-of select="translate(.,'#','')"/></xsl:for-each></xsl:variable>
+      <xsl:variable name="ancestor_geog"><xsl:for-each select="ancestor::tei:geogName/@ref "><xsl:value-of select="translate(.,'#','')"/></xsl:for-each></xsl:variable>
+      <xsl:variable name="descendant_place"><xsl:for-each select="ancestor::tei:placeName/@ref "><xsl:value-of select="translate(.,'#','')"/></xsl:for-each></xsl:variable>
+      <xsl:variable name="descendant_person"><xsl:for-each select="ancestor::tei:persName/@ref "><xsl:value-of select="translate(.,'#','')"/></xsl:for-each></xsl:variable>
+      <xsl:variable name="descendant_org"><xsl:for-each select="ancestor::tei:orgName/@ref "><xsl:value-of select="translate(.,'#','')"/></xsl:for-each></xsl:variable>
+      <xsl:variable name="descendant_geog"><xsl:for-each select="ancestor::tei:geogName/@ref "><xsl:value-of select="translate(.,'#','')"/></xsl:for-each></xsl:variable>
       <xsl:variable name="place_ancestor" select="document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/fiscus_framework/resources/places.xml'))//tei:listPlace/tei:place[tei:idno=$ancestor_place]/tei:placeName[1]"/>
       <xsl:variable name="estate_ancestor" select="document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/fiscus_framework/resources/estates.xml'))//tei:listPlace/tei:place[tei:idno=$ancestor_geog]/tei:geogName[1]"/>
       <xsl:variable name="person_ancestor" select="document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/fiscus_framework/resources/people.xml'))//tei:listPerson/tei:person[tei:idno=$ancestor_person]/tei:persName[1]"/>

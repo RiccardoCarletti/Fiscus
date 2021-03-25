@@ -87,9 +87,9 @@
         <revisionDesc>
             <listChange>
                 <change who="ltabarrini" when="2020-12-28T07:33:03.283-08:00">creation of record</change>
-           <change when="2020-12-29T02:18:34.522-08:00" who="http://137.204.128.125/people/ltabarrini"/>
-           <change when="2020-12-29T02:30:41.33-08:00" who="http://137.204.128.125/people/ptomei"/>
-           <change when="2020-12-29T05:25:25.941-08:00" who="http://137.204.128.125/people/ltabarrini"/>
+           <change when="2020-12-29T02:18:34.522-08:00" who="ltabarrini"/>
+           <change when="2020-12-29T02:30:41.33-08:00" who="ptomei"/>
+           <change when="2020-12-29T05:25:25.941-08:00" who="ltabarrini"/>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -115,18 +115,27 @@
                             ref="#http://137.204.128.125/people/67">Berta</persName> a <orgName
                             ref="#http://137.204.128.125/juridical_persons/53">S. Sisto</orgName>
                         <geogName ref="#http://137.204.128.125/estates/40"
-                            key="#Curtes #Fiscal_property">quasdam <rs
-                                key="#Curtes #Fiscal_property">curtes</rs>
-                            <placeName key="#Curtes" ref="http://137.204.128.125/places/33"
-                                >Vuardestallam</placeName>
-                        </geogName> scilicet, <geogName key=""
-                            ref="#http://137.204.128.125/estates/77">
-                            <placeName key="#Curtes #Fiscal_property"
+                            key="#Curtes #Fiscal_property #Textual_occurrence #Object #Alienations #Allocation_to_churches"
+                            >quasdam <rs
+                                key="#Curtes #Fiscal_property #Textual_occurrence #Object #Alienations #Allocation_to_churches"
+                                >curtes</rs>
+                            <placeName
+                                key="#Curtes #Fiscal_property #Textual_occurrence #Object #Alienations #Allocation_to_churches"
+                                ref="http://137.204.128.125/places/33">Vuardestallam</placeName>
+                        </geogName> scilicet, <geogName
+                            key="#Fiscal_property #Textual_occurrence #Object #Alienations #Allocation_to_churches"
+                            ref="#http://137.204.128.125/estates/38">
+                            <placeName
+                                key="#Curtes #Fiscal_property #Textual_occurrence #Object #Allocation_to_churches"
                                 ref="http://137.204.128.125/places/32">Luzariam</placeName>
-                        </geogName>, <geogName key="#Curtes #Fiscal_property"
+                        </geogName>, <geogName
+                            key="#Curtes #Fiscal_property #Textual_occurrence #Object #Alienations #Allocation_to_churches"
                             ref="#http://137.204.128.125/estates/77">Litora Paludiana</geogName>,
-                            <geogName ref="#http://137.204.128.125/estates/80">Villolę</geogName>,
-                            <geogName key="" ref="#http://137.204.128.125/estates/42">
+                            <geogName ref="#http://137.204.128.125/estates/80"
+                            key="#Curtes #Fiscal_property #Textual_occurrence #Object #Alienations #Allocation_to_churches"
+                            >Villolę</geogName>, <geogName
+                            key="#Curtes #Fiscal_property #Textual_occurrence #Object #Alienations #Allocation_to_churches"
+                            ref="#http://137.204.128.125/estates/42">
                             <placeName key="#Curtes #Fiscal_property"
                                 ref="http://137.204.128.125/places/34">Piguniarius</placeName>
                         </geogName>, e tutte le cose che la predetta imperatrice trasferì al
@@ -138,11 +147,13 @@
                         imperatori, atque <rs key="#Curtes #Fiscal_property">cellulam</rs> quandam
                         que antiquitus monasterium dicebatur non procul a <placeName
                             ref="#http://137.204.128.125/places/43">Placentina urbe</placeName>
-                        sitam, loco qui <geogName key="#Fiscal_Property #Curtes #Iure_proprietatis/pleno_iure"
+                        sitam, loco qui <geogName
+                            key="#Curtes #Fiscal_property #Textual_occurrence #Object #Iure_proprietatis/pleno_iure #Allocation_to_churches"
                             ref="#http://137.204.128.125/estates/76"><placeName
-                                ref="#http://137.204.128.125/places/14">Caput
-                            Trebiae</placeName></geogName> vocatur, che era stata data da <persName
-                            ref="#http://137.204.128.125/people/80" key="#Emperor/king"
+                                ref="#http://137.204.128.125/places/14"
+                                key="#Curtes #Fiscal_property #Textual_occurrence #Object #Alienations #Iure_proprietatis/pleno_iure #Allocation_to_churches"
+                                >Caput Trebiae</placeName></geogName> vocatur, che era stata data da
+                            <persName ref="#http://137.204.128.125/people/80" key="#Emperor/king"
                             >Carlomanno</persName> al monastero <rs
                             key="#Iure_proprietatis/pleno_iure">proprietario iure</rs>. <rs
                             key="#Personal_statuses">Familias quoque utriusque sexus et

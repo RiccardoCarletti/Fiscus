@@ -14,7 +14,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
-                <idno type="uri">http://137.204.128.125/documents/doc1</idno>
+                <idno type="uri">http://137.204.128.125/documents/doc2000</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -43,7 +43,7 @@
                     <history>
                         <origin>
                             <origDate when="0885-05">
-                                <note type="displayed_date">855 May</note>
+                                <note type="displayed_date">885 May</note>
                                 <note type="dating_elements"/>
                                 <note type="topical_date">Benevento</note>
                             </origDate>
@@ -82,34 +82,51 @@
             <div type="edition">
                 <div type="textpart">
                     <ab>+ In nomine Domini Dei Salvatoris Iesu Christi. Concessimus nos vir
-                        gloriosissimus <persName key="#Princex">Aio</persName> Dei previdentia
-                        Langobardorum gentis <rs key="#Princex">princeps</rs>, per rogum
-                            <persName>Ladelchis</persName> dilecti germani nostri, tibi <persName
-                            key="#Prevosts">Criscio</persName> medico nostro atque <rs
+                        gloriosissimus <persName key="#Princeps"
+                            ref="#http://137.204.128.125/people/111">Aio</persName> Dei previdentia
+                        Langobardorum gentis <rs key="#Princeps">princeps</rs>, per <rs
+                            key="#Intercessory">rogum</rs>
+                        <persName ref="#http://137.204.128.125/people/112" key="#Intercessory"
+                            >Ladelchis</persName> dilecti germani nostri, tibi <persName
+                            key="#Other_palatine_officer #Prevosts"
+                            ref="#http://137.204.128.125/people/113">Criscio</persName>
+                        <rs key="#Other_palatine_officer">medico</rs> nostro atque <rs
                             key="#Prevosts">preposito</rs> ad parte <rs key="#Monasteries"
                             >monasterii</rs>
-                        <orgName key="#Monasteries">Sancii Benedicati</orgName> quod situm est
-                            <placeName key="#Monasteries">Monte Casino</placeName>, h[ob] anime
-                        nostre salute, hec est omnibus rebus omnibusque pertinentiis quibus fuit
-                            <persName>Potoni</persName> filii <persName>Potitionis</persName> infra
-                        finibus <placeName>Alifanis</placeName> et <placeName>Telesinis</placeName>,
-                        pro quo ipse Poto in anima domini <persName key="#Princex"
+                        <orgName key="#Fiscal_property #Monasteries"
+                            ref="#http://137.204.128.125/juridical_persons/84">Sancii
+                            Benedicati</orgName> quod situm est <placeName key="#Monasteries"
+                            ref="#http://137.204.128.125/places/109">Monte Casino</placeName>, h[ob]
+                        anime nostre salute, hec est <rs key="#Landed_possessions #Fiscal_property"
+                            >omnibus rebus omnibusque pertinentiis quibus fuit <persName
+                                ref="#http://137.204.128.125/people/116"
+                                key="#Landed_possessions #Fiscal_property">Potoni</persName> filii
+                                <persName>Potitionis</persName> infra <rs key="#Fines">finibus</rs>
+                            <placeName ref="#http://137.204.128.125/places/112" key="#Fines"
+                                >Alifanis</placeName> et <placeName
+                                ref="#http://137.204.128.125/places/111" key="#Fines"
+                                >Telesinis</placeName></rs>, pro quo ipse Poto in anima domini
+                            <persName key="#Princeps" ref="#http://137.204.128.125/people/115"
                             >Adelchis</persName> principis dilectissimi genitori nostro consiliatus
                         fuit eumque interfecit, et legibus omnibus eius rebus et facultatibus nostre
                         hevenit potestati, in ea videlicet ratione ut amodo et deinceps per hoc
-                        nostrum roboreum preceptum siperius dictis omnibus rebus hac pertinentiis
-                        eodem Sancti Benedicti cenobio eiusque rectores habere et possidere valeas,
-                        et a nullo ex nostris iudicibus, id est comitibus, gastaldeis vel a
-                        quibuscumque agentibus prephato monasterio habeas aliquam requisitionem, sed
-                        perpetuis temporibus possideas. Quod vero preceptum concessionis ex iussione
-                        supra§criptac potestatis scripsi ego locus sigilli <persName key="#Notary"
+                        nostrum roboreum <rs key="#Marquis’/ducal/princely_diploma">preceptum</rs>
+                        siperius dictis omnibus rebus hac pertinentiis eodem Sancti Benedicti
+                        cenobio eiusque rectores habere et possidere valeas, et a nullo ex nostris
+                        iudicibus, id est comitibus, gastaldeis vel a quibuscumque agentibus
+                        prephato monasterio habeas aliquam requisitionem, sed perpetuis temporibus
+                        possideas. Quod vero preceptum concessionis ex iussione suprascriptac
+                        potestatis scripsi ego locus sigilli <persName key="#Notary"
                             >Petrus</persName>
-                        <rs key="#Notary">notarius</rs>. Actumd <placeName>Beneventi</placeName>
-                        primo anno, mense Maio, tertia indictione. Feliciter.</ab>
+                        <rs key="#Notary">notarius</rs>. Actumd <placeName key="#Cities"
+                            ref="#http://137.204.128.125/places/110"><rs key="#Cities"
+                                >Beneventi</rs>
+                        </placeName><date>primo anno, mense Maio, tertia indictione</date>.
+                        Feliciter.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p>Cuozzo-Martin 1991</p>
+                <p>Gattola 1734: 41; Cuozzo-Martin 1991: 173-174; Voigt 1902: n. 80</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>

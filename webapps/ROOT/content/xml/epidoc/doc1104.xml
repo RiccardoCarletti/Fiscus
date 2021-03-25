@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc1104">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Archivio di Stato di Verona, Orfanotrofio femminile, dipl. n° 5</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus
+                        Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="uri">http://137.204.128.125/documents/doc1104</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">Yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0889-09-10">
+                                <note type="displayed_date">889 september 10</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Verona</note>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-02-08" who="Chiara Stedile">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine domini nostri Iesu Christi Dei aeterni. <persName
+                            key="#Emperor/king" ref="#http://137.204.128.125/people/21"
+                            >Berengarius</persName>
+                        <rs key="#Emperor/king">rex</rs>. Noverit omnium fidelium sanctae Dei
+                        Ecclesiae nostrorumque presentium scilicet ac futurorum industria, <persName
+                            key="#Count #Consiliarius_regis">Vualtfredum</persName> illustrem <rs
+                            key="#Count">comitem</rs>
+                        <rs key="#Consiliarius_regis">summumque consiliarium</rs> nostrum nostram
+                        adiisse munificentiam exorantem, quatenus <persName key="#Fidelis_of"
+                            >Attoni</persName>
+                        <rs key="#Fidelis_of">fideli nostro</rs>
+                        <rs
+                            key="#Landed_possessions #Fiscal_property #Textual_occurrence #Object #Alienations #Iure_proprietatis/pleno_iure #Allocation_to_individuals"
+                            >ortum</rs> in civitate <placeName
+                            ref="#http://137.204.128.125/places/59">Verona</placeName> situm cum <rs
+                            key="#Storage_units #Fiscal_property #Textual_occurrence #Object #Alienations #Iure_proprietatis/pleno_iure #Allocation_to_individuals"
+                            >horreo</rs> antiquo <rs
+                            key="#Fiscal_property #Textual_occurrence #Object #Alienations #Iure_proprietatis/pleno_iure #Allocation_to_individuals #Walls"
+                            >murisque precingentibus</rs> concederemus. Cuius supplicationi nos
+                        merito assensum prebere ducentes, prefato Attoni fideli nostro eundem
+                        hortum, cui ex una parte <orgName key="#Churches"
+                            ref="#http://137.204.128.125/juridical_persons/93">Sancti Petri
+                            Celaurio</orgName> et Sancti Petri cuius domus ibidem est constituta et
+                            <orgName key="#Churches"
+                            ref="#http://137.204.128.125/juridical_persons/90">Sancti
+                            Zenonis</orgName> iura coherent, ex alia parte <persName key="#Priests"
+                            >Bundone</persName>
+                        <rs key="#Priests">presbitero</rs> habitante et ex ceteris partibus <rs
+                            key="#Roads">publica via currente</rs>, prout ipse Vualtfredus dilectus
+                        fidelis noster expetiit, in integrum per huius precepti nostri documentum ad
+                        habendum et quicquid voluerit faciendum <rs
+                            key="#Fiscal_property #Alienations #Iure_proprietatis/pleno_iure"
+                            >proprietatis iure</rs> tam sibi quam heredibus suis concedimus et
+                        firmamus. Contra quod nostri documenti precepti si quis insurgere temptavert
+                        ipsumque infringere, ne temptatum possit explere, <rs key="#Penalty">viginti
+                            libras auri obrizi</rs>, medietatem camere nostrae et medietatem cui ex
+                        hoc molestia illata fuerit, sciat se compositurum. Et ut hoc verius ab
+                        omnibus credatur et diligentius observetur, anuli nostri impressionem subter
+                        iussimus fieri. Signum (MF) domni Berengarii gloriosissimi regis. <persName
+                            key="#Notary">Restaldus</persName>
+                        <rs key="#Notary">notarius</rs> iussione regia ad vicem <persName
+                            key="#Archchancellor #Bishops" ref="#http://137.204.128.125/people/123"
+                            >Adelardi</persName> episcopi et archicancellarii recognovi et
+                        subscripsi. (SR) (SI n. I). data IIII id. septemb., anno incarnationis
+                        Domini DCCCLXXXVIIII, anno vero regni domni Berengarii gloriosissimi regis
+                        II, indictione VIII. Actum Verona. In Dei nomine feliciter, amen.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>Schiaparelli, <foreign>I diplomi di Berengario I</foreign>, pp. 29-31, n° VI</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p>La Rocca Hudson 1986</p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p>http://cdavr.dtesis.univr.it/iipzoom/image.php?collect=OF%20Diplomi&amp;imgname=ASVr_OF_Diplomi_5r.tif
+                    http://cdavr.dtesis.univr.it/iipzoom/image.php?collect=OF%20Diplomi&amp;imgname=ASVr_OF_Diplomi_5v.tif
+                    http://cdavr.dtesis.univr.it/iipzoom/image.php?collect=OF%20Diplomi&amp;imgname=ASVr_OF_Diplomi_5r_sigillo_2.tif</p>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

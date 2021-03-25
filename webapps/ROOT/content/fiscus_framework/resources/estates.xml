@@ -191,9 +191,11 @@
                 <place>
                     <geogName><foreign>Litora Paludiana</foreign>; <foreign>curtis</foreign></geogName>
                     <idno>http://137.204.128.125/estates/77</idno>
-                    <note/>
+                    <note>Cajo 2012-2013; Cavalazzi 2015</note>
                     <link type="juridical_persons"
                         corresp="#http://137.204.128.125/juridical_persons/53"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/55" subtype="link"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/21" subtype="link"/>
                 </place>
                 <place>
                     <geogName>Lucca; <foreign>curtis</foreign></geogName>
@@ -283,7 +285,7 @@
                 </place>
                 <place>
                     <geogName>Populonia; <foreign>comitatus</foreign></geogName>
-                    <geogName type="other">territorium</geogName>
+                    <geogName type="other"><foreign>territorium</foreign></geogName>
                     <idno>http://137.204.128.125/estates/87</idno>
                     <note/>
                     <link type="places" corresp="#http://137.204.128.125/places/86"
@@ -302,7 +304,7 @@
                 </place>
                 <place>
                     <geogName>Trecade; <foreign>curtis</foreign></geogName>
-                    <geogName type="other">Trecate (Novara)</geogName>
+                    <geogName type="other"/>
                     <idno>http://137.204.128.125/estates/89</idno>
                     <note/>
                     <link type="juridical_persons"
@@ -341,14 +343,17 @@
                     <geogName type="other"/>
                     <idno>http://137.204.128.125/estates/92</idno>
                     <note/>
-                    <link type="people" corresp="#http://137.204.128.125/people/92"/>
-                    <link type="people" corresp="#http://137.204.128.125/people/93"/>
-                    <link type="people" corresp="#http://137.204.128.125/people/74"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/92" subtype="link"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/93" subtype="link"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/74" subtype="link"/>
                     <link type="places"
-                        corresp="#http://137.204.128.125/places/55 #http://137.204.128.125/places/90 #http://137.204.128.125/places/54 #http://137.204.128.125/places/93 #http://137.204.128.125/places/92"/>
+                        corresp="#http://137.204.128.125/places/55 #http://137.204.128.125/places/90 #http://137.204.128.125/places/54 #http://137.204.128.125/places/93 #http://137.204.128.125/places/92"
+                        subtype="hasConnectionWith"/>
                     <link type="estates"
-                        corresp="#http://137.204.128.125/estates/75 #http://137.204.128.125/estates/93 #http://137.204.128.125/estates/95 #http://137.204.128.125/estates/94"/>
-                    <link type="places" corresp="#http://137.204.128.125/places/56"/>
+                        corresp="#http://137.204.128.125/estates/75 #http://137.204.128.125/estates/93 #http://137.204.128.125/estates/95 #http://137.204.128.125/estates/94"
+                        subtype="hasConnectionWith"/>
+                    <link type="places" corresp="#http://137.204.128.125/places/56"
+                        subtype="hasConnectionWith"/>
                 </place>
                 <place>
                     <geogName>Caddo; <foreign>curtis</foreign></geogName>
@@ -356,10 +361,14 @@
                     <idno>http://137.204.128.125/estates/93</idno>
                     <note/>
                     <link type="people" corresp="#http://137.204.128.125/people/93" subtype="link"/>
-                    <link type="places" corresp="#http://137.204.128.125/places/90"/>
-                    <link type="estates" corresp="#http://137.204.128.125/estates/95"/>
-                    <link type="estates" corresp="#http://137.204.128.125/estates/94"/>
-                    <link type="estates" corresp="#http://137.204.128.125/estates/92"/>
+                    <link type="places" corresp="#http://137.204.128.125/places/90"
+                        subtype="hasConnectionWith"/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/95"
+                        subtype="hasConnectionWith"/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/94"
+                        subtype="hasConnectionWith"/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/92"
+                        subtype="hasConnectionWith"/>
                 </place>
                 <place>
                     <geogName>Premosello; <foreign>curtis</foreign></geogName>
@@ -367,10 +376,14 @@
                     <idno>http://137.204.128.125/estates/94</idno>
                     <note/>
                     <link type="people" corresp="#http://137.204.128.125/people/93" subtype="link"/>
-                    <link type="places" corresp="#http://137.204.128.125/places/92"/>
-                    <link type="estates" corresp="#http://137.204.128.125/estates/93"/>
-                    <link type="estates" corresp="#http://137.204.128.125/estates/95"/>
-                    <link type="estates" corresp="#http://137.204.128.125/estates/92"/>
+                    <link type="places" corresp="#http://137.204.128.125/places/92"
+                        subtype="hasConnectionWith"/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/93"
+                        subtype="hasConnectionWith"/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/95"
+                        subtype="hasConnectionWith"/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/92"
+                        subtype="hasConnectionWith"/>
                 </place>
                 <place>
                     <geogName>Lomese; <foreign>curtis</foreign></geogName>
@@ -378,14 +391,18 @@
                     <idno>http://137.204.128.125/estates/95</idno>
                     <note/>
                     <link type="people" corresp="#http://137.204.128.125/people/93" subtype="link"/>
-                    <link type="places" corresp="#http://137.204.128.125/places/93"/>
-                    <link type="estates" corresp="#http://137.204.128.125/estates/93"/>
-                    <link type="estates" corresp="#http://137.204.128.125/estates/94"/>
-                    <link type="estates" corresp="#http://137.204.128.125/estates/92"/>
+                    <link type="places" corresp="#http://137.204.128.125/places/93"
+                        subtype="hasConnectionWith"/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/93"
+                        subtype="hasConnectionWith"/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/94"
+                        subtype="hasConnectionWith"/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/92"
+                        subtype="hasConnectionWith"/>
                 </place>
                 <place>
                     <geogName>Formigliana; <foreign>curtis</foreign></geogName>
-                    <geogName type="other">Firminiana</geogName>
+                    <geogName type="other"><foreign>Firminiana</foreign></geogName>
                     <idno>http://137.204.128.125/estates/96</idno>
                     <note/>
                     <link type="people" corresp="#http://137.204.128.125/people/33" subtype="link"/>
@@ -393,26 +410,32 @@
                     <link type="people" corresp="#http://137.204.128.125/people/32" subtype="link"/>
                     <link type="juridical_persons"
                         corresp="#http://137.204.128.125/juridical_persons/81" subtype="link"/>
+                    <link type="places" corresp="#http://137.204.128.125/places/99"
+                        subtype="hasConnectionWith"/>
                 </place>
                 <place>
                     <geogName>Asigliano; <foreign>curtis</foreign></geogName>
-                    <geogName type="other">Pasiliano</geogName>
+                    <geogName type="other"><foreign>Pasiliano</foreign></geogName>
                     <idno>http://137.204.128.125/estates/97</idno>
                     <note/>
                     <link type="people" corresp="#http://137.204.128.125/people/33" subtype="link"/>
                     <link type="people" corresp="#http://137.204.128.125/people/32" subtype="link"/>
                     <link type="juridical_persons"
                         corresp="#http://137.204.128.125/juridical_persons/81" subtype="link"/>
+                    <link type="places" corresp="#http://137.204.128.125/places/101"
+                        subtype="hasConnectionWith"/>
                 </place>
                 <place>
                     <geogName>Occimiano; <foreign>curtis</foreign></geogName>
-                    <geogName type="other">Aucumiano</geogName>
+                    <geogName type="other"><foreign>Aucumiano</foreign></geogName>
                     <idno>http://137.204.128.125/estates/98</idno>
                     <note/>
                     <link type="juridical_persons"
                         corresp="#http://137.204.128.125/juridical_persons/81" subtype="link"/>
                     <link type="people" corresp="#http://137.204.128.125/people/32" subtype="link"/>
                     <link type="people" corresp="#http://137.204.128.125/people/33" subtype="link"/>
+                    <link type="places" corresp="#http://137.204.128.125/places/105"
+                        subtype="hasConnectionWith"/>
                 </place>
                 <place>
                     <geogName>Roveredo; <foreign>curtis</foreign></geogName>
@@ -425,6 +448,211 @@
                     <link type="juridical_persons"
                         corresp="#http://137.204.128.125/juridical_persons/81"/>
                 </place>
+                <place>
+                    <geogName>Sancti Ambrosii; <foreign>curtis</foreign></geogName>
+                    <idno>http://137.204.128.125/estates/100</idno>
+                    <note/>
+                    <link type="people" corresp="#http://137.204.128.125/people/80" subtype="link"/>
+                    <link type="places" corresp="#http://137.204.128.125/places/108"
+                        subtype="hasConnectionWith"/>
+                </place>
+                <place>
+                    <geogName>Aurelianum; <foreign>casale</foreign></geogName>
+                    <geogName type="other"/>
+                    <idno>http://137.204.128.125/estates/101</idno>
+                    <note>La sua prossimità con l'antica chiesa di Abdon e Sennen consente una
+                        localizzazione nei pressi di Via Alessandro Poerio 55(Roma): cfr. De
+                        Francesco 2004: 208</note>
+                    <link type="people" corresp="#http://137.204.128.125/people/68" subtype="link"/>
+                    <link type="places"
+                        corresp="#http://137.204.128.125/places/139 #http://137.204.128.125/places/52"
+                        subtype="hasConnectionWith"/>
+                </place>
+                <place>
+                    <geogName>Capanianum; <foreign>fundus</foreign></geogName>
+                    <geogName type="other"/>
+                    <idno>http://137.204.128.125/estates/102</idno>
+                    <note>Cfr. De Francesco 2004: 219-223: le fonti scritte collocano il
+                            <foreign>fundus</foreign> «al quattordicesimo miglio della via
+                        Flaminia». Il luogo in cui esso doveva trovarsi corrisponde al km 21.600
+                        della via Flaminia e cioè due km a nord di Malborghetto.</note>
+                    <link type="places" corresp="#http://137.204.128.125/places/136"
+                        subtype="hasConnectionWith"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/71" subtype="link"/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/103"
+                        subtype="hasConnectionWith"/>
+                </place>
+                <place>
+                    <geogName>Tuscia; <foreign>patrimonium</foreign></geogName>
+                    <geogName type="other"/>
+                    <idno>http://137.204.128.125/estates/103</idno>
+                    <note/>
+                    <link type="people" corresp="#http://137.204.128.125/people/71" subtype="link"/>
+                    <link type="estates"
+                        corresp="#http://137.204.128.125/estates/102 #http://137.204.128.125/estates/118"
+                        subtype="hasConnectionWith"/>
+                </place>
+                <place>
+                    <geogName>Hochburg; <foreign>curtis</foreign></geogName>
+                    <geogName type="other">Hohbaerahah</geogName>
+                    <idno>http://137.204.128.125/estates/104</idno>
+                    <note/>
+                    <link type="places" corresp="#http://137.204.128.125/places/113"
+                        subtype="hasConnectionWith"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/80" subtype="link"/>
+                </place>
+                <place>
+                    <geogName>Placentia; <foreign>comitatus</foreign></geogName>
+                    <geogName type="other"/>
+                    <idno>http://137.204.128.125/estates/105</idno>
+                    <note/>
+                    <link type="people" corresp="#http://137.204.128.125/people/55" subtype="link"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/80" subtype="link"/>
+                </place>
+                <place>
+                    <geogName>Ötting; <foreign>curtis</foreign></geogName>
+                    <geogName type="other">Otinga</geogName>
+                    <idno>http://137.204.128.125/estates/106</idno>
+                    <note/>
+                    <link type="places" corresp="#http://137.204.128.125/places/114"
+                        subtype="hasConnectionWith"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/80" subtype="link"/>
+                </place>
+                <place>
+                    <geogName>Volterra; <foreign>comitatus</foreign></geogName>
+                    <geogName type="other"/>
+                    <idno>http://137.204.128.125/estates/107</idno>
+                    <note/>
+                    <link type="places" corresp="#http://137.204.128.125/places/128"
+                        subtype="hasConnectionWith"/>
+                </place>
+                <place>
+                    <geogName>Nymphas; <foreign>massa</foreign></geogName>
+                    <geogName type="other">Ninfa</geogName>
+                    <idno>http://137.204.128.125/estates/108</idno>
+                    <note/>
+                    <link type="people" corresp="#http://137.204.128.125/people/69" subtype="link"/>
+                    <link type="places" corresp="#http://137.204.128.125/places/137"
+                        subtype="hasConnectionWith"/>
+                </place>
+                <place>
+                    <geogName>Normias; <foreign>massa</foreign></geogName>
+                    <geogName type="other">Norma</geogName>
+                    <idno>http://137.204.128.125/estates/109</idno>
+                    <note/>
+                    <link type="people" corresp="#http://137.204.128.125/people/69" subtype="link"/>
+                    <link type="places" corresp="#http://137.204.128.125/places/138"
+                        subtype="hasConnectionWith"/>
+                </place>
+                <place>
+                    <geogName><foreign>Campo Miliacio</foreign>; <foreign>curtis</foreign></geogName>
+                    <geogName type="other"><foreign>Campum Miliacium</foreign></geogName>
+                    <idno>http://137.204.128.125/estates/110</idno>
+                    <note>Manarini 2017; Manarini 2020.</note>
+                    <link type="people" corresp="#http://137.204.128.125/people/55" subtype="link"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/21" subtype="link"/>
+                    <link type="places" corresp="#http://137.204.128.125/places/9"
+                        subtype="hasConnectionWith"/>
+                </place>
+                <place>
+                    <geogName>Stazzona; <foreign>comitatus</foreign></geogName>
+                    <geogName type="other">Angera</geogName>
+                    <idno>http://137.204.128.125/estates/111</idno>
+                    <note>Castagnetti 2004</note>
+                    
+                    <link type="people" corresp="#http://137.204.128.125/people/21" subtype="link"/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/115"
+                        subtype="hasConnectionWith"/>
+                </place>
+                <place>
+                    <geogName>Sesto; <foreign>curtis</foreign></geogName>
+                    <geogName type="other"><foreign>Sextum</foreign></geogName>
+                    <idno>http://137.204.128.125/estates/112</idno>
+                    <note>Cajo 2012-2013; Cavalazzi 2015</note>
+                    <link type="people" corresp="#http://137.204.128.125/people/55" subtype="link"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/21" subtype="link"/>
+                    <link type="places" corresp="#http://137.204.128.125/places/14"
+                        subtype="hasConnectionWith"/>
+                </place>
+                <place>
+                    <geogName>Inverno; <foreign>curtis</foreign></geogName>
+                    <geogName type="other"><foreign>Iverne</foreign></geogName>
+                    <idno>http://137.204.128.125/estates/113</idno>
+                    <note>Cajo 2012-2013; Cavalazzi 2015.</note>
+                    <link type="people" corresp="#http://137.204.128.125/people/55" subtype="link"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/21" subtype="link"/>
+                </place>
+                <place>
+                    <geogName>Massino; <foreign>curtis</foreign></geogName>
+                    <geogName type="other"/>
+                    <idno>http://137.204.128.125/estates/114</idno>
+                    <note>Castagnetti 2004; Cajo 2012-2013; Cavalazzi 2015.</note>
+                    <link type="people" corresp="#http://137.204.128.125/people/55" subtype="link"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/21" subtype="link"/>
+                </place>
+                <place>
+                    <geogName>Locarno; <foreign>curtis</foreign></geogName>
+                    <geogName type="other"/>
+                    <idno>http://137.204.128.125/estates/115</idno>
+                    <note>Castagnetti 2004; Cajo 2012-2013; Cavalazzi 2015.</note>
+                    <link type="people"
+                        corresp="#http://137.204.128.125/people/55 #http://137.204.128.125/people/21"
+                        subtype="link"/>
+                </place>
+                <place>
+                    <geogName>Nogara; <foreign>curtis</foreign></geogName>
+                    <geogName type="other"/>
+                    <idno>http://137.204.128.125/estates/116</idno>
+                    <note/>
+                    <link type="places" corresp="#http://137.204.128.125/places/145"
+                        subtype="isMadeOf"/>
+                    <link type="juridical_persons"
+                        corresp="#http://137.204.128.125/juridical_persons/47" subtype="link"/>
+                    <link type="people"
+                        corresp="#http://137.204.128.125/people/126 #http://137.204.128.125/people/124 #http://137.204.128.125/people/127 #http://137.204.128.125/people/125 #http://137.204.128.125/people/128"
+                        subtype="link"/>
+                </place>
+                <place>
+                    <geogName>Sancta Cecilia; <foreign>domusculta</foreign></geogName>
+                    <geogName type="other"/>
+                    <idno>http://137.204.128.125/estates/117</idno>
+                    <note>Cfr. De Francesco 2004: 251-252 e Coste 1984: 773-774</note>
+                    <link type="people" corresp="#http://137.204.128.125/people/69" subtype="link"/>
+                    <link type="places" corresp="#http://137.204.128.125/places/159"
+                        subtype="hasConnectionWith"/>
+                </place>
+                <place>
+                    <geogName>Quartodecimo; <foreign>domusculta</foreign></geogName>
+                    <geogName type="other"><foreign>domusculta in quartodecimo miliario ab hac
+                            Romana urbe patrimonio Tuscie</foreign></geogName>
+                    <idno>http://137.204.128.125/estates/118</idno>
+                    <note>Sulla localizzazione di questa <foreign>domusculta</foreign> presso il
+                        quattordicesimo miglio della via Flaminia cfr. De Francesco 2004: 219-223 e
+                        252-253</note>
+                    <link type="places" corresp="#http://137.204.128.125/places/136"
+                        subtype="hasConnectionWith"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/69" subtype="link"/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/103"
+                        subtype="hasConnectionWith"/>
+                </place>
+                <place>
+                    <geogName>Lauretum; <foreign>domusculta</foreign></geogName>
+                    <geogName type="other"/>
+                    <idno>http://137.204.128.125/estates/119</idno>
+                    <note/>
+                    <link type="people" corresp="#http://137.204.128.125/people/69" subtype="link"/>
+                    <link type="places" corresp="#http://137.204.128.125/places/160"
+                        subtype="hasConnectionWith"/>
+                </place>
+                <place>
+                    <geogName>Fonteiana; <foreign>massa</foreign></geogName>
+                    <bibl>
+                            <geogName type="other">Forteiana; <foreign>massa</foreign></geogName>
+                        </bibl>
+                    <idno>http://137.204.128.125/estates/120</idno>
+                    <note>Cfr. De Francesco 2004: 242. </note>
+                    <link type="people" corresp="#http://137.204.128.125/people/69" subtype="link"/>
+                </place>             
             </listPlace>
         </body>
     </text>

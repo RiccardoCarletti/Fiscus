@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc505">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Archivio Storico Diocesano di Lucca, AAL, Diplomatico, + N 5</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus
+                        Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="uri">http://137.204.128.125/documents/doc505</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">-Placitum/iudicatum</rs>
+                            <rs type="record_source" ref="#">Original document</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0897-03-04">
+                                <note type="displayed_date">897 March 4</note>
+                                <note type="dating_elements">Anno d’impero di Lamberto. I dati
+                                    cronologici non concordano</note>
+                                <note type="topical_date">Firenze, in domum episcopii ipsius
+                                    civitatis eius in atrio ante basilica Sancti Ioanni
+                                    Batista</note>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-03-24" who="ptomei">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>Il conte di palazzo Amedeo, <rs key="#Missus_regis">inviato</rs> in <rs
+                            key="#Geographic_regions">Tuscia</rs> dall’<rs key="#Emperor/king"
+                            >imperatore</rs>
+                        <persName key="#Emperor/king" ref="#http://137.204.128.125/people/136"
+                            >Lamberto</persName>, siede in giudizio <rs key="#Cities">civitate</rs>
+                        <placeName ref="#http://137.204.128.125/places/2"
+                            key="#Cities #Houses #Viscount #Mother_churches #Bishops"
+                            >Florencia</placeName> in <rs key="#Houses">domum episcopii ipsius
+                            civitatis</rs> eius in atrio ante <orgName key="#Mother_churches"><rs
+                                key="#Mother_churches">basilica</rs> Sancti Ioanni
+                        Batista</orgName>, con il marchese Adalberto; assistono, fra gli altri, i
+                            <rs key="#Bishops">vescovi</rs>
+                        <persName key="#Bishops" ref="#http://137.204.128.125/people/138"
+                            >Elbungo</persName> di <placeName
+                            ref="#http://137.204.128.125/places/53" key="#Bishops"
+                        >Parma</placeName>, <persName key="#Bishops">Lupo</persName> di <placeName
+                            key="#Bishops">Siena</placeName>, <persName key="#Bishops"
+                            ref="#http://137.204.128.125/people/139">Odalberto</persName> di
+                            <placeName ref="#http://137.204.128.125/places/67" key="#Bishops"
+                            >Luni</placeName>, <persName key="#Bishops">Grasulfo</persName> di
+                        Firenze; i giudici imperiali Giovanni, Adalberto e altro Adalberto; i <rs
+                            key="#Vassus_of">vassalli marchionali</rs>
+                        <persName key="#Vassus_of" ref="#http://137.204.128.125/people/144"
+                            >Winigildo</persName> del <persName
+                            ref="#http://137.204.128.125/people/145">fu Furulo</persName>, <persName
+                            key="#Vassus_of" ref="#http://137.204.128.125/people/140"
+                            >Rodilando</persName>, <persName key="#Vassus_of"
+                            ref="#http://137.204.128.125/people/141">Sichelmo</persName> e <persName
+                            key="#Vassus_of" ref="#http://137.204.128.125/people/142"
+                            >Ghisalberto</persName>; <persName key="#Viscount"
+                            ref="#http://137.204.128.125/people/143">Teudicio</persName>
+                        <rs key="#Viscount">visconte</rs> di Firenze; gli <rs key="#Scabini"
+                            >scabini</rs> fiorentini <persName key="#Scabini">Rotari</persName> e
+                            <persName key="#Scabini">Pietro</persName>. Si presenta <persName
+                            key="#Bishops">Pietro</persName>, <rs key="#Bishops">vescovo</rs> di
+                            <placeName ref="#http://137.204.128.125/places/4"
+                            key="#Cities #Clusae/gates #Mother_churches #Bishops">Lucca</placeName>,
+                        con il suo <rs key="#Advocatus_of_other_public_authorities">advocatus</rs>
+                        <persName key="#Advocatus_of_other_public_authorities">Teuperto</persName>,
+                        contestando alle seguenti persone beni che spettano al suo vescovato e che
+                        essi tengono nescimus pro qua causa: i fratelli
+                            <persName>Sisemundo</persName> e <persName>Offo</persName> tengono beni
+                        a <placeName>Valiano</placeName>; <persName
+                            ref="#http://137.204.128.125/people/146">Adalfridi</persName> la
+                            <orgName key="#Churches"><rs key="#Churches">chiesa</rs> di Santa Maria
+                            di <placeName key="#Churches">Fereniano</placeName></orgName> con le sue
+                        pertinenze e <rs key="#Manentes">5 manentes</rs> a <placeName
+                            key="#Manentes">Ciciano</placeName>; <persName
+                            ref="#http://137.204.128.125/people/150">Fraolmi</persName> con i suoi
+                        consortes beni prope <rs key="#Cities">civitate</rs> Luca; i figli di
+                            <persName>Autberto</persName> (...); <persName>C(...)d(...) de
+                                <placeName>Octavo</placeName></persName>; <persName>Ragimbaldo de
+                                <placeName>Fundannio</placeName></persName>; i figli di
+                            <persName>Roppaldo</persName> beni a <placeName>Ancliana</placeName>; i
+                        figli di <persName>Filoardo</persName> beni in <placeName>Decimo</placeName>
+                        et in <placeName>Mozano</placeName>; <persName
+                            ref="#http://137.204.128.125/people/149">Cunimundo</persName> beni in
+                            <placeName ref="#http://137.204.128.125/places/1">Ilice</placeName> et
+                        in <placeName>Flaviana seu in Arcana</placeName>; il <rs
+                            key="#Other_clerics">chierico</rs>
+                        <persName key="#Other_clerics">Andrea</persName> beni della <orgName
+                            key="#Churches"><rs key="#Churches">chiesa</rs> di San Pietro
+                            Somaldi</orgName>; <persName>Toto</persName> e
+                            <persName>Ghervino</persName> la <orgName key="#Churches"><rs
+                                key="#Churches">chiesa</rs> di Santa Maria</orgName>, pertinenza del
+                        vescovato; il figlio di <persName>Petriperto</persName>; i figli di
+                            <persName>Pietro</persName> beni in <placeName>Garfaniana</placeName>;
+                            <persName>Atrialdo</persName> beni a <placeName>Asanico</placeName>; i
+                        figli di <persName>Corrado</persName> beni della <orgName key="#Churches"
+                                ><rs key="#Churches">chiesa</rs> di Santa Maria</orgName> che si
+                        trova da <rs key="#Clusae/gates">porta Sancti Donati</rs>;
+                            <persName>Toto</persName> figlio di <persName>Corrado</persName> beni a
+                            <placeName>Siviliano</placeName>; <persName>Omillo</persName> beni a
+                            <placeName>Ito</placeName> e in altri luoghi;
+                            <persName>Willerado</persName> figlio di <persName>Pietro</persName>
+                        beni a <placeName>Castiliono</placeName> e in altri luoghi;
+                            <persName>Roperto de <placeName>Variana</placeName></persName> beni
+                        nello stesso luogo; il figlio di <persName>Albone</persName> beni a
+                            <placeName>Agello</placeName>; i figli di
+                            <persName>Widalgrimo</persName> beni a <placeName>Crete</placeName>;
+                            <persName>Adalberto de <placeName>Capelle</placeName></persName>; il
+                        figlio di <persName>Liutifrido</persName>; <persName>Ardimanno</persName>;
+                            <persName>Ragimperto de <placeName>Fugiano</placeName></persName>; il
+                            <rs key="#Priests">prete</rs>
+                        <persName key="#Priests">Natale</persName>; <persName>Teudimundo</persName>;
+                        i fratelli <persName>Elbolfo</persName> e <persName>Bertaldo</persName>; il
+                            <rs key="#Priests">prete</rs>
+                        <persName key="#Priests">Sicardo</persName>; <persName>Bertaldo de
+                                <placeName>Suriano</placeName></persName> beni a <placeName>Campo
+                            Cassioli</placeName>; il <rs key="#Other_clerics">chierico</rs>
+                        <persName key="#Other_clerics">Baldo</persName>; i fratelli
+                            <persName>Albone</persName> e <persName>Andrea</persName>;
+                            <persName>Adalberto de <placeName>Mangoniani</placeName></persName>;
+                            <persName>Roffridi</persName> la <orgName key="#Churches"><rs
+                                key="#Churches">chiesa</rs> di
+                            <placeName>Sexto</placeName></orgName> con le sue dipendenze; i figli di
+                            <persName ref="#http://137.204.128.125/people/151">Adaldo</persName> la
+                            <orgName key="#Churches"><rs key="#Churches">chiesa</rs> di San
+                            Terenzio</orgName> con le sue dipendenze; <persName>Warnerio</persName>
+                        la <orgName key="#Churches"><rs key="#Churches">chiesa</rs> di San Michele
+                            Arcangelo</orgName>; <persName>Ademari</persName>; il <rs
+                            key="#Other_clerics">chierico</rs>
+                        <persName key="#Other_clerics">Ghiselprando</persName> pertinenze della
+                            <orgName key="#Churches"><rs key="#Churches">chiesa</rs> di San
+                            Pietro</orgName>; il <rs key="#Priests">prete</rs>
+                        <persName key="#Priests">Ghisolfo</persName> il <orgName key="#Monasteries"
+                                ><rs key="#Monasteries">monastero</rs> di San Michele
+                            Arcangelo</orgName>; <persName>Agliperto</persName>;
+                            <persName>Ato</persName> la <orgName key="#Churches"><rs key="#Churches"
+                                >chiesa</rs> di San Nazario</orgName>; il <rs key="#Priests"
+                            >prete</rs>
+                        <persName key="#Priests">Ato</persName> e il <rs key="#Other_clerics"
+                            >chierico</rs>
+                        <persName key="#Other_clerics">Toto</persName>;
+                            <persName>Alamundo</persName>; <persName>Michele</persName>;
+                            <persName>Teudilascio de <placeName>Monte
+                        Culacio</placeName></persName>; <persName>Anselmo de
+                                <placeName>Castaneclo</placeName></persName>;
+                            <persName>Ato</persName>; <persName>Fraolmi de
+                                <placeName>Wammo</placeName></persName>;
+                            <persName>Adalprando</persName>; il <rs>prete</rs>
+                        <persName key="#Priests">Angelo</persName> un <rs key="#Monasteries"
+                            >monastero</rs>; <persName>Willeramo de
+                            <placeName>Vacule</placeName></persName>; <persName>Ateraldo de
+                                <placeName>Placaio</placeName></persName>; <persName>Lamberto de
+                                <placeName>Fereniana</placeName></persName>; <persName
+                            ref="#http://137.204.128.125/people/147">Lamberto</persName> che fu
+                        fratello di <persName ref="#http://137.204.128.125/people/148"
+                            >Rodilando</persName>; <persName>Cunimundo</persName>;
+                            <persName>Raginfridi</persName> con i suoi nepotes; i <rs key="#Priests"
+                            >preti</rs>
+                        <persName key="#Priests">Sindiperto</persName> e <persName key="#Priests"
+                            >Benedetto</persName> la <orgName key="#Churches"><rs key="#Churches"
+                                >chiesa</rs> di San Lorenzo di <placeName key="#Churches"
+                                >Tempaniano</placeName></orgName>, pertinenza della <orgName
+                            key="#Mother_churches"><rs key="#Mother_churches">pieve</rs> di San
+                            Giovanni Battista</orgName>; <persName>Giovanni de (...)</persName> la
+                            <orgName key="#Churches"><rs key="#Churches">chiesa</rs> di San
+                            Lorenzo</orgName>. Il vescovo chiede che costoro, i quali asseriscono di
+                        avere ricevuto i suddetti beni in <rs key="#Libellus/precaria/emphyteusis"
+                            >livello</rs>, si presentino e dicano pro qua causa ipsas res detinent;
+                        sebbene chiamati per multas <rs key="#Assembly">placitas</rs> presencia <rs
+                            key="#Missus_regis">missi imperialis</rs> seu <rs key="#Count"
+                            >comitum</rs>, costoro non si sono, infatti, mai presentati in giudizio.
+                        Gli imputati sono assenti anche in questa occasione; il vescovo viene,
+                        dunque, investito per fuste dal conte di palazzo e dal marchese salva
+                        querimonia dei suddetti beni, ad pars del <orgName
+                            ref="#http://137.204.128.125/juridical_persons/68"
+                            key="#Mother_churches"><rs key="#Mother_churches">vescovato</rs> di San
+                            Martino</orgName>. Il conte di palazzo e il marchese pongono sopra gli
+                        stessi beni un banno imperiale di <rs key="#Penalty">2000 mancusi
+                        d’oro</rs>; metà da versare alla <rs key="#Camera_regis">camera regia</rs>,
+                        metà ad pars del vescovato. L’inviato e i giudici imperiali chiedono al <rs
+                            key="#Notary #Judge">notaio e giudice imperiale</rs>
+                        <persName key="#Notary #Judge">Leone</persName> la scrittura della noticia.
+                        Sottoscrittori: <persName key="#Palatine_count #Missus_regis"
+                            >Amedeo</persName>
+                        <rs key="#Palatine_count">comes palacii</rs>, <persName
+                            key="#Marquis/duke #Count">Adalberto</persName>
+                        <rs key="#Count">comes</rs> et <rs key="#Marquis/duke">marchio</rs>,
+                            <persName key="#Judge">Giovanni</persName>
+                        <rs key="#Judge">iudex domni imperatoris</rs>, <persName key="#Judge"
+                            >Adalberto</persName>
+                        <rs key="#Judge">iudex domni imperatori</rs>, <persName key="#Judge"
+                            >Adalberto</persName>
+                        <rs key="#Judge">iudex domni imperatoris</rs>.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>MDL, 4/2, App. n. 55, pp. 70-72; Manaresi, n. 102, pp. 368-373; ChLA 86, n. 45,
+                    pp. 137-141.</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p>Tomei 2012; Tomei 2014.</p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>Fa fede l’indizione in quanto lo scrittore, come altri notai della cancelleria di
+                    Lamberto, calcola l’anno d’impero partendo dal 1° gennaio. Cfr. con breve de
+                    feora e breve de multis pensionibus.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

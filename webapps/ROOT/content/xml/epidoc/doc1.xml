@@ -7,7 +7,7 @@
                 <title>Biblioteca Capitolare di Lucca, Codice n. 124, c. 3r</title>
             </titleStmt>
             <editionStmt>
-                <edition>Digital edition encoded for <ref target="http://137.204.128.125">Project Fiscus</ref>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Project Fiscus</ref>
                     <date when="2020">2020</date>
                 </edition>
             </editionStmt>
@@ -30,7 +30,8 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="https://ausohnum.huma-num.fr/concept/c25683">Littera/mandatum</rs>
+                            <rs type="text_type" ref="https://ausohnum.huma-num.fr/concept/c25683"
+                                >-Littera/mandatum</rs>
                             <rs type="record_source" ref="https://ausohnum.huma-num.fr/concept/c26116">Original document</rs>
                             <rs type="document_tradition" ref="https://ausohnum.huma-num.fr/concept/c26113">Copy</rs>
                             <rs type="fiscal_property"/>
@@ -56,29 +57,11 @@
                     </history>
                 </msDesc>
                 <listPlace>
-                
-    <place>
-        <placeName ref="http://137.204.128.125/places/4 undefined" ana="Place-of-writing-and-origin">Lucca</placeName>
-        </place>
-
-    
-    <place>
-        <placeName ref="http://137.204.128.125/places/4 undefined" ana="Place-of-writing-and-origin">Lucca</placeName>
-        </place>
-
-    
-    <place>
-        <placeName ref="http://137.204.128.125/places/4 undefined" ana="Place-of-writing-and-origin">Lucca</placeName>
-        </place>
-    </listPlace>
+                    <place></place>
+                </listPlace>
             <listPerson>
-                <person corresp="http://137.204.128.125/people/1">
-            <persName xml:lang="en">Bonifacio</persName>
-        </person>
-                <person corresp="http://137.204.128.125/people/2">
-            <persName xml:lang="en">Cantaro</persName>
-        </person>
-    </listPerson>
+                <person></person>
+            </listPerson>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
@@ -92,7 +75,7 @@
             <listChange>
                 <change who="admin" when="2020-10-13T15:21:54.914+02:00">creation of record</change>
                 <change when="2021-02-13" who="ptomei">changes</change>
-                <change when="2021-02-16">minor changes</change>
+                <change when="2021-02-16" who="ptomei">minor changes</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -141,7 +124,8 @@
             <div type="commentary">
                 <p>Resta incertezza fra i marchesi di Tuscia Bonifacio Hucpoldingi e Bonifacio
                     Canossa, anche se il secondo sembra preferibile. Il castello dei canonici della
-                    chiesa matrice è senz'altro Massarosa, nel piviere di Elici.</p>
+                    chiesa matrice è senz'altro Massarosa, nel piviere di Elici. Il reclutamento
+                    avviene sulla base del piviere.</p>
             </div>
         </body>
     </text>

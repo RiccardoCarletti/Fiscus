@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc806">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Archivio di Stato di Parma, Diplomatico, Atti privati (Drei, <foreign>Le
+                        carte</foreign> III/2, n. 688, p. 516)</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus
+                        Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="uri">http://137.204.128.125/documents/doc806</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Venditio</rs>
+                            <rs type="record_source" ref="#">Document summary</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">Uncertain</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1190-10-31">
+                                <note type="displayed_date">1190 October 31</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Piacenza, in domo Ferrariorum</note>
+                            </origDate>
+                            <origPlace>Sanctus Sixtus; monasterium (Piacenza)</origPlace>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-02-08">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In domo <persName>Ferrariorum</persName>. <persName>Sibilia</persName> uxor
+                            <persName>Ercarii Ferrarii</persName>, presente eius viro, et
+                            <persName>Beatris </persName>mater <persName>Roberti Ferrarii</persName>
+                        et <persName>Matelda</persName> eius uxor, presente eius viro et
+                        consenciente vendicionibus de <rs key="#Areas #Rivers">terra de Riva</rs> et
+                        de <rs key="#Areas #Rivers">terra de ultra Trebia</rs> atque refutacionibus
+                        quas ipsi Ercarius et Robertus fecerunt domino <persName
+                            ref="#http://137.204.128.125/people/16">Gandulfo</persName>
+                        <rs key="#Abbots">abbati</rs>
+                        <rs key="#Monasteries">monasterii</rs>
+                        <orgName ref="#http://137.204.128.125/juridical_persons/53"
+                            key="#Areas #Rivers">S. Sisti</orgName>. <rs key="#Witness">Testes</rs>
+                        <persName key="#Witness">Albericus Brachiumforte</persName>, <persName
+                            key="#Witness">Guido Buxus</persName>, <persName key="#Witness"
+                            >Bertolotus Bonaminus</persName> et <persName key="#Witness">Obertus
+                            Ferrarius</persName>
+                        <persName key="#Notary">Petrus Lachetta</persName>
+                        <rs key="#Notary">notarius</rs>.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>Drei, <foreign>Le carte</foreign> III/2, n. 688, p. 516</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

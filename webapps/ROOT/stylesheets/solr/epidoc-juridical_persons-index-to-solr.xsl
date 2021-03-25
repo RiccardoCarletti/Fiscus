@@ -44,7 +44,7 @@
           </field>
           <field name="index_external_resource">
             <xsl:choose>
-              <xsl:when test="$juridical-id"><xsl:value-of select="concat('../../texts/juridical_persons.html#', substring-after(substring-after(translate($juridical-id/tei:idno, '#', ''), 'http://137.204.128.125/'), '/'))" /></xsl:when>
+              <xsl:when test="$juridical-id"><xsl:value-of select="concat('../../texts/juridical_persons.html#', substring-after(translate($juridical-id/tei:idno, '#', ''), 'juridical_persons/'))" /></xsl:when>
               <xsl:otherwise><xsl:text>~</xsl:text></xsl:otherwise>
             </xsl:choose>
           </field>

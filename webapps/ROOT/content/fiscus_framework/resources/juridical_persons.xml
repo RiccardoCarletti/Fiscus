@@ -24,23 +24,24 @@
                     <link type="estates" subtype="Link" corresp="#http://137.204.128.125/estates/28"/>
                     <link type="estates" subtype="Link" corresp="#http://137.204.128.125/estates/29"/>
                     <link type="people" subtype="Link" corresp="#http://137.204.128.125/people/67"/>
-                    <note>Monasteries</note>
+                    <note/>
                     <link type="places" corresp="#http://137.204.128.125/places/9"
                         subtype="isAdjacentTo"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/120" subtype="link"/>
                 </org>
                 
                 <org>
                     <orgName>Sanctus Nicomedes; ecclesia (Salsomaggiore; Parma)</orgName>
                     <idno>http://137.204.128.125/juridical_persons/34</idno>
-                    <note>chiesa di S. Nicomede, attualmente in comune di Salsomaggiore (PR).
-                        Da Destefanis, p. 176, nota 62: "Un’anonima opera dal titolo Storia e bellezze di Salsominore a beneficio dei
-                        restauri della chiesa parrocchiale, s.l. (Salsomaggiore), Unione Tipografi ca Salsese, 1928, p. 7 riferisce della scoperta 
-                        di «molte ossa e molti marmi lavorati» attorno alla chiesa, mentre, già nella seconda metà dell’Ottocento, Giovanni Valentini,
-                        Guida storica medica e pittoresca di Salsomaggiore e Tabiano, Parma, 1861 (rist. an. Bologna, Atesa, 1987), p. 112 ricorda, 
-                        nella stessa zona, il rinvenimento di «certe reliquie di antico edifizio scoperte sotterra, rimasto col volger del tempo distrutto».
-                        Cf. Eleonora Destefanis, Tracce altomedievali nell’Appennino piacentino-parmense: le testimonianze scultoree,
-                        in Medioevo piacentino e altri studi, Atti della Giornata di studi in onore di Piero Castignoli (Piacenza, 16 maggio 2008), 
-                        a cura di A. Riva, Piacenza 2009, pp. 147-188, alle pp. 167-181, con foto dei resti marmorei.</note>
+                    <note>Chiesa di S. Nicomede, attualmente in comune di Salsomaggiore (PR). Da
+                        Destefanis, p. 176, nota 62: "Un’anonima opera dal titolo Storia e bellezze
+                        di Salsominore a beneficio dei restauri della chiesa parrocchiale, s.l.
+                        (Salsomaggiore), Unione Tipografi ca Salsese, 1928, p. 7 riferisce della
+                        scoperta di «molte ossa e molti marmi lavorati» attorno alla chiesa, mentre,
+                        già nella seconda metà dell’Ottocento". Valentini 1861, 112 ricorda, nella
+                        stessa zona, il rinvenimento di «certe reliquie di antico edifizio scoperte
+                        sotterra, rimasto col volger del tempo distrutto». Cf. Destefanis 2009,
+                        147-188, alle pp. 167-181, con foto dei resti marmorei.</note>
                     <link type="places" corresp="#http://137.204.128.125/places/29"
                         subtype="hasConnectionWith"/>
                 </org>
@@ -63,6 +64,11 @@
                         subtype="hasConnectionWith"/>
                     <link type="people" corresp="#http://137.204.128.125/people/49" subtype="link"/>
                     <link type="people" corresp="#http://137.204.128.125/people/22" subtype="link"/>
+                    <link type="people"
+                        corresp="#http://137.204.128.125/people/14 #http://137.204.128.125/people/118 #http://137.204.128.125/people/119"
+                        subtype="link"/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/116"
+                        subtype="hasConnectionWith"/>
                 </org>
                 
                 <org>
@@ -70,6 +76,8 @@
                     <idno>http://137.204.128.125/juridical_persons/53</idno>
                     <link type="people" subtype="Link" corresp="#http://137.204.128.125/people/67"/>
                     <note></note>
+                    <link type="places" corresp="#http://137.204.128.125/places/43"
+                        subtype="isWithin"/>
                 </org>
                 
                 <org>
@@ -106,6 +114,8 @@
                     <note/>
                     <link type="places" corresp="#http://137.204.128.125/places/4"
                         subtype="isWithin"/>
+                    <link type="places" corresp="#http://137.204.128.125/places/131"
+                        subtype="hasConnectionWith"/>
                 </org>
                 <org>
                     <orgName>Sanctus Martinus; capitulum canonicorum cathedralis (Lucca)</orgName>
@@ -122,6 +132,8 @@
                         subtype="hasConnectionWith"/>
                     <link type="places" corresp="#http://137.204.128.125/places/4"
                         subtype="isWithin"/>
+                    <link type="places" corresp="#http://137.204.128.125/places/131"
+                        subtype="hasConnectionWith"/>
                 </org>
                 <org>
                     <orgName>Sanctus Pontianus; monasterium (Lucca)</orgName>
@@ -193,6 +205,14 @@
                     <note/>
                     <link type="places" corresp="#http://137.204.128.125/places/85"
                         subtype="isWithin"/>
+                    <link type="places" corresp="#http://137.204.128.125/places/89"
+                        subtype="hasConnectionWith"/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/85"
+                        subtype="hasConnectionWith"/>
+                    <link type="places" corresp="#http://137.204.128.125/places/134"
+                        subtype="hasConnectionWith"/>
+                    <link type="places" corresp="#http://137.204.128.125/places/149"
+                        subtype="hasConnectionWith"/>
                 </org>
                 <org>
                     <orgName>Sanctus Petrus; episcopium (Bologna)</orgName>
@@ -213,7 +233,7 @@
                         corresp="#http://137.204.128.125/estates/97 #http://137.204.128.125/estates/41 #http://137.204.128.125/estates/60 #http://137.204.128.125/estates/96 #http://137.204.128.125/estates/98 #http://137.204.128.125/estates/88 #http://137.204.128.125/estates/99 #http://137.204.128.125/estates/63 #http://137.204.128.125/estates/89"
                         subtype="hasConnectionWith"/>
                     <link type="places"
-                        corresp="#http://137.204.128.125/places/50 #http://137.204.128.125/places/3 #http://137.204.128.125/places/102 #http://137.204.128.125/places/49 #http://137.204.128.125/places/99 #http://137.204.128.125/places/100 #http://137.204.128.125/places/ #http://137.204.128.125/places/104 #http://137.204.128.125/places/96 #http://137.204.128.125/places/51 #http://137.204.128.125/places/103"
+                        corresp="#http://137.204.128.125/places/50 #http://137.204.128.125/places/3 #http://137.204.128.125/places/102 #http://137.204.128.125/places/49 #http://137.204.128.125/places/99 #http://137.204.128.125/places/100 #http://137.204.128.125/places/104 #http://137.204.128.125/places/96 #http://137.204.128.125/places/51 #http://137.204.128.125/places/103"
                         subtype="hasConnectionWith"/>
                 </org>
                 <org>
@@ -234,6 +254,123 @@
                     <link type="people"
                         corresp="#http://137.204.128.125/people/32 #http://137.204.128.125/people/33"
                         subtype="link"/>
+                    <link type="places" corresp="#http://137.204.128.125/places/96"
+                        subtype="hasConnectionWith"/>
+                    <link type="places" corresp="#http://137.204.128.125/places/106"
+                        subtype="hasConnectionWith"/>
+                </org>
+                <org>
+                    <orgName>Sanctus Benedictus; monasterium (Cassino; Frosinone)</orgName>
+                    <orgName type="other"/>
+                    <idno>http://137.204.128.125/juridical_persons/84</idno>
+                    <note/>
+                    <link type="places" corresp="#http://137.204.128.125/places/109"
+                        subtype="isWithin"/>
+                </org>
+                <org>
+                    <orgName>Sancta Sophia; monasterium (Benevento)</orgName>
+                    <orgName type="other"/>
+                    <idno>http://137.204.128.125/juridical_persons/85</idno>
+                    <note/>
+                    <link type="places" corresp="#http://137.204.128.125/places/110"
+                        subtype="isWithin"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/113"
+                        subtype="agentFor"/>
+                </org>
+                <org>
+                    <orgName>Sanctus Cerbonius; episcopium (Populonia; Livorno)</orgName>
+                    <orgName type="other"/>
+                    <idno>http://137.204.128.125/juridical_persons/86</idno>
+                    <note/>
+                    <link type="places" corresp="#http://137.204.128.125/places/86"
+                        subtype="isWithin"/>
+                    <link type="places" corresp="#http://137.204.128.125/places/131"
+                        subtype="hasConnectionWith"/>
+                </org>
+                <org>
+                    <orgName>Sancta Maria de Serena; monasterium</orgName>
+                    <orgName type="other"/>
+                    <idno>http://137.204.128.125/juridical_persons/87</idno>
+                    <note/>
+                    <link type="places" corresp="#http://137.204.128.125/places/134"
+                        subtype="hasConnectionWith"/>
+                </org>
+                <org>
+                    <orgName>Sanctus Pancratius de Luto; monasterium (Badia al Fango; Grosseto)</orgName>
+                    <orgName type="other"/>
+                    <idno>http://137.204.128.125/juridical_persons/88</idno>
+                    <note>Kehr, <foreign>IP</foreign>, III, p. 264</note>
+                    <link type="places" corresp="#http://137.204.128.125/places/91"
+                        subtype="hasConnectionWith"/>
+                    <link type="places" corresp="#http://137.204.128.125/places/134"
+                        subtype="hasConnectionWith"/>
+                </org>
+                <org>
+                    <orgName>Sanctus Mamas; plebs (Lizzano in Belvedere; Bologna)</orgName>
+                    <orgName type="other"/>
+                    <idno>http://137.204.128.125/juridical_persons/89</idno>
+                    <note/>
+                    <link type="places" corresp="#http://137.204.128.125/places/134"
+                        subtype="hasConnectionWith"/>
+                    <link type="juridical_persons"
+                        corresp="#http://137.204.128.125/juridical_persons/80 #http://137.204.128.125/juridical_persons/47"
+                        subtype="link"/>
+                    <link type="people"
+                        corresp="#http://137.204.128.125/people/48 #http://137.204.128.125/people/49 #http://137.204.128.125/people/14 #http://137.204.128.125/people/117 #http://137.204.128.125/people/94"
+                        subtype="link"/>
+                </org>
+                <org>
+                    <orgName>Sanctus Zeno; ecclesia (Verona)</orgName>
+                    <orgName type="other"/>
+                    <idno>http://137.204.128.125/juridical_persons/90</idno>
+                    <note/>
+                    <link type="places" corresp="#http://137.204.128.125/places/59"
+                        subtype="isWithin"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/21" subtype="link"/>
+                </org>
+                <org>
+                    <orgName>Sanctus Mamilianus de Montecristo; monasterium (Portoferraio;
+                        Livorno)</orgName>
+                    <orgName type="other"/>
+                    <idno>http://137.204.128.125/juridical_persons/91</idno>
+                    <note>Kehr, <foreign>IP</foreign>, III, p. 276; Bianchi 2008: 191 194-195;
+                        Brizzi 1986.</note>
+                </org>
+                <org>
+                    <orgName>Sancta Maria; episcopium (Aquileia) </orgName>
+                    <orgName type="other">Sancta Maria et sancti Petri et sancti Marci </orgName>
+                    <idno>http://137.204.128.125/juridical_persons/92</idno>
+                    <note/>
+                </org>
+                <org>
+                    <orgName>Sanctus Petrus Celaureus; ecclesia (Verona)</orgName>
+                    <orgName type="other">Sanctus Petrus <foreign>in castro</foreign></orgName>
+                    <idno>http://137.204.128.125/juridical_persons/93</idno>
+                    <note>Pighi 1960; La Rocca Hudson 1986.</note>
+                </org>
+                <org>
+                    <orgName>Sancta Brigida; ecclesia (Piacenza)</orgName>
+                    <orgName type="other"/>
+                    <idno>http://137.204.128.125/juridical_persons/94</idno>
+                    <note/>
+                </org>
+                <org>
+                    <orgName>Sanctus Ambrosius; monasterium (Milano)</orgName>
+                    <orgName type="other"/>
+                    <idno>http://137.204.128.125/juridical_persons/95</idno>
+                    <note/>
+                    <link type="places" corresp="#http://137.204.128.125/places/147"
+                        subtype="hasConnectionWith"/>
+                </org>
+                <org>
+                    <orgName>Sanctus Geminianus; episcopium (Modena)</orgName>
+                    <orgName type="other"/>
+                    <idno>http://137.204.128.125/juridical_persons/96</idno>
+                    <note/>
+                    <link type="places" corresp="#http://137.204.128.125/places/38"
+                        subtype="hasConnectionWith"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/152" subtype="link"
+                    />
                 </org>
              
             </listOrg>

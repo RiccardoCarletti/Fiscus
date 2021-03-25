@@ -34,7 +34,7 @@
                             <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -90,15 +90,16 @@
                         studiosum servitium, stabilisce che nessuna potestas abbia la licenza, sine
                         legali iuditio, di danneggiare <rs key="#Walls">murum</rs>
                         <placeName ref="#http://137.204.128.125/places/4"
-                            key="#Cities #Burgi #Houses #Palatium #Walls #Roads #Districtio #Incastellamento #Urban_communities"
+                            key="#Cities #Burgi #Houses #Fiscal_property #Object #Palatium #Walls #Roads #Districtio #Incastellamento #Urban_communities"
                             >Lucane</placeName>
                         <rs key="#Cities">civitatis</rs>, antiquum sive novum, di distruggere le <rs
                             key="#Houses">domos</rs> costruite o in corso di edificazione infra
-                        murum hunc e circa in suburbio. Concede che <rs key="#Palatium">nostrum
-                            regalem palatium</rs> infra civitatem vel in <rs key="#Burgi">burgo</rs>
-                        eorum non edificent aut inibi vi vel potestate hospitia capiantur; che
-                        nessuno esiga da loro il <rs key="#Fodrum">fodrum</rs> e la <rs
-                            key="#Teloneum">curaturam</rs> a <placeName key="#Fodrum #Teloneum"
+                        murum hunc e circa in suburbio. Concede che <rs
+                            key="#Fiscal_property #Object #Palatium">nostrum regalem palatium</rs>
+                        infra civitatem vel in <rs key="#Burgi">burgo</rs> eorum non edificent aut
+                        inibi vi vel potestate hospitia capiantur; che nessuno esiga da loro il <rs
+                            key="#Fodrum">fodrum</rs> e la <rs key="#Teloneum">curaturam</rs> a
+                            <placeName key="#Fodrum #Teloneum"
                             ref="#http://137.204.128.125/places/65">Papia</placeName> usque
                             <placeName ref="#http://137.204.128.125/places/52"
                             key="#Fodrum #Teloneum">Romam</placeName> ac <rs key="Tolls"
@@ -139,9 +140,9 @@
                             ref="#http://137.204.128.125/people/1">Bonifatii</persName>
                         <rs key="#Marquis/duke">marchionis</rs> duriter eisdem hominibus impositas
                         omnino interdicimus et ne ulterius fiant precipimus; concede, inoltre, che
-                        le securitates fissate con loro dai marchesi vel alia quelibet potestas
-                        rimangano firme et rate. Ordina che nessun <rs key="#Lombard"
-                            >Longobardus</rs>
+                        le securitates fissate con loro dai
+                        marchesi vel alia quelibet potestas rimangano firme et rate. Ordina che
+                        nessun <rs key="#Lombard">Longobardus</rs>
                         <rs key="#Judge">iudex</rs> possa tenere <rs key="#Assembly">giudizio aut
                             placitum</rs> nella città e nel borgo nisi nostra aut filii nostri regni
                         presente persona vel etiam <rs key="#Chancellor">cancellarii nostri</rs>.

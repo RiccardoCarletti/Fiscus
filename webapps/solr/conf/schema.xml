@@ -155,7 +155,9 @@
      multiValued="true" required="false" type="string" />
    <field name="person_name" stored="true" indexed="true"
      multiValued="true" required="false" type="string" />   
-   <field name="mentioned_keywords" stored="true" indexed="true"
+   <field name="mentioned_keywords_-_categories" stored="true" indexed="true"
+     multiValued="true" required="false" type="string" />
+   <field name="mentioned_keywords_-_terms" stored="true" indexed="true"
      multiValued="true" required="false" type="string" />
    <field name="mentioned_dates" stored="true" indexed="true"
      multiValued="true" required="false" type="string" />

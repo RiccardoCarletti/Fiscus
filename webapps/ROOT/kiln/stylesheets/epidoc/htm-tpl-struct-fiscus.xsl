@@ -459,7 +459,7 @@
     <a target="_blank">
       <xsl:attribute name="href">
         <xsl:value-of
-          select="concat('../texts/people.html#', substring-after(substring-after(translate(@ref, '#', ''), 'http://137.204.128.125/'), '/'))"
+          select="concat('../texts/people.html#', substring-after(translate(@ref, '#', ''), 'people/'))"
         />
       </xsl:attribute>
       <span class="persName">
@@ -473,7 +473,7 @@
     <a target="_blank">
       <xsl:attribute name="href">
         <xsl:value-of
-          select="concat('../texts/places.html#', substring-after(substring-after(translate(@ref, '#', ''), 'http://137.204.128.125/'), '/'))"
+          select="concat('../texts/places.html#', substring-after(translate(@ref, '#', ''), 'places/'))"
         />
       </xsl:attribute>
       <span class="placeName">
@@ -487,7 +487,7 @@
     <a target="_blank">
       <xsl:attribute name="href">
         <xsl:value-of
-          select="concat('../texts/juridical_persons.html#', substring-after(substring-after(translate(@ref, '#', ''), 'http://137.204.128.125/'), '/'))"
+          select="concat('../texts/juridical_persons.html#', substring-after(translate(@ref, '#', ''), 'juridical_persons/'))"
         />
       </xsl:attribute>
       <span class="orgName">
@@ -501,7 +501,7 @@
     <a target="_blank">
       <xsl:attribute name="href">
         <xsl:value-of
-          select="concat('../texts/estates.html#', substring-after(substring-after(translate(@ref, '#', ''), 'http://137.204.128.125/'), '/'))"
+          select="concat('../texts/estates.html#', substring-after(translate(@ref, '#', ''), 'estates/'))"
         />
       </xsl:attribute>
       <span class="geogName">

@@ -160,6 +160,8 @@
                     <note>Microtoponomastica: <foreign>Dardatico</foreign>; <foreign>terra
                             Freiorese</foreign>; <foreign>Supto Ripa</foreign>; <foreign>Vinea
                             Berte</foreign></note>
+                    <link type="juridical_persons"
+                        corresp="#http://137.204.128.125/juridical_persons/71" subtype="link"/>
                 </place>
                 <place>
                     <placeName><foreign>Catiana</foreign> (Castelfranco di Sotto; Pisa)</placeName>
@@ -217,7 +219,7 @@
                 </place>
                 <place>
                     <placeName><foreign>Griliano</foreign></placeName>
-                    <geogName type="coord"><geo>0, 0</geo></geogName>
+                    <geogName type="coord"><geo/></geogName>
                     <idno>http://137.204.128.125/places/31</idno>
                     <note></note>
                 </place>
@@ -241,7 +243,7 @@
                 </place>
                 <place>
                     <placeName>Predalbora (Piacenza)</placeName>
-                    <geogName type="coord"><geo>45.21625206214063, 8.293893188238146; 45.22292799339423, 8.286163732409479; 45.23431881528846, 8.29482525587082; 45.24012999402467, 8.301339000463487; 45.2354063021579, 8.319860994815828; 45.218978453364016, 8.306558579206468; 45.21625206214063, 8.293893188238146</geo></geogName>
+                    <geogName type="coord"><geo>44.719021, 9.625032</geo></geogName>
                     <idno>http://137.204.128.125/places/35</idno>
                     <note>Frazione di Farini</note>
                 </place>
@@ -370,19 +372,23 @@
                     <geogName type="coord"><geo>46.116498450522876, 8.293138760964213</geo></geogName>
                     <idno>http://137.204.128.125/places/54</idno>
                     <note></note>
-                    <link type="estates" corresp="#http://137.204.128.125/estates/92"/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/92"
+                        subtype="hasConnectionWith"/>
                     <link type="people"
-                        corresp="#http://137.204.128.125/people/93 #http://137.204.128.125/people/74"/>
+                        corresp="#http://137.204.128.125/people/93 #http://137.204.128.125/people/74"
+                        subtype="link"/>
                 </place>
                 <place>
                     <placeName><foreign>Beura</foreign> (Beura-cardezza; Verbano-Cusio-Ossola)</placeName>
                     <geogName type="coord"><geo>46.07957, 8.29973</geo></geogName>
                     <idno>http://137.204.128.125/places/55</idno>
                     <note></note>
-                    <link type="places" corresp="#http://137.204.128.125/places/56"/>
+                    <link type="places" corresp="#http://137.204.128.125/places/56"
+                        subtype="hasConnectionWith"/>
                     <link type="estates"
-                        corresp="#http://137.204.128.125/estates/75 #http://137.204.128.125/estates/92"/>
-                    <link type="people" corresp="#http://137.204.128.125/people/74"/>
+                        corresp="#http://137.204.128.125/estates/75 #http://137.204.128.125/estates/92"
+                        subtype="hasConnectionWith"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/74" subtype="link"/>
                 </place>
                 <place>
                     <placeName>Invorio (Novara)</placeName>
@@ -593,12 +599,15 @@
                     <note/>
                 </place>
                 <place>
-                    <placeName>Aquisgrana (Germany)</placeName>
+                    <placeName>Aquisgrana (DE)</placeName>
                     <placeName type="other">Aachen</placeName>
                     <geogName type="coord"><geo>50.77479354528653,
                         6.084244691227872</geo></geogName>
                     <idno>http://137.204.128.125/places/83</idno>
                     <note/>
+                    <link type="people"
+                        corresp="#http://137.204.128.125/people/14 #http://137.204.128.125/people/118"
+                        subtype="link"/>
                 </place>
                 <place>
                     <placeName>Salerno</placeName>
@@ -629,7 +638,8 @@
                     <placeName type="other"/>
                     <geogName type="coord"><geo>43.078982, 10.678539</geo></geogName>
                     <idno>http://137.204.128.125/places/87</idno>
-                    <note/>
+                    <note>Microtoponimi: <foreign>Valli</foreign>; <foreign>Rio
+                        Merdancio</foreign></note>
                     <link type="estates" corresp="#http://137.204.128.125/estates/86"
                         subtype="hasConnectionWith"/>
                 </place>
@@ -645,7 +655,7 @@
                     <placeName type="other">Franciana</placeName>
                     <geogName type="coord"><geo>42.98468, 10.63095</geo></geogName>
                     <idno>http://137.204.128.125/places/89</idno>
-                    <note/>
+                    <note>Microtoponimi: Petralata; Cornachini; Rivus Pertuli; Notulo; Stagno; </note>
                     <link type="estates" corresp="#http://137.204.128.125/estates/85"
                         subtype="hasConnectionWith"/>
                     <link type="juridical_persons"
@@ -657,16 +667,19 @@
                     <geogName type="coord"><geo>46.1286177, 8.2784194</geo></geogName>
                     <idno>http://137.204.128.125/places/90</idno>
                     <note/>
-                    <link type="people" corresp="#http://137.204.128.125/people/93"/>
-                    <link type="estates" corresp="#http://137.204.128.125/estates/93"/>
-                    <link type="estates" corresp="#http://137.204.128.125/estates/92"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/93" subtype="link"/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/93"
+                        subtype="hasConnectionWith"/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/92"
+                        subtype="hasConnectionWith"/>
                 </place>
                 <place>
-                    <placeName><foreign>Cornino</foreign> (territorium)</placeName>
+                    <placeName><foreign>Cornino</foreign></placeName>
                     <placeName type="other"/>
                     <geogName type="coord"><geo>42.989447, 10.491567</geo></geogName>
                     <idno>http://137.204.128.125/places/91</idno>
-                    <note>Le coordinate, momentanee, sono quelle di Populonia</note>
+                    <note>Le coordinate, momentanee, sono quelle di Populonia. Microtoponimi:
+                            <foreign>Burdi</foreign></note>
                     <link type="estates" corresp="#http://137.204.128.125/estates/86"
                         subtype="hasConnectionWith"/>
                 </place>
@@ -676,9 +689,11 @@
                     <geogName type="coord"><geo>46.0039555, 8.3275904</geo></geogName>
                     <idno>http://137.204.128.125/places/92</idno>
                     <note/>
-                    <link type="people" corresp="#http://137.204.128.125/people/93"/>
-                    <link type="estates" corresp="#http://137.204.128.125/estates/94"/>
-                    <link type="estates" corresp="#http://137.204.128.125/estates/92"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/93" subtype="link"/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/94"
+                        subtype="hasConnectionWith"/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/92"
+                        subtype="hasConnectionWith"/>
                 </place>
                 <place>
                     <placeName>Lomese (Montecrestese; Verbano-Cusio-Ossola)</placeName>
@@ -688,8 +703,10 @@
                     <idno>http://137.204.128.125/places/93</idno>
                     <note/>
                     <link type="people" corresp="#http://137.204.128.125/people/93" subtype="link"/>
-                    <link type="estates" corresp="#http://137.204.128.125/estates/95"/>
-                    <link type="estates" corresp="#http://137.204.128.125/estates/92"/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/95"
+                        subtype="hasConnectionWith"/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/92"
+                        subtype="hasConnectionWith"/>
                 </place>
                 <place>
                     <placeName>Redù (Nonantola; Modena)</placeName>
@@ -740,19 +757,21 @@
                     <note/>
                 </place>
                 <place>
-                    <placeName>Formigliana</placeName>
-                    <placeName type="other">Firminiana</placeName>
+                    <placeName>Formigliana (Vercelli)</placeName>
+                    <placeName type="other"><foreign>Firminiana</foreign></placeName>
                     <geogName type="coord"><geo>45.429178, 8.291073</geo></geogName>
                     <idno>http://137.204.128.125/places/99</idno>
                     <note/>
-                    <link type="people" corresp="#http://137.204.128.125/people/33"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/33" subtype="link"/>
                     <link type="juridical_persons"
-                        corresp="#http://137.204.128.125/juridical_persons/81"/>
-                    <link type="estates" corresp="#http://137.204.128.125/estates/96"/>
+                        corresp="#http://137.204.128.125/juridical_persons/81" subtype="link"/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/96"
+                        subtype="hasConnectionWith"/>
                 </place>
                 <place>
-                    <placeName>Langosco</placeName>
-                    <placeName type="other">Langusco (Vercelli)</placeName>
+                    <placeName>Langosco (Caresana; Vercelli)</placeName>
+                    <placeName type="other"><foreign>Langusco</foreign>
+                    </placeName>
                     <geogName type="coord"><geo>45.225624, 8.510349</geo></geogName>
                     <idno>http://137.204.128.125/places/100</idno>
                     <note/>
@@ -760,8 +779,8 @@
                         subtype="hasConnectionWith"/>
                 </place>
                 <place>
-                    <placeName>Asigliano Vercellese</placeName>
-                    <placeName type="other">Pasiliano</placeName>
+                    <placeName>Asigliano Vercellese (Vercelli)</placeName>
+                    <placeName type="other"><foreign>Pasiliano</foreign></placeName>
                     <geogName type="coord"><geo>45.258697, 8.408833</geo></geogName>
                     <idno>http://137.204.128.125/places/101</idno>
                     <note/>
@@ -769,20 +788,21 @@
                         subtype="hasConnectionWith"/>
                 </place>
                 <place>
-                    <placeName>Cortereggio</placeName>
+                    <placeName>Cortereggio (Torino)</placeName>
                     <placeName type="other"/>
                     <geogName type="coord"><geo>45.298075, 7.785873</geo></geogName>
                     <idno>http://137.204.128.125/places/102</idno>
                     <note/>
-                    <link type="estates" corresp="#http://137.204.128.125/estates/60"/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/60"
+                        subtype="hasConnectionWith"/>
                 </place>
                 <place>
-                    <placeName>Valchiusella</placeName>
+                    <placeName>Valchiusella (Traversella; Torino)</placeName>
                     <placeName type="other"/>
                     <geogName type="coord"><geo>45.506106, 7.750168</geo></geogName>
                     <idno>http://137.204.128.125/places/103</idno>
                     <note>Le coordinate di localizzazione si basano su Traversella, comune
-                        all'imbocco della Val chiusella</note>
+                        all'imbocco della Val Chiusella.</note>
                     <link type="people"
                         corresp="#http://137.204.128.125/people/32 #http://137.204.128.125/people/33"
                         subtype="link"/>
@@ -797,18 +817,18 @@
                     <geogName type="coord"><geo/></geogName>
                     <idno>http://137.204.128.125/places/104</idno>
                     <note>Il ponte Notingo è situato presso Matasco (si veda Panero 2014) non
-                        localizzabile nelle carte</note>
+                        localizzabile nelle carte.</note>
                     <link type="people"
                         corresp="#http://137.204.128.125/people/32 #http://137.204.128.125/people/33"/>
                     <link type="juridical_persons"
                         corresp="#http://137.204.128.125/juridical_persons/81"/>
-                    <link type="people" corresp="#http://137.204.128.125/people/1409"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/109"/>
                 </place>
                 <place>
-                    <placeName>Occimiano </placeName>
+                    <placeName>Occimiano (Alessandria)</placeName>
                     <placeName type="other"/>
                     <geogName type="coord"><geo>45.059699, 8.509769</geo></geogName>
-                    <idno>http://137.204.128.125/places/</idno>
+                    <idno>http://137.204.128.125/places/105</idno>
                     <note/>
                     <link type="estates" corresp="#http://137.204.128.125/estates/98"
                         subtype="hasConnectionWith"/>
@@ -817,7 +837,546 @@
                     <link type="people" corresp="#http://137.204.128.125/people/32" subtype="link"/>
                     <link type="people" corresp="#http://137.204.128.125/people/33" subtype="link"/>
                 </place>
-                
+                <place>
+                    <placeName>Vercelli</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>45.324392, 8.42411</geo></geogName>
+                    <idno>http://137.204.128.125/places/106</idno>
+                    <note/>
+                    <link type="juridical_persons"
+                        corresp="#http://137.204.128.125/juridical_persons/81" subtype="link"/>
+                </place>
+                <place>
+                    <placeName>Trecate (Novara)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>45.431226, 8.734818</geo></geogName>
+                    <idno>http://137.204.128.125/places/107</idno>
+                    <note/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/89"
+                        subtype="hasConnectionWith"/>
+                </place>
+                <place>
+                    <placeName>Cassano d'Adda (Milano)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>45.526070, 9.516780</geo></geogName>
+                    <idno>http://137.204.128.125/places/108</idno>
+                    <note/>
+                    <link type="people" corresp="#http://137.204.128.125/people/80" subtype="link"/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/100"
+                        subtype="hasConnectionWith"/>
+                </place>
+                <place>
+                    <placeName>Cassino (Frosinone)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>41.521945, 13.879852</geo></geogName>
+                    <idno>http://137.204.128.125/places/109</idno>
+                    <note/>
+                    <link type="juridical_persons"
+                        corresp="#http://137.204.128.125/juridical_persons/84" subtype="link"/>
+                </place>
+                <place>
+                    <placeName>Benevento</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>41.127987, 14.783478</geo></geogName>
+                    <idno>http://137.204.128.125/places/110</idno>
+                    <note/>
+                    <link type="people" corresp="#http://137.204.128.125/people/111" subtype="link"/>
+                    <link type="juridical_persons"
+                        corresp="#http://137.204.128.125/juridical_persons/" subtype="link"/>
+                </place>
+                <place>
+                    <placeName>Telese (Benevento)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>41.216241, 14.527016</geo></geogName>
+                    <idno>http://137.204.128.125/places/111</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>Alife (Caserta)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>41.326295, 14.334412</geo></geogName>
+                    <idno>http://137.204.128.125/places/112</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>Hochburg (Ö)</placeName>
+                    <placeName type="other">Hohbaerahah</placeName>
+                    <geogName type="coord"><geo>48.130000, 12.877460</geo></geogName>
+                    <idno>http://137.204.128.125/places/113</idno>
+                    <note/>
+                    <link type="people" corresp="#http://137.204.128.125/people/80" subtype="link"/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/104"
+                        subtype="hasConnectionWith"/>
+                </place>
+                <place>
+                    <placeName>Ötting (DE)</placeName>
+                    <placeName type="other">Otinga</placeName>
+                    <geogName type="coord"><geo>48.873138, 10.804310</geo></geogName>
+                    <idno>http://137.204.128.125/places/114</idno>
+                    <note/>
+                    <link type="people" corresp="#http://137.204.128.125/people/80" subtype="link"/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/106"
+                        subtype="hasConnectionWith"/>
+                </place>
+                <place>
+                    <placeName>Castagneto Carducci (Livorno)</placeName>
+                    <placeName type="other">Castagneto</placeName>
+                    <geogName type="coord"><geo>43.160742, 10.611006</geo></geogName>
+                    <idno>http://137.204.128.125/places/126</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName><foreign>Biserno</foreign> (Cave di Calcare; S. Vincenzo; Livorno)</placeName>
+                    <placeName type="other"><foreign>Biserno</foreign></placeName>
+                    <geogName type="coord"><geo>43.06638, 10.553978</geo></geogName>
+                    <idno>http://137.204.128.125/places/127</idno>
+                    <note/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/87"
+                        subtype="isPartOf"/>
+                </place>
+                <place>
+                    <placeName>Volterra (Pisa)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>43.400337, 10.860019</geo></geogName>
+                    <idno>http://137.204.128.125/places/128</idno>
+                    <note/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/107"
+                        subtype="hasConnectionWith"/>
+                </place>
+                <place>
+                    <placeName>San Lorenzo (Suvereto; Livorno)</placeName>
+                    <placeName type="other">Monte Sancti Lurentii</placeName>
+                    <geogName type="coord"><geo>43.044183, 10.709639</geo></geogName>
+                    <idno>http://137.204.128.125/places/129</idno>
+                    <note/>
+                    <link type="places" corresp="#http://137.204.128.125/places/91"
+                        subtype="hasConnectionWith"/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/86"
+                        subtype="isPartOf"/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/87"
+                        subtype="isPartOf"/>
+                </place>
+                <place>
+                    <placeName><foreign>Piscina Lifredi</foreign> (Case Pescinone; Suvereto; Livorno)</placeName>
+                    <placeName type="other"><foreign>Piscina Liufredi</foreign></placeName>
+                    <geogName type="coord"><geo>43.055132667147, 10.6615726707898</geo></geogName>
+                    <idno>http://137.204.128.125/places/130</idno>
+                    <note>Identificata con Pescinone lungo l’Aurelia km 241 in Ceccarelli 2004:
+                        59-60 nt. 8. Meglio Case Pescinone (Suvereto; Livorno) nei pressi di
+                        Cafaggio (e quindi di Livellaria).</note>
+                    <link type="places" corresp="#http://137.204.128.125/places/91"
+                        subtype="isPartOf"/>
+                </place>
+                <place>
+                    <placeName><foreign>Sancto Fridiano</foreign> (Podere San Frediano; Piombino; Livorno)</placeName>
+                    <placeName type="other"><foreign>Sancto Fridiano</foreign></placeName>
+                    <geogName type="coord"><geo>43.0291341338974, 10.6594400220373</geo></geogName>
+                    <idno>http://137.204.128.125/places/131</idno>
+                    <note>Podere S. Frediano (Piombino; Livorno) 2 km S-SE Casalappi: Ceccarelli
+                        1985: 23 nt. 27; Ceccarelli 2004: 41 e note 71-72. Microtoponimi:
+                            <foreign>Pratale</foreign></note>
+                    <link type="places" corresp="#http://137.204.128.125/places/91"
+                        subtype="isPartOf"/>
+                    <link type="estates" subtype="isPartOf"
+                        corresp="#http://137.204.128.125/estates/87"/>
+                </place>
+                <place>
+                    <placeName>Vignale Vecchio (Piombino; Livorno)</placeName>
+                    <placeName type="other">Vignale</placeName>
+                    <geogName type="coord"><geo>42.972561, 10.689564</geo></geogName>
+                    <idno>http://137.204.128.125/places/132</idno>
+                    <note>Ceccarelli 2004: 6 nt. 38</note>
+                    <link type="places"/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/87"
+                        subtype="isPartOf"/>
+                </place>
+                <place>
+                    <placeName>Casalappi (Campiglia Marittima; Livorno)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>43.0199559089385, 10.6868214832671</geo></geogName>
+                    <idno>http://137.204.128.125/places/133</idno>
+                    <note>Ceccarelli 2004: 6 nt. 37; 19 nt. 107. Microtoponimi:
+                            <foreign>Parentorum</foreign>; <foreign>Curte
+                        Albertinga</foreign></note>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/86"
+                        subtype="isPartOf"/>
+                </place>
+                <place>
+                    <placeName><foreign>Livellaria</foreign> (in Campiglia Marittima; Livorno)</placeName>
+                    <placeName type="other"><foreign>Libellaria</foreign></placeName>
+                    <geogName type="coord"><geo>41.5767586776, 10.6405316719874</geo></geogName>
+                    <idno>http://137.204.128.125/places/134</idno>
+                    <note>Località perduta nell’area di Casalappi (Ceccarelli 1985: 23 nt. 27;
+                        Ceccarelli 2004: 41 note 69-70). È sulla Cornia e sulla Cornia morta; è in
+                        Cornino e nel vescovato di Populonia; è nella <foreign>curtis</foreign> di
+                        Casalappi. Come coordinate si indicano provvisoriamente quelle di Cafaggio.
+                        Microtoponimi: Cafaggio; Ribocchi; <foreign>Parentorum</foreign>;
+                            <foreign>Fossa Peterni</foreign>. Nei pressi della <foreign>Cornia
+                            mortua</foreign></note>
+                    <link type="places" corresp="#http://137.204.128.125/places/91"
+                        subtype="isPartOf"/>
+                    <link type="estates"
+                        corresp="#http://137.204.128.125/estates/86 #http://137.204.128.125/estates/87"
+                        subtype="isPartOf"/>
+                    <link type="places" corresp="#http://137.204.128.125/places/133"
+                        subtype="hasConnectionWith"/>
+                </place>
+                <place>
+                    <placeName>Barbialla (Montaione; Firenze)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>43.588279, 10.85903</geo></geogName>
+                    <idno>http://137.204.128.125/places/135</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>Malborghetto (Roma)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>42.062614, 12.486115</geo></geogName>
+                    <idno>http://137.204.128.125/places/136</idno>
+                    <note/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/102"
+                        subtype="hasConnectionWith"/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/118"
+                        subtype="hasConnectionWith"/>
+                </place>
+                <place>
+                    <placeName>Ninfa (Latina)</placeName>
+                    <placeName type="other">Giardino di Ninfa</placeName>
+                    <geogName type="coord"><geo>41.577112, 12.95033</geo></geogName>
+                    <idno>http://137.204.128.125/places/137</idno>
+                    <note/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/108"
+                        subtype="hasConnectionWith"/>
+                </place>
+                <place>
+                    <placeName>Norma (Latina)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>41.587722, 12.969578</geo></geogName>
+                    <idno>http://137.204.128.125/places/138</idno>
+                    <note/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/109"
+                        subtype="hasConnectionWith"/>
+                </place>
+                <place>
+                    <placeName><foreign>Aureliano</foreign> (Roma)</placeName>
+                    <placeName><foreign>Aurelianum</foreign></placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>41.879466, 12.463156</geo></geogName>
+                    <idno>http://137.204.128.125/places/139</idno>
+                    <note>Località oggi scomparsa localizzabile grazie alla sua prossimità con
+                        l'antica chiesa di Abdon e Sennen (oggi a Roma in Via Alessandro Poerio 55):
+                        De Francesco 2004: 208. </note>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/101"
+                        subtype="hasConnectionWith"/>
+                </place>
+                <place>
+                    <placeName>Lizzano in Belvedere (Bologna)</placeName>
+                    <placeName type="other"><foreign>Licianum</foreign></placeName>
+                    <geogName type="coord"><geo>44.161273, 10.894189</geo></geogName>
+                    <idno>http://137.204.128.125/places/140</idno>
+                    <note/>
+                    <link type="juridical_persons"
+                        corresp="#http://137.204.128.125/juridical_persons/89" subtype="link"/>
+                    <link type="juridical_persons"
+                        corresp="#http://137.204.128.125/juridical_persons/80" subtype="link"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/49" subtype="link"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/94" subtype="link"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/48" subtype="link"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/14" subtype="link"/>
+                    <link type="juridical_persons"
+                        corresp="#http://137.204.128.125/juridical_persons/47" subtype="link"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/117" subtype="link"/>
+                </place>
+                <place>
+                    <placeName>Cà Cameazzo (Fiorano Modenese; Modena)</placeName>
+                    <placeName type="other"><foreign>Campo Miliacio</foreign></placeName>
+                    <geogName type="coord"><geo/></geogName>
+                    <idno>http://137.204.128.125/places/141</idno>
+                    <note>Manarini 2017.</note>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/110"
+                        subtype="isMadeOf"/>
+                </place>
+                <place>
+                    <placeName>Sticciano (Grosseto)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>42.923094, 11.142339 </geo></geogName>
+                    <idno>http://137.204.128.125/places/142</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>Buriano (Grosseto)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>42.84521, 10.988572 </geo></geogName>
+                    <idno>http://137.204.128.125/places/143</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>Montecristo (Isola di) (Portoferraio; Livorno)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>42.33217, 10.30934</geo></geogName>
+                    <idno>http://137.204.128.125/places/144</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>Nogara (Verona)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>45.176229, 11.065121</geo></geogName>
+                    <idno>http://137.204.128.125/places/145</idno>
+                    <note/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/116"
+                        subtype="isMadeOf"/>
+                </place>
+                <place>
+                    <placeName>Campiglia Marittima (Livorno)</placeName>
+                    <placeName type="other"><foreign>Campilia</foreign></placeName>
+                    <geogName type="coord"><geo>43.060628, 10.615496</geo></geogName>
+                    <idno>http://137.204.128.125/places/146</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>Milano</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>45.274068, 9.093420</geo></geogName>
+                    <idno>http://137.204.128.125/places/147</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>Sasso Pisano (Pisa)</placeName>
+                    <placeName type="other">Sasso</placeName>
+                    <geogName type="coord"><geo>43.167501, 10.864923</geo></geogName>
+                    <idno>http://137.204.128.125/places/148</idno>
+                    <note/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/107"
+                        subtype="isPartOf"/>
+                </place>
+                <place>
+                    <placeName><foreign>Monticelli</foreign> (Il Poggetto; Suvereto; Livorno)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>43.055220011781, 10.6661683435449</geo></geogName>
+                    <idno>http://137.204.128.125/places/149</idno>
+                    <note>Ceccarelli 2004: 34 note 4-5 (sul rio Merdancio, presso Suvereto = S.
+                        Giusto, prima pieve di Suvereto)</note>
+                </place>
+                <place>
+                    <placeName>Cornaredo (Milano)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>45.501541, 9.023960</geo></geogName>
+                    <idno>http://137.204.128.125/places/150</idno>
+                    <note/>
+                    <link type="people" corresp="#http://137.204.128.125/people/21" subtype="link"/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/111"
+                        subtype="hasConnectionWith"/>
+                </place>
+                <place>
+                    <placeName>Losanna (CH)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>46.521784, 6.632996</geo></geogName>
+                    <idno>http://137.204.128.125/places/151</idno>
+                    <note/>
+                    <link type="people" corresp="#http://137.204.128.125/people132" subtype="link"/>
+                </place>
+                <place>
+                    <placeName><foreign>Anniano</foreign> (Sant'Ippolito; Santa Maria a Monte; Pisa)</placeName>
+                    <placeName type="other"><foreign>Aniani</foreign></placeName>
+                    <geogName type="coord"><geo>43.6917156, 10.7074629 </geo></geogName>
+                    <idno>http://137.204.128.125/places/152</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>Lugano (CH)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>46.003677, 8.951052</geo></geogName>
+                    <idno>http://137.204.128.125/places/153</idno>
+                    <note/>
+                    <link type="people" corresp="#http://137.204.128.125/people/21" subtype="link"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/133" subtype="link"
+                    />
+                </place>
+                <place>
+                    <placeName>Ripoli (Cerreto Guidi; Firenze)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>43.7228654, 10.8314277</geo></geogName>
+                    <idno>http://137.204.128.125/places/154</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>Prato</placeName>
+                    <placeName type="other"><foreign>Cornio</foreign></placeName>
+                    <geogName type="coord"><geo>43.880573, 11.097565</geo></geogName>
+                    <idno>http://137.204.128.125/places/155</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>Vaiano (Prato)</placeName>
+                    <placeName type="other"><foreign>Valiano</foreign></placeName>
+                    <geogName type="coord"><geo>43.969098, 11.124344</geo></geogName>
+                    <idno>http://137.204.128.125/places/156</idno>
+                    <note>Microtoponimastica: <foreign>Canpo Vitallani</foreign>.</note>
+                </place>
+                <place>
+                    <placeName><foreign>Belora</foreign> (Casa Bellora; Riparbella; Pisa)</placeName>
+                    <placeName type="other"><foreign>Bellare</foreign></placeName>
+                    <geogName type="coord"><geo>43.34444, 10.55817</geo></geogName>
+                    <idno>http://137.204.128.125/places/157</idno>
+                    <note>Repetti 1833-1846: I, 358; VI, 25.</note>
+                </place>
+                <place>
+                    <placeName>Trieste </placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>45.648848, 13.793335</geo></geogName>
+                    <idno>http://137.204.128.125/places/158</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>Fosso di Pratolongo (Roma)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>41.930267, 12.588627; 41.939246, 12.603465;
+                            41.940598, 12.587086</geo></geogName>
+                    <idno>http://137.204.128.125/places/159</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName><foreign>Lauretum</foreign> (tra Tor Paterno e Pratica di Mare; Roma)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>41.663763, 12.479039; 41.642344, 12.438763;
+                            41.715414, 12.317836; 41.740195, 12.374846 × </geo></geogName>
+                    <idno>http://137.204.128.125/places/160</idno>
+                    <note>Località scomparsa situata lungo la costa tra Tor Paterno e Pratica di Mare: cfr. De Francesco 2004: 246-248</note>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/119"
+                        subtype="hasConnectionWith"/>
+                  </place>
+                  <place>
+                    <placeName><foreign>Natiso</foreign> (fiume Natisone; Udine)</placeName>
+                    <placeName type="other">Natissum; Naticione </placeName>
+                    <geogName type="coord"><geo>45.957594, 13.376541</geo></geogName>
+                    <idno>http://137.204.128.125/places/160</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName><foreign>Valiano</foreign> (Il Santo; Ponsacco; Pisa)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>43.6267401, 10.6569622</geo></geogName>
+                    <idno>http://137.204.128.125/places/161</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName><foreign>Anfora</foreign> (canale Anfora; Udine)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>45.764529, 13.338947</geo></geogName>
+                    <idno>http://137.204.128.125/places/162</idno>
+                    <note/>
+                    <link type="places" corresp="#http://137.204.128.125/places/160"
+                        subtype="isPartOf"/>
+                    <link type="juridical_persons"
+                        corresp="#http://137.204.128.125/juridical_persons/92" subtype="link"/>
+                </place>
+                <place>
+                    <placeName><foreign>Feruniano</foreign> (Sant'Andrea; Palaia; Pisa)</placeName>
+                    <placeName type="other"><foreign>Fereniano</foreign></placeName>
+                    <geogName type="coord"><geo>43.6092697; 10.6887074</geo></geogName>
+                    <idno>http://137.204.128.125/places/163</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>Siena</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>43.318684, 11.332397</geo></geogName>
+                    <idno>http://137.204.128.125/places/164</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>Sesto di Moriano (Lucca)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>43.91670510779723,
+                        10.525933856767947</geo></geogName>
+                    <idno>http://137.204.128.125/places/165</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>Tempagnano (Lucca)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>43.8500635, 10.544512</geo></geogName>
+                    <idno>http://137.204.128.125/places/166</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>Valdottavo (Borgo a Mozzano; Lucca)</placeName>
+                    <placeName type="other"><foreign>Octavo</foreign></placeName>
+                    <geogName type="coord"><geo>43.943148, 10.478554</geo></geogName>
+                    <idno>http://137.204.128.125/places/167</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>Fondagno (Pescaglia; Lucca)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>43.9498694, 10.4522601</geo></geogName>
+                    <idno>http://137.204.128.125/places/168</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>Anchiano (Borgo a Mozzano; Lucca)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>43.9682009, 10.5312118 </geo></geogName>
+                    <idno>http://137.204.128.125/places/169</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>Diecimo (Borgo a Mozzano; Lucca)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>43.9640727, 10.5091324</geo></geogName>
+                    <idno>http://137.204.128.125/places/170</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>Borgo a Mozzano (Lucca)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>43.978981, 10.546188</geo></geogName>
+                    <idno>http://137.204.128.125/places/171</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>Fibbialla (Camaiore; Lucca)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>43.8870731; 10.3800445</geo></geogName>
+                    <idno>http://137.204.128.125/places/172</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>Capua (Caserta)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>41.09971, 14.22013</geo></geogName>
+                    <idno>http://137.204.128.125/places/173</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>Teano (Caserta)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>41.25132, 14.06652</geo></geogName>
+                    <idno>http://137.204.128.125/places/174</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName><foreign>Sovigliana</foreign> (Villa San Marco; Terricciola;
+                        Pisa)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>43.5697146, 10.6363053</geo></geogName>
+                    <idno>http://137.204.128.125/places/175</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>Castiglion Bernardi</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo/></geogName>
+                    <idno>http://137.204.128.125/places/176</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>Vairano Patenora (Caserta)</placeName>
+                    <placeName type="other">Bairano</placeName>
+                    <geogName type="coord"><geo>41.33702, 14.13112</geo></geogName>
+                    <idno>http://137.204.128.125/places/177</idno>
+                    <note/>
+                </place>                
             </listPlace>
         </body>
     </text>
