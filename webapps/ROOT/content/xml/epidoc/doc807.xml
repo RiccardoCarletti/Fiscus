@@ -82,7 +82,10 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>Ego <persName key="#Bishops">Petrus Regimus</persName>
+                    <ab>Ego <persName key="#Bishops" ref="#http://137.204.128.125/people/163"
+                            >Petrus</persName>
+                        <placeName ref="#http://137.204.128.125/places/191" key="#Bishops"
+                            >Regimus</placeName>
                         <rs key="#Bishops">episcopus</rs> ex delegatione domini <rs key="#Popes"
                             >pape</rs> Innocentii cognitor litis quam faciebat dominus <persName
                             ref="#http://137.204.128.125/people/16" key="#Abbots"
@@ -123,7 +126,7 @@
                 <p/>
             </div>
             <div type="commentary">
-                <p/>
+                <p>Documento che si trova in un registro di S. Sisto.</p>
             </div>
         </body>
     </text>
