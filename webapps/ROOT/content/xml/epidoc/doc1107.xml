@@ -31,9 +31,9 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#"/>
-                            <rs type="record_source" ref="#"/>
-                            <rs type="document_tradition" ref="#"/>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
                             <rs type="fiscal_property"/>
                         </summary>
                         <msItem xml:id="msItem1">
@@ -42,10 +42,10 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate notBefore="0001" notAfter="0001" when="0001">
-                                <note type="displayed_date"/>
+                            <origDate when="0898-11-06">
+                                <note type="displayed_date">898 november 6</note>
                                 <note type="dating_elements"/>
-                                <note type="topical_date"/>
+                                <note type="topical_date">Pavia</note>
                             </origDate>
                             <origPlace/>
                         </origin>
@@ -73,7 +73,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2021-02-08">creation of record</change>
+                <change when="2021-02-08" who="Chiara Stedile">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -145,7 +145,7 @@
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p/>
+                <p>Schiaparelli, <foreign>I diplomi di Berengario I</foreign>, pp. 60-62, n° XX</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>
