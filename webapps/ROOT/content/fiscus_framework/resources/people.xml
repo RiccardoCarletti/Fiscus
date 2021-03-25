@@ -1015,6 +1015,7 @@
                     <link type="places" corresp="#http://137.204.128.125/places/110" subtype="hasConnectionWith"/>
                     <link type="people" corresp="#http://137.204.128.125/people/157"
                         subtype="fatherOf"/>
+                    <link type="people" subtype="link" corresp="#http://137.204.128.125/people/159"/>
                 </person>
                 <person>
                     <persName>Pandolf (944-981) princeps</persName>
@@ -1027,6 +1028,7 @@
                         subtype="hasConnectionWith"/>
                     <link type="places" subtype="hasConnectionWith"
                         corresp="#http://137.204.128.125/places/173"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/159" subtype="link"/>
                 </person>
                 <person>
                     <persName>Gisulf (720?-751) dux</persName>
@@ -1035,10 +1037,16 @@
                     <note/>
                 </person>
                 <person>
-                    <persName>Paldo</persName>
+                    <persName>Paldo (944) iudex</persName>
                     <persName type="other"/>
                     <idno>http://137.204.128.125/people/159</idno>
                     <note/>
+                    <link type="people" corresp="#http://137.204.128.125/people/156"
+                        subtype="agentFor"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/157"
+                        subtype="agentFor"/>
+                    <link type="places" subtype="hasConnectionWith"
+                        corresp="#http://137.204.128.125/places/173"/>
                 </person>
                 
                 
