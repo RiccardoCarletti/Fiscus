@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc1440">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Archivio di Stato di Firenze, Diplomatico, Riformagioni. Atti Pubblici, 1029
+                    gennaio 3, n. 40 (Giorgetti, n. 39)</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus
+                        Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="uri">http://137.204.128.125/documents/doc1440</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Offersio/donatio</rs>
+                            <rs type="record_source" ref="#">Original document</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">Yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate notBefore="1122-03-01" notAfter="1122-03-24">
+                                <note type="displayed_date">1122 marzo [1-24]</note>
+                                <note type="dating_elements">La data proposta si ricava pensando a
+                                    una datazione secondo l'anno dell'incanrnazione, stile
+                                    sense-fiorentino (usato anche altrove da Amerigo), e
+                                    all’indizione. Altrimenti (stile pisano, datazione
+                                        <foreign>post</foreign> 24 marzo) ci sarebbe uno scostamento
+                                    di una o due unità rispetto all’indizione.</note>
+                                <note type="topical_date">Suvereto</note>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-03-25" who="scollavini">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>Da Monte Maccaio a Suvereto. In nomine domini nostri Iesu Christi. Anni ab
+                        incarnatione eius millesimo centesimo vigesimo primo, mense martii,
+                        indictione Va Xa. Manifestus sum ego <persName key="#Count"
+                            >Ildibrandus</persName>
+                        <rs key="#Count">comes</rs> filius Raineri <rs key="#Count">comitis</rs> et
+                        Maximilla <rs key="#Countess">comitissa</rs>, iugales, et filia Rugeri <rs
+                            key="#Count">comiti</rs>, et Lupa <rs key="#Countess">comitissa</rs>,
+                        relicta Malagalie, consentiente mihi prefato comite Ildebrando, in mundio
+                        cuius volo permanere, quia per hanc cartula donationis donamus et tradimus
+                        tibi, Mauro venerabili <rs key="#Abbots">abbati</rs> ex <rs
+                            key="#Monasteries">monasterio</rs> Sancti Quirici, idest unus <rs
+                            key="#Mansi">mansus</rs> terre, quod est in Monte Maccaio, cum <rs
+                            key="#Wine">vinea</rs> et <rs key="#Oil">oliveto</rs>, exceptis illis
+                        quae sunt Sancti Cipriani et Sancti Martini et Sancti Gerboni et Sancti
+                        Quirici, et rectus fuit per Benzonem, et designatus est ab omni parte,
+                        q[ui]a ex una parte est <rs key="#Landed_possessions">terra</rs> Sancti
+                        Petri de Monteviridi, ex altera parte tenet Rugerius <rs key="#Viscount"
+                            >vicecomes</rs>, desuper est terra Sancti Cerbonii, desubtus via, quem
+                        autem mansum suprascriptum una cum accessione et ingressione omnia in
+                        integrum sicut superius legitur prefato Mauro abbati donamus atque tradimus,
+                        ut vos et ecclesia vestra et successores vestri faciatis in(de) proprietario
+                        nomine iure quicquid volueritis, sine omni nostra nostrorumque heredum
+                        contradictione. Eo tamen tenore, si filii Malagalie <rs key="#Count"
+                            >comitis</rs> noluerint confirmare, cum integram etatem habuerint, <rs
+                            key="#Offersio/donatio">cartula</rs> quam nos fecimus abbati Sancti
+                        Quirici de medietatem omnium nostrarum terrarum, quam vos tenuistis ante unc
+                        diem in Franciani per <rs key="#Count">comitem</rs> Rainerium et <rs
+                            key="#Countess">comitissam</rs> Adalasia, et medietatem de ipso <rs
+                            key="#Castle">castellare</rs>, quam cartula si confirmaverunt, pacti
+                        sumus cum Mauro abbate qui et cartula, cum suprascripto manso de Monte
+                        Maccaiani, revertatur ad nos. Etiam promitto ego prefatus comes Ildebrandus
+                        et comitissa Maximilla et comitissa Lupa, una cum nostris heredibus, tibi
+                        Mauro abbati et tuis successoribus suprascripta nostram donatione defendere
+                        ab omni homine, quod si facere non potuerimus aut si prefatum mansum vobis
+                        tollere vel minuere voluerimus quovis ingenio, excepto si confirmatio facta
+                        fuerit alterius cartule a filiis Malagalie, si prefata conditjo non
+                        extiterit, promittimus nos una cum nostris heredibus tibi Mauro abbati et
+                        tuis successoribus prefatum mansum restituere in duplum, sicut pro tempore
+                        fuerit melioratus aut valuerit sub extimatione in consimili loco, quia inter
+                        nos taliter convenimus. Actum in <rs key="#Castle">castello</rs> de
+                        Suvereto. Signa manuum prefati comitis et comitissarum, qui que vero hanc
+                        cartula, qualiter supra legitur, scribere rogaverunt. Signa manuum Rugerii
+                            <rs key="#Viscount">vicecomitis</rs> filii Ildibrandi et Vulpelli filii
+                        Perli et B(er)ardini filii Petri Grassi et Malpilli filii eius et Raineri
+                        filii Rufinelli et Tancredi filii Ugiccionis et Salarii filii Valfredi de
+                        Tremali et Vazonis de Monte Liverenti. Ego Aimerigus <rs key="#Judge"
+                            >iudex</rs> et <rs key="#Notary">notarius</rs> domini inperatoris post
+                        tradita complevi et dedi. </ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>Giorgetti, n. 39</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
