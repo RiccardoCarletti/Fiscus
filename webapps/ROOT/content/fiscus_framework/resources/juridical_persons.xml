@@ -213,6 +213,8 @@
                         subtype="hasConnectionWith"/>
                     <link type="places" corresp="#http://137.204.128.125/places/149"
                         subtype="hasConnectionWith"/>
+                    <link type="places" corresp="#http://137.204.128.125/places/87"
+                        subtype="hasConnectionWith"/>
                 </org>
                 <org>
                     <orgName>Sanctus Petrus; episcopium (Bologna)</orgName>
@@ -266,6 +268,8 @@
                     <note/>
                     <link type="places" corresp="#http://137.204.128.125/places/109"
                         subtype="isWithin"/>
+                    <link type="juridical_persons"
+                        corresp="#http://137.204.128.125/juridical_persons/97" subtype="link"/>
                 </org>
                 <org>
                     <orgName>Sancta Sophia; monasterium (Benevento)</orgName>
@@ -371,6 +375,38 @@
                         subtype="hasConnectionWith"/>
                     <link type="people" corresp="#http://137.204.128.125/people/152" subtype="link"
                     />
+                </org>
+                <org>
+                    <orgName>Sancta Maria in Cingla; monasterium (Ailano; Caserta)</orgName>
+                    <orgName type="other"/>
+                    <idno>http://137.204.128.125/juridical_persons/97</idno>
+                    <note/>
+                    <link type="people" corresp="#http://137.204.128.125/people/159"
+                        subtype="professionalRelationship"/>
+                    <link type="juridical_persons"
+                        corresp="#http://137.204.128.125/juridical_persons/84" subtype="link"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/114" subtype="link"/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/121"
+                        subtype="hasConnectionWith"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/156"
+                        subtype="benefactorOf"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/157"
+                        subtype="benefactorOf"/>
+                    <link type="places" corresp="#http://137.204.128.125/places/193"
+                        subtype="isWithin"/>
+                </org>
+                <org>
+                    <orgName>Sancta Cecilia, <foreign>ecclesia</foreign> (Vairano Patenora;
+                        Caserta)</orgName>
+                    <orgName type="other"/>
+                    <idno>http://137.204.128.125/juridical_persons/98</idno>
+                    <note/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/121"
+                        subtype="isPartOf"/>
+                    <link type="juridical_persons"
+                        corresp="#http://137.204.128.125/juridical_persons/97" subtype="link"/>
+                    <link type="places" corresp="#http://137.204.128.125/places/177"
+                        subtype="isWithin"/>
                 </org>
              
             </listOrg>
