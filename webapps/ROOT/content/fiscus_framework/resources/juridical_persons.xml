@@ -381,8 +381,6 @@
                     <orgName type="other"/>
                     <idno>http://137.204.128.125/juridical_persons/97</idno>
                     <note/>
-                    <link type="people" corresp="#http://137.204.128.125/people/158"
-                        subtype="benefactorOf"/>
                     <link type="people" corresp="#http://137.204.128.125/people/159"
                         subtype="professionalRelationship"/>
                     <link type="juridical_persons"
@@ -390,9 +388,18 @@
                     <link type="people" corresp="#http://137.204.128.125/people/114" subtype="link"/>
                     <link type="estates" corresp="#http://137.204.128.125/estates/121"
                         subtype="hasConnectionWith"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/156"
+                        subtype="benefactorOf"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/157"
+                        subtype="benefactorOf"/>
                 </org>
                 <org>
+<<<<<<< HEAD
+                    <orgName>Sancta Cecilia, <foreign>ecclesia</foreign> (Vairano Patenora;
+                        Caserta)</orgName>
+=======
                     <orgName>Sancta Cecilia; <foreign>ecclesia</foreign></orgName>
+>>>>>>> 40b2aff4b0b8fba743a624ec0fd13341a188a6a3
                     <orgName type="other"/>
                     <idno>http://137.204.128.125/juridical_persons/98</idno>
                     <note/>
