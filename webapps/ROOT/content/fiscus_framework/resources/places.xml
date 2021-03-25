@@ -638,8 +638,8 @@
                     <placeName type="other"/>
                     <geogName type="coord"><geo>43.078982, 10.678539</geo></geogName>
                     <idno>http://137.204.128.125/places/87</idno>
-                    <note>Microtoponimi: <foreign>Valli</foreign>; <foreign>Rio
-                        Merdancio</foreign></note>
+                    <note>Microtoponimi: <foreign>Valli</foreign>; <foreign>Rio Merdancio</foreign>;
+                            <foreign>Monte Maccaio</foreign>/ <foreign>Monte Maccaiano</foreign>; </note>
                     <link type="estates" corresp="#http://137.204.128.125/estates/86"
                         subtype="hasConnectionWith"/>
                 </place>
@@ -1036,6 +1036,8 @@
                     <note/>
                     <link type="estates" corresp="#http://137.204.128.125/estates/102"
                         subtype="hasConnectionWith"/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/118"
+                        subtype="hasConnectionWith"/>
                 </place>
                 <place>
                     <placeName>Ninfa (Latina)</placeName>
@@ -1225,7 +1227,203 @@
                     <idno>http://137.204.128.125/places/158</idno>
                     <note/>
                 </place>
-                
+                <place>
+                    <placeName>Fosso di Pratolongo (Roma)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>41.930267, 12.588627; 41.939246, 12.603465;
+                            41.940598, 12.587086</geo></geogName>
+                    <idno>http://137.204.128.125/places/159</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName><foreign>Lauretum</foreign> (tra Tor Paterno e Pratica di Mare; Roma)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>41.663763, 12.479039; 41.642344, 12.438763;
+                            41.715414, 12.317836; 41.740195, 12.374846 × </geo></geogName>
+                    <idno>http://137.204.128.125/places/160</idno>
+                    <note>Località scomparsa situata lungo la costa tra Tor Paterno e Pratica di Mare: cfr. De Francesco 2004: 246-248</note>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/119"
+                        subtype="hasConnectionWith"/>
+                  </place>
+                  <place>
+                    <placeName><foreign>Natiso</foreign> (fiume Natisone; Udine)</placeName>
+                    <placeName type="other">Natissum; Naticione </placeName>
+                    <geogName type="coord"><geo>45.957594, 13.376541</geo></geogName>
+                    <idno>http://137.204.128.125/places/160</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName><foreign>Valiano</foreign> (Il Santo; Ponsacco; Pisa)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>43.6267401, 10.6569622</geo></geogName>
+                    <idno>http://137.204.128.125/places/161</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName><foreign>Anfora</foreign> (canale Anfora; Udine)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>45.764529, 13.338947</geo></geogName>
+                    <idno>http://137.204.128.125/places/162</idno>
+                    <note/>
+                    <link type="places" corresp="#http://137.204.128.125/places/160"
+                        subtype="isPartOf"/>
+                    <link type="juridical_persons"
+                        corresp="#http://137.204.128.125/juridical_persons/92" subtype="link"/>
+                </place>
+                <place>
+                    <placeName><foreign>Feruniano</foreign> (Sant'Andrea; Palaia; Pisa)</placeName>
+                    <placeName type="other"><foreign>Fereniano</foreign></placeName>
+                    <geogName type="coord"><geo>43.6092697; 10.6887074</geo></geogName>
+                    <idno>http://137.204.128.125/places/163</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>Siena</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>43.318684, 11.332397</geo></geogName>
+                    <idno>http://137.204.128.125/places/164</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>Sesto di Moriano (Lucca)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>43.91670510779723,
+                        10.525933856767947</geo></geogName>
+                    <idno>http://137.204.128.125/places/165</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>Tempagnano (Lucca)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>43.8500635, 10.544512</geo></geogName>
+                    <idno>http://137.204.128.125/places/166</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>Valdottavo (Borgo a Mozzano; Lucca)</placeName>
+                    <placeName type="other"><foreign>Octavo</foreign></placeName>
+                    <geogName type="coord"><geo>43.943148, 10.478554</geo></geogName>
+                    <idno>http://137.204.128.125/places/167</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>Fondagno (Pescaglia; Lucca)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>43.9498694, 10.4522601</geo></geogName>
+                    <idno>http://137.204.128.125/places/168</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>Anchiano (Borgo a Mozzano; Lucca)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>43.9682009, 10.5312118 </geo></geogName>
+                    <idno>http://137.204.128.125/places/169</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>Diecimo (Borgo a Mozzano; Lucca)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>43.9640727, 10.5091324</geo></geogName>
+                    <idno>http://137.204.128.125/places/170</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>Borgo a Mozzano (Lucca)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>43.978981, 10.546188</geo></geogName>
+                    <idno>http://137.204.128.125/places/171</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>Fibbialla (Camaiore; Lucca)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>43.8870731; 10.3800445</geo></geogName>
+                    <idno>http://137.204.128.125/places/172</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>Capua (Caserta)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>41.09971, 14.22013</geo></geogName>
+                    <idno>http://137.204.128.125/places/173</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>Teano (Caserta)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>41.25132, 14.06652</geo></geogName>
+                    <idno>http://137.204.128.125/places/174</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName><foreign>Sovigliana</foreign> (Villa San Marco; Terricciola;
+                        Pisa)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>43.5697146, 10.6363053</geo></geogName>
+                    <idno>http://137.204.128.125/places/175</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName><foreign>Castiglion Bernardi</foreign> (Podere Castiglioni Basso;
+                        Monterotondo Marittimo; Grosseto)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>43.1405075, 10.7878662</geo></geogName>
+                    <idno>http://137.204.128.125/places/176</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>Vairano Patenora (Caserta)</placeName>
+                    <placeName type="other">Bairano</placeName>
+                    <geogName type="coord"><geo>41.33702, 14.13112</geo></geogName>
+                    <idno>http://137.204.128.125/places/177</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName><foreign>Ito</foreign> (Prata; Massa Marittima; Grosseto)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>43.0832858, 10.9869582 </geo></geogName>
+                    <idno>http://137.204.128.125/places/178</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>Guamo (Lucca)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>43.811119, 10.512886</geo></geogName>
+                    <idno>http://137.204.128.125/places/179</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>San Lorenzo a Vaccoli (Lucca)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>43.799969, 10.483017</geo></geogName>
+                    <idno>http://137.204.128.125/places/180</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName><foreign>Monte Culaccio</foreign> (Podere di Monsolaccio;
+                        Terricciola; Pisa)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>43.5551328, 10.6853686</geo></geogName>
+                    <idno>http://137.204.128.125/places/181</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName><foreign>Castaniclo</foreign> (Villa Castagnicci; Ponsacco;
+                        Pisa)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>43.5991999, 10.6283247</geo></geogName>
+                    <idno>http://137.204.128.125/places/182</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>Verrua</placeName>
+                    <placeName type="other"><foreign>Verrucham</foreign></placeName>
+                    <placeName>Cappella (Lucca)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo/></geogName>
+                    <idno>http://137.204.128.125/places/184</idno>
+                    <note/>
+                </place>                
             </listPlace>
         </body>
     </text>
