@@ -668,6 +668,8 @@
                         subtype="isPartOf"/>
                     <link type="juridical_persons"
                         corresp="#http://137.204.128.125/juridical_persons/98" subtype="link"/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/123"
+                        subtype="hasInItsVicinity"/>
                 </place>
                 <place>
                     <geogName>Teano; <foreign>comitatus</foreign></geogName>
@@ -684,6 +686,24 @@
                         corresp="#http://137.204.128.125/juridical_persons/97" subtype="link"/>
                     <link type="people" corresp="#http://137.204.128.125/people/114" subtype="link"
                     />
+                    <link type="estates" corresp="#http://137.204.128.125/estates/123"
+                        subtype="hasConnectionWith"/>
+                </place>
+                <place>
+                    <geogName><foreign>Gruttule</foreign>; curtis</geogName>
+                    <geogName type="other"/>
+                    <idno>http://137.204.128.125/estates/123</idno>
+                    <note/>
+                    <link type="places" corresp="#http://137.204.128.125/places/177"
+                        subtype="hasInItsVicinity"/>
+                    <link type="places" corresp="#http://137.204.128.125/places/195"
+                        subtype="hasInItsVicinity"/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/121"
+                        subtype="isInVicinityOf"/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/122"
+                        subtype="hasConnectionWith"/>
+                    <link type="places" corresp="#http://137.204.128.125/places/194"
+                        subtype="isInVicinityOf"/>
                 </place>             
             </listPlace>
         </body>

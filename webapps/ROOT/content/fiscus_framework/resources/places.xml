@@ -1374,6 +1374,12 @@
                         subtype="isInVicinityOf"/>
                     <link type="juridical_persons"
                         corresp="#http://137.204.128.125/juridical_persons/98" subtype="link"/>
+                    <link type="places" corresp="#http://137.204.128.125/places/195"
+                        subtype="isInVicinityOf"/>
+                    <link type="places" corresp="#http://137.204.128.125/places/194"
+                        subtype="isInVicinityOf"/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/123"
+                        subtype="isInVicinityOf"/>
                 </place>
                 <place>
                     <placeName><foreign>Ito</foreign> (Prata; Massa Marittima; Grosseto)</placeName>
@@ -1492,6 +1498,8 @@
                     <note/>
                     <link type="juridical_persons"
                         corresp="#http://137.204.128.125/juridical_persons/97" subtype="link"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/160" subtype="link"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/162" subtype="link"/>
                 </place>
                 <place>
                     <placeName><foreign>Tora</foreign> (Vairano Patenora; Caserta)</placeName>
@@ -1508,6 +1516,11 @@
                         subtype="isPartOf"/>
                     <link type="estates" corresp="#http://137.204.128.125/estates/122"
                         subtype="isMadeOf"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/160" subtype="link"/>
+                    <link type="places" corresp="#http://137.204.128.125/places/177"
+                        subtype="hasInItsVicinity"/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/123"
+                        subtype="hasInItsVicinity"/>
                 </place>
                 <place>
                     <placeName><foreign>mons Sancti Leutherii</foreign> (Vairano Patenora;
@@ -1519,7 +1532,7 @@
                     <idno>http://137.204.128.125/places/195</idno>
                     <note/>
                     <link type="places" corresp="#http://137.204.128.125/places/177"
-                        subtype="isInVicinityOf"/>
+                        subtype="hasInItsVicinity"/>
                     <link type="juridical_persons"
                         corresp="#http://137.204.128.125/juridical_persons/98" subtype="link"/>
                     <link type="estates" corresp="#http://137.204.128.125/estates/121"
@@ -1528,6 +1541,8 @@
                         subtype="isPartOf"/>
                     <link type="people" corresp="#http://137.204.128.125/people/114" subtype="link"
                     />
+                    <link type="estates" corresp="#http://137.204.128.125/estates/123"
+                        subtype="isInVicinityOf"/>
                 </place>
             </listPlace>
         </body>
