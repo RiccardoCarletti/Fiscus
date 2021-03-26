@@ -1349,6 +1349,9 @@
                     <idno>http://137.204.128.125/places/174</idno>
                     <note/>
                     <link type="people" corresp="#http://137.204.128.125/people/114" subtype="link"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/167" subtype="link"/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/122"
+                        subtype="isPartOf"/>
                 </place>
                 <place>
                     <placeName><foreign>Sovigliana</foreign> (Villa San Marco; Terricciola; Pisa)</placeName>
@@ -1556,11 +1559,13 @@
                     />
                 </place>
                 <place>
-                    <placeName>Doglia (Podere Terriccio; </placeName>
-                    <placeName type="other">Dolia; Dolgia; </placeName>
+                    <placeName><foreign>Doglia</foreign> (Podere Terriccio; Castellina Marittima;
+                        Pisa)</placeName>
+                    <placeName type="other"><foreign>Dolia</foreign>; <foreign>Dolgia</foreign>; </placeName>
                     <geogName type="coord"><geo>43.38422, 10.54442</geo></geogName>
                     <idno>http://137.204.128.125/places/197</idno>
-                    <note>Repetti 1833-1846: </note>
+                    <note>Repetti 1833-1846: II, 29; V, 519-520; VI, 87; Ceccarelli 2009: 24
+                        (Tabella I, n. 28); </note>
                 </place>
             </listPlace>
         </body>
