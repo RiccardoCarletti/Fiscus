@@ -1239,19 +1239,12 @@
                     <placeName><foreign>Lauretum</foreign> (tra Tor Paterno e Pratica di Mare; Roma)</placeName>
                     <placeName type="other"/>
                     <geogName type="coord"><geo>41.663763, 12.479039; 41.642344, 12.438763;
-                            41.715414, 12.317836; 41.740195, 12.374846 × </geo></geogName>
+                            41.715414, 12.317836; 41.740195, 12.374846</geo></geogName>
                     <idno>http://137.204.128.125/places/160</idno>
                     <note>Località scomparsa situata lungo la costa tra Tor Paterno e Pratica di Mare: cfr. De Francesco 2004: 246-248</note>
                     <link type="estates" corresp="#http://137.204.128.125/estates/119"
                         subtype="hasConnectionWith"/>
                   </place>
-                  <place>
-                    <placeName><foreign>Natiso</foreign> (fiume Natisone; Udine)</placeName>
-                    <placeName type="other">Natissum; Naticione </placeName>
-                    <geogName type="coord"><geo>45.957594, 13.376541</geo></geogName>
-                    <idno>http://137.204.128.125/places/160</idno>
-                    <note/>
-                </place>
                 <place>
                     <placeName><foreign>Valiano</foreign> (Il Santo; Ponsacco; Pisa)</placeName>
                     <placeName type="other"/>
@@ -1265,14 +1258,15 @@
                     <geogName type="coord"><geo>45.764529, 13.338947</geo></geogName>
                     <idno>http://137.204.128.125/places/162</idno>
                     <note/>
-                    <link type="places" corresp="#http://137.204.128.125/places/160"
+                    <link type="places" corresp="#http://137.204.128.125/places/192"
                         subtype="isPartOf"/>
                     <link type="juridical_persons"
                         corresp="#http://137.204.128.125/juridical_persons/92" subtype="link"/>
                 </place>
                 <place>
                     <placeName><foreign>Feruniano</foreign> (Sant'Andrea; Palaia; Pisa)</placeName>
-                    <placeName type="other"><foreign>Fereniano</foreign></placeName>
+                    <placeName type="other"><foreign>Fereniano</foreign>;
+                            <foreign>Fereniana</foreign></placeName>
                     <geogName type="coord"><geo>43.6092697; 10.6887074</geo></geogName>
                     <idno>http://137.204.128.125/places/163</idno>
                     <note/>
@@ -1354,18 +1348,17 @@
                     <geogName type="coord"><geo>41.25132, 14.06652</geo></geogName>
                     <idno>http://137.204.128.125/places/174</idno>
                     <note/>
+                    <link type="people" corresp="#http://137.204.128.125/people/114" subtype="link"/>
                 </place>
                 <place>
-                    <placeName><foreign>Sovigliana</foreign> (Villa San Marco; Terricciola;
-                        Pisa)</placeName>
+                    <placeName><foreign>Sovigliana</foreign> (Villa San Marco; Terricciola; Pisa)</placeName>
                     <placeName type="other"/>
                     <geogName type="coord"><geo>43.5697146, 10.6363053</geo></geogName>
                     <idno>http://137.204.128.125/places/175</idno>
                     <note/>
                 </place>
                 <place>
-                    <placeName><foreign>Castiglion Bernardi</foreign> (Podere Castiglioni Basso;
-                        Monterotondo Marittimo; Grosseto)</placeName>
+                    <placeName><foreign>Castiglion Bernardi</foreign> (Podere Castiglioni Basso; Monterotondo Marittimo; Grosseto)</placeName>
                     <placeName type="other"/>
                     <geogName type="coord"><geo>43.1405075, 10.7878662</geo></geogName>
                     <idno>http://137.204.128.125/places/176</idno>
@@ -1377,6 +1370,10 @@
                     <geogName type="coord"><geo>41.33702, 14.13112</geo></geogName>
                     <idno>http://137.204.128.125/places/177</idno>
                     <note/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/121"
+                        subtype="isInVicinityOf"/>
+                    <link type="juridical_persons"
+                        corresp="#http://137.204.128.125/juridical_persons/98" subtype="link"/>
                 </place>
                 <place>
                     <placeName><foreign>Ito</foreign> (Prata; Massa Marittima; Grosseto)</placeName>
@@ -1400,16 +1397,14 @@
                     <note/>
                 </place>
                 <place>
-                    <placeName><foreign>Monte Culaccio</foreign> (Podere di Monsolaccio;
-                        Terricciola; Pisa)</placeName>
+                    <placeName><foreign>Monte Culaccio</foreign> (Podere di Monsolaccio; Terricciola; Pisa)</placeName>
                     <placeName type="other"/>
                     <geogName type="coord"><geo>43.5551328, 10.6853686</geo></geogName>
                     <idno>http://137.204.128.125/places/181</idno>
                     <note/>
                 </place>
                 <place>
-                    <placeName><foreign>Castaniclo</foreign> (Villa Castagnicci; Ponsacco;
-                        Pisa)</placeName>
+                    <placeName><foreign>Castaniclo</foreign> (Villa Castagnicci; Ponsacco; Pisa)</placeName>
                     <placeName type="other"/>
                     <geogName type="coord"><geo>43.5991999, 10.6283247</geo></geogName>
                     <idno>http://137.204.128.125/places/182</idno>
@@ -1421,7 +1416,83 @@
                     <geogName type="coord"><geo>45.154685, 8.093491</geo></geogName>
                     <idno>http://137.204.128.125/places/183</idno>
                     <note/>
-                </place>                
+                </place>
+                <place>
+                    <placeName>Cappella (Lucca)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>43.8949831, 10.4810144</geo></geogName>
+                    <idno>http://137.204.128.125/places/184</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName><foreign>Verriana</foreign> (San Gervasio; Palaia; Pisa)</placeName>
+                    <placeName type="other"><foreign>Variana</foreign></placeName>
+                    <geogName type="coord"><geo>43.627844, 10.712893</geo></geogName>
+                    <idno>http://137.204.128.125/places/185</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>Gello Mattaccino (Casciana Terme; Pisa)</placeName>
+                    <placeName type="other"><foreign>Agello</foreign></placeName>
+                    <geogName type="coord"><geo>43.5153945, 10.5746251</geo></geogName>
+                    <idno>http://137.204.128.125/places/186</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName><foreign>Magognano</foreign> (Pregiuntino; Santa Maria a Monte; Pisa)</placeName>
+                    <placeName type="other"><foreign>Mangoniani</foreign></placeName>
+                    <geogName type="coord"><geo>43.7080501, 10.6917085 </geo></geogName>
+                    <idno>http://137.204.128.125/places/187</idno>
+                    <note>Per l'ubicazione si veda Ciampoltrini-Manfredini 2001, p. 181.</note>
+                </place>
+                <place>
+                    <placeName><foreign>Surianum</foreign> (Pieve di Sorano; Filattiera; Massa-Carrara)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>44.3323091, 9.9307444 </geo></geogName>
+                    <idno>http://137.204.128.125/places/188</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName><foreign>Campo Cassioli</foreign> (Castelnuovo Magra; La Spezia)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>44.099667, 10.017128</geo></geogName>
+                    <idno>http://137.204.128.125/places/189</idno>
+                    <note>Per l'ubicazione si veda Baroni 1998, p. 174.</note>
+                </place>
+                <place>
+                    <placeName><foreign>Garfagnana</foreign></placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>44.182912, 10.296636</geo></geogName>
+                    <idno>http://137.204.128.125/places/190</idno>
+                    <note>Le coordinate fanno riferimento all'omonimo <foreign>castrum</foreign>,
+                        centro di coordinamento dei <foreign>fines Carfanienses</foreign>.</note>
+                </place>
+                <place>
+                    <placeName>Reggio Emilia</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>44.696239, 10.627900</geo></geogName>
+                    <idno>http://137.204.128.125/places/191</idno>
+                    <note/>
+                    <link type="people" corresp="#http://137.204.128.125/people/21" subtype="link"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/155" subtype="link"
+                    />
+                </place>
+                <place>
+                    <placeName><foreign>Natiso</foreign> (fiume Natisone; Udine)</placeName>
+                    <placeName type="other">Natissum; Naticione </placeName>
+                    <geogName type="coord"><geo>45.957594, 13.376541</geo></geogName>
+                    <idno>http://137.204.128.125/places/192</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>Cegna; Ailano (Caserta)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>41.3775, 14.17796</geo></geogName>
+                    <idno>http://137.204.128.125/places/193</idno>
+                    <note/>
+                    <link type="juridical_persons"
+                        corresp="#http://137.204.128.125/juridical_persons/97" subtype="link"/>
+                </place>
             </listPlace>
         </body>
     </text>

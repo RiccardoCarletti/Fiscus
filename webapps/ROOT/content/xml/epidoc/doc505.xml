@@ -4,7 +4,8 @@
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
-                <title>Archivio Storico Diocesano di Lucca, AAL, Diplomatico, + N 5</title>
+                <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    Diplomatico, + N 5</title>
             </titleStmt>
             <editionStmt>
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus
@@ -34,7 +35,7 @@
                             <rs type="text_type" ref="#">-Placitum/iudicatum</rs>
                             <rs type="record_source" ref="#">Original document</rs>
                             <rs type="document_tradition" ref="#">Original</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Uncertain</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -100,7 +101,8 @@
                             >Elbungo</persName> di <placeName
                             ref="#http://137.204.128.125/places/53" key="#Bishops"
                         >Parma</placeName>, <persName key="#Bishops">Lupo</persName> di <placeName
-                            key="#Bishops">Siena</placeName>, <persName key="#Bishops"
+                            key="#Bishops" ref="#http://137.204.128.125/places/164"
+                            >Siena</placeName>, <persName key="#Bishops"
                             ref="#http://137.204.128.125/people/139">Odalberto</persName> di
                             <placeName ref="#http://137.204.128.125/places/67" key="#Bishops"
                             >Luni</placeName>, <persName key="#Bishops">Grasulfo</persName> di
@@ -126,62 +128,77 @@
                         contestando alle seguenti persone beni che spettano al suo vescovato e che
                         essi tengono nescimus pro qua causa: i fratelli
                             <persName>Sisemundo</persName> e <persName>Offo</persName> tengono beni
-                        a <placeName>Valiano</placeName>; <persName
-                            ref="#http://137.204.128.125/people/146">Adalfridi</persName> la
-                            <orgName key="#Churches"><rs key="#Churches">chiesa</rs> di Santa Maria
-                            di <placeName key="#Churches">Fereniano</placeName></orgName> con le sue
-                        pertinenze e <rs key="#Manentes">5 manentes</rs> a <placeName
-                            key="#Manentes">Ciciano</placeName>; <persName
-                            ref="#http://137.204.128.125/people/150">Fraolmi</persName> con i suoi
-                        consortes beni prope <rs key="#Cities">civitate</rs> Luca; i figli di
-                            <persName>Autberto</persName> (...); <persName>C(...)d(...) de
-                                <placeName>Octavo</placeName></persName>; <persName>Ragimbaldo de
-                                <placeName>Fundannio</placeName></persName>; i figli di
-                            <persName>Roppaldo</persName> beni a <placeName>Ancliana</placeName>; i
-                        figli di <persName>Filoardo</persName> beni in <placeName>Decimo</placeName>
-                        et in <placeName>Mozano</placeName>; <persName
-                            ref="#http://137.204.128.125/people/149">Cunimundo</persName> beni in
-                            <placeName ref="#http://137.204.128.125/places/1">Ilice</placeName> et
-                        in <placeName>Flaviana seu in Arcana</placeName>; il <rs
-                            key="#Other_clerics">chierico</rs>
+                        a <placeName ref="#http://137.204.128.125/places/161">Valiano</placeName>;
+                            <persName ref="#http://137.204.128.125/people/146">Adalfridi</persName>
+                        la <orgName key="#Churches"><rs key="#Churches">chiesa</rs> di Santa Maria
+                            di <placeName key="#Churches" ref="#http://137.204.128.125/places/163"
+                                >Fereniano</placeName></orgName> con le sue pertinenze e <rs
+                            key="#Manentes">5 manentes</rs> a <placeName key="#Manentes"
+                            >Ciciano</placeName>; <persName ref="#http://137.204.128.125/people/150"
+                            >Fraolmi</persName> con i suoi consortes beni prope <rs key="#Cities"
+                            >civitate</rs> Luca; i figli di <persName>Autberto</persName> (...);
+                            <persName>C(...)d(...) de <placeName
+                                ref="#http://137.204.128.125/places/167"
+                            >Octavo</placeName></persName>; <persName>Ragimbaldo de <placeName
+                                ref="#http://137.204.128.125/places/168"
+                            >Fundannio</placeName></persName>; i figli di
+                            <persName>Roppaldo</persName> beni a <placeName
+                            ref="#http://137.204.128.125/places/169">Ancliana</placeName>; i figli
+                        di <persName>Filoardo</persName> beni in <placeName
+                            ref="#http://137.204.128.125/places/170">Decimo</placeName> et in
+                            <placeName ref="#http://137.204.128.125/places/171">Mozano</placeName>;
+                            <persName ref="#http://137.204.128.125/people/149">Cunimundo</persName>
+                        beni in <placeName ref="#http://137.204.128.125/places/1">Ilice</placeName>
+                        et in <placeName ref="#http://137.204.128.125/places/172">Flaviana seu in
+                            Arcana</placeName>; il <rs key="#Other_clerics">chierico</rs>
                         <persName key="#Other_clerics">Andrea</persName> beni della <orgName
                             key="#Churches"><rs key="#Churches">chiesa</rs> di San Pietro
                             Somaldi</orgName>; <persName>Toto</persName> e
                             <persName>Ghervino</persName> la <orgName key="#Churches"><rs
                                 key="#Churches">chiesa</rs> di Santa Maria</orgName>, pertinenza del
                         vescovato; il figlio di <persName>Petriperto</persName>; i figli di
-                            <persName>Pietro</persName> beni in <placeName>Garfaniana</placeName>;
+                            <persName>Pietro</persName> beni in <placeName
+                            ref="#http://137.204.128.125/places/190">Garfaniana</placeName>;
                             <persName>Atrialdo</persName> beni a <placeName>Asanico</placeName>; i
                         figli di <persName>Corrado</persName> beni della <orgName key="#Churches"
                                 ><rs key="#Churches">chiesa</rs> di Santa Maria</orgName> che si
                         trova da <rs key="#Clusae/gates">porta Sancti Donati</rs>;
                             <persName>Toto</persName> figlio di <persName>Corrado</persName> beni a
-                            <placeName>Siviliano</placeName>; <persName>Omillo</persName> beni a
-                            <placeName>Ito</placeName> e in altri luoghi;
-                            <persName>Willerado</persName> figlio di <persName>Pietro</persName>
-                        beni a <placeName>Castiliono</placeName> e in altri luoghi;
-                            <persName>Roperto de <placeName>Variana</placeName></persName> beni
-                        nello stesso luogo; il figlio di <persName>Albone</persName> beni a
-                            <placeName>Agello</placeName>; i figli di
+                            <placeName ref="#http://137.204.128.125/places/175"
+                            >Siviliano</placeName>; <persName>Omillo</persName> beni a <placeName
+                            ref="#http://137.204.128.125/places/178">Ito</placeName> e in altri
+                        luoghi; <persName>Willerado</persName> figlio di <persName>Pietro</persName>
+                        beni a <placeName ref="#http://137.204.128.125/places/176"
+                            >Castiliono</placeName> e in altri luoghi; <persName>Roperto de
+                                <placeName ref="#http://137.204.128.125/places/185"
+                                >Variana</placeName></persName> beni nello stesso luogo; il figlio
+                        di <persName>Albone</persName> beni a <placeName
+                            ref="#http://137.204.128.125/places/186">Agello</placeName>; i figli di
                             <persName>Widalgrimo</persName> beni a <placeName>Crete</placeName>;
-                            <persName>Adalberto de <placeName>Capelle</placeName></persName>; il
-                        figlio di <persName>Liutifrido</persName>; <persName>Ardimanno</persName>;
+                            <persName>Adalberto de <placeName
+                                ref="#http://137.204.128.125/places/184"
+                            >Capelle</placeName></persName>; il figlio di
+                            <persName>Liutifrido</persName>; <persName>Ardimanno</persName>;
                             <persName>Ragimperto de <placeName>Fugiano</placeName></persName>; il
                             <rs key="#Priests">prete</rs>
                         <persName key="#Priests">Natale</persName>; <persName>Teudimundo</persName>;
                         i fratelli <persName>Elbolfo</persName> e <persName>Bertaldo</persName>; il
                             <rs key="#Priests">prete</rs>
                         <persName key="#Priests">Sicardo</persName>; <persName>Bertaldo de
-                                <placeName>Suriano</placeName></persName> beni a <placeName>Campo
-                            Cassioli</placeName>; il <rs key="#Other_clerics">chierico</rs>
+                                <placeName ref="#http://137.204.128.125/places/188"
+                                >Suriano</placeName></persName> beni a <placeName
+                            ref="#http://137.204.128.125/places/189">Campo Cassioli</placeName>; il
+                            <rs key="#Other_clerics">chierico</rs>
                         <persName key="#Other_clerics">Baldo</persName>; i fratelli
                             <persName>Albone</persName> e <persName>Andrea</persName>;
-                            <persName>Adalberto de <placeName>Mangoniani</placeName></persName>;
-                            <persName>Roffridi</persName> la <orgName key="#Churches"><rs
-                                key="#Churches">chiesa</rs> di
-                            <placeName>Sexto</placeName></orgName> con le sue dipendenze; i figli di
-                            <persName ref="#http://137.204.128.125/people/151">Adaldo</persName> la
-                            <orgName key="#Churches"><rs key="#Churches">chiesa</rs> di San
+                            <persName>Adalberto de <placeName
+                                ref="#http://137.204.128.125/places/187"
+                            >Mangoniani</placeName></persName>; <persName>Roffridi</persName> la
+                            <orgName key="#Churches"><rs key="#Churches">chiesa</rs> di <placeName
+                                ref="#http://137.204.128.125/places/165">Sexto</placeName></orgName>
+                        con le sue dipendenze; i figli di <persName
+                            ref="#http://137.204.128.125/people/151">Adaldo</persName> la <orgName
+                            key="#Churches"><rs key="#Churches">chiesa</rs> di San
                             Terenzio</orgName> con le sue dipendenze; <persName>Warnerio</persName>
                         la <orgName key="#Churches"><rs key="#Churches">chiesa</rs> di San Michele
                             Arcangelo</orgName>; <persName>Ademari</persName>; il <rs
@@ -199,17 +216,21 @@
                             >chierico</rs>
                         <persName key="#Other_clerics">Toto</persName>;
                             <persName>Alamundo</persName>; <persName>Michele</persName>;
-                            <persName>Teudilascio de <placeName>Monte
-                        Culacio</placeName></persName>; <persName>Anselmo de
-                                <placeName>Castaneclo</placeName></persName>;
-                            <persName>Ato</persName>; <persName>Fraolmi de
-                                <placeName>Wammo</placeName></persName>;
-                            <persName>Adalprando</persName>; il <rs>prete</rs>
+                            <persName>Teudilascio de <placeName
+                                ref="#http://137.204.128.125/places/181">Monte
+                            Culacio</placeName></persName>; <persName>Anselmo de <placeName
+                                ref="#http://137.204.128.125/places/182"
+                            >Castaneclo</placeName></persName>; <persName>Ato</persName>;
+                            <persName>Fraolmi de <placeName ref="#http://137.204.128.125/places/179"
+                                >Wammo</placeName></persName>; <persName>Adalprando</persName>; il
+                            <rs>prete</rs>
                         <persName key="#Priests">Angelo</persName> un <rs key="#Monasteries"
-                            >monastero</rs>; <persName>Willeramo de
-                            <placeName>Vacule</placeName></persName>; <persName>Ateraldo de
+                            >monastero</rs>; <persName>Willeramo de <placeName
+                                ref="#http://137.204.128.125/places/180"
+                            >Vacule</placeName></persName>; <persName>Ateraldo de
                                 <placeName>Placaio</placeName></persName>; <persName>Lamberto de
-                                <placeName>Fereniana</placeName></persName>; <persName
+                                <placeName ref="#http://137.204.128.125/places/163"
+                                >Fereniana</placeName></persName>; <persName
                             ref="#http://137.204.128.125/people/147">Lamberto</persName> che fu
                         fratello di <persName ref="#http://137.204.128.125/people/148"
                             >Rodilando</persName>; <persName>Cunimundo</persName>;
@@ -218,7 +239,8 @@
                         <persName key="#Priests">Sindiperto</persName> e <persName key="#Priests"
                             >Benedetto</persName> la <orgName key="#Churches"><rs key="#Churches"
                                 >chiesa</rs> di San Lorenzo di <placeName key="#Churches"
-                                >Tempaniano</placeName></orgName>, pertinenza della <orgName
+                                ref="#http://137.204.128.125/places/166"
+                            >Tempaniano</placeName></orgName>, pertinenza della <orgName
                             key="#Mother_churches"><rs key="#Mother_churches">pieve</rs> di San
                             Giovanni Battista</orgName>; <persName>Giovanni de (...)</persName> la
                             <orgName key="#Churches"><rs key="#Churches">chiesa</rs> di San
