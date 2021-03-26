@@ -700,6 +700,8 @@
                         subtype="cousinOf"/>
                     <link type="places" corresp="#http://137.204.128.125/places/174"
                         subtype="hasConnectionWith"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/170"
+                        subtype="fatherOf"/>
                 </person>
                 <person>
                     <persName>Adelchis (854-878) princeps</persName>
@@ -1163,13 +1165,21 @@
                     <persName type="other"/>
                     <idno>http://137.204.128.125/people/169</idno>
                     <note/>
-                    <link type="people"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/170" subtype="sonOf"
+                    />
                 </person>
                 <person>
-                    <persName>Atenolfus comes Teanensis</persName>
+                    <persName>Atenolfus (963) comes Teanensis</persName>
                     <persName type="other"/>
                     <idno>http://137.204.128.125/people/170</idno>
                     <note/>
+                    <link type="places" corresp="#http://137.204.128.125/places/174"
+                        subtype="hasConnectionWith"/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/122"
+                        subtype="hasConnectionWith"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/114" subtype="sonOf"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/169"
+                        subtype="fatherOf"/>
                 </person>
                 
                 
