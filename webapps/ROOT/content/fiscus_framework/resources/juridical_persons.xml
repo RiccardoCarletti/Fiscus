@@ -477,12 +477,20 @@
                         subtype="hasConnectionWith"/>
                     <link type="places" corresp="#http://137.204.128.125/places/198"
                         subtype="hasConnectionWith"/>
+                    <link type="juridical_persons"
+                        corresp="#http://137.204.128.125/juridical_persons/106" subtype="link"/>
                 </org>
                 <org>
-                    <orgName>Sanctus Martinus; ecclesia</orgName>
+                    <orgName>Sanctus Martinus; ecclesia (Vairano Patenora; Caserta)</orgName>
                     <orgName type="other"/>
                     <idno>http://137.204.128.125/juridical_persons/106</idno>
                     <note/>
+                    <link type="places" corresp="#http://137.204.128.125/places/198"
+                        subtype="isWithin"/>
+                    <link type="places" corresp="#http://137.204.128.125/places/177"
+                        subtype="isAdjacentTo"/>
+                    <link type="juridical_persons"
+                        corresp="#http://137.204.128.125/juridical_persons/105" subtype="link"/>
                 </org>
              
             </listOrg>
