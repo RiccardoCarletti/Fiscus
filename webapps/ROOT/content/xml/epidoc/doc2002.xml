@@ -45,7 +45,7 @@
                             <origDate when="0963-10">
                                 <note type="displayed_date">963 October</note>
                                 <note type="dating_elements"/>
-                                <note type="topical_date"/>
+                                <note type="topical_date">Teano</note>
                             </origDate>
                             <origPlace/>
                         </origin>
@@ -81,47 +81,55 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>+ In nomine domini, vicesimo primo anno principatus domni Paldolfi, quam et
-                        sexto anno principatus domni Landolfi gloriosis princibus, mense octuber,
-                        septima indictio. Dum nos Bisantio iudex Teanense ciutati, quadam die
-                        residente intus eadem ciuitate, ante conspectum domni Atenolfi magnifici
-                        comitis, fili bone memorie domni Atenolfi comitis, et erga nos ante eum
-                        residentibus plures nobiliores uiri predicte ciuitati. Inter altercantes
-                        iudicando definiendas causationes. tunc ante conspectum ipsius iam dicti
-                        gloriosi comitis astitit Iohannes presbiter et prepositus, atque custos
-                        ecclesie Sancte Dei genitricis et wuirginis Marie in quo est monasterium
-                        puellaro, que sita est in loco Cengla in qua domna Adelgarda religiosa
-                        abbatisssa preest. Ille autem erga secum habendo Vigelmum iudicem
-                        aduocatorem supradicti monasterii et reclamabit superius dictus comes, ut
-                        ministeriales eius de Bairano iniuste et contra rationem introissent infra
-                        fines de duabus petie de terris iam dicte ecclesie pertinentes, que essent
-                        infra fines de supra dicto loco Bairanum in loco ubi dicitur Tora et
-                        indicabit ei ut terris ipsis haberent has finis. Prima petia de terra in
-                        loco Tora, ubi residerent serbi ipsius ecclesie que esset propinquo ecclesia
-                        Sancti Martini de loco Groctole, haberet finis de una parte ribio qui
-                        decerneret inter hec terra et terra que modo tenerent homines de Bairano et
-                        pars episcopo Sancti Stephani de Capua ubi ipsa ecclesia Sancti Martini
-                        constructa esset, et ab inde ubi oritur ribio ipse in sursum iret circa
-                        terra ipsius monasterii usque ad pede de montem que esset pertinentem
-                        suprascripti domni Atenolfi comitis, qui uocatur monte Sancti Eleutherii et
-                        ut eodem ribio pergeret usque ad ribium de Baniolum; de alia parte fini pede
-                        de ipsum iam dictum montem; de tertia parte terra que subtus dicimus et
-                        ribio Petroso qui decernit inter hec terra et terra ipsa que subtus dicimus,
-                        ut ribio ipse mitteret in flubio Vulturno; de quarta namque parte fini
-                        predicto flubio et iam dicto ribio de Baniolum. Secunda petia ibique
-                        coniuncta haberet finis de una parte ipsa supra dicta petia de terra et iam
-                        dicto ribio Petroso; de alia parte fini pede de ipsum iam dictum montem
-                        suprascripti domni Atenolfi comitis; de tertia parte finia riagine qui
-                        descendit da predicto monte et decerneret inter hec terra et terra et silba
-                        ipsius domni Atenolfi comitis qui uocatur Ferrara ut ipsa riagine mitteret
-                        in mortina et per ipsa mortina mitteret in iam dicto flubio; de quarta parte
-                        ipso iam dicto flubio. Et ipsi ministeriales eius de terris ipsis malo
-                        ordine frugium tulissent et serbi ipsius ecclesie infra iam dicte finis
-                        pignerassent. Querebat inde ab eodem comite responsum audire et legem
-                        reciperet. Ad hec ipse qui supra comes dum talia auditus dixit ut ipsi
-                        ministeriales suos per suam iussionem talia fecissent. Eo quod iam dicte
-                        terris ei legibus deberet essent pertinentes pro pars publica iam dicti
-                        comitatui sui Teanensis, quibus ipse qui supra Iohannes presbiter et
+                    <ab>+ In nomine domini, <date>vicesimo primo anno principatus domni <persName
+                                ref="#http://137.204.128.125/people/157" key="#Princeps"
+                                >Paldolfi</persName>, quam et sexto anno principatus domni <persName
+                                key="#Princeps">Landolfi</persName> gloriosis <rs key="#Princeps"
+                                >princibus</rs>, mense octuber, septima indictio</date>. Dum nos
+                            <persName key="#Judge">Bisantio</persName>
+                        <rs key="#Judge">iudex</rs>
+                        <placeName key="#Cities" ref="#http://137.204.128.125/places/174">Teanense
+                            ciutati</placeName>, quadam die residente intus eadem<rs key="#Cities">
+                            ciuitate</rs>, ante conspectum domni <persName key="#Count"
+                            >Atenolfi</persName> magnifici <rs key="#Count">comitis</rs>, fili bone
+                        memorie domni <persName key="#Count"
+                            ref="#http://137.204.128.125/people/114">Atenolfi</persName> comitis, et
+                        erga nos ante eum residentibus <rs key="#Assembly">plures nobiliores
+                            uiri</rs> predicte ciuitati. Inter altercantes iudicando definiendas
+                        causationes. tunc ante conspectum ipsius iam dicti gloriosi comitis astitit
+                        Iohannes presbiter et prepositus, atque custos ecclesie Sancte Dei
+                        genitricis et wuirginis Marie in quo est monasterium puellaro, que sita est
+                        in loco Cengla in qua domna Adelgarda religiosa abbatisssa preest. Ille
+                        autem erga secum habendo Vigelmum iudicem aduocatorem supradicti monasterii
+                        et reclamabit superius dictus comes, ut ministeriales eius de Bairano
+                        iniuste et contra rationem introissent infra fines de duabus petie de terris
+                        iam dicte ecclesie pertinentes, que essent infra fines de supra dicto loco
+                        Bairanum in loco ubi dicitur Tora et indicabit ei ut terris ipsis haberent
+                        has finis. Prima petia de terra in loco Tora, ubi residerent serbi ipsius
+                        ecclesie que esset propinquo ecclesia Sancti Martini de loco Groctole,
+                        haberet finis de una parte ribio qui decerneret inter hec terra et terra que
+                        modo tenerent homines de Bairano et pars episcopo Sancti Stephani de Capua
+                        ubi ipsa ecclesia Sancti Martini constructa esset, et ab inde ubi oritur
+                        ribio ipse in sursum iret circa terra ipsius monasterii usque ad pede de
+                        montem que esset pertinentem suprascripti domni Atenolfi comitis, qui
+                        uocatur monte Sancti Eleutherii et ut eodem ribio pergeret usque ad ribium
+                        de Baniolum; de alia parte fini pede de ipsum iam dictum montem; de tertia
+                        parte terra que subtus dicimus et ribio Petroso qui decernit inter hec terra
+                        et terra ipsa que subtus dicimus, ut ribio ipse mitteret in flubio Vulturno;
+                        de quarta namque parte fini predicto flubio et iam dicto ribio de Baniolum.
+                        Secunda petia ibique coniuncta haberet finis de una parte ipsa supra dicta
+                        petia de terra et iam dicto ribio Petroso; de alia parte fini pede de ipsum
+                        iam dictum montem suprascripti domni Atenolfi comitis; de tertia parte finia
+                        riagine qui descendit da predicto monte et decerneret inter hec terra et
+                        terra et silba ipsius domni Atenolfi comitis qui uocatur Ferrara ut ipsa
+                        riagine mitteret in mortina et per ipsa mortina mitteret in iam dicto
+                        flubio; de quarta parte ipso iam dicto flubio. Et ipsi ministeriales eius de
+                        terris ipsis malo ordine frugium tulissent et serbi ipsius ecclesie infra
+                        iam dicte finis pignerassent. Querebat inde ab eodem comite responsum audire
+                        et legem reciperet. Ad hec ipse qui supra comes dum talia auditus dixit ut
+                        ipsi ministeriales suos per suam iussionem talia fecissent. Eo quod iam
+                        dicte terris ei legibus deberet essent pertinentes pro pars publica iam
+                        dicti comitatui sui Teanensis, quibus ipse qui supra Iohannes presbiter et
                         prepositus atque custos cum eodem aduocatorem suprasctipti sui monasterii
                         negaberunt dicendo ut talia uerum numquam esset et pars publica infra iam
                         dicte finis numquam habuisset, set terris ipse pars ipsius ecclesie Sancte
@@ -205,11 +213,11 @@
                         mememorandum iudicium. Hunc scriptum iudicatum exhinde eique Iohanni
                         presbiteri et prepositi emisimus pro pars suprascripte ecclesie que tibi
                         Martini clerici et notarii scribere iussimus eo quod interfuistis. Actu
-                        Teanense. + ego qui supra Bisantio iudex + ego Unualdo + ego Falco  </ab>
+                        Teanense. + ego qui supra Bisantio iudex + ego Unualdo + ego Falco </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p>Cuozzo-Martin 1991: 154-155</p>
+                <p>Mancone 1960: 15-16</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>
