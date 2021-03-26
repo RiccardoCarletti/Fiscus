@@ -692,10 +692,12 @@
                     <link type="estates" corresp="#http://137.204.128.125/estates/123"
                         subtype="hasConnectionWith"/>
                     <link type="people" corresp="#http://137.204.128.125/people/167" subtype="link"/>
+                    <link type="places" corresp="#http://137.204.128.125/places/198"
+                        subtype="isInVicinityOf"/>
                 </place>
                 <place>
-                    <geogName><foreign>Gruttule</foreign>; curtis</geogName>
-                    <geogName type="other"/>
+                    <geogName><foreign>Grottole</foreign>; curtis</geogName>
+                    <geogName type="other">Gruttule; Groctule</geogName>
                     <idno>http://137.204.128.125/estates/123</idno>
                     <note/>
                     <link type="places" corresp="#http://137.204.128.125/places/177"
@@ -708,6 +710,8 @@
                         subtype="hasConnectionWith"/>
                     <link type="places" corresp="#http://137.204.128.125/places/194"
                         subtype="isInVicinityOf"/>
+                    <link type="places" corresp="#http://137.204.128.125/places/198"
+                        subtype="isPartOf"/>
                 </place>
                 <place>
                     <geogName>Verona; <foreign>comitatus</foreign></geogName>
