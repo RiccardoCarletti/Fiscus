@@ -434,15 +434,23 @@
                     <orgName type="other"/>
                     <idno>http://137.204.128.125/juridical_persons/102</idno>
                     <note/>
-                    <link type="places" corresp="#http://137.204.128.125/places/196"/>
-                    <link type="places" corresp="#http://137.204.128.125/places/191"/>
-                    <link type="people" corresp="#http://137.204.128.125/people/21"/>
+                    <link type="places" corresp="#http://137.204.128.125/places/196"
+                        subtype="hasConnectionWith"/>
+                    <link type="places" corresp="#http://137.204.128.125/places/191"
+                        subtype="hasConnectionWith"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/21" subtype="link"/>
                 </org>
                 <org>
                     <orgName>Sanctus Faustinus; ecclesia (Rubiera-RE)</orgName>
                     <orgName type="other"/>
                     <idno>http://137.204.128.125/juridical_persons/103</idno>
                     <note/>
+                    <link type="places" corresp="#http://137.204.128.125/places/191"
+                        subtype="hasConnectionWith"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/155" subtype="link"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/21" subtype="link"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/164" subtype="link"
+                    />
                 </org>
              
             </listOrg>
