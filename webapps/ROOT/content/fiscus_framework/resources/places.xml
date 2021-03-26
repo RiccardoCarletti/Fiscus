@@ -930,7 +930,7 @@
                     <placeName type="other"><foreign>Biserno</foreign></placeName>
                     <geogName type="coord"><geo>43.06638, 10.553978</geo></geogName>
                     <idno>http://137.204.128.125/places/127</idno>
-                    <note/>
+                    <note>Microtoponimo: Carpineto; </note>
                     <link type="estates" corresp="#http://137.204.128.125/estates/87"
                         subtype="isPartOf"/>
                 </place>
@@ -1331,7 +1331,7 @@
                 <place>
                     <placeName>Fibbialla (Camaiore; Lucca)</placeName>
                     <placeName type="other"/>
-                    <geogName type="coord"><geo>43.8870731; 10.3800445</geo></geogName>
+                    <geogName type="coord"><geo>43.8870731, 10.3800445</geo></geogName>
                     <idno>http://137.204.128.125/places/172</idno>
                     <note/>
                 </place>
@@ -1374,6 +1374,12 @@
                         subtype="isInVicinityOf"/>
                     <link type="juridical_persons"
                         corresp="#http://137.204.128.125/juridical_persons/98" subtype="link"/>
+                    <link type="places" corresp="#http://137.204.128.125/places/195"
+                        subtype="isInVicinityOf"/>
+                    <link type="places" corresp="#http://137.204.128.125/places/194"
+                        subtype="isInVicinityOf"/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/123"
+                        subtype="isInVicinityOf"/>
                 </place>
                 <place>
                     <placeName><foreign>Ito</foreign> (Prata; Massa Marittima; Grosseto)</placeName>
@@ -1485,13 +1491,58 @@
                     <note/>
                 </place>
                 <place>
-                    <placeName>Cegna; Ailano (Caserta)</placeName>
-                    <placeName type="other"/>
+                    <placeName>Cegna (Ailano; Caserta)</placeName>
+                    <placeName type="other"><foreign>Cingla</foreign></placeName>
                     <geogName type="coord"><geo>41.3775, 14.17796</geo></geogName>
                     <idno>http://137.204.128.125/places/193</idno>
                     <note/>
                     <link type="juridical_persons"
                         corresp="#http://137.204.128.125/juridical_persons/97" subtype="link"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/160" subtype="link"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/162" subtype="link"/>
+                </place>
+                <place>
+                    <placeName><foreign>Tora</foreign> (Vairano Patenora; Caserta)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>41.339444, 14.112906; 41.344299, 14.132043;
+                            41.333795, 14.162766; 41.324133, 14.173121; 41.310698, 14.142587;
+                            41.309344, 14.103695; 41.324312, 14.093329</geo></geogName>
+                    <idno>http://137.204.128.125/places/194</idno>
+                    <note/>
+                    <link type="juridical_persons"
+                        corresp="#http://137.204.128.125/juridical_persons/97" subtype="link"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/114" subtype="link"/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/121"
+                        subtype="isPartOf"/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/122"
+                        subtype="isMadeOf"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/160" subtype="link"/>
+                    <link type="places" corresp="#http://137.204.128.125/places/177"
+                        subtype="hasInItsVicinity"/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/123"
+                        subtype="hasInItsVicinity"/>
+                </place>
+                <place>
+                    <placeName><foreign>mons Sancti Leutherii</foreign> (Vairano Patenora;
+                        Caserta)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>41.339444, 14.112906; 41.344299, 14.132043;
+                            41.333795, 14.162766; 41.324133, 14.173121; 41.310698, 14.142587;
+                            41.309344, 14.103695; 41.324312, 14.093329</geo></geogName>
+                    <idno>http://137.204.128.125/places/195</idno>
+                    <note/>
+                    <link type="places" corresp="#http://137.204.128.125/places/177"
+                        subtype="hasInItsVicinity"/>
+                    <link type="juridical_persons"
+                        corresp="#http://137.204.128.125/juridical_persons/98" subtype="link"/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/121"
+                        subtype="isInVicinityOf"/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/122"
+                        subtype="isPartOf"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/114" subtype="link"
+                    />
+                    <link type="estates" corresp="#http://137.204.128.125/estates/123"
+                        subtype="isInVicinityOf"/>
                 </place>
             </listPlace>
         </body>

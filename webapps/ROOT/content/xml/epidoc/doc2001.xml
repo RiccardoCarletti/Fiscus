@@ -87,7 +87,7 @@
                             <rs>principis</rs> et primo anno principatus domini nostri <persName
                             key="#Princeps" ref="#http://137.204.128.125/people/157"
                             >Paldolfi</persName> filio eius, <date>mense Agusto, secunda
-                            indictione</date>. Ideoquem ego <persName key="#Count"
+                            indictione</date>. Ideoquem ego <persName key="#Promissio #Count"
                             ref="#http://137.204.128.125/people/114">Atenolfus</persName>
                         <rs key="#Count">comes</rs>, filius bone memorie domni<persName
                             key="#Princeps" ref="#http://137.204.128.125/people/154">
@@ -102,28 +102,37 @@
                             hominum</rs>, exorta est causatio inter me et te, videlicet <persName
                             key="#Priests #Prevosts">Faroaldum</persName>
                         <rs key="#Priests">presbyterum</rs> et <rs key="#Prevosts">prepositum</rs>
-                        <orgName key="#Monasteries"
+                        <orgName key="#Monasteries #Nuns/sanctimoniales"
                             ref="#http://137.204.128.125/juridical_persons/97"><rs
-                                key="#Monasteries">monasterii puellarum</rs> Sancte Marie de
+                                key="#Monasteries">monasterii</rs>
+                            <rs key="#Nuns/sanctimoniales">puellarum</rs> Sancte Marie de
                             Cingla</orgName>, in qua religiosa <rs key="#Abbesses">abbatissa</rs>
-                        nomine <persName key="#Abbesses">Rossenda</persName> ad regimen tenere
-                        videtur, erga bobiscum abendo <persName
-                            key="#Advocatus_of_other_public_authorities">Ausentium</persName>
-                        <rs key="#Advocatus_of_other_public_authorities">abbocatorem predicti
-                            monasterii</rs>, de terra inculta in <placeName
-                            ref="#http://137.204.128.125/places/177">Bairano</placeName>, <rs
-                            key="#Fines">finibus pertinentiis nostro commitato <placeName
-                                key="#Fines" ref="#http://137.204.128.125/places/174"
-                                >Teano</placeName></rs>, in locum ubi dicitur Tora, in pede de <rs
-                            key="#Mountains #Fiscal_property #Mention">monte pubblico</rs> nostro
-                        qui vocatur <placeName key="#Mountains #Fiscal_property #Mention">Sancti
-                            Leuttherii</placeName>, de qua nos qui supra Atenolfus comes eadem terra
-                        querebamus esse publica pertinentiis nostro comitatum, et vos dicebatis quia
-                        eadem terra certissime holim publica fuisset, et in partem antescripti
-                        monasterii concessa et data fuisset a dom(nu)s Gisolfus summus duces
-                        Langobardorum, et duplicata possessio terra ipsa pars iam dicti monasterii
-                        possessa essent, et ostendebatis nobis preceptum ipsum qui relecto
-                        continebat : Nos vir gloriosissimus <persName key="#Marquis/duke"
+                        nomine <persName key="#Abbesses" ref="#http://137.204.128.125/people/160"
+                            >Rossenda</persName> ad regimen tenere videtur, erga bobiscum abendo
+                            <persName key="#Advocatus">Ausentium</persName>
+                        <rs key="#Advocatus">abbocatorem predicti monasterii</rs>, de <rs
+                            key="#Petiae">terra</rs> inculta in <placeName
+                            ref="#http://137.204.128.125/places/177"
+                            key="#Mountains #Petiae #Fiscal_property #Textual_occurrence #Object"
+                            >Bairano</placeName>, <rs key="#Fines">finibus</rs> pertinentiis nostro
+                            <geogName key="#Comitatus #Fines"
+                            ref="#http://137.204.128.125/estates/122">commitato</geogName>
+                        <placeName key="#Comitatus #Fines" ref="#http://137.204.128.125/places/174"
+                            >Teano</placeName>, in locum ubi dicitur <placeName
+                            key="#Curtes #Petiae #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches"
+                            ref="#http://137.204.128.125/places/194">Tora</placeName>, in pede de
+                            <rs key="#Mountains #Fiscal_property #Textual_occurrence #Object">monte
+                            pubblico</rs> nostro qui vocatur <placeName
+                            key="#Mountains #Fiscal_property #Textual_occurrence #Object"
+                            ref="#http://137.204.128.125/places/195">Sancti Leuttherii</placeName>,
+                        de qua nos qui supra Atenolfus comes eadem terra querebamus esse publica
+                        pertinentiis nostro comitatum, et vos dicebatis quia eadem terra certissime
+                        holim publica fuisset, et in partem antescripti monasterii concessa et data
+                        fuisset a dom(nu)s Gisolfus summus duces Langobardorum, et duplicata
+                        possessio terra ipsa pars iam dicti monasterii possessa essent, et
+                        ostendebatis nobis preceptum ipsum qui relecto continebat : Nos vir
+                        gloriosissimus <persName
+                            key="#Marquis’/ducal/princely_diploma #Marquis/duke"
                             ref="#http://137.204.128.125/people/158">Gisolfus</persName> Dei
                         prebidentia summus <rs key="#Marquis/duke">dux Langobardorum gentis</rs>,
                         motus Dei omnipotentis misericordia et ob anime nostre totiusque nostre
@@ -131,11 +140,14 @@
                         <rs key="#Count">comitis</rs> nostris<rs
                             key="#Marquis’/ducal/princely_diploma"> concessimus</rs> in monasterio
                         beate et gloriose Dei genitricis semperque virginis Marie quod ab olim
-                        constructum est in locum qui nominatur Cingla, in quo <persName
-                            key="#Abbesses">Acetruda</persName> Deo digna <rs key="#Abbesses"
-                            >abbatissa</rs> preese videtur, inclitas <rs key="#Curtes">duas
-                            curtes</rs> nostras quas habemus in finibus Teano, loco Bairanum, et
-                        sunt ambo coniuncte, quarum una nominatur <geogName key="#Curtes">ad
+                        constructum est in locum qui nominatur <placeName
+                            ref="#http://137.204.128.125/places/193" key="#Monasteries"
+                            >Cingla</placeName>, in quo <persName key="#Abbesses"
+                            ref="#http://137.204.128.125/people/162">Acetruda</persName> Deo digna
+                            <rs key="#Abbesses">abbatissa</rs> preese videtur, inclitas <rs
+                            key="#Curtes">duas curtes</rs> nostras quas habemus in finibus Teano,
+                        loco Bairanum, et sunt ambo coniuncte, quarum una nominatur <geogName
+                            key="#Curtes" ref="#http://137.204.128.125/estates/123">ad
                             Gruttule</geogName> et altera <geogName key="#Curtes"
                             ref="#http://137.204.128.125/estates/121">ad Tora</geogName>, habente
                         finis predictas curtes ab una parte qualiter vadit per pedem de monte Sancti
@@ -152,11 +164,11 @@
                         pertinentiis earum, insimul cum ipsa <orgName key="#Churches"
                             ref="#http://137.204.128.125/juridical_persons/98">ecclesia Sancti
                             Cecilii</orgName> infra predictos fines hedificata, et cum septem <rs
-                            key="#Condomae">condomas</rs> de nostris serbis in predictis curtibus
-                        habitantibus, id est filii et nepotes <persName key="#Condomae"
-                            >Gaidosoli</persName> cum filiis et filiabus eorum, et filii et nepotes
-                            <persName key="#Condomae">Sinoaldi</persName>, et filii et nepotes
-                            <persName key="#Condomae">Marzuccoli</persName>, et filii et nepotes
+                            key="#Condomae">condomas</rs> de nostris <rs key="#Slave">serbis</rs> in
+                        predictis curtibus habitantibus, id est filii et nepotes <persName
+                            key="#Condomae">Gaidosoli</persName> cum filiis et filiabus eorum, et
+                        filii et nepotes <persName key="#Condomae">Sinoaldi</persName>, et filii et
+                        nepotes <persName key="#Condomae">Marzuccoli</persName>, et filii et nepotes
                             <persName key="#Condomae">Lupicisi</persName> cum filiis et filiabus
                         eorum, et filii et nepotes <persName key="#Condomae">Luperissi</persName>,
                         et filii et nepotes <persName key="#Condomae">Sanduli</persName>, et filii
@@ -165,27 +177,29 @@
                         predicto sancto cenobio concessi ad perpetualiter habendum et possidendum.
                         Scripto precepto ipse per <persName key="#Notary">Bertari</persName>
                         notarium. Actum in hune sacrum <placeName
-                            ref="#http://137.204.128.125/places/110">Benebentanum</placeName>
-                        nostrum palatium <date>mense Septembrio, indictione quarta decima</date>.
-                        Ideo, cum precepto ipse esset relecto, <rs key="#Allocation_to_churches"
-                            >placuit eorumque principibus ut ipsa continentia quo continet in iam
-                            dicto monasterio firmiter maneret</rs>. Nos vero qui supra Atenolfus
-                        comes, ob amore omnipotenti Deo, pro salute anime mee, <rs key="#Cartula"
-                            >manifesto sum quia eadem terra per supradictos finis quo ipse
-                            firmissimo continet precepto legibus antescripti monasterii pertinet et
-                            neque michi, neque cuilibet homini pro nostri publice partibus nullam
-                            pertinet</rs>. Quod si ego aut heredibus meis contra iam dictum vestrum
-                        monasterium aut contra abbatissa seu prepositum ipsius de antescripta terra
-                        per ipse finis causare aut contendere quesierimus per quolibet scriptum aut
-                        humanum ingenium, centum bizanteos solidos pena me et heredibus meis vobis
-                        et at partem antescripti monasterii dare et componere obligo, et omnia quod
-                        lex ammonet vobis vestrisque successoribus exinde percompleamus. Et taliter
-                        ego quidem Atenolfus comes qualiter michi congruum fui hec omnia predicta
-                        feci, et te <persName key="#Notary">Traselbertus</persName> notarius
-                        scribere rogabi. (S.T.) + Ego qui supra Paldi iudex. + Ego <persName
-                            key="#Witness">Ausentio</persName>. + Ego <persName key="#Witness"
-                            >Vvala</persName>. + Ego <persName key="#Witness #Notary #Other_clerics"
-                            >Sichebertus</persName> clericus et notarius subscripsi. </ab>
+                            ref="#http://137.204.128.125/places/110" key="#Palatium"
+                            >Benebentanum</placeName> nostrum <rs key="#Palatium">palatium</rs>
+                        <date>mense Septembrio, indictione quarta decima</date>. Ideo, cum precepto
+                        ipse esset relecto, placuit eorumque principibus ut ipsa continentia quo
+                        continet in iam dicto monasterio <rs
+                            key="#Fiscal_property #Outflow #Allocation_to_churches">firmiter
+                            maneret</rs>. Nos vero qui supra Atenolfus comes, ob amore omnipotenti
+                        Deo, pro salute anime mee, <rs key="#Promissio">manifesto sum</rs> quia
+                        eadem terra per supradictos finis quo ipse firmissimo continet precepto
+                        legibus antescripti monasterii pertinet et neque michi, neque cuilibet
+                        homini pro nostri publice partibus nullam pertinet. Quod si ego aut
+                        heredibus meis contra iam dictum vestrum monasterium aut contra abbatissa
+                        seu prepositum ipsius de antescripta terra per ipse finis causare aut
+                        contendere quesierimus per quolibet scriptum aut humanum ingenium, centum
+                        bizanteos solidos pena me et heredibus meis vobis et at partem antescripti
+                        monasterii dare et componere obligo, et omnia quod lex ammonet vobis
+                        vestrisque successoribus exinde percompleamus. Et taliter ego quidem
+                        Atenolfus comes qualiter michi congruum fui hec omnia predicta feci, et te
+                            <persName key="#Notary">Traselbertus</persName> notarius scribere
+                        rogabi. (S.T.) + Ego qui supra Paldi iudex. + Ego <persName key="#Witness"
+                            >Ausentio</persName>. + Ego <persName key="#Witness">Vvala</persName>. +
+                        Ego <persName key="#Witness #Notary #Other_clerics">Sichebertus</persName>
+                        clericus et notarius subscripsi. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
