@@ -35,7 +35,7 @@
                             <rs type="text_type" ref="#">--Libellus/precaria/emphyteusis</rs>
                             <rs type="record_source" ref="#">Original document</rs>
                             <rs type="document_tradition" ref="#">Original</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">No</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -87,34 +87,39 @@
                             key="#Other_clerics">fu Marighisi</persName>
                         <rs key="#Other_clerics">chierico</rs> e il <rs key="#Priests">prete</rs>
                         <persName key="#Priests">Adalprando</persName> del <persName>fu
-                            Rachiprando</persName> ricevono in livello dal vescovo di Lucca Pietro,
-                        la chiesa di San Pietro sita loco et finibus ubi dicitur Charicini, di
-                        pertinenza dello stesso vescovato, con tutte le sue dipendenze a Charicini e
-                        nelle località di Rogiana e Rontano, eccettuando 7 casis et rebus
-                        massariciis poste nella stessa Caricini. Si impegna affinché per sua
-                        disposizione nella chiesa si tengano officium Dei et luminaria seo missarum
-                        solemnia. Si impegna a versare pro omni censum et iustitiam al vescovo e ai
-                        suoi successori a Lucca ogni mese di ottobre il censo annuale di 10 soldi
-                        d’argento ad pars del vescovato di San Martino, e a far venire a Lucca legem
-                        et iustitiam faciendum, gli stessi uomini che abiteranno le case di
-                        pertinenza della chiesa ad mandato del vescovo. Se non rispetterà i suddetti
-                        impegni, promette di versare al vescovo e ai suoi successori la pena di 30
-                        soldi d’argento. Chiede al notaio Teuderando la stesura di due cartulas.
-                        Actum Luca. <persName>Autori: Pietro episcopus, Giorgio presbiter del fu
-                            Marighisi clericus, Adalprando presbiter del fu Rachiprando. Scrittore:
-                            Teuderando notarius. Testimoni sottoscrittori: Leone clericus, Guprando,
-                            Eriteo, Teupaldo, + Willerado del fu Osprando, + Alone del fu
-                            Angalperto.</persName>
-                        <placeName>Luca (Lucca), Charicini (Careggine), Rogiana (Poggio,
-                            Camporgiano), Rontano (Rontano, Castelnuovo di Garfagnana).</placeName>
-                        <orgName>San Pietro di Careggine, San Martino di Lucca (chiesa
-                            matrice).</orgName>
-                    </ab>
+                            Rachiprando</persName> ricevono in livello dal <rs key="#Bishops"
+                            >vescovo</rs> di Lucca <persName key="#Bishops">Pietro</persName>, la
+                            <orgName key="#Churches"><rs key="#Churches">chiesa</rs> di San
+                            Pietro</orgName> sita loco et finibus ubi dicitur <placeName
+                            key="#Churches">Charicini</placeName>, di pertinenza dello stesso
+                        vescovato, con tutte le sue dipendenze a Charicini e nelle località di
+                            <placeName>Rogiana</placeName> e <placeName>Rontano</placeName>,
+                        eccettuando 7 casis et rebus massariciis poste nella stessa Caricini. Si
+                        impegna affinché per sua disposizione nella chiesa si tengano officium Dei
+                        et luminaria seo missarum solemnia. Si impegna a versare pro omni censum et
+                        iustitiam al vescovo e ai suoi successori a Lucca ogni mese di ottobre il
+                        censo annuale di 10 soldi d’argento ad pars del <orgName
+                            key="#Mother_churches"><rs key="#Mother_churches">vescovato</rs> di San
+                            Martino</orgName>, e a far venire a Lucca legem et iustitiam faciendum,
+                        gli stessi uomini che abiteranno le case di pertinenza della chiesa ad
+                        mandato del vescovo. Se non rispetterà i suddetti impegni, promette di
+                        versare al vescovo e ai suoi successori la pena di 30 soldi d’argento.
+                        Chiede al <rs key="#Writer #Notary">notaio</rs>
+                        <persName key="#Writer #Notary">Teuderando</persName> la stesura di due <rs
+                            key="#Libellus/precaria/emphyteusis">cartulas</rs>. Actum <placeName
+                            ref="#http://137.204.128.125/places/4" key="#Mother_churches"
+                            >Luca</placeName>. <rs key="#Witness">Testimoni</rs> sottoscrittori:
+                            <persName key="#Witness #Other_clerics">Leone</persName>
+                        <rs key="#Other_clerics">clericus</rs>, <persName key="#Witness"
+                            >Guprando</persName>, <persName key="#Witness">Eriteo</persName>,
+                            <persName key="#Witness">Teupaldo</persName>, <persName key="#Witness"
+                            >Willerado</persName> del <persName>fu Osprando</persName>, <persName
+                            key="#Witness">Alone</persName> del <persName>fu
+                        Angalperto</persName>.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p>MDL, V/2, n. 1005, p. 621</p>
-                <p>ChLA, LXXXVI, n. 49, pp. 152-153</p>
+                <p>MDL, V/2, n. 1005, p. 621; ChLA 86, n. 49, pp. 152-153.</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>
@@ -124,7 +129,6 @@
             </div>
             <div type="commentary">
                 <p/>
-                <p><note>Mod_id: 29</note></p>
             </div>
         </body>
     </text>
