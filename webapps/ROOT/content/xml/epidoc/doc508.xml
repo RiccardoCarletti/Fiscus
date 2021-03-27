@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc508">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>ASDL, AAL, D, ++ B 43 (n. 1030)</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus
+                        Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="uri">http://137.204.128.125/documents/doc508</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">Cartula ad censum perexolvendum</rs>
+                            <rs type="record_source" ref="#"/>
+                            <rs type="document_tradition" ref="#"/>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate notBefore="0001" notAfter="0001" when="0001">
+                                <note type="displayed_date">0897/03/24</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Actum Luca (Lucca)</note>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-01-06" who="ptomei">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab> Il prete Robberto del fu Teupaldo riceve in livello dal vescovo di Lucca
+                        Pietro, la chiesa di San Pietro sita loco et finibus ubi dicitur Vicho
+                        Asulari, di pertinenza dello stesso vescovato, con tutte le sue dipendenze.
+                        Si impegna affinché per sua disposizione nella chiesa si tengano officium
+                        Dei et luminaria seo missarum solemnia. Si impegna a versare pro omni censum
+                        et iustitiam al vescovo e ai suoi successori a Lucca ogni mese di ottobre il
+                        censo annuale di 10 soldi d’argento ad pars del vescovato di San Martino. Se
+                        non rispetterà i suddetti impegni, promette di versare al vescovo e ai suoi
+                        successori la pena di 20 soldi d’argento. Chiede al notaio Teuderando la
+                        stesura di due cartulas. <persName>Autori: Pietro episcopus, Robberto
+                            presbiter del fu Teupaldo. Scrittore: Teuderando notarius. Testimoni
+                            sottoscrittori: Teupaldo, Eriteo, + Alone del fu Angalperto, + Willerado
+                            del fu Osprando, Ingherado, Ildiprando, Andrea.</persName>
+                        <placeName>Luca (Lucca), Vicho Asulari (San Pietro a Vico,
+                            Lucca).</placeName>
+                        <orgName>San Pietro di Vico Asulari, San Martino di Lucca (chiesa
+                            matrice).</orgName>
+                    </ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>MDL, V/2, n. 1004, p. 620</p>
+                <p>ChLA, LXXXVI, n. 48, pp. 148-151</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>Stile dell’incarnazione. Nota dorsale XII sec.: libello de ecclesia Sancti Petri
+                    in vico Solari (...) Roberto quondam Tepaldi qui fuit antiquus dominorum de
+                    Porcario.</p>
+                <p><note>Mod_id: 30</note></p>
+            </div>
+        </body>
+    </text>
+</TEI>
