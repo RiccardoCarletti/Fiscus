@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc507">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc508">
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
                 <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
-                    Diplomatico, ++ A 58</title>
+                    Diplomatico, ++ B 43</title>
             </titleStmt>
             <editionStmt>
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus
@@ -15,7 +15,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
-                <idno type="uri">http://137.204.128.125/documents/doc507</idno>
+                <idno type="uri">http://137.204.128.125/documents/doc508</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -82,55 +82,36 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>Il <rs key="#Notary">notaio</rs>
-                        <persName key="#Notary">Adalperto</persName> del <persName>fu
-                            Ghisalfridi</persName> riceve in livello dal <rs key="#Bishops"
+                    <ab>Il <rs key="#Priests">prete</rs>
+                        <persName key="#Priests">Robberto</persName> del <persName>fu
+                            Teupaldo</persName> riceve in livello dal <rs key="#Bishops"
                             >vescovo</rs> di Lucca <persName key="#Bishops">Pietro</persName>, la
-                            <orgName key="#Churches"><rs key="#Churches">chiesa</rs> di San Pietro
-                            sita foras <rs key="#Cities">civitate</rs> ista Lucense qui dicitur
-                            Sumualdi</orgName> prope <placeName
-                            ref="#http://137.204.128.125/places/4">Perolascio</placeName>, di
-                        pertinenza dello stesso vescovato, con tutte le sue dipendenze, fra cui una
-                        saliciola confinante uno capo in <rs key="#Rivers">fluvio Auserclo</rs> e
-                        con terra di <persName>Ghisalfridi</persName>, alio capo cum ambas lateras
-                        in via publica; due orti posti nei pressi della stessa chiesa, uno
-                        confinante ambas capitas cum uno lato in via publica e alio lato con un orto
-                            <orgName ref="#http://137.204.128.125/juridical_persons/70">Sancti
-                            Fridiani</orgName>, l’altro confinante ambas capitas cum uno lato in
-                        terra del <persName>fu Adalberto</persName>, alio lato con la via publica;
-                        metà di un piccolo appezzamento di terra posto nei pressi della stessa
-                        chiesa confinante ambas capitas et ambas lateras in via publica; un
-                        appezzamento di terra posto in loco ubi dicitur <placeName
-                            ref="#http://137.204.128.125/places/4">ad Silice</placeName> confinante
-                        ambas capitas in via publica, lato uno con terra <orgName>Sancti
-                            Anestasii</orgName> et alio lato con terra di <persName>Gastaldulo detto
-                            Cillo</persName>. Si impegna affinché per sua disposizione nella chiesa
-                        si tengano officium Dei et luminaria seo missarum solemnia. Si impegna a
-                        versare pro omni censum et iustitiam al vescovo e ai suoi successori, o
-                        all’uomo che avrà la stessa chiesa in <rs key="#Beneficium">beneficio</rs>,
-                        a Lucca ogni mese di ottobre il censo annuale di 15 soldi d’argento ad pars
-                        del <orgName key="#Mother_churches"><rs key="#Mother_churches"
+                            <orgName key="#Churches"><rs key="#Churches">chiesa</rs> di San
+                            Pietro</orgName> sita loco et finibus ubi dicitur <placeName
+                            key="#Churches" ref="#http://137.204.128.125/places/64">Vicho
+                            Asulari</placeName>, di pertinenza dello stesso vescovato, con tutte le
+                        sue dipendenze. Si impegna affinché per sua disposizione nella chiesa si
+                        tengano officium Dei et luminaria seo missarum solemnia. Si impegna a
+                        versare pro omni censum et iustitiam al vescovo e ai suoi successori a Lucca
+                        ogni mese di ottobre il censo annuale di 10 soldi d’argento ad pars del
+                            <orgName key="#Mother_churches"><rs key="#Mother_churches"
                                 >vescovato</rs> di San Martino</orgName>. Se non rispetterà i
                         suddetti impegni, promette di versare al vescovo e ai suoi successori la
-                        pena di 100 soldi d’argento. Chiede al <rs key="#Writer #Notary">notaio</rs>
+                        pena di 20 soldi d’argento. Chiede al <rs key="#Writer #Notary">notaio</rs>
                         <persName key="#Writer #Notary">Teuderando</persName> la stesura di due <rs
                             key="#Libellus/precaria/emphyteusis">cartulas</rs>. Actum <placeName
-                            ref="#http://137.204.128.125/places/4"
-                            key="#Cities #Churches #Mother_churches">Luca</placeName>. <rs
-                            key="#Witness">Testimoni</rs> sottoscrittori: <persName key="#Witness"
-                            >Michele</persName>, <persName key="#Witness #Notary"
-                            >Teudimundo</persName>
-                        <rs key="#Notary">notarius</rs>, <persName key="#Witness">Alone</persName>,
-                            <persName key="#Witness">Ghisolfo</persName>, <persName key="#Witness"
-                            >Eriteo</persName>, <persName key="#Witness">Willerado</persName> del
-                            <persName>fu Pietro</persName>, <persName key="#Witness"
-                            >Alone</persName> del <persName>fu Angalperto</persName>, <persName
-                            key="#Witness #Scabini">Benedetto</persName>
-                        <rs key="#Scabini">schabinus</rs>.</ab>
+                            key="#Mother_churches" ref="#http://137.204.128.125/places/4"
+                            >Luca</placeName>. <rs key="#Witness">Testimoni</rs> sottoscrittori:
+                            <persName key="#Witness">Teupaldo</persName>, <persName key="#Witness"
+                            >Eriteo</persName>, <persName key="#Witness">Alone</persName> del
+                            <persName>fu Angalperto</persName>, <persName key="#Witness"
+                            >Willerado</persName> del <persName>fu Osprando</persName>, <persName
+                            key="#Witness">Ingherado</persName>, <persName key="#Witness"
+                            >Ildiprando</persName>, <persName key="#Witness">Andrea</persName>.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p>MDL, 5/2, n. 1003, pp. 619-620; ChLA 86, n. 47, pp. 144-147.</p>
+                <p>MDL, V/2, n. 1004, p. 620; ChLA 86, n. 48, pp. 148-151.</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>
@@ -139,7 +120,8 @@
                 <p/>
             </div>
             <div type="commentary">
-                <p/>
+                <p>Nota dorsale XII sec.: libello de ecclesia Sancti Petri in vico Solari (...)
+                    Roberto quondam Tepaldi qui fuit antiquus dominorum de Porcario.</p>
             </div>
         </body>
     </text>

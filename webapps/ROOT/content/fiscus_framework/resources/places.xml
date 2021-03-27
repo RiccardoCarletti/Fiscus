@@ -1548,6 +1548,8 @@
                     />
                     <link type="estates" corresp="#http://137.204.128.125/estates/123"
                         subtype="isInVicinityOf"/>
+                    <link type="places" corresp="#http://137.204.128.125/places/198"
+                        subtype="hasInItsVicinity"/>
                 </place>
                 <place>
                     <placeName>Gavassa (RE)</placeName>
@@ -1571,7 +1573,8 @@
                 </place>
                 <place>
                     <placeName><foreign>Grottole</foreign> (Vairano Patenora; Caserta)</placeName>
-                    <placeName type="other">Gruttule; Groctole</placeName>
+                    <placeName type="other"><foreign>Gruttule</foreign>;
+                        <foreign>Groctole</foreign></placeName>
                     <geogName type="coord"><geo>41.339444, 14.112906; 41.344299, 14.132043;
                             41.333795, 14.162766; 41.324133, 14.173121; 41.310698, 14.142587;
                             41.309344, 14.103695; 41.324312, 14.093329</geo></geogName>
@@ -1587,6 +1590,10 @@
                         subtype="isPartOf"/>
                     <link type="estates" corresp="#http://137.204.128.125/estates/121"
                         subtype="isInVicinityOf"/>
+                    <link type="places" corresp="#http://137.204.128.125/places/195"
+                        subtype="isInVicinityOf"/>
+                    <link type="juridical_persons"
+                        corresp="#http://137.204.128.125/juridical_persons/106" subtype="link"/>
                 </place>
                 <place>
                     <placeName><foreign>Monte Scalocchio</foreign> (Casa Montescalocchi;
@@ -1615,6 +1622,27 @@
                     <geogName type="coord"><geo>42.96104, 10.98101</geo></geogName>
                     <idno>http://137.204.128.125/places/201</idno>
                     <note>Repetti: IV, 205-206; VI, 182</note>
+                </place>
+                <place>
+                    <placeName>Careggine (Lucca)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>44.120389, 10.324885</geo></geogName>
+                    <idno>http://137.204.128.125/places/202</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName><foreign>Rogiana</foreign> (Poggio; Camporgiano; Lucca)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>44.147356, 10.353627</geo></geogName>
+                    <idno>http://137.204.128.125/places/203</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>Rontano (Castelnuovo di Garfagnana; Lucca)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>44.092424, 10.371126</geo></geogName>
+                    <idno>http://137.204.128.125/places/204</idno>
+                    <note/>
                 </place>
             </listPlace>
         </body>
