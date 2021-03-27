@@ -35,7 +35,7 @@
                             <rs type="text_type" ref="#">--Libellus/precaria/emphyteusis</rs>
                             <rs type="record_source" ref="#">Original document</rs>
                             <rs type="document_tradition" ref="#">Original</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">No</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -95,10 +95,11 @@
                         con terra di <persName>Ghisalfridi</persName>, alio capo cum ambas lateras
                         in via publica; due orti posti nei pressi della stessa chiesa, uno
                         confinante ambas capitas cum uno lato in via publica e alio lato con un orto
-                            <orgName>Sancti Fridiani</orgName>, l’altro confinante ambas capitas cum
-                        uno lato in terra del <persName>fu Adalberto</persName>, alio lato con la
-                        via publica; metà di un piccolo appezzamento di terra posto nei pressi della
-                        stessa chiesa confinante ambas capitas et ambas lateras in via publica; un
+                            <orgName ref="#http://137.204.128.125/juridical_persons/70">Sancti
+                            Fridiani</orgName>, l’altro confinante ambas capitas cum uno lato in
+                        terra del <persName>fu Adalberto</persName>, alio lato con la via publica;
+                        metà di un piccolo appezzamento di terra posto nei pressi della stessa
+                        chiesa confinante ambas capitas et ambas lateras in via publica; un
                         appezzamento di terra posto in loco ubi dicitur <placeName
                             ref="#http://137.204.128.125/places/4">ad Silice</placeName> confinante
                         ambas capitas in via publica, lato uno con terra <orgName>Sancti
