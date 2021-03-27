@@ -46,7 +46,7 @@
                             <origDate when="0897-03-24">
                                 <note type="displayed_date">897 March 24</note>
                                 <note type="dating_elements">Stile dell’incarnazione</note>
-                                <note type="topical_date">Actum Luca (Lucca)</note>
+                                <note type="topical_date">Lucca</note>
                             </origDate>
                             <origPlace/>
                         </origin>
@@ -74,7 +74,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2021-01-06" who="ptomei">creation of record</change>
+                <change when="2021-03-27" who="ptomei">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -82,37 +82,39 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab> Il notaio Adalperto del fu Ghisalfridi riceve in livello dal vescovo di
-                        Lucca Pietro, la chiesa di San Pietro sita foras civitate ista Lucense qui
-                        dicitur Sumualdi prope Perolascio, di pertinenza dello stesso vescovato, con
-                        tutte le sue dipendenze, fra cui una saliciola confinante uno capo in fluvio
-                        Auserclo e con terra di Ghisalfridi, alio capo cum ambas lateras in via
+                    <ab>Il <rs key="#Notary">notaio</rs>
+                        <persName key="#Notary">Adalperto</persName> del <persName>fu
+                            Ghisalfridi</persName> riceve in livello dal <rs key="#Bishops"
+                            >vescovo</rs> di Lucca <persName key="#Bishops">Pietro</persName>, la
+                            <orgName>chiesa di San Pietro sita foras <rs key="#Cities">civitate</rs>
+                            ista Lucense qui dicitur Sumualdi</orgName> prope <placeName
+                            ref="#http://137.204.128.125/places/4">Perolascio</placeName>, di
+                        pertinenza dello stesso vescovato, con tutte le sue dipendenze, fra cui una
+                        saliciola confinante uno capo in fluvio Auserclo e con terra di
+                            <persName>Ghisalfridi</persName>, alio capo cum ambas lateras in via
                         publica; due orti posti nei pressi della stessa chiesa, uno confinante ambas
-                        capitas cum uno lato in via publica e alio lato con un orto Sancti Fridiani,
-                        l’altro confinante ambas capitas cum uno lato in terra del fu Adalberto,
-                        alio lato con la via publica; metà di un piccolo appezzamento di terra posto
-                        nei pressi della stessa chiesa confinante ambas capitas et ambas lateras in
-                        via publica; un appezzamento di terra posto in loco ubi dicitur ad Silice
-                        confinante ambas capitas in via publica, lato uno con terra Sancti Anestasii
-                        et alio lato con terra di Gastaldulo detto Cillo. Si impegna affinché per
-                        sua disposizione nella chiesa si tengano officium Dei et luminaria seo
-                        missarum solemnia. Si impegna a versare pro omni censum et iustitiam al
-                        vescovo e ai suoi successori, o all’uomo che avrà la stessa chiesa in
-                        beneficio, a Lucca ogni mese di ottobre il censo annuale di 15 soldi
-                        d’argento ad pars del vescovato di San Martino. Se non rispetterà i suddetti
-                        impegni, promette di versare al vescovo e ai suoi successori la pena di 100
-                        soldi d’argento. Chiede al notaio Teuderando la stesura di due cartulas.
-                            <persName>Autori: Pietro episcopus, Adalperto notarius del fu
-                            Ghisalfridi. Scrittore: Teuderando notarius. Testimoni sottoscrittori:
-                            Michele, Teudimundo notarius, Alone, Ghisolfo, Eriteo, + Willerado del
-                            fu Pietro, + Alone del fu Angalperto, Benedetto schabinus. Altro:
-                            Ghisalfridi, Adalberto, Gastaldulo detto Cillo.</persName>
-                        <placeName>Luca, Perolascio, ad Silice (Lucca), Auserclo (fiume
-                            Serchio).</placeName>
-                        <orgName>San Pietro Somaldi di Lucca, Santi Vincenzo, Frediano, Stefano e
-                            Lorenzo di Lucca (chiesa sedale), Sant’Anastasio di Lucca, San Martino
-                            di Lucca (chiesa matrice).</orgName>
-                    </ab>
+                        capitas cum uno lato in via publica e alio lato con un orto <orgName>Sancti
+                            Fridiani</orgName>, l’altro confinante ambas capitas cum uno lato in
+                        terra del <persName>fu Adalberto</persName>, alio lato con la via publica;
+                        metà di un piccolo appezzamento di terra posto nei pressi della stessa
+                        chiesa confinante ambas capitas et ambas lateras in via publica; un
+                        appezzamento di terra posto in loco ubi dicitur <placeName
+                            ref="#http://137.204.128.125/places/4">ad Silice</placeName> confinante
+                        ambas capitas in via publica, lato uno con terra <orgName>Sancti
+                            Anestasii</orgName> et alio lato con terra di <persName>Gastaldulo detto
+                            Cillo</persName>. Si impegna affinché per sua disposizione nella chiesa
+                        si tengano officium Dei et luminaria seo missarum solemnia. Si impegna a
+                        versare pro omni censum et iustitiam al vescovo e ai suoi successori, o
+                        all’uomo che avrà la stessa chiesa in <rs key="#Beneficium">beneficio</rs>,
+                        a Lucca ogni mese di ottobre il censo annuale di 15 soldi d’argento ad pars
+                        del <orgName>vescovato di San Martino</orgName>. Se non rispetterà i
+                        suddetti impegni, promette di versare al vescovo e ai suoi successori la
+                        pena di 100 soldi d’argento. Chiede al notaio Teuderando la stesura di due
+                        cartulas. Actum Luca. <persName>Autori: Pietro episcopus, Adalperto notarius
+                            del fu Ghisalfridi. Scrittore: Teuderando notarius. Testimoni
+                            sottoscrittori: Michele, Teudimundo notarius, Alone, Ghisolfo, Eriteo, +
+                            Willerado del fu Pietro, + Alone del fu Angalperto, Benedetto schabinus.
+                            Altro: Ghisalfridi, Adalberto, Gastaldulo detto Cillo.</persName></ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
