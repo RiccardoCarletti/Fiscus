@@ -274,6 +274,9 @@
                         subtype="isMadeOf"/>
                     <link type="juridical_persons"
                         corresp="#http://137.204.128.125/juridical_persons/78" subtype="link"/>
+                    <link type="people"
+                        corresp="#http://137.204.128.125/people/101 #http://137.204.128.125/people/96 #http://137.204.128.125/people/97"
+                        subtype="link"/>
                 </place>
                 <place>
                     <geogName><foreign>Corninus</foreign>; <foreign>territorium</foreign></geogName>
@@ -664,8 +667,12 @@
                     <link type="people" corresp="#http://137.204.128.125/people/159" subtype="link"/>
                     <link type="juridical_persons"
                         corresp="#http://137.204.128.125/juridical_persons/97" subtype="link"/>
-                    <link type="people" corresp="#http://137.204.128.125/people/158" subtype="link"
-                    />
+                    <link type="places" corresp="#http://137.204.128.125/places/194"
+                        subtype="isPartOf"/>
+                    <link type="juridical_persons"
+                        corresp="#http://137.204.128.125/juridical_persons/98" subtype="link"/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/123"
+                        subtype="hasInItsVicinity"/>
                 </place>
                 <place>
                     <geogName>Teano; <foreign>comitatus</foreign></geogName>
@@ -673,6 +680,60 @@
                     <idno>http://137.204.128.125/estates/122</idno>
                     <note/>
                     <link type="places" corresp="#http://137.204.128.125/places/174"
+                        subtype="hasConnectionWith"/>
+                    <link type="places" corresp="#http://137.204.128.125/places/194"
+                        subtype="isPartOf"/>
+                    <link type="juridical_persons"
+                        corresp="#http://137.204.128.125/juridical_persons/98" subtype="link"/>
+                    <link type="juridical_persons"
+                        corresp="#http://137.204.128.125/juridical_persons/97" subtype="link"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/114" subtype="link"
+                    />
+                    <link type="estates" corresp="#http://137.204.128.125/estates/123"
+                        subtype="hasConnectionWith"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/167" subtype="link"/>
+                    <link type="places" corresp="#http://137.204.128.125/places/198"
+                        subtype="isInVicinityOf"/>
+                </place>
+                <place>
+                    <geogName><foreign>Grottole</foreign>; curtis</geogName>
+                    <geogName type="other"><foreign>Gruttule</foreign>;
+                        <foreign>Groctule</foreign></geogName>
+                    <idno>http://137.204.128.125/estates/123</idno>
+                    <note/>
+                    <link type="places" corresp="#http://137.204.128.125/places/177"
+                        subtype="hasInItsVicinity"/>
+                    <link type="places" corresp="#http://137.204.128.125/places/195"
+                        subtype="hasInItsVicinity"/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/121"
+                        subtype="isInVicinityOf"/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/122"
+                        subtype="isPartOf"/>
+                    <link type="places" corresp="#http://137.204.128.125/places/194"
+                        subtype="isInVicinityOf"/>
+                    <link type="places" corresp="#http://137.204.128.125/places/198"
+                        subtype="isPartOf"/>
+                </place>
+                <place>
+                    <geogName>Verona; <foreign>comitatus</foreign></geogName>
+                    <geogName type="other"/>
+                    <idno>http://137.204.128.125/estates/124</idno>
+                    <note/>
+                </place>
+                <place>
+                    <geogName>Treviso; <foreign>comitatus</foreign></geogName>
+                    <geogName type="other"/>
+                    <idno>http://137.204.128.125/estates/125</idno>
+                    <note/>
+                </place>
+                <place>
+                    <geogName><foreign>Cortalta</foreign>; curtis</geogName>
+                    <geogName type="other"/>
+                    <idno>http://137.204.128.125/estates/126</idno>
+                    <note/>
+                    <link type="places" corresp="#http://137.204.128.125/places/59"
+                        subtype="hasConnectionWith"/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/124"
                         subtype="hasConnectionWith"/>
                 </place>             
             </listPlace>
