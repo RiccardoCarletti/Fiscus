@@ -4,7 +4,8 @@
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
-                <title>ASDL, AAL, D, * K 100 (n. 1031)</title>
+                <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    Diplomatico, * K 100</title>
             </titleStmt>
             <editionStmt>
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus
@@ -31,9 +32,9 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#">Cartula ad censum perexolvendum</rs>
-                            <rs type="record_source" ref="#"/>
-                            <rs type="document_tradition" ref="#"/>
+                            <rs type="text_type" ref="#">--Libellus/precaria/emphyteusis</rs>
+                            <rs type="record_source" ref="#">Original document</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
                             <rs type="fiscal_property"/>
                         </summary>
                         <msItem xml:id="msItem1">
@@ -42,10 +43,10 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate notBefore="0001" notAfter="0001" when="0001">
-                                <note type="displayed_date">0897/03/24</note>
-                                <note type="dating_elements"/>
-                                <note type="topical_date">Actum Luca (Lucca)</note>
+                            <origDate when="0897-03-24">
+                                <note type="displayed_date">897 March 24</note>
+                                <note type="dating_elements">Stile dell’incarnazione</note>
+                                <note type="topical_date">Lucca</note>
                             </origDate>
                             <origPlace/>
                         </origin>
@@ -73,7 +74,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2021-01-06" who="ptomei">creation of record</change>
+                <change when="2021-03-27" who="ptomei">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -81,24 +82,28 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab> Il prete Giorgio del fu Marighisi chierico e il prete Adalprando del fu
-                        Rachiprando ricevono in livello dal vescovo di Lucca Pietro, la chiesa di
-                        San Pietro sita loco et finibus ubi dicitur Charicini, di pertinenza dello
-                        stesso vescovato, con tutte le sue dipendenze a Charicini e nelle località
-                        di Rogiana e Rontano, eccettuando 7 casis et rebus massariciis poste nella
-                        stessa Caricini. Si impegna affinché per sua disposizione nella chiesa si
-                        tengano officium Dei et luminaria seo missarum solemnia. Si impegna a
-                        versare pro omni censum et iustitiam al vescovo e ai suoi successori a Lucca
-                        ogni mese di ottobre il censo annuale di 10 soldi d’argento ad pars del
-                        vescovato di San Martino, e a far venire a Lucca legem et iustitiam
-                        faciendum, gli stessi uomini che abiteranno le case di pertinenza della
-                        chiesa ad mandato del vescovo. Se non rispetterà i suddetti impegni,
-                        promette di versare al vescovo e ai suoi successori la pena di 30 soldi
-                        d’argento. Chiede al notaio Teuderando la stesura di due cartulas.
-                            <persName>Autori: Pietro episcopus, Giorgio presbiter del fu Marighisi
-                            clericus, Adalprando presbiter del fu Rachiprando. Scrittore: Teuderando
-                            notarius. Testimoni sottoscrittori: Leone clericus, Guprando, Eriteo,
-                            Teupaldo, + Willerado del fu Osprando, + Alone del fu
+                    <ab>Il <rs key="#Priests">prete</rs>
+                        <persName key="#Priests">Giorgio</persName> del <persName
+                            key="#Other_clerics">fu Marighisi</persName>
+                        <rs key="#Other_clerics">chierico</rs> e il <rs key="#Priests">prete</rs>
+                        <persName key="#Priests">Adalprando</persName> del <persName>fu
+                            Rachiprando</persName> ricevono in livello dal vescovo di Lucca Pietro,
+                        la chiesa di San Pietro sita loco et finibus ubi dicitur Charicini, di
+                        pertinenza dello stesso vescovato, con tutte le sue dipendenze a Charicini e
+                        nelle località di Rogiana e Rontano, eccettuando 7 casis et rebus
+                        massariciis poste nella stessa Caricini. Si impegna affinché per sua
+                        disposizione nella chiesa si tengano officium Dei et luminaria seo missarum
+                        solemnia. Si impegna a versare pro omni censum et iustitiam al vescovo e ai
+                        suoi successori a Lucca ogni mese di ottobre il censo annuale di 10 soldi
+                        d’argento ad pars del vescovato di San Martino, e a far venire a Lucca legem
+                        et iustitiam faciendum, gli stessi uomini che abiteranno le case di
+                        pertinenza della chiesa ad mandato del vescovo. Se non rispetterà i suddetti
+                        impegni, promette di versare al vescovo e ai suoi successori la pena di 30
+                        soldi d’argento. Chiede al notaio Teuderando la stesura di due cartulas.
+                        Actum Luca. <persName>Autori: Pietro episcopus, Giorgio presbiter del fu
+                            Marighisi clericus, Adalprando presbiter del fu Rachiprando. Scrittore:
+                            Teuderando notarius. Testimoni sottoscrittori: Leone clericus, Guprando,
+                            Eriteo, Teupaldo, + Willerado del fu Osprando, + Alone del fu
                             Angalperto.</persName>
                         <placeName>Luca (Lucca), Charicini (Careggine), Rogiana (Poggio,
                             Camporgiano), Rontano (Rontano, Castelnuovo di Garfagnana).</placeName>
@@ -118,7 +123,7 @@
                 <p/>
             </div>
             <div type="commentary">
-                <p>Stile dell’incarnazione.</p>
+                <p/>
                 <p><note>Mod_id: 29</note></p>
             </div>
         </body>
