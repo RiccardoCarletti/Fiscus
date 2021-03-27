@@ -1821,11 +1821,16 @@
                         corresp="#http://137.204.128.125/juridical_persons/81" subtype="link"/>
                 </place>
                 <place>
-                    <placeName>S</placeName>
+                    <placeName>Saletta Vercellese</placeName>
                     <placeName type="other"/>
-                    <geogName type="coord"><geo/></geogName>
+                    <geogName type="coord"><geo>45.221105, 8.364029</geo></geogName>
                     <idno>http://137.204.128.125/places/216</idno>
-                    <note/>
+                    <note>Andenna 2005</note>
+                    <link type="people"
+                        corresp="#http://137.204.128.125/people/171 #http://137.204.128.125/people/7"/>
+                    <link type="juridical_persons"
+                        corresp="#http://137.204.128.125/juridical_persons/81"/>
+                    <link type="estates"/>
                 </place>
             </listPlace>
         </body>
