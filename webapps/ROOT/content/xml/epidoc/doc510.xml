@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc510">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    Diplomatico, + H 96</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus
+                        Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="uri">http://137.204.128.125/documents/doc510</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Libellus/precaria/emphyteusis</rs>
+                            <rs type="record_source" ref="#">Original document</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate notBefore="0001" notAfter="0001" when="0001">
+                                <note type="displayed_date">0897/03/30</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Actum Luca (Lucca)</note>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-01-06" who="ptomei">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab> Il notaio Adalperto del fu Ghisalfridi riceve in livello dal vescovo di
+                        Lucca Pietro, la chiesa di San Quirico sita loco Monticello, di pertinenza
+                        dello stesso vescovato, con una subdita recta ipsa ecclesia e tutte le sue
+                        dipendenze e la potestas di richiedere e raccogliere le decime che, per
+                        consuetudine, spettano alla stessa chiesa. Si impegna affinché per sua
+                        disposizione nella chiesa si tengano officium Dei et luminaria seo missarum
+                        solemnia. Ottiene la potestas di suballivellare la chiesa con i suoi beni e
+                        le decime a Totalfridi detto Toto e ai suoi eredi. Si impegna a versare pro
+                        omni censum et iustitiam al vescovo e ai suoi successori, o all’uomo che
+                        avrà la stessa chiesa in beneficio, a Lucca ogni mese di gennaio il censo
+                        annuale di 8 soldi d’argento ad pars del vescovato di San Martino. Se non
+                        rispetterà i suddetti impegni, promette di versare al vescovo e ai suoi
+                        successori la pena di 100 soldi d’argento. Chiede al notaio Teuderando la
+                        stesura di due cartulas. <persName>Autori: Pietro episcopus, Adalperto
+                            notarius del fu Ghisalfridi. Scrittore: Teuderando notarius. Testimoni
+                            sottoscrittori: Eleazar, Cunimundo, Wilimundo, Ghisolfo, Ghisalfridi
+                            notarius, Ostriperto notarius. Altro: Totalfridi detto Toto.</persName>
+                        <placeName>Luca (Lucca), Monticello (Monte San Quirico, Lucca).</placeName>
+                        <orgName>San Quirico di Monticello, San Martino di Lucca (chiesa
+                            matrice).</orgName>
+                    </ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>MDL, V/2, n. 1006, pp. 621-622</p>
+                <p>ChLA, LXXXVI, n. 50, pp. 154-155</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>Stile dell’incarnazione. Decime. Beneficio.</p>
+                <p><note>Mod_id: 34</note></p>
+            </div>
+        </body>
+    </text>
+</TEI>
