@@ -1753,10 +1753,18 @@
                 </place>
                 <place>
                     <placeName>Coggiola (Biella)</placeName>
-                    <placeName type="other"/>
-                    <geogName type="coord"><geo/></geogName>
+                    <placeName type="other"><foreign>Cisidola</foreign></placeName>
+                    <geogName type="coord"><geo>45.677401, 8.176575</geo></geogName>
                     <idno>http://137.204.128.125/places/211</idno>
                     <note/>
+                    <link type="places" corresp="#http://137.204.128.125/places/106"
+                        subtype="hasConnectionWith"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/171" subtype="link"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/7" subtype="link"/>
+                    <link type="juridical_persons"
+                        corresp="#http://137.204.128.125/juridical_persons/81" subtype="link"/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/62"
+                        subtype="hasConnectionWith"/>
                 </place>
             </listPlace>
         </body>
