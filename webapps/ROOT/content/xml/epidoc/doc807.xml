@@ -35,7 +35,7 @@
                             <rs type="text_type" ref="#">--Judicial breve</rs>
                             <rs type="record_source" ref="#">Document summary</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property">Yes</rs>
+                            <rs type="fiscal_property"/>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -112,17 +112,21 @@
                         potestate et comuni Cremone legittime ut venient ad iusticiam faciendam et
                         eis contemnentibus et nolentibus venire dictum dominum Gandulfum pronuncio
                         fore mittendum in possessione dictarum curtium et castri et iurisdictione
-                        earum et do Furminellum sibi eum meum nuntium facio ut mittat dictum abbatem
-                        in possessionem dictarum, salvo iure ecclesie Regine si quod habet in
-                            <placeName ref="#http://137.204.128.125/places/32">Luzaria</placeName>.
-                        Datum Regii in palacio domini episcopi in porticu novo, coram domino
-                        Columbo, Einrico Ratalti, Lombardo notario iudicibus, Ubaldo, Ariberto, Urso
-                        advocatis, Oberto, Diano Caxolo, Luca de Sancto Iermano, Alberto de Sablono
-                        sacerdote, Bernardo capellano. Data e luogo. Ianellus notarius </ab>
+                        earum et do <persName>Furminellum</persName> sibi eum meum nuntium facio ut
+                        mittat dictum abbatem in possessionem dictarum, salvo iure ecclesie Regine
+                        si quod habet in <placeName ref="#http://137.204.128.125/places/32"
+                            >Luzaria</placeName>. Datum Regii in palacio domini episcopi in porticu
+                        novo, coram domino <persName key="#Judge">Columbo</persName>, <persName
+                            key="#Judge">Einrico Ratalti</persName>, <persName key="#Notary #Judge"
+                            >Lombardo</persName>
+                        <rs key="#Notary">notario</rs>
+                        <rs key="#Judge">iudicibus</rs>, Ubaldo, Ariberto, Urso advocatis, Oberto,
+                        Diano Caxolo, Luca de Sancto Iermano, Alberto de Sablono sacerdote, Bernardo
+                        capellano. Data e luogo. Ianellus notarius </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p/>
+                <p>Drei, <foreign>Le carte</foreign> III/2, n. 687, pp. 515-6.</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>
