@@ -1894,10 +1894,15 @@
                 </place>
                 <place>
                     <placeName>Ghislarengo (Vercelli)</placeName>
-                    <placeName type="other"/>
-                    <geogName type="coord"><geo/></geogName>
+                    <placeName type="other"><foreign>Gislarengo</foreign></placeName>
+                    <geogName type="coord"><geo>Gislarengo</geo></geogName>
                     <idno>http://137.204.128.125/places/222</idno>
                     <note/>
+                    <link type="people"
+                        corresp="#http://137.204.128.125/people/171 #http://137.204.128.125/people/7"
+                        subtype="link"/>
+                    <link type="juridical_persons"
+                        corresp="#http://137.204.128.125/juridical_persons/81" subtype="link"/>
                 </place>
             </listPlace>
         </body>
