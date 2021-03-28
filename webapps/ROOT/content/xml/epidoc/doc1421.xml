@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc1421">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
@@ -15,7 +15,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
-                <idno type="uri">http://137.204.128.125/documents/doc1421</idno>
+                <idno type="filename">doc1421</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -92,16 +92,16 @@
                         februarii, indictione Xa. Manifestus sum ego <persName>Bottacius</persName>
                         filius bone memorie <persName>Bronicardi</persName> quia per hanc cartula
                         vinditionis vindo et trado tibi domno <persName key="#Abbots"
-                            ref="#http://137.204.128.125/people/103">Mauro</persName> in Christi
+                            ref="#people/103">Mauro</persName> in Christi
                         nomine <rs key="#Abbots">abbati</rs> de <rs key="#Churches">ecclesia</rs> et
                             <rs key="#Monasteries">monasterio</rs>
                         <orgName key="#Churches #Monasteries"
-                            ref="#http://137.204.128.125/juridical_persons/78">Sancti
+                            ref="#juridical_persons/78">Sancti
                             Quirici</orgName>, in loco <placeName
-                            ref="#http://137.204.128.125/places/86">Populonio</placeName>, idest una
+                            ref="#places/86">Populonio</placeName>, idest una
                             <rs key="#Petiae">petia</rs> de terra quae est in loco <placeName
                             key="#Petiae #Landed_possessions #Fiscal_property #Mention #Count"
-                            ref="#http://137.204.128.125/places/134">Libellaria</placeName>, quae
+                            ref="#places/134">Libellaria</placeName>, quae
                         continere videtur latus unum in terra suprascripti monasterii, altero lato
                         cum uno capite in <rs
                             key="#Landed_possessions #Fiscal_property #Mention #Count">terra
@@ -133,9 +133,9 @@
                         in tali ordine hanc cartula <persName key="#Notary">Petrum</persName>
                         <rs key="#Notary">notarium</rs> domni regis scribere rogavi. Actum in loco
                         et <rs key="#Castle">castello</rs>, qui dicitur <placeName key="#Castle"
-                            ref="#http://137.204.128.125/places/132">Vignale</placeName>, <rs
+                            ref="#places/132">Vignale</placeName>, <rs
                             key="#Comitatus">territorio</rs>
-                        <geogName key="#Comitatus" ref="#http://137.204.128.125/estates/87"
+                        <geogName key="#Comitatus" ref="#estates/87"
                             >Populoniense</geogName>. Signum manus suprascripti Bottaci quondam
                         Bronicardi qui hanc cartula fieri rogavit. Signa manuum
                             <persName>Ugonis</persName> quondam <persName>Corucci</persName> et

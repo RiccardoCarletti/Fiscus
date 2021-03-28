@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc27">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
@@ -15,7 +15,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
-                <idno type="uri">http://137.204.128.125/documents/doc27</idno>
+                <idno type="filename">doc27</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -88,31 +88,31 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>Offersio <persName key="" ref="#http://137.204.128.125/people/83">Gerberge
+                    <ab>Offersio <persName key="" ref="#people/83">Gerberge
                             que Bulgarella</persName> dicebatur relicta <persName key=""
-                            ref="#http://137.204.128.125/people/85">Cunimundi</persName> et filia
-                            <persName key="" ref="#http://137.204.128.125/people/84"
+                            ref="#people/85">Cunimundi</persName> et filia
+                            <persName key="" ref="#people/84"
                             >Guidi</persName>
                         <rs key="#Mother_churches">ecclesie</rs>
                         <orgName key="#Mother_churches"
-                            ref="#http://137.204.128.125/juridical_persons/68">Sancti
+                            ref="#juridical_persons/68">Sancti
                             Martini</orgName> de tribus petiis in <placeName
                             key="#Petiae #Fiscal_property #Mention #Emperor/king"
-                            ref="#http://137.204.128.125/places/64">Vico Solari</placeName> prima
-                        dicitur <placeName key="" ref="#http://137.204.128.125/places/64">Campus
+                            ref="#places/64">Vico Solari</placeName> prima
+                        dicitur <placeName key="" ref="#places/64">Campus
                             Regis</placeName> prope <placeName key=""
-                            ref="#http://137.204.128.125/places/64">Vineam Moringhi</placeName> que
+                            ref="#places/64">Vineam Moringhi</placeName> que
                         tenet caput in via publica, alterum caput cum ambo lateribus in terra
                             <persName key="">Ferrucci</persName>; secunda petia tenet caput in <rs
                             key="#Petiae #Fiscal_property #Mention">terra</rs>
                         <rs key="#Emperor/king">regis</rs>, alterum in terra <persName key=""
                             >Erithi</persName> et est in loco ubi dicitur <placeName key=""
-                            ref="#http://137.204.128.125/places/64">Ysula</placeName>; tertia in
+                            ref="#places/64">Ysula</placeName>; tertia in
                         eodem loco Ysula que tenet caput cum latere in <placeName key=""
-                            ref="#http://137.204.128.125/places/64">terra Berithinga (idest
+                            ref="#places/64">terra Berithinga (idest
                             Porcariensium)</placeName>, alterum caput in terra <persName key=""
                             >Iohannis</persName>, latus in <placeName key=""
-                            ref="#http://137.204.128.125/places/64">terra
+                            ref="#places/64">terra
                         Cottianese</placeName>.</ab>
                 </div>
             </div>

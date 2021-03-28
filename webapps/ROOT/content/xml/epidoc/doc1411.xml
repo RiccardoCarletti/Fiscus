@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc1411">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
@@ -15,7 +15,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
-                <idno type="uri">http://137.204.128.125/documents/doc1411</idno>
+                <idno type="filename">doc1411</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -86,7 +86,7 @@
                     <ab>Notitia de terra de Piscina Lifredi et da Sancto Fridiano et de Pratale. In
                         Christi nomine. Breve pro futuris et modernis temporibus securitatem ac
                         firmitatem ad memoriam habendam vel retinendam, qualiter infra civitate
-                            <placeName ref="#http://137.204.128.125/places/66"
+                            <placeName ref="#places/66"
                             key="#Fiscal_property #Mention #Residential #Palatium #Emperor/king"
                             >Pisa</placeName>, in <rs key="#Palatium #Emperor/king">palatio domni
                             regis</rs>, in placido residisse domina <persName key="#Marquis/duke"
@@ -116,27 +116,27 @@
                             <persName>Rustici</persName>, et reliquis pluribus. Ibique eorum
                         presentiis venientes <persName>Bonitho</persName> prior de <rs
                             key="#Monasteries">monasterio</rs>
-                        <orgName ref="#http://137.204.128.125/juridical_persons/78"
+                        <orgName ref="#juridical_persons/78"
                             key="#Monasteries">Domini et Sancti Quirici et Sancti Salvatori et
                             Sancte Marie et Sancti Benedicti</orgName> de <placeName
-                            ref="#http://137.204.128.125/places/86">Populonio</placeName>
+                            ref="#places/86">Populonio</placeName>
                         proclamavit una cum <persName key="#Advocatus">Ugo</persName>
                         <rs key="#Advocatus">avocato</rs> suprascripti monasterii quod
                             <persName>Peregrino</persName> de <placeName
-                            ref="#http://137.204.128.125/places/132">Vignale</placeName> filius bone
+                            ref="#places/132">Vignale</placeName> filius bone
                         menorie *** contendit suprascripto monasterii tres <rs key="#Petiae"
                             >petiis</rs> de terris, quibus sunt positi in loco et finibus <placeName
-                            ref="#http://137.204.128.125/places/91">Cornino</placeName>, una ubi
-                        dicitur <placeName ref="#http://137.204.128.125/places/130" key="#Petiae"
+                            ref="#places/91">Cornino</placeName>, una ubi
+                        dicitur <placeName ref="#places/130" key="#Petiae"
                             >Piscina Lifredi</placeName>, secunda ubi dicitur <placeName
-                            ref="#http://137.204.128.125/places/131" key="#Petiae">Sancto
+                            ref="#places/131" key="#Petiae">Sancto
                             Fridiano</placeName>, tertia ubi dicitur <placeName
-                            ref="#http://137.204.128.125/places/131" key="#Petiae"
+                            ref="#places/131" key="#Petiae"
                             >Pratale</placeName>, de quibus suprascripto prior una cum <persName
-                            key="#Abbots" ref="#http://137.204.128.125/people/108">Cunizo</persName>
+                            key="#Abbots" ref="#people/108">Cunizo</persName>
                         <rs key="#Abbots">abbate</rs> suo et de suprascripto monasterio, <rs
                             key="#Judicial_breve">proclamaverunt</rs> domine <persName
-                            ref="#http://137.204.128.125/people/125">Mattilde</persName>. Cum
+                            ref="#people/125">Mattilde</persName>. Cum
                         suprascripta domina Beatrix proclamationem audisse, per fustes quas in suis
                         detinebat manibus, investivit cum consilio iudicum suprascripto priore una
                         cum suprascripto avocato suo, pro suprascripto monasterio de suprascriptis

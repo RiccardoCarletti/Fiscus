@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc1447">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
@@ -15,7 +15,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
-                <idno type="uri">http://137.204.128.125/documents/doc1447</idno>
+                <idno type="filename">doc1447</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -85,7 +85,7 @@
             <div type="edition">
                 <div type="textpart">
                     <ab>Da <placeName key="#Landed_possessions #Fiscal_property #Mention #Count"
-                            ref="#http://137.204.128.125/places/126">Castagneto</placeName>. In
+                            ref="#places/126">Castagneto</placeName>. In
                         nomine domini nostri Iesu Christi eterni Dei. Anno ab incarnatione eius
                         millesimo septuagesimo nono, quarto kalendas maii, indictione prima.
                         Manifestus sum ego <persName>Rodulfus</persName> filius bone memorie
@@ -93,15 +93,15 @@
                         remedium iudico atque confirmo in <rs key="#Churches">ecclesia</rs> et <rs
                             key="#Monasteries">monasterio</rs>
                         <orgName key="#Churches #Monasteries"
-                            ref="#http://137.204.128.125/juridical_persons/78">Domini et Salvatoris
+                            ref="#juridical_persons/78">Domini et Salvatoris
                             et Sancti Quirici</orgName>, i sunt duo <rs key="#Petiae">petiis</rs> de
                         terris meis illis, una cum <rs key="#Wine">vinea</rs> super se abentem
                         quibus sunt positis unam in loco <placeName
-                            ref="#http://137.204.128.125/places/126">prope <rs key="#Churches"
+                            ref="#places/126">prope <rs key="#Churches"
                                 >ecclesia</rs>
                             <orgName key="#Churches">Sancti Columbani</orgName></placeName>, et alio
                         in loco et finibus ubi dicitur <placeName key="#Petiae #Wine"
-                            ref="#http://137.204.128.125/places/126">Periascol(is)</placeName>. Quas
+                            ref="#places/126">Periascol(is)</placeName>. Quas
                         ipsis de terris petiis est tenentes ambas capitas cum ambas lateras in terra
                             <persName>Pagani</persName> et <persName>Raineri</persName> germani mei
                         et in terra mea quas mihi reservo; et alia petia de terra cum <rs

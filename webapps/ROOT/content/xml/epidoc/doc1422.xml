@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc1422">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
@@ -15,7 +15,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
-                <idno type="uri">http://137.204.128.125/documents/doc1422</idno>
+                <idno type="filename">doc1422</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -90,14 +90,14 @@
                         filius bone memorie <persName>Enrichi</persName> quia per hanc cartula
                         offersionis offero Deo et <rs key="#Monasteries">monasterio</rs>
                         <orgName key="#Monasteries"
-                            ref="#http://137.204.128.125/juridical_persons/78">Sancti
+                            ref="#juridical_persons/78">Sancti
                             Quirici</orgName>, sito <placeName
-                            ref="#http://137.204.128.125/places/86">Populonio</placeName>, una <rs
+                            ref="#places/86">Populonio</placeName>, una <rs
                             key="#Petiae">petia</rs> de terra mea illa, quam habeo in loco
                             <placeName key="#Petiae #Cisterns/pits"
-                            ref="#http://137.204.128.125/places/91">Cornino</placeName>, sito
+                            ref="#places/91">Cornino</placeName>, sito
                             <placeName key="#Petiae #Cisterns/pits"
-                            ref="#http://137.204.128.125/places/134">Livellaria</placeName>, in qua
+                            ref="#places/134">Livellaria</placeName>, in qua
                             <rs key="#Cisterns/pits">puteum</rs> esse videtur constructum; do,
                         offero, concedo pro anime mee et genitoris mei, nomine Henrichi,
                         suprascripta petia de terra […] monasterio predicti Sancti Quirici, sicut
@@ -105,7 +105,7 @@
                         potestate de rectoribus et pastoribus illis, qui predicto monasterio positi
                         et ordinati fuerint, silicet tam in tuo, qui modo es <rs key="#Abbots"
                             >abbas</rs>, nomine <persName key="#Abbots"
-                            ref="#http://137.204.128.125/people/103">Mauro</persName>, quam et
+                            ref="#people/103">Mauro</persName>, quam et
                         successoribus tuis eam habendi, tenendi, regendi, gubernandi et faciendi
                         exinde quicquid ad partem et utilitatem de ipso monasterio facere volueritis
                         tam vos, quam et vestri successores, qui in tempore […]tituti prepositi in
@@ -121,9 +121,9 @@
                         potueritis, quia in tali ordi[nem] hanc cartula <persName key="#Notary"
                             >Petrum</persName>
                         <rs key="#Notary">notarium</rs> domni regis scribere rogavi. Actum in loco
-                        qui dicitur <placeName ref="#http://137.204.128.125/places/132"
+                        qui dicitur <placeName ref="#places/132"
                             >Vignale</placeName>, <rs key="#Comitatus">territorio</rs>
-                        <geogName key="#Comitatus" ref="#http://137.204.128.125/estates/87"
+                        <geogName key="#Comitatus" ref="#estates/87"
                             >Populoniense</geogName>. Signum manus suprascripti Alberti, qui hanc
                         cartulam offersionis fieri rogavit. Signa manuum
                             <persName>Corucci</persName> quondam <persName>Opithi</persName> et

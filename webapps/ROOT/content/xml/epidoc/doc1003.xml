@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc1003">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
@@ -14,7 +14,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
-                <idno type="uri">http://137.204.128.125/documents/doc1003</idno>
+                <idno type="filename">doc1003</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -82,7 +82,7 @@
             <div type="edition">
                 <div type="textpart">
                     <ab>(C) In nomine domini nostri Iesu Christi Dei aeterni. <persName
-                            key="#Emperor/king" ref="#http://137.204.128.125/people/21">Berengarius
+                            key="#Emperor/king" ref="#people/21">Berengarius
                         </persName>divina favente clementia <rs key="#Emperor/king">rex</rs>. Quia
                         antecessorum imperatorum scilicet atque regum morem fuisse comperimus
                         eclesiarum res sua protectione tueri atque augere, idcirco notum sit
@@ -94,12 +94,12 @@
                             >consiliarius</rs> noster nostram adiens clementiam petiit, quatenus pro
                         amore Dei sanctique confessoris atque pontificis Zenonis res quasdam et
                         censum iam ante ab antecessore nostro dive memoriae <persName
-                            key="#Emperor/king #Cousin_of" ref="#http://137.204.128.125/people/32"
+                            key="#Emperor/king #Cousin_of" ref="#people/32"
                             >Karolo</persName>
                         <rs key="#Emperor/king">imperatore</rs> et <rs key="#Cousin_of"
                             >consobrino</rs> nostro sancto et venerabili <rs key="#Monasteries"
                             >coenobio </rs>eiusdem <orgName key="#Monasteries"
-                            ref="#http://137.204.128.125/juridical_persons/90">Sancti Zenonis
+                            ref="#juridical_persons/90">Sancti Zenonis
                         </orgName>concessas nostro iterum confirmaremus precepto. Nos itaque iustam
                         et ratam ipsius postulationem perspicientes et iam fati sancti martyris et
                         confessoris atque pontificis Zenonis nos precibus et intercessione iuvari
@@ -138,7 +138,7 @@
                         recognovi et subscripsi. (SR) (SI n. u) Data .X. kal. septemb., anno
                         incamationis domini nostri Iesu Christi .DCCCCI., anno vero domni Berengarii
                         gloriosissimi regis .XIIII., indictione quarta. Actum <placeName
-                            ref="#http://137.204.128.125/places/59">Verona</placeName>. in Dei
+                            ref="#places/59">Verona</placeName>. in Dei
                         nomine feliciter, amen. </ab>
                 </div>
             </div>

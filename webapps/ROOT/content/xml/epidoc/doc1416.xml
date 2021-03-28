@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc1416">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
@@ -15,7 +15,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
-                <idno type="uri">http://137.204.128.125/documents/doc1416</idno>
+                <idno type="filename">doc1416</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -90,29 +90,29 @@
                             <persName>Gisolfi</persName> et <persName>Gisolfus</persName> filius
                         predicti <persName>Gerardi</persName> quia insimul nos ambo [vindimus et]
                         tradimus tibi domno <rs key="#Abbots">abbati</rs>, qui <persName
-                            key="#Abbots" ref="#http://137.204.128.125/people/103">Mauro</persName>
+                            key="#Abbots" ref="#people/103">Mauro</persName>
                         vocatur, de <rs key="#Churches">ecclesia</rs> et <rs key="#Monasteries"
                             >monasterio</rs>
-                        <orgName ref="#http://137.204.128.125/juridical_persons/78"
+                        <orgName ref="#juridical_persons/78"
                             key="#Churches #Monasteries">Sancti Quirici</orgName> sito <placeName
-                            ref="#http://137.204.128.125/places/86">Populonio</placeName>, tres
+                            ref="#places/86">Populonio</placeName>, tres
                         videlicet terre <rs key="#Petiae">petias</rs>, quarum una esse videtur prope
                             <rs key="#Churches">ecclesia</rs>
                         <orgName>Sancti Christofori</orgName>, et tenet uno capo in terra
                         Teudicinga, alio in terra <persName>Rugeri</persName> filii quondam
                             <persName>B[ru]ni</persName>, lato uno in terra <orgName
-                            ref="#http://137.204.128.125/juridical_persons/86"
+                            ref="#juridical_persons/86"
                             key="#Landed_possessions">Sancti Cerbonii</orgName>, aliud in terra de
                         suprascripto monasterio; altera terre petia tenet capud in terra de
                         suprascripto monasterio, latus unum in <rs key="#Rivers">Cornea morta</rs>,
                         alio in terra <orgName key="#Landed_possessions"
-                            ref="#http://137.204.128.125/juridical_persons/88">Sancti
+                            ref="#juridical_persons/88">Sancti
                             Pancratii</orgName> et de suprascripto monasterio; tertia terre petia
                         videtur esse prope ecclesia eiusdem Sancti Christofori, quam tenet capud uno
                         cum lato uno in terra Teudicinga, capud alio in terra de <orgName
                             key="#Landed_possessions"
-                            ref="#http://137.204.128.125/juridical_persons/87">Sancta
-                            Maria</orgName> de <placeName ref="#http://137.204.128.125/places/200"
+                            ref="#juridical_persons/87">Sancta
+                            Maria</orgName> de <placeName ref="#places/200"
                             >Serena</placeName>, aliud latus in terra de filiis quondam
                             <persName>Henrici</persName>, per terminos et confines ut petie terrarum
                         per designate esse videm[ur sicut suprascripte sunt] ita in integrum cum
@@ -137,9 +137,9 @@
                         potueritis, quia in tali hordine hanc cartula <persName key="#Notary"
                             >Petrus</persName>
                         <rs key="#Notary">notario</rs> domni regis scribere rogavimus. Actum in loco
-                        qui dicitur <placeName ref="#http://137.204.128.125/places/134"
+                        qui dicitur <placeName ref="#places/134"
                             >Livellaria</placeName>, sito <placeName
-                            ref="#http://137.204.128.125/places/91">Cornino</placeName>, prope
+                            ref="#places/91">Cornino</placeName>, prope
                         ecclesia Sancti Christofori. Signa manuum suprascriptorum Gerardi et Gisolfi
                         filii Gerardi, qui hanc cartulam fieri rogaverunt. Signa manuum
                             <persName>Benni</persName> quondam <persName>Ugonis</persName> et

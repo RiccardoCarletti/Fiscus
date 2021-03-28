@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc806">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
@@ -15,7 +15,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
-                <idno type="uri">http://137.204.128.125/documents/doc806</idno>
+                <idno type="filename">doc806</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -89,10 +89,10 @@
                         consenciente vendicionibus de <rs key="#Areas #Rivers">terra de Riva</rs> et
                         de <rs key="#Areas #Rivers">terra de ultra Trebia</rs> atque refutacionibus
                         quas ipsi Ercarius et Robertus fecerunt domino <persName
-                            ref="#http://137.204.128.125/people/16">Gandulfo</persName>
+                            ref="#people/16">Gandulfo</persName>
                         <rs key="#Abbots">abbati</rs>
                         <rs key="#Monasteries">monasterii</rs>
-                        <orgName ref="#http://137.204.128.125/juridical_persons/53"
+                        <orgName ref="#juridical_persons/53"
                             key="#Areas #Rivers">S. Sisti</orgName>. <rs key="#Witness">Testes</rs>
                         <persName key="#Witness">Albericus Brachiumforte</persName>, <persName
                             key="#Witness">Guido Buxus</persName>, <persName key="#Witness"

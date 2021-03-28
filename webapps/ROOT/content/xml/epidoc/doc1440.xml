@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc1440">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
@@ -15,7 +15,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
-                <idno type="uri">http://137.204.128.125/documents/doc1440</idno>
+                <idno type="filename">doc1440</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -87,53 +87,53 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>Da Monte Maccaio a <placeName ref="#http://137.204.128.125/places/87"
+                    <ab>Da Monte Maccaio a <placeName ref="#places/87"
                             >Suvereto</placeName>. In nomine domini nostri Iesu Christi. Anni ab
                         incarnatione eius millesimo centesimo vigesimo primo, mense martii,
                         indictione Va Xa. Manifestus sum ego <persName key="#Count"
-                            ref="#http://137.204.128.125/people/96">Ildibrandus</persName>
+                            ref="#people/96">Ildibrandus</persName>
                         <rs key="#Count">comes</rs> filius <persName key="#Count"
-                            ref="#http://137.204.128.125/people/97">Raineri</persName>
+                            ref="#people/97">Raineri</persName>
                         <rs key="#Count">comitis</rs> et <persName key="#Countess"
-                            ref="#http://137.204.128.125/people/98">Maximilla</persName>
+                            ref="#people/98">Maximilla</persName>
                         <rs key="#Countess">comitissa</rs>, iugales, et filia <persName key="#Count"
                             >Rugeri</persName>
                         <rs key="#Count">comiti</rs>, et <persName key="#Countess"
-                            ref="#http://137.204.128.125/people/99">Lupa</persName>
+                            ref="#people/99">Lupa</persName>
                         <rs key="#Countess">comitissa</rs>, relicta <persName key="#Count"
-                            ref="#http://137.204.128.125/people/100">Malagalie</persName>,
+                            ref="#people/100">Malagalie</persName>,
                         consentiente mihi prefato comite Ildebrando, in mundio cuius volo permanere,
                         quia per hanc cartula donationis donamus et tradimus tibi, <persName
-                            key="#Abbots" ref="#http://137.204.128.125/people/103">Mauro</persName>
+                            key="#Abbots" ref="#people/103">Mauro</persName>
                         venerabili <rs key="#Abbots">abbati</rs> ex <rs key="#Monasteries"
                             >monasterio</rs>
                         <orgName key="#Monasteries"
-                            ref="#http://137.204.128.125/juridical_persons/78">Sancti
+                            ref="#juridical_persons/78">Sancti
                             Quirici</orgName>, idest unus <rs key="#Mansi">mansus</rs> terre, quod
                         est in <placeName
                             key="#Mansi #Wine #Oil #Fiscal_property #Object #Redistributive #Allocation_to_churches #Count"
-                            ref="#http://137.204.128.125/places/87">Monte Maccaio</placeName>, cum
+                            ref="#places/87">Monte Maccaio</placeName>, cum
                             <rs key="#Wine">vinea</rs> et <rs key="#Oil">oliveto</rs>, exceptis
                         illis quae sunt <orgName key="#Landed_possessions">Sancti Cipriani</orgName>
                         et <orgName key="#Landed_possessions"
-                            ref="#http://137.204.128.125/juridical_persons/68">Sancti Martini
+                            ref="#juridical_persons/68">Sancti Martini
                         </orgName>et <orgName key="#Landed_possessions"
-                            ref="#http://137.204.128.125/juridical_persons/86">Sancti
+                            ref="#juridical_persons/86">Sancti
                             Gerboni</orgName> et <orgName key="#Landed_possessions"
-                            ref="#http://137.204.128.125/juridical_persons/78">Sancti
+                            ref="#juridical_persons/78">Sancti
                             Quirici</orgName>, et rectus fuit per <persName
                             key="#Mansi #Wine #Oil #Fiscal_property #Mention #Count"
                             >Benzonem</persName>, et designatus est ab omni parte, q[ui]a ex una
                         parte est <rs key="#Landed_possessions">terra</rs>
                         <orgName key="#Landed_possessions"
-                            ref="#http://137.204.128.125/juridical_persons/79">Sancti
-                            Petri</orgName> de <placeName ref="#http://137.204.128.125/places/85"
+                            ref="#juridical_persons/79">Sancti
+                            Petri</orgName> de <placeName ref="#places/85"
                             >Monteviridi</placeName>, ex altera parte tenet <persName
                             key="#Landed_possessions #Viscount"
-                            ref="#http://137.204.128.125/people/104">Rugerius</persName>
+                            ref="#people/104">Rugerius</persName>
                         <rs key="#Viscount">vicecomes</rs>, desuper est terra <orgName
                             key="#Landed_possessions"
-                            ref="#http://137.204.128.125/juridical_persons/86">Sancti
+                            ref="#juridical_persons/86">Sancti
                             Cerbonii</orgName>, desubtus via, quem autem mansum suprascriptum una
                         cum accessione et ingressione omnia in integrum sicut superius legitur
                         prefato Mauro abbati donamus atque tradimus, ut vos et ecclesia vestra et
@@ -158,10 +158,10 @@
                         aut valuerit sub extimatione in consimili loco, quia inter nos taliter
                         convenimus. Actum in <rs key="#Castle">castello</rs> de <placeName
                             key="#Fiscal_property #Residential #Castle #Count"
-                            ref="#http://137.204.128.125/places/87">Suvereto</placeName>. Signa
+                            ref="#places/87">Suvereto</placeName>. Signa
                         manuum prefati comitis et comitissarum, qui que vero hanc cartula, qualiter
                         supra legitur, scribere rogaverunt. Signa manuum <persName key="#Viscount"
-                            ref="#http://137.204.128.125/people/104">Rugerii</persName>
+                            ref="#people/104">Rugerii</persName>
                         <rs key="#Viscount">vicecomitis</rs> filii <persName>Ildibrandi</persName>
                         et <persName>Vulpelli</persName> filii <persName>Perli</persName> et
                             <persName>B(er)ardini</persName> filii <persName>Petri Grassi

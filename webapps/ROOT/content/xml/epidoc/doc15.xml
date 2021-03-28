@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc15">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
@@ -14,7 +14,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
-                <idno type="uri">http://137.204.128.125/documents/doc15</idno>
+                <idno type="filename">doc15</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -60,7 +60,7 @@
                    <place></place>
                 </listPlace>
             <listPerson>
-    <person corresp="http://137.204.128.125/people/68">
+    <person corresp="people/68">
             <persName xml:lang="en">Honorius I (625-638), papa</persName>
         </person>
     </listPerson>
@@ -87,7 +87,7 @@
             <div type="edition">
                 <div type="textpart">
                     <ab>Ex registro Honorii pape. <persName key="#Popes"
-                            ref="#http://137.204.128.125/people/68">Honorius</persName>
+                            ref="#people/68">Honorius</persName>
                         <persName key="#Subdeacons">Gratioso</persName>
                         <rs key="#Subdeacons">subdiacono</rs>. Ne cuiquam labor ac diligentia, quam
                         in rebus aecclesiae adhibet, possit esse damnosa, ita disponendum est, ut
@@ -95,7 +95,7 @@
                         Proinde <rs
                             key="#Fiscal_property #Object #Allocation_to_individuals #Rent_in_money #Popes"
                             >domum cum orto suo</rs> positam in hac urbe <placeName key=""
-                            ref="#http://137.204.128.125/places/52">Roma</placeName> iuxta
+                            ref="#places/52">Roma</placeName> iuxta
                             <placeName key="">termas Diocletianas</placeName> regione quarta cum
                         omnibus ad eam pertinentibus tibi in<rs key="#Allocation_to_individuals">
                             .XXVIIII. annorum spatia <rs key="#Rent_in_money">ad unum auri solidum

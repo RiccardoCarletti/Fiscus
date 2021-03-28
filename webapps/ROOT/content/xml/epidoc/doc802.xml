@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc802">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
@@ -15,7 +15,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
-                <idno type="uri">http://137.204.128.125/documents/doc802</idno>
+                <idno type="filename">doc802</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -83,11 +83,11 @@
             <div type="edition">
                 <div type="textpart">
                     <ab>(S.T.) Die dominico, XV mensis aprilis, in <placeName
-                            ref="#http://137.204.128.125/places/43">Placentia</placeName>, in
-                        parlatorio <orgName ref="#http://137.204.128.125/juridical_persons/53"
+                            ref="#places/43">Placentia</placeName>, in
+                        parlatorio <orgName ref="#juridical_persons/53"
                             >Sancti Sisti</orgName>. Coram Alberto de Pelocco, Conca magistro,
                         Gartio de Pado, Gerardo de Camera et Iacobo Soregario, dominus <persName
-                            ref="#http://137.204.128.125/people/16">Gandulfus</persName>
+                            ref="#people/16">Gandulfus</persName>
                         suprascripti monasterii abbas investivit Gualdum de Ansaldis et Martinum
                         Arnaldum et Martinum Servumdeum equaliter in se tantum per VI annos in
                         concordia de V <rs key="#Birds_of_prey">spa[raveriis]</rs> de quibus debent
@@ -95,7 +95,7 @@
                         videlicet de… sparaveriis ex suprascriptis quinque debent piscare a
                         suprascripto ponte infra per totam aquam <rs key="#Rivers">Trebie</rs> usque
                         ad… de <placeName key="#Fisheries #Rights_of_use_on_woods/pastures/waters"
-                            ref="#http://137.204.128.125/places/70">Calendasco</placeName> tantum et
+                            ref="#places/70">Calendasco</placeName> tantum et
                         de quinto sparaverio debent piscare per totam suprascriptam acquam Trebie a
                         suprascripto ponte infra usque Padum, reddendo tamen parti suprascripti
                         monasterii semper <rs key="#Rights_of_use_on_woods/pastures/waters">tercium

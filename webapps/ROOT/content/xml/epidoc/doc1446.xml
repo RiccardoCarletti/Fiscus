@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc1446">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
@@ -15,7 +15,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
-                <idno type="uri">http://137.204.128.125/documents/doc1446</idno>
+                <idno type="filename">doc1446</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -90,25 +90,25 @@
                         bone memorie <persName>Alberti</persName>, quia per hanc cartula pro anime
                         mee remedio et pro remedium anime <persName>Ugi</persName> germano meo
                         offero Deo et tibi <rs key="#Churches">ecclesia</rs>
-                        <orgName key="#Churches" ref="#http://137.204.128.125/juridical_persons/78"
+                        <orgName key="#Churches" ref="#juridical_persons/78"
                             >Sancti Quirici</orgName>, qui est fundato et edificato infra <rs
                             key="#Comitatus">comitato et territorio</rs>
-                        <geogName key="#Comitatus" ref="#http://137.204.128.125/estates/87"
+                        <geogName key="#Comitatus" ref="#estates/87"
                             >Populoniense</geogName> idest una <rs key="#Petiae">petja</rs> de
                         t[er]ra et <rs key="#Wine">vinea</rs> illa, quam abeo in loco et finibus ubi
                         dicitur <placeName
                             key="#Petiae #Landed_possessions #Wine #Fiscal_property #Mention"
-                            ref="#http://137.204.128.125/places/126">Castagneto</placeName>, ubi
+                            ref="#places/126">Castagneto</placeName>, ubi
                         dicitur <rs key="#Rivers">Rivo</rs> Merdaccio, prope <rs key="#Churches"
                             >ecclesia</rs>
                         <orgName key="#Churches">Sancti Pauli</orgName>, qui uno capo tenet in terra
                             <orgName key="#Landed_possessions #Fiscal_property #Mention">Sancti
-                            Petri</orgName> urbis <placeName ref="#http://137.204.128.125/places/52"
+                            Petri</orgName> urbis <placeName ref="#places/52"
                             >Rome</placeName>, et alio capo in terra <persName>Rudolfi</persName>
                         filii bone memorie <persName>Donnucci</persName>, lato uno tenet in terra
                         qui fuit de <persName>Settimisuri</persName> et modo detinet
                             <persName>Getho</persName> da <placeName
-                            ref="#http://137.204.128.125/places/209">la Rocca</placeName> cum sui
+                            ref="#places/209">la Rocca</placeName> cum sui
                         germani, et alio lato tenet in via puplica. Has suprascripta petja de terra,
                         quod est vinea super se abente, in eodem loco qualiter ab omni parte
                         circumdata est per designatas locas, in integrum cum inferioribus et
@@ -133,7 +133,7 @@
                         offersionis mee <persName key="#Notary">Alboni</persName>
                         <rs key="#Notary">notarius</rs> domni inperatoris scribere rogavi. Actum in
                         loco et finibus ubi dicitur <placeName key="#Castle"
-                            ref="#http://137.204.128.125/places/217">Monte Cucculi</placeName>,
+                            ref="#places/217">Monte Cucculi</placeName>,
                         prope ipso <rs key="#Castle">castello</rs>. Signum manus suprascripti
                         Transmundi qui hanc cartula offersionis fieri rogavit. Signa manuum
                             <persName>Cennami</persName> filii bone memorie

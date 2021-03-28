@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc1401">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
@@ -15,7 +15,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
-                <idno type="uri">http://137.204.128.125/documents/doc1401</idno>
+                <idno type="filename">doc1401</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -90,16 +90,16 @@
                     <ab>Cartula de Franciano. In nomine domini nostri Iesu Christi. Millesimo
                         centesimo vicesimo primo, mense martio, anno ab incarnatione eius,
                         indictione quarta Xa. Constat me <persName key="#Count"
-                            ref="#http://137.204.128.125/people/96">Ildebrandum</persName>
+                            ref="#people/96">Ildebrandum</persName>
                         <rs key="#Count">comitem</rs>, filium <persName key="#Count"
-                            ref="#http://137.204.128.125/people/97">Raineri <rs key="#Count"
+                            ref="#people/97">Raineri <rs key="#Count"
                                 >comitis</rs>, qui Malabranca vocabatur</persName>, qui professus
                         sum vivere <rs key="#Roman">lege Romana</rs> et <persName key="#Countess"
-                            ref="#http://137.204.128.125/people/98">Maximilla</persName>
+                            ref="#people/98">Maximilla</persName>
                         <rs key="#Countess">comitissa</rs> et <rs key="#Countess">comitissam</rs>
-                        <persName ref="#http://137.204.128.125/people/99">Lupam</persName>, filiam
+                        <persName ref="#people/99">Lupam</persName>, filiam
                             <persName>Soffredi</persName>, relictam <persName key="#Count"
-                            ref="#http://137.204.128.125/people/100">Malagalie</persName>, que
+                            ref="#people/100">Malagalie</persName>, que
                         professa sum, propter legem patris mei, <rs key="#Lombard">legem vivere
                             Longobardorum</rs>, ipso namque Ildebrando mihi consentiente, in mundio
                         cuius permanere volo, presens presentibus in Dei nomine dixisse: “Vita et
@@ -110,35 +110,35 @@
                         atque offerimus nec non tradimus Deo et <rs key="#Monasteries"
                             >monasterio</rs>
                         <orgName key="#Monasteries"
-                            ref="#http://137.204.128.125/juridical_persons/78">Sancti
-                            Quirici</orgName> de <placeName ref="#http://137.204.128.125/places/86"
+                            ref="#juridical_persons/78">Sancti
+                            Quirici</orgName> de <placeName ref="#places/86"
                             >Populonio</placeName>, idest medietatem de omnibus <rs
                             key="#Landed_possessions">terris</rs>, cultis et incultis, agrestis,
                         aquis aquarumque decursibus, et <rs key="#Saltworks #Sea_salt">salinis</rs>,
                         quas vos <rs key="#Littera/mandatum">recipistis et tenuistis</rs> olim per
                         comitem Rainerium et a <rs key="#Countess">comitissa</rs>
-                        <persName key="#Countess" ref="#http://137.204.128.125/people/101"
+                        <persName key="#Countess" ref="#people/101"
                             >Adalasia</persName> in <geogName
                             key="#Curtes #Landed_possessions #Saltworks #Salt #Sea_salt #Fiscal_property #Object #Redistributive #Allocation_to_churches #Castle"
-                            ref="#http://137.204.128.125/estates/85"><rs key="#Curtes">curte</rs> de
+                            ref="#estates/85"><rs key="#Curtes">curte</rs> de
                                 <placeName
                                 key="#Curtes #Fiscal_property #Object #Redistributive #Allocation_to_churches #Castle"
-                                ref="#http://137.204.128.125/places/89"
+                                ref="#places/89"
                             >Franciano</placeName></geogName>, etiam medietatem de ipso <rs
                             key="#Castle">castellare</rs>, idest medietatem de omnibus terris
                         nostris, quam vos olim habuistis et tenuistis vel alii per vos, que sunt
-                        inter hos fines: nam <placeName ref="#http://137.204.128.125/places/89"
+                        inter hos fines: nam <placeName ref="#places/89"
                             >Petralata</placeName> est ex una parte et <placeName
-                            ref="#http://137.204.128.125/places/89">Cornachini</placeName> et
-                            <placeName ref="#http://137.204.128.125/places/89" key="#Rivers"><rs
+                            ref="#places/89">Cornachini</placeName> et
+                            <placeName ref="#places/89" key="#Rivers"><rs
                                 key="#Rivers">rivus</rs> Pertuli</placeName> currit in <placeName
-                            key="#Rivers" ref="#http://137.204.128.125/places/89"><rs key="#Rivers"
+                            key="#Rivers" ref="#places/89"><rs key="#Rivers"
                                 >Notulo</rs></placeName> et Notulo vadit in <placeName
-                            ref="#http://137.204.128.125/places/89" key="#Marshes/lagoons/tombolos"
+                            ref="#places/89" key="#Marshes/lagoons/tombolos"
                                 ><rs key="#Marshes/lagoons/tombolos">stagno</rs></placeName>, ex
                         altera parte est terra <orgName key="#Landed_possessions #Monasteries"
-                            ref="#http://137.204.128.125/juridical_persons/79">Sancti
-                            Petri</orgName> de <placeName ref="#http://137.204.128.125/places/85"
+                            ref="#juridical_persons/79">Sancti
+                            Petri</orgName> de <placeName ref="#places/85"
                             >Monteviridi</placeName> et <orgName
                             key="#Landed_possessions #Monasteries">Sancte Marie Grasse </orgName>et
                         tenet secus stagnum et usque in Notulum. Quas autem res istas una cum
@@ -155,14 +155,14 @@
                         promittimus eas vobis prefato abbati et tuis successoribus restituere in
                         duplum sicut pro tempore fuerint meliorate aut valuerint sub estimatione in
                         consimilibus locis, quia inter nos taliter convenimus. Actum in <geogName
-                            ref="#http://137.204.128.125/estates/86"><placeName
-                                ref="#http://137.204.128.125/places/91"
+                            ref="#estates/86"><placeName
+                                ref="#places/91"
                             >Cornino</placeName></geogName>, in <rs key="#Castle">castello</rs> de
                             <placeName key="#Fiscal_property #Residential #Castle #Count"
-                            ref="#http://137.204.128.125/places/87">Suvereto</placeName>. Signa
+                            ref="#places/87">Suvereto</placeName>. Signa
                         manuum […] comitis Ildebrandi et Maximille comitisse et Lupe comitisse, qui
                         queve hanc cartula qualiter super legitur, scribere rogaverunt. Signa manuum
-                            <persName key="#Viscount" ref="#http://137.204.128.125/people/104"
+                            <persName key="#Viscount" ref="#people/104"
                             >Rugeri</persName>
                         <rs key="#Viscount">vicecomitis</rs> filii <persName>Ildebrandi</persName>
                         et <persName>Wlpelli</persName> filii [<persName>Perli</persName>] et
@@ -174,7 +174,7 @@
                             <placeName>Tremali</placeName> et <persName>Wazonis</persName> de
                             <placeName>Monteliverenti</placeName> et <persName>Widonis</persName> de
                             <placeName>Monticulo</placeName>. Confirmatum est hoc a comitissa
-                        Maximilla in <placeName ref="#http://137.204.128.125/places/88"
+                        Maximilla in <placeName ref="#places/88"
                             key="#Fiscal_property #Residential #Countess">Malliano</placeName>,
                         testibus Widone de Monticulo et <persName>Rugeri</persName> et
                             <persName>Banbarini</persName>. Ego <persName key="#Notary #Judge"

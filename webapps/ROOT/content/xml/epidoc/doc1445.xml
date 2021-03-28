@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc1445">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
@@ -15,7 +15,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
-                <idno type="uri">http://137.204.128.125/documents/doc1445</idno>
+                <idno type="filename">doc1445</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -93,10 +93,10 @@
                             <persName>Termitj</persName> quia per hanc cartula pro anime mee et pro
                         anima bone memorie Termitj, qui fuit genitor meo, per hanc cartula offero
                         Deo et tibi <rs key="#Churches">ecclesia</rs>
-                        <orgName key="#Churches" ref="#http://137.204.128.125/juridical_persons/78"
+                        <orgName key="#Churches" ref="#juridical_persons/78"
                             >Sancti Quirici</orgName>, qui est in loco <rs key="#Mountains"
                             >Monte</rs> non multo logne ad civitate qui vocitatur <placeName
-                            ref="#http://137.204.128.125/places/86">Populonia</placeName>, id est
+                            ref="#places/86">Populonia</placeName>, id est
                         meam portjonem ex integram de duo <rs key="#Petiae">petiis</rs> de terris
                         illis, qui sunt positi: una ex ipsis est in loco <placeName
                             key="#Petiae #Wine">Lungo</placeName> cum <rs key="#Wine">vinea</rs>
@@ -105,7 +105,7 @@
                         terra <persName>Rodolfi</persName> filii bone memorie
                             <persName>Alboni</persName> de <placeName>Collealto</placeName>, lato
                         uno tenet in terra qui iam fuit bone memorie <persName>Opitj</persName> da
-                            <placeName ref="#http://137.204.128.125/places/206"
+                        <placeName ref="#places/232"
                         >Segalare</placeName>, et alio lato tenet in terra Taibertinga; alia petia
                         de terra est in loco <placeName key="#Petiae">Sambuceta</placeName>, qui
                         ambas capitas cum uno lato sunt tenentes in terra de suprascripto filio bone
@@ -135,7 +135,7 @@
                             key="#Notary #Judge">Rodulfus</persName>
                         <rs key="#Notary">notarius</rs> et <rs key="#Judge">iudex</rs> domni
                         inperatoris scribere rogavi. Actum in loco <placeName
-                            ref="#http://137.204.128.125/places/207">Campetroso</placeName>. Signum
+                            ref="#places/207">Campetroso</placeName>. Signum
                         manus suprascripti Ilditj qui hanc cartula offersionis fieri rogavit. Signum
                         manus <persName>Anselmi</persName> filii bone memorie
                             <persName>Gotitj</persName> testis. Ego <persName>Petrus</persName>

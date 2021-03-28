@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc1600">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
@@ -15,7 +15,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
-                <idno type="uri">http://137.204.128.125/documents/doc1600</idno>
+                <idno type="filename">doc1600</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -84,11 +84,11 @@
                 <div type="textpart">
                     <ab>+ In nomine domini dei salvatoris ihesu cristi. Concessimus nos vir
                         gloriosissimus <persName key="#Princeps"
-                            ref="#http://137.204.128.125/people/90">waimarius</persName> dei
+                            ref="#people/90">waimarius</persName> dei
                         prebidentia langobardorum gentis <rs key="#Princeps">princeps</rs> per
                         postulationem domne <persName>landelaiche</persName> matris mee in <rs
                             key="#Churches">ecclesia</rs>
-                        <orgName key="#Churches" ref="#http://137.204.128.125/juridical_persons/77"
+                        <orgName key="#Churches" ref="#juridical_persons/77"
                             >sancti maximi</orgName>, quod domnus <persName key="#Princeps"
                             >waiferius</persName> princeps pater meus intus, hec cibitate salerno a
                         nobo construxit fundamine, integram rebus <persName>benenati</persName> et

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc4">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
@@ -13,7 +13,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
-                <idno type="uri">http://137.204.128.125/documents/doc4</idno>
+                <idno type="filename">doc4</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -59,16 +59,16 @@
                    <place></place>
                 </listPlace>
             <listPerson>
-    <person corresp="http://137.204.128.125/people/9">
+    <person corresp="people/9">
             <persName xml:lang="en">Lotario I</persName>
         </person>
-    <person corresp="http://137.204.128.125/people/10">
+    <person corresp="people/10">
             <persName xml:lang="en">Ermengarda</persName>
         </person>
-    <person corresp="http://137.204.128.125/people/11">
+    <person corresp="people/11">
             <persName xml:lang="en">Gisla</persName>
         </person>
-                <person corresp="http://137.204.128.125/juridical_persons/30">
+                <person corresp="juridical_persons/30">
             <persName xml:lang="en">San Salvatore / Santa Giulia di Brescia</persName>
         </person>
             </listPerson>
@@ -94,19 +94,19 @@
             <div type="edition">
                 <div type="textpart">
                     <ab>(C) IN NOMINE D(OMI)NI NOSTRI IESU CHRISTI DEI AETERNI. <persName
-                            key="#emperor/king" ref="#http://137.204.128.125/people/9"
+                            key="#emperor/king" ref="#people/9"
                             >HLOTHARIUS</persName> DIVINA ORDINANTE PROVIDENTIA IMPERATOR AUGUSTUS.
                         ETSI CETERUM FIDELIUM NOSTRORUM PRECIBUS, UT DEVOTIORES IN NOSTRA EXISTUNT
                         FIDELITATE, ADQUIESCERE oportet, multo magis dilectissime atque amantissime
                         coniugi nostrae <persName key="#queen"
-                            ref="http://137.204.128.125/people/10">Hirmingarde</persName> voluntati
+                            ref="people/10">Hirmingarde</persName> voluntati
                         obtemperare oportet, quae iugali vinculo nobis sociata est consorsque
                         imperii nostri effecta. Quapropter omnium fidelium Sanctae Dei Ecclesiae
                         nostrorumque praesentium videlicet et futurorum noverit industria, quia
                         dulcissima coniunx nostra Hirmingardis deprecata est pietatem nostram, ut ei
                         filiaeque nostrae <persName key="#nuns/sanctimoniales">Gisle</persName>
                         confirmaremus edictum mansuetudinis nostrae <orgName
-                            ref="http://137.204.128.125/juridical_persons/30"> monasterium
+                            ref="juridical_persons/30"> monasterium
                             constructum in honore Dei et salvatoris nostri Iesu Christi infra muros
                             urbis Brixiae</orgName> taliter, ut sepe dicta coniunx nostra, dum
                         adviveret, eundem firmiter usufructuario remota cuiuslibet contrarietate
@@ -128,7 +128,7 @@
                         .XVII. kal(endas) april(is), anno Christo propitio imperii domni Hlotharii
                         pii imperatoris in Italia .XXVIIII. et in Francia .VIIII., indictione .XI
                         (h). Actum <placeName key="#palatium"
-                            ref="#http://137.204.128.125/places/83">Aquisgrani</placeName>, palatio.
+                            ref="#places/83">Aquisgrani</placeName>, palatio.
                         In Dei nomine. Feliciter, amen.</ab>
                 </div>
             </div>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc11">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
@@ -13,7 +13,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
-                <idno type="uri">http://137.204.128.125/documents/doc11</idno>
+                <idno type="filename">doc11</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -60,13 +60,13 @@
                    <place></place>
                 </listPlace>
             <listPerson>
-    <person corresp="http://137.204.128.125/people/25">
+    <person corresp="people/25">
             <persName xml:lang="en">Pincio</persName>
         </person>
-    <person corresp="http://137.204.128.125/people/26">
+    <person corresp="people/26">
             <persName xml:lang="en">Orso</persName>
         </person>
-                <person corresp="http://137.204.128.125/estates/36">
+                <person corresp="estates/36">
             <persName xml:lang="en">Curtis di Nozzano</persName>
         </person>
     </listPerson>
@@ -94,10 +94,10 @@
                     <ab>
                         <persName key="">Pincio</persName> del <persName key="">fu Orso</persName>
                         offre pro anima sua al <orgName key="#Monasteries"
-                            ref="#http://137.204.128.125/juridical_persons/71"><rs
+                            ref="#juridical_persons/71"><rs
                                 key="#Monasteries">monastero</rs> di San Ponziano</orgName> posto
                         iusta muro istius <rs key="#Cities">civitatis</rs>
-                        <placeName key="#Cities #Churches" ref="#http://137.204.128.125/places/4"
+                        <placeName key="#Cities #Churches" ref="#places/4"
                             >Lucemse</placeName>, un appezzamento di terra cum casa super se abemtes
                         posto infra civitatem ista Lucemse prope la <orgName key="#Churches"><rs
                                 key="#Churches">chiesa</rs> di San Pietro</orgName> e la <orgName
@@ -106,9 +106,9 @@
                         casa del suddetto monastero, alio lato con una casa di <persName key=""
                             >Bono</persName> et de consortibus suis, con tutte le sue dipendenze;
                         meam portionem di 4 appezzamenti di terra posti in loco et finibus
-                            <placeName key="" ref="#http://137.204.128.125/places/22"
+                            <placeName key="" ref="#places/22"
                             >Flexso</placeName>: duo portionis del primo, quod est campo ubi dicitur
-                            <placeName key="" ref="#http://137.204.128.125/places/22"
+                            <placeName key="" ref="#places/22"
                             >Dardatico</placeName>, confinante uno capo in via publica, alio capo
                         con terra di <persName key="">Ermengarda</persName>, lato uno con terra
                         della <orgName key="#Churches"><rs key="#Churches">chiesa</rs> di San
@@ -116,23 +116,23 @@
                             >Martino</persName> e <persName key="">Vitale</persName>, per una misura
                         complessiva di 3 staia; medietatem del secondo, quod est orto, posto nello
                         stesso luogo e confinante uno capo in via publica, alio capo in <placeName
-                            key="" ref="#http://137.204.128.125/places/22">terra
+                            key="" ref="#places/22">terra
                             Freiorese</placeName>, lateras ambas con terra della chiesa di San
                         Martino; medietatem del terzo, quod est campo dicitur <placeName
                             key="#Petiae #Fiscal_property #Mention"
-                            ref="#http://137.204.128.125/places/22">Supto Ripa</placeName>,
+                            ref="#places/22">Supto Ripa</placeName>,
                         confinante uno capo con <rs
                             key="#Petiae #Fiscal_property #Mention #Residential">terra</rs> de
                             <geogName key="#Curtes #Fiscal_property #Mention #Residential"
-                            ref="#http://137.204.128.125/estates/36">
+                            ref="#estates/36">
                             <rs key="#Curtes">curte</rs> de <placeName
                                 key="#Curtes #Fiscal_property #Mention #Residential"
-                                ref="#http://137.204.128.125/places/21">Notiano</placeName>
+                                ref="#places/21">Notiano</placeName>
                         </geogName>, alio capo con terra di <persName key="">Saracino</persName>,
                         lato uno con terra di <persName key="">Pietro</persName> et de suis
                         consortibus, alio lato in terra Fraiorese; quartam portionem del quarto,
                         quod est orto cum cassina super se abentes seo curte, posto in loco ubi
-                        dicitur <placeName key="" ref="#http://137.204.128.125/places/22">Vinea
+                        dicitur <placeName key="" ref="#places/22">Vinea
                             Berte</placeName>, confinante uno capo con terra della <orgName
                             key="#Collegiate_churches"><rs key="#Collegiate_churches">canonica</rs>
                             di San Donato</orgName>, alio capo cum uno lato con terra di <persName

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc1408">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
@@ -15,7 +15,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
-                <idno type="uri">http://137.204.128.125/documents/doc1408</idno>
+                <idno type="filename">doc1408</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -102,9 +102,9 @@
                             <persName>Cennamo</persName> filio bone memorie
                             <persName>Rollandi</persName>, idest una <rs key="#Petiae">petia de
                             terra</rs> sua illa quam habebat in loco et finibus <placeName
-                            ref="#http://137.204.128.125/places/91">Cornino</placeName>, ubi dicitur
+                            ref="#places/91">Cornino</placeName>, ubi dicitur
                             <placeName key="#Petiae #Fiscal_property #Mention #Count"
-                            ref="#http://137.204.128.125/places/130"><rs
+                            ref="#places/130"><rs
                                 key="#Marshes/lagoons/tombolos">Piscina</rs>
                             <persName>Lifredi</persName></placeName>, quas ipsa petia de terra est
                         tenentes uno capo in silice et alio capo tenet in <placeName>terra
@@ -135,10 +135,10 @@
                         animabus nostris remedio et pro remedio anime bone memorie suprascripti
                         Rodolfi, offerimus et tibi Deo <rs key="#Churches">ecclesia</rs> et <rs
                             key="#Monasteries">monasterio</rs> beati <orgName
-                            ref="#http://137.204.128.125/juridical_persons/78"
+                            ref="#juridical_persons/78"
                             key="#Churches #Monasteries">Sancti Quirici</orgName> quod est
                         constructum et edificatum in loco et finibus <placeName
-                            ref="#http://137.204.128.125/places/86">Populonio</placeName>, idest has
+                            ref="#places/86">Populonio</placeName>, idest has
                         suprascripta petia de terra qualiter supra legitur, qui fuit suprascripti
                         bone memorie Rodulfi in integrum cum inferioribus et superioribus suis seu
                         cum accessionibus et ingressionibus suis tibi deo et ipsius ecclesia et
@@ -165,12 +165,12 @@
                         <rs key="#Notary">notarium</rs> domni inperatoris scribere rogavimus. Actum
                         in loco et finibus prope <rs key="#Churches">ecclesia</rs>
                         <orgName key="#Churches">Sancte Lucie </orgName>qui est edificata prope
-                            <placeName ref="#http://137.204.128.125/places/126"
+                            <placeName ref="#places/126"
                             >Castagneto</placeName>. Signa manuum suprascriptorum Enrigi et Lamberti
                         germani qui hanc cartulam offersionis fieri rogaverunt. Signa manuum
                             <persName>Rustichi</persName> filii <persName>Petri</persName> et
                             <persName>Ilditj</persName> filii <persName>Ildibrandi</persName> de
-                        loco <placeName ref="#http://137.204.128.125/places/127">Biserno</placeName>
+                        loco <placeName ref="#places/127">Biserno</placeName>
                         testium. Signum manus <persName>Choppi</persName> filii bone memorie
                             <persName>Albitj</persName> rogatus testis. Adanulfus notarius domini
                         imperatoris post tradita complevi et dedi. </ab>

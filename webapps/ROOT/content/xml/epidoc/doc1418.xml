@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc1418">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
@@ -15,7 +15,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
-                <idno type="uri">http://137.204.128.125/documents/doc1418</idno>
+                <idno type="filename">doc1418</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -103,16 +103,16 @@
                         consentientes per hanc cartulam pro animabus nostris remedium offerimus tibi
                         omnipotenti Deo et a pars <rs key="#Churches">ecclesie</rs> et <rs
                             key="#Monasteries">monasterio</rs>
-                        <orgName ref="#http://137.204.128.125/juridical_persons/78"
+                        <orgName ref="#juridical_persons/78"
                             key="#Churches #Monasteries">Domini et Sancti Salvatori et Sancte Marie
                             et Sancti Quirici et in aliorum sanctorum vocabulis ibidem
                             consecrati</orgName> edificata in <rs key="#Mountains">monte</rs> de
-                            <placeName ref="#http://137.204.128.125/places/86" key="#Mountains"
+                            <placeName ref="#places/86" key="#Mountains"
                             >Populonio</placeName>, ubi domnus <persName key="#Abbots"
-                            ref="#http://137.204.128.125/people/108">Cunitho</persName>
+                            ref="#people/108">Cunitho</persName>
                         reverendissimus <rs key="#Abbots">abbas</rs> nunc preesse videtur, una <rs
                             key="#Petiae">petia</rs> de terra posita in loco et finibus ubi dicitur
-                            <placeName ref="#http://137.204.128.125/places/134" key="#Wine"
+                            <placeName ref="#places/134" key="#Wine"
                             >Libellaria</placeName>, non longe ab <rs key="#Churches">ecclesia</rs>
                         <orgName>Sancti Christofori</orgName>, habentem unum capud in <rs
                             key="#Rivers">Cornia Morta</rs>, aliud capud habet in terra
@@ -156,7 +156,7 @@
                         tribunal non resurgat in numero iustorum, quia in tali ordine hanc cartula
                         offersionis <persName key="#Notary">Sismundus</persName>
                         <rs key="#Notary">notarius</rs> domni regis scribere rogavimus. Actum loco
-                            <placeName ref="#http://137.204.128.125/places/132" key="#Castle"
+                            <placeName ref="#places/132" key="#Castle"
                             >Vignale</placeName>, prope ipso <rs key="#Castle">castello</rs>. Signa
                         manuum suprascripti iugalibus, comuniter et consentientes, qui hanc cartula
                         offersionis fieri rogaverunt. Signa manuum <persName key="#Subdeacons"

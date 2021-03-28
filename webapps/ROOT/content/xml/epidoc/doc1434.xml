@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc1434">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
@@ -15,7 +15,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
-                <idno type="uri">http://137.204.128.125/documents/doc1434</idno>
+                <idno type="filename">doc1434</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -98,15 +98,15 @@
                         donamus ac concedimus vel offerimus tibi omnipotenti Deo et <rs
                             key="#Churches">ecclesie</rs> et <rs key="#Monasteries">monasterio</rs>
                         <orgName key="#Churches #Monasteries"
-                            ref="#http://137.204.128.125/juridical_persons/78">Sancti
+                            ref="#juridical_persons/78">Sancti
                             Quirici</orgName>, qui esse videtur in loco ubi dicitur <placeName
-                            ref="#http://137.204.128.125/places/86">Populonium</placeName>, pro
+                            ref="#places/86">Populonium</placeName>, pro
                         remedio et salutem animarum nostrarum et nostrorum parentum offerimus et
                         damus <rs key="#Landed_possessions">terram</rs> nostram quae esse videtur in
                         loco ubi dicitur <placeName><rs key="#Curtes">curte</rs>
                             Ubertinga</placeName>, quae est inter <placeName key="#Rivers"
                             >Corgna</placeName> et <placeName key="#Rivers"
-                            ref="#http://137.204.128.125/places/89">Noturo</placeName> tota ex
+                            ref="#places/89">Noturo</placeName> tota ex
                         integra nostram partem, quicquid illic nobis iure nostro videtur esse pro
                         nostrarum animarum et nostrorum propinquorum parentum salutem donamus et
                         offerimus predicto monasterio et ecclesie Sancti Quirici in integrum cum
@@ -115,7 +115,7 @@
                         monasterii Sancti Quirici de illis rectoribus vel abbatibus atque clericis
                         qui per tempora ad onorem Dei et Sancti Quirici ordinati fuerint in eorum
                         sit potestate et nunc modo domno <rs key="#Abbots">abbati</rs>
-                        <persName key="#Abbots" ref="#http://137.204.128.125/people/108"
+                        <persName key="#Abbots" ref="#people/108"
                             >Cunitho</persName>, qui modo preest eam abendi, tenendi, imperandi et
                         gubernandi et usufructuandi et quicquid ad partem predicte ecclesie et
                         monasterii Sancti Quirici agere vel distribuere volueritis, unde
@@ -136,9 +136,9 @@
                         defensandi cum cartula ista vel qualiter iusta legem melius potueritis, quia
                         in tali ordine hanc cartulam <persName key="#Notary">Petrum</persName>
                         <rs key="#Notary">notarium</rs> domni regis scribere rogavimus. Actum in
-                        loco <placeName ref="#http://137.204.128.125/places/127"
+                        loco <placeName ref="#places/127"
                         >Biserni</placeName>, <rs key="#Comitatus">territorio</rs>
-                        <geogName key="#Comitatus" ref="#http://137.204.128.125/estates/87"
+                        <geogName key="#Comitatus" ref="#estates/87"
                             >Populoniensi</geogName>. Signa manuum Ildibrandi item quondam
                         Ildibrandi filii Gethi et iugalis Wilie qui hanc cartula fieri rogaverunt.
                         Signa manuum <persName>Alberti</persName> quondam

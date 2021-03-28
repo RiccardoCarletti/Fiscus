@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc1404">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
@@ -15,7 +15,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
-                <idno type="uri">http://137.204.128.125/documents/doc1404</idno>
+                <idno type="filename">doc1404</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -84,16 +84,16 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>Breve de <placeName ref="#http://137.204.128.125/places/89"
+                    <ab>Breve de <placeName ref="#places/89"
                             key="#Landed_possessions #Fiscal_property #Object #Redistributive #Allocation_to_churches"
                             >Franciano</placeName>. Breve recordationis de posponsione, quam fecit
-                            <persName ref="#http://137.204.128.125/people/106">Wiliccione</persName>
+                            <persName ref="#people/106">Wiliccione</persName>
                         et uxor eius, de <rs
                             key="#Landed_possessions #Fiscal_property #Redistributive #Allocation_to_churches"
                             >terra</rs> quam dedit <persName key="#Count"
-                            ref="#http://137.204.128.125/people/107">Ugo</persName> pater eius ad
+                            ref="#people/107">Ugo</persName> pater eius ad
                             <rs key="#Churches">ecclesia</rs> beati <orgName
-                            ref="#http://137.204.128.125/juridical_persons/78"
+                            ref="#juridical_persons/78"
                             key="#Churches #Monasteries">Sancti Quirici</orgName>, et est posita in
                         locis et vocabulis, sicut in <rs key="#Offersio/donatio">cartula</rs> quam
                         predicto Ugo <rs key="#Count">comes</rs> fecit ad iamdicta aecclesia Sancti
@@ -111,7 +111,7 @@
                             <persName>Ilditi</persName> et alii plures. Hoc factum est idus
                         decembris ad <rs key="#Castle">castello</rs> qui vocitatur <placeName
                             key="#Fiscal_property #Residential #Castle #Count"
-                            ref="#http://137.204.128.125/places/87">Suvereto</placeName>. </ab>
+                            ref="#places/87">Suvereto</placeName>. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
