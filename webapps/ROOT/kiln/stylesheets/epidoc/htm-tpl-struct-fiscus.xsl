@@ -14,7 +14,7 @@
         <xsl:apply-templates select="//t:titleStmt/t:title"/>
         <br/>
         <b>Document number: </b>
-        <xsl:value-of select="substring-after(//t:TEI/@xml:id, 'doc')"/>
+        <xsl:value-of select="substring-after(//t:publicationStmt//t:idno, 'doc')"/>
         <br/>
         <b>Author(s): </b>
         <xsl:choose>

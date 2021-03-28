@@ -256,7 +256,7 @@
     <field name="document_id">
       <xsl:variable name="idno" select="/tei:*/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:idno[@type='filename']" />
       <xsl:choose>
-        <xsl:when test="normalize-space($idno)">
+        <xsl:when test="$idno">
           <xsl:value-of select="$idno" />
         </xsl:when>
         <xsl:otherwise>
