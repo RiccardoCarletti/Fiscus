@@ -2058,10 +2058,15 @@
                 </place>
                 <place>
                     <placeName>Santhià</placeName>
-                    <placeName type="other"/>
-                    <geogName type="coord"><geo/></geogName>
+                    <placeName type="other"><foreign>Sancte Aghate</foreign></placeName>
+                    <geogName type="coord"><geo>45.364931, 8.173141</geo></geogName>
                     <idno>http://137.204.128.125/places/237</idno>
                     <note/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/132"
+                        subtype="hasConnectionWith"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
+                    <link type="people" corresp="#people/171" subtype="link"/>
+                    <link type="people" corresp="#people/7" subtype="link"/>
                 </place>
             </listPlace>
         </body>
