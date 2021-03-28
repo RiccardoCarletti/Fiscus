@@ -1592,15 +1592,17 @@
                         subtype="hasInItsVicinity"/>
                 </place>
                 <place>
-                    <placeName>Gavassa (RE)</placeName>
+                    <placeName>Gavassa (Reggio Emilia)</placeName>
                     <placeName type="other"/>
                     <geogName type="coord"><geo>44.700370, 10.677290</geo></geogName>
                     <idno>places/196</idno>
                     <note/>
-                    <link type="places"/>
+                    <link type="places" corresp="#places/234" subtype="hasConnectionWith"/>
                     <link type="people" corresp="#people/21" subtype="link"/>
                     <link type="people" corresp="#people/155" subtype="link"
                     />
+                    <link type="people" corresp="#people/164" subtype="link"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/108" subtype="link"/>
                 </place>
                 <place>
                     <placeName><foreign>Doglia</foreign> (Podere Terriccio; Castellina Marittima;
