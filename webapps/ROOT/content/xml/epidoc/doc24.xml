@@ -13,7 +13,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
-                <idno type="uri">http://137.204.128.125/documents/doc24</idno>
+                <idno type="uri">documents/doc24</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -59,19 +59,19 @@
                    <place></place>
                 </listPlace>
             <listPerson>
-    <person corresp="http://137.204.128.125/people/14">
+    <person corresp="people/14">
             <persName xml:lang="en">Carlo Magno</persName>
         </person>
-    <person corresp="http://137.204.128.125/people/49">
+    <person corresp="people/49">
             <persName xml:lang="en">Anselmo abate di Nonantola</persName>
         </person>
-                <person corresp="http://137.204.128.125/juridical_persons/47">
+                <person corresp="juridical_persons/47">
             <persName xml:lang="en">S. Silvestro di Nonantola</persName>
         </person>
-    <person corresp="http://137.204.128.125/people/48">
+    <person corresp="people/48">
             <persName xml:lang="en">Astolfo re (749-56) </persName>
         </person>
-                <person corresp="http://137.204.128.125/estates/50">
+                <person corresp="estates/50">
             <persName xml:lang="en">Curtis di Cittanova</persName>
         </person>
     </listPerson>
@@ -97,7 +97,7 @@
                 <div type="textpart">
                     <ab>
                         <persName key="#emperor/king #patricius"
-                            ref="#http://137.204.128.125/people/14">Carolus</persName> gratia Dei
+                            ref="#people/14">Carolus</persName> gratia Dei
                             <rs key="#Emperor/king">rex</rs> Francorum et Langobadorum ac <rs
                             key="#patricius">patricius</rs> Romanorum omnibus fidelibus nostris tam
                         presentibus quamque futuris. Si ea, que erga locis venerabilibus per
@@ -106,17 +106,17 @@
                         atque hoc nobis ad eternam beatitudinem in Dei nomine pertinere confidimus.
                         Unde compertum sit omnium vestrorum magnitudini, qualiter venerabilis vir
                             <persName key="#Imperial/royal_diploma #Curtes #Tolls #Monasteries"
-                            ref="#http://137.204.128.125/people/49">Anselmus</persName>
+                            ref="#people/49">Anselmus</persName>
                         <rs key="#Abbots">abbas</rs> de <rs key="#Monasteries">monasterio</rs>
                         noncupante <orgName key="#monasteries"
-                            ref="#http://137.204.128.125/juridical_persons/47">
-                            <placeName ref="#http://137.204.128.125/places/15" key="#Monasteries"
+                            ref="#juridical_persons/47">
+                            <placeName ref="#places/15" key="#Monasteries"
                                 >Nonantola</placeName>
                         </orgName>, quod est constructum in onore omnium apostolorum et beati
                         Silvestri confessoris, situm in <rs key="#City_territory">terraturio</rs>
-                        <placeName key="#City_territory" ref="#http://137.204.128.125/places/38"
+                        <placeName key="#City_territory" ref="#places/38"
                             >Motinense</placeName>, clementiae regni nostri petiit, eo quod
-                            <persName key="#emperor/king" ref="#http://137.204.128.125/people/48"
+                            <persName key="#emperor/king" ref="#people/48"
                             >Haixtulfus</persName> vel ceteri quondam reges ac reliqui Deo timentes
                         homines eorum res ad memoratum sanctum locum condonassent. Idcirco memoratus
                         abbas celsitudini, nostre, ut ecclesias duas in onore <orgName
@@ -126,8 +126,8 @@
                         waldora, terris, silvis, pratis, pascois, saltora, confinibus, piscariis seu
                         et <rs key="#tolls">portatico</rs> illo de <geogName
                             key="#curtes #tolls #fiscal_property"
-                            ref="#http://137.204.128.125/estates/50"><placeName
-                                ref="#http://137.204.128.125/places/40" key="#tolls">Cive
+                            ref="#estates/50"><placeName
+                                ref="#places/40" key="#tolls">Cive
                                 Nova</placeName></geogName>, que annue collegitur, etiam hoc, quod
                         per bonum hominum largietate ibidem iuste conlatum fuit aut in antea
                         delegatum fuerit, per nostrum <rs key="#Imperial/royal_diploma"

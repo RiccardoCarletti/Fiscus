@@ -13,7 +13,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
-                <idno type="uri">http://137.204.128.125/documents/doc21</idno>
+                <idno type="uri">documents/doc21</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -59,19 +59,19 @@
                    <place></place>
                 </listPlace>
                 <listPerson>
-				    <person corresp="http://137.204.128.125/people/21">
+				    <person corresp="people/21">
 				            <persName xml:lang="en">Berengario I</persName>
 				        </person>
-				    <person corresp="http://137.204.128.125/people/58">
+				    <person corresp="people/58">
 				            <persName xml:lang="en">Petrus (881-900), episcopus Patavinus, archicancellarius</persName>
 				        </person>
-                                                            <person corresp="http://137.204.128.125/estates/61">
+                                                            <person corresp="estates/61">
 				            <persName xml:lang="en">Curtis di Sacco </persName>
 				        </person>
-                                                        <person corresp="http://137.204.128.125/juridical_persons/65">
+                                                        <person corresp="juridical_persons/65">
 				            <persName xml:lang="en">Santa Maria e Santa Giustina, chiesa </persName>
 				        </person>
-                                                            <person corresp="http://137.204.128.125/estates/64">
+                                                            <person corresp="estates/64">
 				            <persName xml:lang="en">Curtis di Pordenone</persName>
 				        </person>
                 </listPerson>
@@ -94,21 +94,21 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>(C)In nomine Domini nostri Iesu Christi Dei aeterni. <persName key="#emperor/king" ref="http://137.204.128.125/people/21">Berengarius</persName> divina favente
+                    <ab>(C)In nomine Domini nostri Iesu Christi Dei aeterni. <persName key="#emperor/king" ref="people/21">Berengarius</persName> divina favente
 cl[e]mentia <rs key="#emperor/king">rex</rs>. Sedula animi intentione volventes et iugi meditacione
 tractantes qua gratia quibusque meritis ad regale simus culmen perducti, cum
 nulla invenissemus quae suffragarent merita, sed divini fuisset quod
 impensum est muneris, ad salutem et remedium animae nobis perspeximus si
 ecclesiae Dei et loca sacra nostris fuissent adiuta et aucta subsidiis.
 Quapropter noverit omnium fidelium sanctae Dei Ecclesiae nostrorumque
-presentium scilicet ac futurorum industria, <persName key="#bishops #archchancellor" ref="http://137.204.128.125/people/58">Petrum</persName> revereritissimum
+presentium scilicet ac futurorum industria, <persName key="#bishops #archchancellor" ref="people/58">Petrum</persName> revereritissimum
 <rs key="#bishops">episcopum</rs> dilectumque fidelem et <rs key="#archchancellor">archicancellarium</rs> nostrum suppliciter
 nostrae serenitatis exorasse clementiam, quatenus quandam <rs key="#curtes #fiscal_property">cortem</rs> iuris regni
-nostri quae nuncupatur <placeName key="#curtes #fiscal_property" ref="http://137.204.128.125/places/39">
-    <geogName key="#curtes #fiscal_property #rivers #mills #fisheries #profits_of_justice #districtio #revenues" ref="http://137.204.128.125/estates/61">Sacco</geogName>
+nostri quae nuncupatur <placeName key="#curtes #fiscal_property" ref="places/39">
+    <geogName key="#curtes #fiscal_property #rivers #mills #fisheries #profits_of_justice #districtio #revenues" ref="estates/61">Sacco</geogName>
                         </placeName> iuxta <geogName key="#fines #sea">maritimos fines</geogName>, adiacentem scilicet in
-<rs key="#comitatus">comitatu</rs> <placeName key="#comitatus" ref="http://137.204.128.125/places/13">Tarvisianense</placeName>, pertinentem siquidem <rs key="#camera_regis">de camera palatii</rs> nostri,
-<orgName key="#churches" ref="http://137.204.128.125/juridical_persons/65">episcopio sanctae<placeName ref="http://137.204.128.125/places/41">Patavensis</placeName> ecclesiae in honore sanctae Dei genitricis
+<rs key="#comitatus">comitatu</rs> <placeName key="#comitatus" ref="places/13">Tarvisianense</placeName>, pertinentem siquidem <rs key="#camera_regis">de camera palatii</rs> nostri,
+<orgName key="#churches" ref="juridical_persons/65">episcopio sanctae<placeName ref="places/41">Patavensis</placeName> ecclesiae in honore sanctae Dei genitricis
     virginis Mariae sanctaeque Iustinae martyris</orgName> constructo, in quo ipse <persName key="#bishops #archchancellor">Petrus</persName>
 venerabilis pontifex preesse dinoscitur, pro Dei omnipotentis amore
 nostraeque animae remedio statuque regni nostri a Deo nobis collati per
@@ -139,7 +139,7 @@ roboravimus et anuli nostri inpressione insigniri iussimus. Signum domni (MF)
 <persName key="#emperor/king">Berengarii</persName> gl[orio]sissimi <rs key="#emperor/king">regis</rs>. <persName key="#chancellor">Vitalis</persName> <rs key="#chancellor">cancellarius</rs> ad vicem <persName key="#bishops #archchancellor">Petri</persName> episcopi
 et archicancellarii recognovi et subscripsi (SR) (SI D). Data .III. non. mai(i), anno
 dominicae [i]ncarnationis .DCCCXCVII., regni vero domni Berengarii serenissimi
-regis .X., indictione .XV. Actum <geogName key="#curtes #fiscal_property" ref="http://137.204.128.125/estates/64">Naones</geogName>
+regis .X., indictione .XV. Actum <geogName key="#curtes #fiscal_property" ref="estates/64">Naones</geogName>
                         <rs key="#curtes #fiscal_property">corte regia</rs>. in Christi nomine
 feliciter, amen.</ab>
                 </div>
