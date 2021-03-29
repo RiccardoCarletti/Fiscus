@@ -323,8 +323,8 @@
                     <persName>Petrus (881-900) episcopus Patavinus </persName>
                     <idno>people/58</idno>
                     <note>Archicancellarius.</note>
-                    <link type="people" corresp="#people/21"/>
-                    <link type="places" corresp="#places/41"/>
+                    <link type="people" corresp="#people/21" subtype="link"/>
+                    <link type="places" corresp="#places/41" subtype="hasConnectionWith"/>
                 </person>
                 
                 <person>
@@ -335,6 +335,8 @@
                     <link type="juridical_persons" subtype="Link" corresp="#juridical_persons/53"/>
                     <note>Badessa e rettrice di Santa Giulia di Brescia e di San Sisto a
                         Piacenza.</note>
+                    <link type="people" corresp="#people/21" subtype="daughterOf"/>
+                    <link type="people" corresp="#people/155" subtype="daughterOf"/>
                 </person>
                 
                 <person>
