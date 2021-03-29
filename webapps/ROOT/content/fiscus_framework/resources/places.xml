@@ -2096,7 +2096,16 @@
                 <place>
                     <placeName><foreign>Gualdo</foreign></placeName>
                     <placeName type="other"/>
-                    <geogName type="coord"><geo/></geogName>
+                    <geogName type="coord"><geo>43.1548184, 10.6774129; 43.1604997, 10.6892515;
+                            43.1581289, 10.6974137; 43.1542139, 10.7022491; 43.1509658, 10.7092021;
+                            43.1524664, 10.7218991; 43.1499687, 10.7281276; 43.1412207, 10.7331008;
+                            43.1515658, 10.7485129; 43.1487384, 10.7592771; 43.1341716, 10.7527686;
+                            43.1243559, 10.7455694; 43.1215001, 10.7429376; 43.1175027, 10.7508261;
+                            43.1112964, 10.7580446; 43.111651, 10.724075; 43.1244613, 10.7176911;
+                            43.1254882, 10.6999811; 43.1279791, 10.6871255; 43.1372364, 10.6737266;
+                            43.1411513, 10.6591539; 43.1500582, 10.6556195; 43.1600355, 10.6641634;
+                            43.1704922, 10.6631885; 43.176655, 10.6804918; 43.1612328, 10.6814675;
+                            43.1548184, 10.6774129</geo></geogName>
                     <idno>places/241</idno>
                     <note>Poligono che rappresenta la curtis di Gualda così come è confinata nel
                         1053</note>
@@ -2126,6 +2135,14 @@
                     <idno>places/244</idno>
                     <note/>
                     <link type="estates" corresp="#estates/138" subtype="hasConnectionWith"/>
+                </place>
+                <place>
+                    <placeName>Novara</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>45.58425; 8.545997</geo></geogName>
+                    <idno>places/245</idno>
+                    <note/>
+                    <link type="people" corresp="#people/73 #people/181" subtype="link"/>
                 </place>
             </listPlace>
         </body>
