@@ -64,6 +64,7 @@
                     <persName>Otto III (980-1002) imperator</persName>
                     <idno>people/7</idno>
                     <note/>
+                    <link type="people" corresp="#people/173" subtype="grandsonOf"/>
                 </person>
                 
                 <person>
@@ -79,6 +80,7 @@
                     <link type="people" subtype="LegallyRecognisedUnionWith" corresp="#people/10"/>
                     <link type="people" subtype="FatherOf" corresp="#people/11"/>
                     <note>Emperor/king</note>
+                    <link type="people" corresp="#people/14" subtype="grandsonOf"/>
                 </person>
                 
                 <person>
@@ -95,6 +97,8 @@
                     <link type="people" subtype="DaughterOf" corresp="#people/9"/>
                     <link type="people" subtype="DaughterOf" corresp="#people/10"/>
                     <note>Nuns/sanctimoniales</note>
+                    <link type="people" corresp="#people/14" subtype="greatGranddaughterOf"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/30" subtype="link"/>
                 </person>
                 
                 <person>
@@ -115,6 +119,13 @@
                     <note/>
                     <link type="places" corresp="#places/83" subtype="hasConnectionWith"/>
                     <link type="juridical_persons" corresp="#juridical_persons/47" subtype="link"/>
+                    <link type="people" corresp="#people/32" subtype="ancestorOf"/>
+                    <link type="people" corresp="#people/118" subtype="grandfatherOf"/>
+                    <link type="people" corresp="#people/110" subtype="greatGrandfatherOf"/>
+                    <link type="people" corresp="#people/79" subtype="ancestorOf"/>
+                    <link type="people" corresp="#people/80" subtype="ancestorOf"/>
+                    <link type="people" corresp="#people/9" subtype="grandfatherOf"/>
+                    <link type="people" corresp="#people/11" subtype="greatGrandfatherOf"/>
                 </person>
                 
                 <person>
@@ -127,6 +138,7 @@
                     <persName>Gandulfus (1227) abbas Sancti Sixti</persName>
                     <idno>people/16</idno>
                     <note/>
+                    <link type="juridical_persons" corresp="#juridical_persons/53" subtype="link"/>
                 </person>
                 
                 <person>
@@ -164,6 +176,7 @@
                     <link type="people" subtype="SeniorOf" corresp="#people/74"/>
                     <link type="estates" subtype="Link" corresp="#estates/75"/>
                     <note/>
+                    <link type="people" corresp="#people/155" subtype="legallyRecognisedUnionWith"/>
                 </person>
                 
                 <person>
@@ -307,9 +320,11 @@
                 </person>
                 
                 <person>
-                    <persName>Petrus (881-900) episcopus Patavinus</persName>
+                    <persName>Petrus (881-900) episcopus Patavinus </persName>
                     <idno>people/58</idno>
                     <note>Archicancellarius.</note>
+                    <link type="people" corresp="#people/21"/>
+                    <link type="places" corresp="#places/41"/>
                 </person>
                 
                 <person>
@@ -394,6 +409,7 @@
                     <persName>Hugo (880?-947) rex</persName>
                     <idno>people/79</idno>
                     <note/>
+                    <link type="people" corresp="#people/14" subtype="descendentOf"/>
                 </person>
                 <person>
                     <persName>Karlomannus (830?-880) rex</persName>
@@ -412,6 +428,8 @@
                     <link type="estates" corresp="#estates/104" subtype="hasConnectionWith"/>
                     <link type="estates" corresp="#estates/106" subtype="hasConnectionWith"/>
                     <link type="places" corresp="#places/" subtype="hasConnectionWith"/>
+                    <link type="people" corresp="#people/14" subtype="descendentOf"/>
+                    
                 </person>
                 <person>
                     <persName>Ghisulfus (977-986; Conti di Pisa)</persName>
@@ -500,6 +518,7 @@
                     <persName type="other"/>
                     <idno>people/91</idno>
                     <note/>
+                    <link type="people" corresp="#people/115" subtype="daughterOf"/>
                 </person>
                 <person>
                     <persName>Adalbertus (880-928) marchio (Anscarici)</persName>
@@ -660,6 +679,7 @@
                     <note/>
                     <link type="people" corresp="#people/55" subtype="legallyRecognisedUnionWith"/>
                     <link type="people" corresp="#people/80" subtype="cousinOf"/>
+                    <link type="people" corresp="#people/14" subtype="greatGrandsonOf"/>
                 </person>
                 <person>
                     <persName>Aio (884-891) princeps </persName>
@@ -711,6 +731,7 @@
                     <link type="places" corresp="#places/110" subtype="hasConnectionWith"/>
                     <link type="people" corresp="#people/111" subtype="fatherOf"/>
                     <link type="people" corresp="#people/112" subtype="fatherOf"/>
+                    <link type="people" corresp="#people/91" subtype="fatherOf"/>
                 </person>
                 <person>
                     <persName>Poto (885)</persName>
@@ -1217,6 +1238,7 @@
                         subtype="hasConnectionWith"/>
                     <link type="people" corresp="#people/174" subtype="link"
                     />
+                    <link type="people" corresp="#people/7" subtype="grandfatherOf"/>
                 </person>
                 <person>
                     <persName>Eistolfo (951); archipresbitero</persName>
@@ -1247,11 +1269,29 @@
                 <person>
                     <persName>Silvestro (940?-1003); papa</persName>
                     <persName type="other"/>
-                    <idno>http://137.204.128.125/people/177</idno>
+                    <idno>people/177</idno>
                     <note>Oldono 2005</note>
                     <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
                     <link type="people" corresp="#people/171" subtype="link"/>
                     <link type="people" corresp="#people/7" subtype="link"/>
+                </person>
+                <person>
+                    <persName>Azzo II (ante 890-899) episcopus Regiensis in Aemilia</persName>
+                    <persName type="other"/>
+                    <idno>people/178</idno>
+                    <note/>
+                    <link type="places" corresp="#places/191" subtype="hasConnectionWith"/>
+                    <link type="people" corresp="#people/21" subtype="link"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/108" subtype="link"/>
+                </person>
+                <person>
+                    <persName>Bonipertus; presbiter (896; 901)</persName>
+                    <persName type="other"/>
+                    <idno>http://137.204.128.125/people/179</idno>
+                    <note/>
+                    <link type="people" corresp="#people/21" subtype="fidelisOf"/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/136"
+                        subtype="hasConnectionWith"/>
                 </person>
                 
                 
