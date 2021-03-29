@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title></title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc1109</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#"/>
+                            <rs type="record_source" ref="#"/>
+                            <rs type="document_tradition" ref="#"/>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate notBefore="0001" notAfter="0001" when="0001"> 
+                                <note type="displayed_date"></note>
+                                <note type="dating_elements"></note>
+                                <note type="topical_date"></note>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-02-08">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine domini nostri Iesu Christi Dei aeterni. Berengarius rex. Si sacris
+                        locis et divinis cultibus mancipatis emolumentum regalis celsitudinis
+                        exibemus, profuturum nobis hoc ad aeterne remunerationis proemium facilius
+                        optinendum et ad presentem vitam felicius transigendam fore nullatenus
+                        dubitamus. Quapropter omnium fidelium sanctae Dei Aecclesiae nostrorumque
+                        presentium scilicet ac futurorum nosse cupimus universitatis industriam, eo
+                        quod interventu et petitione Adelardi venerabilis episcopi dilecti ac summi
+                        consiliarii nostri sacri palatii monasterio Novo quandam mansiculam cum
+                        orticello pertinentem de curte rei publicae nostrae Muciana civitate Brixia
+                        concedimus, quam ex omni parte res eiusdem monasterii circumdant, solumodo a
+                        meridie via publica, quam de nostro iure et potestate in eius ius et
+                        potestate modis omnibus transfundimus et perdonamus, ut habeat, teneat,
+                        atque possideat iure perpetuo ac pacifico. Si quis autem contra hoc nostrae
+                        donationis preceptum quandoque insurgere temtaverit, sciat se compositurum
+                        mille mancosos aureos, medietatem palatio nostro et medietatem sepe nominato
+                        monasterio. Ut autem ab omnibus verius credatur diligentiusque observetur,
+                        manu propria subter confirmavimus et anuli nostri inpressione insigniri
+                        iussimus. Signum domni Berengarii gloriosissimi regis. Liutardus notarius ad
+                        vicem Adelardi episcopi et archicancellarii recognovi et subscripsi. Data
+                        kal. Septemb., anno incarnationis Domini DCCCLXXXVIIII anno vero regni domno
+                        Berengarii II, indictione VII. Actum Cremona. In Dei nomine feliciter,
+                        amen.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
