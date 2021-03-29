@@ -73,7 +73,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2021-02-08">creation of record</change>
+                <change when="2021-02-08" who="ecinello">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -105,7 +105,7 @@
                         confiden[tes], hoc nostrae auctoritatis precepto res easdem, id est
                             <geogName
                             key="#Curtes #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches"
-                                ><rs
+                            ref="#http://137.204.128.125/estates/135"><rs
                                 key="#Curtes #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches"
                                 >corticellam</rs> in Lacese etim omnibus pertinentiis
                             suis</geogName> et <rs key="#Revenues"> reditu liberorum homimum</rs>,
@@ -116,12 +116,13 @@
                         <placeName key="#Cities" ref="#places/59">Verona</placeName> cum areis suis
                         in circuitu et alias res tam in civitate Verona quam extra in singulis
                         locis, seu et <rs key="#Mansi">res </rs>in <rs key="#Villas"><geogName
-                                key="#Villas">Runco </geogName></rs>a <persName key="#Priests"
-                            >Boniperto</persName> quodam <rs key="#Priests">presbitero</rs> saepe
-                        nominato coenobio delegatas, et <rs key="#Mansi">hortellum</rs> unum infra
-                            <rs key="#Cities">civitate</rs>
+                                key="#Villas" ref="#http://137.204.128.125/estates/136">Runco
+                            </geogName></rs>a <persName key="#Priests">Boniperto</persName> quodam
+                            <rs key="#Priests">presbitero</rs> saepe nominato coenobio delegatas, et
+                            <rs key="#Mansi">hortellum</rs> unum infra <rs key="#Cities"
+                            >civitate</rs>
                         <placeName key="#Cities" ref="#places/59">Verona</placeName> a quodam
-                            <persName ref="#people/165">Inlgelfredo</persName> donatum eidem Sancti
+                            <persName ref="#people/165">Ingelfredo</persName> donatum eidem Sancti
                         Zenonis monasterio ad monachorum inibi Deo famulantium sustentationem,
                         secundum antecessoris nostri Karoli <rs key="#Imperial/royal_diploma"
                             >preceptum</rs> concedimus ac confirmamus et in perpetuum stabilitum
@@ -153,7 +154,7 @@
                     61-64. </p>
             </div>
             <div type="bibliography" subtype="additional">
-                <p/>
+                <p>Castagnetti 1990.</p>
             </div>
             <div type="bibliography" subtype="links">
                 <p>http://cdavr.dtesis.univr.it/index.php/orfanotrofio-femminile/of-diplomi </p>
