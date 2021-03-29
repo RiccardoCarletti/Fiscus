@@ -12,7 +12,7 @@
   <xsl:import href="cocoon://_internal/url/reverse.xsl" />
 
   <kiln:block name="html">
-    <html class="no-js">
+    <html class="no-js" lang="en">
       <kiln:block name="head">
         <head>
           <meta charset="utf-8" />
@@ -49,8 +49,8 @@
       <kiln:block name="body">
         <body>
           <kiln:block name="navigation">
-            <div id="header" class="text-center">
-              <h1 id="site-name">FISCUS <!--<img id="site-image" src="{$kiln:assets-path}/images/favicon.png" alt="sella plicatilis"/>--></h1>
+            <div id="header">
+              <h1 id="site-name"><img id="site-image" src="{$kiln:assets-path}/images/favicon.png" alt="sella plicatilis"/> FISCUS</h1>
             </div>
             <nav class="top-bar">
               <kiln:block name="main-navigation">
