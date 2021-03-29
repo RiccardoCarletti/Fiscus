@@ -231,6 +231,8 @@
                     <persName type="other">Wigbodus</persName>
                     <idno>people/31</idno>
                     <note>Lazzari 2018; Manarini 2019.</note>
+                    <link type="people" corresp="#people/82" subtype="link"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/34" subtype="link"/>
                 </person>
                 
                 <person>
@@ -439,7 +441,7 @@
                     <link type="estates" corresp="#estates/105" subtype="hasConnectionWith"/>
                     <link type="estates" corresp="#estates/104" subtype="hasConnectionWith"/>
                     <link type="estates" corresp="#estates/106" subtype="hasConnectionWith"/>
-                    <link type="places" corresp="#places/" subtype="hasConnectionWith"/>
+             
                     <link type="people" corresp="#people/14" subtype="descendentOf"/>
                     
                 </person>
@@ -457,6 +459,9 @@
                     <persName>Wido (855-894) imperator</persName>
                     <idno>people/82</idno>
                     <note/>
+                    <link type="people" corresp="#people/136" subtype="fatherOf"/>
+                    <link type="people" corresp="#people/91" subtype="legallyRecognisedUnionWith"/>
+                    <link type="people" corresp="#people/31" subtype="link"/>
                 </person>
                 <person>
                     <persName>Gerberga/Bulgarella (1013-1069; Figli di Huscit)</persName>
@@ -531,6 +536,8 @@
                     <idno>people/91</idno>
                     <note/>
                     <link type="people" corresp="#people/115" subtype="daughterOf"/>
+                    <link type="people" corresp="#people/82" subtype="legallyRecognisedUnionWith"/>
+                    <link type="people" corresp="#people/136" subtype="motherOf"/>
                 </person>
                 <person>
                     <persName>Adalbertus (880-928) marchio (Anscarici)</persName>
@@ -904,6 +911,8 @@
                     <idno>people/136</idno>
                     <note/>
                     <link type="people" corresp="#people/135" subtype="link"/>
+                    <link type="people" corresp="#people/91" subtype="sonOf"/>
+                    <link type="people" corresp="#people/82" subtype="sonOf"/>
                 </person>
                 <person>
                     <persName>Adalbertus (884c.-915) marchio Tusciae</persName>
