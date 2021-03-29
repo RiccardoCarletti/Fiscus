@@ -73,7 +73,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2021-02-08">creation of record</change>
+                <change when="2021-02-08" who="Chiara Stedile">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -81,26 +81,30 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>In nomine domini nostri Iesu Christi Dei aeterni. Berengarius divina favente
-                        clementia rex. Noverit industria omnium fidelium sanctae Dei Ecclesiae
-                        nostrorumque presentium scilicet ac futurorum, quod Ageltrudis olim
-                        imperatrix adiit per Petrum reverentissimum episcopum sacrique palatii
-                        nostri archicancellarium excellentiam nostram, quatenus eidem concederemus
-                        et confirmaremus territoria ac loca ubi nunc monasteria dinoscuntur esse
-                        constructa. Unum videlicet quod nuncupatur Arabona in Camerinensis finibus
-                        et alterum quod vocatur Flumen in pago Asisio cum omnibus adiacentiis et
-                        pertinentiis suis omnibusque rebus et familiis utriusque sexus tam
-                        hereditariis quamque etiam a predecessoribus nostris regibus sive
-                        imperatoribus per preceptorum series ibidem concessis, et quocumque
-                        instrumentorum titulo vel cuiuscumque donationis seu transfersionis vel
-                        traditionis argumento iuste et legaliter adquisitis vel in antea
-                        adquirendis. Cuius nos iustis precibus aures pietatis nostrae libentissime
-                        accommodantes huius auctoritatis nostrae preceptum in eam decrevimus
-                        emittere, per quod concedendo concedimus et perdonando perdonamus atque
-                        confirmando confirmamus iam dictae Ageltrudi quondam imperatrici omnes res
-                        et familias utriusque sexus atque substantias sibi quolibet iure et titulo
-                        pertinentes cum omnibus mobilibus et immobilibus seseque moventibus, et
-                        quecumque nominari possunt et quaecumque nunc habet tam ex sui senioris
+                    <ab>In nomine domini nostri Iesu Christi Dei aeterni. <persName
+                            key="#Emperor/king" ref="#people/21">Berengarius</persName> divina
+                        favente clementia <rs key="#Emperor/king">rex</rs>. Noverit industria omnium
+                        fidelium sanctae Dei Ecclesiae nostrorumque presentium scilicet ac
+                        futurorum, quod <persName key="#Queen">Ageltrudis</persName> olim <rs
+                            key="#Queen">imperatrix</rs> adiit per <persName
+                            key="#Archchancellor #Bishops" ref="#people/58">Petrum</persName>
+                        reverentissimum <rs key="#Bishops">episcopum</rs> sacrique palatii nostri
+                            <rs key="#Archchancellor">archicancellarium</rs> excellentiam nostram,
+                        quatenus eidem concederemus et confirmaremus territoria ac loca ubi nunc
+                        monasteria dinoscuntur esse constructa. Unum videlicet quod nuncupatur
+                        Arabona in Camerinensis finibus et alterum quod vocatur Flumen in pago
+                        Asisio cum omnibus adiacentiis et pertinentiis suis omnibusque rebus et
+                        familiis utriusque sexus tam hereditariis quamque etiam a predecessoribus
+                        nostris regibus sive imperatoribus per preceptorum series ibidem concessis,
+                        et quocumque instrumentorum titulo vel cuiuscumque donationis seu
+                        transfersionis vel traditionis argumento iuste et legaliter adquisitis vel
+                        in antea adquirendis. Cuius nos iustis precibus aures pietatis nostrae
+                        libentissime accommodantes huius auctoritatis nostrae preceptum in eam
+                        decrevimus emittere, per quod concedendo concedimus et perdonando perdonamus
+                        atque confirmando confirmamus iam dictae Ageltrudi quondam imperatrici omnes
+                        res et familias utriusque sexus atque substantias sibi quolibet iure et
+                        titulo pertinentes cum omnibus mobilibus et immobilibus seseque moventibus,
+                        et quecumque nominari possunt et quaecumque nunc habet tam ex sui senioris
                         Vuitonis suique filii Landberti augustorum quondam imperatorum donatione
                         quam etiam hereditario, sive alia quacumque adquisitione, sive quecumque in
                         antea per futura tempora quolibet iusto et legali ordine potuerit conquirere
@@ -157,7 +161,8 @@
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p/>
+                <p>Schiaparelli, <foreign>I diplomi di Berengario I</foreign>, pp. 65-68, n°
+                    XXII</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>
