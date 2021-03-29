@@ -2160,11 +2160,14 @@
                     <link type="people" corresp="#people/73 #people/181" subtype="link"/>
                 </place>
                 <place>
-                    <placeName>Le Striscie</placeName>
+                    <placeName><foreign>Striscie</foreign> (le) (San Biagio; Monteverdi Marittimo;
+                        Pisa)</placeName>
                     <placeName type="other"/>
-                    <geogName type="coord"><geo/></geogName>
+                    <geogName type="coord"><geo>43.1703032, 10.6701767</geo></geogName>
                     <idno>places/246</idno>
                     <note/>
+                    <link type="places" corresp="#places/241" subtype="isPartOf"/>
+                    <link type="estates" corresp="#estates/137" subtype="isPartOf"/>
                 </place>
             </listPlace>
         </body>
