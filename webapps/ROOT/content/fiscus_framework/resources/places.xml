@@ -2227,6 +2227,8 @@
                     <note/>
                     <link type="estates" corresp="#http://137.204.128.125/estates/140"
                         subtype="hasInItsVicinity"/>
+                    <link type="places" corresp="#http://137.204.128.125/places/252"
+                        subtype="hasInItsVicinity"/>
                 </place>
                 <place>
                     <placeName><foreign>Martoranum</foreign> (Serracapriola; Foggia)</placeName>
@@ -2241,8 +2243,9 @@
                         subtype="isPartOf"/>
                     <link type="people" corresp="#http://137.204.128.125/people/185" subtype="link"/>
                     <link type="juridical_persons" subtype="link" corresp="#juridical_persons/84"/>
-                    <link type="people" corresp="#http://137.204.128.125/people/186" subtype="link"
-                    />
+                    <link type="people" corresp="#http://137.204.128.125/people/186" subtype="link"/>
+                    <link type="places" corresp="#http://137.204.128.125/places/251"
+                        subtype="isInVicinityOf"/>
                 </place>
             </listPlace>
         </body>
