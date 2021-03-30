@@ -383,6 +383,21 @@
     <!-- add map -->
     <div class="row">
       <div id="mapid" class="map"></div>
+      <div id="legend">
+        <p>
+          <img src="../../../assets/images/golden.png" alt="golden circle" class="mapicon"/>Places linked to fiscal properties
+          <img src="../../../assets/images/purple.png" alt="purple circle" class="mapicon"/>Places not linked to fiscal properties
+          <img src="../../../assets/images/polygon.png" alt="green polygon" class="mapicon"/>Places not precisely located or wider areas
+          <img src="../../../assets/images/anchor.png" alt="anchor" class="mapicon"/>Ports and fords
+          <img src="../../../assets/images/tower.png" alt="tower" class="mapicon"/>Fortifications
+          <img src="../../../assets/images/sella.png" alt="sella" class="mapicon"/>Residences
+          <img src="../../../assets/images/coin.png" alt="coin" class="mapicon"/>Markets, crafts and revenues
+          <img src="../../../assets/images/star.png" alt="star" class="mapicon"/>Estates and estate units
+          <img src="../../../assets/images/square.png" alt="square" class="mapicon"/>Tenures
+          <img src="../../../assets/images/triangle.png" alt="triangle" class="mapicon"/>Land plots and rural buildings
+          <img src="../../../assets/images/tree.png" alt="tree" class="mapicon"/>Fallow land
+        </p>
+      </div>
       <script type="text/javascript">
         var streets = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoiaXZhZ2lvbmFraXMiLCJhIjoiY2treTVmZnhyMDBzdTJ2bWxyemY4anJtNSJ9.QrP-0v-7btCzG97ll23HKw', {
         id: 'mapbox/streets-v11', 
@@ -461,7 +476,7 @@
         
         for (const [key, value] of Object.entries(points)) {
         var info = key.substring(key.indexOf("@"), key.lastIndexOf("@"));
-        symbols = info.replace('@c', '<img src="../../../assets/images/anchor.png" alt="anchor" style="height:17px;margin: 5px"/>').replace('@d', '<img src="../../../assets/images/tower.png" alt="tower" style="height:17px;margin: 5px"/>').replace('@e', '<img src="../../../assets/images/sella.png" alt="sella" style="height:17px;margin: 5px"/>').replace('@f', '<img src="../../../assets/images/coin.png" alt="coin" style="height:17px;margin: 5px"/>').replace('@g', '<img src="../../../assets/images/star.png" alt="star" style="height:17px;margin: 5px"/>').replace('@h', '<img src="../../../assets/images/square.png" alt="square" style="height:17px;margin: 5px"/>').replace('@i', '<img src="../../../assets/images/triangle.png" alt="triangle" style="height:17px;margin: 5px"/>').replace('@j', '<img src="../../../assets/images/tree.png" alt="tree" style="height:17px;margin: 5px"/>'); 
+        symbols = info.replace('@c', '<img src="../../../assets/images/anchor.png" alt="anchor" class="mapicon"/>').replace('@d', '<img src="../../../assets/images/tower.png" alt="tower" class="mapicon"/>').replace('@e', '<img src="../../../assets/images/sella.png" alt="sella" class="mapicon"/>').replace('@f', '<img src="../../../assets/images/coin.png" alt="coin" class="mapicon"/>').replace('@g', '<img src="../../../assets/images/star.png" alt="star" class="mapicon"/>').replace('@h', '<img src="../../../assets/images/square.png" alt="square" class="mapicon"/>').replace('@i', '<img src="../../../assets/images/triangle.png" alt="triangle" class="mapicon"/>').replace('@j', '<img src="../../../assets/images/tree.png" alt="tree" class="mapicon"/>'); 
         if (key.includes('#a')) {
         purple_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: purpleIcon}).bindPopup('<a href="#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
         if (key.includes('c@')) {
@@ -551,17 +566,17 @@
         };
         
         var overlayMaps = {
-        "All places linked to fiscal properties (golden circle)": toggle_golden_places,
-        "All places not linked to fiscal properties (purple circle)": toggle_purple_places,
-        "Places not precisely located or wider areas (green polygon)": toggle_polygons,
-        "Ports and fords (anchor)": toggle_ports_places,
-        "Fortifications (tower)": toggle_fortifications_places,
-        "Residences (sella plicatilis)": toggle_residences_places,
-        "Markets, crafts and revenues (coin)": toggle_revenues_places,
-        "Estates and estate units (star)": toggle_estates_places,
-        "Tenures (square)": toggle_tenures_places,
-        "Land plots and rural buildings (triangle)": toggle_land_places,
-        "Fallow land (tree)": toggle_fallow_places
+        "All places linked to fiscal properties": toggle_golden_places,
+        "All places not linked to fiscal properties": toggle_purple_places,
+        "Places not precisely located or wider areas": toggle_polygons,
+        "Ports and fords": toggle_ports_places,
+        "Fortifications": toggle_fortifications_places,
+        "Residences": toggle_residences_places,
+        "Markets, crafts and revenues": toggle_revenues_places,
+        "Estates and estate units": toggle_estates_places,
+        "Tenures": toggle_tenures_places,
+        "Land plots and rural buildings": toggle_land_places,
+        "Fallow land": toggle_fallow_places
         };
         
         L.control.layers(baseMaps, overlayMaps).addTo(mymap);
