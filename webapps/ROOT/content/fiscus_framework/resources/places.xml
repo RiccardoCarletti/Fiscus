@@ -1569,6 +1569,8 @@
                         subtype="hasInItsVicinity"/>
                     <link type="estates" corresp="#estates/123"
                         subtype="hasInItsVicinity"/>
+                    <link type="places" corresp="#http://137.204.128.125/places/250"
+                        subtype="hasInItsVicinity"/>
                 </place>
                 <place>
                     <placeName><foreign>mons Sancti Leutherii</foreign> (Vairano Patenora;
@@ -1639,6 +1641,8 @@
                         subtype="isInVicinityOf"/>
                     <link type="juridical_persons"
                         corresp="#juridical_persons/106" subtype="link"/>
+                    <link type="places" corresp="#http://137.204.128.125/places/250"
+                        subtype="isInVicinityOf"/>
                 </place>
                 <place>
                     <placeName><foreign>Monte Scalocchio</foreign> (Casa Montescalocchi;
@@ -2212,6 +2216,8 @@
                     <link type="places" corresp="#places/195" subtype="isInVicinityOf"/>
                     <link type="places" corresp="#places/198" subtype="isInVicinityOf"/>
                     <link type="places" corresp="#places/194" subtype="isInVicinityOf"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/106" subtype="link"/>
+                    <link type="estates" corresp="#estates/122" subtype="isPartOf"/>
                 </place>
             </listPlace>
         </body>
