@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc1101">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
@@ -14,7 +14,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
-                <idno type="uri">http://137.204.128.125/documents/doc1101</idno>
+                <idno type="filename">doc1101</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -83,28 +83,28 @@
             <div type="edition">
                 <div type="textpart">
                     <ab>In nomine sancte et individue trinitatis. <persName key="#Emperor/king"
-                            ref="#http://137.204.128.125/people/80">Karlomannus</persName> divina
+                            ref="#people/80">Karlomannus</persName> divina
                         favente clementia <rs key="#Emperor/king">rex</rs>. Omnibus sancte dei
                         ecclesie nostrisque fidelibus presentibus videlicet ac futuris cognitum
                         fieri volumus, <persName key="#Queen"
-                            ref="#http://137.204.128.125/people/55">Angilbergam</persName> dive
+                            ref="#people/55">Angilbergam</persName> dive
                         memorie <persName key="#Emperor/king"
-                            ref="#http://137.204.128.125/people/110">Hludouuici</persName> piissimi
+                            ref="#people/110">Hludouuici</persName> piissimi
                             <rs key="#Emperor/king">imperatoris</rs> fratris et consobrini nostri
                         coniugem augustam, dilectam sororem nostram, quoddam noviter <rs
                             key="#Monasteries">coenobium</rs>
                         <rs key="#Nuns/sanctimoniales">ancillarum dei</rs> ad laudem et gloriam
                         dominice resurrectionis infra muros urbis <placeName
-                            ref="#http://137.204.128.125/places/43">Placentinae</placeName> in solo
+                            ref="#places/43">Placentinae</placeName> in solo
                         proprio pia devotione fundasse. Ad cuius operis suplementum nos quoque ob
                         honorem dei et eiusdem fratris et consobrini nostri amorem et nostrae
                         mercedis augmentum <rs
                             key="#Curtes #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches #Cells/hermitages"
                             >cellulam</rs> quamdam haud procul ab eadem urbe Placentina sitam loco
-                        qui <placeName ref="#http://137.204.128.125/places/14" key="#Curtes">Caput
+                        qui <placeName ref="#places/14" key="#Curtes">Caput
                             Trebie</placeName> vocatur, in qua et <orgName
                             key="#Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Churches"
-                            ref="#http://137.204.128.125/juridical_persons/82">ecclesia apostolorum
+                            ref="#juridical_persons/82">ecclesia apostolorum
                             principis honori dicata</orgName> consistit et, ut fertur, monasticis
                         quondam habitationibus adtributa, cum omni integritate sua ad famularum
                         Christi usus praefato monasterio clementi liberalitate conferimus donamus
@@ -136,9 +136,9 @@
                             >capellani</rs> recognovi et (SR.) (SI.). Data XIIII kalendas novembris
                         anno Christo propitio primo regni domni Karlomanni serenissimi regis in
                         Italia; actum in <geogName key="#Curtes"
-                            ref="#http://137.204.128.125/estates/100">curte sancti
+                            ref="#estates/100">curte sancti
                             Ambrosii</geogName> que vocitatur <placeName
-                            ref="#http://137.204.128.125/places/108">Cassianum iuxta Attuam
+                            ref="#places/108">Cassianum iuxta Attuam
                             fluvium</placeName>, indictione XI; in dei nomine feliciter amen.</ab>
                 </div>
             </div>

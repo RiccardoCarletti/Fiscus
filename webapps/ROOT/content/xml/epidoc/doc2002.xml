@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc2002">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
@@ -14,7 +14,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
-                <idno type="uri">http://137.204.128.125/documents/doc2002</idno>
+                <idno type="filename">doc2002</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -82,19 +82,19 @@
             <div type="edition">
                 <div type="textpart">
                     <ab>+ In nomine domini, <date>vicesimo primo anno principatus domni <persName
-                                ref="#http://137.204.128.125/people/157" key="#Princeps"
+                                ref="#people/157" key="#Princeps"
                                 >Paldolfi</persName>, quam et sexto anno principatus domni <persName
-                                key="#Princeps" ref="#http://137.204.128.125/people/167"
+                                key="#Princeps" ref="#people/167"
                                 >Landolfi</persName> gloriosis <rs key="#Princeps">princibus</rs>,
                             mense octuber, septima indictio</date>. Dum nos <persName key="#Judge"
                             >Bisantio</persName>
                         <rs key="#Judge">iudex</rs>
-                        <placeName key="#Cities" ref="#http://137.204.128.125/places/174">Teanense
+                        <placeName key="#Cities" ref="#places/174">Teanense
                             ciutati</placeName>, quadam die residente intus eadem<rs key="#Cities">
                             ciuitate</rs>, ante conspectum domni <persName key="#Count"
-                            ref="#http://137.204.128.125/people/170">Atenolfi</persName> magnifici
+                            ref="#people/170">Atenolfi</persName> magnifici
                             <rs key="#Count">comitis</rs>, fili bone memorie domni <persName
-                            key="#Count" ref="#http://137.204.128.125/people/114"
+                            key="#Count" ref="#people/114"
                             >Atenolfi</persName>
                         <rs key="#Count">comitis</rs>, et erga nos ante eum residentibus <rs
                             key="#Assembly">plures nobiliores uiri</rs> predicte ciuitati. Inter
@@ -106,39 +106,39 @@
                             >ecclesie</rs></rs><rs> Sancte Dei genitricis et wuirginis Marie</rs> in
                         quo est<rs key="#Monasteries #Nuns/sanctimoniales"> monasterium
                             puellaro</rs>, que sita est in loco <placeName
-                            ref="#http://137.204.128.125/places/193" key="#Churches #Monasteries"
+                            ref="#places/193" key="#Churches #Monasteries"
                             >Cengla</placeName> in qua domna <persName key="#Abbesses"
-                            ref="#http://137.204.128.125/people/168">Adelgarda</persName> religiosa
+                            ref="#people/168">Adelgarda</persName> religiosa
                             <rs key="#Abbesses">abbatisssa</rs> preest. Ille autem erga secum
                         habendo <persName key="#Judge #Advocatus">Vigelmum</persName>
                         <rs key="#Judge">iudicem</rs>
                         <rs key="#Advocatus">aduocatorem</rs> supradicti monasterii et reclamabit
                         superius dictus comes, ut ministeriales eius de <placeName
-                            ref="#http://137.204.128.125/places/177" key="#Fines #Rural_communities"
+                            ref="#places/177" key="#Fines #Rural_communities"
                             >Bairano</placeName> iniuste et contra rationem introissent infra fines
                         de duabus <rs key="#Petiae #Fiscal_property #Textual_occurrence #Object"
                             >petie</rs> de terris iam dicte ecclesie pertinentes, que essent infra
                             <rs key="#Fines">fines</rs> de supra dicto loco Bairanum in loco ubi
-                        dicitur <placeName ref="#http://137.204.128.125/places/194"
+                        dicitur <placeName ref="#places/194"
                             key="#Petiae #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches #Extortions_by_officers #Slave"
                             >Tora </placeName>et indicabit ei ut terris ipsis haberent has finis.
                         Prima petia de terra in loco Tora, ubi residerent <rs key="#Slave"
                             >serbi</rs> ipsius ecclesie que esset propinquo <rs key="#Churches"
                             >ecclesia</rs>
-                        <orgName key="#Churches" ref="#http://137.204.128.125/juridical_persons/106"
+                        <orgName key="#Churches" ref="#juridical_persons/106"
                             >Sancti Martini</orgName> de loco <placeName key="#Churches"
-                            ref="#http://137.204.128.125/places/198">Groctole</placeName>, haberet
+                            ref="#places/198">Groctole</placeName>, haberet
                         finis de una parte ribio qui decerneret inter hec terra et terra que modo
                         tenerent <rs key="#Rural_communities">homines de Bairano</rs> et pars <rs
                             key="#Bishops">episcopo</rs>
-                        <orgName key="#Bishops" ref="#http://137.204.128.125/juridical_persons/105"
+                        <orgName key="#Bishops" ref="#juridical_persons/105"
                             >Sancti Stephani</orgName> de <placeName
-                            ref="#http://137.204.128.125/places/173" key="#Bishops"
+                            ref="#places/173" key="#Bishops"
                             >Capua</placeName> ubi ipsa ecclesia Sancti Martini constructa esset, et
                         ab inde ubi oritur ribio ipse in sursum iret circa terra ipsius monasterii
                         usque ad pede de <rs key="#Mountains">montem</rs> que esset pertinentem
                         suprascripti domni Atenolfi comitis, qui uocatur <placeName
-                            ref="#http://137.204.128.125/places/195"
+                            ref="#places/195"
                             key="#Mountains #Fiscal_property #Textual_occurrence #Object">monte
                             Sancti Eleutherii</placeName> et ut eodem ribio pergeret usque ad ribium
                         de <rs key="#Rivers">Baniolum</rs>; de alia parte fini pede de ipsum iam
@@ -162,7 +162,7 @@
                         audire et legem reciperet. Ad hec ipse qui supra comes dum talia auditus
                         dixit ut ipsi ministeriales suos per suam iussionem talia fecissent. Eo quod
                         iam dicte terris ei legibus deberet essent pertinentes pro pars publica iam
-                        dicti <geogName ref="#http://137.204.128.125/estates/122" key="#Comitatus"
+                        dicti <geogName ref="#estates/122" key="#Comitatus"
                             >comitatui</geogName> sui Teanensis, quibus ipse qui supra Iohannes
                         presbiter et prepositus atque custos cum eodem aduocatorem suprasctipti sui
                         monasterii negaberunt dicendo ut talia uerum numquam esset et pars publica
@@ -180,27 +180,26 @@
                         iussione suprascripti domni Atenolfi comitis inter eum et iam dictum
                         prepositum iudicabimus et per nostrum iudicium, eodem prepositum cum ipsum
                         aduocatorem suprascripte ecclesie guadiare fecimus cum amatum filium
-                            <persName ref="#http://137.204.128.125/people/169" key="#Agent_for"
-                            >Guaiferi</persName>
-                        <rs key="#Agent_for">pro pars et uice</rs> ipsius domni Atenolfi comitis
-                        tali tinore ut ambarum partes pergerent super ipse iam dicte terris et ipse
-                        qui supra Iohannes presbiter et prepositus pro pars iam dicte ecclesie
-                        Sancte Marie faceret ei quod<persName key="#Witness"> Amati</persName>
-                        monstraret tres suos. Ipse iam dicte terris per ipse iam dicte finis et ipsi
-                        testes facerent inde ei talem consignationem ante prefatum comitem pro eius
-                        parte tendentes manum contra cum et per singuli testificando ei dicerent sao
-                        cco kelle terre per kelle fini que tebe mostrai trenta anni le possette
-                        parte Sancte Marie et testes illi. Et eodem preposito et sacramentales
-                        ipsius ecclesie firmarent ipsum testimonium per sacramentum ad euangelium
-                        secundum legem et consuetudinem. Et ipse qui supra Amato pro pars ipsius iam
-                        dicti comitis ante eum pligaret se cum sancta dei euangelia ad recipiendum
-                        de predictis terris, testimonia ipsa et sacramenta. Et de taliter inter se
-                        complendum ambarum partes mediatores inter se posuerunt et abierunt in
-                        constituto autem quod inter se posuerunt. Dum ego qui supra Bisantio iudex
-                        cum plures nobiliores uiros assistebamus ante conspectum ipsius domni
-                        Atenolfi comitis ambarum partes ante eum reconiuncti fuerunt. Ipse qui supra
-                        Iohannes presbiter et prepositus atque custos pro pars iam dicte ecclesie
-                        Sancte Marie paratus erat secundum legem et consuetudinem cum eodem Vigelmum
+                            <persName ref="#people/169">Guaiferi</persName>
+                        pro pars et uice ipsius domni Atenolfi comitis tali tinore ut ambarum partes
+                        pergerent super ipse iam dicte terris et ipse qui supra Iohannes presbiter
+                        et prepositus pro pars iam dicte ecclesie Sancte Marie faceret ei
+                            quod<persName key="#Witness"> Amati</persName> monstraret tres suos.
+                        Ipse iam dicte terris per ipse iam dicte finis et ipsi testes facerent inde
+                        ei talem consignationem ante prefatum comitem pro eius parte tendentes manum
+                        contra cum et per singuli testificando ei dicerent sao cco kelle terre per
+                        kelle fini que tebe mostrai trenta anni le possette parte Sancte Marie et
+                        testes illi. Et eodem preposito et sacramentales ipsius ecclesie firmarent
+                        ipsum testimonium per sacramentum ad euangelium secundum legem et
+                        consuetudinem. Et ipse qui supra Amato pro pars ipsius iam dicti comitis
+                        ante eum pligaret se cum sancta dei euangelia ad recipiendum de predictis
+                        terris, testimonia ipsa et sacramenta. Et de taliter inter se complendum
+                        ambarum partes mediatores inter se posuerunt et abierunt in constituto autem
+                        quod inter se posuerunt. Dum ego qui supra Bisantio iudex cum plures
+                        nobiliores uiros assistebamus ante conspectum ipsius domni Atenolfi comitis
+                        ambarum partes ante eum reconiuncti fuerunt. Ipse qui supra Iohannes
+                        presbiter et prepositus atque custos pro pars iam dicte ecclesie Sancte
+                        Marie paratus erat secundum legem et consuetudinem cum eodem Vigelmum
                         iudicem aduocatorem ipsius ecclesie et cum sacramentales suos seu et cum
                         tres testes, nomina eorum <persName key="#Witness #Priests">Mari</persName>
                         <rs key="#Priests">presbiterum</rs> et <persName key="#Witness #Priests"

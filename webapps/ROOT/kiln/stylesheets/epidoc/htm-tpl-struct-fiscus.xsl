@@ -14,7 +14,7 @@
         <xsl:apply-templates select="//t:titleStmt/t:title"/>
         <br/>
         <b>Document number: </b>
-        <xsl:value-of select="substring-after(//t:TEI/@xml:id, 'doc')"/>
+        <xsl:value-of select="substring-after(replace(//t:publicationStmt//t:idno, ' ', ''), 'doc')"/>
         <br/>
         <b>Author(s): </b>
         <xsl:choose>
@@ -24,58 +24,58 @@
           <xsl:when test="contains(//t:change[1]/@who, 'fiscus')">
             <xsl:text>Admin Fiscus</xsl:text>
           </xsl:when>
-          <xsl:when test="contains(//t:change[1]/@who, 'csalvaterra')">
+          <xsl:when test="contains(//t:change[1]/@who, 'salvaterra')">
             <xsl:text>Carla Salvaterra</xsl:text>
           </xsl:when>
-          <xsl:when test="contains(//t:change[1]/@who, 'tlazzari')">
+          <xsl:when test="contains(//t:change[1]/@who, 'lazzari')">
             <xsl:text>Tiziana Lazzari</xsl:text>
           </xsl:when>
-          <xsl:when test="contains(//t:change[1]/@who, 'ltabarrini')">
+          <xsl:when test="contains(//t:change[1]/@who, 'tabarrini')">
             <xsl:text>Lorenzo Tabarrini</xsl:text>
           </xsl:when>
-          <xsl:when test="contains(//t:change[1]/@who, 'gvignodelli')">
+          <xsl:when test="contains(//t:change[1]/@who, 'vignodelli')">
             <xsl:text>Giacomo Vignodelli</xsl:text>
           </xsl:when>
-          <xsl:when test="contains(//t:change[1]/@who, 'smcollavini')">
+          <xsl:when test="contains(//t:change[1]/@who, 'collavini')">
             <xsl:text>Simone Maria Collavini</xsl:text>
           </xsl:when>
-          <xsl:when test="contains(//t:change[1]/@who, 'ptomei')">
+          <xsl:when test="contains(//t:change[1]/@who, 'tomei')">
             <xsl:text>Paolo Tomei</xsl:text>
           </xsl:when>
-          <xsl:when test="contains(//t:change[1]/@who, 'dinternullo')">
+          <xsl:when test="contains(//t:change[1]/@who, 'internullo')">
             <xsl:text>Dario Internullo</xsl:text>
           </xsl:when>
           <xsl:when test="contains(//t:change[1]/@who, 'vlore')">
             <xsl:text>Vito Loré</xsl:text>
           </xsl:when>
-          <xsl:when test="contains(//t:change[1]/@who, 'cciccopiedi')">
+          <xsl:when test="contains(//t:change[1]/@who, 'ciccopiedi')">
             <xsl:text>Caterina Ciccopiedi</xsl:text>
           </xsl:when>
-          <xsl:when test="contains(//t:change[1]/@who, 'emanarini')">
+          <xsl:when test="contains(//t:change[1]/@who, 'manarini')">
             <xsl:text>Edoardo Manarini</xsl:text>
           </xsl:when>
-          <xsl:when test="contains(//t:change[1]/@who, 'mvvallerani')">
+          <xsl:when test="contains(//t:change[1]/@who, 'vallerani')">
             <xsl:text>Massimo Valerio Vallerani</xsl:text>
           </xsl:when>
-          <xsl:when test="contains(//t:change[1]/@who, 'ecinello')">
+          <xsl:when test="contains(//t:change[1]/@who, 'cinello')">
             <xsl:text>Erika Cinello</xsl:text>
           </xsl:when>
-          <xsl:when test="contains(//t:change[1]/@who, 'atagliente')">
+          <xsl:when test="contains(//t:change[1]/@who, 'tagliente')">
             <xsl:text>Antonio Tagliente</xsl:text>
           </xsl:when>
-          <xsl:when test="contains(//t:change[1]/@who, 'gzornetta')">
+          <xsl:when test="contains(//t:change[1]/@who, 'zornetta')">
             <xsl:text>Giulia Zornetta</xsl:text>
           </xsl:when>
-          <xsl:when test="contains(//t:change[1]/@who, 'adimuro')">
+          <xsl:when test="contains(//t:change[1]/@who, 'dimuro')">
             <xsl:text>Alessandro Di Muro</xsl:text>
           </xsl:when>
-          <xsl:when test="contains(//t:change[1]/@who, 'vriveramagos')">
+          <xsl:when test="contains(//t:change[1]/@who, 'riveramagos')">
             <xsl:text>Victor Rivera Magos</xsl:text>
           </xsl:when>
-          <xsl:when test="contains(//t:change[1]/@who, 'lmotta')">
+          <xsl:when test="contains(//t:change[1]/@who, 'motta')">
             <xsl:text>Loris Motta</xsl:text>
           </xsl:when>
-          <xsl:when test="contains(//t:change[1]/@who, 'fdefalco')">
+          <xsl:when test="contains(//t:change[1]/@who, 'defalco')">
             <xsl:text>Fabrizio De Falco</xsl:text>
           </xsl:when>
           <!--<xsl:when test="contains(//t:change[1]/@who, 'people/')"><xsl:value-of select="substring-after(//t:change[1]/@who, 'people/')"/></xsl:when>-->
@@ -100,31 +100,31 @@
           <xsl:when test="contains(//t:change[last()]/@who, 'fiscus')">
             <xsl:text>Admin Fiscus</xsl:text>
           </xsl:when>
-          <xsl:when test="contains(//t:change[last()]/@who, 'csalvaterra')">
+          <xsl:when test="contains(//t:change[last()]/@who, 'salvaterra')">
             <xsl:text>Carla Salvaterra</xsl:text>
           </xsl:when>
-          <xsl:when test="contains(//t:change[last()]/@who, 'tlazzari')">
+          <xsl:when test="contains(//t:change[last()]/@who, 'lazzari')">
             <xsl:text>Tiziana Lazzari</xsl:text>
           </xsl:when>
-          <xsl:when test="contains(//t:change[last()]/@who, 'ltabarrini')">
+          <xsl:when test="contains(//t:change[last()]/@who, 'tabarrini')">
             <xsl:text>Lorenzo Tabarrini</xsl:text>
           </xsl:when>
-          <xsl:when test="contains(//t:change[last()]/@who, 'gvignodelli')">
+          <xsl:when test="contains(//t:change[last()]/@who, 'vignodelli')">
             <xsl:text>Giacomo Vignodelli</xsl:text>
           </xsl:when>
-          <xsl:when test="contains(//t:change[last()]/@who, 'smcollavini')">
+          <xsl:when test="contains(//t:change[last()]/@who, 'collavini')">
             <xsl:text>Simone Maria Collavini</xsl:text>
           </xsl:when>
-          <xsl:when test="contains(//t:change[last()]/@who, 'ptomei')">
+          <xsl:when test="contains(//t:change[last()]/@who, 'tomei')">
             <xsl:text>Paolo Tomei</xsl:text>
           </xsl:when>
-          <xsl:when test="contains(//t:change[last()]/@who, 'dinternullo')">
+          <xsl:when test="contains(//t:change[last()]/@who, 'internullo')">
             <xsl:text>Dario Internullo</xsl:text>
           </xsl:when>
           <xsl:when test="contains(//t:change[last()]/@who, 'vlore')">
             <xsl:text>Vito Loré</xsl:text>
           </xsl:when>
-          <xsl:when test="contains(//t:change[last()]/@who, 'cciccopiedi')">
+          <xsl:when test="contains(//t:change[last()]/@who, 'ciccopiedi')">
             <xsl:text>Caterina Ciccopiedi</xsl:text>
           </xsl:when>
           <xsl:when test="contains(//t:change[last()]/@who, 'emanarini')">
@@ -133,25 +133,25 @@
           <xsl:when test="contains(//t:change[last()]/@who, 'mvvallerani')">
             <xsl:text>Massimo Valerio Vallerani</xsl:text>
           </xsl:when>
-          <xsl:when test="contains(//t:change[last()]/@who, 'ecinello')">
+          <xsl:when test="contains(//t:change[last()]/@who, 'cinello')">
             <xsl:text>Erika Cinello</xsl:text>
           </xsl:when>
-          <xsl:when test="contains(//t:change[last()]/@who, 'atagliente')">
+          <xsl:when test="contains(//t:change[last()]/@who, 'tagliente')">
             <xsl:text>Antonio Tagliente</xsl:text>
           </xsl:when>
-          <xsl:when test="contains(//t:change[last()]/@who, 'gzornetta')">
+          <xsl:when test="contains(//t:change[last()]/@who, 'zornetta')">
             <xsl:text>Giulia Zornetta</xsl:text>
           </xsl:when>
-          <xsl:when test="contains(//t:change[last()]/@who, 'adimuro')">
+          <xsl:when test="contains(//t:change[last()]/@who, 'dimuro')">
             <xsl:text>Alessandro Di Muro</xsl:text>
           </xsl:when>
-          <xsl:when test="contains(//t:change[last()]/@who, 'vriveramagos')">
+          <xsl:when test="contains(//t:change[last()]/@who, 'riveramagos')">
             <xsl:text>Victor Rivera Magos</xsl:text>
           </xsl:when>
-          <xsl:when test="contains(//t:change[last()]/@who, 'lmotta')">
+          <xsl:when test="contains(//t:change[last()]/@who, 'motta')">
             <xsl:text>Loris Motta</xsl:text>
           </xsl:when>
-          <xsl:when test="contains(//t:change[last()]/@who, 'fdefalco')">
+          <xsl:when test="contains(//t:change[last()]/@who, 'defalco')">
             <xsl:text>Fabrizio De Falco</xsl:text>
           </xsl:when>
           <!--<xsl:when test="contains(//t:change[last()]/@who, 'people/')"><xsl:value-of select="substring-after(//t:change[last()]/@who, 'people/')"/></xsl:when>-->

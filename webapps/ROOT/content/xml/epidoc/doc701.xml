@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc701">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
@@ -14,7 +14,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
-                <idno type="uri">http://137.204.128.125/documents/doc701</idno>
+                <idno type="filename">doc701</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -83,45 +83,45 @@
             <div type="edition">
                 <div type="textpart">
                     <ab> In nomine Patris et Filii et Spiritus Sancti. <persName
-                            ref="#http://137.204.128.125/people/14"
+                            ref="#people/14"
                             key="#Imperial/royal_diploma #Placitum/iudicatum #Emperor/king"
                             >Karolus</persName> serenissimus augustus a Deo coronatus magnus
                         pacificus <rs key="#Emperor/king">imperator</rs> Romanum gubernans imperium,
                         qui et per misericordiam Dei rex Francorum atque Langobardorum. Cum nos in
                         Dei nomine <rs key="#City_territory">territorio</rs>
-                        <placeName ref="#http://137.204.128.125/places/7"
+                        <placeName ref="#places/7"
                             key="#Rivers #Dioecesis #Plebs #City_territory #Bishops"
                             >Bononiense</placeName> a <placeName
-                            ref="#http://137.204.128.125/places/52">Roma</placeName> redeuntibus
+                            ref="#places/52">Roma</placeName> redeuntibus
                         pervenissemus, ibique super fluvium <rs key="#Rivers">Renum</rs> una cum
                         episcopis abbatibus ducibus comitibus seu reliquis obtimatibus et ceteris
                         fidelibus nostris <rs key="#Placitum/iudicatum #Assembly">ad universorum
                             causas audiendas vel recta iudicia terminanda resederemus</rs>,
-                            <persName ref="#http://137.204.128.125/people/94" key="#Bishops"
+                            <persName ref="#people/94" key="#Bishops"
                             >Vitalis</persName>
                         <rs key="#Dioecesis">sancte <orgName
-                                ref="#http://137.204.128.125/juridical_persons/80"
+                                ref="#juridical_persons/80"
                                 key="#Dioecesis #Plebs #Baptismal_churches #Bishops #Priests"
                                 >Bononiensium urbis ecclesie</orgName>
                         </rs><rs key="#Bishops">episcopus</rs> interpellavit <persName
-                            ref="#http://137.204.128.125/people/49"
+                            ref="#people/49"
                             key="#Fiscal_property #Plebs #Churches #Abbots">Anselmum</persName>
                         venerabilem <rs key="#Abbots">abbatem</rs> ex <rs key="#Monasteries"
                             >monasterio</rs>, quod est in honore domini et salvatoris nostri Iesu
                         Christi et sanctorum apostolorum atque <orgName
-                            ref="#http://137.204.128.125/juridical_persons/47"
+                            ref="#juridical_persons/47"
                             key="#Vici #Churches #Baptismal_churches #Monasteries #Abbots #Monks"
                             >sancti Silvestri</orgName> pontifìcis in loco nuncupante <placeName
-                            ref="#http://137.204.128.125/places/15" key="#Monasteries"
+                            ref="#places/15" key="#Monasteries"
                             >Nonantola</placeName> constructum, dicens quod de una <rs
                             key="#Plebs #Churches #Baptismal_churches">ecclesia baptismali</rs>,
                         quae est constructa in honone <orgName
                             key="#Vici #Plebs #Baptismal_churches"
-                            ref="#http://137.204.128.125/juridical_persons/89"> sancti
+                            ref="#juridical_persons/89"> sancti
                             Mamme</orgName> in loco nuncupante <rs
                             key="#Vici #Fiscal_property #Textual_occurrence #Mention">vico</rs>
                         <placeName key="#Vici #Fiscal_property #Textual_occurrence #Mention #Plebs"
-                            ref="#http://137.204.128.125/places/134">Liciano</placeName>,
+                            ref="#places/134">Liciano</placeName>,
                         pertinentem ad suum episcopatum, <rs key="#Priests">presbiterum</rs> suum
                         nomine <persName key="#Priests">Ursum</persName> foras expulisset inlicite
                         et omnia, quicquid ipse pres]biter ad ipsam ecclesiam conlaboratum habuerat,
@@ -129,7 +129,7 @@
                         iustitiam abstraxissent atque nullam potestam ei aut suo presbitero de ipsa
                         ecclesia habere permisissent. Praedictus vero Anselmus venerabilis abba in
                         praesente adstans taliter dedit in responsis, dicens quod <persName
-                            ref="#http://137.204.128.125/people/48"
+                            ref="#people/48"
                             key="#Imperial/royal_diploma #Fiscal_property #Emperor/king"
                             >Haistulfus</persName> quondam rex Langobardorum praedictum vicum
                         Licianum una cum hominibus inibi pertinentibus, <rs key="#Freeborn"
@@ -137,7 +137,7 @@
                         omni integritate per suum <rs key="#Imperial/royal_diploma">praeceptum</rs>
                         ei ad partem praedicti monasterii sui delegasset et postea ipse cum
                         habitatoribus loci illius ipsam ecclesiam una cum consensu <persName
-                            key="#Bishops" ref="#http://137.204.128.125/people/117">Romani quondam
+                            key="#Bishops" ref="#people/117">Romani quondam
                             episcopi</persName> suprascripte civitatis Bononiensium aedificasset et
                         praedictus Romanus episcopus ad eius deprecationem consecrasset. Et cum
                         inter eos non minima, sed maxirna vertebatur altercatio, adduxit in medio

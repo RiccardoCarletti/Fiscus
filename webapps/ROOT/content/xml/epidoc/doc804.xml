@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc804">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
@@ -15,7 +15,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
-                <idno type="uri">http://137.204.128.125/documents/doc804</idno>
+                <idno type="filename">doc804</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -74,7 +74,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2021-02-08">creation of record</change>
+                <change when="2021-02-08" who="ltabarrini">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -82,18 +82,18 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab><persName key="#Emperor/king" ref="#http://137.204.128.125/people/130"
+                    <ab><persName key="#Emperor/king" ref="#people/130"
                             >Heinricus</persName> […] providentia <rs key="#Emperor/king">rex</rs>.
                         Si sappia che si è rivolta al nostro celeste potere <persName
-                            ref="#http://137.204.128.125/people/131" key="#Queen"
+                            ref="#people/131" key="#Queen"
                             >Cunigunda</persName>, <rs key="#Queen">regina</rs> dilectissima <rs
                             key="#Legally_recognised_union_with">coniunx</rs> nostra, affinché ci
                         degnassimo di confermare e corroborare [nei suoi possessi] un <rs
                             key="#Monasteries">monastero</rs> costruito da <persName
-                            ref="#http://137.204.128.125/people/55" key="#Queen"
+                            ref="#people/55" key="#Queen"
                             >Angelberga</persName>
                         <rs key="#Queen">imperatrice</rs> in onore della santa Resurrezione e di
-                            <orgName ref="#http://137.204.128.125/juridical_persons/53"
+                            <orgName ref="#juridical_persons/53"
                             key="#Production_units #Landed_possessions #Fiscal_property #Object #Outflow #Allocation_to_churches #Missus_regis #Advocatus_regis #Revenues #Tolls #Teloneum #Districtio"
                             >Sisto martire</orgName>. Conferma dunque prelibate abbatisse tutti i
                         beni, de <rs key="#Production_units #Landed_possessions">omnibus rebus et

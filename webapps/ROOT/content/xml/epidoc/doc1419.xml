@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc1419">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
@@ -15,7 +15,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
-                <idno type="uri">http://137.204.128.125/documents/doc1419</idno>
+                <idno type="filename">doc1419</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -97,19 +97,19 @@
                         predicti Saraceni, qui fuit vir meus, [et pro] remedium animarum filii mei
                         offero tibi Deo et <rs key="#Churches">ecclesia</rs> et <rs
                             key="#Monasteries">monasterio</rs>
-                        <orgName ref="#http://137.204.128.125/juridical_persons/78"
+                        <orgName ref="#juridical_persons/78"
                             key="#Churches #Monasteries">Domini et Sancti Salvatori et Sancte Marie
                             Sanctique Quirici et Sancti Petri et Sancti Martini et Sancti Nicolai et
                             Sancti Benedicti</orgName> qui est fundato et edificato in <rs
                             key="#Mountains">monte</rs> que dicitur <placeName
-                            ref="#http://137.204.128.125/places/86" key="#Mountains"
+                            ref="#places/86" key="#Mountains"
                             >Populonio</placeName>, ubi nunc domnus <persName key="#Abbots"
-                            ref="#http://137.204.128.125/people/108">Cunizo</persName>
+                            ref="#people/108">Cunizo</persName>
                         reveren[di]ssimus <rs key="#Abbots">abbas</rs> preesse videtur, duo <rs
                             key="#Petiae">petiis</rs> de terris, quibus sunt positis in loco et
-                        finibus ubi dicitur <placeName ref="#http://137.204.128.125/places/134"
+                        finibus ubi dicitur <placeName ref="#places/134"
                             key="#Cereals #Wine">Parentorum</placeName> prope <placeName
-                            key="#Cereals #Wine" ref="#http://137.204.128.125/places/134"
+                            key="#Cereals #Wine" ref="#places/134"
                             >Libellaria</placeName>, qui una ex ipse petia de terra cum <rs
                             key="#Wine">vinea</rs> et <rs key="#Cereals">terra laboratoria</rs>,
                         super se habentes est tenens unum capud in terra de predicto monasterio, et
@@ -124,14 +124,14 @@
                         Tedicinga et in terra <persName>Ubaldi</persName> filii quondam
                             <persName>Ildebrandi</persName>. Secunda petia de terra, quod est <rs
                             key="#Cereals">campo</rs> ubi dicitur <placeName
-                            ref="#http://137.204.128.125/places/134" key="#Cafagia #Cereals"
+                            ref="#places/134" key="#Cafagia #Cereals"
                             >Cafagio</placeName>, prope ipso loco est, tenens unum capud in terra
                         mea, quae mihi reservo et aliud capud tenet in via, latus unum tenet [in
                         terra] de <rs key="#Churches">ecclesia</rs> et <rs key="#Monasteries"
                             >monasterio</rs>
-                        <orgName ref="#http://137.204.128.125/juridical_persons/87"
+                        <orgName ref="#juridical_persons/87"
                             key="#Landed_possessions">Sancte Marie</orgName> sito <placeName
-                            ref="#http://137.204.128.125/places/200">Serena</placeName> et aliud
+                            ref="#places/200">Serena</placeName> et aliud
                         latus tenet in terra Tedicinga qui fuit iam <persName>Gerardi</persName> de
                         loco <placeName>Tonalla</placeName> et aliquantulum de ipso latus tenet in
                         terra Ubertinga. As suprascriptis petiis de terris qualiter ab omni parte
@@ -169,7 +169,7 @@
                         monasterio cum cartula ista, qualiter iusta legem melius potueritis, quia in
                         tali ordinem hanc cartula <placeName key="#Notary">Sesmundo</placeName>
                         <rs key="#Notary">notario</rs> domni regis scribere rogavi. Actum loco et
-                        finibus ubi dicitur <placeName ref="#http://137.204.128.125/places/127"
+                        finibus ubi dicitur <placeName ref="#places/127"
                             >Biserno</placeName>, prope <rs key="#Churches">ecclesia</rs>
                         <orgName key="#Churches">Sancti Bartholomei</orgName>. Signum manus
                         suprascripte Gisle qui hanc cartula offersionis fieri rogavi. Signa manuum

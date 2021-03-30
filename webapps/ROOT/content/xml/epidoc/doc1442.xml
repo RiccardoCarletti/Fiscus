@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc1442">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
@@ -15,7 +15,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
-                <idno type="uri">http://137.204.128.125/documents/doc1442</idno>
+                <idno type="filename">doc1442</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -83,16 +83,16 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>Da <placeName ref="#http://137.204.128.125/places/127">Biserno</placeName>,
+                    <ab>Da <placeName ref="#places/127">Biserno</placeName>,
                         repromissio Amiculi. In Christi nomine. Breve pro modernis et futuribus
                         temporibus securitatem ac firmitatem abenda vel retinendam ad memoriam,
                         qualiter factum est ante <rs key="#Churches">ecclesia</rs> et <rs
                             key="#Monasteries">monasterio</rs>
                         <orgName key="#Churches #Monasteries"
-                            ref="#http://137.204.128.125/juridical_persons/78">Domini et Sancte
+                            ref="#juridical_persons/78">Domini et Sancte
                             Marie et Sancti Quirici</orgName>, sito <placeName
-                            ref="#http://137.204.128.125/places/86">Populonio</placeName>, ubi nunc
-                        domnus <persName key="#Abbots" ref="#http://137.204.128.125/people/108"
+                            ref="#places/86">Populonio</placeName>, ubi nunc
+                        domnus <persName key="#Abbots" ref="#people/108"
                             >Cunitjo</persName> venerabilis <rs key="#Abbots">abbas</rs> preesse
                         videtur, presentia bonorum hominum, quorum nomina subter leguntur,
                             <persName>Amico</persName> filius <persName>Anatelli</persName> et
@@ -118,7 +118,7 @@
                         obedientja omnem <rs key="#Decima">decimam</rs> de <rs key="#Wine">vino</rs>
                         sive de <rs key="#Cereals">fruges</rs> de una <rs key="#Mansi">masia</rs>,
                         quae esse videtur in loco ubi dicitur <placeName
-                            key="#Cereals #Wine #Decima" ref="#http://137.204.128.125/places/127"
+                            key="#Cereals #Wine #Decima" ref="#places/127"
                             >Carpineto</placeName>, et si qui quacumque tempore de eorum heredes
                         mascolinum non remanserit, abeat predicta ecclesia et monasterio omnia sicut
                         superius legitur ad proprietatem absque ulla calumnia. Et si quislibet

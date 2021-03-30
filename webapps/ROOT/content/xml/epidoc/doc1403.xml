@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc1403">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
@@ -15,7 +15,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
-                <idno type="uri">http://137.204.128.125/documents/doc1403</idno>
+                <idno type="filename">doc1403</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -85,18 +85,18 @@
             <div type="edition">
                 <div type="textpart">
                     <ab>Breve de supradicta terra de Franciano. In nomine Domini, amen. <persName
-                            key="#Count" ref="#http://137.204.128.125/people/97"
+                            key="#Count" ref="#people/97"
                             >Rainerius</persName>
                         <rs key="#Count">comes</rs>, filius quondam <persName key="#Count"
-                            ref="#http://137.204.128.125/people/102">Ildibrandi</persName> item <rs
+                            ref="#people/102">Ildibrandi</persName> item <rs
                             key="#Count">comes</rs>, reflutavit ad <rs key="#Churches">ecclesia</rs>
                         et <rs key="#Monasteries">monasterio</rs> Dei et <orgName
-                            ref="#http://137.204.128.125/juridical_persons/78"
+                            ref="#juridical_persons/78"
                             key="#Churches #Monasteries">Sancti Quilici</orgName> de loco <placeName
-                            ref="#http://137.204.128.125/places/86">Populonii</placeName>, idest
-                        medietatem de <geogName ref="#http://137.204.128.125/estates/85"
+                            ref="#places/86">Populonii</placeName>, idest
+                        medietatem de <geogName ref="#estates/85"
                             key="#Curtes"><rs key="#Curtes">curte</rs>
-                            <placeName ref="#http://137.204.128.125/places/89"
+                            <placeName ref="#places/89"
                                 key="#Curtes #Fiscal_property #Object #Redistributive #Allocation_to_churches"
                                 >Franciani</placeName></geogName> et de omnibus ad supradictam
                         curtem pertinentibus, vel que ei pertinere videntur, idest nominative, <rs
@@ -108,8 +108,8 @@
                         sanctum <rs key="#Altars">altare</rs> ipsius monasterii; quod et factum est.
                         Supradictus comes fecit istam investitionem in loco ubi dicitur <placeName
                             key="#Fiscal_property #Residential #Count"
-                            ref="#http://137.204.128.125/places/199">Monte Scalochio</placeName>, in
-                        presentia <persName key="#Viscount" ref="#http://137.204.128.125/people/105"
+                            ref="#places/199">Monte Scalochio</placeName>, in
+                        presentia <persName key="#Viscount" ref="#people/105"
                             >Teudici</persName>
                         <rs key="#Viscount">vicecomitis</rs> sui et <persName>Bernardi</persName>
                         quondam <persName>Teudici</persName> et <persName>Ezulo</persName> da

@@ -26,7 +26,7 @@
       <tbody>
         <xsl:apply-templates mode="text-index" select="result/doc" >
           <xsl:sort>
-            <xsl:variable name="id" select="substring-after(str[@name='document_id'], 'doc')"/>
+            <xsl:variable name="id" select="substring-after(replace(str[@name='document_id'], ' ', ''), 'doc')"/>
             <xsl:choose>
             <xsl:when test="string-length($id) = 1"><xsl:value-of select="concat('000',$id)"/></xsl:when>
             <xsl:when test="string-length($id) = 2"><xsl:value-of select="concat('00',$id)"/></xsl:when>
@@ -66,7 +66,7 @@
   </xsl:template>
 
   <xsl:template match="str[@name='document_id']" mode="text-index">
-    <td><xsl:value-of select="." /></td>
+    <td><xsl:value-of select="replace(., ' ', '')" /></td>
   </xsl:template>
 
   <xsl:template match="arr[@name='document_title']" mode="text-index">

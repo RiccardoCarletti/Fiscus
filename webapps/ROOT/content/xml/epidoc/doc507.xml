@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc507">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
@@ -15,7 +15,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
-                <idno type="uri">http://137.204.128.125/documents/doc507</idno>
+                <idno type="filename">doc507</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -89,19 +89,19 @@
                             <orgName key="#Churches"><rs key="#Churches">chiesa</rs> di San Pietro
                             sita foras <rs key="#Cities">civitate</rs> ista Lucense qui dicitur
                             Sumualdi</orgName> prope <placeName
-                            ref="#http://137.204.128.125/places/4">Perolascio</placeName>, di
+                            ref="#places/4">Perolascio</placeName>, di
                         pertinenza dello stesso vescovato, con tutte le sue dipendenze, fra cui una
                         saliciola confinante uno capo in <rs key="#Rivers">fluvio Auserclo</rs> e
                         con terra di <persName>Ghisalfridi</persName>, alio capo cum ambas lateras
                         in via publica; due orti posti nei pressi della stessa chiesa, uno
                         confinante ambas capitas cum uno lato in via publica e alio lato con un orto
-                            <orgName ref="#http://137.204.128.125/juridical_persons/70">Sancti
+                            <orgName ref="#juridical_persons/70">Sancti
                             Fridiani</orgName>, l’altro confinante ambas capitas cum uno lato in
                         terra del <persName>fu Adalberto</persName>, alio lato con la via publica;
                         metà di un piccolo appezzamento di terra posto nei pressi della stessa
                         chiesa confinante ambas capitas et ambas lateras in via publica; un
                         appezzamento di terra posto in loco ubi dicitur <placeName
-                            ref="#http://137.204.128.125/places/4">ad Silice</placeName> confinante
+                            ref="#places/4">ad Silice</placeName> confinante
                         ambas capitas in via publica, lato uno con terra <orgName>Sancti
                             Anestasii</orgName> et alio lato con terra di <persName>Gastaldulo detto
                             Cillo</persName>. Si impegna affinché per sua disposizione nella chiesa
@@ -115,7 +115,7 @@
                         pena di 100 soldi d’argento. Chiede al <rs key="#Writer #Notary">notaio</rs>
                         <persName key="#Writer #Notary">Teuderando</persName> la stesura di due <rs
                             key="#Libellus/precaria/emphyteusis">cartulas</rs>. Actum <placeName
-                            ref="#http://137.204.128.125/places/4"
+                            ref="#places/4"
                             key="#Cities #Churches #Mother_churches">Luca</placeName>. <rs
                             key="#Witness">Testimoni</rs> sottoscrittori: <persName key="#Witness"
                             >Michele</persName>, <persName key="#Witness #Notary"

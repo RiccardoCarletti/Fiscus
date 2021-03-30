@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc1427">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
@@ -15,7 +15,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
-                <idno type="uri">http://137.204.128.125/documents/doc1427</idno>
+                <idno type="filename">doc1427</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -95,8 +95,8 @@
                         <rs key="#Monks">monaco</rs> de <rs key="#Churches">ecclesia</rs> et <rs
                             key="#Monasteries">monasterio</rs>
                         <orgName key="#Churches #Monasteries"
-                            ref="#http://137.204.128.125/juridical_persons/78">Sancti
-                            Quirici</orgName> de <placeName ref="#http://137.204.128.125/places/86"
+                            ref="#juridical_persons/78">Sancti
+                            Quirici</orgName> de <placeName ref="#places/86"
                             >Populonio</placeName>, idest tres <rs key="#Petiae">petias</rs> de
                         terris, que una videtur esse in loco <placeName key="#Petiae"
                             >Morgolatico</placeName>, et continere videtur latus in terra
@@ -105,7 +105,7 @@
                         aliud latus in terra <persName>Rugeri</persName> quondam
                             <persName>Ildebrandi</persName>, aliud capud in terra Sancti Quirici,
                         quae est de vestro monasterio; secunda petia de terra est in loco <placeName
-                            key="#Petiae" ref="#http://137.204.128.125/places/134"
+                            key="#Petiae" ref="#places/134"
                             >Livellaria</placeName>, que tenet capud unum in via puplica, latus in
                         terra de fil(iis) <persName>Enrigi</persName>, aliud latus cum capite in
                         terra Sancti Quirici, de vestro predicto monasterio; tertia vero petia est
@@ -135,7 +135,7 @@
                         cum cartula ista, qualiter iuxta legem melius potueritis, quia in tali
                         [ordine] hanc cartulam <persName key="#Notary">Petrum</persName> domni regis
                             <rs key="#Notary">notarium</rs> scribere rogavimus. Actum in loco
-                            <placeName ref="#http://137.204.128.125/places/132">Vignale</placeName>.
+                            <placeName ref="#places/132">Vignale</placeName>.
                         Signa manuum suprascriptorum Ugonis et Saraceni qui hanc cartulam fieri
                         rogaverunt. Signa manuum <persName>Ugonis</persName> quondam
                             <persName>C[o]ruc[c]i</persName> [et] <persName>Gerardi</persName>

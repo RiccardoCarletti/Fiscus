@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc1444">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
@@ -15,7 +15,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
-                <idno type="uri">http://137.204.128.125/documents/doc1444</idno>
+                <idno type="filename">doc1444</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -87,13 +87,13 @@
                     <ab>Cartula da Biserno. I[n] eterni Dei nomine. Tibi Deo et <rs key="#Churches"
                             >ecclesie</rs> et <rs key="#Monasteries">monasterio</rs>
                         <orgName key="#Churches #Monasteries"
-                            ref="#http://137.204.128.125/juridical_persons/78">Sancti Salvatoris et
+                            ref="#juridical_persons/78">Sancti Salvatoris et
                             Sancte Marie et Sancti Quirici</orgName>, sito in loco <rs
                             key="#Mountains">montis</rs>
-                        <placeName ref="#http://137.204.128.125/places/86"
+                        <placeName ref="#places/86"
                             key="#Mountains #Cells/hermitages">Populonii</placeName> ubi dicitur <rs
                             key="#Cells/hermitages">Heremitorium</rs>, in quo domnus <persName
-                            key="#Abbots" ref="#http://137.204.128.125/people/108"
+                            key="#Abbots" ref="#people/108"
                             >Cunitjo</persName>
                         <rs key="#Abbots">abbas</rs> preesse videtur, nos quidem
                             <persName>Berta</persName> relicta quondam <persName>Amici</persName> et
@@ -103,7 +103,7 @@
                             key="#Petiae">petium</rs> de terra nostra cum <rs key="#Wine">vinea</rs>
                         infra se, posita in loco dicto <placeName
                             key="#Petiae #Landed_possessions #Wine #Fiscal_property #Mention #Count"
-                            ref="#http://137.204.128.125/places/197">Dolgia</placeName>, latus unum
+                            ref="#places/197">Dolgia</placeName>, latus unum
                         tenet in terra <persName>Petri</persName> quondam
                             <persName>Goffredi</persName>, ab alio latere coheret ei <rs
                             key="#Landed_possessions">terra</rs>
@@ -126,7 +126,7 @@
                         libras X, quia in tali ordine hanc offersionis cartula scribere rogaverunt
                             <persName key="#Notary">Henricum</persName> sacri palatii <rs
                             key="#Notary">notarium</rs>. Actum prope <rs key="#Castle">roccam</rs>
-                        de <placeName key="#Castle" ref="#http://137.204.128.125/places/127"
+                        de <placeName key="#Castle" ref="#places/127"
                             >Biserno</placeName>. Anno dominice incarnationis eius millesimo
                         octuagesimo septimo, octavo kalendas februarii, indictione X. Signa manuum
                         Berte et Raineri qui hanc cartula comuniter et consensu l(egaliter) dato

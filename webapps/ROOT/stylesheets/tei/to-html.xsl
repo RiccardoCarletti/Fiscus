@@ -356,125 +356,27 @@
     <xsl:variable name="map_points">
       <xsl:text>{</xsl:text>
       <xsl:for-each select="$places/tei:place[descendant::tei:geo/text()]">
-        <!-- variables -->
         <xsl:variable name="name" select="normalize-space(translate(tei:placeName[1], ',', '; '))"/>
         <xsl:variable name="id" select="substring-after(translate(tei:idno,'#',''), 'places/')"/>
         <xsl:variable name="idno" select="translate(translate(tei:idno, '#', ''), ' ', '')"/>
-        <xsl:variable name="linked_keys"><xsl:for-each select="$keys//p[@class='place_keys'][@id=$id]"><xsl:value-of select="lower-case(.)"/><xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if></xsl:for-each></xsl:variable>
+        <xsl:variable name="linked_keys"><xsl:for-each select="$keys//p[@class='place_keys'][@id=$id]"><xsl:value-of select="lower-case(.)"/><xsl:text> </xsl:text></xsl:for-each></xsl:variable>
         <xsl:variable name="all_keys" select="replace(normalize-space($linked_keys), ' ,', '')"/>
-        <xsl:variable name="linked_jp">
-          <xsl:for-each select="tei:link[@type='juridical_persons']/@corresp"><xsl:variable name="links1" select="distinct-values(tokenize(., '\s+'))"/>
-            <xsl:for-each select="$links1"><xsl:variable name="link" select="translate(., '#', '')"/><xsl:value-of select="$juridical_persons//tei:org[descendant::tei:idno=$link]//tei:idno"/><xsl:text> </xsl:text></xsl:for-each></xsl:for-each></xsl:variable>
-        <xsl:variable name="linking_jp">
-          <xsl:for-each select="$juridical_persons//tei:org//tei:link/@corresp"><xsl:variable name="link" select="."/>
-            <xsl:if test="contains(concat($link, ' '), concat($idno, ' '))"><xsl:value-of select="$link/ancestor::tei:org/tei:idno"/><xsl:text> </xsl:text></xsl:if></xsl:for-each></xsl:variable>
-        <xsl:variable name="linked_estates">
-          <xsl:for-each select="tei:link[@type='estates']/@corresp"><xsl:variable name="links1" select="distinct-values(tokenize(., '\s+'))"/>
-            <xsl:for-each select="$links1"><xsl:variable name="link" select="translate(., '#', '')"/>
-              <xsl:value-of select="$estates//tei:place[descendant::tei:idno=$link]//tei:idno"/><xsl:text> </xsl:text></xsl:for-each></xsl:for-each></xsl:variable>
-        <xsl:variable name="linking_estates">
-          <xsl:for-each select="$estates//tei:place//tei:link/@corresp"><xsl:variable name="link" select="."/>
-            <xsl:if test="contains(concat($link, ' '), concat($idno, ' '))"><xsl:value-of select="$link/ancestor::tei:place/tei:idno"/><xsl:text> </xsl:text></xsl:if></xsl:for-each></xsl:variable>
-        <xsl:variable name="i_linked_estates">
-          <xsl:for-each select="$linking_jp"><xsl:variable name="links0" select="distinct-values(tokenize(., '\s+'))"/>
-            <xsl:for-each select="$links0"><xsl:variable name="links1" select="."/><xsl:variable name="links2" select="$juridical_persons//tei:org[descendant::tei:idno=translate(translate($links1, '#', ''), ' ', '')]//tei:link[@type='estates']/@corresp"/>
-              <xsl:for-each select="$links2"><xsl:variable name="links3" select="distinct-values(tokenize(., '\s+'))"/>
-                <xsl:for-each select="$links3"><xsl:variable name="links4" select="translate(., '#', '')"/>
-                  <xsl:value-of select="$estates//tei:place[descendant::tei:idno=translate($links4, ' ', '')]//tei:idno"/><xsl:text> </xsl:text>
-                </xsl:for-each></xsl:for-each></xsl:for-each></xsl:for-each></xsl:variable>
-        <xsl:variable name="i_linked_estates1">
-          <xsl:for-each select="tei:link[@type='juridical_persons']/@corresp"><xsl:variable name="link1" select="distinct-values(tokenize(., '\s+'))"/>
-            <xsl:for-each select="$link1"><xsl:variable name="link2" select="translate(., '#', '')"/>
-              <xsl:variable name="link3" select="$juridical_persons//tei:org[descendant::tei:idno=$link2]//tei:link[@type='estates']/@corresp"/>
-              <xsl:for-each select="$link3"><xsl:variable name="link4" select="distinct-values(tokenize(., '\s+'))"/>
-                <xsl:for-each select="$link4"><xsl:value-of select="translate(., '#', '')"/><xsl:text> </xsl:text>
-                </xsl:for-each></xsl:for-each></xsl:for-each></xsl:for-each></xsl:variable>
-        <xsl:variable name="i_linked_jp">
-          <xsl:for-each select="$linking_estates"><xsl:variable name="links0" select="distinct-values(tokenize(., '\s+'))"/>
-            <xsl:for-each select="$links0"><xsl:variable name="links1" select="."/><xsl:variable name="links2" select="$estates//tei:place[descendant::tei:idno=translate(translate($links1, '#', ''), ' ', '')]//tei:link[@type='juridical_persons']/@corresp"/>
-              <xsl:for-each select="$links2"><xsl:variable name="links3" select="distinct-values(tokenize(., '\s+'))"/>
-                <xsl:for-each select="$links3"><xsl:variable name="links4" select="translate(., '#', '')"/>
-                  <xsl:value-of select="$juridical_persons//tei:org[descendant::tei:idno=translate($links4, ' ', '')]//tei:idno"/><xsl:text> </xsl:text>
-                </xsl:for-each></xsl:for-each></xsl:for-each></xsl:for-each></xsl:variable>
-        <xsl:variable name="i_linked_jp1">
-          <xsl:for-each select="tei:link[@type='estates']/@corresp"><xsl:variable name="link1" select="distinct-values(tokenize(., '\s+'))"/>
-            <xsl:for-each select="$link1"><xsl:variable name="link2" select="translate(., '#', '')"/>
-              <xsl:variable name="link3" select="$estates//tei:place[descendant::tei:idno=$link2]//tei:link[@type='juridical_persons']/@corresp"/>
-              <xsl:for-each select="$link3"><xsl:variable name="link4" select="distinct-values(tokenize(., '\s+'))"/>
-                <xsl:for-each select="$link4"><xsl:value-of select="translate(., '#', '')"/><xsl:text> </xsl:text>
-                </xsl:for-each></xsl:for-each></xsl:for-each></xsl:for-each></xsl:variable>
-        <xsl:variable name="i_linking_estates">
-          <xsl:for-each select="$estates//tei:place//tei:link[@type='juridical_persons']/@corresp">
-            <xsl:variable name="link1" select="distinct-values(tokenize(., '\s+'))"/>
-            <xsl:for-each select="$link1"><xsl:variable name="link" select="translate(., '#', '')"/>
-              <xsl:if test="contains(concat($linking_jp, ' '), concat($link, ' '))">
-                <xsl:value-of select="$estates//tei:place[contains(string-join(descendant::tei:link[@type='juridical_persons']/@corresp, ' '), concat($link, ' '))]//tei:idno"/><xsl:text> </xsl:text></xsl:if>
-            </xsl:for-each></xsl:for-each></xsl:variable>
-        <xsl:variable name="i_linking_jp">
-          <xsl:for-each select="$juridical_persons//tei:org//tei:link[@type='estates']/@corresp">
-            <xsl:variable name="link1" select="distinct-values(tokenize(., '\s+'))"/>
-            <xsl:for-each select="$link1"><xsl:variable name="link" select="translate(., '#', '')"/>
-              <xsl:if test="contains(concat($linking_estates, ' '), concat($link, ' '))">
-                <xsl:value-of select="$juridical_persons//tei:org[contains(string-join(descendant::tei:link[@type='estates']/@corresp, ' '), concat($link, ' '))]//tei:idno"/><xsl:text> </xsl:text></xsl:if>
-            </xsl:for-each></xsl:for-each></xsl:variable>
-        <xsl:variable name="i_linking_estates1">
-          <xsl:for-each select="$estates//tei:place//tei:link[@type='juridical_persons']/@corresp">
-            <xsl:variable name="link1" select="distinct-values(tokenize(., '\s+'))"/>
-            <xsl:for-each select="$link1"><xsl:variable name="link" select="translate(., '#', '')"/>
-              <xsl:if test="contains(concat($linked_jp, ' '), concat($link, ' '))">
-                <xsl:value-of select="$estates//tei:place[contains(string-join(descendant::tei:link[@type='juridical_persons']/@corresp, ' '), concat($link, ' '))]//tei:idno"/><xsl:text> </xsl:text></xsl:if>
-            </xsl:for-each></xsl:for-each></xsl:variable>
-        <xsl:variable name="i_linking_jp1">
-          <xsl:for-each select="$juridical_persons//tei:org//tei:link[@type='estates']/@corresp">
-            <xsl:variable name="link1" select="distinct-values(tokenize(., '\s+'))"/>
-            <xsl:for-each select="$link1"><xsl:variable name="link" select="translate(., '#', '')"/>
-              <xsl:if test="contains(concat($linked_estates, ' '), concat($link, ' '))">
-                <xsl:value-of select="$juridical_persons//tei:org[contains(string-join(descendant::tei:link[@type='estates']/@corresp, ' '), concat($link, ' '))]//tei:idno"/><xsl:text> </xsl:text></xsl:if>
-            </xsl:for-each></xsl:for-each></xsl:variable>
-        <xsl:variable name="links_est"><xsl:for-each select="$linked_estates|$linking_estates|$i_linked_estates1|$i_linked_estates|$i_linking_estates1|$i_linking_estates"><xsl:value-of select="." /></xsl:for-each></xsl:variable>
-        <xsl:variable name="links_jp"><xsl:for-each select="$linked_jp|$linking_jp|$i_linked_jp1|$i_linked_jp|$i_linking_jp1|$i_linking_jp"><xsl:value-of select="." /></xsl:for-each></xsl:variable>
-        <!-- blue points -->
-          <xsl:if test="not(contains($links_est, 'estates')) and not(contains($links_jp, 'juridical_persons')) and not(matches($all_keys, '.*(fiscal_property).*'))">
-           <xsl:text>"</xsl:text><xsl:value-of select="$name"/><xsl:text>#a@</xsl:text><xsl:value-of select="$id"/><xsl:text>": "</xsl:text><xsl:choose>
-            <xsl:when test="contains(normalize-space(tei:geogName/tei:geo), ';')"><xsl:value-of select="substring-before(tei:geogName/tei:geo, ';')"/></xsl:when>
-            <xsl:otherwise><xsl:value-of select="normalize-space(tei:geogName/tei:geo)"/></xsl:otherwise>
+        <xsl:text>"</xsl:text><xsl:value-of select="$name"/><xsl:text>#</xsl:text>
+        <xsl:if test="not(matches($all_keys, '.*(fiscal_property).*'))"><xsl:text>a</xsl:text></xsl:if> <!-- fiscal -->
+        <xsl:if test="matches($all_keys, '.*(fiscal_property).*')"><xsl:text>b</xsl:text></xsl:if> <!-- not fiscal -->
+        <xsl:text>@</xsl:text>
+        <xsl:if test="matches($all_keys, '.*(ports|bridges/pontoons|maritime_trade|fluvial_transport|navicularii) .*')"><xsl:text>c@</xsl:text></xsl:if> <!-- ports -->
+        <xsl:if test="matches($all_keys, '.*(castle|tower|clusae/gates|walls|carbonaria|defensive_elements|incastellamento) .*')"><xsl:text>d@</xsl:text></xsl:if> <!-- fortifications -->
+        <xsl:if test="matches($all_keys, '.*(residential|palatium|laubia/topia) .*')"><xsl:text>e@</xsl:text></xsl:if> <!-- residences -->
+        <xsl:if test="matches($all_keys, '.*(mills|kilns|workshops|gynaecea|mints|overland_transport|local_markets|periodic_markets|decima|nona_et_decima|fodrum|albergaria/gifori|profits_of_justice|profits_of_mining/minting|tolls|teloneum|rights_of_use_on_woods/pastures/waters|coinage) .*')"><xsl:text>f@</xsl:text></xsl:if> <!-- revenues -->
+        <xsl:if test="matches($all_keys, '.*(villas|curtes|gai|massae|salae|demesnes|domuscultae|casali|mansi) .*')"><xsl:text>g@</xsl:text></xsl:if> <!-- estates -->
+        <xsl:if test="matches($all_keys, '.*(casae/cassinae_massaricie|casalini/fundamenta) .*')"><xsl:text>h@</xsl:text></xsl:if> <!-- tenures -->
+        <xsl:if test="matches($all_keys, '.*(petiae|landed_possessions) .*')"><xsl:text>i@</xsl:text></xsl:if> <!-- land -->
+        <xsl:if test="matches($all_keys, '.*(mines|quarries|forests|gualdi|cafagia|fisheries|saltworks|other_basins) .*')"><xsl:text>j@</xsl:text></xsl:if> <!-- fallow -->
+        <xsl:value-of select="$id"/><xsl:text>": "</xsl:text><xsl:choose>
+         <xsl:when test="contains(normalize-space(tei:geogName/tei:geo), ';')"><xsl:value-of select="substring-before(tei:geogName/tei:geo, ';')"/></xsl:when>
+          <xsl:otherwise><xsl:value-of select="normalize-space(tei:geogName/tei:geo)"/></xsl:otherwise>
           </xsl:choose><xsl:text>"</xsl:text><xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if>
-          </xsl:if>
-        <!-- green points -->
-          <xsl:if test="contains($links_est, 'estates') and not(contains($links_jp, 'juridical_persons')) and matches($all_keys, '.*(fiscal_property).*')">
-            <xsl:text>"</xsl:text><xsl:value-of select="$name"/><xsl:text>#b@</xsl:text><xsl:value-of select="$id"/><xsl:text>": "</xsl:text><xsl:choose>
-            <xsl:when test="contains(normalize-space(tei:geogName/tei:geo), ';')"><xsl:value-of select="substring-before(tei:geogName/tei:geo, ';')"/></xsl:when>
-            <xsl:otherwise><xsl:value-of select="normalize-space(tei:geogName/tei:geo)"/></xsl:otherwise>
-          </xsl:choose><xsl:text>"</xsl:text><xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if>
-          </xsl:if>
-       <!-- green squares -->
-        <xsl:if test="contains($links_est, 'estates') and not(contains($links_jp, 'juridical_persons')) and not(matches($all_keys, '.*(fiscal_property).*'))">
-          <xsl:text>"</xsl:text><xsl:value-of select="$name"/><xsl:text>#c@</xsl:text><xsl:value-of select="$id"/><xsl:text>": "</xsl:text><xsl:choose>
-            <xsl:when test="contains(normalize-space(tei:geogName/tei:geo), ';')"><xsl:value-of select="substring-before(tei:geogName/tei:geo, ';')"/></xsl:when>
-            <xsl:otherwise><xsl:value-of select="normalize-space(tei:geogName/tei:geo)"/></xsl:otherwise>
-          </xsl:choose><xsl:text>"</xsl:text><xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if>
-        </xsl:if>
-        <!-- red points -->
-        <xsl:if test="not(contains($links_est, 'estates')) and contains($links_jp, 'juridical_persons') and not(matches($all_keys, '.*(fiscal_property).*'))">
-          <xsl:text>"</xsl:text><xsl:value-of select="$name"/><xsl:text>#d@</xsl:text><xsl:value-of select="$id"/><xsl:text>": "</xsl:text><xsl:choose>
-            <xsl:when test="contains(normalize-space(tei:geogName/tei:geo), ';')"><xsl:value-of select="substring-before(tei:geogName/tei:geo, ';')"/></xsl:when>
-            <xsl:otherwise><xsl:value-of select="normalize-space(tei:geogName/tei:geo)"/></xsl:otherwise>
-          </xsl:choose><xsl:text>"</xsl:text><xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if>
-        </xsl:if>
-        <!-- green+red points -->
-        <xsl:if test="contains($links_est, 'estates') and contains($links_jp, 'juridical_persons') and matches($all_keys, '.*(fiscal_property).*')">
-          <xsl:text>"</xsl:text><xsl:value-of select="$name"/><xsl:text>#e@</xsl:text><xsl:value-of select="$id"/><xsl:text>": "</xsl:text><xsl:choose>
-            <xsl:when test="contains(normalize-space(tei:geogName/tei:geo), ';')"><xsl:value-of select="substring-before(tei:geogName/tei:geo, ';')"/></xsl:when>
-            <xsl:otherwise><xsl:value-of select="normalize-space(tei:geogName/tei:geo)"/></xsl:otherwise>
-          </xsl:choose><xsl:text>"</xsl:text><xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if>
-        </xsl:if>
-        <!-- green+red squares -->
-        <xsl:if test="contains($links_est, 'estates') and contains($links_jp, 'juridical_persons') and not(matches($all_keys, '.*(fiscal_property).*'))">
-          <xsl:text>"</xsl:text><xsl:value-of select="$name"/><xsl:text>#f@</xsl:text><xsl:value-of select="$id"/><xsl:text>": "</xsl:text><xsl:choose>
-            <xsl:when test="contains(normalize-space(tei:geogName/tei:geo), ';')"><xsl:value-of select="substring-before(tei:geogName/tei:geo, ';')"/></xsl:when>
-            <xsl:otherwise><xsl:value-of select="normalize-space(tei:geogName/tei:geo)"/></xsl:otherwise>
-          </xsl:choose><xsl:text>"</xsl:text><xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if>
-        </xsl:if>
       </xsl:for-each>
       <xsl:text>}</xsl:text>
     </xsl:variable>
@@ -487,44 +389,38 @@
         id: 'mapbox/streets-v11', 
         tileSize: 512, 
         zoomOffset: -1, 
-        attribution: 'Map data <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors,  Imagery © <a href="https://www.mapbox.com/">Mapbox</a>'
+        attribution: 'Map data <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>'
         });
-        
         var grayscale = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoiaXZhZ2lvbmFraXMiLCJhIjoiY2treTVmZnhyMDBzdTJ2bWxyemY4anJtNSJ9.QrP-0v-7btCzG97ll23HKw', {
         id: 'mapbox/light-v10', 
         tileSize: 512, 
         zoomOffset: -1, 
-        attribution: 'Map data <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors,  Imagery © <a href="https://www.mapbox.com/">Mapbox</a>'
+        attribution: 'Map data <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>'
         });
-        
         var satellite = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoiaXZhZ2lvbmFraXMiLCJhIjoiY2treTVmZnhyMDBzdTJ2bWxyemY4anJtNSJ9.QrP-0v-7btCzG97ll23HKw', {
         id: 'mapbox/satellite-streets-v11', 
         tileSize: 512, 
         zoomOffset: -1, 
-        attribution: 'Map data <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors,  Imagery © <a href="https://www.mapbox.com/">Mapbox</a>'
+        attribution: 'Map data <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>'
         });
-        
         var dare = L.tileLayer('https://dh.gu.se/tiles/imperium/{z}/{x}/{y}.png', {
         minZoom: 4,
         maxZoom: 11,
         attribution: 'Map data <a href="https://imperium.ahlfeldt.se/">Digital Atlas of the Roman Empire</a> CC BY 4.0'
         });
-        
         var terrain = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Shaded_Relief/MapServer/tile/{z}/{y}/{x}', {
-        attribution: 'Tiles: Esri. Source: Esri',
+        attribution: 'Tiles and source Esri',
         maxZoom: 13
         });
-        
         var watercolor = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.{ext}', {
-        attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Map data: <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+        attribution: 'Map tiles <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>, Map data <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
         subdomains: 'abcd',
         minZoom: 1,
         maxZoom: 16,
         ext: 'jpg'
         });
-        
         var osm = L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        attribution: 'Map data: <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        attribution: 'Map data <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
         });
         
         var mymap = L.map('mapid', {
@@ -536,44 +432,64 @@
         L.control.scale().addTo(mymap);
         
         var LeafIcon = L.Icon.extend({
-        options: {iconSize: [15, 15]}
+        options: {iconSize: [17, 17]}
         });
-        var blueIcon = new LeafIcon({iconUrl: '../../../assets/images/blue.png'}),
-        greenIcon = new LeafIcon({iconUrl: '../../../assets/images/green.png'}),
-        redIcon = new LeafIcon({iconUrl: '../../../assets/images/red.png'}),
-        greenredIcon = new LeafIcon({iconUrl: '../../../assets/images/green-red.png'}); 
-        greensquareIcon = new LeafIcon({iconUrl: '../../../assets/images/green-square.png'}),
-        greenredsquareIcon = new LeafIcon({iconUrl: '../../../assets/images/green-red-square.png'}); 
+        var purpleIcon = new LeafIcon({iconUrl: '../../../assets/images/purple.png'}),
+        goldenIcon = new LeafIcon({iconUrl: '../../../assets/images/golden.png'}),
+        portsIcon = new LeafIcon({iconUrl: '../../../assets/images/anchor.png'}),
+        fortificationsIcon = new LeafIcon({iconUrl: '../../../assets/images/tower.png'}),
+        residencesIcon = new LeafIcon({iconUrl: '../../../assets/images/sella.png'}),
+        revenuesIcon = new LeafIcon({iconUrl: '../../../assets/images/coin.png'}),
+        estatesIcon = new LeafIcon({iconUrl: '../../../assets/images/star.png'}),
+        tenuresIcon = new LeafIcon({iconUrl: '../../../assets/images/square.png'}),
+        landIcon = new LeafIcon({iconUrl: '../../../assets/images/triangle.png'}),
+        fallowIcon = new LeafIcon({iconUrl: '../../../assets/images/tree.png'}); 
         
         const polygons = <xsl:value-of select="$map_polygons"/>;
         const points = <xsl:value-of select="$map_points"/>;
         
         var polygons_places = [];
-        var blue_places = [];
-        var green_places = [];
-        var red_places = [];
-        var greenred_places = [];
-        var greensquare_places = [];
-        var greenredsquare_places = [];
+        var purple_places = [];
+        var golden_places = [];
+        var ports_places = [];
+        var fortifications_places = [];
+        var residences_places = [];
+        var revenues_places = [];
+        var estates_places = [];
+        var tenures_places = [];
+        var land_places = [];
+        var fallow_places = [];
         
         for (const [key, value] of Object.entries(points)) {
-        if (key.includes('#a@')) {
-        blue_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: blueIcon}).bindPopup('<a href="#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
+        if (key.includes('#a')) {
+        purple_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: purpleIcon}).bindPopup('<a href="#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
         }
-        if (key.includes('#b@')) {
-        green_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: greenIcon}).bindPopup('<a href="#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
+        if (key.includes('#b')) {
+        golden_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: goldenIcon}).bindPopup('<a href="#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
         }
-        if (key.includes('#c@')) {
-        greensquare_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: greensquareIcon}).bindPopup('<a href="#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
+        if (key.includes('c@')) {
+        ports_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: portsIcon}).bindPopup('<a href="#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
         }
-        if (key.includes('#d@')) {
-        red_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: redIcon}).bindPopup('<a href="#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
+        if (key.includes('d@')) {
+        fortifications_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: fortificationsIcon}).bindPopup('<a href="#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
         }
-        if (key.includes('#e@')) {
-        greenred_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: greenredIcon}).bindPopup('<a href="#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
+        if (key.includes('e@')) {
+        residences_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: residencesIcon}).bindPopup('<a href="#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
         }
-        if (key.includes('#f@')) {
-        greenredsquare_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: greenredsquareIcon}).bindPopup('<a href="#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
+        if (key.includes('f@')) {
+        revenues_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: revenuesIcon}).bindPopup('<a href="#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
+        }
+        if (key.includes('g@')) {
+        estates_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: estatesIcon}).bindPopup('<a href="#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
+        }
+        if (key.includes('h@')) {
+        tenures_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: tenuresIcon}).bindPopup('<a href="#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
+        }
+        if (key.includes('i@')) {
+        land_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: landIcon}).bindPopup('<a href="#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
+        }
+        if (key.includes('j@')) {
+        fallow_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: fallowIcon}).bindPopup('<a href="#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
         }
         };
         
@@ -583,15 +499,19 @@
                 array[index] = parseFloat(item);
                 });
               var coords = chunkArray(split_values, 2);  <!-- function called from assets/scripts/maps.js -->
-        polygons_places.push(L.polygon([coords], {color: 'orange'}).bindPopup('<a href="#0">'.replace("0", key.substring(key.lastIndexOf("#") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("#") +1)) + '➚</a></span>'));
+        polygons_places.push(L.polygon([coords], {color: 'green'}).bindPopup('<a href="#0">'.replace("0", key.substring(key.lastIndexOf("#") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("#") +1)) + '➚</a></span>'));
         }; 
-        
-        var toggle_blue_places = L.layerGroup(blue_places).addTo(mymap); 
-        var toggle_green_places = L.layerGroup(green_places).addTo(mymap);
-        var toggle_red_places = L.layerGroup(red_places).addTo(mymap);
-        var toggle_greensquare_places = L.layerGroup(greensquare_places).addTo(mymap);
-        var toggle_greenredsquare_places = L.layerGroup(greenredsquare_places).addTo(mymap);
-        var toggle_greenred_places = L.layerGroup(greenred_places).addTo(mymap);
+
+        var toggle_ports_places = L.layerGroup(ports_places).addTo(mymap);
+        var toggle_fortifications_places = L.layerGroup(fortifications_places).addTo(mymap);
+        var toggle_residences_places = L.layerGroup(residences_places).addTo(mymap);
+        var toggle_revenues_places = L.layerGroup(revenues_places).addTo(mymap);
+        var toggle_estates_places = L.layerGroup(estates_places).addTo(mymap);
+        var toggle_tenures_places = L.layerGroup(tenures_places).addTo(mymap);
+        var toggle_land_places = L.layerGroup(land_places).addTo(mymap);
+        var toggle_fallow_places = L.layerGroup(fallow_places).addTo(mymap);
+        var toggle_purple_places = L.layerGroup(purple_places).addTo(mymap); 
+        var toggle_golden_places = L.layerGroup(golden_places).addTo(mymap);
         var toggle_polygons = L.layerGroup(polygons_places).addTo(mymap);
         
         var baseMaps = {
@@ -605,14 +525,19 @@
         };
         
         var overlayMaps = {
-        "Places linked to fiscal estates (green circle)": toggle_green_places,
-        "Places linked to other estates (green square)": toggle_greensquare_places,
-        "Places linked to juridical persons (red circle)": toggle_red_places,
-        "Places linked to fiscal estates and juridical persons (green&amp;red circle)": toggle_greenred_places,
-        "Places linked to other estates and juridical persons (green&amp;red square)": toggle_greenredsquare_places,
-        "Places not linked to estates/juridical persons (blue circle)": toggle_blue_places,
-        "Places not precisely located (orange area)": toggle_polygons
+        "Places linked to fiscal properties (golden circle)": toggle_golden_places,
+        "Places not linked to fiscal properties (purple circle)": toggle_purple_places,
+        "Places not precisely located or wider areas (green polygon)": toggle_polygons,
+        "Ports and fords (anchor)": toggle_ports_places,
+        "Fortifications (tower)": toggle_fortifications_places,
+        "Residences (sella plicatilis)": toggle_residences_places,
+        "Markets, crafts and revenues (coin)": toggle_revenues_places,
+        "Estates and estate units (star)": toggle_estates_places,
+        "Tenures (square)": toggle_tenures_places,
+        "Land plots and rural buildings (triangle)": toggle_land_places,
+        "Fallow land (tree)": toggle_fallow_places
         };
+        <!-- add only first two -->
         
         L.control.layers(baseMaps, overlayMaps).addTo(mymap);
         

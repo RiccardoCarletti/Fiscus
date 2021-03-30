@@ -36,7 +36,7 @@ div.list_item {
 
 .item_name {
     font-weight: bold;
-    color: #168059;
+    color: #3A2A4C;
 }
 
 .linked_item {
@@ -48,7 +48,7 @@ margin-left:20px;
 nav.top-bar,
 nav.top-bar ul.right li,
 nav.top-bar ul.left * {
-    background-color: #168059;
+    background-color: #3A2A4C;
     font-size: 14px;
     font-weight: 400;
 }
@@ -63,21 +63,29 @@ nav.top-bar ul.left * {
 }
 
 #site-name {
-    background-color: #168059;
-    padding: 50px 0 40px 0;
+    background-color: #3A2A4C;
+    padding: 45px 0 20px 0;
     margin: -12px 0 -10px 0;
-    color: white;
-    font-family: Helvetica, serif;
+    color: #A96D2D;
+    font-family: Quicksand, Helvetica, serif;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 48px;
+}
+/*#home-text {
+    background: url(../images/favicon.png) center no-repeat;
+}*/
+#site-image {
+    height: 100px;
+    margin-left:20px;
+    margin-bottom:10px;
 }
 
 a, a:link, a:visited, a:focus, a:hover, a:active {
-    color: #207C97;
+    color: #005471;
 }
 
 h1 {
-    color: #168059;
+    color: #3A2A4C;
     font-size: 36px;
 }
 
@@ -92,14 +100,22 @@ div#edition {
 }
 
 b {
-    color: #168059;
+    color: #3A2A4C;
 }
 
 #team_members strong {
     font-variant: small-caps;
     font-size: 22px;
     font-weight: 400;
-    color: #168059;
+    color: #3A2A4C;
+}
+
+#logo {
+    padding-bottom: 1em;
+}
+
+#fiscal_estate {
+    font-size: 28px;
 }
 
 p {
@@ -211,6 +227,13 @@ p {
 }
 
 /*Fonts*/
+@font-face {
+    font-family: "Quicksand";
+    src: url('fonts/quicksand.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 @font-face {
     font-family: "New Athena Unicode";
     src: url('fonts/nau.woff') format('woff');

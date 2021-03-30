@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc508">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
@@ -15,7 +15,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
-                <idno type="uri">http://137.204.128.125/documents/doc508</idno>
+                <idno type="filename">doc508</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -88,7 +88,7 @@
                             >vescovo</rs> di Lucca <persName key="#Bishops">Pietro</persName>, la
                             <orgName key="#Churches"><rs key="#Churches">chiesa</rs> di San
                             Pietro</orgName> sita loco et finibus ubi dicitur <placeName
-                            key="#Churches" ref="#http://137.204.128.125/places/64">Vicho
+                            key="#Churches" ref="#places/64">Vicho
                             Asulari</placeName>, di pertinenza dello stesso vescovato, con tutte le
                         sue dipendenze. Si impegna affinché per sua disposizione nella chiesa si
                         tengano officium Dei et luminaria seo missarum solemnia. Si impegna a
@@ -100,7 +100,7 @@
                         pena di 20 soldi d’argento. Chiede al <rs key="#Writer #Notary">notaio</rs>
                         <persName key="#Writer #Notary">Teuderando</persName> la stesura di due <rs
                             key="#Libellus/precaria/emphyteusis">cartulas</rs>. Actum <placeName
-                            key="#Mother_churches" ref="#http://137.204.128.125/places/4"
+                            key="#Mother_churches" ref="#places/4"
                             >Luca</placeName>. <rs key="#Witness">Testimoni</rs> sottoscrittori:
                             <persName key="#Witness">Teupaldo</persName>, <persName key="#Witness"
                             >Eriteo</persName>, <persName key="#Witness">Alone</persName> del

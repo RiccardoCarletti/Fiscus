@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc1426">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
@@ -15,7 +15,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
-                <idno type="uri">http://137.204.128.125/documents/doc1426</idno>
+                <idno type="filename">doc1426</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -97,14 +97,14 @@
                         offerre previdimus ad honorem Dei, <rs key="#Churches">ecclesie</rs> et <rs
                             key="#Monasteries">monasterii</rs>
                         <orgName key="#Churches #Monasteries"
-                            ref="#http://137.204.128.125/juridical_persons/78">Sancti Salvatoris et
+                            ref="#juridical_persons/78">Sancti Salvatoris et
                             Sancti Quirici</orgName> sito <placeName
-                            ref="#http://137.204.128.125/places/86">Populonio</placeName> per manum
-                        domini <persName key="#Abbots" ref="#http://137.204.128.125/people/103"
+                            ref="#places/86">Populonio</placeName> per manum
+                        domini <persName key="#Abbots" ref="#people/103"
                             >Mauri</persName>
                         <rs key="#Abbots">abbatis</rs>, videlicet tres <rs key="#Petiae">petias</rs>
                         de terra, una quarum posita est prope <placeName key="#Petiae #Wine"
-                            ref="#http://137.204.128.125/places/134">Livellaria</placeName>, quem
+                            ref="#places/134">Livellaria</placeName>, quem
                         iam recta fuit per <persName>Martinum</persName> villanum, et est ab omni
                         circuitu sic designata: cui ex ambobus capitibus et ex uno latere est terra
                         predicti monasterii, alio vero latere est terra nostra; secunda vero petia
@@ -114,12 +114,12 @@
                             >Gottifredi</persName>, et aliud in via puplica; tertia vero petie terre
                         cum vinea, quam supra se habet, est posita in <placeName
                             key="#Landed_possessions #Wine #Fruits/vegetables"
-                            ref="#http://137.204.128.125/places/134">Ribocco</placeName>, cui ex uno
+                            ref="#places/134">Ribocco</placeName>, cui ex uno
                         latere currit <rs key="#Rivers">fluvium</rs>
                         <placeName key="#Rivers">Corgne</placeName>, capud unum in terra <orgName
                             key="#Landed_possessions #Monasteries"
-                            ref="#http://137.204.128.125/juridical_persons/79">Sancti
-                            Petri</orgName> de <placeName ref="#http://137.204.128.125/places/85"
+                            ref="#juridical_persons/79">Sancti
+                            Petri</orgName> de <placeName ref="#places/85"
                             >Monteviridi</placeName>, aliud capud in terra
                             <persName>Gethi</persName>. Ex quibus duobus petiis terrarum, vineas
                         super se habentibus, integram nostram medietatem, sicut nobis pertinet,
@@ -143,10 +143,12 @@
                         placuit, hanc enim cartam offertionis et obligationis qualiter supra legitur
                             <persName key="#Notary">Petrum</persName> domni regis <rs key="#Notary"
                             >notarium</rs> scribere [rogavi]mus. Acta sunt hec in <rs
-                            key="#Dioecesis">episcopatu</rs> Populoniensi, in loco ubi dicitur
-                        Livellaria. Signa manuum supradictorum fratrum Trainelli et Ildibrandi et
-                        Galgani et Berulli qui hanc cartam, prout superius legitur, rogaverunt
-                        scribere. Signa manuum <persName>Gerardi</persName> filii bone memorie
+                            key="#Dioecesis">episcopatu</rs>
+                        <geogName key="#Dioecesis" ref="#estates/87"
+                            >Populoniensi</geogName>, in loco ubi dicitur Livellaria. Signa manuum
+                        supradictorum fratrum Trainelli et Ildibrandi et Galgani et Berulli qui hanc
+                        cartam, prout superius legitur, rogaverunt scribere. Signa manuum
+                            <persName>Gerardi</persName> filii bone memorie
                             <persName>Raineri</persName> et <persName>Rustici</persName> filii
                         quondam <persName>Enrici</persName> et <persName>Algieri</persName> filii
                         bone memorie <persName>Alberti</persName> et <persName>Rogeri</persName>

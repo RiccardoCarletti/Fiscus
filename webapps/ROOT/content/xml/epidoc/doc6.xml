@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc6">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
@@ -14,7 +14,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
-                <idno type="uri">http://137.204.128.125/documents/doc6</idno>
+                <idno type="filename">doc6</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -60,7 +60,7 @@
                    <place></place>
                 </listPlace>
             <listPerson>
-    <person corresp="http://137.204.128.125/people/16">
+    <person corresp="people/16">
             <persName xml:lang="en">Abbot Gandolfo</persName>
         </person>
     </listPerson>
@@ -85,19 +85,19 @@
             <div type="edition">
                 <div type="textpart">
                     <ab> Die iovis, VII kal. agusti, in claustro <orgName
-                            ref="#http://137.204.128.125/juridical_persons/53">Sancti
+                            ref="#juridical_persons/53">Sancti
                             Sisti</orgName>. <persName key="">Ercarius Ferrarius</persName> et
                             <persName key="">Robertus filii</persName> quondam <persName key=""
                             >Roberti Ferrarii</persName> atque <persName key="">Iohannes</persName>
                         et <persName key="">Gerardus Obertus</persName> atque <persName key=""
                             >Bernardus Ferrarius</persName> inter se consentientes fecerunt finem et
-                        datum domino <persName key="#Abbots" ref="http://137.204.128.125/people/16"
+                        datum domino <persName key="#Abbots" ref="people/16"
                             >Gandulfo</persName>
                         <rs key="#Abbots">abbati</rs> Sancti Sisti de <rs key="#Landed_possessions"
                             >XXV iugeris terre</rs> posite ad <placeName
                             key="#Curtes #Landed_possessions #Fiscal_property #Textual_occurrence #Object #Purchase"
-                            ref="#http://137.204.128.125/places/14"><geogName
-                                ref="#http://137.204.128.125/estates/76"
+                            ref="#places/14"><geogName
+                                ref="#estates/76"
                                 key="#Curtes #Fiscal_property #Textual_occurrence #Object #Inflow #Purchase"
                                 >Cotreviam</geogName></placeName> que ab eodem monesterio tenebant.
                         Gerardus vero et Obertus Iohannes et Bernardus fecerunt hanc finem quia

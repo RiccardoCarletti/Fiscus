@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc17">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
@@ -13,7 +13,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
-                <idno type="uri">http://137.204.128.125/documents/doc17</idno>
+                <idno type="filename">doc17</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -59,7 +59,7 @@
                    <place></place>
                 </listPlace>
             <listPerson>
-    <person corresp="http://137.204.128.125/people/44">
+    <person corresp="people/44">
             <persName xml:lang="en">Rampretto marchese di Tuscia</persName>
         </person>
     </listPerson>
@@ -86,15 +86,15 @@
                 <div type="textpart">
                     <ab>(S) In nomine sancte et individue trinitatis, amen. <persName
                             key="#Marquis’/ducal/princely_diploma #Marquis/duke"
-                            ref="#http://137.204.128.125/people/44">Ramprettus</persName> divino
+                            ref="#people/44">Ramprettus</persName> divino
                         munere <placeName>Tuscie</placeName>
                         <rs key="#Marquis/duke">preses ac marchio</rs> omnibus quidem notum fieri
                         volumus quomodo concedimus atque damus <rs key="#Churches">ecclesie</rs> et
                             <rs key="#Monasteries">monasterio</rs>
                         <orgName key="#Churches #Monasteries"
-                            ref="#http://137.204.128.125/juridical_persons/71">Sancti
+                            ref="#juridical_persons/71">Sancti
                             Pontiani</orgName> fundato prope muros <placeName key=""
-                            ref="#http://137.204.128.125/places/4">Lucane civitatis</placeName> unam
+                            ref="#places/4">Lucane civitatis</placeName> unam
                         videlicet <rs key="#Petiae">petiam de terra</rs> culta et inculta in qua <rs
                             key="#Casalini/fundamenta">casalinum</rs> et <rs key="#Fountains"
                             >fontanam</rs> habetur et est in loco <placeName key=""
@@ -122,8 +122,8 @@
                         firmissimum semper obtieneat venerabili crucis singno propria manu
                         subscripto firmamus et nostri sigilli inpressione iussimus insigniri. + (LS)
                         Hec acta sunt infra <rs key="#Comitatus">comitatum</rs>
-                        <geogName ref="#http://137.204.128.125/estates/107"><placeName
-                                ref="#http://137.204.128.125/places/128"
+                        <geogName ref="#estates/107"><placeName
+                                ref="#places/128"
                             >Vulterrensem</placeName></geogName> in loco <placeName key=""
                             >Pratello</placeName>, prope <orgName key="">ecclesiam Sancti
                             Frigiani</orgName>, presentibus <persName key="">Guidone

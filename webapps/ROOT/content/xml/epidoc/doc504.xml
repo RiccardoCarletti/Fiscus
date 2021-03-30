@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc504">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
@@ -15,7 +15,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
-                <idno type="uri">http://137.204.128.125/documents/doc504</idno>
+                <idno type="filename">doc504</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -85,8 +85,8 @@
                     <ab><persName>Giovanni</persName> del <persName>fu Pietro</persName> vende a
                             <persName>Ansighisi</persName> del <persName>fu Teudighisi</persName> un
                         appezzamento di terra posto in loco qui dicitur <placeName
-                            ref="#http://137.204.128.125/places/156">Canpo Vitallani</placeName> ubi
-                            <placeName ref="#http://137.204.128.125/places/156">Valiano</placeName>
+                            ref="#places/156">Canpo Vitallani</placeName> ubi
+                            <placeName ref="#places/156">Valiano</placeName>
                         vocatur, confinante da oriente con terra di <persName>Isalberto</persName>,
                         da aquilone et occidente con terra di <persName>Teudelgrimo</persName> del
                             <persName>fu Teudelgrimo</persName>, da meridie via publica decurrente,
@@ -94,7 +94,7 @@
                         prezzo di 20 soldi d’argento. Chiede al <rs key="#Writer #Notary"
                             >notaio</rs>
                         <persName key="#Writer #Notary">Walprando</persName> la stesura della
-                        cartula. Actum ad loco <placeName ref="#http://137.204.128.125/places/155"
+                        cartula. Actum ad loco <placeName ref="#places/155"
                             >Cornio</placeName>. <rs key="#Witness">Testimoni</rs> sottoscrittori:
                             <persName key="#Witness #Scabini">Witterado</persName>
                         <rs key="#Scabini">schabinus</rs>, <persName key="#Witness"

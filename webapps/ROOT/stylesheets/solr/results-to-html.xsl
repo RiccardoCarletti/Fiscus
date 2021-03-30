@@ -106,7 +106,7 @@
     </xsl:variable>
     <li>
       <a href="{$result-url}">
-        <xsl:value-of select="concat(substring-after(str[@name='document_id'], 'doc'), '. ', arr[@name='document_title']/str[1])" />
+        <xsl:value-of select="concat(substring-after(replace(str[@name='document_id'], ' ', ''), 'doc'), '. ', arr[@name='document_title']/str[1])" />
       </a>
     </li>
   </xsl:template>
@@ -121,7 +121,7 @@
         <ul>
           <xsl:apply-templates mode="search-results" select="doc">
             <xsl:sort>
-              <xsl:variable name="id" select="substring-after(str[@name='document_id'], 'doc')"/>
+              <xsl:variable name="id" select="substring-after(replace(str[@name='document_id'], ' ', ''), 'doc')"/>
               <xsl:choose>
                 <xsl:when test="string-length($id) = 1"><xsl:value-of select="concat('000',$id)"/></xsl:when>
                 <xsl:when test="string-length($id) = 2"><xsl:value-of select="concat('00',$id)"/></xsl:when>

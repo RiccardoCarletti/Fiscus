@@ -380,14 +380,14 @@
     margin:10px 20px 15px 20px;
    }
 
-   TEI:before {
+/*   TEI:before {
         content: "Document number: " 
         oxy_editor(
            type, text,
            edit, "@xml:id"
            columns, 40);
         display:block;
-   }
+   }*/
     
     foreign, div title, history title, note title, body listPlace title, body listPerson title, body listOrg title {
         display:inline;
@@ -418,8 +418,8 @@
         visibility: -oxy-collapse-text;
     }
 
-    idno[type=uri]:before { 
-       content: "URI: "
+    publicationStmt idno:before { 
+       content: "Document number: "
         oxy_editor(
            type, text,
            edit, "#text"

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc1414">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
@@ -15,7 +15,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
-                <idno type="uri">http://137.204.128.125/documents/doc1414</idno>
+                <idno type="filename">doc1414</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -91,27 +91,27 @@
                         quondam <persName>Teutj, qui Brocculo vocabatur</persName>, quia per hanc
                         cartula pro anime mee remedium offero tibi Deo, <rs key="#Churches"
                             >ecclesia</rs> et <rs key="#Monasteries">monasterio</rs>
-                        <orgName ref="#http://137.204.128.125/juridical_persons/78"
+                        <orgName ref="#juridical_persons/78"
                             key="#Churches #Monasteries">Domini et Sancti Salvatoris et Sancte Marie
                             Sanctique Quirici et Sancti Martini et Sancti Nicholai et Sancti
                             Benedicti</orgName> meam portionem quae mihi pertinere videtur de <rs
                             key="#Churches">ecclesia</rs> illa cui vocabulum est <orgName>Sancti
                             Christofori</orgName>, qui est fundato et edificato in loco et finibus
                         ubi dicitur <placeName key="#Canals"
-                            ref="#http://137.204.128.125/places/134">Livellaria</placeName> et cum
+                            ref="#places/134">Livellaria</placeName> et cum
                         omnibus <rs key="#Landed_possessions">terris</rs> et rebus quae ad illam
                         portionem pertinet et meam portionem integram de una <rs key="#Petiae #Wine"
                             >petia</rs> de terra cum <rs key="#Wine">vinea</rs> et terra laboratoria
                         super se habentem in loco et finibus ubi dicitur <placeName
-                            ref="#http://137.204.128.125/places/134"><rs key="#Canals">Fossa</rs>
+                            ref="#places/134"><rs key="#Canals">Fossa</rs>
                             Paterni</placeName>, non longe de suprascripta ecclesia Sancti
                         Christofori; et est tenens unum capud in terra <persName>Enrigi</persName>
                         fili quondam <persName>Alberti</persName>, et aliut capud tenet in
                         prenominata fossa, lateribus ambobus detinet in terra de <rs key="#Churches"
                             >ecclesia</rs> et <rs key="#Monasteries">monasterio</rs>
-                        <orgName ref="#http://137.204.128.125/juridical_persons/87"
+                        <orgName ref="#juridical_persons/87"
                             key="#Landed_possessions">Sancte Marie</orgName>, sito loco <placeName
-                            ref="#http://137.204.128.125/places/200">Serena</placeName>, et
+                            ref="#places/200">Serena</placeName>, et
                         aliquantolum de unum latus tenet in terra Tedicinga. De hac suprascripta
                         petia de terra qualiter ab omni parte circumdata est per designatas locas
                         q[…] m[ihi] pertinere videtur aliquo modo cum inferioribus et superioribus
@@ -150,7 +150,7 @@
                             <persName key="#Notary">Sesmundo</persName>
                         <rs key="#Notary">notario</rs> domni regis scribere rogavi. Actum loco et
                         finibus ubi dicitur <placeName key="#Castle"
-                            ref="#http://137.204.128.125/places/133">Casalappi</placeName>, prope
+                            ref="#places/133">Casalappi</placeName>, prope
                         ipso <rs key="#Castle">castello</rs> et prope <rs key="#Churches"
                             >ecclesia</rs>
                         <orgName>Sancti Martini</orgName>. Signum manus infrascripti Widi qui hanc

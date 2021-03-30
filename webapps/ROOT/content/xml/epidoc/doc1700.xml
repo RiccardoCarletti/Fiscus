@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc1700">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
@@ -15,7 +15,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
-                <idno type="uri">http://137.204.128.125/documents/doc1700</idno>
+                <idno type="filename">doc1700</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -83,19 +83,19 @@
             <div type="edition">
                 <div type="textpart">
                     <ab>In nomine Dei aeterni. <persName key="#Emperor/king"
-                            ref="#http://137.204.128.125/people/21">Berengarius</persName> gratia
+                            ref="#people/21">Berengarius</persName> gratia
                         Dei <rs key="#Emperor/king">rex</rs>. Si iustis Deo et nobis famulantium
                         peticionibus nostre serenitatis aures accomodamus, ut in die tribulationis
                         Deum propitiatorem habeamus proficere non dubitamus. Quapropter omnium
                         fidelium sancte Dei Eclesie nostrorum videlicet presentium et futurorum
                         noverit industria, qualiter domina <persName key="#Queen"
-                            ref="#http://137.204.128.125/people/91">Angeltrudis</persName> gloriosa
+                            ref="#people/91">Angeltrudis</persName> gloriosa
                             <rs key="#Queen">imperatrix</rs> et <persName key="#Marquis/duke"
-                            ref="#http://137.204.128.125/people/92">Adalbertus</persName> gloriosus
+                            ref="#people/92">Adalbertus</persName> gloriosus
                             <rs key="#Marquis/duke">marchio</rs> dilectus gener et <rs
                             key="#Fidelis_of">fidelis</rs> noster nostram exoraverunt clementiam,
                         quatenus <persName key="#Viscount #Fidelis_of"
-                            ref="#http://137.204.128.125/people/93">Gariardo</persName>
+                            ref="#people/93">Gariardo</persName>
                         <rs key="#Viscount">vicecomiti</rs> eiusdemque Adalberti <rs
                             key="#Fidelis_of">fideli</rs> per nostri precepti paginam confirmare
                         dignaremur omnes res et familias quas idem Gariardus quolibet inscriptionis
@@ -104,19 +104,19 @@
                         preceptum scribi iubentes, per quod sepe dicto Gariardo roboramus omnes res
                         proprietarias quocumque modo legaliter ab eo adquisitas, tam <rs
                             key="#Curtes">curtes</rs> illas videlicet <geogName
-                            key="#Curtes #Fiscal_property" ref="#http://137.204.128.125/estates/93"
-                                ><placeName key="#Curtes" ref="#http://137.204.128.125/places/90"
+                            key="#Curtes #Fiscal_property" ref="#estates/93"
+                                ><placeName key="#Curtes" ref="#places/90"
                                 >Caddo</placeName></geogName> et <geogName
-                            key="#Curtes #Fiscal_property" ref="#http://137.204.128.125/estates/94"
-                                ><placeName key="#Curtes" ref="#http://137.204.128.125/places/92"
+                            key="#Curtes #Fiscal_property" ref="#estates/94"
+                                ><placeName key="#Curtes" ref="#places/92"
                                 >Bromosello</placeName></geogName> atque <geogName
-                            key="#Curtes #Fiscal_property" ref="#http://137.204.128.125/estates/95"
-                                ><placeName key="#Curtes" ref="#http://137.204.128.125/places/93"
+                            key="#Curtes #Fiscal_property" ref="#estates/95"
+                                ><placeName key="#Curtes" ref="#places/93"
                                 >Longomiso</placeName></geogName> cum earum integritatibus
                         nominative quantum ex ipsis quondam pertinuit de <geogName key="#Comitatus"
-                            ref="#http://137.204.128.125/estates/92"><rs key="#Comitatus"
+                            ref="#estates/92"><rs key="#Comitatus"
                                 >comitatu</rs>
-                            <placeName ref="#http://137.204.128.125/places/54"
+                            <placeName ref="#places/54"
                                 key="#Villages/settlements #Village/castle_territory"
                                 >Oxilense</placeName></geogName> et per precepta a nostris
                         predecessoribus optinuit per singula loca et vocabula, quamque alias suas
@@ -140,7 +140,7 @@
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p>DD B I, n. 71, pp. 192-193; CACNo, n. 29, p. 41-42</p>
+                <p>DD B I, n. 71, pp. 192-193; CACNo, n. 29, pp. 41-42</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>

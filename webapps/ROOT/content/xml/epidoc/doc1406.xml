@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc1406">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
@@ -15,7 +15,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
-                <idno type="uri">http://137.204.128.125/documents/doc1406</idno>
+                <idno type="filename">doc1406</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -86,24 +86,24 @@
                     <ab>Cartula de <placeName>Castellare</placeName>. In nomine domini nostri Iesu
                         Christi Dei eterni. Anno dominice incarnationis millesimo centesimo vicesimo
                         quinto, quarto Xo kalendas februarii, indictione tertia. Manifestus sum ego
-                            <persName key="#Viscount" ref="#http://137.204.128.125/people/104"
+                            <persName key="#Viscount" ref="#people/104"
                             >Rogerius</persName>
                         <rs key="#Viscount">vicecomes</rs> filius bone memorie
                             <persName>Ildibrandi</persName> quia pro Dei amore et salute anime mee
                         meorumque remedium parentum, sicut <persName key="#Count"
-                            ref="#http://137.204.128.125/people/96">Ildebrandus</persName>
+                            ref="#people/96">Ildebrandus</persName>
                         <rs key="#Count">comes</rs> filius <persName key="#Count"
-                            ref="#http://137.204.128.125/people/97">Rainerii <rs key="#Count"
+                            ref="#people/97">Rainerii <rs key="#Count"
                                 >comitis</rs>, qui Malabranca fuit vocatus</persName>, in me
                         commisit et dedit et <rs key="#Littera/mandatum">tradidit potestatem</rs>,
                         ut ego pro se et in vice sua et per me ipsum facerem securitates et
                         obbligationes et refutationes in <rs key="#Monasteries">monasterio</rs>
                         <orgName key="#Monasteries"
-                            ref="#http://137.204.128.125/juridical_persons/78">Sancti Quirici
-                        </orgName>de <placeName ref="#http://137.204.128.125/places/86"
+                            ref="#juridical_persons/78">Sancti Quirici
+                        </orgName>de <placeName ref="#places/86"
                             >Populonio</placeName>, de <rs key="#Landed_possessions">terra</rs> que
                         est iuxta <rs key="#Castle">castellare</rs> in loco <placeName
-                            ref="#http://137.204.128.125/places/91"
+                            ref="#places/91"
                             key="#Landed_possessions #Fiscal_property #Object #Redistributive #Allocation_to_churches #Castle"
                             >Cornino</placeName>, sicut videtur continere per <rs key="#Canals"
                             >fossa</rs> ex omni parte et <rs key="#Aqueducts">acqueducto</rs>, ita
@@ -124,16 +124,16 @@
                         in prefinitum, quia sic complacuit animo meo. Pro confirmatione <persName
                             key="#Notary">Petri</persName> domni regis <rs key="#Notary"
                             >notarius</rs> scribere rogavi. Actum in loco <placeName
-                            ref="#http://137.204.128.125/places/129"
+                            ref="#places/129"
                             key="#Fiscal_property #Residential #Viscount">Monte Sancti
                             Laurentii</placeName>, sito Cornino, <geogName key="#Comitatus"
-                            ref="#http://137.204.128.125/estates/87"><rs key="#Administrative_units"
+                            ref="#estates/87"><rs key="#Administrative_units"
                                 >territorio</rs> Populoniense.</geogName> Signum manus suprascripti
                         Rogerii quondam Ildebrandi qui hanc cartula refutationis et defensionis
                         fieri rogavi. Signa manuum <persName>Gerardi</persName> quondam
                             <persName>Raineri</persName> de <placeName>Prata</placeName> et
                             <persName>Rufinelli</persName> quondam <persName>Alberti</persName> de
-                            <placeName ref="#http://137.204.128.125/places/87">Suvereto</placeName>
+                            <placeName ref="#places/87">Suvereto</placeName>
                         et <persName>Alferi</persName> quondam *** rogati testes. <persName
                             key="#Notary">Petrus</persName> domini regis <rs key="#Notary"
                             >notarius</rs> postradita complevi et dedit. </ab>

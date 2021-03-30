@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc1100">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
@@ -14,7 +14,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
-                <idno type="uri">http://137.204.128.125/documents/doc1100</idno>
+                <idno type="filename">doc1100</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -83,7 +83,7 @@
             <div type="edition">
                 <div type="textpart">
                     <ab>In nomine sanctae et individuae trinitatis. <persName key="#Emperor/king"
-                            ref="#http://137.204.128.125/people/80">Karlomanno</persName> divina
+                            ref="#people/80">Karlomanno</persName> divina
                         favente gratia <rs key="#Emperor/king">rex</rs>. Sequimur itaque exempla
                         piissimorum regum, cum loca deo dicata nostra regali sublimamus
                         munificentia, non solum nobis presentis prosperitatis commoda preparamus,
@@ -91,13 +91,13 @@
                         noverit industria omnium fidelium sanctae dei ecclesiae nostrorumque
                         presentium et futurorum, quoniam comperto in aedificatione <rs
                             key="#Monasteries">monasterii </rs>studio amantissimae sororis nostrae
-                            <persName key="#Queen" ref="#http://137.204.128.125/people/55"
+                            <persName key="#Queen" ref="#people/55"
                             >Angilbergae</persName> augustae in urbe <placeName
-                            ref="#http://137.204.128.125/places/43">Placentia</placeName> aeternae
+                            ref="#places/43">Placentia</placeName> aeternae
                         propitiationis intuitu pro honore eiusdem omnipotentis dei et ipsius
                         reverentia genitricis nec non apostolorum omnium sanctorumque martirum
                             <orgName key="#Monasteries"
-                            ref="#http://137.204.128.125/juridical_persons/53">Sixti Fabiani
+                            ref="#juridical_persons/53">Sixti Fabiani
                             Marcelli et Apolei</orgName> inibi quiescentium concessimus atque
                         perhenniter confirmavimus <rs
                             key="#Curtes #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
@@ -144,8 +144,8 @@
                         <rs key="#Archchaplain">archicapellani</rs> recognovi et (SR.) (SI. 2.).
                         Data II non. aug. anno III regni domni Karlomanni regis in Bauuaria et II in
                         Italia, indictione XII; actum ad <geogName key="#Curtes"
-                            ref="#http://137.204.128.125/estates/106"><placeName key="#Curtes"
-                                ref="#http://137.204.128.125/places/">Otingas</placeName> curte
+                            ref="#estates/106"><placeName key="#Curtes"
+                                ref="#places/">Otingas</placeName> curte
                             regia</geogName>; in dei nomine feliciter amen.</ab>
                 </div>
             </div>
