@@ -1427,6 +1427,7 @@
                         subtype="isInVicinityOf"/>
                     <link type="estates" corresp="#estates/123"
                         subtype="isInVicinityOf"/>
+                    <link type="places" subtype="isMadeOf"/>
                 </place>
                 <place>
                     <placeName><foreign>Ito</foreign> (Prata; Massa Marittima; Grosseto)</placeName>
@@ -2199,7 +2200,7 @@
                     <link type="people" corresp="#people/21" subtype="link"/>
                 </place>
                 <place>
-                    <placeName><foreign>Ferrara</foreign></placeName>
+                    <placeName><foreign>Ferrara</foreign> (Vairano Patenora; Caserta)</placeName>
                     <placeName type="other"/>
                     <geogName type="coord"><geo>41.339444, 14.112906; 41.344299, 14.132043;
                             41.333795, 14.162766; 41.324133, 14.173121; 41.310698, 14.142587;
@@ -2207,6 +2208,7 @@
                     <idno>http://137.204.128.125/places/250</idno>
                     <note/>
                     <link type="people" corresp="#people/170" subtype="link"/>
+                    <link type="places" corresp="#places/177" subtype="isMadeOf"/>
                 </place>
             </listPlace>
         </body>
