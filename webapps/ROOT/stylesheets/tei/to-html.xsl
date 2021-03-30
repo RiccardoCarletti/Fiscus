@@ -303,7 +303,13 @@
             <xsl:when test="$subtype"><xsl:value-of select="$subtype"/></xsl:when><xsl:otherwise><xsl:text>link</xsl:text></xsl:otherwise>
           </xsl:choose></xsl:variable>
           <xsl:text>{from: </xsl:text><xsl:value-of select="$id"/><xsl:text>, to: </xsl:text><xsl:value-of select="$linked_id"/>
-        <xsl:text>, label: '</xsl:text><xsl:value-of select="$relation_type"/><xsl:text>', arrows: "to"}</xsl:text>
+        <xsl:text>, label: '</xsl:text><xsl:value-of select="$relation_type"/><xsl:text>', arrows: "to", color: "</xsl:text>
+        <xsl:choose>
+          <xsl:when test="matches(concat(' ', lower-case($relation_type), ' '), '.* (legallyrecognisedunionwith|seriousintimaterelationshipwith|casualintimaterelationshipwith|intimaterelationshipwith|fatherof|fatherinlawof|motherof|motherinlawof|parentof|fosterparentof|sonof|soninlawof|daughterof|daughterinlawof|childof|grandfatherof|grandmotherof|grandparentof|grandsonof|granddaughterof|grandchildof|greatgrandfatherof|greatgrandmotherof|greatgrandparentof|greatgrandsonof|greatgranddaughterof|brotherof|brotherinlawof|sisterof|sisterinlawof|siblingof|auntof|uncleof|nephewof|nieceof|childofsiblingof|cousinof|kinof|ancestorof|descendentof|familyof|extendedfamilyof|hereditaryfamilyof) .*')"><xsl:text>red</xsl:text></xsl:when>
+          <xsl:when test="matches(concat(' ', lower-case($relation_type), ' '), '.* (householdof|extendedhouseholdof|patronof|clientof|masterof|formermasterof|slaveof|houseslaveof|formerslaveof|freedslaveof|freedmanof|freedwomanof|fellowfreedmanof|godfatherof|godmotherof|godsonof|goddaughterof|compaterof|commaterof|nutritusof|nutritorof|benefactorof|gratitudeto|testamentarylinkwith|legateeof|heirto|friendshipfor|alliancewith|enmityfor|dominusof|seniorof|vassusof|gasindiusof|fidelisof|milesof|homoof|agentfor|professionalrelationship) .*')"><xsl:text>green</xsl:text></xsl:when>
+          <xsl:otherwise><xsl:text>blue</xsl:text></xsl:otherwise>
+        </xsl:choose>
+        <xsl:text>"}</xsl:text>
         <!-- </xsl:for-each> -->
         <xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if>
       </xsl:for-each>
@@ -311,7 +317,14 @@
     </xsl:variable>
     
     <div class="row" style="padding: 40px 20px 60px 20px">
-      <div id="mynetwork" style="width: 100%; height: 500px; border: 1px solid lightgray"></div>
+      <div id="mynetwork"></div>
+      <div class="legend">
+        <p>
+          <span style="color:red">red arrow</span>: family relations | 
+          <span style="color:green">green arrow</span>: personal bonds |
+          <span style="color:blue">blue arrow</span>: other links
+        </p>
+      </div>
       <script type="text/javascript">
         const people = <xsl:value-of select="$graph_people"/>;
         const relations = <xsl:value-of select="$graph_relations"/>;
@@ -383,11 +396,12 @@
     <!-- add map -->
     <div class="row">
       <div id="mapid" class="map"></div>
-      <div id="legend">
+      <div class="legend">
         <p>
           <img src="../../../assets/images/golden.png" alt="golden circle" class="mapicon"/>Places linked to fiscal properties
           <img src="../../../assets/images/purple.png" alt="purple circle" class="mapicon"/>Places not linked to fiscal properties
           <img src="../../../assets/images/polygon.png" alt="green polygon" class="mapicon"/>Places not precisely located or wider areas
+          <br/><br/>
           <img src="../../../assets/images/anchor.png" alt="anchor" class="mapicon"/>Ports and fords
           <img src="../../../assets/images/tower.png" alt="tower" class="mapicon"/>Fortifications
           <img src="../../../assets/images/sella.png" alt="sella" class="mapicon"/>Residences
@@ -437,27 +451,20 @@
         attribution: 'Map data <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
         });
         
-        var mymap = L.map('mapid', {
-        center: [44, 10.335],
-        zoom: 6.5,
-        layers: [osm, streets, grayscale, satellite, terrain, watercolor]
-        });
-        
+        var mymap = L.map('mapid', { center: [44, 10.335], zoom: 6.5, layers: [osm, streets, grayscale, satellite, terrain, watercolor] });
         L.control.scale().addTo(mymap);
         
-        var LeafIcon = L.Icon.extend({
-        options: {iconSize: [14, 14]}
-        });
+        var LeafIcon = L.Icon.extend({ options: {iconSize: [14, 14]} });
         var purpleIcon = new LeafIcon({iconUrl: '../../../assets/images/purple.png'}),
-        goldenIcon = new LeafIcon({iconUrl: '../../../assets/images/golden.png'}),
-        portsIcon = new LeafIcon({iconUrl: '../../../assets/images/anchor.png'}),
+        goldenIcon = new LeafIcon({iconUrl: '../../../assets/images/golden.png'});
+        <!--var portsIcon = new LeafIcon({iconUrl: '../../../assets/images/anchor.png'}),
         fortificationsIcon = new LeafIcon({iconUrl: '../../../assets/images/tower.png'}),
         residencesIcon = new LeafIcon({iconUrl: '../../../assets/images/sella.png'}),
         revenuesIcon = new LeafIcon({iconUrl: '../../../assets/images/coin.png'}),
         estatesIcon = new LeafIcon({iconUrl: '../../../assets/images/star.png'}),
         tenuresIcon = new LeafIcon({iconUrl: '../../../assets/images/square.png'}),
         landIcon = new LeafIcon({iconUrl: '../../../assets/images/triangle.png'}),
-        fallowIcon = new LeafIcon({iconUrl: '../../../assets/images/tree.png'}); 
+        fallowIcon = new LeafIcon({iconUrl: '../../../assets/images/tree.png'}); -->
         
         const polygons = <xsl:value-of select="$map_polygons"/>;
         const points = <xsl:value-of select="$map_points"/>;
