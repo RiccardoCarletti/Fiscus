@@ -4,7 +4,7 @@
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
-                <title></title>
+                <title><foreign>Registrum Petri Diaconi</foreign>, f. 86rA (=C)</title>
             </titleStmt>
             <editionStmt>
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
@@ -30,10 +30,10 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#"/>
-                            <rs type="record_source" ref="#"/>
-                            <rs type="document_tradition" ref="#"/>
-                            <rs type="fiscal_property"/>
+                            <rs type="text_type" ref="#">-Diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -41,10 +41,11 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate notBefore="0001" notAfter="0001" when="0001"> 
-                                <note type="displayed_date"></note>
-                                <note type="dating_elements"></note>
-                                <note type="topical_date"></note>
+                            <origDate when="0837-06">
+                                <note type="displayed_date">837 June</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Benevento, <foreign>in sacro
+                                        Palatio</foreign></note>
                             </origDate>
                             <origPlace/>
                         </origin>
@@ -80,11 +81,35 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab></ab>
+                    <ab>In nomine Domini Dei salvatoris nostri Iesu Christi. Nos vir gloriosissimus
+                        Sichardus Dei providentia Langobardorum gentis princeps, motus omnipotentis
+                        misericordia, pro redemptione anime nostrae seu gentis et patriae,
+                        concedimus in monasterio Beatissimi Benedicti quo situm est in castro
+                        Casino, ubi Authpert reverentissimus abbas regimen tenere videtur, vvaldum
+                        sacri nostri Palatii qui dicitur Martoranum, qui habet fines de uno capite
+                        fine mare, abinde fine foce de Betrana, deinde fine Bena de Putiu et inde in
+                        terra Montonata et inde Bena de Cosa et fine cunione qui dicitur de Ippoli,
+                        has fines discernit istum gualdum a gualdo aecclesiae Sancti Martini de
+                        Prata, et inde fine arenarii et fine termite qui dicitur Ferola et fine Bena
+                        de Carpinu et fine signaida de cesa quae dicitur Mauri et inde in cerque
+                        signate que dicitur Caedarolu et Benactola de Ficulcia quae est inter hunc
+                        vvaldum et fine de Puranetu et fine flumine qui dicitur Fertore,
+                        reconiungentes se in predicto mare, cum ripis et aquis et fussariis et
+                        piscationibus et omnibus infra positis, sicut actenus ad manus Palatii
+                        nostri pertinuit, pertinet de mari passato Arichis maripachis nostri, in ea
+                        videlicet ratione ut amodo de deinceps per hoc nostrum roboreum preceptum
+                        supradictum vvaldum per designatos fines ipsum monasterium et eius rectores
+                        securo nomine habere et possidere seu perfrui valeant, et a nullo ex nostris
+                        iudicibus, gastaldeis vel a quibuscumque agentibus habeant aliquam
+                        requisitionem rectores predicti monasterii ex prefato vvaldo, sed perpetuis
+                        temporibus in integrum possideantur. quod vero preceptum concessionis ex
+                        iussione suprascripte potestatis scripsi ego Audoaldus notarius. Actu
+                        Benevento in sacro Palatio quinto anno, mense Iunio, quintadecima
+                        indictione.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p/>
+                <p>Gattola 1734: I, 35; </p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>
