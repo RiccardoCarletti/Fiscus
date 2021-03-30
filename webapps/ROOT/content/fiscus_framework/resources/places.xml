@@ -2229,11 +2229,17 @@
                         subtype="hasInItsVicinity"/>
                 </place>
                 <place>
-                    <placeName>Martoranum</placeName>
+                    <placeName><foreign>Martoranum</foreign> (Serracapriola; Foggia)</placeName>
                     <placeName type="other"/>
-                    <geogName type="coord"><geo/></geogName>
+                    <geogName type="coord"><geo>41.888431, 15.242915</geo></geogName>
                     <idno>http://137.204.128.125/places/252</idno>
                     <note/>
+                    <link type="estates" corresp="#http://137.204.128.125/estates/140"
+                        subtype="isPartOf"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/185" subtype="link"/>
+                    <link type="juridical_persons" subtype="link" corresp="#juridical_persons/84"/>
+                    <link type="people" corresp="#http://137.204.128.125/people/186" subtype="link"
+                    />
                 </place>
             </listPlace>
         </body>
