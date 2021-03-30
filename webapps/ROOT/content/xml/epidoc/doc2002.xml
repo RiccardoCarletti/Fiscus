@@ -90,7 +90,7 @@
                         <rs key="#Judge">iudex</rs>
                         <placeName key="#Cities" ref="#places/174">Teanense ciutati</placeName>,
                         quadam die residente intus eadem<rs key="#Cities"> ciuitate</rs>, ante
-                        conspectum domni <persName key="#Count" ref="#people/170"
+                        conspectum domni <persName key="#Count #Agent_for" ref="#people/170"
                             >Atenolfi</persName> magnifici <rs key="#Count">comitis</rs>, fili bone
                         memorie domni <persName key="#Count" ref="#people/114">Atenolfi</persName>
                         <rs key="#Count">comitis</rs>, et erga nos ante eum residentibus <rs
@@ -99,17 +99,19 @@
                         iam dicti gloriosi comitis astitit <persName
                             key="#Priests #Other_clerics #Prevosts">Iohannes</persName>
                         <rs key="#Priests">presbiter</rs> et <rs key="#Prevosts">prepositus</rs>,
-                        atque <rs key="#Other_clerics">custos <rs key="#Churches"
-                            >ecclesie</rs></rs><rs> Sancte Dei genitricis et wuirginis Marie</rs> in
-                        quo est<rs key="#Monasteries #Nuns/sanctimoniales"> monasterium
-                            puellaro</rs>, que sita est in loco <placeName ref="#places/193"
-                            key="#Churches #Monasteries">Cengla</placeName> in qua domna <persName
-                            key="#Abbesses" ref="#people/168">Adelgarda</persName> religiosa <rs
-                            key="#Abbesses">abbatisssa</rs> preest. Ille autem erga secum habendo
-                            <persName key="#Judge #Advocatus">Vigelmum</persName>
+                        atque <rs key="#Other_clerics">custos <rs key="#Churches">ecclesie</rs></rs>
+                        <orgName ref="#juridical_persons/97"
+                            key="#Advocatus #Churches #Monasteries #Prevosts #Abbesses #Nuns/sanctimoniales"
+                            >Sancte Dei genitricis et wuirginis Marie</orgName> in quo est<rs
+                            key="#Monasteries #Nuns/sanctimoniales"> monasterium puellaro</rs>, que
+                        sita est in loco <placeName ref="#places/193" key="#Churches #Monasteries"
+                            >Cengla</placeName> in qua domna <persName key="#Abbesses"
+                            ref="#people/168">Adelgarda</persName> religiosa <rs key="#Abbesses"
+                            >abbatisssa</rs> preest. Ille autem erga secum habendo <persName
+                            key="#Judge #Advocatus">Vigelmum</persName>
                         <rs key="#Judge">iudicem</rs>
                         <rs key="#Advocatus">aduocatorem</rs> supradicti monasterii et reclamabit
-                        superius dictus comes, ut <rs key="#Homo_of">ministeriales</rs> eius de
+                        superius dictus comes, ut <rs key="#Agent_for">ministeriales</rs> eius de
                             <placeName ref="#places/177" key="#Fines #Rural_communities"
                             >Bairano</placeName> iniuste et contra rationem introissent infra fines
                         de duabus <rs key="#Petiae #Fiscal_property #Textual_occurrence #Object"
