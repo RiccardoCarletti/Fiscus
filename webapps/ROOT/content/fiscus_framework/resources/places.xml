@@ -256,13 +256,14 @@
                     <placeName>Saltocchio (Lucca)</placeName>
                     <geogName type="coord"><geo>43.901912348717254, 10.537523478269577</geo></geogName>
                     <idno>places/36</idno>
-                    <note>Microtoponomastica: <foreign>Casalino</foreign>.</note>
+                    <note>Microtoponomastica: <foreign>Casalino</foreign>; <foreign>Vinea
+                            Regis</foreign>.</note>
                 </place>
                 <place>
-                    <placeName><foreign>Vinea Regis</foreign> (Saltocchio; Lucca)</placeName>
-                    <geogName type="coord"><geo>43.901742279092616, 10.538293942809105</geo></geogName>
+                    <placeName>Prata (Suvereto; Livorno)</placeName>
+                    <geogName type="coord"><geo>43.094311338448, 10.6623071810803 </geo></geogName>
                     <idno>places/37</idno>
-                    <note>Microtoponimo entro la frazione di Saltocchio</note>
+                    <note/>
                 </place>
                 <place>
                     <placeName>Modena</placeName>
@@ -1046,7 +1047,8 @@
                 <place>
                     <placeName><foreign>Livellaria</foreign> (in Campiglia Marittima; Livorno)</placeName>
                     <placeName type="other"><foreign>Libellaria</foreign></placeName>
-                    <geogName type="coord"><geo>41.5767586776, 10.6405316719874</geo></geogName>
+                    <geogName type="coord"><geo>43.04239776805694,
+                        10.638202619554294</geo></geogName>
                     <idno>places/134</idno>
                     <note>Località perduta nell’area di Casalappi (Ceccarelli 1985: 23 nt. 27;
                         Ceccarelli 2004: 41 note 69-70). È sulla Cornia e sulla Cornia morta; è in
@@ -2154,10 +2156,47 @@
                 <place>
                     <placeName>Novara</placeName>
                     <placeName type="other"/>
-                    <geogName type="coord"><geo>45.58425; 8.545997</geo></geogName>
+                    <geogName type="coord"><geo>45.58425, 8.545997</geo></geogName>
                     <idno>places/245</idno>
                     <note/>
                     <link type="people" corresp="#people/73 #people/181" subtype="link"/>
+                </place>
+                <place>
+                    <placeName><foreign>Striscie</foreign> (le) (San Biagio; Monteverdi Marittimo;
+                        Pisa)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>43.1703032, 10.6701767</geo></geogName>
+                    <idno>places/246</idno>
+                    <note/>
+                    <link type="places" corresp="#places/241" subtype="isPartOf"/>
+                    <link type="estates" corresp="#estates/137" subtype="isPartOf"/>
+                </place>
+                <place>
+                    <placeName><foreign>Fabricianum</foreign> (Poderi Fabbricciani; Piombino;
+                        Livorno)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>42.9845852465054, 10.5288908033788</geo></geogName>
+                    <idno>places/247</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>Camerino (Macerata)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>43.140362; 13.068770</geo></geogName>
+                    <idno>places/248</idno>
+                    <note/>
+                    <link type="juridical_persons" corresp="#juridical_persons/117" subtype="link"/>
+                    <link type="people" corresp="#people/91" subtype="link"/>
+                    <link type="people" corresp="#people/21" subtype="link"/>
+                </place>
+                <place>
+                    <placeName>Assisi (Perugia)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>43.070171; 12.617520</geo></geogName>
+                    <idno>places/249</idno>
+                    <note/>
+                    <link type="people" corresp="#people/91" subtype="link"/>
+                    <link type="people" corresp="#people/21" subtype="link"/>
                 </place>
             </listPlace>
         </body>

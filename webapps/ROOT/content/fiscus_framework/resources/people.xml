@@ -677,6 +677,8 @@
                     <link type="people" corresp="#people/106" subtype="fatherOf"/>
                     <link type="people" subtype="legallyRecognisedUnionWith" corresp="#people/121"/>
                     <link type="people" corresp="#people/122" subtype="sonOf"/>
+                    <link type="people" corresp="#people/182" subtype="sonOf"/>
+                    <link type="estates" corresp="#estates/137" subtype="hasConnectionWith"/>
                 </person>
                 <person>
                     <persName>Cunizo (1076-1101) abbas monasterii S. Quirici </persName>
@@ -808,11 +810,14 @@
                     <link type="people" corresp="#people/107" subtype="legallyRecognisedUnionWith"/>
                 </person>
                 <person>
-                    <persName>Rodulfus (III Aldobrandeschi; 1049; q.1053) comes</persName>
+                    <persName>Rodulfus (Aldobrandeschi; 1049; q.1053) comes</persName>
                     <persName type="other"/>
                     <idno>people/122</idno>
-                    <note>Collavini 1995-1996: 524-525.</note>
+                    <note>Collavini 1995-1996: 524-525. La data 1049 si ricava dall'inserto nel
+                        documento del 1053.</note>
                     <link type="people" corresp="#people/107" subtype="fatherOf"/>
+                    <link type="people" corresp="#people/182" subtype="legallyRecognisedUnionWith"/>
+                    <link type="estates" corresp="#estates/137" subtype="hasConnectionWith"/>
                 </person>
                 <person>
                     <persName>Adalardus (875-911?) episcopus Veronensis</persName>
@@ -1337,6 +1342,14 @@
                     <note/>
                     <link type="places" corresp="#places/245" subtype="hasConnectionWith"/>
                     <link type="juridical_persons" corresp="#juridical_persons/116" subtype="link"/>
+                </person>
+                <person>
+                    <persName>Imilde (Aldobrandeschi; 1020-1054)</persName>
+                    <persName type="other"><foreign>Melde</foreign>; </persName>
+                    <idno>people/182</idno>
+                    <note>Collavini 1995-1996: 524.</note>
+                    <link type="people" corresp="#people/107" subtype="motherOf"/>
+                    <link type="people" corresp="#people/122" subtype="legallyRecognisedUnionWith"/>
                 </person>
                 
                 

@@ -206,7 +206,7 @@
                 </org>
                 <org>
                     <orgName>Sanctus Petrus; monasterium (Monteverdi Marittimo; Pisa)</orgName>
-                    <orgName type="other"/>
+                    <orgName type="other">S. Pietro <foreign>de Palatiolo</foreign></orgName>
                     <idno>juridical_persons/79</idno>
                     <note/>
                     <link type="places" corresp="#places/85"
@@ -221,6 +221,8 @@
                         subtype="hasConnectionWith"/>
                     <link type="places" corresp="#places/87"
                         subtype="hasConnectionWith"/>
+                    <link type="places" corresp="#places/241 #places/238" subtype="hasConnectionWith"/>
+                    <link type="estates" corresp="#estates/137" subtype="hasConnectionWith"/>
                 </org>
                 <org>
                     <orgName>Sanctus Petrus; episcopium (Bologna)</orgName>
@@ -322,12 +324,13 @@
                     <idno>juridical_persons/89</idno>
                     <note/>
                     <link type="places" corresp="#places/140" subtype="hasConnectionWith"/>
-                    <link type="juridical_persons"
-                        corresp="#juridical_persons/80 #juridical_persons/47"
-                        subtype="link"/>
-                    <link type="people"
-                        corresp="#people/48 #people/49 #people/14 #people/117 #people/94"
-                        subtype="link"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/47" subtype="link"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/80" subtype="link"/>
+                    <link type="people" corresp="#people/48" subtype="link"/>
+                    <link type="people" corresp="#people/49" subtype="link"/>
+                    <link type="people" corresp="#people/14" subtype="link"/>
+                    <link type="people" corresp="#people/117" subtype="link"/>
+                    <link type="people" corresp="#people/94" subtype="link"/>
                 </org>
                 <org>
                     <orgName>Sanctus Zeno; ecclesia (Verona)</orgName>
@@ -355,7 +358,7 @@
                     <orgName>Sanctus Petrus Celaureus; ecclesia (Verona)</orgName>
                     <orgName type="other">Sanctus Petrus <foreign>in castro</foreign></orgName>
                     <idno>juridical_persons/93</idno>
-                    <note>Pighi 1960; La Rocca Hudson 1986.</note>
+                    <note>Pighi 1960; La Rocca Hudson 1986; Ciaralli 2007.</note>
                 </org>
                 <org>
                     <orgName>Sancta Brigida; ecclesia (Piacenza)</orgName>
@@ -378,8 +381,7 @@
                     <note/>
                     <link type="places" corresp="#places/38"
                         subtype="hasConnectionWith"/>
-                    <link type="people" corresp="#people/152" subtype="link"
-                    />
+                    <link type="people" corresp="#people/152" subtype="link"/>
                 </org>
                 <org>
                     <orgName>Sancta Maria in Cingla; monasterium (Ailano; Caserta)</orgName>
@@ -538,7 +540,7 @@
                 <org>
                     <orgName>Sanctus Laurentius; ecclesia (Prignano sulla Secchia; Reggio
                         Emilia)</orgName>
-                    <orgName type="other">Chiesa di san Lorenzo e san Michele</orgName>
+                    <orgName type="other">Chiesa di San Lorenzo e San Michele</orgName>
                     <idno>juridical_persons/110</idno>
                     <note/>
                     <link type="places" corresp="#places/191" subtype="hasConnectionWith"/>
@@ -596,6 +598,14 @@
                     <link type="juridical_persons"
                         corresp="#juridical_persons/114 #juridical_persons/115" subtype="link"/>
                     <link type="people" corresp="#people/73 #people/181" subtype="link"/>
+                </org>
+                <org>
+                    <orgName>Sancta Maria; monasterium (Rambona; Macerata)</orgName>
+                    <orgName type="other"/>
+                    <idno>juridical_persons/117</idno>
+                    <note/>
+                    <link type="people" corresp="#people/91" subtype="link"/>
+                    <link type="people" corresp="#people/21" subtype="link"/>
                 </org>
              
             </listOrg>
