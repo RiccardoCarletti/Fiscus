@@ -999,12 +999,20 @@
                     <geogName type="other"/>
                     <idno>estates/151</idno>
                     <note/>
+                    <link type="places" corresp="#places/262" subtype="hasConnectionWith"/>
+                    <link type="places" corresp="#places/263" subtype="hasConnectionWith"/>
+                    <link type="estates" corresp="#estates/152" subtype="hasConnectionWith"/>
+                    <link type="people" corresp="#people/188" subtype="link"/>
                 </place>
                 <place>
                     <geogName>Ronco; <foreign>curtis</foreign></geogName>
                     <geogName type="other"/>
                     <idno>estates/152</idno>
                     <note/>
+                    <link type="estates" corresp="#estates/151" subtype="hasConnectionWith"/>
+                    <link type="people" corresp="#people/21" subtype="link"/>
+                    <link type="people" corresp="#people/155" subtype="link"/>
+                    <link type="people" corresp="#people/188" subtype="link"/>
                 </place>
              
             </listPlace>
