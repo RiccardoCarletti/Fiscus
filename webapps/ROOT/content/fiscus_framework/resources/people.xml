@@ -1407,7 +1407,7 @@
                         subtype="benefactorOf"/>
                 </person>
                 <person>
-                    <persName>Grimaldus (905-922) marchio; comes</persName>
+                    <persName>Grimaldus (905-922) marchio</persName>
                     <persName type="other"/>
                     <idno>people/188</idno>
                     <note/>
@@ -1417,11 +1417,22 @@
                 <person>
                     <persName>Magelpotus (944-948) abbas Casinensis</persName>
                     <persName type="other">Maielpotus</persName>
-                    <idno>people/189</idno>
+                    <idno>people/200</idno>
                     <note><foreign>Chronica Monasterii Casinensis</foreign>, I, 60</note>
                     <link type="people" corresp="#people/156" subtype="benefactorOf"/>
                     <link type="juridical_persons" corresp="#juridical_persons/84" subtype="link"/>
                     <link type="estates" subtype="hasConnectionWith" corresp="#estates/143"/>
+                </person>
+                <person> 
+                    <persName>Bisantius (963) iudex</persName>
+                    <persName type="other"/>
+                    <idno>people/189</idno>
+                    <note/>
+                    <link type="people" corresp="#people/157" subtype="agentFor"/>
+                    <link type="people" corresp="#people/167" subtype="agentFor"/>
+                    <link type="places" corresp="#places/174" subtype="hasConnectionWith"/>
+                    <link type="people" corresp="#people/170" subtype="link"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/97" subtype="link"/>
                 </person>
                 
                 
