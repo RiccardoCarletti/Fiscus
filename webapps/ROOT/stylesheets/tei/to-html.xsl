@@ -273,6 +273,238 @@
           <li class="linked_item"><a><xsl:attribute name="href"><xsl:value-of select="concat('./people.html#', substring-after($key, 'people/'))"/></xsl:attribute><xsl:apply-templates select="$people/tei:person[descendant::tei:idno=$key]/tei:persName[1]"/></a>
             <xsl:variable name="subtype" select="$links[@subtype][contains(concat(@corresp, ' '), concat($key, ' '))]/@subtype"/>
             <xsl:if test="$subtype"><xsl:text> (</xsl:text><xsl:value-of select="$subtype"/><xsl:text>)</xsl:text></xsl:if></li></xsl:for-each></ul><br/></xsl:if>
+      
+      <!-- map for each juridical person having linked places -->
+      <xsl:if test="ancestor::tei:listOrg and $linkedplaces!=''">
+        <xsl:variable name="map_polygons">
+          <xsl:text>{</xsl:text>
+          <xsl:for-each select="$linkedplaces">
+            <xsl:variable name="key" select="translate(translate(.,' ',''), '#', '')"/>
+            <xsl:for-each select="$places/tei:place[descendant::tei:idno=$key][contains(descendant::tei:geo, ';')]">
+            <xsl:variable name="name" select="normalize-space(translate(tei:placeName[1], ',', '; '))"/>
+            <xsl:variable name="id" select="substring-after(translate(tei:idno,'#',''), 'places/')"/>
+            <xsl:text>"</xsl:text><xsl:value-of select="$name"/><xsl:text>#</xsl:text><xsl:value-of select="$id"/><xsl:text>": "</xsl:text>
+            <xsl:value-of select="replace(replace(normalize-space(tei:geogName/tei:geo), ', ', ';'), '; ', ';')"/>
+            <xsl:text>"</xsl:text><xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if>
+          </xsl:for-each>
+          </xsl:for-each>
+          <xsl:text>}</xsl:text>
+        </xsl:variable>
+        <xsl:variable name="map_points">
+          <xsl:text>{</xsl:text> 
+          <xsl:for-each select="$linkedplaces">
+            <xsl:variable name="key" select="translate(translate(.,' ',''), '#', '')"/>
+                <xsl:for-each select="$places/tei:place[descendant::tei:idno=$key][descendant::tei:geo/text()]">
+                  <xsl:variable name="name" select="normalize-space(translate(tei:placeName[1], ',', '; '))"/>
+                  <xsl:variable name="id" select="substring-after(translate(tei:idno,'#',''), 'places/')"/>
+                  <xsl:variable name="idno" select="translate(translate(tei:idno, '#', ''), ' ', '')"/>
+                  <xsl:variable name="linked_keys"><xsl:for-each select="$keys//p[@class='place_keys'][@id=$id]"><xsl:value-of select="lower-case(.)"/><xsl:text> </xsl:text></xsl:for-each></xsl:variable>
+                  <xsl:variable name="all_keys" select="concat(' ', normalize-space($linked_keys))"/>
+                  <xsl:text>"</xsl:text><xsl:value-of select="$name"/>
+                  <xsl:if test="not(matches($all_keys, '.*(fiscal_property).*'))"><xsl:text>#a@</xsl:text></xsl:if> <!-- fiscal -->
+                  <xsl:if test="matches($all_keys, '.*(fiscal_property).*')"><xsl:text>#b@</xsl:text></xsl:if> <!-- not fiscal -->
+                  <xsl:if test="matches($all_keys, '.* (ports|bridges/pontoons|maritime_trade|fluvial_transport|navicularii) .*')"><xsl:text>c@</xsl:text></xsl:if> <!-- ports -->
+                  <xsl:if test="matches($all_keys, '.* (castle|tower|clusae/gates|walls|carbonaria|defensive_elements|incastellamento) .*')"><xsl:text>d@</xsl:text></xsl:if> <!-- fortifications -->
+                  <xsl:if test="matches($all_keys, '.* (residential|palatium|laubia/topia) .*')"><xsl:text>e@</xsl:text></xsl:if> <!-- residences -->
+                  <xsl:if test="matches($all_keys, '.* (mills|kilns|workshops|gynaecea|mints|overland_transport|local_markets|periodic_markets|decima|nona_et_decima|fodrum|albergaria/gifori|profits_of_justice|profits_of_mining/minting|tolls|teloneum|rights_of_use_on_woods/pastures/waters|coinage) .*')"><xsl:text>f@</xsl:text></xsl:if> <!-- revenues -->
+                  <xsl:if test="matches($all_keys, '.* (villas|curtes|gai|massae|salae|demesnes|domuscultae|casali|mansi) .*')"><xsl:text>g@</xsl:text></xsl:if> <!-- estates -->
+                  <xsl:if test="matches($all_keys, '.* (casae/cassinae_massaricie|casalini/fundamenta) .*')"><xsl:text>h@</xsl:text></xsl:if> <!-- tenures -->
+                  <xsl:if test="matches($all_keys, '.* (petiae|landed_possessions) .*')"><xsl:text>i@</xsl:text></xsl:if> <!-- land -->
+                  <xsl:if test="matches($all_keys, '.* (mines|quarries|forests|gualdi|cafagia|fisheries|saltworks|other_basins) .*')"><xsl:text>j@</xsl:text></xsl:if> <!-- fallow -->
+                  <xsl:value-of select="$id"/><xsl:text>": "</xsl:text><xsl:choose>
+                    <xsl:when test="contains(normalize-space(tei:geogName/tei:geo), ';')"><xsl:value-of select="substring-before(tei:geogName/tei:geo, ';')"/></xsl:when>
+                    <xsl:otherwise><xsl:value-of select="normalize-space(tei:geogName/tei:geo)"/></xsl:otherwise>
+                  </xsl:choose><xsl:text>"</xsl:text>
+                </xsl:for-each><xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if>
+              </xsl:for-each>
+          <xsl:text>}</xsl:text>
+        </xsl:variable>
+        
+        <div class="row">
+          <div class="map_jp"><xsl:attribute name="id"><xsl:value-of select="concat('map', $id)"/></xsl:attribute></div>
+          <div class="legend">
+            <p>
+              <img src="../../../assets/images/golden.png" alt="golden circle" class="mapicon"/>Places linked to fiscal properties
+              <img src="../../../assets/images/purple.png" alt="purple circle" class="mapicon"/>Places not linked to fiscal properties
+              <img src="../../../assets/images/polygon.png" alt="green polygon" class="mapicon"/>Places not precisely located or wider areas
+              <br/>
+              <img src="../../../assets/images/anchor.png" alt="anchor" class="mapicon"/>Ports and fords
+              <img src="../../../assets/images/tower.png" alt="tower" class="mapicon"/>Fortifications
+              <img src="../../../assets/images/sella.png" alt="sella" class="mapicon"/>Residences
+              <img src="../../../assets/images/coin.png" alt="coin" class="mapicon"/>Markets, crafts and revenues
+              <img src="../../../assets/images/star.png" alt="star" class="mapicon"/>Estates and estate units
+              <img src="../../../assets/images/square.png" alt="square" class="mapicon"/>Tenures
+              <img src="../../../assets/images/triangle.png" alt="triangle" class="mapicon"/>Land plots and rural buildings
+              <img src="../../../assets/images/tree.png" alt="tree" class="mapicon"/>Fallow land
+            </p>
+          </div>
+          <script type="text/javascript">
+            var streets = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoiaXZhZ2lvbmFraXMiLCJhIjoiY2treTVmZnhyMDBzdTJ2bWxyemY4anJtNSJ9.QrP-0v-7btCzG97ll23HKw', {
+            id: 'mapbox/streets-v11', 
+            tileSize: 512, 
+            zoomOffset: -1, 
+            attribution: 'Map data <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>'
+            });
+            var grayscale = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoiaXZhZ2lvbmFraXMiLCJhIjoiY2treTVmZnhyMDBzdTJ2bWxyemY4anJtNSJ9.QrP-0v-7btCzG97ll23HKw', {
+            id: 'mapbox/light-v10', 
+            tileSize: 512, 
+            zoomOffset: -1, 
+            attribution: 'Map data <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>'
+            });
+            var satellite = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoiaXZhZ2lvbmFraXMiLCJhIjoiY2treTVmZnhyMDBzdTJ2bWxyemY4anJtNSJ9.QrP-0v-7btCzG97ll23HKw', {
+            id: 'mapbox/satellite-streets-v11', 
+            tileSize: 512, 
+            zoomOffset: -1, 
+            attribution: 'Map data <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>'
+            });
+            var dare = L.tileLayer('https://dh.gu.se/tiles/imperium/{z}/{x}/{y}.png', {
+            minZoom: 4,
+            maxZoom: 11,
+            attribution: 'Map data <a href="https://imperium.ahlfeldt.se/">Digital Atlas of the Roman Empire</a> CC BY 4.0'
+            });
+            var terrain = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Shaded_Relief/MapServer/tile/{z}/{y}/{x}', {
+            attribution: 'Tiles and source Esri',
+            maxZoom: 13
+            });
+            var watercolor = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.{ext}', {
+            attribution: 'Map tiles <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>, Map data <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+            subdomains: 'abcd',
+            minZoom: 1,
+            maxZoom: 16,
+            ext: 'jpg'
+            });
+            var osm = L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: 'Map data <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+            });
+            var <xsl:value-of select="concat('map', $id)"/> = L.map('<xsl:value-of select="concat('map', $id)"/>', { center: [44, 10.335], zoom: 5, layers: [osm, streets, grayscale, satellite, terrain, watercolor] });
+            
+            L.control.scale().addTo(<xsl:value-of select="concat('map', $id)"/>);
+            var LeafIcon = L.Icon.extend({ options: {iconSize: [14, 14]} });
+            var purpleIcon = new LeafIcon({iconUrl: '../../../assets/images/purple.png'}),
+            goldenIcon = new LeafIcon({iconUrl: '../../../assets/images/golden.png'});
+            
+            var polygons = <xsl:value-of select="$map_polygons"/>;
+            var points = <xsl:value-of select="$map_points"/>;
+            var polygons_places = [];
+            var purple_places = [];
+            var golden_places = [];
+            var ports_places = [];
+            var fortifications_places = [];
+            var residences_places = [];
+            var revenues_places = [];
+            var estates_places = [];
+            var tenures_places = [];
+            var land_places = [];
+            var fallow_places = [];
+            
+            for (var [key, value] of Object.entries(points)) {
+            var info = key.substring(key.indexOf("@"), key.lastIndexOf("@"));
+            symbols = info.replace('@c', '<img src="../../../assets/images/anchor.png" alt="anchor" class="mapicon"/>').replace('@d', '<img src="../../../assets/images/tower.png" alt="tower" class="mapicon"/>').replace('@e', '<img src="../../../assets/images/sella.png" alt="sella" class="mapicon"/>').replace('@f', '<img src="../../../assets/images/coin.png" alt="coin" class="mapicon"/>').replace('@g', '<img src="../../../assets/images/star.png" alt="star" class="mapicon"/>').replace('@h', '<img src="../../../assets/images/square.png" alt="square" class="mapicon"/>').replace('@i', '<img src="../../../assets/images/triangle.png" alt="triangle" class="mapicon"/>').replace('@j', '<img src="../../../assets/images/tree.png" alt="tree" class="mapicon"/>'); 
+            if (key.includes('#a')) {
+            purple_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: purpleIcon}).bindPopup('<a href="places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
+            if (key.includes('c@')) {
+            ports_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: purpleIcon}).bindPopup('<a href="places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
+            }
+            if (key.includes('d@')) {
+            fortifications_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: purpleIcon}).bindPopup('<a href="places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
+            }
+            if (key.includes('e@')) {
+            residences_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: purpleIcon}).bindPopup('<a href="places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
+            }
+            if (key.includes('f@')) {
+            revenues_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: purpleIcon}).bindPopup('<a href="places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
+            }
+            if (key.includes('g@')) {
+            estates_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: purpleIcon}).bindPopup('<a href="places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
+            }
+            if (key.includes('h@')) {
+            tenures_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: purpleIcon}).bindPopup('<a href="places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
+            }
+            if (key.includes('i@')) {
+            land_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: purpleIcon}).bindPopup('<a href="places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
+            }
+            if (key.includes('j@')) {
+            fallow_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: purpleIcon}).bindPopup('<a href="places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
+            }
+            }
+            if (key.includes('#b')) {
+            golden_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: goldenIcon}).bindPopup('<a href="places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
+            if (key.includes('c@')) {
+            ports_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: goldenIcon}).bindPopup('<a href="places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
+            }
+            if (key.includes('d@')) {
+            fortifications_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: goldenIcon}).bindPopup('<a href="places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
+            }
+            if (key.includes('e@')) {
+            residences_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: goldenIcon}).bindPopup('<a href="places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
+            }
+            if (key.includes('f@')) {
+            revenues_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: goldenIcon}).bindPopup('<a href="places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
+            }
+            if (key.includes('g@')) {
+            estates_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: goldenIcon}).bindPopup('<a href="places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
+            }
+            if (key.includes('h@')) {
+            tenures_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: goldenIcon}).bindPopup('<a href="places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
+            }
+            if (key.includes('i@')) {
+            land_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: goldenIcon}).bindPopup('<a href="places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
+            }
+            if (key.includes('j@')) {
+            fallow_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: goldenIcon}).bindPopup('<a href="places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
+            }
+            }
+            };
+            
+            for (var [key, value] of Object.entries(polygons)) {
+            var split_values = value.split(';');
+            split_values.forEach(function(item, index, array) {
+            array[index] = parseFloat(item);
+            });
+            var coords = chunkArray(split_values, 2);  <!-- function called from assets/scripts/maps.js -->
+            polygons_places.push(L.polygon([coords], {color: 'green'}).bindPopup('<a href="places.html#0">'.replace("0", key.substring(key.lastIndexOf("#") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("#") +1)) + '➚</a></span>'));
+            }; 
+            var toggle_ports_places = L.layerGroup(ports_places);
+            var toggle_fortifications_places = L.layerGroup(fortifications_places);
+            var toggle_residences_places = L.layerGroup(residences_places);
+            var toggle_revenues_places = L.layerGroup(revenues_places);
+            var toggle_estates_places = L.layerGroup(estates_places);
+            var toggle_tenures_places = L.layerGroup(tenures_places);
+            var toggle_land_places = L.layerGroup(land_places);
+            var toggle_fallow_places = L.layerGroup(fallow_places);
+            var toggle_purple_places = L.layerGroup(purple_places).addTo(<xsl:value-of select="concat('map', $id)"/>);
+            var toggle_golden_places = L.layerGroup(golden_places).addTo(<xsl:value-of select="concat('map', $id)"/>);
+            var toggle_polygons = L.layerGroup(polygons_places).addTo(<xsl:value-of select="concat('map', $id)"/>);
+            
+            var baseMaps = {
+            "DARE": dare,
+            "Terrain": terrain, 
+            "Grayscale": grayscale,
+            "Satellite": satellite,
+            "Watercolor": watercolor,
+            "Streets": streets,
+            "Open Street Map": osm
+            };
+            
+            var overlayMaps = {
+            "All places linked to fiscal properties": toggle_golden_places,
+            "All places not linked to fiscal properties": toggle_purple_places,
+            "Places not precisely located or wider areas": toggle_polygons,
+            "Ports and fords": toggle_ports_places,
+            "Fortifications": toggle_fortifications_places,
+            "Residences": toggle_residences_places,
+            "Markets, crafts and revenues": toggle_revenues_places,
+            "Estates and estate units": toggle_estates_places,
+            "Tenures": toggle_tenures_places,
+            "Land plots and rural buildings": toggle_land_places,
+            "Fallow land": toggle_fallow_places
+            };
+            
+            L.control.layers(baseMaps, overlayMaps).addTo(<xsl:value-of select="concat('map', $id)"/>);
+            L.Control.geocoder().addTo(<xsl:value-of select="concat('map', $id)"/>);
+          </script>
+        </div>
+      </xsl:if>
     </div>
   </xsl:template>
   
@@ -401,7 +633,7 @@
           <img src="../../../assets/images/golden.png" alt="golden circle" class="mapicon"/>Places linked to fiscal properties
           <img src="../../../assets/images/purple.png" alt="purple circle" class="mapicon"/>Places not linked to fiscal properties
           <img src="../../../assets/images/polygon.png" alt="green polygon" class="mapicon"/>Places not precisely located or wider areas
-          <br/><br/>
+          <br/>
           <img src="../../../assets/images/anchor.png" alt="anchor" class="mapicon"/>Ports and fords
           <img src="../../../assets/images/tower.png" alt="tower" class="mapicon"/>Fortifications
           <img src="../../../assets/images/sella.png" alt="sella" class="mapicon"/>Residences
