@@ -320,9 +320,9 @@
       <div id="mynetwork"></div>
       <div class="legend">
         <p>
-          <span style="color:red">red arrow</span>: family relations | 
-          <span style="color:green">green arrow</span>: personal bonds |
-          <span style="color:blue">blue arrow</span>: other links
+          <span style="color:red">➝</span> family relations | 
+          <span style="color:green">➝</span> personal bonds |
+          <span style="color:blue">➝</span> other links
         </p>
       </div>
       <script type="text/javascript">
