@@ -2336,7 +2336,16 @@
                     <idno>places/260</idno>
                     <note/>
                     <link type="estates"
-                        corresp="#estates/148 #estates/146 #estates/42 #estates/147"
+                        corresp="#estates/148"
+                        subtype="hasInItsVicinity"/>
+                    <link type="estates"
+                        corresp="#estates/146"
+                        subtype="hasInItsVicinity"/>
+                    <link type="estates"
+                        corresp="#estates/149"
+                        subtype="hasInItsVicinity"/>
+                    <link type="estates"
+                        corresp="#estates/147"
                         subtype="hasInItsVicinity"/>
                 </place>
             </listPlace>
