@@ -2427,12 +2427,17 @@
                     <link type="people" corresp="#people/188" subtype="link"/>
                 </place>
                 <place>
-                    <placeName>Catellare (in Franciano; Piombino; Livorno)</placeName>
-                    <placeName type="other">Castellare de Franciano; Castellare de
-                        Cornino</placeName>
-                    <geogName type="coord"><geo/></geogName>
+                    <placeName><foreign>Castellare</foreign> (in Franciano; Piombino;
+                        Livorno)</placeName>
+                    <placeName type="other"><foreign>Castellare de Franciano</foreign>;
+                            <foreign>Castellare de Cornino</foreign></placeName>
+                    <geogName type="coord"><geo>42.98468, 10.63095</geo></geogName>
                     <idno>places/268</idno>
-                    <note/>
+                    <note>Si indicano momentaneamente le coordinate di Franciano</note>
+                    <link type="places" corresp="#places/89" subtype="isInVicinityOf"/>
+                    <link type="places" corresp="#places/91" subtype="isPartOf"/>
+                    <link type="estates" subtype="isPartOf" corresp="#estates/85"/>
+                    <link type="people" corresp="#people/96 #people/104" subtype="link"/>
                 </place>
             </listPlace>
         </body>
