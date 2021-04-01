@@ -595,6 +595,7 @@
                     <link type="people" corresp="#people/100" subtype="brotherOf"/>
                     <link type="people" corresp="#people/101" subtype="sonOf"/>
                     <link type="people" corresp="#people/104" subtype="link"/>
+                    <link type="estates" corresp="#estates/85" subtype="hasConnectionWith"/>
                 </person>
                 <person>
                     <persName>Rainerius Malabranca (II Aldobrandeschi; 1070-1096?; q.1097?; q.1103) comes </persName>
@@ -608,6 +609,7 @@
                     <link type="people" corresp="#people/101" subtype="legallyRecognisedUnionWith"/>
                     <link type="people" corresp="#people/102" subtype="sonOf"/>
                     <link type="people" corresp="#people/105" subtype="link"/>
+                    <link type="estates" corresp="#estates/85" subtype="hasConnectionWith"/>
                 </person>
                 <person>
                     <persName>Maximilla (Aldobrandeschi; 1114-1121) comitissa</persName>
@@ -617,6 +619,7 @@
                         <note>Collavini 1995-1996: 532</note>
                     </note>
                     <link type="people" corresp="#people/96" subtype="legallyRecognisedUnionWith"/>
+                    <link type="estates" corresp="#estates/85" subtype="hasConnectionWith"/>
                 </person>
                 <person>
                     <persName>Lupa (Aldobrandeschi; 1114-1121) comitissa</persName>
@@ -624,6 +627,7 @@
                     <idno>people/99</idno>
                     <note>figlia di Soffredo; Collavini 1995-1996: 531</note>
                     <link type="people" corresp="#people/100" subtype="legallyRecognisedUnionWith"/>
+                    <link type="estates" corresp="#estates/85" subtype="hasConnectionWith"/>
                 </person>
                 <person>
                     <persName>Malagalea (Aldobrandeschi; 1100-1114; q.1121) comes</persName>
@@ -642,6 +646,7 @@
                     <note>figlia del conte Ranieri degli Ardengheschi; Collavini 1995-1996: 528-529</note>
                     <link type="people" corresp="#people/97" subtype="legallyRecognisedUnionWith"/>
                     <link type="people" corresp="#people/96 #people/100" subtype="motherOf"/>
+                    <link type="estates" corresp="#estates/85" subtype="hasConnectionWith"/>
                 </person>
                 <person>
                     <persName>Ildebrandus (V; Aldobrandeschi; 1040-1076; q.1077) comes</persName>
@@ -824,6 +829,7 @@
                     <note>Collavini 1995-1996: 527</note>
                     <link type="people" corresp="#people/107" subtype="legallyRecognisedUnionWith"/>
                     <link type="people" corresp="#people/197" subtype="motherOf"/>
+                    <link type="people" corresp="#people/198" subtype="daughterOf"/>
                 </person>
                 <person>
                     <persName>Rodulfus (Aldobrandeschi; 1049; q.1053) comes</persName>
@@ -1584,10 +1590,12 @@
                     <link type="people" corresp="#people/121" subtype="sonOf"/>
                 </person>
                 <person>
-                    <persName>Guilielmus marchio</persName>
-                    <persName type="other"/>
+                    <persName>Guilielmus marchio (1053; q.1089)</persName>
+                    <persName type="other"><foreign>Wililemus</foreign>;
+                            <foreign>Quilielmus</foreign>; </persName>
                     <idno>people/198</idno>
                     <note/>
+                    <link type="people" corresp="#people/121" subtype="fatherOf"/>
                 </person>
                 
             </listPerson>
