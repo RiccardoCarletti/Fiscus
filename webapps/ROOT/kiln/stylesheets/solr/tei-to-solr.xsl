@@ -198,10 +198,19 @@
     </field>
   </xsl:template>
   
-  <xsl:template match="tei:orgName[@ref]" mode="facet_mentioned_juridical_persons">
+  <xsl:template match="tei:orgName[@ref!='']" mode="facet_mentioned_juridical_persons">
       <field name="mentioned_juridical_persons">
         <xsl:variable name="ref" select="translate(@ref,' #', '')"/>
-        <xsl:value-of select="translate(document('../../../content/fiscus_framework/resources/juridical_persons.xml')//tei:org[descendant::tei:idno=$ref][1]/tei:orgName[1], '/', '／')"/>
+        <xsl:choose>
+          <xsl:when test="document('../../../content/fiscus_framework/resources/juridical_persons.xml')//tei:org[descendant::tei:idno=$ref]">
+            <xsl:variable name="name" select="translate(document('../../../content/fiscus_framework/resources/juridical_persons.xml')//tei:org[descendant::tei:idno=$ref][1]/tei:orgName[1], '/', '／')"/>
+            <xsl:value-of select="upper-case(substring($name, 1, 1))"/>
+            <xsl:value-of select="substring($name, 2)"/>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:value-of select="translate(@ref,' #', '')"/>
+          </xsl:otherwise>
+        </xsl:choose>
       </field>
   </xsl:template>
   
@@ -229,24 +238,51 @@
     </field>
   </xsl:template>
 
-  <xsl:template match="tei:persName[@ref]" mode="facet_mentioned_persons">
+  <xsl:template match="tei:persName[@ref!='']" mode="facet_mentioned_persons">
     <field name="mentioned_persons">
       <xsl:variable name="ref" select="translate(@ref,' #', '')"/>
-      <xsl:value-of select="translate(document('../../../content/fiscus_framework/resources/people.xml')//tei:person[descendant::tei:idno=$ref][1]/tei:persName[1], '/', '／')" />
+      <xsl:choose>
+        <xsl:when test="document('../../../content/fiscus_framework/resources/people.xml')//tei:person[descendant::tei:idno=$ref]">
+          <xsl:variable name="name" select="translate(document('../../../content/fiscus_framework/resources/people.xml')//tei:person[descendant::tei:idno=$ref][1]/tei:persName[1], '/', '／')"/>
+          <xsl:value-of select="upper-case(substring($name, 1, 1))"/>
+          <xsl:value-of select="substring($name, 2)"/>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:value-of select="translate(@ref,' #', '')"/>
+        </xsl:otherwise>
+      </xsl:choose>
     </field>
   </xsl:template>
 
-  <xsl:template match="tei:persName[@ref]" mode="facet_mentioned_people">
+  <xsl:template match="tei:persName[@ref!='']" mode="facet_mentioned_people">
     <field name="mentioned_people">
       <xsl:variable name="ref" select="translate(@ref,' #', '')"/>
-      <xsl:value-of select="translate(translate(document('../../../content/fiscus_framework/resources/people.xml')//tei:person[descendant::tei:idno=$ref][1]/tei:persName[1], '/', '／'), '?', '')" />
+      <xsl:choose>
+        <xsl:when test="document('../../../content/fiscus_framework/resources/people.xml')//tei:person[descendant::tei:idno=$ref]">
+          <xsl:variable name="name" select="translate(document('../../../content/fiscus_framework/resources/people.xml')//tei:person[descendant::tei:idno=$ref][1]/tei:persName[1], '/', '／')"/>
+          <xsl:value-of select="upper-case(substring($name, 1, 1))"/>
+          <xsl:value-of select="substring($name, 2)"/>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:value-of select="translate(@ref,' #', '')"/>
+        </xsl:otherwise>
+      </xsl:choose>
     </field>
   </xsl:template>
 
-  <xsl:template match="tei:placeName[@ref]" mode="facet_mentioned_places">
+  <xsl:template match="tei:placeName[@ref!='']" mode="facet_mentioned_places">
     <field name="mentioned_places">
       <xsl:variable name="ref" select="translate(@ref,' #', '')"/>
-      <xsl:value-of select="translate(document('../../../content/fiscus_framework/resources/places.xml')//tei:place[descendant::tei:idno=$ref][1]/tei:placeName[not(@type)][1], '/', '／')" />
+      <xsl:choose>
+        <xsl:when test="document('../../../content/fiscus_framework/resources/places.xml')//tei:place[descendant::tei:idno=$ref]/tei:placeName[not(@type)]">
+          <xsl:variable name="name" select="translate(document('../../../content/fiscus_framework/resources/places.xml')//tei:place[descendant::tei:idno=$ref][1]/tei:placeName[not(@type)][1], '/', '／')"/>
+          <xsl:value-of select="upper-case(substring($name, 1, 1))"/>
+          <xsl:value-of select="substring($name, 2)"/>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:value-of select="translate(@ref,' #', '')"/>
+        </xsl:otherwise>
+      </xsl:choose>
     </field>
   </xsl:template>
 
