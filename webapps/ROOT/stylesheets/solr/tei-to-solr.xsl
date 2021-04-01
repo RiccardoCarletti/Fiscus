@@ -176,7 +176,11 @@
     <field name="mentioned_estates">
       <xsl:variable name="ref" select="translate(@ref,' #', '')"/>
       <xsl:choose>
-        <xsl:when test="document('../../content/fiscus_framework/resources/estates.xml')//tei:place[descendant::tei:idno=$ref]"><xsl:value-of select="translate(document('../../content/fiscus_framework/resources/estates.xml')//tei:place[descendant::tei:idno=$ref][1]/tei:geogName[1], '/', '／')" /></xsl:when>
+        <xsl:when test="document('../../content/fiscus_framework/resources/estates.xml')//tei:place[descendant::tei:idno=$ref]">
+          <xsl:variable name="name" select="translate(document('../../content/fiscus_framework/resources/estates.xml')//tei:place[descendant::tei:idno=$ref][1]/tei:geogName[1], '/', '／')"/>
+          <xsl:value-of select="upper-case(substring($name, 1, 1))"/>
+          <xsl:value-of select="substring($name, 2)"/>
+        </xsl:when>
         <xsl:otherwise>
           <xsl:value-of select="translate(@ref,' #', '')"/>
         </xsl:otherwise>
