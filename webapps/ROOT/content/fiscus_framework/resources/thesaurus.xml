@@ -101,6 +101,8 @@
             
             <category><catDesc xml:id="c25703" n="Houses">    • Houses</catDesc></category>
             
+            <category><catDesc xml:id="c26362" n="Palatia">    • Palatia</catDesc></category>
+            
             <category><catDesc xml:id="c25704" n="Areas">    • Areas</catDesc>
               <category><catDesc xml:id="c25705" n="Confinia">        ◦ Confinia</catDesc></category>
             </category>
@@ -175,7 +177,7 @@
               <category><catDesc xml:id="c25757" n="Dried_fruits">        ◦ Dried fruits</catDesc></category>
               <category><catDesc xml:id="c25758" n="Chestnuts">        ◦ Chestnuts</catDesc></category>
               <category><catDesc xml:id="c25759" n="Acorns">        ◦ Acorns</catDesc></category>
-              <category><catDesc xml:id="c25760" n="Hay">        ◦ Hay</catDesc></category>
+              <category><catDesc xml:id="c25760" n="Hay/fodder">        ◦ Hay/fodder</catDesc></category>
               <category><catDesc xml:id="c25761" n="Honey">        ◦ Honey</catDesc></category>
               <category><catDesc xml:id="c25762" n="Cheese">        ◦ Cheese</catDesc></category>
               <category><catDesc xml:id="c25763" n="Eggs">        ◦ Eggs</catDesc></category>
@@ -283,12 +285,13 @@
                 <category><catDesc xml:id="c25863" n="Laubia/topia">            ▸ Laubia/topia</catDesc></category>
                 <category><catDesc xml:id="c25864" n="Spolia">            ▸ Spolia</catDesc></category>
             </category>
-              <category><catDesc xml:id="c25865" n="Management">        ◦ Management</catDesc>
-                <category><catDesc xml:id="c25869" n="Coloni/tenants">            ▸ Coloni/tenants</catDesc>
-                  <category><catDesc xml:id="c25870" n="Manentes">                * Manentes</catDesc></category>
-                  <category><catDesc xml:id="c25871" n="Condomae">                * Condomae</catDesc></category>
             </category>
-            </category>
+            
+            <category><catDesc xml:id="c26358" n="Management">    • Management</catDesc>
+              <category><catDesc xml:id="c26359" n="Coloni/tenants">        ◦ Coloni/tenants</catDesc>
+                <category><catDesc xml:id="c26360" n="Manentes">            ▸ Manentes</catDesc></category>
+                <category><catDesc xml:id="c26361" n="Condomae">            ▸ Condomae</catDesc></category>
+              </category>
             </category>
             
             <category><catDesc xml:id="c25875" n="Rent_type">    • Rent type</catDesc>
@@ -311,6 +314,7 @@
             
             <category><catDesc xml:id="c25889" n="Fortifications">    • Fortifications</catDesc>
               <category><catDesc xml:id="c25890" n="Castle">        ◦ Castle</catDesc></category>
+              <category><catDesc xml:id="c26357" n="Fortress">        ◦ Fortress</catDesc></category>
               <category><catDesc xml:id="c25891" n="Tower">        ◦ Tower</catDesc></category>
               <category><catDesc xml:id="c25892" n="Clusae/gates">        ◦ Clusae/gates</catDesc></category>
               <category><catDesc xml:id="c25893" n="Walls">        ◦ Walls</catDesc></category>
@@ -331,7 +335,7 @@
             
             <category><catDesc xml:id="c25905" n="Mints">    • Mints</catDesc></category>
             
-            <category><catDesc xml:id="c25906" n="Finance">    • Finance</catDesc>
+            <category><catDesc xml:id="c25906" n="Loans">    • Loans</catDesc>
               <category><catDesc xml:id="c25907" n="Interest_bearing_loans">        ◦ Interest bearing loans</catDesc></category>
               <category><catDesc xml:id="c25908" n="Loans_with_no_interest">        ◦ Loans with no interest</catDesc></category>
             </category>
@@ -351,6 +355,7 @@
             <category><catDesc xml:id="c25918" n="Emperor/king">    • Emperor/king</catDesc></category>
             <category><catDesc xml:id="c25919" n="Queen">    • Queen</catDesc></category>
             <category><catDesc xml:id="c26221" n="Princeps">    • Princeps</catDesc></category>
+            <category><catDesc xml:id="c26356" n="Principissa">    • Principissa</catDesc></category>
             <category><catDesc xml:id="c25920" n="Marquis/duke">    • Marquis/duke</catDesc></category>
             <category><catDesc xml:id="c25921" n="Count">    • Count</catDesc></category>
             <category><catDesc xml:id="c25922" n="Countess">    • Countess</catDesc></category>
@@ -360,6 +365,7 @@
             <category><catDesc xml:id="c25926" n="Sculdahis">    • Sculdahis</catDesc></category>
             <category><catDesc xml:id="c25927" n="Marepahis">    • Marepahis</catDesc></category>
             <category><catDesc xml:id="c25928" n="Other_palatine_officer">    • Other palatine officer</catDesc></category>
+            <category><catDesc xml:id="c26355" n="Papal_court_officer">    • Papal court officer</catDesc></category>
             
             <category><catDesc xml:id="c25929" n="Other_minor_officer">    • Other minor officer</catDesc>
               <category><catDesc xml:id="c25930" n="Court_clergyman">    • Court clergyman</catDesc></category>
@@ -374,6 +380,7 @@
               <category><catDesc xml:id="c26222" n="Tabellio">        ◦ Tabellio</catDesc></category>
               <category><catDesc xml:id="c26242" n="Scriniarius">        ◦ Scriniarius</catDesc></category>
               <category><catDesc xml:id="c25935" n="Judge">        ◦ Judge</catDesc></category>
+              <category><catDesc xml:id="c26354" n="Causidicus">        ◦ Causidicus</catDesc></category>
           </category>
             
             <category><catDesc xml:id="c25936" n="Consiliarius_regis">    • Consiliarius regis</catDesc></category>
@@ -412,6 +419,7 @@
               <category><catDesc xml:id="c25950" n="Actio">        ◦ Actio</catDesc></category>
               <category><catDesc xml:id="c25951" n="Subactio">        ◦ Subactio</catDesc></category>
               <category><catDesc xml:id="c26321" n="Other_administrative_unit">        ◦ Other administrative unit</catDesc></category>
+              <category><catDesc xml:id="c26353" n="Seigneurial_district">        ◦ Seigneurial district</catDesc></category>
               <category><catDesc xml:id="c25952" n="Dioecesis">        ◦ Dioecesis</catDesc></category>
               <category><catDesc xml:id="c25953" n="Plebs">        ◦ Plebs</catDesc></category>
           </category>
@@ -450,9 +458,11 @@
               <category><catDesc xml:id="c25975" n="Coinage">        ◦ Coinage</catDesc></category>
           </category>
             
-            <category><catDesc xml:id="c25976" n="Royal_ordinances">    • Royal ordinances</catDesc></category>
-            <category><catDesc xml:id="c25977" n="Letters_from_public_authorities">    • Letters from public authorities</catDesc></category>
-            <category><catDesc xml:id="c25978" n="Substitution_of_a_beneficium">    • Substitution of a beneficium</catDesc></category>
+            <category><catDesc xml:id="c26351" n="Ius_patronatus">    • Ius patronatus</catDesc></category>
+            <category><catDesc xml:id="c25976" n="Oral_ordinances">    • Oral ordinances</catDesc></category>
+            <category><catDesc xml:id="c26352" n="Oral_grants">    • Oral grants</catDesc></category>
+            <category><catDesc xml:id="c25977" n="Inquisitio">    • Inquisitio</catDesc></category>
+            <category><catDesc xml:id="c25978" n="Tuitio/bannum/mundeburdium">    • Tuitio/bannum/mundeburdium</catDesc></category>
             <category><catDesc xml:id="c25979" n="Itinerary">    • Itinerary</catDesc></category>
             <category><catDesc xml:id="c25980" n="Scufiae/transport_service">    • Scufiae/transport service</catDesc></category>
             <category><catDesc xml:id="c25981" n="Extortions_by_officers">    • Extortions by officers</catDesc></category>
@@ -517,7 +527,10 @@
               <category><catDesc xml:id="c26021" n="Deacons">        ◦ Deacons</catDesc></category>
               <category><catDesc xml:id="c26022" n="Subdeacons">        ◦ Subdeacons</catDesc></category>
               <category><catDesc xml:id="c26023" n="Other_clerics">        ◦ Other clerics</catDesc></category>
+              <category><catDesc xml:id="c26349" n="Patriarchs">        ◦ Patriarchs</catDesc></category>
+              <category><catDesc xml:id="c26350" n="Cardinals">        ◦ Cardinals</catDesc></category>
               <category><catDesc xml:id="c26226" n="Prevosts">        ◦ Prevosts</catDesc></category>
+              <category><catDesc xml:id="c26348" n="Priors">        ◦ Priors</catDesc></category>
               <category><catDesc xml:id="c26024" n="Abbots">        ◦ Abbots</catDesc></category>
               <category><catDesc xml:id="c26025" n="Abbesses">        ◦ Abbesses</catDesc></category>
               <category><catDesc xml:id="c26026" n="Monks">        ◦ Monks</catDesc></category>
@@ -569,6 +582,7 @@
             <category><catDesc xml:id="c26070" n="Munus">    • Munus</catDesc></category>
             <category><catDesc xml:id="c26072" n="Private_foundations">    • Private foundations</catDesc></category>
             <category><catDesc xml:id="c26073" n="Joint_foundations">    • Joint foundations</catDesc></category>
+            <category><catDesc xml:id="c26071" n="Consortes/shared_possessions">    • Consortes/shared possessions</catDesc></category>
             <category><catDesc xml:id="c26074" n="Distributions_of_moveable_goods">    • Distributions of moveable goods</catDesc></category>
             <category><catDesc xml:id="c26075" n="Marriages">    • Marriages</catDesc></category>
             <category><catDesc xml:id="c26076" n="Clerical_concubinage">    • Clerical concubinage</catDesc></category>
@@ -644,6 +658,7 @@
               <category><catDesc xml:id="c26192" n="Testamentary_link_with">        ◦ Testamentary link with</catDesc></category>
               <category><catDesc xml:id="c26193" n="Legatee_of">        ◦ Legatee of</catDesc></category>
               <category><catDesc xml:id="c26194" n="Heir_to">        ◦ Heir to</catDesc></category>
+              <category><catDesc xml:id="c26347" n="Mundualdus_of">        ◦ Mundualdus of</catDesc></category>
               <category><catDesc xml:id="c26195" n="Friendship_for">        ◦ Friendship for</catDesc></category>
               <category><catDesc xml:id="c26196" n="Alliance_with">        ◦ Alliance with</catDesc></category>
               <category><catDesc xml:id="c26197" n="Enmity_for">        ◦ Enmity for</catDesc></category>
