@@ -220,7 +220,7 @@
            edit, "@subtype"
            editable, true,
              columns, 25,
-             values, "legallyRecognisedUnionWith, seriousIntimateRelationshipWith, casualIntimateRelationshipWith, intimateRelationshipWith, fatherOf, fatherInLawOf, motherOf, motherInLawOf, parentOf, fosterParentOf, sonOf, sonInLawOf, daughterOf, daughterInLawOf, childOf, grandfatherOf, grandmotherOf, grandparentOf, grandsonOf, granddaughterOf, grandchildOf, greatGrandfatherOf, greatGrandmotherOf, greatGrandparentOf, greatGrandsonOf, greatGranddaughterOf, brotherOf, brotherInLawOf, sisterOf, sisterInLawOf, siblingOf, auntOf, uncleOf, nephewOf, nieceOf, childOfSiblingOf, cousinOf, kinOf, ancestorOf, descendentOf, familyOf, extendedFamilyOf, hereditaryFamilyOf, householdOf, extendedHouseholdOf, patronOf, clientOf, masterOf, formerMasterOf, slaveOf, houseSlaveOf, formerSlaveOf, freedSlaveOf, freedmanOf, freedwomanOf, fellowFreedmanOf, godfatherOf, godmotherOf, godsonOf, goddaughterOf, compaterOf, commaterOf, nutritusOf, nutritorOf, benefactorOf, GratitudeTo, testamentaryLinkWith, legateeOf, heirTo, mundualdusOf, friendshipFor, allianceWith, enmityFor, dominusOf, seniorOf, vassusOf, gasindiusOf, fidelisOf, milesOf, homoOf, agentFor, professionalRelationship, link");
+             values, oxy_concat("", oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/thesaurus.xml'), '")//taxonomy[@xml:id="thesaurus"]//category[@n="bonds"]//category/catDesc/@n, ",")'))));
            display:block;
            padding-left:20px;
     }
@@ -241,7 +241,7 @@
            edit, "@subtype"
            editable, true,
              columns, 25,
-             values, "legallyRecognisedUnionWith, seriousIntimateRelationshipWith, casualIntimateRelationshipWith, intimateRelationshipWith, fatherOf, fatherInLawOf, motherOf, motherInLawOf, parentOf, fosterParentOf, sonOf, sonInLawOf, daughterOf, daughterInLawOf, childOf, grandfatherOf, grandmotherOf, grandparentOf, grandsonOf, granddaughterOf, grandchildOf, greatGrandfatherOf, greatGrandmotherOf, greatGrandparentOf, greatGrandsonOf, greatGranddaughterOf, brotherOf, brotherInLawOf, sisterOf, sisterInLawOf, siblingOf, auntOf, uncleOf, nephewOf, nieceOf, childOfSiblingOf, cousinOf, kinOf, ancestorOf, descendentOf, familyOf, extendedFamilyOf, hereditaryFamilyOf, householdOf, extendedHouseholdOf, patronOf, clientOf, masterOf, formerMasterOf, slaveOf, houseSlaveOf, formerSlaveOf, freedSlaveOf, freedmanOf, freedwomanOf, fellowFreedmanOf, godfatherOf, godmotherOf, godsonOf, goddaughterOf, compaterOf, commaterOf, nutritusOf, nutritorOf, benefactorOf, GratitudeTo, testamentaryLinkWith, legateeOf, heirTo, mundualdusOf, friendshipFor, allianceWith, enmityFor, dominusOf, seniorOf, vassusOf, gasindiusOf, fidelisOf, milesOf, homoOf, agentFor, professionalRelationship, link");
+             values, oxy_concat("", oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/thesaurus.xml'), '")//taxonomy[@xml:id="thesaurus"]//category[@n="bonds"]//category/catDesc/@n, ",")'))));
            display:block;
            padding-left:20px;
     }
@@ -263,7 +263,7 @@
            edit, "@subtype"
            editable, true,
              columns, 25,
-             values, "legallyRecognisedUnionWith, seriousIntimateRelationshipWith, casualIntimateRelationshipWith, intimateRelationshipWith, fatherOf, fatherInLawOf, motherOf, motherInLawOf, parentOf, fosterParentOf, sonOf, sonInLawOf, daughterOf, daughterInLawOf, childOf, grandfatherOf, grandmotherOf, grandparentOf, grandsonOf, granddaughterOf, grandchildOf, greatGrandfatherOf, greatGrandmotherOf, greatGrandparentOf, greatGrandsonOf, greatGranddaughterOf, brotherOf, brotherInLawOf, sisterOf, sisterInLawOf, siblingOf, auntOf, uncleOf, nephewOf, nieceOf, childOfSiblingOf, cousinOf, kinOf, ancestorOf, descendentOf, familyOf, extendedFamilyOf, hereditaryFamilyOf, householdOf, extendedHouseholdOf, patronOf, clientOf, masterOf, formerMasterOf, slaveOf, houseSlaveOf, formerSlaveOf, freedSlaveOf, freedmanOf, freedwomanOf, fellowFreedmanOf, godfatherOf, godmotherOf, godsonOf, goddaughterOf, compaterOf, commaterOf, nutritusOf, nutritorOf, benefactorOf, GratitudeTo, testamentaryLinkWith, legateeOf, heirTo, mundualdusOf, friendshipFor, allianceWith, enmityFor, dominusOf, seniorOf, vassusOf, gasindiusOf, fidelisOf, milesOf, homoOf, agentFor, professionalRelationship, link");
+             values, oxy_concat("", oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/thesaurus.xml'), '")//taxonomy[@xml:id="thesaurus"]//category[@n="bonds"]//category/catDesc/@n, ",")'))));
            display:block;
            padding-left:20px;
     }
@@ -281,10 +281,10 @@
              " Link type: "
              oxy_editor(
            type, combo,
-           edit, "@subtype"
+           edit, "@subtype",
            editable, true,
              columns, 25,
-             values, "legallyRecognisedUnionWith, seriousIntimateRelationshipWith, casualIntimateRelationshipWith, intimateRelationshipWith, fatherOf, fatherInLawOf, motherOf, motherInLawOf, parentOf, fosterParentOf, sonOf, sonInLawOf, daughterOf, daughterInLawOf, childOf, grandfatherOf, grandmotherOf, grandparentOf, grandsonOf, granddaughterOf, grandchildOf, greatGrandfatherOf, greatGrandmotherOf, greatGrandparentOf, greatGrandsonOf, greatGranddaughterOf, brotherOf, brotherInLawOf, sisterOf, sisterInLawOf, siblingOf, auntOf, uncleOf, nephewOf, nieceOf, childOfSiblingOf, cousinOf, kinOf, ancestorOf, descendentOf, familyOf, extendedFamilyOf, hereditaryFamilyOf, householdOf, extendedHouseholdOf, patronOf, clientOf, masterOf, formerMasterOf, slaveOf, houseSlaveOf, formerSlaveOf, freedSlaveOf, freedmanOf, freedwomanOf, fellowFreedmanOf, godfatherOf, godmotherOf, godsonOf, goddaughterOf, compaterOf, commaterOf, nutritusOf, nutritorOf, benefactorOf, GratitudeTo, testamentaryLinkWith, legateeOf, heirTo, mundualdusOf, friendshipFor, allianceWith, enmityFor, dominusOf, seniorOf, vassusOf, gasindiusOf, fidelisOf, milesOf, homoOf, agentFor, professionalRelationship, link");
+             values, oxy_concat("", oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/thesaurus.xml'), '")//taxonomy[@xml:id="thesaurus"]//category[@n="bonds"]//category/catDesc/@n, ",")'))));
            display:block;
            padding-left:20px;
     }
@@ -438,6 +438,8 @@
              edit, "#text",
              editable, true,
              columns, 25,
+             /*values, oxy_concat("", oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/thesaurus.xml'), '")//taxonomy[@xml:id="thesaurus"]//category[@n="type_of_document"]//category/catDesc/@n, ",")'))),
+              labels, oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/thesaurus.xml'), '")//taxonomy[@xml:id="thesaurus"]//category[@n="type_of_document"]//category/catDesc, ",")' )));*/
               values, "Archaeological sources, Parchment documents, -Diploma, --Imperial/royal diploma, --Marquis’/ducal/princely diploma, --Episcopal diploma, -Placitum/iudicatum, -Cartula, --Venditio, --Commutatio, --Libellus/precaria/emphyteusis, --Offersio/donatio, --Promissio, --Ordinatio, --Testamentum/iudicatum, --Morgengabe, -Breve, --List/inventory, --Judicial breve, --Transactional breve, -Catalogus, -Littera/mandatum, -Papal concession, Epigraphic documents, Papyrological documents, -Papal concession (papyrus), -Breve (papyrus), Literary sources, -Author, Juridical sources, -Lex, -Capitulum");
            display:block;
     }
@@ -801,37 +803,6 @@ ab placeName:before {
     
     
     /* **************** Not used elements **************** */
-
-       /*provenance:before {
-       content: "Subsequent Provenance Information\AType: "
-       oxy_editor(
-             type, combo,
-             edit, "@type"
-             columns, 25,
-             editable, false,
-             values, "found, observed, not-observed, transferred")
-           "\ASubtype: "
-           oxy_editor(
-             type, combo,
-             edit, "@type"
-             columns, 25,
-             editable, false,
-             values, "--If 'found', discovered, rediscovered, first-recorded, --If 'observed', seen, recorded, reported, --If 'transferred', moved, sold, given, loaned, purchased, acquired, donated, ")
-           oxy_editor(
-             type, text,
-             edit, "#text"
-             columns, 25);
-           display: block;
-           visibility: -oxy-collapse-text;
-       }
-   
-       provenance location placeName {
-        border:1px solid rgb(153, 153, 143);
-        margin:10px 20px 15px 20px;
-        display:block;
-        -oxy-placeholder-content: 'Provenance information here. Tag persons, places and dates.';
-    }*/
-    
     support p, support {
         visibility: -oxy-collapse-text;
         display: block;
@@ -913,8 +884,6 @@ ab placeName:before {
             type, button,
             actionID, "insert_image");
     }
-
-    /*  Text Boxes */
 
  lb {
  content: " \A ";
