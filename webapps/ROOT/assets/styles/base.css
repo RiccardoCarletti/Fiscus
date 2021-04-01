@@ -156,31 +156,46 @@ p {
 }
 
 /* Tagged terms in the text */
+.hidden {
+    display:none;
+}
+
 ._rs {
+    display: inline !important;
     border-style: dashed !important;
     border-color: black !important;
     border-width: thin !important;
-    padding: 4px 2px 1px 2px;
+    padding: 4px 1px 1px 1px;
 }
 ._persName {
+    display: inline !important;
     background-color: #ffffcc !important;
     padding: 4px 0px 1px 0px;
 }
 ._orgName {
+    display: inline !important;
     background-color: #ffe6e6 !important;
     padding: 4px 0px 1px 0px;
 }
 ._geogName {
+    display: inline !important;
     background-color: #ccffcc !important;
     padding: 4px 0px 1px 0px;
 }
 ._placeName {
+    display: inline !important;
     background-color: #e6e6ff !important;
     padding: 4px 0px 1px 0px;
 }
 ._date {
+    display: inline !important;
     background-color: #ffccff !important;
     padding: 4px 0px 1px 0px;
+}
+
+._links {
+    display: inline !important;
+    color: #005471 !important;
 }
 
 #toggle_buttons button {
@@ -189,43 +204,8 @@ p {
     color: black;
 }
 
-#toggle_rs {
+#toggle_rs, #toggle_persName, #toggle_orgName, #toggle_geogName, #toggle_placeName, #toggle_date, #toggle_links {
     background-color: #f6f6f6;
-    border-style: none;
-    padding: 8px 8px 6px 8px;
-    /*background-color: white;
-    border-style: dashed;
-    border-color: black;
-    border-width: thin;
-    padding: 6px 6px 4px 6px;*/
-}
-#toggle_persName {
-    background-color: #f6f6f6;
-    /*background-color: #ffffcc;*/
-    border-style: none;
-    padding: 8px 8px 6px 8px;
-}
-#toggle_orgName {
-    background-color: #f6f6f6;
-    /*background-color: #ffe6e6;*/
-    border-style: none;
-    padding: 8px 8px 6px 8px;
-}
-#toggle_geogName {
-    background-color: #f6f6f6;
-    /*background-color: #ccffcc;*/
-    border-style: none;
-    padding: 8px 8px 6px 8px;
-}
-#toggle_placeName {
-    background-color: #f6f6f6;
-    /*background-color: #e6e6ff;*/
-    border-style: none;
-    padding: 8px 8px 6px 8px;
-}
-#toggle_date {
-    background-color: #f6f6f6;
-    /*background-color: #ffccff;*/
     border-style: none;
     padding: 8px 8px 6px 8px;
 }

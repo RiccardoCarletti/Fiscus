@@ -222,6 +222,7 @@
         <button class="geogName" id="toggle_geogName">estates</button>
         <button class="date" id="toggle_date">dates</button>
         <button class="rs" id="toggle_rs">keywords</button>
+        <button class="links" id="toggle_links">links</button>
       </p>
       <script>
          $(document).ready(function(){
@@ -257,6 +258,12 @@
          $(document).ready(function(){
          $("#toggle_rs").click(function(){
          $(".rs").toggleClass("_rs");
+         });
+         });
+         
+         $(document).ready(function(){
+         $("#toggle_links").click(function(){
+         $(".links").toggleClass("_links");
          });
          });
        </script>
@@ -455,103 +462,24 @@
     </i>
   </xsl:template>
 
-  <xsl:template match="t:persName[ancestor::t:div[@type = 'edition']][@ref != '']">
-    <a target="_blank">
-      <xsl:attribute name="href">
-        <xsl:value-of
-          select="concat('../texts/people.html#', substring-after(translate(@ref, '#', ''), 'people/'))"
-        />
-      </xsl:attribute>
-      <span class="persName">
-        <!--<xsl:text>⚲ </xsl:text>-->
-        <xsl:apply-templates/>
-      </span>
-    </a>
+  <xsl:template match="t:persName[ancestor::t:div[@type = 'edition']]">
+    <span class="persName hidden"><xsl:text>*</xsl:text></span><xsl:apply-templates/><span class="persName hidden"><xsl:text>*</xsl:text></span>
+    <xsl:if test="@ref !=''"><a target="_blank" class="links hidden"><xsl:attribute name="href"><xsl:value-of select="concat('../texts/people.html#', substring-after(translate(@ref, '#', ''), 'people/'))"/></xsl:attribute> ➚</a></xsl:if>
   </xsl:template>
-
-  <xsl:template match="t:placeName[ancestor::t:div[@type = 'edition']][@ref != '']">
-    <a target="_blank">
-      <xsl:attribute name="href">
-        <xsl:value-of
-          select="concat('../texts/places.html#', substring-after(translate(@ref, '#', ''), 'places/'))"
-        />
-      </xsl:attribute>
-      <span class="placeName">
-        <!--<xsl:text>⌘ </xsl:text>-->
-        <xsl:apply-templates/>
-      </span>
-    </a>
+  <xsl:template match="t:placeName[ancestor::t:div[@type = 'edition']]">
+    <span class="placeName hidden"><xsl:text>*</xsl:text></span><xsl:apply-templates/><span class="placeName hidden"><xsl:text>*</xsl:text></span>
+    <xsl:if test="@ref !=''"><a target="_blank" class="links hidden"><xsl:attribute name="href"><xsl:value-of select="concat('../texts/places.html#', substring-after(translate(@ref, '#', ''), 'places/'))"/></xsl:attribute> ➚</a></xsl:if>
   </xsl:template>
-
-  <xsl:template match="t:orgName[ancestor::t:div[@type = 'edition']][@ref != '']">
-    <a target="_blank">
-      <xsl:attribute name="href">
-        <xsl:value-of
-          select="concat('../texts/juridical_persons.html#', substring-after(translate(@ref, '#', ''), 'juridical_persons/'))"
-        />
-      </xsl:attribute>
-      <span class="orgName">
-        <!--<xsl:text>☩ </xsl:text>-->
-        <xsl:apply-templates/>
-      </span>
-    </a>
+  <xsl:template match="t:orgName[ancestor::t:div[@type = 'edition']]">
+    <span class="orgName hidden"><xsl:text>*</xsl:text></span><xsl:apply-templates/><span class="orgName hidden"><xsl:text>*</xsl:text></span>
+    <xsl:if test="@ref !=''"><a target="_blank" class="links hidden"><xsl:attribute name="href"><xsl:value-of select="concat('../texts/juridical_persons.html#', substring-after(translate(@ref, '#', ''), 'juridical_persons/'))"/></xsl:attribute> ➚</a></xsl:if>
   </xsl:template>
-
-  <xsl:template match="t:geogName[ancestor::t:div[@type = 'edition']][@ref != '']">
-    <a target="_blank">
-      <xsl:attribute name="href">
-        <xsl:value-of
-          select="concat('../texts/estates.html#', substring-after(translate(@ref, '#', ''), 'estates/'))"
-        />
-      </xsl:attribute>
-      <span class="geogName">
-        <!--<xsl:text>✿ </xsl:text>-->
-        <xsl:apply-templates/>
-      </span>
-    </a>
+  <xsl:template match="t:geogName[ancestor::t:div[@type = 'edition']]">
+    <span class="geogName hidden"><xsl:text>*</xsl:text></span><xsl:apply-templates/><span class="geogName hidden"><xsl:text>*</xsl:text></span>
+    <xsl:if test="@ref !=''"><a target="_blank" class="links hidden"><xsl:attribute name="href"><xsl:value-of select="concat('../texts/estates.html#', substring-after(translate(@ref, '#', ''), 'estates/'))"/></xsl:attribute> ➚</a></xsl:if>
   </xsl:template>
-
-
-  <xsl:template match="t:persName[ancestor::t:div[@type = 'edition']][not(@ref)]">
-    <!--<xsl:text>⚲ </xsl:text>-->
-    <span class="persName">
-      <xsl:apply-templates/>
-    </span>
-  </xsl:template>
-
-  <xsl:template match="t:placeName[ancestor::t:div[@type = 'edition']][not(@ref)]">
-    <!--<xsl:text>⌘ </xsl:text>-->
-    <span class="placeName">
-      <xsl:apply-templates/>
-    </span>
-  </xsl:template>
-
-  <xsl:template match="t:orgName[ancestor::t:div[@type = 'edition']][not(@ref)]">
-    <!--<xsl:text>☩ </xsl:text>-->
-    <span class="orgName">
-      <xsl:apply-templates/>
-    </span>
-  </xsl:template>
-
-  <xsl:template match="t:geogName[ancestor::t:div[@type = 'edition']][not(@ref)]">
-    <!--<xsl:text>✿ </xsl:text>-->
-    <span class="geogName">
-      <xsl:apply-templates/>
-    </span>
-  </xsl:template>
-
-  <xsl:template match="t:rs[ancestor::t:div[@type = 'edition']][not(@ref)]">
-    <!--<xsl:text>☆ </xsl:text>-->
-    <span class="rs">
-      <xsl:apply-templates/>
-    </span>
-  </xsl:template>
-
-  <xsl:template match="t:date[ancestor::t:div[@type = 'edition']]">
-    <!--<xsl:text>⧗ </xsl:text>-->
-    <span class="date">
-      <xsl:apply-templates/>
-    </span>
+  <xsl:template match="t:rs[ancestor::t:div[@type = 'edition']]">
+    <span class="rs hidden"><xsl:text>*</xsl:text></span><xsl:apply-templates/><span class="rs hidden"><xsl:text>*</xsl:text></span>
   </xsl:template>
 
 
