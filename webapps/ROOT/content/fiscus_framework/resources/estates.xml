@@ -20,7 +20,7 @@
                 <place>
                     <geogName>Griliano; <foreign>curtis</foreign></geogName>
                     <idno>estates/27</idno>
-                    <link type="juridical_persons" subtype="Link"
+                    <link type="juridical_persons" subtype="link"
                         corresp="#juridical_persons/30"/>
                     <note></note>
                     <link type="places" corresp="#places/31"
@@ -30,7 +30,7 @@
                 <place>
                     <geogName><foreign>Temulina</foreign>; <foreign>curtis</foreign></geogName>
                     <idno>estates/28</idno>
-                    <link type="juridical_persons" subtype="Link"
+                    <link type="juridical_persons" subtype="link"
                         corresp="#juridical_persons/30"/>
                     <note>Identificata da Pasquali con Timoline, frazione di Corte Franca (BS). Cfr.
                         Pasquali 2008.</note>
@@ -41,7 +41,7 @@
                 <place>
                     <geogName><foreign>Canellas</foreign>; <foreign>curtis</foreign></geogName>
                     <idno>estates/29</idno>
-                    <link type="juridical_persons" subtype="Link"
+                    <link type="juridical_persons" subtype="link"
                         corresp="#juridical_persons/30"/>
                     <note>Identificata da Pasquali con Canelle Secco, Erbusco (BS). Cfr. Pasquali
                         2008, p. 330.</note>
@@ -86,7 +86,7 @@
                 <place>
                     <geogName>Caresana; <foreign>curtis</foreign></geogName>
                     <idno>estates/41</idno>
-                    <link type="juridical_persons" subtype="Link" corresp="#juridical_persons/43"/>
+                    <link type="juridical_persons" subtype="link" corresp="#juridical_persons/43"/>
                     <note></note>
                     <link type="places" corresp="#places/3"
                         subtype="hasConnectionWith"/>
@@ -129,7 +129,7 @@
                 <place>
                     <geogName>Cortereggio; <foreign>curtis</foreign></geogName>
                     <idno>estates/60</idno>
-                    <link type="people" subtype="Link" corresp="#people/33"/>
+                    <link type="people" subtype="link" corresp="#people/33"/>
                     <note></note>
                     <link type="places" corresp="#places/48"
                         subtype="hasConnectionWith"/>
@@ -173,8 +173,8 @@
                 <place>
                     <geogName>Beura; <foreign>curtis</foreign></geogName>
                     <idno>estates/75</idno>
-                    <link type="people" subtype="Link" corresp="#people/74"/>
-                    <link type="people" subtype="Link" corresp="#people/21"/>
+                    <link type="people" subtype="link" corresp="#people/74"/>
+                    <link type="people" subtype="link" corresp="#people/21"/>
                     <note></note>
                     <link type="places" corresp="#places/55"
                         subtype="hasConnectionWith"/>
@@ -275,7 +275,7 @@
                     <link type="juridical_persons"
                         corresp="#juridical_persons/78" subtype="link"/>
                     <link type="people"
-                        corresp="#people/101 #people/96 #people/97"
+                        corresp="#people/101 #people/96 #people/99 #people/98 #people/97"
                         subtype="link"/>
                 </place>
                 <place>
@@ -899,16 +899,6 @@
                     <link type="estates" corresp="#estates/141" subtype="hasConnectionWith"/>
                 </place>
                 <place>
-                    <geogName>Ad Trifonem; <foreign>locus</foreign></geogName>
-                    <geogName type="other">Ad Trefone</geogName>
-                    <idno>estates/150</idno>
-                    <note>Capasso, <foreign>Monumenta ad Neapolitani</foreign>, II, 1, p.
-                        421.</note>
-                    <link type="people" corresp="#people/156" subtype="link"/>
-                    <link type="juridical_persons" corresp="#juridical_persons/84" subtype="link"/>
-                    <link type="people" corresp="#people/189" subtype="link"/>
-                </place>
-                <place>
                     <geogName>Lomello; <foreign>comitatus</foreign></geogName>
                     <geogName type="other"/>
                     <idno>estates/143</idno>
@@ -995,6 +985,16 @@
                     <link type="juridical_persons" corresp="#juridical_persons/84" subtype="link"/>
                 </place>
                 <place>
+                    <geogName>Ad Trifonem; <foreign>locus</foreign></geogName>
+                    <geogName type="other">Ad Trefone</geogName>
+                    <idno>estates/150</idno>
+                    <note>Capasso, <foreign>Monumenta ad Neapolitani</foreign>, II, 1, p.
+                        421.</note>
+                    <link type="people" corresp="#people/156" subtype="link"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/84" subtype="link"/>
+                    <link type="people" corresp="#people/189" subtype="link"/>
+                </place>
+                <place>
                     <geogName>Lodi; <foreign>comitatus</foreign></geogName>
                     <geogName type="other"/>
                     <idno>estates/151</idno>
@@ -1013,6 +1013,15 @@
                     <link type="people" corresp="#people/21" subtype="link"/>
                     <link type="people" corresp="#people/155" subtype="link"/>
                     <link type="people" corresp="#people/188" subtype="link"/>
+                </place>
+                <place>
+                    <geogName>Tricasi; curtis</geogName>
+                    <geogName type="other"/>
+                    <idno>estates/153</idno>
+                    <note/>
+                    <link type="places" corresp="#places/264" subtype="hasConnectionWith"/>
+                    <link type="people" corresp="#people/121 #people/197" subtype="link"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/86" subtype="link"/>
                 </place>
              
             </listPlace>

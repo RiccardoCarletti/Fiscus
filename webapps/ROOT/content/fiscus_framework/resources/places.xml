@@ -1616,7 +1616,7 @@
                 <place>
                     <placeName><foreign>Doglia</foreign> (Podere Terriccio; Castellina Marittima;
                         Pisa)</placeName>
-                    <placeName type="other"><foreign>Dolia</foreign>; <foreign>Dolgia</foreign>; </placeName>
+                    <placeName type="other"><foreign>Dolia</foreign>; <foreign>Dolgia</foreign></placeName>
                     <geogName type="coord"><geo>43.38422, 10.54442</geo></geogName>
                     <idno>places/197</idno>
                     <note>Repetti 1833-1846: II, 29; V, 519-520; VI, 87; Ceccarelli 2009: 24
@@ -1842,7 +1842,7 @@
                 </place>
                 <place>
                     <placeName>Montecuccari (Terricciola; Pisa)</placeName>
-                    <placeName type="other">Monte Cuccheri; <foreign>Montecucculi</foreign>; </placeName>
+                    <placeName type="other">Monte Cuccheri; <foreign>Montecucculi</foreign></placeName>
                     <geogName type="coord"><geo>43.52492, 10.68894</geo></geogName>
                     <idno>places/217</idno>
                     <note>Repetti: III, 377</note>
@@ -2105,7 +2105,7 @@
                     <link type="juridical_persons" corresp="#juridical_persons/110" subtype="link"/>
                 </place>
                 <place>
-                    <placeName><foreign>Gualdo</foreign>; <foreign>Taulicio</foreign>; </placeName>
+                    <placeName><foreign>Gualdo</foreign>; <foreign>Taulicio</foreign></placeName>
                     <geogName type="coord"><geo>43.1548184, 10.6774129; 43.1604997, 10.6892515;
                             43.1581289, 10.6974137; 43.1542139, 10.7022491; 43.1509658, 10.7092021;
                             43.1524664, 10.7218991; 43.1499687, 10.7281276; 43.1412207, 10.7331008;
@@ -2392,9 +2392,46 @@
                 <place>
                     <placeName>Tricasi (Poggio Castello Tricasi; Massa Marittima;
                         Grosseto)</placeName>
-                    <placeName type="other"><foreign>Trecasem</foreign>;</placeName>
+                    <placeName type="other"><foreign>Trecasem</foreign></placeName>
                     <geogName type="coord"><geo>43.0826118, 10.8025653</geo></geogName>
                     <idno>places/264</idno>
+                    <note/>
+                    <link type="estates" corresp="#estates/153" subtype="isPartOf"/>
+                    <link type="people" corresp="#people/121 #people/197" subtype="link"/>
+                </place>
+                <place>
+                    <placeName>Massa Marittima (Grosseto)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>43.0503758, 10.8843292</geo></geogName>
+                    <idno>places/265</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName><foreign>Lo Boscone</foreign> (Podere Boschi; Piombino;
+                        Livorno)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>42.9843272382208, 10.644653327636</geo></geogName>
+                    <idno>places/266</idno>
+                    <note/>
+                    <link type="juridical_persons" corresp="#juridical_persons/78" subtype="link"/>
+                </place>
+                <place>
+                    <placeName><foreign>Ronco</foreign> (Somaglia; Lodi)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>45.1467201, 9.6379307</geo></geogName>
+                    <idno>places/267</idno>
+                    <note/>
+                    <link type="places" corresp="#places/263" subtype="hasConnectionWith"/>
+                    <link type="estates" corresp="#estates/152" subtype="hasInItsVicinity"/>
+                    <link type="estates" corresp="#estates/151" subtype="hasConnectionWith"/>
+                    <link type="people" corresp="#people/188" subtype="link"/>
+                </place>
+                <place>
+                    <placeName>Catellare (in Franciano; Piombino; Livorno)</placeName>
+                    <placeName type="other">Castellare de Franciano; Castellare de
+                        Cornino</placeName>
+                    <geogName type="coord"><geo/></geogName>
+                    <idno>places/268</idno>
                     <note/>
                 </place>
             </listPlace>

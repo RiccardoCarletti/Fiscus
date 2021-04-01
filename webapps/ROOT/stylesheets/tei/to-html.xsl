@@ -305,7 +305,7 @@
                   <xsl:if test="not(matches($all_keys, '.*(fiscal_property).*'))"><xsl:text>#a@</xsl:text></xsl:if> <!-- fiscal -->
                   <xsl:if test="matches($all_keys, '.*(fiscal_property).*')"><xsl:text>#b@</xsl:text></xsl:if> <!-- not fiscal -->
                   <xsl:if test="matches($all_keys, '.* (ports|bridges/pontoons|maritime_trade|fluvial_transport|navicularii) .*')"><xsl:text>c@</xsl:text></xsl:if> <!-- ports -->
-                  <xsl:if test="matches($all_keys, '.* (castle|tower|clusae/gates|walls|carbonaria|defensive_elements|incastellamento) .*')"><xsl:text>d@</xsl:text></xsl:if> <!-- fortifications -->
+                  <xsl:if test="matches($all_keys, '.* (castle|fortress|tower|clusae/gates|walls|carbonaria|defensive_elements|incastellamento) .*')"><xsl:text>d@</xsl:text></xsl:if> <!-- fortifications -->
                   <xsl:if test="matches($all_keys, '.* (residential|palatium|laubia/topia) .*')"><xsl:text>e@</xsl:text></xsl:if> <!-- residences -->
                   <xsl:if test="matches($all_keys, '.* (mills|kilns|workshops|gynaecea|mints|overland_transport|local_markets|periodic_markets|decima|nona_et_decima|fodrum|albergaria/gifori|profits_of_justice|profits_of_mining/minting|tolls|teloneum|rights_of_use_on_woods/pastures/waters|coinage) .*')"><xsl:text>f@</xsl:text></xsl:if> <!-- revenues -->
                   <xsl:if test="matches($all_keys, '.* (villas|curtes|gai|massae|salae|demesnes|domuscultae|casali|mansi) .*')"><xsl:text>g@</xsl:text></xsl:if> <!-- estates -->
@@ -538,8 +538,8 @@
           <xsl:text>{from: </xsl:text><xsl:value-of select="$id"/><xsl:text>, to: </xsl:text><xsl:value-of select="$linked_id"/>
         <xsl:text>, label: '</xsl:text><xsl:value-of select="$relation_type"/><xsl:text>', arrows: "to", color: "</xsl:text>
         <xsl:choose>
-          <xsl:when test="matches(concat(' ', lower-case($relation_type), ' '), '.* (legallyrecognisedunionwith|seriousintimaterelationshipwith|casualintimaterelationshipwith|intimaterelationshipwith|fatherof|fatherinlawof|motherof|motherinlawof|parentof|fosterparentof|sonof|soninlawof|daughterof|daughterinlawof|childof|grandfatherof|grandmotherof|grandparentof|grandsonof|granddaughterof|grandchildof|greatgrandfatherof|greatgrandmotherof|greatgrandparentof|greatgrandsonof|greatgranddaughterof|brotherof|brotherinlawof|sisterof|sisterinlawof|siblingof|auntof|uncleof|nephewof|nieceof|childofsiblingof|cousinof|kinof|ancestorof|descendentof|familyof|extendedfamilyof|hereditaryfamilyof) .*')"><xsl:text>red</xsl:text></xsl:when>
-          <xsl:when test="matches(concat(' ', lower-case($relation_type), ' '), '.* (householdof|extendedhouseholdof|patronof|clientof|masterof|formermasterof|slaveof|houseslaveof|formerslaveof|freedslaveof|freedmanof|freedwomanof|fellowfreedmanof|godfatherof|godmotherof|godsonof|goddaughterof|compaterof|commaterof|nutritusof|nutritorof|benefactorof|gratitudeto|testamentarylinkwith|legateeof|heirto|friendshipfor|alliancewith|enmityfor|dominusof|seniorof|vassusof|gasindiusof|fidelisof|milesof|homoof|agentfor|professionalrelationship) .*')"><xsl:text>green</xsl:text></xsl:when>
+          <xsl:when test="$thesaurus//tei:catDesc[@n=$relation_type][@key='family']"><xsl:text>red</xsl:text></xsl:when>
+          <xsl:when test="$thesaurus//tei:catDesc[@n=$relation_type][@key='personal']"><xsl:text>green</xsl:text></xsl:when>
           <xsl:otherwise><xsl:text>blue</xsl:text></xsl:otherwise>
         </xsl:choose>
         <xsl:text>"}</xsl:text>
@@ -611,7 +611,7 @@
         <xsl:if test="not(matches($all_keys, '.*(fiscal_property).*'))"><xsl:text>#a@</xsl:text></xsl:if> <!-- fiscal -->
         <xsl:if test="matches($all_keys, '.*(fiscal_property).*')"><xsl:text>#b@</xsl:text></xsl:if> <!-- not fiscal -->
         <xsl:if test="matches($all_keys, '.* (ports|bridges/pontoons|maritime_trade|fluvial_transport|navicularii) .*')"><xsl:text>c@</xsl:text></xsl:if> <!-- ports -->
-        <xsl:if test="matches($all_keys, '.* (castle|tower|clusae/gates|walls|carbonaria|defensive_elements|incastellamento) .*')"><xsl:text>d@</xsl:text></xsl:if> <!-- fortifications -->
+        <xsl:if test="matches($all_keys, '.* (castle|fortress|tower|clusae/gates|walls|carbonaria|defensive_elements|incastellamento) .*')"><xsl:text>d@</xsl:text></xsl:if> <!-- fortifications -->
         <xsl:if test="matches($all_keys, '.* (residential|palatium|laubia/topia) .*')"><xsl:text>e@</xsl:text></xsl:if> <!-- residences -->
         <xsl:if test="matches($all_keys, '.* (mills|kilns|workshops|gynaecea|mints|overland_transport|local_markets|periodic_markets|decima|nona_et_decima|fodrum|albergaria/gifori|profits_of_justice|profits_of_mining/minting|tolls|teloneum|rights_of_use_on_woods/pastures/waters|coinage) .*')"><xsl:text>f@</xsl:text></xsl:if> <!-- revenues -->
         <xsl:if test="matches($all_keys, '.* (villas|curtes|gai|massae|salae|demesnes|domuscultae|casali|mansi) .*')"><xsl:text>g@</xsl:text></xsl:if> <!-- estates -->
