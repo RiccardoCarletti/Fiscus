@@ -43,9 +43,18 @@
     <li>
       <a href="{kiln:url-for-match($match_id, ($language, $location_parts[2]), 0)}">
         <span class="index-instance-file"><xsl:value-of select="substring-after($location_parts[2], 'doc')" /></span>
-        <span class="index-instance-file-date"><xsl:text> [</xsl:text><xsl:value-of select="replace($location_parts[6], '–', ' – ')"/><xsl:text>]</xsl:text></span>
-        <xsl:if test="$location_parts[7]!='~'"><span class="index-instance-file-keys"><xsl:text>: </xsl:text><xsl:value-of select="$location_parts[7]" /></span></xsl:if>
-       <!-- <xsl:if test="$location_parts[8]!=''"><span class="index-instance-file-links"><xsl:text> [Linked to:</xsl:text><xsl:value-of select="$location_parts[8]" /><xsl:text>]</xsl:text></span></xsl:if>-->
+        <span class="index-instance-file-date"><xsl:text> [</xsl:text>
+          <xsl:choose>
+            <xsl:when test="starts-with($location_parts[3], '0')">
+              <xsl:value-of select="replace(replace(substring($location_parts[3], 2), '–0', '–'), '–', ' – ')"/>
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:value-of select="replace(replace($location_parts[3], '–0', '–'), '–', ' – ')"/>
+            </xsl:otherwise>
+          </xsl:choose>
+          <xsl:text>]</xsl:text></span>
+        <xsl:if test="$location_parts[4]!='~'"><span class="index-instance-file-keys"><xsl:text>: </xsl:text><xsl:value-of select="$location_parts[4]" /></span></xsl:if>
+       <!-- <xsl:if test="$location_parts[5]!=''"><span class="index-instance-file-links"><xsl:text> [Linked to:</xsl:text><xsl:value-of select="$location_parts[5]" /><xsl:text>]</xsl:text></span></xsl:if>-->
       </a>
     </li>
     <br/>
