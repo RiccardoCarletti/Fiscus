@@ -2421,7 +2421,10 @@
                     <geogName type="coord"><geo>45.1467201, 9.6379307</geo></geogName>
                     <idno>places/267</idno>
                     <note/>
-                    <link type="places"/>
+                    <link type="places" corresp="#places/263" subtype="hasConnectionWith"/>
+                    <link type="estates" corresp="#estates/152" subtype="hasInItsVicinity"/>
+                    <link type="estates" corresp="#estates/151" subtype="hasConnectionWith"/>
+                    <link type="people" corresp="#people/188" subtype="link"/>
                 </place>
             </listPlace>
         </body>
