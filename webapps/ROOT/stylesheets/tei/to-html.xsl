@@ -538,8 +538,8 @@
           <xsl:text>{from: </xsl:text><xsl:value-of select="$id"/><xsl:text>, to: </xsl:text><xsl:value-of select="$linked_id"/>
         <xsl:text>, label: '</xsl:text><xsl:value-of select="$relation_type"/><xsl:text>', arrows: "to", color: "</xsl:text>
         <xsl:choose>
-          <xsl:when test="matches(concat(' ', lower-case($relation_type), ' '), '.* (legallyrecognisedunionwith|seriousintimaterelationshipwith|casualintimaterelationshipwith|intimaterelationshipwith|fatherof|fatherinlawof|motherof|motherinlawof|parentof|fosterparentof|sonof|soninlawof|daughterof|daughterinlawof|childof|grandfatherof|grandmotherof|grandparentof|grandsonof|granddaughterof|grandchildof|greatgrandfatherof|greatgrandmotherof|greatgrandparentof|greatgrandsonof|greatgranddaughterof|brotherof|brotherinlawof|sisterof|sisterinlawof|siblingof|auntof|uncleof|nephewof|nieceof|childofsiblingof|cousinof|kinof|ancestorof|descendentof|familyof|extendedfamilyof|hereditaryfamilyof) .*')"><xsl:text>red</xsl:text></xsl:when>
-          <xsl:when test="matches(concat(' ', lower-case($relation_type), ' '), '.* (householdof|extendedhouseholdof|patronof|clientof|masterof|formermasterof|slaveof|houseslaveof|formerslaveof|freedslaveof|freedmanof|freedwomanof|fellowfreedmanof|godfatherof|godmotherof|godsonof|goddaughterof|compaterof|commaterof|nutritusof|nutritorof|benefactorof|gratitudeto|testamentarylinkwith|legateeof|heirto|mundualdusof|friendshipfor|alliancewith|enmityfor|dominusof|seniorof|vassusof|gasindiusof|fidelisof|milesof|homoof|agentfor|professionalrelationship) .*')"><xsl:text>green</xsl:text></xsl:when>
+          <xsl:when test="$thesaurus//tei:catDesc[@n=$relation_type][@key='family']"><xsl:text>red</xsl:text></xsl:when>
+          <xsl:when test="$thesaurus//tei:catDesc[@n=$relation_type][@key='personal']"><xsl:text>green</xsl:text></xsl:when>
           <xsl:otherwise><xsl:text>blue</xsl:text></xsl:otherwise>
         </xsl:choose>
         <xsl:text>"}</xsl:text>
