@@ -135,7 +135,7 @@
              editable, false,
              sort, ascending,
              values, oxy_concat("#", oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/places.xml'), '")//listPlace//place/idno, ",#")'))),
-             labels, oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/places.xml'), '")//listPlace//place/placeName[1], ",")' ))
+             labels, oxy_xpath(oxy_concat('normalize-space(string-join(doc("', oxy_url('${framework}/', 'resources/places.xml'), '")//listPlace//place/placeName[1], ","))' ))
              )
              " Link type: "
              oxy_editor(
@@ -156,7 +156,7 @@
              editable, false,
              sort, ascending,
              values, oxy_concat("#", oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/places.xml'), '")//listPlace//place/idno, ",#")'))),
-             labels, oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/places.xml'), '")//listPlace//place/placeName[1], ",")' ))
+             labels, oxy_xpath(oxy_concat('normalize-space(string-join(doc("', oxy_url('${framework}/', 'resources/places.xml'), '")//listPlace//place/placeName[1], ","))' ))
              )
              " Link type: "
              oxy_editor(
@@ -177,7 +177,7 @@
              editable, false,
              sort, ascending,
              values, oxy_concat("#", oxy_xpath(oxy_concat('string-join(//place/idno, ",#")'))),
-             labels, oxy_xpath(oxy_concat('string-join(//place/placeName[1], ",")' ))
+             labels, oxy_xpath(oxy_concat('normalize-space(string-join(//place/placeName[1], ","))' ))
              )
              " Link type: "
              oxy_editor(
@@ -198,7 +198,7 @@
              editable, false,
              sort, ascending,
              values, oxy_concat("#", oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/places.xml'), '")//listPlace//place/idno, ",#")'))),
-             labels, oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/places.xml'), '")//listPlace//place/placeName[1], ",")' ))
+             labels, oxy_xpath(oxy_concat('normalize-space(string-join(doc("', oxy_url('${framework}/', 'resources/places.xml'), '")//listPlace//place/placeName[1], ","))' ))
              )
              " Link type: "
              oxy_editor(
@@ -220,7 +220,7 @@
              editable, false,
              sort, ascending,
              values, oxy_concat("#", oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/people.xml'), '")//listPerson//person/idno, ",#")'))),
-             labels, oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/people.xml'), '")//listPerson//person/persName[1], ",")' ))
+             labels, oxy_xpath(oxy_concat('normalize-space(string-join(doc("', oxy_url('${framework}/', 'resources/people.xml'), '")//listPerson//person/persName[1], ","))' ))
              )
              " Link type: "
              oxy_editor(
@@ -241,7 +241,7 @@
              editable, false,
              sort, ascending,
              values, oxy_concat("#", oxy_xpath(oxy_concat('string-join(//listPerson//person/idno, ",#")'))),
-             labels, oxy_xpath(oxy_concat('string-join(//listPerson//person/persName[1], ",")' ))
+             labels, oxy_xpath(oxy_concat('normalize-space(string-join(//listPerson//person/persName[1], ","))' ))
              )
              " Link type: "
              oxy_editor(
@@ -263,7 +263,7 @@
              editable, false,
              sort, ascending,
              values, oxy_concat("#", oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/juridical_persons.xml'), '")//listOrg//org/idno, ",#")'))),
-             labels, oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/juridical_persons.xml'), '")//listOrg//org/orgName[1], ",")' ))
+             labels, oxy_xpath(oxy_concat('normalize-space(string-join(doc("', oxy_url('${framework}/', 'resources/juridical_persons.xml'), '")//listOrg//org/orgName[1], ","))' ))
              )
              " Link type: "
              oxy_editor(
@@ -284,7 +284,7 @@
              editable, false,
              sort, ascending,
              values, oxy_concat("#", oxy_xpath(oxy_concat('string-join(//listOrg//org/idno, ",#")'))),
-             labels, oxy_xpath(oxy_concat('string-join(//listOrg//org/orgName[1], ",")' ))
+             labels, oxy_xpath(oxy_concat('normalize-space(string-join(//listOrg//org/orgName[1], ","))' ))
              )
              " Link type: "
              oxy_editor(
@@ -306,7 +306,7 @@
              editable, false,
              sort, ascending,
              values, oxy_concat("#", oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/estates.xml'), '")//listPlace//place/idno, ",#")'))),
-             labels, oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/estates.xml'), '")//listPlace//place/geogName[1], ",")' ))
+             labels, oxy_xpath(oxy_concat('normalize-space(string-join(doc("', oxy_url('${framework}/', 'resources/estates.xml'), '")//listPlace//place/geogName[1], ","))' ))
              )
              " Link type: "
              oxy_editor(
@@ -327,7 +327,7 @@
              editable, false,
              sort, ascending,
              values, oxy_concat("#", oxy_xpath(oxy_concat('string-join(//place/idno, ",#")'))),
-             labels, oxy_xpath(oxy_concat('string-join(//place/geogName[1], ",")' ))
+             labels, oxy_xpath(oxy_concat('normalize-space(string-join(//place/geogName[1], ","))' ))
              )
              " Link type: "
              oxy_editor(
@@ -450,7 +450,7 @@
              editable, true,
              columns, 25,
              /*values, oxy_concat("", oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/thesaurus.xml'), '")//taxonomy[@xml:id="thesaurus"]//category[@n="type_of_document"]//category/catDesc/@n, ",")'))),
-              labels, oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/thesaurus.xml'), '")//taxonomy[@xml:id="thesaurus"]//category[@n="type_of_document"]//category/catDesc, ",")' )));*/
+              labels, oxy_xpath(oxy_concat('normalize-space(string-join(doc("', oxy_url('${framework}/', 'resources/thesaurus.xml'), '")//taxonomy[@xml:id="thesaurus"]//category[@n="type_of_document"]//category/catDesc, ","))' )));*/
               values, "Archaeological sources, Parchment documents, -Diploma, --Imperial/royal diploma, --Marquis’/ducal/princely diploma, --Episcopal diploma, -Placitum/iudicatum, -Cartula, --Venditio, --Commutatio, --Libellus/precaria/emphyteusis, --Offersio/donatio, --Promissio, --Ordinatio, --Testamentum/iudicatum, --Morgengabe, -Breve, --List/inventory, --Judicial breve, --Transactional breve, -Catalogus, -Littera/mandatum, -Papal concession, Epigraphic documents, Papyrological documents, -Papal concession (papyrus), -Breve (papyrus), Literary sources, -Author, Juridical sources, -Lex, -Capitulum");
            display:block;
     }
@@ -557,7 +557,7 @@ ab rs:before {
              edit, "@key",
              editable, false,
              values, oxy_concat("#", oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/thesaurus.xml'), '")//taxonomy[@xml:id="thesaurus"]//category/catDesc/@n, ",#")'))),
-             labels, oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/thesaurus.xml'), '")//taxonomy[@xml:id="thesaurus"]//category/catDesc, ",")' ))
+             labels, oxy_xpath(oxy_concat('normalize-space(string-join(doc("', oxy_url('${framework}/', 'resources/thesaurus.xml'), '")//taxonomy[@xml:id="thesaurus"]//category/catDesc, ","))' ))
              );
         display:inline;
     }
@@ -591,7 +591,7 @@ ab placeName:before {
              edit, "@key",
              editable, false,
              values, oxy_concat("#", oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/thesaurus.xml'), '")//taxonomy[@xml:id="thesaurus"]//category/catDesc/@n, ",#")'))),
-             labels, oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/thesaurus.xml'), '")//taxonomy[@xml:id="thesaurus"]//category/catDesc, ",")' ))
+             labels, oxy_xpath(oxy_concat('normalize-space(string-join(doc("', oxy_url('${framework}/', 'resources/thesaurus.xml'), '")//taxonomy[@xml:id="thesaurus"]//category/catDesc, ","))' ))
              )
              " REF: " 
         oxy_editor(
@@ -600,7 +600,7 @@ ab placeName:before {
              editable, false,
              sort, ascending,
              values, oxy_concat("#", oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/places.xml'), '")//listPlace//place/idno, ",#")'))),
-             labels, oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/places.xml'), '")//listPlace//place/placeName[1], ",")' ))
+             labels, oxy_xpath(oxy_concat('normalize-space(string-join(doc("', oxy_url('${framework}/', 'resources/places.xml'), '")//listPlace//place/placeName[1], ","))' ))
              );
         display:inline;
     }
@@ -612,7 +612,7 @@ ab placeName:before {
              edit, "@key",
              editable, false,
              values, oxy_concat("#", oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/thesaurus.xml'), '")//taxonomy[@xml:id="thesaurus"]//category/catDesc/@n, ",#")'))),
-             labels, oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/thesaurus.xml'), '")//taxonomy[@xml:id="thesaurus"]//category/catDesc, ",")' ))
+             labels, oxy_xpath(oxy_concat('normalize-space(string-join(doc("', oxy_url('${framework}/', 'resources/thesaurus.xml'), '")//taxonomy[@xml:id="thesaurus"]//category/catDesc, ","))' ))
              )
              " REF: " 
         oxy_editor(
@@ -621,7 +621,7 @@ ab placeName:before {
              editable, false,
              sort, ascending,
              values, oxy_concat("#", oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/people.xml'), '")//listPerson//person/idno, ",#")'))),
-             labels, oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/people.xml'), '")//listPerson//person/persName[1], ",")' ))
+             labels, oxy_xpath(oxy_concat('normalize-space(string-join(doc("', oxy_url('${framework}/', 'resources/people.xml'), '")//listPerson//person/persName[1], ","))' ))
              );
         display:inline;
     }
@@ -633,7 +633,7 @@ ab placeName:before {
              edit, "@key",
              editable, false,
              values, oxy_concat("#", oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/thesaurus.xml'), '")//taxonomy[@xml:id="thesaurus"]//category/catDesc/@n, ",#")'))),
-             labels, oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/thesaurus.xml'), '")//taxonomy[@xml:id="thesaurus"]//category/catDesc, ",")' ))
+             labels, oxy_xpath(oxy_concat('normalize-space(string-join(doc("', oxy_url('${framework}/', 'resources/thesaurus.xml'), '")//taxonomy[@xml:id="thesaurus"]//category/catDesc, ","))' ))
              )
              " REF: " 
         oxy_editor(
@@ -642,7 +642,7 @@ ab placeName:before {
              editable, false,
              sort, ascending,
              values, oxy_concat("#", oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/estates.xml'), '")//listPlace//place/idno, ",#")'))),
-             labels, oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/estates.xml'), '")//listPlace//place/geogName[1], ",")' ))
+             labels, oxy_xpath(oxy_concat('normalize-space(string-join(doc("', oxy_url('${framework}/', 'resources/estates.xml'), '")//listPlace//place/geogName[1], ","))' ))
              );
         display:inline;
     }  
@@ -654,7 +654,7 @@ ab placeName:before {
              edit, "@key",
              editable, false,
              values, oxy_concat("#", oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/thesaurus.xml'), '")//taxonomy[@xml:id="thesaurus"]//category/catDesc/@n, ",#")'))),
-             labels, oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/thesaurus.xml'), '")//taxonomy[@xml:id="thesaurus"]//category/catDesc, ",")' ))
+             labels, oxy_xpath(oxy_concat('normalize-space(string-join(doc("', oxy_url('${framework}/', 'resources/thesaurus.xml'), '")//taxonomy[@xml:id="thesaurus"]//category/catDesc, ","))' ))
              )
              " REF: " 
         oxy_editor(
@@ -663,7 +663,7 @@ ab placeName:before {
              editable, false,
              sort, ascending,
              values, oxy_concat("#", oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/juridical_persons.xml'), '")//listOrg//org/idno, ",#")'))),
-             labels, oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/juridical_persons.xml'), '")//listOrg//org/orgName[1], ",")' ))
+             labels, oxy_xpath(oxy_concat('normalize-space(string-join(doc("', oxy_url('${framework}/', 'resources/juridical_persons.xml'), '")//listOrg//org/orgName[1], ","))' ))
              );
         display:inline;
     }  
