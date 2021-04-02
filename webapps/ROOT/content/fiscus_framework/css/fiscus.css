@@ -21,7 +21,15 @@
         border:5px solid rgb(153, 153, 143);
         }
         
-        body listPlace[type="places"]:after {
+        link:after {
+        content: 
+              oxy_editor(
+            type, button,
+            actionID, "delete_link");
+           display:inline;
+    }
+    
+    body listPlace[type="places"]:after {
         content: 
               oxy_editor(
             type, button,
@@ -347,7 +355,10 @@
             actionID, "add_juridical_person_link")
               oxy_editor(
             type, button,
-            actionID, "add_estate_link");
+            actionID, "add_estate_link")
+            oxy_editor(
+            type, button,
+            actionID, "delete_item");
            display:block;
            padding-left:20px;
     }
