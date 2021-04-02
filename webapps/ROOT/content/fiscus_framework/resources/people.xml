@@ -832,6 +832,7 @@
                     <link type="people" corresp="#people/107" subtype="legallyRecognisedUnionWith"/>
                     <link type="people" corresp="#people/197" subtype="motherOf"/>
                     <link type="people" corresp="#people/198" subtype="daughterOf"/>
+                    <link type="people" corresp="#people/204" subtype="link"/>
                 </person>
                 <person>
                     <persName>Rodulfus (Aldobrandeschi; 1049; q.1053) comes</persName>
@@ -1590,6 +1591,7 @@
                     <link type="juridical_persons" corresp="#juridical_persons/86" subtype="link"/>
                     <link type="people" corresp="#people/107" subtype="sonOf"/>
                     <link type="people" corresp="#people/121" subtype="sonOf"/>
+                    <link type="people" corresp="#people/204" subtype="link"/>
                 </person>
                 <person>
                     <persName>Guilielmus (1053; q.1089) marchio</persName>
@@ -1636,10 +1638,12 @@
                     <note/>
                 </person>
                 <person>
-                    <persName>Iohannes </persName>
+                    <persName>Iohannes (1099) episcopus Massanus</persName>
                     <persName type="other"/>
                     <idno>people/204</idno>
                     <note/>
+                    <link type="estates" corresp="#estates/153" subtype="hasConnectionWith"/>
+                    <link type="people" corresp="#people/121 #people/197" subtype="link"/>
                 </person>
                 
             </listPerson>
