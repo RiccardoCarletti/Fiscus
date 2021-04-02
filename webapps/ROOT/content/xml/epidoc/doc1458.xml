@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio di Stato di Siena, Diplomatico, Bichi Borghesi, 966 giugno
+                    29</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc1458</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#"
+                                >--Libellus/precaria/emphyteusis</rs>
+                                    <rs type="record_source" ref="#">Original document</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">Uncertain</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate when="0966-06-29"> 
+                                        <note type="displayed_date">966 June 29</note>
+                                        <note type="dating_elements">Anno d’impero di Ottone.</note>
+                                        <note type="topical_date">Sticciano</note>
+                                    </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-04-02" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab><persName>Ildebrando</persName> filio bone memorie item <persName
+                            key="#Count">Cherardi</persName>
+                        <rs key="#Count">com(iti)s</rs> concede in livello a <persName>Siifridi que
+                            Bonitio vocatur</persName> filio bone memorie
+                            <persName>Gosberti</persName> de <rs key="#Comitatus">comitato</rs>
+                        <geogName key="#Comitatus" ref="#estates/107">Voluterrense</geogName>, idest
+                        medietate de <rs key="#Casalini/fundamenta">fundamento</rs> et <rs
+                            key="#Demesnes">domnicato</rs> (…) in loco et finibus <placeName
+                            key="#Curtes #Demesnes #Casalini/fundamenta" ref="#places/272"
+                            >Nossina</placeName> ubi iam fuit <rs key="#Curtes">curticellam</rs>,
+                        con tutte le sue dipendenze; concede inoltre duos inter <rs
+                            key="#Casae/cassinae_massaricie">casis et casalinis</rs> (…) qui sun
+                        positis in loco et finibus, unam ex ipsis casa et res massaricias esse
+                        videtur in loco <placeName key="#Casae/cassinae_massaricie"
+                            >Sassi</placeName> quas regere videtur per <persName>Leo</persName>
+                        massario, et illa secunda ris ubi iam fuit casa et res massaricias est
+                        posita in loco et fundo ubi dicitur <placeName
+                            key="#Casae/cassinae_massaricie">Piri</placeName> quas modo per
+                            <placeName>Auducio</placeName> massario regere videtur, con tutte le
+                        loro dipendenze. Il livellario si impegna a versare pro omni [censum et]
+                        iustitiam per omnes quibus qut(us) annos per omnes mense iunio a <rs
+                            key="#Curtes">curte nostre domnicata</rs> sito loco <placeName
+                            key="#Curtes" ref="#places/142">Siticiano</placeName> pensione argentum
+                        denarios duodecim de bonis denarios espendibiles. Se non rispetterà i
+                        suddetti impegni, promette con i suoi eredi di versare a Sighifridi e ai
+                        suoi eredi pena argentum sol(idos) viginti. Chiede a <persName key="#Notary"
+                            >Iohanni</persName>
+                        <rs key="#Notary">notario</rs> la stesura di due cartule. Hactum loco
+                        Siticiano. + Ego Ildebrando in unc libe[ll]o a me facto s(ub)s(cripsi).
+                        Testimoni: <persName>Erolfo</persName>; <persName>Ropdulfus</persName>;
+                            <persName>Cherardi</persName> filio <persName>Teuperti</persName>;
+                            <persName>Petri</persName> filio [<persName>Sichifridi</persName>].
+                        Scrive : Iohanni notario. <placeName>Siticiano (Sticciano, Roccastrada),
+                            Nossina (Roccatederighi, Roccastrada), Sassi (?), Piri (?), Volaterrae
+                            (Volterra).</placeName></ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>Lisini 1908: 502 RegSen: 6-7, n. 17</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                        <p>Ildebrando, Erolfo, Rodolfo sottoscrivono autografamente.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>
