@@ -189,28 +189,20 @@
         <br/>
           <b>Document tradition: </b>
         <xsl:apply-templates select="//t:summary/t:rs[@type = 'document_tradition']"/>
-        <xsl:if test="//t:summary/t:rs[@type = 'fiscal_property']/text()"><br/>
+        <br/>
         <b>Fiscal property: </b>
-        <xsl:apply-templates select="//t:summary/t:rs[@type = 'fiscal_property']"/></xsl:if>
-        <xsl:if test="//t:origPlace/text()"><br/>
+        <xsl:apply-templates select="//t:summary/t:rs[@type = 'fiscal_property']"/>
+        <xsl:if test="//t:origPlace/node()"><br/>
         <b>Provenance: </b>
         <xsl:apply-templates select="//t:origPlace"/></xsl:if>
       </p>
       <p>
         <b>Date: </b>
-        <xsl:choose>
-          <xsl:when test="//t:origin/t:origDate/t:note[@type = 'displayed_date']/text()">
-            <xsl:apply-templates
-              select="//t:origin/t:origDate/t:note[@type = 'displayed_date']/node()"/>
-          </xsl:when>
-          <xsl:otherwise>
-            <xsl:apply-templates select="//t:origin/t:origDate/text()"/>
-          </xsl:otherwise>
-        </xsl:choose>
-        <xsl:if test="//t:origin/t:origDate/t:note[@type = 'topical_date']/text()"><br/>
+        <xsl:apply-templates select="//t:origin/t:origDate/t:note[@type = 'displayed_date']/node()"/>
+        <xsl:if test="//t:origin/t:origDate/t:note[@type = 'topical_date']/node()"><br/>
         <b>Topical date: </b>
         <xsl:apply-templates select="//t:origin/t:origDate/t:note[@type = 'topical_date']/node()"/></xsl:if>
-        <xsl:if test="//t:origin/t:origDate/t:note[@type = 'dating_elements']/text()"><br/>
+        <xsl:if test="//t:origin/t:origDate/t:note[@type = 'dating_elements']/node()"><br/>
         <b>Dating elements: </b>
         <xsl:apply-templates select="//t:origin/t:origDate/t:note[@type = 'dating_elements']/node()"/></xsl:if>
       </p>
@@ -286,29 +278,31 @@
     </div>
 
     <div id="bibliography">
-      <xsl:if test="//t:div[@type = 'bibliography'][@subtype = 'editions']/t:p/text()"><p>
+      <xsl:if test="//t:div[@type = 'bibliography'][@subtype = 'editions']/t:p/node()"><p>
         <b><i18n:text i18n:key="epidoc-xslt-fiscus-bibliography">Editions and document
             summaries</i18n:text>: </b>
         <xsl:apply-templates select="//t:div[@type = 'bibliography'][@subtype = 'editions']/t:p/node()"/>
       </p></xsl:if>
-      <xsl:if test="//t:div[@type = 'bibliography'][@subtype = 'additional']/t:p/text()"><p>
+      <xsl:if test="//t:div[@type = 'bibliography'][@subtype = 'additional']/t:p/node()"><p>
         <b><i18n:text i18n:key="epidoc-xslt-fiscus-bibliography">Bibliography</i18n:text>: </b>
         <xsl:apply-templates
           select="//t:div[@type = 'bibliography'][@subtype = 'additional']/t:p/node()"/>
       </p></xsl:if>
-      <xsl:if test="//t:div[@type = 'bibliography'][@subtype = 'links']/t:p/text()"><p>
+      <xsl:if test="//t:div[@type = 'bibliography'][@subtype = 'links']/t:p/node()"><p>
         <b><i18n:text i18n:key="epidoc-xslt-fiscus-bibliography">Links</i18n:text>: </b>
         <xsl:apply-templates select="//t:div[@type = 'bibliography'][@subtype = 'links']/t:p/node()"/>
       </p></xsl:if>
     </div>
 
-    <div id="commentary">
+    <xsl:if test="//t:div[@type = 'commentary']/t:p/node()">
+      <div id="commentary">
       <p><b><i18n:text i18n:key="epidoc-xslt-fiscus-commentary">Commentary</i18n:text></b></p>
       <xsl:variable name="commtxt">
         <xsl:apply-templates select="//t:div[@type = 'commentary']//t:p"/>
       </xsl:variable>
       <xsl:apply-templates select="$commtxt" mode="sqbrackets"/>
     </div>
+    </xsl:if>
 
     <!--<div id="images">
        <p><b>Images: </b></p>
@@ -423,7 +417,19 @@
     </xsl:choose>
   </xsl:template>
 
-  <xsl:template match="t:div//t:ref[@corresp]">
+  <xsl:template match="t:div//t:ref[not(@corresp)][starts-with(., 'http')]">
+    <a>
+      <xsl:attribute name="href">
+        <xsl:value-of select="."/>
+      </xsl:attribute>
+      <xsl:attribute name="target">
+        <xsl:value-of select="'_blank'"/>
+      </xsl:attribute>
+      <xsl:apply-templates/>
+    </a>
+  </xsl:template>
+    
+    <xsl:template match="t:div//t:ref[@corresp]">
     <xsl:choose>
       <xsl:when test="@type = 'fiscus'">
         <a>
