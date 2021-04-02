@@ -82,33 +82,53 @@
             <div type="edition">
                 <div type="textpart">
                     <ab></ab>
-                    <ab>In nomine sancte et individue trinitatis. <persName>Otto</persName> divina
-                        favente clemencia Romanorum <rs>imperator</rs> augustus. Notum sit universis
-                        nostris fidelibus, quia pro divino amore et pro <persName>Leonis</persName>
-                        nostri <rs>episcopi</rs> petitione, audita dilapidatione <orgName>sancti
+                    <ab>In nomine sancte et individue trinitatis. <persName ref="#people/7"
+                            key="#Emperor/king">Otto</persName> divina favente clemencia Romanorum
+                            <rs key="#Emperor/king">imperator</rs> augustus. Notum sit universis
+                        nostris fidelibus, quia pro divino amore et pro <persName key="#Bishops"
+                            ref="#people/171">Leonis</persName> nostri <rs key="#Bishops"
+                            >episcopi</rs> petitione, audita dilapidatione <orgName
+                            key="#Mother_churches" ref="#juridical_persons/81">sancti
                             Eusebii</orgName> ab uxoratis antecessoribus facta, concessimus sancte
-                            <placeName>Vercellensi</placeName> ecclesie ut in <rs>castello</rs>
-                        <placeName><geogName>sancte Agathe</geogName></placeName> aut in
-                            <rs>burgo</rs> eius aut per quinque miliaria in circuitu nullus unquam
-                        hominum <rs>placitum</rs> teneat aut <rs>fodrum</rs> colligat aut
-                            <rs>albergarias</rs> faciat publicas aut ullam publicam exactionem
-                        exigat, nisi Vercellensis episcopus aut eius missus, in tota campagnia
-                        nullus <rs>thelonia</rs> capiat, nullus <rs>mercata</rs> habeat publica,
-                        nisi Vercellensis ecclesia. Dedimus Vercellensi ecclesie
-                            <placeName>Andurnum</placeName>, <placeName>Mulinariam</placeName>,
-                            <placeName>Ponderanam</placeName>, <placeName>montem
-                            Cisidola</placeName>, <placeName>Galianicum</placeName> cum omnibus suis
-                        pertinentiis; dedimus sancto Eusebio omnia predia maledicti
-                            <persName>Ardoini</persName> filii <persName>Dadonis</persName>, quia
-                        eius episcopum interfecit et incendit, <placeName>Rouoredum</placeName>,
-                            <placeName>Riuarolum</placeName>, <placeName>Riuaruptam</placeName>;
-                        redidimus <geogName>Canauam</geogName>,
-                        <placeName>Rordiliteguam</placeName>; dedimus <placeName>Sparono</placeName>
-                        castellum, <placeName>vallem Suanam</placeName>, <placeName>vallem
-                            Origanam</placeName>, <placeName>Fontanedum</placeName>,
-                            <placeName>Barsan</placeName>, <placeName>Suanam</placeName> et omnia
-                        predia Ardoini ubicunque iacent, cum omnibus pertinentiis; dedimus sancto
-                        Eusebio <rs>cortem</rs>
+                            <placeName key="#Cities" ref="#places/106">Vercellensi</placeName>
+                        ecclesie ut in <rs key="#Castle">castello</rs>
+                        <placeName ref="#places/237"
+                            key="#Fiscal_property #Textual_occurrence #Object #Mention #Outflow #Allocation_to_churches #Revenues #Fodrum #Profits_of_justice #Teloneum #Privileges #Districtio"
+                            >sancte Agathe</placeName> aut in <rs key="#Burgi">burgo</rs> eius aut
+                        per quinque miliaria in circuitu nullus unquam hominum placitum teneat aut
+                            <rs key="#Fodrum">fodrum</rs> colligat aut <rs key="#Albergaria/gifori"
+                            >albergarias</rs> faciat publicas aut ullam publicam exactionem exigat,
+                        nisi Vercellensis episcopus aut eius <rs key="#Missus">missus</rs>, in tota
+                        campagnia nullus <rs key="#Teloneum">thelonia</rs> capiat, nullus <rs
+                            key="#Local_markets">mercata</rs> habeat publica, nisi Vercellensis
+                        ecclesia. Dedimus Vercellensi ecclesie <placeName ref="#places/210"
+                            key="#Landed_possessions #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches"
+                            >Andurnum</placeName>, <placeName
+                            key="#Landed_possessions #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches"
+                            >Mulinariam</placeName>, <placeName ref="#places/208"
+                            key="#Landed_possessions #Fiscal_property #Textual_occurrence #Object #Mention #Outflow #Allocation_to_churches"
+                            >Ponderanam</placeName>, <placeName ref="#places/211"
+                            key="#Landed_possessions #Fiscal_property #Textual_occurrence #Object #Mention #Outflow #Allocation_to_churches"
+                                >montem Cisidola</placeName>, <placeName ref="#places/206" key="#Landed_possessions #Fiscal_property #Textual_occurrence #Object #Mention #Outflow #Allocation_to_churches"
+                            >Galianicum</placeName> cum omnibus suis pertinentiis; dedimus sancto
+                        Eusebio omnia predia maledicti <persName key="#Emperor/king #Marquis/duke"
+                            ref="#people/172">Ardoini</persName> filii <persName>Dadonis</persName>,
+                        quia eius episcopum interfecit et incendit, <geogName ref="#estates/99"
+                            key="#Curtes #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches"
+                            >Rouoredum</geogName>, <placeName
+                            key="#Curtes #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches"
+                            >Riuarolum</placeName>, <placeName
+                            key="#Curtes #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches"
+                            >Riuaruptam</placeName>; redidimus <geogName>Canauam</geogName>,
+                            <placeName
+                            key="#Curtes #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches"
+                            >Rordiliteguam</placeName>; dedimus <placeName
+                            key="#Fiscal_property #Textual_occurrence #Object #Mention #Outflow #Allocation_to_churches #Castle"
+                            >Sparono</placeName> castellum, <placeName>vallem Suanam</placeName>,
+                            <placeName>vallem Origanam</placeName>,
+                            <placeName>Fontanedum</placeName>, <placeName>Barsan</placeName>,
+                            <placeName>Suanam</placeName> et omnia predia Ardoini ubicunque iacent,
+                        cum omnibus pertinentiis; dedimus sancto Eusebio <rs>cortem</rs>
                         <geogName>Sisbalanam</geogName> et <placeName>Gatinaram</placeName> in
                         integrum, que iuste perdidit <persName>Ardicinus</persName> filius Ardoini
                         marchionis, quia vocatus ad <rs>palacium</rs> Papiense ut legem faceret,
@@ -146,13 +166,24 @@
                 <p/>
             </div>
             <div type="bibliography" subtype="additional">
-                <p/>
+                <p>Panero 2004</p>
             </div>
             <div type="bibliography" subtype="links">
                 <p/>
             </div>
             <div type="commentary">
-                <p/>
+                <p>Diploma interpolato. Si segnala in particolare che le località di Andurnum;
+                    Mulinariam; Ponderanam; Cisidola; Galianicum sono località confermate a Manfredo
+                    del fu Aimone nel 988 per iniziativa dell'imperatrice Teofano (e di cui le
+                    corticelle di Andurnum e Mulinariam erano state donate da Ottone I al conte
+                    Aimone, insieme con la conferma di altre <foreign>curtes</foreign> fra le quali
+                    vanno segnalate Alice, Casanova, Roppolo e Cavaglià. Non si possono ritenere
+                    genuini i riferimenti alle confische ai danni di Arduino e di Ardicino da parte
+                    di Ottone III alla fine del 1000 anche se la ribellione di Ardicino
+                    rappresentava un ulteriore passo verso la rottura con l'Impero. E neppure sono
+                    genuini i passi relativi alla dispersione dei servi ecclesiastici che si devono
+                    far risalire al 1022 e dunque introdotti solo per colpire i servi ministeriali
+                    schieratisi con il partito arduinico. </p>
             </div>
         </body>
     </text>
