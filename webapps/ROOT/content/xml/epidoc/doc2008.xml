@@ -4,7 +4,7 @@
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
-                <title><foreign>Registrum Petri Diaconi</foreign>, f. 87vA (=C)</title>
+                <title><foreign>Registrum Petri Diaconi</foreign>, f. 82rA-B (=C)</title>
             </titleStmt>
             <editionStmt>
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
@@ -13,7 +13,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
-                <idno type="filename">doc2005</idno>
+                <idno type="filename">doc2008</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -41,11 +41,11 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate notBefore="0853-11" notAfter="0879-05">
-                                <note type="displayed_date">November-December 853 - May 878 or
-                                    January 881 - October 884</note>
+                            <origDate when="0797-02">
+                                <note type="displayed_date">797 February</note>
                                 <note type="dating_elements"/>
-                                <note type="topical_date"/>
+                                <note type="topical_date">Benevento, <foreign>in sacratissimo
+                                        Palatio</foreign></note>
                             </origDate>
                             <origPlace/>
                         </origin>
@@ -73,7 +73,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2021-03-31" who="gzornetta">creation of record</change>
+                <change when="2021-04-02" who="gzornetta">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -81,29 +81,32 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>Per hos etiam dies <persName
-                            key="#Marquis’/ducal/princely_diploma #Princeps" ref="#people/115"
-                            >Adelchis</persName>
-                        <rs key="#Princeps">princeps</rs> rogatus a <persName key="#Prevosts"
-                            ref="#people/113">Criscio</persName><rs key="#Prevosts"> preposito</rs>
-                        <orgName ref="#juridical_persons/85"
-                            key="#Monasteries"
-                            >Sanctae Sophiae</orgName> per <rs
-                            key="#Marquis’/ducal/princely_diploma">preceptum </rs>concessit
-                        huic<orgName ref="#juridical_persons/84"  key="#Monasteries #Property_of_persons_without_heirs #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches"> monasterio</orgName> totam <rs
-                            key="#Landed_possessions #Fiscal_property #Textual_occurrence #Object #Inflow #Inheritance #Outflow #Allocation_to_churches #Property_of_persons_without_heirs"
-                            >substantiam</rs>
-                        <persName ref="#people/116"
-                            key="#Landed_possessions #Property_of_persons_without_heirs"
-                            >Potonis</persName> nobilis cum omnibus omnino rebus ac pertinentiis
-                        suis.</ab>
+                    <ab>In nomine Domini Dei salvatoris nostri Iesu Christi. Dominus vir
+                        gloriosissimus Grimoald Dei previdentia Langobardorum gentis princeps, motus
+                        Dei omnipotentis misericordia et pro redemptione animae nostrae, per
+                        postulatione Laupi mari pahis nostri, concedimus in monasterio Beati
+                        Benedicti quod situm est in castro Casino, ubi vir reverentissimus Gisolfus
+                        abbas preesse videtur, omne servos qui fuerunt ipsius monasterii cum
+                        oxoribus suis quae fuerunt libere cum filiis, filiabus suis, tam qui tempore
+                        domni Gisulfi quam et domni Liutprandi vel domni sanctae ac dulcis memoriae
+                        genitoris nostri et nostro felicissimo tempore sunt aut fuerint compulti et
+                        legibus nostrae potestati tenuerunt aut tenuerint, in eam videlicet rationem
+                        ut amodo et deinceps per hoc nostrum roboretur preceptum tam vos,
+                        reverentissime Gisolfe abba, quam et posteres vestri qui in eundem sacrum
+                        prefuerint cenobium, omnes illos servos cum psis uxoribus et cum filiis,
+                        filiabus suis, qualiter superius legitur, habere et possidere valeatis, et a
+                        nullo ex nostris iudicibus, is est comitibus, gastaldis vel a quibuscumque
+                        gentibus habeatis aliquam requisitionem, sed perpetuis temporibus habere et
+                        possidere valeatis. Quod vero preceptum concessimus ex iussione nostrae
+                        potestatis scripsi ego Benedictus notarius. Actum Beneventi in sacratissimo
+                        Palatio nono anno, mense IIo, quinta indictione feliciter.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p>RPD 200b: 598</p>
+                <p>RPD, n. 181: 549-550; Poupardin 1907: 12</p>
             </div>
             <div type="bibliography" subtype="additional">
-                <p>Bloch 1986: 1347</p>
+                <p>Falco 1929: 487, 498-500; Bloch 1984:1347</p>
             </div>
             <div type="bibliography" subtype="links">
                 <p/>

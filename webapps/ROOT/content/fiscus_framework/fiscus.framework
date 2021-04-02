@@ -54,58 +54,6 @@
 								<action-array>
 									<action>
 										<field name="id">
-											<String>insert_decoNote</String>
-										</field>
-										<field name="name">
-											<String>New Decoration</String>
-										</field>
-										<field name="description">
-											<String>add a new decoration description</String>
-										</field>
-										<field name="largeIconPath">
-											<String></String>
-										</field>
-										<field name="smallIconPath">
-											<String></String>
-										</field>
-										<field name="accessKey">
-											<String></String>
-										</field>
-										<field name="accelerator">
-											<null/>
-										</field>
-										<field name="actionModes">
-											<actionMode-array>
-												<actionMode>
-													<field name="xpathCondition">
-														<String></String>
-													</field>
-													<field name="argValues">
-														<serializableOrderedMap>
-															<entry>
-																<String>fragment</String>
-																<String>&lt;decoNote xmlns="http://www.tei-c.org/ns/1.0">
-        &lt;p/>
-&lt;/decoNote></String>
-															</entry>
-															<entry>
-																<String>insertPosition</String>
-																<String>After</String>
-															</entry>
-														</serializableOrderedMap>
-													</field>
-													<field name="operationID">
-														<String>ro.sync.ecss.extensions.commons.operations.InsertFragmentOperation</String>
-													</field>
-												</actionMode>
-											</actionMode-array>
-										</field>
-										<field name="enabledInReadOnlyContext">
-											<Boolean>false</Boolean>
-										</field>
-									</action>
-									<action>
-										<field name="id">
 											<String>insert_revision</String>
 										</field>
 										<field name="name">
@@ -137,59 +85,6 @@
 															<entry>
 																<String>fragment</String>
 																<String>&lt;change xmlns="http://www.tei-c.org/ns/1.0">&lt;/change></String>
-															</entry>
-															<entry>
-																<String>insertPosition</String>
-																<String>After</String>
-															</entry>
-														</serializableOrderedMap>
-													</field>
-													<field name="operationID">
-														<String>ro.sync.ecss.extensions.commons.operations.InsertFragmentOperation</String>
-													</field>
-												</actionMode>
-											</actionMode-array>
-										</field>
-										<field name="enabledInReadOnlyContext">
-											<Boolean>false</Boolean>
-										</field>
-									</action>
-									<action>
-										<field name="id">
-											<String>insert_bib</String>
-										</field>
-										<field name="name">
-											<String>Add Citation</String>
-										</field>
-										<field name="description">
-											<String>add a new citation</String>
-										</field>
-										<field name="largeIconPath">
-											<String></String>
-										</field>
-										<field name="smallIconPath">
-											<String></String>
-										</field>
-										<field name="accessKey">
-											<String></String>
-										</field>
-										<field name="accelerator">
-											<null/>
-										</field>
-										<field name="actionModes">
-											<actionMode-array>
-												<actionMode>
-													<field name="xpathCondition">
-														<String></String>
-													</field>
-													<field name="argValues">
-														<serializableOrderedMap>
-															<entry>
-																<String>fragment</String>
-																<String>&lt;bibl xmlns="http://www.tei-c.org/ns/1.0">
-     &lt;ptr type="rest-of-bibl" target="#xx"/>
-     &lt;biblScope type="item">reference here&lt;/biblScope>
-&lt;/bibl></String>
 															</entry>
 															<entry>
 																<String>insertPosition</String>
@@ -363,60 +258,6 @@
 									</action>
 									<action>
 										<field name="id">
-											<String>insert_handNote</String>
-										</field>
-										<field name="name">
-											<String>Insert Writing Description</String>
-										</field>
-										<field name="description">
-											<String>Add a new &lt;handNote></String>
-										</field>
-										<field name="largeIconPath">
-											<String></String>
-										</field>
-										<field name="smallIconPath">
-											<String></String>
-										</field>
-										<field name="accessKey">
-											<String></String>
-										</field>
-										<field name="accelerator">
-											<null/>
-										</field>
-										<field name="actionModes">
-											<actionMode-array>
-												<actionMode>
-													<field name="xpathCondition">
-														<String></String>
-													</field>
-													<field name="argValues">
-														<serializableOrderedMap>
-															<entry>
-																<String>fragment</String>
-																<String>&lt;handNote ana="#xx" xmlns="http://www.tei-c.org/ns/1.0"> &lt;/handNote></String>
-															</entry>
-															<entry>
-																<String>insertLocation</String>
-																<String>/TEI/teiHeader/fileDesc/sourceDesc/msDesc/physDesc/handDesc</String>
-															</entry>
-															<entry>
-																<String>insertPosition</String>
-																<String>Inside as last child</String>
-															</entry>
-														</serializableOrderedMap>
-													</field>
-													<field name="operationID">
-														<String>ro.sync.ecss.extensions.commons.operations.InsertFragmentOperation</String>
-													</field>
-												</actionMode>
-											</actionMode-array>
-										</field>
-										<field name="enabledInReadOnlyContext">
-											<Boolean>false</Boolean>
-										</field>
-									</action>
-									<action>
-										<field name="id">
 											<String>insert_external_bib</String>
 										</field>
 										<field name="name">
@@ -454,124 +295,6 @@
 															<entry>
 																<String>insertPosition</String>
 																<String>After</String>
-															</entry>
-														</serializableOrderedMap>
-													</field>
-													<field name="operationID">
-														<String>ro.sync.ecss.extensions.commons.operations.InsertFragmentOperation</String>
-													</field>
-												</actionMode>
-											</actionMode-array>
-										</field>
-										<field name="enabledInReadOnlyContext">
-											<Boolean>false</Boolean>
-										</field>
-									</action>
-									<action>
-										<field name="id">
-											<String>insert_provenance</String>
-										</field>
-										<field name="name">
-											<String>Insert Provenance information</String>
-										</field>
-										<field name="description">
-											<String>Add a new &lt;provenance></String>
-										</field>
-										<field name="largeIconPath">
-											<String></String>
-										</field>
-										<field name="smallIconPath">
-											<String></String>
-										</field>
-										<field name="accessKey">
-											<String></String>
-										</field>
-										<field name="accelerator">
-											<null/>
-										</field>
-										<field name="actionModes">
-											<actionMode-array>
-												<actionMode>
-													<field name="xpathCondition">
-														<String></String>
-													</field>
-													<field name="argValues">
-														<serializableOrderedMap>
-															<entry>
-																<String>fragment</String>
-																<String>
-                     &lt;provenance xmlns="http://www.tei-c.org/ns/1.0" type="" subtype="">
-                          &lt;p>
-                          &lt;/p>
-                        &lt;/provenance></String>
-															</entry>
-															<entry>
-																<String>insertLocation</String>
-																<String>/TEI/teiHeader/fileDesc/sourceDesc/msDesc/history/origin</String>
-															</entry>
-															<entry>
-																<String>insertPosition</String>
-																<String>After</String>
-															</entry>
-														</serializableOrderedMap>
-													</field>
-													<field name="operationID">
-														<String>ro.sync.ecss.extensions.commons.operations.InsertFragmentOperation</String>
-													</field>
-												</actionMode>
-											</actionMode-array>
-										</field>
-										<field name="enabledInReadOnlyContext">
-											<Boolean>false</Boolean>
-										</field>
-									</action>
-									<action>
-										<field name="id">
-											<String>insert_acquisition</String>
-										</field>
-										<field name="name">
-											<String>Acquisition Information</String>
-										</field>
-										<field name="description">
-											<String>Add &lt;acquisition></String>
-										</field>
-										<field name="largeIconPath">
-											<String></String>
-										</field>
-										<field name="smallIconPath">
-											<String></String>
-										</field>
-										<field name="accessKey">
-											<String></String>
-										</field>
-										<field name="accelerator">
-											<null/>
-										</field>
-										<field name="actionModes">
-											<actionMode-array>
-												<actionMode>
-													<field name="xpathCondition">
-														<String></String>
-													</field>
-													<field name="argValues">
-														<serializableOrderedMap>
-															<entry>
-																<String>fragment</String>
-																<String>
-                     &lt;acquisition xmlns="http://www.tei-c.org/ns/1.0">
-                        &lt;!-- subsequent locations if inscription was moved -->
-                            &lt;date when="0001">Date to be displayed&lt;/date>
-                            &lt;p>Details&lt;/p>
-                        &lt;/acquisition>
-</String>
-															</entry>
-															<entry>
-																<String>insertLocation</String>
-																<String>/TEI/teiHeader/fileDesc/sourceDesc/msDesc/history</String>
-															</entry>
-															<entry>
-																<String>insertPosition</String>
-																<String>Inside as last child</String>
 															</entry>
 														</serializableOrderedMap>
 													</field>
@@ -998,6 +721,98 @@
 													</field>
 													<field name="operationID">
 														<String>ro.sync.ecss.extensions.commons.operations.InsertFragmentOperation</String>
+													</field>
+												</actionMode>
+											</actionMode-array>
+										</field>
+										<field name="enabledInReadOnlyContext">
+											<Boolean>false</Boolean>
+										</field>
+									</action>
+									<action>
+										<field name="id">
+											<String>delete_link</String>
+										</field>
+										<field name="name">
+											<String>Delete link</String>
+										</field>
+										<field name="description">
+											<String>Delete &lt;link></String>
+										</field>
+										<field name="largeIconPath">
+											<String></String>
+										</field>
+										<field name="smallIconPath">
+											<String></String>
+										</field>
+										<field name="accessKey">
+											<String></String>
+										</field>
+										<field name="accelerator">
+											<null/>
+										</field>
+										<field name="actionModes">
+											<actionMode-array>
+												<actionMode>
+													<field name="xpathCondition">
+														<String></String>
+													</field>
+													<field name="argValues">
+														<serializableOrderedMap>
+															<entry>
+																<String>elementLocation</String>
+																<String>self::*</String>
+															</entry>
+														</serializableOrderedMap>
+													</field>
+													<field name="operationID">
+														<String>ro.sync.ecss.extensions.commons.operations.DeleteElementOperation</String>
+													</field>
+												</actionMode>
+											</actionMode-array>
+										</field>
+										<field name="enabledInReadOnlyContext">
+											<Boolean>false</Boolean>
+										</field>
+									</action>
+									<action>
+										<field name="id">
+											<String>delete_item</String>
+										</field>
+										<field name="name">
+											<String>Delete item</String>
+										</field>
+										<field name="description">
+											<String>Delete item entry</String>
+										</field>
+										<field name="largeIconPath">
+											<String></String>
+										</field>
+										<field name="smallIconPath">
+											<String></String>
+										</field>
+										<field name="accessKey">
+											<String></String>
+										</field>
+										<field name="accelerator">
+											<null/>
+										</field>
+										<field name="actionModes">
+											<actionMode-array>
+												<actionMode>
+													<field name="xpathCondition">
+														<String></String>
+													</field>
+													<field name="argValues">
+														<serializableOrderedMap>
+															<entry>
+																<String>elementLocation</String>
+																<String>self::*</String>
+															</entry>
+														</serializableOrderedMap>
+													</field>
+													<field name="operationID">
+														<String>ro.sync.ecss.extensions.commons.operations.DeleteElementOperation</String>
 													</field>
 												</actionMode>
 											</actionMode-array>
