@@ -525,22 +525,29 @@
       <xsl:text>[</xsl:text>
       <xsl:for-each select="$people/tei:person/tei:link[@type='people']">
         <xsl:variable name="id" select="substring-after(ancestor::tei:person/tei:idno, 'people/')"/>
-        <xsl:variable name="subtype" select="@subtype"/>
-        <xsl:variable name="linked_id"><xsl:choose>
-            <xsl:when test="contains(@corresp, ' ')"><xsl:value-of select="substring-after(substring-before(@corresp, ' '), 'people/')"/></xsl:when>
-            <xsl:otherwise><xsl:value-of select="substring-after(@corresp, 'people/')"/></xsl:otherwise>
+        <xsl:variable name="relation_type"><xsl:choose>
+          <xsl:when test="@subtype!=''"><xsl:value-of select="@subtype"/></xsl:when><xsl:otherwise><xsl:text>link</xsl:text></xsl:otherwise>
+        </xsl:choose></xsl:variable>
+        <xsl:variable name="color"><xsl:choose>
+            <xsl:when test="$thesaurus//tei:catDesc[@n=$relation_type][@key='family']"><xsl:text>red</xsl:text></xsl:when>
+            <xsl:when test="$thesaurus//tei:catDesc[@n=$relation_type][@key='personal']"><xsl:text>green</xsl:text></xsl:when>
+            <xsl:otherwise><xsl:text>blue</xsl:text></xsl:otherwise>
           </xsl:choose></xsl:variable>
-          <xsl:variable name="relation_type"><xsl:choose>
-            <xsl:when test="$subtype"><xsl:value-of select="$subtype"/></xsl:when><xsl:otherwise><xsl:text>link</xsl:text></xsl:otherwise>
-          </xsl:choose></xsl:variable>
-          <xsl:text>{from: </xsl:text><xsl:value-of select="$id"/><xsl:text>, to: </xsl:text><xsl:value-of select="$linked_id"/>
-        <xsl:text>, label: '</xsl:text><xsl:value-of select="$relation_type"/><xsl:text>', arrows: "to", color: "</xsl:text>
         <xsl:choose>
-          <xsl:when test="$thesaurus//tei:catDesc[@n=$relation_type][@key='family']"><xsl:text>red</xsl:text></xsl:when>
-          <xsl:when test="$thesaurus//tei:catDesc[@n=$relation_type][@key='personal']"><xsl:text>green</xsl:text></xsl:when>
-          <xsl:otherwise><xsl:text>blue</xsl:text></xsl:otherwise>
+          <xsl:when test="not(contains(@corresp, ' '))">
+            <xsl:text>{from: </xsl:text><xsl:value-of select="$id"/><xsl:text>, to: </xsl:text><xsl:value-of select="substring-after(@corresp, 'people/')"/>
+            <xsl:text>, label: '</xsl:text><xsl:value-of select="$relation_type"/><xsl:text>', arrows: "to", color: "</xsl:text><xsl:value-of select="$color"/>
+            <xsl:text>"}</xsl:text>
+          </xsl:when>
+          <xsl:when test="contains(@corresp, ' ')">
+            <xsl:for-each select="tokenize(@corresp, ' ')">
+              <xsl:variable name="single_item" select="."/>
+              <xsl:text>{from: </xsl:text><xsl:value-of select="$id"/><xsl:text>, to: </xsl:text><xsl:value-of select="substring-after($single_item, 'people/')"/>
+              <xsl:text>, label: '</xsl:text><xsl:value-of select="$relation_type"/><xsl:text>', arrows: "to", color: "</xsl:text><xsl:value-of select="$color"/>
+              <xsl:text>"}</xsl:text><xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if>
+            </xsl:for-each>
+          </xsl:when>
         </xsl:choose>
-        <xsl:text>"}</xsl:text>
         <xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if>
       </xsl:for-each>
       <xsl:text>]</xsl:text>
@@ -550,7 +557,6 @@
       <div id="mynetwork"></div>
       <div class="legend">
         <p>
-          <!--<xsl:value-of select="$graph_relations"/>-->
           <span style="color:red">➝</span> family relations | 
           <span style="color:green">➝</span> personal bonds |
           <span style="color:blue">➝</span> other links
