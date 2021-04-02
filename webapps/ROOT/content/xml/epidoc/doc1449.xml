@@ -35,7 +35,7 @@
                             <rs type="text_type" ref="#">--Venditio</rs>
                             <rs type="record_source" ref="#">Original document</rs>
                             <rs type="document_tradition" ref="#">Original</rs>
-                            <rs type="fiscal_property">No</rs>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -95,22 +95,23 @@
                             ref="#people/103">Mauro</persName>
                         <rs key="#Abbots">abbati</rs> de <rs key="#Churches">ecclesia</rs> et <rs
                             key="#Monasteries">monasterio</rs>
-                        <orgName key="#Churches #Monasteries"
-                            ref="#juridical_persons/78">Sancti
-                            Quirici</orgName> sito <placeName
-                            ref="#places/86">Populonio</placeName>, idest una
-                            <rs key="#Petiae">petia</rs> de terra quae esse videtur in loco qui
-                        dicitur <placeName key="#Petiae">Marcolatico</placeName>, prope
-                            <placeName>Murum Longum</placeName>, quae unum capud cum uno lato in
-                        terra Tedicinga est tenent[em, et aliud capud] cum uno latum in terra
-                            <persName>Rugerii</persName> filii quondam
-                            <persName>Ildibrandi</persName>, sicut per confines et terminos
-                        designata esse videtur, ita in integrum vindimus et tradimus tibi predicto
-                        abbati ad hutilitatem prefati monasterii Sancti Quirici eam […] cum
-                        inferioribus et superioribus suis seu cum ascensioribus et ingressoribus
-                        suis vindimus et tradimus in predicto monasterio Sancti Quirici. Unde
-                        recipimus pretium argentum pro valente solidos XXXta a <rs key="#Priests"
-                            >presbitero</rs>
+                        <orgName key="#Churches #Monasteries" ref="#juridical_persons/78">Sancti
+                            Quirici</orgName> sito <placeName ref="#places/86" key="#Monasteries"
+                            >Populonio</placeName>, idest una <rs key="#Petiae">petia</rs> de terra
+                        quae esse videtur in loco qui dicitur <placeName
+                            key="#Petiae #Landed_possessions #Fiscal_property #Mention #Count #Consortes/shared_possessions"
+                            >Marcolatico</placeName>, prope <placeName>Murum Longum</placeName>,
+                        quae unum capud cum uno lato in <rs
+                            key="#Landed_possessions #Fiscal_property #Mention #Count #Consortes/shared_possessions"
+                            >terra Tedicinga</rs> est tenent[em, et aliud capud] cum uno latum in
+                        terra <persName key="#Landed_possessions" ref="#people/104"
+                            >Rugerii</persName> filii quondam <persName>Ildibrandi</persName>, sicut
+                        per confines et terminos designata esse videtur, ita in integrum vindimus et
+                        tradimus tibi predicto abbati ad hutilitatem prefati monasterii Sancti
+                        Quirici eam […] cum inferioribus et superioribus suis seu cum ascensioribus
+                        et ingressoribus suis vindimus et tradimus in predicto monasterio Sancti
+                        Quirici. Unde recipimus pretium argentum pro valente solidos XXXta a <rs
+                            key="#Priests">presbitero</rs>
                         <persName key="#Priests">Henrigo</persName> et a
                             <persName>Benigno</persName> […] tua quidem domno abbati monasterii
                         pastore Sancti Quirici in prefinito. Unde repromittimus nos qui supra
@@ -130,9 +131,9 @@
                         defensandi cum cartula ista qualiter iuxta legem melius potueritis, quia in
                         tali ordine hanc cartula <persName key="#Notary">Petrum</persName> domni
                         regis <rs key="#Notary">no[tarius]</rs> scribere rogavimus. Actum loco qui
-                        dicit[ur] <placeName>Castellare</placeName>, sito <placeName
-                            ref="#places/91">Cornino</placeName>. Signa
-                        manuum suprascriptorum Alferii et Rollandi germani qui hanc cartulam fieri
+                        dicit[ur] <placeName ref="#places/268">Castellare</placeName>, sito
+                            <placeName ref="#places/91">Cornino</placeName>. Signa manuum
+                        suprascriptorum Alferii et Rollandi germani qui hanc cartulam fieri
                         rogaverunt. Signa manuum <persName>Berardi</persName> quondam
                             <persName>Petri</persName> et <persName>Gisolfi</persName> filii
                             <persName>Gerardi</persName> et <persName>Quittoni</persName> quondam
