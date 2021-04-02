@@ -554,14 +554,17 @@
     </xsl:variable>
     
     <div class="row" style="padding: 40px 20px 60px 20px">
-      <div id="mynetwork"></div>
+      <div id="mynetwork">
+      </div>
       <div class="legend">
         <p>
           <span style="color:red">➝</span> family relations | 
           <span style="color:green">➝</span> personal bonds |
           <span style="color:blue">➝</span> other links
+          <br/><button onclick="openFullscreen();" class="fullscreen">Fullscreen</button>
         </p>
       </div>
+      
       <script type="text/javascript">
         const people = <xsl:value-of select="$graph_people"/>;
         const relations = <xsl:value-of select="$graph_relations"/>;
@@ -580,9 +583,24 @@
         },
         nodes:{
         widthConstraint: { maximum: 200 }
+        },
+        interaction: {
+        navigationButtons: true
         }
         };
         var network = new vis.Network(container, data, options);
+        
+        <!-- fullscreen -->
+        var full = document.getElementById("mynetwork"); 
+        function openFullscreen() {
+        if (full.requestFullscreen) {
+        full.requestFullscreen();
+        } else if (full.webkitRequestFullscreen) {
+        full.webkitRequestFullscreen();
+        } else if (full.msRequestFullscreen) {
+        full.msRequestFullscreen();
+        }
+        }
       </script>
     </div>
   </xsl:template>
