@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>ASDL, AAL, D, * L 44 (n. 1038)</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                        </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc516</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">Cartula ad censum perexolvendum</rs>
+                                    <rs type="record_source" ref="#"/>
+                                    <rs type="document_tradition" ref="#"/>
+                                    <rs type="fiscal_property"/>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate notBefore="0001" notAfter="0001" when="0001">
+                                    <note type="displayed_date">0898/04/13</note>
+                                    <note type="dating_elements"></note>
+                                    <note type="topical_date">Actum loco ad Monte ad ecclesiam Sancte Marie (Santa Maria a Monte)</note>
+                                    </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance>
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                            <place></place>
+                        </listPlace>
+                        <listPerson>
+                            <person></person>
+                        </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-01-06" who="ptomei">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab>
+                                Atrualdo e il prete Cristiano, fratelli e figli di Cristina, ricevono in livello dal prete Tassilo, rettore della pieve di Sant’Ippolito di Aniani, due appezzamenti di terra in loco et finibus Petriolo inter fluvio Arno et Arme ubi dicitur Tuzzano et Proda, di pertinenza della stessa pieve, confinante uno caput con terra della stessa pieve, alio capu con un prato dei figli del fu Giovanni, terra di Cliffo, terra di Albone, lato uno con terra di Albone, alio lato con il classo.
+Si impegnano a versare pro omni censum et iustitia al prete e ai suoi successori ogni mese di ottobre il censo annuale di 16 denari d’argento ad pars suprascripte ecclesie Sancti Ipoliti.
+Se non rispetteranno i suddetti impegni, promettono con i loro eredi e proeredi di versare al prete e ai suoi successori la pena di 30 soldi d’argento.
+Chiedono al notaio Adalfridi la stesura di due cartulas.
+                                <persName>Autori: Tassilo presbiter, gg. + Atrualdo e Cristiano presbiter di Cristina.
+Scrittore: Adalfridi notarius.
+Testimoni sottoscrittori: Adalberto, Gunteramo, Ouperto, Gumpaldo, + Giovanni del fu Adalpaldo.
+Altro: ff. del fu Giovanni, Cliffo, Albone.</persName>
+                                <placeName>Aniani (Sant’Ippolito, Santa Maria a Monte), Petriolo ubi dicitur Tuzzano et Proda (Cascina Petriolo, Santa Maria a Monte), Arno (fiume Arno), Arme (canale Usciana).</placeName>
+                                <orgName>Sant’Ippolito di Anniano (chiesa battesimale).</orgName>
+                            </ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL, V/2, n. 1012, p. 625</p>
+                        <p>ChLA, LXXXVII, n. 6, pp. 30-33</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                        <p>Anno d’impero di Lamberto.
+Matronimico.</p>
+                        <p><note>Mod_id: 27</note></p>
+                    </div>
+                </body>
+            </text>
+        </TEI>
