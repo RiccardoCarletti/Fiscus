@@ -578,17 +578,24 @@
         };
         var options = {
         edges:{
-        font: { align: "middle" },
-        length: 600
+        font: { align: "horizontal" }
         },
         nodes:{
         widthConstraint: { maximum: 200 }
         },
-        interaction: {
+        interaction:{
         navigationButtons: true
+        },
+        physics: {
+        enabled: false,
+        solver: "repulsion",
+        repulsion: {
+        nodeDistance: 250
+        }
         }
         };
         var network = new vis.Network(container, data, options);
+        network.stabilize();
         
         <!-- fullscreen -->
         var full = document.getElementById("mynetwork"); 
