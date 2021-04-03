@@ -554,6 +554,7 @@
     </xsl:variable>
     
     <div class="row" style="padding: 40px 20px 60px 20px">
+      <!--<input type="text" id="inputSearch" placeholder="Search"/><button id="btnSearch">Search</button>-->
       <div id="mynetwork">
       </div>
       <div class="legend">
@@ -578,7 +579,11 @@
         };
         var options = {
         edges:{
-        font: { align: "horizontal" }
+            font: { 
+                align: "horizontal", 
+                color: "lightgrey"
+            },
+            chosen: { label: function (values, id, selected, hovering) { values.color = "black"; } }
         },
         nodes:{
         widthConstraint: { maximum: 200 }
@@ -608,6 +613,30 @@
         full.msRequestFullscreen();
         }
         }
+        
+        
+        <!--$("#btnSearch").on('click',function () {
+        for (var i = 0;i&lt;allNodes.length;i++){
+          if (allNodes[i].label.indexOf($("#inputSearch").val()) >=0  &amp;&amp; $("#inputSearch").val() != ''){
+          allNodes[i].color = {
+          border: "#406897"
+          };
+          allNodes[i].shapeProperties = {
+          useBorderWithImage: true
+          };
+          }else{
+          delete allNodes[i].color;
+          delete  allNodes[i].shapeProperties;
+          }
+          }
+          new vis.Network(container, data, options);
+          });
+         
+          $('.container-fluid').keydown(function(event){
+          if(event.keyCode==13){
+          $("#btnSearch").click();
+          }
+          });-->
       </script>
     </div>
   </xsl:template>
