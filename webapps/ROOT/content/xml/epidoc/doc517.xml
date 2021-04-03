@@ -4,7 +4,7 @@
             <teiHeader xml:lang="en">
                 <fileDesc>
                     <titleStmt>
-                        <title>rchivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
                     Diplomatico, + N 3</title>
                     </titleStmt>
                     <editionStmt>
@@ -31,10 +31,11 @@
                             </msIdentifier>
                             <msContents>
                                 <summary>
-                                    <rs type="text_type" ref="#">Cartula ad censum perexolvendum</rs>
-                                    <rs type="record_source" ref="#"/>
-                                    <rs type="document_tradition" ref="#"/>
-                                    <rs type="fiscal_property"/>
+                                    <rs type="text_type" ref="#"
+                                >--Libellus/precaria/emphyteusis</rs>
+                                    <rs type="record_source" ref="#">Original document</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
                                 </summary>
                                 <msItem xml:id="msItem1">
                                     <textLang mainLang="" otherLangs=""/>
@@ -42,11 +43,12 @@
                             </msContents>
                             <history>
                                 <origin>
-                                    <origDate notBefore="0001" notAfter="0001" when="0001">
-                                    <note type="displayed_date">0898/04/13</note>
-                                    <note type="dating_elements"></note>
-                                    <note type="topical_date">Actum loco Aniani ad ecclesiam Sancti Ipoliti (Sant’Ippolito, Santa Maria a Monte)</note>
-                                    </origDate>
+                                    <origDate when="0898-04-13">
+                                <note type="displayed_date">898 April 13</note>
+                                <note type="dating_elements">Anno d’impero di Lamberto</note>
+                                <note type="topical_date">Sant’Ippolito (Santa Maria a Monte,
+                                    Pisa)</note>
+                            </origDate>
                                     <origPlace/>
                                 </origin>
                                 <provenance>
@@ -73,7 +75,7 @@
                 </profileDesc>
                 <revisionDesc>
                     <listChange>
-                        <change when="2021-01-06" who="ptomei">creation of record</change>
+                        <change when="2021-03-04" who="ptomei">creation of record</change>
                     </listChange>
                 </revisionDesc>
             </teiHeader>
@@ -81,24 +83,40 @@
                 <body>
                     <div type="edition">
                         <div type="textpart">
-                            <ab>
-                                Ariuvandalo detto Lamberto del fu Teupaldo riceve in livello dal prete Tassilo, rettore della pieve di Sant’Ippolito di Aniani, due clusa de casa poste in loco ubi dicitur ad Monte prope ecclesia Sancte Marie, in precedenza tenute dal prete Lupaldo, confinante uno caput con il muro de trifuna Sancti Genesi, alio capu con una casa della chiesa di Santa Maria, lato uno con una casa della chiesa di Santa Maria, alio lato con con una casa della chiesa di Santa Maria, con tutte le loro dipendenze.
-Si impegna a versare pro omni censum et iustitia al prete e ai suoi successori ogni mese di ottobre il censo annuale di 6 denari d’argento ad pars suprascripte ecclesie Sancte Marie.
-Se non rispetterà i suddetti impegni, promette di versare al prete e ai suoi successori la pena di 40 soldi d’argento.
-Ottiene la potestas di uscire ed entrare cum carros et boves caballos et aliis bestiis sulla terra vacua qui est post ipsa ecclesia Sancte Marie.
-Chiede al notaio Adalfridi la stesura di due cartulas.
-                                <persName>Autori: Tassilo presbiter, + Aurivandalo detto Lamberto del fu Teupaldo.
-Scrittore: Adalfridi notarius.
-Testimoni sottoscrittori: Cliffo, Elmerando, Adalberto, Cunimundo.
-Altro: Lupaldo presbiter.</persName>
-                                <placeName>Aniani (Sant’Ippolito, Santa Maria a Monte), Monte (Santa Maria a Monte).</placeName>
-                                <orgName>Sant’Ippolito di Anniano (chiesa battesimale), Santa Maria a Monte con muro de trifuna di San Genesio.</orgName>
-                            </ab>
+                            <ab><persName>Aurivandalo detto Lamberto</persName> del <persName>fu
+                            Teupaldo</persName> riceve in livello dal <rs key="#Priests">prete</rs>
+                        <persName key="#Priests">Tassilo</persName>, rettore della pieve di
+                        Sant’Ippolito di Aniani, due clusa de casa poste in loco ubi dicitur
+                            <placeName key="#Churches" ref="#places/63">ad Monte</placeName> prope
+                            <orgName key="#Churches #Altars" ref="#juridical_persons/72"><rs
+                                key="#Churches">ecclesia</rs> Sancte Marie</orgName>, in precedenza
+                        tenute dal <rs key="#Priests">prete</rs>
+                        <persName key="#Priests">Lupaldo</persName>, confinante uno caput con il <rs
+                            key="#Altars">muro de trifuna Sancti Genesi</rs>, alio capu con una casa
+                        della chiesa di Santa Maria, lato uno con una casa della chiesa di Santa
+                        Maria, alio lato con con una casa della chiesa di Santa Maria, con tutte le
+                        loro dipendenze. Si impegna a versare pro omni censum et iustitia al prete e
+                        ai suoi successori ogni mese di ottobre il censo annuale di 6 denari
+                        d’argento ad pars suprascripte ecclesie Sancte Marie. Se non rispetterà i
+                        suddetti impegni, promette di versare al prete e ai suoi successori la pena
+                        di 40 soldi d’argento. Ottiene la potestas di uscire ed entrare cum carros
+                        et <rs key="#Cows">boves</rs>
+                        <rs key="#Horses">caballos</rs> et aliis bestiis sulla terra vacua qui est
+                        post ipsa ecclesia Sancte Marie. Chiede al <rs key="#Writer #Notary"
+                            >notaio</rs>
+                        <persName key="#Writer #Notary">Adalfridi</persName> la stesura di due <rs
+                            key="#Libellus/precaria/emphyteusis">cartulas</rs>. Actum loco
+                            <placeName key="#Baptismal_churches" ref="#places/152"
+                            >Aniani</placeName> ad <orgName key="#Baptismal_churches"><rs
+                                key="#Baptismal_churches">ecclesiam</rs> Sancti Ipoliti</orgName>.
+                            <rs key="#Witness">Testimoni</rs> sottoscrittori: <persName
+                            key="#Witness">Cliffo</persName>, <persName key="#Witness"
+                            >Elmerando</persName>, <persName key="#Witness">Adalberto</persName>,
+                            <persName key="#Witness">Cunimundo</persName>.</ab>
                         </div>
                     </div>
                     <div type="bibliography" subtype="editions">
-                        <p>MDL, V/2, n. 1013, pp. 625-626</p>
-                        <p>ChLA, LXXXVII, n. 7, pp. 34-35</p>
+                        <p>MDL, 5/2, n. 1013, pp. 625-626; ChLA 87, n. 7, pp. 34-35.</p>
                     </div>
                     <div type="bibliography" subtype="additional">
                         <p/>
@@ -107,9 +125,7 @@ Altro: Lupaldo presbiter.</persName>
                         <p/>
                     </div>
                     <div type="commentary">
-                        <p>Anno d’impero di Lamberto.
-</p>
-                        <p><note>Mod_id: 30</note></p>
+                        <p>Sottoscrizioni autografe: Cliffo, Elmerando, Adalberto, Cunimundo.</p>
                     </div>
                 </body>
             </text>
