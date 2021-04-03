@@ -5,7 +5,7 @@
                 <fileDesc>
                     <titleStmt>
                         <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
-                    Diplomatico, ++ M 5</title>
+                    Diplomatico, * L 30</title>
                     </titleStmt>
                     <editionStmt>
                         <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
@@ -14,7 +14,7 @@
                         </editionStmt>
                     <publicationStmt>
                         <publisher>Fiscus - DISCI UniBo</publisher>
-                        <idno type="filename">doc512</idno>
+                        <idno type="filename">doc513</idno>
                         <availability xml:lang="en" status="free">
                             <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                                 texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -35,7 +35,7 @@
                                 >--Libellus/precaria/emphyteusis</rs>
                                     <rs type="record_source" ref="#">Original document</rs>
                                     <rs type="document_tradition" ref="#">Original</rs>
-                                    <rs type="fiscal_property">No</rs>
+                                    <rs type="fiscal_property"/>
                                 </summary>
                                 <msItem xml:id="msItem1">
                                     <textLang mainLang="" otherLangs=""/>
@@ -43,10 +43,10 @@
                             </msContents>
                             <history>
                                 <origin>
-                                    <origDate when="0898-03-04">
-                                <note type="displayed_date">898 March 4</note>
+                                    <origDate when="0898-03-09">
+                                <note type="displayed_date">898 March 9</note>
                                 <note type="dating_elements">Anno d’impero di Lamberto</note>
-                                <note type="topical_date"> Santa Maria a Monte, Pisa</note>
+                                <note type="topical_date">Santa Maria a Monte, Pisa</note>
                             </origDate>
                                     <origPlace/>
                                 </origin>
@@ -82,44 +82,34 @@
                 <body>
                     <div type="edition">
                         <div type="textpart">
-                            <ab><persName>Giovanni</persName> del <persName>fu Adalprando</persName>
-                        e <persName>Ouperto</persName> del <persName>fu Dumpo</persName> ricevono in
-                        livello dal <rs key="#Priests">prete</rs>
+                            <ab><persName>Ataprando</persName> avitator in loco ubi dicitur
+                            <placeName>Blentina</placeName> del <persName>fu Erimprando</persName>
+                        riceve in livello dal <rs key="#Priests">prete</rs>
                         <persName key="#Priests">Tassilo</persName>, rettore della <orgName
                             key="#Baptismal_churches"><rs key="#Baptismal_churches">pieve</rs> di
                             Sant’Ippolito di <placeName ref="#places/152" key="#Baptismal_churches"
-                                >Aniani</placeName></orgName>, un piccolo appezzamento di terra
-                        posto in loco ubi dicitur ad Monte prope ecclesie Sancte Marie, infra ipso
-                            <rs key="#Demesnes #Fruits/vegetables">orto nostro domnicato</rs>,
-                        confinante ambas capitas et ambas lateras con terra della stessa chiesa,
-                        della misura di uno staio e due scale, con tutte le sue dipendenze. Si
-                        impegnano entro i successivi due anni nello stesso appezzamento a levare et
-                        claudere seo coperire una casa, con i loro eredi a bene laborare et
-                        gubernare seu meliorare la suddetta casa. Ottengono la potestas con i loro
-                        eredi e hominibus di transitare cum carra et <rs key="#Cows">boves</rs>
-                        <rs key="#Horses">caballos</rs> et aliis bestiis sulla strada per giungere
-                        all’appezzamento, qui est ante suprascripta ecclesie Sancte Marie. Si
-                        impegnano a versare pro omni censum et iustitia al prete e ai suoi
-                        successori ogni mese di ottobre il censo annuale di 6 denari d’argento ad
-                        pars suprascripte ecclesie Sancte Marie. Se non rispetteranno i suddetti
-                        impegni, promettono con i loro eredi di versare al prete e ai suoi
-                        successori la pena di 50 soldi d’argento. Chiedono al <rs
-                            key="#Writer #Notary">notaio</rs>
-                        <persName key="#Writer #Notary">Adalfridi</persName> la stesura di due <rs
-                            key="#Libellus/precaria/emphyteusis">cartulas</rs>. Actum loco
-                            <placeName ref="#places/63" key="#Demesnes #Fruits/vegetables #Churches"
-                            >ad Monte</placeName> ad <orgName key="#Churches"
-                            ref="#juridical_persons/72"><rs key="#Churches">ecclesiam</rs> Sancte
-                            Marie</orgName>. <rs key="#Witness">Testimoni</rs> sottoscrittori:
-                            <persName key="#Witness">Adalberto</persName>, <persName key="#Witness"
-                            >Gunteramo</persName>, <persName key="#Witness">Andrea</persName>,
-                            <persName key="#Witness">Albone</persName>, <persName
-                            key="#Witness #Notary">Teudimundo</persName>
-                        <rs key="#Notary">notarius</rs>.</ab>
+                                >Aniani</placeName></orgName> e della <orgName><rs key="#Churches"
+                                >chiesa</rs> di Santa Maria</orgName> sita loco ubi dicitur a Monte,
+                        una casa posta nei pressi della chiesa di Santa Maria di pertinenza della
+                        stessa, che già in precedenza teneva, con tutte le sue dipendenze, fra cui
+                        terra vacua ante ipsa casa, confinante uno capo con una curte della stessa
+                        chiesa, alio capo con un orto della stessa chiesa, ambas lateras con una
+                        casa della stessa chiesa tenuta dal <rs key="#Priests">prete</rs>
+                        <persName key="#Priests">Teupaldo</persName>. Si impegna a versare pro omni
+                        censum et iustitia al prete e ai suoi successori ogni mese di ottobre il
+                        censo annuale di 6 denari d’argento ad pars suprascripte ecclesie Sancte
+                        Marie e a venire due volte l’anno ad ipsa ecclesia Sancte Marie legem et
+                        iustitiam faciendum, a mandato del prete. Se non rispetterà i suddetti
+                        impegni, promette con i suoi eredi di versare al prete e ai suoi successori
+                        la pena di 100 soldi d’argento. Chiede al notaio Teudimundo la stesura di
+                        due cartulas. Actum loco <placeName key="#Churches" ref="#places/63"
+                            >Monte</placeName>. Autori: Tassilo presbiter, + Ataprando de Blentina
+                        del fu Ermiprando. Scrittore: Teudimundo notarius. Testimoni sottoscrittori:
+                        Ouperto, Andrea, Adalfridi notarius, + Albone del fu Pietro, Albone. </ab>
                         </div>
                     </div>
                     <div type="bibliography" subtype="editions">
-                        <p>MDL, 5/2, n. 1008, pp. 622-623; ChLA 87, n. 2, pp. 18-21.</p>
+                        <p>MDL, 5/2, n. 1009, pp. 623-624; ChLA 87, n. 3, pp. 22-23.</p>
                     </div>
                     <div type="bibliography" subtype="additional">
                         <p/>
@@ -128,8 +118,8 @@
                         <p/>
                     </div>
                     <div type="commentary">
-                        <p>Sottoscrizioni autografe: Ouperto del fu Dumpo, Adalberto, Gunteramo,
-                    Andrea, Albone, il notaio Teudimundo.</p>
+                        <p>Sottoscrizioni autografe: Ouperto, Andrea, il notaio Adalfridi,
+                    Albone.</p>
                     </div>
                 </body>
             </text>
