@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    Diplomatico, ++ M 5</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                        </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc512</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#"
+                                >--Libellus/precaria/emphyteusis</rs>
+                                    <rs type="record_source" ref="#">Original document</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property"/>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate when="0898-03-04">
+                                <note type="displayed_date">898 March 4</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date"> Santa Maria a Monte; Pisa</note>
+                            </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance>
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                            <place></place>
+                        </listPlace>
+                        <listPerson>
+                            <person></person>
+                        </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-04-03" who="ptomei">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab> Giovanni del fu Adalprando e Ouperto del fu Dumpo ricevono in
+                        livello dal prete Tassilo, rettore della pieve di Sant’Ippolito di Aniani,
+                        un piccolo appezzamento di terra posto in loco ubi dicitur ad Monte prope
+                        ecclesie Sancte Marie, infra ipso orto nostro domnicato, confinante ambas
+                        capitas et ambas lateras con terra della stessa chiesa, della misura di uno
+                        staio e due scale, con tutte le sue dipendenze. Si impegnano entro i
+                        successivi due anni nello stesso appezzamento a levare et claudere seo
+                        coperire una casa, con i loro eredi a bene laborare et gubernare seu
+                        meliorare la suddetta casa. Ottengono la potestas con i loro eredi e
+                        hominibus di transitare cum carra et boves caballos et aliis bestiis sulla
+                        strada per giungere all’appezzamento, qui est ante suprascripta ecclesie
+                        Sancte Marie. Si impegnano a versare pro omni censum et iustitia al prete e
+                        ai suoi successori ogni mese di ottobre il censo annuale di 6 denari
+                        d’argento ad pars suprascripte ecclesie Sancte Marie. Se non rispetteranno i
+                        suddetti impegni, promettono con i loro eredi di versare al prete e ai suoi
+                        successori la pena di 50 soldi d’argento. Chiedono al notaio Adalfridi la
+                        stesura di due cartulas. Actum loco ad Monte ad ecclesiam Sancte Marie
+                            <persName>Autori: Tassilo presbiter, + Giovanni del fu Adalprando,
+                            Ouperto del fu Dumpo. Scrittore: Adalfridi notarius. Testimoni
+                            sottoscrittori: Adalberto, Gunteramo, Andrea, Albone, Teudimundo
+                            notarius.</persName>
+                        <placeName>Aniani (Sant’Ippolito, Santa Maria a Monte), Monte (Santa Maria a
+                            Monte).</placeName>
+                        <orgName>Sant’Ippolito di Anniano (chiesa battesimale), Santa Maria a
+                            Monte.</orgName>
+                    </ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL, V/2, n. 1008, pp. 622-623</p>
+                        <p>ChLA, LXXXVII, n. 2, pp. 18-21</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                        <p>Anno d’impero di Lamberto.</p>
+                        <p><note>Mod_id: 25</note></p>
+                    </div>
+                </body>
+            </text>
+        </TEI>
