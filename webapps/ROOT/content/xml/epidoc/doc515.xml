@@ -31,10 +31,11 @@
                             </msIdentifier>
                             <msContents>
                                 <summary>
-                                    <rs type="text_type" ref="#">Cartula ad censum perexolvendum</rs>
-                                    <rs type="record_source" ref="#"/>
-                                    <rs type="document_tradition" ref="#"/>
-                                    <rs type="fiscal_property"/>
+                                    <rs type="text_type" ref="#"
+                                >--Libellus/precaria/emphyteusis</rs>
+                                    <rs type="record_source" ref="#">Original document</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
                                 </summary>
                                 <msItem xml:id="msItem1">
                                     <textLang mainLang="" otherLangs=""/>
@@ -42,11 +43,11 @@
                             </msContents>
                             <history>
                                 <origin>
-                                    <origDate notBefore="0001" notAfter="0001" when="0001">
-                                    <note type="displayed_date">0898/03/21</note>
-                                    <note type="dating_elements"></note>
-                                    <note type="topical_date">Actum loco a Monte ad ecclesiam Sancte Marie (Santa Maria a Monte)</note>
-                                    </origDate>
+                                    <origDate when="0898-03-21">
+                                <note type="displayed_date">898 March 21</note>
+                                <note type="dating_elements">Anno d’impero di Lamberto</note>
+                                <note type="topical_date">Santa Maria a Monte, Pisa</note>
+                            </origDate>
                                     <origPlace/>
                                 </origin>
                                 <provenance>
@@ -73,7 +74,7 @@
                 </profileDesc>
                 <revisionDesc>
                     <listChange>
-                        <change when="2021-01-06" who="ptomei">creation of record</change>
+                        <change when="2021-03-04" who="ptomei">creation of record</change>
                     </listChange>
                 </revisionDesc>
             </teiHeader>
@@ -81,25 +82,44 @@
                 <body>
                     <div type="edition">
                         <div type="textpart">
-                            <ab>
-                                Il prete Teudimundo del fu Atrimundo riceve in livello dal prete Tassilo, rettore della pieve di Sant’Ippolito di Aniani e della chiesa di Santa Maria sita loco a Monte, una casa et res posta in ipso loco a Monte, in precedenza tenuta dal massario Orso, di pertinenza della stessa chiesa di Santa Maria, con tutte le sue dipendenze, con un exemplar de illa ordinationis pagina mediante la quale il vescovo di Lucca Pietro lo ha ordinato rettore.
-Ottiene la potestas di suballivellare i beni.
-Si impegna a versare pro omni censum et iustitia al prete e ai suoi successori ogni mese di ottobre il censo annuale di 36 denari d’argento ad pars suprascripte ecclesie Sancte Marie, e a far venire ad suprascripta ecclesia Sancte Marie legem et iustitiam faciendum, gli stessi uomini che abiteranno la casa a mandato del prete.
-Se non rispetterà i suddetti impegni, promette di versare al prete e ai suoi successori la pena di 100 soldi d’argento.
-Chiede al notaio Teudimundo la stesura di due cartulas.
-                                <persName>Autori: Tassilo presbiter, Teudimundo presbiter del fu Atrimundo.
-Scrittore: Teudimundo notarius.
-Testimoni sottoscrittori: Gunteramo, + Aurivandalo detto Lamberto del fu Teupaldo, Cliffo, Cunimundo.
-Altro: Orso massarius, Pietro episcopus.</persName>
-                                <placeName>Aniani (Sant’Ippolito, Santa Maria a Monte), Monte (Santa Maria a Monte).</placeName>
-                                <orgName>Sant’Ippolito di Anniano (chiesa battesimale), Santa Maria a Monte.</orgName>
-                            </ab>
+                            <ab>Il <rs key="#Priests">prete</rs>
+                        <persName key="#Priests">Teudimundo</persName> del <persName>fu
+                            Atrimundo</persName> riceve in livello dal <rs key="#Priests">prete</rs>
+                        <persName key="#Priests">Tassilo</persName>, rettore della <orgName
+                            key="#Baptismal_churches"><rs key="#Baptismal_churches">pieve</rs> di
+                            Sant’Ippolito di <placeName ref="#places/152" key="#Baptismal_churches"
+                                >Aniani</placeName></orgName> e della chiesa di Santa Maria sita
+                        loco a Monte, una casa et res posta in ipso loco a Monte, in precedenza
+                        tenuta dal <rs key="#Agricultural_workers">massario</rs>
+                        <persName key="#Agricultural_workers">Orso</persName>, di pertinenza della
+                        stessa chiesa di Santa Maria, con tutte le sue dipendenze, con un exemplar
+                        de illa <rs key="#Ordinatio">ordinationis pagina</rs> mediante la quale il
+                            <rs key="#Bishops">vescovo</rs> di <placeName ref="#places/4"
+                            key="#Bishops">Lucca</placeName>
+                        <persName key="#Bishops">Pietro</persName> lo ha ordinato rettore. Ottiene
+                        la potestas di suballivellare i beni. Si impegna a versare pro omni censum
+                        et iustitia al prete e ai suoi successori ogni mese di ottobre il censo
+                        annuale di 36 denari d’argento ad pars suprascripte ecclesie Sancte Marie, e
+                        a far venire ad suprascripta ecclesia Sancte Marie legem et iustitiam
+                        faciendum, gli stessi uomini che abiteranno la casa a mandato del prete. Se
+                        non rispetterà i suddetti impegni, promette di versare al prete e ai suoi
+                        successori la pena di 100 soldi d’argento. Chiede al <rs
+                            key="#Writer #Notary">notaio</rs>
+                        <persName key="#Writer #Notary">Teudimundo</persName> la stesura di due <rs
+                            key="#Libellus/precaria/emphyteusis">cartulas</rs>. Actum loco
+                            <placeName key="#Churches" ref="#places/63">a Monte</placeName> ad
+                            <orgName ref="#juridical_persons/72" key="#Churches"><rs key="#Churches"
+                                >ecclesiam</rs> Sancte Marie</orgName>. <rs key="#Witness"
+                            >Testimoni</rs> sottoscrittori: : <persName key="#Witness"
+                            >Gunteramo</persName>, <persName key="#Witness">Aurivandalo detto
+                            Lamberto</persName> del <persName>fu Teupaldo</persName>, <persName
+                            key="#Witness">Cliffo</persName>, <persName key="#Witness"
+                            >Cunimundo</persName>.</ab>
                         </div>
                     </div>
                     <div type="bibliography" subtype="editions">
-                        <p>MDL, V/2, n. 1011, p. 624</p>
-                        <p>MDL, V/3, n. 1765, p. 637</p>
-                        <p>ChLA, LXXXVII, n. 5, pp. 26-29</p>
+                        <p>MDL, 5/2, n. 1011, p. 624; 5/3, n. 1765, p. 637; ChLA 87, n. 5, pp.
+                    26-29.</p>
                     </div>
                     <div type="bibliography" subtype="additional">
                         <p/>
@@ -108,8 +128,8 @@ Altro: Orso massarius, Pietro episcopus.</persName>
                         <p/>
                     </div>
                     <div type="commentary">
-                        <p>Anno d’impero di Lamberto.</p>
-                        <p><note>Mod_id: 25</note></p>
+                        <p>Sottoscrizioni autografe: il prete Teudimundo, Gunteramo, Cliffo,
+                    Cunimundo.</p>
                     </div>
                 </body>
             </text>
