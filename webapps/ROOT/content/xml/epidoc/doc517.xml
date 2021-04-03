@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>rchivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    Diplomatico, + N 3</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                        </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc517</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">Cartula ad censum perexolvendum</rs>
+                                    <rs type="record_source" ref="#"/>
+                                    <rs type="document_tradition" ref="#"/>
+                                    <rs type="fiscal_property"/>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate notBefore="0001" notAfter="0001" when="0001">
+                                    <note type="displayed_date">0898/04/13</note>
+                                    <note type="dating_elements"></note>
+                                    <note type="topical_date">Actum loco Aniani ad ecclesiam Sancti Ipoliti (Sant’Ippolito, Santa Maria a Monte)</note>
+                                    </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance>
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                            <place></place>
+                        </listPlace>
+                        <listPerson>
+                            <person></person>
+                        </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-01-06" who="ptomei">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab>
+                                Ariuvandalo detto Lamberto del fu Teupaldo riceve in livello dal prete Tassilo, rettore della pieve di Sant’Ippolito di Aniani, due clusa de casa poste in loco ubi dicitur ad Monte prope ecclesia Sancte Marie, in precedenza tenute dal prete Lupaldo, confinante uno caput con il muro de trifuna Sancti Genesi, alio capu con una casa della chiesa di Santa Maria, lato uno con una casa della chiesa di Santa Maria, alio lato con con una casa della chiesa di Santa Maria, con tutte le loro dipendenze.
+Si impegna a versare pro omni censum et iustitia al prete e ai suoi successori ogni mese di ottobre il censo annuale di 6 denari d’argento ad pars suprascripte ecclesie Sancte Marie.
+Se non rispetterà i suddetti impegni, promette di versare al prete e ai suoi successori la pena di 40 soldi d’argento.
+Ottiene la potestas di uscire ed entrare cum carros et boves caballos et aliis bestiis sulla terra vacua qui est post ipsa ecclesia Sancte Marie.
+Chiede al notaio Adalfridi la stesura di due cartulas.
+                                <persName>Autori: Tassilo presbiter, + Aurivandalo detto Lamberto del fu Teupaldo.
+Scrittore: Adalfridi notarius.
+Testimoni sottoscrittori: Cliffo, Elmerando, Adalberto, Cunimundo.
+Altro: Lupaldo presbiter.</persName>
+                                <placeName>Aniani (Sant’Ippolito, Santa Maria a Monte), Monte (Santa Maria a Monte).</placeName>
+                                <orgName>Sant’Ippolito di Anniano (chiesa battesimale), Santa Maria a Monte con muro de trifuna di San Genesio.</orgName>
+                            </ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL, V/2, n. 1013, pp. 625-626</p>
+                        <p>ChLA, LXXXVII, n. 7, pp. 34-35</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                        <p>Anno d’impero di Lamberto.
+</p>
+                        <p><note>Mod_id: 30</note></p>
+                    </div>
+                </body>
+            </text>
+        </TEI>
