@@ -562,6 +562,7 @@
           <span style="color:red">➝</span> family relations | 
           <span style="color:green">➝</span> personal bonds |
           <span style="color:blue">➝</span> other links
+          <br/>[Zoom in and click on the arrows to show the relation types]
           <br/><button onclick="openFullscreen();" class="fullscreen">Fullscreen</button>
         </p>
       </div>
@@ -580,12 +581,19 @@
         var options = {
         edges:{
             font: { 
-                align: "horizontal", 
+                align: "horizontal",
+                size: 5,
                 color: "lightgrey"
             },
-            chosen: { label: function (values, id, selected, hovering) { values.color = "black"; } }
+            chosen: { 
+              label: function (values, id, selected, hovering) { 
+                values.size = 18;
+                values.color = "black";
+                }
+            } 
         },
         nodes:{
+        margin: 5,
         widthConstraint: { maximum: 200 }
         },
         interaction:{
