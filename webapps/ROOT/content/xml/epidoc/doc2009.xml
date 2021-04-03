@@ -4,7 +4,7 @@
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
-                <title><foreign>Registrum Petri Diaconi</foreign>, f. 87vA-B (=C)</title>
+                <title>Archivio di Montecassino, aula III, capsa XIII, n. 5</title>
             </titleStmt>
             <editionStmt>
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
@@ -13,7 +13,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
-                <idno type="filename">doc2006</idno>
+                <idno type="filename">doc2009</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -32,7 +32,7 @@
                         <summary>
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
-                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
                             <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
@@ -41,10 +41,10 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate notBefore="0001" notAfter="0001" when="0885-05">
-                                <note type="displayed_date">885 May</note>
+                            <origDate when="0928-04-25">
+                                <note type="displayed_date">928 April 25</note>
                                 <note type="dating_elements"/>
-                                <note type="topical_date"/>
+                                <note type="topical_date">Capua</note>
                             </origDate>
                             <origPlace/>
                         </origin>
@@ -80,41 +80,28 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>Idem quoque <persName ref="#people/113" key="#Prevosts"><rs key="#Prevosts"
-                                >prepositus</rs></persName> alio <rs
-                            key="#Marquis’/ducal/princely_diploma">precepto</rs> adquisivit ab
-                            <persName key="#Marquis’/ducal/princely_diploma #Princeps"
-                            ref="#people/111">Aione</persName>
-                        <rs key="#Princeps">principe</rs>
-                        <rs
-                            key="#Landed_possessions #Property_of_persons_without_heirs #Fiscal_property #Textual_occurrence #Object #Inflow #Inheritance #Outflow #Allocation_to_churches"
-                            >cuncta</rs> quae <persName
-                            key="#Gastaldus/vicegastaldus #Landed_possessions #Property_of_persons_without_heirs"
-                            ref="#people/116">Poto</persName>
-                        <rs key="#Gastaldus/vicegastaldus">gastaldeus</rs> filius supradicti
-                            <persName>Potonis</persName> possidere videbatur in pertinentiis
-                            <placeName ref="#places/112"
-                            key="#City_territory #Landed_possessions #Property_of_persons_without_heirs #Fiscal_property #Textual_occurrence #Object #Inflow #Inheritance #Outflow #Allocation_to_church"
-                            >Alifanis</placeName> et <placeName ref="#places/111"
-                            key="#City_territory #Landed_possessions #Property_of_persons_without_heirs #Fiscal_property #Textual_occurrence #Object #Inflow #Inheritance #Outflow #Allocation_to_church"
-                            >Telesinis</placeName>, ad opus videlicet et utilitatem <orgName
-                            key="#Monasteries #Landed_possessions #Property_of_persons_without_heirs #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_church"
-                            ref="#juridical_persons/84"><rs key="#Monasteries"
-                            >monasterii</rs></orgName> huius.</ab>
+                    <ab>+ In nomine Domini salvatoris nostri Iesu Christi Dei aeterni. Landolfus et
+                        Atenolfus divina ordinante providentia Langobardorum gentis principes. Cum
+                        principalis excellentia petitione dilecti sui iuste petenti clementer favet,
+                        igitur noverit omnium fidelium nostrorum presentium scilicet ac futurorum
+                        sagacitas quia, sicut omnibus notum est, habuit bonae memoriae genitor
+                        noster emptam a partae aecclesiae Sancte Sophiae, quae constructa esse
+                        videtur infra Beneventanam civitatem unam curtem quae vocatur Ferrumanum, in
+                        finibus Liburiae, pertinentem ipsius ecclesiae. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p>RPD 200c: 599-560; Voigt 1902: 80</p>
+                <p><foreign>Registrum Petri Diaconi </foreign>f. 90vA-B; CSS 2: 94-97; CMC I, 54:
+                    139; RPD 206: 629-631; Voigt 1902: *133; Poupardin 1907: 83</p>
             </div>
             <div type="bibliography" subtype="additional">
-                <p/>
+                <p>Bloch: 234-235; Zeller 2010: 141</p>
             </div>
             <div type="bibliography" subtype="links">
                 <p/>
             </div>
             <div type="commentary">
-                <p>the original document is: Archivio di Montecassino, aula III, capsa XII, n.
-                    21</p>
+                <p/>
             </div>
         </body>
     </text>
