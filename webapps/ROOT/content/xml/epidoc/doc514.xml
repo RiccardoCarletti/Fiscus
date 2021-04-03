@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>ASDL, AAL, D, * G 95 (n. 1036)</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                        </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc514</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">Cartula ad censum perexolvendum</rs>
+                                    <rs type="record_source" ref="#"/>
+                                    <rs type="document_tradition" ref="#"/>
+                                    <rs type="fiscal_property"/>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate notBefore="0001" notAfter="0001" when="0001">
+                                    <note type="displayed_date">0898/03/09</note>
+                                    <note type="dating_elements"></note>
+                                    <note type="topical_date">Actum loco a Monte ad ecclesiam Sancte Marie (Santa Maria a Monte)</note>
+                                    </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance>
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                            <place></place>
+                        </listPlace>
+                        <listPerson>
+                            <person></person>
+                        </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-01-06" who="ptomei">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab>
+                                Il prete Adalmari del fu Adalberto riceve in livello dal prete Tassilo, rettore della chiesa di Sant’Ippolito e Santa Maria sita loco a Monte, una casa posta nei pressi della chiesa di Santa Maria di pertinenza della stessa, con una curte de sutto ipsa casa e tutte le sue dipendenze, confinante uno capo con terra e una casa del chierico Toto, alio capo con terra e una casa della stessa chiesa, uno lato con la via publica, alio lato con una curticella della stessa chiesa.
+Ottiene la potestas di trasmettere i beni al chierico Leone e Andrea, fratelli e figli di Winisilda, e ai loro eredi.
+Si impegna a versare pro omni censum et iustitia al prete e ai suoi successori ogni mese di ottobre il censo annuale di 6 denari d’argento ad pars suprascripte ecclesie Sancte Marie.
+Se non rispetterà i suddetti impegni, promette di versare al prete e ai suoi successori la pena di 100 soldi d’argento.
+Chiede al notaio Teudimundo la stesura di due cartulas.
+                                <persName>Autori: Tassilo presbiter, Adalmari presbiter del fu Adalberto.
+Scrittore: Teudimundo notarius.
+Testimoni sottoscrittori: Albone, Andrea, Gunteramo, Adalfridi notarius.
+Altro: Toto clericus, gg. Leone clericus e Andrea di Winisilda.</persName>
+                                <placeName>Aniani (Sant’Ippolito, Santa Maria a Monte), Monte (Santa Maria a Monte).</placeName>
+                                <orgName>Sant’Ippolito di Anniano (chiesa battesimale), Santa Maria a Monte.</orgName>
+                            </ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL, V/2, n. 1010, p. 624</p>
+                        <p>ChLA, LXXXVII, n. 4, pp. 24-25</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                        <p>Anno d’impero di Lamberto.
+Matronimico.</p>
+                        <p><note>Mod_id: 32</note></p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

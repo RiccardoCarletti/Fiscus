@@ -35,7 +35,7 @@
                                 >--Libellus/precaria/emphyteusis</rs>
                                     <rs type="record_source" ref="#">Original document</rs>
                                     <rs type="document_tradition" ref="#">Original</rs>
-                                    <rs type="fiscal_property"/>
+                                    <rs type="fiscal_property">No</rs>
                                 </summary>
                                 <msItem xml:id="msItem1">
                                     <textLang mainLang="" otherLangs=""/>
@@ -101,11 +101,17 @@
                         Marie e a venire due volte l’anno ad ipsa ecclesia Sancte Marie legem et
                         iustitiam faciendum, a mandato del prete. Se non rispetterà i suddetti
                         impegni, promette con i suoi eredi di versare al prete e ai suoi successori
-                        la pena di 100 soldi d’argento. Chiede al notaio Teudimundo la stesura di
-                        due cartulas. Actum loco <placeName key="#Churches" ref="#places/63"
-                            >Monte</placeName>. Autori: Tassilo presbiter, + Ataprando de Blentina
-                        del fu Ermiprando. Scrittore: Teudimundo notarius. Testimoni sottoscrittori:
-                        Ouperto, Andrea, Adalfridi notarius, + Albone del fu Pietro, Albone. </ab>
+                        la pena di 100 soldi d’argento. Chiede al <rs key="#Writer #Notary"
+                            >notaio</rs>
+                        <persName key="#Writer #Notary">Adalfridi</persName> la stesura di due <rs
+                            key="#Libellus/precaria/emphyteusis">cartulas</rs>. Actum loco
+                            <placeName key="#Churches" ref="#places/63">Monte</placeName>. <rs
+                            key="#Witness">Testimoni</rs> sottoscrittori: <persName key="#Witness"
+                            >Ouperto</persName>, <persName key="#Witness">Andrea</persName>,
+                            <persName key="#Witness #Notary">Adalfridi</persName>
+                        <rs key="#Notary">notarius</rs>, <persName key="#Witness">Albone</persName>
+                        del <persName>fu Pietro</persName>, <persName key="#Witness"
+                            >Albone</persName>. </ab>
                         </div>
                     </div>
                     <div type="bibliography" subtype="editions">
