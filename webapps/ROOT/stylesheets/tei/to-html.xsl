@@ -559,9 +559,9 @@
       </div>
       <div class="legend">
         <p>
-          <span style="color:red">➝</span> family relations | 
-          <span style="color:green">➝</span> personal bonds |
-          <span style="color:blue">➝</span> other links
+          <span style="color:red">➔</span> family relations | 
+          <span style="color:green">➔</span> personal bonds |
+          <span style="color:blue">➔</span> other links
           <br/>[Zoom in and click on the arrows to show the relation types]
           <br/><button onclick="openFullscreen();" class="fullscreen">Fullscreen</button>
         </p>
@@ -587,13 +587,13 @@
             },
             chosen: { 
               label: function (values, id, selected, hovering) { 
-                values.size = 18;
+                values.size = 16;
                 values.color = "black";
                 }
             } 
         },
         nodes:{
-        margin: 5,
+        shape: "box",
         widthConstraint: { maximum: 200 }
         },
         interaction:{
