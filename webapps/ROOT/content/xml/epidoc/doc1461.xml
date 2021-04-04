@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio di Stato di Siena, Diplomatico, Città di Massa, 1016 marzo
+                    16</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc1461</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Venditio</rs>
+                                    <rs type="record_source" ref="#">Original document</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate when="1016-03-16"> 
+                                        <note type="displayed_date">1016  March 16</note>
+                                        <note type="dating_elements">Anno d’impero di Enrico. </note>
+                                        <note type="topical_date">Massa Marittima</note>
+                                    </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-04-03" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab>Gurgio filio bone memorie Bonitii vende a Leo presbitero filio bone
+                        memorie Iohannis (…) una petia de terra mea illa quam in loco et finibus
+                        prope ecclesia Sancti Iusti, quod uno capo tenet in beati Sancti Iusti, et
+                        alio capo tenet in terra Ghisolfi presbiteri et de suis consortibus, lato
+                        uno con terra di Winizio, alio lato con terra della chiesa di San Cerbone,
+                        con tutte le sue dipendenze, per il prezzo di 20 soldi d’argento. Chiede al
+                        notaio imperiale Broncardo la stesura della cartula. Actum loco Massa.
+                            <persName>Autori: + Gurgio del fu Bonizio, Leone presbiter del fu
+                            Giovanni. Scrittore: Broncardo notarius dom. imp. Testimoni
+                            sottoscrittori: + Guntolino del fu Mainzio, + Teuzio del fu Suavizio, +
+                            Eribaldo del fu Pietro. Altro: Ghisolfo presbiter, Winizio.</persName>
+                        <placeName>Massa (Massa Marittima), Sancti Iusti (San Giovanni,
+                            Suvereto).</placeName>
+                        <orgName>San Giusto di Cornino, San Cerbone di Populonia (chiesa
+                            matrice).</orgName> (Massa Marittima)</ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>Lisini 1908: 508</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                        <p>Nota dorsale sec. XII: Sancto Iusto de Podio.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>
