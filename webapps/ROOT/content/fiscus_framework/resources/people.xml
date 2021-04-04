@@ -1385,6 +1385,10 @@
                     <note>Collavini 1995-1996: 524.</note>
                     <link type="people" corresp="#people/107" subtype="motherOf"/>
                     <link type="people" corresp="#people/122" subtype="legallyRecognisedUnionWith"/>
+                    <link type="people" corresp="#people/207" subtype="daughterOf"/>
+                    <link type="people" corresp="#people/208" subtype="daughterInLawOf"/>
+                    <link type="people" corresp="#people/209" subtype="sisterOf"/>
+                    <link type="places" corresp="#places/286" subtype="hasConnectionWith"/>
                 </person>
                 <person>
                     <persName>Vitalis (896-915/924?); episcopus Vicentinus</persName>
@@ -1659,6 +1663,7 @@
                     <link type="people" corresp="#people/206" subtype="sonOf"/>
                     <link type="places" corresp="#places/272 #places/287 #places/288 #places/142"
                         subtype="hasConnectionWith"/>
+                    <link type="people" corresp="#people/207" subtype="fatherOf"/>
                 </person>
                 <person>
                     <persName>Gherardus (I Aldobrandeschi; [v.953-966]; q.961)
@@ -1675,18 +1680,29 @@
                     <persName type="other"/>
                     <idno>people/207</idno>
                     <note>Collavini 1995-1996: 521; </note>
+                    <link type="people" subtype="sonOf" corresp="#people/205"/>
+                    <link type="people" corresp="#people/208" subtype="legallyRecognisedUnionWith"/>
+                    <link type="people" corresp="#people/182 #people/209" subtype="fatherOf"/>
+                    <link type="places" corresp="#places/286" subtype="hasConnectionWith"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/79" subtype="link"/>
                 </person>
                 <person>
                     <persName>Ermengarda (q. 1020) comitissa</persName>
                     <persName type="other"/>
                     <idno>people/208</idno>
                     <note>Collavini 1995-1996: 521; </note>
+                    <link type="people" corresp="#people/207" subtype="legallyRecognisedUnionWith"/>
+                    <link type="people" corresp="#people/209" subtype="motherOf"/>
+                    <link type="people" corresp="#people/182" subtype="motherOf"/>
                 </person>
                 <person>
                     <persName>Matilda (Aldobrandeschi; q.1020) comitissa</persName>
                     <persName type="other"/>
                     <idno>people/209</idno>
                     <note/>
+                    <link type="people" corresp="#people/207" subtype="daughterOf"/>
+                    <link type="people" corresp="#people/208" subtype="daughterOf"/>
+                    <link type="people" corresp="#people/182" subtype="sisterOf"/>
                 </person>
                 
             </listPerson>
