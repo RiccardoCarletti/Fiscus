@@ -31,10 +31,11 @@
                             </msIdentifier>
                             <msContents>
                                 <summary>
-                                    <rs type="text_type" ref="#">Cartula ad censum perexolvendum</rs>
-                                    <rs type="record_source" ref="#"/>
-                                    <rs type="document_tradition" ref="#"/>
-                                    <rs type="fiscal_property"/>
+                                    <rs type="text_type" ref="#"
+                                >--Libellus/precaria/emphyteusis</rs>
+                                    <rs type="record_source" ref="#">Original document</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
                                 </summary>
                                 <msItem xml:id="msItem1">
                                     <textLang mainLang="" otherLangs=""/>
@@ -42,11 +43,11 @@
                             </msContents>
                             <history>
                                 <origin>
-                                    <origDate notBefore="0001" notAfter="0001" when="0001">
-                                    <note type="displayed_date">0898/04/15</note>
-                                    <note type="dating_elements"></note>
-                                    <note type="topical_date">Actum Luca (Lucca)</note>
-                                    </origDate>
+                                    <origDate when="0898-04-15">
+                                <note type="displayed_date">898 April 15</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Lucca</note>
+                            </origDate>
                                     <origPlace/>
                                 </origin>
                                 <provenance>
@@ -73,7 +74,7 @@
                 </profileDesc>
                 <revisionDesc>
                     <listChange>
-                        <change when="2021-01-06" who="ptomei">creation of record</change>
+                        <change when="2021-04-06" who="ptomei">creation of record</change>
                     </listChange>
                 </revisionDesc>
             </teiHeader>
@@ -81,18 +82,22 @@
                 <body>
                     <div type="edition">
                         <div type="textpart">
-                            <ab>
-                                Il notaio e scabino Ghisalfridi del fu Roffridi riceve in livello dal vescovo di Lucca Pietro, una casa et res posta in loco et finibus Placario, in precedenza tenuta da Pelprando, Poso e altro Poso, di pertinenza dello stesso vescovato, con tutte le sue dipendenze.
-Si impegna a versare pro omni censum et iustitiam al vescovo e ai suoi successori a Lucca ogni mese di giugno il censo annuale di 24 denari d’argento ad pars del vescovato di San Martino.
-Se non rispetterà i suddetti impegni, promette con i suoi eredi di versare al vescovo e ai suoi successori la pena di 50 soldi d’argento.
-Chiede al notaio Teuderando la stesura di due cartulas.
-                                <persName>Autori: Pietro episcopus, Ghisalfridi notarius et schabinus del fu Roffridi.
-Scrittore: Teuderando notarius.
-Testimoni sottoscrittori: Alone, Eleazar, Albone, + Alone del fu Angalperto.
-Altro: Pelprando, Poso, Poso.</persName>
-                                <placeName>Luca (Lucca), Placario (vicino Marlia, Capannori).</placeName>
-                                <orgName>San Martino di Lucca (chiesa matrice).</orgName>
-                            </ab>
+                            <ab> Il notaio e scabino Ghisalfridi del fu Roffridi riceve in livello
+                        dal vescovo di Lucca Pietro, una casa et res posta in loco et finibus
+                        Placario, in precedenza tenuta da Pelprando, Poso e altro Poso, di
+                        pertinenza dello stesso vescovato, con tutte le sue dipendenze. Si impegna a
+                        versare pro omni censum et iustitiam al vescovo e ai suoi successori a Lucca
+                        ogni mese di giugno il censo annuale di 24 denari d’argento ad pars del
+                        vescovato di San Martino. Se non rispetterà i suddetti impegni, promette con
+                        i suoi eredi di versare al vescovo e ai suoi successori la pena di 50 soldi
+                        d’argento. Chiede al notaio Teuderando la stesura di due cartulas. Actum
+                        Luca. <persName>Autori: Pietro episcopus, Ghisalfridi notarius et schabinus
+                            del fu Roffridi. Scrittore: Teuderando notarius. Testimoni
+                            sottoscrittori: Alone, Eleazar, Albone, + Alone del fu Angalperto.
+                            Altro: Pelprando, Poso, Poso.</persName>
+                        <placeName>Luca (Lucca), Placario (vicino Marlia, Capannori).</placeName>
+                        <orgName>San Martino di Lucca (chiesa matrice).</orgName>
+                    </ab>
                         </div>
                     </div>
                     <div type="bibliography" subtype="editions">
