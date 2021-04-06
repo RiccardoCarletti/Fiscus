@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title></title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc1111</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#"/>
+                            <rs type="record_source" ref="#"/>
+                            <rs type="document_tradition" ref="#"/>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate notBefore="0001" notAfter="0001" when="0001"> 
+                                <note type="displayed_date"></note>
+                                <note type="dating_elements"></note>
+                                <note type="topical_date"></note>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-02-08">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine domini nostri Iesu Christi Dei aeterni. Berengarius divina favente
+                        clementia rex. Dum locis divino cultui mancipatis ob divine servitutis
+                        amorem open congruam ferimus, et regum morem decenter implemus et apud Deum
+                        profuturum nobis non diffidimus. Igitur omnium fidelium sanctae Dei
+                        Ecclesiae nostrorumque presentium scilicet et futurorum noverit industria,
+                        qualiter interventu Petri reverentissimi episcopi et archicancellarii nostri
+                        adiit celsitudinem nostram Gamenulfus sanctae Mutinensis eclesiae episcopus,
+                        quatenus nostrae auctoritatis preceptum confirmaremus cuncta monimina atque
+                        possessiones iuste et legaliter ad eandem eclesiam pertinentes. Cuius
+                        precibus assensum prebentes capellas, monasteria, xenodochia, eclesias
+                        baptismales et omnibus suis pertinentiis ad suprascriptam eclesiam
+                        stabilimus perpetuo robore eam recipientes sub nostri tuitionis mundburd.
+                        Concedimus etiam ut iuxta morem aliarum res predictae eclesiae per idoneos
+                        homines et veraces omni tempore inquirantur, et ad plenissimam usque
+                        deducantur iustitiam, nec non etiam condonamus eidem eclesiae ut deinceps
+                        servi aut cartulati ad eandem eclesiam iuste pertinentes nullum censum
+                        publice parti persolvant, sed liceat eis quieto ordine vivere et ipsi suae
+                        eclesiae deservire. Nullusque comes aut iudex publicus, vel quislibet rei
+                        publice procurator ad causas iuditiario more audiendos in monasteriis,
+                        xenodochiis, aut eclesiis baptismalibus resideat, et homines tam clericos,
+                        villas et agros seu reliquas possessiones, quas moderno tempore in diversis
+                        locis aut territoriis nostrae potestatis iuste et legaliter quieto ordine
+                        pars ipsius eclesiae possedit vel tenet, ad freda seu tributa exigenda, aut
+                        mansiones et paratas faciendas, neque fideiussores tollendos, hominesque
+                        ipsius ecclesiae tam ingenuos quam et servos super terram ipsius commorantes
+                        distringendos, pignerandos, nec in hoste ducendos, vel ire cogendos, vel
+                        ullas redibitiones aut illicitas occasiones requirendas quibus in aliquo
+                        eadem eclesia sibique subiecti aliquod iniuste patiantur incommodum quisquam
+                        temerarius existat. Iubemus etiam atque omnimodo contradecimus, ut nullus
+                        quislibet ex omnibus pertinentiis supradicte eclesiae ullam renitentiam
+                        facere presumat, neque per ingenia adquisita aut conscriptiones et
+                        emphitecarios a presulis prefatae eclesiae iniuste conscriptas retinere inde
+                        quippiam vel modicum presumat, sed pro Dei reverentia absque ulla
+                        contradictionepars et potestas eiusdem sua recipiat iura. Sancimus etiam
+                        pretaxatae eclesiae iuxta antecessorum nostrorum decreta loca in quibus
+                        predicta civitas constructa est, ita nostrae auctoritatis precepto stabilia
+                        maneant cum cancellarius, quos prisca consuetudine prefata eclesia de
+                        clericis sui ordinis ad scribendos suae potestatis libellos et fiotecarios
+                        habeat. Vias quoque, pontes, portas et quicquid antiquo iure eidem civitati
+                        a procuratoribus rei publicae persolvebatur, id est ubicumque vias, portas,
+                        pontes in sua terra habuerit, nostra vice pars pretaxatae eclesiae liberam
+                        capiendi debitum ex eis censum habeat potestatem, et liceat ei fossata
+                        cavare, molendina construere, portas erigere, et super unum miliarium in
+                        circuitu eclesiae civitatis circumquaque firmare ad salvandam et muniendam
+                        ipsam sanctam eclesiam suamque constitutam canonicam, et aquam aperire et
+                        claudere absque ulla publica contradictione, ut sub nostrae tuitionis
+                        defensione idem presul cum suis omnibus permanens pro nobis omnipotentent?
+                        Deum valeat exorare. Si vero inter commanentes firmata fuerint testimonia ad
+                        res eiusdem eclesiae rapiendas et pars prefate eclesiae reclamaverit, quod
+                        pro huiusmodi causa iustitiam habere non possit, si negare hoc aut
+                        sacramento purgare voluerint, administratoribus eclesiae liceat pugna aut
+                        testibus, si tamen voluerint, per pugnam adprobare, ne sub hac occasione
+                        eclesia damnum incurrat. Si quis autem hec nostrae preceptionis auctoritatem
+                        temerarious infringere temptaverit, sciat se compositurum auri optimi libras
+                        triginta, medietatem camere nostrae et medietatem supradicte eclesiae. Et ut
+                        hoc verius credatur diligentiusque ab omnibus observetur, manu propria
+                        firmavimus et anuli nostri inpressione subter iussimus insigniri. Signum
+                        domni Berengarii gloriosissimi regis. Vitalis cancellarius ad vicem Petri
+                        episcopi et archicancellarius recognovi et subscripsi. Data VII id.
+                        decembr., anno incarnationis domini nostri Iesu Christi DCCCXCVIII, anno
+                        vero regni domni Berengarii gloriosissimi regis XI per indictionem II. Actum
+                        Bononie civitatis. In Dei nomine feliciter, amen.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
