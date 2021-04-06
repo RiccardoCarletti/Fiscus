@@ -5,7 +5,7 @@
                 <fileDesc>
                     <titleStmt>
                         <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
-                    Diplomatico, * F 88</title>
+                    Diplomatico, + Q 77</title>
                     </titleStmt>
                     <editionStmt>
                         <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
@@ -14,7 +14,7 @@
                         </editionStmt>
                     <publicationStmt>
                         <publisher>Fiscus - DISCI UniBo</publisher>
-                        <idno type="filename">doc519</idno>
+                        <idno type="filename">doc520</idno>
                         <availability xml:lang="en" status="free">
                             <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                                 texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -31,11 +31,10 @@
                             </msIdentifier>
                             <msContents>
                                 <summary>
-                                    <rs type="text_type" ref="#"
-                                >--Libellus/precaria/emphyteusis</rs>
-                                    <rs type="record_source" ref="#">Original document</rs>
-                                    <rs type="document_tradition" ref="#">Original</rs>
-                                    <rs type="fiscal_property">No</rs>
+                                    <rs type="text_type" ref="#">Cartula ad censum perexolvendum</rs>
+                                    <rs type="record_source" ref="#"/>
+                                    <rs type="document_tradition" ref="#"/>
+                                    <rs type="fiscal_property"/>
                                 </summary>
                                 <msItem xml:id="msItem1">
                                     <textLang mainLang="" otherLangs=""/>
@@ -43,11 +42,11 @@
                             </msContents>
                             <history>
                                 <origin>
-                                    <origDate when="0898-04-20">
-                                <note type="displayed_date">898 April 20</note>
-                                <note type="dating_elements">Anno d’impero di Lamberto</note>
-                                <note type="topical_date">Lucca</note>
-                            </origDate>
+                                    <origDate notBefore="0001" notAfter="0001" when="0001">
+                                    <note type="displayed_date">0898/04/22</note>
+                                    <note type="dating_elements"></note>
+                                    <note type="topical_date">Actum Luca (Lucca)</note>
+                                    </origDate>
                                     <origPlace/>
                                 </origin>
                                 <provenance>
@@ -74,7 +73,7 @@
                 </profileDesc>
                 <revisionDesc>
                     <listChange>
-                        <change when="2021-04-06" who="ptomei">creation of record</change>
+                        <change when="2021-01-06" who="ptomei">creation of record</change>
                     </listChange>
                 </revisionDesc>
             </teiHeader>
@@ -82,35 +81,23 @@
                 <body>
                     <div type="edition">
                         <div type="textpart">
-                            <ab>I fratelli <persName>Benedetto</persName> e
-                            <persName>Ropperto</persName> del <persName>fu Gisprando</persName>
-                        ricevono in livello dal <rs key="#Bishops">vescovo</rs> di Lucca <persName
-                            key="#Bishops">Pietro</persName>, una res posta in loco et finibus
-                            <placeName>Cassaticho prope Muzaticho et in loco Merizaclo</placeName>,
-                        che già in precedenza tenevano, di pertinenza dello stesso vescovato, con
-                        tutte le sue dipendenze. Si impegnano con i loro eredi a bene laborare et
-                        gubernare seu meliorare la suddetta res, entro i successivi due anni, infra
-                        ipsa res, a levare et claudere seo coperire una casa, con i loro eredi a
-                        mettervi uomini ad residendum et abitandum. Si impegnano a versare pro omni
-                        censum et iustitiam al vescovo e ai suoi successori a Lucca ogni mese di
-                        novembre il censo annuale di 18 denari d’argento ad pars del <orgName
-                            ref="#juridical_persons/68" key="#Mother_churches"><rs
-                                key="#Mother_churches">vescovato</rs> di San Martino</orgName> e
-                        venire a Lucca legem et iustitiam faciendum, a mandato del vescovo. Se non
-                        rispetteranno i suddetti impegni, promettono con i loro eredi di versare al
-                        vescovo e ai suoi successori la pena di 50 soldi d’argento. Chiedono al <rs
-                            key="#Writer #Notary">notaio</rs>
-                        <persName key="#Writer #Notary">Teudimundo</persName> la stesura di due <rs
-                            key="#Libellus/precaria/emphyteusis">cartulas</rs>. Actum <placeName
-                            ref="#places/4" key="#Mother_churches">Luca</placeName>. <rs
-                            key="#Witness">Testimoni</rs> sottoscrittori: <persName key="#Witness"
-                            >Fraolmi</persName>, <persName key="#Witness">Alone</persName> del
-                            <persName>fu Angalperto</persName>, <persName key="#Witness"
-                            >Willeramo</persName>, <persName key="#Witness">Albone</persName>.</ab>
+                            <ab>
+                                Il prete Giovanni del fu Orso e Stefano del fu Ildiperto, ricevono in livello dal prete Tassilo del fu Andrea, casis et rebus in ipso loco a Monte prope ecclesie Sancte Marie, di pertinenza della stessa chiesa, in precedenza tenute da Siso, con tutte le loro dipendenze.
+Si impegnano a versare pro omni censum et iustitia al prete e ai suoi successori ad suprascriptam ecclesiam Sancte Marie ogni mese di ottobre il censo annuale di 27 denari d’argento ad pars suprascripte ecclesie Sancte Marie.
+Se non rispetteranno i suddetti impegni, promettono con Andrea infantulo figlio di Walperga e i loro eredi di versare al prete e ai suoi successori la pena di 100 soldi d’argento.
+Chiedono al notaio Teuderando la stesura di due cartulas.
+                                <persName>Autori: Pietro episcopus, Giovanni presbiter del fu Orso, + Stefano del fu Ildiperto.
+Scrittore: Teuderando notarius.
+Testimoni sottoscrittori: Andrea notarius, Teuderando notarius, Cosperto notarius, Atrualdo notarius.
+Altro: Siso, Andrea di Walperga.</persName>
+                                <placeName>Luca (Lucca), Monte (Santa Maria a Monte).</placeName>
+                                <orgName>Santa Maria a Monte.</orgName>
+                            </ab>
                         </div>
                     </div>
                     <div type="bibliography" subtype="editions">
-                        <p>MDL, 5/2, n. 1015, pp. 626-627; ChLA 87, n. 10, pp. 42-43.</p>
+                        <p>MDL, V/2, n. 1016, p. 627</p>
+                        <p>ChLA, LXXXVII, n. 9, pp. 39-41</p>
                     </div>
                     <div type="bibliography" subtype="additional">
                         <p/>
@@ -119,9 +106,9 @@
                         <p/>
                     </div>
                     <div type="commentary">
-                        <p>Nota dorsale XI sec.: libello in Muzatico nescio ubi. Nota dorsale XII
-                    sec.: Casatico prope Mozatico in Camaiore. Sottoscrizioni autografe: Fraolmi,
-                    Willeramo, Albone.</p>
+                        <p>Anno d’impero di Lamberto.
+Matronimico.</p>
+                        <p><note>Mod_id: 23</note></p>
                     </div>
                 </body>
             </text>
