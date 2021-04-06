@@ -569,17 +569,17 @@
         <p>
           <span style="color:red">➔</span> family relations | 
           <span style="color:green">➔</span> personal bonds |
-          <span style="color:blue">➔</span> other links
-          <br/>[Zoom in and click on the arrows to show the relation types]
-          <br/><button onclick="openFullscreen();" class="button">Fullscreen</button>
+          <span style="color:blue">➔</span> other links 
+          <span style="margin-left:10px">[Zoom in and click on the arrows to show the relation types]</span>
           <br/><span class="autocomplete"><input type="text" id="inputSearch" placeholder="Search"/></span><button id="btnSearch" class="button">Search</button>
+          <br/><button onclick="openFullscreen();" class="button">Fullscreen</button>
         </p>
       </div>
       
       <script type="text/javascript">
         const people = <xsl:value-of select="$graph_people"/>;
         const relations = <xsl:value-of select="$graph_relations"/>;
-        const labels = <xsl:value-of select="$graph_labels"/>;
+        const graph_labels = <xsl:value-of select="$graph_labels"/>;
         var nodes = new vis.DataSet(people);
         var edges = new vis.DataSet(relations);
         
@@ -649,7 +649,7 @@
           new vis.Network(container, data, options).stabilize();
           });
           
-          autocomplete(document.getElementById("inputSearch"), labels); <!-- function called from assets/networks.js -->
+          autocomplete(document.getElementById("inputSearch"), graph_labels); <!-- function called from assets/networks.js -->
       </script>
     </div>
   </xsl:template>
@@ -697,6 +697,14 @@
       <xsl:text>}</xsl:text>
     </xsl:variable>
     
+    <xsl:variable name="map_labels">
+      <xsl:text>[</xsl:text>
+      <xsl:for-each select="$places/tei:place[descendant::tei:geo/text()]">
+        <xsl:text>"</xsl:text><xsl:value-of select="normalize-space(translate(tei:placeName[1], ',', '; '))"/><xsl:text>"</xsl:text><xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if>
+      </xsl:for-each>
+      <xsl:text>]</xsl:text>
+    </xsl:variable>
+    
     <!-- add map -->
     <div class="row">
       <div id="mapid" class="map"></div>
@@ -714,6 +722,8 @@
           <img src="../../../assets/images/square.png" alt="square" class="mapicon"/>Tenures
           <img src="../../../assets/images/triangle.png" alt="triangle" class="mapicon"/>Land plots and rural buildings
           <img src="../../../assets/images/tree.png" alt="tree" class="mapicon"/>Fallow land
+          <!--<br/><span class="autocomplete"><input type="text" id="mapSearch" placeholder="Search"/></span><button id="btnSearch" class="button">Search</button>-->
+          
         </p>
       </div>
       <script type="text/javascript">
@@ -772,6 +782,8 @@
         
         const polygons = <xsl:value-of select="$map_polygons"/>;
         const points = <xsl:value-of select="$map_points"/>;
+        const map_labels = <xsl:value-of select="$map_labels"/>;
+        <!--autocomplete(document.getElementById("mapSearch"), map_labels);--> <!-- function called from assets/networks.js -->
         
         var polygons_places = [];
         var purple_places = [];
