@@ -286,11 +286,12 @@
             <xsl:variable name="id" select="substring-after(translate(tei:idno,'#',''), 'places/')"/>
             <xsl:text>"</xsl:text><xsl:value-of select="$name"/><xsl:text>#</xsl:text><xsl:value-of select="$id"/><xsl:text>": "</xsl:text>
             <xsl:value-of select="replace(replace(normalize-space(tei:geogName/tei:geo), ', ', ';'), '; ', ';')"/>
-            <xsl:text>"</xsl:text><xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if>
+              <xsl:text>", </xsl:text>
+            </xsl:for-each>
           </xsl:for-each>
-          </xsl:for-each>
-          <xsl:text>}</xsl:text>
+          <xsl:text>!}</xsl:text>
         </xsl:variable>
+        
         <xsl:variable name="map_points">
           <xsl:text>{</xsl:text> 
           <xsl:for-each select="$linkedplaces">
@@ -384,8 +385,8 @@
             var purpleIcon = new LeafIcon({iconUrl: '../../../assets/images/purple.png'}),
             goldenIcon = new LeafIcon({iconUrl: '../../../assets/images/golden.png'});
             
-            var polygons = <xsl:value-of select="$map_polygons"/>;
-            var points = <xsl:value-of select="$map_points"/>;
+            var polygons = <xsl:value-of select="replace(replace($map_polygons, ', !', ''), '!', '')"/>;
+            var points = <xsl:value-of select="replace($map_points, ', ,', ',')"/>;
             var polygons_places = [];
             var purple_places = [];
             var golden_places = [];
