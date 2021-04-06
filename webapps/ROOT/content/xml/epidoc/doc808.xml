@@ -4,7 +4,9 @@
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
-                <title></title>
+                <title>Archivio di Stato di Cremona, Codice A (Astegiano, <foreign>Codex
+                        Diplomaticus Cremonae</foreign> II, <foreign>Documenti della lite</foreign>,
+                    n. 249, p. 87)</title>
             </titleStmt>
             <editionStmt>
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
@@ -13,7 +15,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
-                <idno type="filename">doc1</idno>
+                <idno type="filename">doc808</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -31,8 +33,8 @@
                     <msContents>
                         <summary>
                             <rs type="text_type" ref="#"/>
-                            <rs type="record_source" ref="#"/>
-                            <rs type="document_tradition" ref="#"/>
+                            <rs type="record_source" ref="#">Edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
                             <rs type="fiscal_property"/>
                         </summary>
                         <msItem xml:id="msItem1">
@@ -41,12 +43,14 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate notBefore="0001" notAfter="0001" when="0001"> 
-                                <note type="displayed_date"></note>
-                                <note type="dating_elements"></note>
-                                <note type="topical_date"></note>
+                            <origDate notBefore="1227-11-09" notAfter="1227-12-31">
+                                <note type="displayed_date">1227?</note>
+                                <note type="dating_elements">Doc. cartaceo senza data. Astegiano lo
+                                    colloca nel 1227, anno in cui termina la lite relativa a
+                                    Guastalla e Luzzara.</note>
+                                <note type="topical_date"/>
                             </origDate>
-                            <origPlace/>
+                            <origPlace>Sanctus Sixtus; monasterium (Piacenza)</origPlace>
                         </origin>
                         <provenance>
                             <location>
@@ -72,7 +76,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2021-02-08">creation of record</change>
+                <change when="2021-02-08" who="ltabarrini">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -80,7 +84,11 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab></ab>
+                    <ab>Item quod curia Guastalle est curia regalis et iurisdictio per se habet in
+                        omnia imperium et plenam iurisdictionem, habendo gladii potestatem. Item
+                        quod commune et homines de Guastalla toto tempore quo fuerint in servicio
+                        iverint et steterint suis propris expensis et suis risigis et periculis in
+                        rebus et personis, sine aliquo gravamine et expensis communis Cremone.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
