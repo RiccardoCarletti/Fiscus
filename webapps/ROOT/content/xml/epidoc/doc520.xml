@@ -31,10 +31,11 @@
                             </msIdentifier>
                             <msContents>
                                 <summary>
-                                    <rs type="text_type" ref="#">Cartula ad censum perexolvendum</rs>
-                                    <rs type="record_source" ref="#"/>
-                                    <rs type="document_tradition" ref="#"/>
-                                    <rs type="fiscal_property"/>
+                                    <rs type="text_type" ref="#"
+                                >--Libellus/precaria/emphyteusis</rs>
+                                    <rs type="record_source" ref="#">Original document</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
                                 </summary>
                                 <msItem xml:id="msItem1">
                                     <textLang mainLang="" otherLangs=""/>
@@ -42,11 +43,11 @@
                             </msContents>
                             <history>
                                 <origin>
-                                    <origDate notBefore="0001" notAfter="0001" when="0001">
-                                    <note type="displayed_date">0898/04/22</note>
-                                    <note type="dating_elements"></note>
-                                    <note type="topical_date">Actum Luca (Lucca)</note>
-                                    </origDate>
+                                    <origDate when="0898-04-22">
+                                <note type="displayed_date">898 April 22</note>
+                                <note type="dating_elements">Anno d’impero di Lamberto</note>
+                                <note type="topical_date">Lucca</note>
+                            </origDate>
                                     <origPlace/>
                                 </origin>
                                 <provenance>
@@ -81,23 +82,35 @@
                 <body>
                     <div type="edition">
                         <div type="textpart">
-                            <ab>
-                                Il prete Giovanni del fu Orso e Stefano del fu Ildiperto, ricevono in livello dal prete Tassilo del fu Andrea, casis et rebus in ipso loco a Monte prope ecclesie Sancte Marie, di pertinenza della stessa chiesa, in precedenza tenute da Siso, con tutte le loro dipendenze.
-Si impegnano a versare pro omni censum et iustitia al prete e ai suoi successori ad suprascriptam ecclesiam Sancte Marie ogni mese di ottobre il censo annuale di 27 denari d’argento ad pars suprascripte ecclesie Sancte Marie.
-Se non rispetteranno i suddetti impegni, promettono con Andrea infantulo figlio di Walperga e i loro eredi di versare al prete e ai suoi successori la pena di 100 soldi d’argento.
-Chiedono al notaio Teuderando la stesura di due cartulas.
-                                <persName>Autori: Pietro episcopus, Giovanni presbiter del fu Orso, + Stefano del fu Ildiperto.
-Scrittore: Teuderando notarius.
-Testimoni sottoscrittori: Andrea notarius, Teuderando notarius, Cosperto notarius, Atrualdo notarius.
-Altro: Siso, Andrea di Walperga.</persName>
-                                <placeName>Luca (Lucca), Monte (Santa Maria a Monte).</placeName>
-                                <orgName>Santa Maria a Monte.</orgName>
-                            </ab>
+                            <ab>Il <rs key="#Priests">prete</rs>
+                        <persName key="#Priests">Giovanni</persName> del <persName>fu
+                            Orso</persName> e <persName>Stefano</persName> del <persName>fu
+                            Ildiperto</persName>, ricevono in livello dal <rs key="#Priests"
+                            >prete</rs>
+                        <persName key="#Priests">Tassilo</persName> del <persName>fu
+                            Andrea</persName>, casis et rebus in ipso loco <placeName
+                            key="#Churches" ref="#places/63">a Monte</placeName> prope <orgName
+                            key="#Churches" ref="#juridical_persons/72"><rs key="#Churches"
+                                >ecclesie</rs> Sancte Marie</orgName>, di pertinenza della stessa
+                        chiesa, in precedenza tenute da <persName>Siso</persName>, con tutte le loro
+                        dipendenze. Si impegnano a versare pro omni censum et iustitia al prete e ai
+                        suoi successori ad suprascriptam ecclesiam Sancte Marie ogni mese di ottobre
+                        il censo annuale di 27 denari d’argento ad pars suprascripte ecclesie Sancte
+                        Marie. Se non rispetteranno i suddetti impegni, promettono con
+                            <persName>Andrea</persName> infantulo <rs key="#Clerical_concubinage"
+                            >figlio di <persName>Walperga</persName></rs> e i loro eredi di versare
+                        al prete e ai suoi successori la pena di 100 soldi d’argento. Chiedono al
+                            <rs key="#Writer #Notary">notaio</rs>
+                        <persName key="#Writer #Notary">Teuderando</persName> la stesura di due <rs
+                            key="#Libellus/precaria/emphyteusis">cartulas</rs>. Actum <placeName
+                            ref="#places/4">Luca</placeName>. Autori: Pietro episcopus, Giovanni
+                        presbiter del fu Orso, + Stefano del fu Ildiperto. Scrittore: Teuderando
+                        notarius. Testimoni sottoscrittori: Andrea notarius, Teuderando notarius,
+                        Cosperto notarius, Atrualdo notarius.</ab>
                         </div>
                     </div>
                     <div type="bibliography" subtype="editions">
-                        <p>MDL, V/2, n. 1016, p. 627</p>
-                        <p>ChLA, LXXXVII, n. 9, pp. 39-41</p>
+                        <p>MDL, 5/2, n. 1016, p. 627; ChLA 87, n. 9, pp. 39-41.</p>
                     </div>
                     <div type="bibliography" subtype="additional">
                         <p/>
@@ -106,9 +119,8 @@ Altro: Siso, Andrea di Walperga.</persName>
                         <p/>
                     </div>
                     <div type="commentary">
-                        <p>Anno d’impero di Lamberto.
-Matronimico.</p>
-                        <p><note>Mod_id: 23</note></p>
+                        <p>Sottoscrizioni autografe: il prete Giovanni, il notaio Andrea, il notaio
+                    Teuderando, il notaio Cosperto, il notaio Atrualdo.</p>
                     </div>
                 </body>
             </text>
