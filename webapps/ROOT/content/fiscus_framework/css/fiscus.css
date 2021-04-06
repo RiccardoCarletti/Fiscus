@@ -138,6 +138,7 @@
              sort, ascending,
              values, oxy_concat("#", oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/places.xml'), '")//listPlace//place/idno, ",#")'))),
              labels, oxy_xpath(oxy_concat('normalize-space(string-join(doc("', oxy_url('${framework}/', 'resources/places.xml'), '")//listPlace//place/placeName[1], ","))' ))
+             /*labels, oxy_xpath(oxy_concat('string-join(collection("${framework}/resources/?select=*.xml")//listPlace//place/*[1], ",")' ))*/
              )
              " Link type: "
              oxy_editor(
