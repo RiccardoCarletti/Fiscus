@@ -469,23 +469,24 @@
   </xsl:template>
 
   <xsl:template match="t:persName[ancestor::t:div[@type = 'edition']]">
-    <span class="persName hidden"><xsl:text>*</xsl:text></span><xsl:apply-templates/><span class="persName hidden"><xsl:text>*</xsl:text></span>
+    <span class="persName"><xsl:apply-templates/></span>
     <xsl:if test="@ref !=''"><a target="_blank" class="links hidden"><xsl:attribute name="href"><xsl:value-of select="concat('../texts/people.html#', substring-after(translate(@ref, '#', ''), 'people/'))"/></xsl:attribute> ➚</a></xsl:if>
   </xsl:template>
   <xsl:template match="t:placeName[ancestor::t:div[@type = 'edition']]">
-    <span class="placeName hidden"><xsl:text>*</xsl:text></span><xsl:apply-templates/><span class="placeName hidden"><xsl:text>*</xsl:text></span>
+    <span class="placeName"><xsl:apply-templates/></span>
     <xsl:if test="@ref !=''"><a target="_blank" class="links hidden"><xsl:attribute name="href"><xsl:value-of select="concat('../texts/places.html#', substring-after(translate(@ref, '#', ''), 'places/'))"/></xsl:attribute> ➚</a></xsl:if>
   </xsl:template>
   <xsl:template match="t:orgName[ancestor::t:div[@type = 'edition']]">
-    <span class="orgName hidden"><xsl:text>*</xsl:text></span><xsl:apply-templates/><span class="orgName hidden"><xsl:text>*</xsl:text></span>
+    <span class="orgName"><xsl:apply-templates/></span>
     <xsl:if test="@ref !=''"><a target="_blank" class="links hidden"><xsl:attribute name="href"><xsl:value-of select="concat('../texts/juridical_persons.html#', substring-after(translate(@ref, '#', ''), 'juridical_persons/'))"/></xsl:attribute> ➚</a></xsl:if>
   </xsl:template>
+  
   <xsl:template match="t:geogName[ancestor::t:div[@type = 'edition']]">
-    <span class="geogName hidden"><xsl:text>*</xsl:text></span><xsl:apply-templates/><span class="geogName hidden"><xsl:text>*</xsl:text></span>
+    <span class="geogName"><xsl:apply-templates/></span>
     <xsl:if test="@ref !=''"><a target="_blank" class="links hidden"><xsl:attribute name="href"><xsl:value-of select="concat('../texts/estates.html#', substring-after(translate(@ref, '#', ''), 'estates/'))"/></xsl:attribute> ➚</a></xsl:if>
   </xsl:template>
   <xsl:template match="t:rs[ancestor::t:div[@type = 'edition']]">
-    <span class="rs hidden"><xsl:text>*</xsl:text></span><xsl:apply-templates/><span class="rs hidden"><xsl:text>*</xsl:text></span>
+    <span class="rs"><xsl:apply-templates/></span>
   </xsl:template>
 
 
