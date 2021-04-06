@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    Diplomatico, * C 71</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                        </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc523</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#"
+                                >--Libellus/precaria/emphyteusis</rs>
+                                    <rs type="record_source" ref="#">Original document</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate when="0898-04-28">
+                                <note type="displayed_date">898 April 28</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Lucca</note>
+                            </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance>
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                            <place></place>
+                        </listPlace>
+                        <listPerson>
+                            <person></person>
+                        </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-01-06" who="ptomei">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab> Fraolmi del fu Teudimundo riceve in livello dal vescovo di Lucca
+                        Pietro, una casa et res posta in loco et finibus ubi dicitur Subsilvule
+                        prope ecclesie Sancti Angeli, tenuta dai fratelli Aggo e Poso, di pertinenza
+                        della chiesa di San Frediano sita foras civitate ista Lucense prope muro
+                        istius civitatis, qui est de subpotestatem dello stesso vescovato, con tutte
+                        le sue dipendenze; una res posta in loco et finibus Gufiniano prope
+                        Serteriano, tenuta dai fratelli Guifridi e Toto, di pertinenza della stessa
+                        chiesa di San Frediano, con tutte le sue dipendenze. Si impegna a versare
+                        pro omni censum et iustitiam al vescovo e ai suoi successori ogni mese di
+                        m(...) il censo annuale di 60 denari d’argento ad pars della chiesa di San
+                        Frediano. Se non rispetterà i suddetti impegni, promette con i suoi eredi di
+                        versare al vescovo e ai suoi successori la pena di 60 soldi d’argento.
+                        Chiede al notaio Teuderando la stesura di due cartulas. Actum Luca.
+                            <persName>Autori: Pietro episcopus, Fraolmi del fu Teudimundo.
+                            Scrittore: Teuderando notarius. Testimoni sottoscrittori: Giorgio
+                            notarius, Ingherado, Adalperto notarius, Adalberto. Altro: gg. Aggo e
+                            Poso, gg. Guifridi e Toto.</persName>
+                        <placeName>Luca (Lucca), Subsilvule (Sant’Angelo in Campo, Lucca), Gufiniano
+                            prope Serteriano (vicino Montuolo, Lucca).</placeName>
+                        <orgName>Santi Vincenzo, Frediano, Stefano e Lorenzo di Lucca (chiesa
+                            sedale), San Michele Arcangelo in Campo, San Martino di Lucca (chiesa
+                            matrice).</orgName>
+                    </ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL, V/2, n. 1019, p. 628</p>
+                        <p>ChLA, LXXXVII, n. 13, pp. 50-51</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                        <p>Anno d’impero di Lamberto.</p>
+                        <p><note>Mod_id: 34</note></p>
+                    </div>
+                </body>
+            </text>
+        </TEI>
