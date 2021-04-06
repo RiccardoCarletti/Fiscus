@@ -554,6 +554,15 @@
       <xsl:text>]</xsl:text>
     </xsl:variable>
     
+    <xsl:variable name="graph_labels">
+      <xsl:text>[</xsl:text>
+      <xsl:for-each select="$people/tei:person">
+        <xsl:text>"</xsl:text><xsl:value-of select="normalize-space(translate(tei:persName[1], ',', '; '))"/><xsl:text>"</xsl:text>
+        <xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if>
+      </xsl:for-each>
+      <xsl:text>]</xsl:text>
+    </xsl:variable>
+    
     <div class="row" style="padding: 40px 20px 60px 20px">
       <div id="mynetwork"></div>
       <div class="legend">
@@ -563,13 +572,14 @@
           <span style="color:blue">➔</span> other links
           <br/>[Zoom in and click on the arrows to show the relation types]
           <br/><button onclick="openFullscreen();" class="button">Fullscreen</button>
-          <br/><input type="text" id="inputSearch" placeholder="Search"/><button id="btnSearch" class="button">Search</button>
+          <br/><span class="autocomplete"><input type="text" id="inputSearch" placeholder="Search"/></span><button id="btnSearch" class="button">Search</button>
         </p>
       </div>
       
       <script type="text/javascript">
         const people = <xsl:value-of select="$graph_people"/>;
         const relations = <xsl:value-of select="$graph_relations"/>;
+        const labels = <xsl:value-of select="$graph_labels"/>;
         var nodes = new vis.DataSet(people);
         var edges = new vis.DataSet(relations);
         
@@ -638,6 +648,8 @@
           }
           new vis.Network(container, data, options).stabilize();
           });
+          
+          autocomplete(document.getElementById("inputSearch"), labels); <!-- function called from assets/networks.js -->
       </script>
     </div>
   </xsl:template>
