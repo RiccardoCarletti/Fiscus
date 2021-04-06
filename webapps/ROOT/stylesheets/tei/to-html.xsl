@@ -554,16 +554,15 @@
     </xsl:variable>
     
     <div class="row" style="padding: 40px 20px 60px 20px">
-      <!--<input type="text" id="inputSearch" placeholder="Search"/><button id="btnSearch">Search</button>-->
-      <div id="mynetwork">
-      </div>
+      <div id="mynetwork"></div>
       <div class="legend">
         <p>
           <span style="color:red">➔</span> family relations | 
           <span style="color:green">➔</span> personal bonds |
           <span style="color:blue">➔</span> other links
           <br/>[Zoom in and click on the arrows to show the relation types]
-          <br/><button onclick="openFullscreen();" class="fullscreen">Fullscreen</button>
+          <br/><button onclick="openFullscreen();" class="button">Fullscreen</button>
+          <br/><input type="text" id="inputSearch" placeholder="Search"/><button id="btnSearch" class="button">Search</button>
         </p>
       </div>
       
@@ -622,29 +621,22 @@
         }
         }
         
-        
-        <!--$("#btnSearch").on('click',function () {
-        for (var i = 0;i&lt;allNodes.length;i++){
-          if (allNodes[i].label.indexOf($("#inputSearch").val()) >=0  &amp;&amp; $("#inputSearch").val() != ''){
-          allNodes[i].color = {
-          border: "#406897"
+        <!-- search -->
+       $("#btnSearch").on('click',function () {
+       for (var i = 0; i&lt;people.length; i++){
+       if (people[i].label.indexOf($("#inputSearch").val()) >=0) {
+          if ($("#inputSearch").val() != ''){
+          people[i].color = {
+          background: "yellow"
           };
-          allNodes[i].shapeProperties = {
-          useBorderWithImage: true
           };
-          }else{
-          delete allNodes[i].color;
-          delete  allNodes[i].shapeProperties;
+          }
+          else{
+          delete people[i].color;
           }
           }
-          new vis.Network(container, data, options);
+          new vis.Network(container, data, options).stabilize();
           });
-         
-          $('.container-fluid').keydown(function(event){
-          if(event.keyCode==13){
-          $("#btnSearch").click();
-          }
-          });-->
       </script>
     </div>
   </xsl:template>
