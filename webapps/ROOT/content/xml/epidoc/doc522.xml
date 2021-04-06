@@ -42,11 +42,11 @@
                             </msContents>
                             <history>
                                 <origin>
-                                    <origDate notBefore="0001" notAfter="0001" when="0001">
-                                    <note type="displayed_date">0898/04/28</note>
-                                    <note type="dating_elements"></note>
-                                    <note type="topical_date">Actum Luca (Lucca)</note>
-                                    </origDate>
+                                    <origDate when="0898-04-28">
+                                <note type="displayed_date">898 April 28</note>
+                                <note type="dating_elements">Anno d’impero di Lamberto</note>
+                                <note type="topical_date">Lucca</note>
+                            </origDate>
                                     <origPlace/>
                                 </origin>
                                 <provenance>
@@ -73,7 +73,7 @@
                 </profileDesc>
                 <revisionDesc>
                     <listChange>
-                        <change when="2021-01-06" who="ptomei">creation of record</change>
+                        <change when="2021-04-06" who="ptomei">creation of record</change>
                     </listChange>
                 </revisionDesc>
             </teiHeader>
@@ -81,20 +81,29 @@
                 <body>
                     <div type="edition">
                         <div type="textpart">
-                            <ab>
-                                Il prete Tassilo del fu Andrea, essendo stato ordinato e confermato dal vescovo di Lucca Pietro nella pieve di Sant’Ippolito sita loco Aniani con tutte le sue dipendenze, promette vita natural durante al vescovo e ai suoi successori, excepto isto mense magio, di versare, sempre di maggio, un anno 60 soldi, l’anno successivo 100 soldi d’argento.
-Chiede al notaio Teudimundo la stesura della cartula.
-                                <persName>Autori: Pietro episcopus, Tassilo presbiter del fu Andrea.
-Scrittore: Teudimundo notarius.
-Testimoni sottoscrittori: Alone, Teuderando notarius, Teuprando, Teudilascio, Teuprando.</persName>
-                                <placeName>Luca (Lucca), Aniani (Sant’Ippolito, Santa Maria a Monte).</placeName>
-                                <orgName>Sant’Ippolito di Anniano (chiesa battesimale), San Martino di Lucca (chiesa matrice).</orgName>
-                            </ab>
+                            <ab>Il <rs key="#Priests">prete</rs>
+                        <persName key="#Priests">Tassilo</persName> del <persName>fu
+                            Andrea</persName>, essendo stato ordinato e confermato dal <rs
+                            key="#Bishops">vescovo</rs> di Lucca <persName key="#Bishops"
+                            >Pietro</persName> nella <orgName key="#Baptismal_churches"><rs
+                                key="#Baptismal_churches">pieve</rs> di Sant’Ippolito sita loco
+                                <placeName key="#Baptismal_churches" ref="#places/152"
+                                >Aniani</placeName></orgName> con tutte le sue dipendenze, promette
+                        vita natural durante al vescovo e ai suoi successori, excepto isto mense
+                        magio, di versare, sempre di maggio, un anno 60 soldi, l’anno successivo 100
+                        soldi d’argento. Chiede al <rs key="#Writer #Notary">notaio</rs>
+                        <persName key="#Writer #Notary">Teudimundo</persName> la stesura della
+                        cartula. Actum <placeName ref="#places/4" key="#Bishops">Luca</placeName>.
+                            <rs key="#Witness">Testimoni</rs> sottoscrittori: <persName
+                            key="#Witness">Alone</persName>, <persName key="#Witness #Notary"
+                            >Teuderando</persName>
+                        <rs key="#Notary">notarius</rs>, <persName key="#Witness"
+                            >Teuprando</persName>, <persName key="#Witness">Teudilascio</persName>,
+                            <persName key="#Witness">Teuprando</persName>.</ab>
                         </div>
                     </div>
                     <div type="bibliography" subtype="editions">
-                        <p>MDL, IV/2, n. 51, pp. 68-69</p>
-                        <p>ChLA, LXXXVII, n. 12, pp. 46-49</p>
+                        <p>MDL, 4/2, n. 51, pp. 68-69; ChLA 87, n. 12, pp. 46-49.</p>
                     </div>
                     <div type="bibliography" subtype="additional">
                         <p/>
@@ -103,8 +112,8 @@ Testimoni sottoscrittori: Alone, Teuderando notarius, Teuprando, Teudilascio, Te
                         <p/>
                     </div>
                     <div type="commentary">
-                        <p>Anno d’impero di Lamberto.</p>
-                        <p><note>Mod_id: 22</note></p>
+                        <p>Sottoscrizioni autografe: il prete Tassilo, Alone, il notaio Teuderando,
+                    Teuprando, Teudilascio, Teuprando.</p>
                     </div>
                 </body>
             </text>
