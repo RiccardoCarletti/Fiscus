@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Archivio capitolare di Piacenza, cassettone C, n° 16</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc1112</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0899-01-06">
+                                <note type="displayed_date">899 january 6</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Lupatina</note>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-02-08" who="Chiara Stedile">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine domini nostri Iesu Christi Dei aeterni. Berengarius rex. Si iustis
+                        nostrorum fidelium postulationibus maiestatis nostrae aurem inclinamus
+                        eorumque causam ad effectum usque perducimus, procul dubio eos et qui
+                        venturi sunt ad nostra obsequia promtiores fore non dubitamus atque apud
+                        omnipotentem Dominum undique remunerari omnino confidimus. Quapropter
+                        universorum sanctae Dei Ecclesiae fidelium nostrorumque presentium scilicet
+                        ac futurorum comperiat sollicitudo, quia Sigefredus illustris comes et
+                        fidelissimus consiliarius noster per Petrum venerabilem episcopumstrennuum
+                        archicancellarium nostrum serenitatis nostrae expetiit maiestatem, quatinus
+                        cuidam fideli nostro nomine Vulferio ex terra nostra regia tres sortes
+                        hactenus pertinentes de comitatu Placentino cum omnibus rebus ad easdem
+                        iuste pertinentibus in ius proprietarium concedere dignaremur. Cuius
+                        precibus libenter prout dignum fuit anuentes, dilecto fideli nostro Vulferio
+                        suisque heredibus superius scriptas tres sortes concedimus cum universis
+                        pertinentiis et adiacentiis earum, quarum una coniacet in loco qui dicitur
+                        Granaria antiquitus laborata quondam per Martinum et Pra […qu]ae regitur per
+                        Iohannem [...suorum]que consortes, altera quoque sors est de loco quae
+                        dicitur Petrabodolasca ex antiquo recta per quondam Petrum liberum hominem
+                        et nunc laboratur per alium hominem nomine Simu [...cum] consortibus suis,
+                        tertia autem sors est [de loco...] no quae ab antiquo recta est per Eliseum
+                        et Iohannemet modo excolitur ab heredibus eorum. Ipse autem prenominatae
+                        tres sortes exstant cum suis vocalibus vel terminationibus infra terminos
+                        prefati comitatus Placentini, scilicet montem Centenarium et montem de
+                        Propenno seu monasterium quae dicitur Bocolo et montem Gropallum. Unde
+                        iussimus hoc nostrae mansuetudinis preceptum conscribi, per quod
+                        prenominatas tres sortes iam dicto Vulferio, iure proprietario perhenniter
+                        possidendas, donavimus cum omnibus iustis pertinentiis et adiacentiis earum,
+                        terris scilicet, campis, vineis, pratis, silvis, pascuis, aquis aquarumque
+                        decursibus, servis, ancillis, libellariis, montibus, vallibus, cultis et
+                        incultis omnia in integrum. Potestatem a nobis sibi concessam habeat ipse
+                        suisque heredibus easdem sortes, sicut a publico exactore usque modo
+                        possidebantur, quiete possidere, heredibus dimittere, vendere, donare et
+                        modo quolibet voluerit mancipare absque alicuius molestia vel diminoratione,
+                        nullo eum aut suos heredes duce, comite, aut publica procuratore pro his
+                        sortibus impediente aut molestante, liceat ei suisque heredibus et quibus
+                        easdem largierint, sicut statuimus, quiete et pacifice perpetuis temporibus
+                        possidere. Quicumque igitur temerarius hoc mansuetudinis nostrae praeceptum
+                        in aliquo violaverit, sciat se compositurum triginta libras auri optimi,
+                        medietatem palatio nostro et medietatem sepe nominato Vulferio suisque
+                        heredibus. Ut autem ab omnibus verius credatur diligentiusque observetur,
+                        manu propria subter confirmavimus et anuli nostri impressione insigniri
+                        iussimus. Signum domni Berengarii gloriosissimi regis. Restaldus notarius ad
+                        vicem Petri episcopi et archicancellarii recognovi et subscripsi. Data VIII
+                        id. ian., anno incarnationis Domini DCCCXCVIII, anno vero regni domni
+                        Berengarii gloriosissimi regis XI, indictione II. Actum Lupatina. In Dei
+                        nomine feliciter, amen.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
