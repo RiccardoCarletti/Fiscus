@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc7">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
@@ -13,7 +13,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
-                <idno type="uri">http://137.204.128.125/documents/doc7</idno>
+                <idno type="filename">doc7</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -30,7 +30,7 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="https://ausohnum.huma-num.fr/concept/c25676">Ordinatio</rs>
+                            <rs type="text_type" ref="#">Ordinatio</rs>
                             <rs type="record_source" ref="#"></rs>
                             <rs type="document_tradition" ref="#"></rs>
                             <rs type="fiscal_property"/>
@@ -59,19 +59,19 @@
                    <place></place>
                 </listPlace>
             <listPerson>
-    <person corresp="http://137.204.128.125/people/17">
+    <person corresp="people/17">
             <persName xml:lang="en">Ilduino</persName>
         </person>
-    <person corresp="http://137.204.128.125/people/19">
+    <person corresp="people/19">
             <persName xml:lang="en">Vulferio</persName>
         </person>
-    <person corresp="http://137.204.128.125/people/18">
+    <person corresp="people/18">
             <persName xml:lang="en">Rategausa</persName>
         </person>
-    <person corresp="http://137.204.128.125/people/21">
+    <person corresp="people/21">
             <persName xml:lang="en">Berengario I</persName>
         </person>
-    <person corresp="http://137.204.128.125/people/20">
+    <person corresp="people/20">
             <persName xml:lang="en">Everardo vescovo di Piacenza</persName>
         </person>
     </listPerson>
@@ -96,39 +96,39 @@
             <div type="edition">
                 <div type="textpart">
                     <ab>+ In Christi nomine. <persName key="#emperor/king"
-                            ref="#http://137.204.128.125/people/21">Berengarius</persName> gratia
+                            ref="#people/21">Berengarius</persName> gratia
                         Dei <rs key="#emperor/king">rex</rs> hic inn Italia octavodecimo, tercio die
                         intrante mense madio indictione octava. Sacerdotes <orgName key="#Churches"
-                            ref="#http://137.204.128.125/juridical_persons/75">eclesiae Sancte
+                            ref="#juridical_persons/75">eclesiae Sancte
                             Iustine</orgName> qui fundata est intra civitate Placencia. Ego quidam
                         in Dei nomine <persName key="#Priests #Prevosts"
-                            ref="http://137.204.128.125/people/17">Ildoinus</persName> venerabile
-                        presbiter filio bone memoriae <persName key="">Alboini</persName> abitator
-                        in <placeName key="" ref="#http://137.204.128.125/places/16"
+                            ref="people/17">Ildoinus</persName> venerabile
+                        presbiter filio bone memoriae <persName>Alboini</persName> abitator
+                        in <placeName ref="#places/16"
                             >Oliovera</placeName> qui profeso est ex nacione sua legem vivere legem
                         Langabardorum statuo vos sacerdotes qui pro tempore in eadem | sancta fuerit
                         eclesia canonici abere pro remedium anime mee vel quondam <persName
-                            key="#bishops" ref="#http://137.204.128.125/people/20"
+                            key="#bishops" ref="#people/20"
                             >Evuerardi</persName> episcopus vel parentorum meorum: hoc est <rs
                             key="#curtes">curte una domnocoltilem</rs> cum | casis masariciis et
                         omnibus rebus ad ipsa curte pertinentem iuris mei qua(m) abere viso sum in
                         fundo et loco <placeName key="#curtes">Luganiano</placeName> montanea
-                        Placentina | et in locas et fundas <placeName key="">Granarias</placeName>
-                        et <placeName key="">Aminiano</placeName> adque in <placeName key=""
+                        Placentina | et in locas et fundas <placeName>Granarias</placeName>
+                        et <placeName>Aminiano</placeName> adque in <placeName
                             >Paloa</placeName> vel ibi circumcirca voca et vocabola ad ipsa curte
                         pertinentem necnon eciam | casis et rebus illis que abere viso sum in easdem
-                        montanea Placentina in locas et fundas <placeName key=""
-                            ref="#http://137.204.128.125/places/6">Monteregio</placeName> et
-                            <placeName key="" ref="#http://137.204.128.125/places/35"
+                        montanea Placentina in locas et fundas <placeName
+                            ref="#places/6">Monteregio</placeName> et
+                            <placeName ref="#places/35"
                             >Petraboalasca</placeName> vel ibi circum|circa ad ipsis casalis
                         pertinentibus cum casis domnocoltile seo masariciis vel diversisque
                         territoreis vineis, silvis, pratis, pascuis, | coltis et incoltis cum
                         arborib[us ..4..]is et usum pascui mei et aquam cum superiora et inferiora
                         suarum accessionem et introido suarum | cum omnia superadstantem vel abentem
                         ex integrum. Et mihi qui supra Ildoini presbitero obvenit ipsis casis et
-                        rebus per cartula vindicionis de <persName key=""
-                            ref="#http://137.204.128.125/people/18">Rategausa</persName> | relicta
-                            <persName key="" ref="#http://137.204.128.125/people/19">quondam
+                        rebus per cartula vindicionis de <persName
+                            ref="#people/18">Rategausa</persName> | relicta
+                            <persName ref="#people/19">quondam
                             Golferii</persName> omnia quantumcumque in ipsa cartula legitur unacum
                         ipsa cartula tote ex integrum. Statuo vos sacerdotes abere | qui pro tempore
                         in eadem sancta fuere eclesia presenti die unacum ipsa cartula seo cum alie
@@ -154,14 +154,14 @@
                         numquam mihi liceat nullo tempore aliter facere nolo quod volo set quod |
                         consemel a me factum vel pro anima mea datum sub iuxiurandum me
                         inviolabiliter conservare promitto quam vero cartula offersionis | me
-                        paginam <persName key="">Adalbertus</persName> notarius scrivere rogavit
+                        paginam <persName>Adalbertus</persName> notarius scrivere rogavit
                         testibus qui obtullit roboranda . Actum Placencia. + Ego Hildoinus presbiter
-                        in hac cartula hordinationis a me facta subscripsi. + Ego <persName key=""
-                            >Savinus</persName> notarius rogatus subscripsi. + Ego <persName key=""
-                            >Grasebertus</persName> rogatus subscripsi. + Ego <persName key=""
-                            >Petrus</persName> rogatus subscripsi. + Ego <persName key=""
+                        in hac cartula hordinationis a me facta subscripsi. + Ego <persName
+                            >Savinus</persName> notarius rogatus subscripsi. + Ego <persName
+                            >Grasebertus</persName> rogatus subscripsi. + Ego <persName
+                            >Petrus</persName> rogatus subscripsi. + Ego <persName
                             >Gausus</persName> notarius rogatus subscripsi. + Signum <persName
-                            key="">Petroni de Goselingo</persName> . + Ego Adalbertus notarius
+                           >Petroni de Goselingo</persName> . + Ego Adalbertus notarius
                         scripsi postradita conplevi et dedi.</ab>
                 </div>
             </div>

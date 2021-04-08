@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Archivio dell'Abbazia di Montecassino, Reg. 3 (Martin et al.,
+                        <foreign>Registrum Petri Diaconi</foreign>, II, n. 203, p. 621)</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc1201</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Compendium</rs>
+                            <rs type="fiscal_property">No</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0902-05">
+                                <note type="displayed_date">902 May</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date"/>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-02-08" who="Antoniotagliente">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>Nos <persName key="#Princeps" ref="#people/194">Atenulfus</persName>
+                        annuente gratia divinae pietatis gentis Langobardorum princeps, per rogum
+                            <persName key="#Princeps" ref="#people/154">Atenolfi</persName> nostri
+                        amantissimi filii, concedendo concessimus et perdonando perdonavimus, ac
+                        confirmando confirmavimus <orgName ref="#juridical_persons/84"
+                            key="#Monasteries">in cenobio beati Benedicti</orgName> situm est in
+                        castro, in quo <persName ref="#people/195" key="#Abbots">Leo venerabilis
+                            abbas</persName> regimen tenere omnia et in omnibus quecumque per
+                        precepta seu donationes, vel offertiones aut cessiones a singulis
+                        imperatoribus, regibus, ducibus ac principibus Langobardorum necnon a
+                        pontificibus Romanae sedis seu a catholicis viris Deumque timentibus in
+                        eodem venerabili loco quoquo modo concessa sive collata fuerunt usque nunc
+                        vel amodo et deinceps in futurum ibi concessa seu collata fierint, simulque
+                        et omnes commutationes seu cambiationes quas pars eiusdem monasterii cum
+                        quibuslibet episcopis, abbatibus seu rectoribus ac custodibus aecclesiarum
+                        xenodochiorumque prepositis cum qualibet magna aut parva persona firmatas
+                        habet, vel quibuslibet pro suae animae redemptione se in eodem sancto
+                        cenobio offeruit cum suis rebus, aut amodo et deinceps offerre se ipsum vel
+                        suas res voluerit, integra omnia firmiter in eodem sacratissimo concessa
+                        permaneant loco<rs>. Nam et si fuit vel fuerit quislibet cuius res pro suae
+                            colpae merito ad potestatem nostri sacri Palatii devenit, et pro suae
+                            animae mercedem, postquam nostram percepit gratiam, ex eisdem rebus
+                            offeruit vel quolibet tempore offeruerit, totum et integram in eodem
+                            monasterio firmum permaneant</rs>. Et in antea, quia omnibus penae notum
+                        est quomodo primitus in iam dicto Casino castro a nefandissima <rs>gente
+                            Sarracenorum</rs>, et postea in <placeName ref="#places/174"
+                            key="#Cities">Teano</placeName> nomina eiusdem monasterii Dei iudicio
+                        igne cremata sunt, propterea statuimus atque confirmamus ut amodo et per
+                        cuncta succedentia tempora omnia quae superius a nobis in eodem sacro loco
+                        concessa sunt firma atque immobilia ibi permaneant, pro nostrae animae
+                        redemptione et abolenda facinora parentum nostrorum, sine contrarietate et
+                        molestia seu inquietudine comitis, gastaldiis, iudicis vel cuiuscumque
+                        personae contradictione. Et quicumque contra hanc nostram concessionem
+                        quolibet adveniente tempore aliquam controversiam quoquo modo ingerere
+                        presumpserit, vel si eam irritam facere temptaverit, componat in eodem loco
+                        venerabili <rs>auri libram unam</rs>, et haec concessio in perpetuis
+                        temporibus inviolata et inremota permaneant. Anno principatus nostri tertii,
+                        mense Magio, indictione vero .V. </ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>Gattola, <foreign>Accessiones</foreign>, pp. 44-45.</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p>Voigt, <foreign>Beiträge zur Diplomatik</foreign>, n. 122.</p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>Il principe Atenolfo I, a richiesta del figlio Atenolfo II, conferma a
+                    Montecassino tutti i privilegi anteriori e gli scambi effettuati dal monastero,
+                    e permette l’offerta al monastero di beni privati e confiscati. Una sintesi è in
+                        <foreign>Chronica Monasterii Casinensis</foreign>, I, 51.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

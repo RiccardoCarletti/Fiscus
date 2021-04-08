@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc22">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
@@ -13,7 +13,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
-                <idno type="uri">http://137.204.128.125/documents/doc22</idno>
+                <idno type="filename">doc22</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -30,9 +30,9 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="https://ausohnum.huma-num.fr/concept/c25666">Imperial/royal diploma</rs>
-                            <rs type="record_source" ref="https://ausohnum.huma-num.fr/concept/c26116">Original document</rs>
-                            <rs type="document_tradition" ref="https://ausohnum.huma-num.fr/concept/c26112">Original</rs>
+                            <rs type="text_type" ref="#">Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Original document</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
                             <rs type="fiscal_property">yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
@@ -59,19 +59,19 @@
                    <place></place>
                 </listPlace>
             <listPerson>
-    <person corresp="http://137.204.128.125/people/21">
+    <person corresp="people/21">
             <persName xml:lang="en">Berengario I</persName>
         </person>
-    <person corresp="http://137.204.128.125/people/57">
+    <person corresp="people/57">
             <persName xml:lang="en">Sigefredus (892-904), comes palatii</persName>
         </person>
-    <person corresp="http://137.204.128.125/people/58">
+    <person corresp="people/58">
             <persName xml:lang="en">Petrus (881-900), episcopus Patavinus, archicancellarius</persName>
         </person>
-    <person corresp="http://137.204.128.125/people/19">
+    <person corresp="people/19">
             <persName xml:lang="en">Vulferio gastaldo</persName>
         </person>
-                <person corresp="http://137.204.128.125/juridical_persons/59">
+                <person corresp="juridical_persons/59">
             <persName xml:lang="en">Xenodochium Sancti Petri de Bocolo</persName>
         </person>
     </listPerson>
@@ -95,7 +95,7 @@
             <div type="edition">
                 <div type="textpart">
                     <ab>(C) In nomine domini nostri Iesu Christi Dei aeterni. <persName
-                            key="#emperor/king" ref="#http://137.204.128.125/people/21"
+                            key="#emperor/king" ref="#people/21"
                             >Berengarius</persName>
                         <rs key="#emperor/king">rex</rs>. Si iustis nostrorum fidelium
                         postulationibus maiestatis nostrae aurem inclinamus eorumque causam ad
@@ -104,18 +104,18 @@
                         undique remunerari omnino confidimus.Quapropter universorum sanctae Dei
                         Ecclesiae fid[elium nostrorumque presentium scilicet ac fu]turorum comperiat
                         sollicitudo, quia <persName key="#count #consiliarius_regis"
-                            ref="#http://137.204.128.125/people/57">Sigefredus</persName> illustris
+                            ref="#people/57">Sigefredus</persName> illustris
                             <rs key="#count">comes</rs> et fidelissimus <rs
                             key="#consiliarius_regis"> consiliarius </rs> noster per <persName
-                            key="#bishops #archchancellor" ref="#http://137.204.128.125/people/58"
+                            key="#bishops #archchancellor" ref="#people/58"
                             >Petrum</persName> venerabilem <rs key="#bishops">episcopum</rs>
                         strennuum <rs key="#archchancellor">archicancellarium</rs> nostrum
                         serenitatis nostrae expetiit maiestatem, [quatinus cuidam fideli nostro
-                        nomine <persName ref="#http://137.204.128.125/people/19"
+                        nomine <persName ref="#people/19"
                             >Vul]ferio</persName> ex <rs key="#fiscal_property">terra nostra
                             regia</rs> tres sortes hactenus pertinentes de <rs key="#comitatus"
                             >comitatu</rs>
-                        <placeName key="#comitatus" ref="#http://137.204.128.125/places/43"
+                        <placeName key="#comitatus" ref="#places/43"
                             >Piacentino</placeName> cum omnibus rebus ad easdem iuste pertinentibus
                         in ius proprietarium concedere dignaremur. Cuius precibus libenter prout
                         dignum fu[it annuentes, dilect]o fideli nostro [Vulferio suisque heredibus
@@ -125,7 +125,7 @@
                             <persName>Martinum</persName> et Pra[ ........qu]ae regitur per
                             <persName>Iohannem</persName> [ ......... suorum]que consortes, altera
                         quoque sors est de loco quae dicitur <placeName
-                            ref="#http://137.204.128.125/places/35"> Petrabodolasca</placeName> ex
+                            ref="#places/35"> Petrabodolasca</placeName> ex
                         antiquo recta per quondam <persName>Petrum</persName> liberum hominem et
                         nunc laboratur per alium hominem nomine Simu[ ........ cum] consortibus
                         suis, tertia autem sors est [de loco ........ ]o quae ab antiquo recta est
@@ -133,12 +133,12 @@
                         excolitur ab heredibus eorum. Ipse autem prenominatae tres sortes exstant
                         cum suis vocabulis vel terminationibus infra t[ermi]nos prefati comitatus
                         Placentin[i, scilicet mont]em <placeName
-                            ref="#http://137.204.128.125/places/44">Centenarium</placeName> et
+                            ref="#places/44">Centenarium</placeName> et
                         montem de <placeName>Propenno</placeName> seu <orgName
-                            ref="#http://137.204.128.125/juridical_persons/59">monasterium</orgName>
-                        quae dicitur <placeName ref="#http://137.204.128.125/places/45"
+                            ref="#juridical_persons/59">monasterium</orgName>
+                        quae dicitur <placeName ref="#places/45"
                             >Bocolo</placeName> et <placeName
-                            ref="#http://137.204.128.125/places/47">montem Gropallum</placeName>.
+                            ref="#places/47">montem Gropallum</placeName>.
                         Unde iussimus hoc nostrae mansuetudinis preceptum conscribi, [per quod
                         prenominatas] tres sortes iam dicto Vulferio, iure pr[oprietario
                         per]henniter possidendas, donavimus cum omnibus iustis pertinentiis et
@@ -161,7 +161,7 @@
                         notarius ad vicem Petri episcopi et archicancellarii recognovi et
                         subscripsi. (SR) (SI D) Data VIII id. Ian., anno incamationis Domini
                         .DCCCXCVIII., anno vero regni domni Berengarii gloriosissimi regis XI,
-                        indictione II. Actum <placeName ref="#http://137.204.128.125/places/42"
+                        indictione II. Actum <placeName ref="#places/42"
                             >Lupatina</placeName>. i[n Dei nomin]e feliciter, amen.</ab>
                 </div>
             </div>

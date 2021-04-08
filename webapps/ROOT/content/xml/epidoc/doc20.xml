@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc20">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
@@ -14,7 +14,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
-                <idno type="uri">http://137.204.128.125/documents/doc20</idno>
+                <idno type="filename">doc20</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -31,9 +31,9 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="https://ausohnum.huma-num.fr/concept/c25686">Literary sources</rs>
-                            <rs type="record_source" ref="https://ausohnum.huma-num.fr/concept/c26116">Original document</rs>
-                            <rs type="document_tradition" ref="https://ausohnum.huma-num.fr/concept/c26113">Copy</rs>
+                            <rs type="text_type" ref="#">Literary sources</rs>
+                            <rs type="record_source" ref="#">Original document</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
                             <rs type="fiscal_property">yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
@@ -60,7 +60,7 @@
                    <place></place>
                 </listPlace>
                 <listPerson>
-			    	<person corresp="http://137.204.128.125/people/69">
+			    	<person corresp="people/69">
             			<persName xml:lang="en">Zacharias (741-752), papa</persName>
         			</person>
         		</listPerson>
@@ -85,37 +85,37 @@
             <div type="edition">
                 <div type="textpart">
                     <ab>
-                        <persName key="#Popes" ref="#http://137.204.128.125/people/69"
+                        <persName key="#Popes" ref="#people/69"
                             >Zacharias</persName>
                         <rs key="#Popes">pontifex</rs> accepit a <persName key="#Emperor/king"
                             >Constantino [V]</persName>
                         <rs key="#Emperor/king">principe</rs> donationem in scriptis perpetuo iuri
                         Romanae aecclesiae <rs key="#Massae">de duabus massis</rs>, quae <geogName
                             key="#Massae #Fiscal_property #Object"
-                            ref="#http://137.204.128.125/estates/108">Nymphas</geogName> et
+                            ref="#estates/108">Nymphas</geogName> et
                             <geogName key="#Massae #Fiscal_property #Object"
-                            ref="#http://137.204.128.125/estates/">Normias</geogName> appellantur,
+                                ref="#estates/109">Normias</geogName> appellantur,
                         quae iuris publici erant. Huius temporibus <persName>Theodorus</persName>
                         filius <persName>Megesti Catacsanti</persName> dedit beato Petro apostolo
                         patrimonium suum situm .V. miliario ab <placeName
-                            ref="#http://137.204.128.125/places/52">hac Romana urbe</placeName> via
+                            ref="#places/52">hac Romana urbe</placeName> via
                         Tyburtina, quod <rs key="#Domuscultae">domusculta</rs>
                         <geogName key="#Domuscultae #Fiscal_property #Object"
-                            ref="#http://137.204.128.125/estates/117">sanctae Ceciliae</geogName>
+                            ref="#estates/117">sanctae Ceciliae</geogName>
                         dicitur. Hic constituit aliam <rs key="#Domuscultae">domumcultam</rs>
                         <geogName key="#Domuscultae #Fiscal_property #Object"
-                            ref="#http://137.204.128.125/estates/118">.XIIII. miliario
-                            </geogName><placeName ref="#http://137.204.128.125/places/52">ab urbe
+                            ref="#estates/118">.XIIII. miliario
+                            </geogName><placeName ref="#places/52">ab urbe
                             Roma</placeName>
                         <rs key="#Patrimonium">patrimoniae</rs>
-                        <geogName key="#Patrimonium" ref="#http://137.204.128.125/estates/103"
+                        <geogName key="#Patrimonium" ref="#estates/103"
                             >Tusciae</geogName>, obligans eandem perpetuo usui Romanae aecclesiae,
                         et <rs key="#Domuscultae">domumcultam</rs>
                         <geogName key="#Domuscultae #Fiscal_property #Object"
-                            ref="#http://137.204.128.125/estates/119">Lauretum</geogName> et <rs
+                            ref="#estates/119">Lauretum</geogName> et <rs
                             key="#Massae">massam</rs>
                         <geogName key="#Massae #Fiscal_property #Object"
-                            ref="#http://137.204.128.125/estates/120">Fontinianam, quae dicitur
+                            ref="#estates/120">Fontinianam, quae dicitur
                             Paonaria</geogName>, et <rs key="#Massae">massas</rs>, quae vocantur
                             <geogName key="#Massae #Fiscal_property #Object">Antius</geogName> et
                             <geogName key="#Massae #Fiscal_property #Object">Formias</geogName>,

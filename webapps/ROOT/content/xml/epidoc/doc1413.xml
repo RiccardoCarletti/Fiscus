@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc1413">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
@@ -15,7 +15,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
-                <idno type="uri">http://137.204.128.125/documents/doc1413</idno>
+                <idno type="filename">doc1413</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -88,12 +88,13 @@
                         septembris, indictione septima. Sancto autem venerabili <rs
                             key="#Monasteries">monasterio</rs> et <rs key="#Cells/hermitages"
                             >remitorio</rs>
-                        <orgName ref="#http://137.204.128.125/juridical_persons/78"
+                        <orgName ref="#juridical_persons/78"
                             key="#Churches #Monasteries #Cells/hermitages">Domini et Sancti
                             Quirici</orgName>, qui est fundato et edificato in loco et finibus
-                            <placeName ref="#http://137.204.128.125/places/86"
-                        >Populonio</placeName>, ubi dominus <persName>Petrus</persName>
-                        <rs>prepositus</rs> preesse videtur, ego quidem in Dei nomine
+                            <placeName ref="#places/86" key="#Monasteries #Cells/hermitages"
+                            >Populonio</placeName>, ubi dominus <persName key="#Priors"
+                            >Petrus</persName>
+                        <rs key="#Priors">prepositus</rs> preesse videtur, ego quidem in Dei nomine
                             <persName>Dominico</persName> filius <persName>Albitje</persName>
                         presens presentibus dixit quia quod in Domino vel in sanctis eius si aliquid
                         contulerit rebus iuxta [au]ctoris vocem in hoc seculo centuplum accipietis
@@ -102,32 +103,33 @@
                         Deo et infrascripte <rs key="#Churches">ecclesie</rs> et monasterio [seo
                         re]mitorio Sancti Quirici, ubi nunc dominus Petrus preesse videtur, idest
                         una <rs key="#Petiae">petia</rs> de terra mea illa quam abeo in loco et
-                        finibus ubi vocabulo est <placeName ref="#http://137.204.128.125/places/131"
-                            key="#Petiae #Wine">Sancti Fridiani</placeName>; quas ipsa petia de
-                        terra cum vinea super se habentes in eodem loco Sancto Fridiano, qui detinet
+                        finibus ubi vocabulo est <placeName ref="#places/131"
+                            key="#Petiae #Landed_possessions #Wine #Fiscal_property #Mention">Sancti
+                            Fridiani</placeName>; quas ipsa petia de terra cum vinea super se
+                        habentes in eodem loco Sancto Fridiano, qui detinet
                             <persName>Magitia</persName> mulier <persName>Petri</persName>, qui uno
-                        capo tenet in <placeName>terra Rollandinga</placeName>, et alio capo tenet
-                        in terra de filiis <persName>Gottuli</persName> et de eorum consortibus,
-                        lato uno tenet in terra de <rs key="#Churches">ecclesia</rs>
-                        <orgName key="#Churches" ref="#http://137.204.128.125/juridical_persons/68"
-                            >Sancti Martini</orgName>, et alio lato in via puplica; et meam
-                        portionem ex integram quod est medietatem de una alia petia de terra qui est
-                        posita in suprascripto loco Sancto Fridiano qui uno capo tenet in terra
-                            <orgName key="#Landed_possessions">Sancti Petri</orgName>, et alio capo
-                        in terra suprascripti <orgName
-                            ref="#http://137.204.128.125/juridical_persons/70"
-                            key="#Landed_possessions">Sancti Fridiani</orgName>, lato uno tenet in
-                        terra <orgName ref="#http://137.204.128.125/juridical_persons/86"
-                            key="#Landed_possessions">Sancti Cerboni</orgName>, alio lato tenet in
-                        terra <persName>Rodulfi, que Pelegrino vocatur</persName>. As infrascrita
-                        petia de terr[e] quod est vinea, et infrascripta mea portione, quod est
-                        medietatem de alia infrascripta petia de terra, quod est vinea, qui
-                        vocitatur <placeName ref="#http://137.204.128.125/places/131"
-                            >Pratale</placeName>, in eodem locis qualiter ab omni parte circumdati
-                        sunt per designatas locas cum fundamen[tis et …]edificiis suarum, seo
-                        curtis, ortis, terris, vineis, olivetis, castagnetis, quercetis, silvis,
-                        pratis, pascuis, cultis rebus vel incultis, mobile vel immobile, omnia ex
-                        omnibus, in integrum sicut superius legitur […], mihi per <rs
+                        capo tenet in <rs key="#Landed_possessions #Consortes/shared_possessions"
+                            >terra Rollandinga</rs>, et alio capo tenet in terra de filiis
+                            <persName>Gottuli</persName> et de eorum consortibus, lato uno tenet in
+                        terra de <rs key="#Churches">ecclesia</rs>
+                        <orgName key="#Churches" ref="#juridical_persons/68">Sancti
+                            Martini</orgName>, et alio lato in via puplica; et meam portionem ex
+                        integram quod est medietatem de una alia petia de terra qui est posita in
+                        suprascripto loco Sancto Fridiano qui uno capo tenet in terra <orgName
+                            key="#Landed_possessions #Fiscal_property #Mention">Sancti
+                            Petri</orgName>, et alio capo in terra suprascripti <orgName
+                            ref="#juridical_persons/70" key="#Landed_possessions">Sancti
+                            Fridiani</orgName>, lato uno tenet in terra <orgName
+                            ref="#juridical_persons/86" key="#Landed_possessions">Sancti
+                            Cerboni</orgName>, alio lato tenet in terra <persName>Rodulfi, que
+                            Pelegrino vocatur</persName>. As infrascrita petia de terr[e] quod est
+                        vinea, et infrascripta mea portione, quod est medietatem de alia
+                        infrascripta petia de terra, quod est vinea, qui vocitatur <placeName
+                            ref="#places/131">Pratale</placeName>, in eodem locis qualiter ab omni
+                        parte circumdati sunt per designatas locas cum fundamen[tis et …]edificiis
+                        suarum, seo curtis, ortis, terris, vineis, olivetis, castagnetis, quercetis,
+                        silvis, pratis, pascuis, cultis rebus vel incultis, mobile vel immobile,
+                        omnia ex omnibus, in integrum sicut superius legitur […], mihi per <rs
                             key="#Offersio/donatio">cartula scripta ex manibus <persName
                                 key="#Notary">Ildebrandi</persName>
                             <rs key="#Notary">notarii</rs> domini imperatoris donationis</rs>
@@ -157,9 +159,9 @@
                         penam obligatione et pro confirmat[ione] insuper habeat Dei maledictione et
                         omnius sanctis eius, quia in tali ordine hanc cartula offertionis Ildebrando
                         notario domini imperatoris scribere rogavi. Actum <placeName
-                            ref="#http://137.204.128.125/places/66">Pisa</placeName>. Signum manus
-                        suprascripti Dominici qui hanc cartula offertionis fier[i] rogavi. <persName
-                            key="#Judge">Iohannes</persName>
+                            ref="#places/66">Pisa</placeName>. Signum manus suprascripti Dominici
+                        qui hanc cartula offertionis fier[i] rogavi. <persName key="#Judge"
+                            >Iohannes</persName>
                         <rs key="#Judge">iudex</rs> domini inperatoris subscripsi. Signa manuum […]
                         filii bone memorie <persName>Iohanni</persName> [… rogati] subscripsi.
                             <persName key="#Notary">Ildebrandus</persName>

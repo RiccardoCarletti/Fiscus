@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc1416">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
@@ -15,7 +15,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
-                <idno type="uri">http://137.204.128.125/documents/doc1416</idno>
+                <idno type="filename">doc1416</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -83,68 +83,70 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>Cartula de Livellaria de tres petiis de terris. I[n n]omin[e] domini nostri
+                    <ab>Cartula de <rs
+                            key="#Landed_possessions #Fiscal_property #Mention #Count #Consortes/shared_possessions"
+                            >Livellaria</rs> de tres petiis de terris. I[n n]omin[e] domini nostri
                         Iesu Christi Dei eterni. Anno ab incarnatione eius millesimo centesimo VI
                         Xo, sexto idus martii, indictione octava. Manifesti sumus nos
                             <persName>Gerardus</persName> filius bone memorie
                             <persName>Gisolfi</persName> et <persName>Gisolfus</persName> filius
                         predicti <persName>Gerardi</persName> quia insimul nos ambo [vindimus et]
                         tradimus tibi domno <rs key="#Abbots">abbati</rs>, qui <persName
-                            key="#Abbots" ref="#http://137.204.128.125/people/103">Mauro</persName>
-                        vocatur, de <rs key="#Churches">ecclesia</rs> et <rs key="#Monasteries"
-                            >monasterio</rs>
-                        <orgName ref="#http://137.204.128.125/juridical_persons/78"
-                            key="#Churches #Monasteries">Sancti Quirici</orgName> sito <placeName
-                            ref="#http://137.204.128.125/places/86">Populonio</placeName>, tres
-                        videlicet terre <rs key="#Petiae">petias</rs>, quarum una esse videtur prope
-                            <rs key="#Churches">ecclesia</rs>
-                        <orgName>Sancti Christofori</orgName>, et tenet uno capo in terra
-                        Teudicinga, alio in terra <persName>Rugeri</persName> filii quondam
-                            <persName>B[ru]ni</persName>, lato uno in terra <orgName
-                            ref="#http://137.204.128.125/juridical_persons/86"
-                            key="#Landed_possessions">Sancti Cerbonii</orgName>, aliud in terra de
-                        suprascripto monasterio; altera terre petia tenet capud in terra de
-                        suprascripto monasterio, latus unum in <rs key="#Rivers">Cornea morta</rs>,
-                        alio in terra <orgName key="#Landed_possessions"
-                            ref="#http://137.204.128.125/juridical_persons/88">Sancti
+                            key="#Abbots" ref="#people/103">Mauro</persName> vocatur, de <rs
+                            key="#Churches">ecclesia</rs> et <rs key="#Monasteries">monasterio</rs>
+                        <orgName ref="#juridical_persons/78" key="#Churches #Monasteries">Sancti
+                            Quirici</orgName> sito <placeName ref="#places/86" key="#Monasteries"
+                            >Populonio</placeName>, tres videlicet terre <rs key="#Petiae"
+                            >petias</rs>, quarum una esse videtur prope <rs key="#Churches"
+                            >ecclesia</rs>
+                        <orgName>Sancti Christofori</orgName>, et tenet uno capo in <rs
+                            key="#Landed_possessions #Fiscal_property #Mention #Count #Consortes/shared_possessions"
+                            >terra Teudicinga</rs>, alio in terra <persName>Rugeri</persName> filii
+                        quondam <persName>B[ru]ni</persName>, lato uno in terra <orgName
+                            ref="#juridical_persons/86" key="#Landed_possessions">Sancti
+                            Cerbonii</orgName>, aliud in terra de suprascripto monasterio; altera
+                        terre petia tenet capud in terra de suprascripto monasterio, latus unum in
+                            <rs key="#Rivers">Cornea morta</rs>, alio in terra <orgName
+                            key="#Landed_possessions" ref="#juridical_persons/88">Sancti
                             Pancratii</orgName> et de suprascripto monasterio; tertia terre petia
                         videtur esse prope ecclesia eiusdem Sancti Christofori, quam tenet capud uno
-                        cum lato uno in terra Teudicinga, capud alio in terra de <orgName
-                            key="#Landed_possessions"
-                            ref="#http://137.204.128.125/juridical_persons/87">Sancta
-                            Maria</orgName> de <placeName>Serena</placeName>, aliud latus in terra
-                        de filiis quondam <persName>Henrici</persName>, per terminos et confines ut
-                        petie terrarum per designate esse videm[ur sicut suprascripte sunt] ita in
-                        integrum cum inferioribus et superioribus suis tibi domno predicto Mauro
-                        abbati et cum ascensionibus et ingressoribus earum vindimus, tradimus ad
-                        utilitatem predicti monasterii Sancti Quirici, ita vendimus et tradimus; pro
-                        q[uibus] recepimus pretium argentum pro valente solidos triginta in
-                        prefinito a te qui supra abbas Sancti Quirici, unde repromittimus, qui supra
-                        Gerardus et Gisolfus eius filius, nos insimul una cum nostris heredibus, ut
-                        si in aliquo tempore aliquid exinde intentionaverimus […] aut retolli vel
-                        subtrai quaesierimus, nos vel ille homo cui nos eam dedissemus aut
-                        dederimus, per quodlibet ingenium et eam ab omni homine defendere non
-                        potuerimus et non defensaverimus, tunc spondimus nos, qui supra Gerardus et
-                        Gisolfus filius Girardi, cum nostris heredibus componere tibi suprascripto
-                        abbati Mauro vestrisque successoribus de predicto monasterio Sancti Quirici
-                        de Populonio suprascripta meam venditionem in duplum in consimili loco sub
-                        estimatione qualis tunc fuerit; et tamen si nos exinde auctores nec
-                        defensores querere nec dare volueritis, licentiam habeatis absque nostra
-                        persona, si vestra fuerit voluntas, exinde causam agendi, responsum
-                        reddendi, finem ponendi, modis omnibus vobis defensandi eam cum cartula
-                        [i]sta ad partem et hutilitatis suprascripti monasterii vel qualiter iusta
-                        legem melius potueritis, quia in tali hordine hanc cartula <persName
-                            key="#Notary">Petrus</persName>
+                        cum lato uno in <rs
+                            key="#Landed_possessions #Fiscal_property #Mention #Count #Consortes/shared_possessions"
+                            >terra Teudicinga</rs>, capud alio in terra de <orgName
+                            key="#Landed_possessions" ref="#juridical_persons/87">Sancta
+                            Maria</orgName> de <placeName ref="#places/200" key="#Monasteries"
+                            >Serena</placeName>, aliud latus in terra de filiis quondam
+                            <persName>Henrici</persName>, per terminos et confines ut petie terrarum
+                        per designate esse videm[ur sicut suprascripte sunt] ita in integrum cum
+                        inferioribus et superioribus suis tibi domno predicto Mauro abbati et cum
+                        ascensionibus et ingressoribus earum vindimus, tradimus ad utilitatem
+                        predicti monasterii Sancti Quirici, ita vendimus et tradimus; pro q[uibus]
+                        recepimus pretium argentum pro valente solidos triginta in prefinito a te
+                        qui supra abbas Sancti Quirici, unde repromittimus, qui supra Gerardus et
+                        Gisolfus eius filius, nos insimul una cum nostris heredibus, ut si in aliquo
+                        tempore aliquid exinde intentionaverimus […] aut retolli vel subtrai
+                        quaesierimus, nos vel ille homo cui nos eam dedissemus aut dederimus, per
+                        quodlibet ingenium et eam ab omni homine defendere non potuerimus et non
+                        defensaverimus, tunc spondimus nos, qui supra Gerardus et Gisolfus filius
+                        Girardi, cum nostris heredibus componere tibi suprascripto abbati Mauro
+                        vestrisque successoribus de predicto monasterio Sancti Quirici de Populonio
+                        suprascripta meam venditionem in duplum in consimili loco sub estimatione
+                        qualis tunc fuerit; et tamen si nos exinde auctores nec defensores querere
+                        nec dare volueritis, licentiam habeatis absque nostra persona, si vestra
+                        fuerit voluntas, exinde causam agendi, responsum reddendi, finem ponendi,
+                        modis omnibus vobis defensandi eam cum cartula [i]sta ad partem et
+                        hutilitatis suprascripti monasterii vel qualiter iusta legem melius
+                        potueritis, quia in tali hordine hanc cartula <persName key="#Notary"
+                            >Petrus</persName>
                         <rs key="#Notary">notario</rs> domni regis scribere rogavimus. Actum in loco
-                        qui dicitur <placeName ref="#http://137.204.128.125/places/134"
-                            >Livellaria</placeName>, sito <placeName
-                            ref="#http://137.204.128.125/places/91">Cornino</placeName>, prope
-                        ecclesia Sancti Christofori. Signa manuum suprascriptorum Gerardi et Gisolfi
-                        filii Gerardi, qui hanc cartulam fieri rogaverunt. Signa manuum
-                            <persName>Benni</persName> quondam <persName>Ugonis</persName> et
-                            <persName>Rugeri</persName> quondam <persName>Bruni</persName> et
-                            <persName>Bruni</persName> quondam <persName>Beritj</persName> testium.
-                        Petrus notarius domni regis post tradita complevi et dedi. </ab>
+                        qui dicitur <placeName ref="#places/134">Livellaria</placeName>, sito
+                            <placeName ref="#places/91">Cornino</placeName>, prope ecclesia Sancti
+                        Christofori. Signa manuum suprascriptorum Gerardi et Gisolfi filii Gerardi,
+                        qui hanc cartulam fieri rogaverunt. Signa manuum <persName>Benni</persName>
+                        quondam <persName>Ugonis</persName> et <persName>Rugeri</persName> quondam
+                            <persName>Bruni</persName> et <persName>Bruni</persName> quondam
+                            <persName>Beritj</persName> testium. Petrus notarius domni regis post
+                        tradita complevi et dedi. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc1800">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
@@ -14,7 +14,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
-                <idno type="uri">http://137.204.128.125/documents/doc1800</idno>
+                <idno type="filename">doc1800</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -80,18 +80,18 @@
             <div type="edition">
                 <div type="textpart">
                     <ab>In nomine sancte et individue trinitatis.<persName key="#Emperor/king"
-                            ref="#http://137.204.128.125/people/32"> Karolus </persName>divina
+                            ref="#people/32"> Karolus </persName>divina
                         favente clementia<rs key="#Emperor/king"> imperator </rs>augustus. Si
                         petitionibus fidelium nostrorum maxime eorum, qui nostro fideliter parent
                         imperio, aures celsitudinis nostre accomodamus, non solum imperialem in hoc
                         exercemus dignitatem, verum etiam eterne retributionis premia inde nobis
                         largiri procul dubio credimus. Quapropter cognoscat omnium fidelium
                         nostrorum presentium videlicet et futurorum industria, <persName
-                            key="#Archchancellor #Bishops" ref="#http://137.204.128.125/people/33"
+                            key="#Archchancellor #Bishops" ref="#people/33"
                             >Liutuuardum </persName>venerabilem <rs key="#Bishops">episcopum</rs> et
                         dilectum <rs key="#Archchancellor">archicanzellarium</rs> nostram postulasse
                         serenitatem, ut sanctissimo <orgName
-                            ref="#http://137.204.128.125/juridical_persons/81"
+                            ref="#juridical_persons/81"
                             key="#Imperial/royal_diploma #Curtes #Plebs #Districtio #Baptismal_churches #Bishops"
                             >patri Eusebio</orgName> defensori christiane fidei aliqua de iure regni
                         nostri concederemus et aliqua que subtracta sunt redderemus. Statimque nos
@@ -99,73 +99,73 @@
                         Concessimus itaque prefato sancto Eusebio cortem nostram magnam que dicitur
                             <geogName
                             key="#Curtes #Forests #Fiscal_property #Object #Tolls #Teloneum #Districtio"
-                            ref="#http://137.204.128.125/estates/60"><placeName
-                                ref="#http://137.204.128.125/places/48"
+                            ref="#estates/60"><placeName
+                                ref="#places/48"
                                 key="#Curtes #Fiscal_property #Object">Regio
                         </placeName></geogName>antiquo nuncupatur vulgo cum tota<rs key="#Forests">
-                            silva </rs>eiusdem et <placeName ref="#http://137.204.128.125/places/49"
+                            silva </rs>eiusdem et <placeName ref="#places/49"
                             key="#Fiscal_property #Object">fulgitio</placeName> et cum omnibus
                         cortibus et villis, cum <placeName key="#Fiscal_property #Object"
-                            ref="#http://137.204.128.125/places/103">valle Cliui</placeName> et
+                            ref="#places/103">valle Cliui</placeName> et
                         omnibus eorum pertinentiis simul cum corte de <geogName
                             key="#Curtes #Fiscal_property #Object #Districtio #Tolls #Teloneum"
-                            ref="#http://137.204.128.125/estates/99"
+                            ref="#estates/99"
                             ><placeName>Roueredo</placeName></geogName> cum omnibus suis
                         adiacentiis, dedimus etiam <rs key="#Curtes">cortem </rs>nostram magnam que
                         dicitur <geogName key="#Curtes #Districtio #Tolls #Teloneum"
-                            ref="#http://137.204.128.125/estates/62"><placeName
-                                ref="#http://137.204.128.125/places/50" key="#Curtes">Bugella
+                            ref="#estates/62"><placeName
+                                ref="#places/50" key="#Curtes">Bugella
                             </placeName></geogName>cum omnibus cortibus et villis alpibus et omnibus
                         suis pertinentiis, contulimus et reddidimus cortem <geogName
                             key="#Curtes #Districtio #Tolls #Teloneum"
-                            ref="#http://137.204.128.125/estates/63"><placeName
-                                ref="#http://137.204.128.125/places/51"
+                            ref="#estates/63"><placeName
+                                ref="#places/51"
                                 key="#Curtes #Fiscal_property #Object #Districtio #Tolls #Teloneum"
                                 >Sestinium</placeName></geogName> cum omnibus alpibus et
                         pertinentiis suis, ut muris sanctis in censuali calce perpetuo deserviret,
                         donavimus et restituimus cortem <geogName
                             key="#Curtes #Fiscal_property #Object #Districtio #Tolls #Teloneum"
-                            ref="#http://137.204.128.125/estates/88">Romanianum</geogName> cum
+                            ref="#estates/88">Romanianum</geogName> cum
                         omnibus suis vallibus alpibus et suis pertinentiis, et confirmavimus totam
                             <rs key="#Forests">silvam </rs><placeName key="#Forests"
-                            ref="#http://137.204.128.125/places/96">Rouasindam
+                            ref="#places/96">Rouasindam
                         </placeName>pertinentem ad <rs key="#Plebs #Baptismal_churches">plebem
                             </rs><orgName key="#Plebs #Baptismal_churches"
-                            ref="#http://137.204.128.125/juridical_persons/83">sancti
+                            ref="#juridical_persons/83">sancti
                             Laurentii</orgName> ipsius Vercellensis ecclesie, reddidimus et
                             confirmavimus<rs key="#Bridges/pontoons"> pontem </rs><placeName
                             key="#Fiscal_property #Object #Bridges/pontoons"
-                            ref="#http://137.204.128.125/places/104">Notingum</placeName>,
-                            quem<persName key="#Bishops" ref="#http://137.204.128.125/people/109">
+                            ref="#places/104">Notingum</placeName>,
+                            quem<persName key="#Bishops" ref="#people/109">
                             Notingus</persName> episcopus eiusdem <placeName
-                            ref="#http://137.204.128.125/places/106" key="#Bishops"
+                            ref="#places/106" key="#Bishops"
                             >Vercellensis</placeName> ecclesie mirabiliter super eum equitando per
                         legem recepit, dedimus cortem <geogName
                             key="#Curtes #Fiscal_property #Object #Districtio #Tolls #Teloneum"
-                            ref="#http://137.204.128.125/estates/89"><placeName
-                                ref="#http://137.204.128.125/places/107" key="#Curtes"
+                            ref="#estates/89"><placeName
+                                ref="#places/107" key="#Curtes"
                                 >Trecade</placeName>
                         </geogName>cum omnibus suis pertinentiis, dedimus <geogName
                             key="#Curtes #Fiscal_property #Object #Districtio #Tolls #Teloneum"
-                            ref="#http://137.204.128.125/estates/96">cortem iuris nostri <placeName
-                                key="#Curtes" ref="#http://137.204.128.125/places/99"
+                            ref="#estates/96">cortem iuris nostri <placeName
+                                key="#Curtes" ref="#places/99"
                                 >Firminianam</placeName></geogName> cum omnibus suis pertinentiis,
                         obtulimus et restituimus cortem <geogName
                             key="#Curtes #Fiscal_property #Object #Districtio #Tolls #Teloneum"
-                            ref="#http://137.204.128.125/estates/41"><placeName
-                                ref="#http://137.204.128.125/places/3" key="#Curtes">Carixianam
+                            ref="#estates/41"><placeName
+                                ref="#places/3" key="#Curtes">Carixianam
                             </placeName></geogName>cum <placeName
-                            ref="#http://137.204.128.125/places/100" key="#Fiscal_property #Object"
+                            ref="#places/100" key="#Fiscal_property #Object"
                             >Langusco</placeName> sibi adiacente et cum omnibus suis pertinentiis,
                         largiti sumus et reddidimus cortes de <geogName
                             key="#Curtes #Fiscal_property #Object #Districtio #Tolls #Teloneum"
-                            ref="#http://137.204.128.125/estates/97"><placeName
-                                ref="#http://137.204.128.125/places/101"
+                            ref="#estates/97"><placeName
+                                ref="#places/101"
                                 key="#Curtes #Fiscal_property">Pasiliano</placeName></geogName> et
                             <geogName
                             key="#Curtes #Fiscal_property #Object #Districtio #Tolls #Teloneum"
-                            ref="#http://137.204.128.125/estates/98"><placeName key="#Curtes"
-                                ref="#http://137.204.128.125/places/105"
+                            ref="#estates/98"><placeName key="#Curtes"
+                                ref="#places/105"
                             >Occimiano</placeName></geogName> cum omnibus suis pertinentiis. Hec
                         omnia sancta Vercellensis ecclesia proprio iure in eternum habeat cum
                         omnibus publicis <rs key="#Districtio">districtis</rs>, <rs

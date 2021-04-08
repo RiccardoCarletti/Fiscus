@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc1428">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
@@ -15,7 +15,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
-                <idno type="uri">http://137.204.128.125/documents/doc1428</idno>
+                <idno type="filename">doc1428</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -92,12 +92,10 @@
                         et trado tibi, <persName key="#Monks">Benigno</persName>
                         <rs key="#Monks">monaco</rs> de <rs key="#Churches">ecclesia</rs> et <rs
                             key="#Monasteries">monasterio</rs>
-                        <orgName key="#Churches #Monasteries"
-                            ref="#http://137.204.128.125/juridical_persons/78">Sancti
-                            Quirici</orgName> sito <placeName
-                            ref="#http://137.204.128.125/places/86">Populonio</placeName>, idest <rs
-                            key="#Petiae">terra</rs> et <rs key="#Wine">vinea</rs> quae videtur esse
-                        in loco, qui <placeName
+                        <orgName key="#Churches #Monasteries" ref="#juridical_persons/78">Sancti
+                            Quirici</orgName> sito <placeName ref="#places/86" key="#Monasteries"
+                            >Populonio</placeName>, idest <rs key="#Petiae">terra</rs> et <rs
+                            key="#Wine">vinea</rs> quae videtur esse in loco, qui <placeName
                             key="#Landed_possessions #Fiscal_property #Mention #Count #Viscount"
                             >Rachinaldi</placeName> nominatur, ad partem et utilitatem ecclesie et
                         monasterii vestri Sancti Quirici, quae continere videtur latus in <placeName
@@ -105,7 +103,9 @@
                             key="#Landed_possessions #Fiscal_property #Mention #Count">terra</rs>
                         <rs key="#Count">comitum</rs>, aliud latus in <rs
                             key="#Landed_possessions #Fiscal_property #Mention #Viscount">terra</rs>
-                        Alberti <rs key="#Viscount">vicecomitis</rs>, aliud capud in terra
+                        <persName key="#Landed_possessions #Viscount" ref="#people/200"
+                            >Alberti</persName>
+                        <rs key="#Viscount">vicecomitis</rs>, aliud capud in terra
                             <persName>Ugonis</persName> quondam <persName>Pagani</persName>, sicut
                         per signa et terminos videtur esse designata, ita in integrum vindo et trado
                         predicta petia de terra et vineam super se haben[tem] ad partem et
@@ -134,13 +134,12 @@
                         qualiter iuxta legem melius potueritis, quia in tali ordine hanc cartulam
                             <persName key="#Notary">Petrus</persName> domni regis <rs key="#Notary"
                             >notarius</rs> scribere rogavimus. Actum in loco <placeName
-                            ref="#http://137.204.128.125/places/132">Vignale</placeName>. Signum
-                        manus suprascripti Ugonis quondam Corucci qui hanc cartulam fieri rogavit.
-                        Signa manuum <persName>Gerardi</persName> quondam
-                            <persName>Raineri</persName> et <persName>Raimondi</persName> quondam
-                            <persName>Teubaldi</persName> et <persName>Gaudentji</persName> quondam
-                            <persName>Iohannis</persName> rogati testes. Petrus domini regis
-                        notarius post tradita complevi et dedi. </ab>
+                            ref="#places/132">Vignale</placeName>. Signum manus suprascripti Ugonis
+                        quondam Corucci qui hanc cartulam fieri rogavit. Signa manuum
+                            <persName>Gerardi</persName> quondam <persName>Raineri</persName> et
+                            <persName>Raimondi</persName> quondam <persName>Teubaldi</persName> et
+                            <persName>Gaudentji</persName> quondam <persName>Iohannis</persName>
+                        rogati testes. Petrus domini regis notarius post tradita complevi et dedi. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">

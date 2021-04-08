@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc28">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
@@ -14,7 +14,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
-                <idno type="uri">http://137.204.128.125/documents/doc28</idno>
+                <idno type="filename">doc28</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -31,9 +31,9 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="https://ausohnum.huma-num.fr/concept/c26227">Papal concession (papyrus)</rs>
-                            <rs type="record_source" ref="https://ausohnum.huma-num.fr/concept/c26116">Original document</rs>
-                            <rs type="document_tradition" ref="https://ausohnum.huma-num.fr/concept/c26113">Copy</rs>
+                            <rs type="text_type" ref="#">Papal concession (papyrus)</rs>
+                            <rs type="record_source" ref="#">Original document</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
                             <rs type="fiscal_property">yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
@@ -60,7 +60,7 @@
                    <place></place>
                 </listPlace>
             <listPerson>
-                <person corresp="http://137.204.128.125/people/71">
+                <person corresp="people/71">
             		<persName xml:lang="en">Gregorius II (715-731), papa</persName>
         		</person>
     		</listPerson>
@@ -85,7 +85,7 @@
             <div type="edition">
                 <div type="textpart">
                     <ab>Ex registro Gregorii iunioris. <persName key="#Popes"
-                            ref="#http://137.204.128.125/people/71">Gregorius</persName>
+                            ref="#people/71">Gregorius</persName>
                         <persName key="#Priests">Stephano</persName>
                         <rs key="#Priests">presbitero</rs> atque aliis duabus successim personis.
                         Quotiens illa a nobis tribui sperantur, que rationi incunctanter conveniunt,
@@ -94,14 +94,14 @@
                             >fundus</rs>
                         <geogName
                             key="#Fundi #Wine #Fiscal_property #Object #Allocation_to_individuals #Rent_in_money #Popes"
-                            ref="#http://137.204.128.125/estates/102">Capanianum cum domo sua et
+                            ref="#estates/102">Capanianum cum domo sua et
                             vinea </geogName> posita via Flaminea .XIIII. plus minus miliario ab ac
-                        urbe <placeName key="" ref="#http://137.204.128.125/places/52"
+                        urbe <placeName ref="#places/52"
                             >Roma</placeName>, quem tenuit per emunitionem <persName key="#Priests"
                             >Sergius</persName>
                         <rs key="#Priests">presbiter</rs> et vestararius noster, qui fundus exstitit
                         ex corpore <rs key="#Patrimonium">patrimonii</rs>
-                        <geogName key="#Patrimonium" ref="#http://137.204.128.125/estates/"
+                        <geogName key="#Patrimonium" ref="#estates/103"
                             >Tusciae</geogName>, iuris sanctae Romanae cui Deo auctore deservimus
                         aecclesiae, hunc vobis emissa preceptione ad tenendum concedere deberemus.
                         Inclinati itaque precibus vestris per huius precepti seriem supradictum

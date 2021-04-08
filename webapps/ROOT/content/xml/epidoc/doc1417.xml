@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc1417">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
@@ -15,7 +15,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
-                <idno type="uri">http://137.204.128.125/documents/doc1417</idno>
+                <idno type="filename">doc1417</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -89,57 +89,53 @@
                 <div type="textpart">
                     <ab>Cartula de Livellaria. I[n n]omin[e] domini nostri Iesu Christi Dei aeterni.
                         Anno dominice incarnationis millesimo centesimo vigesimo VI, decimo kalendas
-                        februarii, indictione Xa. Manifestus sum ego <persName
-                            ref="#http://137.204.128.125/people/104">Rogerius</persName>, filius
-                        bone memorie <persName>Ildibrandi</persName>, quia per hanc cartula
-                        offertionis offero et dono et trado omnipotenti Deo et <rs key="#Churches"
-                            >ecclesie</rs>
+                        februarii, indictione Xa. Manifestus sum ego <persName ref="#people/104"
+                            >Rogerius</persName>, filius bone memorie
+                            <persName>Ildibrandi</persName>, quia per hanc cartula offertionis
+                        offero et dono et trado omnipotenti Deo et <rs key="#Churches">ecclesie</rs>
                         <rs key="#Monasteries">monasterio</rs>
-                        <orgName ref="#http://137.204.128.125/juridical_persons/78">Sancti
-                            Quirici</orgName>, loco <placeName
-                            ref="#http://137.204.128.125/places/86">Populonio</placeName>, idest una
-                            <rs key="#Petiae">petia</rs> de terra quae prope <rs key="#Churches"
-                            >ecclesia</rs>
-                        <orgName>Sancti Christofori</orgName> est, in loco <placeName
-                            key="#Landed_possessions #Fiscal_property #Mention #Count"
-                            ref="#http://137.204.128.125/places/134">Livellaria</placeName>, iuxta
-                            <rs key="#Rivers">flumen Cornee</rs>, quae teneri videtur capud unum in
-                        terra suprascripti monasterii, et aliud capud in via puplica, latum unum in
-                        terra <orgName ref="#http://137.204.128.125/juridical_persons/86"
-                            key="#Landed_possessions">Sancti Cerbonii</orgName> et de suprascripto
-                        monasterio, et aliud latus in <rs
+                        <orgName ref="#juridical_persons/78">Sancti Quirici</orgName>, loco
+                            <placeName ref="#places/86" key="#Monasteries">Populonio</placeName>,
+                        idest una <rs key="#Petiae">petia</rs> de terra quae prope <rs
+                            key="#Churches">ecclesia</rs>
+                        <orgName key="#Churches">Sancti Christofori</orgName> est, in loco
+                            <placeName key="#Landed_possessions #Fiscal_property #Mention #Count"
+                            ref="#places/134">Livellaria</placeName>, iuxta <rs key="#Rivers">flumen
+                            Cornee</rs>, quae teneri videtur capud unum in terra suprascripti
+                        monasterii, et aliud capud in via puplica, latum unum in terra <orgName
+                            ref="#juridical_persons/86" key="#Landed_possessions">Sancti
+                            Cerbonii</orgName> et de suprascripto monasterio, et aliud latus in <rs
                             key="#Landed_possessions #Fiscal_property #Mention #Count">terra</rs> de
                         iamdicto monasterio atque <rs key="#Count">comitum</rs>. Hanc predicta petia
                         de terra, sicut signata videtur esse et diximus, ita in predicto monasterio
                         Sancti Quirici, pro Dei amore et remedio hac salute meorum parentum vel
                         nostre, dono et trado et concedo, ut ab ac hodie in antea sit in potestate
                         tua domno in Dei nomine <rs key="#Abbots">abbati</rs>, nomine <persName
-                            key="#Abbots" ref="#http://137.204.128.125/people/103">Mauro</persName>,
-                        et tuorum successorum fratrum, qui in predicto monasterio ad onorem Dei et
-                        Sancti Quirici ordinati fuerint et positi et officium Deo fecerint in vestra
-                        vero sit potestatem suprascripta offersionem, quam in suprascripto
-                        monasterio dedi eam habendi, tenendi, regendi, gubernandi et faciendi exinde
-                        quicquid facere volueritis ad partem et utilitatem iamdicti monasterii
-                        Sancti Quirici in integrum cum inferioribus et superioribus suis seo cum
-                        ascesioribus et ingressoribus suis dono et trado. Unde repromitto ego, qui
-                        supra Rogerius, una cum meis heredibus tibi, domno Mauro in Dei nomine
-                        abbati tuisque successoribus, qui in predicto monasterio ordinati fuerint,
-                        ut si in aliquo tempore aliquid exinde intentionaverimus aut retolli vel
-                        subtrai quesierimus, nos vel ille homo cui nos eam dedissemus aut dederimus
-                        per quolibet ingenium, et eam ab omni homine defendere non potuerimus et non
-                        defensaverimus, tunc spondimus nos Rogerius una cum meis heredibus componere
-                        suprascripta offersionem, quam in predicto monasterio dedi, in duplum
-                        inferquidem loco sub extimatione qualis tunc fuerit; et tamen si nos exinde
-                        auctores nec [defe]nsores querere nec dare volueritis, licentiam habeatis
-                        absque nostra persona, si vestra fuerit voluntas, exinde causam agendi,
-                        responsum reddendi, finem ponendi, modis omnibus vobis eam ad partem
-                        suprascripti monasterii defensandi cum cartula ista, qualiter iuxta legem
-                        melius potueritis, quia in tali hordine hanc cartula <persName key="#Notary"
-                            >Petrum</persName> domni regis <rs key="#Notary">notarium</rs> scribere
-                        rogavi. Actum in loco et <rs key="#Castle">castello</rs> qui dicitur
-                            <placeName key="#Castle" ref="#http://137.204.128.125/places/87"
-                            >Suvereto</placeName>. Signum manus suprascripti Rogeri quondam
-                        Ildibrandi qui hanc cartulam offersionis fieri rogavit. Signa manuum
+                            key="#Abbots" ref="#people/103">Mauro</persName>, et tuorum successorum
+                        fratrum, qui in predicto monasterio ad onorem Dei et Sancti Quirici ordinati
+                        fuerint et positi et officium Deo fecerint in vestra vero sit potestatem
+                        suprascripta offersionem, quam in suprascripto monasterio dedi eam habendi,
+                        tenendi, regendi, gubernandi et faciendi exinde quicquid facere volueritis
+                        ad partem et utilitatem iamdicti monasterii Sancti Quirici in integrum cum
+                        inferioribus et superioribus suis seo cum ascesioribus et ingressoribus suis
+                        dono et trado. Unde repromitto ego, qui supra Rogerius, una cum meis
+                        heredibus tibi, domno Mauro in Dei nomine abbati tuisque successoribus, qui
+                        in predicto monasterio ordinati fuerint, ut si in aliquo tempore aliquid
+                        exinde intentionaverimus aut retolli vel subtrai quesierimus, nos vel ille
+                        homo cui nos eam dedissemus aut dederimus per quolibet ingenium, et eam ab
+                        omni homine defendere non potuerimus et non defensaverimus, tunc spondimus
+                        nos Rogerius una cum meis heredibus componere suprascripta offersionem, quam
+                        in predicto monasterio dedi, in duplum inferquidem loco sub extimatione
+                        qualis tunc fuerit; et tamen si nos exinde auctores nec [defe]nsores querere
+                        nec dare volueritis, licentiam habeatis absque nostra persona, si vestra
+                        fuerit voluntas, exinde causam agendi, responsum reddendi, finem ponendi,
+                        modis omnibus vobis eam ad partem suprascripti monasterii defensandi cum
+                        cartula ista, qualiter iuxta legem melius potueritis, quia in tali hordine
+                        hanc cartula <persName key="#Notary">Petrum</persName> domni regis <rs
+                            key="#Notary">notarium</rs> scribere rogavi. Actum in loco et <rs
+                            key="#Castle">castello</rs> qui dicitur <placeName key="#Castle"
+                            ref="#places/87">Suvereto</placeName>. Signum manus suprascripti Rogeri
+                        quondam Ildibrandi qui hanc cartulam offersionis fieri rogavit. Signa manuum
                             <persName>Perli</persName> quondam <persName>Ugonis</persName> et
                             <persName>Wittoni</persName> quondam <persName>Signorelli</persName>
                         testium. Petrus domni regis notarius post tradita complevi et dedi. </ab>

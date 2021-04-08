@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc1106">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
@@ -15,7 +15,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
-                <idno type="uri">http://137.204.128.125/documents/doc1106</idno>
+                <idno type="filename">doc1106</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -83,87 +83,86 @@
             <div type="edition">
                 <div type="textpart">
                     <ab>In nomine domini nostri Iesu Christi Dei eterni. <persName
-                            key="#Emperor/king" ref="#http://137.204.128.125/people/21"
-                            >Berengarius</persName> divina favente clementia <rs key="#Emperor/king"
-                            >rex</rs>. Si at vota et legitimam nostrorum fidelium postulationem
-                        aures clementie satagimus inclinare, devotiores eos ad nostram fidelitatem
-                        efficimus, insuper ab eterno remuneratore premia sine fine mansura percipere
-                        non ambigimus. Quapropter noverit universorum sancte Dei Ecclesie fidelium
-                        nostrorumque presentium scilicet et futurorum industria, <persName
-                            key="#Archbishops" ref="#http://137.204.128.125/people/134"
-                            >Landulfus</persName> venerabilem <rs key="#Archbishops"
-                            >archiepiscopus</rs> sancte <placeName
-                            ref="#http://137.204.128.125/places/147">Mediolanensis
-                            ecclesie</placeName> suplicasset nostram clementiam, quatenus <persName
-                            key="#Count" ref="#http://137.204.128.125/people/133"
+                            key="#Emperor/king" ref="#people/21">Berengarius</persName> divina
+                        favente clementia <rs key="#Emperor/king">rex</rs>. Si at vota et legitimam
+                        nostrorum fidelium postulationem aures clementie satagimus inclinare,
+                        devotiores eos ad nostram fidelitatem efficimus, insuper ab eterno
+                        remuneratore premia sine fine mansura percipere non ambigimus. Quapropter
+                        noverit universorum sancte Dei Ecclesie fidelium nostrorumque presentium
+                        scilicet et futurorum industria, <persName key="#Archbishops"
+                            ref="#people/134">Landulfus</persName> venerabilem <rs
+                            key="#Archbishops">archiepiscopus</rs> sancte <placeName
+                            ref="#places/147">Mediolanensis ecclesie</placeName> suplicasset nostram
+                        clementiam, quatenus <persName key="#Count" ref="#people/133"
                             >Ermenulfi</persName> dilecto fideli nostro concederemus aliquantos <rs
-                            key="#Fiscal_property #Textual_occurrence #Object #Alienations #Iure_proprietatis/pleno_iure #Allocation_to_individuals #Royal_slave"
+                            key="#Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_individuals #Royal_slave"
                             >servos</rs> et <rs
-                            key="#Fiscal_property #Textual_occurrence #Object #Alienations #Iure_proprietatis/pleno_iure #Allocation_to_individuals #Royal_aldius"
+                            key="#Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_individuals #Royal_aldius"
                             >aldiones</rs> in <rs key="#Vici">vico</rs> et <rs key="#Fundi"
                             >fundo</rs>
-                        <placeName ref="#http://137.204.128.125/places/153">Luano</placeName>
-                        pertinentibus de iure regni nostri, idest nomina eorum: <persName
-                            key="#Fiscal_property #Textual_occurrence #Object #Alienations #Iure_proprietatis/pleno_iure #Allocation_to_individuals #Other_clerics"
+                        <placeName ref="#places/153">Luano</placeName> pertinentibus de iure regni
+                        nostri, idest nomina eorum: <persName
+                            key="#Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_individuals #Other_clerics"
                             >Deusdedi</persName>
                         <rs
-                            key="#Fiscal_property #Textual_occurrence #Object #Alienations #Iure_proprietatis/pleno_iure #Allocation_to_individuals #Other_clerics"
+                            key="#Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_individuals #Other_clerics"
                             >clerico</rs> cum <rs
-                            key="#Fiscal_property #Textual_occurrence #Object #Alienations #Iure_proprietatis/pleno_iure #Allocation_to_individuals #Royal_slave #Royal_aldius #Brother_of"
+                            key="#Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_individuals #Royal_slave #Royal_aldius #brotherOf"
                             >germanis suis</rs> et <rs
-                            key="#Fiscal_property #Textual_occurrence #Object #Alienations #Iure_proprietatis/pleno_iure #Allocation_to_individuals #Royal_slave #Royal_aldius #Legally_recognised_union_with"
+                            key="#Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_individuals #Royal_slave #Royal_aldius #legallyRecognisedUnionWith"
                             >uxores illorum</rs> cum agnitione illorum et <persName
-                            key="#Fiscal_property #Textual_occurrence #Object #Alienations #Iure_proprietatis/pleno_iure #Allocation_to_individuals #Royal_slave #Royal_aldius"
+                            key="#Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_individuals #Royal_slave #Royal_aldius"
                             >Ursone</persName> cum <rs
-                            key="#Fiscal_property #Textual_occurrence #Object #Alienations #Iure_proprietatis/pleno_iure #Allocation_to_individuals #Royal_slave #Royal_aldius #Legally_recognised_union_with"
+                            key="#Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_individuals #Royal_slave #Royal_aldius #legallyRecognisedUnionWith"
                             >uxore sua</rs> cum <rs
-                            key="#Fiscal_property #Textual_occurrence #Object #Alienations #Iure_proprietatis/pleno_iure #Allocation_to_individuals #Royal_slave #Royal_aldius #Son_of #Daughter_of"
+                            key="#Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_individuals #Royal_slave #Royal_aldius #sonOf #daughterOf"
                             >filiis et filias</rs> nec non et <persName
-                            key="#Fiscal_property #Textual_occurrence #Object #Alienations #Iure_proprietatis/pleno_iure #Allocation_to_individuals #Royal_slave #Royal_aldius"
+                            key="#Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_individuals #Royal_slave #Royal_aldius"
                             >Lupone</persName> cum <rs
-                            key="#Fiscal_property #Textual_occurrence #Object #Alienations #Iure_proprietatis/pleno_iure #Allocation_to_individuals #Royal_slave #Royal_aldius #Legally_recognised_union_with"
+                            key="#Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_individuals #Royal_slave #Royal_aldius #legallyRecognisedUnionWith"
                             >uxore</rs> et <rs
-                            key="#Fiscal_property #Textual_occurrence #Object #Alienations #Iure_proprietatis/pleno_iure #Allocation_to_individuals #Royal_slave #Royal_aldius #Son_of #Daughter_of"
+                            key="#Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_individuals #Royal_slave #Royal_aldius #sonOf #daughterOf"
                             >filiis et filias</rs> et <rs
-                            key="#Fiscal_property #Textual_occurrence #Object #Alienations #Iure_proprietatis/pleno_iure #Allocation_to_individuals #Royal_slave #Royal_aldius #Nephew_of #Niece_of"
+                            key="#Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_individuals #Royal_slave #Royal_aldius #nephewOf #nieceOf"
                             >nepotis</rs>. Cuius precibus assensu prebentes, ea videlicet que iuste
                         et legaliter nos est deprecatus, inde hoc strenuitatis nostre preceptum
                         fieri decrevimus, per quod predictus fidelis noster Ermenulfus eosdem servis
                         et ancillis, aldiones vel aldianas superius nominatis cum omni iure
                         adiacentiis et pertinentiis earum, que sunt <rs
-                            key="#Houses #Fiscal_property #Textual_occurrence #Object #Alienations #Iure_proprietatis/pleno_iure #Allocation_to_individuals"
+                            key="#Houses #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_individuals"
                             >casis</rs> cum <rs
-                            key="#Landed_possessions #Fiscal_property #Textual_occurrence #Object #Alienations #Iure_proprietatis/pleno_iure #Allocation_to_individuals"
+                            key="#Landed_possessions #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_individuals"
                             >universis territoriis mobilibus et inmobilibus</rs> et <persName
-                            key="#Fiscal_property #Textual_occurrence #Object #Alienations #Iure_proprietatis/pleno_iure #Allocation_to_individuals #Royal_slave #Royal_aldius"
+                            key="#Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_individuals #Royal_slave #Royal_aldius"
                             >Florane</persName> cum <rs
-                            key="#Fiscal_property #Textual_occurrence #Object #Alienations #Iure_proprietatis/pleno_iure #Allocation_to_individuals #Royal_slave #Royal_aldius #Daughter_of"
+                            key="#Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_individuals #Royal_slave #Royal_aldius #daughterOf"
                             >filias suas</rs> et possessiones illarum, omnia et ex omnibus seu per
                         aliis singulis locis de ipsis aut eorum iure pertinentes inventum fuerit
                         iuste et legaliter ad ipsis servis et aldionibus superius nominatis futuris
                         temporibus absque ullius contradictione perpetualiter tam ipse predictus
                         fidelis noster Ermenulfus quam sui heredes possideant, liberam quoque et
                         firmissimam in omnibus habeant <rs
-                            key="#Houses #Landed_possessions #Fiscal_property #Alienations #Iure_proprietatis/pleno_iure #Allocation_to_individuals #Royal_slave #Royal_aldius"
+                            key="#Houses #Landed_possessions #Fiscal_property #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_individuals #Royal_slave #Royal_aldius"
                             >potestatem donandi, ordinandi, comutandi, vendendi</rs>, seu quovis
                         titulo inscripcionis alienandi, remota tocius publice potestatis
                         inquietudine. Si quis vero, quod minime credimus, quicumque temerarius
                         contra hoc nostrum regali preceptum quandoque tempore insurgere aut
                         inrumpere temptaverit, sciat se compositutum <rs key="#Penalty">auri optimi
-                            libras XX</rs>, meditatem palatio nostro et reliquam medietatem sepe
-                        fato Ermenulfo suisque heredibus ac proheredibus. Ut autem ab omnibus verius
-                        credatur et diligentius observetur, manu propria supter firmavimus et anulo
-                        nostro inpressione insigniri iussimus. Signum (MF) domni Berengarii
+                            libras XX</rs>, <rs key="#Camera_regis">meditatem palatio nostro</rs> et
+                        reliquam <rs key="#Camera_of_other_public_authorities">medietatem sepe fato
+                            Ermenulfo suisque heredibus ac proheredibus</rs>. Ut autem ab omnibus
+                        verius credatur et diligentius observetur, manu propria supter firmavimus et
+                        anulo nostro inpressione insigniri iussimus. Signum domni Berengarii
                         gloriosissimi regis. <persName key="#Notary">Restaldus</persName> notarius
                         iussione regia ad vicem <persName key="#Archchancellor #Bishops"
-                            ref="#http://137.204.128.125/people/58">Petri</persName>
+                            ref="#people/58">Petri</persName>
                         <rs key="#Bishops">episcopi</rs> et <rs key="#Archchancellor"
-                            >archicancellarii</rs> recognovi et subscripsi. (SR) (SI D). data XV
-                        kal. Mar., anno incarnationis Domini DCCCXCVIII, anno vero regni domni
-                        Berengarii gloriosissimi regis X, indictione prima. Actum <placeName
-                            ref="#http://137.204.128.125/places/147">Mediolano</placeName> in
-                            <orgName ref="#http://137.204.128.125/juridical_persons/95">monasterio
-                            Sancti Ambrosii</orgName>. In Dei nomine feliciter amen.</ab>
+                            >archicancellarii</rs> recognovi et subscripsi. Data XV kal. Mar., anno
+                        incarnationis Domini DCCCXCVIII, anno vero regni domni Berengarii
+                        gloriosissimi regis X, indictione prima. Actum <placeName ref="#places/147"
+                            >Mediolano</placeName> in <orgName ref="#juridical_persons/95"
+                            >monasterio Sancti Ambrosii</orgName>. In Dei nomine feliciter
+                        amen.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">

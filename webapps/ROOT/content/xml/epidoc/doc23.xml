@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc23">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
@@ -13,7 +13,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
-                <idno type="uri">http://137.204.128.125/documents/doc23</idno>
+                <idno type="filename">doc23</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -30,8 +30,8 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="https://ausohnum.huma-num.fr/concept/c25666">Imperial/royal diploma</rs>
-                            <rs type="record_source" ref="https://ausohnum.huma-num.fr/concept/c26117">Critical edition</rs>
+                            <rs type="text_type" ref="#">Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="ausohnum.huma-num.fr/concept/c26112">Original</rs>
                             <rs type="fiscal_property">yes</rs>
                         </summary>
@@ -59,13 +59,13 @@
                    <place></place>
                 </listPlace>
             <listPerson>
-    <person corresp="http://137.204.128.125/people/21">
+    <person corresp="people/21">
             <persName xml:lang="en">Berengario I</persName>
         </person>
-                <person corresp="http://137.204.128.125/juridical_persons/30">
+                <person corresp="juridical_persons/30">
             <persName xml:lang="en">San Salvatore / Santa Giulia di Brescia</persName>
         </person>
-    <person corresp="http://137.204.128.125/people/67">
+    <person corresp="people/67">
             <persName xml:lang="en">Berta, abbatissa (880 ca.- 952)</persName>
         </person>
     </listPerson>
@@ -89,15 +89,15 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>(C)IN NOMINE D(OMI)NI DEI AETERNI. <persName key="#emperor/king" ref="http://137.204.128.125/people/21">BERENGARIUS</persName>
+                    <ab>(C)IN NOMINE D(OMI)NI DEI AETERNI. <persName key="#emperor/king" ref="people/21">BERENGARIUS</persName>
 <rs key="#emperor/king">REX</rs>. NOVERIT OMNIUM FIDELIUM SANCTAE DEI
-                        ECCLESIAE NOSTRORUMQUE PRESENTIUM SCILICET AC FUTURORUM INDUSTRIA, <persName key="#abbesses" ref="http://137.204.128.125/people/67">Berchtam, religiosissimam <orgName key="#monasteries" ref="http://137.204.128.125/juridical_persons/30">monasterii Sanctae
+                        ECCLESIAE NOSTRORUMQUE PRESENTIUM SCILICET AC FUTURORUM INDUSTRIA, <persName key="#abbesses" ref="people/67">Berchtam, religiosissimam <orgName key="#monasteries" ref="juridical_persons/30">monasterii Sanctae
 Iulię</orgName>
 <rs key="#abbesses">abbatissam</rs> dilectamque filiam
 nostram</persName>, suppliciter nostram exorasse clementiam, quatenus
 quandam <rs key="#roads">viam publicam</rs> in circuitu <rs key="#castle">castelli</rs> prefati monasterii, quod <placeName key="#castle">Sendali</placeName> dicitur, discurrentem finibus <rs key="#comitatus">comitatus</rs>
-<placeName key="#comitatus" ref="http://137.204.128.125/places/9">Brixiensis</placeName>, in <rs key="#pagus">pago et fundo</rs>
-<placeName key="#pagus" ref="http://137.204.128.125/places/26">Temolina</placeName>, eidem monasterio, <rs key="#iure_proprietatis/pleno_iure">iure proprietario</rs>, ad incidendum
+<placeName key="#comitatus" ref="places/9">Brixiensis</placeName>, in <rs key="#pagus">pago et fundo</rs>
+<placeName key="#pagus" ref="places/26">Temolina</placeName>, eidem monasterio, <rs key="#iure_proprietatis/pleno_iure">iure proprietario</rs>, ad incidendum
 concedere dignaremur. Cuius precibus acclinati, eandem viam publicam
 existentem in circuitu prefati castelli monasterio Beatę Iuliae, iure
 proprietario, <rs key="#public_infrastructures">ad incidendum</rs> et <rs key="#public_infrastructures">fossata facienda</rs> omnemque <rs key="#public_infrastructures">monitionem edificandam </rs>et quicquid

@@ -12,7 +12,7 @@
   <xsl:import href="cocoon://_internal/url/reverse.xsl" />
 
   <kiln:block name="html">
-    <html class="no-js">
+    <html class="no-js" lang="en">
       <kiln:block name="head">
         <head>
           <meta charset="utf-8" />
@@ -22,6 +22,7 @@
             <kiln:block name="title">Fiscus </kiln:block>
           </title>
           <kiln:block name="css">
+            <link href="{$kiln:assets-path}/images/favicon.png" rel="shortcut icon" type="image/png"/>
             <link href="{$kiln:assets-path}/foundation/css/normalize.css" rel="stylesheet" type="text/css" />
             <link href="{$kiln:assets-path}/foundation/css/foundation.min.css" rel="stylesheet" type="text/css" />
             <link href="{$kiln:assets-path}/styles/base.css" rel="stylesheet" type="text/css" />
@@ -29,7 +30,6 @@
             <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
               crossorigin=""/>
             <link rel="stylesheet" href="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css" />
-            <link href="{$kiln:assets-path}/images/favicon.png" rel="shortcut icon" type="image/png"/>
           </kiln:block>
           <kiln:block name="js">
             <script src="{$kiln:assets-path}/foundation/js/vendor/custom.modernizr.js">&#160;</script>
@@ -38,6 +38,7 @@
               integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
               crossorigin=""></script>
             <script src="{$kiln:assets-path}/scripts/maps.js"></script>
+            <script src="{$kiln:assets-path}/scripts/networks.js"></script>
             <script src="{$kiln:assets-path}/scripts/leaflet-providers.js"></script>
             <script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -49,8 +50,8 @@
       <kiln:block name="body">
         <body>
           <kiln:block name="navigation">
-            <div id="header" class="text-center">
-              <h1 id="site-name">Fiscus</h1>
+            <div id="header">
+              <h1 id="site-name"><img id="site-image" src="{$kiln:assets-path}/images/favicon.png" alt="sella plicatilis"/> FISCUS</h1>
             </div>
             <nav class="top-bar">
               <kiln:block name="main-navigation">

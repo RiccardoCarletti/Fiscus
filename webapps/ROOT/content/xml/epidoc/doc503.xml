@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc503">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
@@ -15,7 +15,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
-                <idno type="uri">http://137.204.128.125/documents/doc503</idno>
+                <idno type="filename">doc503</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -86,9 +86,9 @@
                             <persName>Salvestro</persName> del <persName>fu Sunardo</persName>
                         ricevono in livello dal <rs key="#Bishops">vescovo</rs> di Lucca <persName
                             key="#Bishops">Pietro</persName>, una res posta in loco ubi dicitur
-                            <placeName ref="#http://137.204.128.125/places/154">(...)</placeName> di
-                        pertinenza della <orgName key="#Churches">chiesa di San Michele Arcangelo
-                            sito hic Luca</orgName>, qui est de suppotestatem dello stesso
+                            <placeName ref="#places/154">(...)</placeName> di pertinenza della
+                            <orgName key="#Churches"><rs key="#Churches">chiesa</rs> di San Michele
+                            Arcangelo sito hic Luca</orgName>, qui est de suppotestatem dello stesso
                         vescovato, in precedenza tenuta dallo stesso Sunardo, con tutte le sue
                         dipendenze. Si impegnano entro i successivi due anni, infra ipsa res, a
                         levare et claudere seo coperire una casa, con i loro eredi a mettervi uomini
@@ -96,20 +96,21 @@
                         meliorare la suddetta casa et res. Si impegnano a versare pro omni censum et
                         iustitiam al vescovo e ai suoi successori a Lucca ogni mese di dicembre il
                         censo annuale di 9 soldi d’argento ad pars del <orgName
-                            key="#Mother_churches"
-                            ref="#http://137.204.128.125/juridical_persons/68">vescovato di San
-                            Martino</orgName>, e a far venire a Lucca due volte l’anno legem et
-                        iustitiam faciendum, gli stessi uomini che abiteranno la casa a mandato del
-                        vescovo. Se non rispetteranno i suddetti impegni, promettono con i loro
-                        eredi di versare al vescovo e ai suoi successori la pena di 50 soldi
-                        d’argento. Chiedono al <rs key="#Writer #Notary">notaio</rs>
-                        <persName key="#Writer #Notary">Andrea</persName> la stesura di due
-                        cartulas. Actum <placeName ref="#http://137.204.128.125/places/4"
-                            key="#Churches #Mother_churches">Luca</placeName>. <rs key="#Witness"
-                            >Testimoni</rs> sottoscrittori: <persName key="#Witness"
-                            >Adalberto</persName>, <persName key="#Witness">Alone</persName>,
-                            <persName key="#Witness">Eriberto</persName> del <persName>fu
-                            Warnifridi</persName>, <persName key="#Witness">Pietro</persName>.</ab>
+                            key="#Mother_churches" ref="#juridical_persons/68"><rs
+                                key="#Mother_churches">vescovato</rs> di San Martino</orgName>, e a
+                        far venire a Lucca due volte l’anno legem et iustitiam faciendum, gli stessi
+                        uomini che abiteranno la casa a mandato del vescovo. Se non rispetteranno i
+                        suddetti impegni, promettono con i loro eredi di versare al vescovo e ai
+                        suoi successori la pena di 50 soldi d’argento. Chiedono al <rs
+                            key="#Writer #Notary">notaio</rs>
+                        <persName key="#Writer #Notary">Andrea</persName> la stesura di due <rs
+                            key="#Libellus/precaria/emphyteusis">cartulas</rs>. Actum <placeName
+                            ref="#places/4" key="#Churches #Mother_churches #Bishops"
+                            >Luca</placeName>. <rs key="#Witness">Testimoni</rs> sottoscrittori:
+                            <persName key="#Witness">Adalberto</persName>, <persName key="#Witness"
+                            >Alone</persName>, <persName key="#Witness">Eriberto</persName> del
+                            <persName>fu Warnifridi</persName>, <persName key="#Witness"
+                            >Pietro</persName>.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
@@ -124,7 +125,8 @@
             <div type="commentary">
                 <p>Nota dorsale coeva: Petri episcopi libello da Ghisalberto et Salvestro de Ripule.
                     Nota dorsale XI sec.: da Ghisalberto et Salvestro libello de terra in Ripule cum
-                    cartis de Sancta Maria ad Montem.</p>
+                    cartis de Sancta Maria ad Montem. Sottoscrizioni autografe: Adalberto, Alone,
+                    Pietro.</p>
             </div>
         </body>
     </text>

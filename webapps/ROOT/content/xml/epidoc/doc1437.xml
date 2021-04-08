@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc1437">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
@@ -15,7 +15,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
-                <idno type="uri">http://137.204.128.125/documents/doc1437</idno>
+                <idno type="filename">doc1437</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -83,7 +83,7 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>Da <placeName key="#Petiae #Wine" ref="#http://137.204.128.125/places/87"
+                    <ab>Da <placeName key="#Petiae #Wine" ref="#places/87"
                             >Suvereto</placeName>, da Monticelli, et prope ecclesia Sancti Donati.
                         In nomine domini nostri Iesu Christi. Anno ab incarnatione eius millesimo
                         quinquagesimo septimo, tertio idus martii, indictione VIIIa. Manifestus sum
@@ -94,12 +94,12 @@
                             <persName>Lanfredi</persName> id est duas portiones de integre duo <rs
                             key="#Petiae">petie</rs> de terre quas habeo in loco illo, una petia de
                         terra cum <rs key="#Wine">vinea</rs> super se habentem in <placeName
-                            key="#Petiae #Wine" ref="#http://137.204.128.125/places/87"
+                            key="#Petiae #Wine" ref="#places/87"
                             >Valli</placeName> prope <rs key="#Churches">ecclesia</rs>
                         <orgName key="#Churches">Sancti Donati</orgName>, qui iam recta fuit per
                         suprascripto <persName>Liufredi</persName> massario et illa alia petia de
                         terra qui dicitur a <placeName key="#Petiae #Canals"
-                            ref="#http://137.204.128.125/places/149">Monticelli</placeName>, qui de
+                            ref="#places/149">Monticelli</placeName>, qui de
                         ambas capitas detinet a <rs key="#Canals">fossa</rs>, et de uno lato in via
                         puplica, et alio lato in <rs key="#Canals">fossa</rs>. As suprascripte duas
                         portiones de suprascripte petias de terra quae superius legitur, cum omnia
@@ -121,10 +121,10 @@
                         melius potueritis, quia in tali ordine hanc cartula <persName key="#Notary"
                             >Walberto</persName>
                         <rs key="#Notary">notario</rs> scribere rogavi. Actum loco <placeName
-                            key="#Castle" ref="#http://137.204.128.125/places/148">Sasso</placeName>
+                            key="#Castle" ref="#places/148">Sasso</placeName>
                         ad ipso <rs key="#Castle">castello</rs>, <rs key="#Comitatus"
                             >territorio</rs>
-                        <geogName key="#Comitatus" ref="#http://137.204.128.125/estates/107"
+                        <geogName key="#Comitatus" ref="#estates/107"
                             >Wlterrense</geogName>. Signum manus suprascripti Enrigi qui hanc
                         cartula fieri rogavi. Signa manuum <persName>Rustichi</persName> filii
                             <persName>Teutj</persName> et <persName>Gerardi</persName> filii bone

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc1435">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
@@ -15,7 +15,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
-                <idno type="uri">http://137.204.128.125/documents/doc1435</idno>
+                <idno type="filename">doc1435</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -35,7 +35,7 @@
                             <rs type="text_type" ref="#">--Transactional breve</rs>
                             <rs type="record_source" ref="#">Original document</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property">Uncertain</rs>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -89,41 +89,39 @@
                         Breve pro futuris et modernis temporibus securitatem ac firmitatem ad
                         memoriam abendam vel retinendam, qualiter factum est in loco et <rs
                             key="#Castle">castello</rs>, qui dicitur <placeName key="#Castle"
-                            ref="#http://137.204.128.125/places/146">Campilia</placeName>, in
-                        presentia <rs key="#Boni_viri/boni_homines">bonorum hominum</rs>, quorum
-                        nomina subter leguntur. Veniens autem <persName>Ildibrandus</persName>
-                        quondam <persName>Lamberti</persName> in presentia domni <persName
-                            key="#Abbots" ref="#http://137.204.128.125/people/103">Mauri</persName>,
-                        in Dei nomine <rs key="#Abbots">abbati</rs> de <rs key="#Churches"
-                            >ecclesia</rs> et <rs key="#Monasteries">monasterio</rs>
-                        <orgName key="#Churches #Monasteries"
-                            ref="#http://137.204.128.125/juridical_persons/78">Sancti
-                            Quirici</orgName> sito <placeName
-                            ref="#http://137.204.128.125/places/86">Populonio</placeName>, firmavit
-                        et investivit et tradidit atque dedit in manu predicti Mauri abbati <rs
-                            key="#Petiae">petiam</rs> una de terra, quae prope <rs key="#Churches"
-                            >ecclesia</rs>
+                            ref="#places/146">Campilia</placeName>, in presentia <rs
+                            key="#Boni_viri/boni_homines">bonorum hominum</rs>, quorum nomina subter
+                        leguntur. Veniens autem <persName>Ildibrandus</persName> quondam
+                            <persName>Lamberti</persName> in presentia domni <persName key="#Abbots"
+                            ref="#people/103">Mauri</persName>, in Dei nomine <rs key="#Abbots"
+                            >abbati</rs> de <rs key="#Churches">ecclesia</rs> et <rs
+                            key="#Monasteries">monasterio</rs>
+                        <orgName key="#Churches #Monasteries" ref="#juridical_persons/78">Sancti
+                            Quirici</orgName> sito <placeName ref="#places/86" key="#Monasteries"
+                            >Populonio</placeName>, firmavit et investivit et tradidit atque dedit
+                        in manu predicti Mauri abbati <rs key="#Petiae">petiam</rs> una de terra,
+                        quae prope <rs key="#Churches">ecclesia</rs>
                         <orgName key="#Petiae #Churches">Sancti Mamme</orgName> esse videtur, et
                         continere videtur ambo latera cum capite uno in terra <orgName
                             key="#Landed_possessions #Churches">Sancte Marie</orgName>, aliud vero
                         capud in <rs key="#Landed_possessions">terra</rs>
-                        <orgName key="#Landed_possessions #Churches">Sancti Petri</orgName>. Ut
-                        designata videtur esse, hec predicta petja de terra, ita donavit, [et]
-                        tradidit et investivit prefatum abbate et in pena se obligavit in manu sua,
-                        ut si ullo tempore venerit aut apparuerit aliquis homo, qui eam tollere aut
-                        contendere presumpserit, et ipse Ildibrandus defensor non persisterit et per
-                        se tacit[us] et quietus non permanserit, obligaturus se penam composuit, per
-                        se et suosque heredes, daturos in suprascripto monasterio in rectorum et
-                        pastorumque, qui in prefato monasterio ad onorem Dei ordinati fuerint,
-                        solidos XL ad partem iamdicti monasterii Sancti Quirici, quia hoc taliter
-                        pactum ac conventum inter eos factum est. In presentja
-                            <persName>Folcardi</persName> quondam <persName>Saraceni</persName> et
-                            <persName>Rodulfi</persName> quondam <persName>Ugonis</persName> et
-                            <persName>Miranzosi</persName> quodam <persName>Ugonis</persName> et
-                        reliqui plures qui ibi fuere. Anno dominice incarnationis millesimo
-                        centesimo vigesimo, septimo decimo kalendas februarii, indictione Xa.
-                            <persName key="#Notary">Petrus</persName> domni regis <rs key="#Notary"
-                            >notarius</rs> ibi fui et hunc brevem denotavi. </ab>
+                        <orgName key="#Landed_possessions #Fiscal_property #Mention #Churches"
+                            >Sancti Petri</orgName>. Ut designata videtur esse, hec predicta petja
+                        de terra, ita donavit, [et] tradidit et investivit prefatum abbate et in
+                        pena se obligavit in manu sua, ut si ullo tempore venerit aut apparuerit
+                        aliquis homo, qui eam tollere aut contendere presumpserit, et ipse
+                        Ildibrandus defensor non persisterit et per se tacit[us] et quietus non
+                        permanserit, obligaturus se penam composuit, per se et suosque heredes,
+                        daturos in suprascripto monasterio in rectorum et pastorumque, qui in
+                        prefato monasterio ad onorem Dei ordinati fuerint, solidos XL ad partem
+                        iamdicti monasterii Sancti Quirici, quia hoc taliter pactum ac conventum
+                        inter eos factum est. In presentja <persName>Folcardi</persName> quondam
+                            <persName>Saraceni</persName> et <persName>Rodulfi</persName> quondam
+                            <persName>Ugonis</persName> et <persName>Miranzosi</persName> quodam
+                            <persName>Ugonis</persName> et reliqui plures qui ibi fuere. Anno
+                        dominice incarnationis millesimo centesimo vigesimo, septimo decimo kalendas
+                        februarii, indictione Xa. <persName key="#Notary">Petrus</persName> domni
+                        regis <rs key="#Notary">notarius</rs> ibi fui et hunc brevem denotavi. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">

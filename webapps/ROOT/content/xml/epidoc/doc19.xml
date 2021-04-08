@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc19">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
@@ -13,7 +13,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
-                <idno type="uri">http://137.204.128.125/documents/doc19</idno>
+                <idno type="filename">doc19</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -30,9 +30,9 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="https://ausohnum.huma-num.fr/concept/c26227">Papal concession (papyrus)</rs>
-                            <rs type="record_source" ref="https://ausohnum.huma-num.fr/concept/c26116">Original document</rs>
-                            <rs type="document_tradition" ref="https://ausohnum.huma-num.fr/concept/c26113">Copy</rs>
+                            <rs type="text_type" ref="#">Papal concession (papyrus)</rs>
+                            <rs type="record_source" ref="#">Original document</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
                             <rs type="fiscal_property">yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
@@ -59,7 +59,7 @@
                    <place></place>
                 </listPlace>
             <listPerson>
-    <person corresp="http://137.204.128.125/people/70">
+    <person corresp="people/70">
             <persName xml:lang="en">Sergius II (844-847), papa</persName>
         </person>
     </listPerson>
@@ -83,7 +83,7 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>(C) <persName key="#popes" ref="http://137.204.128.125/people/70">Sergius</persName>
+                    <ab>(C) <persName key="#popes" ref="people/70">Sergius</persName>
 <rs key="#popes">episcopus, servus servorum Dei</rs>, dilecto <persName key="#abbots">
 <rs key="#abbots">. . . monachum adque
 abbatem</rs>

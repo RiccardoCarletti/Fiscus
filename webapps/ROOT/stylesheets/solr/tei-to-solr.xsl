@@ -35,7 +35,7 @@
     </field>
   </xsl:template>
   
-  <xsl:template match="tei:rs[@key]" mode="facet_mentioned_keywords_-_terms">
+  <xsl:template match="tei:rs[@key!='']" mode="facet_mentioned_keywords_-_terms">
     <xsl:for-each select="tokenize(@key, ' #')">
       <xsl:variable name="key" select="translate(., '#', '')"/>
       <xsl:variable name="thesaurus" select="document('../../content/fiscus_framework/resources/thesaurus.xml')//tei:catDesc[lower-case(@n)=lower-case($key)]"/>
@@ -109,7 +109,7 @@
     </xsl:for-each>
   </xsl:template>
   
-  <xsl:template match="tei:rs[@key]" mode="facet_mentioned_keywords_-_categories">
+  <xsl:template match="tei:rs[@key!='']" mode="facet_mentioned_keywords_-_categories">
     <xsl:for-each select="tokenize(@key, ' #')">
       <xsl:variable name="key" select="translate(., '#', '')"/>
       <xsl:variable name="thesaurus" select="document('../../content/fiscus_framework/resources/thesaurus.xml')//tei:catDesc[lower-case(@n)=lower-case($key)]"/>
@@ -172,10 +172,19 @@
     </xsl:for-each>
   </xsl:template>
   
-  <xsl:template match="tei:geogName[@ref]" mode="facet_mentioned_estates">
+  <xsl:template match="tei:geogName[@ref!='']" mode="facet_mentioned_estates">
     <field name="mentioned_estates">
       <xsl:variable name="ref" select="translate(@ref,' #', '')"/>
-      <xsl:value-of select="translate(document('../../content/fiscus_framework/resources/estates.xml')//tei:place[descendant::tei:idno=$ref]/tei:geogName[1], '/', '／')" />
+      <xsl:choose>
+        <xsl:when test="document('../../content/fiscus_framework/resources/estates.xml')//tei:place[descendant::tei:idno=$ref]">
+          <xsl:variable name="name" select="translate(document('../../content/fiscus_framework/resources/estates.xml')//tei:place[descendant::tei:idno=$ref][1]/tei:geogName[1], '/', '／')"/>
+          <xsl:value-of select="upper-case(substring($name, 1, 1))"/>
+          <xsl:value-of select="substring($name, 2)"/>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:value-of select="translate(@ref,' #', '')"/>
+        </xsl:otherwise>
+      </xsl:choose>
     </field>
   </xsl:template>
   

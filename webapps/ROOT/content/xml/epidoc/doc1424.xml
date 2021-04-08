@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc1424">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
@@ -15,7 +15,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
-                <idno type="uri">http://137.204.128.125/documents/doc1424</idno>
+                <idno type="filename">doc1424</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -35,7 +35,7 @@
                             <rs type="text_type" ref="#">--Offersio/donatio</rs>
                             <rs type="record_source" ref="#">Original document</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property">No</rs>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -92,24 +92,28 @@
                             vocabatur </persName>quia per hanc cartula pro anime mee remedio offero
                         tibi Deo <rs key="#Churches">ecclesia</rs> et <rs key="#Monasteries"
                             >monasterio</rs>
-                        <orgName key="#Churches #Monasteries"
-                            ref="#http://137.204.128.125/juridical_persons/78">Sancti
+                        <orgName key="#Churches #Monasteries" ref="#juridical_persons/78">Sancti
                             Quirici</orgName> qui est constructum et edificatum in loco et finibus
-                        Populonio, idest una <rs key="#Petiae">petia</rs> de terra mea illa quod est
-                            <rs key="#Cereals">campo</rs> in qua fuit <rs
+                            <placeName key="#Monasteries" ref="#places/86">Populonio</placeName>,
+                        idest una <rs key="#Petiae">petia</rs> de terra mea illa quod est <rs
+                            key="#Cereals">campo</rs> in qua fuit <rs
                             key="#Casae/cassinae_massaricie">cassina et res massaricias</rs>, ubi
                         residebat quondam <persName>Baroccio</persName>, quam habeo in loco et
-                        finibus <placeName key="#Casae/cassinae_massaricie #Petiae #Cereals"
-                            ref="#http://137.204.128.125/places/3">Casalappi</placeName>, prope <rs
-                            key="#Churches">ecclesia</rs>
-                        <orgName>Sancti Christofori</orgName>, tenentes uno capo cum uno lato in
-                        terra mea, quas mihi reservo, et alio capo in terra Tedicinga, et alio lato
-                        in terra que fuit Ubertinga. Has suprascripta petia de terra que est campo,
-                        sicut eam detinuit quondam suprascripto Baroccio qualiter ab omni parte
-                        circumdata est per designatas locas, quod est per mensura a iusta seminatura
-                        a sistario de decem pani, sistariorum octo in integrum una cum inferioribus
-                        et superioribus suis seu cum accessionibus et ingressibus suis trado et
-                        ipsius ecclesia et monasterio Sancti Quirici pro anime mee offerre remedio
+                        finibus <placeName
+                            key="#Casae/cassinae_massaricie #Petiae #Landed_possessions #Cereals #Fiscal_property #Mention #Count #Consortes/shared_possessions"
+                            ref="#places/133">Casalappi</placeName>, prope <rs key="#Churches"
+                            >ecclesia</rs>
+                        <orgName key="#Churches">Sancti Christofori</orgName>, tenentes uno capo cum
+                        uno lato in terra mea, quas mihi reservo, et alio capo in <rs
+                            key="#Landed_possessions #Fiscal_property #Mention #Count #Consortes/shared_possessions"
+                            >terra Tedicinga</rs>, et alio lato in <rs
+                            key="#Landed_possessions #Consortes/shared_possessions">terra que fuit
+                            Ubertinga</rs>. Has suprascripta petia de terra que est campo, sicut eam
+                        detinuit quondam suprascripto Baroccio qualiter ab omni parte circumdata est
+                        per designatas locas, quod est per mensura a iusta seminatura a sistario de
+                        decem pani, sistariorum octo in integrum una cum inferioribus et
+                        superioribus suis seu cum accessionibus et ingressibus suis trado et ipsius
+                        ecclesia et monasterio Sancti Quirici pro anime mee offerre remedio
                         prevideor tali ordinem ut ab hodierna die ipsius ecclesie et monasterio
                         beati Sancti Quirici et de illis presbiteris et diaconibus seu clerici et
                         monaci qui ibidem per tempore ordiati fuerint et ibidem officium Dei
@@ -149,7 +153,9 @@
                         ordinem hanc cartulam offersionis <persName key="#Notary"
                             >Adanulfum</persName>
                         <rs key="#Notary">notarium</rs> domni regis scribere rogavi. Actum in
-                        suprascripto loco et finibus Casalappi, prope <rs>ecclesia et plebe</rs>
+                        suprascripto loco et finibus <placeName key="#Baptismal_churches"
+                            ref="#places/133">Casalappi</placeName>, prope <rs>ecclesia et
+                            plebe</rs>
                         <orgName key="#Baptismal_churches">Sancti Apollenari</orgName>. Signum manus
                         suprascripti Tegrimi, qui Saracino vocatur, qui hanc cartula offersionis
                         fieri rogavit. Signa (manuum) <persName>Vidi</persName> filii bone memorie

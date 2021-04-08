@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc1425">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
@@ -15,7 +15,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
-                <idno type="uri">http://137.204.128.125/documents/doc1425</idno>
+                <idno type="filename">doc1425</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -93,53 +93,51 @@
                         filius bone memorie <persName>Bruni</persName>, quia per hanc cartula
                         offersionis offero et do omnipontenti Deo et <rs key="#Monasteries"
                             >monasterio</rs> vel <rs key="#Churches">ecclesie</rs>
-                        <orgName key="#Churches #Monasteries"
-                            ref="#http://137.204.128.125/juridical_persons/78">Sancti Quirici
-                        </orgName>que est in loco <placeName ref="#http://137.204.128.125/places/86"
-                            >Populonio</placeName>, <rs key="#Petiae">petiam</rs> unam de terra quae
-                        videtur esse in loco <placeName key="#Petiae"
-                            ref="#http://137.204.128.125/places/100">Livellaria</placeName>, quae
-                        continere videtur latus cum capite in terra suprascripti monasterii,
-                        similiter latus cum alio capite in terra de iamdicto monasterio Sancti
-                        Quirici; sicut circumdata esse videtur ex omni parte trado et offero
-                        omnipotenti Deo et ecclesia vel monasterio Sancti Quirici pro Dei amore et
-                        remedio vel salute parentum meorum ac nostre anime, ut ab odie in antea sit
-                        in vestra potestate, silicet in tua domno <persName key="#Abbots"
-                            ref="#http://137.204.128.125/people/103">Mauro</persName> [in Dei
-                        nomine] <rs key="#Abbots">abbati</rs> tuisque successoribus, qui in prefata
-                        ecclesia vel monasterio Sancti Quirici pro Dei amore ordinati fuerint, eam
-                        habendi, tenendi, regendi, gubernandi, faciendi exinde quicquid facere
-                        volueritis ad partem et hutilitatem vel salutem suprascripti [monasterii];
-                        in integrum eam dono, trado vel offero cum inferioribus et superioribus suis
-                        seo cum ascensioribus et ingressoribus suis. Unde repromitto ego, qui supra
-                        Rogerius quondam Bruni, una cum meis heredibus tibi domno Mauro abbati
-                        tuisque successoribus, ut si [in a]liquo tempore aliquid exinde
-                        intentionaverimus aut retolli vel subtrai quesierimus, nos vel ille homo cui
-                        nos eam dedissemus aud dederimus per quodlibet ingenium, et eam ab omni
-                        homine defendere non potuerimus et non defensaverimus, tunc spondemus nos,
-                        qui supra Rogerius, una cum meis heredibus, tibi, qui supra Mauro abbati,
-                        tuisque successoribus componere ad partem predicti monasterii suprascripta
-                        meam offersionem in dupplum inferquidem loco sub estimatione, qualis tunc
-                        fuerit. Quiscumque vero suprascripta meam donationem vel offersionem tollere
-                        aut contendere vel delere voluerit, deleat eum Deus de libro viventium et
-                        sit damnatus cum Pilato et Herode et cum Iuda traditore, et in die iudicii
-                        non resurgat in numero iustorum. Tamen si nos exinde auctores nec defensores
-                        quaerere nec dare volueritis, licentiam abeatis, absque nostra persona, si
-                        vestra fuerit voluntas, exinde causas agendi, responsum reddendi, finem
-                        ponendi, cum cartula ista omnibus modis eam ad partem predicti monasterii
-                        defensandi, qualiter iusta legem melius potueritis, quia in tali ordine hanc
-                        cartulam <persName key="#Notary">Petrum</persName> domni regis <rs
-                            key="#Notary">notarium</rs> scribere rogavi. Actum in loco et <rs
-                            key="#Castle">castello</rs> qui dicitur <placeName key="#Castle"
-                            ref="#http://137.204.128.125/places/132">Vignale</placeName>, <rs
+                        <orgName key="#Churches #Monasteries" ref="#juridical_persons/78">Sancti
+                            Quirici </orgName>que est in loco <placeName ref="#places/86"
+                            key="#Monasteries">Populonio</placeName>, <rs key="#Petiae">petiam</rs>
+                        unam de terra quae videtur esse in loco <placeName key="#Petiae"
+                            ref="#places/134">Livellaria</placeName>, quae continere videtur latus
+                        cum capite in terra suprascripti monasterii, similiter latus cum alio capite
+                        in terra de iamdicto monasterio Sancti Quirici; sicut circumdata esse
+                        videtur ex omni parte trado et offero omnipotenti Deo et ecclesia vel
+                        monasterio Sancti Quirici pro Dei amore et remedio vel salute parentum
+                        meorum ac nostre anime, ut ab odie in antea sit in vestra potestate, silicet
+                        in tua domno <persName key="#Abbots" ref="#people/103">Mauro</persName> [in
+                        Dei nomine] <rs key="#Abbots">abbati</rs> tuisque successoribus, qui in
+                        prefata ecclesia vel monasterio Sancti Quirici pro Dei amore ordinati
+                        fuerint, eam habendi, tenendi, regendi, gubernandi, faciendi exinde quicquid
+                        facere volueritis ad partem et hutilitatem vel salutem suprascripti
+                        [monasterii]; in integrum eam dono, trado vel offero cum inferioribus et
+                        superioribus suis seo cum ascensioribus et ingressoribus suis. Unde
+                        repromitto ego, qui supra Rogerius quondam Bruni, una cum meis heredibus
+                        tibi domno Mauro abbati tuisque successoribus, ut si [in a]liquo tempore
+                        aliquid exinde intentionaverimus aut retolli vel subtrai quesierimus, nos
+                        vel ille homo cui nos eam dedissemus aud dederimus per quodlibet ingenium,
+                        et eam ab omni homine defendere non potuerimus et non defensaverimus, tunc
+                        spondemus nos, qui supra Rogerius, una cum meis heredibus, tibi, qui supra
+                        Mauro abbati, tuisque successoribus componere ad partem predicti monasterii
+                        suprascripta meam offersionem in dupplum inferquidem loco sub estimatione,
+                        qualis tunc fuerit. Quiscumque vero suprascripta meam donationem vel
+                        offersionem tollere aut contendere vel delere voluerit, deleat eum Deus de
+                        libro viventium et sit damnatus cum Pilato et Herode et cum Iuda traditore,
+                        et in die iudicii non resurgat in numero iustorum. Tamen si nos exinde
+                        auctores nec defensores quaerere nec dare volueritis, licentiam abeatis,
+                        absque nostra persona, si vestra fuerit voluntas, exinde causas agendi,
+                        responsum reddendi, finem ponendi, cum cartula ista omnibus modis eam ad
+                        partem predicti monasterii defensandi, qualiter iusta legem melius
+                        potueritis, quia in tali ordine hanc cartulam <persName key="#Notary"
+                            >Petrum</persName> domni regis <rs key="#Notary">notarium</rs> scribere
+                        rogavi. Actum in loco et <rs key="#Castle">castello</rs> qui dicitur
+                            <placeName key="#Castle" ref="#places/132">Vignale</placeName>, <rs
                             key="#Comitatus">territorio</rs>
-                        <geogName key="#Comitatus" ref="#http://137.204.128.125/estates/87"
-                            >Populoniensi</geogName>. Signum manus suprascripti Rogeri quondam
-                        Bruni, qui hanc cartula fieri rogavi. Signa manuum
-                            <persName>Alberti</persName> quondam <persName>Ildibrandi</persName> et
-                            <persName>Gabreti</persName> quondam <persName>Lanfranchi</persName> et
-                            <persName>Widonis</persName> quondam <persName>Iohannis</persName>
-                        testium. Petrus notarius domni regis post tradita complevi et dedi. </ab>
+                        <geogName key="#Comitatus" ref="#estates/87">Populoniensi</geogName>. Signum
+                        manus suprascripti Rogeri quondam Bruni, qui hanc cartula fieri rogavi.
+                        Signa manuum <persName>Alberti</persName> quondam
+                            <persName>Ildibrandi</persName> et <persName>Gabreti</persName> quondam
+                            <persName>Lanfranchi</persName> et <persName>Widonis</persName> quondam
+                            <persName>Iohannis</persName> testium. Petrus notarius domni regis post
+                        tradita complevi et dedi. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">

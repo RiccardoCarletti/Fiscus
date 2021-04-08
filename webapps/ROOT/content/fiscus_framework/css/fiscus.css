@@ -3,6 +3,9 @@
 @namespace xi url('http://www.w3.org/2001/XInclude');
 @namespace url('http://www.tei-c.org/ns/1.0');
 
+/* This framework derives partly from the Oxygen Author form created by the US Epigraphy Project: 
+ https://github.com/Brown-University-Library/usep-data/tree/master/oxygen-author */
+
    oxy|comment {
     display:none !important;
     content: "";
@@ -21,7 +24,15 @@
         border:5px solid rgb(153, 153, 143);
         }
         
-        body listPlace[type="places"]:after {
+        link:after {
+        content: 
+              oxy_editor(
+            type, button,
+            actionID, "delete_link");
+           display:inline;
+    }
+    
+    body listPlace[type="places"]:after {
         content: 
               oxy_editor(
             type, button,
@@ -84,12 +95,14 @@
     
     body listPlace place geo:after {
         content: "Coordinates (Lat, Long): "
-        oxy_htmlContent(
-             content, "<span style='font:11px'>[<a href='https://www.gps-coordinates.net/'>Search</a>]</span>")
-       oxy_browser(
+       /* oxy_htmlContent(
+             content, "<span style='font:11px'>[<a href='https://www.gps-coordinates.net/'>Search</a>]</span>")*/
+              oxy_htmlContent(
+             content, "<span style='font:11px'>[<a href='../resources/map.html'>Open map</a>]</span>")
+       /*oxy_browser(
           href, '../resources/map.html',
           width, 100%,
-          height, 400px)
+          height, 400px)*/
         oxy_editor(
            type, text,
            edit, "#text"
@@ -127,7 +140,7 @@
              editable, false,
              sort, ascending,
              values, oxy_concat("#", oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/places.xml'), '")//listPlace//place/idno, ",#")'))),
-             labels, oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/places.xml'), '")//listPlace//place/placeName[1], ",")' ))
+             labels, oxy_xpath(oxy_concat('normalize-space(string-join(doc("', oxy_url('${framework}/', 'resources/places.xml'), '")//listPlace//place/placeName[1], ","))' ))
              )
              " Link type: "
              oxy_editor(
@@ -148,7 +161,7 @@
              editable, false,
              sort, ascending,
              values, oxy_concat("#", oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/places.xml'), '")//listPlace//place/idno, ",#")'))),
-             labels, oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/places.xml'), '")//listPlace//place/placeName[1], ",")' ))
+             labels, oxy_xpath(oxy_concat('normalize-space(string-join(doc("', oxy_url('${framework}/', 'resources/places.xml'), '")//listPlace//place/placeName[1], ","))' ))
              )
              " Link type: "
              oxy_editor(
@@ -169,7 +182,7 @@
              editable, false,
              sort, ascending,
              values, oxy_concat("#", oxy_xpath(oxy_concat('string-join(//place/idno, ",#")'))),
-             labels, oxy_xpath(oxy_concat('string-join(//place/placeName[1], ",")' ))
+             labels, oxy_xpath(oxy_concat('normalize-space(string-join(//place/placeName[1], ","))' ))
              )
              " Link type: "
              oxy_editor(
@@ -190,7 +203,7 @@
              editable, false,
              sort, ascending,
              values, oxy_concat("#", oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/places.xml'), '")//listPlace//place/idno, ",#")'))),
-             labels, oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/places.xml'), '")//listPlace//place/placeName[1], ",")' ))
+             labels, oxy_xpath(oxy_concat('normalize-space(string-join(doc("', oxy_url('${framework}/', 'resources/places.xml'), '")//listPlace//place/placeName[1], ","))' ))
              )
              " Link type: "
              oxy_editor(
@@ -212,7 +225,7 @@
              editable, false,
              sort, ascending,
              values, oxy_concat("#", oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/people.xml'), '")//listPerson//person/idno, ",#")'))),
-             labels, oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/people.xml'), '")//listPerson//person/persName[1], ",")' ))
+             labels, oxy_xpath(oxy_concat('normalize-space(string-join(doc("', oxy_url('${framework}/', 'resources/people.xml'), '")//listPerson//person/persName[1], ","))' ))
              )
              " Link type: "
              oxy_editor(
@@ -220,7 +233,7 @@
            edit, "@subtype"
            editable, true,
              columns, 25,
-             values, "legallyRecognisedUnionWith, seriousIntimateRelationshipWith, casualIntimateRelationshipWith, intimateRelationshipWith, fatherOf, fatherInLawOf, motherOf, motherInLawOf, parentOf, fosterParentOf, sonOf, sonInLawOf, daughterOf, daughterInLawOf, childOf, grandfatherOf, grandmotherOf, grandparentOf, grandsonOf, granddaughterOf, grandchildOf, greatGrandfatherOf, greatGrandmotherOf, greatGrandparentOf, greatGrandsonOf, greatGranddaughterOf, brotherOf, brotherInLawOf, sisterOf, sisterInLawOf, siblingOf, auntOf, uncleOf, nephewOf, nieceOf, childOfSiblingOf, cousinOf, kinOf, ancestorOf, descendentOf, familyOf, extendedFamilyOf, hereditaryFamilyOf, householdOf, extendedHouseholdOf, patronOf, clientOf, masterOf, formerMasterOf, slaveOf, houseSlaveOf, formerSlaveOf, freedSlaveOf, freedmanOf, freedwomanOf, fellowFreedmanOf, godfatherOf, godmotherOf, godsonOf, goddaughterOf, compaterOf, commaterOf, nutritusOf, nutritorOf, benefactorOf, GratitudeTo, testamentaryLinkWith, legateeOf, heirTo, friendshipFor, allianceWith, enmityFor, dominusOf, seniorOf, vassusOf, gasindiusOf, fidelisOf, milesOf, homoOf, agentFor, professionalRelationship, link");
+             values, oxy_concat("", oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/thesaurus.xml'), '")//taxonomy[@xml:id="thesaurus"]//category[@n="bonds"]//category/catDesc/@n, ",")'))));
            display:block;
            padding-left:20px;
     }
@@ -233,7 +246,7 @@
              editable, false,
              sort, ascending,
              values, oxy_concat("#", oxy_xpath(oxy_concat('string-join(//listPerson//person/idno, ",#")'))),
-             labels, oxy_xpath(oxy_concat('string-join(//listPerson//person/persName[1], ",")' ))
+             labels, oxy_xpath(oxy_concat('normalize-space(string-join(//listPerson//person/persName[1], ","))' ))
              )
              " Link type: "
              oxy_editor(
@@ -241,7 +254,7 @@
            edit, "@subtype"
            editable, true,
              columns, 25,
-             values, "legallyRecognisedUnionWith, seriousIntimateRelationshipWith, casualIntimateRelationshipWith, intimateRelationshipWith, fatherOf, fatherInLawOf, motherOf, motherInLawOf, parentOf, fosterParentOf, sonOf, sonInLawOf, daughterOf, daughterInLawOf, childOf, grandfatherOf, grandmotherOf, grandparentOf, grandsonOf, granddaughterOf, grandchildOf, greatGrandfatherOf, greatGrandmotherOf, greatGrandparentOf, greatGrandsonOf, greatGranddaughterOf, brotherOf, brotherInLawOf, sisterOf, sisterInLawOf, siblingOf, auntOf, uncleOf, nephewOf, nieceOf, childOfSiblingOf, cousinOf, kinOf, ancestorOf, descendentOf, familyOf, extendedFamilyOf, hereditaryFamilyOf, householdOf, extendedHouseholdOf, patronOf, clientOf, masterOf, formerMasterOf, slaveOf, houseSlaveOf, formerSlaveOf, freedSlaveOf, freedmanOf, freedwomanOf, fellowFreedmanOf, godfatherOf, godmotherOf, godsonOf, goddaughterOf, compaterOf, commaterOf, nutritusOf, nutritorOf, benefactorOf, GratitudeTo, testamentaryLinkWith, legateeOf, heirTo, friendshipFor, allianceWith, enmityFor, dominusOf, seniorOf, vassusOf, gasindiusOf, fidelisOf, milesOf, homoOf, agentFor, professionalRelationship, link");
+             values, oxy_concat("", oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/thesaurus.xml'), '")//taxonomy[@xml:id="thesaurus"]//category[@n="bonds"]//category/catDesc/@n, ",")'))));
            display:block;
            padding-left:20px;
     }
@@ -255,7 +268,7 @@
              editable, false,
              sort, ascending,
              values, oxy_concat("#", oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/juridical_persons.xml'), '")//listOrg//org/idno, ",#")'))),
-             labels, oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/juridical_persons.xml'), '")//listOrg//org/orgName[1], ",")' ))
+             labels, oxy_xpath(oxy_concat('normalize-space(string-join(doc("', oxy_url('${framework}/', 'resources/juridical_persons.xml'), '")//listOrg//org/orgName[1], ","))' ))
              )
              " Link type: "
              oxy_editor(
@@ -263,7 +276,7 @@
            edit, "@subtype"
            editable, true,
              columns, 25,
-             values, "legallyRecognisedUnionWith, seriousIntimateRelationshipWith, casualIntimateRelationshipWith, intimateRelationshipWith, fatherOf, fatherInLawOf, motherOf, motherInLawOf, parentOf, fosterParentOf, sonOf, sonInLawOf, daughterOf, daughterInLawOf, childOf, grandfatherOf, grandmotherOf, grandparentOf, grandsonOf, granddaughterOf, grandchildOf, greatGrandfatherOf, greatGrandmotherOf, greatGrandparentOf, greatGrandsonOf, greatGranddaughterOf, brotherOf, brotherInLawOf, sisterOf, sisterInLawOf, siblingOf, auntOf, uncleOf, nephewOf, nieceOf, childOfSiblingOf, cousinOf, kinOf, ancestorOf, descendentOf, familyOf, extendedFamilyOf, hereditaryFamilyOf, householdOf, extendedHouseholdOf, patronOf, clientOf, masterOf, formerMasterOf, slaveOf, houseSlaveOf, formerSlaveOf, freedSlaveOf, freedmanOf, freedwomanOf, fellowFreedmanOf, godfatherOf, godmotherOf, godsonOf, goddaughterOf, compaterOf, commaterOf, nutritusOf, nutritorOf, benefactorOf, GratitudeTo, testamentaryLinkWith, legateeOf, heirTo, friendshipFor, allianceWith, enmityFor, dominusOf, seniorOf, vassusOf, gasindiusOf, fidelisOf, milesOf, homoOf, agentFor, professionalRelationship, link");
+             values, oxy_concat("", oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/thesaurus.xml'), '")//taxonomy[@xml:id="thesaurus"]//category[@n="bonds"]//category/catDesc/@n, ",")'))));
            display:block;
            padding-left:20px;
     }
@@ -276,15 +289,15 @@
              editable, false,
              sort, ascending,
              values, oxy_concat("#", oxy_xpath(oxy_concat('string-join(//listOrg//org/idno, ",#")'))),
-             labels, oxy_xpath(oxy_concat('string-join(//listOrg//org/orgName[1], ",")' ))
+             labels, oxy_xpath(oxy_concat('normalize-space(string-join(//listOrg//org/orgName[1], ","))' ))
              )
              " Link type: "
              oxy_editor(
            type, combo,
-           edit, "@subtype"
+           edit, "@subtype",
            editable, true,
              columns, 25,
-             values, "legallyRecognisedUnionWith, seriousIntimateRelationshipWith, casualIntimateRelationshipWith, intimateRelationshipWith, fatherOf, fatherInLawOf, motherOf, motherInLawOf, parentOf, fosterParentOf, sonOf, sonInLawOf, daughterOf, daughterInLawOf, childOf, grandfatherOf, grandmotherOf, grandparentOf, grandsonOf, granddaughterOf, grandchildOf, greatGrandfatherOf, greatGrandmotherOf, greatGrandparentOf, greatGrandsonOf, greatGranddaughterOf, brotherOf, brotherInLawOf, sisterOf, sisterInLawOf, siblingOf, auntOf, uncleOf, nephewOf, nieceOf, childOfSiblingOf, cousinOf, kinOf, ancestorOf, descendentOf, familyOf, extendedFamilyOf, hereditaryFamilyOf, householdOf, extendedHouseholdOf, patronOf, clientOf, masterOf, formerMasterOf, slaveOf, houseSlaveOf, formerSlaveOf, freedSlaveOf, freedmanOf, freedwomanOf, fellowFreedmanOf, godfatherOf, godmotherOf, godsonOf, goddaughterOf, compaterOf, commaterOf, nutritusOf, nutritorOf, benefactorOf, GratitudeTo, testamentaryLinkWith, legateeOf, heirTo, friendshipFor, allianceWith, enmityFor, dominusOf, seniorOf, vassusOf, gasindiusOf, fidelisOf, milesOf, homoOf, agentFor, professionalRelationship, link");
+             values, oxy_concat("", oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/thesaurus.xml'), '")//taxonomy[@xml:id="thesaurus"]//category[@n="bonds"]//category/catDesc/@n, ",")'))));
            display:block;
            padding-left:20px;
     }
@@ -298,7 +311,7 @@
              editable, false,
              sort, ascending,
              values, oxy_concat("#", oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/estates.xml'), '")//listPlace//place/idno, ",#")'))),
-             labels, oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/estates.xml'), '")//listPlace//place/geogName[1], ",")' ))
+             labels, oxy_xpath(oxy_concat('normalize-space(string-join(doc("', oxy_url('${framework}/', 'resources/estates.xml'), '")//listPlace//place/geogName[1], ","))' ))
              )
              " Link type: "
              oxy_editor(
@@ -319,7 +332,7 @@
              editable, false,
              sort, ascending,
              values, oxy_concat("#", oxy_xpath(oxy_concat('string-join(//place/idno, ",#")'))),
-             labels, oxy_xpath(oxy_concat('string-join(//place/geogName[1], ",")' ))
+             labels, oxy_xpath(oxy_concat('normalize-space(string-join(//place/geogName[1], ","))' ))
              )
              " Link type: "
              oxy_editor(
@@ -347,7 +360,10 @@
             actionID, "add_juridical_person_link")
               oxy_editor(
             type, button,
-            actionID, "add_estate_link");
+            actionID, "add_estate_link")
+            oxy_editor(
+            type, button,
+            actionID, "delete_item");
            display:block;
            padding-left:20px;
     }
@@ -380,14 +396,14 @@
     margin:10px 20px 15px 20px;
    }
 
-   TEI:before {
+/*   TEI:before {
         content: "Document number: " 
         oxy_editor(
            type, text,
            edit, "@xml:id"
            columns, 40);
         display:block;
-   }
+   }*/
     
     foreign, div title, history title, note title, body listPlace title, body listPerson title, body listOrg title {
         display:inline;
@@ -418,8 +434,8 @@
         visibility: -oxy-collapse-text;
     }
 
-    idno[type=uri]:before { 
-       content: "URI: "
+    publicationStmt idno:before { 
+       content: "Document number: "
         oxy_editor(
            type, text,
            edit, "#text"
@@ -432,12 +448,14 @@
     }       
     
     summary rs[type=text_type] {
-        content: "Document type: "
+        content: "Document type: "             
         oxy_editor(
            type, combo,
              edit, "#text",
              editable, true,
              columns, 25,
+             /*values, oxy_concat("", oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/thesaurus.xml'), '")//taxonomy[@xml:id="thesaurus"]//category[@n="type_of_document"]//category/catDesc/@n, ",")'))),
+              labels, oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/thesaurus.xml'), '")//taxonomy[@xml:id="thesaurus"]//category[@n="type_of_document"]//category/catDesc, ",")' )));*/
               values, "Archaeological sources, Parchment documents, -Diploma, --Imperial/royal diploma, --Marquis’/ducal/princely diploma, --Episcopal diploma, -Placitum/iudicatum, -Cartula, --Venditio, --Commutatio, --Libellus/precaria/emphyteusis, --Offersio/donatio, --Promissio, --Ordinatio, --Testamentum/iudicatum, --Morgengabe, -Breve, --List/inventory, --Judicial breve, --Transactional breve, -Catalogus, -Littera/mandatum, -Papal concession, Epigraphic documents, Papyrological documents, -Papal concession (papyrus), -Breve (papyrus), Literary sources, -Author, Juridical sources, -Lex, -Capitulum");
            display:block;
     }
@@ -587,7 +605,7 @@ ab placeName:before {
              editable, false,
              sort, ascending,
              values, oxy_concat("#", oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/places.xml'), '")//listPlace//place/idno, ",#")'))),
-             labels, oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/places.xml'), '")//listPlace//place/placeName[1], ",")' ))
+             labels, oxy_xpath(oxy_concat('normalize-space(string-join(doc("', oxy_url('${framework}/', 'resources/places.xml'), '")//listPlace//place/placeName[1], ","))' ))
              );
         display:inline;
     }
@@ -608,7 +626,7 @@ ab placeName:before {
              editable, false,
              sort, ascending,
              values, oxy_concat("#", oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/people.xml'), '")//listPerson//person/idno, ",#")'))),
-             labels, oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/people.xml'), '")//listPerson//person/persName[1], ",")' ))
+             labels, oxy_xpath(oxy_concat('normalize-space(string-join(doc("', oxy_url('${framework}/', 'resources/people.xml'), '")//listPerson//person/persName[1], ","))' ))
              );
         display:inline;
     }
@@ -629,7 +647,7 @@ ab placeName:before {
              editable, false,
              sort, ascending,
              values, oxy_concat("#", oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/estates.xml'), '")//listPlace//place/idno, ",#")'))),
-             labels, oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/estates.xml'), '")//listPlace//place/geogName[1], ",")' ))
+             labels, oxy_xpath(oxy_concat('normalize-space(string-join(doc("', oxy_url('${framework}/', 'resources/estates.xml'), '")//listPlace//place/geogName[1], ","))' ))
              );
         display:inline;
     }  
@@ -650,7 +668,7 @@ ab placeName:before {
              editable, false,
              sort, ascending,
              values, oxy_concat("#", oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/juridical_persons.xml'), '")//listOrg//org/idno, ",#")'))),
-             labels, oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/juridical_persons.xml'), '")//listOrg//org/orgName[1], ",")' ))
+             labels, oxy_xpath(oxy_concat('normalize-space(string-join(doc("', oxy_url('${framework}/', 'resources/juridical_persons.xml'), '")//listOrg//org/orgName[1], ","))' ))
              );
         display:inline;
     }  
@@ -801,37 +819,6 @@ ab placeName:before {
     
     
     /* **************** Not used elements **************** */
-
-       /*provenance:before {
-       content: "Subsequent Provenance Information\AType: "
-       oxy_editor(
-             type, combo,
-             edit, "@type"
-             columns, 25,
-             editable, false,
-             values, "found, observed, not-observed, transferred")
-           "\ASubtype: "
-           oxy_editor(
-             type, combo,
-             edit, "@type"
-             columns, 25,
-             editable, false,
-             values, "--If 'found', discovered, rediscovered, first-recorded, --If 'observed', seen, recorded, reported, --If 'transferred', moved, sold, given, loaned, purchased, acquired, donated, ")
-           oxy_editor(
-             type, text,
-             edit, "#text"
-             columns, 25);
-           display: block;
-           visibility: -oxy-collapse-text;
-       }
-   
-       provenance location placeName {
-        border:1px solid rgb(153, 153, 143);
-        margin:10px 20px 15px 20px;
-        display:block;
-        -oxy-placeholder-content: 'Provenance information here. Tag persons, places and dates.';
-    }*/
-    
     support p, support {
         visibility: -oxy-collapse-text;
         display: block;
@@ -913,8 +900,6 @@ ab placeName:before {
             type, button,
             actionID, "insert_image");
     }
-
-    /*  Text Boxes */
 
  lb {
  content: " \A ";

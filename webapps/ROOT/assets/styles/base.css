@@ -30,13 +30,46 @@ div.list_item {
 .map {
     width: 100%;
     height: 600px;
-    margin-bottom: 5em;
     margin-top: 4em;
+}
+
+.map_jp {
+    width: 100%;
+    height: 400px;
+    margin-top: 0;
+}
+
+.legend {
+    margin-top: 0;
+    margin-bottom: 5em;
+}
+
+.legend p {
+    text-align: center;
+    font-size: 12px;
+    border: solid lightgray 1px;
+}
+
+.legend p img {
+}
+
+#mynetwork {
+    width: 100%; 
+    height: 500px; 
+    border: 1px solid lightgray;
+    background-color: white;
+}
+
+.mapicon {
+    height: 17px;
+    margin: 5px;
 }
 
 .item_name {
     font-weight: bold;
-    color: #168059;
+    color: #3A2A4C;
+    font-size: 20px;
+    padding-bottom: 0;
 }
 
 .linked_item {
@@ -45,10 +78,57 @@ margin-bottom:0;
 margin-left:20px;
 }
 
+.button, .button:hover {
+    background-color: #f6f6f6;
+    border-style: none;
+    padding: 8px 8px 6px 8px;
+    color: black;
+}
+
+#inputSearch, #mapSearch {
+    width:300px;
+    display: inline;
+}
+
+
+/*autocomplete*/
+.autocomplete {
+  width:300px;
+  position: relative;
+  display: inline-block;
+}
+.autocomplete-items {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  border-bottom: none;
+  border-top: none;
+  z-index: 99;
+  top: 100%;
+  left: 0;
+  right: 0;
+}
+.autocomplete-items div {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #fff; 
+  border-bottom: 1px solid #d4d4d4; 
+}
+.autocomplete-items div:hover {
+  background-color: #e9e9e9; 
+}
+.autocomplete-active {
+  background-color: DodgerBlue !important; 
+  color: #ffffff; 
+}
+
+
+
+
+
 nav.top-bar,
 nav.top-bar ul.right li,
 nav.top-bar ul.left * {
-    background-color: #168059;
+    background-color: #3A2A4C;
     font-size: 14px;
     font-weight: 400;
 }
@@ -63,21 +143,29 @@ nav.top-bar ul.left * {
 }
 
 #site-name {
-    background-color: #168059;
-    padding: 50px 0 40px 0;
+    background-color: #3A2A4C;
+    padding: 45px 0 20px 0;
     margin: -12px 0 -10px 0;
-    color: white;
-    font-family: Helvetica, serif;
+    color: #A96D2D;
+    font-family: Quicksand, Helvetica, serif;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 48px;
+}
+/*#home-text {
+    background: url(../images/favicon.png) center no-repeat;
+}*/
+#site-image {
+    height: 100px;
+    margin-left:20px;
+    margin-bottom:10px;
 }
 
 a, a:link, a:visited, a:focus, a:hover, a:active {
-    color: #207C97;
+    color: #005471;
 }
 
 h1 {
-    color: #168059;
+    color: #3A2A4C;
     font-size: 36px;
 }
 
@@ -92,14 +180,22 @@ div#edition {
 }
 
 b {
-    color: #168059;
+    color: #3A2A4C;
 }
 
 #team_members strong {
     font-variant: small-caps;
     font-size: 22px;
     font-weight: 400;
-    color: #168059;
+    color: #3A2A4C;
+}
+
+#logo {
+    padding-bottom: 1em;
+}
+
+#fiscal_estate {
+    font-size: 28px;
 }
 
 p {
@@ -108,31 +204,46 @@ p {
 }
 
 /* Tagged terms in the text */
+.hidden {
+    display:none;
+}
+
 ._rs {
+    display: inline !important;
     border-style: dashed !important;
     border-color: black !important;
     border-width: thin !important;
-    padding: 4px 2px 1px 2px;
+    padding: 4px 1px 1px 1px;
 }
 ._persName {
+    display: inline !important;
     background-color: #ffffcc !important;
     padding: 4px 0px 1px 0px;
 }
 ._orgName {
+    display: inline !important;
     background-color: #ffe6e6 !important;
     padding: 4px 0px 1px 0px;
 }
 ._geogName {
+    display: inline !important;
     background-color: #ccffcc !important;
     padding: 4px 0px 1px 0px;
 }
 ._placeName {
+    display: inline !important;
     background-color: #e6e6ff !important;
     padding: 4px 0px 1px 0px;
 }
 ._date {
+    display: inline !important;
     background-color: #ffccff !important;
     padding: 4px 0px 1px 0px;
+}
+
+._links {
+    display: inline !important;
+    color: #005471 !important;
 }
 
 #toggle_buttons button {
@@ -141,43 +252,8 @@ p {
     color: black;
 }
 
-#toggle_rs {
+#toggle_rs, #toggle_persName, #toggle_orgName, #toggle_geogName, #toggle_placeName, #toggle_date, #toggle_links {
     background-color: #f6f6f6;
-    border-style: none;
-    padding: 8px 8px 6px 8px;
-    /*background-color: white;
-    border-style: dashed;
-    border-color: black;
-    border-width: thin;
-    padding: 6px 6px 4px 6px;*/
-}
-#toggle_persName {
-    background-color: #f6f6f6;
-    /*background-color: #ffffcc;*/
-    border-style: none;
-    padding: 8px 8px 6px 8px;
-}
-#toggle_orgName {
-    background-color: #f6f6f6;
-    /*background-color: #ffe6e6;*/
-    border-style: none;
-    padding: 8px 8px 6px 8px;
-}
-#toggle_geogName {
-    background-color: #f6f6f6;
-    /*background-color: #ccffcc;*/
-    border-style: none;
-    padding: 8px 8px 6px 8px;
-}
-#toggle_placeName {
-    background-color: #f6f6f6;
-    /*background-color: #e6e6ff;*/
-    border-style: none;
-    padding: 8px 8px 6px 8px;
-}
-#toggle_date {
-    background-color: #f6f6f6;
-    /*background-color: #ffccff;*/
     border-style: none;
     padding: 8px 8px 6px 8px;
 }
@@ -211,6 +287,13 @@ p {
 }
 
 /*Fonts*/
+@font-face {
+    font-family: "Quicksand";
+    src: url('fonts/quicksand.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 @font-face {
     font-family: "New Athena Unicode";
     src: url('fonts/nau.woff') format('woff');

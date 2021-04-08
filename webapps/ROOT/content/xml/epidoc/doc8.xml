@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc8">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
@@ -13,7 +13,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
-                <idno type="uri">http://137.204.128.125/documents/doc8</idno>
+                <idno type="filename">doc8</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -30,10 +30,10 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="https://ausohnum.huma-num.fr/concept/c25672">Commutatio</rs>
+                            <rs type="text_type" ref="#">Commutatio</rs>
                             <rs type="record_source" ref="#">Original document</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property">Uncertain</rs>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -60,10 +60,10 @@
                    <place></place>
                 </listPlace>
             <listPerson>
-    <person corresp="http://137.204.128.125/people/23">
+    <person corresp="people/23">
             <persName xml:lang="en">Bonifacio</persName>
         </person>
-    <person corresp="http://137.204.128.125/people/22">
+    <person corresp="people/22">
             <persName xml:lang="en">Ingelberto</persName>
         </person>
     </listPerson>
@@ -88,11 +88,11 @@
             <div type="edition">
                 <div type="textpart">
                     <ab>In nomine Domini. Temporibus domni <persName key="#Popes"
-                            ref="#http://137.204.128.125/people/87">Leoni</persName>
+                            ref="#people/87">Leoni</persName>
                         <rs key="#Popes">apostolici</rs>, pontificatus eius in Dei nomini anno
                         primo, | regnate domno <persName key="#Emperor/king"
-                            ref="#http://137.204.128.125/people/79">Ugone</persName> et domno
-                            <persName key="#Emperor/king" ref="#http://137.204.128.125/people/72"
+                            ref="#people/79">Ugone</persName> et domno
+                            <persName key="#Emperor/king" ref="#people/72"
                             >Lothario</persName> filio eius magnis <rs key="#Emperor/king"
                             >regibus</rs>
                         <date>anno domni | Ugoni decimo et domni Lothari VI, die septimo mensis
@@ -100,29 +100,29 @@
                         <placeName key="#Vici">Lucoleta</placeName> infra <rs
                             key="#Plebs #Baptismal_churches">plebem</rs>
                         <orgName key="#Plebs #Baptismal_churches"
-                            ref="#http://137.204.128.125/juridical_persons/74">Sancti
+                            ref="#juridical_persons/74">Sancti
                             Iohannis</orgName> in <placeName key="#Vici #Plebs #Baptismal_churches"
-                            ref="#http://137.204.128.125/places/27">Persecita</placeName>, <rs
+                            ref="#places/27">Persecita</placeName>, <rs
                             key="#City_territory">territorio</rs>
-                        <placeName key="#City_territory" ref="#http://137.204.128.125/places/38"
+                        <placeName key="#City_territory" ref="#places/38"
                             >Motinense</placeName> vel <placeName key="#City_territory #Plebs"
-                            ref="#http://137.204.128.125/places/7">Bononiense</placeName>. <rs
+                            ref="#places/7">Bononiense</placeName>. <rs
                             key="#Commutatio">Commutant</rs> inter se | presenti die domnus
-                            <persName key="#count" ref="#http://137.204.128.125/people/23"
+                            <persName key="#count" ref="#people/23"
                             >Bonefatius</persName>
                         <rs key="#count">comes</rs> filius bone memorie dom(ni) <persName
-                            ref="#http://137.204.128.125/people/24" key="#Count">Ubaldi</persName>
+                            ref="#people/24" key="#Count">Ubaldi</persName>
                         comitis, dans ipse suprascriptus do(m)nu(s) | Bonefatius comes de iure suo
-                        in iure domni <persName ref="#http://137.204.128.125/people/22"
+                        in iure domni <persName ref="#people/22"
                             key="#Abbots">Ingelberti</persName> venerabilis <rs key="#Abbots"
                             >abbatis</rs>
-                        <orgName ref="#http://137.204.128.125/juridical_persons/47"
+                        <orgName ref="#juridical_persons/47"
                             key="#Curtes #Fundi #Monasteries">monasterii <placeName
-                                ref="#http://137.204.128.125/places/15" key="#Monasteries"
+                                ref="#places/15" key="#Monasteries"
                                 >Nonantule</placeName></orgName> territorio Moti|(ne)nsi eiusque
                         successoribus in perpetuis temporibus possidendum. Idest in <rs key="#Fundi"
                             >fundo</rs>
-                        <placeName key="#Fundi" ref="#http://137.204.128.125/places/71"
+                        <placeName key="#Fundi" ref="#places/71"
                             >Gaiolo</placeName> omnibus rebus et casis qu(e) | fuerunt recte et
                         laborate per <persName>Geminiano Paulicio</persName> et modo fiunt laborate
                         per <persName>Iohanne Presurio</persName> et detinet | de ipsis rebus per
@@ -132,25 +132,25 @@
                         <rs key="#Other_minor_officer">dec(ani)</rs>, et sunt ipse res ad ratione |
                         facta int(er) <rs key="#Petiae">terra</rs> aratoria et vineata et terra cum
                         frascario iuge L et VI. Item in fundo<placeName key="#Fundi"
-                            ref="#http://137.204.128.125/places/72">Viniole</placeName> | omnibus
+                            ref="#places/72">Viniole</placeName> | omnibus
                         rebus et casis et vineis, terris cum omni sua pertinentia int(er) terra
                         aratoria et frascario et vineata | ad ratione facta sunt iuges XVI et fiunt
                         laborate ipse res per <persName>Samuhelem</persName> et
                             <persName>Iohannem</persName> et <persName>Petrum</persName>; | simulque
-                        in fundo <placeName key="#Fundi" ref="#http://137.204.128.125/places/73"
+                        in fundo <placeName key="#Fundi" ref="#places/73"
                             >Riolo</placeName> omnibus rebus et casis, terris, vineis, c[u]m omni
                         sua pertinentia in integrum, quod est int(er) terra | de
                             <persName>Hismahel</persName> et alia terra cum silva et frascario,
                         iuges XVII et habet ibi massaricia una que | fuit recta et laborata per
                             <persName>Andream Glutto</persName> que habet int(er) terra aratoria et
                         vineata et silva|ta iuges XVIII. Et sunt de ipsis rebus in <placeName
-                            key="#Fundi" ref="#http://137.204.128.125/places/74">Arcuado</placeName>
+                            key="#Fundi" ref="#places/74">Arcuado</placeName>
                         iuges IIIIor. E(t) est de suprascripis rebus in fundo | <placeName
                             key="#Fundi #Casae/cassinae_massaricie">Rusti</placeName>, <rs
                             key="#Casae/cassinae_massaricie">massaricia</rs> I, insimul cum terra
                         aratoria et frascario et vineata ad ratione facta | iuges XXVI in
                         suprascripto fundo. Item in fundo <placeName key="#Fundi"
-                            ref="#http://137.204.128.125/places/75">Gavili</placeName> super totas
+                            ref="#places/75">Gavili</placeName> super totas
                         omnes res meas et pertinen|tias que ad nomen meum pertinent in suprascripto
                         fundo aut in circumiacentiis fundi[s] et modo | detinent per <rs
                             key="#Libellus/precaria/emphyteusis">enfiteusin</rs>
@@ -162,15 +162,15 @@
                             key="#Priests">Martinus</persName>
                         <rs key="#Priests">presbiter</rs> et <persName>Leo</persName> et reliqui. Et
                         in <placeName key="#Casae/cassinae_massaricie"
-                            ref="#http://137.204.128.125/places/76">Gebolini</placeName>
+                            ref="#places/76">Gebolini</placeName>
                         massariciola | una que est iuges III. Itemque <placeName
                             key="#Petiae #Fiscal_property #Object"
-                            ref="#http://137.204.128.125/places/27">terra que dicitur
+                            ref="#places/27">terra que dicitur
                             Regia</placeName>
                         <rs key="#Fiscal_property #Object">in fundo </rs><placeName key="#Fundi"
-                            ref="#http://137.204.128.125/places/27">Persecetano</placeName> per
+                            ref="#places/27">Persecetano</placeName> per
                         singulas petiolas | mihi pertinente ad ratione facta iuges XXX. Item in
-                        fundo <placeName key="#Fundi" ref="#http://137.204.128.125/places/82"
+                        fundo <placeName key="#Fundi" ref="#places/82"
                             >Corticelle</placeName>, terra aratoria | cum frascario quanta ibi
                         habemus omnia in integrum, quod est ad ratione facta iuges LXXV. | Et est
                         ipsa res super totum insimul per singula loca et fundoras sicut superius
@@ -180,19 +180,19 @@
                         qu[e] | habere visus est trans <rs key="#Rivers">fluvium Padum</rs> in locis
                         et fundis seu casalibus que dicitur <placeName key="#Fundi #Casali"
                             >Fabrica</placeName> et <placeName key="#Fundi #Casali"
-                            ref="#http://137.204.128.125/places/78">Badr[i]|niana</placeName> et in
-                        pago <placeName key="#Pagus" ref="#http://137.204.128.125/places/77"
+                            ref="#places/78">Badr[i]|niana</placeName> et in
+                        pago <placeName key="#Pagus" ref="#places/77"
                             >Figariole</placeName> seu in plebe de <placeName
                             key="#Curtes #Plebs #Baptismal_churches"
-                            ref="#http://137.204.128.125/places/79"><orgName
+                            ref="#places/79"><orgName
                                 key="#Plebs #Baptismal_churches"
-                                ref="#http://137.204.128.125/juridical_persons/76">Septi
+                                ref="#juridical_persons/76">Septi
                                 Policino</orgName></placeName> omnia in integrum quicquid invenire
                         potueri|tis in ipsis suprascriptis casalibus vel fundoras cum <rs
                             key="#Curtes">curte mea que dicitur <geogName key="#Curtes"
-                                ref="#http://137.204.128.125/estates/81">Septi
+                                ref="#estates/81">Septi
                             Policino</geogName></rs> in <rs key="#Comitatus">comitatu</rs>
-                        <geogName key="#Comitatus" ref="#http://137.204.128.125/estates/84"
+                        <geogName key="#Comitatus" ref="#estates/84"
                             >Ferariense</geogName>, cum omnia pertinentia que superius leguntur, que
                         pertinet ad ipsam curtem cum omnia super se et infra se habente sicut
                         superius legitur in integrum, cum terris, casis, edificiis, cispidibus,
@@ -212,11 +212,11 @@
                         monasteri Non[antule] | de iure ecclesie in iure domni Bonefatii bone
                         memorie comitis eiusque heredibus in perpet[uis tem]|poribus possidendum
                         curtem unam que vocatur <geogName key="#Curtes #Wine #Oil #Chestnuts"
-                            ref="#http://137.204.128.125/estates/82">Funziano</geogName> in comitatu
-                            <geogName key="#Comitatus" ref="#http://137.204.128.125/estates/83"
+                            ref="#estates/82">Funziano</geogName> in comitatu
+                            <geogName key="#Comitatus" ref="#estates/83"
                             >Florentino</geogName> [in lo]|co qui vocatur <placeName
                             key="#Curtes #Wine #Oil #Chestnuts"
-                            ref="#http://137.204.128.125/places/81">Maceline qui et
+                            ref="#places/81">Maceline qui et
                             Funziano</placeName> vocatus cum omnibus rebus et pertinentiis su[is] |
                         ad ipsam curtem pertinentibus una cum casis et rebus illis que sunt posite
                         in loco qui dicitur <placeName>Sebe[..2..]no</placeName> et in loco que

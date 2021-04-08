@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc1430">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
@@ -15,7 +15,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
-                <idno type="uri">http://137.204.128.125/documents/doc1430</idno>
+                <idno type="filename">doc1430</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -91,51 +91,47 @@
                             <persName>Ugonis</persName> quondam <persName>Binie</persName> quia per
                         hanc cartula offersionis offero tibi omnipotenti Deo et <rs key="#Churches"
                             >ecclesie</rs> et <rs key="#Monasteries">monasterio</rs>
-                        <orgName key="#Churches #Monasteries"
-                            ref="#http://137.204.128.125/juridical_persons/78">Sancti
-                            Quirici</orgName>, sito <placeName
-                            ref="#http://137.204.128.125/places/86">Populonio</placeName> pro salute
-                        et remedium anime mee et parentorum meorum dono, concedo, offero in predicta
-                        ecclesia et monasterio Sancti Quirici <rs key="#Landed_possessions"
-                            >terra</rs> mea illa quae est in <placeName key="#Landed_possessions"
-                            ref="#http://137.204.128.125/places/95"><geogName
-                                ref="#http://137.204.128.125/estates/86"
-                            >Cornino</geogName></placeName>, in loco <placeName
-                            key="#Landed_possessions" ref="#http://137.204.128.125/places/133"
-                            >Casalappi</placeName>, quae recta est per <persName>Pincum</persName>
-                        massarium, sicut per designata per terminos et confines esse ostenditur, ita
-                        in integrum suprascripta terra in tua domno <rs key="#Abbots">abbati</rs>
-                        nomine <persName key="#Abbots" ref="#http://137.204.128.125/people/103"
-                            >Mauro</persName> tuisque confratribus ad onorem Dei et sancti Quirici
-                        sit potestate eam habendi, tenendi, regendi, gubernandi et faciendi exinde
-                        quicquid facere volueritis ad honorem Dei et prefati monasterii sancti
-                        Quirici. Ita in vestra domno, qui supra abbati Mauro, vestrisque
-                        successoribus et confratribus sit potestate in integrum cum inferioribus et
-                        superioribus suis seu cum ascensionibus et ingressoribus suis. Et si ego qui
-                        supra Godimari, qui Paruta vocatur, in aliquo tempore aliquid exinde
-                        intentionaverimus aut retolli vel subtrai quaesierimus nos vel ille homo cui
-                        nos eam dedissemus aut dederimus per quodlibet ingenium et ab omni homine
-                        defendere non potuerimus et non defensaverimus, tunc spondemus nos Paruta
-                        una cum meis heredibus componere ad honorem Dei et predicti monasterii
-                        suprascripta mea offersionem in dupplum in consimili loco qualis tunc
-                        fuerit. Quisquis ergo suprascripta offersione vel donatione, quam in prefato
-                        monasterio dedi, eam tollere de predicto monasterio aut contendere vel
-                        delere voluerit, sit maledictus sicut Dathan et Abiron, quos terra
-                        deglutivit et damnatus cum Pilato et Herode et cum Iuda traditore et
-                        dimersum in profundum abyssi et in die iudicii non resurgat in numero
-                        iustorum. Tamen si exinde auctores nec defensores querere nec dare
-                        volueritis, licentiam habeatis absque nostra persona, si vestra fuerit
-                        voluntas, exinde causam agendi, responsum reddendi, finem ponendi, modis
-                        omnibus vobis eam defensandi cum cartula ista, qualiter iusta legem melius
-                        potueritis, quia in tali ordine hanc cartulam <persName key="#Notary"
+                        <orgName key="#Churches #Monasteries" ref="#juridical_persons/78">Sancti
+                            Quirici</orgName>, sito <placeName ref="#places/86" key="#Monasteries"
+                            >Populonio</placeName> pro salute et remedium anime mee et parentorum
+                        meorum dono, concedo, offero in predicta ecclesia et monasterio Sancti
+                        Quirici <rs key="#Landed_possessions">terra</rs> mea illa quae est in
+                            <placeName key="#Landed_possessions" ref="#places/91"><geogName
+                                ref="#estates/86">Cornino</geogName></placeName>, in loco <placeName
+                            key="#Landed_possessions" ref="#places/133">Casalappi</placeName>, quae
+                        recta est per <persName>Pincum</persName> massarium, sicut per designata per
+                        terminos et confines esse ostenditur, ita in integrum suprascripta terra in
+                        tua domno <rs key="#Abbots">abbati</rs> nomine <persName key="#Abbots"
+                            ref="#people/103">Mauro</persName> tuisque confratribus ad onorem Dei et
+                        sancti Quirici sit potestate eam habendi, tenendi, regendi, gubernandi et
+                        faciendi exinde quicquid facere volueritis ad honorem Dei et prefati
+                        monasterii sancti Quirici. Ita in vestra domno, qui supra abbati Mauro,
+                        vestrisque successoribus et confratribus sit potestate in integrum cum
+                        inferioribus et superioribus suis seu cum ascensionibus et ingressoribus
+                        suis. Et si ego qui supra Godimari, qui Paruta vocatur, in aliquo tempore
+                        aliquid exinde intentionaverimus aut retolli vel subtrai quaesierimus nos
+                        vel ille homo cui nos eam dedissemus aut dederimus per quodlibet ingenium et
+                        ab omni homine defendere non potuerimus et non defensaverimus, tunc
+                        spondemus nos Paruta una cum meis heredibus componere ad honorem Dei et
+                        predicti monasterii suprascripta mea offersionem in dupplum in consimili
+                        loco qualis tunc fuerit. Quisquis ergo suprascripta offersione vel
+                        donatione, quam in prefato monasterio dedi, eam tollere de predicto
+                        monasterio aut contendere vel delere voluerit, sit maledictus sicut Dathan
+                        et Abiron, quos terra deglutivit et damnatus cum Pilato et Herode et cum
+                        Iuda traditore et dimersum in profundum abyssi et in die iudicii non
+                        resurgat in numero iustorum. Tamen si exinde auctores nec defensores querere
+                        nec dare volueritis, licentiam habeatis absque nostra persona, si vestra
+                        fuerit voluntas, exinde causam agendi, responsum reddendi, finem ponendi,
+                        modis omnibus vobis eam defensandi cum cartula ista, qualiter iusta legem
+                        melius potueritis, quia in tali ordine hanc cartulam <persName key="#Notary"
                             >Petrum</persName> domni regis <rs key="#Notary">notarium</rs> scribere
-                        rogavi. Actum in loco <placeName ref="#http://137.204.128.125/places/86"
-                            >Populonio</placeName>. Signum manus suprascripti Godimari, qui Paruta
-                        vocatur, qui hanc cartula offersionis fieri rogavit. Signa manuum
-                            <persName>Rodulfi</persName> quondam <persName>Ugonis</persName> et
-                            <persName>Rugerius</persName> quondam <persName>Gerardi</persName> et
-                            <persName>Uberti</persName> quondam <persName>Regis</persName> vocati
-                        testes. Petrus domni inperatoris notarius post tradita complevi et dedi. </ab>
+                        rogavi. Actum in loco <placeName ref="#places/86">Populonio</placeName>.
+                        Signum manus suprascripti Godimari, qui Paruta vocatur, qui hanc cartula
+                        offersionis fieri rogavit. Signa manuum <persName>Rodulfi</persName> quondam
+                            <persName>Ugonis</persName> et <persName>Rugerius</persName> quondam
+                            <persName>Gerardi</persName> et <persName>Uberti</persName> quondam
+                            <persName>Regis</persName> vocati testes. Petrus domni inperatoris
+                        notarius post tradita complevi et dedi. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">

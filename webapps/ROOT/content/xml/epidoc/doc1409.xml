@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc1409">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
@@ -15,7 +15,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
-                <idno type="uri">http://137.204.128.125/documents/doc1409</idno>
+                <idno type="filename">doc1409</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -46,7 +46,7 @@
                             <origDate when="1048-06-28">
                                 <note type="displayed_date">1048 June 28</note>
                                 <note type="dating_elements">La carta è datata secondo lo stile
-                                    pisano dell'incarnazione</note>
+                                    pisano dell'incarnazione.</note>
                                 <note type="topical_date">Pisa</note>
                             </origDate>
                             <origPlace/>
@@ -94,13 +94,13 @@
                         atque <persName>Cennamello</persName> filius bone memorie
                             <persName>Rodillandi</persName>, idest una <rs key="#Petiae">petia de
                             terra</rs> mea illa quam abeo in loco et finibus <placeName
-                            ref="#http://137.204.128.125/places/91"
-                            key="#Petiae #Fiscal_property #Mention #Count">Cornino</placeName>, ubi
-                        dicitur <placeName ref="#http://137.204.128.125/places/130"
+                            ref="#places/91" key="#Petiae #Fiscal_property #Mention #Count"
+                            >Cornino</placeName>, ubi dicitur <placeName ref="#places/130"
                             key="#Landed_possessions #Fiscal_property #Mention #Count">Piscina
                             Liufredi</placeName>, quas ipsa petia de terra est tenentes uno capo in
-                        silice et alio capo in <placeName>terra Fralminga</placeName>, lato uno
-                        tenet in <placeName
+                        silice et alio capo in <rs
+                            key="#Landed_possessions #Consortes/shared_possessions">terra
+                            Fralminga</rs>, lato uno tenet in <placeName
                             key="#Landed_possessions #Fiscal_property #Mention #Count"><geogName
                                 key="#Landed_possessions #Fiscal_property #Mention #Count"
                                 >Bormani</geogName></placeName>, terra <rs key="#Count"
@@ -135,10 +135,10 @@
                         potueritis quia in tali ordine hanc cartula iudicati <persName key="#Notary"
                             >Rainerium</persName>
                         <rs key="#Notary">notarium</rs> domni inperatoris scribere rogavi. Actum
-                            <placeName ref="#http://137.204.128.125/places/66">Pisa</placeName>.
-                        Signum manus suprascripti Rodulfi qui hanc cartula iudicati fieri rogavit.
-                        Signa manuum <persName>Angeli</persName> filii <persName>Dominici</persName>
-                        et <persName>Rustichelli</persName> filii <persName>Alberti</persName>
+                            <placeName ref="#places/66">Pisa</placeName>. Signum manus suprascripti
+                        Rodulfi qui hanc cartula iudicati fieri rogavit. Signa manuum
+                            <persName>Angeli</persName> filii <persName>Dominici</persName> et
+                            <persName>Rustichelli</persName> filii <persName>Alberti</persName>
                         testium. <persName key="#Notary">Ildebrandus</persName>
                         <rs key="#Notary">notarius</rs> domni inperatoris rogatus testis. Raineri
                         notarius domni inperatoris post tradita complevi et dedi. </ab>

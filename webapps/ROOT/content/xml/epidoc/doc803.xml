@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc803">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
@@ -15,7 +15,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
-                <idno type="uri">http://137.204.128.125/documents/doc803</idno>
+                <idno type="filename">doc803</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -74,7 +74,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2021-02-08">creation of record</change>
+                <change when="2021-02-08" who="ltabarrini">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -83,21 +83,21 @@
             <div type="edition">
                 <div type="textpart">
                     <ab>(S.T.) Anno Incarnationis MCXC, die veneris, X mensis Augusti, indictione
-                        VIII, in <placeName ref="#http://137.204.128.125/places/43"
+                        VIII, in <placeName ref="#places/43"
                             key="#Infrastructures">Placentia</placeName>. <persName key="#Roman"
                             >Iohannes Dianus</persName>
                         <rs key="#Roman">lege Romana</rs> vivens, precio XVI librarum Placentie
                         vendidit domino <persName key="#Abbots"
-                            ref="#http://137.204.128.125/people/16">Gandulfo</persName>
+                            ref="#people/16">Gandulfo</persName>
                         <rs key="#Abbots">abbati</rs>
                         <rs key="#Monasteries">monasterii</rs>
                         <orgName key="#Monasteries"
-                            ref="#http://137.204.128.125/juridical_persons/53">Sancti
+                            ref="#juridical_persons/53">Sancti
                             Sisti</orgName> edificium I muratum cum <rs key="#Infrastructures"
                             >furno</rs> in eo habente et cum omnibus eiusdem furni utensiliis et cum
                         omni iure et ratione et est positum in Placentia in convicinia <rs
                             key="#Churches">ecclesie</rs>
-                        <orgName key="#Churches" ref="#http://137.204.128.125/juridical_persons/82"
+                        <orgName key="#Churches" ref="#juridical_persons/82"
                             >Sancti Petri</orgName> in <rs key="#Hospitals">senodochio</rs>,
                         reddendo tamen habiaticis quondam <persName>Fuclonis Strictis</persName>
                         <rs key="#Rent_in_money">omni anno III solidos Placentinos nomine ficti

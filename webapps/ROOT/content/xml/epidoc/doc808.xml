@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Archivio di Stato di Cremona, Codice A (Astegiano, <foreign>Codex
+                        Diplomaticus Cremonae</foreign> II, <foreign>Documenti della lite</foreign>,
+                    n. 249, p. 87)</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc808</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#"/>
+                            <rs type="record_source" ref="#">Edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate notBefore="1227-11-09" notAfter="1227-12-31">
+                                <note type="displayed_date">1227?</note>
+                                <note type="dating_elements">Doc. cartaceo senza data. Astegiano lo
+                                    colloca nel 1227, anno in cui termina la lite relativa a
+                                    Guastalla e Luzzara.</note>
+                                <note type="topical_date"/>
+                            </origDate>
+                            <origPlace>Sanctus Sixtus; monasterium (Piacenza)</origPlace>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-02-08" who="ltabarrini">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>Hec sunt privilegia, honores, iurisdictiones et consuetudines curie communis
+                        et hominum de Guastalla. In primis, commune et homines de Guastalla in curia
+                        et penes potestatem et curiam Guastalle debent habere quatuor iuratores de
+                        hominibus Guastalle qui pares curie apellantur, qui debent facere <rs
+                            key="#Profits_of_justice">condemnaciones et absolutiones maleficiorum et
+                            ofensionum</rs> que fierent et perpetraverint in districtu et curia
+                        Guastalle, tam de eis in quibus <rs key="#Profits_of_justice">vindictam
+                            sanguinis</rs> exercerint quam de alliis <rs key="#Profits_of_justice"
+                            >maleficiis et offensionibus in robis et personis</rs>. Item quod
+                            <geogName ref="#estates/40"
+                            key="#Curtes #Army #Profits_of_justice #Districtio">curia <placeName
+                                ref="#places/33" key="#Curtes #Army #Profits_of_justice #Districtio"
+                                >Guastalle</placeName></geogName> est <rs key="#Curtes #Districtio"
+                            >curia regalis</rs> et <rs key="#Districtio">iurisdictio</rs> per se
+                        habet in omnia <rs key="#Districtio">imperium</rs> et plenam iurisdictionem,
+                        habendo <rs key="#Army #Districtio">gladii potestatem</rs>. Item quod
+                            <orgName ref="#juridical_persons/128"
+                            key="#Local_institutions #City_authorities"><rs
+                                key="#Local_institutions #City_authorities">commune</rs> et homines
+                            de Guastalla</orgName> toto tempore quo fuerint in <rs key="#Army"
+                            >servicio</rs> iverint et steterint suis propris expensis et suis
+                        risigis et periculis in rebus et personis, sine aliquo gravamine et expensis
+                            <orgName ref="#juridical_persons/99">communis <placeName
+                                ref="#places/58">Cremone</placeName></orgName>.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

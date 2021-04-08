@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title><foreign>Registrum Petri Diaconi</foreign>, f. 86rA (=C)</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc2003</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">-Diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">Yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0837-06">
+                                <note type="displayed_date">837 June</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Benevento, <foreign>in sacro
+                                        Palatio</foreign></note>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-03-30" who="gzornetta">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine Domini Dei salvatoris nostri Iesu Christi. Nos vir gloriosissimus
+                            <persName key="#Marquis’/ducal/princely_diploma #Princeps"
+                            ref="#people/186">Sichardus</persName> Dei providentia Langobardorum
+                        gentis <rs key="#Princeps">princeps</rs>, motus omnipotentis misericordia,
+                        pro redemptione anime nostrae seu gentis et patriae, concedimus in <rs
+                            key="#Monasteries">monasterio</rs>
+                        <orgName ref="#juridical_persons/84"
+                            key="#Monasteries #Abbots #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches #Rivers #Marshes/lagoons/tombolos #Sea #Quarries #Gualdi #Fisheries"
+                            >Beatissimi Benedicti</orgName> quo situm est in <rs key="#Castle"
+                            >castro</rs>
+                        <placeName ref="#places/109" key="#Castle #Monasteries">Casino</placeName>,
+                        ubi <persName key="#Abbots" ref="#people/187">Authpert</persName>
+                        reverentissimus <rs key="#Abbots">abbas</rs> regimen tenere videtur, <rs
+                            key="#Gualdi">vvaldum</rs> sacri nostri Palatii qui dicitur <placeName
+                            key="#Rivers #Marshes/lagoons/tombolos #Sea #Quarries #Gualdi #Fisheries #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches"
+                            ref="#places/252">Martoranum</placeName>, qui habet fines de uno capite
+                        fine <rs key="#Sea">mare</rs>, abinde fine <placeName
+                            key="#Villages/settlements">foce de Betrana</placeName>, deinde fine
+                            <placeName key="#Villages/settlements">Bena de Putiu</placeName> et inde
+                        in terra Montonata et inde <placeName ref="#places/251"
+                            key="#Villages/settlements">Bena de Cosa</placeName> et fine cunione qui
+                        dicitur de Ippoli, has fines discernit istum gualdum a <rs key="#Gualdi"
+                            >gualdo</rs>
+                        <rs key="#Churches">aecclesiae</rs>
+                        <orgName key="#Gualdi #Churches">Sancti Martini de Prata</orgName>, et inde
+                        fine <rs key="#Quarries">arenarii </rs>et fine termite qui dicitur
+                            <placeName key="#Villages/settlements">Ferola</placeName> et fine
+                            <placeName key="#Villages/settlements">Bena de Carpinu</placeName> et
+                        fine signaida de cesa quae dicitur Mauri et inde in cerque signate que
+                        dicitur Caedarolu et Benactola de Ficulcia quae est inter hunc vvaldum et
+                        fine de<placeName key="#Villages/settlements"> Puranetu</placeName> et fine
+                            <rs key="#Rivers">flumine</rs> qui dicitur <placeName key="#Rivers"
+                            >Fertore</placeName>, reconiungentes se in predicto mare, cum <rs
+                            key="#Rivers">ripis</rs> et aquis et <rs key="#Marshes/lagoons/tombolos"
+                            >fussariis</rs> et <rs key="#Fisheries">piscationibus</rs> et omnibus
+                        infra positis, sicut actenus ad manus Palatii nostri pertinuit, pertinet
+                            de<geogName
+                            key="#Rivers #Sea #Gualdi #Fisheries #Marepahis #Other_administrative_unit"
+                            ref="#estates/140"> mari passato</geogName>
+                        <persName key="#Marepahis" ref="#people/185">Arichis</persName>
+                        <rs key="#Marepahis">maripachis</rs> nostri, in ea videlicet ratione ut
+                        amodo de deinceps per hoc nostrum roboreum preceptum supradictum vvaldum per
+                        designatos fines ipsum monasterium et eius rectores securo nomine habere et
+                        possidere seu perfrui valeant, et a nullo ex nostris iudicibus, gastaldeis
+                        vel a quibuscumque agentibus habeant aliquam requisitionem rectores predicti
+                        monasterii ex prefato vvaldo, sed perpetuis temporibus in integrum
+                        possideantur. Quod vero <rs key="#Marquis’/ducal/princely_diploma">preceptum
+                            concessionis</rs> ex iussione suprascripte potestatis scripsi ego
+                            <persName key="#Notary">Audoaldus</persName><rs key="#Notary">
+                            notarius</rs>. <date>Actu <placeName ref="#places/110" key="#Palatium"
+                                >Benevento</placeName> in sacro <rs key="#Palatium">Palatio</rs>
+                            quinto anno, mense Iunio, quintadecima indictione</date>.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>RPD 197:578-579; CMC I, 23: 68-69; Gattola 1734, I: 35; Leccisotti 1947, n. 4:
+                    91-92; Voigt 1902: 51; Poupardin 1907: 34</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p>Gallo 1937, n. 6: 60</p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

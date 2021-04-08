@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc26">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
-                <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca, Diplomatico, + G 60</title>
+                <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    Diplomatico, + G 60</title>
             </titleStmt>
             <editionStmt>
-                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus
+                        Project</ref>
                     <date when="2021">2021</date>
                 </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
-                <idno type="uri">http://137.204.128.125/documents/doc26</idno>
+                <idno type="filename">doc26</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -30,10 +32,9 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="https://ausohnum.huma-num.fr/concept/c25671"
-                                >--Venditio</rs>
-                            <rs type="record_source" ref="https://ausohnum.huma-num.fr/concept/c26116">Original document</rs>
-                            <rs type="document_tradition" ref="https://ausohnum.huma-num.fr/concept/c26112">Original</rs>
+                            <rs type="text_type" ref="#">--Venditio</rs>
+                            <rs type="record_source" ref="#">Original document</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
                             <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
@@ -58,11 +59,11 @@
                     </history>
                 </msDesc>
                 <listPlace>
-                   <place></place>
+                    <place/>
                 </listPlace>
-            <listPerson>
-                <person></person>
-            </listPerson>
+                <listPerson>
+                    <person/>
+                </listPerson>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
@@ -83,43 +84,40 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>Il <rs key="#Priests">prete</rs><persName key="#Priests">Tetbaldo</persName>
-                        figlio della <persName key="#Clerical_concubinage">fu Rodilinda detta
-                            Rozia</persName>, vende ai fratelli <persName key="">Erizio detto
-                            Venerando</persName> e <persName key="">Pietro</persName> del <persName
-                            key="">fu Pietro</persName> un appezzamento di terra, cum cassina super
-                        se abentes, posto in loco et finibus <placeName key=""
-                            ref="#http://137.204.128.125/places/23">Catiana</placeName> ubi dicitur
-                            <placeName
+                    <ab>Il <rs key="#Priests">prete</rs>
+                        <persName key="#Priests">Tetbaldo</persName>
+                        <rs key="#Clerical_concubinage">figlio della <persName>fu Rodilinda detta
+                                Rozia</persName></rs>, vende ai fratelli <persName>Erizio detto
+                            Venerando</persName> e <persName>Pietro</persName> del <persName>fu
+                            Pietro</persName> un appezzamento di terra, cum cassina super se
+                        abentes, posto in loco et finibus <placeName ref="#places/23"
+                            >Catiana</placeName> ubi dicitur <placeName
                             key="#Curtes #Petiae #Fiscal_property #Mention #Emperor/king #Queen"
-                            ref="#http://137.204.128.125/places/23"><rs
-                                key="#Curtes #Fiscal_property #Mention">Curte</rs>
+                            ref="#places/23"><rs key="#Curtes #Fiscal_property #Mention">Curte</rs>
                             <rs key="#Queen">Regine</rs></placeName> quas mihi per cartule scripte
                         sunt manibus <persName key="#Notary">Heriberti</persName>
                         <rs key="#Notary">notarii domni imperatoris</rs>
-                        <rs key="#Venditio">ex conparationem</rs> obvenit da <persName key=""
-                            >Albone</persName> del <persName key="">fu Tetbaldo detto
-                            Teuzio</persName> e dalla moglie <persName key="">Bonizia</persName> del
-                            <persName key="">fu Rozio detto Omicio</persName>, confinante ambas
-                        capitas in via publica, lato uno con <rs
-                            key="#Petiae #Fiscal_property #Mention">terra</rs> del <rs
-                            key="#Emperor/king">re</rs>, alio lato con terra dei suddetti fratelli,
-                        con tutte le sue dipendenze et cum exempler de suprascripte cartule, per il
-                        prezzo di 15 soldi d'argento. Chiede al <rs key="#Writer #Notary">notaio
-                            imperiale</rs>
+                        <rs key="#Venditio">ex conparationem</rs> obvenit da
+                            <persName>Albone</persName> del <persName>fu Tetbaldo detto
+                            Teuzio</persName> e dalla moglie <persName>Bonizia</persName> del
+                            <persName>fu Rozio detto Omicio</persName>, confinante ambas capitas in
+                        via publica, lato uno con <rs key="#Petiae #Fiscal_property #Mention"
+                            >terra</rs> del <rs key="#Emperor/king">re</rs>, alio lato con terra dei
+                        suddetti fratelli, con tutte le sue dipendenze et cum exempler de
+                        suprascripte cartule, per il prezzo di 15 soldi d'argento. Chiede al <rs
+                            key="#Writer #Notary">notaio imperiale</rs>
                         <persName key="#Writer #Notary">Eriberto</persName> la stesura della
-                        cartula. Actum in loco ubi dicitur <placeName key=""
-                            ref="#http://137.204.128.125/places/62">Bibbia</placeName> prope <rs
-                            key="#Castle">castello</rs> et <orgName key="#Churches"
-                            ref="#http://137.204.128.125/juridical_persons/72"><rs key="#Churches"
-                                >eclesia</rs><placeName key="#Castle #Churches"
-                                ref="#http://137.204.128.125/places/63">Sancte Marie ubi dicitur ad
-                                Monte</placeName></orgName>. <rs key="#Witness">Testimoni</rs>
-                        sottoscrittori: <persName key="#Witness">Rozio</persName> del <persName
-                            key="">fu Rozio detto Omicio</persName>, <persName key="#Witness"
-                            >Ildebrando</persName> del <persName key="">fu Rodolfo</persName>,
-                            <persName key="#Witness">Rodolfo</persName> del <persName key="">fu
-                            Albuino</persName>.</ab>
+                        cartula. Actum in loco ubi dicitur <placeName ref="#places/62"
+                            >Bibbia</placeName> prope <rs key="#Castle">castello</rs> et <orgName
+                            key="#Churches" ref="#juridical_persons/72"><rs key="#Churches"
+                                >eclesia</rs>
+                            <placeName key="#Castle #Churches" ref="#places/63">Sancte Marie ubi
+                                dicitur ad Monte</placeName></orgName>. <rs key="#Witness"
+                            >Testimoni</rs> sottoscrittori: <persName key="#Witness"
+                            >Rozio</persName> del <persName>fu Rozio detto Omicio</persName>,
+                            <persName key="#Witness">Ildebrando</persName> del <persName>fu
+                            Rodolfo</persName>, <persName key="#Witness">Rodolfo</persName> del
+                            <persName>fu Albuino</persName>.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">

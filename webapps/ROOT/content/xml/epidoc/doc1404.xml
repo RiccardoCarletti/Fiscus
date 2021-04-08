@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc1404">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
@@ -15,7 +15,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
-                <idno type="uri">http://137.204.128.125/documents/doc1404</idno>
+                <idno type="filename">doc1404</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -84,34 +84,33 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>Breve de <placeName ref="#http://137.204.128.125/places/89"
+                    <ab>Breve de <placeName ref="#places/89"
                             key="#Landed_possessions #Fiscal_property #Object #Redistributive #Allocation_to_churches"
                             >Franciano</placeName>. Breve recordationis de posponsione, quam fecit
-                            <persName ref="#http://137.204.128.125/people/106">Wiliccione</persName>
-                        et uxor eius, de <rs
+                            <persName ref="#people/106">Wiliccione</persName> et uxor eius, de <rs
                             key="#Landed_possessions #Fiscal_property #Redistributive #Allocation_to_churches"
-                            >terra</rs> quam dedit <persName key="#Count"
-                            ref="#http://137.204.128.125/people/107">Ugo</persName> pater eius ad
-                            <rs key="#Churches">ecclesia</rs> beati <orgName
-                            ref="#http://137.204.128.125/juridical_persons/78"
-                            key="#Churches #Monasteries">Sancti Quirici</orgName>, et est posita in
-                        locis et vocabulis, sicut in <rs key="#Offersio/donatio">cartula</rs> quam
-                        predicto Ugo <rs key="#Count">comes</rs> fecit ad iamdicta aecclesia Sancti
-                        Quirici. Ipse Wiliccione et uxor eius dedit in manibus <rs key="#Abbots"
-                            >abbati</rs>, qui preerat in <rs key="#Monasteries">monasterio</rs>
-                        Sancti Quirici, ut a modo in antea non habeat potestatem tollendi, neque
-                        contendendi, neque molestandi, neque per se neque per suam emissam personam,
-                        et si hoc non observav[er]it, debeat componere pena, sicut in iamdicta
-                        cartula legitur. Hoc factum est in presentia <rs
-                            key="#Boni_viri/boni_homines">bonorum hominum</rs>, quorum nomina eorum
-                        subter leguntur. <persName>Ugo</persName> filius
-                            <persName>Rollandi</persName>, <persName>Petro</persName> filius
-                            <persName>Rollandi</persName>, <persName>Pagani</persName> filius
-                            <persName>Ioci</persName>, <persName>Ildizo</persName> filius quondam
-                            <persName>Ilditi</persName> et alii plures. Hoc factum est idus
-                        decembris ad <rs key="#Castle">castello</rs> qui vocitatur <placeName
-                            key="#Fiscal_property #Residential #Castle #Count"
-                            ref="#http://137.204.128.125/places/87">Suvereto</placeName>. </ab>
+                            >terra</rs> quam dedit <persName key="#Count" ref="#people/107"
+                            >Ugo</persName> pater eius ad <rs key="#Churches">ecclesia</rs> beati
+                            <orgName ref="#juridical_persons/78" key="#Churches #Monasteries">Sancti
+                            Quirici</orgName>, et est posita in locis et vocabulis, sicut in <rs
+                            key="#Offersio/donatio">cartula</rs> quam predicto <persName
+                            key="#Count" ref="#people/3">Ugo</persName>
+                        <rs key="#Count">comes</rs> fecit ad iamdicta aecclesia Sancti Quirici. Ipse
+                        Wiliccione et uxor eius dedit in manibus <rs key="#Abbots">abbati</rs>, qui
+                        preerat in <rs key="#Monasteries">monasterio</rs> Sancti Quirici, ut a modo
+                        in antea non habeat potestatem tollendi, neque contendendi, neque
+                        molestandi, neque per se neque per suam emissam personam, et si hoc non
+                        observav[er]it, debeat componere pena, sicut in iamdicta cartula legitur.
+                        Hoc factum est in presentia <rs key="#Boni_viri/boni_homines">bonorum
+                            hominum</rs>, quorum nomina eorum subter leguntur.
+                            <persName>Ugo</persName> filius <persName>Rollandi</persName>,
+                            <persName>Petro</persName> filius <persName>Rollandi</persName>,
+                            <persName>Pagani</persName> filius <persName>Ioci</persName>,
+                            <persName>Ildizo</persName> filius quondam <persName>Ilditi</persName>
+                        et alii plures. Hoc factum est idus decembris ad <rs key="#Castle"
+                            >castello</rs> qui vocitatur <placeName
+                            key="#Fiscal_property #Residential #Castle #Count #Itinerary"
+                            ref="#places/87">Suvereto</placeName>. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">

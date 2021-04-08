@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title><foreign>Registrum Petri Diaconi</foreign>, f. 82rA-B (=C)</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc2008</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">Yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0797-02">
+                                <note type="displayed_date">797 February</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Benevento, <foreign>in sacratissimo
+                                        Palatio</foreign></note>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-04-02" who="gzornetta">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine Domini Dei salvatoris nostri Iesu Christi. Dominus vir
+                        gloriosissimus Grimoald Dei previdentia Langobardorum gentis princeps, motus
+                        Dei omnipotentis misericordia et pro redemptione animae nostrae, per
+                        postulatione Laupi mari pahis nostri, concedimus in monasterio Beati
+                        Benedicti quod situm est in castro Casino, ubi vir reverentissimus Gisolfus
+                        abbas preesse videtur, omne servos qui fuerunt ipsius monasterii cum
+                        oxoribus suis quae fuerunt libere cum filiis, filiabus suis, tam qui tempore
+                        domni Gisulfi quam et domni Liutprandi vel domni sanctae ac dulcis memoriae
+                        genitoris nostri et nostro felicissimo tempore sunt aut fuerint compulti et
+                        legibus nostrae potestati tenuerunt aut tenuerint, in eam videlicet rationem
+                        ut amodo et deinceps per hoc nostrum roboretur preceptum tam vos,
+                        reverentissime Gisolfe abba, quam et posteres vestri qui in eundem sacrum
+                        prefuerint cenobium, omnes illos servos cum psis uxoribus et cum filiis,
+                        filiabus suis, qualiter superius legitur, habere et possidere valeatis, et a
+                        nullo ex nostris iudicibus, is est comitibus, gastaldis vel a quibuscumque
+                        gentibus habeatis aliquam requisitionem, sed perpetuis temporibus habere et
+                        possidere valeatis. Quod vero preceptum concessimus ex iussione nostrae
+                        potestatis scripsi ego Benedictus notarius. Actum Beneventi in sacratissimo
+                        Palatio nono anno, mense IIo, quinta indictione feliciter.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>RPD, n. 181: 549-550; Poupardin 1907: 12</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p>Falco 1929: 487, 498-500; Bloch 1984:1347</p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

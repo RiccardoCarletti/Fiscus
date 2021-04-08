@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc1436">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
@@ -15,7 +15,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
-                <idno type="uri">http://137.204.128.125/documents/doc1436</idno>
+                <idno type="filename">doc1436</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -93,53 +93,50 @@
                         filii bone memorie <persName>Bai</persName> quia tu, <rs key="#Abbots"
                             >abbas</rs> de <rs key="#Churches">ecclesia</rs> et <rs
                             key="#Monasteries">monasterio</rs>
-                        <orgName key="#Churches #Monasteries"
-                            ref="#http://137.204.128.125/juridical_persons/78">Sancti
-                            Quirici</orgName> sito <placeName
-                            ref="#http://137.204.128.125/places/86">Populonio</placeName> nomine
-                            <persName key="#Abbots" ref="#http://137.204.128.125/people/103"
+                        <orgName key="#Churches #Monasteries" ref="#juridical_persons/78">Sancti
+                            Quirici</orgName> sito <placeName ref="#places/86" key="#Monasteries"
+                            >Populonio</placeName> nomine <persName key="#Abbots" ref="#people/103"
                             >Maurus</persName>, dedisti nobis una <rs key="#Petiae">petia</rs> de
                         terra super se <rs key="#Wine">vineam</rs> habentem, in loco <placeName
-                            ref="#http://137.204.128.125/places/91" key="#Petiae #Wine"
-                            >Cornino</placeName> prope <placeName key="#Landed_possessions #Wine"
-                            ref="#http://137.204.128.125/places/134">Livellaria</placeName>, quae
-                        videtur tenere latera ambo cum uno capite in terra de suprascripto
-                        monasterio, et aliut capud in <rs key="#Landed_possessions">terra</rs>
-                        <orgName key="#Landed_possessions #Monasteries"
-                            ref="#http://137.204.128.125/juridical_persons/88">Sancti
-                            Pancratji</orgName>, sicut signa et termina videtur esse. Dedisti nobis
-                        tu, abbas de ecclesia et monasterio suprascripti Quirici, ut ab odie in
-                        antea in nostra potestate esse debeatur, tam uni ex nobis per se, quam
-                        omnibus insimul, et quis nostrorum supervixerit, retineat defuncti partem,
-                        nisi iudicare vel tradere in vita sua in predicto monasterio voluerit; et
-                        ita taliter in nostra potestate rem predictam vin(eam) eam habendi, tenendi,
-                        regendi, gubernandi et fruendi et meliorandi et non peiorandi, nisi tantum
-                        pro omni censu et iustitia exinde reddere vel dare et persolvere debeamus
-                        vobis et monasterio vestro et posterisque successoribus vestris vel missis
-                        et ministerial(ibus), qui per tempore ordinati fuerint, nos, qui supra
-                        Martinus, Villanus et Calendus et Iohannes, tam unus ex nobis, quam omnibus
-                        insimul vel nostri heredes per singulos annos in mense iulii pensionem
-                        denarios Lucensium monete num(m)os XIIcim in <rs key="#Curtes">curte</rs> et
-                        monasterio vestro; et si vos predicta adimpleveritis et conservaveritis
-                        nobis et nostris heredibus et nos, qui supra Martinus, Villanus et Calendus
-                        et Iohannes, vel nostri heredes eam dimittere, relaxare et peiorare et
-                        pensionem non perexolvere non adimpleverimus et non observaverimus, tunc
-                        spondemus nos, qui supra Martinus, Villanus et Calendus atque Iohannes, una
-                        cum nostris heredibus componere tibi, qui supra abbati Mauro nomine, et tuis
-                        successoribus penam argenti optimi lib(rarum) X, quia taliter inter nos
-                        convenit et duo libellos <orgName key="#Notary">Petrum</orgName> domni regis
-                            <rs key="#Notary">notarium</rs> scribere rogavimus. Actum in loco et <rs
+                            ref="#places/91" key="#Petiae #Wine">Cornino</placeName> prope
+                            <placeName key="#Landed_possessions #Wine" ref="#places/134"
+                            >Livellaria</placeName>, quae videtur tenere latera ambo cum uno capite
+                        in terra de suprascripto monasterio, et aliut capud in <rs
+                            key="#Landed_possessions">terra</rs>
+                        <orgName key="#Landed_possessions #Monasteries" ref="#juridical_persons/88"
+                            >Sancti Pancratji</orgName>, sicut signa et termina videtur esse.
+                        Dedisti nobis tu, abbas de ecclesia et monasterio suprascripti Quirici, ut
+                        ab odie in antea in nostra potestate esse debeatur, tam uni ex nobis per se,
+                        quam omnibus insimul, et quis nostrorum supervixerit, retineat defuncti
+                        partem, nisi iudicare vel tradere in vita sua in predicto monasterio
+                        voluerit; et ita taliter in nostra potestate rem predictam vin(eam) eam
+                        habendi, tenendi, regendi, gubernandi et fruendi et meliorandi et non
+                        peiorandi, nisi tantum pro omni censu et iustitia exinde reddere vel dare et
+                        persolvere debeamus vobis et monasterio vestro et posterisque successoribus
+                        vestris vel missis et ministerial(ibus), qui per tempore ordinati fuerint,
+                        nos, qui supra Martinus, Villanus et Calendus et Iohannes, tam unus ex
+                        nobis, quam omnibus insimul vel nostri heredes per singulos annos in mense
+                        iulii pensionem denarios Lucensium monete num(m)os XIIcim in <rs
+                            key="#Curtes">curte</rs> et monasterio vestro; et si vos predicta
+                        adimpleveritis et conservaveritis nobis et nostris heredibus et nos, qui
+                        supra Martinus, Villanus et Calendus et Iohannes, vel nostri heredes eam
+                        dimittere, relaxare et peiorare et pensionem non perexolvere non
+                        adimpleverimus et non observaverimus, tunc spondemus nos, qui supra
+                        Martinus, Villanus et Calendus atque Iohannes, una cum nostris heredibus
+                        componere tibi, qui supra abbati Mauro nomine, et tuis successoribus penam
+                        argenti optimi lib(rarum) X, quia taliter inter nos convenit et duo libellos
+                            <orgName key="#Notary">Petrum</orgName> domni regis <rs key="#Notary"
+                            >notarium</rs> scribere rogavimus. Actum in loco et <rs
                             key="#Villages/settlements">villa</rs>
-                        <placeName key="#Villages/settlements"
-                            ref="#http://137.204.128.125/places/131">Sancti Fridiani</placeName>,
-                            <rs key="#Comitatus">territorio</rs>
-                        <geogName key="#Comitatus" ref="#http://137.204.128.125/estates/87"
-                            >Populoniensi</geogName>. Signa manuum suprascriptorum Martini, Villani,
-                        Kalendi et Iohanni qui hoc libellum fieri rogaverunt. Signa manuum
-                            <persName>Gisolfi</persName> quondam <persName>Gerardi</persName> et
-                            <persName>B[o]ni</persName> filii <persName>Petri</persName> et
-                            <persName>Vitali</persName> filii <persName>Gici</persName> testium.
-                        Petrus domni regis notarius post tradita complevi et dedi. </ab>
+                        <placeName key="#Villages/settlements" ref="#places/131">Sancti
+                            Fridiani</placeName>, <rs key="#Comitatus">territorio</rs>
+                        <geogName key="#Comitatus" ref="#estates/87">Populoniensi</geogName>. Signa
+                        manuum suprascriptorum Martini, Villani, Kalendi et Iohanni qui hoc libellum
+                        fieri rogaverunt. Signa manuum <persName>Gisolfi</persName> quondam
+                            <persName>Gerardi</persName> et <persName>B[o]ni</persName> filii
+                            <persName>Petri</persName> et <persName>Vitali</persName> filii
+                            <persName>Gici</persName> testium. Petrus domni regis notarius post
+                        tradita complevi et dedi. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
