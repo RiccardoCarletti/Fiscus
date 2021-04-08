@@ -92,9 +92,9 @@
                             key="#fidelisOf">devotus fidelis </rs>noster suppliciter nostrae
                         serenitatis clementiam adiit petens, ut cuidam <rs key="#fidelisOf">fideli
                             nostro</rs> nomine <persName key="#fidelisOf">Teudiberto</persName>
-                        vallem Prujvinianum habitatori, in <rs key="#Villas">villa </rs>videlicet
-                        eiusdem vallis que nominatur <placeName key="#Villas">Canciagum</placeName>,
-                            <rs
+                        <placeName ref="#places/306">vallem Prujvinianum</placeName> habitatori, in
+                            <rs key="#Villas">villa </rs>videlicet eiusdem vallis que nominatur
+                            <placeName key="#Villas" ref="#places/307">Canciagum</placeName>, <rs
                             key="#Wine #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_individuals"
                             >vineas</rs> et <rs
                             key="#Landed_possessions #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_individuals"
@@ -106,12 +106,15 @@
                             key="#Mountains #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_individuals"
                             >montibus</rs> atque <rs>planiciebus</rs>, seu et quandam <rs
                             key="#Forests #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_individuals"
-                            >silvam</rs> quae <placeName
+                            >silvam</rs> quae <geogName
                             key="#Forests #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_individuals #Fines"
-                            >Lamola vocitatur, et Panicum </placeName>cum <rs
-                            key="#Fiscal_property #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_individuals #Fines"
-                            >omnibus finibus</rs> suis in integrum, prout dudum ad <rs
-                            key="#Comitatus">comitatum</rs> Veronensem respiciebant, pro [Dei a]more
+                                ><placeName
+                                key="#Forests #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_individuals #Fines"
+                                >Lamola vocitatur, et Panicum </placeName>cum <rs
+                                key="#Fiscal_property #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_individuals #Fines"
+                                >omnibus finibus</rs></geogName> suis in integrum, prout dudum
+                            <geogName key="#Comitatus" ref="#estates/124">ad <rs key="#Comitatus"
+                                >comitatum</rs> Veronensem</geogName> respiciebant, pro [Dei a]more
                         et remedio animae nostrae sive pro eiusdem Teudiberti <rs key="#gratitudeTo"
                             >sedulo servitio</rs> per hoc nostrae auctoritatis preceptum concedere
                         dignaremur. Cuius dignis petitionibus nostrae serenitatis aures
@@ -138,9 +141,10 @@
                         </rs>recognovi et subscripsi. (SR) (SI n. n) Data .VII. kal. iun., anno
                         dominicae incarnationis .DCCCV., domni Vero Berengarii invictissimi regis
                         .XVIII., indictione .VIII. Actum <orgName key="#Plebs #Churches"
-                            ref="#juridical_persons/121"><placeName key="#Plebs #Churches">valle
-                                Pruviniano iuxta <rs key="#Plebs #Churches">plebem</rs> Sancti
-                                Floriani</placeName></orgName>. feliciter, amen. </ab>
+                            ref="#juridical_persons/121"><placeName key="#Plebs #Churches"
+                                ref="#places/306">valle Pruviniano iuxta <rs key="#Plebs #Churches"
+                                    >plebem</rs> Sancti Floriani</placeName></orgName>. feliciter,
+                        amen. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
