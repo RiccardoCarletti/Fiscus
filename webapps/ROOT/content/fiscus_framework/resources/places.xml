@@ -1529,7 +1529,7 @@
                     <link type="places" corresp="#places/250" subtype="hasInItsVicinity"/>
                 </place>
                 <place>
-                    <placeName><foreign>mons Sancti Leutherii</foreign> (Vairano Patenora;
+                    <placeName><foreign>Mons Sancti Leutherii</foreign> (Vairano Patenora;
                         Caserta)</placeName>
                     <placeName type="other"/>
                     <geogName type="coord"><geo>41.339444, 14.112906; 41.344299, 14.132043;
@@ -2458,7 +2458,8 @@
                         Roccatederighi.</note>
                 </place>
                 <place>
-                    <placeName>Aqua Calida (Case Acqua Calda; Suvereto; Livorno)</placeName>
+                    <placeName><foreign>Aqua Calida</foreign> (Case Acqua Calda; Suvereto;
+                        Livorno)</placeName>
                     <placeName type="other"/>
                     <geogName type="coord"><geo>43.1043695, 10.6546533</geo></geogName>
                     <idno>places/289</idno>
@@ -2547,6 +2548,67 @@
                     <geogName type="coord"><geo>45.182110, 9.493620</geo></geogName>
                     <idno>places/299</idno>
                     <note>Castagnetti 1979</note>
+                </place>
+                <place>
+                    <placeName>Fonteiana (Pratica di Mare; Roma)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>41.666261, 12.475132; 41.654355, 12.459168;
+                            41.647209, 12.479265; 41.662267, 12.486073</geo></geogName>
+                    <idno>places/300</idno>
+                    <note>Cfr. De Francesco 2004: 242: sulla localizzazione non v'è certezza, ma
+                        plausibilmente andrebbe collocata tra l'attuale tenuta della Cecchignola
+                        (dove sorgeva il <foreign>fundus Fonteianus</foreign>) e l'attuale Pratica
+                        di Mare. In ogni caso la <foreign>massa Fonteiana</foreign> doveva essere
+                        adiacente alla <foreign>domusculta Lauretum</foreign>. </note>
+                    <link type="people" corresp="#people/69" subtype="link"/>
+                    <link type="estates" corresp="#estates/120" subtype="hasConnectionWith"/>
+                </place>
+                <place>
+                    <placeName>Anzio (Roma)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo/></geogName>
+                    <idno>places/301</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>San Pietro in Formis (Anzio; Roma)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>14.53897, 12.73010</geo></geogName>
+                    <idno>places/302</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>Terme di Diocleziano (Roma)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>41.9042, 12.498328</geo></geogName>
+                    <idno>places/303</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>Ponte Milvio (Roma)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>41.935537, 12.466934</geo></geogName>
+                    <idno>places/304</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>Porta Flaminia (Roma)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>41.911513, 12.476005</geo></geogName>
+                    <idno>places/305</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>vallis Pruvinianensis (Valpolicella, Verona)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo/>45.655808, 10.903931; 45.572716, 10.842133;
+                        45.52006, 10.818787; 45.486132, 10.83252; 45.478911, 10.899811; 45.498166,
+                        10.93174; 45.531365, 10.897064; 45.552285, 10.903931; 45.597705,
+                        10.919037</geogName>
+                    <idno>places/306</idno>
+                    <note>Castagnetti 1984</note>
+                    <link type="juridical_persons" corresp="#juridical_persons/121" subtype="link"/>
+                    <link type="people" corresp="#people/21" subtype="link"/>
                 </place>
             </listPlace>
         </body>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Archivio capitolare di Parma, <foreign>Pergamene sec. IX</foreign>, n.
+                    XXXIII</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc1113</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0899-03-08">
+                                <note type="displayed_date">899 march 8</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Pavia</note>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-02-08" who="Chiara Stedile">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine domini nostri Iesu Christi Dei eterni. Berengarius divina favente
+                        clementia rex. Decet nostram pietatem predecessorum nostrorum tramites sequi
+                        et maxime ecclesiarum utilitates reformare, quatenus eos mereamur habere
+                        apud Dominum intercessores, qui in presenti seculo nos cognoscunt suae
+                        Ecclesiae adiutores. Quapropter emnium fidelium sanctae Dei Ecclesiae
+                        nostrorumque presentium scilicet et futurorum noverit sollertia, Amolonem
+                        Taurinensem venerabilem episcopum ac Sigefredum illustrem comitem
+                        dilectissimos fideles nostros suggessisse nostrae serenitati, quatenus pro
+                        divino intuitu duas curtes quae vocantur Saluciola et Evoriano cum omnibus
+                        pertinentiis et adiacentiis seu familiis suis prisco tempore pertinentes de
+                        comitatu Parmensi, quas quondam Karolus imperator consuprinus predecessor
+                        noster ecclesiae Beati Nicomedis quae est in Fontana Broculi per sua
+                        precepta donavit, nostra preceptali auctoritate predicto sancto loco
+                        confirmaremus. Quorum precibus libenti animo annuentes decrevimus ita fieri.
+                        Confirmamus igitur eidem Sancti Nicomedis ecclesiae prefatas curtes cum
+                        omnibus pertinentiis et adiacentiis suis in integrum, mansis videlicet
+                        vestitis atque absentibus, terris, vineis, campis, pratis, pascuis, silvis,
+                        montibus, vallibus, planiciebus, arboribus pomiferis et infructuosis, aquis
+                        aquarumque decursibus seu molendinis, capella quoque in ipsa terra
+                        constructa, familiis etiam utriusque sexus, servis, ancillis et aldionibus,
+                        omnia omnino cum iudiciariis quaecumque dici vel nominari possunt, quae
+                        iuste et legaliter ad ipsas curtes pertinere noscuntur. Precipientes iubemus
+                        ut nullus iudiciariae potestatis dux, marchio, comes, vicecomes,
+                        sculdassius, locopositus aut quislibet rei publicae procurator, neque aliqua
+                        persona uniuscuiusque ordinis aut dignitatis parva vel magna ex eisdem rebus
+                        quoquo modo se intromittere aut devestire presumat sine legali iudicio, sed
+                        liceat rectori predicti sancti loci ad partem ipsius ecclesiae omnes easdem
+                        res iure proprietario perpetuis temporibus possidere, et quod rectius
+                        previderint ad eiusdem sancti loci utilitatem peragere, remota totius
+                        potestatis inquietudine. Si quis autem, quod minime credimus, contra hoc
+                        nostrae pietatis et confirmationis preceptum quandoque insurgere
+                        temptaverit, sciat se compositurum auri optimi libras XXX, medietatem
+                        palatio nostro et medietatem parti ipsius ecclesiae. Et ut ab omnibus verius
+                        credatur et diligentius observetur, mano propria roboratum anuli nostri
+                        impressione subter iussimus sigillari. Signum domni Berengarii gloriosissimi
+                        regis. Martianus notarius ad vicem Petri episcopi et archicancellarii
+                        recognovi et subscripsi. Data VIII id. mart., anno incarnationis Domini
+                        DCCCXCVIIII, domni autem Berengarii gloriosissimi regis XIII, indictione II.
+                        Actum Papie. In Dei nomine feliciter, amen.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>Schiaparelli, <foreign>I diplomi di Berengario I</foreign>, pp. 77-79, n°
+                    XXVI</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

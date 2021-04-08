@@ -658,13 +658,16 @@
                 </place>
                 <place>
                     <geogName>Fonteiana; <foreign>massa</foreign></geogName>
-                    <bibl>
                             <geogName type="other">Forteiana; <foreign>massa</foreign></geogName>
-                        </bibl>
                     <idno>estates/120</idno>
-                    <note>Cfr. De Francesco 2004: 242. </note>
+                    <note>Cfr. De Francesco 2004: 242: sulla localizzazione non v'è certezza, ma
+                        plausibilmente andrebbe collocata tra l'attuale tenuta della Cecchignola
+                        (dove sorgeva il <foreign>fundus Fonteianus</foreign>) e l'attuale Pratica
+                        di Mare. In ogni caso la <foreign>massa Fonteiana</foreign> doveva essere
+                        adiacente alla <foreign>domusculta Lauretum</foreign>. </note>
                     <link type="people" corresp="#people/69" subtype="link"/>
-                </place>
+                    <link type="places" corresp="#places/300" subtype="hasConnectionWith"/>
+                </place>             
                 <place>
                     <geogName>Tora; <foreign>curtis</foreign></geogName>
                     <geogName type="other"/>
@@ -1055,7 +1058,22 @@
                     <note/>
                     <link type="places" corresp="#places/293" subtype="hasConnectionWith"/>
                 </place>
-             
+                <place>
+                    <geogName><foreign>Antius</foreign>; <foreign>massa</foreign></geogName>
+                    <geogName type="other">Anzio</geogName>
+                    <idno>estates/157</idno>
+                    <note/>
+                </place>
+                <place>
+                    <geogName><foreign>Formias</foreign>; <foreign>massa</foreign></geogName>
+                    <geogName type="other"/>
+                    <idno>estates/158</idno>
+                    <note>Cfr. De Francesco 2004: 255: piuttosto che a Formia presso Gaeta, questa
+                        massa doveva trovarsi presso S. Pietro in Formis. Comprendeva le campagne di
+                        Camporto, Carano e Torre del Padiglione.  </note>
+                    <link type="people" corresp="#people/69" subtype="link"/>
+                    <link type="places" corresp="#places/302" subtype="hasConnectionWith"/>
+                </place>
             </listPlace>
         </body>
     </text>

@@ -538,7 +538,7 @@
           <xsl:when test="not(contains(@corresp, ' '))">
             <xsl:text>{from: </xsl:text><xsl:value-of select="$id"/><xsl:text>, to: </xsl:text><xsl:value-of select="substring-after(@corresp, 'people/')"/>
             <xsl:text>, label: '</xsl:text><xsl:value-of select="$relation_type"/><xsl:text>', arrows: "to", color: "</xsl:text><xsl:value-of select="$color"/>
-            <xsl:text>"}</xsl:text>
+            <xsl:text>", type: "people"}</xsl:text>
           </xsl:when>
           <xsl:when test="contains(@corresp, ' ')">
             <xsl:for-each select="tokenize(@corresp, ' ')">
@@ -577,13 +577,61 @@
       </div>
       
       <script type="text/javascript">
+        const nodeFilterSelector = document.getElementById("nodeFilterSelect");
+        const edgeFilters = document.getElementsByName("edgesFilter");
         const people = <xsl:value-of select="$graph_people"/>;
         const relations = <xsl:value-of select="$graph_relations"/>;
         const graph_labels = <xsl:value-of select="$graph_labels"/>;
         var nodes = new vis.DataSet(people);
         var edges = new vis.DataSet(relations);
         
-        var container = document.getElementById('mynetwork');
+        <!-- *** -->
+        <!--function startNetwork(data) {-->
+        var container = document.getElementById('mynetwork'); <!-- *** -->
+        <!--const options = {};
+        new vis.Network(container, data, options);
+      }
+        let nodeFilterValue = "";
+        const edgesFilterValues = {
+        red: true,
+        green: true,
+        blue: true,
+        };
+        const nodesFilter = (node) => {
+        if (nodeFilterValue === "") {
+        return true;
+        }
+        switch (nodeFilterValue) {
+        case "people":
+        return node.type === "people";
+        case "places":
+        return node.type === "places";
+        case "juridical persons":
+        return node.type === "juridical_persons";
+        case "estates":
+        return node.type === "estates";
+        default:
+        return true;
+        }
+        };
+        const edgesFilter = (edge) => {
+        return edgesFilterValues[edge.relation];
+        };
+        const nodesView = new vis.DataView(nodes, { filter: nodesFilter });
+        const edgesView = new vis.DataView(edges, { filter: edgesFilter });
+        nodeFilterSelector.addEventListener("change", (e) => {
+        nodeFilterValue = e.target.value;
+        nodesView.refresh();
+        });
+        edgeFilters.forEach((filter) =>
+        filter.addEventListener("change", (e) => {
+        const { value, checked } = e.target;
+        edgesFilterValues[value] = checked;
+        edgesView.refresh();
+        })
+        );
+        startNetwork({ nodes: nodesView, edges: edgesView });-->
+        <!-- *** -->
         var data = {
         nodes: nodes,
         edges: edges
