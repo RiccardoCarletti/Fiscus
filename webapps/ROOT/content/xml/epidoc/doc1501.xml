@@ -83,13 +83,15 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>(<persName key="#Landed_possessions #Rent_in_money #Popes"
-                            ref="#people/68">Honorius I</persName> locat)
+                    <ab>(<persName key="#Popes" ref="#people/68">Honorius I</persName> locat)
                             <persName>Dominico</persName>
-                        <rs key="#Landed_possessions">terras et vineas et prata</rs> foris
-                            <placeName key="#Clusae/gates">portam Flammineam</placeName> usque ad
-                            <placeName key="#Bridges/pontoons">pontem Molvium</placeName> sub annua
-                        pensione <rs key="#Rent_type #Rent_in_money">.XXX. solidorum auri.</rs></ab>
+                        <rs
+                            key="#Landed_possessions #Fiscal_property #Object #Outflow #Allocation_to_individuals"
+                            >terras et vineas et prata</rs> foris <placeName key="#Clusae/gates"
+                            >portam Flammineam</placeName> usque ad <placeName
+                            key="#Bridges/pontoons" ref="#places/304">pontem Molvium</placeName> sub
+                        annua pensione <rs key="#Rent_type #Rent_in_money">.XXX. solidorum
+                            auri.</rs></ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
