@@ -512,20 +512,35 @@
   
   <!-- GRAPH -->
   <xsl:template match="//tei:addSpan[@xml:id='graph']">
-    <xsl:variable name="graph_people">
+    <xsl:variable name="graph_items">
       <xsl:text>[</xsl:text>
       <xsl:for-each select="$people/tei:person">
-        <xsl:variable name="name" select="normalize-space(translate(tei:persName[1], ',', '; '))"/>
-        <xsl:variable name="id" select="substring-after(translate(tei:idno[1],'#',''), 'people/')"/>
-        <xsl:text>{id: </xsl:text><xsl:value-of select="$id"/><xsl:text>, label: '</xsl:text><xsl:value-of select="$name"/><xsl:text>'}</xsl:text>
+        <xsl:text>{id: </xsl:text><xsl:value-of select="translate(tei:idno[1],'#','')"/><xsl:text>, label: "</xsl:text>
+        <xsl:value-of select="normalize-space(translate(tei:persName[1], ',', '; '))"/><xsl:text>", type: "people"}</xsl:text> <!-- , color: "#ffffcc" -->
         <xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if>
       </xsl:for-each>
+      <!--<xsl:for-each select="$juridical_persons/tei:org">
+        <xsl:text>{id: </xsl:text><xsl:value-of select="translate(tei:idno[1],'#','')"/><xsl:text>, label: "</xsl:text>
+        <xsl:value-of select="normalize-space(translate(tei:orgName[1], ',', '; '))"/><xsl:text>", type: "juridical_persons", color: "#ffe6e6"}</xsl:text>
+        <xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if>
+      </xsl:for-each>-->
+      <!--<xsl:for-each select="$estates/tei:place">
+        <xsl:text>{id: </xsl:text><xsl:value-of select="translate(tei:idno[1],'#','')"/><xsl:text>, label: "</xsl:text>
+        <xsl:value-of select="normalize-space(translate(tei:geogName[1], ',', '; '))"/><xsl:text>", type: "estates", color: "#ccffcc"}</xsl:text>
+        <xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if>
+      </xsl:for-each>-->
+      <!--<xsl:for-each select="$places/tei:place">
+        <xsl:text>{id: </xsl:text><xsl:value-of select="translate(tei:idno[1],'#','')"/><xsl:text>, label: "</xsl:text>
+        <xsl:value-of select="normalize-space(translate(tei:placeName[1], ',', '; '))"/><xsl:text>", type: "places", color: "#e6e6ff"}</xsl:text>
+        <xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if>
+      </xsl:for-each>-->
       <xsl:text>]</xsl:text>
     </xsl:variable>
+    
     <xsl:variable name="graph_relations">
       <xsl:text>[</xsl:text>
-      <xsl:for-each select="$people/tei:person/tei:link[@type='people']">
-        <xsl:variable name="id" select="substring-after(ancestor::tei:person/tei:idno, 'people/')"/>
+      <xsl:for-each select="$people//tei:link[@corresp!=''][@type='people']"> <!-- |$juridical_persons//tei:link[@corresp!=''][@type!='places'][@type!='estates']|$estates//tei:link[@corresp!=''][@type!='places'] -->
+        <xsl:variable name="id" select="parent::tei:*/tei:idno[1]"/>
         <xsl:variable name="relation_type"><xsl:choose>
           <xsl:when test="@subtype!=''"><xsl:value-of select="@subtype"/></xsl:when><xsl:otherwise><xsl:text>link</xsl:text></xsl:otherwise>
         </xsl:choose></xsl:variable>
@@ -536,15 +551,15 @@
           </xsl:choose></xsl:variable>
         <xsl:choose>
           <xsl:when test="not(contains(@corresp, ' '))">
-            <xsl:text>{from: </xsl:text><xsl:value-of select="$id"/><xsl:text>, to: </xsl:text><xsl:value-of select="substring-after(@corresp, 'people/')"/>
-            <xsl:text>, label: '</xsl:text><xsl:value-of select="$relation_type"/><xsl:text>', arrows: "to", color: "</xsl:text><xsl:value-of select="$color"/>
-            <xsl:text>", type: "people"}</xsl:text>
+            <xsl:text>{from: </xsl:text><xsl:value-of select="$id"/><xsl:text>, to: </xsl:text><xsl:value-of select="replace(@corresp, '#', '')"/>
+            <xsl:text>, label: "</xsl:text><xsl:value-of select="$relation_type"/><xsl:text>", arrows: "to", color: "</xsl:text><xsl:value-of select="$color"/>
+            <xsl:text>"}</xsl:text>
           </xsl:when>
           <xsl:when test="contains(@corresp, ' ')">
             <xsl:for-each select="tokenize(@corresp, ' ')">
-              <xsl:variable name="single_item" select="."/>
-              <xsl:text>{from: </xsl:text><xsl:value-of select="$id"/><xsl:text>, to: </xsl:text><xsl:value-of select="substring-after($single_item, 'people/')"/>
-              <xsl:text>, label: '</xsl:text><xsl:value-of select="$relation_type"/><xsl:text>', arrows: "to", color: "</xsl:text><xsl:value-of select="$color"/>
+              <xsl:variable name="single_item" select="replace(., '#', '')"/>
+              <xsl:text>{from: </xsl:text><xsl:value-of select="$id"/><xsl:text>, to: </xsl:text><xsl:value-of select="$single_item"/>
+              <xsl:text>, label: "</xsl:text><xsl:value-of select="$relation_type"/><xsl:text>", arrows: "to", color: "</xsl:text><xsl:value-of select="$color"/>
               <xsl:text>"}</xsl:text><xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if>
             </xsl:for-each>
           </xsl:when>
@@ -556,8 +571,8 @@
     
     <xsl:variable name="graph_labels">
       <xsl:text>[</xsl:text>
-      <xsl:for-each select="$people/tei:person">
-        <xsl:text>"</xsl:text><xsl:value-of select="normalize-space(translate(tei:persName[1], ',', '; '))"/><xsl:text>"</xsl:text>
+      <xsl:for-each select="$people/tei:person"> <!-- |$juridical_persons/tei:org|$estates/tei:place -->
+        <xsl:text>"</xsl:text><xsl:value-of select="normalize-space(translate(tei:*[1], ',', '; '))"/><xsl:text>"</xsl:text>
         <xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if>
       </xsl:for-each>
       <xsl:text>]</xsl:text>
@@ -567,137 +582,211 @@
       <div id="mynetwork"></div>
       <div class="legend">
         <p>
-          <span style="color:red">➔</span> family relations | 
-          <span style="color:green">➔</span> personal bonds |
-          <span style="color:blue">➔</span> other links 
-          <span style="margin-left:10px">[Zoom in and click on the arrows to show the relation types]</span>
+          <!--<span style="background-color:#ffffcc;padding:2px;margin-right:3px">People</span> <input type="checkbox" name="nodesFilter" value="people" checked="true"/>
+          <span style="background-color:#ffe6e6;padding:2px;margin-left:10px;margin-right:3px">Juridical persons</span> <input type="checkbox" name="nodesFilter" value="juridical_persons" checked="true"/>
+          <span style="background-color:#ccffcc;padding:2px;margin-left:10px;margin-right:3px">Estates</span> <input type="checkbox" name="nodesFilter" value="estates" checked="true"/>
+          <span style="background-color:#e6e6ff;padding:2px;margin-left:10px;margin-right:3px">Places</span> <input type="checkbox" name="nodesFilter" value="places" checked="true"/> <br/>-->
+          <span style="color:red">➔</span> Family relations <input type="checkbox" name="edgesFilter" value="red" checked="true"/> 
+          <span style="color:green;margin-left:10px">➔</span> Personal bonds <input type="checkbox" name="edgesFilter" value="green" checked="true"/>
+          <span style="color:blue;margin-left:10px">➔</span> Other links <input type="checkbox" name="edgesFilter" value="blue" checked="true"/>
+          <span style="margin-left:15px">[Zoom in and click on the arrows to show the relation types]</span>
           <br/><span class="autocomplete"><input type="text" id="inputSearch" placeholder="Search"/></span><button id="btnSearch" class="button">Search</button>
           <br/><button onclick="openFullscreen();" class="button">Fullscreen</button>
         </p>
       </div>
       
       <script type="text/javascript">
-        const nodeFilterSelector = document.getElementById("nodeFilterSelect");
+        const nodeFilters = document.getElementsByName("nodesFilter");
         const edgeFilters = document.getElementsByName("edgesFilter");
-        const people = <xsl:value-of select="$graph_people"/>;
-        const relations = <xsl:value-of select="$graph_relations"/>;
+        const people = <xsl:value-of select="replace(replace(replace(replace($graph_items, 'people/', ''), 'juridical_persons/', '10000'), 'estates/', '20000'), 'places/', '30000')"/>;
+        const relations = <xsl:value-of select="replace(replace(replace(replace($graph_relations, 'people/', ''), 'juridical_persons/', '10000'), 'estates/', '20000'), 'places/', '30000')"/>;
         const graph_labels = <xsl:value-of select="$graph_labels"/>;
         var nodes = new vis.DataSet(people);
         var edges = new vis.DataSet(relations);
-        
-        <!-- *** -->
-        <!--function startNetwork(data) {-->
-        var container = document.getElementById('mynetwork'); <!-- *** -->
-        <!--const options = {};
-        new vis.Network(container, data, options);
-      }
-        let nodeFilterValue = "";
-        const edgesFilterValues = {
-        red: true,
-        green: true,
-        blue: true,
-        };
-        const nodesFilter = (node) => {
-        if (nodeFilterValue === "") {
-        return true;
-        }
-        switch (nodeFilterValue) {
-        case "people":
-        return node.type === "people";
-        case "places":
-        return node.type === "places";
-        case "juridical persons":
-        return node.type === "juridical_persons";
-        case "estates":
-        return node.type === "estates";
-        default:
-        return true;
-        }
-        };
-        const edgesFilter = (edge) => {
-        return edgesFilterValues[edge.relation];
-        };
-        const nodesView = new vis.DataView(nodes, { filter: nodesFilter });
-        const edgesView = new vis.DataView(edges, { filter: edgesFilter });
-        nodeFilterSelector.addEventListener("change", (e) => {
-        nodeFilterValue = e.target.value;
-        nodesView.refresh();
-        });
-        edgeFilters.forEach((filter) =>
-        filter.addEventListener("change", (e) => {
-        const { value, checked } = e.target;
-        edgesFilterValues[value] = checked;
-        edgesView.refresh();
-        })
-        );
-        startNetwork({ nodes: nodesView, edges: edgesView });-->
-        <!-- *** -->
-        var data = {
-        nodes: nodes,
-        edges: edges
-        };
+        var container = document.getElementById('mynetwork');
+        var data = { nodes: nodes, edges: edges };
         var options = {
-        edges:{
-            font: { 
-                align: "horizontal",
-                size: 5,
-                color: "lightgrey"
-            },
-            chosen: { 
-              label: function (values, id, selected, hovering) { 
-                values.size = 16;
-                values.color = "black";
-                }
-            } 
-        },
-        nodes:{
-        shape: "box",
-        widthConstraint: { maximum: 200 }
-        },
-        interaction:{
-        navigationButtons: true
-        },
-        physics: {
-        enabled: false,
-        solver: "repulsion",
-        repulsion: {
-        nodeDistance: 250
-        }
-        }
+               edges: {
+                   font: { align: "horizontal", size: 5, color: "lightgrey" },
+                   chosen: { label: function (values, id, selected, hovering) { values.size = 16; values.color = "black"; } } 
+               },
+               nodes: { shape: "box", widthConstraint: { maximum: 200 } },
+               interaction: { navigationButtons: true },
+               layout: {improvedLayout: false},
+               physics: { enabled: false, solver: "repulsion", repulsion: { nodeDistance: 250 } }
         };
-        var network = new vis.Network(container, data, options);
-        network.stabilize();
+        function startNetwork(data) { new vis.Network(container, data, options).stabilize(); }
+        
+        const edgesFilterValues = { red: true, green: true, blue: true };
+        const edgesFilter = (edge) => { return edgesFilterValues[edge.color]; };
+        const edgesView = new vis.DataView(edges, { filter: edgesFilter });
+        const nodesFilterValues = { people: true, places: true, juridical_persons: true, estates: true };
+        const nodesFilter = (node) => { return nodesFilterValues[node.type]; };
+        const nodesView = new vis.DataView(nodes, { filter: nodesFilter });
+        var fildata = { nodes: nodesView, edges: edgesView };
+        
+        edgeFilters.forEach((filter) => filter.addEventListener("change", (e) => { 
+            const { value, checked } = e.target; edgesFilterValues[value] = checked; edgesView.refresh(); }) );
+        nodeFilters.forEach((filter) => filter.addEventListener("change", (e) => { 
+        const { value, checked } = e.target; nodesFilterValues[value] = checked; nodesView.refresh(); startNetwork(fildata); }) );
+        
+        startNetwork(fildata);
         
         <!-- fullscreen -->
         var full = document.getElementById("mynetwork"); 
         function openFullscreen() {
-        if (full.requestFullscreen) {
-        full.requestFullscreen();
-        } else if (full.webkitRequestFullscreen) {
-        full.webkitRequestFullscreen();
-        } else if (full.msRequestFullscreen) {
-        full.msRequestFullscreen();
-        }
-        }
+        if (full.requestFullscreen) { full.requestFullscreen(); } 
+        else if (full.webkitRequestFullscreen) { full.webkitRequestFullscreen();} 
+        else if (full.msRequestFullscreen) { full.msRequestFullscreen(); } }
         
         <!-- search -->
-       $("#btnSearch").on('click',function () {
-       for (var i = 0; i&lt;people.length; i++){
-       if (people[i].label.indexOf($("#inputSearch").val()) >=0) {
-          if ($("#inputSearch").val() != ''){
-          people[i].color = {
-          background: "yellow"
-          };
-          };
-          }
-          else{
-          delete people[i].color;
-          }
-          }
-          new vis.Network(container, data, options).stabilize();
-          });
+       $("#btnSearch").on('click',function () { for (var i = 0; i&lt;people.length; i++){
+       if (people[i].label.indexOf($("#inputSearch").val()) >=0) { if ($("#inputSearch").val() != ''){ 
+       people[i].color = { background: "red" }; }; } else{ delete people[i].color; } }
+       
+       startNetwork(fildata);
+       });
           
-          autocomplete(document.getElementById("inputSearch"), graph_labels); <!-- function called from assets/networks.js -->
+       autocomplete(document.getElementById("inputSearch"), graph_labels); <!-- function called from assets/networks.js -->
+      </script>
+    </div>
+  </xsl:template>
+  
+  <!-- COMPLETE GRAPH -->
+  <xsl:template match="//tei:addSpan[@xml:id='graphs']">
+    <xsl:variable name="graph_items">
+      <xsl:text>[</xsl:text>
+      <xsl:for-each select="$people/tei:person">
+        <xsl:text>{id: </xsl:text><xsl:value-of select="translate(tei:idno[1],'#','')"/><xsl:text>, label: "</xsl:text>
+        <xsl:value-of select="normalize-space(translate(tei:persName[1], ',', '; '))"/><xsl:text>", type: "people", color: "#ffffcc"}, </xsl:text>
+      </xsl:for-each>
+      <xsl:for-each select="$juridical_persons/tei:org">
+        <xsl:text>{id: </xsl:text><xsl:value-of select="translate(tei:idno[1],'#','')"/><xsl:text>, label: "</xsl:text>
+        <xsl:value-of select="normalize-space(translate(tei:orgName[1], ',', '; '))"/><xsl:text>", type: "juridical_persons", color: "#ffe6e6"}, </xsl:text>
+      </xsl:for-each>
+      <xsl:for-each select="$estates/tei:place">
+        <xsl:text>{id: </xsl:text><xsl:value-of select="translate(tei:idno[1],'#','')"/><xsl:text>, label: "</xsl:text>
+        <xsl:value-of select="normalize-space(translate(tei:geogName[1], ',', '; '))"/><xsl:text>", type: "estates", color: "#ccffcc"}, </xsl:text>
+      </xsl:for-each>
+      <xsl:for-each select="$places/tei:place">
+        <xsl:text>{id: </xsl:text><xsl:value-of select="translate(tei:idno[1],'#','')"/><xsl:text>, label: "</xsl:text>
+        <xsl:value-of select="normalize-space(translate(tei:placeName[1], ',', '; '))"/><xsl:text>", type: "places", color: "#e6e6ff"}</xsl:text>
+        <xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if>
+      </xsl:for-each>
+      <xsl:text>]</xsl:text>
+    </xsl:variable>
+    
+    <xsl:variable name="graph_relations">
+      <xsl:text>[</xsl:text>
+      <xsl:for-each select="$people//tei:link[@corresp!='']|$juridical_persons//tei:link[@corresp!='']|$estates//tei:link[@corresp!='']|$places//tei:link[@corresp!='']">
+        <xsl:variable name="id" select="parent::tei:*/tei:idno[1]"/>
+        <xsl:variable name="relation_type"><xsl:choose>
+          <xsl:when test="@subtype!=''"><xsl:value-of select="@subtype"/></xsl:when><xsl:otherwise><xsl:text>link</xsl:text></xsl:otherwise>
+        </xsl:choose></xsl:variable>
+        <xsl:variable name="color"><xsl:choose>
+          <xsl:when test="$thesaurus//tei:catDesc[@n=$relation_type][@key='family']"><xsl:text>red</xsl:text></xsl:when>
+          <xsl:when test="$thesaurus//tei:catDesc[@n=$relation_type][@key='personal']"><xsl:text>green</xsl:text></xsl:when>
+          <xsl:otherwise><xsl:text>blue</xsl:text></xsl:otherwise>
+        </xsl:choose></xsl:variable>
+        <xsl:choose>
+          <xsl:when test="not(contains(@corresp, ' '))">
+            <xsl:text>{from: </xsl:text><xsl:value-of select="$id"/><xsl:text>, to: </xsl:text><xsl:value-of select="replace(@corresp, '#', '')"/>
+            <xsl:text>, label: "</xsl:text><xsl:value-of select="$relation_type"/><xsl:text>", arrows: "to", color: "</xsl:text><xsl:value-of select="$color"/>
+            <xsl:text>"}</xsl:text>
+          </xsl:when>
+          <xsl:when test="contains(@corresp, ' ')">
+            <xsl:for-each select="tokenize(@corresp, ' ')">
+              <xsl:variable name="single_item" select="replace(., '#', '')"/>
+              <xsl:text>{from: </xsl:text><xsl:value-of select="$id"/><xsl:text>, to: </xsl:text><xsl:value-of select="$single_item"/>
+              <xsl:text>, label: "</xsl:text><xsl:value-of select="$relation_type"/><xsl:text>", arrows: "to", color: "</xsl:text><xsl:value-of select="$color"/>
+              <xsl:text>"}</xsl:text><xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if>
+            </xsl:for-each>
+          </xsl:when>
+        </xsl:choose>
+        <xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if>
+      </xsl:for-each>
+      <xsl:text>]</xsl:text>
+    </xsl:variable>
+    
+    <xsl:variable name="graph_labels">
+      <xsl:text>[</xsl:text>
+      <xsl:for-each select="$people/tei:person|$juridical_persons/tei:org|$estates/tei:place|$places/tei:place">
+        <xsl:text>"</xsl:text><xsl:value-of select="normalize-space(translate(tei:*[1], ',', '; '))"/><xsl:text>"</xsl:text>
+        <xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if>
+      </xsl:for-each>
+      <xsl:text>]</xsl:text>
+    </xsl:variable>
+    
+    <div class="row" style="padding: 40px 20px 60px 20px">
+      <div id="mygraph"></div>
+      <div class="legend">
+        <p>
+          <span style="background-color:#ffffcc;padding:2px;margin-right:3px">People</span> <input type="checkbox" name="nodesFilter" value="people" checked="true"/>
+          <span style="background-color:#ffe6e6;padding:2px;margin-left:10px;margin-right:3px">Juridical persons</span> <input type="checkbox" name="nodesFilter" value="juridical_persons" checked="true"/>
+          <span style="background-color:#ccffcc;padding:2px;margin-left:10px;margin-right:3px">Estates</span> <input type="checkbox" name="nodesFilter" value="estates" checked="true"/>
+          <span style="background-color:#e6e6ff;padding:2px;margin-left:10px;margin-right:3px">Places</span> <input type="checkbox" name="nodesFilter" value="places" checked="true"/> <br/>
+          <span style="color:red">➔</span> Family relations <input type="checkbox" name="edgesFilter" value="red" checked="true"/> 
+          <span style="color:green;margin-left:10px">➔</span> Personal bonds <input type="checkbox" name="edgesFilter" value="green" checked="true"/>
+          <span style="color:blue;margin-left:10px">➔</span> Other links <input type="checkbox" name="edgesFilter" value="blue" checked="true"/>
+          <span style="margin-left:15px">[Zoom in and click on the arrows to show the relation types]</span>
+          <br/><span class="autocomplete"><input type="text" id="inputSearch" placeholder="Search"/></span><button id="btnSearch" class="button">Search</button>
+          <br/><button onclick="openFullscreen();" class="button">Fullscreen</button>
+        </p>
+      </div>
+      
+      <script type="text/javascript">
+        const nodeFilters = document.getElementsByName("nodesFilter");
+        const edgeFilters = document.getElementsByName("edgesFilter");
+        const people = <xsl:value-of select="replace(replace(replace(replace($graph_items, 'people/', ''), 'juridical_persons/', '10000'), 'estates/', '20000'), 'places/', '30000')"/>;
+        const relations = <xsl:value-of select="replace(replace(replace(replace($graph_relations, 'people/', ''), 'juridical_persons/', '10000'), 'estates/', '20000'), 'places/', '30000')"/>;
+        const graph_labels = <xsl:value-of select="$graph_labels"/>;
+        var nodes = new vis.DataSet(people);
+        var edges = new vis.DataSet(relations);
+        var container = document.getElementById('mygraph');
+        var data = { nodes: nodes, edges: edges };
+        var options = {
+        edges: {
+        font: { align: "horizontal", size: 5, color: "lightgrey" },
+        chosen: { label: function (values, id, selected, hovering) { values.size = 16; values.color = "black"; } } 
+        },
+        nodes: { shape: "box", widthConstraint: { maximum: 200 } },
+        interaction: { navigationButtons: true },
+        layout: {improvedLayout: false},
+        physics: { enabled: false, solver: "repulsion", repulsion: { nodeDistance: 250 } }
+        };
+        function startNetwork(data) { new vis.Network(container, data, options).stabilize(); }
+        
+        const edgesFilterValues = { red: true, green: true, blue: true };
+        const edgesFilter = (edge) => { return edgesFilterValues[edge.color]; };
+        const edgesView = new vis.DataView(edges, { filter: edgesFilter });
+        const nodesFilterValues = { people: true, places: true, juridical_persons: true, estates: true };
+        const nodesFilter = (node) => { return nodesFilterValues[node.type]; };
+        const nodesView = new vis.DataView(nodes, { filter: nodesFilter });
+        var fildata = { nodes: nodesView, edges: edgesView };
+        
+        edgeFilters.forEach((filter) => filter.addEventListener("change", (e) => { 
+        const { value, checked } = e.target; edgesFilterValues[value] = checked; edgesView.refresh(); }) );
+        nodeFilters.forEach((filter) => filter.addEventListener("change", (e) => { 
+        const { value, checked } = e.target; nodesFilterValues[value] = checked; nodesView.refresh(); startNetwork(fildata); }) );
+        
+        startNetwork(fildata);
+        
+        <!-- fullscreen -->
+        var full = document.getElementById("mygraph"); 
+        function openFullscreen() {
+        if (full.requestFullscreen) { full.requestFullscreen(); } 
+        else if (full.webkitRequestFullscreen) { full.webkitRequestFullscreen();} 
+        else if (full.msRequestFullscreen) { full.msRequestFullscreen(); } }
+        
+        <!-- search -->
+        $("#btnSearch").on('click',function () { for (var i = 0; i&lt;people.length; i++){
+        if (people[i].label.indexOf($("#inputSearch").val()) >=0) { if ($("#inputSearch").val() != ''){ 
+        people[i].color = { background: "red" }; }; } else{ delete people[i].color; } }
+        
+        startNetwork(fildata);
+        });
+        
+        autocomplete(document.getElementById("inputSearch"), graph_labels); <!-- function called from assets/networks.js -->
       </script>
     </div>
   </xsl:template>
