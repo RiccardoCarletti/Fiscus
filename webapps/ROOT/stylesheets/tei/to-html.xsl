@@ -653,6 +653,108 @@
   </xsl:template>
   
   <!-- COMPLETE GRAPH -->
+  <!--<xsl:template match="//tei:addSpan[@xml:id='graphs']">
+    <xsl:variable name="graph_items">
+      <xsl:text>[</xsl:text>
+      <xsl:for-each select="$people/tei:person|$juridical_persons/tei:org|$estates/tei:place|$places/tei:place">
+        <xsl:text>{data: { id: "</xsl:text><xsl:value-of select="tei:idno[1]"/><xsl:text>", label: "</xsl:text>        
+        <xsl:value-of select="normalize-space(translate(tei:*[1], ',', '; '))"/><xsl:text>"</xsl:text>
+        <xsl:text>, type: "</xsl:text><xsl:choose>
+          <xsl:when test="ancestor::tei:listPerson">people</xsl:when>
+          <xsl:when test="ancestor::tei:listOrg">juridical_persons</xsl:when>
+          <xsl:when test="ancestor::tei:listPlace[@type='estates']">estates</xsl:when>
+          <xsl:when test="ancestor::tei:listPlace[@type='places']">places</xsl:when>
+        </xsl:choose><xsl:text>"</xsl:text>
+        <xsl:text> } }, </xsl:text>
+      </xsl:for-each>
+      <xsl:for-each select="$people//tei:link[@corresp!='']|$juridical_persons//tei:link[@corresp!='']|$estates//tei:link[@corresp!='']|$places//tei:link[@corresp!='']">
+        <xsl:variable name="id" select="parent::tei:*/tei:idno[1]"/>
+        <xsl:variable name="relation_type"><xsl:choose>
+          <xsl:when test="@subtype!=''"><xsl:value-of select="@subtype"/></xsl:when><xsl:otherwise><xsl:text>link</xsl:text></xsl:otherwise>
+        </xsl:choose></xsl:variable>
+        <xsl:variable name="color"><xsl:choose>
+          <xsl:when test="$thesaurus//tei:catDesc[@n=$relation_type][@key='family']"><xsl:text>red</xsl:text></xsl:when>
+          <xsl:when test="$thesaurus//tei:catDesc[@n=$relation_type][@key='personal']"><xsl:text>green</xsl:text></xsl:when>
+          <xsl:otherwise><xsl:text>blue</xsl:text></xsl:otherwise>
+        </xsl:choose></xsl:variable>
+        <xsl:choose>
+          <xsl:when test="not(contains(@corresp, ' '))">
+            <xsl:text>{ data: { id: "</xsl:text><xsl:value-of select="concat($id, ' + ', replace(@corresp, '#', ''))"/><xsl:text>", label: "</xsl:text><xsl:value-of select="$relation_type"/><xsl:text>", source: "</xsl:text><xsl:value-of select="$id"/>
+            <xsl:text>", target: "</xsl:text><xsl:value-of select="replace(@corresp, '#', '')"/><xsl:text>"</xsl:text> 
+            <xsl:text>, type: "</xsl:text><xsl:value-of select="$color"/><xsl:text>"</xsl:text>
+            <xsl:text> } }</xsl:text>
+          </xsl:when>
+          <xsl:when test="contains(@corresp, ' ')">
+            <xsl:for-each select="tokenize(@corresp, ' ')">
+              <xsl:variable name="single_item" select="replace(., '#', '')"/>
+              <xsl:text>{ data: { id: "</xsl:text><xsl:value-of select="concat($id, ' + ', $single_item)"/><xsl:text>", label: "</xsl:text><xsl:value-of select="$relation_type"/><xsl:text>", source: "</xsl:text><xsl:value-of select="$id"/>
+              <xsl:text>", target: "</xsl:text><xsl:value-of select="$single_item"/><xsl:text>"</xsl:text> 
+              <xsl:text>, type: "</xsl:text><xsl:value-of select="$color"/><xsl:text>"</xsl:text>
+              <xsl:text> } }</xsl:text>
+              <xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if>
+            </xsl:for-each>
+          </xsl:when>
+        </xsl:choose>
+        <xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if>
+      </xsl:for-each>
+      <xsl:text>]</xsl:text>
+    </xsl:variable>
+    
+    <xsl:variable name="graph_labels">
+      <xsl:text>[</xsl:text>
+      <xsl:for-each select="$people/tei:person|$juridical_persons/tei:org|$estates/tei:place|$places/tei:place">
+        <xsl:text>"</xsl:text><xsl:value-of select="normalize-space(translate(tei:*[1], ',', '; '))"/><xsl:text>"</xsl:text>
+        <xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if>
+      </xsl:for-each>
+      <xsl:text>]</xsl:text>
+    </xsl:variable>
+    
+    <div class="row" style="padding: 40px 20px 60px 20px">
+      <div id="mygraph"></div>
+      <div class="legend">
+        <p>
+          <span style="background-color:#ffffcc;padding:2px;margin-right:3px">People</span> <!-\-<input type="checkbox" name="nodesFilter" value="people" checked="true"/>-\->
+          <span style="background-color:#ffe6e6;padding:2px;margin-left:10px;margin-right:3px">Juridical persons</span> <!-\-<input type="checkbox" name="nodesFilter" value="juridical_persons" checked="true"/>-\->
+          <span style="background-color:#ccffcc;padding:2px;margin-left:10px;margin-right:3px">Estates</span> <!-\-<input type="checkbox" name="nodesFilter" value="estates" checked="true"/>-\->
+          <span style="background-color:#e6e6ff;padding:2px;margin-left:10px;margin-right:3px">Places</span> <!-\-<input type="checkbox" name="nodesFilter" value="places" checked="true"/>-\-> <br/>
+          <span style="color:red">➔</span> Family relations <!-\-<input type="checkbox" name="edgesFilter" value="red" checked="true"/>-\-> 
+          <span style="color:green;margin-left:10px">➔</span> Personal bonds <!-\-<input type="checkbox" name="edgesFilter" value="green" checked="true"/>-\->
+          <span style="color:blue;margin-left:10px">➔</span> Other links <!-\-<input type="checkbox" name="edgesFilter" value="blue" checked="true"/>-\->
+          <!-\-<span style="margin-left:15px">[Zoom in and click on the arrows to show the relation types]</span>
+          <br/><span class="autocomplete"><input type="text" id="inputSearch" placeholder="Search"/></span><button id="btnSearch" class="button">Search</button>-\->
+          <br/><button onclick="openFullscreen();" class="button">Fullscreen</button>
+        </p>
+      </div>
+      
+      <script type="text/javascript">
+       var graph_items = <xsl:value-of select="$graph_items"/>;
+        const graph_labels = <xsl:value-of select="$graph_labels"/>;
+        var cy = cytoscape({ container: document.getElementById('mygraph'), elements: graph_items,
+       style: [
+       { selector: 'node', style: { 'label': 'data(label)', 'shape': 'round-rectangle', 'height': '100px', 'width': '300px', 'text-halign': 'center', 'text-valign': 'center', 'text-wrap': 'wrap', 'text-max-width': '280px', 'border-width': 1, 'border-color': 'gray', 'border-style': 'solid' } },
+       { selector: 'edge', style: { 'width': 1, 'label': 'data(label)', 'target-arrow-shape': 'triangle', 'curve-style': 'bezier' } },
+       { selector: 'node[type="people"]', style: { 'background-color': '#ffffcc' } },
+       { selector: 'node[type="juridical_persons"]', style: { 'background-color': '#ffe6e6' } },
+       { selector: 'node[type="estates"]', style: { 'background-color': '#ccffcc' } },
+       { selector: 'node[type="places"]', style: { 'background-color': '#e6e6ff' } },
+       { selector: 'edge[type="red"]', style: { 'line-color': 'red', 'target-arrow-color': 'red' } },
+       { selector: 'edge[type="green"]', style: { 'line-color': 'green', 'target-arrow-color': 'green' } },
+       { selector: 'edge[type="blue"]', style: { 'line-color': 'blue', 'target-arrow-color': 'blue' } }
+       ],
+       layout: { name: 'cose-bilkent', quality: 'draft', animate: false, fit: true, padding: 200, randomize: false, nodeRepulsion: 900000000, idealEdgeLength: 200, edgeElasticity: 0.45, gravity: 1 }
+       });
+       <!-\- toggle nodes&edges, hide/show labels, not overlap, search+autocomplete, navigation buttons -\->
+       
+       <!-\- fullscreen -\->
+       var full = document.getElementById("mygraph"); 
+       function openFullscreen() {
+       if (full.requestFullscreen) { full.requestFullscreen(); } 
+       else if (full.webkitRequestFullscreen) { full.webkitRequestFullscreen();} 
+       else if (full.msRequestFullscreen) { full.msRequestFullscreen(); } }
+      </script>
+    </div>
+  </xsl:template>-->
+  
   <xsl:template match="//tei:addSpan[@xml:id='graphs']">
     <xsl:variable name="graph_items">
       <xsl:text>[</xsl:text>
