@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Ughelli, <foreign>Italia sacra</foreign>, I ed. III, 37 </title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc1114</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#"/>
+                            <rs type="record_source" ref="#"/>
+                            <rs type="document_tradition" ref="#"/>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate notBefore="0001" notAfter="0001" when="0001"> 
+                                <note type="displayed_date"></note>
+                                <note type="dating_elements"></note>
+                                <note type="topical_date"></note>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-02-08">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine Domini nostri Iesu Christi Dei aeterni. Berengarius divina favente
+                        clementia rex. Si venerabilium locorum divino cultui mancipatis
+                        episcopatibus munus quodlibet nostrae dapsilitats concedimus, praemia sine
+                        fine mansura Domino largiente percipere non ambigimus. Quapropter omnium
+                        fidelium sanctae Dei Ecclesiae nostrorumque praesentium scilicet et
+                        futurorum noverit industria, quoniam interventu ac petitione Zenobii
+                        venerabilis episcopi et dilecti consiliarii nostri concessimus et
+                        condonavimus ecclesiae Sanctorum Ioannis et Miniati, quae caput est
+                        Florentini episcopatus, cui auctore Deo Grasulphus episcopus praeesse
+                        videtur, terram videlicet ad modios duodecim quae dicitur Campus Regis prope
+                        ipsam ecclesiam Sancti Ioannis positam, hactenus pertinentem de curte Regis
+                        sita Florentiae et ita terminatam, de duabus partibus terra ipsius
+                        ecclesiae, ex tertia parte percurrit fluvius Munione, de quarta vero parte
+                        terra Magiberti et Mauriperti et Floriperti eourmque consortium. Aliam
+                        quoque petiam terrae ad modios sex, hactenus pertinentem de curte
+                        Beneventana, positam prope ecclesiam Sancti Miniati, in cuius ecclesia
+                        sanctorum corpora octo quiescunt, de nostro iure et potestate praedictam
+                        terram, sicut superius legitur, etiam suis terminationibus in ius et
+                        potestatem ipsius ecclesiae modis omnibus transfundimus et perdonamus, ut
+                        praesul ipsius ecclesiae habeat, teneat atque possideat, potestatemque
+                        habeat ad honorem iam dicti episcopatus donandi, vendendi, commutandi, seu
+                        mancipiandi, remota totius potestatis inquietudine. Si quis igitur, quod
+                        minime credimus, contra hoc nostrae concessionis praeceptum insurgere
+                        tentaverit, sciat se compositurum auri optimi libras triginta, medietatem
+                        palatio nostro et medietatem parti ipsius ecclesiae. Ut autem verius
+                        credatur et diligentius ab omnibus observetur, manu propria roboratum annulo
+                        nostro subter iussimus sigillari. Signum domni Berengarii gloriosissimi
+                        regis. Martianus notarius ad vicem Petri episcopi et archicancellarii
+                        recognovi et subscripsi. Data VII kal. Maii, anno incarnationis Domini
+                        DCCCXCVIIII, domni autem Berengarii gloriosissimi regis XII, indictione II.
+                        Actum Papiae. In Dei nomine feliciter.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
