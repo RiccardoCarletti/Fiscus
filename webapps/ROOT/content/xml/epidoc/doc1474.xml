@@ -83,40 +83,66 @@
                 <body>
                     <div type="edition">
                         <div type="textpart">
-                            <ab>Stefano abbas de monasterio Sancti Bartholomei sito locho Sextinghe
-                        concede in livello a Ildibrando et Donato germani filii quondam Ildibrandi
-                        (…) medietatem de casis et cassinis seo chasalinis curtis et ecclesiis sive
-                        rebus meis illis donichatis et massariciis (…) quam habeo in loco Tacte cum
-                        de meam portionem ex integra de ecclesia Sancti Martini medietatem in loco
-                        Chapilliani seu in Trigungnani adque a Butro et in loco Ferruni sive in loco
-                        ubi dicitur a Sancto Stefano sive cum de meam portione de ecclesia Sancti
-                        Stefani cum de meam portione medietate de curte de Padule adque de meam
-                        portione medietate de ecclesia chui vocabulo est Sancti Andree et in
-                        Aquatiche et in Verliani et in Vergniani et in Gritaio adque in Chastianu
-                        seu et in loco Fabbri et in Monte Giachuni et in Sequerciana vel per aliis
-                        locis et vochabulis con tutte le loro dipendenze, sicut iam obvenit per
-                        cartula offersionis in prefatus monasterio da Gherardo filio bone memorie
-                        Petri et in cartula ipsa continere videtur; eccetto integram meam portionem
-                        de integre quatuor masce, una que est posita ha Castiianu et iam recta fuit
-                        per Suverello massario; alia est posita ha Quercito; tertia est posita
-                        haf.Fabbri; quarta est posita ha Piro Grosso. I livellari si impegnano a
-                        versare all’abate e ai suoi successori ogni mese di agosto al monastero il
-                        censo annuale di 6 denari d’argento. Se non rispetteranno i suddetti
-                        impegni, promettono con i loro eredi di versare all’abate e ai suoi
-                        successori la pena di una libbra d’oro. Auctum predicto monasterio
-                        territurio Rosellense. + Ego Stefan(us) abb(as) in unc libelu a me facto
-                        subscripsi. Testimoni: Rollandi filio bone memorie Buchuli; Gherardi filio
-                        bone memorie Teutii et Teutio filio suo. Scrive Petrus notarius scriptor.
-                            <placeName>Sextinghe (Badia Vecchia, Castiglione della Pescaia), Tacte
-                            (Tatti, Massa Marittima), Chapilliani (?), Trigungnani (?), Butro (?),
-                            Ferruni (?), Sancto Stefano (Case Santo Stefano, Massa Marittima),
-                            Padule (Padule, Chiusdino), Aquatiche (?), Verliani (Podere Verliano,
-                            Montieri), Vergniani (?), Gricaso (Poggio Castello Tricasi, Massa
-                            Marittima), Chastianu (Podere Castiano, Radicondoli), Fabbri (?), Monte
-                            Giachuni (Monte Gusciani, Massa Marittima), Sequeresana (?), Quercito
-                            (?), Piro Grosso (?).</placeName>
-                        <orgName>San Bartolomeo di Sestinga, San Martino di Tatti, Santo Stefano,
-                            Sant’Andrea di Padule.</orgName>
+                            <ab><persName key="#Abbots" ref="#people/219">Stefano</persName>
+                        <rs key="#Abbots">abbas</rs> de <rs key="#Monasteries">monasterio</rs>
+                        <orgName key="#Monasteries" ref="#juridical_persons/126">Sancti
+                            Bartholomei</orgName> sito locho <placeName key="#Monasteries"
+                            ref="#places/281">Sextinghe</placeName> concede in livello a
+                            <persName>Ildibrando</persName> et <persName>Donato</persName> germani
+                        filii quondam <persName>Ildibrandi</persName> (…) medietatem de <rs
+                            key="#Casae/cassinae_massaricie">casis et cassinis</rs> seo <rs
+                            key="#Casalini/fundamenta">chasalinis</rs> curtis et <rs key="#Churches"
+                            >ecclesiis</rs> sive rebus meis illis <rs key="#Demesnes"
+                            >donichatis</rs> et massariciis (…) quam habeo in loco <placeName
+                            key="#Demesnes #Casae/cassinae_massaricie #Casalini/fundamenta #Churches"
+                            >Tacte</placeName> cum de meam portionem ex integra de <rs
+                            key="#Churches">ecclesia</rs>
+                        <orgName key="#Churches/religious_bodies">Sancti Martini</orgName>
+                        medietatem, in loco <placeName key="#Landed_possessions"
+                            >Chapilliani</placeName> seu in <placeName key="#Landed_possessions"
+                            >Trigungnani</placeName> adque a <placeName key="#Landed_possessions"
+                            >Butro</placeName> et in loco <placeName key="#Landed_possessions"
+                            >Ferruni</placeName> sive in <placeName
+                            key="#Landed_possessions #Churches">loco ubi dicitur a Sancto
+                            Stefano</placeName> sive cum de meam portione de <rs key="#Churches"
+                            >ecclesia</rs>
+                        <orgName key="#Churches">Sancti Stefani</orgName> cum de meam portione
+                        medietate de <rs key="#Curtes">curte</rs> de <placeName key="#Curtes"
+                            >Padule</placeName> adque de meam portione medietate de <rs
+                            key="#Churches">ecclesia</rs> chui vocabulo est <orgName key="#Churches"
+                            >Sancti Andree</orgName> et in <placeName key="#Landed_possessions"
+                            >Aquatiche</placeName> et in <placeName key="#Landed_possessions"
+                            >Verliani</placeName> et in <placeName key="#Landed_possessions"
+                            >Vergniani</placeName> et in <placeName key="#Landed_possessions"
+                            >Gritaio</placeName> adque in <placeName key="#Landed_possessions"
+                            >Chastianu</placeName> seu et in loco <placeName
+                            key="#Landed_possessions">Fabbri</placeName> et in <placeName
+                            key="#Landed_possessions">Monte Giachuni</placeName> et in <placeName
+                            key="#Landed_possessions">Sequerciana</placeName> vel per aliis locis et
+                        vochabulis con tutte le loro dipendenze, sicut iam obvenit per <rs
+                            key="#Offersio/donatio">cartula offersionis</rs> in prefatus monasterio
+                        da <persName>Gherardo</persName> filio bone memorie
+                            <persName>Petri</persName> et in cartula ipsa continere videtur; eccetto
+                        integram meam portionem de integre quatuor <rs key="#Mansi">masce</rs>, una
+                        que est posita ha <placeName key="#Mansi">Castiianu</placeName> et iam recta
+                        fuit per <persName>Suverello</persName> massario; alia est posita ha
+                            <placeName key="#Mansi">Quercito</placeName>; tertia est posita
+                            haf.<placeName key="#Mansi">Fabbri</placeName>; quarta est posita ha
+                            <placeName key="#Mansi">Piro Grosso</placeName>. I livellari si
+                        impegnano a versare all’abate e ai suoi successori ogni mese di agosto al
+                        monastero il censo annuale di 6 denari d’argento. Se non rispetteranno i
+                        suddetti impegni, promettono con i loro eredi di versare all’abate e ai suoi
+                        successori la pena di una libbra d’oro. Auctum predicto monasterio <rs
+                            key="#Comitatus">territurio</rs>
+                        <geogName key="#Comitatus" ref="#estates/154">Rosellense</geogName>. + Ego
+                        Stefan(us) abb(as) in unc libelu a me facto subscripsi. Testimoni:
+                            <persName>Rollandi</persName> filio bone memorie
+                            <persName>Buchuli</persName>; <persName>Gherardi</persName> filio bone
+                        memorie <persName>Teutii</persName> et <persName>Teutio</persName> filio
+                        suo. Scrive <persName key="#Notary">Petrus</persName>
+                        <rs key="#Notary">notarius</rs> scriptor.  <orgName>San Bartolomeo di
+                            Sestinga, San Martino di Tatti, Santo Stefano, Sant’Andrea di
+                            Padule.</orgName>
                     </ab>
                         </div>
                     </div>
