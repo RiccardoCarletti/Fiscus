@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    Diplomatico, + F 2</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                        </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc524</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Commutatio</rs>
+                                    <rs type="record_source" ref="#">Original document</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property"/>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate when="0898-05-15">
+                                <note type="displayed_date">898 May 15</note>
+                                <note type="dating_elements">Anno d’impero di Lamberto</note>
+                                <note type="topical_date">Ponte a Cappiano, Fucecchio</note>
+                            </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance>
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                            <place></place>
+                        </listPlace>
+                        <listPerson>
+                            <person></person>
+                        </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-04-10" who="ptomei">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab><persName>Albone</persName> del <persName>fu Clifferado</persName>
+                        cambia beni con il <rs key="#Bishops">vescovo</rs> di Lucca <persName
+                            key="#Bishops" ref="#people/213">Pietro</persName>, ad pars del <orgName
+                            key="#Mother_churches" ref="#juridical_persons/68"><rs
+                                key="#Mother_churches">vescovato</rs> di San Martino</orgName>. Dà
+                        al vescovo una selva posta ubi dicitur <placeName>Radicosa</placeName>,
+                        confinante uno caput cum uno lato con terra del <orgName key="#Monasteries"
+                                ><rs key="#Monasteries">monastero</rs> di San Salvatore de
+                            Sexto</orgName>, alio capu con terra di <persName>Andrea</persName>,
+                        alio lato con <placeName>terra que dicitur Armiscana</placeName> et
+                        Arsiccese; un’altra selva nello stesso luogo confinante uno caput con
+                            <placeName>terra que dicitur Bobbianise</placeName>, alio capu con
+                            <placeName>terra que dicitur Arsiccese</placeName>, alio lato con terra
+                        sua; un appezzamento di terra nello stesso luogo, confinante uno caput con
+                        suprascripta Radicosa, alio caput con la via, lato uno con il classo, alio
+                        lato con terra del <persName>fu Odalperto</persName>; un’appezzamento di
+                        terra ubi dicitur <placeName>Lavaclo</placeName>, confinante uno capu con
+                        una vigna di <persName>Munaldo</persName>, alio capu con terra del <orgName
+                            key="#Monasteries"><rs key="#Monasteries">monastero</rs> Sancti
+                            Antimi</orgName> e in via, lato uno con terra di
+                            <persName>Elmerando</persName>, alio lato con terra di Munaldo; un prato
+                        posto in loco ubi dicitur <placeName>Debblo Socciati</placeName>, confinante
+                        uno capu con una selva della <orgName key="#Churches"><rs key="#Churches"
+                                >chiesa</rs> di Santa Maria</orgName> e terra que dicitur Armissana,
+                        alio capu con terra sua; una selva ubi dicitur
+                            <placeName>Acquieto</placeName>, confinante uno caput cum uno lato con
+                        terra dello stesso vescovato, alio capu con terra del fu (...), alio lato
+                        con una selva di Elmerando; un appezzamento di terra que dicitur
+                            <placeName>Sterpeto</placeName>, confinante uno caput con terra dei
+                        figli del <persName>fu Romano</persName>, alio capu con terra (...) del
+                            <persName key="#Other_clerics">fu Teuperto</persName>
+                        <rs key="#Other_clerics">chierico</rs>, lato uno con terra dei figli del
+                            <persName>fu Giovanni</persName>, alio lato con terra di Elmerando; per
+                        una misura complessiva di 10 moggi. Riceve dal vescovo una selva posta in
+                        loco ubi vocitatur <placeName>ad Debla</placeName> qui est inter <rs
+                            key="#Rivers">fluvio Arno</rs> et <rs key="#Rivers">Arme</rs>,
+                        pertinenza del vescovato di San Martino, confinante uno capu con terra del
+                        fu Giovanni, alio capu con terra del vescovato, lato uno con terra delle <rs
+                            key="#Churches">chiese</rs>
+                        <orgName key="#Churches">Sancti Petri</orgName> et <orgName key="#Churches"
+                            >Sancti Silvestri</orgName>, alio lato con terra que dicitur
+                            <placeName>Debbla Petrolese</placeName>; un appezzamento di terra que
+                        dicitur <placeName>ad Paterno</placeName>, pertinenza del vescovato,
+                        confinante uno capu con terra della chiesa di San Pietro e in via publica,
+                        alio capu con terra della chiesa di San Pietro, della chiesa di San
+                        Silvestro, del vescovato, di Elmerando, lato uno in via e con terra dei
+                        figli del fu Giovanni, alio lato con una vigna sua e con terra di Elmerando;
+                        un appezzamento di terra nello stesso luogo, confinante uno capu in via
+                        publica, alio caput cum uno lato con terra del vescovato, alio lato con
+                        terra di <persName>Pietro</persName>; per una misura complessiva di 5 moggi.
+                        Il vescovo secondo la legge invia i suoi missos Lamberto del fu Lamberto,
+                        Gunteramo del fu Ramingo, Grimaldo del fu Adalberto, accompagnati dagli
+                        homines Cliffo del fu Cunimundo e Cunimundo e Giovanni del fu Giovanni, per
+                        sovrintendere alla permuta. Chiedono al notaio Adalfridi la stesura di due
+                        cartulas. Actum loco Cappiano. <persName>Autori: Pietro episcopus, Albone
+                            del fu Clifferado. Scrittore: Adalfridi notarius. Testimoni
+                            sottoscrittori: Gunteramo del fu Ramingo, Lamberto del fu Lamberto, +
+                            Grimaldo del fu Adalberto, Cliffo del fu Cunimundo, gg. Cunimundo e
+                            Giovanni del fu Giovanni, Teupaldo, Teuprando schabinus, Pietro, + Alone
+                            del fu Angalperto, Andrea, Isalfridi, Andrea notarius. Altro: Andrea, fu
+                            Odalperto, Munaldo, Elmerando, ff. del fu Romano, fu Teuperto clericus,
+                            ff. del fu Giovanni.</persName>
+                        <placeName>Cappiano (Ponte a Cappiano, Fucecchio), Radicosa, terra
+                            Armissana, terra Arsiccese, terra Bobbianise, Lavaclo, Debblo Socciati,
+                            Acquieto, Sterpeto (Radicosa e Case Arsiccioli, Castelfranco di Sotto),
+                            ad Debla, Debbla Petrolese, ad Paterno (vicino Cascina Petriolo, Santa
+                            Maria a Monte), Sexto (Badia, Capannori), Arno (fiume Arno), Arme
+                            (canale Usciana).</placeName>
+                        <orgName>San Salvatore di Sesto, Sant’Antimo di (?), Santa Maria a Monte,
+                            San Pietro di (?), San Silvestro di Lucca, San Martino di Lucca (chiesa
+                            matrice).</orgName>
+                    </ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL, 5/2, n. 1020, pp. 628-629; ChLA 87, n. 14, pp. 52-57.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                        <p>Nota dorsale X sec.: nescio in quo loco que dicitur Radicosa.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>
