@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio di Stato di Siena, Diplomatico, S. Agostino, 1069 febbraio
+                    12</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc1474</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#"
+                                >--Libellus/precaria/emphyteusis</rs>
+                                    <rs type="record_source" ref="#">Original document</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate when="1069-02-19"> 
+                                        <note type="displayed_date">1069 Ferbuary 19</note>
+                                        <note type="dating_elements">Anno dell’incarnazione. I dati
+                                    cronologici non concordano: 1070/02/19 secondo l’indizione. </note>
+                                        <note type="topical_date"/>
+                                    </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-04-10" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab>Stefano abbas de monasterio Sancti Bartholomei sito locho Sextinghe
+                        concede in livello a Ildibrando et Donato germani filii quondam Ildibrandi
+                        (…) medietatem de casis et cassinis seo chasalinis curtis et ecclesiis sive
+                        rebus meis illis donichatis et massariciis (…) quam habeo in loco Tacte cum
+                        de meam portionem ex integra de ecclesia Sancti Martini medietatem in loco
+                        Chapilliani seu in Trigungnani adque a Butro et in loco Ferruni sive in loco
+                        ubi dicitur a Sancto Stefano sive cum de meam portione de ecclesia Sancti
+                        Stefani cum de meam portione medietate de curte de Padule adque de meam
+                        portione medietate de ecclesia chui vocabulo est Sancti Andree et in
+                        Aquatiche et in Verliani et in Vergniani et in Gritaio adque in Chastianu
+                        seu et in loco Fabbri et in Monte Giachuni et in Sequerciana vel per aliis
+                        locis et vochabulis con tutte le loro dipendenze, sicut iam obvenit per
+                        cartula offersionis in prefatus monasterio da Gherardo filio bone memorie
+                        Petri et in cartula ipsa continere videtur; eccetto integram meam portionem
+                        de integre quatuor masce, una que est posita ha Castiianu et iam recta fuit
+                        per Suverello massario; alia est posita ha Quercito; tertia est posita
+                        haf.Fabbri; quarta est posita ha Piro Grosso. I livellari si impegnano a
+                        versare all’abate e ai suoi successori ogni mese di agosto al monastero il
+                        censo annuale di 6 denari d’argento. Se non rispetteranno i suddetti
+                        impegni, promettono con i loro eredi di versare all’abate e ai suoi
+                        successori la pena di una libbra d’oro. Auctum predicto monasterio
+                        territurio Rosellense. + Ego Stefan(us) abb(as) in unc libelu a me facto
+                        subscripsi. Testimoni: Rollandi filio bone memorie Buchuli; Gherardi filio
+                        bone memorie Teutii et Teutio filio suo. Scrive Petrus notarius scriptor.
+                            <placeName>Sextinghe (Badia Vecchia, Castiglione della Pescaia), Tacte
+                            (Tatti, Massa Marittima), Chapilliani (?), Trigungnani (?), Butro (?),
+                            Ferruni (?), Sancto Stefano (Case Santo Stefano, Massa Marittima),
+                            Padule (Padule, Chiusdino), Aquatiche (?), Verliani (Podere Verliano,
+                            Montieri), Vergniani (?), Gricaso (Poggio Castello Tricasi, Massa
+                            Marittima), Chastianu (Podere Castiano, Radicondoli), Fabbri (?), Monte
+                            Giachuni (Monte Gusciani, Massa Marittima), Sequeresana (?), Quercito
+                            (?), Piro Grosso (?).</placeName>
+                        <orgName>San Bartolomeo di Sestinga, San Martino di Tatti, Santo Stefano,
+                            Sant’Andrea di Padule.</orgName>
+                    </ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>Lisini 1908: 519.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                        <p>Nota dorsale XII sec.: (...) de Padule. Nota dorsale XII sec.: carta de
+                    Tacte et de Padule. La sottoscrizione di Stefano abate è autografa.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>
