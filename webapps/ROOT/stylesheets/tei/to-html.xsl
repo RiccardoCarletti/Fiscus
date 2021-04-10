@@ -699,7 +699,6 @@
       </xsl:for-each>
       <xsl:text>]</xsl:text>
     </xsl:variable>
-    
     <xsl:variable name="graph_labels">
       <xsl:text>[</xsl:text>
       <xsl:for-each select="$people/tei:person|$juridical_persons/tei:org|$estates/tei:place|$places/tei:place">
@@ -741,7 +740,8 @@
        { selector: 'edge[type="green"]', style: { 'line-color': 'green', 'target-arrow-color': 'green' } },
        { selector: 'edge[type="blue"]', style: { 'line-color': 'blue', 'target-arrow-color': 'blue' } }
        ],
-       layout: { name: 'cose-bilkent', quality: 'draft', animate: false, fit: true, padding: 200, randomize: false, nodeRepulsion: 900000000, idealEdgeLength: 200, edgeElasticity: 0.45, gravity: 1 }
+        <!-\-layout: { name: 'cose-bilkent', randomize: false, animate: false, fit: true, padding: 200, nodeRepulsion: 1000000000, idealEdgeLength: 200 } -\->
+        layout: { name: 'fcose', randomize: true, nodeSeparation: 1000, animate: false, fit: true, padding: 200, nodeRepulsion: 1000000000, idealEdgeLength: 200 }
        });
        <!-\- toggle nodes&edges, hide/show labels, not overlap, search+autocomplete, navigation buttons -\->
        
@@ -758,26 +758,20 @@
   <xsl:template match="//tei:addSpan[@xml:id='graphs']">
     <xsl:variable name="graph_items">
       <xsl:text>[</xsl:text>
-      <xsl:for-each select="$people/tei:person">
+      <xsl:for-each select="$people/tei:person|$juridical_persons/tei:org|$estates/tei:place|$places/tei:place">
         <xsl:text>{id: </xsl:text><xsl:value-of select="translate(tei:idno[1],'#','')"/><xsl:text>, label: "</xsl:text>
-        <xsl:value-of select="normalize-space(translate(tei:persName[1], ',', '; '))"/><xsl:text>", type: "people", color: "#ffffcc"}, </xsl:text>
-      </xsl:for-each>
-      <xsl:for-each select="$juridical_persons/tei:org">
-        <xsl:text>{id: </xsl:text><xsl:value-of select="translate(tei:idno[1],'#','')"/><xsl:text>, label: "</xsl:text>
-        <xsl:value-of select="normalize-space(translate(tei:orgName[1], ',', '; '))"/><xsl:text>", type: "juridical_persons", color: "#ffe6e6"}, </xsl:text>
-      </xsl:for-each>
-      <xsl:for-each select="$estates/tei:place">
-        <xsl:text>{id: </xsl:text><xsl:value-of select="translate(tei:idno[1],'#','')"/><xsl:text>, label: "</xsl:text>
-        <xsl:value-of select="normalize-space(translate(tei:geogName[1], ',', '; '))"/><xsl:text>", type: "estates", color: "#ccffcc"}, </xsl:text>
-      </xsl:for-each>
-      <xsl:for-each select="$places/tei:place">
-        <xsl:text>{id: </xsl:text><xsl:value-of select="translate(tei:idno[1],'#','')"/><xsl:text>, label: "</xsl:text>
-        <xsl:value-of select="normalize-space(translate(tei:placeName[1], ',', '; '))"/><xsl:text>", type: "places", color: "#e6e6ff"}</xsl:text>
+        <xsl:value-of select="normalize-space(translate(tei:*[1], ',', '; '))"/><xsl:text>", </xsl:text>
+        <xsl:choose>
+          <xsl:when test="ancestor::tei:listPerson"><xsl:text>type: "people", color: "#ffffcc"</xsl:text></xsl:when>
+          <xsl:when test="ancestor::tei:listOrg"><xsl:text>type: "juridical_persons", color: "#ffe6e6"</xsl:text></xsl:when>
+          <xsl:when test="ancestor::tei:listPlace[@type='estates']"><xsl:text>type: "estates", color: "#ccffcc"</xsl:text></xsl:when>
+          <xsl:when test="ancestor::tei:listPlace[@type='places']"><xsl:text>type: "places", color: "#e6e6ff"</xsl:text></xsl:when>
+        </xsl:choose>
+        <xsl:text>}</xsl:text>
         <xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if>
       </xsl:for-each>
       <xsl:text>]</xsl:text>
     </xsl:variable>
-    
     <xsl:variable name="graph_relations">
       <xsl:text>[</xsl:text>
       <xsl:for-each select="$people//tei:link[@corresp!='']|$juridical_persons//tei:link[@corresp!='']|$estates//tei:link[@corresp!='']|$places//tei:link[@corresp!='']">
@@ -809,7 +803,6 @@
       </xsl:for-each>
       <xsl:text>]</xsl:text>
     </xsl:variable>
-    
     <xsl:variable name="graph_labels">
       <xsl:text>[</xsl:text>
       <xsl:for-each select="$people/tei:person|$juridical_persons/tei:org|$estates/tei:place|$places/tei:place">
