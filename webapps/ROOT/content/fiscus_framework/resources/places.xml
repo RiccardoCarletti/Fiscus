@@ -2796,8 +2796,9 @@
                     <geogName type="coord"><geo>45.404959, 8.093319</geo></geogName>
                     <idno>places/329</idno>
                     <note/>
-                    <link type="estates" corresp="#estates/62"/>
-                    <link type="juridical_persons" corresp="#juridical_persons/81"/>
+                    <link type="estates" corresp="#estates/62" subtype="hasConnectionWith"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
+                    <link type="people" corresp="#people/171" subtype="link"/>
                 </place>
             </listPlace>
         </body>
