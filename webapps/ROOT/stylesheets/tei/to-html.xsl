@@ -24,7 +24,7 @@
   <xsl:variable name="thesaurus" select="document(concat($resources, 'thesaurus.xml'))//tei:taxonomy"/>
   
   <!-- import @key values from markup in documents -->
-  <xsl:variable name="docnames"><xsl:for-each select="document(concat($resources, 'all_documents.xml'))//tei:item"><xsl:value-of select="@n"/><xsl:text>#</xsl:text></xsl:for-each></xsl:variable>
+  <xsl:variable name="docnames"><xsl:for-each select="1 to 2100"><xsl:value-of select="concat('doc', ., '.xml')"/><xsl:text>#</xsl:text></xsl:for-each></xsl:variable>
   <xsl:variable name="docname" select="distinct-values(tokenize($docnames, '#'))"/>
   <xsl:variable name="keys">
     <xsl:for-each select="$docname">
@@ -653,7 +653,7 @@
   </xsl:template>
   
   <!-- COMPLETE GRAPH -->
-  <!--<xsl:template match="//tei:addSpan[@xml:id='graphs']">
+  <xsl:template match="//tei:addSpan[@xml:id='graphs']">
     <xsl:variable name="graph_items">
       <xsl:text>[</xsl:text>
       <xsl:for-each select="$people/tei:person|$juridical_persons/tei:org|$estates/tei:place|$places/tei:place">
@@ -712,50 +712,62 @@
       <div id="mygraph"></div>
       <div class="legend">
         <p>
-          <span style="background-color:#ffffcc;padding:2px;margin-right:3px">People</span> <!-\-<input type="checkbox" name="nodesFilter" value="people" checked="true"/>-\->
-          <span style="background-color:#ffe6e6;padding:2px;margin-left:10px;margin-right:3px">Juridical persons</span> <!-\-<input type="checkbox" name="nodesFilter" value="juridical_persons" checked="true"/>-\->
-          <span style="background-color:#ccffcc;padding:2px;margin-left:10px;margin-right:3px">Estates</span> <!-\-<input type="checkbox" name="nodesFilter" value="estates" checked="true"/>-\->
-          <span style="background-color:#e6e6ff;padding:2px;margin-left:10px;margin-right:3px">Places</span> <!-\-<input type="checkbox" name="nodesFilter" value="places" checked="true"/>-\-> <br/>
-          <span style="color:red">➔</span> Family relations <!-\-<input type="checkbox" name="edgesFilter" value="red" checked="true"/>-\-> 
-          <span style="color:green;margin-left:10px">➔</span> Personal bonds <!-\-<input type="checkbox" name="edgesFilter" value="green" checked="true"/>-\->
-          <span style="color:blue;margin-left:10px">➔</span> Other links <!-\-<input type="checkbox" name="edgesFilter" value="blue" checked="true"/>-\->
-          <!-\-<span style="margin-left:15px">[Zoom in and click on the arrows to show the relation types]</span>
-          <br/><span class="autocomplete"><input type="text" id="inputSearch" placeholder="Search"/></span><button id="btnSearch" class="button">Search</button>-\->
+          <span style="background-color:#ffffcc;padding:2px;margin-right:3px">People</span> <input type="checkbox" id="toggle_people" checked="true"/>
+          <span style="background-color:#ffe6e6;padding:2px;margin-left:10px;margin-right:3px">Juridical persons</span> <input type="checkbox" id="toggle_juridical_persons" checked="true"/>
+          <span style="background-color:#ccffcc;padding:2px;margin-left:10px;margin-right:3px">Estates</span> <input type="checkbox" id="toggle_estates" checked="true"/>
+          <span style="background-color:#e6e6ff;padding:2px;margin-left:10px;margin-right:3px">Places</span> <input type="checkbox" id="toggle_places" checked="true"/> <br/>
+          <span style="color:red">➔</span> Family relations <input type="checkbox" id="toggle_red" checked="true"/> 
+          <span style="color:green;margin-left:10px">➔</span> Personal bonds <input type="checkbox" id="toggle_green" checked="true"/>
+          <span style="color:blue;margin-left:10px">➔</span> Other links <input type="checkbox" id="toggle_blue" checked="true"/>
+          <span style="margin-left:10px"> Relation types </span> <input type="checkbox" id="toggle_relation_labels" checked="true"/>
+          <br/><span class="autocomplete"><input type="text" id="inputSearch" placeholder="Search"/></span><button id="btnSearch" class="button">Search</button> (Work in progress!)
           <br/><button onclick="openFullscreen();" class="button">Fullscreen</button>
         </p>
       </div>
       
-      <script type="text/javascript">
+      <script type="text/javascript"> <!-- cf. networks.js -->
        var graph_items = <xsl:value-of select="$graph_items"/>;
         const graph_labels = <xsl:value-of select="$graph_labels"/>;
-        var cy = cytoscape({ container: document.getElementById('mygraph'), elements: graph_items,
-       style: [
-       { selector: 'node', style: { 'label': 'data(label)', 'shape': 'round-rectangle', 'height': '100px', 'width': '300px', 'text-halign': 'center', 'text-valign': 'center', 'text-wrap': 'wrap', 'text-max-width': '280px', 'border-width': 1, 'border-color': 'gray', 'border-style': 'solid' } },
-       { selector: 'edge', style: { 'width': 1, 'label': 'data(label)', 'target-arrow-shape': 'triangle', 'curve-style': 'bezier' } },
-       { selector: 'node[type="people"]', style: { 'background-color': '#ffffcc' } },
-       { selector: 'node[type="juridical_persons"]', style: { 'background-color': '#ffe6e6' } },
-       { selector: 'node[type="estates"]', style: { 'background-color': '#ccffcc' } },
-       { selector: 'node[type="places"]', style: { 'background-color': '#e6e6ff' } },
-       { selector: 'edge[type="red"]', style: { 'line-color': 'red', 'target-arrow-color': 'red' } },
-       { selector: 'edge[type="green"]', style: { 'line-color': 'green', 'target-arrow-color': 'green' } },
-       { selector: 'edge[type="blue"]', style: { 'line-color': 'blue', 'target-arrow-color': 'blue' } }
-       ],
-        <!-\-layout: { name: 'cose-bilkent', randomize: false, animate: false, fit: true, padding: 200, nodeRepulsion: 1000000000, idealEdgeLength: 200 } -\->
-        layout: { name: 'fcose', randomize: true, nodeSeparation: 1000, animate: false, fit: true, padding: 200, nodeRepulsion: 1000000000, idealEdgeLength: 200 }
-       });
-       <!-\- toggle nodes&edges, hide/show labels, not overlap, search+autocomplete, navigation buttons -\->
+        var cy = cytoscape({ container: document.getElementById('mygraph'), elements: graph_items, style: cy_style, layout: cy_layout }).panzoom();
+        document.getElementById("toggle_people").addEventListener("click", function() {
+        cy.elements().toggleClass('people_hidden'); });
+        document.getElementById("toggle_juridical_persons").addEventListener("click", function() {
+        cy.elements().toggleClass('juridical_persons_hidden'); });
+        document.getElementById("toggle_estates").addEventListener("click", function() {
+        cy.elements().toggleClass('estates_hidden'); });
+        document.getElementById("toggle_places").addEventListener("click", function() {
+        cy.elements().toggleClass('places_hidden'); });
+        document.getElementById("toggle_red").addEventListener("click", function() {
+        cy.elements().toggleClass('red_hidden'); });
+        document.getElementById("toggle_green").addEventListener("click", function() {
+        cy.elements().toggleClass('green_hidden'); });
+        document.getElementById("toggle_blue").addEventListener("click", function() {
+        cy.elements().toggleClass('blue_hidden'); });
+        document.getElementById("toggle_relation_labels").addEventListener("click", function() {
+        cy.elements().toggleClass('relation_type_hidden'); });
+        
+        <!-- search -->
+        autocomplete(document.getElementById("inputSearch"), graph_labels);
+        $("#btnSearch").on('click',function () { 
+        var searched = $("#inputSearch").val();
+        cy.elements().removeClass('highlighted');
+        cy.$('[label =  "Lucca"]').addClass('highlighted');
+        });
        
-       <!-\- fullscreen -\->
+       <!-- fullscreen -->
        var full = document.getElementById("mygraph"); 
        function openFullscreen() {
        if (full.requestFullscreen) { full.requestFullscreen(); } 
        else if (full.webkitRequestFullscreen) { full.webkitRequestFullscreen();} 
        else if (full.msRequestFullscreen) { full.msRequestFullscreen(); } }
       </script>
+      <!--<link href="{$kiln:assets-path}/cytoscape/wine/bundle.css" rel="stylesheet" type="text/css" />
+      <script src="../../assets/cytoscape/wine/polyfills.js"></script>
+      <script src="../../assets/cytoscape/wine/bundle.js"></script>-->
     </div>
-  </xsl:template>-->
+  </xsl:template>
   
-  <xsl:template match="//tei:addSpan[@xml:id='graphs']">
+  <!--<xsl:template match="//tei:addSpan[@xml:id='graphs']">
     <xsl:variable name="graph_items">
       <xsl:text>[</xsl:text>
       <xsl:for-each select="$people/tei:person|$juridical_persons/tei:org|$estates/tei:place|$places/tei:place">
@@ -866,14 +878,14 @@
         
         startNetwork(fildata);
         
-        <!-- fullscreen -->
+        <!-\- fullscreen -\->
         var full = document.getElementById("mygraph"); 
         function openFullscreen() {
         if (full.requestFullscreen) { full.requestFullscreen(); } 
         else if (full.webkitRequestFullscreen) { full.webkitRequestFullscreen();} 
         else if (full.msRequestFullscreen) { full.msRequestFullscreen(); } }
         
-        <!-- search -->
+        <!-\- search -\->
         $("#btnSearch").on('click',function () { for (var i = 0; i&lt;people.length; i++){
         if (people[i].label.indexOf($("#inputSearch").val()) >=0) { if ($("#inputSearch").val() != ''){ 
         people[i].color = { background: "red" }; }; } else{ delete people[i].color; } }
@@ -881,10 +893,10 @@
         startNetwork(fildata);
         });
         
-        autocomplete(document.getElementById("inputSearch"), graph_labels); <!-- function called from assets/networks.js -->
+        autocomplete(document.getElementById("inputSearch"), graph_labels); <!-\- function called from assets/networks.js -\->
       </script>
     </div>
-  </xsl:template>
+  </xsl:template>-->
   
   <!-- MAP -->
   <xsl:template match="//tei:addSpan[@xml:id='map']">

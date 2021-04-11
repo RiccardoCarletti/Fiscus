@@ -1,3 +1,5 @@
+/* ***** vis.js ***** */
+
 function autocomplete(inp, arr) {
   /*the autocomplete function takes two arguments,
   the text field element and an array of possible autocompleted values:*/
@@ -94,3 +96,32 @@ document.addEventListener("click", function (e) {
     closeAllLists(e.target);
 });
 } 
+
+
+
+
+
+/* ***** cytoscape.js ***** */
+        const cy_style = [
+        { selector: 'node', style: { 'label': 'data(label)', 'shape': 'round-rectangle', 'height': 'label', 'width': 'label', 'padding': '20px', 'text-halign': 'center', 'text-valign': 'center', 'text-wrap': 'wrap', 'text-max-width': '280px', 'font-size': '22px', 'border-width': 3, 'border-color': 'gray', 'border-style': 'solid' } },
+        { selector: 'edge', style: { 'width': 2, 'label': 'data(label)', 'target-arrow-shape': 'triangle', 'curve-style': 'bezier' } },
+        { selector: 'node[type="people"]', style: { 'background-color': '#ffffcc' } },
+        { selector: 'node[type="juridical_persons"]', style: { 'background-color': '#ffe6e6' } },
+        { selector: 'node[type="estates"]', style: { 'background-color': '#ccffcc' } },
+        { selector: 'node[type="places"]', style: { 'background-color': '#e6e6ff' } },
+        { selector: 'edge[type="red"]', style: { 'line-color': 'red', 'target-arrow-color': 'red' } },
+        { selector: 'edge[type="green"]', style: { 'line-color': 'green', 'target-arrow-color': 'green' } },
+        { selector: 'edge[type="blue"]', style: { 'line-color': 'blue', 'target-arrow-color': 'blue' } },
+         /*    toggle    */
+        { selector: 'node[type="people"].people_hidden', style: { 'display': 'none' } },
+        { selector: 'node[type="juridical_persons"].juridical_persons_hidden', style: { 'display': 'none' } },
+        { selector: 'node[type="estates"].estates_hidden', style: { 'display': 'none' } },
+        { selector: 'node[type="places"].places_hidden', style: { 'display': 'none' } },
+        {selector: 'edge[type="red"].red_hidden', style: {'display': 'none'} },
+        {selector: 'edge[type="green"].green_hidden', style: {'display': 'none'} },
+        {selector: 'edge[type="blue"].blue_hidden', style: {'display': 'none'} },
+        {selector: 'edge.relation_type_hidden', style: {'label': ''} },
+        {selector: 'node.highlighted', style: { 'background-color': 'red'} }
+        ];
+        
+        const cy_layout =  { name: 'fcose', animate: false, nodeRepulsion: 100000000, nodeSeparation: 100, randomize: true, idealEdgeLength: 300 };

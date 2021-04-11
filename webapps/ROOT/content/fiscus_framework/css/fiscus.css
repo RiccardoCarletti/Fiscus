@@ -11,9 +11,9 @@
     content: "";
    }
 
-   respStmt, xi|include, include, oxy|doctype, handNote height, scriptDesc, profileDesc, authority, provenance, msItem, teiHeader listPlace, teiHeader listPerson, editionStmt, publicationStmt date, publisher, availability, msIdentifier, textLang {
+   xi|include, include, oxy|doctype, respStmt, handNote, scriptDesc, profileDesc, authority, provenance, msItem, teiHeader listPlace, teiHeader listPerson, editionStmt, publicationStmt date, publisher, availability, msIdentifier, textLang {
         display:none;
-          visibility: -oxy-collapse-text ;
+        visibility: -oxy-collapse-text ;
     }
     
         /*Authority Lists*/
@@ -817,90 +817,6 @@ ab placeName:before {
         -oxy-placeholder-content: 'Text here';
     }
     
-    
-    /* **************** Not used elements **************** */
-    support p, support {
-        visibility: -oxy-collapse-text;
-        display: block;
-    }
-
-    support p {
-        content: "Short summary of material and support: "
-        oxy_editor(
-            type, text,
-            edit, "#text",
-            columns, 50);
-        visibility: -oxy-collapse-text;
-    }
-    
-    layout:before {
-        content: "Columns: "
-          oxy_editor(
-             type, text,
-             edit, "@columns"
-             columns, 5)
-             "  Written Lines: "
-             oxy_editor(
-             type, text,
-             edit, "@writtenLines",
-             columns, 5);
-    }
-
-       origin p, layout p, condition p, handNote p {
-           content: "More detail if necessary: "
-           oxy_editor(
-             type, text,
-             edit, "#text"
-             columns, 40);
-             display:block;
-             visibility: -oxy-collapse-text ;
-
-       }
-
-    /* ******************   Images   ******************* */
-
-    facsimile:before {
-        content: "Images";
-        visibility: -oxy-collapse-text;
-        font-size: 130%;
-        font-weight: bold;
-    }
-    facsimile {
-        border:2px solid rgb(153, 153, 143);
-        background-color: #fdfdfd;
-        font-size: 110%;
-    }
-
-    graphic:before {
-        content: "Filename: "
-        oxy_editor(
-           type, text,
-           edit, "@url"
-           columns, 40);
-           display: block;
-        font-size: 90%;
-    }
-
-    surface desc:before {
-        content: "Caption (optional): "
-        oxy_editor(
-           type, text,
-           edit, "#text"
-           columns, 40);
-           display: block;
-    }
-    surface desc {
-        display:block;
-
-    }
-
-    facsimile:after {
-        content:
-        oxy_editor(
-            type, button,
-            actionID, "insert_image");
-    }
-
  lb {
  content: " \A ";
   visibility: -oxy-collapse-text ;
