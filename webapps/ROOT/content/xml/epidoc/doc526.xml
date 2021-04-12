@@ -35,7 +35,7 @@
                                 >--Libellus/precaria/emphyteusis</rs>
                                     <rs type="record_source" ref="#">Original document</rs>
                                     <rs type="document_tradition" ref="#">Original</rs>
-                                    <rs type="fiscal_property"/>
+                                    <rs type="fiscal_property">No</rs>
                                 </summary>
                                 <msItem xml:id="msItem1">
                                     <textLang mainLang="" otherLangs=""/>
@@ -110,9 +110,13 @@
                         <persName key="#Writer #Notary">Cosperto</persName> la stesura di due <rs
                             key="#Libellus/precaria/emphyteusis">cartulas</rs>. Actum <placeName
                             ref="#places/4" key="#Cities #Churches #Mother_churches #Bishops"
-                            >Luca</placeName>. Autori: Pietro episcopus, + Petriperto del fu Pietro.
-                        Scrittore: Cosperto notarius. Testimoni sottoscrittori: Isalfridi, Pietro,
-                        Leone notarius, Giovanni, Ghisalfridi notarius et schabinus.</ab>
+                            >Luca</placeName>. <rs key="#Witness">Testimoni</rs> sottoscrittori:
+                            <persName key="#Witness">Isalfridi</persName>, <persName key="#Witness"
+                            >Pietro</persName>, <persName key="#Notary">Leone</persName>
+                        <rs key="#Notary">notarius</rs>, <persName key="#Witness"
+                            >Giovanni</persName>, <persName key="#Witness #Notary #Scabini"
+                            >Ghisalfridi</persName>
+                        <rs key="#Notary">notarius</rs> et <rs key="#Scabini">schabinus</rs>.</ab>
                         </div>
                     </div>
                     <div type="bibliography" subtype="editions">
