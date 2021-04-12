@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    Diplomatico, + K 84</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                        </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc525</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Commutatio</rs>
+                                    <rs type="record_source" ref="#">Original document</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property"/>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate when="0898-06-30">
+                                <note type="displayed_date">898 June 30</note>
+                                <note type="dating_elements">Anno d’impero di Lamberto</note>
+                                <note type="topical_date">Lucca</note>
+                            </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance>
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                            <place></place>
+                        </listPlace>
+                        <listPerson>
+                            <person></person>
+                        </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-04-12" who="ptomei">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab><persName key="#Deacons">Teuperto</persName>
+                        <rs key="#Deacons">diacono</rs> del <persName>fu Teuperto</persName> cambia
+                        beni con il <rs key="#Bishops">vescovo</rs> di Lucca <persName
+                            key="#Bishops" ref="#people/213">Pietro</persName>, ad pars della chiesa
+                        di San Salvatore sito foras civitate ista Lucense ubi dicitur ad Silice, que
+                        est de subpotestatem del vescovato di San Martino. Dà al vescovo una casa et
+                        res posta in loco et finibus Arsina, tenuta da Gundo massario; una casa et
+                        res posta in loco et finibus Campomaiore ubi dicitur Vignale, tenuta da
+                        Altulo, con tutte le loro dipendenze, per una misura complessiva di 9 moggi;
+                        una casa posta foras civitate ista Lucense prope porta Sancti Petri con un
+                        orto e tutte le sue dipendenze, confinante uno capu in via publica, alio
+                        capu con terra di Teudimundo, lato uno con un orto del fu Offo, alio lato
+                        con casa et curte seo orto tenuto da Popo. Riceve dal vescovo una casa et
+                        cassina seo res posta in loco ubi dicitur Rassile, pertinenza della chiesa
+                        di San Salvatore, tenuta dai fratelli Flaiperto prete, Popo e Lamfridi, con
+                        tutte le sue dipendenze; una cassina posta in loco ubi dicitur Macritula,
+                        tenuta dai figli del fu Atriperto, con tutte le sue dipendenze; per una
+                        misura complessiva di 5 moggi. Il vescovo secondo la legge invia i suoi
+                        missos Willeramo del fu Alateo, Ardimanno del fu Giovanni, Daniele
+                        suddiacono del fu Andrea, accompagnati dagli homines Gheripaldo e
+                        Ghisalperto fratelli del fu Pietro notaio, Cosperto notaio del fu Lamperto,
+                        per sovrintendere alla permuta. Chiedono al notaio Leone la stesura di due
+                        cartulas. Actum Luca. <persName>Autori: Pietro episcopus, Teuperto diaconus
+                            del fu Teuperto. Scrittore: Leone notarius. Testimoni sottoscrittori:
+                            Daniele subdiaconus del fu Andrea, Ardimanno del fu Giovanni, Willeramo
+                            del fu Alateo, gg. Gheripaldo e Ghisalperto del fu Pietro notarius,
+                            Cosperto notarius del fu Lamperto, Ghisalfridi notarius et schabinus,
+                            Teupaldo, Adalperto notarius, Teuperto, Isalfridi, + Alone del fu
+                            Angalperto, Benedetto schabinus, Adalberto. Altro: Gundo massarius,
+                            Altulo, fu Offo, Teudimundo, gg. Flaiperto presbiter, Popo e Lamfridi,
+                            ff. del fu Atriperto.</persName>
+                        <placeName>Luca, ad Silice, porta Sancti Petri (Lucca), Arsina (Arsina,
+                            Lucca), Campomaiore ubi dicitur Vignale (Vignale, Camaiore), Rassile
+                            (?), Macritula (San Vito, Lucca).</placeName>
+                        <orgName>San Salvatore in Silice di Lucca, San Martino di Lucca (chiesa
+                            matrice).</orgName>
+                    </ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL, 5/2, n. 1021, pp. 629-630; ChLA 87, n. 15, pp. 58-64.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                        <p/>
+                    </div>
+                </body>
+            </text>
+        </TEI>
