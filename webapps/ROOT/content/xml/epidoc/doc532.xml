@@ -74,7 +74,7 @@
                 </profileDesc>
                 <revisionDesc>
                     <listChange>
-                        <change when="2021-01-06" who="ptomei">creation of record</change>
+                        <change when="2021-04-12" who="ptomei">creation of record</change>
                     </listChange>
                 </revisionDesc>
             </teiHeader>
@@ -82,32 +82,39 @@
                 <body>
                     <div type="edition">
                         <div type="textpart">
-                            <ab> Umfridi del fu Umfridi riceve in livello dal vescovo di Lucca
-                        Pietro, una vigna e due prata posti in loco et finibus Vacule ubi dicitur
-                        Vitiliano, di pertinenza della chiesa di San Giorgio sito hic Luca qui est
-                        de suppotestatem dello stesso vescovato, confinante uno caput in via
-                        publica, alio caput con terra del fu Auderamo, lato uno con una vigna del fu
-                        Gherifuso, una vigna del monastero di San Ponziano, e una vigna della chiesa
-                        di San Pietro. Si impegna a versare pro omni censum et iustitia al vescovo e
-                        ai suoi successori ogni mese di ottobre il censo annuale di 15 denari
-                        d’argento ad pars della chiesa di San Giorgio. Se non rispetterà i suddetti
-                        impegni, promette con i suoi eredi di versare al vescovo e ai suoi
-                        successori la pena di 30 soldi d’argento. Chiede al notaio Andrea la stesura
-                        di due cartulas. Actum Luca. <persName>Autori: Pietro episcopus, Umfridi del
-                            fu Umfridi. Scrittore: Andrea notarius. Testimoni sottoscrittori:
-                            Teuperto, Alone, Teupaldo, Ghisalfridi notarius et schabinus, ... .
-                            Altro: fu Auderamo, fu Gherifuso.</persName>
-                        <placeName>Luca (Lucca), Vacule ubi dicitur Vitiliano (San Lorenzo a
-                            Vaccoli, Lucca).</placeName>
-                        <orgName>San Giorgio in Pisticoro di Lucca, Santi Iacopo, Filippo e Ponziano
-                            di Lucca, San Pietro di (?), San Martino di Lucca (chiesa
-                            matrice).</orgName>
-                    </ab>
+                            <ab><persName>Umfridi</persName> del <persName>fu Umfridi</persName>
+                        riceve in livello dal <rs key="#Bishops">vescovo</rs> di Lucca <persName
+                            key="#Bishops" ref="#people/213">Pietro</persName>, una vigna e due
+                        prata posti in loco et finibus <placeName ref="#places/180">Vacule ubi
+                            dicitur Vitiliano</placeName>, di pertinenza della <orgName
+                            key="#Churches"><rs key="#Churches">chiesa</rs> di San Giorgio sito hic
+                            Luca</orgName> qui est de suppotestatem dello stesso <orgName
+                            key="#Mother_churches" ref="#juridical_persons/68"><rs
+                                key="#Mother_churches">vescovato</rs></orgName>, confinante uno
+                        caput in via publica, alio caput con terra del <persName>fu
+                            Auderamo</persName>, lato uno con una vigna del <persName>fu
+                            Gherifuso</persName>, una vigna del <orgName key="#Monasteries"
+                            ref="#juridical_persons/71"><rs key="#Monasteries">monastero</rs> di San
+                            Ponziano</orgName>, e una vigna della <orgName key="#Churches"><rs
+                                key="#Churches">chiesa</rs> di San Pietro</orgName>. Si impegna a
+                        versare pro omni censum et iustitia al vescovo e ai suoi successori ogni
+                        mese di ottobre il censo annuale di 15 denari d’argento ad pars della chiesa
+                        di San Giorgio. Se non rispetterà i suddetti impegni, promette con i suoi
+                        eredi di versare al vescovo e ai suoi successori la pena di 30 soldi
+                        d’argento. Chiede al <rs key="#Writer #Notary">notaio</rs>
+                        <persName key="#Writer #Notary">Andrea</persName> la stesura di due <rs
+                            key="#Libellus/precaria/emphyteusis">cartulas</rs>. Actum <placeName
+                            ref="#places/4" key="#Churches #Mother_churches #Monasteries #Bishops"
+                            >Luca</placeName>. <rs key="#Witness">Testimoni</rs> sottoscrittori:
+                            <persName key="#Witness">Teuperto</persName>, <persName key="#Witness"
+                            >Alone</persName>, <persName key="#Witness">Teupaldo</persName>,
+                            <persName key="#Witness #Notary #Scabini">Ghisalfridi</persName>
+                        <rs key="#Notary">notarius</rs> et <rs key="#Scabini">schabinus</rs>, ...
+                        .</ab>
                         </div>
                     </div>
                     <div type="bibliography" subtype="editions">
-                        <p>MDL, V/2, n. 1028, pp. 634-635</p>
-                        <p>ChLA, LXXXVII, n. 22, pp. 84-85</p>
+                        <p>MDL, 5/2, n. 1028, pp. 634-635; ChLA 87, n. 22, pp. 84-85.</p>
                     </div>
                     <div type="bibliography" subtype="additional">
                         <p/>
@@ -116,7 +123,8 @@
                         <p/>
                     </div>
                     <div type="commentary">
-                        <p>.</p>
+                        <p>Sottoscrizioni autografe: Umfridi, Teuperto, Alone, Teupaldo, il notaio e
+                    scabino Ghisalfridi.</p>
                     </div>
                 </body>
             </text>
