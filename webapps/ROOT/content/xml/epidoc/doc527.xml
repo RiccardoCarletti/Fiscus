@@ -35,7 +35,7 @@
                                 >--Libellus/precaria/emphyteusis</rs>
                                     <rs type="record_source" ref="#">Original document</rs>
                                     <rs type="document_tradition" ref="#">Original</rs>
-                                    <rs type="fiscal_property"/>
+                                    <rs type="fiscal_property">No</rs>
                                 </summary>
                                 <msItem xml:id="msItem1">
                                     <textLang mainLang="" otherLangs=""/>
@@ -74,7 +74,7 @@
                 </profileDesc>
                 <revisionDesc>
                     <listChange>
-                        <change when="2021-01-06" who="ptomei">creation of record</change>
+                        <change when="2021-04-12" who="ptomei">creation of record</change>
                     </listChange>
                 </revisionDesc>
             </teiHeader>
@@ -82,31 +82,39 @@
                 <body>
                     <div type="edition">
                         <div type="textpart">
-                            <ab>Rachiperto detto Popo figlio della fu Adalsinda riceve in livello
-                        dal vescovo di Lucca Pietro, una casa et res posta in loco et finibus Celle
-                        prope Agello, in precedenza tenuta da Cheulo e dal figlio Silvulo massarii,
-                        di pertinenza del vescovato, con tutte le sue dipendenze. Si impegna con i
-                        suoi eredi a mettervi uomini ad residendum et habitandum (...). Si impegna a
-                        versare pro omni censum et iustitiam al vescovo e ai suoi successori ogni
-                        mese di maggio a Lucca il censo annuale di 24 denari d’argento ad pars del
-                        vescovato e a far venire a Lucca tre volte l’anno legem et iustitiam
-                        faciendum, gli stessi uomini che abiteranno la casa a mandato del vescovo.
-                        Se non rispetterà i suddetti impegni, promette con i suoi eredi di versare
-                        al vescovo e ai suoi successori la pena di 50 soldi d’argento. Chiede al
-                        notaio Cosperto la stesura di due cartulas. Actum Luca. <persName>Autori:
-                            Pietro episcopus, Rachiperto detto Popo della fu Adalsinda. Scrittore:
-                            Cosperto notarius. Testimoni sottoscrittori: Teuprando, Ardimanno,
-                            Teuperto, Teudimundo notarius, Benedetto schabinus. Altro: Cheulo
-                            massarius, Silvulo di Cheulo massarius.</persName>
-                        <placeName>Luca (Lucca), Celle prope Aggello (Celle e Gello,
-                            Pescaglia).</placeName>
-                        <orgName>San Martino di Lucca (chiesa matrice).</orgName>
-                    </ab>
+                            <ab><persName>Rachiperto detto Popo</persName>
+                        <rs key="#Clerical_concubinage">figlio della <persName>fu
+                                Adalsinda</persName></rs> riceve in livello dal <rs key="#Bishops"
+                            >vescovo</rs> di Lucca <persName key="#Bishops" ref="#people/213"
+                            >Pietro</persName>, una casa et res posta in loco et finibus
+                            <placeName>Celle</placeName> prope <placeName>Agello</placeName>, in
+                        precedenza tenuta da <persName key="#Agricultural_workers">Cheulo</persName>
+                        e dal figlio <persName key="#Agricultural_workers">Silvulo</persName>
+                        <rs key="#Agricultural_workers">massarii</rs>, di pertinenza del <orgName
+                            key="#Mother_churches" ref="#juridical_persons/68"><rs
+                                key="#Mother_churches">vescovato</rs></orgName>, con tutte le sue
+                        dipendenze. Si impegna con i suoi eredi a mettervi uomini ad residendum et
+                        habitandum (...). Si impegna a versare pro omni censum et iustitiam al
+                        vescovo e ai suoi successori ogni mese di maggio a Lucca il censo annuale di
+                        24 denari d’argento ad pars del vescovato e a far venire a Lucca tre volte
+                        l’anno legem et iustitiam faciendum, gli stessi uomini che abiteranno la
+                        casa a mandato del vescovo. Se non rispetterà i suddetti impegni, promette
+                        con i suoi eredi di versare al vescovo e ai suoi successori la pena di 50
+                        soldi d’argento. Chiede al <rs key="#Writer #Notary">notaio</rs>
+                        <persName key="#Writer #Notary">Cosperto</persName> la stesura di due <rs
+                            key="#Libellus/precaria/emphyteusis">cartulas</rs>. Actum <placeName
+                            ref="#places/4" key="#Cities #Mother_churches #Bishops"
+                        >Luca</placeName>. <rs key="#Witness">Testimoni</rs> sottoscrittori:
+                            <persName key="#Witness">Teuprando</persName>, <persName key="#Witness"
+                            >Ardimanno</persName>, <persName key="#Witness">Teuperto</persName>,
+                            <persName key="#Witness #Notary">Teudimundo</persName>
+                        <rs key="#Notary">notarius</rs>, <persName key="#Witness #Scabini"
+                            >Benedetto</persName>
+                        <rs key="#Scabini">schabinus</rs>.</ab>
                         </div>
                     </div>
                     <div type="bibliography" subtype="editions">
-                        <p>MDL, V/2, n. 1023, pp. 631-632</p>
-                        <p>ChLA, LXXXVII, n. 17, pp. 68-69</p>
+                        <p>MDL, 5/2, n. 1023, pp. 631-632; ChLA 87, n. 17, pp. 68-69.</p>
                     </div>
                     <div type="bibliography" subtype="additional">
                         <p/>
@@ -115,7 +123,8 @@
                         <p/>
                     </div>
                     <div type="commentary">
-                        <p>. Matronimico.</p>
+                        <p>Sottoscrizioni autografe: Rachiperto detto Popo, Teuprando, Ardimanno,
+                    Teuperto, il notaio Teudimundo, lo scabino Benedetto.</p>
                     </div>
                 </body>
             </text>
