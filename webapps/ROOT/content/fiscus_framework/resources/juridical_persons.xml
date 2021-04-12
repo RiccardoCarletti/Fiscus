@@ -157,7 +157,6 @@
                         subtype="hasConnectionWith"/>
                     <link type="places" corresp="#places/4"
                         subtype="isWithin"/>
-                    <link type="places" corresp="#places/180" subtype="hasConnectionWith"/>
                 </org>
                 <org>
                     <orgName>Sancta Maria; ecclesia (Santa Maria a Monte; Pisa)</orgName>
@@ -744,6 +743,7 @@
                     <link type="places"
                         corresp="#places/326 #places/327 #places/323 #places/322 #places/321 #places/324"
                         subtype="hasConnectionWith"/>
+                    <link type="places"/>
                 </org>
                 <org>
                     <orgName>Sanctus Iustus de Cornino; ecclesia</orgName>
@@ -779,11 +779,8 @@
                     <orgName>Sanctus Anthimus; monasterium (Sant'Antimo; Siena)</orgName>
                     <orgName type="other"/>
                     <idno>juridical_persons/131</idno>
-                    <note>Ai fini della rappresentazione cartografica, la terra abbaziale posta a
-                            <foreign>Lavaclo</foreign>, località non precisamente ubicabile, è stata
-                        riferita alla vicina <foreign>Paterno</foreign>.</note>
+                    <note/>
                     <link type="places" corresp="#places/316" subtype="hasConnectionWith"/>
-                    <link type="places" corresp="#places/318" subtype="hasConnectionWith"/>
                 </org>
                 <org>
                     <orgName>Sanctus Silvester; ecclesia (Lucca)</orgName>
@@ -799,14 +796,6 @@
                     <note>Lucioni 1998</note>
                     <link type="places" corresp="#places/330" subtype="hasConnectionWith"/>
                     <link type="people" corresp="#people/171" subtype="link"/>
-                </org>
-                <org>
-                    <orgName>Sanctus Vincentius; ecclesia (Zenevredo; Pavia)</orgName>
-                    <orgName type="other"/>
-                    <idno>juridical_persons/134</idno>
-                    <note>De Angelis Cappabianca 1981</note>
-                    <link type="places" corresp="#places/333" subtype="hasConnectionWith"/>
-                    <link type="estates" corresp="#estates/162" subtype="hasConnectionWith"/>
                 </org> 
             </listOrg>
         </body>
