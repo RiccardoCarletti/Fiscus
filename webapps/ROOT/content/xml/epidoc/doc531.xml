@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    Diplomatico, ++ Q 4</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                        </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc531</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Commutatio</rs>
+                                    <rs type="record_source" ref="#">Original document</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate when="0898-08-27">
+                                <note type="displayed_date">898 August 27</note>
+                                <note type="dating_elements">Anno d’impero di Lamberto</note>
+                                <note type="topical_date">Lucca</note>
+                            </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance>
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                            <place></place>
+                        </listPlace>
+                        <listPerson>
+                            <person></person>
+                        </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-01-06" who="ptomei">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab><persName>Liusprando detto Aggo</persName> del <persName>fu
+                            Liuprando</persName> cambia beni con il <rs key="#Bishops">vescovo</rs>
+                        di Lucca <persName key="#Bishops" ref="#people/213">Pietro</persName>, ad
+                        pars del <orgName key="#Mother_churches" ref="#juridical_persons/68"><rs
+                                key="#Mother_churches">vescovato</rs> di San Martino</orgName>. Dà
+                        al vescovo una casa posta in loco et finibus <placeName ref="#places/64"
+                            >Asulari</placeName>, tenuta da <persName>Cillo</persName>, con tutte le
+                        sue dipendenze, confinante uno capu in via publica, alio capu con terra di
+                            <persName>Agelmanno</persName>, lato uno con terra dello <rs
+                            key="#Scabini">scabino</rs>
+                        <persName key="#Scabini">Teuprando</persName>, alio lato con terra dello
+                        stesso Teuprando; un’appezzamento di terra in loco et finibus Asulari, ubi
+                        dicitur <placeName ref="#places/64">Campo da Amiprando</placeName>,
+                        confinante capo uno in via publica, alio capu con terra della <orgName
+                            key="#Churches"><rs key="#Churches">chiesa</rs> di San Pietro que
+                            dicitur Sumaldi</orgName>, lato uno con terra della <orgName
+                            key="#Churches"><rs key="#Churches">chiesa</rs> di Sant’Agata</orgName>
+                        que est de subpotestatem del vescovato, alio lato in via publica; per una
+                        misura complessiva di 66 staia. Riceve dal vescovo una casa posta infra <rs
+                            key="#Cities">civitate</rs> ista Lucense, pertinenza del vescovato, con
+                        tutte le sue dipendenze fra cui una curte et terra vacua ante se, confinante
+                        uno capu con la casa di <persName>Teudilascio</persName> e con terra della
+                        chiesa di San Pietro, alio capu con una casa del vescovato, lato uno in via
+                        publica, alio lato con terra di <persName>Giovanni</persName>; per una
+                        misura complessiva di uno staio e una scala e mezzo. Il vescovo secondo la
+                        legge invia i suoi <rs key="#Missus_of_other_public_authorities">missos</rs>
+                        Giovanni del fu Teufilarto, Sicolfo del fu Ghisolfo, Gheripaldo del fu
+                        Pietro notaio, accompagnati dagli homines Ghisalperto detto Popo del fu
+                        Arileuso, Sanitulo detto Toto del fu Adalpaldo, Baldoino del fu Eripaldo
+                        chierico, Teupaldo del fu Ardimanno, Cosperto notaio del fu Lamperto,
+                        Flaiperto del fu Lopo, per sovrintendere alla permuta. Chiedono al notaio
+                        Leone la stesura della cartula. Actum Luca. <persName>Autori: Pietro
+                            episcopus, + Liusprando detto Aggo del fu Liuprando. Scrittore: Leone
+                            notarius. Testimoni sottoscrittori: Giovanni del fu Teufilarto, Sicolfo
+                            del fu Ghisolfo, Gheripaldo del fu Pietro notarius, Ghisalperto detto
+                            Popo del fu Arileuso, Baldoino del fu Eripaldo clericus, Teupaldo del fu
+                            Ardimanno, Cosperto notarius del fu Lamperto, + Sanitulo detto Toto del
+                            fu Adalpaldo, + Flaiperto del fu Lopo, Adalperto notarius, Giorgio
+                            notarius, Fraolmi, Pietro notarius, Ghisalfridi notarius et schabinus.
+                            Altro: Cillo, Agelmanno, Teuprando schabinus, Teudilascio,
+                            Giovanni.</persName></ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL, 5/2, n. 1027, pp. 632-633; ChLA 87, n. 21, pp. 80-83.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                        <p/>
+                    </div>
+                </body>
+            </text>
+        </TEI>
