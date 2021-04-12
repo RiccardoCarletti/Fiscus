@@ -103,12 +103,12 @@ document.addEventListener("click", function (e) {
 
 /* ***** cytoscape.js ***** */
         const cy_style = [
-        { selector: 'node', style: { 'label': 'data(label)', 'shape': 'round-rectangle', 'height': 'label', 'width': 'label', 'padding': '20px', 'text-halign': 'center', 'text-valign': 'center', 'text-wrap': 'wrap', 'text-max-width': '280px', 'font-size': '22px', 'border-width': 3, 'border-color': 'gray', 'border-style': 'solid' } },
+        { selector: 'node', style: { 'label': 'data(label)', 'shape': 'round-rectangle', 'height': 'label', 'width': 'label', 'padding': '20px', 'text-halign': 'center', 'text-valign': 'center', 'text-wrap': 'wrap', 'text-max-width': '280px', 'font-size': '22px', 'border-width': 3, 'border-color': 'black', 'border-style': 'solid' } },
         { selector: 'edge', style: { 'width': 2, 'label': 'data(label)', 'target-arrow-shape': 'triangle', 'curve-style': 'bezier' } },
-        { selector: 'node[type="people"]', style: { 'background-color': '#ffffcc' } },
-        { selector: 'node[type="juridical_persons"]', style: { 'background-color': '#ffe6e6' } },
-        { selector: 'node[type="estates"]', style: { 'background-color': '#ccffcc' } },
-        { selector: 'node[type="places"]', style: { 'background-color': '#e6e6ff' } },
+        { selector: 'node[type="people"]', style: { 'background-color': '#ffff80' } },
+        { selector: 'node[type="juridical_persons"]', style: { 'background-color': '#ffb4b4' } },
+        { selector: 'node[type="estates"]', style: { 'background-color': '#99ff99' } },
+        { selector: 'node[type="places"]', style: { 'background-color': '#c2c2ff' } },
         { selector: 'edge[type="red"]', style: { 'line-color': 'red', 'target-arrow-color': 'red' } },
         { selector: 'edge[type="green"]', style: { 'line-color': 'green', 'target-arrow-color': 'green' } },
         { selector: 'edge[type="blue"]', style: { 'line-color': 'blue', 'target-arrow-color': 'blue' } },

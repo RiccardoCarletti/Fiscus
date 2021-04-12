@@ -81,19 +81,24 @@ margin-left:20px;
 .button, .button:hover {
     background-color: #f6f6f6;
     border-style: none;
-    padding: 8px 8px 6px 8px;
+    padding: 7px;
     color: black;
+    margin: 4px;
 }
 
 #inputSearch, #mapSearch {
-    width:300px;
+    width: 300px;
     display: inline;
 }
 
+/* Graph cytoscape */
+#root{position:fixed; left:0; right:0; bottom:0; top:0;}
+#cy{position:absolute; left:0; right:0; bottom:0; top:0;}
+.menu{position:absolute; right:0; top:0;}
 
 /*autocomplete*/
 .autocomplete {
-  width:300px;
+  width: 300px;
   position: relative;
   display: inline-block;
 }

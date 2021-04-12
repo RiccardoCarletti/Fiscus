@@ -720,7 +720,7 @@
           <span style="color:green;margin-left:10px">➔</span> Personal bonds <input type="checkbox" id="toggle_green" checked="true"/>
           <span style="color:blue;margin-left:10px">➔</span> Other links <input type="checkbox" id="toggle_blue" checked="true"/>
           <span style="margin-left:10px"> Relation types </span> <input type="checkbox" id="toggle_relation_labels" checked="true"/>
-          <br/><span class="autocomplete"><input type="text" id="inputSearch" placeholder="Search"/></span><button id="btnSearch" class="button">Search</button> (Work in progress!)
+          <br/><span class="autocomplete"><input type="text" id="inputSearch" placeholder="Search"/></span><button id="btnSearch" class="button">Search</button> <button id="reset" class="button">Reset</button> (Work in progress!)
           <br/><button onclick="openFullscreen();" class="button">Fullscreen</button>
         </p>
       </div>
@@ -748,10 +748,14 @@
         
         <!-- search -->
         autocomplete(document.getElementById("inputSearch"), graph_labels);
+        
         $("#btnSearch").on('click',function () { 
-        var searched = $("#inputSearch").val();
         cy.elements().removeClass('highlighted');
         cy.$('[label =  "Lucca"]').addClass('highlighted');
+        });
+        
+        $("#reset").on('click',function () { 
+        cy.elements().removeClass('highlighted');
         });
        
        <!-- fullscreen -->
@@ -761,9 +765,7 @@
        else if (full.webkitRequestFullscreen) { full.webkitRequestFullscreen();} 
        else if (full.msRequestFullscreen) { full.msRequestFullscreen(); } }
       </script>
-      <!--<link href="{$kiln:assets-path}/cytoscape/wine/bundle.css" rel="stylesheet" type="text/css" />
-      <script src="../../assets/cytoscape/wine/polyfills.js"></script>
-      <script src="../../assets/cytoscape/wine/bundle.js"></script>-->
+      <!--<script src="../../assets/cytoscape/wine.js"></script>-->
     </div>
   </xsl:template>
   
