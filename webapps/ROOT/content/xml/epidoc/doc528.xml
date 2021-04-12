@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    Diplomatico, * K 56</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                        </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc528</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#"
+                                >--Libellus/precaria/emphyteusis</rs>
+                                    <rs type="record_source" ref="#">Original document</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate when="0898-07-06">
+                                <note type="displayed_date">898 July 6</note>
+                                <note type="dating_elements">Anno d’impero di Lamberto</note>
+                                <note type="topical_date">Lucca</note>
+                            </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance>
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                            <place></place>
+                        </listPlace>
+                        <listPerson>
+                            <person></person>
+                        </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-04-12" who="ptomei">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab>Giovanni del fu Suntripaldo riceve in livello dal vescovo di Lucca
+                        Pietro, una sala et subdita posta infra civitate ista Lucense, di pertinenza
+                        del vescovato di San Martino, con tutte le sue dipendenze, confinante uno
+                        capo et uno lato in via publica, alio capo in classo, alio lato con la casa
+                        et curte del fu arciprete Leone. Ottiene la potestas di suballivellare la
+                        sala et subdita. Si impegna a versare pro omni censum et iustitiam al
+                        vescovo e ai suoi successori post ipsi tres anni expleti proximi venturi
+                        ogni mese di luglio il censo annuale di 36 denari d’argento ad pars dello
+                        stesso vescovato. Se non rispetterà i suddetti impegni, promette con i suoi
+                        eredi di versare al vescovo e ai suoi successori la pena di 100 soldi
+                        d’argento. Chiede al notaio Cosperto la stesura di due cartulas. Actum Luca.
+                            <persName>Autori: Pietro episcopus, Giovanni del fu Suntripaldo.
+                            Scrittore: Cosperto notarius. Testimoni sottoscrittori: Pietro notarius,
+                            Cunimundo, Teupaldo, ... , Benedetto schabinus, Vivenzio presbiter et
+                            vicedominus. Altro: fu Leone archipresbiter.</persName>
+                        <placeName>Luca (Lucca).</placeName>
+                        <orgName>San Martino di Lucca (chiesa matrice).</orgName>
+                    </ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL, 5/2, n. 1024, p. 632; ChLA 87, n. 18, pp. 70-73.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                        <p>Nota dorsale X sec.: Iohanne patre Suntripaldi de cluso circa
+                    porticalia.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>
