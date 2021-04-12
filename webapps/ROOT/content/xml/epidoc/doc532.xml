@@ -5,7 +5,7 @@
                 <fileDesc>
                     <titleStmt>
                         <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
-                    Diplomatico, ++ K 86</title>
+                    Diplomatico, ++ C 12</title>
                     </titleStmt>
                     <editionStmt>
                         <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
@@ -14,7 +14,7 @@
                         </editionStmt>
                     <publicationStmt>
                         <publisher>Fiscus - DISCI UniBo</publisher>
-                        <idno type="filename">doc521</idno>
+                        <idno type="filename">doc532</idno>
                         <availability xml:lang="en" status="free">
                             <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                                 texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -31,7 +31,8 @@
                             </msIdentifier>
                             <msContents>
                                 <summary>
-                                    <rs type="text_type" ref="#">--Promissio</rs>
+                                    <rs type="text_type" ref="#"
+                                >--Libellus/precaria/emphyteusis</rs>
                                     <rs type="record_source" ref="#">Original document</rs>
                                     <rs type="document_tradition" ref="#">Original</rs>
                                     <rs type="fiscal_property">No</rs>
@@ -42,8 +43,8 @@
                             </msContents>
                             <history>
                                 <origin>
-                                    <origDate when="0898-04-27">
-                                <note type="displayed_date">898 April 27</note>
+                                    <origDate when="0898-08-30">
+                                <note type="displayed_date">898 August 30</note>
                                 <note type="dating_elements">Anno d’impero di Lamberto</note>
                                 <note type="topical_date">Lucca</note>
                             </origDate>
@@ -73,7 +74,7 @@
                 </profileDesc>
                 <revisionDesc>
                     <listChange>
-                        <change when="2021-04-06" who="ptomei">creation of record</change>
+                        <change when="2021-01-06" who="ptomei">creation of record</change>
                     </listChange>
                 </revisionDesc>
             </teiHeader>
@@ -81,36 +82,32 @@
                 <body>
                     <div type="edition">
                         <div type="textpart">
-                            <ab>Il <rs key="#Priests">prete</rs>
-                        <persName key="#Priests">Rachiprando</persName> del <persName>fu
-                            Ostrifuso</persName>, essendo stato <rs key="#Ordinatio">ordinato</rs> e
-                        confermato dal <rs key="#Bishops">vescovo</rs> di Lucca <persName
-                            key="#Bishops" ref="#people/214">Gherardo</persName> nella <orgName
-                            key="#Baptismal_churches"><rs key="#Baptismal_churches">pieve</rs> di
-                            Santa Maria sita loco <placeName key="#Baptismal_churches"
-                                ref="#places/296">Berbinaria</placeName></orgName> con tutte le sue
-                        dipendenze, promette al <rs key="#Bishops">vescovo</rs> di Lucca <persName
-                            key="#Bishops" ref="#people/213">Pietro</persName> di non concedere beni
-                        della sua pieve in livello nisi tantum illis hominibus qui in suprascriptis
-                        casis et rebus residerint. Se ciò avverrà sine vestro consensum, promette di
-                        pagare al vescovo la pena di 200 soldi d’argento. La promessa resta valida
-                        vita natural durante del vescovo. Chiede al <rs key="#Writer #Notary"
-                            >notaio</rs>
-                        <persName key="#Writer #Notary">Teudimundo</persName> la stesura della
-                        cartula. Actum <placeName ref="#places/4" key="#Bishops">Luca</placeName>.
-                            <rs key="#Witness">Testimoni</rs> sottoscrittori: <persName
-                            key="#Witness #Notary">Teuderando</persName>
-                        <rs key="#Notary">notarius</rs>, <persName key="#Witness #Notary"
-                            >Pietro</persName>
-                        <rs key="#Notary">notarius</rs>, <persName key="#Witness #Notary"
-                            >Cosperto</persName>
-                        <rs key="#Notary">notarius</rs>, <persName key="#Witness #Notary"
-                            >Richiprando</persName>
-                        <rs key="#Notary">notarius</rs>.</ab>
+                            <ab> Umfridi del fu Umfridi riceve in livello dal vescovo di Lucca
+                        Pietro, una vigna e due prata posti in loco et finibus Vacule ubi dicitur
+                        Vitiliano, di pertinenza della chiesa di San Giorgio sito hic Luca qui est
+                        de suppotestatem dello stesso vescovato, confinante uno caput in via
+                        publica, alio caput con terra del fu Auderamo, lato uno con una vigna del fu
+                        Gherifuso, una vigna del monastero di San Ponziano, e una vigna della chiesa
+                        di San Pietro. Si impegna a versare pro omni censum et iustitia al vescovo e
+                        ai suoi successori ogni mese di ottobre il censo annuale di 15 denari
+                        d’argento ad pars della chiesa di San Giorgio. Se non rispetterà i suddetti
+                        impegni, promette con i suoi eredi di versare al vescovo e ai suoi
+                        successori la pena di 30 soldi d’argento. Chiede al notaio Andrea la stesura
+                        di due cartulas. Actum Luca. <persName>Autori: Pietro episcopus, Umfridi del
+                            fu Umfridi. Scrittore: Andrea notarius. Testimoni sottoscrittori:
+                            Teuperto, Alone, Teupaldo, Ghisalfridi notarius et schabinus, ... .
+                            Altro: fu Auderamo, fu Gherifuso.</persName>
+                        <placeName>Luca (Lucca), Vacule ubi dicitur Vitiliano (San Lorenzo a
+                            Vaccoli, Lucca).</placeName>
+                        <orgName>San Giorgio in Pisticoro di Lucca, Santi Iacopo, Filippo e Ponziano
+                            di Lucca, San Pietro di (?), San Martino di Lucca (chiesa
+                            matrice).</orgName>
+                    </ab>
                         </div>
                     </div>
                     <div type="bibliography" subtype="editions">
-                        <p>MDL, 4/2, n. 50, pp. 67-68; ChLA 87, n. 11, pp. 44-45.</p>
+                        <p>MDL, V/2, n. 1028, pp. 634-635</p>
+                        <p>ChLA, LXXXVII, n. 22, pp. 84-85</p>
                     </div>
                     <div type="bibliography" subtype="additional">
                         <p/>
@@ -119,8 +116,7 @@
                         <p/>
                     </div>
                     <div type="commentary">
-                        <p>Sottoscrizioni autografe: il prete Rachiprando, il notaio Teuderando, il
-                    notaio Pietro, il notaio Cosperto, il notaio Richiprando.</p>
+                        <p>.</p>
                     </div>
                 </body>
             </text>
