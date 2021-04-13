@@ -31,10 +31,10 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#"/>
-                            <rs type="record_source" ref="#"/>
-                            <rs type="document_tradition" ref="#"/>
-                            <rs type="fiscal_property"/>
+                            <rs type="text_type" ref="#">Literary sources</rs>
+                            <rs type="record_source" ref="#">Original document</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -42,10 +42,10 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate notBefore="0001" notAfter="0001" when="0001"> 
-                                <note type="displayed_date"></note>
-                                <note type="dating_elements"></note>
-                                <note type="topical_date"></note>
+                            <origDate notBefore="0772" notAfter="0795">
+                                <note type="displayed_date">772-795</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date"/>
                             </origDate>
                             <origPlace/>
                         </origin>
@@ -73,7 +73,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2021-02-08">creation of record</change>
+                <change when="2021-02-08" who="dinternullo">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -81,20 +81,31 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab></ab>
+                    <ab>Item Adrianus constituit domos cultam .IIII., unam quidem quae dicitur
+                        Capracorum, territorio Vigentano, miliario ab urbe Roma plus minus .XV, in
+                        usum .C. pauperum Lateranensis palatii, et Galeriam in via Aurelia, miliario
+                        plus minus .X. ab Urbe, ad Sanctam Rufinam et Calvisianum in via Ardeatina,
+                        miliario ab Urbe plus minus .XV, et aliam Galeriam cum omnibus eis
+                        pertinentibus in usum sanctae Romanae Aecclesiae. Idem acquisivit beato
+                        Petro massam Aratianam sitam ab urbe miliario .XVI. via Ardeatina, in qua
+                        aecclesia beati Edisti esse dinoscitur, qualiter etiam et massam Acutianam,
+                        quae iuxta eandem esse videtur; necnon etiam massam, in qua est aecclesia
+                        Sancti Leucii posita via Flaminea, miliario ab urbe Roma plus minus .V. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p/>
+                <p>Deusdedit, Collectio Canonum, nr. 189, p. 352</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>
             </div>
             <div type="bibliography" subtype="links">
-                <p/>
+                <p><ref corresp="https://digi.vatlib.it/view/MSS_Vat.lat.3833">https://digi.vatlib.it/view/MSS_Vat.lat.3833</ref></p>
             </div>
             <div type="commentary">
-                <p/>
+                <p>Estratti dal <foreign>Liber Pontificalis</foreign>, come si evince anche dalla
+                    rubrica a margine di f. 85v: <foreign>ex Romano pontificali</foreign>
+                </p>
             </div>
         </body>
     </text>
