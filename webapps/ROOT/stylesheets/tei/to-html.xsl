@@ -657,7 +657,7 @@
     <xsl:variable name="graph_items">
       <xsl:text>[</xsl:text>
       <xsl:for-each select="$people/tei:person|$juridical_persons/tei:org|$estates/tei:place|$places/tei:place">
-        <xsl:text>{data: { id: "</xsl:text><xsl:value-of select="tei:idno[1]"/><xsl:text>", label: "</xsl:text>        
+        <xsl:text>{data: { id: "</xsl:text><xsl:value-of select="tei:idno[1]"/><xsl:text>", name: "</xsl:text>        
         <xsl:value-of select="normalize-space(translate(tei:*[1], ',', '; '))"/><xsl:text>"</xsl:text>
         <xsl:text>, type: "</xsl:text><xsl:choose>
           <xsl:when test="ancestor::tei:listPerson">people</xsl:when>
@@ -679,7 +679,7 @@
         </xsl:choose></xsl:variable>
         <xsl:choose>
           <xsl:when test="not(contains(@corresp, ' '))">
-            <xsl:text>{ data: { id: "</xsl:text><xsl:value-of select="concat($id, ' + ', replace(@corresp, '#', ''))"/><xsl:text>", label: "</xsl:text><xsl:value-of select="$relation_type"/><xsl:text>", source: "</xsl:text><xsl:value-of select="$id"/>
+            <xsl:text>{ data: { id: "</xsl:text><xsl:value-of select="concat($id, ' + ', replace(@corresp, '#', ''))"/><xsl:text>", name: "</xsl:text><xsl:value-of select="$relation_type"/><xsl:text>", source: "</xsl:text><xsl:value-of select="$id"/>
             <xsl:text>", target: "</xsl:text><xsl:value-of select="replace(@corresp, '#', '')"/><xsl:text>"</xsl:text> 
             <xsl:text>, type: "</xsl:text><xsl:value-of select="$color"/><xsl:text>"</xsl:text>
             <xsl:text> } }</xsl:text>
@@ -687,7 +687,7 @@
           <xsl:when test="contains(@corresp, ' ')">
             <xsl:for-each select="tokenize(@corresp, ' ')">
               <xsl:variable name="single_item" select="replace(., '#', '')"/>
-              <xsl:text>{ data: { id: "</xsl:text><xsl:value-of select="concat($id, ' + ', $single_item)"/><xsl:text>", label: "</xsl:text><xsl:value-of select="$relation_type"/><xsl:text>", source: "</xsl:text><xsl:value-of select="$id"/>
+              <xsl:text>{ data: { id: "</xsl:text><xsl:value-of select="concat($id, ' + ', $single_item)"/><xsl:text>", name: "</xsl:text><xsl:value-of select="$relation_type"/><xsl:text>", source: "</xsl:text><xsl:value-of select="$id"/>
               <xsl:text>", target: "</xsl:text><xsl:value-of select="$single_item"/><xsl:text>"</xsl:text> 
               <xsl:text>, type: "</xsl:text><xsl:value-of select="$color"/><xsl:text>"</xsl:text>
               <xsl:text> } }</xsl:text>
@@ -765,6 +765,7 @@
        else if (full.webkitRequestFullscreen) { full.webkitRequestFullscreen();} 
        else if (full.msRequestFullscreen) { full.msRequestFullscreen(); } }
       </script>
+      <!-- import { graph_labels, graph_items } from '../../stylesheets/tei/to-html.xsl'; -->
       <!--<script src="../../assets/cytoscape/wine.js"></script>-->
     </div>
   </xsl:template>
