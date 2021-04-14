@@ -579,7 +579,7 @@
       <script type="text/javascript">
         const nodeFilters = document.getElementsByName("nodesFilter");
         const edgeFilters = document.getElementsByName("edgesFilter");
-        const people = <xsl:value-of select="replace($graph_items, 'people/', ''), 'juridical_persons/', '10000'"/>;
+        const people = <xsl:value-of select="replace($graph_items, 'people/', '')"/>;
         const relations = <xsl:value-of select="replace($graph_relations, 'people/', '')"/>;
         const graph_labels = <xsl:value-of select="$graph_labels"/>;
         var nodes = new vis.DataSet(people);
