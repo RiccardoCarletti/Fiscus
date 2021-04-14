@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    Diplomatico, * B 47</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                        </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc536</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Commutatio</rs>
+                                    <rs type="record_source" ref="#">Original document</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate when="0899-02-03">
+                                <note type="displayed_date">899 February 3</note>
+                                <note type="dating_elements">Anno di regno di Berengario</note>
+                                <note type="topical_date">Lucca</note>
+                            </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance>
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                            <place></place>
+                        </listPlace>
+                        <listPerson>
+                            <person></person>
+                        </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-04-14" who="ptomei">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab> Gastaldulo detto Cillo del fu Domenico cambia beni con il vescovo
+                        di Lucca Pietro, ad pars della chiesa di San Gervasio e Santa Maria que est
+                        de subpotestatem dello stesso vescovato. Dà al vescovo una vigna posta in
+                        loco Puntiano ubi dicitur Trans Via, confinante uno capu in via, alio capu
+                        cum uno lato con terra del conte Ildiprando, alio lato con una vigna di
+                        Roppaldo e con terra del monastero di San Salvatore qui dicitur Brisciano;
+                        due appezzamenti di terra in loco ubi dicitur (...), prope ecclesia Sancti
+                        Filipi, uno confinante capo uno in via publica, alio capu cum uno lato con
+                        terra di Atrapaldo, alio lato con terra della chiesa di San Filippo; l’altro
+                        confinante uno capu in via publica, alio capu cum ambas lateras con terra
+                        del suddetto Atrapaldo; per una misura complessiva di 3 moggi e 6 staia.
+                        Riceve dal vescovo un appezzamento di terra et casalino posto foras civitate
+                        ista Lucense prope ecclesia Sancti Gervasi et Sancte Marie, pertinenza della
+                        stessa chiesa, con tutte le sue dipendenze, confinante uno capu cum uno lato
+                        in via publica, alio capu con terra della stessa chiesa, alio lato con terra
+                        del chierico Leone e della stessa chiesa; per una misura complessiva di 3
+                        staia e 2 scale. Il vescovo secondo la legge invia i suoi missos Alone del
+                        fu Angalperto, Gheripaldo e Agalmundo del fu Pietro notaio, il duca
+                        Adalberto i suoi missos Ghisalperto detto Popo del fu Pietro notaio,
+                        Cosperto notaio del fu Lamperto, Sicolfo del fu Ghisolfo, per sovrintendere
+                        alla permuta. Chiedono al notaio Leone la stesura della cartula. Actum Luca.
+                            <persName>Autori: Pietro episcopus, + Gastaldulo detto Cillo del fu
+                            Domenico. Scrittore: Leone notarius. Testimoni sottoscrittori: + Alone
+                            del fu Angalperto, gg. Gheripaldo, + Agelmundo e Ghisalperto detto Popo
+                            del fu Pietro notarius, Cosperto notarius del fu Lamperto, Sicolfo del
+                            fu Ghisolfo, Pietro notarius, Altiperto, Gumfridi, Imalfridi, Fraolmi,
+                            Adalperto notarius, Daniele subdiaconus et custos, Pietro presbiter et
+                            custos ecclesie Sancti Gervasi et Sancte Marie. Altro: Ildiprando comes,
+                            Roppaldo, Atrapaldo, Leone clericus, Adalberto dux.</persName>
+                        <placeName>Luca (Lucca), Puntiano ubi dicitur Trans Via (vicino Sant’Angelo
+                            in Campo, Lucca).</placeName>
+                        <orgName>Santi Gervasio e Protasio e Santa Maria Forisportam di Lucca
+                            (chiesa sedale), San Salvatore Brisciano di Lucca, San Filippo di (?),
+                            San Martino di Lucca (chiesa matrice).</orgName>
+                    </ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL, 4/2, App. n. 56, pp. 73-74; ChLA 87, n. 26, pp. 98-103.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                        <p>. Beni dei conti Aldobrandeschi.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>
