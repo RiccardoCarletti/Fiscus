@@ -502,6 +502,8 @@
                     <link type="estates"
                         corresp="#estates/102 #estates/118"
                         subtype="hasConnectionWith"/>
+                    <link type="estates" corresp="#estates/173" subtype="hasConnectionWith"/>
+                    <link type="people" corresp="#people/68" subtype="link"/>
                 </place>
                 <place>
                     <geogName>Hochburg; <foreign>curtis</foreign></geogName>
@@ -1150,7 +1152,8 @@
                         <foreign>domusculta</foreign></geogName>
                     <geogName type="other"/>
                     <idno>estates/166</idno>
-                    <note>De Francesco 2004: 260-269</note>
+                    <note>De Francesco 2004: 260-269. La sua estensione è ipotizzabile tra la
+                        Trionfale, l'Aurelia, la Cornelia e S. Maria di Galeria-Celsano a Nord. </note>
                     <link type="people" corresp="#people/222" subtype="link"/>
                 </place>
                 <place>
@@ -1202,6 +1205,13 @@
                     <link type="people" corresp="#people/227" subtype="link"/>
                     <link type="people" corresp="#people/21" subtype="link"/>
                     <link type="juridical_persons" corresp="#juridical_persons/121" subtype="link"/>
+                </place>
+                <place>
+                    <geogName><foreign>Graciliana</foreign>; <foreign>massa</foreign></geogName>
+                    <geogName type="other"/>
+                    <idno>estates/173</idno>
+                    <note>De Francesco 2004: 208</note>
+                    <link type="people" corresp="#people/68" subtype="link"/>
                 </place>
             </listPlace>
         </body>
