@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Biblioteca Chigiana, E VII 214, f. 10, exemplar XVIII sec.; E V 143, f. 10, exemplar XVIII sec.; Biblioteca Comunale di Siena, B VI 19, f. 399, exemplar XVIII sec.</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc1480</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">Breve</rs>
+                                    <rs type="record_source" ref="#">Edition</rs>
+                                    <rs type="document_tradition" ref="#">Copy</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate when="1038-03-08"> 
+                                        <note type="displayed_date">1038 March 8</note>
+                                        <note type="dating_elements">Anno dell’incarnazione. Anno
+                                    d’impero di Corrado.</note>
+                                        <note type="topical_date"
+                                    ><foreign>Corduliano</foreign></note>
+                                    </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-04-14" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab>In Christi nomine. Breve pro futuris temporibus a memoria abenda vel
+                        retinenda in presentia <persName key="#Count" ref="#people/218"
+                            >Ildibrandi</persName>
+                        <rs key="#Count">comitis</rs> et <persName>Rolandi</persName> filii bone
+                        memorie <persName>Teuderichi</persName> et <persName>Tarberti qui Corbulino
+                            vocatur</persName> filii bone memorie <persName>Petri</persName> et
+                            <persName>Tegrini</persName> filii <persName>Anselmi</persName>,
+                            <persName>Roine</persName> filii bone memorie et
+                            <persName>Rolandi</persName> filii bone memorie
+                            <persName>Ildibrandi</persName> et <persName>Arduini</persName> et
+                            <persName>Signorello</persName> filii bone memorie
+                            <persName>Mili</persName> et <persName>Alberti</persName> filii bone
+                        memorie [...] et <persName>Sapurello</persName> filio
+                            <persName>Segnurelli</persName> et <persName>Rodulfo</persName> de
+                            <placeName ref="#places/367">Caldanelle</placeName> et <persName>Bonini
+                            qui [...] vocatur</persName> et <persName>Widi</persName> filii
+                            <persName>Rodulfi</persName> et reliquis plures. Ibique in eorum
+                        presentia veniens <persName key="#Abbots" ref="#people/210"
+                            >Andreas</persName>
+                        <rs key="#Abbots">abbas</rs> cum <persName key="#Advocatus">Petro</persName>
+                        <rs key="#Advocatus">avocato</rs> suo filio bone memorie
+                            <persName>Racteri</persName> cum Sancta Dei evangelia in manibus suis
+                        sic iurare voluit de ipsa <rs key="#Monasteries">abatia</rs>
+                        <orgName key="#Monasteries" ref="#juridical_persons/126">Sancti
+                            Bartolomei</orgName> Apostoli que est infra <rs key="#Comitatus"
+                            >comitatu</rs>
+                        <geogName key="#Comitatus" ref="#estates/154">Roselle</geogName> et est
+                        constructa in loco qui dicitur <placeName key="#Monasteries"
+                            ref="#places/281">Sestinghe</placeName> prope <rs key="#Rivers"
+                            >fluvi</rs>
+                        <placeName key="#Rivers">Brama</placeName> in presentia <persName
+                            key="#Missus_regis">Althomo</persName>
+                        <rs key="#Missus_regis">misso donni imperatoris</rs> quod de predicto
+                        monasterio consuetudo non fui neque <rs key="#Fodrum">fodero</rs> neque
+                            <rs>parrata</rs> ab imperatore neque a suo misso non dedisse neque dedi
+                        qui iam dicto monasterio fuit edificato a tempore <persName
+                            key="#Emperor/king" ref="#people/130">Henrici</persName>
+                        <rs key="#Emperor/king">imperatoris</rs>. Cum prefato Altohomo missu donni
+                        imperatoris taliter vidisse et audisse quod prefato Petro avocato de prefato
+                        monasterio in presentia de prefatis hominibus paratus abveni cum Sancta Dei
+                        evangelia quod iurare volebat hoc supra legitur, tunc prenominato misso
+                        propter Deum et anime donni <persName key="#Emperor/king">Corradi</persName>
+                        <rs key="#Emperor/king">imperatoris</rs> et <persName>Ghisle</persName>
+                        uxore sua et <persName>Henrici</persName> filii eius et
+                            <persName>Cuniunda</persName> nurua sua ipsum sacramentum perdunavit qui
+                        non ei rectum comparuisset propterea pius non fui. Hoc factum est in anno
+                        Domini nostri Iesu Christi anni ab incarnatione eius millesimo tricesimo
+                        octavo, regnante donno nostro Conrado gratia Dei imperatore augustus anni
+                        imperii eius Deo propitio in Italia undecimo, VIII idus martii, indictione
+                        sexta. Factum est in loco qui dicitur <placeName ref="#places/366"
+                            >Corduliano</placeName>
+                        <rs key="#Comitatus">territorio</rs>
+                        <geogName key="#Comitatus" ref="#estates/154">Rosellense</geogName>.
+                            <persName key="#Judge">Walfredus</persName>
+                        <rs key="#Judge">iudex</rs> sacri palatii ibi fuit. <persName key="#Judge"
+                            >Gherardus</persName>
+                        <rs key="#Judge">iudex</rs> donni imperatoris ibi fuit. <persName
+                            key="#Notary">Petrus</persName>
+                        <rs key="#Notary">notarius</rs> ibi fuit et hunc breve scripsi.</ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>Muratori 1738-1742: V, 979; <foreign>RegSen</foreign>: 14, n. 38; Ciacci
+                    1980: II, n. 133.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                        <p/>
+                    </div>
+                </body>
+            </text>
+        </TEI>
