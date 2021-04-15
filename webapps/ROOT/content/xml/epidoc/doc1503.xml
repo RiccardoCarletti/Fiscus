@@ -57,10 +57,10 @@
                     </history>
                 </msDesc>
                 <listPlace>
-                    <place></place>
+                    <place/>
                 </listPlace>
                 <listPerson>
-                    <person></person>
+                    <person/>
                 </listPerson>
             </sourceDesc>
         </fileDesc>
@@ -81,8 +81,15 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>Honorius vero in suo registro Epifanio defensori Tusciae legitur locasse
-                        massam Gracilianam apud Bleranam civitatem.</ab>
+                    <ab><persName key="#Popes" ref="#people/68">Honorius</persName> vero in suo
+                        registro <persName key="#Papal_court_officer">Epifanio</persName>
+                        <rs key="#Papal_court_officer">defensori</rs>
+                        <geogName key="#Patrimonium" ref="#estates/103">Tusciae</geogName> legitur
+                        locasse <rs key="#Massae">massam</rs>
+                        <geogName
+                            key="#Massae #Fiscal_property #Object #Outflow #Allocation_to_individuals"
+                            ref="#estates/173">Gracilianam</geogName> apud <placeName key="#Cities"
+                            >Bleranam civitatem</placeName>.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
