@@ -5,10 +5,11 @@
         <fileDesc>
             <titleStmt>
                 <title>Biblioteca Apostolica Vaticana, Vat. Lat. 3833, f. 87v (Deusdedit, nr.
-                    210)</title>
+                    213)</title>
             </titleStmt>
             <editionStmt>
-                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus
+                        Project</ref>
                     <date when="2021">2021</date>
                 </edition>
             </editionStmt>
@@ -33,8 +34,8 @@
                         <summary>
                             <rs type="text_type" ref="#">-Papal concession (papyrus)</rs>
                             <rs type="record_source" ref="#">Original document</rs>
-                            <rs type="document_tradition" ref="#"/>
-                            <rs type="fiscal_property"/>
+                            <rs type="document_tradition" ref="#">Compendium</rs>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -42,10 +43,10 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate notBefore="0001" notAfter="0001" when="0001"> 
-                                <note type="displayed_date"></note>
-                                <note type="dating_elements"></note>
-                                <note type="topical_date"></note>
+                            <origDate notBefore="0625" notAfter="0638">
+                                <note type="displayed_date">625 November 3 - 638 October 12</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date"/>
                             </origDate>
                             <origPlace/>
                         </origin>
@@ -57,10 +58,10 @@
                     </history>
                 </msDesc>
                 <listPlace>
-                    <place></place>
+                    <place/>
                 </listPlace>
                 <listPerson>
-                    <person></person>
+                    <person/>
                 </listPerson>
             </sourceDesc>
         </fileDesc>
@@ -73,7 +74,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2021-02-08">creation of record</change>
+                <change when="2021-02-08" who="dinternullo">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -81,11 +82,13 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab></ab>
-                </div>
+                <ab>Idem in eodem (registro) ad Epifanium: legitur (Honorium) locasse massam
+                    Stracesim cum prato suo et omnibus sibi pertinentibus, positam in territorio
+                    Centumcellensi. </ab>
+                    </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p/>
+                <p>Deusdedit, Collectio Canonum, nr. 213, p. 364</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>
