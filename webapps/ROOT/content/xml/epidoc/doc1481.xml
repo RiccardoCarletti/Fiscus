@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio di Stato di Siena, Diplomatico, Città di Massa, 1075
+                    novembre 20, exemplar XIV sec.</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc1481</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">-Diploma</rs>
+                                    <rs type="record_source" ref="#">Original document</rs>
+                                    <rs type="document_tradition" ref="#">Copy</rs>
+                                    <rs type="fiscal_property"/>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate when="1074-11-20"> 
+                                        <note type="displayed_date">1074 November 20</note>
+                                        <note type="dating_elements"/>
+                                        <note type="topical_date">Roma; Laterano</note>
+                                    </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-04-14" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab><rs>Papa</rs>
+                        <persName key="#Popes">Gregorio VII</persName>, su richiesta di <persName
+                            key="#Bishops">Guilielmo</persName>
+                        <orgName key="#Mother_churches" ref="#juridical_persons/86"
+                            >Populoniensis</orgName>
+                        <rs key="#Mother_churches">ecclesie</rs>
+                        <rs key="#Bishops">episcopo</rs>, conferma allo stesso presule episcopatum
+                        predicte Populoniensis ecclesie cum omni iure suisque pertinentiis. Cuius
+                        episcopatus fines et possessiones sunt videlicet locus qui dicitur
+                            <placeName ref="#places/348">Alma</placeName> et exinde usque in <rs
+                            key="#Sea">mare</rs> et in <rs key="#Islands">insulam</rs> que vocatur
+                            <placeName key="#Islands">Elba</placeName> et inde in mare in
+                            <placeName>Sedium</placeName> supra ipsum mare et exinde iusta in
+                        Stafile Auricausi et in <rs key="#Rivers">rivum</rs> Sabuli et exinde in
+                        Salam Allonis <rs key="#Marquis/duke">ducis</rs> inde vero in Aslaito et
+                        exinde in <rs key="#Vici">Vicum</rs> Montanini et inde ad Sanctum Petrum in
+                        quo persido inde vero ad Sanctum Iohannem in Gualdum donni <rs
+                            key="#Emperor/king">regis</rs> et ad Sanctum Philippum et inde ad Montem
+                        Viridem et inde ad Fontem Fontignani per Faianum Paganicum in Aquam Caldulam
+                        et ad Campum Mustiuole inde vero ad Sussianum et exinde ad Viniale et inde
+                        in Scannelli inde vero in Fraginetum et exinde in Campum Arenensem et inde
+                        in Campum Gagoni inde vero in Arenam et exinde in Libistellum et inde in
+                        Senile inde vero in Pancie et exinde in Butre et inde in Planizzule inde
+                        vero in Suppatre et exinde ad Argali et inde in <rs key="#Mountains"
+                            >montem</rs> Danazzonem inde vero in Querqueta et exinde in Termine et
+                        inde in Cerbaiuola inde vero in Iusciani et exinde in Lama de Arcle fine ad
+                        Pratum Firmi et inde in Terrige fine Petram Albam et inde in Ercle qui est
+                        iuxta suprascriptam Almam vel quecumque alia episcopalia iura. Proibisce
+                        illicita exactione vel usurpatione di re, imperatori, duchi, conti, vescovi
+                        e abati, alcuna persona magna et parva. Concedentes et corroborantes eidem
+                        Populoniensi ecclesie denominate quidem Elbam <rs key="#Islands"
+                            >insulam</rs> cum omnibus locis et ecclesiis <rs key="#Decima"
+                            >decimationibus</rs> omnique iure rerum illuc pertinentium. Similiter
+                        etiam et reliquas plebes cum <rs key="#Churches">ecclesiis</rs>
+                        <rs key="#Villages/settlements">villis</rs>
+                        <rs key="#Castle">castellis</rs>
+                        <rs key="#Landed_possessions">terris</rs> cultis et incultis secundum
+                        ambitum terminorum et diffinitionis, que in antiquis privilegiis eidem
+                        ecclesie collatis invenitur ut prelibatum est. Concesso per manus del <rs
+                            key="#Cardinals">prete cardinale</rs> e bibliotecario Sancte Romane
+                        Ecclesie Pietro. Scrive: Ranieri scriniarius S. Romane Ecclesie. Datum
+                        Lateranis. <persName>Autore: Gregorio episcopus. Scrittore: . Altro:
+                            Guglielmo episcopus, Pietro presbiter cardinalis et bibliothecarius S.
+                            Romane Ecclesie.</persName>
+                        <placeName>Lateranis (Roma), , , Stafile Auricausi (?), Sabuli (Podere
+                            Sorbizzi, Bibbona), Salam Allonis ducis (Podere Sala, Bibbona), Aslaito
+                            (Podere La Pievaccia, Bibbona), Vicum Montanini (?), Sanctum Iohannem in
+                            Gualdum donni regis (Case San Giovanni, Monteverdi Marittimo), Sanctum
+                            Petrum, Sanctum Philippum, Montem Viridem (Monteverdi Marittimo), Fontem
+                            Fontignani (?), Faianum (Podere Faiano, Monterotondo Marittimo),
+                            Paganicum (Serra Paganico, Monterotondo Marittimo), Aquam Caldulam (?),
+                            Campum Mustiuole (?), Sussianum (?), Viniale (?), Scannelli (?),
+                            Fraginetum (?), Campum Arenensem (?), Campum Gagoni (?), Arenam (?),
+                            Libistellum (?), Serule (Podere Campo al Santo, Massa Marittima), Pancie
+                            (Case Pancoli, Massa Marittima), Butre (Case Botri, Massa Marittima),
+                            Planizzule (Case Pianizzoli, Massa Marittima), Suppatre (?), Argali (?),
+                            Montem Danazzonem (?), Querqueta (?), Termine (?), Cerbaiuola (?),
+                            Rosciani (?), Lama de Arcle (Le Lame, Gavorrano), Pratum Firmi (?),
+                            Terrige (Terrighi, Gavorrano), Petram Albam (Poggio Petraia, Gavorrano),
+                            Ercle (Serra degli Impiccati, Castiglione della Pescaia).</placeName>
+                        <orgName>San Pietro di Monteverdi, San Giovanni di Monteverdi, San Filippo
+                            di Monteverdi, San Pietro di Roma (chiesa matrice).</orgName>
+                    </ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>Acta Pontificum Romanorum inedita, II, n. 160, pp. 124-125; Lisini 1908:
+                    523.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                        <p>Anno di pontificato di Gregorio.
+                Decime.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>
