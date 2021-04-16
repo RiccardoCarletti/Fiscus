@@ -33,8 +33,8 @@
                                 <summary>
                                     <rs type="text_type" ref="#"
                                 >--Libellus/precaria/emphyteusis</rs>
-                                    <rs type="record_source" ref="#"/>
-                                    <rs type="document_tradition" ref="#"/>
+                                    <rs type="record_source" ref="#">Original document</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
                                     <rs type="fiscal_property"/>
                                 </summary>
                                 <msItem xml:id="msItem1">
@@ -46,7 +46,7 @@
                                     <origDate when="0899-09-09">
                                 <note type="displayed_date">899 September 9</note>
                                 <note type="dating_elements">Anno di regno di Berengario</note>
-                                <note type="topical_date">Pieve Fosciana (Lucca)</note>
+                                <note type="topical_date">Pieve Fosciana, Lucca</note>
                             </origDate>
                                     <origPlace/>
                                 </origin>
@@ -82,27 +82,28 @@
                 <body>
                     <div type="edition">
                         <div type="textpart">
-                            <ab> Il prete Sindiperto del fu Rachiperto riceve in livello dal vescovo
-                        di Lucca Pietro, la chiesa di Santa Maria sita loco Magnano, di pertinenza
-                        della pieve di San Cassiano, con tutte le sue dipendenze. Si impegna
-                        affinché per sua disposizione nella chiesa si tengano officium Dei et
-                        luminaria seo missarum. Si impegna di residere et abitare nella casa,
-                        dipendenza della stessa chiesa. Si impegna a versare pro omni censum et
-                        iustitiam al vescovo e ai suoi successori ogni mese di ottobre il censo
-                        annuale di 12 denari d’argento ad pars del vescovato di San Martino. Se non
-                        rispetterà i suddetti impegni, promette di versare al vescovo e ai suoi
-                        successori la pena di 50 soldi d’argento. Chiede al notaio Adalfridi la
+                            <ab>Il <rs key="#Priests">prete</rs>
+                        <persName key="#Priests">Sindiperto</persName> del <persName>fu
+                            Rachiperto</persName> riceve in livello dal <rs key="#Bishops"
+                            >vescovo</rs> di <placeName ref="#places/4" key="#Bishops"
+                            >Lucca</placeName>
+                        <persName ref="#people/213" key="#Bishops">Pietro</persName>, la <orgName
+                            key="#Churches"><rs key="#Churches">chiesa</rs> di Santa Maria sita loco
+                                <placeName key="#Churches" ref="#places/375"
+                            >Magnano</placeName></orgName>, di pertinenza della <rs
+                            key="#Baptismal_churches">pieve</rs> di San Cassiano, con tutte le sue
+                        dipendenze. Si impegna affinché per sua disposizione nella chiesa si tengano
+                        officium Dei et luminaria seo missarum. Si impegna di residere et abitare
+                        nella casa, dipendenza della stessa chiesa. Si impegna a versare pro omni
+                        censum et iustitiam al vescovo e ai suoi successori ogni mese di ottobre il
+                        censo annuale di 12 denari d’argento ad pars del vescovato di San Martino.
+                        Se non rispetterà i suddetti impegni, promette di versare al vescovo e ai
+                        suoi successori la pena di 50 soldi d’argento. Chiede al notaio Adalfridi la
                         stesura di due cartulas. Actum loco Bargenne ad plebe Sancti Cassiani
-                        territurio Lucani. <persName>Autori: Pietro episcopus, Sindiperto presbiter
-                            del fu Rachiperto. Scrittore: Adalfridi notarius. Testimoni
-                            sottoscrittori: Albone, + Ardo del fu Odalperto, Fardolfo, gg. +
-                            Aripaldo, + Ermaldo e + Filighisi del fu Atripaldo, + Adalberto del fu
-                            Atrifuso.</persName>
-                        <placeName>Bargenne (Pieve Fosciana), Magnano (Magnano, Villa
-                            Collemandina).</placeName>
-                        <orgName>Santa Maria di Magnano, Santi Cassiano e Ippolito di Fosciana
-                            (chiesa battesimale), San Martino di Lucca (chiesa matrice).</orgName>
-                    </ab>
+                        territurio Lucani. Autori: Pietro episcopus, Sindiperto presbiter del fu
+                        Rachiperto. Scrittore: Adalfridi notarius. Testimoni sottoscrittori: Albone,
+                        + Ardo del fu Odalperto, Fardolfo, gg. + Aripaldo, + Ermaldo e + Filighisi
+                        del fu Atripaldo, + Adalberto del fu Atrifuso.</ab>
                         </div>
                     </div>
                     <div type="bibliography" subtype="editions">
@@ -115,7 +116,7 @@
                         <p/>
                     </div>
                     <div type="commentary">
-                        <p>Sottoscrizioni autografe:</p>
+                        <p>Sottoscrizioni autografe: il prete Sindiperto, Albone, Fardolfo.</p>
                     </div>
                 </body>
             </text>
