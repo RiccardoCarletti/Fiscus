@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title></title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc1118</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#"/>
+                            <rs type="record_source" ref="#"/>
+                            <rs type="document_tradition" ref="#"/>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate notBefore="0001" notAfter="0001" when="0001"> 
+                                <note type="displayed_date"></note>
+                                <note type="dating_elements"></note>
+                                <note type="topical_date"></note>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-02-08">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine domini nostri Iesu Christi. Berengarius divina favente clementia
+                        rex. Si petitionibus sacerdotum Dei iustis rationabilibus animum nostre
+                        pietatis aclinamus, et ut oporteat adimplere sic agimus, procul dubio
+                        beatitudinem eterne hereditatis adipisci nequaquam ambigimeus et temporalem
+                        honorem facilius obtineri. Quapropter comperiat solercia omnium fidelium
+                        sancte Ecclesie Dei nostrorum presentium videlicet ac futurorum, quia vir
+                        venerabilis Odelbertus sancte Lunensis ecclesie episcopus, que est in honore
+                        sancte Dei genitricis semperque virginis Marie dicata, ad nostram accedens
+                        maiestatem preceptum domni Karoli imperatoris auctoritatesque nostrorum
+                        predecessorum regum nostris optulit obtutibus in quibus insertum fuerat,
+                        qualiter ipse memoratam matrem ecclesiam sub sua plenissima defensione atque
+                        inmunitatis tuitione cum omnibus rebus sibi pertinentibus susceperat eamque
+                        ex rebus sui imperii sublimare studuerat; pro firmitatis vero studio nostram
+                        petiit excellentiam memoratus episcopus, ut predecessorum nostrorum
+                        auctoritates nostra roboraremus firmitate. Cuius petitionibus propter amorem
+                        divini cultus et dilectissimi fidelis nostri aures inclinantes, scilicet
+                        memoratam matrem ecclesiam una cum sacerdotibus et ecclesiis baptismalibus
+                        atque oraculis omnibusque rebus ad eamdem sedem pertinentibus sub nostra
+                        plenissima tuitione atque inmunitatis protectione suscipimus, quatenus in
+                        nostra manens defensione nullus iudex publicus vel quislibet ex iudiciaria
+                        potestate infra res aut territoria iuste et legaliter ad eandem sedem
+                        respicientia, quas nunc in quocumque possideat loco vel quas divina maiestas
+                        augere voluerit, ad causas iudiciario more audiendas vel excuciendas ullo
+                        unquam in tempore ingredi audeat, aut fideiussores tollendos aut homines
+                        super terram ipsius tam ingenuos quamque servos commanentes distringendos
+                        aut paratas mansionaticas aut paravredos excuciendos aut freda vel ullas
+                        redibitiones seu illicitas occasiones requirere presumat, sed quecumque ad
+                        ius nostri fisci exigi potuerit, omnia luminaribus ipsius ecclesie deferenda
+                        sancimus. Decernimus autem, ut precepta nostrorum predecessorum regum ac
+                        nostra et omnia instrumenta cartarum, ex quibus res et mancipias per diversa
+                        loca memorate sedi actenus delegate fuerunt ac confirmate, et que nunc a
+                        rectoribus eius ubicumque possidentur, deinceps per hanc nostram
+                        auctoritatem recte atque inconvulse inhibi permaneant. Quin etiam libellos
+                        et precarias inlicitasque commutationes iniuste contra ecclesiastica dogmata
+                        a presulibus sancte Lunensis ecclesie emissas hoc nostre auctoritatis
+                        pragmatico infringimus, cassamus atque omnimodis evacuamus, uti a modo
+                        nullum unquam in tempore obtineant vigorem, set tanquam non fuerint, penitus
+                        cassate atque evacue permaneant. Sanctientes ac precipientes, ut nullus ex
+                        iudiciario ordine iuxta easdem increpationes aliquando iudicium proferat,
+                        sed quicumque ex ipsis rebus eam inrationabiliter aliqua inscriptionis
+                        pagina agressus et accipere accintus sit, condemnatus perhennis temporibus
+                        maneat. De ipsis vero rebus unde contra legem sepedicta ecclesia exspoliata
+                        videatur, legitima investitura ad eiusdem ecclesie partem ascribimus, ut
+                        deinceps iure proprietario iuste et legaliter teneat, possideat ex quibus
+                        neglegenter passa est diminoratione. Si quis autem contumax et rebellis
+                        huius nostre pagine iussioni contraire temptaverit, sciat se compositurum
+                        auri optimi libras C, medietatem palatio nostro et medietatem iam sepe dicte
+                        ecclesie Lunensi. Et ut verius credatur ac diligentius omnimodis observetur,
+                        manu propria corroboratum anuli nostri inpressione subter iussimus
+                        insigniri. Signum domni Berengarii piissimi regis. Beatur cancellarius ad
+                        vicem Liutuardi episcopi archicancellarii recognovi et subscripsi. Dat VIIII
+                        kal. Iun., anno incarnationis Domini DCCCXC, anno vero domni Berengarii
+                        piissimi regis XII, indictione III. Actum Papie civitate palatio regio. In
+                        Dei nomine feliciter, amen.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
