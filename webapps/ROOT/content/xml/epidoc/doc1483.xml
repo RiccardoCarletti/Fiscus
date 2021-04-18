@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio di Stato di Siena, Diplomatico, Bichi Borghesi, sec. X marzo
+                    12</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc1483</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">Praeceptum</rs>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">Yes</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate when="0952-03-12"> 
+                                        <note type="displayed_date">952 March 12</note>
+                                        <note type="dating_elements">Anno dell’incarnazione. Anno di
+                                    regno di Berengario e di Adalberto.</note>
+                                        <note type="topical_date"/>
+                                    </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-04-02" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab>Betto abbas chiede ai re Berengario e Adalberto pro anima loro et
+                        peticione monachorum grege beati sancti Antimi qui est situs in finibus
+                        Clusensis locum qui vocatur inter Valles, nostre serenitati obtulerunt
+                        praecepta pie recordacionis imperatorum Karoli scilicet et Ludovici seu
+                        Lothari atque Ludovici, quas idem piissimiaugusti antecessores nostri, in
+                        qua invenimus confirmationem et stabilitatem temporibus Tao olim abbas nec
+                        non et Tanimundo abbas praefatum monasterium construxerunt et ibi Deo
+                        famulancium fraterna monachorum adgregaverunt congregatio et postea ipsis
+                        imperatoribus per eorum preceptis confirmaverunt ipsum sacntum cenobium et
+                        res ad eum pertinentes vel quo in futuro a Deo timensium ibi date aut
+                        contulte essent  (…) et defensione per eadem auctoritatem consistere
+                        fecisset; chiede perciò la confermat di tutto questo. Confermano perciò al
+                        monastero cortes duas: Andrina qui est in comitatu Senensis; alia curte est
+                        in comitatu Clusę qui nominatur Valle Fabrica, cum omnibus pertinentiis
+                        earum. Precipiendis ergo iubemus ut nullus iudex puplicus neque quislibet ex
+                        iudicaria potestate aut aliquid ex fidelibus nostris in cellulas aut
+                        aecclesias vel cortes aut loca vel agros seu reliquas possessiones predicti
+                        monasterii quas moderno tempore iuste et legaliter infra diccionem imperii
+                        nostri habere vel possidere videtur vel ea quę deinceps in iure ipsius
+                        sancti loci voluerit divina pietas augeri, ad causas adiendas vel freda aut
+                        tributa exigenda aut mansiones vel paradas faciendas aut fideiussores
+                        tollendos aut homines ipsius monasterii tam ingenuos quamque servos super
+                        terram ipsius commanentes distringendos nec ullas redibiiciones aut
+                        inlicitas occasiones requirendas ullo umquam tempore ingredi audeat vel ea
+                        que supra memorata sunt penitus exigere presummat, et quicquid exinde ius
+                        fisci exigere poterit, totum nos pro eterna remuneratione eidem concedimus
+                        monasterio ut in alimonia peuperum et stipendia monachorum ibidem Deo
+                        famulantium proficiat in augmentum vel sicut in eorum privilegium quod ad
+                        Stefanum papam factum esse cernitur confirmaciones regum declarantur esse in
+                        monasterio ad ipsa casa Dei iure firmissimum roboratum; sed liceat memorato
+                        abbate cum predicta congregatione eorumque successoribus res predicti
+                        monasterii et cum omnibus ad se iuste et legaliter pertinentes summinitatis
+                        nostre defensione quieto ordine possidere. Ordinano inoltre che ubicumque
+                        conquestio ex hoc devenerit ac nostra auctoritate bonorum hominum adhibeatur
+                        [qui rei veritatem inquirant, et quicquid de] sua iusticia visum fuerit
+                        pertinere, mox restituatur, necnon et libell[a …] decessorum
+                        commutationesque iniuste et inracionabiliter annihilentur et disrumpantur ;
+                        [et ipsi avocatoresvel decem] liberi homines qui tutelam ipsius monasterii
+                        qui per tempore gerere debent, concedimus ut nec ipsi in exceptitum pergant
+                        nec excubias publicas faciant et nullus de iudicalia p[otestate eos
+                        distringat] et nulla mallatura quod est tortum a parte prefati avocatores
+                        seu et ad ipsi decem homines de parte ipsius monasterii quislibet querere
+                        adeat, et videlicet ordine ut qu[ando ipsi prefati avocatores] seu ipsi iam
+                        prefati decem homines utiles fuerunt, sub nostra defensione cum omnibus
+                        eorum pertinentiis consistant et si quando ipsi avocatores vel ipsi homines
+                        ab eadem utlit[ate … sub nostra] simili defensione alii in eorum
+                        restituantur locis. Concedono la licentiam ai monaci di scegliere fra di
+                        loro un abate che voglia governarli secondo la regola di San Benedetto. Ipsi
+                        quoque si nobis Dominus pacem dederit nullis partibus declinet nisi n[ostris
+                        et in benefi]cio nostro, nobis nostrisque successoribus deserviant sicuti
+                        antequam in beneficio dat[um est] antecessores eorum quondam Tao, Tanimundo
+                        et Apolinaris abbatibus fecerunt, quatenus [pro nobis et] coniuge proleque
+                        nostra et pro stabilitate ac totius imperii nostri iugiter Domini
+                        misericord[iam exorare illos delectet]. I re stabiliscono una pena di
+                        trigintra libras argenti; e fanno apporre il proprio sigillo. Recognitio di
+                        Giovanni ad vicem del vescovo e arcicancelliere Bruningo. <persName>Autori:
+                            Berengario rex, Adalberto rex. Riconoscitore: Giovanni. Altro: Betto
+                            abbas, Carlo imperator, Ludovico imperator, Lotario imperator, Tao
+                            abbas, Tanimundo abbas, Apollinare abbas, Stefano episcopus, Bruningo
+                            episcopus et archicancellarius.</persName>
+                        <placeName>Inter Valles (Abbazia di Sant’Antimo, Montalcino), Andrina (?),
+                            Valle Fabrica (Podere Fabbrica, Pienza), Sena (Siena), Clusium
+                            (Chiusi).</placeName>
+                        <orgName>Sant’Antimo.</orgName>
+                    </ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>DD B II, 5, pp. 304-308; Lisini 1908: 501.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                        <p>Fatto sull'ediz. Schiaparelli; è disponibile la foto per la
+                    revisione.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>
