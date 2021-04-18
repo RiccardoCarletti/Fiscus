@@ -199,6 +199,7 @@
                         corresp="#juridical_persons/53"/>
                     <link type="people" corresp="#people/55" subtype="link"/>
                     <link type="people" corresp="#people/21" subtype="link"/>
+                    <link type="places" corresp="#places/361" subtype="hasConnectionWith"/>
                 </place>
                 <place>
                     <geogName>Lucca; <foreign>curtis</foreign></geogName>
@@ -219,8 +220,8 @@
                     <idno>estates/80</idno>
                     <note>Secondo il Tiraboschi Dizionario, II, p. 409, si trova nel Mantovano. Da
                         notare che passa da Nonantola a S. Sisto.</note>
-                    <link type="juridical_persons"
-                        corresp="#juridical_persons/53"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/53" subtype="link"/>
+                    <link type="places" corresp="#places/362" subtype="hasConnectionWith"/>
                 </place>
                 <place>
                     <geogName>Settepolesini; <foreign>curtis</foreign></geogName>
