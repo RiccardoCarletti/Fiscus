@@ -24,25 +24,22 @@
   <xsl:variable name="thesaurus" select="document(concat($resources, 'thesaurus.xml'))//tei:taxonomy"/>
   
   <!-- import @key values from markup in documents -->
-  <xsl:variable name="docnames"><xsl:for-each select="1 to 2100"><xsl:value-of select="concat('doc', ., '.xml')"/><xsl:text>#</xsl:text></xsl:for-each></xsl:variable>
-  <xsl:variable name="docname" select="distinct-values(tokenize($docnames, '#'))"/>
+  <xsl:variable name="texts" select="collection(concat($epidoc, '?select=*.xml;recurse=yes'))//tei:div[@type='edition']"/>
+  
   <xsl:variable name="keys">
-    <xsl:for-each select="$docname">
-      <xsl:variable name="doc_name" select="."/>
-      <xsl:if test="fn:doc-available(concat($epidoc, $doc_name)) = fn:true()">
-        <xsl:for-each select="document(concat($epidoc, $doc_name))//tei:div[@type='edition']//tei:placeName[@key!=''][@ref]">
+    <xsl:for-each select="$texts">
+        <xsl:for-each select=".//tei:placeName[@key!=''][@ref]">
           <p class="place_keys"><xsl:attribute name="id"><xsl:value-of select="substring-after(@ref, 'places/')"/></xsl:attribute><xsl:value-of select="translate(@key, '#', '')"/><xsl:if test="position()!=last()"><xsl:text> </xsl:text></xsl:if></p>
         </xsl:for-each>
-        <xsl:for-each select="document(concat($epidoc, $doc_name))//tei:div[@type='edition']//tei:geogName[@key!=''][@ref]">
+        <xsl:for-each select=".//tei:geogName[@key!=''][@ref]">
           <p class="estate_keys"><xsl:attribute name="id"><xsl:value-of select="substring-after(@ref, 'estates/')"/></xsl:attribute><xsl:value-of select="translate(@key, '#', '')"/><xsl:if test="position()!=last()"><xsl:text> </xsl:text></xsl:if></p>
         </xsl:for-each>
-        <xsl:for-each select="document(concat($epidoc, $doc_name))//tei:div[@type='edition']//tei:persName[@key!=''][@ref]">
+        <xsl:for-each select=".//tei:persName[@key!=''][@ref]">
           <p class="person_keys"><xsl:attribute name="id"><xsl:value-of select="substring-after(@ref, 'people/')"/></xsl:attribute><xsl:value-of select="translate(@key, '#', '')"/><xsl:if test="position()!=last()"><xsl:text> </xsl:text></xsl:if></p>
         </xsl:for-each>
-        <xsl:for-each select="document(concat($epidoc, $doc_name))//tei:div[@type='edition']//tei:orgName[@key!=''][@ref]">
+        <xsl:for-each select=".//tei:orgName[@key!=''][@ref]">
           <p class="jp_keys"><xsl:attribute name="id"><xsl:value-of select="substring-after(@ref, 'juridical_persons/')"/></xsl:attribute><xsl:value-of select="translate(@key, '#', '')"/><xsl:if test="position()!=last()"><xsl:text> </xsl:text></xsl:if></p>
         </xsl:for-each>
-      </xsl:if>
     </xsl:for-each>
   </xsl:variable>
   
@@ -225,6 +222,13 @@
     <xsl:variable name="links_places"><xsl:for-each select="$linked_places|$linking_places"><xsl:value-of select="." /><xsl:text> </xsl:text></xsl:for-each></xsl:variable>
     <xsl:variable name="linkedplaces" select="distinct-values(tokenize(normalize-space($links_places), '\s+'))" />
     
+    <xsl:variable name="mentioning_documents">
+          <xsl:for-each select="$texts">
+              <xsl:for-each select=".[descendant::tei:*[contains(concat(@ref, ' '), concat($idno, ' '))]]"><p/></xsl:for-each>
+          </xsl:for-each>
+        </xsl:variable>
+        <xsl:variable name="number_of_mentioning_documents"><xsl:value-of select="count($mentioning_documents/p)"/></xsl:variable>
+    
     <!-- display -->
     <div class="list_item"><xsl:attribute name="id"><xsl:value-of select="$id"/></xsl:attribute>
       <xsl:if test="tei:orgName|tei:persName|tei:placeName"><h2 class="item_name"><xsl:apply-templates select="tei:orgName[1]|tei:persName[1]|tei:placeName[1]"/></h2></xsl:if>
@@ -242,12 +246,14 @@
           <xsl:value-of select="replace(replace($all_keys_place, ',$', ''), '^, ', '')"/><br/></xsl:if>
         <xsl:if test="tei:geogName[not(descendant::tei:geo)] and matches($all_keys_estate, '.*[a-zA-Z].*')"><strong><xsl:text>Linked keywords: </xsl:text></strong> 
           <xsl:value-of select="replace(replace($all_keys_estate, ',$', ''), '^, ', '')"/><br/></xsl:if>
-        <xsl:if test="tei:idno"><strong><xsl:text>Linked documents: </xsl:text></strong><a><xsl:attribute name="href"><xsl:choose>
-          <xsl:when test="ancestor::tei:listOrg"><xsl:value-of select="concat('../indices/epidoc/juridical_persons.html#', $id)"/></xsl:when>
-          <xsl:when test="ancestor::tei:listPerson"><xsl:value-of select="concat('../indices/epidoc/people.html#', $id)"/></xsl:when>
-          <xsl:when test="ancestor::tei:listPlace[descendant::tei:geo]"><xsl:value-of select="concat('../indices/epidoc/places.html#', $id)"/></xsl:when>
-          <xsl:when test="ancestor::tei:listPlace[not(descendant::tei:geo)]"><xsl:value-of select="concat('../indices/epidoc/estates.html#', $id)"/></xsl:when>
-          </xsl:choose></xsl:attribute><xsl:text>see</xsl:text></a><br/></xsl:if>
+        <xsl:if test="$number_of_mentioning_documents!=0"><strong><xsl:text>Linked documents (</xsl:text><xsl:value-of select="$number_of_mentioning_documents"/><xsl:text>): </xsl:text></strong>
+            <a><xsl:attribute name="href"><xsl:choose>
+            <xsl:when test="ancestor::tei:listOrg"><xsl:value-of select="concat('../indices/epidoc/juridical_persons.html#', $id)"/></xsl:when>
+            <xsl:when test="ancestor::tei:listPerson"><xsl:value-of select="concat('../indices/epidoc/people.html#', $id)"/></xsl:when>
+            <xsl:when test="ancestor::tei:listPlace[descendant::tei:geo]"><xsl:value-of select="concat('../indices/epidoc/places.html#', $id)"/></xsl:when>
+            <xsl:when test="ancestor::tei:listPlace[not(descendant::tei:geo)]"><xsl:value-of select="concat('../indices/epidoc/estates.html#', $id)"/></xsl:when>
+          </xsl:choose></xsl:attribute><xsl:text>➚</xsl:text></a>
+          <br/></xsl:if>
       </p>
       
       <!-- display linked items -->
@@ -284,7 +290,17 @@
             <xsl:for-each select="$places/tei:place[descendant::tei:idno=$key][contains(descendant::tei:geo, ';')]">
             <xsl:variable name="name" select="normalize-space(translate(tei:placeName[1], ',', '; '))"/>
             <xsl:variable name="id" select="substring-after(translate(tei:idno,'#',''), 'places/')"/>
-            <xsl:text>"</xsl:text><xsl:value-of select="$name"/><xsl:text>#</xsl:text><xsl:value-of select="$id"/><xsl:text>": "</xsl:text>
+            <xsl:variable name="idno" select="translate(translate(tei:idno, '#', ''), ' ', '')"/>
+            <xsl:variable name="mentioning_documents">
+                <xsl:for-each select="$texts">
+                  <xsl:for-each select=".[descendant::tei:placeName[contains(concat(@ref, ' '), concat($idno, ' '))]]"><p/></xsl:for-each>
+                </xsl:for-each>
+              </xsl:variable>
+              <xsl:variable name="number_of_mentioning_documents"><xsl:value-of select="count($mentioning_documents/p)"/></xsl:variable>
+              
+            <xsl:text>"</xsl:text><xsl:value-of select="$name"/>
+            <xsl:text>#</xsl:text><xsl:value-of select="$number_of_mentioning_documents"/>
+            <xsl:text>#</xsl:text><xsl:value-of select="$id"/><xsl:text>": "</xsl:text>
             <xsl:value-of select="replace(replace(normalize-space(tei:geogName/tei:geo), ', ', ';'), '; ', ';')"/>
               <xsl:text>", </xsl:text>
             </xsl:for-each>
@@ -302,7 +318,15 @@
                   <xsl:variable name="idno" select="translate(translate(tei:idno, '#', ''), ' ', '')"/>
                   <xsl:variable name="linked_keys"><xsl:for-each select="$keys//p[@class='place_keys'][@id=$id]"><xsl:value-of select="lower-case(.)"/><xsl:text> </xsl:text></xsl:for-each></xsl:variable>
                   <xsl:variable name="all_keys" select="concat(' ', normalize-space($linked_keys))"/>
+                  <xsl:variable name="mentioning_documents">
+                    <xsl:for-each select="$texts">
+                      <xsl:for-each select=".[descendant::tei:placeName[contains(concat(@ref, ' '), concat($idno, ' '))]]"><p/></xsl:for-each>
+                    </xsl:for-each>
+                  </xsl:variable>
+                  <xsl:variable name="number_of_mentioning_documents"><xsl:value-of select="count($mentioning_documents/p)"/></xsl:variable>
+                  
                   <xsl:text>"</xsl:text><xsl:value-of select="$name"/>
+                  <xsl:text>#</xsl:text><xsl:value-of select="$number_of_mentioning_documents"/>
                   <xsl:if test="not(matches($all_keys, '.*(fiscal_property).*'))"><xsl:text>#a@</xsl:text></xsl:if> <!-- fiscal -->
                   <xsl:if test="matches($all_keys, '.*(fiscal_property).*')"><xsl:text>#b@</xsl:text></xsl:if> <!-- not fiscal -->
                   <xsl:if test="matches($all_keys, '.* (ports|bridges/pontoons|maritime_trade|fluvial_transport|navicularii) .*')"><xsl:text>c@</xsl:text></xsl:if> <!-- ports -->
@@ -403,57 +427,57 @@
             var info = key.substring(key.indexOf("@"), key.lastIndexOf("@"));
             symbols = info.replace('@c', '<img src="../../../assets/images/anchor.png" alt="anchor" class="mapicon"/>').replace('@d', '<img src="../../../assets/images/tower.png" alt="tower" class="mapicon"/>').replace('@e', '<img src="../../../assets/images/sella.png" alt="sella" class="mapicon"/>').replace('@f', '<img src="../../../assets/images/coin.png" alt="coin" class="mapicon"/>').replace('@g', '<img src="../../../assets/images/star.png" alt="star" class="mapicon"/>').replace('@h', '<img src="../../../assets/images/square.png" alt="square" class="mapicon"/>').replace('@i', '<img src="../../../assets/images/triangle.png" alt="triangle" class="mapicon"/>').replace('@j', '<img src="../../../assets/images/tree.png" alt="tree" class="mapicon"/>'); 
             if (key.includes('#a')) {
-            purple_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: purpleIcon}).bindPopup('<a href="places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
+            purple_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: purpleIcon}).bindPopup('<a href="places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.indexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents (' + key.substring(key.indexOf("#") +1, key.lastIndexOf("#")) + '): <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
             if (key.includes('c@')) {
-            ports_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: purpleIcon}).bindPopup('<a href="places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
+            ports_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: purpleIcon}).bindPopup('<a href="places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.indexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents (' + key.substring(key.indexOf("#") +1, key.lastIndexOf("#")) + '): <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
             }
             if (key.includes('d@')) {
-            fortifications_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: purpleIcon}).bindPopup('<a href="places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
+            fortifications_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: purpleIcon}).bindPopup('<a href="places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.indexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents (' + key.substring(key.indexOf("#") +1, key.lastIndexOf("#")) + '): <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
             }
             if (key.includes('e@')) {
-            residences_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: purpleIcon}).bindPopup('<a href="places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
+            residences_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: purpleIcon}).bindPopup('<a href="places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.indexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents (' + key.substring(key.indexOf("#") +1, key.lastIndexOf("#")) + '): <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
             }
             if (key.includes('f@')) {
-            revenues_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: purpleIcon}).bindPopup('<a href="places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
+            revenues_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: purpleIcon}).bindPopup('<a href="places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.indexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents (' + key.substring(key.indexOf("#") +1, key.lastIndexOf("#")) + '): <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
             }
             if (key.includes('g@')) {
-            estates_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: purpleIcon}).bindPopup('<a href="places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
+            estates_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: purpleIcon}).bindPopup('<a href="places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.indexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents (' + key.substring(key.indexOf("#") +1, key.lastIndexOf("#")) + '): <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
             }
             if (key.includes('h@')) {
-            tenures_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: purpleIcon}).bindPopup('<a href="places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
+            tenures_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: purpleIcon}).bindPopup('<a href="places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.indexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents (' + key.substring(key.indexOf("#") +1, key.lastIndexOf("#")) + '): <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
             }
             if (key.includes('i@')) {
-            land_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: purpleIcon}).bindPopup('<a href="places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
+            land_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: purpleIcon}).bindPopup('<a href="places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.indexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents (' + key.substring(key.indexOf("#") +1, key.lastIndexOf("#")) + '): <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
             }
             if (key.includes('j@')) {
-            fallow_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: purpleIcon}).bindPopup('<a href="places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
+            fallow_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: purpleIcon}).bindPopup('<a href="places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.indexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents (' + key.substring(key.indexOf("#") +1, key.lastIndexOf("#")) + '): <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
             }
             }
             if (key.includes('#b')) {
-            golden_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: goldenIcon}).bindPopup('<a href="places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
+            golden_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: goldenIcon}).bindPopup('<a href="places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.indexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents (' + key.substring(key.indexOf("#") +1, key.lastIndexOf("#")) + '): <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
             if (key.includes('c@')) {
-            ports_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: goldenIcon}).bindPopup('<a href="places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
+            ports_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: goldenIcon}).bindPopup('<a href="places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.indexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents (' + key.substring(key.indexOf("#") +1, key.lastIndexOf("#")) + '): <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
             }
             if (key.includes('d@')) {
-            fortifications_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: goldenIcon}).bindPopup('<a href="places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
+            fortifications_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: goldenIcon}).bindPopup('<a href="places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.indexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents (' + key.substring(key.indexOf("#") +1, key.lastIndexOf("#")) + '): <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
             }
             if (key.includes('e@')) {
-            residences_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: goldenIcon}).bindPopup('<a href="places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
+            residences_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: goldenIcon}).bindPopup('<a href="places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.indexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents (' + key.substring(key.indexOf("#") +1, key.lastIndexOf("#")) + '): <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
             }
             if (key.includes('f@')) {
-            revenues_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: goldenIcon}).bindPopup('<a href="places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
+            revenues_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: goldenIcon}).bindPopup('<a href="places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.indexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents (' + key.substring(key.indexOf("#") +1, key.lastIndexOf("#")) + '): <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
             }
             if (key.includes('g@')) {
-            estates_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: goldenIcon}).bindPopup('<a href="places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
+            estates_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: goldenIcon}).bindPopup('<a href="places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.indexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents (' + key.substring(key.indexOf("#") +1, key.lastIndexOf("#")) + '): <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
             }
             if (key.includes('h@')) {
-            tenures_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: goldenIcon}).bindPopup('<a href="places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
+            tenures_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: goldenIcon}).bindPopup('<a href="places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.indexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents (' + key.substring(key.indexOf("#") +1, key.lastIndexOf("#")) + '): <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
             }
             if (key.includes('i@')) {
-            land_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: goldenIcon}).bindPopup('<a href="places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
+            land_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: goldenIcon}).bindPopup('<a href="places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.indexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents (' + key.substring(key.indexOf("#") +1, key.lastIndexOf("#")) + '): <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
             }
             if (key.includes('j@')) {
-            fallow_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: goldenIcon}).bindPopup('<a href="places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
+            fallow_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: goldenIcon}).bindPopup('<a href="places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.indexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents (' + key.substring(key.indexOf("#") +1, key.lastIndexOf("#")) + '): <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
             }
             }
             };
@@ -464,7 +488,7 @@
             array[index] = parseFloat(item);
             });
             var coords = chunkArray(split_values, 2);  <!-- function called from assets/scripts/maps.js -->
-            polygons_places.push(L.polygon([coords], {color: 'green'}).bindPopup('<a href="places.html#0">'.replace("0", key.substring(key.lastIndexOf("#") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("#") +1)) + '➚</a></span>'));
+            polygons_places.push(L.polygon([coords], {color: 'green'}).bindPopup('<a href="places.html#0">'.replace("0", key.substring(key.lastIndexOf("#") +1)) + key.substring(0, key.indexOf("#")) + '</a> <span style="display:block">See linked documents (' + key.substring(key.indexOf("#") +1, key.lastIndexOf("#")) + '): <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("#") +1)) + '➚</a></span>'));
             }; 
             var toggle_ports_places = L.layerGroup(ports_places);
             var toggle_fortifications_places = L.layerGroup(fortifications_places);
@@ -913,7 +937,17 @@ be=document.createElement("div");be.setAttribute("id","root"),document.body.appe
       <xsl:for-each select="$places/tei:place[contains(descendant::tei:geo, ';')]">
         <xsl:variable name="name" select="normalize-space(translate(tei:placeName[1], ',', '; '))"/>
         <xsl:variable name="id" select="substring-after(translate(tei:idno,'#',''), 'places/')"/>
-        <xsl:text>"</xsl:text><xsl:value-of select="$name"/><xsl:text>#</xsl:text><xsl:value-of select="$id"/><xsl:text>": "</xsl:text>
+        <xsl:variable name="idno" select="translate(translate(tei:idno, '#', ''), ' ', '')"/>
+        <xsl:variable name="mentioning_documents">
+          <xsl:for-each select="$texts">
+            <xsl:for-each select=".[descendant::tei:placeName[contains(concat(@ref, ' '), concat($idno, ' '))]]"><p/></xsl:for-each>
+          </xsl:for-each>
+        </xsl:variable>
+        <xsl:variable name="number_of_mentioning_documents"><xsl:value-of select="count($mentioning_documents/p)"/></xsl:variable>
+        
+        <xsl:text>"</xsl:text><xsl:value-of select="$name"/>
+        <xsl:text>#</xsl:text><xsl:value-of select="$number_of_mentioning_documents"/>
+        <xsl:text>#</xsl:text><xsl:value-of select="$id"/><xsl:text>": "</xsl:text>
         <xsl:value-of select="replace(replace(normalize-space(tei:geogName/tei:geo), ', ', ';'), '; ', ';')"/>
         <xsl:text>"</xsl:text><xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if>
       </xsl:for-each>
@@ -928,7 +962,16 @@ be=document.createElement("div");be.setAttribute("id","root"),document.body.appe
         <xsl:variable name="idno" select="translate(translate(tei:idno, '#', ''), ' ', '')"/>
         <xsl:variable name="linked_keys"><xsl:for-each select="$keys//p[@class='place_keys'][@id=$id]"><xsl:value-of select="lower-case(.)"/><xsl:text> </xsl:text></xsl:for-each></xsl:variable>
         <xsl:variable name="all_keys" select="concat(' ', normalize-space($linked_keys))"/>
+        <xsl:variable name="mentioning_documents">
+          <xsl:for-each select="$texts">
+              <xsl:for-each select=".[descendant::tei:placeName[contains(concat(@ref, ' '), concat($idno, ' '))]]"><p/></xsl:for-each>
+          </xsl:for-each>
+        </xsl:variable>
+        <xsl:variable name="number_of_mentioning_documents"><xsl:value-of select="count($mentioning_documents/p)"/></xsl:variable>
+        
+        
         <xsl:text>"</xsl:text><xsl:value-of select="$name"/>
+        <xsl:text>#</xsl:text><xsl:value-of select="$number_of_mentioning_documents"/>
         <xsl:if test="not(matches($all_keys, '.*(fiscal_property).*'))"><xsl:text>#a@</xsl:text></xsl:if> <!-- fiscal -->
         <xsl:if test="matches($all_keys, '.*(fiscal_property).*')"><xsl:text>#b@</xsl:text></xsl:if> <!-- not fiscal -->
         <xsl:if test="matches($all_keys, '.* (ports|bridges/pontoons|maritime_trade|fluvial_transport|navicularii) .*')"><xsl:text>c@</xsl:text></xsl:if> <!-- ports -->
@@ -1051,58 +1094,58 @@ be=document.createElement("div");be.setAttribute("id","root"),document.body.appe
         var info = key.substring(key.indexOf("@"), key.lastIndexOf("@"));
         symbols = info.replace('@c', '<img src="../../../assets/images/anchor.png" alt="anchor" class="mapicon"/>').replace('@d', '<img src="../../../assets/images/tower.png" alt="tower" class="mapicon"/>').replace('@e', '<img src="../../../assets/images/sella.png" alt="sella" class="mapicon"/>').replace('@f', '<img src="../../../assets/images/coin.png" alt="coin" class="mapicon"/>').replace('@g', '<img src="../../../assets/images/star.png" alt="star" class="mapicon"/>').replace('@h', '<img src="../../../assets/images/square.png" alt="square" class="mapicon"/>').replace('@i', '<img src="../../../assets/images/triangle.png" alt="triangle" class="mapicon"/>').replace('@j', '<img src="../../../assets/images/tree.png" alt="tree" class="mapicon"/>'); 
         if (key.includes('#a')) {
-        purple_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: purpleIcon}).bindPopup('<a href="#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
+        purple_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: purpleIcon}).bindPopup('<a href="#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.indexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents (' + key.substring(key.indexOf("#") +1, key.lastIndexOf("#")) + '): <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
         if (key.includes('c@')) {
-        ports_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: purpleIcon}).bindPopup('<a href="#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
+        ports_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: purpleIcon}).bindPopup('<a href="#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.indexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents (' + key.substring(key.indexOf("#") +1, key.lastIndexOf("#")) + '): <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
         }
         if (key.includes('d@')) {
-        fortifications_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: purpleIcon}).bindPopup('<a href="#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
+        fortifications_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: purpleIcon}).bindPopup('<a href="#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.indexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents (' + key.substring(key.indexOf("#") +1, key.lastIndexOf("#")) + '): <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
         }
         if (key.includes('e@')) {
-        residences_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: purpleIcon}).bindPopup('<a href="#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
+        residences_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: purpleIcon}).bindPopup('<a href="#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.indexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents (' + key.substring(key.indexOf("#") +1, key.lastIndexOf("#")) + '): <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
         }
         if (key.includes('f@')) {
-        revenues_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: purpleIcon}).bindPopup('<a href="#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
+        revenues_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: purpleIcon}).bindPopup('<a href="#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.indexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents (' + key.substring(key.indexOf("#") +1, key.lastIndexOf("#")) + '): <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
         }
         if (key.includes('g@')) {
-        estates_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: purpleIcon}).bindPopup('<a href="#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
+        estates_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: purpleIcon}).bindPopup('<a href="#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.indexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents (' + key.substring(key.indexOf("#") +1, key.lastIndexOf("#")) + '): <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
         }
         if (key.includes('h@')) {
-        tenures_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: purpleIcon}).bindPopup('<a href="#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
+        tenures_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: purpleIcon}).bindPopup('<a href="#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.indexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents (' + key.substring(key.indexOf("#") +1, key.lastIndexOf("#")) + '): <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
         }
         if (key.includes('i@')) {
-        land_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: purpleIcon}).bindPopup('<a href="#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
+        land_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: purpleIcon}).bindPopup('<a href="#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.indexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents (' + key.substring(key.indexOf("#") +1, key.lastIndexOf("#")) + '): <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
         }
         if (key.includes('j@')) {
-        fallow_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: purpleIcon}).bindPopup('<a href="#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
+        fallow_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: purpleIcon}).bindPopup('<a href="#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.indexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents (' + key.substring(key.indexOf("#") +1, key.lastIndexOf("#")) + '): <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
         }
         }
         
         if (key.includes('#b')) {
-        golden_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: goldenIcon}).bindPopup('<a href="#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
+        golden_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: goldenIcon}).bindPopup('<a href="#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.indexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents (' + key.substring(key.indexOf("#") +1, key.lastIndexOf("#")) + '): <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
         if (key.includes('c@')) {
-        ports_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: goldenIcon}).bindPopup('<a href="#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
+        ports_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: goldenIcon}).bindPopup('<a href="#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.indexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents (' + key.substring(key.indexOf("#") +1, key.lastIndexOf("#")) + '): <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
         }
         if (key.includes('d@')) {
-        fortifications_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: goldenIcon}).bindPopup('<a href="#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
+        fortifications_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: goldenIcon}).bindPopup('<a href="#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.indexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents (' + key.substring(key.indexOf("#") +1, key.lastIndexOf("#")) + '): <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
         }
         if (key.includes('e@')) {
-        residences_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: goldenIcon}).bindPopup('<a href="#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
+        residences_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: goldenIcon}).bindPopup('<a href="#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.indexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents (' + key.substring(key.indexOf("#") +1, key.lastIndexOf("#")) + '): <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
         }
         if (key.includes('f@')) {
-        revenues_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: goldenIcon}).bindPopup('<a href="#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
+        revenues_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: goldenIcon}).bindPopup('<a href="#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.indexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents (' + key.substring(key.indexOf("#") +1, key.lastIndexOf("#")) + '): <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
         }
         if (key.includes('g@')) {
-        estates_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: goldenIcon}).bindPopup('<a href="#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
+        estates_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: goldenIcon}).bindPopup('<a href="#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.indexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents (' + key.substring(key.indexOf("#") +1, key.lastIndexOf("#")) + '): <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
         }
         if (key.includes('h@')) {
-        tenures_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: goldenIcon}).bindPopup('<a href="#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
+        tenures_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: goldenIcon}).bindPopup('<a href="#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.indexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents (' + key.substring(key.indexOf("#") +1, key.lastIndexOf("#")) + '): <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
         }
         if (key.includes('i@')) {
-        land_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: goldenIcon}).bindPopup('<a href="#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
+        land_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: goldenIcon}).bindPopup('<a href="#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.indexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents (' + key.substring(key.indexOf("#") +1, key.lastIndexOf("#")) + '): <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
         }
         if (key.includes('j@')) {
-        fallow_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: goldenIcon}).bindPopup('<a href="#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
+        fallow_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {icon: goldenIcon}).bindPopup('<a href="#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(0, key.indexOf("#")) + '</a> ' + symbols + ' <span style="display:block">See linked documents (' + key.substring(key.indexOf("#") +1, key.lastIndexOf("#")) + '): <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
         }
         }
         };
@@ -1113,7 +1156,7 @@ be=document.createElement("div");be.setAttribute("id","root"),document.body.appe
                 array[index] = parseFloat(item);
                 });
               var coords = chunkArray(split_values, 2);  <!-- function called from assets/scripts/maps.js -->
-        polygons_places.push(L.polygon([coords], {color: 'green'}).bindPopup('<a href="#0">'.replace("0", key.substring(key.lastIndexOf("#") +1)) + key.substring(0, key.lastIndexOf("#")) + '</a> <span style="display:block">See linked documents: <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("#") +1)) + '➚</a></span>'));
+        polygons_places.push(L.polygon([coords], {color: 'green'}).bindPopup('<a href="#0">'.replace("0", key.substring(key.lastIndexOf("#") +1)) + key.substring(0, key.indexOf("#")) + '</a> <span style="display:block">See linked documents (' + key.substring(key.indexOf("#") +1, key.lastIndexOf("#")) + '): <a href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("#") +1)) + '➚</a></span>'));
         }; 
 
         var toggle_ports_places = L.layerGroup(ports_places);
