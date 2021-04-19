@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Modena, Archivio capitolare, A. 3. VII</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc711</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">Yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate notBefore="0001" notAfter="0001" when="0822-02-08">
+                                <note type="displayed_date">822 February 8</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Aachen (DE)</note>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-04-19" who="emanarini">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine domini dei et salvatori nostri Iesu Christi. <persName
+                            ref="#people/118">Hludouuicus</persName> divina ordinante providentia
+                            <rs key="#Emperor/king">imperator</rs> Augustus. Si petitionibus
+                        sacerdotum ac servorum dei divini cultus amore aurem accomodamus, id nobis
+                        non solum ad stabilitatem regni nostri, verum etiam ad aeterna praemia
+                        facilius adsequenda plurimum pertinere confidimus. Idcirco notum fieri
+                        volumus omnibus fidelibus sanctae dei ecclesiae ac nostris praesentibus
+                        scilicet et futuris, qualiter vir venerabilis <persName>Deusdedit</persName>
+                        <orgName ref="#juridical_persons/96">ecclesiae <placeName ref="#places/38"
+                                >Mutinensis</placeName></orgName>
+                        <rs key="#Bishops">episcopus</rs>, quia pro senectute et infirmitate
+                        corporis ad nos venire non poterat, misit quendam <rs key="#Priests"
+                            >praesbiterum</rs> suum nomine <persName>Uuilliharium</persName>, per
+                        quem nobis suggessit petendo de rebus ad <rs key="#Mother_churches"
+                            >ecclesiam</rs> suam pertinentibus, quas reges <rs key="#Lombard"
+                            >Langobardorum</rs> propter amorem et timorem dei et domini nostri Iesu
+                        Christi et sancti Geminiani confessoris eius eidem ecclesiae vel donaverunt
+                        vel ab aliis datas confirmaverunt, ut inspectis eorundem regum <rs
+                            key="#Imperial/royal_diploma">praeceptis</rs> et confirmationibus easdem
+                        res sive possessiones ad eandem ecclesiam nostrae auctoritatis praecepto
+                        confirmaremus. Cuius petitioni, quia iusta et ratione subnixa videbatur,
+                        aurem libenter accomodare et adsensum praebere nobis placuit. Inspectis
+                        igitur ac relectis praedictorum regum Langobardorum praeceptis vel
+                        confirmationibus conplacuit nobis donationes et concessiones sive
+                        confirmationes eorum hoc nostrae auctoritatis praecepto iuxta petitionem
+                        memorati episcopi ad eandem ecclesiam <rs
+                            key="#Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches"
+                            >confirmare</rs>. Id est inprimis confirmationem, quam <persName
+                            ref="#people/217">Cunipertus</persName> rex fecit ad ecclesiam sancti
+                        Geminiani de <rs key="#Villas">villa</rs>
+                        <placeName>Puziolo</placeName> sive <rs key="#Revenues">tributum</rs> vel
+                        succidiales atque <rs key="#Scufiae/transport_service">angarias</rs>, quas
+                            <rs key="#Slave">servi</rs> eiusdem sancti Gemianiani ad ipsum
+                            <rs>casalem</rs> laborandum et excolendum habuerunt. Similiter et
+                        praeceptum, quod fecit <persName ref="#people/12">Liutprandus</persName> rex
+                        ad suprascriptam ecclesiam de servis et <rs key="#Aldius">aldionibus</rs> ad
+                        ius ecclesiae sancti Geminiani, <placeName>Gabellum</placeName>
+                        <rs key="#Castle">castellum</rs> - cum suis <rs key="#Fisheries"
+                            >piscariis</rs> - quod fuit ab antiquo tempore <geogName><rs
+                                key="#Massae">massa</rs> sancti Geminiani</geogName>. Super quibus
+                        et praeceptum <persName>Ratgisi</persName> regis nobis ostensum est,
+                        similiter et <persName>Desiderii</persName> necnon et praeceptum
+                            <persName>Hildibrandi</persName> regis, quod fecit ad ecclesiam sancti
+                        Geminiani propter petitionem <persName>Iohannis</persName> episcopi de <rs
+                            key="#Churches">ecclesia</rs>
+                        <orgName>sancti Petri</orgName> intra <rs key="#Walls">muros</rs>
+                        <placeName><geogName>civitas Geminianae, quae nunc
+                            Nova</geogName></placeName> vocatur, cum omnibus rebus atque appendiis,
+                        quae ad ipsam ecclesiam pertinent vel quod ibi iustae adquaesitum fuerit.
+                        Similiter et <rs key="#Offersio/donatio">donationem</rs>, quam fecit piae
+                        recordationis domnus et genitor noster <persName>Karolus</persName>
+                        imperator de <rs key="#Baptismal_churches">plebe</rs>
+                        <orgName>sancti Thomae</orgName>, quae est posita in
+                            <placeName>Gandaceto</placeName> iuxta <rs key="#Rivers">fluvium</rs>
+                        Lama, cum omnibus sibi pertinentibus sive canonico atque <rs key="#Decima"
+                            >decima</rs>. Similiter et donationem, quam fecit domnus et genitor
+                        noster Karolus imperator petente <persName>Geminiano</persName> Mutinense
+                        episcopo de <rs key="#Mills">molendino</rs> prope <rs key="#Roads"
+                            >stratam</rs> cum accessione sua sive <rs key="#Canals">aquario</rs>,
+                        qui pertinebat ad <rs key="#Curtes">curtem</rs> regis
+                                <placeName><geogName>Civitatis Novae</geogName></placeName>, nec non
+                        et res, quas duo <rs key="#Roman">Romani</rs> homines,
+                            <persName>Gundoaldus</persName> videlicet et
+                            <persName>Constantinus</persName>, et <rs
+                            key="#legallyRecognisedUnionWith">uxores</rs> eorum
+                            <persName>Maria</persName> et <persName>Agnita</persName> ad ecclesiam
+                        sancti Geminiani donaverunt. Item <rs key="#Churches">oratorium</rs>
+                        <orgName>sancti Apolenaris</orgName> in <placeName>Stagnano</placeName>,
+                        situm intra <rs key="#Iudiciaria">iudiciariam</rs>
+                        <orgName>Montebelliensem</orgName>, sive oratorium <orgName>sancti
+                            Domnini</orgName>, constructum prope <placeName>Cluziam</placeName>
+                        super fluvium Nizianam, necnon et <rs key="#Oil">oliveta</rs> iuxta muros
+                        castri <placeName>Montebelliensis</placeName> posita et ad eandem ecclesiam
+                        pertinentia. Has res sive possessiones memoratae Mutinensis ecclesiae vel
+                        sancti Geminiani iuxta petitionem praedicti viri venerabilis et oratoris
+                        nostri Deusdedit episcopi, quas vel reges donaverunt vel confirmaverunt sive
+                        alii devoti ac deum timentes homines ad eandem ecclesiam sollemni donatione
+                        contulerunt et modo in eiusdem ecclesiae iure tenentur vel inde iniuste ac
+                        volenter abstractae sunt, isto nostrae auctoritatis praecepto ad eandem
+                        ecclesiam confirmare placuit. Quapropter praecipimus atque iubemus, ut
+                        nullus iudex publicus vel comes vel gastaldius sive qualibet potestate
+                        praedita persona memoratum episcopum vel successores eius atque ecclesiam
+                        sancti Geminiani de suprascriptis rebus ac possessionibus, quas
+                        supranominati reges ad eandem ecclesiam confirmaverunt et nos hac nostra
+                        auctoritate confirmamus, inquietare aut iniuste pulsare aut aliquid ex his
+                        contra rationis ordinem abstrahere aut alienare aut eis calumniam ingerere
+                        praesumt, sed liceat eas memoratatae ecclesiae et rectoribus eius sub nostra
+                        successorumque nostrorum <rs key="#Tuitio/bannum/mundeburdium"
+                            >defensione</rs> quieto ordine tenere ac possidere absque cuiuslibet,
+                        sicut iam diximus, iniusta contrarietate. Concessimus etiam hoc privilegium
+                        memoratae eccleasiae, ut si post decessionem episcoporum ipsius sedis talis
+                        in clero inventus fuerit, qui secundum canones episcopatus honorem et
+                        officium habere possit, licentiam habeant eligendi inter se. Et ut haec
+                        auctoritas firmior habeantur et nostris ac futuris temporibus domino
+                        protegente valet inconvulsa manere, mano propria subscripsimus et eam de
+                        anulo nostro subter sigillari iussimus - violatorem duobus libris auri
+                        obrizi condempnantes - . Signum Hludouuici serenissimi imperatoris.
+                            <persName>Durandus</persName>
+                        <rs key="#Deacons">diacunus</rs> ad vicem <persName>Fridugisi</persName>
+                        recognovi et ... <date>Data VI idus Februarias, anno Christo propitio VIIII
+                            imperii domni Hludouuici piissimi augusti, indictione XV</date>; actum
+                            <placeName>Aquisgrani</placeName>
+                        <rs key="#Palatium">palatio</rs> regio, in dei nomine feliciter amen. </ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>MGH DD L I, 204.</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p>Manarini 2017.</p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>Il testo compreso tra trattini è frutto di interpolazione successiva (la prima su
+                    rasura) di A. Probabilmente di mano del secolo X.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
