@@ -104,7 +104,8 @@ document.addEventListener("click", function (e) {
 /* ***** cytoscape.js ***** */
         const cy_style = [
         { selector: 'node', style: { 'label': 'data(name)', 'shape': 'round-rectangle', 'height': 'label', 'width': 'label', 'padding': '20px', 'text-halign': 'center', 'text-valign': 'center', 'text-wrap': 'wrap', 'text-max-width': '280px', 'font-size': '22px', 'border-width': 3, 'border-color': 'black', 'border-style': 'solid' } },
-        { selector: 'edge', style: { 'width': 2, 'label': 'data(name)', 'target-arrow-shape': 'triangle', 'curve-style': 'bezier' } },
+        { selector: 'edge', style: { 'width': 3, 'label': 'data(name)', 'target-arrow-shape': 'triangle', 'curve-style': 'bezier' } },
+        { selector: 'node[type="people_only"]', style: { 'background-color': '#97c2fc' } },
         { selector: 'node[type="people"]', style: { 'background-color': '#ffff80' } },
         { selector: 'node[type="juridical_persons"]', style: { 'background-color': '#ffb4b4' } },
         { selector: 'node[type="estates"]', style: { 'background-color': '#99ff99' } },
