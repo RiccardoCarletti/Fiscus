@@ -85,6 +85,7 @@
                     <link type="people" corresp="#people/14" subtype="grandsonOf"/>
                     <link type="people" corresp="#people/118" subtype="sonOf"/>
                     <link type="people" corresp="#people/110" subtype="fatherOf"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/131"/>
                 </person>
                 
                 <person>
@@ -122,7 +123,8 @@
                     <idno>people/14</idno>
                     <note/>
                     <link type="places" corresp="#places/83" subtype="hasConnectionWith"/>
-                    <link type="juridical_persons" corresp="#juridical_persons/47" subtype="link"/>
+                    <link type="juridical_persons"
+                        corresp="#juridical_persons/131 #juridical_persons/47" subtype="link"/>
                     <link type="people" corresp="#people/32" subtype="ancestorOf"/>
                     <link type="people" corresp="#people/118" subtype="grandfatherOf"/>
                     <link type="people" corresp="#people/110" subtype="greatGrandfatherOf"/>
@@ -727,6 +729,7 @@
                     <link type="people" corresp="#people/55" subtype="legallyRecognisedUnionWith"/>
                     <link type="people" corresp="#people/80" subtype="cousinOf"/>
                     <link type="people" corresp="#people/14" subtype="greatGrandsonOf"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/131" subtype="link"/>
                 </person>
                 <person>
                     <persName>Aio (884-891) princeps </persName>
@@ -805,7 +808,9 @@
                     <persName type="other"/>
                     <idno>people/118</idno>
                     <note/>
-                    <link type="juridical_persons" corresp="#juridical_persons/30 #juridical_persons/47" subtype="link"/>
+                    <link type="juridical_persons"
+                        corresp="#juridical_persons/131 #juridical_persons/30 #juridical_persons/47"
+                        subtype="link"/>
                     <link type="people" corresp="#people/119" subtype="link"/>
                     <link type="people" corresp="#people/120" subtype="link"/>
                     <link type="places" corresp="#places/83" subtype="hasConnectionWith"/>
@@ -1863,13 +1868,13 @@
                     <note/>
                 </person>
                 <person>
-                    <persName>Betto abbas monasterii Sancti Anthimi (952)</persName>
+                    <persName>Betto (952) abbas monasterii Sancti Anthimi</persName>
                     <persName type="other"/>
                     <idno>people/229</idno>
                     <note/>
                 </person>
                 <person>
-                    <persName>Bernardus episcopus Populoniensis (1066)</persName>
+                    <persName>Bernardus (1066) episcopus Populoniensis</persName>
                     <persName type="other"/>
                     <idno>people/230</idno>
                     <note/>
@@ -1893,12 +1898,20 @@
                     <persName type="other"/>
                     <idno>people/233</idno>
                     <note/>
+                    <link type="juridical_persons" corresp="#juridical_persons/131" subtype="link"/>
+                    <link type="estates" corresp="#estates/177 #estates/176"
+                        subtype="hasConnectionWith"/>
+                    <link type="people" corresp="#people/234" subtype="fatherOf"/>
                 </person>
                 <person>
                     <persName>Adalbertus (932/6?-972/5?) rex</persName>
                     <persName type="other"/>
                     <idno>people/234</idno>
                     <note/>
+                    <link type="juridical_persons" corresp="#juridical_persons/131" subtype="link"/>
+                    <link type="estates" corresp="#estates/177 #estates/176"
+                        subtype="hasConnectionWith"/>
+                    <link type="people" corresp="#people/233" subtype="sonOf"/>
                 </person>
             </listPerson>
         </body>
