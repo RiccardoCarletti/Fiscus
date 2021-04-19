@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title></title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc1120</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#"/>
+                            <rs type="record_source" ref="#"/>
+                            <rs type="document_tradition" ref="#"/>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate notBefore="0001" notAfter="0001" when="0001"> 
+                                <note type="displayed_date"></note>
+                                <note type="dating_elements"></note>
+                                <note type="topical_date"></note>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-02-08">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine omnipotentis Dei aeterni. Berengarius divina ordinante clementia
+                        rex. Si sacerdotum Dei iustis petitionibus aures nostrae serenitatis
+                        accomodamus, libenter credimus profecto ad aeternam nobis proficere
+                        beatitudinem. Quapropter omnium fidelium sanctae Dei Eclesiae nostrisque
+                        presentibus scilicet et futuris noverit sollertia, Petrum egregium presulem
+                        sanctae Regiensis eclesiae nostrum fidelissimum humiliter nostram adiisse
+                        clementiam petens, quandam suam cortem quae Ripa Alta vocitatur, iam olim
+                        pertinentem de Regiense comitatu, quam Lambertus noster anticessor cuidam
+                        Ingelberti per precepti paginam contulit, quam etiam postea predictus
+                        episcopus ab heredibus ipsius per comparationis et confirmationis cartolam
+                        acquisivit, ut per hoc nostrum confirmaremus preceptum. Cuius dignam
+                        ratamque arbitrantes petitionem, iussimus ei hoc nostrum fieri pragmaticon,
+                        er quod supra taxatam cortem cum omnibus adiacentiis et pertinentiis suis,
+                        servis et ancillis, mobilibus et immobilibus quae dici aut nominari possunt
+                        prelibato Petro episcopo concedimus et omimodis iure proprietario
+                        confirmamus ad habendum, tenendum, possidendum, vel quicquid sibi placuerit
+                        in omnibus faciendum, remota totius potestatis inquietudine vel minoratione.
+                        Potestatemque habeat ordinandi, vendendi, commutandi, pro anima iudicandi,
+                        seu quicquid voluerit faciendi absque contradictione cuiusque. Contra quod
+                        nostrae donationis et confirmationis preceptum si quis aliquando insurgere
+                        temptaverit aut infringere quaesierit, ut conatus eius irritus fiat, sciat
+                        se compositurum XX libras auri obrizi, medietatem camerae palatii nostri et
+                        medietatem saepe nominato episcopo aut cui ipse dederit. Ut hoc autem verius
+                        credatur inviolabiliterque ab omnibus per futura tempora observetur, manu
+                        propria subter roborantes de anulo nostro iussimus insigniri. Signum domni
+                        Berengarii serenissimi regis. Petrus notarius iussione regia recognovi et
+                        subscripsi. Data XVI kal. Aug., anno dominicae incarnationis DCCCCII, regni
+                        vero domni Berengarii piissimi regis XV, indictione V. Actum palatio
+                        Ticinensi, quod est caput regni nostri. In Dei nomine feliciter, amen.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
