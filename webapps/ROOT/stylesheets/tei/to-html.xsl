@@ -758,7 +758,7 @@
         
         $("#btnSearch").on('click',function () { 
         cy.elements().removeClass('highlighted');
-        cy.$('[label =  "Berengarius I (850?-924) imperator"]').addClass('highlighted');
+        cy.$('[name =  "Berengarius I (850?-924) imperator"]').addClass('highlighted');
         });
         
         $("#reset").on('click',function () { 
