@@ -121,7 +121,7 @@ document.addEventListener("click", function (e) {
         {selector: 'edge[type="green"].green_hidden', style: {'display': 'none'} },
         {selector: 'edge[type="blue"].blue_hidden', style: {'display': 'none'} },
         {selector: 'edge.relation_type_hidden', style: {'label': ''} },
-        {selector: 'node.highlighted', style: { 'background-color': 'red'} }
+        {selector: 'node.highlighted', style: { 'background-color': 'red',  'width': '600px', 'height': '200px'} }
         ];
         
         const cy_layout =  { name: 'fcose', animate: false, nodeRepulsion: 100000000, nodeSeparation: 100, randomize: true, idealEdgeLength: 300 };

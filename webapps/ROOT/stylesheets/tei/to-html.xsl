@@ -727,7 +727,7 @@
           <span style="color:green;margin-left:10px">➔</span> Personal bonds <input type="checkbox" id="toggle_green" checked="true"/>
           <span style="color:blue;margin-left:10px">➔</span> Other links <input type="checkbox" id="toggle_blue" checked="true"/>
           <span style="margin-left:10px"> Relation types </span> <input type="checkbox" id="toggle_relation_labels" checked="true"/>
-          <br/><span class="autocomplete"><input type="text" id="inputSearch" placeholder="Search"/></span><button id="btnSearch" class="button">Search</button> <button id="reset" class="button">Reset</button> (Work in progress!)
+          <br/><span class="autocomplete"><input type="text" id="inputSearch" placeholder="Search"/></span><button id="btnSearch" class="button">Search</button> <button id="reset" class="button">Reset</button>
           <br/><button onclick="openFullscreen();" class="button">Fullscreen</button>
         </p>
       </div>
@@ -757,8 +757,9 @@
         autocomplete(document.getElementById("inputSearch"), graph_labels);
         
         $("#btnSearch").on('click',function () { 
+        input = $("#inputSearch").val();
         cy.elements().removeClass('highlighted');
-        cy.$('[name =  "Berengarius I (850?-924) imperator"]').addClass('highlighted');
+        cy.$('[name =  "' + input + '"]').addClass('highlighted');
         });
         
         $("#reset").on('click',function () { 
