@@ -15,18 +15,121 @@ ul.index-instances {
 .index-instance-line {
 }
 
-footer {
-    background: none repeat scroll 0 0 #fafafa;
-    border-top: 1px solid #eeeeee;
-    color: #777777;
-    font-size: 80%;
-    padding: 1em;
+
+/* general settings */
+p {
+    line-height: 30px;
+    text-align: justify;
 }
 
+* {
+    font-family: Helvetica, serif;
+}
+
+a, a:link, a:visited, a:focus, a:hover, a:active {
+    color: #005471;
+}
+
+h1 {
+    color: #3A2A4C;
+    font-size: 36px;
+}
+
+b {
+    color: #3A2A4C;
+}
+
+
+/* header */
+nav.top-bar, nav.top-bar ul.right li, nav.top-bar ul.left * {
+    background-color: #3A2A4C;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#site-name {
+    background-color: #3A2A4C;
+    padding: 45px 0 20px 0;
+    margin: -12px 0 -10px 0;
+    color: #A96D2D;
+    font-family: Quicksand, Helvetica, serif;
+    font-weight: 400;
+    font-size: 48px;
+}
+
+#logo {
+    padding-bottom: 1em;
+}
+
+
+/* homepage */
+#home-text {
+    text-align: justify;
+    font-size: 16px;
+}
+
+#site-image {
+    height: 100px;
+    margin-left:20px;
+    margin-bottom:10px;
+}
+
+#fiscal_estate {
+    font-size: 28px;
+}
+
+#credits p {
+    text-align: center;
+}
+
+
+/* documents */
+div#commentary, div#bibliography {
+    padding-top: 40px;
+    text-align: justify;
+}
+
+div#edition {
+    padding-top: 20px;
+}
+
+
+/* lists and team members */
 div.list_item {
     padding-bottom: 2em;
 }
 
+.linked_item {
+margin-top:10px;
+margin-bottom:0;
+margin-left:20px;
+}
+
+.item_name, #team_members b {
+    font-weight: bold;
+    color: #3A2A4C;
+    font-size: 20px;
+    padding-bottom: 0;
+    font-variant: small-caps;
+}
+
+#team_members h3 {
+    font-size: 26px;
+    color: #3A2A4C;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-variant: small-caps;
+}
+
+
+/**************************************************************************/
+/* Graph cytoscape */
+#root{position:fixed; left:0; right:0; bottom:0; top:0;}
+#cy{position:absolute; left:0; right:0; bottom:0; top:0;}
+.menu{position:absolute; right:0; top:0;}
+
+
+/* Maps and graphs */
 .map {
     width: 100%;
     height: 600px;
@@ -50,9 +153,6 @@ div.list_item {
     border: solid lightgray 1px;
 }
 
-.legend p img {
-}
-
 #mynetwork, #mygraph {
     width: 100%; 
     height: 500px; 
@@ -65,17 +165,17 @@ div.list_item {
     margin: 5px;
 }
 
-.item_name {
-    font-weight: bold;
-    color: #3A2A4C;
-    font-size: 20px;
-    padding-bottom: 0;
+#inputSearch, #mapSearch {
+    width: 300px;
+    display: inline;
 }
 
-.linked_item {
-margin-top:10px;
-margin-bottom:0;
-margin-left:20px;
+.network_box {
+    padding: 40px 20px 60px 20px;
+}
+
+.block {
+    display:block;
 }
 
 .button, .button:hover {
@@ -86,15 +186,48 @@ margin-left:20px;
     margin: 4px;
 }
 
-#inputSearch, #mapSearch {
-    width: 300px;
-    display: inline;
+/* Labels in graph legend */
+.people_label, .jp_label, .places_label, .estates_label {
+    padding:2px;
+    margin-right:3px;
+    margin-left:10px;
 }
 
-/* Graph cytoscape */
-#root{position:fixed; left:0; right:0; bottom:0; top:0;}
-#cy{position:absolute; left:0; right:0; bottom:0; top:0;}
-.menu{position:absolute; right:0; top:0;}
+.people_label {
+    background-color:#ffffcc;
+    margin-left:0;
+}
+
+.jp_label {
+    background-color:#ffe6e6;
+}
+
+.estates_label {
+    background-color:#ccffcc;
+}
+
+.places_label {
+    background-color:#e6e6ff;
+}
+
+.red_label {
+    color:red;
+}
+
+.green_label {
+    color:green;
+    margin-left:10px;
+}
+
+.blue_label {
+    color:blue;
+    margin-left:10px;
+}
+
+.relations_label {
+    margin-left:10px;
+}
+
 
 /*autocomplete*/
 .autocomplete {
@@ -126,87 +259,6 @@ margin-left:20px;
   color: #ffffff; 
 }
 
-
-
-
-
-nav.top-bar,
-nav.top-bar ul.right li,
-nav.top-bar ul.left * {
-    background-color: #3A2A4C;
-    font-size: 14px;
-    font-weight: 400;
-}
-
-* {
-    font-family: Helvetica, serif;
-}
-
-#home-text {
-    text-align: justify;
-    font-size: 16px;
-}
-
-#site-name {
-    background-color: #3A2A4C;
-    padding: 45px 0 20px 0;
-    margin: -12px 0 -10px 0;
-    color: #A96D2D;
-    font-family: Quicksand, Helvetica, serif;
-    font-weight: 400;
-    font-size: 48px;
-}
-/*#home-text {
-    background: url(../images/favicon.png) center no-repeat;
-}*/
-#site-image {
-    height: 100px;
-    margin-left:20px;
-    margin-bottom:10px;
-}
-
-a, a:link, a:visited, a:focus, a:hover, a:active {
-    color: #005471;
-}
-
-h1 {
-    color: #3A2A4C;
-    font-size: 36px;
-}
-
-div#commentary,
-div#bibliography {
-    padding-top: 40px;
-    text-align: justify;
-}
-
-div#edition {
-    padding-top: 20px;
-}
-
-b {
-    color: #3A2A4C;
-}
-
-#team_members strong {
-    font-variant: small-caps;
-    font-size: 22px;
-    font-weight: 400;
-    color: #3A2A4C;
-}
-
-#logo {
-    padding-bottom: 1em;
-}
-
-#fiscal_estate {
-    font-size: 28px;
-}
-
-p {
-    line-height: 30px;
-    text-align: justify;
-}
 
 /* Tagged terms in the text */
 .hidden {
@@ -263,6 +315,7 @@ p {
     padding: 8px 8px 6px 8px;
 }
 
+
 /*Keyboard*/
 #keyboard_box {
     display: none;
@@ -290,6 +343,7 @@ p {
     background-color: #e5e5e5;
     cursor: pointer;
 }
+
 
 /*Fonts*/
 @font-face {
