@@ -1,4 +1,4 @@
-/* ***** vis.js ***** */
+/* ***** autocomplete ***** */
 
 function autocomplete(inp, arr) {
   /*the autocomplete function takes two arguments,
