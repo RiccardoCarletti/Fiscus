@@ -82,83 +82,140 @@
                 <body>
                     <div type="edition">
                         <div type="textpart">
-                            <ab>Enrico III imperatore conferma a dominus Teuzo venerabilis abbas
-                        monasterii beatorum martyrum Christi Anthimi et Sebastiani quod a bone
-                        memorie Carolo imperatore constructum est in comitato Clusino loco qui
-                        dicitur Vallis Starcia, (…) predecessorum nostrorum precepta, regum
-                        videlicet et impartorum Caroli, Lodouuici et Lottarii et trium Ottonum (…).
-                        Conferma perciò i beni del monastero cioè: corte Sancte Marie que dicitur
-                        Mater ecclesia cum plebibus Sancti Salvatoris et Sancti Iohannis Baptiste et
-                        Sancte Christine in Caio et Sancti Marci cum omnibus pertinentiis et
-                        aiacentiis suis; ecclesiam Sancte Marie in Buble et Sancti Gregorii et
-                        Sancti Petri in Gre et Adrina et Cipolonam et Cignanum cum omnibus
-                        pertinentiis et aiacentiis suis; ecclesiam Sancti Desiderii infra civitatem
-                        Senensem et Sancti Adriani in Larciano et Sanctum Iustum in Guistrigona,
-                        Sanctum Laurentium in Corno, Sanctum Stefanum in Monte cum omnibus
-                        pertinentiis et aiacentiis suis; Sanctum Petrum in Monticellum in comitatu
-                        Florentino et Sanctum Petrum in Buita, corte de Valle Fabrice et Turrita et
-                        ecclesiam Sancti Iohannis in Piscaria, anguillaria de Mortaria cum barcariis
-                        et pertinentiis suis; ecclesiam Sancte Marie in Arcione, Sanctum Petrum in
-                        Quintiano et triginta salinas in Campo Albiniano et ecclesiam Sancte Severe,
-                        terra que nuncupatur Perito et Oliveto casale iuxta fluvium Osa, corte de
-                        Arena et Sanctum Liberum in Pisa cum omnibus suis pertinentiis; corte de
-                        Cellena et Lavinum cum ecclesiis et castello cum una parte de monte usque ad
-                        cacumen ipsius castrum etiam de Avignone cum omnibus suis pertinentiis et
-                        aiacentiis; castrum super Sarturianella in comitatu Senensi integrum cum
-                        medietate ad eum pertinentium; monasterium quoque Sancti Thome apostoli
-                        (quod) Taio abbas construxit in finibus Pistoriensibus confirmamus eidem
-                        venerabili loco secundum quod senior noster Otto bone memorie imperator
-                        augustus et Hugo marchio ordinaverunt, ea videlicet ratione ut abbas qui pro
-                        tempore fuerit habeat potestatem ibidem ordinandi monachis et ipsum locum
-                        prout ei oportunum visum fuerit; Sanctum Antimum in Locornio; ecclesiam de
-                        Poiolo; confirmamus adque imperiali auctoritate corroboramus predicte
-                        ecclesie omnem hereditatem Ugonis filii bone memorie item Ugonis de Sciscano
-                        que illi provenerat ex parte genitoris et genitricis sue; confirmamus
-                        similiter preato monasterio omnem hereditatem Corbulini filii bone memorie
-                        Marie que data est predicte ecclesie; ecclesiam quoque Sancti Brasii de
-                        Cornieto. Hec omnia suprascripta confirmamus prenominato cenobio sicut
-                        continetur in preceptis antecessorum nostrorum et in hoc nostro sunt
+                            <ab><persName key="#Emperor/king">Enrico III</persName>
+                        <rs key="#Emperor/king">imperatore</rs> conferma a dominus <persName
+                            key="#Abbots">Teuzo</persName> venerabilis <rs key="#Abbots">abbas</rs>
+                        <rs key="#Monasteries">monasterii</rs>
+                        <orgName key="#Monasteries" ref="#juridical_persons/131">beatorum martyrum
+                            Christi Anthimi et Sebastiani</orgName> quod a bone memorie <persName
+                            key="#Emperor/king" ref="#people/14">Carolo</persName>
+                        <rs key="#Emperor/king">imperatore</rs> constructum est in <rs
+                            key="#Comitatus">comitato</rs>
+                        <geogName key="#Comitatus" ref="#estates/174">Clusino</geogName>
+                        <placeName key="#Monasteries" ref="#places/316">loco qui dicitur Vallis
+                            Starcia</placeName>, (…) predecessorum nostrorum <rs
+                            key="#Imperial/royal_diploma">precepta</rs>, regum videlicet et
+                        imperatorum <persName
+                            key="#Imperial/royal_diploma #Fiscal_property #Object #Redistributive #Allocation_to_churches #Emperor/king"
+                            ref="#people/14">Caroli</persName>, <persName
+                            key="#Imperial/royal_diploma #Fiscal_property #Object #Redistributive #Allocation_to_churches #Emperor/king"
+                            ref="#people/118">Lodouuici</persName> et <persName
+                            key="#Imperial/royal_diploma #Fiscal_property #Object #Redistributive #Allocation_to_churches #Emperor/king"
+                            ref="#people/9">Lottarii</persName> et trium <persName
+                            key="#Imperial/royal_diploma #Fiscal_property #Object #Redistributive #Allocation_to_churches #Emperor/king"
+                            ref="#people/173 #people/7">Ottonum</persName> (…). Conferma perciò i
+                        beni del monastero cioè: <rs key="#Curtes">corte</rs>
+                        <placeName
+                            key="#Curtes #Fiscal_property #Object #Redistributive #Allocation_to_churches #Churches"
+                                ><geogName
+                                key="#Curtes #Fiscal_property #Object #Redistributive #Allocation_to_churches"
+                                    ><orgName
+                                    key="#Fiscal_property #Object #Redistributive #Allocation_to_churches #Churches"
+                                    >Sancte Marie que dicitur Mater
+                            ecclesia</orgName></geogName></placeName>, cum <rs
+                            key="#Baptismal_churches">plebibus</rs>
+                        <orgName
+                            key="#Fiscal_property #Object #Redistributive #Allocation_to_churches #Baptismal_churches"
+                            >Sancti Salvatoris</orgName> et <orgName
+                            key="#Fiscal_property #Object #Redistributive #Allocation_to_churches #Baptismal_churches"
+                            >Sancti Iohannis Baptiste</orgName> et <orgName
+                            key="#Fiscal_property #Object #Redistributive #Allocation_to_churches #Churches"
+                            >Sancte Christine</orgName> in <placeName key="#Churches"
+                            >Caio</placeName> et <orgName
+                            key="#Fiscal_property #Object #Redistributive #Allocation_to_churches #Churches"
+                            >Sancti Marci</orgName> cum omnibus pertinentiis et aiacentiis suis; <rs
+                            key="#Churches">ecclesiam</rs>
+                        <orgName
+                            key="#Fiscal_property #Object #Redistributive #Allocation_to_churches #Churches"
+                            >Sancte Marie</orgName> in <placeName key="#Churches">Buble</placeName>
+                        et <orgName
+                            key="#Fiscal_property #Object #Redistributive #Allocation_to_churches #Churches"
+                            >Sancti Gregorii</orgName> et <orgName
+                            key="#Fiscal_property #Object #Redistributive #Allocation_to_churches #Churches"
+                            >Sancti Petri</orgName> in <placeName key="#Churches">Gre</placeName>;
+                        et <geogName ref="#estates/177"
+                            key="#Landed_possessions #Fiscal_property #Object #Redistributive #Allocation_to_churches"
+                                ><placeName key="#Landed_possessions">Adrina</placeName></geogName>
+                        et <placeName
+                            key="#Landed_possessions #Fiscal_property #Object #Redistributive #Allocation_to_churches"
+                            >Cipolonam</placeName> et <placeName
+                            key="#Landed_possessions #Fiscal_property #Object #Redistributive #Allocation_to_churches"
+                            >Cignanum</placeName> cum omnibus pertinentiis et aiacentiis suis;
+                        ecclesiam Sancti Desiderii infra <rs key="#Cities">civitatem</rs> Senensem
+                        et Sancti Adriani in Larciano et Sanctum Iustum in Guistrigona, Sanctum
+                        Laurentium in Corno, Sanctum Stefanum in Monte cum omnibus pertinentiis et
+                        aiacentiis suis; Sanctum Petrum in Monticellum in <rs key="#Comitatus"
+                            >comitatu</rs> Florentino et Sanctum Petrum in Buita, corte de Valle
+                        Fabrice et Turrita et ecclesiam Sancti Iohannis in Piscaria, <rs
+                            key="#Fisheries">anguillaria</rs> de Mortaria cum barcariis et
+                        pertinentiis suis; ecclesiam Sancte Marie in Arcione, Sanctum Petrum in
+                        Quintiano et triginta <rs key="#Saltworks">salinas</rs> in Campo Albiniano
+                        et ecclesiam Sancte Severe, <rs key="#Landed_possessions">terra</rs> que
+                        nuncupatur Perito et Oliveto <rs key="#Casali">casale</rs> iuxta <rs
+                            key="#Rivers">fluvium</rs> Osa, corte de Arena et Sanctum Liberum in
+                        Pisa cum omnibus suis pertinentiis; corte de Cellena et Lavinum cum
+                        ecclesiis et <rs key="#Castle">castello</rs> cum una parte de <rs
+                            key="#Mountains">monte</rs> usque ad cacumen ipsius castrum etiam de
+                        Avignone cum omnibus suis pertinentiis et aiacentiis; <rs key="#Castle"
+                            >castrum</rs> super Sarturianella in comitatu Senensi integrum cum
+                        medietate ad eum pertinentium; <rs key="#Monasteries">monasterium</rs>
+                        quoque Sancti Thome apostoli (quod) Taio <rs key="#Abbots">abbas</rs>
+                        construxit in <rs key="#Fines">finibus</rs> Pistoriensibus confirmamus eidem
+                        venerabili loco secundum quod senior noster Otto bone memorie <rs
+                            key="#Emperor/king">imperator</rs> augustus et Hugo <rs
+                            key="#Marquis/duke">marchio</rs> ordinaverunt, ea videlicet ratione ut
+                        abbas qui pro tempore fuerit habeat potestatem ibidem ordinandi monachis et
+                        ipsum locum prout ei oportunum visum fuerit; Sanctum Antimum in Locornio;
+                        ecclesiam de Poiolo; confirmamus adque imperiali auctoritate corroboramus
+                        predicte ecclesie omnem hereditatem Ugonis filii bone memorie item Ugonis de
+                        Sciscano que illi provenerat ex parte genitoris et genitricis sue;
+                        confirmamus similiter preato monasterio omnem hereditatem Corbulini filii
+                        bone memorie Marie que data est predicte ecclesie; ecclesiam quoque Sancti
+                        Brasii de Cornieto. Hec omnia suprascripta confirmamus prenominato cenobio
+                        sicut continetur in preceptis antecessorum nostrorum et in hoc nostro sunt
                         augmentata, videlicet cum omnibus rebus mobilibus et inmobilibus, cum
                         plebibus, cellulis, castris, domibus, edificiis, servis, anciliis, aldiis et
                         famulis utriusque sexus, libellariis, precariis, cartulariis, massaritiis,
                         campis, vineis, pratis, pascuis, silvis, aquis aquarumque decursibus,
                         piscationibus, venationibus, montibus, alpibus, vallibus, planietibus,
                         salectis, olivetis, cannetis, molendinis, cultis et incultis; confirmamus
-                        etiam (…) decimas et primitias de suis hominibus secundum privilegia
-                        apostolicorum Romane sedis et precepta predecessorum nostrorum imperatorum.
-                        Confirmamus quoque ut idem venerabile monasterium quinque advocatores liceat
+                        etiam (…) <rs key="#Decima">decimas</rs> et primitias de suis hominibus
+                        secundum <rs key="#Papal_concession">privilegia apostolicorum Romane
+                            sedis</rs> et precepta predecessorum nostrorum imperatorum. Confirmamus
+                        quoque ut idem venerabile monasterium quinque <rs
+                            key="#Advocatus_of_other_public_authorities">advocatores</rs> liceat
                         habere; illis autem adiungimus XII liberos homines cum quibus rem prelibati
                         monasterii sacramento aquirant et defendant ut nullum tortum malli adiciant.
                         Precipientes insuper iubemus ut nullus episcopus dux marchio comes vicecomes
                         sculdascio nullaque imperii nostri magna parvaque persona predictum
                         venerabilem abbatem vel eius successores aut monachos ibidem deo famulantes
-                        de prenominatis cortibus et decimis primitiis vel familiis utriusque sexus
-                        seu de omnibus supradictis rebus inquietare aut molestare sive disvestire
-                        sine legali iudicio temerario ausu presumat aut teloneum sive aliquam
-                        publicam functionem ab eis exigat nullumque fodrum vel censum aut paratam
-                        persolvere cogantur, sed liceat illis sub nostra tuitione et defensione
-                        quiete et pacifice vivere (…). Conferma infine la licenza ai monaci di
-                        scegliere fra loro l’abate. Stabilisce una pena auri obrizi libras mille,
-                        medietatem camere nostre et medietatem prefato abbati aut eis successoribus;
-                        e fa apporre il proprio sigillo. Recognitio del cancelliere Opizzo ad vicem
-                        dell’arcivescovo e arcicancelliere Ermanno. Actum Chouphungin.
-                            <persName>Autori: Enrico imperator. Riconoscitore: Opizzo cancellarius.
-                            Altro: Teuzo abbas, Carlo imperator, Ludovico imperator, Lotario
-                            imperator, Ottone imperator, Tao abbas, Ugo marchio, Ugo del fu Ugo de
-                            Sciscano, Corbulizio della fu Maria, Ermanno archiepiscopus et
-                            archicancellarius. Copiatore: Matteo ordinarius iudex imp ac notarius.
-                            Teste: Morando iudex ac notarius, Ingilberto a dom. imp. ordinarius
-                            iudex et notarius.</persName>
-                        <placeName>Chouphungin (Kaufungen), Vallis Starcia (Abbazia di Sant’Antimo,
-                            Montalcino), Clusium (Chiusi), Sancte Marie que dicitur Mater ecclesia
-                            (Matrichese, Montalcino), Sancti Salvatoris (Montalcino), Sancti
-                            Iohannis Baptiste (San Giovanni d’Asso), Sancte Christine in Caio (Santa
-                            Cristina, Buonconvento), Buble (?), Gre (Podere Fornacino di Gre,
-                            Asciano), Adrina (?), Apolonam (?), Cignanum (Cignano, Cortona), Sena
-                            (Siena), Larciano (?), Guistrigona (Guistrigona, Castelnuovo
-                            Berardenga), Corno (Percenna, Buonconvento), Monte (?), Monticellum
-                            (Monticelli, Firenze), Florentia (Firenze), Buita (?), Valle Fabrice
-                            (Podere Fabbrica, Pienza), Turrita (Torrita di Siena), Piscaria
+                        de prenominatis cortibus et decimis primitiis vel <rs key="#Slave"
+                            >familiis</rs> utriusque sexus seu de omnibus supradictis rebus
+                        inquietare aut molestare sive disvestire sine legali iudicio temerario ausu
+                        presumat aut teloneum sive aliquam publicam functionem ab eis exigat
+                        nullumque <rs key="#Fodrum">fodrum</rs> vel censum aut paratam persolvere
+                        cogantur, sed liceat illis sub nostra <rs key="#Tuitio/bannum/mundeburdium"
+                            >tuitione et defensione</rs> quiete et pacifice vivere (…). Conferma
+                        infine la licenza ai monaci di scegliere fra loro l’abate. Stabilisce una
+                        pena auri obrizi libras mille, medietatem camere nostre et medietatem
+                        prefato abbati aut eis successoribus; e fa apporre il proprio sigillo.
+                        Recognitio del <rs key="#Chancellor">cancelliere</rs> Opizzo ad vicem
+                            dell’<rs key="#Archbishops">arcivescovo</rs> e <rs key="#Archchancellor"
+                            >arcicancelliere</rs> Ermanno. Actum Chouphungin. <persName>Autori:
+                            Enrico imperator. Riconoscitore: Opizzo cancellarius. Altro: Teuzo
+                            abbas, Carlo imperator, Ludovico imperator, Lotario imperator, Ottone
+                            imperator, Tao abbas, Ugo marchio, Ugo del fu Ugo de Sciscano,
+                            Corbulizio della fu Maria, Ermanno archiepiscopus et archicancellarius.
+                            Copiatore: Matteo ordinarius iudex imp ac notarius. Teste: Morando iudex
+                            ac notarius, Ingilberto a dom. imp. ordinarius iudex et
+                            notarius.</persName>
+                        <placeName>Chouphungin (Kaufungen), , Sancti Salvatoris (Montalcino), Sancti
+                            Iohannis Baptiste (San Giovanni d’Asso),  Buble (?), Gre (Podere
+                            Fornacino di Gre, Asciano), Adrina (?), Apolonam (?), Cignanum (Cignano,
+                            Cortona), Sena (Siena), Larciano (?), Guistrigona (Guistrigona,
+                            Castelnuovo Berardenga), Corno (Percenna, Buonconvento), Monte (?),
+                            Monticellum (Monticelli, Firenze), Florentia (Firenze), Buita (?), Valle
+                            Fabrice (Podere Fabbrica, Pienza), Turrita (Torrita di Siena), Piscaria
                             (Castiglione della Pescaia), Mortaria (Badiola, Castiglione della
                             Pescaia), Arcione (Buriano, Castiglione della Pescaia), Quintiano
                             (Quinciano, Monteroni d’Arbia), Campo Albiniano (Albinia, Orbetello),
