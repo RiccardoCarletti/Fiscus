@@ -348,12 +348,11 @@
         
         <div class="row">
           <div class="map_jp"><xsl:attribute name="id"><xsl:value-of select="concat('map', $id)"/></xsl:attribute></div>
-          <div class="legend">
+          <div class="legend" id="map_legend">
             <p>
               <img src="../../../assets/images/golden.png" alt="golden circle" class="mapicon"/>Places linked to fiscal properties
               <img src="../../../assets/images/purple.png" alt="purple circle" class="mapicon"/>Places not linked to fiscal properties
-              <img src="../../../assets/images/polygon.png" alt="green polygon" class="mapicon"/>Places not precisely located or wider areas
-              <br/>
+              <img src="../../../assets/images/polygon.png" alt="green polygon" class="mapicon"/>Places not precisely located or wider areas <br/>
               <img src="../../../assets/images/anchor.png" alt="anchor" class="mapicon"/>Ports and fords
               <img src="../../../assets/images/tower.png" alt="tower" class="mapicon"/>Fortifications
               <img src="../../../assets/images/sella.png" alt="sella" class="mapicon"/>Residences
@@ -368,7 +367,6 @@
           <script type="text/javascript">
             var <xsl:value-of select="concat('map', $id)"/> = L.map('<xsl:value-of select="concat('map', $id)"/>', 
             { center: [44, 10.335], zoom: 6, layers: [osm, streets, grayscale, satellite, terrain, watercolor] });
-            L.control.scale().addTo(<xsl:value-of select="concat('map', $id)"/>);
             var polygons = <xsl:value-of select="replace(replace($map_polygons, ', !', ''), '!', '')"/>;
             var points = <xsl:value-of select="replace($map_points, ', ,', ',')"/>;
           </script>
@@ -377,8 +375,9 @@
             toggle_purple_places.addTo(<xsl:value-of select="concat('map', $id)"/>);
             toggle_golden_places.addTo(<xsl:value-of select="concat('map', $id)"/>);
             toggle_polygons.addTo(<xsl:value-of select="concat('map', $id)"/>);
-            L.control.layers(baseMaps, overlayMaps).addTo(<xsl:value-of select="concat('map', $id)"/>);
+            L.control.scale().addTo(<xsl:value-of select="concat('map', $id)"/>);
             L.Control.geocoder().addTo(<xsl:value-of select="concat('map', $id)"/>);
+            L.control.layers(baseMaps, overlayMaps).addTo(<xsl:value-of select="concat('map', $id)"/>);
           </script>
         </div>
       </xsl:if>
@@ -392,7 +391,6 @@
       <xsl:for-each select="$people/tei:person">
         <xsl:text>{data: {id: "</xsl:text><xsl:value-of select="tei:idno[1]"/><xsl:text>", name: "</xsl:text>        
         <xsl:value-of select="normalize-space(translate(tei:*[1], ',', '; '))"/><xsl:text>", type: "people_only"}</xsl:text>
-        <!--<xsl:text>,position:{x:0,y:0}</xsl:text>--> <!-- *** -->
         <xsl:text>}</xsl:text>
         <xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if>
       </xsl:for-each>
@@ -452,21 +450,7 @@
       </div>
       
         <script type="text/javascript">
-          var graph_items = <xsl:value-of select="$graph_items"/>;
-          const graph_labels = <xsl:value-of select="$graph_labels"/>;
-          var my_graph = "mynetwork";
-          var inputSearch = "inputSearch";
-          var reset = "#reset";
-          var btnSearch = "#btnSearch";
-          var inputVal = "#inputSearch";
-          var toggle_people = "toggle_people";
-          var toggle_juridical_persons = "toggle_juridical_persons";
-          var toggle_estates = "toggle_estates";
-          var toggle_places = "toggle_places";
-          var toggle_red = "toggle_red";
-          var toggle_green = "toggle_green";
-          var toggle_blue = "toggle_blue";
-          var toggle_relation_labels = "toggle_relation_labels";
+          var graph_items = <xsl:value-of select="$graph_items"/>, graph_labels = <xsl:value-of select="$graph_labels"/>, my_graph = "mynetwork";
         </script>
         <script type="text/javascript" src="../../assets/scripts/networks.js"></script>
      </div>
@@ -485,7 +469,6 @@
           <xsl:when test="ancestor::tei:listPlace[@type='estates']">estates</xsl:when>
           <xsl:when test="ancestor::tei:listPlace[@type='places']">places</xsl:when>
         </xsl:choose><xsl:text>"}</xsl:text>
-        <!--<xsl:text>,position:{x:0,y:0}</xsl:text>--> <!-- *** -->
         <xsl:text>}</xsl:text>
         <xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if>
       </xsl:for-each>
@@ -548,21 +531,7 @@
       </div>
       
       <script type="text/javascript">
-       var graph_items = <xsl:value-of select="$graph_items"/>;
-       const graph_labels = <xsl:value-of select="$graph_labels"/>;
-        var my_graph = "mygraph";
-        var inputSearch = "inputSearch";
-        var reset = "#reset";
-        var btnSearch = "#btnSearch";
-        var inputVal = "#inputSearch";
-        var toggle_people = "toggle_people";
-        var toggle_juridical_persons = "toggle_juridical_persons";
-        var toggle_estates = "toggle_estates";
-        var toggle_places = "toggle_places";
-        var toggle_red = "toggle_red";
-        var toggle_green = "toggle_green";
-        var toggle_blue = "toggle_blue";
-        var toggle_relation_labels = "toggle_relation_labels";
+       var graph_items = <xsl:value-of select="$graph_items"/>, graph_labels = <xsl:value-of select="$graph_labels"/>, my_graph = "mygraph";
        </script>
       <script type="text/javascript" src="../../assets/scripts/networks.js"></script>
       <!--<script type="text/javascript" src="../../assets/scripts/wine.js"></script>--><!-- *** -->
@@ -646,8 +615,7 @@
         <p>
           <img src="../../../assets/images/golden.png" alt="golden circle" class="mapicon"/>Places linked to fiscal properties
           <img src="../../../assets/images/purple.png" alt="purple circle" class="mapicon"/>Places not linked to fiscal properties
-          <img src="../../../assets/images/polygon.png" alt="green polygon" class="mapicon"/>Places not precisely located or wider areas
-          <br/>
+          <img src="../../../assets/images/polygon.png" alt="green polygon" class="mapicon"/>Places not precisely located or wider areas <br/>
           <img src="../../../assets/images/anchor.png" alt="anchor" class="mapicon"/>Ports and fords
           <img src="../../../assets/images/tower.png" alt="tower" class="mapicon"/>Fortifications
           <img src="../../../assets/images/sella.png" alt="sella" class="mapicon"/>Residences

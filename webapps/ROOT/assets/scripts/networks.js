@@ -123,7 +123,12 @@ document.addEventListener("click", function (e) {
         {selector: 'node.highlighted', style: { 'background-color': 'red',  'width': '600px', 'height': '200px'} }
         ];
         
-        const cy_layout =  { name: 'fcose', animate: false, nodeRepulsion: 100000000, nodeSeparation: 100, randomize: true, idealEdgeLength: 300 };
+        var inputSearch = "inputSearch", inputVal = "#inputSearch", btnSearch = "#btnSearch", reset = "#reset";
+        var toggle_people = "toggle_people", toggle_juridical_persons = "toggle_juridical_persons", toggle_estates = "toggle_estates", 
+        toggle_places = "toggle_places", toggle_red = "toggle_red", toggle_green = "toggle_green", toggle_blue = "toggle_blue", 
+        toggle_relation_labels = "toggle_relation_labels";
+          
+          const cy_layout =  { name: 'fcose', animate: false, nodeRepulsion: 100000000, nodeSeparation: 100, randomize: true, idealEdgeLength: 300 };
         
         var cy = cytoscape({ container: document.getElementById(my_graph), elements: graph_items, style: cy_style, layout: cy_layout }).panzoom();      
        
