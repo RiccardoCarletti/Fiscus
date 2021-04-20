@@ -99,8 +99,6 @@ document.addEventListener("click", function (e) {
 
 
 
-
-
 /* ***** cytoscape.js ***** */
         const cy_style = [
         { selector: 'node', style: { 'label': 'data(name)', 'shape': 'round-rectangle', 'height': 'label', 'width': 'label', 'padding': '20px', 'text-halign': 'center', 'text-valign': 'center', 'text-wrap': 'wrap', 'text-max-width': '280px', 'font-size': '22px', 'border-width': 3, 'border-color': 'black', 'border-style': 'solid' } },
@@ -126,3 +124,27 @@ document.addEventListener("click", function (e) {
         ];
         
         const cy_layout =  { name: 'fcose', animate: false, nodeRepulsion: 100000000, nodeSeparation: 100, randomize: true, idealEdgeLength: 300 };
+        
+        var cy = cytoscape({ container: document.getElementById(my_graph), elements: graph_items, style: cy_style, layout: cy_layout }).panzoom();      
+       
+      /*fullscreen*/
+       function openFullscreen() {
+       if (document.getElementById(my_graph).requestFullscreen) { document.getElementById(my_graph).requestFullscreen(); } 
+       else if (document.getElementById(my_graph).webkitRequestFullscreen) { document.getElementById(my_graph).webkitRequestFullscreen();} 
+       else if (document.getElementById(my_graph).msRequestFullscreen) { document.getElementById(my_graph).msRequestFullscreen(); } } 
+       
+        /*toggle*/
+      document.getElementById(toggle_people).addEventListener("click", function() { cy.elements().toggleClass('people_hidden'); });
+      document.getElementById(toggle_juridical_persons).addEventListener("click", function() { cy.elements().toggleClass('juridical_persons_hidden'); });
+      document.getElementById(toggle_estates).addEventListener("click", function() { cy.elements().toggleClass('estates_hidden'); });
+      document.getElementById(toggle_places).addEventListener("click", function() { cy.elements().toggleClass('places_hidden'); });
+      document.getElementById(toggle_red).addEventListener("click", function() { cy.elements().toggleClass('red_hidden'); });
+      document.getElementById(toggle_green).addEventListener("click", function() { cy.elements().toggleClass('green_hidden'); });
+      document.getElementById(toggle_blue).addEventListener("click", function() { cy.elements().toggleClass('blue_hidden'); });
+      document.getElementById(toggle_relation_labels).addEventListener("click", function() { cy.elements().toggleClass('relation_type_hidden'); }); 
+          
+        /*autocomplete + search*/
+        autocomplete(document.getElementById(inputSearch), graph_labels);
+        $(btnSearch).on('click',function () { cy.elements().removeClass('highlighted');
+        cy.$('[name =  "' + $(inputVal).val() + '"]').addClass('highlighted'); });
+        $(reset).on('click',function () { cy.elements().removeClass('highlighted'); });

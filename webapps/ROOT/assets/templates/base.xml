@@ -41,8 +41,6 @@
             <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
               integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
               crossorigin=""></script>
-            <script src="{$kiln:assets-path}/scripts/maps.js"></script>
-            <script src="{$kiln:assets-path}/scripts/networks.js"></script>
             <script src="{$kiln:assets-path}/cytoscape/dist/cytoscape.min.js"></script>
             <script src="https://unpkg.com/layout-base/layout-base.js"></script>
             <script src="https://unpkg.com/cose-base/cose-base.js"></script>
@@ -50,7 +48,6 @@
             <script src="{$kiln:assets-path}/cytoscape/cytoscape-panzoom.js"></script>
             <script src="{$kiln:assets-path}/scripts/leaflet-providers.js"></script>
             <script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
-            <script src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
           </kiln:block>
           <kiln:block name="head-extra"></kiln:block>
         </head>
