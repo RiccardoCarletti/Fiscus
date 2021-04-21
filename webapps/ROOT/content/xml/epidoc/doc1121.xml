@@ -4,8 +4,8 @@
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
-                <title><foreign>Codex diplom. Langobardiae</foreign>, col. 673, n° CCCC, ed. Dozio
-                    (DD B I, pp. 104-107, n° XXXVI)</title>
+                <title>Biblioteca Ambrosiana, copia cart. sec XVIII nel ms. D, S, IV, 2, c. 8 (DD B
+                    I, pp. 104-107, n° XXXVI)</title>
             </titleStmt>
             <editionStmt>
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
@@ -33,7 +33,7 @@
                         <summary>
                             <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
-                            <rs type="document_tradition" ref="#"/>
+                            <rs type="document_tradition" ref="#">Uncertain tradition</rs>
                             <rs type="fiscal_property"/>
                         </summary>
                         <msItem xml:id="msItem1">
@@ -42,10 +42,10 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate notBefore="0001" notAfter="0001" when="0001"> 
-                                <note type="displayed_date"></note>
-                                <note type="dating_elements"></note>
-                                <note type="topical_date"></note>
+                            <origDate when="0902-08-01">
+                                <note type="displayed_date">902 august 1</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Pavia</note>
                             </origDate>
                             <origPlace/>
                         </origin>
@@ -73,7 +73,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2021-02-08">creation of record</change>
+                <change when="2021-02-08" who="Chiara Stedile">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -81,11 +81,51 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab></ab>
+                    <ab>In nomine domini Dei omipotentis eterni. Berengarius divina favente
+                        clementia rex. Quocienscunque regius animus sacris et venerabilibus locis
+                        aliquid conerre excogitat, divina id credimus inspiratione peractum, et si
+                        concepta persolvit, in presenti et in futuro salutiferum id sibi sentiet ac
+                        profuturum. Quapropter omnium fidelium sancte Dei Ecclesie nostrorumque
+                        presentium scilicet et futurorum prenoscat solertia, tam pro Dei amore
+                        quamque pro anime nostre remedio per hoc nostrum preceptum concessisse ac
+                        nostre largitionis dono emisisse monasterio Sancte Christine quod Ollonna
+                        vocatur quandam curtem iuris regni nostri que Salutiola nominatur, sitam
+                        prope ipsum monasterium plus minusve miliaria quinque, ubi nunc Iohannes qui
+                        et Azo vocatur abbas preesse videtur, quem nos dum ipse vixerit ibi abbatem
+                        fore sancimus ad victum et substentationem fratrum inibi Dei famulantium cum
+                        casis scilicet, terris, vineis, campis, pratis, pascuis, silvis, salectis,
+                        stationibus, piscationibus, aquis aquarumque decursibus cum alveo Padi,
+                        molendinis, ripatico, paludibus, montibus, planiciebus, diviso et non
+                        diviso, sortido et non sortido, redditibus, servis utriusque sexus,
+                        aldionibus et aldianis seu districto et omni diffinitione legaliter
+                        finiendi, seu quicquid dici et nominari potest sicut hactenus regie
+                        potestati et parti pertinuit in integrum, cum insulis et vadis in Pado que
+                        ex ipsa curte pertinere videntur, seu Broilo, Castellione, Laurentiasco,
+                        Meletum, cum tota venatione ipsius curtis iam dicto monasterio concedimus et
+                        largimur ac de nostro iure et dominio in eius ius et dominium modis omnibus
+                        transfundimus ac perdonamus, ea videlicet ratione, ut nulla poestas in
+                        silvis de prefata curte pertinentibus deinceps aliquas audeat exercere
+                        venationes nisi pars ipsius monasterii. Nulli denique exinde ab hodierno die
+                        coactum aliquid reddatur servicium nisi abbati eiusdem monasterii ac
+                        fratribus inibi Deo famulantibus. Hec omnia superius comprehensa per hanc
+                        nostre concessionis paginam idem monasterium ad iura et potestatem sui
+                        teneat, vindicet, et possideat et fruatur velut alias possessiones antiquas
+                        inibi per antecessorum regum nostrorum precepta vel ab aliis fidelibus
+                        collatas, remota totius potestatis inquietudine, minotatione vel
+                        contradictione. Contra quam nostram auctoritatem et concessionem si quis
+                        temerator insurgere quandoque temptaverit, noverit se compositurum auri
+                        optimi libras sexaginta, medietatem camere nostre et medietatem sepe
+                        nominato monasterio et abbati et fratribus qui pro tempore inibi fuerint.
+                        Quod ut verius credatur et diligentius abservetur, manu propria roboratum de
+                        anulo nostro sigillari iussimus. Signum domni Berengarii serenissimi regis.
+                        Ambrosius cancellarius ad vicem Garibaldi episcopi et archicancellarii
+                        recognovi et subscripsi. Dat kal. Aug., anno dominice incarnationis DCCCI
+                        domni vero Berengarii gloriosissimi regis XV, indictione V. Actum palatio
+                        Ticinensi. In Dei nomine feliciter, amen.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p/>
+                <p>DD B I, pp. 104-107, n° XXXVI</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>
