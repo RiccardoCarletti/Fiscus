@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    Diplomatico, * F 84</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                        </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc543</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#"
+                                >--Libellus/precaria/emphyteusis</rs>
+                                    <rs type="record_source" ref="#">Original document</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property"/>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate when="0900-03-22">
+                                <note type="displayed_date">900 March 22</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Actum Luca (Lucca)</note>
+                            </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance>
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                            <place></place>
+                        </listPlace>
+                        <listPerson>
+                            <person></person>
+                        </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-01-06" who="ptomei">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab>
+                                Il prete Atrimundo del fu Agimundo riceve in livello dal vescovo di Lucca Pietro, una casa posta foras civitate ista Lucense prope porta Sancti Petri et prope ecclesia Sancti Eupli, di pertinenza del vescovato di San Martino, con tutte le sue dipendenze, confinante uno caput con terra et orto della chiesa di San Pietro, alio caput in classo, lato uno con terra della chiesa di Sant’Euplo, alio lato con terra et fundamento seo casa et curticella sive orto del fu Giovanni qui fuit Sarracino.
+Si impegna a versare pro omni censum et iustitiam al vescovo e ai suoi successori ogni mese di marzo il censo annuale di 3 denari d’argento ad pars del vescovato di San Martino.
+Se non rispetterà i suddetti impegni, promette di versare al vescovo e ai suoi successori la pena di 20 soldi d’argento.
+Chiede al notaio Andrea la stesura di due cartulas.
+                                <persName>Autori: Pietro episcopus, Atrimundo presbiter del fu Agimundo.
+Scrittore: Andrea notarius.
+Testimoni sottoscrittori: Fraolmi, Atrualdo notarius, Ermifridi, Leone clericus, Teuprando, Benedetto schabinus.
+Altro: fu Giovanni Sarracino.</persName>
+                                <placeName>Luca, porta Sancti Petri (Lucca).</placeName>
+                                <orgName>San Pietro Maggiore, Paolo, Andrea e Sisto di Lucca (chiesa sedale), Sant’Euplo in Silice di Lucca, San Martino di Lucca (chiesa matrice).</orgName>
+                            </ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL, V/2, n. 1039, p. 641</p>
+                        <p>ChLA, LXXXVII, n. 33, pp. 122-124</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                        <p>Anno di regno di Berengario.</p>
+                        <p><note>Mod_id: 24</note></p>
+                    </div>
+                </body>
+            </text>
+        </TEI>
