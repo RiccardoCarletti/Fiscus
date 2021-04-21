@@ -3462,7 +3462,8 @@
                 </place>
                 <place>
                     <placeName>Cignano (Cortona; Arezzo)</placeName>
-                    <placeName type="other">Cignanum </placeName>
+                    <placeName type="other"><foreign>Cignanum</foreign>
+                    </placeName>
                     <geogName type="coord"><geo>43.2053606, 11.9000779</geo></geogName>
                     <idno>places/412</idno>
                     <note/>
@@ -3477,7 +3478,7 @@
                     <link type="juridical_persons" corresp="#juridical_persons/131" subtype="link"/>
                 </place>
                 <place>
-                    <placeName>Corno (Percenna; Buonconvento; Siena)</placeName>
+                    <placeName><foreign>Corno</foreign> (Percenna; Buonconvento; Siena)</placeName>
                     <placeName type="other"/>
                     <geogName type="coord"><geo>43.1393373, 11.4921568</geo></geogName>
                     <idno>places/414</idno>
@@ -3486,7 +3487,7 @@
                 </place>
                 <place>
                     <placeName>Monticelli (Firenze)</placeName>
-                    <placeName type="other">Monticellum</placeName>
+                    <placeName type="other"><foreign>Monticellum</foreign></placeName>
                     <geogName type="coord"><geo>43.7706605, 11.2269589</geo></geogName>
                     <idno>places/415</idno>
                     <note/>
@@ -3494,7 +3495,7 @@
                 </place>
                 <place>
                     <placeName>Torrita di Siena (Siena)</placeName>
-                    <placeName type="other">Turrita</placeName>
+                    <placeName type="other"><foreign>Turrita</foreign></placeName>
                     <geogName type="coord"><geo>43.1670724, 11.7720137</geo></geogName>
                     <idno>places/416</idno>
                     <note/>
@@ -3502,14 +3503,16 @@
                 </place>
                 <place>
                     <placeName>Castiglione della Pescaia (Grosseto)</placeName>
-                    <placeName type="other">Piscaria </placeName>
+                    <placeName type="other"><foreign>Piscaria</foreign>
+                    </placeName>
                     <geogName type="coord"><geo>42.7676291, 10.8756762</geo></geogName>
                     <idno>places/417</idno>
                     <note/>
                     <link type="juridical_persons" corresp="#juridical_persons/131" subtype="link"/>
                 </place>
                 <place>
-                    <placeName>Mortaria (Badiola; Castiglione della Pescaia; Grosseto)</placeName>
+                    <placeName><foreign>Mortaria</foreign> (Badiola; Castiglione della Pescaia;
+                        Grosseto)</placeName>
                     <placeName type="other"/>
                     <geogName type="coord"><geo>42.7975157, 10.9728122</geo></geogName>
                     <idno>places/418</idno>
@@ -3518,7 +3521,7 @@
                 </place>
                 <place>
                     <placeName>Quinciano (Monteroni d’Arbia; Siena)</placeName>
-                    <placeName type="other">Quintiano; </placeName>
+                    <placeName type="other"><foreign>Quintiano</foreign>; </placeName>
                     <geogName type="coord"><geo>43.2046302, 11.4289601</geo></geogName>
                     <idno>places/419</idno>
                     <note/>
@@ -3526,7 +3529,7 @@
                 </place>
                 <place>
                     <placeName>Albinia (Orbetello; Grosseto)</placeName>
-                    <placeName type="other">Campo Albiniano</placeName>
+                    <placeName type="other"><foreign>Campo Albiniano</foreign></placeName>
                     <geogName type="coord"><geo>42.5013607, 11.2078732</geo></geogName>
                     <idno>places/420</idno>
                     <note/>
@@ -3550,31 +3553,35 @@
                 </place>
                 <place>
                     <placeName>Vignoni (San Quirico d’Orcia; Siena)</placeName>
-                    <placeName type="other">Avignone</placeName>
+                    <placeName type="other"><foreign>Avignone</foreign></placeName>
                     <geogName type="coord"><geo>43.0365972, 11.6090604</geo></geogName>
                     <idno>places/423</idno>
                     <note/>
                     <link type="juridical_persons" corresp="#juridical_persons/131" subtype="link"/>
                 </place>
                 <place>
-                    <placeName>Sarturianella (Podere Sarchianello; Asciano; Siena)</placeName>
+                    <placeName><foreign>Sarturianella</foreign> (Podere Sarchianello; Asciano;
+                        Siena)</placeName>
                     <placeName type="other"/>
                     <geogName type="coord"><geo>43.2352526, 11.4849002</geo></geogName>
                     <idno>places/424</idno>
                     <note/>
                     <link type="juridical_persons" corresp="#juridical_persons/131" subtype="link"/>
+                    <link type="estates" corresp="#estates/175" subtype="isPartOf"/>
                 </place>
                 <place>
                     <placeName>Santomato (Pistoia; Pistoia)</placeName>
-                    <placeName type="other">Sancti Thome</placeName>
+                    <placeName type="other"><foreign>Sancti Thome</foreign></placeName>
                     <geogName type="coord"><geo>43.9429164, 10.9877801</geo></geogName>
                     <idno>places/425</idno>
                     <note/>
                     <link type="juridical_persons" corresp="#juridical_persons/131" subtype="link"/>
+                    <link type="estates" corresp="#estates/185" subtype="isPartOf"/>
                 </place>
                 <place>
                     <placeName>Asciano (Siena)</placeName>
-                    <placeName type="other">Sciscano </placeName>
+                    <placeName type="other"><foreign>Sciscano</foreign>
+                    </placeName>
                     <geogName type="coord"><geo>43.2339591, 11.560726</geo></geogName>
                     <idno>places/426</idno>
                     <note/>
@@ -3597,7 +3604,7 @@
                 </place>
                 <place>
                     <placeName>Buti (Pisa)</placeName>
-                    <placeName type="other">Buita</placeName>
+                    <placeName type="other"><foreign>Buita</foreign></placeName>
                     <geogName type="coord"><geo>43.7273619, 10.5895854</geo></geogName>
                     <idno>places/429</idno>
                     <note/>
@@ -3605,7 +3612,7 @@
                 </place>
                 <place>
                     <placeName>Tarquinia (Viterbo)</placeName>
-                    <placeName type="other">Cornieto</placeName>
+                    <placeName type="other"><foreign>Cornieto</foreign></placeName>
                     <geogName type="coord"><geo>42.145712, 11.452232</geo></geogName>
                     <idno>places/430</idno>
                     <note/>
