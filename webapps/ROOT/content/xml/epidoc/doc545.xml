@@ -4,7 +4,8 @@
             <teiHeader xml:lang="en">
                 <fileDesc>
                     <titleStmt>
-                        <title>ASDL, AAL, D, + P 43 (n. 1067)</title>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    Diplomatico, + P 43</title>
                     </titleStmt>
                     <editionStmt>
                         <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
@@ -13,7 +14,7 @@
                         </editionStmt>
                     <publicationStmt>
                         <publisher>Fiscus - DISCI UniBo</publisher>
-                        <idno type="filename">doc58</idno>
+                        <idno type="filename">doc545</idno>
                         <availability xml:lang="en" status="free">
                             <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                                 texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -30,10 +31,10 @@
                             </msIdentifier>
                             <msContents>
                                 <summary>
-                                    <rs type="text_type" ref="#">Cartula promissionis</rs>
-                                    <rs type="record_source" ref="#"/>
-                                    <rs type="document_tradition" ref="#"/>
-                                    <rs type="fiscal_property"/>
+                                    <rs type="text_type" ref="#">--Promissio</rs>
+                                    <rs type="record_source" ref="#">Original document</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
                                 </summary>
                                 <msItem xml:id="msItem1">
                                     <textLang mainLang="" otherLangs=""/>
@@ -41,11 +42,11 @@
                             </msContents>
                             <history>
                                 <origin>
-                                    <origDate notBefore="0001" notAfter="0001" when="0001">
-                                    <note type="displayed_date">0900/07/19</note>
-                                    <note type="dating_elements"></note>
-                                    <note type="topical_date">Actum Luca (Lucca)</note>
-                                    </origDate>
+                                    <origDate when="0900-07-19">
+                                <note type="displayed_date">900 July 19</note>
+                                <note type="dating_elements">Anno di regno di Berengario</note>
+                                <note type="topical_date">Lucca</note>
+                            </origDate>
                                     <origPlace/>
                                 </origin>
                                 <provenance>
@@ -72,7 +73,7 @@
                 </profileDesc>
                 <revisionDesc>
                     <listChange>
-                        <change when="2021-01-06" who="ptomei">creation of record</change>
+                        <change when="2021-04-21" who="ptomei">creation of record</change>
                     </listChange>
                 </revisionDesc>
             </teiHeader>
@@ -80,15 +81,18 @@
                 <body>
                     <div type="edition">
                         <div type="textpart">
-                            <ab>
-                                Il diacono Filuarto, essendo stato ordinato e confermato dal vescovo di Lucca Pietro nella chiesa di Santa Maria e Santi Gervasio e Protasio sita foras civitate ista lucense con tutte le sue dipendenze, promette vita natural durante al vescovo e ai suoi successori, di versare nel mese di maggio 20 soldi d’argento.
-Chiede al notaio Pietro la stesura della cartula.
-                                <persName>Autori: Pietro episcopus, Filuarto diaconus.
-Scrittore: Pietro notarius.
-Testimoni sottoscrittori: Willeramo, Lamberto, Fraolmi, Eriteo, Adalperto notarius.</persName>
-                                <placeName>Luca (Lucca).</placeName>
-                                <orgName>Santi Gervasio e Protasio e Santa Maria Forisportam di Lucca (chiesa sedale), San Martino di Lucca (chiesa matrice).</orgName>
-                            </ab>
+                            <ab>Il diacono Filuarto, essendo stato ordinato e confermato dal vescovo
+                        di Lucca Pietro nella chiesa di Santa Maria e Santi Gervasio e Protasio sita
+                        foras civitate ista lucense con tutte le sue dipendenze, promette vita
+                        natural durante al vescovo e ai suoi successori, di versare nel mese di
+                        maggio 20 soldi d’argento. Chiede al notaio Pietro la stesura della cartula.
+                        Actum Luca. <persName>Autori: Pietro episcopus, Filuarto diaconus.
+                            Scrittore: Pietro notarius. Testimoni sottoscrittori: Willeramo,
+                            Lamberto, Fraolmi, Eriteo, Adalperto notarius.</persName>
+                        <placeName>Luca (Lucca).</placeName>
+                        <orgName>Santi Gervasio e Protasio e Santa Maria Forisportam di Lucca
+                            (chiesa sedale), San Martino di Lucca (chiesa matrice).</orgName>
+                    </ab>
                         </div>
                     </div>
                     <div type="bibliography" subtype="editions">
@@ -102,8 +106,7 @@ Testimoni sottoscrittori: Willeramo, Lamberto, Fraolmi, Eriteo, Adalperto notari
                         <p/>
                     </div>
                     <div type="commentary">
-                        <p>Anno di regno di Berengario.</p>
-                        <p><note>Mod_id: 16</note></p>
+                        <p>.</p>
                     </div>
                 </body>
             </text>
