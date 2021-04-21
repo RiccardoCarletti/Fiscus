@@ -370,13 +370,13 @@
           <script type="text/javascript" src="../../assets/scripts/maps.js"></script>
           <script type="text/javascript">
             var <xsl:value-of select="concat('map', $id)"/> = L.map('<xsl:value-of select="concat('map', $id)"/>', 
-            { center: [44, 10.335], zoom: 6, layers: [osm, streets, grayscale, satellite, terrain, watercolor] });
+            { center: [44, 10.335], zoom: 6, layers: layers });
+            L.control.layers(baseMaps, overlayMaps).addTo(<xsl:value-of select="concat('map', $id)"/>);
+            L.control.scale().addTo(<xsl:value-of select="concat('map', $id)"/>);
+            L.Control.geocoder().addTo(<xsl:value-of select="concat('map', $id)"/>);
             toggle_purple_places.addTo(<xsl:value-of select="concat('map', $id)"/>);
             toggle_golden_places.addTo(<xsl:value-of select="concat('map', $id)"/>);
             toggle_polygons.addTo(<xsl:value-of select="concat('map', $id)"/>);
-            L.control.scale().addTo(<xsl:value-of select="concat('map', $id)"/>);
-            L.Control.geocoder().addTo(<xsl:value-of select="concat('map', $id)"/>);
-            L.control.layers(baseMaps, overlayMaps).addTo(<xsl:value-of select="concat('map', $id)"/>);
           </script>
         </div>
       </xsl:if>
@@ -632,9 +632,9 @@
       </script>
       <script type="text/javascript" src="../../assets/scripts/maps.js"></script>
       <script type="text/javascript">
-        var mymap = L.map('mapid', { center: [44, 10.335], zoom: 6, layers: [osm, streets, grayscale, satellite, terrain, watercolor] });
-        L.control.scale().addTo(mymap);
+        var mymap = L.map('mapid', { center: [44, 10.335], zoom: 6, layers: layers });
         L.control.layers(baseMaps, overlayMaps).addTo(mymap);
+        L.control.scale().addTo(mymap);
         L.Control.geocoder().addTo(mymap);
         toggle_purple_places.addTo(mymap); 
         toggle_golden_places.addTo(mymap);

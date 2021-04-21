@@ -170,3 +170,5 @@ var streets = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{
         "Land plots and rural buildings": toggle_land_places,
         "Fallow land": toggle_fallow_places
         };
+        
+        var layers = [osm, streets, grayscale, satellite, terrain, watercolor];

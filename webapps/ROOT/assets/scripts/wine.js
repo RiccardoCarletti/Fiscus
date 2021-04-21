@@ -16237,7 +16237,7 @@
 							c = function(e) {
 								var a = e.data(),
 									t = [];
-								i(t, a.name), i(t, a.Synonym), i(t, a.typeFormatted), i(t, a.Milk), i(t, a.Type), i(t, a.Country), e.data("words", t)
+								i(t, a.name), i(t, a.Type), e.data("words", t)
 							},
 							o = function(e, a) {
 								return 0 === a.indexOf(e) ? 1 - Math.abs(a.length - e.length) / Math.max(a.length, e.length) : 0
@@ -16272,25 +16272,11 @@
 			}(),
 			W = t(126),
 			j = t.n(W),
-			O = '\ncore {\n\tactive-bg-color: #fff;\n\tactive-bg-opacity: 0.333;\n}\n\nedge {\n\tcurve-style: haystack;\n\thaystack-radius: 0;\n\topacity: 0.333;\n\twidth: 2;\n\tz-index: 0;\n\toverlay-opacity: 0;\n  events: no;\n}\n\nnode {\n\twidth: 40;\n\theight: 40;\n\tfont-size: 9;\n\tfont-weight: bold;\n\tmin-zoomed-font-size: 4;\n\tlabel: data(name);\n\ttext-wrap: wrap;\n\ttext-max-width: 50;\n\ttext-valign: center;\n\ttext-halign: center;\n\ttext-events: yes;\n\tcolor: #000;\n\ttext-outline-width: 1;\n\ttext-outline-color: #fff;\n\ttext-outline-opacity: 1;\n\toverlay-color: #fff;\n}\n\nedge[type = "red"] {\n\tline-color: red;\n\topacity: 0.666;\n\tz-index: 9;\n\twidth: 4;\n}\n\nnode[type = "places"] {\n\tbackground-color: #c2c2ff;\n\ttext-outline-color: black;\n}\n\nnode[type = "people"] {\n\tbackground-color: #ffff80;\n\ttext-outline-color: black;\n}\n\nnode[type = "estates"] {\n\tbackground-color: #99ff99;\n\ttext-outline-color: black;\n}\n\nedge[type = "green"] {\n\tline-color: green;\n}\n\nnode[type = "juridical_persons"] {\n\tbackground-color: #ffb4b4;\n\ttext-outline-color: black;\n}\n\nedge[type = "blue"] {\n\tline-color: blue;\n}\n\nnode.highlighted {\n\tmin-zoomed-font-size: 0;\n  z-index: 9999;\n}\n\nedge.highlighted {\n\topacity: 0.8;\n\twidth: 4;\n\tz-index: 9999;\n}\n\n.faded {\n  events: no;\n}\n\nnode.faded {\n  opacity: 0.08;\n}\n\nedge.faded {\n  opacity: 0.06;\n}\n\n.hidden {\n\tdisplay: none;\n}\n\n',
 
-			H = graph_items; /* imported from webapps/ROOT/stylesheets/tei/to-html.xsl */
 
-		H.nodes.forEach((function(e) {
-			var a = e.data;
-			a.typeFormatted = a.type, "juridical_persons" === a.typeFormatted ? a.typeFormatted = "Juridical person" : "estates" === a.typeFormatted ? a.typeFormatted = "Estate" : "people" === a.typeFormatted && (a.typeFormatted = "Person"), e.data.orgPos = {
-				x: 0/*e.position.x*/, y: 0/*e.position.y*/
-			}, a.name = a.name.replace(/[-]/g, "-​")
-		}));
-		var Q = H;
-
-		function q(e) {
-			return (q = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(e) {
-				return typeof e
-			} : function(e) {
-				return e && "function" == typeof Symbol && e.constructor === Symbol && e !== Symbol.prototype ? "symbol" : typeof e
-			})(e)
-		}
+/**********************************************************************************************************************************/
+		Q = graph_items; /* imported from webapps/ROOT/stylesheets/tei/to-html.xsl */
+		Q.nodes.forEach((function(e) { e.data.orgPos = { x: 0/*e.position.x*/, y: 0/*e.position.y*/ } }));
 
 		function Z(e, a) {
 			for (var t = 0; t < a.length; t++) {
@@ -16298,49 +16284,15 @@
 				n.enumerable = n.enumerable || !1, n.configurable = !0, "value" in n && (n.writable = !0), Object.defineProperty(e, n.key, n)
 			}
 		}
-
-		function K(e, a) {
-			return !a || "object" !== q(a) && "function" != typeof a ? function(e) {
-				if (void 0 === e) throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
-				return e
-			}(e) : a
-		}
-
-		function Y(e) {
-			return (Y = Object.setPrototypeOf ? Object.getPrototypeOf : function(e) {
-				return e.__proto__ || Object.getPrototypeOf(e)
-			})(e)
-		}
-
-		function X(e, a) {
-			return (X = Object.setPrototypeOf || function(e, a) {
-				return e.__proto__ = a, e
-			})(e, a)
-		}
+		
 		var J = function(e) {
-			function a(e) {
-				return function(e, a) {
-					if (!(e instanceof a)) throw new TypeError("Cannot call a class as a function")
-				}(this, a), K(this, Y(a).call(this, e))
-			}
+			function a(e) { return function(e, a) {}(this, a) }
 			var t, n, r;
 			return function(e, a) {
-				if ("function" != typeof a && null !== a) throw new TypeError("Super expression must either be null or a function");
-				e.prototype = Object.create(a && a.prototype, {
-					constructor: {
-						value: e,
-						writable: !0,
-						configurable: !0
-					}
-				}), a && X(e, a)
+				e.prototype = Object.create(a && a.prototype, { constructor: { value: e, writable: !0, configurable: !0 } }), a
 			}(a, e), t = a, (n = [{
 				key: "render",
-				value: function() {
-					return g("div", {
-						id: "cy",
-						style: "position:absolute;left:0;right:0;bottom:0;top:0"
-					})
-				}
+				value: function() { return g("div", { id: "cy", style: "position:absolute;left:0;right:0;bottom:0;top:0"}) }
 			}, {
 				key: "componentDidMount",
 				value: function() {
@@ -16354,164 +16306,46 @@
 				}
 			}, {
 				key: "componentWillUnmount",
-				value: function() {
-					this.props.cy.removeListener("tap", this.onTap)
-				}
+				value: function() { this.props.cy.removeListener("tap", this.onTap) }
 			}]) && Z(t.prototype, n), r && Z(t, r), a
 		}(f);
-
-		function $(e) {
-			return ($ = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(e) {
-				return typeof e
-			} : function(e) {
-				return e && "function" == typeof Symbol && e.constructor === Symbol && e !== Symbol.prototype ? "symbol" : typeof e
-			})(e)
-		}
-
-		function ee(e, a) {
-			for (var t = 0; t < a.length; t++) {
-				var n = a[t];
-				n.enumerable = n.enumerable || !1, n.configurable = !0, "value" in n && (n.writable = !0), Object.defineProperty(e, n.key, n)
-			}
-		}
-
-		function ae(e, a) {
-			return !a || "object" !== $(a) && "function" != typeof a ? function(e) {
-				if (void 0 === e) throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
-				return e
-			}(e) : a
-		}
-
-		function te(e) {
-			return (te = Object.setPrototypeOf ? Object.getPrototypeOf : function(e) {
-				return e.__proto__ || Object.getPrototypeOf(e)
-			})(e)
-		}
-
-		function ne(e, a) {
-			return (ne = Object.setPrototypeOf || function(e, a) {
-				return e.__proto__ = a, e
-			})(e, a)
-		}
+		
 		var re = function(e) {
-				function a(e) {
-					return function(e, a) {
-						if (!(e instanceof a)) throw new TypeError("Cannot call a class as a function")
-					}(this, a), ae(this, te(a).call(this, e))
-				}
+				function a(e) { return function(e, a) { }(this, a) }
 				var t, n, r;
 				return function(e, a) {
-					if ("function" != typeof a && null !== a) throw new TypeError("Super expression must either be null or a function");
-					e.prototype = Object.create(a && a.prototype, {
-						constructor: {
-							value: e,
-							writable: !0,
-							configurable: !0
-						}
-					}), a && ne(e, a)
+					e.prototype = Object.create(a && a.prototype, { constructor: { value: e, writable: !0, configurable: !0 } }), a
 				}(a, e), t = a, (n = [{
 					key: "render",
 					value: function() {
-						var e = this.props.node.data(),
-							a = e.name,
-							t = e.typeFormatted,
-							n = e.Milk,
-							r = null != n,
-							i = e.Country,
-							c = null != i,
-							o = encodeURIComponent("places" === e.type ? "".a : a);
-						return g("div", {
-							class: "node-info"
-						}, [g("div", {
-							class: "node-info-name"
-						}, a)])
+						var e = this.props.node.data(), a = e.name;
+						return g("div", { class: "node-info" }, [g("div", { class: "node-info-name" }, a)])
 					}
-				}]) && ee(t.prototype, n), r && ee(t, r), a
+				}]) && Z(t.prototype, n), r && Z(t, r), a
 			}(f),
-			ie = t(90),
-			ce = t.n(ie),
-			oe = t(89),
-			se = t.n(oe);
+			se = t.n(t(89));
+		
+		function ue(e, a) { return !a || "function" != typeof a ? function(e) { return e }(e) : a }
 
-		function le(e) {
-			return (le = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(e) {
-				return typeof e
-			} : function(e) {
-				return e && "function" == typeof Symbol && e.constructor === Symbol && e !== Symbol.prototype ? "symbol" : typeof e
-			})(e)
-		}
-
-		function de(e, a) {
-			for (var t = 0; t < a.length; t++) {
-				var n = a[t];
-				n.enumerable = n.enumerable || !1, n.configurable = !0, "value" in n && (n.writable = !0), Object.defineProperty(e, n.key, n)
-			}
-		}
-
-		function ue(e, a) {
-			return !a || "object" !== le(a) && "function" != typeof a ? function(e) {
-				if (void 0 === e) throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
-				return e
-			}(e) : a
-		}
-
-		function he(e) {
-			return (he = Object.setPrototypeOf ? Object.getPrototypeOf : function(e) {
-				return e.__proto__ || Object.getPrototypeOf(e)
-			})(e)
-		}
-
-		function me(e, a) {
-			return (me = Object.setPrototypeOf || function(e, a) {
-				return e.__proto__ = a, e
-			})(e, a)
-		}
 		var ge = function(e) {
 			function a(e) {
-				var t;
-				! function(e, a) {
-					if (!(e instanceof a)) throw new TypeError("Cannot call a class as a function")
-				}(this, a), t = ue(this, he(a).call(this, e));
+				var t = ue(this);
 				var n = e.controller,
 					r = n.bus;
 				return t.state = {
 					open: n.isMenuOpen()
-				}, r.on("openMenu", t.onOpenMenu = function() {
-					t.setState({
-						open: !0
-					}), t.focusTextBox()
-				}), r.on("closeMenu", t.onOpenMenu = function() {
-					t.setState({
-						open: !1
-					})
-				}), r.on("updateSearch", t.onUpdateSearch = function(e) {
-					t.setState({
-						searchMatchNodes: e
-					})
-				}), t.debouncedUpdateSearch = se()((function() {
-					return t.updateSearch()
-				}), 250), t
+				}, r.on("updateSearch", t.onUpdateSearch = function(e) {
+					t.setState({ searchMatchNodes: e })
+				}), t.debouncedUpdateSearch = se()((function() { return t.updateSearch() }), 250), t
 			}
 			var t, n, r;
 			return function(e, a) {
-				if ("function" != typeof a && null !== a) throw new TypeError("Super expression must either be null or a function");
-				e.prototype = Object.create(a && a.prototype, {
-					constructor: {
-						value: e,
-						writable: !0,
-						configurable: !0
-					}
-				}), a && me(e, a)
+				e.prototype = Object.create(a && a.prototype, { constructor: { value: e, writable: !0, configurable: !0 } }), a
 			}(a, e), t = a, (n = [{
 				key: "componentWillUnmount",
 				value: function() {
 					var e = this.props.controller.bus;
-					e.removeListener("openMenu", this.onOpenMenu), e.removeListener("closeMenu", this.onCloseMenu), e.removeListener("updateSearch", this.onUpdateSearch)
-				}
-			}, {
-				key: "open",
-				value: function() {
-					this.props.controller.openMenu()
+					e.removeListener("updateSearch", this.onUpdateSearch)
 				}
 			}, {
 				key: "updateSearch",
@@ -16546,62 +16380,17 @@
 						c = [];
 					return r && (c = r.map((function(a) {
 						return g("div", {
-							onClick: function() {
-								return e.selectNode(a)
-							}
-						}, [g(re, {
-							node: a
-						})])
-					}))), g("div", {
-						class: "menu-parent"
-					}, [g("div", {
-						onClick: function() {
-							return a.toggleMenu()
-						}
-					}), g("div", {
-						style: {
-							position: "absolute",
-							right: 0,
-							top: 0
-						}
-					}, [g("input", {
-						type: "text",
-						placeholder: "Search",
-						id: "menu-search",
-						onClick: function() {
-							return e.open()
-						},
-						onKeyDown: function() {
-							return e.debouncedUpdateSearch()
-						}
-					}), g("div", {
-						id: "menu-search-results"
-					}, c)])])
+							onClick: function() { return e.selectNode(a) }
+						}, [g(re, { node: a })])
+					}))), 
+					g("div", { style: { position: "absolute", right: 0 } }, 
+					[g("input", { type: "text", placeholder: "Search", id: "menu-search",
+						onClick: function() { return e.open() },
+						onKeyDown: function() { return e.debouncedUpdateSearch() }
+					}), g("div", { id: "menu-search-results" }, c)])
 				}
-			}]) && de(t.prototype, n), r && de(t, r), a
+			}]) && Z(t.prototype, n), r && Z(t, r), a
 		}(f);
-
-		function pe(e) {
-			return (pe = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(e) {
-				return typeof e
-			} : function(e) {
-				return e && "function" == typeof Symbol && e.constructor === Symbol && e !== Symbol.prototype ? "symbol" : typeof e
-			})(e)
-		}
-
-		function ye(e, a) {
-			for (var t = 0; t < a.length; t++) {
-				var n = a[t];
-				n.enumerable = n.enumerable || !1, n.configurable = !0, "value" in n && (n.writable = !0), Object.defineProperty(e, n.key, n)
-			}
-		}
-
-		function fe(e, a) {
-			return !a || "object" !== pe(a) && "function" != typeof a ? function(e) {
-				if (void 0 === e) throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
-				return e
-			}(e) : a
-		}
 
 		function ve(e) {
 			return (ve = Object.setPrototypeOf ? Object.getPrototypeOf : function(e) {
@@ -16609,54 +16398,29 @@
 			})(e)
 		}
 
-		function _e(e, a) {
-			return (_e = Object.setPrototypeOf || function(e, a) {
-				return e.__proto__ = a, e
-			})(e, a)
-		}
 		var Se = function(e) {
 				function a(e) {
-					var t;
-					! function(e, a) {
-						if (!(e instanceof a)) throw new TypeError("Cannot call a class as a function")
-					}(this, a), t = fe(this, ve(a).call(this, e));
+					var t = ue(this, ve(a).call(this, e));
 					var n = new j.a({
 						elements: Q,
-						style: O,
-						layout: {
-							name: "random"
-						},
+						style: '\ncore {\n\tactive-bg-color: #fff;\n\tactive-bg-opacity: 0.333;\n}\n\nedge {\n\tcurve-style: haystack;\n\thaystack-radius: 0;\n\topacity: 0.333;\n\twidth: 2;\n\tz-index: 0;\n\toverlay-opacity: 0;\n  events: no;\n}\n\nnode {\n\twidth: 40;\n\theight: 40;\n\tfont-size: 9;\n\tfont-weight: bold;\n\tmin-zoomed-font-size: 4;\n\tlabel: data(name);\n\ttext-wrap: wrap;\n\ttext-max-width: 50;\n\ttext-valign: center;\n\ttext-halign: center;\n\ttext-events: yes;\n\tcolor: #000;\n\ttext-outline-width: 1;\n\ttext-outline-color: #fff;\n\ttext-outline-opacity: 1;\n\toverlay-color: #fff;\n}\n\nedge[type = "red"] {\n\tline-color: red;\n\topacity: 0.666;\n\tz-index: 9;\n\twidth: 4;\n}\n\nnode[type = "places"] {\n\tbackground-color: #c2c2ff;\n\ttext-outline-color: black;\n}\n\nnode[type = "people"] {\n\tbackground-color: #ffff80;\n\ttext-outline-color: black;\n}\n\nnode[type = "estates"] {\n\tbackground-color: #99ff99;\n\ttext-outline-color: black;\n}\n\nedge[type = "green"] {\n\tline-color: green;\n}\n\nnode[type = "juridical_persons"] {\n\tbackground-color: #ffb4b4;\n\ttext-outline-color: black;\n}\n\nedge[type = "blue"] {\n\tline-color: blue;\n}\n\nnode.highlighted {\n\tmin-zoomed-font-size: 0;\n  z-index: 9999;\n}\n\nedge.highlighted {\n\topacity: 0.8;\n\twidth: 4;\n\tz-index: 9999;\n}\n\n.faded {\n  events: no;\n}\n\nnode.faded {\n  opacity: 0.08;\n}\n\nedge.faded {\n  opacity: 0.06;\n}\n\n.hidden {\n\tdisplay: none;\n}\n\n',
+						layout: { name: "random" },
 						selectionType: "single",
 						boxSelectionEnabled: !1
 					});
 					n.nodes().panify().ungrabify();
-					var r = new z({
-							cy: n
-						}),
+					var r = new z({ cy: n }),
 						i = r.bus;
 					return s && (window.cy = n, window.controller = r), t.state = {
 						controller: r,
 						cy: n
-					}, i.on("showInfo", t.onShowInfo = function(e) {
-						t.setState({
-							infoNode: e
-						})
-					}), i.on("hideInfo", t.onHideInfo = function() {
-						t.setState({
-							infoNode: null
-						})
+					}, i.on("showInfo", t.onShowInfo = function(e) { t.setState({ infoNode: e })
+					}), i.on("hideInfo", t.onHideInfo = function() { t.setState({ infoNode: null })
 					}), t
 				}
 				var t, n, r;
 				return function(e, a) {
-					if ("function" != typeof a && null !== a) throw new TypeError("Super expression must either be null or a function");
-					e.prototype = Object.create(a && a.prototype, {
-						constructor: {
-							value: e,
-							writable: !0,
-							configurable: !0
-						}
-					}), a && _e(e, a)
+					e.prototype = Object.create(a && a.prototype, { constructor: { value: e, writable: !0, configurable: !0 } }), a
 				}(a, e), t = a, (n = [{
 					key: "componentWillUnmount",
 					value: function() {
@@ -16666,24 +16430,13 @@
 				}, {
 					key: "render",
 					value: function() {
-						var e = this.state,
-							a = e.cy,
-							t = e.controller,
-							n = e.infoNode;
-						return g("div", {
-							class: "app"
-						}, [g(J, {
+						var e = this.state, a = e.cy, t = e.controller, n = e.infoNode;
+						return g("div", { class: "app" }, [g(J, {
 							cy: a,
 							controller: t
-						}), n ? g("div", {
-							class: "app-node-info"
-						}, [g(re, {
-							node: n
-						})]) : null, g(ge, {
-							controller: t
-						})])
+						}), n ? g("div", { class: "app-node-info" }, [g(re, { node: n })]) : null, g(ge, { controller: t })])
 					}
-				}]) && ye(t.prototype, n), r && ye(t, r), a
+				}]) && Z(t.prototype, n), r && Z(t, r), a
 			}(f),
 
 
