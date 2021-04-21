@@ -363,15 +363,14 @@
               <img src="../../../assets/images/tree.png" alt="tree" class="mapicon"/>Fallow land
             </p>
           </div>
-          <script type="text/javascript" src="../../assets/scripts/map_common_features.js"></script>
+          <script type="text/javascript">
+            var polygons = <xsl:value-of select="replace(replace($map_polygons, ', !', ''), '!', '')"/>;
+            var points = <xsl:value-of select="replace($map_points, ', ,', ',')"/>;
+            </script>
+          <script type="text/javascript" src="../../assets/scripts/maps.js"></script>
           <script type="text/javascript">
             var <xsl:value-of select="concat('map', $id)"/> = L.map('<xsl:value-of select="concat('map', $id)"/>', 
             { center: [44, 10.335], zoom: 6, layers: [osm, streets, grayscale, satellite, terrain, watercolor] });
-            var polygons = <xsl:value-of select="replace(replace($map_polygons, ', !', ''), '!', '')"/>;
-            var points = <xsl:value-of select="replace($map_points, ', ,', ',')"/>;
-          </script>
-          <script type="text/javascript" src="../../assets/scripts/maps.js"></script>
-          <script type="text/javascript">
             toggle_purple_places.addTo(<xsl:value-of select="concat('map', $id)"/>);
             toggle_golden_places.addTo(<xsl:value-of select="concat('map', $id)"/>);
             toggle_polygons.addTo(<xsl:value-of select="concat('map', $id)"/>);
@@ -630,10 +629,17 @@
         var polygons = <xsl:value-of select="$map_polygons"/>;
         var points = <xsl:value-of select="$map_points"/>;
         var map_labels = <xsl:value-of select="$map_labels"/>;
-        var map_id = 'mapid';
       </script>
-      <script type="text/javascript" src="../../assets/scripts/map_common_features.js"></script>
-      <script type="text/javascript" src="../../assets/scripts/map.js"></script>
+      <script type="text/javascript" src="../../assets/scripts/maps.js"></script>
+      <script type="text/javascript">
+        var mymap = L.map('mapid', { center: [44, 10.335], zoom: 6, layers: [osm, streets, grayscale, satellite, terrain, watercolor] });
+        L.control.scale().addTo(mymap);
+        L.control.layers(baseMaps, overlayMaps).addTo(mymap);
+        L.Control.geocoder().addTo(mymap);
+        toggle_purple_places.addTo(mymap); 
+        toggle_golden_places.addTo(mymap);
+        toggle_polygons.addTo(mymap);
+      </script>
     </div>
   </xsl:template>
   
