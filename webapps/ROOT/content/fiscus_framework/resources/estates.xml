@@ -1315,10 +1315,13 @@
                     <link type="places" corresp="#places/425" subtype="hasConnectionWith"/>
                 </place>
                 <place>
-                    <geogName>Matrichesa; curtis</geogName>
-                    <geogName type="other"/>
+                    <geogName>Matrichesa; <foreign>curtis</foreign></geogName>
+                    <geogName type="other"><foreign>Sancte Marie que dicitur Mater
+                            ecclesia</foreign></geogName>
                     <idno>estates/186</idno>
                     <note/>
+                    <link type="places" subtype="hasConnectionWith" corresp="#places/409"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/131" subtype="link"/>
                 </place>
             </listPlace>
         </body>
