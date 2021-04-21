@@ -67,6 +67,7 @@
                     <idno>people/7</idno>
                     <note/>
                     <link type="people" corresp="#people/173" subtype="grandsonOf"/>
+                    <link type="people" corresp="#people/239" subtype="sonOf"/>
                 </person>
                 
                 <person>
@@ -1321,6 +1322,7 @@
                     <link type="people" corresp="#people/174" subtype="link"
                     />
                     <link type="people" corresp="#people/7" subtype="grandfatherOf"/>
+                    <link type="people" corresp="#people/239" subtype="fatherOf"/>
                 </person>
                 <person>
                     <persName>Eistolfo (951) archipresbiter</persName>
@@ -1938,12 +1940,22 @@
                     <note/>
                     <link type="juridical_persons" corresp="#juridical_persons/131" subtype="link"/>
                     <link type="people" corresp="#people/77" subtype="fatherOf"/>
+                    <link type="people" corresp="#people/238" subtype="link"/>
                 </person>
                 <person>
                     <persName>Teuzo (1051) abbas monasterii Sancti Anthimi</persName>
                     <persName type="other"/>
                     <idno>people/238</idno>
                     <note/>
+                    <link type="people" corresp="#people/237" subtype="link"/>
+                </person>
+                <person>
+                    <persName>Otto II (955-983) imperator</persName>
+                    <persName type="other"/>
+                    <idno>people/239</idno>
+                    <note/>
+                    <link type="people" corresp="#people/173" subtype="sonOf"/>
+                    <link type="people" corresp="#people/7" subtype="fatherOf"/>
                 </person>
             </listPerson>
         </body>
