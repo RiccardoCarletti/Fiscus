@@ -1400,10 +1400,14 @@
                     <link type="places" corresp="#places/436" subtype="hasConnectionWith"/>
                 </place>
                 <place>
-                    <geogName>Clivolo</geogName>
+                    <geogName><foreign>Clivolo</foreign>; <foreign>curtis</foreign></geogName>
                     <geogName type="other"/>
                     <idno>estates/196</idno>
                     <note/>
+                    <link type="places" corresp="#places/" subtype="hasConnectionWith"/>
+                    <link type="people" corresp="#people/7" subtype="link"/>
+                    <link type="people" corresp="#people/171" subtype="link"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
                 </place>
             </listPlace>
         </body>
