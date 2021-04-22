@@ -4,16 +4,18 @@
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
-                <title></title>
+                <title>Biblioteca Apostolica Vaticana, Vat. Lat. 3833, f. 88v (Deusdedit, nr.
+                    214)</title>
             </titleStmt>
             <editionStmt>
-                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus
+                        Project</ref>
                     <date when="2021">2021</date>
                 </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
-                <idno type="filename">doc1</idno>
+                <idno type="filename">doc1505</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -30,10 +32,10 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#"/>
-                            <rs type="record_source" ref="#"/>
-                            <rs type="document_tradition" ref="#"/>
-                            <rs type="fiscal_property"/>
+                            <rs type="text_type" ref="#">-Papal concession (papyrus)</rs>
+                            <rs type="record_source" ref="#">Original document</rs>
+                            <rs type="document_tradition" ref="#">Compendium</rs>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -41,10 +43,10 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate notBefore="0001" notAfter="0001" when="0001"> 
-                                <note type="displayed_date"></note>
-                                <note type="dating_elements"></note>
-                                <note type="topical_date"></note>
+                            <origDate notBefore="0715" notAfter="0731">
+                                <note type="displayed_date">715 May 19 - 731 February 11</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date"/>
                             </origDate>
                             <origPlace/>
                         </origin>
@@ -56,10 +58,10 @@
                     </history>
                 </msDesc>
                 <listPlace>
-                    <place></place>
+                    <place/>
                 </listPlace>
                 <listPerson>
-                    <person></person>
+                    <person/>
                 </listPerson>
             </sourceDesc>
         </fileDesc>
@@ -72,7 +74,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2021-02-08">creation of record</change>
+                <change when="2021-02-08" who="dinternullo">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -80,20 +82,26 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab></ab>
+                    <ab>Set et <persName ref="#people/71" key="#Popes">Gregorius iunior</persName>
+                        item in suo registro locat in .XXVIII. annis Anatholio tribuno fundum
+                        Meianula cum casis et vineis et omnibus suis pertinentiis ex corpore massae
+                        Peltianae, territorio Anagnino, patrimonio Lavicano, sub annua pensione;
+                        prestat .VI. siliquas auri.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p/>
+                <p>Deusdedit, Collectio Canonum, nr. 214, p. 365</p>
             </div>
             <div type="bibliography" subtype="additional">
-                <p/>
+                <p>Marazzi 1998: 303-304</p>
             </div>
             <div type="bibliography" subtype="links">
-                <p/>
+                <p><ref corresp="https://digi.vatlib.it/view/MSS_Vat.lat.3833"
+                        >https://digi.vatlib.it/view/MSS_Vat.lat.3833</ref></p>
             </div>
             <div type="commentary">
-                <p/>
+                <p>Il numero anteposto a <foreign>siliquas auri</foreign> è scritto in note
+                    tachigrafiche; per il loro scioglimento si veda Marazzi 1998: 303-304. </p>
             </div>
         </body>
     </text>
