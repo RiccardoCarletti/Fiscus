@@ -1443,10 +1443,13 @@
                     <link type="places" corresp="#places/213" subtype="hasConnectionWith"/>
                 </place>
                 <place>
-                    <geogName>Turba</geogName>
+                    <geogName><foreign>Turba</foreign>; <foreign>curtis</foreign></geogName>
                     <geogName type="other"/>
                     <idno>estates/200</idno>
                     <note/>
+                    <link type="people" corresp="#people/7" subtype="link"/>
+                    <link type="people" corresp="#people/171" subtype="link"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
                 </place>
             </listPlace>
         </body>
