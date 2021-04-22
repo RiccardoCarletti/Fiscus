@@ -83,10 +83,18 @@
             <div type="edition">
                 <div type="textpart">
                     <ab>Set et <persName ref="#people/71" key="#Popes">Gregorius iunior</persName>
-                        item in suo registro locat in .XXVIII. annis Anatholio tribuno fundum
-                        Meianula cum casis et vineis et omnibus suis pertinentiis ex corpore massae
-                        Peltianae, territorio Anagnino, patrimonio Lavicano, sub annua pensione;
-                        prestat .VI. siliquas auri.</ab>
+                        item in suo registro locat in .XXVIII. annis
+                            <persName>Anatholio</persName>
+                        <rs>tribuno</rs>
+                        <rs key="#Fundi">fundum</rs>
+                        <geogName
+                            key="#Fundi #Casae/cassinae_massaricie #Wine #Fiscal_property #Object #Outflow #Allocation_to_individuals"
+                            >Meianula</geogName> cum <rs key="#Casae/cassinae_massaricie">casis</rs>
+                        et <rs key="#Wine">vineis</rs> et omnibus suis pertinentiis ex corpore <rs
+                            key="#Massae">massae</rs> Peltianae, <rs key="#City_territory"
+                            >territorio</rs> Anagnino, <rs key="#Patrimonium">patrimonio</rs>
+                        Lavicano, sub annua <rs key="#Rent_in_money">pensione</rs>; prestat .VI.
+                        siliquas auri.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
