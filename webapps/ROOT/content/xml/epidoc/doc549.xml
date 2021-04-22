@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    Diplomatico, * D 4</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                        </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc549</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Commutatio</rs>
+                                    <rs type="record_source" ref="#">Original document</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property"/>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate when="0900-08-21">
+                                <note type="displayed_date">900 August 21</note>
+                                <note type="dating_elements">Anno di regno di Berengario</note>
+                                <note type="topical_date">Lucca</note>
+                            </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance>
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                            <place></place>
+                        </listPlace>
+                        <listPerson>
+                            <person></person>
+                        </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-04-22" who="ptomei">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab> L’arcidiacono Adalberto del fu Alone cambia beni con il vescovo di
+                        Lucca Pietro, ad pars del vescovato di San Martino. Dà al vescovo la sua
+                        porzione, cioè la metà, d’una casa posta in loco et finibus Rocta, tenuta da
+                        Toto massario, confinante uno capo con una vigna dei figli del fu Lamberto,
+                        alio capo con terra di Aggo Ghalicharii, lato uno in via, alio lato con
+                        terra dei figli del fu Teudimundo; la sua porzione, cioè la metà, di due
+                        vigne poste nello stesso luogo, confinanti capo uno in via, alio capo con
+                        terra del monastero di San Salvatore, lato uno con una vigna dello scabino
+                        Ghisalfridi, alio lato con terra ecclesie Sancti Angeli; la sua porzione,
+                        cioè la metà, di un appezzamento di terra posto nello stesso luogo Rocta que
+                        dicitur Lappita, confinante capo uno con terra dello scabino Adalperto, alio
+                        capo con terra Sancti Petri, lato uno con terra di Auriperto, alio lato con
+                        terra Sancti Ambrosii; per una misura complessiva di 4 moggi. Riceve dal
+                        vescovo una casa illa quod est sulario posta hic infra civitate ista Lucense
+                        con tutte le sue dipendenze, pertinenza dello stesso vescovato, confinante
+                        uno capo cum uno lato in via, alio capo in classo, alio lato con la casa dei
+                        preti Teudimundo e Ropperto; per una misura complessiva di uno staio e una
+                        scala e mezzo. Il vescovo secondo la legge invia i suoi missos Bertaldo
+                        diacono del fu Ilpolfo, Teupaldo del fu Ardimanno, Donato del fu Pietro, il
+                        duca Adalberto i suoi missos Gheripaldo e Ghisalperto del fu Pietro notaio,
+                        Cosperto notaio del fu Lamperto, per sovrintendere alla permuta. Chiedono al
+                        notaio Leone la stesura della cartula. Actum Luca. <persName>Autori: Pietro
+                            episcopus, Adalberto archidiaconus del fu Alone. Scrittore: Leone
+                            notarius. Testimoni sottoscrittori: Bertaldo diaconus del fu Ilpolfo,
+                            Teupaldo del fu Ardimanno, Donato del fu Pietro, gg. Gheripaldo e
+                            Ghisalperto del fu Pietro notarius, Cosperto notarius del fu Lamperto,
+                            Isalfridi, Adalberto, Willeramo, Ghisalfridi notarius et schabinus.
+                            Altro: Toto massarius, ff. del fu Lamberto, Aggo Ghalicharii, ff. del fu
+                            Teudimundo, Adalperto schabinus, Auriperto, Teudimundo presbiter,
+                            Ropperto presbiter, Adalberto dux.</persName>
+                        <placeName>Luca (Lucca), Rocta, Lappita (vicino Capannori).</placeName>
+                        <orgName>San Salvatore di (?), San Michele Arcangelo di (?), Sant’Ambrogio
+                            di (?), San Martino di Lucca (chiesa matrice).</orgName>
+                    </ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL, V/2, n. 1044, p. 644</p>
+                        <p>ChLA, LXXXVII, n. 40, pp. 146-149</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                        <p/>
+                    </div>
+                </body>
+            </text>
+        </TEI>
