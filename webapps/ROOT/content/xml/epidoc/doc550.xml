@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    Diplomatico, ++ F 30</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                        </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc550</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#"
+                                >--Libellus/precaria/emphyteusis</rs>
+                                    <rs type="record_source" ref="#">Original document</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property"/>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate when="0900-08-21">
+                                <note type="displayed_date">900 August 21</note>
+                                <note type="dating_elements">Anno di regno di Berengario</note>
+                                <note type="topical_date">Lucca</note>
+                            </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance>
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                            <place></place>
+                        </listPlace>
+                        <listPerson>
+                            <person></person>
+                        </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-01-06" who="ptomei">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab>Ghisolfo del fu Lamfridi riceve in livello dal vescovo di Lucca
+                        Pietro, un casalino et res posto in loco et finibus Mubbiano, di pertinenza
+                        della chiesa di San Frediano qui est de subpotestatem del vescovato di San
+                        Martino, in precedenza tenuto da Ghisolfo del fu Ildiprando, con tutte le
+                        sue dipendenze. Si impegna entro l’anno successivo, infra ipsa res, a levare
+                        et claudere seo coperire una casa, con i suoi eredi a mettervi uomini ad
+                        residendum et habitandum i quali dovranno bene laborare et gubernare seu
+                        meliorare la suddetta casa et res. Si impegna a versare pro omni censum et
+                        iustitiam al vescovo e ai suoi successori ogni mese di gennaio il censo
+                        annuale di 15 denari d’argento ad pars della chiesa di San Frediano, e a far
+                        venire a Lucca legem et iustitiam faciendum, gli stessi uomini che
+                        abiteranno la casa a mandato del vescovo. Se non rispetterà i suddetti
+                        impegni, promette di versare al vescovo e ai suoi successori la pena di 40
+                        soldi d’argento. Chiede al notaio Cosperto la stesura di due cartulas. Actum
+                        Luca. <persName>Autori: Pietro episcopus, + Ghisolfo del fu Lamfridi.
+                            Scrittore: Cosperto notarius. Testimoni sottoscrittori: Ghisalperto, +
+                            Flaiperto del fu Lopo, Pietro, Leone notarius. Altro: Ghisolfo del fu
+                            Ildiprando.</persName>
+                        <placeName>Luca (Lucca), Mubbiano (Mobbiano, Bagni di Lucca).</placeName>
+                        <orgName>Santi Vincenzo, Frediano, Stefano e Lorenzo (chiesa sedale), San
+                            Martino di Lucca (chiesa matrice).</orgName>
+                    </ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL, 5/2, n. 1045, p. 645; ChLA 87, n. 41, pp. 150-151.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                        <p/>
+                    </div>
+                </body>
+            </text>
+        </TEI>
