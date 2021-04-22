@@ -76,7 +76,7 @@
                 </profileDesc>
                 <revisionDesc>
                     <listChange>
-                        <change when="2021-04-02" who="scollavini">creation of record</change>
+                        <change when="2021-04-22" who="scollavini">creation of record</change>
                     </listChange>
                 </revisionDesc>
             </teiHeader>
@@ -84,32 +84,41 @@
                 <body>
                     <div type="edition">
                         <div type="textpart">
-                            <ab>Ildibertus abbas ex monasterio Domini et Sancti Bartholomei sito
-                        Sestinghe (…) per hunc scriptum et per nostra convenentia concede in livello
-                        a Raneri et Bernardo germanis filii bone memorie Teudici, i sunt integris
-                        duobus terris et casis et sortis et ille meis massaricies; huna (…) est
-                        posita in loco hubi dicitur ha la Vinadria, qui modo recta est per Bonoso
-                        massario; et alia in Stabblio Donico et modo recta est per Bonittio Muttio
-                        massario et suis consortibus, et sunt prope villa de Tile, con tutte le sue
-                        dipendenze. I livellari si impegnano a versare all’abate e ai suoi
-                        successori per omnes singulos annos in mense hagusto (…) pensione exinde
-                        argentum denarios viginti et quatuor boni expendibiles. Se non rispetteranno
-                        i suddetti impegni, entrambe le parti promettono di versare la pena di 40
-                        soldi d’argento. Chiede a Berardo notario la stesura della cartula. Hactum
-                        loco intus predicto monasterio territurio Rosellense. Sottoscrizione: Ego
-                        Ildeibertus abb(as) in unc libelu(m) a me facto subscripsi; Raineri et
-                        Bernardi germani. Testi: Ildebrandi filio b.m. ***; Rollandi filio de
-                        suprascripto Ildebrando; Iohanni filio bone memorie eidem Iohanni. Scrive:
-                        manca la sottoscrizione notarile. <persName>Autori: Ildiberto abbas, gg. +
-                            Ranieri e + Bernardo del fu Teudicio. Scrittore: Berardo notarius.
-                            Testimoni sottoscrittori: + Ildebrando, + Rodilando di Ildebrando, +
-                            Giovanni del fu Giovanni. Altro: Bonoso massarius, Bonizio
-                            massarius.</persName>
-                        <placeName>Sestinghe (Badia Vecchia, Castiglione della Pescaia), ha la
+                            <ab><persName key="#Abbots">Ildibertus</persName>
+                        <rs key="#Abbots">abbas</rs> ex <rs key="#Monasteries">monasterio</rs>
+                        <orgName key="#Monasteries" ref="#juridical_persons/126">Domini et Sancti
+                            Bartholomei</orgName> sito <placeName key="#Monasteries"
+                            ref="#places/281">Sestinghe</placeName> (…) per hunc scriptum et per
+                        nostra convenentia concede in livello a <persName>Raneri</persName> et
+                            <persName>Bernardo</persName> germanis filii bone memorie
+                            <persName>Teudici</persName>, i sunt integris duobus terris et casis et
+                            <rs key="#Casae/cassinae_massaricie">sortis</rs> et ille meis
+                        massaricies; huna (…) est posita in loco hubi dicitur <placeName
+                            key="#Casae/cassinae_massaricie">ha la Vinadria</placeName>, qui modo
+                        recta est per <persName>Bonoso</persName> massario; et alia in <placeName
+                            key="#Demesnes #Casae/cassinae_massaricie">Stabblio Donico</placeName>
+                        et modo recta est per <persName>Bonittio Muttio</persName> massario et suis
+                            <rs key="#Consortes/shared_possessions">consortibus</rs>, et sunt prope
+                            <rs key="#Villages/settlements">villa</rs> de <placeName
+                            ref="#places/347">Tile</placeName>, con tutte le sue dipendenze. I
+                        livellari si impegnano a versare all’abate e ai suoi successori per omnes
+                        singulos annos in mense hagusto (…) pensione exinde argentum denarios
+                        viginti et quatuor boni expendibiles. Se non rispetteranno i suddetti
+                        impegni, entrambe le parti promettono di versare la pena di 40 soldi
+                        d’argento. Chiede a <persName key="#Notary">Berardo</persName>
+                        <rs key="#Notary">notario</rs> la stesura della cartula. Hactum loco
+                            <placeName ref="#places/281">intus predicto monasterio</placeName>
+                        <rs key="#Comitatus">territurio</rs>
+                        <geogName key="#Comitatus" ref="#estates/154">Rosellense</geogName>.
+                        Sottoscrizione: Ego Ildibertus abb(as) in unc libelu(m) a me facto
+                        subscripsi; Raineri et Bernardi germani. Testi:
+                            <persName>Ildebrandi</persName> filio b.m. ***;
+                            <persName>Rollandi</persName> filio de suprascripto Ildebrando;
+                            <persName>Iohanni</persName> filio bone memorie eidem
+                            <persName>Iohanni</persName>. Scrive: manca la sottoscrizione notarile.
+                            <placeName>Sestinghe (Badia Vecchia, Castiglione della Pescaia), ha la
                             Vinadria, Stabblio Donico, Tile (Tirli, Castiglione della Pescaia),
-                            Rusellae (Bagno Roselle, Grosseto).</placeName>
-                        <orgName>San Bartolomeo di Sestinga.</orgName>
-                    </ab>
+                            Rusellae (Bagno Roselle, Grosseto).</placeName></ab>
                         </div>
                     </div>
                     <div type="bibliography" subtype="editions">
