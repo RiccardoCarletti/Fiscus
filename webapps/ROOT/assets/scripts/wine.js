@@ -1,4 +1,4 @@
-! function(e) {
+/*! function(e) {
 	var a = {};
 
 	function t(n) {
@@ -2620,11 +2620,11 @@
 			}].forEach((function(e) {
 				F(Tt, e)
 			}));
-			/*
+			/\*
 			Embeddable Minimum Strictly-Compliant Promises/A+ 1.1.1 Thenable
 			Copyright (c) 2013-2014 Ralf S. Engelschall (http://engelschall.com)
 			Licensed under The MIT License (http://opensource.org/licenses/MIT)
-			*/
+			*\/
 			var Ut = function e(a) {
 				if (!(this instanceof e)) return new e(a);
 				this.id = "Thenable/1.0.7", this.state = 0, this.fulfillValue = void 0, this.rejectReason = void 0, this.onFulfilled = [], this.onRejected = [], this.proxy = {
@@ -6556,7 +6556,7 @@
 					return e.remove()
 				}
 			};
-			/*! Bezier curve function generator. Copyright Gaetan Renaudeau. MIT License: http://en.wikipedia.org/wiki/MIT_License */
+			/\*! Bezier curve function generator. Copyright Gaetan Renaudeau. MIT License: http://en.wikipedia.org/wiki/MIT_License *\/
 			function ni(e, a, t, n) {
 				var r = 4,
 					i = .001,
@@ -6635,7 +6635,7 @@
 					return w
 				}, b
 			}
-			/*! Runge-Kutta spring physics function generator. Adapted from Framer.js, copyright Koen Bok. MIT License: http://en.wikipedia.org/wiki/MIT_License */
+			/\*! Runge-Kutta spring physics function generator. Adapted from Framer.js, copyright Koen Bok. MIT License: http://en.wikipedia.org/wiki/MIT_License *\/
 			var ri = function() {
 					function e(e) {
 						return -e.tension * e.x - e.friction * e.v
@@ -16274,9 +16274,9 @@
 			j = t.n(W),
 
 
-/**********************************************************************************************************************************/
-		Q = graph_items; /* imported from webapps/ROOT/stylesheets/tei/to-html.xsl */
-		Q.nodes.forEach((function(e) { e.data.orgPos = { x: 0/*e.position.x*/, y: 0/*e.position.y*/ } }));
+/\**********************************************************************************************************************************\/
+		Q = graph_items; /\* imported from webapps/ROOT/stylesheets/tei/to-html.xsl *\/
+		Q.nodes.forEach((function(e) { e.data.orgPos = { x: 0/\*e.position.x*\/, y: 0/\*e.position.y*\/ } }));
 
 		function Z(e, a) {
 			for (var t = 0; t < a.length; t++) {
@@ -16296,17 +16296,12 @@
 			}, {
 				key: "componentDidMount",
 				value: function() {
-					var e = this.props,
-						a = e.cy,
-						t = e.controller,
+					var e = this.props, a = e.cy, t = e.controller,
 						n = document.getElementById("cy");
 					a.mount(n), a.fit(10), a.on("tap", this.onTap = function(e) {
 						e.target === a ? (t.unhighlight(), t.hideInfo(), t.closeMenu()) : (t.highlight(e.target), t.showInfo(e.target), t.closeMenu())
 					})
 				}
-			}, {
-				key: "componentWillUnmount",
-				value: function() { this.props.cy.removeListener("tap", this.onTap) }
 			}]) && Z(t.prototype, n), r && Z(t, r), a
 		}(f);
 		
@@ -16325,16 +16320,14 @@
 			}(f),
 			se = t.n(t(89));
 		
-		function ue(e, a) { return !a || "function" != typeof a ? function(e) { return e }(e) : a }
+		function ue(e, a) { return function(e) { return e }(e) }
 
 		var ge = function(e) {
 			function a(e) {
 				var t = ue(this);
 				var n = e.controller,
 					r = n.bus;
-				return t.state = {
-					open: n.isMenuOpen()
-				}, r.on("updateSearch", t.onUpdateSearch = function(e) {
+				return r.on("updateSearch", t.onUpdateSearch = function(e) {
 					t.setState({ searchMatchNodes: e })
 				}), t.debouncedUpdateSearch = se()((function() { return t.updateSearch() }), 250), t
 			}
@@ -16366,7 +16359,7 @@
 				key: "selectNode",
 				value: function(e) {
 					var a = this.props.controller;
-					a.closeMenu(), a.highlight(e), a.showInfo(e)
+					a.highlight(e), a.showInfo(e)
 				}
 			}, {
 				key: "render",
@@ -16379,13 +16372,10 @@
 						i = !n,
 						c = [];
 					return r && (c = r.map((function(a) {
-						return g("div", {
-							onClick: function() { return e.selectNode(a) }
-						}, [g(re, { node: a })])
+						return g("div", { onClick: function() { return e.selectNode(a) } }, [g(re, { node: a })])
 					}))), 
 					g("div", { style: { position: "absolute", right: 0 } }, 
 					[g("input", { type: "text", placeholder: "Search", id: "menu-search",
-						onClick: function() { return e.open() },
 						onKeyDown: function() { return e.debouncedUpdateSearch() }
 					}), g("div", { id: "menu-search-results" }, c)])
 				}
@@ -16422,157 +16412,42 @@
 				return function(e, a) {
 					e.prototype = Object.create(a && a.prototype, { constructor: { value: e, writable: !0, configurable: !0 } }), a
 				}(a, e), t = a, (n = [{
-					key: "componentWillUnmount",
-					value: function() {
-						var e = this.state.controller.bus;
-						e.removeListener("showInfo", this.onShowInfo), e.removeListener("hideInfo", this.onHideInfo)
-					}
-				}, {
 					key: "render",
 					value: function() {
 						var e = this.state, a = e.cy, t = e.controller, n = e.infoNode;
 						return g("div", { class: "app" }, [g(J, {
-							cy: a,
-							controller: t
+							cy: a, controller: t
 						}), n ? g("div", { class: "app-node-info" }, [g(re, { node: n })]) : null, g(ge, { controller: t })])
 					}
 				}]) && Z(t.prototype, n), r && Z(t, r), a
 			}(f),
 
-
 			be = document.createElement("div");
 		be.setAttribute("style", "position:fixed; left:0; right:0; bottom:0; top:0"), document.body.appendChild(be), k(g(Se), be)
 	},
-	48: function(e, a) {
-		var t;
-		t = function() {
-			return this
-		}();
-		try {
-			t = t || new Function("return this")()
-		} catch (e) {
-			"object" == typeof window && (t = window)
-		}
-		e.exports = t
-	},
+	
 	89: function(e, a, t) {
 		(function(a) {
-			var t = "Expected a function",
-				n = NaN,
-				r = "[object Symbol]",
-				i = /^\s+|\s+$/g,
-				c = /^[-+]0x[0-9a-f]+$/i,
-				o = /^0b[01]+$/i,
-				s = /^0o[0-7]+$/i,
-				l = parseInt,
-				d = "object" == typeof a && a && a.Object === Object && a,
+			var d = "object" == typeof a && a && a.Object === Object && a,
 				u = "object" == typeof self && self && self.Object === Object && self,
-				h = d || u || Function("return this")(),
-				m = Object.prototype.toString,
-				g = Math.max,
-				p = Math.min,
-				y = function() {
-					return h.Date.now()
-				};
-
-			function f(e) {
-				var a = typeof e;
-				return !!e && ("object" == a || "function" == a)
-			}
-
+				h = d || u;
+			
 			function v(e) {
-				if ("number" == typeof e) return e;
-				if (function(e) {
-						return "symbol" == typeof e || function(e) {
-							return !!e && "object" == typeof e
-						}(e) && m.call(e) == r
-					}(e)) return n;
-				if (f(e)) {
-					var a = "function" == typeof e.valueOf ? e.valueOf() : e;
-					e = f(a) ? a + "" : a
-				}
 				if ("string" != typeof e) return 0 === e ? e : +e;
 				e = e.replace(i, "");
 				var t = o.test(e);
 				return t || s.test(e) ? l(e.slice(2), t ? 2 : 8) : c.test(e) ? n : +e
 			}
+			
 			e.exports = function(e, a, n) {
-				var r, i, c, o, s, l, d = 0,
-					u = !1,
-					h = !1,
-					m = !0;
-				if ("function" != typeof e) throw new TypeError(t);
-
-				function _(a) {
-					var t = r,
-						n = i;
-					return r = i = void 0, d = a, o = e.apply(n, t)
-				}
-
-				function S(e) {
-					var t = e - l;
-					return void 0 === l || t >= a || t < 0 || h && e - d >= c
-				}
-
-				function b() {
-					var e = y();
-					if (S(e)) return w(e);
-					s = setTimeout(b, function(e) {
-						var t = a - (e - l);
-						return h ? p(t, c - (e - d)) : t
-					}(e))
-				}
-
-				function w(e) {
-					return s = void 0, m && r ? _(e) : (r = i = void 0, o)
-				}
-
-				function C() {
-					var e = y(),
-						t = S(e);
-					if (r = arguments, i = this, l = e, t) {
-						if (void 0 === s) return function(e) {
-							return d = e, s = setTimeout(b, a), u ? _(e) : o
-						}(l);
-						if (h) return s = setTimeout(b, a), _(l)
-					}
-					return void 0 === s && (s = setTimeout(b, a)), o
-				}
-				return a = v(a) || 0, f(n) && (u = !!n.leading, c = (h = "maxWait" in n) ? g(v(n.maxWait) || 0, a) : c, m = "trailing" in n ? !!n.trailing : m), C.cancel = function() {
-					void 0 !== s && clearTimeout(s), d = 0, r = l = i = s = void 0
-				}, C.flush = function() {
-					return void 0 === s ? o : w(y())
-				}, C
+				var r, i, o, s, d = 0, t = r, n = i;
+				function b() { return s = void 0 && r ? (d = h.Date.now()) : (o = e.apply(n, t)); s = setTimeout(b, a) }
+				function C() { if (h.Date.now() >= a && h.Date.now() >= 0) return void 0 === s && (s = setTimeout(b, a)) }
+				return a = v(a) || 0, !!e, C
 			}
 		}).call(this, t(48))
 	},
-	90: function(e, a, t) {
-		var n;
-
-		/*Copyright (c) 2017 Jed Watson. Licensed under the MIT License (MIT), see http://jedwatson.github.io/classnames */
-
-		! function() {
-			"use strict";
-			var t = {}.hasOwnProperty;
-
-			function r() {
-				for (var e = [], a = 0; a < arguments.length; a++) {
-					var n = arguments[a];
-					if (n) {
-						var i = typeof n;
-						if ("string" === i || "number" === i) e.push(n);
-						else if (Array.isArray(n) && n.length) {
-							var c = r.apply(null, n);
-							c && e.push(c)
-						} else if ("object" === i)
-							for (var o in n) t.call(n, o) && n[o] && e.push(o)
-					}
-				}
-				return e.join(" ")
-			}
-			e.exports ? (r.default = r, e.exports = r) : void 0 === (n = function() {
-				return r
-			}.apply(a, [])) || (e.exports = n)
-		}()
-	}
+	
+	48: function(e, a) { try { t = function() { return this }() } catch (e) { t = window } }
 });
+/\*Copyright (c) 2017 Jed Watson. Licensed under the MIT License (MIT), see http://jedwatson.github.io/classnames *\/*/

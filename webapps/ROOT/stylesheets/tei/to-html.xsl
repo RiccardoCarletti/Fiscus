@@ -533,7 +533,7 @@
        var graph_items = <xsl:value-of select="$graph_items"/>, graph_labels = <xsl:value-of select="$graph_labels"/>, my_graph = "mygraph";
        </script>
       <script type="text/javascript" src="../../assets/scripts/networks.js"></script>
-      <!--<script type="text/javascript" src="../../assets/scripts/wine.js"></script>--><!-- *** -->
+      <script type="text/javascript" src="../../assets/scripts/wine.js"></script><!-- *** -->
     </div>
   </xsl:template>
   

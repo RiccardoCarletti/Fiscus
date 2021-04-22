@@ -6,16 +6,20 @@
 /* This framework derives partly from the Oxygen Author form created by the US Epigraphy Project: 
  https://github.com/Brown-University-Library/usep-data/tree/master/oxygen-author */
 
-   oxy|comment {
-    display:none !important;
-    content: "";
-   }
+       oxy|comment {
+        display:none !important;
+        content: "";
+       }
 
-   xi|include, include, oxy|doctype, respStmt, handNote, scriptDesc, profileDesc, authority, provenance, msItem, teiHeader listPlace, teiHeader listPerson, editionStmt, publicationStmt date, publisher, availability, msIdentifier, textLang {
-        display:none;
-        visibility: -oxy-collapse-text ;
-    }
-    
+          oxy|doctype, respStmt, handNote, scriptDesc, profileDesc, authority, provenance, msItem, teiHeader listPlace, teiHeader listPerson, editionStmt, publicationStmt date, publisher, availability, msIdentifier, textLang {
+           display:none;
+           visibility: -oxy-collapse-text ;
+       }
+       
+        xi|include, include {
+        display:inline !important;
+        }
+        
         /*Authority Lists*/
         body listPlace place, body listPerson person, body listOrg org {
         display:block;
