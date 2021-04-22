@@ -82,9 +82,9 @@
                 <div type="textpart">
                     <ab>Dum in Dei nomine <placeName ref="#places/43">civitate Placencia</placeName>
                         ad <rs key="#Monasteries">monasterio</rs>
-                        <orgName key="#Monasteries">Sancte Resurrectionis Iesu Christi</orgName>
-                        domnus gloriosissimus <persName key="#Emperor/king" ref="#people/21"
-                            >Berengarius</persName>
+                        <orgName key="#Monasteries" ref="#juridical_persons/53">Sancte
+                            Resurrectionis Iesu Christi</orgName> domnus gloriosissimus <persName
+                            key="#Emperor/king" ref="#people/21">Berengarius</persName>
                         <rs key="#Emperor/king">rex</rs> preerat in monasterium ipsum a karissima
                         domna <persName key="#Emperor/king">Ingelberga</persName>
                         <rs key="#Queen">inperatrix</rs> constructum esse videtur, intus aecclesia
@@ -92,10 +92,19 @@
                             key="#Palatine_count" ref="#people/57">Sigefredus</persName>
                         <rs key="#Palatine_count">comes palatii</rs> et <rs key="#Count">comes</rs>
                         ipsius <geogName key="#Comitatus" ref="#estates/105">comitis
-                            Placentinis</geogName> una cum Everardus ipsius Placentiae, Ildegerius
-                        Laudensis, Adelmannus Concordiensis venerabilibus episcopis, Aldegrasus,
-                        Aldebertus, Aquilinus, Farimundus, Stadelbertus et Bernardus iudices idem
-                        augusti, Ansemundus notarius et reliqui; ibique eorum veniens presentia
+                            Placentinis</geogName> una cum <persName key="#Bishops" ref="#people/20"
+                            >Everardus</persName> ipsius <orgName>Placentiae</orgName>, <persName
+                            key="#Bishops">Ildegerius</persName>
+                        <orgName>Laudensis</orgName>, <persName>Adelmannus</persName>
+                        <orgName>Concordiensis</orgName> venerabilibus <rs key="#Bishops"
+                            >episcopis</rs>, <persName key="#Judge">Aldegrasus</persName>, <persName
+                            key="#Judge">Aldebertus</persName>, <persName key="#Judge"
+                            >Aquilinus</persName>, <persName key="#Judge">Farimundus</persName>,
+                            <persName key="#Judge">Stadelbertus</persName> et <persName key="#Judge"
+                            >Bernardus</persName>
+                        <rs key="#Judge">iudices</rs> idem augusti, <persName key="#Notary"
+                            >Ansemundus</persName>
+                        <rs key="#Notary">notarius</rs> et reliqui; ibique eorum veniens presentia
                         Adelberga abbatissa eiusdem monasterii una cum Madelbertus advocato ipsius
                         monasterii et ostense sunt ibi cartule una, ubi continebatur in ea ab
                         ordine: «In Christi nomine, igitur itaque ego in Dei nomine Irmengarda Deo
