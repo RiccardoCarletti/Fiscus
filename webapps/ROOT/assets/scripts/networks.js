@@ -101,8 +101,8 @@ document.addEventListener("click", function (e) {
 
 /* ***** cytoscape.js ***** */
         const cy_style = [
-        { selector: 'node', style: { 'label': 'data(name)', 'shape': 'round-rectangle', 'height': 'label', 'width': 'label', 'padding': '20px', 'text-halign': 'center', 'text-valign': 'center', 'text-wrap': 'wrap', 'text-max-width': '280px', 'font-size': '22px', 'border-width': 3, 'border-color': 'black', 'border-style': 'solid' } },
-        { selector: 'edge', style: { 'width': 3, 'label': 'data(name)', 'target-arrow-shape': 'triangle', 'curve-style': 'bezier' } },
+        { selector: 'edge', style: { 'curve-style': 'bezier', 'width': 3, 'label': 'data(name)', 'target-arrow-shape': 'triangle', 'opacity': '0.6', 'z-index': '0', 'overlay-opacity': '0', 'events': 'no' } },
+        { selector: 'node', style: { 'font-size': '22', 'label': 'data(name)', 'text-wrap': 'wrap', 'text-max-width': '280', 'text-valign': 'center', 'text-halign': 'center', 'shape': 'round-rectangle', 'padding': '20', 'border-width': 3, 'border-color': 'black', 'border-style': 'solid', 'font-weight': 'normal', 'text-events': 'yes', 'color': '#000', 'text-outline-width': '1', 'text-outline-opacity': '1', 'overlay-color': '#fff', 'width': '300', 'height': '100' } }, /* 'width': 'label', 'height': 'label' } }*/
         { selector: 'node[type="people_only"]', style: { 'background-color': '#97c2fc' } },
         { selector: 'node[type="people"]', style: { 'background-color': '#ffff80' } },
         { selector: 'node[type="juridical_persons"]', style: { 'background-color': '#ffb4b4' } },
@@ -111,7 +111,7 @@ document.addEventListener("click", function (e) {
         { selector: 'edge[type="red"]', style: { 'line-color': 'red', 'target-arrow-color': 'red' } },
         { selector: 'edge[type="green"]', style: { 'line-color': 'green', 'target-arrow-color': 'green' } },
         { selector: 'edge[type="blue"]', style: { 'line-color': 'blue', 'target-arrow-color': 'blue' } },
-         /*    toggle    */
+        /*toggle*/
         { selector: 'node[type="people"].people_hidden', style: { 'display': 'none' } },
         { selector: 'node[type="juridical_persons"].juridical_persons_hidden', style: { 'display': 'none' } },
         { selector: 'node[type="estates"].estates_hidden', style: { 'display': 'none' } },
@@ -120,7 +120,15 @@ document.addEventListener("click", function (e) {
         {selector: 'edge[type="green"].green_hidden', style: {'display': 'none'} },
         {selector: 'edge[type="blue"].blue_hidden', style: {'display': 'none'} },
         {selector: 'edge.relation_type_hidden', style: {'label': ''} },
-        {selector: 'node.highlighted', style: { 'background-color': 'red',  'width': '600px', 'height': '200px'} }
+        {selector: 'node.searched', style: { 'background-color': 'red',  'width': '600px', 'height': '200px'} },
+        /*wine*/
+        {selector: 'core', style: {'active-bg-color': '#fff', 'active-bg-opacity': '0.333'} },
+        {selector: 'node.highlighted', style: {'z-index': '9999'} },
+        {selector: 'edge.highlighted', style: {'opacity': '0.8', 'width': '4', 'z-index': '9999'} },
+        {selector: '.faded', style: {'events': 'no'} },
+        {selector: 'node.faded', style: {'opacity': '0.08'} },
+        {selector: 'edge.faded', style: {'opacity': '0.06'} },
+        {selector: '.hidden', style: {'display': 'none'} }
         ];
         
         var inputSearch = "inputSearch", inputVal = "#inputSearch", btnSearch = "#btnSearch", reset = "#reset";
@@ -150,6 +158,6 @@ document.addEventListener("click", function (e) {
           
         /*autocomplete + search*/
         autocomplete(document.getElementById(inputSearch), graph_labels);
-        $(btnSearch).on('click',function () { cy.elements().removeClass('highlighted');
-        cy.$('[name =  "' + $(inputVal).val() + '"]').addClass('highlighted'); });
-        $(reset).on('click',function () { cy.elements().removeClass('highlighted'); });
+        $(btnSearch).on('click',function () { cy.elements().removeClass('searched');
+        cy.$('[name =  "' + $(inputVal).val() + '"]').addClass('searched'); });
+        $(reset).on('click',function () { cy.elements().removeClass('searched'); });

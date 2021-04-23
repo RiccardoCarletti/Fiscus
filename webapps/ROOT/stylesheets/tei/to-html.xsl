@@ -44,20 +44,26 @@
   </xsl:variable>
   
   <!-- import lists -->
-  <xsl:template match="//tei:p[@n='import'][ancestor::tei:TEI[@xml:id='places']]">
-    <div class="imported_list"><xsl:apply-templates select="$places"/></div>
-  </xsl:template>
-  <xsl:template match="//tei:p[@n='import'][ancestor::tei:TEI[@xml:id='juridical_persons']]">
-    <div class="imported_list"><xsl:apply-templates select="$juridical_persons"/></div>
-  </xsl:template>
-  <xsl:template match="//tei:p[@n='import'][ancestor::tei:TEI[@xml:id='estates']]">
-    <div class="imported_list"><xsl:apply-templates select="$estates"/></div>
-  </xsl:template>
-  <xsl:template match="//tei:p[@n='import'][ancestor::tei:TEI[@xml:id='people']]">
-    <div class="imported_list"><xsl:apply-templates select="$people"/></div>
-  </xsl:template>
-  <xsl:template match="//tei:p[@n='import'][ancestor::tei:TEI[@xml:id='thesaurus']]">
-    <div class="imported_list"><xsl:apply-templates select="$thesaurus"/></div>
+  <xsl:template match="//tei:p[@n='import']">
+    <div class="imported_list">
+      <button onclick="topFunction()" id="scroll" title="Go to top">⬆  </button> 
+      <script type="text/javascript">
+        mybutton = document.getElementById("scroll");
+        window.onscroll = function() {scrollFunction()};
+        function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 30) { mybutton.style.display = "block"; } 
+        else { mybutton.style.display = "none"; }
+        }
+        function topFunction() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        } 
+      </script>
+      <xsl:if test="ancestor::tei:TEI[@xml:id='places']"><xsl:apply-templates select="$places"/></xsl:if>
+      <xsl:if test="ancestor::tei:TEI[@xml:id='juridical_persons']"><xsl:apply-templates select="$juridical_persons"/></xsl:if>
+      <xsl:if test="ancestor::tei:TEI[@xml:id='estates']"><xsl:apply-templates select="$estates"/></xsl:if>
+      <xsl:if test="ancestor::tei:TEI[@xml:id='people']"><xsl:apply-templates select="$people"/></xsl:if>
+    </div>
   </xsl:template>
   
   <!-- order lists items -->
