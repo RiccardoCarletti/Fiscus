@@ -1486,10 +1486,14 @@
                     <link type="juridical_persons" corresp="#juridical_persons/96" subtype="link"/>
                 </place>
                 <place>
-                    <geogName>Chiavazza</geogName>
+                    <geogName>Chiavazza <foreign>curtis</foreign></geogName>
                     <geogName type="other"/>
                     <idno>estates/205</idno>
                     <note/>
+                    <link type="people" corresp="#people/7" subtype="link"/>
+                    <link type="people" corresp="#people/171" subtype="link"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
+                    <link type="places" corresp="#places/" subtype="hasConnectionWith"/>
                 </place>
             </listPlace>
         </body>
