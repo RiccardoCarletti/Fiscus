@@ -634,6 +634,15 @@ ab placeName:before {
              );
         display:inline;
     }
+    
+    ab name:before {
+        content:  "REF: " 
+         oxy_editor(
+           type, text,
+           edit, "@ref"
+           columns, 12);
+        display:inline;
+    }
   
     ab geogName:before {
         content:  "KEY: " 
