@@ -16268,7 +16268,7 @@
         H = graph_items; /\* imported from webapps/ROOT/stylesheets/tei/to-html.xsl *\/
 
         H.nodes.forEach((function(e) { var a = e.data;
-            a.typeFormatted = a.type, "juridical_persons" === a.typeFormatted ? a.typeFormatted = "Juridical person" : "estates" === a.typeFormatted ? a.typeFormatted = "Estate" : "places" === a.typeFormatted ? a.typeFormatted = "Place" : "people" === a.typeFormatted && (a.typeFormatted = "Person"), e.data.orgPos = { x: 0, y: 0 /\*x:e.position.x,y:e.position.y*\/ }, a.name = a.name.replace(/[-]/g, "-​") }));
+            a.typeFormatted = a.type, "juridical_persons" === a.typeFormatted ? a.typeFormatted = "Juridical person" : "estates" === a.typeFormatted ? a.typeFormatted = "Estate" : "places" === a.typeFormatted ? a.typeFormatted = "Place" : "people" === a.typeFormatted && (a.typeFormatted = "Person"), e.data.orgPos = { x: 0, y: 0 /\*x:e.position.x,y:e.position.y*\/ }, a.name = a.name.replace(/[-]/g, "-​") })); /\* !!! *\/
         
         var Q = H;
 
@@ -16297,13 +16297,12 @@
                 if ("function" != typeof a && null !== a) throw new TypeError("Super expression must either be null or a function");
                 e.prototype = Object.create(a && a.prototype, { constructor: { value: e, writable: !0, configurable: !0 } }), a && X(e, a)
             }(a, e), t = a, (n = [{
-                key: "render",
-                value: function() { return g("div", { id: "cy", style: "position:absolute;left:0;right:0;bottom:0;top:0" }) }
+                key: "render", value: function() { return g("div", { id: "cy", style: "position:absolute;left:0;right:0;bottom:0;top:0" }) } /\* !!! *\/
             }, {
                 key: "componentDidMount",
                 value: function() {
                     var e = this.props,
-                        a = e.cy, t = e.controller, n = document.getElementById("cy");
+                        a = e.cy, t = e.controller, n = document.getElementById("cy"); /\* !!! *\/
                     a.mount(n), a.fit(10), a.on("tap", this.onTap = function(e) {
                         e.target === a ? (t.unhighlight(), t.hideInfo(), t.closeMenu()) : (t.highlight(e.target), t.showInfo(e.target), t.closeMenu())
                     })
@@ -16362,7 +16361,7 @@
                     value: function() {
                         var e = this.props.node.data(), a = e.name, t = e.typeFormatted, n = e.Origin, r = null != n, i = e.Country,
                             c = null != i, o = encodeURIComponent("places" === e.type ? "".a : a);
-                        return g("div", { class: "node-info" }, [g("div", { class: "node-info-name" }, a)])
+                        return g("div", { }, [g("div", { }, a)]) /\* !!! *\/
                     }
                 }]) && ee(t.prototype, n), r && ee(t, r), a
             }(f),
@@ -16409,7 +16408,7 @@
                 }(this, a), t = ue(this, he(a).call(this, e));
                 var n = e.controller,
                     r = n.bus;
-                return t.state = { open: n.isMenuOpen() }, 
+                return t.state = { open: n.isMenuOpen() },
                 r.on("openMenu", t.onOpenMenu = function() { t.setState({ open: !0 }), t.focusTextBox() }), 
                 r.on("closeMenu", t.onOpenMenu = function() { t.setState({ open: !1 }) }), 
                 r.on("updateSearch", t.onUpdateSearch = function(e) { t.setState({ searchMatchNodes: e }) }), 
@@ -16425,10 +16424,9 @@
                     var e = this.props.controller.bus;
                     e.removeListener("openMenu", this.onOpenMenu), e.removeListener("closeMenu", this.onCloseMenu), e.removeListener("updateSearch", this.onUpdateSearch)
                 }
-            }, {
-                key: "open",
-                value: function() { this.props.controller.openMenu() }
-            }, {
+            }, 
+            { key: "open", value: function() { this.props.controller.openMenu() } }, 
+            {
                 key: "updateSearch",
                 value: function() {
                     var e = this.props.controller,
@@ -16438,24 +16436,20 @@
                 }
             }, {
                 key: "focusTextBox",
-                value: function() { var e = document.getElementById("menu-search"); e && e.focus() }
-            }, {
-                key: "selectNode",
-                value: function(e) {
-                    var a = this.props.controller;
-                    a.closeMenu(), a.highlight(e), a.showInfo(e)
-                }
+                value: function() { var e = document.getElementById("menu-search"); e && e.focus() } /\* !!! *\/
+            },
+            { key: "selectNode", value: function(e) { var a = this.props.controller; a.closeMenu(), a.highlight(e), a.showInfo(e) }
             }, {
                 key: "render",
                 value: function() {
                     var e = this, a = this.props.controller, t = this.state, n = t.open, r = t.searchMatchNodes, i = !n, c = [];
                     return r && (c = r.map((function(a) {
-                        return g("div", { onClick: function() { return e.selectNode(a) } }, [g(re, { node: a })]) }))), g("div", { }, 
+                        return g("div", { onClick: function() { return e.selectNode(a) } }, [g(re, { node: a })]) }))), g("div", { }, /\* !!! *\/
                         [g("div", { onClick: function() { return a.toggleMenu() } }), g("div", { style: { position: "absolute", right: 0, top: 0 } }, 
                         [g("input", { type: "text", placeholder: "Search", id: "menu-search",
                         onClick: function() { return e.open() },
                         onKeyDown: function() { return e.debouncedUpdateSearch() }
-                    }), g("div", { id: "menu-search-results" }, c)])]) } }]) && de(t.prototype, n), r && de(t, r), a
+                    }), g("div", { id: "menu-search-results" }, c)])]) } }]) && de(t.prototype, n), r && de(t, r), a /\* !!! *\/
         }(f);
 
         function pe(e) {
@@ -16497,11 +16491,11 @@
                     ! function(e, a) {
                         if (!(e instanceof a)) throw new TypeError("Cannot call a class as a function")
                     }(this, a), t = fe(this, ve(a).call(this, e));
-                    var n = new j.a({ elements: Q, style: cy_style, layout: { name: "random" }, selectionType: "single", boxSelectionEnabled: !1 });
+                    var n = new j.a({ elements: Q, style: cy_style, layout: { name: "random" }, selectionType: "single", boxSelectionEnabled: !1 }); /\* !!! *\/
                     n.nodes().panify().ungrabify();
                     var r = new z({ cy: n }),
                         i = r.bus;
-                    return s && (window.cy = n, window.controller = r), t.state = { controller: r, cy: n }, t
+                    return s && (window.cy = n, window.controller = r), t.state = { controller: r, cy: n }, t /\* !!! *\/
                 }
                 var t, n, r;
                 return function(e, a) {
@@ -16517,14 +16511,14 @@
                     key: "render",
                     value: function() {
                         var e = this.state, a = e.cy, t = e.controller, n = e.infoNode;
-                        return g("div", { class: "app" }, [g(J, { cy: a, controller: t }), n ? g("div", { class: "app-node-info"}, 
+                        return g("div", { }, [g(J, { cy: a, controller: t }), n ? g("div", { }, /\* !!! *\/
                         [g(re, { node: n })]) : null, g(ge, { controller: t })]) } }]) && ye(t.prototype, n), r && ye(t, r), a
             }(f),
 
 
         /\*be = document.getElementById("mygraph");
         k(g(Se), be)*\/
-        be = document.createElement("div");
+        be = document.createElement("div"); /\* !!! *\/
         be.setAttribute("style", "position:fixed; left:0; right:0; bottom:0; top:0"), document.body.appendChild(be), k(g(Se), be)
     },
     
