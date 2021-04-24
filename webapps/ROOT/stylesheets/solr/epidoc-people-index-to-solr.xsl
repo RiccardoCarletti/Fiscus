@@ -56,7 +56,7 @@
         </doc>
       </xsl:for-each-group>
       
-      <xsl:for-each-group select="//tei:persName[ancestor::tei:div/@type='edition'][not(@ref) or @ref='']" group-by="lower-case(.)">
+      <xsl:for-each-group select="//tei:persName[ancestor::tei:div/@type='edition'][not(@ref) or @ref=''][not(descendant::tei:name[@ref!=''])]" group-by="lower-case(.)">
         <doc>
           <field name="document_type">
             <xsl:value-of select="$subdirectory" />
@@ -78,10 +78,31 @@
           <xsl:apply-templates select="current-group()" />
         </doc>
       </xsl:for-each-group>
+      
+      <xsl:for-each-group select="//tei:name[ancestor::tei:div/@type='edition'][@ref!='']" group-by="lower-case(@ref)">
+        <doc>
+          <field name="document_type">
+            <xsl:value-of select="$subdirectory" />
+            <xsl:text>_</xsl:text>
+            <xsl:value-of select="$index_type" />
+            <xsl:text>_index</xsl:text>
+          </field>
+          <xsl:call-template name="field_file_path" />
+          <field name="index_item_name">
+            <xsl:text>~ </xsl:text>
+            <xsl:value-of select="@ref"/>
+          </field>
+          <field name="index_external_resource">
+            <xsl:text>~</xsl:text>
+          </field>
+          <xsl:apply-templates select="current-group()" />
+        </doc>
+      </xsl:for-each-group>
     </add>
   </xsl:template>
+  
 
-  <xsl:template match="tei:persName">
+  <xsl:template match="tei:persName|tei:name">
     <xsl:call-template name="field_index_instance_location" />
   </xsl:template>
 
