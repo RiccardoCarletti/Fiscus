@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Coperta del Liber Ser Pietro Tucci 1546</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                        </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc552</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">-Placitum/iudicatum</rs>
+                                    <rs type="record_source" ref="#">Original document</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">Yes</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate when="0900-06-06">
+                                <note type="displayed_date">900 June 6</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">...</note>
+                            </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance>
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                            <place></place>
+                        </listPlace>
+                        <listPerson>
+                            <person></person>
+                        </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-04-24" who="ptomei">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab>Si dà lettura del placito tenutosi nel mese di maggio, presieduto
+                        dal vescovo Giovanni e dal conte Aderardo, missi del re Berengario, i quali
+                        hanno chiesto al notaio regio Sebastiano la scrittura della noticia. Sono
+                        presentati in giudizio tre diplomi riguardanti le dipendenze delle chiese
+                        dei Santi Vincenzo e Frediano e San Silvestro: il primo concesso al vescovo
+                        di Lucca Gherardo, per intercessione del vescovo Wibodo, da re Carlomanno il
+                        quale pone sopra gli stessi beni un banno di 40 libbre d’oro, metà da
+                        versare al vescovato, metà al palatio; il secondo concesso allo stesso
+                        vescovo Gherardo da re Carlo, per intercessione del vescovo Liutwardo e del
+                        conte Berengario; il terzo concesso al vescovo di Lucca Pietro, per
+                        intercessione della regina Bertilla e del vescovo di Como e arcicancelliere
+                        Liutwardo, da re Berengario il quale pone sopra gli stessi beni un banno di
+                        100 libbre d’oro, metà da versare al vescovato, metà (...). Il vescovo di
+                        Lucca Pietro e il giudice Eghenulfo, suo advocatus, chiedono al giudice
+                        Giovanni, advocatus (...)arti domni regi, se ritiene autentici i preceptoras
+                        presentati e se voglia rivendicare i beni contesi. Quest’ultimo riconosce
+                        l’autenticità dei preceptoras. Il missus regio Odalberto, vescovo di Luni,
+                        chiede ai presenti se ritengano legittima la pertinenza al vescovato di San
+                        Martino delle due chiese. I presenti concordano con ciò che ha fatto e
+                        stabilito il re. L’inviato regio revestivit il vescovo Pietro consegnando in
+                        manus ipso precepto et ipsa notitia iudic(...). <persName>Autori: Odalberto
+                            episcopus, Pietro episcopus. Scrittore: ... . Testimoni sottoscrittori:
+                            Vivenzio archipresbiter et vicedominus, ... , ...et cardinalis, ...et
+                            cardinalis, ...presbiter, Andrea diaconus et cardinalis, Isalfridi,
+                            Cunimundo, Fraolmi, Fraolmi. Altro: Giovanni episcopus, Aderardo comes,
+                            Berengario comes et rex, Sebastiano notarius dom. reg., Gherardo
+                            episcopus, Wibodo episcopus, Carlomanno rex, Carlo rex, Liutwardo
+                            episcopus, Bertilla regina, Liutwardo episcopus et archicancellarius,
+                            Eghenulfo iudex et advocatus, Giovanni iudex et advocatus.</persName>
+                        <placeName>Luca (Lucca).</placeName>
+                        <orgName>Santi Vincenzo, Frediano, Stefano e Lorenzo di Lucca (chiesa
+                            sedale), San Silvestro di Lucca, San Martino di Lucca (chiesa
+                            matrice).</orgName>
+                    </ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>Tomei 2014, pp. 551-552; ChLA 87, n. 34, pp. 125-129.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                        <p>Anno di regno di Berengario.
+Nota dorsale XI sec: (...) Hodelberti Lunensis episcopi missi videlicet Berengarii regis in qua constituit ut ecclesia Sancti Frigiani et ecclesia Sancti Silvestri (...)n potestate episcopi Sancti Martini iuxta quae in preceptis continebatur regum Karolomanni Karoli et eiusdem Berengarii (...).</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>
