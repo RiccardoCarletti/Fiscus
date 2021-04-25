@@ -450,7 +450,7 @@
           <span class="green_label">➔</span> Personal bonds <input type="checkbox" id="toggle_green" checked="true"/>
           <span class="blue_label">➔</span> Other links <input type="checkbox" id="toggle_blue" checked="true"/>
           <span class="relations_label"> Relation types </span> <input type="checkbox" id="toggle_relation_labels" checked="true"/>
-          <br/><span class="autocomplete"><input type="text" id="inputSearch" placeholder="Search"/></span><button id="btnSearch" class="button">Search</button> <button id="reset" class="button">Reset</button> <button onclick="openFullscreen();" class="button">Fullscreen</button>
+          <br/><span class="autocomplete"><input type="text" id="inputSearch" placeholder="Search"/></span><button id="btnSearch" class="button">Search</button> <button id="selected" class="button" title="To select more items, hold Shift and click on them in the graph">Show selected items only</button> <button id="reset" class="button">Reset</button> <button onclick="openFullscreen();" class="button">Fullscreen</button>
         </p>
       </div>
       
@@ -531,7 +531,7 @@
           <span class="green_label">➔</span> Personal bonds <input type="checkbox" id="toggle_green" checked="true"/>
           <span class="blue_label">➔</span> Other links <input type="checkbox" id="toggle_blue" checked="true"/>
           <span class="relations_label"> Relation types </span> <input type="checkbox" id="toggle_relation_labels" checked="true"/>
-          <br/><span class="autocomplete"><input type="text" id="inputSearch" placeholder="Search"/></span><button id="btnSearch" class="button">Search</button> <button id="reset" class="button">Reset</button> <button onclick="openFullscreen();" class="button">Fullscreen</button>
+          <br/><span class="autocomplete"><input type="text" id="inputSearch" placeholder="Search"/></span><button id="btnSearch" class="button">Search</button> <button id="selected" class="button" title="To select more items, hold Shift and click on them in the graph">Show selected items only</button> <button id="reset" class="button">Reset</button> <button onclick="openFullscreen();" class="button">Fullscreen</button>
         </p>
       </div>
       
@@ -539,7 +539,7 @@
        var graph_items = <xsl:value-of select="$graph_items"/>, graph_labels = <xsl:value-of select="$graph_labels"/>, my_graph = "mygraph";
        </script>
       <script type="text/javascript" src="../../assets/scripts/networks.js"></script>
-      <script type="text/javascript" src="../../assets/scripts/wine.js"></script><!-- *** -->
+      <!--<script type="text/javascript" src="../../assets/scripts/wine.js"></script>-->
     </div>
   </xsl:template>
   
