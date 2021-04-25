@@ -796,7 +796,8 @@
                         corresp="#places/420 #places/421 #places/143 #places/429 #places/417 #places/422 #places/412 #places/414 #places/411 #places/413 #places/409 #places/415 #places/418 #places/427 #places/292 #places/66 #places/419 #places/410 #places/425 #places/424 #places/164 #places/430 #places/416 #places/398 #places/423"
                         subtype="hasConnectionWith"/>
                     <link type="juridical_persons"
-                        corresp="#juridical_persons/168 #juridical_persons/167" subtype="link"/>
+                        corresp="#juridical_persons/171 #juridical_persons/169 #juridical_persons/168 #juridical_persons/170 #juridical_persons/167"
+                        subtype="link"/>
                 </org>
                 <org>
                     <orgName>Sanctus Silvester; ecclesia (Lucca)</orgName>
@@ -1117,6 +1118,14 @@
                     <note/>
                     <link type="places" corresp="#places/461" subtype="isPartOf"/>
                     <link type="juridical_persons" corresp="#juridical_persons/131" subtype="link"/>
+                </org>
+                <org>
+                    <orgName>Sancta Christina; ecclesia (Caio)</orgName>
+                    <orgName type="other"/>
+                    <idno>juridical_persons/171</idno>
+                    <note/>
+                    <link type="places" corresp="#places/410" subtype="isPartOf"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/131"/>
                 </org>
             </listOrg>
         </body>
