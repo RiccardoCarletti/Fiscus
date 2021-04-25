@@ -102,7 +102,7 @@ document.addEventListener("click", function (e) {
 /* ***** cytoscape.js ***** */
         const cy_style = [
         { selector: 'edge', style: { 'curve-style': 'bezier', 'width': 3, 'label': 'data(name)', 'target-arrow-shape': 'triangle', 'opacity': '0.6', 'z-index': '0', 'overlay-opacity': '0', 'events': 'no' } },
-        { selector: 'node', style: { 'font-size': '22', 'label': 'data(name)', 'text-wrap': 'wrap', 'text-max-width': '280', 'text-valign': 'center', 'text-halign': 'center', 'shape': 'round-rectangle', 'padding': '20', 'border-width': 3, 'border-color': 'black', 'border-style': 'solid', 'font-weight': 'normal', 'text-events': 'yes', 'color': '#000', 'text-outline-width': '1', 'text-outline-opacity': '1', 'overlay-color': '#fff', 'width': '300', 'height': '100' } }, /* 'width': 'label', 'height': 'label' } }*/
+        { selector: 'node', style: { 'font-size': '22', 'label': 'data(name)', 'text-wrap': 'wrap', 'text-max-width': '280', 'text-valign': 'center', 'text-halign': 'center', 'shape': 'round-rectangle', 'padding': '20', 'border-width': 3, 'border-color': 'black', 'border-style': 'solid', 'font-weight': 'normal', 'text-events': 'yes', 'color': '#000', 'text-outline-width': '1', 'text-outline-opacity': '1', 'overlay-color': '#fff', 'width': 'label', 'height': 'label' } }, /* 'width': '300', 'height': '100' } }*/
         { selector: 'node[type="people_only"]', style: { 'background-color': '#97c2fc' } },
         { selector: 'node[type="people"]', style: { 'background-color': '#ffff80' } },
         { selector: 'node[type="juridical_persons"]', style: { 'background-color': '#ffb4b4' } },
@@ -121,14 +121,14 @@ document.addEventListener("click", function (e) {
         {selector: 'edge[type="blue"].blue_hidden', style: {'display': 'none'} },
         {selector: 'edge.relation_type_hidden', style: {'label': ''} },
         {selector: 'node.searched', style: { 'background-color': 'red',  'width': '600px', 'height': '200px'} },
+        {selector: '.hidden', style: {'display': 'none'} },
+        {selector: ':selected', style: { 'background-color': 'red'} },
         /*wine*/
-        {selector: 'core', style: {'active-bg-color': '#fff', 'active-bg-opacity': '0.333'} },
         {selector: 'node.highlighted', style: {'z-index': '9999'} },
         {selector: 'edge.highlighted', style: {'opacity': '0.8', 'width': '4', 'z-index': '9999'} },
         {selector: '.faded', style: {'events': 'no'} },
         {selector: 'node.faded', style: {'opacity': '0.08'} },
-        {selector: 'edge.faded', style: {'opacity': '0.06'} },
-        {selector: '.hidden', style: {'display': 'none'} }
+        {selector: 'edge.faded', style: {'opacity': '0.06'} }
         ];
         
         var inputSearch = "inputSearch", inputVal = "#inputSearch", btnSearch = "#btnSearch", reset = "#reset";
@@ -136,7 +136,7 @@ document.addEventListener("click", function (e) {
         toggle_places = "toggle_places", toggle_red = "toggle_red", toggle_green = "toggle_green", toggle_blue = "toggle_blue", 
         toggle_relation_labels = "toggle_relation_labels";
           
-          const cy_layout =  { name: 'fcose', animate: false, nodeRepulsion: 100000000, nodeSeparation: 100, randomize: true, idealEdgeLength: 300 };
+        const cy_layout = { name: 'fcose', animate: false, nodeRepulsion: 100000000, nodeSeparation: 100, randomize: true, idealEdgeLength: 300,  boxSelectionEnabled: true, selectionType: 'additive' };
         
         var cy = cytoscape({ container: document.getElementById(my_graph), elements: graph_items, style: cy_style, layout: cy_layout }).panzoom();      
        
@@ -155,9 +155,23 @@ document.addEventListener("click", function (e) {
       document.getElementById(toggle_green).addEventListener("click", function() { cy.elements().toggleClass('green_hidden'); });
       document.getElementById(toggle_blue).addEventListener("click", function() { cy.elements().toggleClass('blue_hidden'); });
       document.getElementById(toggle_relation_labels).addEventListener("click", function() { cy.elements().toggleClass('relation_type_hidden'); }); 
-          
-        /*autocomplete + search*/
+      
+        /*autocomplete + search + show only selected + reset*/
         autocomplete(document.getElementById(inputSearch), graph_labels);
-        $(btnSearch).on('click',function () { cy.elements().removeClass('searched');
-        cy.$('[name =  "' + $(inputVal).val() + '"]').addClass('searched'); });
-        $(reset).on('click',function () { cy.elements().removeClass('searched'); });
+        
+        $(btnSearch).on('click',function () { 
+        cy.elements().removeClass('searched').addClass('hidden');
+        cy.$('[name =  "' + $(inputVal).val() + '"]').addClass('searched').removeClass('hidden'); 
+        cy.$('[name =  "' + $(inputVal).val() + '"]').neighborhood().removeClass('hidden'); 
+        cy.zoom({level: 0.1, position: cy.$('[name =  "' + $(inputVal).val() + '"]').position()});
+        });
+        
+        $(selected).on('click',function () { 
+        cy.elements().removeClass('searched').addClass('hidden');
+        cy.$(':selected').addClass('searched').removeClass('hidden');
+        cy.$(':selected').neighborhood().removeClass('hidden'); 
+        });
+        
+        $(reset).on('click',function () { 
+        cy.elements().removeClass('searched').removeClass('hidden');
+        });
