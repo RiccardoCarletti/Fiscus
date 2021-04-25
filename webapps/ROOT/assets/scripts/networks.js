@@ -173,5 +173,5 @@ document.addEventListener("click", function (e) {
         });
         
         $(reset).on('click',function () { 
-        cy.elements().removeClass('searched').removeClass('hidden');
+        cy.elements().removeClass('searched').removeClass('hidden').unselect();
         });
