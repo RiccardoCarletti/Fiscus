@@ -51,12 +51,12 @@
         mybutton = document.getElementById("scroll");
         window.onscroll = function() {scrollFunction()};
         function scrollFunction() {
-        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 30) { mybutton.style.display = "block"; } 
+        if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) { mybutton.style.display = "block"; } 
         else { mybutton.style.display = "none"; }
         }
         function topFunction() {
-        document.body.scrollTop = 0; // For Safari
-        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
         } 
       </script>
       <xsl:if test="ancestor::tei:TEI[@xml:id='places']"><xsl:apply-templates select="$places"/></xsl:if>
@@ -441,7 +441,7 @@
       <xsl:text>]</xsl:text>
     </xsl:variable>
     
-    <div class="row network_box">
+    <div class="row network_box" id="mynetwork_box">
       <div id="mynetwork"></div>
       <div class="legend">
         <p>
@@ -455,7 +455,7 @@
       </div>
       
         <script type="text/javascript">
-          var graph_items = <xsl:value-of select="$graph_items"/>, graph_labels = <xsl:value-of select="$graph_labels"/>, my_graph = "mynetwork";
+          var graph_items = <xsl:value-of select="$graph_items"/>, graph_labels = <xsl:value-of select="$graph_labels"/>, my_graph = "mynetwork", box = "mynetwork_box";
         </script>
         <script type="text/javascript" src="../../assets/scripts/networks.js"></script>
      </div>
@@ -519,7 +519,7 @@
       <xsl:text>]</xsl:text>
     </xsl:variable>
     
-    <div class="row network_box">
+    <div class="row network_box" id="mygraph_box">
       <div id="mygraph"></div>
       <div class="legend">
         <p>
@@ -536,7 +536,7 @@
       </div>
       
       <script type="text/javascript">
-       var graph_items = <xsl:value-of select="$graph_items"/>, graph_labels = <xsl:value-of select="$graph_labels"/>, my_graph = "mygraph";
+        var graph_items = <xsl:value-of select="$graph_items"/>, graph_labels = <xsl:value-of select="$graph_labels"/>, my_graph = "mygraph", box = "mygraph_box";
        </script>
       <script type="text/javascript" src="../../assets/scripts/networks.js"></script>
       <!--<script type="text/javascript" src="../../assets/scripts/wine.js"></script>-->
