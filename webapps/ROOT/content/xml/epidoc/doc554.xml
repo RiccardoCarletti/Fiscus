@@ -4,7 +4,8 @@
             <teiHeader xml:lang="en">
                 <fileDesc>
                     <titleStmt>
-                        <title>ASDL, AAL, D, ++ H 60 (n. 1075)</title>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    Diplomatico, ++ H 60</title>
                     </titleStmt>
                     <editionStmt>
                         <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
@@ -13,7 +14,7 @@
                         </editionStmt>
                     <publicationStmt>
                         <publisher>Fiscus - DISCI UniBo</publisher>
-                        <idno type="filename">doc65</idno>
+                        <idno type="filename">doc554</idno>
                         <availability xml:lang="en" status="free">
                             <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                                 texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -30,10 +31,11 @@
                             </msIdentifier>
                             <msContents>
                                 <summary>
-                                    <rs type="text_type" ref="#">Cartula ad censum perexolvendum</rs>
-                                    <rs type="record_source" ref="#"/>
-                                    <rs type="document_tradition" ref="#"/>
-                                    <rs type="fiscal_property"/>
+                                    <rs type="text_type" ref="#"
+                                >--Libellus/precaria/emphyteusis</rs>
+                                    <rs type="record_source" ref="#">Original document</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
                                 </summary>
                                 <msItem xml:id="msItem1">
                                     <textLang mainLang="" otherLangs=""/>
@@ -41,11 +43,11 @@
                             </msContents>
                             <history>
                                 <origin>
-                                    <origDate notBefore="0001" notAfter="0001" when="0001">
-                                    <note type="displayed_date">0901/02/24</note>
-                                    <note type="dating_elements"></note>
-                                    <note type="topical_date">Actum loco a Monte ad ecclesiam Sancte Marie (Santa Maria a Monte)</note>
-                                    </origDate>
+                                    <origDate when="0901-02-24">
+                                <note type="displayed_date">901 February 24</note>
+                                <note type="dating_elements">Anno di regno di Ludovico</note>
+                                <note type="topical_date">Santa Maria a Monte</note>
+                            </origDate>
                                     <origPlace/>
                                 </origin>
                                 <provenance>
@@ -72,7 +74,7 @@
                 </profileDesc>
                 <revisionDesc>
                     <listChange>
-                        <change when="2021-01-06" who="ptomei">creation of record</change>
+                        <change when="2021-04-26" who="ptomei">creation of record</change>
                     </listChange>
                 </revisionDesc>
             </teiHeader>
@@ -80,22 +82,38 @@
                 <body>
                     <div type="edition">
                         <div type="textpart">
-                            <ab>
-                                Orsiprando figlio di Auripranda riceve in livello dal prete Tassilo, rettore della pieve di Sant’Ippolito di Aniani, una casa posta nei pressi della chiesa di Santa Maria di pertinenza della stessa, tenuta dal prete Ghisiprando, con tutte le sue dipendenze, fra cui via et intratoria, confinante uno capo in via publica, alio capo in curtina della stessa chiesa, lato uno con una casa della stessa chiesa tenuta da Giovanni, alio lato in via publica; una casa posta in loco ubi dicitur a Carpinitula di pertinenza della stessa chiesa di Santa Maria quas ipsa casa et res Adalberto et Flaiperto diacono germani in viganio dederunt, tenuta dal prete Ghisiprando, con tutte le sue dipendenze.
-Si impegna a versare pro omni censum et iustitia al prete e ai suoi successori ogni mese di ottobre il censo annuale di 27 denari d’argento ad pars suprascripte ecclesie Sancte Marie, e a venire due volte l’anno ad ipsa ecclesia Sancte Marie legem et iustitiam faciendum, a mandato del prete.
-Se non rispetterà i suddetti impegni, promette col fratello Giovanni e i suoi eredi di versare al prete e ai suoi successori la pena di 60 soldi d’argento.
-Chiede al notaio Teudimundo la stesura di due cartulas.
-                                <persName>Autori: Tassilo presbiter, + Orsiprando di Auripranda.
-Scrittore: Teudimundo notarius.
-Testimoni sottoscrittori: Cunimundo, Gunteramo, + Teuprando detto Popo del fu Teupaldo, Adalberto.
-Altro: Ghisiprando presbiter, gg. Adalberto e Flaiperto diaconus, Giovanni di Auripranda.</persName>
-                                <placeName>Aniani (Sant’Ippolito, Santa Maria a Monte), Monte, Carpinitula (Santa Maria a Monte).</placeName>
-                                <orgName>Sant’Ippolito di Anniano (chiesa battesimale), Santa Maria a Monte.</orgName>
-                            </ab>
+                            <ab><persName>Orsiprando</persName> figlio di
+                            <persName>Auripranda</persName> riceve in livello dal prete
+                            <persName>Tassilo</persName>, rettore della pieve di Sant’Ippolito di
+                        Aniani, una casa posta nei pressi della chiesa di Santa Maria di pertinenza
+                        della stessa, tenuta dal prete Ghisiprando, con tutte le sue dipendenze, fra
+                        cui via et intratoria, confinante uno capo in via publica, alio capo in
+                        curtina della stessa chiesa, lato uno con una casa della stessa chiesa
+                        tenuta da Giovanni, alio lato in via publica; una casa posta in loco ubi
+                        dicitur a Carpinitula di pertinenza della stessa chiesa di Santa Maria quas
+                        ipsa casa et res Adalberto et Flaiperto diacono germani in viganio dederunt,
+                        tenuta dal prete Ghisiprando, con tutte le sue dipendenze. Si impegna a
+                        versare pro omni censum et iustitia al prete e ai suoi successori ogni mese
+                        di ottobre il censo annuale di 27 denari d’argento ad pars suprascripte
+                        ecclesie Sancte Marie, e a venire due volte l’anno ad ipsa ecclesia Sancte
+                        Marie legem et iustitiam faciendum, a mandato del prete. Se non rispetterà i
+                        suddetti impegni, promette col fratello Giovanni e i suoi eredi di versare
+                        al prete e ai suoi successori la pena di 60 soldi d’argento. Chiede al
+                        notaio Teudimundo la stesura di due cartulas. Actum loco a Monte ad
+                        ecclesiam Sancte Marie. <persName>Autori: Tassilo presbiter, + Orsiprando di
+                            Auripranda. Scrittore: Teudimundo notarius. Testimoni sottoscrittori:
+                            Cunimundo, Gunteramo, + Teuprando detto Popo del fu Teupaldo, Adalberto.
+                            Altro: Ghisiprando presbiter, gg. Adalberto e Flaiperto diaconus,
+                            Giovanni di Auripranda.</persName>
+                        <placeName>Aniani (Sant’Ippolito, Santa Maria a Monte), Monte, Carpinitula
+                            (Santa Maria a Monte).</placeName>
+                        <orgName>Sant’Ippolito di Anniano (chiesa battesimale), Santa Maria a
+                            Monte.</orgName>
+                    </ab>
                         </div>
                     </div>
                     <div type="bibliography" subtype="editions">
-                        <p>MDL, V/3, n. 1047, pp. 5-6</p>
+                        <p>MDL, 5/3, n. 1047, pp. 5-6.</p>
                     </div>
                     <div type="bibliography" subtype="additional">
                         <p/>
@@ -104,9 +122,7 @@ Altro: Ghisiprando presbiter, gg. Adalberto e Flaiperto diaconus, Giovanni di Au
                         <p/>
                     </div>
                     <div type="commentary">
-                        <p>Anno di regno di Ludovico.
-Matronimico.</p>
-                        <p><note>Mod_id: 17</note></p>
+                        <p>Matronimico</p>
                     </div>
                 </body>
             </text>
