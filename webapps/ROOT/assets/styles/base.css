@@ -121,6 +121,27 @@ margin-left:20px;
     font-variant: small-caps;
 }
 
+/* Back to top arrow */
+#scroll {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #3A2A4C;
+  color: white;
+  cursor: pointer;
+  padding: 20px;
+  font-size: 20px;
+  margin: 4px 2px;
+  border-radius: 50%;
+}
+
+#scroll:hover {
+  background-color: #555;
+}
 
 /**************************************************************************/
 /* Maps and graphs */
@@ -172,7 +193,7 @@ margin-left:20px;
     display:block;
 }
 
-.button, .button:hover {
+.button, .button:hover, .button:enabled {
     background-color: #f6f6f6;
     border-style: none;
     padding: 7px;

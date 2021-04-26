@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Capitolare di Lucca,
+                    Diplomatico, Priv., CC 1</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                        </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc553</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">-Littera/mandatum</rs>
+                                    <rs type="record_source" ref="#">Original document</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">Yes</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate notBefore="0889-05-27" notAfter="0915-08-17">
+                                <note type="displayed_date">889 May 27 - 915 August 17</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date"/>
+                            </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance>
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                            <place></place>
+                        </listPlace>
+                        <listPerson>
+                            <person></person>
+                        </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-04-24" who="ptomei">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab>† Divine gratiȩ munere et superne virtutis auxilio faucibus demonice
+                        potestatis eruti, ut nos misericors Deus aeternȩ patriȩ gaudiis faciat
+                        coheredes, sedulis ammonitionibus crebrisque preceptis | informat. Unde est
+                        illud: Venite ad me omnes qui laboratis et onerati estis et ego vos
+                        requiescere faciam. Ut ne quis de vi******* ad eum perveniendi vel qualiter
+                        ab eo recipiendi esse facultas dubitaret quod promisit, ipse | certam
+                        ostendit formulam cum dixit: Dimittite et dimittetur vobis, date et dabitur
+                        vobis. Sed tamen hoc idem quod docuit signiter quis agire, ortatur ipse
+                        alibi cum dicit: Vigilate itaque quia nescitis diem neque horam. Hanc vocem
+                        | [scilicet] ita omnes debemus frequentissime meditare, quatenus semper pre
+                        oculis mentis habeatur. Oportet denique singulis, qui se omnipotentis
+                        misericordia huius mundi divitiis vel quibuscumque temporalibus adiumentis
+                        noverint | [conso]latos, ex his quibus accepit ab eo quantumlibet illi
+                        conferre cum gratiarum actione, a quo sibi nescit cuncta quȩ habet concessa,
+                        quia regnum Dei tanti valet quantum habet; quo ut credi possimus dominicis |
+                        [instr]uimur documentis, qui mulierem duo minuta devote offerentem plus
+                        ceteris omnibus offerentibus ***************. Unde ego in Dei nomine
+                            <persName ref="#people/137" key="#Marquis/duke">Adelbertus</persName>,
+                            <rs key="#Marquis/duke">gratia Dei marchio</rs>, obtimum dux[i] | pro
+                        animȩ meȩ remedium, ordinavi atque confirmavi per hanc paginam offersionis,
+                        offero atque concedo <orgName ref="#juridical_persons/69"
+                            key="#Collegiate_churches">Deo omnipotenti et sancti Martini confessoris
+                            et sancti Reguli martyris</orgName>
+                        <rs key="#Decima">decimam portionem</rs> de o[mnibus] | frugibus seu
+                        nutriminibus quas habere visus sum in <geogName key="#Comitatus"
+                            ref="#estates/210"><rs key="#Comitatus">comitatu</rs>
+                        Lucense</geogName>, nominatim <geogName key="#Curtes #Decima"
+                            ref="#estates/78"><rs key="#Curtes">curte</rs> quȩ vocitatur <placeName
+                                key="#Curtes #Comitatus #Decima #Collegiate_churches"
+                                ref="#places/4">Luca</placeName></geogName>, <geogName
+                            key="#Curtes #Decima" ref="#estates/211"><placeName
+                                key="#Curtes #Decima" ref="#places/463"
+                            >Brancalo</placeName></geogName>, <geogName key="#Curtes #Decima"
+                            ref="#estates/212"><placeName key="#Curtes #Decima" ref="#places/190"
+                                >Carfagnana</placeName></geogName>, <geogName key="#Curtes #Decima"
+                            ref="#estates/213"><placeName key="#Curtes #Decima" ref="#places/464"
+                                >Pescia</placeName></geogName>, <geogName key="#Curtes #Decima"
+                            ref="#estates/214"><placeName key="#Curtes #Decima" ref="#places/465"
+                                >Sancto Genesio</placeName></geogName>. De istis predictis curt[is,
+                        sicut] | superius legitur, de decimam portionem <rs
+                            key="#Collegiate_churches">ȩcclesiam</rs> Sancti Martini et Sancti
+                        Reguli investivimus ut, usque in finem seculi, habeat, teneat et secundum
+                        canonicam auctoritatem possideat et ut canon[ici] | qui ibi ordinati sunt
+                        vel in antea esse debent, faciant ex ea quicquid illis congruum vel aptum
+                        videtur. Si quis hanc paginam nostrȩ offersionis seu investitionis per
+                        quolibet modo frangere vel violare | temptaverit, sciat se excommunicatum et
+                        anathematizatum a Deo patre omnipotente et a beatissima virgine Maria et a
+                        beato Iohanne Baptista et a beato Petro apostolorum principe et a sede
+                        sancta apostolicȩ | catholica, quod nec vivus penitentiam agat, nec mortuus
+                        sepultura capiat, sed cum Iuda proditore nostri creatoris portionem habeat.
+                        Insuper notum sit omnibus nostris <rs key="#Gastaldus/vicegastaldus"
+                            >castaldionibus</rs>, presentibus | scilicet ac futuris, esse volumus,
+                        quatenus nos, Dei pro timore animȩque nostrȩ remedium, decimam de
+                        suprascriptis curtis, ut supra legitur, Deo omnipotenti et sancti Martini et
+                        sancti Reguli concessimus, precipiendo precipimus | ut, dehinc in antea,
+                        nullus castaldius neque ulla persona ab aliquo castaldio missa, predicta
+                        decima de iam memoratis curtis subtraere vel contempnere presumat. Si quis
+                        hȩc non observaverit, sciat se, ut superius legitur, excommunicatum et
+                        insuper componere auri obtimi bisantios mille, medietatem camere nostrȩ et
+                        medietatem predictis | canonicis qui ibi ordinati vel constituti sunt. Et ut
+                        verius credatur et ab omnibus hominibus observetur, sigillum nostrum
+                        imprimere iussimus. † Adelbertus marhio subscripsi. (SID).</ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL, 5/3, n. 1173, pp. 93-94; RCLu, 1, n. 3, pp. 3-4; Tomei 2019b, pp.
+                    142-146.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p>Tomei 2019b.</p>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                        <p>Donazione in forma di mandato. Note dorsali XIII sec.: offertio Adelberti
+                    marchionis in Garfagnana, Brancalo et aliis locis; viri Berte regalis. Nota
+                    dorsale XV sec.: decima frugum et caetera quae reliquit ecclesie beati Martini
+                    Adalbertus dux et marchio vir Berte regalis in comitatu Lucense videlicet in
+                    curte que dicitur Luca, Branchalo, Carfagnana, Pescia, Sancto Genesio, annus non
+                    est scriptus. La pergamena, di formato rettangolare, è di grandi dimensioni.
+                    Nella parte inferiore resta la traccia del grande sigillo cereo circolare, oggi
+                    perduto. La scrittura, vergata parallelamente al lato minore del supporto
+                    scrittorio, è una minuscola diplomatica con tratti cancellereschi.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>
