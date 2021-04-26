@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    Diplomatico, ++ O 2</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                        </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc555</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#"
+                                >--Libellus/precaria/emphyteusis</rs>
+                                    <rs type="record_source" ref="#">Original document</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">Uncertain</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate when="0901-06-13">
+                                <note type="displayed_date">901 June 13</note>
+                                <note type="dating_elements">Anno d’impero di Ludovico</note>
+                                <note type="topical_date">Lucca</note>
+                            </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance>
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                            <place></place>
+                        </listPlace>
+                        <listPerson>
+                            <person></person>
+                        </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-04-26" who="ptomei">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab>Il prete Ardimanno del fu Martino, Lamprando detto Martino del fu
+                        Auriprando e Domenico del fu Teuprando ricevono in livello dal vescovo di
+                        Lucca Pietro, due casis et rebus poste in loco et finibus ubi dicitur a
+                        Lungnano finibus Contronense, di pertinenza della chiesa di San Frediano qui
+                        est de subpotestatem del vescovato di San Martino, in precedenza tenute dai
+                        genitori Auriprando e Teuprando, con tutte le loro dipendenze; la terza
+                        porzione di un appezzamento di terra posto nello stesso luogo, in precedenza
+                        tenuto da Dignulo, con tutte le sue dipendenze. Si impegnano a versare pro
+                        omni censum et iustitiam al vescovo e ai suoi successori ogni mese di
+                        dicembre il censo annuale di 28 denari d’argento ad pars della chiesa di San
+                        Frediano, e a venire a Lucca legem et iustitiam faciendum a mandato del
+                        vescovo. Se non rispetteranno i suddetti impegni, promettono di versare al
+                        vescovo e ai suoi successori la pena di 40 soldi d’argento. Chiedono al
+                        notaio Teuderando la stesura di due cartulas. Actum Luca. <persName>Autori:
+                            Pietro episcopus, Ardimanno presbiter del fu Martino, + Lamprando detto
+                            Martino del fu Auriprando, + Domenico del fu Teuprando. Scrittore:
+                            Teuderando notarius. Testimoni sottoscrittori: Willeramo, Teudimundo
+                            notarius, Leone notarius, + Agiprando di Leone de Marila, Ghisalfridi
+                            notarius et schabinus. Altro: fu Auriprando, fu Teuprando,
+                            Dignulo.</persName>
+                        <placeName>Luca (Lucca), Lungnano finibus Contronense (Lugnano e Pieve di
+                            Controne, Bagni di Lucca), Marila (Marlia, Capannori).</placeName>
+                        <orgName>Santi Vincenzo, Frediano, Stefano e Lorenzo (chiesa sedale), San
+                            Martino di Lucca (chiesa matrice).</orgName>
+                    </ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL, 5/3, n. 1049, p. 6.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                        <p/>
+                    </div>
+                </body>
+            </text>
+        </TEI>
