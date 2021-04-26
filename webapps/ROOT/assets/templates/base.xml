@@ -27,7 +27,6 @@
             <link href="{$kiln:assets-path}/foundation/css/foundation.min.css" rel="stylesheet" type="text/css" />
             <link href="{$kiln:assets-path}/styles/base.css" rel="stylesheet" type="text/css" />
             <link href="{$kiln:assets-path}/styles/site.css" rel="stylesheet" type="text/css" />
-            <link href="{$kiln:assets-path}/cytoscape/cytoscape.js-panzoom.css" rel="stylesheet" type="text/css" />
             <link href="{$kiln:assets-path}/cytoscape/font-awesome-4.0.3/css/font-awesome.css" rel="stylesheet" type="text/css" />
             <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
               crossorigin=""/>
@@ -45,7 +44,6 @@
             <script src="https://unpkg.com/layout-base/layout-base.js"></script>
             <script src="https://unpkg.com/cose-base/cose-base.js"></script>
             <script src="https://unpkg.com/cytoscape-fcose/cytoscape-fcose.js"></script>
-            <script src="{$kiln:assets-path}/cytoscape/cytoscape-panzoom.js"></script>
             <script src="{$kiln:assets-path}/scripts/leaflet-providers.js"></script>
             <script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
           </kiln:block>
