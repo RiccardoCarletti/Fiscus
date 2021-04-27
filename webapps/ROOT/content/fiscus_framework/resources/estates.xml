@@ -504,6 +504,11 @@
                     <link type="estates" corresp="#estates/102 #estates/118" subtype="isMadeOf"/>
                     <link type="estates" corresp="#estates/173" subtype="isMadeOf"/>
                     <link type="people" corresp="#people/68" subtype="link"/>
+                    <link type="estates" corresp="#estates/217" subtype="isMadeOf"/>
+                    <link type="estates" corresp="#estates/219" subtype="isMadeOf"/>
+                    <link type="estates" corresp="#estates/220" subtype="isMadeOf"/>
+                    <link type="estates" corresp="#estates/216" subtype="isMadeOf"/>
+                    <link type="estates" corresp="#estates/218" subtype="isMadeOf"/>
                 </place>
                 <place>
                     <geogName>Hochburg; <foreign>curtis</foreign></geogName>
@@ -1618,6 +1623,14 @@
                     <link type="people" corresp="#people/71" subtype="link"/>
                     <link type="places" corresp="#places/490" subtype="hasConnectionWith"/>
                     <link type="estates" corresp="#estates/103" subtype="isPartOf"/>
+                </place>
+                <place>
+                    <geogName><foreign>Iuniorum</foreign>; <foreign>massa</foreign></geogName>
+                    <geogName type="other"/>
+                    <idno>estates/221</idno>
+                    <note/>
+                    <link type="people" corresp="#people/71" subtype="link"/>
+                    <link type="estates" corresp="#estates/192" subtype="isPartOf"/>
                 </place> 
             </listPlace>
         </body>
