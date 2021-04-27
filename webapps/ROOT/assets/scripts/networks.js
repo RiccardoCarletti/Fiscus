@@ -707,8 +707,8 @@ document.addEventListener("click", function (e) {
         {selector: 'edge[type="blue"].blue_hidden', style: {'display': 'none'} },
         {selector: 'edge[type="yellow"].yellow_hidden', style: {'display': 'none'} },
         {selector: 'edge.relation_type_hidden', style: {'label': ''} },
-        {selector: '.hidden', style: {'display': 'none'} },
         {selector: 'node.searched', style: {'border-width': 10, 'border-color': 'red', 'width': '600px', 'height': '200px'} },
+        {selector: '.hidden', style: {'display': 'none'} },
         {selector: ':selected', style: {'border-width': 10, 'border-color': 'orange' } },
         /*wine*/
         {selector: 'node.highlighted', style: {'z-index': '9999'} },
@@ -750,12 +750,11 @@ document.addEventListener("click", function (e) {
         
         $(btnSearch).on('click',function () { 
         cy.elements().removeClass('searched').addClass('hidden');
-        cy.$('[name =  "' + $(inputVal).val() + '"]').addClass('searched').removeClass('hidden'); 
+        cy.$('[name =  "' + $(inputVal).val() + '"]').addClass('searched').removeClass('hidden').select(); 
         cy.$('[name =  "' + $(inputVal).val() + '"]').neighborhood().removeClass('hidden'); 
         cy.$(':selected').addClass('searched').removeClass('hidden');
         cy.$(':selected').neighborhood().removeClass('hidden');
-        if (cy.$(':selected')) {cy.fit(cy.$(':selected').closedNeighborhood(), 10); }
-        if (cy.$('[name =  "' + $(inputVal).val() + '"]')) {cy.fit(cy.$('[name =  "' + $(inputVal).val() + '"]').closedNeighborhood(), 10);}
+        cy.fit(cy.$(':selected').closedNeighborhood(), 10);
         });
        
        $(reset).on('click',function () { 
