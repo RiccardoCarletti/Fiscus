@@ -696,6 +696,7 @@ document.addEventListener("click", function (e) {
         { selector: 'edge[type="red"]', style: { 'line-color': 'red', 'target-arrow-color': 'red' } },
         { selector: 'edge[type="green"]', style: { 'line-color': 'green', 'target-arrow-color': 'green' } },
         { selector: 'edge[type="blue"]', style: { 'line-color': 'blue', 'target-arrow-color': 'blue' } },
+        { selector: 'edge[type="yellow"]', style: { 'line-color': 'yellow', 'target-arrow-color': 'yellow' } },
         /*toggle*/
         { selector: 'node[type="people"].people_hidden', style: { 'display': 'none' } },
         { selector: 'node[type="juridical_persons"].juridical_persons_hidden', style: { 'display': 'none' } },
@@ -704,10 +705,11 @@ document.addEventListener("click", function (e) {
         {selector: 'edge[type="red"].red_hidden', style: {'display': 'none'} },
         {selector: 'edge[type="green"].green_hidden', style: {'display': 'none'} },
         {selector: 'edge[type="blue"].blue_hidden', style: {'display': 'none'} },
+        {selector: 'edge[type="yellow"].yellow_hidden', style: {'display': 'none'} },
         {selector: 'edge.relation_type_hidden', style: {'label': ''} },
-        {selector: 'node.searched', style: { 'background-color': 'red',  'width': '600px', 'height': '200px'} },
         {selector: '.hidden', style: {'display': 'none'} },
-        {selector: ':selected', style: { 'background-color': 'orange'} },
+        {selector: 'node.searched', style: {'border-width': 10, 'border-color': 'red', 'width': '600px', 'height': '200px'} },
+        {selector: ':selected', style: {'border-width': 10, 'border-color': 'orange' } },
         /*wine*/
         {selector: 'node.highlighted', style: {'z-index': '9999'} },
         {selector: 'edge.highlighted', style: {'opacity': '0.8', 'width': '4', 'z-index': '9999'} },
@@ -719,7 +721,7 @@ document.addEventListener("click", function (e) {
         var inputSearch = "inputSearch", inputVal = "#inputSearch", btnSearch = "#btnSearch", reset = "#reset";
         var toggle_people = "toggle_people", toggle_juridical_persons = "toggle_juridical_persons", toggle_estates = "toggle_estates", 
         toggle_places = "toggle_places", toggle_red = "toggle_red", toggle_green = "toggle_green", toggle_blue = "toggle_blue", 
-        toggle_relation_labels = "toggle_relation_labels";
+        toggle_yellow = "toggle_yellow", toggle_relation_labels = "toggle_relation_labels";
           
         const cy_layout = { name: 'fcose', animate: false, nodeRepulsion: 100000000, nodeSeparation: 100, randomize: true, idealEdgeLength: 300,  boxSelectionEnabled: true, selectionType: 'additive' };
         
@@ -740,6 +742,7 @@ document.addEventListener("click", function (e) {
       document.getElementById(toggle_red).addEventListener("click", function() { cy.elements().toggleClass('red_hidden'); });
       document.getElementById(toggle_green).addEventListener("click", function() { cy.elements().toggleClass('green_hidden'); });
       document.getElementById(toggle_blue).addEventListener("click", function() { cy.elements().toggleClass('blue_hidden'); });
+      document.getElementById(toggle_yellow).addEventListener("click", function() { cy.elements().toggleClass('yellow_hidden'); });
       document.getElementById(toggle_relation_labels).addEventListener("click", function() { cy.elements().toggleClass('relation_type_hidden'); }); 
       
         /*autocomplete + search + show only selected + reset*/
@@ -758,4 +761,5 @@ document.addEventListener("click", function (e) {
        $(reset).on('click',function () { 
        cy.elements().removeClass('searched').removeClass('hidden').unselect(); 
        cy.fit(cy.elements, 10);
+       return $('#inputSearch').val('');
        });

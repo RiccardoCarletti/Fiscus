@@ -403,11 +403,13 @@
       <xsl:for-each select="$people//tei:link[@corresp!=''][@type='people']">
         <xsl:variable name="id" select="parent::tei:*/tei:idno[1]"/>
         <xsl:variable name="relation_type"><xsl:choose>
-          <xsl:when test="@subtype!=''"><xsl:value-of select="@subtype"/></xsl:when><xsl:otherwise><xsl:text>link</xsl:text></xsl:otherwise>
+          <xsl:when test="@subtype='' or @subtype='link' or @subtype='hasConnectionWith'"><xsl:text> </xsl:text></xsl:when>
+          <xsl:otherwise><xsl:value-of select="@subtype"/></xsl:otherwise>
         </xsl:choose></xsl:variable>
         <xsl:variable name="color"><xsl:choose>
           <xsl:when test="$thesaurus//tei:catDesc[@n=$relation_type][@key='family']"><xsl:text>red</xsl:text></xsl:when>
           <xsl:when test="$thesaurus//tei:catDesc[@n=$relation_type][@key='personal']"><xsl:text>green</xsl:text></xsl:when>
+          <xsl:when test="@subtype='link'"><xsl:text>yellow</xsl:text></xsl:when>
           <xsl:otherwise><xsl:text>blue</xsl:text></xsl:otherwise>
         </xsl:choose></xsl:variable>
         <xsl:choose>
@@ -453,6 +455,7 @@
           <span id="toggle_people"/><span id="toggle_juridical_persons"/><span id="toggle_estates"/><span id="toggle_places"/>
           <span class="red_label">➔</span> Family relations <input type="checkbox" id="toggle_red" checked="true"/> 
           <span class="green_label">➔</span> Personal bonds <input type="checkbox" id="toggle_green" checked="true"/>
+          <span class="yellow_label">➔</span> Other personal links <input type="checkbox" id="toggle_yellow" checked="true"/>
           <span class="blue_label">➔</span> Other links <input type="checkbox" id="toggle_blue" checked="true"/>
           <span class="relations_label"> Relation types </span> <input type="checkbox" id="toggle_relation_labels" checked="true"/>
         </p>
@@ -485,11 +488,13 @@
       <xsl:for-each select="$people//tei:link[@corresp!='']|$juridical_persons//tei:link[@corresp!='']|$estates//tei:link[@corresp!='']|$places//tei:link[@corresp!='']">
         <xsl:variable name="id" select="parent::tei:*/tei:idno[1]"/>
         <xsl:variable name="relation_type"><xsl:choose>
-          <xsl:when test="@subtype!=''"><xsl:value-of select="@subtype"/></xsl:when><xsl:otherwise><xsl:text>link</xsl:text></xsl:otherwise>
+          <xsl:when test="@subtype='' or @subtype='link' or @subtype='hasConnectionWith'"><xsl:text> </xsl:text></xsl:when>
+          <xsl:otherwise><xsl:value-of select="@subtype"/></xsl:otherwise>
         </xsl:choose></xsl:variable>
         <xsl:variable name="color"><xsl:choose>
           <xsl:when test="$thesaurus//tei:catDesc[@n=$relation_type][@key='family']"><xsl:text>red</xsl:text></xsl:when>
           <xsl:when test="$thesaurus//tei:catDesc[@n=$relation_type][@key='personal']"><xsl:text>green</xsl:text></xsl:when>
+          <xsl:when test="@subtype='link'"><xsl:text>yellow</xsl:text></xsl:when>
           <xsl:otherwise><xsl:text>blue</xsl:text></xsl:otherwise>
         </xsl:choose></xsl:variable>
         <xsl:choose>
@@ -538,6 +543,7 @@
           <span class="places_label">Places</span> <input type="checkbox" id="toggle_places" checked="true"/>
           <span class="red_label">➔</span> Family relations <input type="checkbox" id="toggle_red" checked="true"/> 
           <span class="green_label">➔</span> Personal bonds <input type="checkbox" id="toggle_green" checked="true"/>
+          <span class="yellow_label">➔</span> Other personal links <input type="checkbox" id="toggle_yellow" checked="true"/>
           <span class="blue_label">➔</span> Other links <input type="checkbox" id="toggle_blue" checked="true"/>
           <span class="relations_label"> Relation types </span> <input type="checkbox" id="toggle_relation_labels" checked="true"/>
         </p>
