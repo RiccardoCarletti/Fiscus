@@ -352,20 +352,20 @@
           <xsl:text>}</xsl:text>
         </xsl:variable>
         
-        <div class="row">
+        <div class="row map_box">
           <div class="map_jp"><xsl:attribute name="id"><xsl:value-of select="concat('map', $id)"/></xsl:attribute></div>
           <div class="legend" id="map_legend">
             <p>
               <img src="../../../assets/images/golden.png" alt="golden circle" class="mapicon"/>Places linked to fiscal properties
               <img src="../../../assets/images/purple.png" alt="purple circle" class="mapicon"/>Places not linked to fiscal properties
               <img src="../../../assets/images/polygon.png" alt="green polygon" class="mapicon"/>Places not precisely located or wider areas <br/>
-              <img src="../../../assets/images/anchor.png" alt="anchor" class="mapicon"/>Ports and fords
+              <img src="../../../assets/images/anchor.png" alt="anchor" class="mapicon"/>Ports, fords
               <img src="../../../assets/images/tower.png" alt="tower" class="mapicon"/>Fortifications
               <img src="../../../assets/images/sella.png" alt="sella" class="mapicon"/>Residences
-              <img src="../../../assets/images/coin.png" alt="coin" class="mapicon"/>Markets, crafts and revenues
-              <img src="../../../assets/images/star.png" alt="star" class="mapicon"/>Estates and estate units
+              <img src="../../../assets/images/coin.png" alt="coin" class="mapicon"/>Markets, crafts, revenues
+              <img src="../../../assets/images/star.png" alt="star" class="mapicon"/>Estates, estate units
               <img src="../../../assets/images/square.png" alt="square" class="mapicon"/>Tenures
-              <img src="../../../assets/images/triangle.png" alt="triangle" class="mapicon"/>Land plots and rural buildings
+              <img src="../../../assets/images/triangle.png" alt="triangle" class="mapicon"/>Land plots, rural buildings
               <img src="../../../assets/images/tree.png" alt="tree" class="mapicon"/>Fallow land
             </p>
           </div>
@@ -442,6 +442,11 @@
     </xsl:variable>
     
     <div class="row network_box" id="mynetwork_box">
+      <div class="legend">
+        <p>
+          <span class="autocomplete"><input type="text" id="inputSearch" placeholder="Type a name here or select one or more items in the graph"  title="To select more items, hold Shift and click on them in the graph"/></span><button id="btnSearch" class="button">Show selection</button> <button id="reset" class="button">Reset</button> <button onclick="openFullscreen();" class="button">Fullscreen</button>
+        </p>
+      </div>
       <div id="mynetwork"></div>
       <div class="legend">
         <p>
@@ -450,11 +455,10 @@
           <span class="green_label">➔</span> Personal bonds <input type="checkbox" id="toggle_green" checked="true"/>
           <span class="blue_label">➔</span> Other links <input type="checkbox" id="toggle_blue" checked="true"/>
           <span class="relations_label"> Relation types </span> <input type="checkbox" id="toggle_relation_labels" checked="true"/>
-          <br/><span class="autocomplete"><input type="text" id="inputSearch" placeholder="Search"/></span><button id="btnSearch" class="button">Search</button> <button id="selected" class="button" title="To select more items, hold Shift and click on them in the graph">Show selected items only</button> <button id="reset" class="button">Reset</button> <button onclick="openFullscreen();" class="button">Fullscreen</button>
         </p>
       </div>
       
-        <script type="text/javascript">
+      <script type="text/javascript">
           var graph_items = <xsl:value-of select="$graph_items"/>, graph_labels = <xsl:value-of select="$graph_labels"/>, my_graph = "mynetwork", box = "mynetwork_box";
         </script>
         <script type="text/javascript" src="../../assets/scripts/networks.js"></script>
@@ -520,18 +524,22 @@
     </xsl:variable>
     
     <div class="row network_box" id="mygraph_box">
+      <div class="legend">
+        <p>
+          <span class="autocomplete"><input type="text" id="inputSearch" placeholder="Type a name here or select one or more items in the graph"  title="To select more items, hold Shift and click on them in the graph"/></span><button id="btnSearch" class="button">Show selection</button> <button id="reset" class="button">Reset</button> <button onclick="openFullscreen();" class="button">Fullscreen</button>
+        </p>
+      </div>
       <div id="mygraph"></div>
       <div class="legend">
         <p>
           <span class="people_label">People</span> <input type="checkbox" id="toggle_people" checked="true"/>
           <span class="jp_label">Juridical persons</span> <input type="checkbox" id="toggle_juridical_persons" checked="true"/>
           <span class="estates_label">Estates</span> <input type="checkbox" id="toggle_estates" checked="true"/>
-          <span class="places_label">Places</span> <input type="checkbox" id="toggle_places" checked="true"/> <br/>
+          <span class="places_label">Places</span> <input type="checkbox" id="toggle_places" checked="true"/>
           <span class="red_label">➔</span> Family relations <input type="checkbox" id="toggle_red" checked="true"/> 
           <span class="green_label">➔</span> Personal bonds <input type="checkbox" id="toggle_green" checked="true"/>
           <span class="blue_label">➔</span> Other links <input type="checkbox" id="toggle_blue" checked="true"/>
           <span class="relations_label"> Relation types </span> <input type="checkbox" id="toggle_relation_labels" checked="true"/>
-          <br/><span class="autocomplete"><input type="text" id="inputSearch" placeholder="Search"/></span><button id="btnSearch" class="button">Search</button> <button id="selected" class="button" title="To select more items, hold Shift and click on them in the graph">Show selected items only</button> <button id="reset" class="button">Reset</button> <button onclick="openFullscreen();" class="button">Fullscreen</button>
         </p>
       </div>
       
@@ -614,20 +622,20 @@
     </xsl:variable>
     
     <!-- add map -->
-    <div class="row">
+    <div class="row map_box">
       <div id="mapid" class="map"></div>
       <div class="legend">
         <p>
           <img src="../../../assets/images/golden.png" alt="golden circle" class="mapicon"/>Places linked to fiscal properties
           <img src="../../../assets/images/purple.png" alt="purple circle" class="mapicon"/>Places not linked to fiscal properties
           <img src="../../../assets/images/polygon.png" alt="green polygon" class="mapicon"/>Places not precisely located or wider areas <br/>
-          <img src="../../../assets/images/anchor.png" alt="anchor" class="mapicon"/>Ports and fords
+          <img src="../../../assets/images/anchor.png" alt="anchor" class="mapicon"/>Ports, fords
           <img src="../../../assets/images/tower.png" alt="tower" class="mapicon"/>Fortifications
           <img src="../../../assets/images/sella.png" alt="sella" class="mapicon"/>Residences
-          <img src="../../../assets/images/coin.png" alt="coin" class="mapicon"/>Markets, crafts and revenues
-          <img src="../../../assets/images/star.png" alt="star" class="mapicon"/>Estates and estate units
+          <img src="../../../assets/images/coin.png" alt="coin" class="mapicon"/>Markets, crafts, revenues
+          <img src="../../../assets/images/star.png" alt="star" class="mapicon"/>Estates, estate units
           <img src="../../../assets/images/square.png" alt="square" class="mapicon"/>Tenures
-          <img src="../../../assets/images/triangle.png" alt="triangle" class="mapicon"/>Land plots and rural buildings
+          <img src="../../../assets/images/triangle.png" alt="triangle" class="mapicon"/>Land plots, rural buildings
           <img src="../../../assets/images/tree.png" alt="tree" class="mapicon"/>Fallow land
         </p>
       </div>

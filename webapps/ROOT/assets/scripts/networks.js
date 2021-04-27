@@ -590,8 +590,7 @@ SOFTWARE.
 /****** autocomplete ******/
 
 function autocomplete(inp, arr) {
-  /*the autocomplete function takes two arguments,
-  the text field element and an array of possible autocompleted values:*/
+  /*two arguments, the text field element and an array of possible autocompleted values:*/
   var currentFocus;
   /*execute a function when someone writes in the text field:*/
   inp.addEventListener("input", function(e) {
@@ -634,14 +633,12 @@ function autocomplete(inp, arr) {
       var x = document.getElementById(this.id + "autocomplete-list");
       if (x) x = x.getElementsByTagName("div");
       if (e.keyCode == 40) {
-        /*If the arrow DOWN key is pressed,
-        increase the currentFocus variable:*/
+        /*If the arrow DOWN key is pressed, increase the currentFocus variable:*/
         currentFocus++;
         /*and and make the current item more visible:*/
         addActive(x);
       } else if (e.keyCode == 38) { //up
-        /*If the arrow UP key is pressed,
-        decrease the currentFocus variable:*/
+        /*If the arrow UP key is pressed, decrease the currentFocus variable:*/
         currentFocus--;
         /*and and make the current item more visible:*/
         addActive(x);
@@ -671,8 +668,7 @@ function autocomplete(inp, arr) {
     }
   }
   function closeAllLists(elmnt) {
-    /*close all autocomplete lists in the document,
-    except the one passed as an argument:*/
+    /*close all autocomplete lists in the document, except the one passed as an argument:*/
     var x = document.getElementsByClassName("autocomplete-items");
     for (var i = 0; i < x.length; i++) {
       if (elmnt != x[i] && elmnt != inp) {
@@ -711,7 +707,7 @@ document.addEventListener("click", function (e) {
         {selector: 'edge.relation_type_hidden', style: {'label': ''} },
         {selector: 'node.searched', style: { 'background-color': 'red',  'width': '600px', 'height': '200px'} },
         {selector: '.hidden', style: {'display': 'none'} },
-        {selector: ':selected', style: { 'background-color': 'red'} },
+        {selector: ':selected', style: { 'background-color': 'orange'} },
         /*wine*/
         {selector: 'node.highlighted', style: {'z-index': '9999'} },
         {selector: 'edge.highlighted', style: {'opacity': '0.8', 'width': '4', 'z-index': '9999'} },
@@ -730,10 +726,11 @@ document.addEventListener("click", function (e) {
         var cy = cytoscape({ container: document.getElementById(my_graph), elements: graph_items, style: cy_style, layout: cy_layout }).panzoom();      
        
       /*fullscreen*/
+      var full = box;
        function openFullscreen() {
-       if (document.getElementById(box).requestFullscreen) { document.getElementById(box).requestFullscreen(); } 
-       else if (document.getElementById(box).webkitRequestFullscreen) { document.getElementById(box).webkitRequestFullscreen();} 
-       else if (document.getElementById(box).msRequestFullscreen) { document.getElementById(box).msRequestFullscreen(); } } 
+       if (document.getElementById(full).requestFullscreen) { document.getElementById(full).requestFullscreen(); } 
+       else if (document.getElementById(full).webkitRequestFullscreen) { document.getElementById(full).webkitRequestFullscreen();} 
+       else if (document.getElementById(full).msRequestFullscreen) { document.getElementById(full).msRequestFullscreen(); } } 
        
         /*toggle*/
       document.getElementById(toggle_people).addEventListener("click", function() { cy.elements().toggleClass('people_hidden'); });
@@ -752,15 +749,13 @@ document.addEventListener("click", function (e) {
         cy.elements().removeClass('searched').addClass('hidden');
         cy.$('[name =  "' + $(inputVal).val() + '"]').addClass('searched').removeClass('hidden'); 
         cy.$('[name =  "' + $(inputVal).val() + '"]').neighborhood().removeClass('hidden'); 
-        cy.zoom({level: 0.1, position: cy.$('[name =  "' + $(inputVal).val() + '"]').position()});
-        });
-        
-        $(selected).on('click',function () { 
-        cy.elements().removeClass('searched').addClass('hidden');
         cy.$(':selected').addClass('searched').removeClass('hidden');
-        cy.$(':selected').neighborhood().removeClass('hidden'); 
+        cy.$(':selected').neighborhood().removeClass('hidden');
+        if (cy.$(':selected')) {cy.fit(cy.$(':selected').closedNeighborhood(), 10); }
+        if (cy.$('[name =  "' + $(inputVal).val() + '"]')) {cy.fit(cy.$('[name =  "' + $(inputVal).val() + '"]').closedNeighborhood(), 10);}
         });
        
        $(reset).on('click',function () { 
-        cy.elements().removeClass('searched').removeClass('hidden').unselect();
-        });
+       cy.elements().removeClass('searched').removeClass('hidden').unselect(); 
+       cy.fit(cy.elements, 10);
+       });

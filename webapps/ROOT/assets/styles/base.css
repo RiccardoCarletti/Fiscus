@@ -145,39 +145,32 @@ margin-left:20px;
 
 /**************************************************************************/
 /* Maps and graphs */
-.map {
+
+.map_box, .network_box {
+    padding: 10px 15px 30px 15px;
+    background-color: white;
     width: 100%;
+}
+
+.map {
     height: 600px;
-    margin-top: 4em;
 }
 
 .map_jp {
-    width: 100%;
     height: 400px;
-    margin-top: 0;
 }
 
-.legend {
-    margin-top: 0;
-    margin-bottom: 5em;
+#mynetwork, #mygraph {
+    height: 89vh;
+    border: 1px solid lightgray;
 }
 
 .legend p {
     text-align: center;
     font-size: 12px;
-    border: solid lightgray 1px;
-}
-
-.network_box {
-    padding: 40px 20px 60px 20px;
-    background-color: white;
-}
-
-#mynetwork, #mygraph {
-    height: 80vh; 
-    width: 100%;
     border: 1px solid lightgray;
-    background-color: white;
+    margin: 0;
+    padding-top: 5px;
 }
 
 .mapicon {
@@ -185,7 +178,7 @@ margin-left:20px;
     margin: 5px;
 }
 
-#inputSearch, #mapSearch {
+#inputSearch {
     width: 300px;
     display: inline;
 }
@@ -228,6 +221,10 @@ margin-left:20px;
 
 .red_label {
     color:red;
+}
+
+#mygraph_box .red_label {
+    margin-left:10px;
 }
 
 .green_label {
