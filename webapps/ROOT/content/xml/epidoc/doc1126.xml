@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Archivio Capitolare di Reggio Emilia (DD B I, pp. 122-124, n° XLII)</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc1126</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0904-01-04">
+                                <note type="displayed_date">904 january 4</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Pavia</note>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-02-08" who="Chiara Stedile">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine domini nostri Iesu Christi Dei aeterni. Berengarius rex. Si
+                        venerabilibus sanctarum Dei ecclesiarum locis emolumentum regali
+                        munificentia quodlibet impendimus, et apud Deum promereri veniam et regni
+                        nostri statum celitus roborari non ambigimus. Idcirco omnium fidelium
+                        sanctae Dei Aecclesiae nostrorumque presentium scilicet ac futurorum
+                        comperiat sollicitudo, quoniam pro mercede ac remedio animae nostrae seu
+                        interventu nostrae dilectissimae coniugis Berthilae, quae regni nostri
+                        consors dignoscitur, petitionem quoque ac precibus Hildegarii venerabilis
+                        episcopi seu Sigefredi sacri palatii comitis nostrotum fidelium in sanctam
+                        Regiensem ecclesiam in honorem sanctae Dei genitricis Mariae atque beati
+                        Christi confessoris Prosperi toto mentis affectu providentes eiusdem
+                        ecclesiae neessitates vel depredationes atque incendia, quae a ferocissima
+                        gente Hungrorum passa est, montem Cervarium simul cum gaio et mansis inibi
+                        pertinentibus seu familia utriusque sexus iuris palatii nostri, sicut subter
+                        per denominatos terminos comprehensum videtur, Deo omnipotenti eiusque
+                        genitrici semper virgini Mariae beatoque Prospero Christi confessori
+                        offerimus perpetuoque habendum huius praecepti pagina stabilimus, sancientes
+                        pro mercede et remedio animae nostrae prefatum montem Cervarium et gaio
+                        pariter, ut dictum est, omnibusque mansis infra denominatos inferius
+                        terminos per singula loca et vocabula constitutis seu utriusque sexus
+                        familia cum terris, silvis, pratis, montibus, planitiebus, rivis acquarumque
+                        decursibus, coltis et incoltis, omnia quicquid ad ipsum montem Cervarium vel
+                        gaio pertinuisse conprobatur, cuius montis Cervarii eiusque rerum termini a
+                        monte Deposci descendunt in fluvium Niteram que defluit in flumen Inciam,
+                        inde per Inciam sursum usque ad alpes; quae omnia et ex omnibus, ut supra
+                        comprehensum est, ad partem sepe dicte aecclesiae hac nostre regali
+                        auctoritate donamus ac cedimus, atque de nostro iure in eius ius dominiumque
+                        transfundimus iure perpetuo possidenda, absque alicuius inquietudine vel
+                        deminoratione. Si quis vero temerarius huius nostri precepti institutionem
+                        violare temptaverit, sciat se compositurum auri optimi libras centum,
+                        medietatem palatio nostro et medietatem sepe dictae ecclesiae Regiensi. Et
+                        ut hoc verius credatur diligentiusque ab omnibus observetur, manu propria
+                        subter roboravimus et anuli nostri impressione subter insigniri iussimus.
+                        Signum domni (MF) Berengarii gloriosissimi regis. Fortunius notarius ad
+                        vicem Ardigni episcopi et archicancellarii recognovi et subscripsi. (SR) (SI
+                        D). Data pridie non. Ian., anno incarnationis dominice DCCCCIIII, domni vero
+                        regni Berengarii serenissimi regis XVII, indictione VIII. Actum Papiae. In
+                        Dei nomine feliciter, amen.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>DD B I, pp. 122-124, n° XLII</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
