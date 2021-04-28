@@ -445,9 +445,10 @@
     </xsl:variable>
     
     <div class="row network_box" id="mynetwork_box">
+      <!--<script type="text/javascript">popup() { getElementById("myPopup").classList.toggle("show");}</script>-->
       <div class="legend">
         <p>
-          <span class="autocomplete"><input type="text" id="inputSearch" placeholder="Type a name here or select one or more items in the graph"  title="To select more items, hold Shift and click on them in the graph"/></span><button id="btnSearch" class="button">Show</button> <button id="reset" class="button">Reset</button> <button onclick="openFullscreen();" class="button">Fullscreen</button>
+          <span class="autocomplete"><input type="text" id="inputSearch" placeholder="Type a name here or select one or more items in the graph"  title="To select more items, hold Shift and click on them in the graph"/></span><button id="btnSearch" class="button">Show</button> <button id="reset" class="button">Reset</button> <button onclick="openFullscreen();" class="button">Fullscreen</button> <!--<button onclick="popup()" class="button">Help</button>-->
         </p>
       </div>
       <div id="mynetwork"></div>
@@ -456,7 +457,7 @@
           <span id="toggle_people"/><span id="toggle_juridical_persons"/><span id="toggle_estates"/><span id="toggle_places"/>
           <span class="red_label">➔</span> Family relations <input type="checkbox" id="toggle_red" checked="true"/> 
           <span class="green_label">➔</span> Interpersonal bonds <input type="checkbox" id="toggle_green" checked="true"/>
-          <span class="orange_label"/>
+          <span id="toggle_orange"/>
           <span class="blue_label">➔</span> Other interpersonal links <input type="checkbox" id="toggle_blue" checked="true"/>
           <span class="relations_label"> Relation types </span> <input type="checkbox" id="toggle_relation_labels" checked="true"/>
         </p>
