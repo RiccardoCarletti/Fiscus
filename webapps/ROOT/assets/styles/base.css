@@ -223,10 +223,6 @@ margin-left:20px;
     color:red;
 }
 
-#mygraph_box .red_label {
-    margin-left:10px;
-}
-
 .green_label {
     color:green;
     margin-left:10px;
@@ -237,12 +233,15 @@ margin-left:20px;
     margin-left:10px;
 }
 
-.yellow_label {
-    color:yellow;
-    margin-left:10px;
+.orange_label {
+    color:orange;
 }
 
 .relations_label {
+    margin-left:10px;
+}
+
+#mygraph_box .red_label, #mygraph_box .orange_label {
     margin-left:10px;
 }
 

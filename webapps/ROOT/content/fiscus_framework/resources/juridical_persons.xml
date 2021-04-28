@@ -1275,13 +1275,22 @@
                     <link type="people" corresp="#people/78 #people/21" subtype="link"/>
                 </org>
                 <org>
-                    <orgName>Sanctus Gallus; monasterium</orgName>
-                    <orgName type="other">Sanctus Vincentius</orgName>
+                    <orgName>Sanctus Gallus; monasterium (Sankt Gallen)</orgName>
+                    <orgName type="other"/>
                     <idno>juridical_persons/190</idno>
                     <note/>
-                    <link type="places" corresp="#places/10" subtype="isWithin"/>
-                    <link type="estates" corresp="#estates/222" subtype="hasConnectionWith"/>
-                    <link type="people" corresp="#people/78 #people/21" subtype="link"/>
+                    <link type="places" corresp="#places/502" subtype="isWithin"/>
+                    <link type="people" corresp="#people/21" subtype="link"/>
+                </org>
+                <org>
+                    <orgName>Sancta Maria; monasterium (Massino Visconti; Novara)</orgName>
+                    <orgName type="other"/>
+                    <idno>juridical_persons/191</idno>
+                    <note/>
+                    <link type="places" corresp="#places/503" subtype="isWithin"/>
+                    <link type="estates" corresp="#estates/111" subtype="hasConnectionWith"/>
+                    <link type="people" corresp="#people/21" subtype="link"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/190" subtype="link"/>
                 </org>
             </listOrg>
         </body>
