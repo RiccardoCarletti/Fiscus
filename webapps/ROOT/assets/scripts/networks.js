@@ -696,7 +696,7 @@ document.addEventListener("click", function (e) {
         { selector: 'edge[type="red"]', style: { 'line-color': 'red', 'target-arrow-color': 'red' } },
         { selector: 'edge[type="green"]', style: { 'line-color': 'green', 'target-arrow-color': 'green' } },
         { selector: 'edge[type="blue"]', style: { 'line-color': 'blue', 'target-arrow-color': 'blue' } },
-        { selector: 'edge[type="yellow"]', style: { 'line-color': 'yellow', 'target-arrow-color': 'yellow' } },
+        { selector: 'edge[type="orange"]', style: { 'line-color': 'orange', 'target-arrow-color': 'orange' } },
         /*toggle*/
         { selector: 'node[type="people"].people_hidden', style: { 'display': 'none' } },
         { selector: 'node[type="juridical_persons"].juridical_persons_hidden', style: { 'display': 'none' } },
@@ -705,7 +705,7 @@ document.addEventListener("click", function (e) {
         {selector: 'edge[type="red"].red_hidden', style: {'display': 'none'} },
         {selector: 'edge[type="green"].green_hidden', style: {'display': 'none'} },
         {selector: 'edge[type="blue"].blue_hidden', style: {'display': 'none'} },
-        {selector: 'edge[type="yellow"].yellow_hidden', style: {'display': 'none'} },
+        {selector: 'edge[type="orange"].orange_hidden', style: {'display': 'none'} },
         {selector: 'edge.relation_type_hidden', style: {'label': ''} },
         {selector: 'node.searched', style: {'border-width': 10, 'border-color': 'red', 'width': '600px', 'height': '200px'} },
         {selector: '.hidden', style: {'display': 'none'} },
@@ -721,7 +721,7 @@ document.addEventListener("click", function (e) {
         var inputSearch = "inputSearch", inputVal = "#inputSearch", btnSearch = "#btnSearch", reset = "#reset";
         var toggle_people = "toggle_people", toggle_juridical_persons = "toggle_juridical_persons", toggle_estates = "toggle_estates", 
         toggle_places = "toggle_places", toggle_red = "toggle_red", toggle_green = "toggle_green", toggle_blue = "toggle_blue", 
-        toggle_yellow = "toggle_yellow", toggle_relation_labels = "toggle_relation_labels";
+        toggle_orange = "toggle_orange", toggle_relation_labels = "toggle_relation_labels";
           
         const cy_layout = { name: 'fcose', animate: false, nodeRepulsion: 100000000, nodeSeparation: 100, randomize: true, idealEdgeLength: 300,  boxSelectionEnabled: true, selectionType: 'additive' };
         
@@ -742,7 +742,7 @@ document.addEventListener("click", function (e) {
       document.getElementById(toggle_red).addEventListener("click", function() { cy.elements().toggleClass('red_hidden'); });
       document.getElementById(toggle_green).addEventListener("click", function() { cy.elements().toggleClass('green_hidden'); });
       document.getElementById(toggle_blue).addEventListener("click", function() { cy.elements().toggleClass('blue_hidden'); });
-      document.getElementById(toggle_yellow).addEventListener("click", function() { cy.elements().toggleClass('yellow_hidden'); });
+      document.getElementById(toggle_orange).addEventListener("click", function() { cy.elements().toggleClass('orange_hidden'); });
       document.getElementById(toggle_relation_labels).addEventListener("click", function() { cy.elements().toggleClass('relation_type_hidden'); }); 
       
         /*autocomplete + search + show only selected + reset*/
@@ -752,6 +752,14 @@ document.addEventListener("click", function (e) {
         cy.elements().removeClass('searched').addClass('hidden');
         cy.$('[name =  "' + $(inputVal).val() + '"]').addClass('searched').removeClass('hidden').select(); 
         cy.$('[name =  "' + $(inputVal).val() + '"]').neighborhood().removeClass('hidden'); 
+        cy.$(':selected').addClass('searched').removeClass('hidden');
+        cy.$(':selected').neighborhood().removeClass('hidden');
+        cy.fit(cy.$(':selected').closedNeighborhood(), 10);
+        });
+        
+        $( ".searched" ).on('dblclick',function () { 
+        cy.$('.searched').neighborhood().addClass('searched').removeClass('hidden'); 
+       /* cy.elements().removeClass('searched').addClass('hidden');*/
         cy.$(':selected').addClass('searched').removeClass('hidden');
         cy.$(':selected').neighborhood().removeClass('hidden');
         cy.fit(cy.$(':selected').closedNeighborhood(), 10);

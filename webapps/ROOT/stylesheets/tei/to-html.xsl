@@ -406,12 +406,13 @@
           <xsl:when test="@subtype='' or @subtype='link' or @subtype='hasConnectionWith'"><xsl:text> </xsl:text></xsl:when>
           <xsl:otherwise><xsl:value-of select="@subtype"/></xsl:otherwise>
         </xsl:choose></xsl:variable>
-        <xsl:variable name="color"><xsl:choose>
-          <xsl:when test="$thesaurus//tei:catDesc[@n=$relation_type][@key='family']"><xsl:text>red</xsl:text></xsl:when>
-          <xsl:when test="$thesaurus//tei:catDesc[@n=$relation_type][@key='personal']"><xsl:text>green</xsl:text></xsl:when>
-          <xsl:when test="@subtype='link'"><xsl:text>yellow</xsl:text></xsl:when>
-          <xsl:otherwise><xsl:text>blue</xsl:text></xsl:otherwise>
-        </xsl:choose></xsl:variable>
+        <xsl:variable name="color">
+          <xsl:choose>
+            <xsl:when test="$thesaurus//tei:catDesc[@n=$relation_type][@key='family']"><xsl:text>red</xsl:text></xsl:when>
+            <xsl:when test="$thesaurus//tei:catDesc[@n=$relation_type][@key='personal']"><xsl:text>green</xsl:text></xsl:when>
+            <xsl:otherwise><xsl:text>blue</xsl:text></xsl:otherwise>
+          </xsl:choose>
+        </xsl:variable>
         <xsl:choose>
           <xsl:when test="not(contains(@corresp, ' '))">
             <xsl:text>{data: {id: "</xsl:text><xsl:value-of select="concat($id, ' + ', replace(@corresp, '#', ''))"/><xsl:text>", name: "</xsl:text><xsl:value-of select="$relation_type"/><xsl:text>", source: "</xsl:text><xsl:value-of select="$id"/>
@@ -454,9 +455,9 @@
         <p>
           <span id="toggle_people"/><span id="toggle_juridical_persons"/><span id="toggle_estates"/><span id="toggle_places"/>
           <span class="red_label">➔</span> Family relations <input type="checkbox" id="toggle_red" checked="true"/> 
-          <span class="green_label">➔</span> Personal bonds <input type="checkbox" id="toggle_green" checked="true"/>
-          <span class="yellow_label">➔</span> Other personal links <input type="checkbox" id="toggle_yellow" checked="true"/>
-          <span class="blue_label">➔</span> Other links <input type="checkbox" id="toggle_blue" checked="true"/>
+          <span class="green_label">➔</span> Interpersonal bonds <input type="checkbox" id="toggle_green" checked="true"/>
+          <span class="orange_label"/>
+          <span class="blue_label">➔</span> Other interpersonal links <input type="checkbox" id="toggle_blue" checked="true"/>
           <span class="relations_label"> Relation types </span> <input type="checkbox" id="toggle_relation_labels" checked="true"/>
         </p>
       </div>
@@ -491,12 +492,18 @@
           <xsl:when test="@subtype='' or @subtype='link' or @subtype='hasConnectionWith'"><xsl:text> </xsl:text></xsl:when>
           <xsl:otherwise><xsl:value-of select="@subtype"/></xsl:otherwise>
         </xsl:choose></xsl:variable>
-        <xsl:variable name="color"><xsl:choose>
-          <xsl:when test="$thesaurus//tei:catDesc[@n=$relation_type][@key='family']"><xsl:text>red</xsl:text></xsl:when>
-          <xsl:when test="$thesaurus//tei:catDesc[@n=$relation_type][@key='personal']"><xsl:text>green</xsl:text></xsl:when>
-          <xsl:when test="@subtype='link'"><xsl:text>yellow</xsl:text></xsl:when>
-          <xsl:otherwise><xsl:text>blue</xsl:text></xsl:otherwise>
-        </xsl:choose></xsl:variable>
+        <xsl:variable name="color">
+          <xsl:choose>
+            <xsl:when test="ancestor::tei:person and @type='people'">
+              <xsl:choose>
+                <xsl:when test="$thesaurus//tei:catDesc[@n=$relation_type][@key='family']"><xsl:text>red</xsl:text></xsl:when>
+                <xsl:otherwise><xsl:text>green</xsl:text></xsl:otherwise>
+              </xsl:choose>
+            </xsl:when>
+            <xsl:when test="ancestor::tei:person or @type='people'"><xsl:text>orange</xsl:text></xsl:when>
+            <xsl:otherwise><xsl:text>blue</xsl:text></xsl:otherwise>
+          </xsl:choose>
+        </xsl:variable>
         <xsl:choose>
           <xsl:when test="not(contains(@corresp, ' '))">
             <xsl:text>{data: {id: "</xsl:text><xsl:value-of select="concat($id, ' + ', replace(@corresp, '#', ''))"/><xsl:text>", name: "</xsl:text><xsl:value-of select="$relation_type"/><xsl:text>", source: "</xsl:text><xsl:value-of select="$id"/>
@@ -542,8 +549,8 @@
           <span class="estates_label">Estates</span> <input type="checkbox" id="toggle_estates" checked="true"/>
           <span class="places_label">Places</span> <input type="checkbox" id="toggle_places" checked="true"/>
           <span class="red_label">➔</span> Family relations <input type="checkbox" id="toggle_red" checked="true"/> 
-          <span class="green_label">➔</span> Personal bonds <input type="checkbox" id="toggle_green" checked="true"/>
-          <span class="yellow_label">➔</span> Other personal links <input type="checkbox" id="toggle_yellow" checked="true"/>
+          <span class="green_label">➔</span> Interpersonal bonds <input type="checkbox" id="toggle_green" checked="true"/>
+          <span class="orange_label">➔</span> Other personal links <input type="checkbox" id="toggle_orange" checked="true"/>
           <span class="blue_label">➔</span> Other links <input type="checkbox" id="toggle_blue" checked="true"/>
           <span class="relations_label"> Relation types </span> <input type="checkbox" id="toggle_relation_labels" checked="true"/>
         </p>
