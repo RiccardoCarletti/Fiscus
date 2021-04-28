@@ -707,7 +707,7 @@ document.addEventListener("click", function (e) {
         {selector: 'edge[type="blue"].blue_hidden', style: {'display': 'none'} },
         {selector: 'edge[type="orange"].orange_hidden', style: {'display': 'none'} },
         {selector: 'edge.relation_type_hidden', style: {'label': ''} },
-        {selector: 'node.searched', style: {'border-width': 10, 'border-color': 'red', 'width': '600px', 'height': '200px'} },
+        {selector: 'node.searched', style: {'border-width': 10, 'border-color': 'red', 'width': '400px', 'height': '150px'} },
         {selector: '.hidden', style: {'display': 'none'} },
         {selector: ':selected', style: {'border-width': 10, 'border-color': 'orange' } },
         /*wine*/
@@ -756,13 +756,11 @@ document.addEventListener("click", function (e) {
         cy.$(':selected').neighborhood().removeClass('hidden');
         cy.fit(cy.$(':selected').closedNeighborhood(), 10);
         });
-        
-        $( ".searched" ).on('dblclick',function () { 
-        cy.$('.searched').neighborhood().addClass('searched').removeClass('hidden'); 
-       /* cy.elements().removeClass('searched').addClass('hidden');*/
-        cy.$(':selected').addClass('searched').removeClass('hidden');
-        cy.$(':selected').neighborhood().removeClass('hidden');
-        cy.fit(cy.$(':selected').closedNeighborhood(), 10);
+         
+        cy.nodes().on('cxttap', function(e){
+        e.target.addClass('searched').select(); 
+        e.target.neighborhood().removeClass('hidden'); 
+        cy.fit(cy.$('searched').closedNeighborhood(), 10);
         });
        
        $(reset).on('click',function () { 
