@@ -4,7 +4,8 @@
             <teiHeader xml:lang="en">
                 <fileDesc>
                     <titleStmt>
-                        <title>ASDL, AAL, D, Priv. 102</title>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    Diplomatico, Priv. 102</title>
                     </titleStmt>
                     <editionStmt>
                         <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
@@ -13,7 +14,7 @@
                         </editionStmt>
                     <publicationStmt>
                         <publisher>Fiscus - DISCI UniBo</publisher>
-                        <idno type="filename">doc185</idno>
+                        <idno type="filename">doc565</idno>
                         <availability xml:lang="en" status="free">
                             <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                                 texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -30,10 +31,10 @@
                             </msIdentifier>
                             <msContents>
                                 <summary>
-                                    <rs type="text_type" ref="#">Notitia iudicati</rs>
-                                    <rs type="record_source" ref="#"/>
-                                    <rs type="document_tradition" ref="#"/>
-                                    <rs type="fiscal_property"/>
+                                    <rs type="text_type" ref="#">-Placitum/iudicatum</rs>
+                                    <rs type="record_source" ref="#">Original document</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">Yes</rs>
                                 </summary>
                                 <msItem xml:id="msItem1">
                                     <textLang mainLang="" otherLangs=""/>
@@ -41,11 +42,13 @@
                             </msContents>
                             <history>
                                 <origin>
-                                    <origDate notBefore="0001" notAfter="0001" when="0001">
-                                    <note type="displayed_date">0901/02/00</note>
-                                    <note type="dating_elements"></note>
-                                    <note type="topical_date">Romam in palacio quod est fundatum iusta basilica beatissimi Petri principis apostolorum in laubia magiore ipsius palacii (Roma)</note>
-                                    </origDate>
+                                    <origDate when="0901-02">
+                                <note type="displayed_date">901 February</note>
+                                <note type="dating_elements">Anno d’impero di Ludovico</note>
+                                <note type="topical_date">Roma, in palacio quod est fundatum iusta
+                                    basilica beatissimi Petri principis apostolorum in laubia
+                                    magiore ipsius palacii</note>
+                            </origDate>
                                     <origPlace/>
                                 </origin>
                                 <provenance>
@@ -72,7 +75,7 @@
                 </profileDesc>
                 <revisionDesc>
                     <listChange>
-                        <change when="2021-01-06" who="ptomei">creation of record</change>
+                        <change when="2021-04-28" who="ptomei">creation of record</change>
                     </listChange>
                 </revisionDesc>
             </teiHeader>
@@ -80,25 +83,74 @@
                 <body>
                     <div type="edition">
                         <div type="textpart">
-                            <ab>
-                                L’imperatore Ludovico siede in giudizio a Roma alla destra di papa Benedetto in palacio quod est fundatum iusta basilica beatissimi Petri principis apostolorum in laubia magiore ipsius palacii; assistono, fra gli altri, Pietro, Silvestro, Orso, Leone, Romano, Giovanni, Alone, Bonoso, Gregorio, altro Romano, Cosma, altro Gregorio episcopis uius Romanie finibus; i vescovi Odalberto di Luni, Adalberto di Bergamo, Everardo di Piacenza, Garibaldo di Novara, Elbungo di Parma, Ildegherio di Lodi, Ardengo di Brescia, Grasulfo di Firenze, Alboino di Volterra, Pietro di Arezzo, Erlando di Fiesole, Asterio di Pistoia; i conti Adelelmo, Rotbaldo e Gottifredi; Stefano, Teufilatto, Gregorio omiculator, Graziano, Adriano, Teodoro, Leone, Crescenzio, Benedetto, Giovanni, Anastasio iudices huhic Romanie; Walperto, Aquilino, Farimundo, Vivenzio detto Boderato, Stabile e Stadelberto iudices idem augusti; Pietro, Sicardo e Teutelmo notai del sacro palazzo; Winigildo, Auberto, Suppone e altro Winigildo.
-Si presenta Pietro, vescovo di Lucca, con il suo advocatus Eliezar detto Bonizio del fu Eriteo, dichiarando che iam plures vices ha denunciato all’imperatore, tamque in civitate Papia quamque et per alias locas, Lamberto del fu Rodilando de civitate Lucense, il quale tiene iniuste casas et res che spettano alla chiesa lucchese: infra eadem civitate, l’ancilla Adreperga, casis et rebus poste in locas et fundas Castelioni prope Sudrominio, Cornino hubi dicitur Casale Lapi, Monterioni comitato Popoloniense, un appezzamento di terra posto hubi dicitur a Pulia, in loco et fundo Camiano prope fluvio Elsa, in loco et fundo Quaraciano hubi dicitur Miliano et Pluciano, in loco et fundo Miciano, res poste in Conca, la chiesa di San Maurizio posta in loco et fundo Filituli.
-Avendo l’imperatore inviato all’accusato una epistola ad vestro anolo sigilata, con l’ordine di recarsi civitate Luca o ihic civitate Roma alla sua presenza, iusticiam faciendum, e non essendosi quest’ultimo presentato, il vescovo chiede di essere investito delle suddette casis et rebus salva querela.
-L’imperatore ordina a Walteri, vassus et missus suo, di procedere all’investitura per fuste e pone sopra gli stessi beni un banno imperiale di 2000 mancusi d’oro; metà da versare alla camera imperiale, metà pars del vescovato.
-L’inviato e i giudici imperiali chiedono al notaio imperiale Tommaso la scrittura della noticia.
-                                <persName>Autori: + Ludovico imperator, + Benedetto episcopus, Pietro episcopus, Eliezar detto Bonizio del fu Eriteo advocatus.
-Scrittore: Tommaso notarius dom. imp.
-Testimoni sottoscrittori: Odalberto episcopus, Walperto iudex dom. imp., Aquilino iudex dom. imp., Farimundo iudex dom. imp., Stabile iudex dom. imp., Stadelberto iudex dom. imp.
-Altro: Pietro episcopus, Silvestro episcopus, Orso episcopus, Leone episcopus, Romano episcopus, Giovanni episcopus, Alone episcopus, Bonoso episcopus, Gregorio episcopus, Romano episcopus, Cosma episcopus, Gregorio episcopus, Adalberto episcopus, Everardo episcopus, Garibaldo episcopus, Elbungo episcopus, Ildegherio episcopus, Ardengo episcopus, Grasulfo episcopus, Alboino episcopus, Pietro episcopus, Erlando episcopus, Asterio episcopus, Adelelmo comes, Rotbaldo comes, Gottifredi comes, Stefano iudex, Teufilatto iudex, Gregorio omiculator, Graziano iudex, Adriano iudex, Teodoro iudex, Leone iudex, Crescenzio iudex, Benedetto iudex, Giovanni iudex, Anastasio iudex, Vivenzio detto Boderato iudex dom. imp., Pietro notarius dom. imp., Sicardo notarius dom. imp., Teutelmo notarius dom. imp., Winigildo, Auberto, Suppone, Winigildo, Lamberto del fu Rodilando de civitate Lucense, Adreperga, Walteri vassus dom. imp.</persName>
-                                <placeName>Roma (Roma), Luca, a Pulia (Lucca), Populonia (Populonia, Piombino), Castelioni prope Sudrominio (Castellaccio vicino Segromigno in Monte, Capannori), Cornino hubi dicitur Casale Lapi (Casalappi, Campiglia Marittima), Monterioni (Montioni, Suvereto), Camiano (Cambiano, Castelfiorentino), Elsa (fiume Elsa), Quaraciano hubi dicitur Miliano (Podere Migliana vicino Corazzano, San Miniato), Pluciano (Piazzano, Lucca), Miciano (Misciano, Camaiore), Conca (vicino Torre, Lucca), Filituli (Filettole, Vecchiano).</placeName>
-                                <orgName>San Maurizio di Filettole, San Pietro di Roma (chiesa matrice), San Martino di Lucca (chiesa matrice).</orgName>
-                            </ab>
+                            <ab>L’imperatore Ludovico siede in giudizio, alla destra di papa
+                        Benedetto, Romam, in palacio quod est fundatum iusta basilica beatissimi
+                        Petri principis apostolorum, in laubia magiore ipsius palacii; assistono,
+                        fra gli altri, Pietro, Silvestro, Orso, Leone, Romano, Giovanni, Alone,
+                        Bonoso, Gregorio, altro Romano, Cosma, altro Gregorio episcopis uius Romanie
+                        finibus; i vescovi Odalberto di Luni, Adalberto di Bergamo, Everardo di
+                        Piacenza, Garibaldo di Novara, Elbungo di Parma, Ildegherio di Lodi, Ardengo
+                        di Brescia, Grasulfo di Firenze, Alboino di Volterra, Pietro di Arezzo,
+                        Erlando di Fiesole, Asterio di Pistoia; i conti Adelelmo, Rotbaldo e
+                        Gottifredi; Stefano, Teufilatto, Gregorio omiculator, Graziano, Adriano,
+                        Teodoro, Leone, Crescenzio, Benedetto, Giovanni, Anastasio iudices huhic
+                        Romanie; Walperto, Aquilino, Farimundo, Vivenzio detto Boderato, Stabile e
+                        Stadelberto iudices idem augusti; Pietro, Sicardo e Teutelmo notai del sacro
+                        palazzo; Winigildo, Auberto, Suppone e altro Winigildo. Si presenta Pietro,
+                        vescovo di Lucca, con il suo advocatus Eliezar detto Bonizio del fu Eriteo,
+                        dichiarando che iam plures vices ha denunciato all’imperatore, tamque in
+                        civitate Papia quamque et per alias locas, Lamberto del fu Rodilando de
+                        civitate Lucense, il quale tiene iniuste casas et res che spettano alla
+                        chiesa lucchese: infra eadem civitate, l’ancilla Adreperga, casis et rebus
+                        poste in locas et fundas Castelioni prope Sudrominio, Cornino hubi dicitur
+                        Casale Lapi, Monterioni comitato Popoloniense, un appezzamento di terra
+                        posto hubi dicitur a Pulia, in loco et fundo Camiano prope fluvio Elsa, in
+                        loco et fundo Quaraciano hubi dicitur Miliano et Pluciano, in loco et fundo
+                        Miciano, res poste in Conca, la chiesa di San Maurizio posta in loco et
+                        fundo Filituli. Avendo l’imperatore inviato all’accusato una epistola ad
+                        vestro anolo sigilata, con l’ordine di recarsi civitate Luca o ihic civitate
+                        Roma alla sua presenza, iusticiam faciendum, e non essendosi quest’ultimo
+                        presentato, il vescovo chiede di essere investito delle suddette casis et
+                        rebus salva querela. L’imperatore ordina a Walteri, vassus et missus suo, di
+                        procedere all’investitura per fuste e pone sopra gli stessi beni un banno
+                        imperiale di 2000 mancusi d’oro; metà da versare alla camera imperiale, metà
+                        pars del vescovato. L’inviato e i giudici imperiali chiedono al notaio
+                        imperiale Tommaso la scrittura della noticia. <persName>Autori: + Ludovico
+                            imperator, + Benedetto episcopus, Pietro episcopus, Eliezar detto
+                            Bonizio del fu Eriteo advocatus. Scrittore: Tommaso notarius dom. imp.
+                            Testimoni sottoscrittori: Odalberto episcopus, Walperto iudex dom. imp.,
+                            Aquilino iudex dom. imp., Farimundo iudex dom. imp., Stabile iudex dom.
+                            imp., Stadelberto iudex dom. imp. Altro: Pietro episcopus, Silvestro
+                            episcopus, Orso episcopus, Leone episcopus, Romano episcopus, Giovanni
+                            episcopus, Alone episcopus, Bonoso episcopus, Gregorio episcopus, Romano
+                            episcopus, Cosma episcopus, Gregorio episcopus, Adalberto episcopus,
+                            Everardo episcopus, Garibaldo episcopus, Elbungo episcopus, Ildegherio
+                            episcopus, Ardengo episcopus, Grasulfo episcopus, Alboino episcopus,
+                            Pietro episcopus, Erlando episcopus, Asterio episcopus, Adelelmo comes,
+                            Rotbaldo comes, Gottifredi comes, Stefano iudex, Teufilatto iudex,
+                            Gregorio omiculator, Graziano iudex, Adriano iudex, Teodoro iudex, Leone
+                            iudex, Crescenzio iudex, Benedetto iudex, Giovanni iudex, Anastasio
+                            iudex, Vivenzio detto Boderato iudex dom. imp., Pietro notarius dom.
+                            imp., Sicardo notarius dom. imp., Teutelmo notarius dom. imp.,
+                            Winigildo, Auberto, Suppone, Winigildo, Lamberto del fu Rodilando de
+                            civitate Lucense, Adreperga, Walteri vassus dom. imp.</persName>
+                        <placeName>Roma (Roma), Luca, a Pulia (Lucca), Populonia (Populonia,
+                            Piombino), Castelioni prope Sudrominio (Castellaccio vicino Segromigno
+                            in Monte, Capannori), Cornino hubi dicitur Casale Lapi (Casalappi,
+                            Campiglia Marittima), Monterioni (Montioni, Suvereto), Camiano
+                            (Cambiano, Castelfiorentino), Elsa (fiume Elsa), Quaraciano hubi dicitur
+                            Miliano (Podere Migliana vicino Corazzano, San Miniato), Pluciano
+                            (Piazzano, Lucca), Miciano (Misciano, Camaiore), Conca (vicino Torre,
+                            Lucca), Filituli (Filettole, Vecchiano).</placeName>
+                        <orgName>San Maurizio di Filettole, San Pietro di Roma (chiesa matrice), San
+                            Martino di Lucca (chiesa matrice).</orgName>
+                    </ab>
                         </div>
                     </div>
                     <div type="bibliography" subtype="editions">
-                        <p>MDL, V/3, n. 1768, pp. 639-640</p>
-                        <p>I diplomi italiani di Ludovico III, n. 6, pp. 18-21</p>
-                        <p>I placiti del Regnum Italiae, I, n. 111, pp. 410-414</p>
+                        <p>MDL, 5/3, n. 1768, pp. 639-640; I diplomi italiani di Ludovico III, n. 6,
+                    pp. 18-21; Manaresi, n. 111, pp. 410-414;
+                        <ref>http://saame.it/fonte/placiti-toscani-toscana-22/</ref>.</p>
                     </div>
                     <div type="bibliography" subtype="additional">
                         <p/>
@@ -107,10 +159,7 @@ Altro: Pietro episcopus, Silvestro episcopus, Orso episcopus, Leone episcopus, R
                         <p/>
                     </div>
                     <div type="commentary">
-                        <p>Anno d’impero di Ludovico.
-Vassalli imperiali.
-Maremma.</p>
-                        <p><note>Mod_id: 48</note></p>
+                        <p/>
                     </div>
                 </body>
             </text>
