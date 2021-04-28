@@ -536,9 +536,10 @@
     </xsl:variable>
     
     <div class="row network_box" id="mygraph_box">
+      <!--<script type="text/javascript">popup() { getElementById("myPopup").classList.toggle("show");}</script>-->
       <div class="legend">
         <p>
-          <span class="autocomplete"><input type="text" id="inputSearch" placeholder="Type a name here or select one or more items in the graph"  title="To select more items, hold Shift and click on them in the graph"/></span><button id="btnSearch" class="button">Show</button> <button id="reset" class="button">Reset</button> <button onclick="openFullscreen();" class="button">Fullscreen</button>
+          <span class="autocomplete"><input type="text" id="inputSearch" placeholder="Type a name here or select one or more items in the graph"  title="To select more items, hold Shift and click on them in the graph"/></span><button id="btnSearch" class="button">Show</button> <button id="reset" class="button">Reset</button> <button onclick="openFullscreen();" class="button">Fullscreen</button> <!--<button onclick="popup()" class="button">Help</button>-->
         </p>
       </div>
       <div id="mygraph"></div>
@@ -560,7 +561,6 @@
         var graph_items = <xsl:value-of select="$graph_items"/>, graph_labels = <xsl:value-of select="$graph_labels"/>, my_graph = "mygraph", box = "mygraph_box";
        </script>
       <script type="text/javascript" src="../../assets/scripts/networks.js"></script>
-      <!--<script type="text/javascript" src="../../assets/scripts/wine.js"></script>-->
     </div>
   </xsl:template>
   
