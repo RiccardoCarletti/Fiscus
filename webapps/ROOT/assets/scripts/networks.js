@@ -686,8 +686,8 @@ document.addEventListener("click", function (e) {
 
 /* ***** cytoscape.js ***** */
         const cy_style = [
-        { selector: 'edge', style: { 'curve-style': 'bezier', 'width': 3, 'label': 'data(name)', 'target-arrow-shape': 'triangle', 'opacity': '0.6', 'z-index': '0', 'overlay-opacity': '0', 'events': 'no' } },
-        { selector: 'node', style: { 'font-size': '22', 'label': 'data(name)', 'text-wrap': 'wrap', 'text-max-width': '280', 'text-valign': 'center', 'text-halign': 'center', 'shape': 'round-rectangle', 'padding': '20', 'border-width': 3, 'border-color': 'black', 'border-style': 'solid', 'font-weight': 'normal', 'text-events': 'yes', 'color': '#000', 'text-outline-width': '1', 'text-outline-opacity': '1', 'overlay-color': '#fff', 'width': 'label', 'height': 'label' } }, /* 'width': '300', 'height': '100' } }*/
+        { selector: 'edge', style: { 'curve-style': 'bezier', 'width': 3, 'label': 'data(name)', 'target-arrow-shape': 'triangle', 'opacity': '0.6', 'z-index': '0' } },
+        { selector: 'node', style: { 'font-size': '22', 'font-weight': 'bold' , 'label': 'data(name)', 'text-wrap': 'wrap', 'text-max-width': '280', 'text-valign': 'center', 'text-halign': 'center', 'shape': 'round-rectangle', 'padding': '20', 'border-width': 3, 'border-color': 'black', 'border-style': 'solid', 'width': 'label', 'height': 'label' } },
         { selector: 'node[type="people_only"]', style: { 'background-color': '#97c2fc' } },
         { selector: 'node[type="people"]', style: { 'background-color': '#ffff80' } },
         { selector: 'node[type="juridical_persons"]', style: { 'background-color': '#ffb4b4' } },
@@ -697,31 +697,17 @@ document.addEventListener("click", function (e) {
         { selector: 'edge[type="green"]', style: { 'line-color': 'green', 'target-arrow-color': 'green' } },
         { selector: 'edge[type="blue"]', style: { 'line-color': 'blue', 'target-arrow-color': 'blue' } },
         { selector: 'edge[type="orange"]', style: { 'line-color': 'orange', 'target-arrow-color': 'orange' } },
-        /*toggle*/
-        { selector: 'node[type="people"].people_hidden', style: { 'display': 'none' } },
-        { selector: 'node[type="juridical_persons"].juridical_persons_hidden', style: { 'display': 'none' } },
-        { selector: 'node[type="estates"].estates_hidden', style: { 'display': 'none' } },
-        { selector: 'node[type="places"].places_hidden', style: { 'display': 'none' } },
-        {selector: 'edge[type="red"].red_hidden', style: {'display': 'none'} },
-        {selector: 'edge[type="green"].green_hidden', style: {'display': 'none'} },
-        {selector: 'edge[type="blue"].blue_hidden', style: {'display': 'none'} },
-        {selector: 'edge[type="orange"].orange_hidden', style: {'display': 'none'} },
-        {selector: 'edge.relation_type_hidden', style: {'label': ''} },
+        
         {selector: 'node.searched', style: {'border-width': 10, 'border-color': 'red', 'width': '400px', 'height': '150px'} },
         {selector: '.hidden', style: {'display': 'none'} },
-        {selector: ':selected', style: {'border-width': 10, 'border-color': 'orange' } },
-        /*wine*/
-        {selector: 'node.highlighted', style: {'z-index': '9999'} },
-        {selector: 'edge.highlighted', style: {'opacity': '0.8', 'width': '4', 'z-index': '9999'} },
-        {selector: '.faded', style: {'events': 'no'} },
-        {selector: 'node.faded', style: {'opacity': '0.08'} },
-        {selector: 'edge.faded', style: {'opacity': '0.06'} }
+        {selector: '.hidden_label', style: {'label': ''} },
+        {selector: ':selected', style: {'border-width': 10, 'border-color': 'orange' } }
         ];
         
         var inputSearch = "inputSearch", inputVal = "#inputSearch", btnSearch = "#btnSearch", reset = "#reset";
         var toggle_people = "toggle_people", toggle_juridical_persons = "toggle_juridical_persons", toggle_estates = "toggle_estates", 
         toggle_places = "toggle_places", toggle_red = "toggle_red", toggle_green = "toggle_green", toggle_blue = "toggle_blue", 
-        toggle_orange = "toggle_orange", toggle_relation_labels = "toggle_relation_labels";
+        toggle_orange = "toggle_orange", toggle_labels = "toggle_labels";
           
         const cy_layout = { name: 'fcose', animate: false, nodeRepulsion: 100000000, nodeSeparation: 100, randomize: true, idealEdgeLength: 300,  boxSelectionEnabled: true, selectionType: 'additive' };
         
@@ -735,15 +721,15 @@ document.addEventListener("click", function (e) {
        else if (document.getElementById(full).msRequestFullscreen) { document.getElementById(full).msRequestFullscreen(); } } 
        
         /*toggle*/
-      document.getElementById(toggle_people).addEventListener("click", function() { cy.elements().toggleClass('people_hidden'); });
-      document.getElementById(toggle_juridical_persons).addEventListener("click", function() { cy.elements().toggleClass('juridical_persons_hidden'); });
-      document.getElementById(toggle_estates).addEventListener("click", function() { cy.elements().toggleClass('estates_hidden'); });
-      document.getElementById(toggle_places).addEventListener("click", function() { cy.elements().toggleClass('places_hidden'); });
-      document.getElementById(toggle_red).addEventListener("click", function() { cy.elements().toggleClass('red_hidden'); });
-      document.getElementById(toggle_green).addEventListener("click", function() { cy.elements().toggleClass('green_hidden'); });
-      document.getElementById(toggle_blue).addEventListener("click", function() { cy.elements().toggleClass('blue_hidden'); });
-      document.getElementById(toggle_orange).addEventListener("click", function() { cy.elements().toggleClass('orange_hidden'); });
-      document.getElementById(toggle_relation_labels).addEventListener("click", function() { cy.elements().toggleClass('relation_type_hidden'); }); 
+      document.getElementById(toggle_people).addEventListener("click", function() { cy.$('[type="people"]').toggleClass('hidden'); });
+      document.getElementById(toggle_juridical_persons).addEventListener("click", function() { cy.$('[type="juridical_persons"]').toggleClass('hidden'); });
+      document.getElementById(toggle_estates).addEventListener("click", function() { cy.$('[type="estates"]').toggleClass('hidden'); });
+      document.getElementById(toggle_places).addEventListener("click", function() { cy.$('[type="places"]').toggleClass('hidden'); });
+      document.getElementById(toggle_red).addEventListener("click", function() { cy.$('[type="red"]').toggleClass('hidden'); });
+      document.getElementById(toggle_green).addEventListener("click", function() { cy.$('[type="green"]').toggleClass('hidden'); });
+      document.getElementById(toggle_blue).addEventListener("click", function() { cy.$('[type="blue"]').toggleClass('hidden'); });
+      document.getElementById(toggle_orange).addEventListener("click", function() { cy.$('[type="orange"]').toggleClass('hidden'); });
+      document.getElementById(toggle_labels).addEventListener("click", function() { cy.edges().toggleClass('hidden_label'); }); 
       
         /*autocomplete + search + show only selected + reset*/
         autocomplete(document.getElementById(inputSearch), graph_labels);

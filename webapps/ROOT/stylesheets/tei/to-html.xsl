@@ -445,11 +445,24 @@
     </xsl:variable>
     
     <div class="row network_box" id="mynetwork_box">
-      <!--<script type="text/javascript">popup() { getElementById("myPopup").classList.toggle("show");}</script>-->
       <div class="legend">
-        <p>
-          <span class="autocomplete"><input type="text" id="inputSearch" placeholder="Type a name here or select one or more items in the graph"  title="To select more items, hold Shift and click on them in the graph"/></span><button id="btnSearch" class="button">Show</button> <button id="reset" class="button">Reset</button> <button onclick="openFullscreen();" class="button">Fullscreen</button> <!--<button onclick="popup()" class="button">Help</button>-->
+        <p id="help"><a href="#">[CLOSE]</a> 
+          <br/><strong>Ricerca tramite Search</strong>
+          <br/>- Digitare il nome nel campo Search, selezionarlo fra i risultati che compaiono nel menu a tendina e cliccare su "Show". 
+          <br/>- Per effettuare una nuova ricerca che non tenga conto delle ricerche precedenti, occorre prima cliccare su "Reset".
+          <br/>- Per visualizzare assieme più elementi, occorre ripetere la procedura senza cliccare su "Reset" fra le ricerche, assicurandosi che l’elemento cercato in precedenza sia rimasto selezionato, cioè bordato di arancione (cosa che avviene in automatico se non si clicca sul grafico; in caso contrario è comunque possibile riselezionarlo cliccandovi sopra).
+          
+          <br/><br/><strong>Ricerca tramite selezione sul grafico</strong>
+          <br/>- Cliccare su uno o più elementi nel grafico (tenendo premuto Shift se gli elementi sono più d’uno) e cliccare su "Show".
+          <br/>- È possibile combinare la ricerca tramite Search con quella tramite selezione sul grafico: selezionare prima gli elementi sul grafico (assicurandosi che siano bordati di arancione) ed effettuare poi la ricerca tramite Search, cliccando infine su "Show".
+          <br/>- Una volta effettuata una ricerca tramite Search e/o tramite selezione sul grafico, è possibile aggiungere progressivamente alla visualizzazione gli elementi collegati ad uno o più degli elementi visualizzati cliccando con il tasto destro del mouse (o con l’equivalente combinazione su un trackpad) sull’elemento in questione.
+          
+          <br/><br/><strong>Tips</strong>
+          <br/>- Se al primo utilizzo la ricerca non funziona, occorre ricaricare la pagina e riprovare.
+          <br/>- Se cliccando su "Show" non zooma subito sugli elementi cercati, occorre cliccare una seconda volta su "Show".
+          <br/>- Dopo aver deselezionato uno o più tipi di relazioni (Family relations, Interpersonal bonds...) per nasconderle nel grafico, occorre posizionarsi con il puntatore (o cliccare) su un punto qualsiasi del grafico affinché queste vengano effettivamente nascoste.
         </p>
+        <p><span class="autocomplete"><input type="text" id="inputSearch" placeholder="Search"/></span><button id="btnSearch" class="button">Show</button> <button id="reset" class="button">Reset</button> <button onclick="openFullscreen();" class="button">Fullscreen</button> <a class="button" href="#help">Help</a></p>
       </div>
       <div id="mynetwork"></div>
       <div class="legend">
@@ -459,7 +472,7 @@
           <span class="green_label">➔</span> Interpersonal bonds <input type="checkbox" id="toggle_green" checked="true"/>
           <span id="toggle_orange"/>
           <span class="blue_label">➔</span> Other interpersonal links <input type="checkbox" id="toggle_blue" checked="true"/>
-          <span class="relations_label"> Relation types </span> <input type="checkbox" id="toggle_relation_labels" checked="true"/>
+          <span class="relations_label"> Relation types </span> <input type="checkbox" id="toggle_labels" checked="true"/>
         </p>
       </div>
       
@@ -537,12 +550,27 @@
     </xsl:variable>
     
     <div class="row network_box" id="mygraph_box">
-      <!--<script type="text/javascript">popup() { getElementById("myPopup").classList.toggle("show");}</script>-->
       <div class="legend">
-        <p>
-          <span class="autocomplete"><input type="text" id="inputSearch" placeholder="Type a name here or select one or more items in the graph"  title="To select more items, hold Shift and click on them in the graph"/></span><button id="btnSearch" class="button">Show</button> <button id="reset" class="button">Reset</button> <button onclick="openFullscreen();" class="button">Fullscreen</button> <!--<button onclick="popup()" class="button">Help</button>-->
+        <p id="help"><a href="#">[CLOSE]</a> 
+          <br/><strong>Ricerca tramite Search</strong>
+          <br/>- Digitare il nome nel campo Search, selezionarlo fra i risultati che compaiono nel menu a tendina e cliccare su "Show". 
+          <br/>- Per effettuare una nuova ricerca che non tenga conto delle ricerche precedenti, occorre prima cliccare su "Reset".
+          <br/>- Per visualizzare assieme più elementi, occorre ripetere la procedura senza cliccare su "Reset" fra le ricerche, assicurandosi che l’elemento cercato in precedenza sia rimasto selezionato, cioè bordato di arancione (cosa che avviene in automatico se non si clicca sul grafico; in caso contrario è comunque possibile riselezionarlo cliccandovi sopra).
+          
+          <br/><br/><strong>Ricerca tramite selezione sul grafico</strong>
+          <br/>- Cliccare su uno o più elementi nel grafico (tenendo premuto Shift se gli elementi sono più d’uno) e cliccare su "Show".
+          <br/>- È possibile combinare la ricerca tramite Search con quella tramite selezione sul grafico: selezionare prima gli elementi sul grafico (assicurandosi che siano bordati di arancione) ed effettuare poi la ricerca tramite Search, cliccando infine su "Show".
+          <br/>- Una volta effettuata una ricerca tramite Search e/o tramite selezione sul grafico, è possibile aggiungere progressivamente alla visualizzazione gli elementi collegati ad uno o più degli elementi visualizzati cliccando con il tasto destro del mouse (o con l’equivalente combinazione su un trackpad) sull’elemento in questione.
+          
+          <br/><br/><strong>Tips</strong>
+          <br/>- Se al primo utilizzo la ricerca non funziona, occorre ricaricare la pagina e riprovare.
+          <br/>- Se cliccando su "Show" non zooma subito sugli elementi cercati, occorre cliccare una seconda volta su "Show".
+          <br/>- Se un gruppo di elementi (People, Juridical persons, Estates, Places) viene selezionato o deselezionato più volte consecutive il sistema si blocca e occorre ricaricare la pagina.
+          <br/>- Dopo aver deselezionato uno o più tipi di relazioni (Family relations, Interpersonal bonds...) per nasconderle nel grafico, occorre posizionarsi con il puntatore (o cliccare) su un punto qualsiasi del grafico affinché queste vengano effettivamente nascoste.
         </p>
+        <p><span class="autocomplete"><input type="text" id="inputSearch" placeholder="Search"/></span><button id="btnSearch" class="button">Show</button> <button id="reset" class="button">Reset</button> <button onclick="openFullscreen();" class="button">Fullscreen</button> <a class="button" href="#help">Help</a></p>
       </div>
+      
       <div id="mygraph"></div>
       <div class="legend">
         <p>
@@ -554,7 +582,7 @@
           <span class="green_label">➔</span> Interpersonal bonds <input type="checkbox" id="toggle_green" checked="true"/>
           <span class="orange_label">➔</span> Other personal links <input type="checkbox" id="toggle_orange" checked="true"/>
           <span class="blue_label">➔</span> Other links <input type="checkbox" id="toggle_blue" checked="true"/>
-          <span class="relations_label"> Relation types </span> <input type="checkbox" id="toggle_relation_labels" checked="true"/>
+          <span class="relations_label"> Relation types </span> <input type="checkbox" id="toggle_labels" checked="true"/>
         </p>
       </div>
       

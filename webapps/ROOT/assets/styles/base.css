@@ -246,6 +246,21 @@ margin-left:20px;
 }
 
 
+/* Popup help graph */
+#help {
+  display: none;
+  z-index: 999999999;
+}
+#help:target {
+  display: block;
+  text-align: justify;
+  padding: 1em;
+}
+a:link.button, a:visited.button, a:focus.button, a:hover.button, a:active.button {
+    color: black;
+}
+
+
 /*autocomplete*/
 .autocomplete {
   width: 300px;
