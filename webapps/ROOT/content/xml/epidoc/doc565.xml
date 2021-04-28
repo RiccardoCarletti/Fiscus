@@ -86,7 +86,8 @@
                             <ab>L’<rs key="#Emperor/king">imperatore</rs>
                         <persName key="#Emperor/king">Ludovico</persName> siede in giudizio, alla
                         destra di <rs key="#Popes">papa</rs>
-                        <persName key="#Popes">Benedetto</persName>, <placeName>Romam</placeName>,
+                        <persName key="#Popes">Benedetto</persName>, <placeName ref="#places/52"
+                            key="#Palatium #Laubia/topia #Mother_churches #Popes">Romam</placeName>,
                         in <rs key="#Palatium">palacio</rs> quod est fundatum iusta <orgName
                             key="#Mother_churches"><rs key="#Mother_churches">basilica</rs>
                             beatissimi Petri principis apostolorum</orgName>, in <rs
@@ -101,52 +102,71 @@
                         Teodoro, Leone, Crescenzio, Benedetto, Giovanni, Anastasio iudices huhic
                         Romanie; Walperto, Aquilino, Farimundo, Vivenzio detto Boderato, Stabile e
                         Stadelberto iudices idem augusti; Pietro, Sicardo e Teutelmo notai del sacro
-                        palazzo; Winigildo, Auberto, Suppone e altro Winigildo. Si presenta Pietro,
-                        vescovo di Lucca, con il suo advocatus Eliezar detto Bonizio del fu Eriteo,
-                        dichiarando che iam plures vices ha denunciato all’imperatore, tamque in
-                        civitate Papia quamque et per alias locas, Lamberto del fu Rodilando de
-                        civitate Lucense, il quale tiene iniuste casas et res che spettano alla
-                        chiesa lucchese: infra eadem civitate, l’ancilla Adreperga, casis et rebus
-                        poste in locas et fundas Castelioni prope Sudrominio, Cornino hubi dicitur
-                        Casale Lapi, Monterioni comitato Popoloniense, un appezzamento di terra
-                        posto hubi dicitur a Pulia, in loco et fundo Camiano prope fluvio Elsa, in
-                        loco et fundo Quaraciano hubi dicitur Miliano et Pluciano, in loco et fundo
-                        Miciano, res poste in Conca, la chiesa di San Maurizio posta in loco et
-                        fundo Filituli. Avendo l’imperatore inviato all’accusato una epistola ad
-                        vestro anolo sigilata, con l’ordine di recarsi civitate Luca o ihic civitate
-                        Roma alla sua presenza, iusticiam faciendum, e non essendosi quest’ultimo
-                        presentato, il vescovo chiede di essere investito delle suddette casis et
-                        rebus salva querela. L’imperatore ordina a Walteri, vassus et missus suo, di
-                        procedere all’investitura per fuste e pone sopra gli stessi beni un banno
-                        imperiale di 2000 mancusi d’oro; metà da versare alla camera imperiale, metà
-                        pars del vescovato. L’inviato e i giudici imperiali chiedono al notaio
-                        imperiale Tommaso la scrittura della noticia. Autori: + Ludovico imperator,
-                        + Benedetto episcopus, Pietro episcopus, Eliezar detto Bonizio del fu Eriteo
-                        advocatus. Scrittore: Tommaso notarius dom. imp. Testimoni sottoscrittori:
-                        Odalberto episcopus, Walperto iudex dom. imp., Aquilino iudex dom. imp.,
-                        Farimundo iudex dom. imp., Stabile iudex dom. imp., Stadelberto iudex dom.
-                        imp. Altro: Pietro episcopus, Silvestro episcopus, Orso episcopus, Leone
-                        episcopus, Romano episcopus, Giovanni episcopus, Alone episcopus, Bonoso
-                        episcopus, Gregorio episcopus, Romano episcopus, Cosma episcopus, Gregorio
-                        episcopus, Adalberto episcopus, Everardo episcopus, Garibaldo episcopus,
-                        Elbungo episcopus, Ildegherio episcopus, Ardengo episcopus, Grasulfo
-                        episcopus, Alboino episcopus, Pietro episcopus, Erlando episcopus, Asterio
-                        episcopus, Adelelmo comes, Rotbaldo comes, Gottifredi comes, Stefano iudex,
-                        Teufilatto iudex, Gregorio omiculator, Graziano iudex, Adriano iudex,
-                        Teodoro iudex, Leone iudex, Crescenzio iudex, Benedetto iudex, Giovanni
-                        iudex, Anastasio iudex, Vivenzio detto Boderato iudex dom. imp., Pietro
-                        notarius dom. imp., Sicardo notarius dom. imp., Teutelmo notarius dom. imp.,
-                        Winigildo, Auberto, Suppone, Winigildo, Lamberto del fu Rodilando de
-                        civitate Lucense, Adreperga, Walteri vassus dom. imp. Roma (Roma), Luca, a
-                        Pulia (Lucca), Populonia (Populonia, Piombino), Castelioni prope Sudrominio
-                        (Castellaccio vicino Segromigno in Monte, Capannori), Cornino hubi dicitur
-                        Casale Lapi (Casalappi, Campiglia Marittima), Monterioni (Montioni,
-                        Suvereto), Camiano (Cambiano, Castelfiorentino), Elsa (fiume Elsa),
-                        Quaraciano hubi dicitur Miliano (Podere Migliana vicino Corazzano, San
-                        Miniato), Pluciano (Piazzano, Lucca), Miciano (Misciano, Camaiore), Conca
-                        (vicino Torre, Lucca), Filituli (Filettole, Vecchiano). San Maurizio di
-                        Filettole, San Pietro di Roma (chiesa matrice), San Martino di Lucca (chiesa
-                        matrice).</ab>
+                        palazzo; Winigildo, Auberto, Suppone e altro Winigildo. Si presenta
+                            <persName ref="#people/213" key="#Bishops">Pietro</persName>, <rs
+                            key="#Bishops">vescovo</rs> di <placeName ref="#places/4"
+                            key="#Cities #Mother_churches #Bishops">Lucca</placeName>, con il suo
+                            <rs key="#Advocatus_of_other_public_authorities">advocatus</rs>
+                        <persName key="#Advocatus_of_other_public_authorities">Eliezar detto
+                            Bonizio</persName> del <persName>fu Eriteo</persName>, dichiarando che
+                        iam plures vices ha denunciato all’imperatore, tamque in <rs key="#Cities"
+                            >civitate</rs>
+                        <placeName key="#Cities" ref="#places/65">Papia</placeName> quamque et per
+                        alias locas, <persName ref="#people/147">Lamberto</persName> del
+                            <persName>fu Rodilando</persName> de <rs key="#Cities">civitate</rs>
+                        Lucense, il quale tiene iniuste casas et res che spettano <orgName
+                            key="#Mother_churches" ref="#juridical_persons/68"><rs
+                                key="#Mother_churches">ecclesie</rs> Lucense</orgName>: infra eadem
+                        civitate, l’<rs key="#Slave">ancilla</rs>
+                        <persName key="#Slave">Adreperga</persName>, casis et rebus poste in locas
+                        et fundas <placeName>Castelioni</placeName> prope
+                            <placeName>Sudrominio</placeName>, <placeName>Cornino</placeName> hubi
+                        dicitur <placeName>Casale Lapi</placeName>,
+                            <placeName>Monterioni</placeName><geogName key="#Comitatus">
+                            <rs key="#Comitatus">comitato</rs>
+                            <placeName key="#Comitatus">Popoloniense</placeName></geogName>, un
+                        appezzamento di terra posto hubi dicitur <placeName>a Pulia</placeName>, in
+                        loco et fundo <placeName key="#Rivers">Camiano</placeName> prope <rs
+                            key="#Rivers">fluvio Elsa</rs>, in loco et fundo
+                            <placeName>Quaraciano</placeName> hubi dicitur
+                            <placeName>Miliano</placeName> et <placeName>Pluciano</placeName>, in
+                        loco et fundo <placeName>Miciano</placeName>, res poste in
+                            <placeName>Conca</placeName>, la <rs>chiesa</rs> di San Maurizio posta
+                        in loco et fundo Filituli. Avendo l’imperatore inviato all’accusato una
+                        epistola ad vestro anolo sigilata, con l’ordine di recarsi civitate Luca o
+                        ihic civitate Roma alla sua presenza, iusticiam faciendum, e non essendosi
+                        quest’ultimo presentato, il vescovo chiede di essere investito delle
+                        suddette casis et rebus salva querela. L’imperatore ordina a Walteri, vassus
+                        et missus suo, di procedere all’investitura per fuste e pone sopra gli
+                        stessi beni un banno imperiale di 2000 mancusi d’oro; metà da versare alla
+                        camera imperiale, metà pars del vescovato. L’inviato e i giudici imperiali
+                        chiedono al notaio imperiale Tommaso la scrittura della noticia. Autori: +
+                        Ludovico imperator, + Benedetto episcopus, Pietro episcopus, Eliezar detto
+                        Bonizio del fu Eriteo advocatus. Scrittore: Tommaso notarius dom. imp.
+                        Testimoni sottoscrittori: Odalberto episcopus, Walperto iudex dom. imp.,
+                        Aquilino iudex dom. imp., Farimundo iudex dom. imp., Stabile iudex dom.
+                        imp., Stadelberto iudex dom. imp. Altro: Pietro episcopus, Silvestro
+                        episcopus, Orso episcopus, Leone episcopus, Romano episcopus, Giovanni
+                        episcopus, Alone episcopus, Bonoso episcopus, Gregorio episcopus, Romano
+                        episcopus, Cosma episcopus, Gregorio episcopus, Adalberto episcopus,
+                        Everardo episcopus, Garibaldo episcopus, Elbungo episcopus, Ildegherio
+                        episcopus, Ardengo episcopus, Grasulfo episcopus, Alboino episcopus, Pietro
+                        episcopus, Erlando episcopus, Asterio episcopus, Adelelmo comes, Rotbaldo
+                        comes, Gottifredi comes, Stefano iudex, Teufilatto iudex, Gregorio
+                        omiculator, Graziano iudex, Adriano iudex, Teodoro iudex, Leone iudex,
+                        Crescenzio iudex, Benedetto iudex, Giovanni iudex, Anastasio iudex, Vivenzio
+                        detto Boderato iudex dom. imp., Pietro notarius dom. imp., Sicardo notarius
+                        dom. imp., Teutelmo notarius dom. imp., Winigildo, Auberto, Suppone,
+                        Winigildo, Lamberto del fu Rodilando de civitate Lucense, Adreperga, Walteri
+                        vassus dom. imp. Roma (Roma), Luca, a Pulia (Lucca), Populonia (Populonia,
+                        Piombino), Castelioni prope Sudrominio (Castellaccio vicino Segromigno in
+                        Monte, Capannori), Cornino hubi dicitur Casale Lapi (Casalappi, Campiglia
+                        Marittima), Monterioni (Montioni, Suvereto), Camiano (Cambiano,
+                        Castelfiorentino), Elsa (fiume Elsa), Quaraciano hubi dicitur Miliano
+                        (Podere Migliana vicino Corazzano, San Miniato), Pluciano (Piazzano, Lucca),
+                        Miciano (Misciano, Camaiore), Conca (vicino Torre, Lucca), Filituli
+                        (Filettole, Vecchiano). San Maurizio di Filettole, San Pietro di Roma
+                        (chiesa matrice), San Martino di Lucca (chiesa matrice).</ab>
                         </div>
                     </div>
                     <div type="bibliography" subtype="editions">
@@ -161,7 +181,9 @@
                         <p/>
                     </div>
                     <div type="commentary">
-                        <p/>
+                        <p>Sottoscrizioni autografe: il vescovo Odalberto, il giudice Walperto, il
+                    giudice Aquilino, il giudice Farimundo, il giudice Stabile, il giudice
+                    Stadelberto.</p>
                     </div>
                 </body>
             </text>
