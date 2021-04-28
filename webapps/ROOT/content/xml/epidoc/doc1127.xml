@@ -4,7 +4,8 @@
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
-                <title></title>
+                <title>Biblioteca civica di Bergamo, <foreign>Salone</foreign>, cass. G, cassetto F
+                    n° 28</title>
             </titleStmt>
             <editionStmt>
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
@@ -30,10 +31,10 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#"/>
-                            <rs type="record_source" ref="#"/>
-                            <rs type="document_tradition" ref="#"/>
-                            <rs type="fiscal_property"/>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -41,10 +42,10 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate notBefore="0001" notAfter="0001" when="0001"> 
-                                <note type="displayed_date"></note>
-                                <note type="dating_elements"></note>
-                                <note type="topical_date"></note>
+                            <origDate when="0904-02-21">
+                                <note type="displayed_date">904 february 21</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Monza</note>
                             </origDate>
                             <origPlace/>
                         </origin>
@@ -72,7 +73,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2021-02-08">creation of record</change>
+                <change when="2021-02-08" who="Chiara Stedile">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -80,11 +81,52 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab></ab>
+                    <ab>In nomine sanctae et individuae Trinitatis. Berengarius divina favente
+                        clementia rex. Que pro sanctorum amore regius animus ipsorum ecclesiis
+                        celesti desiderio succensus prompta studet voluntate conferre, ad sue
+                        salutis augmentum ea pertinere atque proficere nulli prorsus constat
+                        ambiguum. Quapropter omnium fidelium sancte Dei Ecclesie nostrorumque
+                        presentium scilicet et futurorum comperiat industria, Hildegarium
+                        venerabilem episcopum et Sigefredum gloriosum sacri palatii [nostri] comitem
+                        nec non et Alkerium comitem nostram exorasse clementiam, quatenus pro Dei
+                        omnipotentis amore nostreque anime remedio quandam curtem iuris regni nostri
+                        que Murgula dicitur, in territorio Bergomensi adiacentem subtus ipsam
+                        civitatem ecclesie Beati Alexandri, ubi eius venerabile corpus quiescit
+                        humatum, cum omnibus rebus substantiis ac possessionibus suis in integrum
+                        concedere dignaremur, exceptis his quae pridem ex eadem curte pertinentia
+                        Adelberto venerabili episcopo ipsius sancte Bergamensis ecclesie nostri
+                        precepti inscriptione proprietario iure habenda ac possidenda contulimus.
+                        Quorum ratam estimantes petitionem tam pro omnipotentis Dei amore quamque
+                        pro eiusdem beatissimi Alexandri cultu iam dictam curtem Murgulam cum
+                        omnibus adiacentiis et pertinentiis suis, mobilibus et immobilibus, casis
+                        videlicet, terris, vineis, campis, pratis, silvis, salectis, stationibus,
+                        pascuis, acquis acquarumque decursibus, molendinis, ripaticis, mercatis,
+                        theloneis, districtionibus, forestis et forestariis, montibus, planitiebus,
+                        servis utriusque sexus, aldionibus et aldianis, exitibus et regressibus seu
+                        cum universis que dici vel nominari possunt ad eandem cortem respicientibus
+                        iam dicte ecclesie per huius nostre auctoritatis paginam perpetualiter
+                        habenda, tenenda ac possidenda concedimus ac perdonamus, et de nostro iure
+                        atque dominio, sicut nunc nostre parti pertinere videtur, in eius ius et
+                        dominium modis omnibus transfundimus atque largimur, absque contradictione
+                        minoratione vel molestia cuiuscumque, exceptis his que quondam iam dicto
+                        Adelberto venerabili episcopo nostre inscriptionis dono hereditario iure
+                        contulimus, eo videlicet ordine, ut pontifex iam dicte ecclesie qui pro
+                        tempore ipsi prefuerit supradicta omnia ad ius ipsius ecclesie teneat,
+                        possideat, disponat atque vindicet prout omnes alias res que a pontificibus
+                        eiusdem ecclesie priscis temporibus fuerunt possesse ac vindicate. Si quis
+                        igitur hoc nostre concessionis preceptum aliquando infringere aut violare
+                        quesierit, ne quod temptat perficere possit, noverit se compositurum auri
+                        optimi libras quinquaginta, medietatem palatio nostro et medietatem
+                        prelibate ecclesie. Quod ut verius credatur et diligentius observetur, manu
+                        propria roboratum nostri anuli impressione assignari precepimus. Signum
+                        domni (MF) Berengarii serenissimi regis. Ambrosius cancellarius ad vicem
+                        Ardingi archicancellarii recognovi et subscripsi. (SR) Data VIII kal. Mar.,
+                        anno dominice incarnationis DCCCCIII, domni vero Berengarii piissimi regis
+                        XVII, indictione VII. Actum Moedicia. In Dei nomine faeliciter, amen.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p/>
+                <p>DD B I, pp. 124-127, n° XLIII</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>
