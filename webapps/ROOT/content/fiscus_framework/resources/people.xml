@@ -338,6 +338,8 @@
                     <link type="people" corresp="#people/110" subtype="legallyRecognisedUnionWith"/>
                     <link type="people" corresp="#people/80" subtype="extendedFamilyOf"/>
                     <link type="juridical_persons" corresp="#juridical_persons/53" subtype="link"/>
+                    <link type="people" corresp="#people/242" subtype="motherOf"/>
+                    <link type="people" corresp="#people/267" subtype="grandmotherOf"/>
                 </person>
                 
                 <person>
@@ -347,7 +349,7 @@
                 </person>
                 
                 <person>
-                    <persName>Petrus (881-900) episcopus Pataviensis </persName>
+                    <persName>Petrus (881-900) episcopus Patavinus </persName>
                     <idno>people/58</idno>
                     <note>Archicancellarius.</note>
                     <link type="people" corresp="#people/21" subtype="link"/>
@@ -733,6 +735,8 @@
                     <link type="people" corresp="#people/80" subtype="cousinOf"/>
                     <link type="people" corresp="#people/14" subtype="greatGrandsonOf"/>
                     <link type="juridical_persons" corresp="#juridical_persons/131" subtype="link"/>
+                    <link type="people" corresp="#people/242" subtype="fatherOf"/>
+                    <link type="people" corresp="#people/267" subtype="grandfatherOf"/>
                 </person>
                 <person>
                     <persName>Aio (884-891) princeps </persName>
@@ -1046,6 +1050,7 @@
                     <note>Tomei 2019a, pp. 42-46.</note>
                     <link type="people" corresp="#people/147" subtype="brotherOf"/>
                     <link type="people" corresp="#people/148" subtype="brotherOf"/>
+                    <link type="people" corresp="#people/268" subtype="sonOf"/>
                     <link type="places" corresp="#places/163" subtype="hasConnectionWith"/>
                 </person>
                 <person>
@@ -1055,6 +1060,7 @@
                     <note>Tomei 2019a, pp. 42-46, 48-52.</note>
                     <link type="people" corresp="#people/146" subtype="brotherOf"/>
                     <link type="people" corresp="#people/148" subtype="brotherOf"/>
+                    <link type="people" corresp="#people/268" subtype="sonOf"/>
                 </person>
                 <person>
                     <persName>Rodilandus II (863-879; q. 897; Figli di Rodilando)</persName>
@@ -1063,6 +1069,7 @@
                     <note>Tomei 2019a, pp. 42-45.</note>
                     <link type="people" corresp="#people/146" subtype="brotherOf"/>
                     <link type="people" corresp="#people/147" subtype="brotherOf"/>
+                    <link type="people" corresp="#people/268" subtype="sonOf"/>
                 </person>
                 <person>
                     <persName>Cunimundus III (879-915; Cunimundinghi)</persName>
@@ -2163,6 +2170,7 @@
                     <persName type="other"/>
                     <idno>people/265</idno>
                     <note/>
+                    <link type="places" corresp="#places/52" subtype="hasConnectionWith"/>
                     <link type="juridical_persons" corresp="#juridical_persons/86" subtype="link"/>
                 </person>
                 <person>
@@ -2177,6 +2185,53 @@
                     <persName type="other"/>
                     <idno>people/267</idno>
                     <note/>
+                    <link type="people" subtype="grandsonOf" corresp="#people/110"/>
+                    <link type="people" subtype="grandsonOf" corresp="#people/55"/>
+                    <link type="people" subtype="sonOf" corresp="#people/242"/>
+                </person>
+                <person>
+                    <persName>Rodilandus I (837-861; Figli di Rodilando)</persName>
+                    <persName type="other"/>
+                    <idno>people/268</idno>
+                    <note>Tomei 2019a, pp. 41-44, 47-48.</note>
+                    <link type="people" corresp="#people/146" subtype="fatherOf"/>
+                    <link type="people" corresp="#people/147" subtype="fatherOf"/>
+                    <link type="people" corresp="#people/148" subtype="fatherOf"/>
+                </person>
+                <person>
+                    <persName>Garibaldus (895-902) episcopus Novariensis</persName>
+                    <persName type="other"/>
+                    <idno>people/269</idno>
+                    <note/>
+                    <link type="places" corresp="#places/245" subtype="hasConnectionWith"/>
+                </person>
+                <person>
+                    <persName>Ildegarius (898-915) episcopus Laudensis</persName>
+                    <persName type="other"/>
+                    <idno>people/270</idno>
+                    <note/>
+                    <link type="places" corresp="#places/262" subtype="hasConnectionWith"/>
+                </person>
+                <person>
+                    <persName>Grasulfus (896-930) episcopus Florentinus</persName>
+                    <persName type="other"/>
+                    <idno>people/271</idno>
+                    <note/>
+                    <link type="places" corresp="#places/2" subtype="hasConnectionWith"/>
+                </person>
+                <person>
+                    <persName>Alboinus (901-908) episcopus Volaterranus</persName>
+                    <persName type="other"/>
+                    <idno>people/272</idno>
+                    <note/>
+                    <link type="places" corresp="#places/128" subtype="hasConnectionWith"/>
+                </person>
+                <person>
+                    <persName>Petrus III (900-916) episcopus Aretinus</persName>
+                    <persName type="other"/>
+                    <idno>people/273</idno>
+                    <note/>
+                    <link type="places" corresp="#places/128" subtype="hasConnectionWith"/>
                 </person>
             </listPerson>
         </body>
