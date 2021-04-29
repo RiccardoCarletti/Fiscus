@@ -58,26 +58,26 @@
   <xsl:template match="tei:listChange/tei:change[1]" mode="facet_author">
     <field name="author">
       <xsl:choose>
-        <xsl:when test="contains(@who, 'admin')"><xsl:text>Admin Fiscus</xsl:text></xsl:when>
-        <xsl:when test="contains(@who, 'fiscus')"><xsl:text>Admin Fiscus</xsl:text></xsl:when>
-        <xsl:when test="contains(@who, 'salvaterra')"><xsl:text>Carla Salvaterra</xsl:text></xsl:when>
-        <xsl:when test="contains(@who, 'lazzari')"><xsl:text>Tiziana Lazzari</xsl:text></xsl:when>
-        <xsl:when test="contains(@who, 'tabarrini')"><xsl:text>Lorenzo Tabarrini</xsl:text></xsl:when>
-        <xsl:when test="contains(@who, 'vignodelli')"><xsl:text>Giacomo Vignodelli</xsl:text></xsl:when>
-        <xsl:when test="contains(@who, 'collavini')"><xsl:text>Simone Maria Collavini</xsl:text></xsl:when>
-        <xsl:when test="contains(@who, 'tomei')"><xsl:text>Paolo Tomei</xsl:text></xsl:when>
-        <xsl:when test="contains(@who, 'internullo')"><xsl:text>Dario Internullo</xsl:text></xsl:when>
-        <xsl:when test="contains(@who, 'vlore')"><xsl:text>Vito Loré</xsl:text></xsl:when>
-        <xsl:when test="contains(@who, 'ciccopiedi')"><xsl:text>Caterina Ciccopiedi</xsl:text></xsl:when>
-        <xsl:when test="contains(@who, 'manarini')"><xsl:text>Edoardo Manarini</xsl:text></xsl:when>
-        <xsl:when test="contains(@who, 'vallerani')"><xsl:text>Massimo Valerio Vallerani</xsl:text></xsl:when>
-        <xsl:when test="contains(@who, 'cinello')"><xsl:text>Erika Cinello</xsl:text></xsl:when>
-        <xsl:when test="contains(@who, 'tagliente')"><xsl:text>Antonio Tagliente</xsl:text></xsl:when>
-        <xsl:when test="contains(@who, 'zornetta')"><xsl:text>Giulia Zornetta</xsl:text></xsl:when>
-        <xsl:when test="contains(@who, 'dimuro')"><xsl:text>Alessandro Di Muro</xsl:text></xsl:when>
-        <xsl:when test="contains(@who, 'magos')"><xsl:text>Victor Rivera Magos</xsl:text></xsl:when>
-        <xsl:when test="contains(@who, 'motta')"><xsl:text>Loris Motta</xsl:text></xsl:when>
-        <xsl:when test="contains(@who, 'defalco')"><xsl:text>Fabrizio De Falco</xsl:text></xsl:when>
+        <xsl:when test="contains(lower-case(@who), 'admin')"><xsl:text>Admin Fiscus</xsl:text></xsl:when>
+        <xsl:when test="contains(lower-case(@who), 'fiscus')"><xsl:text>Admin Fiscus</xsl:text></xsl:when>
+        <xsl:when test="contains(lower-case(@who), 'salvaterra')"><xsl:text>Carla Salvaterra</xsl:text></xsl:when>
+        <xsl:when test="contains(lower-case(@who), 'lazzari')"><xsl:text>Tiziana Lazzari</xsl:text></xsl:when>
+        <xsl:when test="contains(lower-case(@who), 'tabarrini')"><xsl:text>Lorenzo Tabarrini</xsl:text></xsl:when>
+        <xsl:when test="contains(lower-case(@who), 'vignodelli')"><xsl:text>Giacomo Vignodelli</xsl:text></xsl:when>
+        <xsl:when test="contains(lower-case(@who), 'collavini')"><xsl:text>Simone Maria Collavini</xsl:text></xsl:when>
+        <xsl:when test="contains(lower-case(@who), 'tomei')"><xsl:text>Paolo Tomei</xsl:text></xsl:when>
+        <xsl:when test="contains(lower-case(@who), 'internullo')"><xsl:text>Dario Internullo</xsl:text></xsl:when>
+        <xsl:when test="contains(lower-case(@who), 'vlore')"><xsl:text>Vito Loré</xsl:text></xsl:when>
+        <xsl:when test="contains(lower-case(@who), 'ciccopiedi')"><xsl:text>Caterina Ciccopiedi</xsl:text></xsl:when>
+        <xsl:when test="contains(lower-case(@who), 'manarini')"><xsl:text>Edoardo Manarini</xsl:text></xsl:when>
+        <xsl:when test="contains(lower-case(@who), 'vallerani')"><xsl:text>Massimo Valerio Vallerani</xsl:text></xsl:when>
+        <xsl:when test="contains(lower-case(@who), 'cinello')"><xsl:text>Erika Cinello</xsl:text></xsl:when>
+        <xsl:when test="contains(lower-case(@who), 'tagliente')"><xsl:text>Antonio Tagliente</xsl:text></xsl:when>
+        <xsl:when test="contains(lower-case(@who), 'zornetta')"><xsl:text>Giulia Zornetta</xsl:text></xsl:when>
+        <xsl:when test="contains(lower-case(@who), 'dimuro')"><xsl:text>Alessandro Di Muro</xsl:text></xsl:when>
+        <xsl:when test="contains(lower-case(@who), 'magos')"><xsl:text>Victor Rivera Magos</xsl:text></xsl:when>
+        <xsl:when test="contains(lower-case(@who), 'motta')"><xsl:text>Loris Motta</xsl:text></xsl:when>
+        <xsl:when test="contains(lower-case(@who), 'defalco')"><xsl:text>Fabrizio De Falco</xsl:text></xsl:when>
         <xsl:otherwise>
           <xsl:choose>
             <xsl:when test="@who"><xsl:value-of select="@who"/></xsl:when>
