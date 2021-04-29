@@ -1659,6 +1659,7 @@
                     <idno>estates/224</idno>
                     <note/>
                     <link type="people" corresp="#people/71" subtype="link"/>
+                    <link type="estates" corresp="#estates/232" subtype="isMadeOf"/>
                 </place>
                 <place>
                     <geogName><foreign>Casa Cantari</foreign>; <foreign>fundus</foreign></geogName>
@@ -1718,12 +1719,16 @@
                     <idno>estates/231</idno>
                     <note/>
                     <link type="people" corresp="#people/71" subtype="link"/>
+                    <link type="estates" corresp="#estates/232" subtype="isPartOf"/>
                 </place>
                 <place>
                     <geogName><foreign>Neviana</foreign>; <foreign>massa</foreign></geogName>
                     <geogName type="other"/>
                     <idno>estates/232</idno>
                     <note/>
+                    <link type="people" corresp="#people/71" subtype="link"/>
+                    <link type="estates" corresp="#estates/224" subtype="isPartOf"/>
+                    <link type="estates" corresp="#estates/231" subtype="isMadeOf"/>
                 </place> 
             </listPlace>
         </body>
