@@ -58,14 +58,24 @@
     <table class="index tablesorter" style="width:100%">
           <xsl:apply-templates select="/aggregation/index_metadata/tei:div/tei:div[@type='headings']" />
           <tbody>
-            <xsl:apply-templates select="doc[str[@name='index_item_name'][not(starts-with(., '~'))]]"><xsl:sort select="translate(normalize-unicode(lower-case(.),'NFD'), '&#x0300;&#x0301;&#x0308;&#x0303;&#x0304;&#x0313;&#x0314;&#x0345;&#x0342;' ,'')"/></xsl:apply-templates>
+            <xsl:apply-templates select="doc[str[@name='index_item_name'][not(starts-with(., '~'))][not(starts-with(., '#'))]]"><xsl:sort select="lower-case(.)"/></xsl:apply-templates>
           </tbody>
         </table>
+    
+    <xsl:if test="doc[str[@name='index_item_name'][starts-with(., '#')]]">
+      <table class="index tablesorter" style="width:100%">
+        <xsl:apply-templates select="/aggregation/index_metadata/tei:div/tei:div[@type='headings']" />
+        <tbody>
+          <xsl:apply-templates select="doc[str[@name='index_item_name'][starts-with(., '#')]]"><xsl:sort select="lower-case(.)"/></xsl:apply-templates>
+        </tbody>
+      </table>
+    </xsl:if>
+    
     <xsl:if test="doc[str[@name='index_item_name'][starts-with(., '~')]]">
-      <table class="index tablesorter">
+      <table class="index tablesorter" style="width:100%">
           <xsl:apply-templates select="/aggregation/index_metadata/tei:div/tei:div[@type='headings']" />
           <tbody>
-            <xsl:apply-templates select="doc[str[@name='index_item_name'][starts-with(., '~')]]"><xsl:sort select="translate(normalize-unicode(lower-case(.),'NFD'), '&#x0300;&#x0301;&#x0308;&#x0303;&#x0304;&#x0313;&#x0314;&#x0345;&#x0342;' ,'')"/></xsl:apply-templates>
+            <xsl:apply-templates select="doc[str[@name='index_item_name'][starts-with(., '~')]]"><xsl:sort select="lower-case(.)"/></xsl:apply-templates>
           </tbody>
         </table>
     </xsl:if>
@@ -79,17 +89,7 @@
 
   <xsl:template match="str[@name='index_item_name']">
     <th scope="row">
-      <xsl:value-of select="replace(., '~ ', '')"/>
-      <!--<!-\- Look up the value in the RDF names, in case it's there. -\->
-      <xsl:variable name="rdf-name" select="/aggregation/index_names/rdf:RDF/rdf:Description[@rdf:about=current()][1]/*[@xml:lang=$language][1]" />
-      <xsl:choose>
-        <xsl:when test="normalize-space($rdf-name)">
-          <xsl:value-of select="$rdf-name" />
-        </xsl:when>
-        <xsl:otherwise>
-        <xsl:value-of select="."/>
-        </xsl:otherwise>
-      </xsl:choose>-->
+      <xsl:value-of select="replace(replace(., '~ ', ''), '# ', '')"/>
     </th>
   </xsl:template>
 

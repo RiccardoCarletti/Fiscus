@@ -89,8 +89,11 @@
           </field>
           <xsl:call-template name="field_file_path" />
           <field name="index_item_name">
-            <xsl:text>~ </xsl:text>
-            <xsl:value-of select="@ref"/>
+            <xsl:text># </xsl:text>
+            <xsl:choose>
+              <xsl:when test="starts-with(normalize-space(.), '\s')"><xsl:value-of select="substring(normalize-space(@ref), 2)"/></xsl:when>
+              <xsl:otherwise><xsl:value-of select="normalize-space(@ref)"/></xsl:otherwise>
+            </xsl:choose>
           </field>
           <field name="index_external_resource">
             <xsl:text>~</xsl:text>
