@@ -1700,12 +1700,17 @@
                     <geogName type="other"/>
                     <idno>estates/229</idno>
                     <note/>
+                    <link type="people" corresp="#people/71" subtype="link"/>
+                    <link type="estates" corresp="#estates/230" subtype="isPartOf"/>
                 </place>
                 <place>
                     <geogName><foreign>Gallorum</foreign>; <foreign>massa</foreign></geogName>
                     <geogName type="other"/>
                     <idno>estates/230</idno>
                     <note/>
+                    <link type="people" corresp="#people/71" subtype="link"/>
+                    <link type="estates" corresp="#estates/229" subtype="isMadeOf"/>
+                    <link type="estates" corresp="#estates/192" subtype="isPartOf"/>
                 </place> 
             </listPlace>
         </body>
