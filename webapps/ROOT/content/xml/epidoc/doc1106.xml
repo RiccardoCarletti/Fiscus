@@ -103,7 +103,7 @@
                         <placeName ref="#places/153">Luano</placeName> pertinentibus de iure regni
                         nostri, idest nomina eorum: <persName
                             key="#Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_individuals #Other_clerics"
-                            >Deusdedi</persName>
+                                ><name ref="Deusdedi">Deusdedi</name></persName>
                         <rs
                             key="#Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_individuals #Other_clerics"
                             >clerico</rs> cum <rs
@@ -112,13 +112,13 @@
                             key="#Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_individuals #Royal_slave #Royal_aldius #legallyRecognisedUnionWith"
                             >uxores illorum</rs> cum agnitione illorum et <persName
                             key="#Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_individuals #Royal_slave #Royal_aldius"
-                            >Ursone</persName> cum <rs
+                                ><name ref="Urso">Ursone</name></persName> cum <rs
                             key="#Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_individuals #Royal_slave #Royal_aldius #legallyRecognisedUnionWith"
                             >uxore sua</rs> cum <rs
                             key="#Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_individuals #Royal_slave #Royal_aldius #sonOf #daughterOf"
                             >filiis et filias</rs> nec non et <persName
                             key="#Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_individuals #Royal_slave #Royal_aldius"
-                            >Lupone</persName> cum <rs
+                                ><name ref="Lupo">Lupone</name></persName> cum <rs
                             key="#Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_individuals #Royal_slave #Royal_aldius #legallyRecognisedUnionWith"
                             >uxore</rs> et <rs
                             key="#Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_individuals #Royal_slave #Royal_aldius #sonOf #daughterOf"
@@ -134,7 +134,7 @@
                             key="#Landed_possessions #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_individuals"
                             >universis territoriis mobilibus et inmobilibus</rs> et <persName
                             key="#Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_individuals #Royal_slave #Royal_aldius"
-                            >Florane</persName> cum <rs
+                                ><name>Florane</name></persName> cum <rs
                             key="#Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_individuals #Royal_slave #Royal_aldius #daughterOf"
                             >filias suas</rs> et possessiones illarum, omnia et ex omnibus seu per
                         aliis singulis locis de ipsis aut eorum iure pertinentes inventum fuerit
@@ -153,9 +153,10 @@
                             Ermenulfo suisque heredibus ac proheredibus</rs>. Ut autem ab omnibus
                         verius credatur et diligentius observetur, manu propria supter firmavimus et
                         anulo nostro inpressione insigniri iussimus. Signum domni Berengarii
-                        gloriosissimi regis. <persName key="#Notary">Restaldus</persName> notarius
-                        iussione regia ad vicem <persName key="#Archchancellor #Bishops"
-                            ref="#people/58">Petri</persName>
+                        gloriosissimi regis. <persName key="#Notary"><name ref="Restaldus"
+                                >Restaldus</name></persName> notarius iussione regia ad vicem
+                            <persName key="#Archchancellor #Bishops" ref="#people/58"
+                            >Petri</persName>
                         <rs key="#Bishops">episcopi</rs> et <rs key="#Archchancellor"
                             >archicancellarii</rs> recognovi et subscripsi. Data XV kal. Mar., anno
                         incarnationis Domini DCCCXCVIII, anno vero regni domni Berengarii
