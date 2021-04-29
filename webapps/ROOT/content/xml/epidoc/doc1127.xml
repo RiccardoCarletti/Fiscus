@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Biblioteca civica di Bergamo, <foreign>Salone</foreign>, cass. G, cassetto F
+                    n° 28</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc1127</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">Yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0904-02-21">
+                                <note type="displayed_date">904 february 21</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Monza</note>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-02-08" who="Chiara Stedile">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine sanctae et individuae Trinitatis. <persName key="#Emperor/king"
+                            ref="#people/21">Berengarius</persName> divina favente clementia <rs
+                            key="#Emperor/king">rex</rs>. Que pro sanctorum amore regius animus
+                        ipsorum ecclesiis celesti desiderio succensus prompta studet voluntate
+                        conferre, ad sue salutis augmentum ea pertinere atque proficere nulli
+                        prorsus constat ambiguum. Quapropter omnium fidelium sancte Dei Ecclesie
+                        nostrorumque presentium scilicet et futurorum comperiat industria, <persName
+                            key="#Bishops">Hildegarium</persName> venerabilem <rs key="#Bishops"
+                            >episcopum</rs> et <persName key="#Palatine_count" ref="#people/57"
+                            >Sigefredum</persName> gloriosum sacri <rs key="#Palatine_count">palatii
+                            [nostri] comitem</rs> nec non et <persName key="#Count"
+                            ref="#people/184">Alkerium</persName>
+                        <rs key="#Count">comitem</rs> nostram exorasse clementiam, quatenus pro Dei
+                        omnipotentis amore nostreque anime remedio quandam <rs key="#Curtes"
+                            >curtem</rs> iuris regni nostri que <geogName key="#Curtes"
+                            ref="#estates/222">Murgula</geogName> dicitur, in <placeName
+                            ref="#places/10">territorio Bergomensi</placeName> adiacentem subtus
+                        ipsam civitatem <rs key="#Churches">ecclesie</rs>
+                        <orgName key="#Churches" ref="#juridical_persons/188">Beati
+                            Alexandri</orgName>, ubi eius venerabile corpus quiescit humatum, cum
+                        omnibus rebus substantiis ac possessionibus suis in integrum concedere
+                        dignaremur, <rs
+                            key="#Fiscal_property #Textual_occurrence #Mention #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_individuals"
+                            >exceptis his quae pridem ex eadem curte pertinentia <persName
+                                key="#Bishops" ref="#people/78">Adelberto</persName> venerabili <rs
+                                key="#Bishops">episcopo</rs> ipsius sancte <orgName
+                                ref="#juridical_persons/189">Bergamensis ecclesie</orgName> nostri
+                            precepti inscriptione proprietario iure habenda ac possidenda
+                            contulimus</rs>. Quorum ratam estimantes petitionem tam pro omnipotentis
+                        Dei amore quamque pro eiusdem beatissimi Alexandri cultu iam dictam curtem
+                        Murgulam cum omnibus adiacentiis et pertinentiis suis, mobilibus et
+                        immobilibus, <rs
+                            key="#Houses #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
+                            >casis</rs> videlicet, <rs
+                            key="#Landed_possessions #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
+                            >terris</rs>, <rs
+                            key="#Wine #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
+                            >vineis</rs>, <rs
+                            key="#Cereals #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
+                            >campis</rs>, <rs
+                            key="#Hay/fodder #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
+                            >pratis</rs>, <rs
+                            key="#Forests #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
+                            >silvis</rs>, salectis, stationibus, pascuis, <rs
+                            key="#Rivers #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
+                            >acquis acquarumque decursibus</rs>, <rs
+                            key="#Mills #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
+                            >molendinis</rs>, ripaticis, <rs
+                            key="#Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches #Local_markets"
+                            >mercatis</rs>, <rs
+                            key="#Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches #Teloneum"
+                            >theloneis</rs>, <rs
+                            key="#Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches #Districtio"
+                            >districtionibus</rs>, forestis et forestariis, <rs
+                            key="#Mountains #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
+                            >montibus</rs>, planitiebus, <rs
+                            key="#Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches #Royal_slave"
+                            >servis utriusque sexus</rs>, <rs
+                            key="#Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches #Royal_aldius"
+                            >aldionibus et aldianis</rs>, exitibus et regressibus seu cum universis
+                        que dici vel nominari possunt ad eandem cortem respicientibus iam dicte
+                        ecclesie per huius nostre auctoritatis paginam perpetualiter habenda,
+                        tenenda ac possidenda concedimus ac perdonamus, et <rs
+                            key="#Fiscal_property #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
+                            >de nostro iure atque dominio, sicut nunc nostre parti pertinere
+                            videtur, in eius ius et dominium modis omnibus transfundimus</rs> atque
+                        largimur, absque contradictione minoratione vel molestia cuiuscumque,
+                        exceptis his que quondam iam dicto Adelberto venerabili episcopo nostre
+                        inscriptionis dono hereditario iure contulimus, eo videlicet ordine, ut
+                        pontifex iam dicte ecclesie qui pro tempore ipsi prefuerit supradicta omnia
+                        ad ius ipsius ecclesie teneat, possideat, disponat atque vindicet prout
+                        omnes alias res que a pontificibus eiusdem ecclesie priscis temporibus
+                        fuerunt possesse ac vindicate. Si quis igitur hoc nostre concessionis
+                        preceptum aliquando infringere aut violare quesierit, ne quod temptat
+                        perficere possit, noverit se compositurum <rs key="#Penalty">auri optimi
+                            libras quinquaginta</rs>, <rs key="#Camera_regis">medietatem palatio
+                            nostro</rs>
+                        <rs key="#Camera_of_other_public_authorities">et medietatem prelibate
+                            ecclesie</rs>. Quod ut verius credatur et diligentius observetur, manu
+                        propria roboratum nostri anuli impressione assignari precepimus. Signum
+                        domni (MF) Berengarii serenissimi regis. <persName key="#Chancellor"
+                            >Ambrosius</persName>
+                        <rs key="#Chancellor">cancellarius</rs> ad vicem <persName
+                            key="#Archchancellor" ref="#people/216">Ardingi</persName>
+                        <rs key="#Archchancellor">archicancellarii</rs> recognovi et subscripsi.
+                        (SR) Data VIII kal. Mar., anno dominice incarnationis DCCCCIII, domni vero
+                        Berengarii piissimi regis XVII, indictione VII. Actum <placeName
+                            ref="#places/501">Moedicia</placeName>. In Dei nomine faeliciter,
+                        amen.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>DD B I, pp. 124-127, n° XLIII</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -430,7 +430,7 @@
                         subtype="hasConnectionWith"/>
                 </place>
                 <place>
-                    <geogName>Asigliano; <foreign>curtis</foreign></geogName>
+                    <geogName>Pasiliano; <foreign>curtis</foreign></geogName>
                     <geogName type="other"><foreign>Pasiliano</foreign></geogName>
                     <idno>estates/97</idno>
                     <note/>
@@ -438,8 +438,6 @@
                     <link type="people" corresp="#people/32" subtype="link"/>
                     <link type="juridical_persons"
                         corresp="#juridical_persons/81" subtype="link"/>
-                    <link type="places" corresp="#places/101"
-                        subtype="hasConnectionWith"/>
                 </place>
                 <place>
                     <geogName>Occimiano; <foreign>curtis</foreign></geogName>
@@ -506,6 +504,11 @@
                     <link type="estates" corresp="#estates/102 #estates/118" subtype="isMadeOf"/>
                     <link type="estates" corresp="#estates/173" subtype="isMadeOf"/>
                     <link type="people" corresp="#people/68" subtype="link"/>
+                    <link type="estates" corresp="#estates/217" subtype="isMadeOf"/>
+                    <link type="estates" corresp="#estates/219" subtype="isMadeOf"/>
+                    <link type="estates" corresp="#estates/220" subtype="isMadeOf"/>
+                    <link type="estates" corresp="#estates/216" subtype="isMadeOf"/>
+                    <link type="estates" corresp="#estates/218" subtype="isMadeOf"/>
                 </place>
                 <place>
                     <geogName>Hochburg; <foreign>curtis</foreign></geogName>
@@ -571,6 +574,7 @@
                     <link type="people" corresp="#people/21" subtype="link"/>
                     <link type="places" corresp="#places/9"
                         subtype="hasConnectionWith"/>
+                    <link type="estates" corresp="#estates/208" subtype="hasConnectionWith"/>
                 </place>
                 <place>
                     <geogName>Stazzona; <foreign>comitatus</foreign></geogName>
@@ -760,14 +764,21 @@
                     <geogName>Sulcia; <foreign>curtis</foreign></geogName>
                     <geogName type="other"/>
                     <idno>estates/127</idno>
-                    <note>Andenna 2005</note>
+                    <note>Andenna 2005; Settia 2006 sostiene che la curtis Sulcia si trovasse tra Saletta (VC) e Balzola (AL).</note>
                     <link type="people"
                         corresp="#people/171 #people/7"
+                        subtype="link"/>
+                    <link type="people"
+                        corresp="#people/21"
                         subtype="link"/>
                     <link type="juridical_persons"
                         corresp="#juridical_persons/81" subtype="link"/>
                     <link type="places" corresp="#places/84"
                         subtype="hasConnectionWith"/>
+                    <link type="places" corresp="#places/216"
+                        subtype="isWithin"/>
+                    <link type="places" corresp="#places/442"
+                        subtype="isWithin"/>
                 </place>
                 <place>
                     <geogName>Torcello; curtis</geogName>
@@ -1365,6 +1376,7 @@
                     <idno>estates/191</idno>
                     <note/>
                     <link type="places" corresp="#places/433" subtype="hasConnectionWith"/>
+                    <link type="places" corresp="#places/471" subtype="hasConnectionWith"/>
                 </place>
                 <place>
                     <geogName><foreign>Labicanum</foreign>;
@@ -1373,6 +1385,8 @@
                     <idno>estates/192</idno>
                     <note/>
                     <link type="people" corresp="#people/71" subtype="link"/>
+                    <link type="estates" corresp="#estates/221" subtype="isMadeOf"/>
+                    <link type="estates" corresp="#estates/190" subtype="isMadeOf"/>
                 </place>
                 <place>
                     <geogName>Reggio Emilia; <foreign>comitatus</foreign></geogName>
@@ -1487,6 +1501,158 @@
                     <note/>
                     <link type="juridical_persons" corresp="#juridical_persons/96" subtype="link"/>
                 </place>
+                <place>
+                    <geogName>Chiavazza; <foreign>curtis</foreign></geogName>
+                    <geogName type="other"/>
+                    <idno>estates/205</idno>
+                    <note/>
+                    <link type="people" corresp="#people/7" subtype="link"/>
+                    <link type="people" corresp="#people/171" subtype="link"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
+                    <link type="places" corresp="#places/212" subtype="hasConnectionWith"/>
+                </place>
+                <place>
+                    <geogName>Bioglio; <foreign>curtis</foreign></geogName>
+                    <geogName type="other"/>
+                    <idno>estates/206</idno>
+                    <note/>
+                    <link type="people" corresp="#people/7" subtype="link"/>
+                    <link type="people" corresp="#people/171" subtype="link"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
+                    <link type="places" corresp="#places/457" subtype="hasConnectionWith"/>
+                </place>
+                <place>
+                    <geogName><foreign>Curtis nova</foreign>; <foreign>curtis</foreign></geogName>
+                    <geogName type="other"/>
+                    <idno>estates/207</idno>
+                    <note/>
+                    <link type="people" corresp="#people/55" subtype="link"/>
+                    <link type="places" corresp="#places/462" subtype="isInVicinityOf"/>
+                </place>
+                <place>
+                    <geogName>Modena; <foreign>comitatus</foreign></geogName>
+                    <geogName type="other"/>
+                    <idno>estates/208</idno>
+                    <note/>
+                    <link type="estates" corresp="#estates/110" subtype="isPartOf"/>
+                </place>
+                <place>
+                    <geogName>Marengo; <foreign>curtis regia</foreign></geogName>
+                    <geogName type="other"/>
+                    <idno>estates/209</idno>
+                    <note/>
+                    <link type="places" corresp="#places/18" subtype="hasConnectionWith"/>
+                </place>
+                <place>
+                    <geogName>Lucca; <foreign>comitatus</foreign></geogName>
+                    <idno>estates/210</idno>
+                    <note/>
+                    <link type="places" corresp="#places/4" subtype="hasConnectionWith"/>
+                    <link type="estates" corresp="#estates/78" subtype="hasConnectionWith"/>
+                    <link type="estates" corresp="#estates/211" subtype="hasConnectionWith"/>
+                    <link type="estates" corresp="#estates/212" subtype="hasConnectionWith"/>
+                    <link type="estates" corresp="#estates/213" subtype="hasConnectionWith"/>
+                    <link type="estates" corresp="#estates/214" subtype="hasConnectionWith"/>
+                </place>
+                <place>
+                    <geogName>Brancoli; <foreign>curtis</foreign></geogName>
+                    <idno>estates/211</idno>
+                    <note/>
+                    <link type="places" corresp="#places/463" subtype="hasConnectionWith"/>
+                </place>
+                <place>
+                    <geogName>Garfagnana; <foreign>curtis</foreign></geogName>
+                    <idno>estates/212</idno>
+                    <note/>
+                    <link type="places" corresp="#places/190" subtype="hasConnectionWith"/>
+                </place>
+                <place>
+                    <geogName>Pescia; <foreign>curtis</foreign></geogName>
+                    <idno>estates/213</idno>
+                    <note/>
+                    <link type="places" corresp="#places/464" subtype="hasConnectionWith"/>
+                </place>
+                <place>
+                    <geogName>San Genesio; <foreign>curtis</foreign></geogName>
+                    <idno>estates/214</idno>
+                    <note/>
+                    <link type="places" corresp="#places/465" subtype="hasConnectionWith"/>
+                </place>
+                <place>
+                    <geogName><foreign>Vico Alahis</foreign>; <foreign>curtis</foreign></geogName>
+                    <idno>estates/215</idno>
+                    <note/>
+                    <link type="places" corresp="#places/486" subtype="hasConnectionWith"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/187" subtype="link"/>
+                </place>
+                <place>
+                    <geogName><foreign>Pondera</foreign>; <foreign>casale</foreign></geogName>
+                    <geogName type="other"/>
+                    <idno>estates/216</idno>
+                    <note/>
+                    <link type="people" corresp="#people/71" subtype="link"/>
+                    <link type="places" corresp="#places/490" subtype="hasConnectionWith"/>
+                    <link type="estates" corresp="#estates/103" subtype="isPartOf"/>
+                </place>
+                <place>
+                    <geogName><foreign>Agellione</foreign>; <foreign>casale</foreign></geogName>
+                    <geogName type="other"/>
+                    <idno>estates/217</idno>
+                    <note/>
+                    <link type="people" corresp="#people/71" subtype="link"/>
+                    <link type="places" corresp="#places/490" subtype="hasConnectionWith"/>
+                    <link type="estates" corresp="#estates/103" subtype="isPartOf"/>
+                </place>
+                <place>
+                    <geogName><foreign>Pompeianum</foreign>; <foreign>casale</foreign></geogName>
+                    <geogName type="other"/>
+                    <idno>estates/218</idno>
+                    <note/>
+                    <link type="people" corresp="#people/71" subtype="link"/>
+                    <link type="places" corresp="#places/490" subtype="hasConnectionWith"/>
+                    <link type="estates" corresp="#estates/103" subtype="isPartOf"/>
+                </place>
+                <place>
+                    <geogName><foreign>Caleianum</foreign>; <foreign>casale</foreign></geogName>
+                    <geogName type="other"/>
+                    <idno>estates/219</idno>
+                    <note/>
+                    <link type="people" corresp="#people/71" subtype="link"/>
+                    <link type="places" corresp="#places/490" subtype="hasConnectionWith"/>
+                    <link type="estates" corresp="#estates/103" subtype="isPartOf"/>
+                </place>
+                <place>
+                    <geogName><foreign>Fortunae</foreign>; <foreign>fundus</foreign></geogName>
+                    <geogName type="other"/>
+                    <idno>estates/220</idno>
+                    <note/>
+                    <link type="people" corresp="#people/71" subtype="link"/>
+                    <link type="places" corresp="#places/490" subtype="hasConnectionWith"/>
+                    <link type="estates" corresp="#estates/103" subtype="isPartOf"/>
+                </place>
+                <place>
+                    <geogName><foreign>Iuniorum</foreign>; <foreign>massa</foreign></geogName>
+                    <geogName type="other"/>
+                    <idno>estates/221</idno>
+                    <note/>
+                    <link type="people" corresp="#people/71" subtype="link"/>
+                    <link type="estates" corresp="#estates/192" subtype="isPartOf"/>
+                </place> 
+                <place>
+                    <geogName><foreign>Murgula</foreign>; <foreign>curtis</foreign></geogName>
+                    <geogName type="other"/>
+                    <idno>estates/222</idno>
+                    <note/>
+                    <link type="people" corresp="#people/21" subtype="link"/>
+                    <link type="places" corresp="#places/10" subtype="hasConnectionWith"/>
+                </place>
+                <place>
+                    <geogName>Casalappi; <foreign>curtis</foreign></geogName>
+                    <geogName type="other"/>
+                    <idno>estates/223</idno>
+                    <note/>
+                    <link type="places" corresp="#places/133" subtype="hasConnectionWith"/>
+                </place> 
             </listPlace>
         </body>
     </text>

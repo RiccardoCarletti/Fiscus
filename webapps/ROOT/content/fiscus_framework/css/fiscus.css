@@ -6,16 +6,20 @@
 /* This framework derives partly from the Oxygen Author form created by the US Epigraphy Project: 
  https://github.com/Brown-University-Library/usep-data/tree/master/oxygen-author */
 
-   oxy|comment {
-    display:none !important;
-    content: "";
-   }
+       oxy|comment {
+        display:none !important;
+        content: "";
+       }
 
-   xi|include, include, oxy|doctype, respStmt, handNote, scriptDesc, profileDesc, authority, provenance, msItem, teiHeader listPlace, teiHeader listPerson, editionStmt, publicationStmt date, publisher, availability, msIdentifier, textLang {
-        display:none;
-        visibility: -oxy-collapse-text ;
-    }
-    
+          oxy|doctype, respStmt, handNote, scriptDesc, profileDesc, authority, provenance, msItem, teiHeader listPlace, teiHeader listPerson, editionStmt, publicationStmt date, publisher, availability, msIdentifier, textLang {
+           display:none;
+           visibility: -oxy-collapse-text ;
+       }
+       
+        xi|include, include {
+        display:inline !important;
+        }
+        
         /*Authority Lists*/
         body listPlace place, body listPerson person, body listOrg org {
         display:block;
@@ -628,6 +632,15 @@ ab placeName:before {
              values, oxy_concat("#", oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/people.xml'), '")//listPerson//person/idno, ",#")'))),
              labels, oxy_xpath(oxy_concat('normalize-space(string-join(doc("', oxy_url('${framework}/', 'resources/people.xml'), '")//listPerson//person/persName[1], ","))' ))
              );
+        display:inline;
+    }
+    
+    ab name:before {
+        content:  "REF: " 
+         oxy_editor(
+           type, text,
+           edit, "@ref"
+           columns, 12);
         display:inline;
     }
   

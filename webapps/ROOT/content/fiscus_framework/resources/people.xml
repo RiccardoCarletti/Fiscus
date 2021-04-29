@@ -338,6 +338,8 @@
                     <link type="people" corresp="#people/110" subtype="legallyRecognisedUnionWith"/>
                     <link type="people" corresp="#people/80" subtype="extendedFamilyOf"/>
                     <link type="juridical_persons" corresp="#juridical_persons/53" subtype="link"/>
+                    <link type="people" corresp="#people/242" subtype="motherOf"/>
+                    <link type="people" corresp="#people/267" subtype="grandmotherOf"/>
                 </person>
                 
                 <person>
@@ -347,7 +349,7 @@
                 </person>
                 
                 <person>
-                    <persName>Petrus (881-900) episcopus Pataviensis </persName>
+                    <persName>Petrus (881-900) episcopus Patavinus </persName>
                     <idno>people/58</idno>
                     <note>Archicancellarius.</note>
                     <link type="people" corresp="#people/21" subtype="link"/>
@@ -434,7 +436,7 @@
                     <link type="people" corresp="#people/237" subtype="sonOf"/>
                 </person>
                 <person>
-                    <persName>Adalbertus (924) episcopus Bergomensis</persName>
+                    <persName>Adalbertus (894-929) episcopus Bergomensis</persName>
                     <idno>people/78</idno>
                     <note/>
                 </person>
@@ -733,6 +735,8 @@
                     <link type="people" corresp="#people/80" subtype="cousinOf"/>
                     <link type="people" corresp="#people/14" subtype="greatGrandsonOf"/>
                     <link type="juridical_persons" corresp="#juridical_persons/131" subtype="link"/>
+                    <link type="people" corresp="#people/242" subtype="fatherOf"/>
+                    <link type="people" corresp="#people/267" subtype="grandfatherOf"/>
                 </person>
                 <person>
                     <persName>Aio (884-891) princeps </persName>
@@ -966,7 +970,7 @@
                     <link type="people" corresp="#people/82" subtype="sonOf"/>
                 </person>
                 <person>
-                    <persName>Adalbertus (884c.-915) marchio Tusciae</persName>
+                    <persName>Adalbertus II (884c.-915) marchio Tusciae</persName>
                     <persName type="other"/>
                     <idno>people/137</idno>
                     <note/>
@@ -974,6 +978,12 @@
                     <link type="people" corresp="#people/141" subtype="seniorOf"/>
                     <link type="people" corresp="#people/142" subtype="seniorOf"/>
                     <link type="people" corresp="#people/144" subtype="seniorOf"/>
+                    <link type="estates" corresp="#estates/78" subtype="hasConnectionWith"/>
+                    <link type="estates" corresp="#estates/211" subtype="hasConnectionWith"/>
+                    <link type="estates" corresp="#estates/212" subtype="hasConnectionWith"/>
+                    <link type="estates" corresp="#estates/213" subtype="hasConnectionWith"/>
+                    <link type="estates" corresp="#estates/214" subtype="hasConnectionWith"/>
+                    <link type="places" corresp="#places/486" subtype="hasConnectionWith"/>
                 </person>
                 <person>
                     <persName>Helbungus (889-914) episcopus Parmensis</persName>
@@ -1040,6 +1050,7 @@
                     <note>Tomei 2019a, pp. 42-46.</note>
                     <link type="people" corresp="#people/147" subtype="brotherOf"/>
                     <link type="people" corresp="#people/148" subtype="brotherOf"/>
+                    <link type="people" corresp="#people/268" subtype="sonOf"/>
                     <link type="places" corresp="#places/163" subtype="hasConnectionWith"/>
                 </person>
                 <person>
@@ -1049,6 +1060,7 @@
                     <note>Tomei 2019a, pp. 42-46, 48-52.</note>
                     <link type="people" corresp="#people/146" subtype="brotherOf"/>
                     <link type="people" corresp="#people/148" subtype="brotherOf"/>
+                    <link type="people" corresp="#people/268" subtype="sonOf"/>
                 </person>
                 <person>
                     <persName>Rodilandus II (863-879; q. 897; Figli di Rodilando)</persName>
@@ -1057,6 +1069,7 @@
                     <note>Tomei 2019a, pp. 42-45.</note>
                     <link type="people" corresp="#people/146" subtype="brotherOf"/>
                     <link type="people" corresp="#people/147" subtype="brotherOf"/>
+                    <link type="people" corresp="#people/268" subtype="sonOf"/>
                 </person>
                 <person>
                     <persName>Cunimundus III (879-915; Cunimundinghi)</persName>
@@ -1845,6 +1858,8 @@
                     <note>Collavini 1998, pp. 45-78.</note>
                     <link type="people" corresp="#people/206" subtype="greatGrandfatherOf"/>
                     <link type="places" corresp="#places/360" subtype="hasConnectionWith"/>
+                    <link type="places" corresp="#places/486" subtype="hasConnectionWith"/>
+                    <link type="places" corresp="#places/495" subtype="hasConnectionWith"/>
                 </person>
                 <person>
                     <persName>Azzo (1091-1095) abbas monasterii Sancti Bartholomei de
@@ -1943,6 +1958,9 @@
                     <link type="juridical_persons" corresp="#juridical_persons/131" subtype="link"/>
                     <link type="people" corresp="#people/77" subtype="fatherOf"/>
                     <link type="people" corresp="#people/238" subtype="link"/>
+                    <link type="people" corresp="#people/261" subtype="sonOf"/>
+                    <link type="people" corresp="#people/262" subtype="sonOf"/>
+                    <link type="people" corresp="#people/264" subtype="legallyRecognisedUnionWith"/>
                 </person>
                 <person>
                     <persName>Teuzo (1051) abbas monasterii Sancti Anthimi</persName>
@@ -1974,10 +1992,11 @@
                     <note/>
                 </person>
                 <person>
-                    <persName>Ermengarda (855-8590) regina</persName>
+                    <persName>Ermengarda (855?-902) regina</persName>
                     <idno>people/242</idno>
                     <link type="people" subtype="daughterOf" corresp="#people/110"/>
                     <link type="people" subtype="daughterOf" corresp="#people/55"/>
+                    <link type="people" subtype="motherOf" corresp="#people/267"/>
                     <note/>
                 </person>
                 <person>
@@ -1998,6 +2017,7 @@
                 </person>
                 <person>
                     <persName>Iohannes (q.822) episcopus Mutinensis</persName>
+                    <persName/>
                     <persName type="other"/>
                     <idno>people/245</idno>
                     <note/>
@@ -2034,6 +2054,170 @@
                     <note/>
                     <link type="juridical_persons" corresp="#juridical_persons/96" subtype="link"/>
                     <link type="people" corresp="#people/245" subtype="link"/>
+                </person>
+                <person>
+                    <persName>Agilulf (?-616) rex</persName>
+                    <persName type="other"/>
+                    <idno>people/250</idno>
+                    <note/>
+                    <link type="juridical_persons" corresp="#juridical_persons/151" subtype="link"/>
+                </person>
+                <person>
+                    <persName>Grimoaldus (662-671) rex</persName>
+                    <persName type="other"/>
+                    <idno>people/251</idno>
+                    <note/>
+                    <link type="juridical_persons" corresp="#juridical_persons/151" subtype="link"/>
+                </person>
+                <person>
+                    <persName>Arnulfus (896-899) imperator</persName>
+                    <persName type="other"/>
+                    <idno>people/252</idno>
+                    <note/>
+                    <link type="juridical_persons" corresp="#juridical_persons/151" subtype="link"/>
+                </person>
+                <person>
+                    <persName>Iohannes II (876-912) episcopus Ticinensis</persName>
+                    <persName type="other"/>
+                    <idno>people/253</idno>                  
+                    <note/>
+                    <link type="places" corresp="#places/65" subtype="hasConnectionWith"/>
+                </person>
+                <person>
+                    <persName>Aderardus (900) comes</persName>
+                    <persName type="other"/>
+                    <idno>people/254</idno>                  
+                    <note/>
+                </person>
+                <person>
+                    <persName>Brunus (1104-1120) abbas monasterii Sancti Pontiani (Lucca)</persName>
+                    <persName type="other"/>
+                    <idno>people/255</idno>
+                    <note/>
+                    <link type="juridical_persons" corresp="#juridical_persons/71" subtype="link"/>
+                </person>
+                <person>
+                    <persName>Bonizo (1076) prior monasterii Sancti Quirici (Populonia)</persName>
+                    <persName type="other"/>
+                    <idno>people/256</idno>
+                    <note/>
+                    <link type="juridical_persons" corresp="#juridical_persons/78" subtype="link"/>
+                </person>
+                <person>
+                    <persName>Heinricus (1130/1) abbas monasterii Sancti Mamiliani
+                        (Montecristo)</persName>
+                    <persName type="other"/>
+                    <idno>people/257</idno>
+                    <note/>
+                    <link type="juridical_persons" corresp="#juridical_persons/91" subtype="link"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/78" subtype="link"/>
+                    <link type="people" corresp="#people/103" subtype="link"/>
+                </person>
+                <person>
+                    <persName>Albertus (1143) abbas monasterii S. Quirici (Populonia)</persName>
+                    <persName type="other"/>
+                    <idno>people/258</idno>
+                    <note/>
+                    <link type="juridical_persons" corresp="#juridical_persons/78" subtype="link"/>
+                    <link type="people" corresp="#people/259" subtype="link"/>
+                </person>
+                <person>
+                    <persName>Celestinus II (1143-1144) papa</persName>
+                    <persName type="other"/>
+                    <idno>people/259</idno>
+                    <note/>
+                </person>
+                <person>
+                    <persName>Andreas (923) notarius et scabinus</persName>
+                    <persName type="other"/>
+                    <idno>people/260</idno>
+                    <note/>
+                    <link type="people" corresp="#people/203" subtype="link"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/86" subtype="link"/>
+                </person>
+                <person>
+                    <persName>Conradus II (989/90-1039) rex et imperator</persName>
+                    <persName type="other"/>
+                    <idno>people/261</idno>
+                    <note/>
+                    <link type="people" corresp="#people/237" subtype="fatherOf"/>
+                </person>
+                <person>
+                    <persName>Gisla (999?-1043) regina</persName>
+                    <persName type="other"/>
+                    <idno>people/262</idno>
+                    <note/>
+                    <link type="people" corresp="#people/261" subtype="legallyRecognisedUnionWith"/>
+                    <link type="people" corresp="#people/237" subtype="motherOf"/>
+                </person>
+                <person>
+                    <persName>Allo (761-785) dux Lucensis</persName>
+                    <persName type="other"/>
+                    <idno>people/263</idno>
+                    <note/>
+                    <link type="places" corresp="#places/4" subtype="hasConnectionWith"/>
+                    <link type="places" corresp="#places/381" subtype="hasConnectionWith"/>
+                </person>
+                <person>
+                    <persName>Gunilde (1020c.-1038) regina</persName>
+                    <persName type="other"/>
+                    <idno>people/264</idno>
+                    <note/>
+                    <link type="people" corresp="#people/237" subtype="legallyRecognisedUnionWith"/>
+                </person>
+                <person>
+                    <persName>Gregorius VII (1015c.-1085) papa</persName>
+                    <persName type="other"/>
+                    <idno>people/265</idno>
+                    <note/>
+                    <link type="places" corresp="#places/52" subtype="hasConnectionWith"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/86" subtype="link"/>
+                </person>
+                <person>
+                    <persName>Benedictus IV (900-903) papa</persName>
+                    <persName type="other"/>
+                    <idno>people/266</idno>
+                    <note/>
+                    <link type="places" corresp="#places/52" subtype="hasConnectionWith"/>
+                </person>
+                <person>
+                    <persName>Hludouuicus III (882?-928) rex Italiae; imperator</persName>
+                    <persName type="other"/>
+                    <idno>people/267</idno>
+                    <note/>
+                    <link type="people" subtype="grandsonOf" corresp="#people/110"/>
+                    <link type="people" subtype="grandsonOf" corresp="#people/55"/>
+                    <link type="people" subtype="sonOf" corresp="#people/242"/>
+                </person>
+                <person>
+                    <persName>Rodilandus I (837-861; Figli di Rodilando)</persName>
+                    <persName type="other"/>
+                    <idno>people/268</idno>
+                    <note>Tomei 2019a, pp. 41-44, 47-48.</note>
+                    <link type="people" corresp="#people/146" subtype="fatherOf"/>
+                    <link type="people" corresp="#people/147" subtype="fatherOf"/>
+                    <link type="people" corresp="#people/148" subtype="fatherOf"/>
+                </person>
+                <person>
+                    <persName>Garibaldus (895-902) episcopus Novariensis</persName>
+                    <persName type="other"/>
+                    <idno>people/269</idno>
+                    <note/>
+                    <link type="places" corresp="#places/245" subtype="hasConnectionWith"/>
+                </person>
+                <person>
+                    <persName>Ildegarius (898-915) episcopus Laudensis</persName>
+                    <persName type="other"/>
+                    <idno>people/270</idno>
+                    <note/>
+                    <link type="places" corresp="#places/262" subtype="hasConnectionWith"/>
+                </person>
+                <person>
+                    <persName>Grasulfus (896-930) episcopus Florentinus</persName>
+                    <persName type="other"/>
+                    <idno>people/271</idno>
+                    <note/>
+                    <link type="places" corresp="#places/2" subtype="hasConnectionWith"/>
                 </person>
             </listPerson>
         </body>
