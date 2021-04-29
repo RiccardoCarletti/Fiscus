@@ -698,10 +698,10 @@ document.addEventListener("click", function (e) {
         { selector: 'edge[type="blue"]', style: { 'line-color': 'blue', 'target-arrow-color': 'blue' } },
         { selector: 'edge[type="orange"]', style: { 'line-color': 'orange', 'target-arrow-color': 'orange' } },
         
-        {selector: 'node.searched', style: {'border-width': 10, 'border-color': 'red', 'width': '400px', 'height': '150px'} },
+        {selector: 'node.searched', style: {'border-width': 10, 'border-color': 'red'} },
         {selector: '.hidden', style: {'display': 'none'} },
         {selector: '.hidden_label', style: {'label': ''} },
-        {selector: ':selected', style: {'border-width': 10, 'border-color': 'orange' } }
+        {selector: 'node:selected', style: {'border-width': 10, 'border-color': 'orange', 'z-index': '99999', 'font-size': '80'} }
         ];
         
         var inputSearch = "inputSearch", inputVal = "#inputSearch", btnSearch = "#btnSearch", reset = "#reset";

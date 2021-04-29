@@ -34,6 +34,7 @@
         <xsl:call-template name="field_text" />
         <xsl:call-template name="field_lemmatised_text" />
         <!-- Facets. -->
+        <xsl:call-template name="field_author" />
         <xsl:call-template name="field_mentioned_persons" />
         <xsl:call-template name="field_mentioned_people" />
         <xsl:call-template name="field_mentioned_places" />
@@ -54,9 +55,36 @@
     </field>
   </xsl:template>
 
-  <xsl:template match="tei:fileDesc/tei:titleStmt/tei:author" mode="document-metadata">
+  <xsl:template match="tei:listChange/tei:change[1]" mode="facet_author">
     <field name="author">
-      <xsl:value-of select="normalize-space(.)" />
+      <xsl:choose>
+        <xsl:when test="contains(lower-case(@who), 'admin')"><xsl:text>Admin Fiscus</xsl:text></xsl:when>
+        <xsl:when test="contains(lower-case(@who), 'fiscus')"><xsl:text>Admin Fiscus</xsl:text></xsl:when>
+        <xsl:when test="contains(lower-case(@who), 'salvaterra')"><xsl:text>Carla Salvaterra</xsl:text></xsl:when>
+        <xsl:when test="contains(lower-case(@who), 'lazzari')"><xsl:text>Tiziana Lazzari</xsl:text></xsl:when>
+        <xsl:when test="contains(lower-case(@who), 'tabarrini')"><xsl:text>Lorenzo Tabarrini</xsl:text></xsl:when>
+        <xsl:when test="contains(lower-case(@who), 'vignodelli')"><xsl:text>Giacomo Vignodelli</xsl:text></xsl:when>
+        <xsl:when test="contains(lower-case(@who), 'collavini')"><xsl:text>Simone Maria Collavini</xsl:text></xsl:when>
+        <xsl:when test="contains(lower-case(@who), 'tomei')"><xsl:text>Paolo Tomei</xsl:text></xsl:when>
+        <xsl:when test="contains(lower-case(@who), 'internullo')"><xsl:text>Dario Internullo</xsl:text></xsl:when>
+        <xsl:when test="contains(lower-case(@who), 'vlore')"><xsl:text>Vito Loré</xsl:text></xsl:when>
+        <xsl:when test="contains(lower-case(@who), 'ciccopiedi')"><xsl:text>Caterina Ciccopiedi</xsl:text></xsl:when>
+        <xsl:when test="contains(lower-case(@who), 'manarini')"><xsl:text>Edoardo Manarini</xsl:text></xsl:when>
+        <xsl:when test="contains(lower-case(@who), 'vallerani')"><xsl:text>Massimo Valerio Vallerani</xsl:text></xsl:when>
+        <xsl:when test="contains(lower-case(@who), 'cinello')"><xsl:text>Erika Cinello</xsl:text></xsl:when>
+        <xsl:when test="contains(lower-case(@who), 'tagliente')"><xsl:text>Antonio Tagliente</xsl:text></xsl:when>
+        <xsl:when test="contains(lower-case(@who), 'zornetta')"><xsl:text>Giulia Zornetta</xsl:text></xsl:when>
+        <xsl:when test="contains(lower-case(@who), 'dimuro')"><xsl:text>Alessandro Di Muro</xsl:text></xsl:when>
+        <xsl:when test="contains(lower-case(@who), 'magos')"><xsl:text>Victor Rivera Magos</xsl:text></xsl:when>
+        <xsl:when test="contains(lower-case(@who), 'motta')"><xsl:text>Loris Motta</xsl:text></xsl:when>
+        <xsl:when test="contains(lower-case(@who), 'defalco')"><xsl:text>Fabrizio De Falco</xsl:text></xsl:when>
+        <xsl:otherwise>
+          <xsl:choose>
+            <xsl:when test="@who"><xsl:value-of select="@who"/></xsl:when>
+            <xsl:otherwise><xsl:text>-</xsl:text></xsl:otherwise>
+          </xsl:choose>
+        </xsl:otherwise>
+      </xsl:choose>
     </field>
   </xsl:template>
 
@@ -161,7 +189,7 @@
     <field name="record_source">
       <xsl:choose>
         <xsl:when test="text()">
-          <xsl:value-of select="translate(., '/', '／')"/>
+          <xsl:value-of select="normalize-space(translate(., '/', '／'))"/>
         </xsl:when>
         <xsl:otherwise>
           <xsl:text>-</xsl:text>
@@ -174,7 +202,7 @@
     <field name="document_tradition">
       <xsl:choose>
         <xsl:when test="text()">
-          <xsl:value-of select="translate(., '/', '／')"/>
+          <xsl:value-of select="normalize-space(translate(., '/', '／'))"/>
         </xsl:when>
         <xsl:otherwise>
           <xsl:text>-</xsl:text>
@@ -189,7 +217,7 @@
     <field name="provenance">
       <xsl:choose>
         <xsl:when test="text()">
-          <xsl:value-of select="translate(., '/', '／')"/>
+          <xsl:value-of select="normalize-space(translate(., '/', '／'))"/>
         </xsl:when>
         <xsl:otherwise>
           <xsl:text>-</xsl:text>
@@ -218,7 +246,7 @@
     <field name="topical_date">
       <xsl:choose>
         <xsl:when test="text()">
-          <xsl:value-of select="translate(., '/', '／')"/>
+          <xsl:value-of select="normalize-space(translate(., '/', '／'))"/>
         </xsl:when>
         <xsl:otherwise>
           <xsl:text>-</xsl:text>
@@ -314,6 +342,10 @@
     </field>
   </xsl:template>
 
+  <xsl:template name="field_author">
+    <xsl:apply-templates mode="facet_author" select="//tei:listChange/tei:change[1]" />
+  </xsl:template>
+  
   <xsl:template name="field_mentioned_persons">
     <xsl:apply-templates mode="facet_mentioned_persons" select="//tei:text/tei:body/tei:div[@type='edition']" />
   </xsl:template>
