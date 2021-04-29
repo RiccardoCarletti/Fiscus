@@ -418,6 +418,7 @@
             <xsl:text>{data: {id: "</xsl:text><xsl:value-of select="concat($id, ' + ', replace(@corresp, '#', ''))"/><xsl:text>", name: "</xsl:text><xsl:value-of select="$relation_type"/><xsl:text>", source: "</xsl:text><xsl:value-of select="$id"/>
             <xsl:text>", target: "</xsl:text><xsl:value-of select="replace(@corresp, '#', '')"/><xsl:text>"</xsl:text> 
             <xsl:text>, type: "</xsl:text><xsl:value-of select="$color"/><xsl:text>"</xsl:text>
+            <xsl:if test="$relation_type!=' '"><xsl:text>, subtype: "</xsl:text>arrow<xsl:text>"</xsl:text></xsl:if>
             <xsl:text>}}</xsl:text>
           </xsl:when>
           <xsl:when test="contains(@corresp, ' ')">
@@ -426,6 +427,7 @@
               <xsl:text>{data: {id: "</xsl:text><xsl:value-of select="concat($id, ' + ', $single_item)"/><xsl:text>", name: "</xsl:text><xsl:value-of select="$relation_type"/><xsl:text>", source: "</xsl:text><xsl:value-of select="$id"/>
               <xsl:text>", target: "</xsl:text><xsl:value-of select="$single_item"/><xsl:text>"</xsl:text> 
               <xsl:text>, type: "</xsl:text><xsl:value-of select="$color"/><xsl:text>"</xsl:text>
+              <xsl:if test="$relation_type!=' '"><xsl:text>, subtype: "</xsl:text>arrow<xsl:text>"</xsl:text></xsl:if>
               <xsl:text>}}</xsl:text>
               <xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if>
             </xsl:for-each>
@@ -523,6 +525,7 @@
             <xsl:text>{data: {id: "</xsl:text><xsl:value-of select="concat($id, ' + ', replace(@corresp, '#', ''))"/><xsl:text>", name: "</xsl:text><xsl:value-of select="$relation_type"/><xsl:text>", source: "</xsl:text><xsl:value-of select="$id"/>
             <xsl:text>", target: "</xsl:text><xsl:value-of select="replace(@corresp, '#', '')"/><xsl:text>"</xsl:text> 
             <xsl:text>, type: "</xsl:text><xsl:value-of select="$color"/><xsl:text>"</xsl:text>
+            <xsl:if test="$relation_type!=' '"><xsl:text>, subtype: "</xsl:text>arrow<xsl:text>"</xsl:text></xsl:if>
             <xsl:text>}}</xsl:text>
           </xsl:when>
           <xsl:when test="contains(@corresp, ' ')">
@@ -531,6 +534,7 @@
               <xsl:text>{data: {id: "</xsl:text><xsl:value-of select="concat($id, ' + ', $single_item)"/><xsl:text>", name: "</xsl:text><xsl:value-of select="$relation_type"/><xsl:text>", source: "</xsl:text><xsl:value-of select="$id"/>
               <xsl:text>", target: "</xsl:text><xsl:value-of select="$single_item"/><xsl:text>"</xsl:text> 
               <xsl:text>, type: "</xsl:text><xsl:value-of select="$color"/><xsl:text>"</xsl:text>
+              <xsl:if test="$relation_type!=' '"><xsl:text>, subtype: "</xsl:text>arrow<xsl:text>"</xsl:text></xsl:if>
               <xsl:text>}}</xsl:text>
               <xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if>
             </xsl:for-each>

@@ -686,7 +686,7 @@ document.addEventListener("click", function (e) {
 
 /* ***** cytoscape.js ***** */
         const cy_style = [
-        { selector: 'edge', style: { 'curve-style': 'bezier', 'width': 3, 'label': 'data(name)', 'target-arrow-shape': 'triangle', 'opacity': '0.6', 'z-index': '0' } },
+        { selector: 'edge', style: { 'curve-style': 'bezier', 'width': 3, 'label': 'data(name)', 'opacity': '0.6', 'z-index': '0' } },
         { selector: 'node', style: { 'font-size': '22', 'font-weight': 'bold' , 'label': 'data(name)', 'text-wrap': 'wrap', 'text-max-width': '280', 'text-valign': 'center', 'text-halign': 'center', 'shape': 'round-rectangle', 'padding': '20', 'border-width': 3, 'border-color': 'black', 'border-style': 'solid', 'width': 'label', 'height': 'label' } },
         { selector: 'node[type="people_only"]', style: { 'background-color': '#97c2fc' } },
         { selector: 'node[type="people"]', style: { 'background-color': '#ffff80' } },
@@ -697,6 +697,7 @@ document.addEventListener("click", function (e) {
         { selector: 'edge[type="green"]', style: { 'line-color': 'green', 'target-arrow-color': 'green' } },
         { selector: 'edge[type="blue"]', style: { 'line-color': 'blue', 'target-arrow-color': 'blue' } },
         { selector: 'edge[type="orange"]', style: { 'line-color': 'orange', 'target-arrow-color': 'orange' } },
+        { selector: 'edge[subtype="arrow"]', style: { 'target-arrow-shape': 'triangle' } },
         
         {selector: 'node.searched', style: {'border-width': 10, 'border-color': 'red'} },
         {selector: '.hidden', style: {'display': 'none'} },
