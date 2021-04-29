@@ -46,8 +46,9 @@
   <!-- Display unselected facets. -->
   <xsl:template match="lst[@name='facet_fields']" mode="search-results">
     <xsl:if test="lst/int">
+      <p><strong>Total documents</strong>: <xsl:value-of select="count(collection(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/xml/epidoc/?select=*.xml;recurse=yes')))"/></p>
+      
       <h3>Facets</h3>
-
       <div class="section-container accordion"
            data-section="accordion">
         <xsl:apply-templates mode="search-results" />
