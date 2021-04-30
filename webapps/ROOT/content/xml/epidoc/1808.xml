@@ -80,28 +80,46 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>In nomine sancte et individue trinitatis. <persName>Henricus</persName> dei
-                        gratia <rs>rex</rs>. Notum sit omnibus, [quia] <rs>cortem</rs> regiam que
-                        dicitur <geogName>Orco</geogName> et <placeName>vallem Cleui </placeName>et
-                        omnia eius pertinentia <rs><orgName>sancto Eusebio</orgName></rs>
-                        <rs>donavimus</rs> in perpetuum secundum preceptum domni
-                            <persName>Karuli</persName> imperatoris tempore
-                            <persName>Liutuardi</persName>
-                        <rs>episcopi</rs> concessum, quod bene credidimus et melius fecimus, quia
-                        ipsum preceptum manibus propriis tenuimus, oculis vidimus, dei gratia
-                        legimus; et preceptum etiam legimus de <placeName>valle Cleui </placeName>a
-                        seniore nostro <persName>Ottone</persName> imperatore sancto Eusebio
-                        concessum. Damus et reddimus sancto Eusebio cortem
-                            <geogName>Romanianum</geogName> in integrum iuxta donum Karuli
-                        imperatoris et <geogName>Sestignum</geogName>,
-                        <geogName>Bedolium</geogName>, <geogName>Clauazam</geogName>,
-                            <placeName>Pedrorum</placeName>, <placeName>Causade</placeName> in
-                        integrum, <placeName>Montem Uictimol</placeName>i. Si quis de his omnino
-                        Uercellensem ecclesiam disvestierit vel molestaverit, mille libras
-                            <rs>auri</rs> componat, medietatem nobis et ecclesie alteram, et
-                        ecclesia sua retineat imperpetuum. Quod ut credatur et conservetur, hoc
-                        preceptum manu nostra firmavimus et iussimus sigillari. Signum donni Henrici
-                        (M.) regis invictissimi. <persName>Eberhardus</persName>
+                    <ab>In nomine sancte et individue trinitatis. <persName key="#Emperor/king"
+                            ref="#people/130">Henricus</persName> dei gratia <rs key="#Emperor/king"
+                            >rex</rs>. Notum sit omnibus, [quia] <rs key="#Curtes">cortem</rs>
+                        regiam que dicitur <geogName>Orco</geogName> et <placeName ref="#places/103"
+                            key="#Fiscal_property #Textual_occurrence #Object #Inflow #Allocation_to_churches"
+                            >vallem Cleui </placeName>et omnia eius pertinentia <rs
+                            key="#Mother_churches"><orgName key="#Mother_churches"
+                                ref="#juridical_persons/81">sancto Eusebio</orgName></rs>
+                        <rs key="#Imperial/royal_diploma">donavimus</rs> in perpetuum secundum
+                        preceptum domni <persName key="#Emperor/king" ref="#people/32"
+                            >Karuli</persName> imperatoris tempore <persName key="#Bishops"
+                            ref="#people/33">Liutuardi</persName>
+                        <rs key="#Bishops">episcopi</rs> concessum, quod bene credidimus et melius
+                        fecimus, quia ipsum preceptum manibus propriis tenuimus, oculis vidimus, dei
+                        gratia legimus; et preceptum etiam legimus de valle Cleui a seniore nostro
+                            <persName key="#Emperor/king" ref="#people/7">Ottone</persName>
+                        imperatore sancto Eusebio concessum. Damus et reddimus sancto Eusebio cortem
+                            <geogName ref="#estates/88"
+                            key="#Curtes #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches"
+                            >Romanianum</geogName> in integrum iuxta donum Karuli imperatoris et
+                            <geogName
+                            key="#Curtes #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches"
+                            ref="#estates/63">Sestignum</geogName>, <geogName
+                            key="#Curtes #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches"
+                            ref="#estates/206"><placeName ref="#places/457"  key="#Curtes #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches"
+                            >Bedolium</placeName></geogName>, <geogName
+                            key="#Curtes #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches"
+                            ref="#estates/205"><placeName ref="#places/212"  key="#Curtes #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches"
+                            >Clauazam</placeName></geogName>, <placeName
+                            key="#Curtes #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches"
+                            >Pedrorum</placeName>, <placeName
+                            key="#Curtes #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches"
+                            >Causade</placeName> in integrum, <placeName
+                            key="#Curtes #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches"
+                            >Montem Uictimol</placeName>i. Si quis de his omnino Uercellensem
+                        ecclesiam disvestierit vel molestaverit, mille libras <rs>auri</rs>
+                        componat, medietatem nobis et ecclesie alteram, et ecclesia sua retineat
+                        imperpetuum. Quod ut credatur et conservetur, hoc preceptum manu nostra
+                        firmavimus et iussimus sigillari. Signum donni Henrici (M.) regis
+                        invictissimi. <persName>Eberhardus</persName>
                         <rs>cancellarius</rs> vice <rs>archicancellarii</rs> recognovit. Anno
                         dominice incarnationis MVII, indictione V, anno donni Henrici regis V; actum
                             <placeName>Radaspone</placeName>. (C.) In nomine sanctae et individuae
