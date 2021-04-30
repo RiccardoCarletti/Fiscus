@@ -56,7 +56,7 @@
         </doc>
       </xsl:for-each-group>
       
-      <xsl:for-each-group select="//tei:persName[ancestor::tei:div/@type='edition'][not(@ref) or @ref=''][not(descendant::tei:name[@ref!=''])]" group-by="lower-case(.)">
+      <xsl:for-each-group select="//tei:persName[ancestor::tei:div/@type='edition'][not(@ref) or @ref=''][not(descendant::tei:name[@ref!=''])][not(ancestor::tei:name[@ref!=''])]" group-by="lower-case(.)">
         <doc>
           <field name="document_type">
             <xsl:value-of select="$subdirectory" />
