@@ -4,7 +4,8 @@
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
-                <title></title>
+                <title>Archivio di Stato di Torino, <foreign>Bobbio</foreign>, cat. I, mazzo I,
+                    copia membr. sec X-XI</title>
             </titleStmt>
             <editionStmt>
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
@@ -30,9 +31,9 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#"/>
-                            <rs type="record_source" ref="#"/>
-                            <rs type="document_tradition" ref="#"/>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
                             <rs type="fiscal_property"/>
                         </summary>
                         <msItem xml:id="msItem1">
@@ -41,10 +42,10 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate notBefore="0001" notAfter="0001" when="0001"> 
-                                <note type="displayed_date"></note>
-                                <note type="dating_elements"></note>
-                                <note type="topical_date"></note>
+                            <origDate when="0903-09-11">
+                                <note type="displayed_date">903 september 11</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date"><foreign>Sulcia</foreign></note>
                             </origDate>
                             <origPlace/>
                         </origin>
@@ -72,7 +73,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2021-02-08">creation of record</change>
+                <change when="2021-02-08" who="Chiara Stedile">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -94,32 +95,33 @@
                         consors nostri regni humiliter nostram adiit clementiam, quatenus venerabili
                             <rs key="#Abbots">abbati</rs> et <rs key="#Clergy/religious_persons"
                             >sacerdoti</rs>
-                        <persName key="#Abbots">Theodelassio</persName> nostroque fidelissimo
-                            <orgName key="#Monasteries" ref="#juridical_persons/150">Aebobiensis
+                        <persName key="#Abbots"><name ref="Theodelassius"
+                            >Theodelassio</name></persName> nostroque fidelissimo <orgName
+                            key="#Monasteries" ref="#juridical_persons/150">Aebobiensis
                             cenobii</orgName> eiusque congregationi ibidem degentibus rettulit nobis
                         privilegia sancte Sedis apostolice seu et preceptiones regum Langobardorum,
                             <persName key="#Emperor/king" ref="#people/250">Agilulfi</persName>
-                        videlicet, <persName key="#Emperor/king">Adaluvoldi</persName>, <persName
-                            key="#Emperor/king" ref="#people/251">Grimoaldi</persName>, <persName
-                            key="#Emperor/king" ref="#people/217">Cuniberti</persName>, <persName
-                            key="#Emperor/king" ref="#people/12">Liutprandi</persName>, <persName
-                            key="#Emperor/king" ref="#people/248">Ratchisi</persName>, <persName
-                            key="#Emperor/king" ref="#people/48">Ahistulfi</persName> et <persName
-                            key="#Emperor/king" ref="#people/249">Desiderii</persName>, quibus
-                        prefatum monasterium Ebobiense de redditibus suis possessionibusque
-                        ditaverant et cum omnibus sanctum et venerabile ad eundem locum
-                        pertinentibus sub immunitatis defensione tenuerant, sed et auctoritates
-                        divine memoriae <persName key="#Emperor/king" ref="#people/14"
-                            >Karoli</persName> augusti, <persName key="#Emperor/king"
-                            ref="#people/118">Hludovici</persName>, <persName key="#Emperor/king"
-                            ref="#people/9">Lotharii</persName> atque <persName key="#Emperor/king"
-                            ref="#people/110">Hluudovici</persName> filii eius, <persName
-                            key="#Emperor/king" ref="#people/80">Karlomanni</persName> videlicet et
-                            <persName key="#Emperor/king" ref="#people/32">Karoli</persName>
-                        imperatoris consobrini nostri atque <persName key="#Emperor/king"
-                            ref="#people/252">Arnulfi</persName>, per quas ipsi prefatum monasterium
-                        cum rebus et possessionibus suis et <rs key="#Freeborn">hominibus
-                            liberis</rs> sive <rs key="#Slave">servis</rs>
+                        videlicet, <persName key="#Emperor/king"><name ref="Adalaldus"
+                                >Adaluvoldi</name></persName>, <persName key="#Emperor/king"
+                            ref="#people/251">Grimoaldi</persName>, <persName key="#Emperor/king"
+                            ref="#people/217">Cuniberti</persName>, <persName key="#Emperor/king"
+                            ref="#people/12">Liutprandi</persName>, <persName key="#Emperor/king"
+                            ref="#people/248">Ratchisi</persName>, <persName key="#Emperor/king"
+                            ref="#people/48">Ahistulfi</persName> et <persName key="#Emperor/king"
+                            ref="#people/249">Desiderii</persName>, quibus prefatum monasterium
+                        Ebobiense de redditibus suis possessionibusque ditaverant et cum omnibus
+                        sanctum et venerabile ad eundem locum pertinentibus sub immunitatis
+                        defensione tenuerant, sed et auctoritates divine memoriae <persName
+                            key="#Emperor/king" ref="#people/14">Karoli</persName> augusti,
+                            <persName key="#Emperor/king" ref="#people/118">Hludovici</persName>,
+                            <persName key="#Emperor/king" ref="#people/9">Lotharii</persName> atque
+                            <persName key="#Emperor/king" ref="#people/110">Hluudovici</persName>
+                        filii eius, <persName key="#Emperor/king" ref="#people/80"
+                            >Karlomanni</persName> videlicet et <persName key="#Emperor/king"
+                            ref="#people/32">Karoli</persName> imperatoris consobrini nostri atque
+                            <persName key="#Emperor/king" ref="#people/252">Arnulfi</persName>, per
+                        quas ipsi prefatum monasterium cum rebus et possessionibus suis et <rs
+                            key="#Freeborn">hominibus liberis</rs> sive <rs key="#Slave">servis</rs>
                         <rs key="#Coloni/tenants">colonisque</rs> et <rs key="#Royal_slave">familiis
                             utriusque sexus</rs> in suo <rs key="#Tuitio/bannum/mundeburdium"
                             >mundburdo et tuitione</rs> receperant. Nos itaque considerantes aeterne
@@ -143,81 +145,115 @@
                         largitione et eorum electione ipsi sancto loco substitutus secundum Dei
                         voluntatem eorumque in omnibus competentem utilitatem. Id est, monasterium
                         cum <rs key="#Cells/hermitages">cellulis</rs> infra vallem in qua scitum est
-                        consistentibus <rs key="#Cells/hermitages">Turre</rs>, <rs
-                            key="#Cells/hermitages">Boco</rs>, <rs key="#Cells/hermitages">Saloniano
-                            montana et maritima</rs> cum cellulis <rs key="#Cells/hermitages"
-                            >Carica</rs> et <rs key="#Cells/hermitages">Turio</rs>, <rs
-                            key="#Cells/hermitages">Comorga</rs> et <rs key="#Cells/hermitages"
-                            >Castellione</rs>, <rs key="#Cells/hermitages">Ranci</rs> et <rs
-                            key="#Cells/hermitages">Caniano</rs> atque <rs key="#Cells/hermitages"
-                            >Brioni</rs>, <rs key="#Cells/hermitages">Virdi</rs>, cum <rs
-                            key="#Churches">ecclesia</rs>
+                        consistentibus <placeName key="#Cells/hermitages" ref="#places/492"
+                            >Turre</placeName>, <placeName ref="#places/491" key="#Cells/hermitages"
+                            >Boco</placeName>, <placeName key="#Cells/hermitages" ref="#places/493"
+                            >Saloniano</placeName> montana et maritima cum cellulis <rs
+                            key="#Cells/hermitages">Carica</rs> et <rs key="#Cells/hermitages"
+                            >Turio</rs>, <placeName key="#Cells/hermitages" ref="#places/494"
+                            >Comorga</placeName> et <rs key="#Cells/hermitages">Castellione</rs>,
+                            <rs key="#Cells/hermitages">Ranci</rs> et <rs key="#Cells/hermitages"
+                            >Caniano</rs> atque <rs key="#Cells/hermitages">Brioni</rs>, <rs
+                            key="#Cells/hermitages">Virdi</rs>, cum <rs key="#Churches"
+                            >ecclesia</rs>
                         <orgName key="#Churches" ref="#juridical_persons/179">Sancti Pauli</orgName>
                         <placeName ref="#places/466">in Niza</placeName> et <orgName key="#Churches"
                             ref="#juridical_persons/180">Sancti Albani in Candubrio</orgName>,
                             <placeName ref="#places/467">Monte Longum</placeName> cum Memoriola et
-                        omnibus appendiciis suis, <placeName>Tovatia</placeName> cum ecclesia Sancti
-                        Pauli in Sartoriano, ecclesia Sancti Antonini et Sancti Severi, Peccorari
-                        cum Palantas et proprio Guntelmi et Paderno, ac Cassiano, Travano et
-                        Ancariano, ecclesia Domini Salvatoris in Clauzano, Rovaclas et ecclesia in
-                        honore sancte Resurrecionis cum his que ad eam pertinent, Aulianum,
-                        Sarlascum, Luliatica, Garda cum Adarbassio, Fraxenetum et portum Mantuano,
-                        propriumque quod Sabbatinus Veneticus in Comaglo sancto Columbano tradidit,
-                        schenedochium aetiam ob utilitatem et honorem ipsius sancti loci ut naves
-                        eiusdem petestatis per Padum et Ticimus publicum transitum habeant seu et
-                        molendimun quod nos eidem abbati per nostrum preceptum concessimus, ut
-                        nullus iudex aut minister rei publice exinde quippiam exigat, et ut mercatus
-                        annuus in villis aliquibus eiusdem monasterii sub dispositione et potestate
-                        abbatum et ministrorum, secundum quod oportunum fuerit, fiat et neque in
-                        ipso mercato neque in profectione aut reditu ab ipso mercato aut aetiam a
-                        transitu navium supra compreenso vel in reditu ab ipso transitu quispiam
-                        exigere presumat preter ipsum monasterii potestatem. Omnia igitur hec que
-                        superius inscerta sunt, sicut ad eundem sanctum et venerabilem locum
-                        delegata et tradita noscuntur, ita cum omni integritate et cum omnibus ad se
-                        pertinentibus cum massariciis vel familiis seu cunctis adiacentiis sub omni
-                        integritate absque ulla diminutione sive subtractione et queque deinceps
-                        ipsi sana industria vel quorumlibet Christianorum legitima collatione
-                        acquerire potuerit inconvulsa et perpetua stabilitate concedimus haberi,
-                        possideri, ad votum ipsorum religiose ac rationabiliter et Deo Placite
-                        ordinari. Sed et privilegia apostolica auctoritate eidem sancto loco largita
-                        per hoc pragmaticum confirmamus, ita ut nullus episcoporum vel ex quolibet
-                        ecclesiastico ordine violare vel inrumpere attentet omnino interdicimus.
-                        Igitur quia pro summa rei publice necessitate pacisque tranquillitate
-                        quandam divisionem de rebus iam fati coenobii ad horam fieri permisimus,
-                        iubemus atque omnimodis statuimus, ut de illa parte quam in usus abbatis vel
-                        monachorum delegavimus interim, dum Domino auxiliante ad pristinum revocetur
-                        statum, nullus iudex publicus nullus missus discurrens aut quelibet persona
-                        nostra regali largitione iure beneficialio aut aliarum rerum partem vel
-                        divisionem optinens aliquam sepe fato abbati vel monachis eorumque familiis
-                        violentiam vel inquietudinem in via vel in agro aut in domibus inferre
-                        presumat, quos cum omnibus rebus et familiis sub nostra nos constat
-                        recepisse emunitate aut tuitionis mundburdo. Si quis vero hominum ipsius
-                        monasterii utilitatibus famulantium ingenuus commendatus sive servus aliquid
+                        omnibus appendiciis suis, <placeName ref="#places/468">Tovatia</placeName>
+                        cum ecclesia <orgName ref="#juridical_persons/185">Sancti Pauli in
+                            Sartoriano</orgName>, ecclesia <orgName ref="#juridical_persons/184"
+                            key="#Churches">Sancti Antonini</orgName> et <orgName key="#Churches"
+                            ref="#juridical_persons/186">Sancti Severi</orgName>, <placeName
+                            ref="#places/474">Peccorari</placeName> cum <placeName ref="#places/475"
+                            >Palantas</placeName> et proprio <placeName>Guntelmi</placeName> et
+                            <placeName>Paderno</placeName>, ac <placeName>Cassiano</placeName>,
+                            <placeName ref="#places/476">Travano</placeName> et <placeName
+                            ref="#places/477">Ancariano</placeName>, ecclesia <orgName>Domini
+                            Salvatoris</orgName> in <placeName ref="#places/481"
+                            >Clauzano</placeName>, <placeName ref="#places/480">Rovaclas</placeName>
+                        et ecclesia <orgName>in honore sancte Resurrecionis</orgName> cum his que ad
+                        eam pertinent, <placeName ref="#places/478">Aulianum</placeName>, <placeName
+                            ref="#places/479">Sarlascum</placeName>,
+                            <placeName>Luliatica</placeName>, Garda cum <placeName ref="#places/482"
+                            >Adarbassio</placeName>, <placeName ref="#places/483"
+                            >Fraxenetum</placeName> et <placeName ref="#places/484">portum
+                            Mantuano</placeName>, propriumque quod <persName><name
+                                ref="Sabbatinus Veneticus">Sabbatinus Veneticus</name></persName> in
+                            <placeName ref="#places/485">Comaglo</placeName> sancto Columbano
+                        tradidit, <rs key="#Hospitals">schenedochium</rs> aetiam ob utilitatem et
+                        honorem ipsius sancti loci ut <rs key="#Fluvial_transport">naves eiusdem
+                            potestatis per <rs key="#Rivers">Padum</rs> et <rs key="#Rivers"
+                                >Ticinum</rs> publicum transitum habeant</rs> seu et <rs
+                            key="#Mills #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches"
+                            >molendinum</rs> quod nos eidem abbati per nostrum preceptum
+                        concessimus, ut nullus iudex aut minister rei publice exinde quippiam
+                        exigat, et ut <rs key="#Periodic_markets">mercatus annuus</rs> in <rs
+                            key="#Villas">villis</rs> aliquibus eiusdem monasterii sub dispositione
+                        et potestate abbatum et ministrorum, secundum quod oportunum fuerit, fiat et
+                            <rs key="#Privileges">neque in ipso mercato neque in profectione aut
+                            reditu ab ipso mercato aut aetiam a transitu navium supra compreenso vel
+                            in reditu ab ipso transitu quispiam exigere presumat preter ipsum
+                            monasterii potestatem</rs>. Omnia igitur hec que superius inscerta sunt,
+                        sicut ad eundem sanctum et venerabilem locum delegata et tradita noscuntur,
+                        ita cum omni integritate et cum omnibus ad se pertinentibus cum <rs
+                            key="#Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches #Coloni/tenants"
+                            >massariciis</rs> vel <rs
+                            key="#Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches #Royal_slave"
+                            >familiis</rs> seu cunctis adiacentiis sub omni integritate absque ulla
+                        diminutione sive subtractione et queque deinceps ipsi sana industria vel
+                        quorumlibet Christianorum legitima collatione acquerire potuerit <rs
+                            key="#Fiscal_property #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
+                            >inconvulsa et perpetua stabilitate concedimus haberi, possideri</rs>,
+                        ad votum ipsorum religiose ac rationabiliter et Deo Placite ordinari. Sed et
+                        privilegia apostolica auctoritate eidem sancto loco largita per hoc
+                        pragmaticum confirmamus, ita ut <rs key="#Exemption">nullus episcoporum vel
+                            ex quolibet ecclesiastico ordine violare vel inrumpere attentet omnino
+                            interdicimus</rs>. Igitur quia pro summa rei publice necessitate
+                        pacisque tranquillitate quandam divisionem de rebus iam fati coenobii ad
+                        horam fieri permisimus, iubemus atque omnimodis statuimus, ut de illa parte
+                        quam in usus abbatis vel monachorum delegavimus interim, dum Domino
+                        auxiliante ad pristinum revocetur statum, <rs
+                            key="#Tuitio/bannum/mundeburdium">nullus iudex publicus nullus missus
+                            discurrens aut quelibet persona nostra regali largitione iure
+                            beneficialio aut aliarum rerum partem vel divisionem optinens aliquam
+                            sepe fato abbati vel monachis eorumque familiis violentiam vel
+                            inquietudinem in via vel in agro aut in domibus inferre presumat, quos
+                            cum omnibus rebus et familiis sub nostra nos constat recepisse emunitate
+                            aut tuitionis mundburdo</rs>. Si quis vero hominum ipsius monasterii
+                        utilitatibus famulantium ingenuus commendatus sive servus aliquid
                         commiserit, unde fiscus noster quippiam sperare possit, totum hoc parti
                         ipsius sancti loci concedimus et ne a quoquam exigatur penitus abnegamus.
                         Quicumque vero aliquid horum violare presumpserit, sciat se persolvendarum
-                        sexaginta librarum auri optimi eidem loco esse multandum et insuper nostra
-                        offensione plectendum. Nullasque redibiciones aut publicas excubias, nullas
-                        paratas vel angarias facere seu persolvere cogantur, nullas pontium vel
-                        veteres structiones seu restructiones agere vel renovare compellantur. Que
-                        nos universa idcirco concessimus et perdonavimus, ut omnipotenti Domino pro
+                            <rs key="#Penalty">sexaginta librarum auri optimi</rs>
+                        <rs key="#Camera">eidem loco</rs> esse multandum et insuper nostra
+                        offensione plectendum. Nullasque redibiciones aut <rs
+                            key="#Scufiae/transport_service">publicas excubias</rs>, nullas paratas
+                        vel angarias facere seu persolvere cogantur, nullas pontium vel veteres
+                        structiones seu restructiones agere vel renovare compellantur. Que nos
+                        universa idcirco concessimus et perdonavimus, ut omnipotenti Domino pro
                         nostro totiusque regni nostri augmento et pro stabilimento devotius
                         placidiusque ac delectabilius omni exclusa necessitatis occasione valenat
                         supplicare. Ut autem hec nostra concessionis preceptio rata ac stabilis per
                         futura tempora maneat, manu nostra subter firmavimus et anuli nostri
-                        inpressione nsigniri iussimus.signum domni (M) Berengarii serenissimi regis.
-                        Ambrosius cancellarius ad vicem Ardingi episcopi et archicancellarii
-                        recognovi et subscripsi. Data III id. sept., anno dominice incarnationis
-                        DCCCCIII, regni vero domni Berengarii piissimi regis XVI, indictione VI.
-                        Actum apud ecclesiam Sancti Petri corte nostra Sulcia. In Dei nomine
+                        inpressione nsigniri iussimus. Signum domni (M) Berengarii serenissimi
+                        regis. <persName key="#Chancellor"><name ref="Ambrosius"
+                            >Ambrosius</name></persName>
+                        <rs key="#Chancellor">cancellarius</rs> ad vicem <persName
+                            key="#Archchancellor #Bishops" ref="#people/216">Ardingi</persName>
+                        <rs key="#Bishops">episcopi</rs> et <rs key="#Archchancellor"
+                            >archicancellarii</rs> recognovi et subscripsi. Data III id. sept., anno
+                        dominice incarnationis DCCCCIII, regni vero domni Berengarii piissimi regis
+                        XVI, indictione VI. Actum apud ecclesiam <orgName>Sancti Petri</orgName>
+                        <geogName ref="#estates/127">corte nostra Sulcia</geogName>. In Dei nomine
                         feliciter, amen.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p/>
+                <p>DD B I, pp. 115-120, n° XL</p>
             </div>
             <div type="bibliography" subtype="additional">
-                <p/>
+                <p>Lucioni 2015; Musina 2012; Settia 2006.</p>
             </div>
             <div type="bibliography" subtype="links">
                 <p/>

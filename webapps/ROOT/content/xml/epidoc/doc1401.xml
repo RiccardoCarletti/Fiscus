@@ -78,7 +78,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2021-02-08">creation of record</change>
+                <change when="2021-02-08" who="scollavini">creation of record</change>
                 <change when="2021-03-04" who="scollavini">creation of record</change>
             </listChange>
         </revisionDesc>
@@ -97,17 +97,18 @@
                             Romana</rs> et <persName key="#Countess" ref="#people/98"
                             >Maximilla</persName>
                         <rs key="#Countess">comitissa</rs> et <rs key="#Countess">comitissam</rs>
-                        <persName ref="#people/99">Lupam</persName>, filiam
-                            <persName>Soffredi</persName>, relictam <persName key="#Count"
-                            ref="#people/100">Malagalie</persName>, que professa sum, propter legem
-                        patris mei, <rs key="#Lombard">legem vivere Longobardorum</rs>, ipso namque
-                        Ildebrando mihi consentiente, in mundio cuius permanere volo, presens
-                        presentibus in Dei nomine dixisse: “Vita et mors in manu Dei est et melius
-                        est homini metu mortis vivere, quam spe vivendi morte subitanea pervenire”.
-                        Ideo nos recordantes animarum nostrorum parentum atque <rs key="#Count"
-                            >comitis</rs> Malagalie, nec non nostrarum, ut dominus peccata nostra
-                        minuere dignetur, donamus atque igitur concedimus atque offerimus nec non
-                        tradimus Deo et <rs key="#Monasteries">monasterio</rs>
+                        <persName ref="#people/99">Lupam</persName>, filiam <persName><name
+                                ref="Soffredus">Soffredi</name></persName>, relictam <persName
+                            key="#Count" ref="#people/100">Malagalie</persName>, que professa sum,
+                        propter legem patris mei, <rs key="#Lombard">legem vivere
+                        Longobardorum</rs>, ipso namque Ildebrando mihi consentiente, in mundio
+                        cuius permanere volo, presens presentibus in Dei nomine dixisse: “Vita et
+                        mors in manu Dei est et melius est homini metu mortis vivere, quam spe
+                        vivendi morte subitanea pervenire”. Ideo nos recordantes animarum nostrorum
+                        parentum atque <rs key="#Count">comitis</rs> Malagalie, nec non nostrarum,
+                        ut dominus peccata nostra minuere dignetur, donamus atque igitur concedimus
+                        atque offerimus nec non tradimus Deo et <rs key="#Monasteries"
+                            >monasterio</rs>
                         <orgName key="#Monasteries" ref="#juridical_persons/78">Sancti
                             Quirici</orgName> de <placeName ref="#places/86" key="#Monasteries"
                             >Populonio</placeName>, idest medietatem de omnibus <rs
@@ -157,22 +158,34 @@
                             ref="#places/87">Suvereto</placeName>. Signa manuum […] comitis
                         Ildebrandi et Maximille comitisse et Lupe comitisse, qui queve hanc cartula
                         qualiter super legitur, scribere rogaverunt. Signa manuum <persName
-                            key="#Viscount" ref="#people/104">Rugeri</persName>
-                        <rs key="#Viscount">vicecomitis</rs> filii <persName>Ildebrandi</persName>
-                        et <persName>Wlpelli</persName> filii [<persName>Perli</persName>] et
-                            <persName>Berardini</persName> filii <persName>Petri Grassi</persName>
-                        et <persName>Malpilli</persName> filii eius et <persName>Raineri</persName>
-                        filii <persName>Rufinelli</persName> et <persName>Tancredi</persName> filii
-                            <persName>Ugiccionis Berardoni</persName> et
-                            <persName>Salarii</persName> filii <persName>Walfredi</persName> da
-                            <placeName>Tremali</placeName> et <persName>Wazonis</persName> de
-                            <placeName>Monteliverenti</placeName> et <persName>Widonis</persName> de
+                            key="#Witness #Viscount" ref="#people/104">Rugeri</persName>
+                        <rs key="#Viscount">vicecomitis</rs> filii <persName><name ref="Ildebrandus"
+                                >Ildebrandi</name></persName> et <persName key="#Witness"><name
+                                ref="Vulpellus">Wlpelli</name></persName> filii [<persName><name
+                                ref="Perlus">Perli</name></persName>] et <persName key="#Witness"
+                                ><name ref="Berardinus">Berardini</name></persName> filii
+                                <persName><name ref="Petrus/Grassus">Petri Grassi</name></persName>
+                        et <persName key="#Witness"><name ref="Malpilius">Malpilli</name></persName>
+                        filii eius et <persName key="#Witness"><name ref="Rainerius"
+                            >Raineri</name></persName> filii <persName><name ref="Rufinellus"
+                                >Rufinelli</name></persName> et <persName key="#Witness"><name
+                                ref="Tancredus">Tancredi</name></persName> filii <persName><name
+                                ref="Huguccio">Ugiccionis</name>
+                            <name ref="Berardus">Berardoni</name></persName> et <persName
+                            key="#Witness"><name ref="Salarius">Salarii</name></persName> filii
+                                <persName><name ref="Walfredus">Walfredi</name></persName> da
+                            <placeName>Tremali</placeName> et <persName key="#Witness"><name
+                                ref="Wazo">Wazonis</name></persName> de
+                            <placeName>Monteliverenti</placeName> et <persName key="#Witness"><name
+                                ref="Wido">Widonis</name></persName> de
                             <placeName>Monticulo</placeName>. Confirmatum est hoc a comitissa
                         Maximilla in <placeName ref="#places/88"
                             key="#Fiscal_property #Residential #Countess #Itinerary"
-                            >Malliano</placeName>, testibus Widone de Monticulo et
-                            <persName>Rugeri</persName> et <persName>Banbarini</persName>. Ego
-                            <persName key="#Notary #Judge">Agimerigus</persName>
+                            >Malliano</placeName>, testibus Widone de Monticulo et <persName
+                            key="#Witness" ref="#people/104">Rugeri</persName> et <persName
+                            key="#Witness"><name ref="Bambarinus">Banbarini</name></persName>. Ego
+                            <persName key="#Writer #Notary #Judge"><name ref="Aimerigus"
+                                >Agimerigus</name></persName>
                         <rs key="#Judge">iudex</rs> et <rs key="#Notary">notarius</rs> domni
                         imperatoris post tradita complevi et dedi. </ab>
                 </div>

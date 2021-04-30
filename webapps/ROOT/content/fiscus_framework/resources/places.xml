@@ -18,7 +18,7 @@
         <body>
             <listPlace type="places">
                 <place>
-                    <placeName><foreign>Ilice</foreign> (Pieve a Elici; Lucca)</placeName>
+                    <placeName><foreign>Ilice</foreign> (Pieve a Elici; Massarosa; Lucca)</placeName>
                     <geogName type="coord"><geo>43.885173623043144,
                         10.335706471960295</geo></geogName>
                     <idno>places/1</idno>
@@ -44,7 +44,7 @@
                     <idno>places/4</idno>
                     <note>Microtoponomastica: <foreign>Porta Sancti Petri</foreign>; <foreign>Porta
                             Sancti Donati</foreign>; <foreign>ad Silice</foreign>;
-                        <foreign>Perolascio</foreign>; <foreign>Cipriano</foreign>.</note>
+                        <foreign>Perolascio</foreign>; <foreign>Cipriano</foreign>; <foreign>a Pulia</foreign>.</note>
                 </place>
                 <place>
                     <placeName>Sale (Alessandria)</placeName>
@@ -162,14 +162,14 @@
                     <note><foreign>Caput curtis</foreign> compreso tra Trino e Tricerro</note>
                 </place>
                 <place>
-                    <placeName>Nozzano (Lucca)</placeName>
+                    <placeName>Nozzano (Lucca; Lucca)</placeName>
                     <geogName type="coord"><geo>43.83489826128234,
                         10.41731986217201</geo></geogName>
                     <idno>places/21</idno>
                     <note/>
                 </place>
                 <place>
-                    <placeName><foreign>Flexo</foreign> (Montuolo; Lucca)</placeName>
+                    <placeName><foreign>Flexo</foreign> (Montuolo; Lucca; Lucca)</placeName>
                     <geogName type="coord"><geo>43.839336483090854,
                         10.446958271786572</geo></geogName>
                     <idno>places/22</idno>
@@ -269,7 +269,7 @@
                     <note>Frazione di Farini</note>
                 </place>
                 <place>
-                    <placeName>Saltocchio (Lucca)</placeName>
+                    <placeName>Saltocchio (Lucca; Lucca)</placeName>
                     <geogName type="coord"><geo>43.901912348717254,
                         10.537523478269577</geo></geogName>
                     <idno>places/36</idno>
@@ -434,6 +434,7 @@
                     <geogName type="coord"><geo>44.974590, 9.831090</geo></geogName>
                     <idno>places/57</idno>
                     <note>Ciliberti e Salvestrini 2014</note>
+                    <link type="juridical_persons" corresp="#juridical_persons/67" subtype="link"/>
                 </place>
                 <place>
                     <placeName>Cremona</placeName>
@@ -450,7 +451,7 @@
                     <note/>
                 </place>
                 <place>
-                    <placeName>Marlia (Lucca)</placeName>
+                    <placeName>Marlia (Lucca; Lucca)</placeName>
                     <placeName type="other"/>
                     <geogName type="coord"><geo>43.892349, 10.559020</geo></geogName>
                     <idno>places/60</idno>
@@ -458,7 +459,7 @@
                 </place>
                 <place>
                     <placeName><foreign>Vico Strata</foreign> (San Lorenzo di Moriano;
-                        Lucca)</placeName>
+                        Lucca; Lucca)</placeName>
                     <placeName type="other"><foreign>Secturia</foreign></placeName>
                     <geogName type="coord"><geo>43.887021, 10.520043</geo></geogName>
                     <idno>places/61</idno>
@@ -467,12 +468,12 @@
                             <foreign>Waturaticha</foreign>. </note>
                 </place>
                 <place>
-                    <placeName><foreign>Bibbiano</foreign> (Ponticelli di Santa Maria a Monte;
+                    <placeName><foreign>Bibbiano</foreign> (Ponticelli; Santa Maria a Monte;
                         Pisa)</placeName>
                     <placeName type="other"><foreign>Bibbia</foreign></placeName>
-                    <geogName type="coord"><geo>43.689246, 10.714330</geo></geogName>
+                    <geogName type="coord"><geo>43.6944662, 10.6962237</geo></geogName>
                     <idno>places/62</idno>
-                    <note/>
+                    <note>Microtoponomastica: <foreign>a Carpinitula</foreign>.</note>
                     <link type="places" corresp="#places/63" subtype="isInVicinityOf"/>
                 </place>
                 <place>
@@ -485,7 +486,7 @@
                 </place>
                 <place>
                     <placeName><foreign>Vico Asulari</foreign> (San Pietro a Vico;
-                        Lucca)</placeName>
+                        Lucca; Lucca)</placeName>
                     <placeName type="other"/>
                     <geogName type="coord"><geo>43.868881, 10.538127</geo></geogName>
                     <idno>places/64</idno>
@@ -1185,7 +1186,8 @@
                 <place>
                     <placeName><foreign>Anniano</foreign> (Sant'Ippolito; Santa Maria a Monte;
                         Pisa)</placeName>
-                    <placeName type="other"><foreign>Aniani</foreign></placeName>
+                    <placeName type="other"><foreign>Aniani</foreign>;
+                        <foreign>Anniani</foreign></placeName>
                     <geogName type="coord"><geo>43.6917156, 10.7074629</geo></geogName>
                     <idno>places/152</idno>
                     <note/>
@@ -1229,7 +1231,7 @@
                     <note>Repetti 1833-1846: I, 358; VI, 25.</note>
                 </place>
                 <place>
-                    <placeName>Trieste </placeName>
+                    <placeName>Trieste</placeName>
                     <placeName type="other"/>
                     <geogName type="coord"><geo>45.648848, 13.793335</geo></geogName>
                     <idno>places/158</idno>
@@ -1286,7 +1288,7 @@
                     <note/>
                 </place>
                 <place>
-                    <placeName>Sesto di Moriano (Lucca)</placeName>
+                    <placeName>Sesto di Moriano (Lucca; Lucca)</placeName>
                     <placeName type="other"/>
                     <geogName type="coord"><geo>43.91670510779723,
                         10.525933856767947</geo></geogName>
@@ -1294,7 +1296,7 @@
                     <note/>
                 </place>
                 <place>
-                    <placeName>Tempagnano (Lucca)</placeName>
+                    <placeName>Tempagnano (Lucca; Lucca)</placeName>
                     <placeName type="other"/>
                     <geogName type="coord"><geo>43.8500635, 10.544512</geo></geogName>
                     <idno>places/166</idno>
@@ -1397,14 +1399,14 @@
                         1987-1992, pp. 39-40.</note>
                 </place>
                 <place>
-                    <placeName>Guamo (Lucca)</placeName>
+                    <placeName>Guamo (Lucca; Lucca)</placeName>
                     <placeName type="other"/>
                     <geogName type="coord"><geo>43.811119, 10.512886</geo></geogName>
                     <idno>places/179</idno>
                     <note/>
                 </place>
                 <place>
-                    <placeName>Vaccoli (San Lorenzo a Vaccoli; Lucca)</placeName>
+                    <placeName>Vaccoli (San Lorenzo a Vaccoli; Lucca; Lucca)</placeName>
                     <placeName type="other"/>
                     <geogName type="coord"><geo>43.799969, 10.483017</geo></geogName>
                     <idno>places/180</idno>
@@ -1434,7 +1436,7 @@
                     <note/>
                 </place>
                 <place>
-                    <placeName>Cappella (Lucca)</placeName>
+                    <placeName>Cappella (Lucca; Lucca)</placeName>
                     <placeName type="other"/>
                     <geogName type="coord"><geo>43.8949831, 10.4810144</geo></geogName>
                     <idno>places/184</idno>
@@ -1636,7 +1638,8 @@
                     <note/>
                 </place>
                 <place>
-                    <placeName><foreign>Monticello</foreign> (Monte San Quirico; Lucca)</placeName>
+                    <placeName><foreign>Monticello</foreign> (Monte San Quirico; Lucca;
+                        Lucca)</placeName>
                     <placeName type="other"/>
                     <geogName type="coord"><geo>43.858343, 10.504389</geo></geogName>
                     <idno>places/205</idno>
@@ -2509,7 +2512,7 @@
                 </place>
                 <place>
                     <placeName><foreign>Subsilvule</foreign> (Sant'Angelo in Campo;
-                        Lucca)</placeName>
+                        Lucca; Lucca)</placeName>
                     <placeName type="other"/>
                     <geogName type="coord"><geo>43.845647, 10.4654</geo></geogName>
                     <idno>places/294</idno>
@@ -2843,14 +2846,14 @@
                     <link type="estates" corresp="#estates/162" subtype="hasConnectionWith"/>
                 </place>
                 <place>
-                    <placeName>Arsina (Lucca)</placeName>
+                    <placeName>Arsina (Lucca; Lucca)</placeName>
                     <placeName type="other"/>
                     <geogName type="coord"><geo>43.8915265, 10.4936863</geo></geogName>
                     <idno>places/334</idno>
                     <note/>
                 </place>
                 <place>
-                    <placeName><foreign>Macritula</foreign> (San Vito; Lucca)</placeName>
+                    <placeName><foreign>Macritula</foreign> (San Vito; Lucca; Lucca)</placeName>
                     <placeName type="other"><foreign>Malitula</foreign></placeName>
                     <geogName type="coord"><geo>43.85306550269601,
                         10.531554222649968</geo></geogName>
@@ -2872,7 +2875,7 @@
                     <note/>
                 </place>
                 <place>
-                    <placeName>Massa Pisana (Lucca)</placeName>
+                    <placeName>Massa Pisana (Lucca; Lucca)</placeName>
                     <placeName type="other"><foreign>Massa Tzhonzhi</foreign></placeName>
                     <geogName type="coord"><geo>43.8109616, 10.4863419</geo></geogName>
                     <idno>places/338</idno>
@@ -3019,31 +3022,32 @@
                     <geogName type="coord"><geo>43.8947972, 10.5962422</geo></geogName>
                     <idno>places/357</idno>
                     <note>Microtoponomastica: <foreign>ad Colle</foreign>; <foreign>Sala Sancti
-                            Angeli</foreign>.</note>
+                            Angeli</foreign>; <foreign>Castelioni</foreign>.</note>
                 </place>
                 <place>
-                    <placeName><foreign>Castaniolo</foreign> di Nozzano (Lucca)</placeName>
+                    <placeName><foreign>Castaniolo</foreign> di Nozzano (Lucca; Lucca)</placeName>
                     <placeName type="other"/>
                     <geogName type="coord"><geo>43.84526, 10.40118</geo></geogName>
                     <idno>places/358</idno>
                     <note>Si segue l'ubicazione proposta da Repetti 1833-1846: I, p. 528.</note>
                 </place>
                 <place>
-                    <placeName><foreign>Dardania</foreign> (Aquilea; Lucca)</placeName>
+                    <placeName><foreign>Dardania</foreign> (Aquilea; Lucca; Lucca)</placeName>
                     <placeName type="other"/>
                     <geogName type="coord"><geo>43.918725, 10.5154673</geo></geogName>
                     <idno>places/359</idno>
                     <note>Microtoponomastica: <foreign>Pastinione</foreign>.</note>
                 </place>
                 <place>
-                    <placeName><foreign>Puntiano</foreign> (Al Puntale; Capannori)</placeName>
+                    <placeName><foreign>Puntiano</foreign> (Al Puntale; Capannori;
+                        Lucca)</placeName>
                     <placeName type="other"/>
                     <geogName type="coord"><geo>43.8383643, 10.5282545</geo></geogName>
                     <idno>places/360</idno>
                     <note>Microtoponomastica: <foreign>Trans Via</foreign>.</note>
                 </place>
                 <place>
-                    <placeName>Palidano (frazione di Gonzaga; Mantova)</placeName>
+                    <placeName>Palidano (fraz. di Gonzaga; Mantova)</placeName>
                     <placeName type="other"/>
                     <geogName type="coord"><geo>44.973090, 10.778680</geo></geogName>
                     <idno>places/361</idno>
@@ -3078,7 +3082,7 @@
                     <link type="people" corresp="#people/21" subtype="link"/>
                 </place>
                 <place>
-                    <placeName>San Filippo (Lucca)</placeName>
+                    <placeName>San Filippo (Lucca; Lucca)</placeName>
                     <placeName type="other"/>
                     <geogName type="coord"><geo>43.84017299066068, 10.525653399998266</geo></geogName>
                     <idno>places/365</idno>
@@ -3148,8 +3152,7 @@
                     <link type="estates" corresp="#estates/173" subtype="hasConnectionWith"/>
                 </place>
                 <place>
-                    <placeName>San Benedetto a <foreign>Septimo</foreign> (San Benedetto;
-                        Cascina)</placeName>
+                    <placeName>San Benedetto a <foreign>Septimo</foreign> (Cascina; Pisa)</placeName>
                     <placeName type="other"/>
                     <geogName type="coord"><geo>43.6822849, 10.5263627</geo></geogName>
                     <idno>places/374</idno>
@@ -3175,7 +3178,7 @@
                     <geogName type="coord"><geo>44.110856109817554,
                         10.289118555020368</geo></geogName>
                     <idno>places/377</idno>
-                    <note/>
+                    <note>Si riferiscono a Vagli Sotto anche le attestazioni di Vagli senza specificazioni. Cfr. Vagli Sopra.</note>
                 </place>
                 <place>
                     <placeName>Elba (Elba; Livorno)</placeName>
@@ -3488,7 +3491,7 @@
                     <link type="juridical_persons" corresp="#juridical_persons/131" subtype="link"/>
                 </place>
                 <place>
-                    <placeName>Monticelli (Firenze)</placeName>
+                    <placeName>Monticelli (Firenze; Firenze)</placeName>
                     <placeName type="other"><foreign>Monticellum</foreign></placeName>
                     <geogName type="coord"><geo>43.7706605, 11.2269589</geo></geogName>
                     <idno>places/415</idno>
@@ -3615,7 +3618,7 @@
                 <place>
                     <placeName>Tarquinia (Viterbo)</placeName>
                     <placeName type="other"><foreign>Cornieto</foreign></placeName>
-                    <geogName type="coord"><geo>42.145712, 11.452232</geo></geogName>
+                    <geogName type="coord"><geo>42.25440241380275, 11.75839628354764</geo></geogName>
                     <idno>places/430</idno>
                     <note/>
                     <link type="juridical_persons" corresp="#juridical_persons/131" subtype="link"/>
@@ -3690,7 +3693,7 @@
                     <note>Microtoponomastica: <foreign>Cafagio Georgii</foreign>.</note>
                 </place>
                 <place>
-                    <placeName><foreign>Melago</foreign> (Arancio; Lucca)</placeName>
+                    <placeName><foreign>Melago</foreign> (Arancio; Lucca; Lucca)</placeName>
                     <placeName type="other"><foreign>Merao</foreign></placeName>
                     <geogName type="coord"><geo>43.844838, 10.5311755</geo></geogName>
                     <idno>places/440</idno>
@@ -3883,7 +3886,7 @@
                     <link type="estates" corresp="#estates/207" subtype="hasConnectionWith"/>
                 </place>
                 <place>
-                    <placeName>San Lorenzo in Corte di Brancoli (Pieve di Brancoli; Lucca)</placeName>
+                    <placeName>San Lorenzo in Corte di Brancoli (Lucca; Lucca)</placeName>
                     <placeName type="other"/>
                     <geogName type="coord"><geo>43.93363211481085, 10.526393393904348</geo></geogName>
                     <idno>places/463</idno>
@@ -3924,6 +3927,353 @@
                     <geogName type="coord"><geo>44.854680, 9.289360</geo></geogName>
                     <idno>places/468</idno>
                     <link type="juridical_persons" corresp="#juridical_persons/151" subtype="link"/>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>Zavattarello (Pavia)</placeName>
+                    <placeName type="other">Pieve di San Paolo in Sartoriano</placeName>
+                    <geogName type="coord"><geo>44.868440, 9.266260</geo></geogName>
+                    <idno>places/469</idno>
+                    <link type="juridical_persons" corresp="#juridical_persons/151" subtype="link"/>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>Perducco (Pavia)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>44.86816, 9.30107</geo></geogName>
+                    <idno>places/470</idno>
+                    <link type="juridical_persons" corresp="#juridical_persons/151" subtype="link"/>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>Lugnano (Bagni di Lucca; Lucca)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>44.0319329, 10.5788215</geo></geogName>
+                    <idno>places/471</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>Fronzola (Bagni di Lucca; Lucca)</placeName>
+                    <placeName type="other"><foreign>Frontongna</foreign></placeName>
+                    <geogName type="coord"><geo>44.029764, 10.5830306</geo></geogName>
+                    <idno>places/472</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>Lunata (Capannori; Lucca)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>43.856452794924365, 10.568390152466314</geo></geogName>
+                    <idno>places/473</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName><foreign>Pecoraria</foreign> (Asti)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>44.880627, 8.226069; 44.881661, 8.238437; 44.872842, 8.240240; 44.872538, 8.225382</geo></geogName>
+                    <idno>places/474</idno>
+                    <note>Lucioni 2015</note>
+                    <link type="juridical_persons" corresp="#juridical_persons/151" subtype="link"/>
+                </place>
+                <place>
+                    <placeName>Pallanza (Verbania)</placeName>
+                    <placeName type="other"><foreign>Palantas</foreign></placeName>
+                    <geogName type="coord"><geo>45.920587, 8.549680</geo></geogName>
+                    <idno>places/475</idno>
+                    <note/>
+                    <link type="juridical_persons" corresp="#juridical_persons/151" subtype="link"/>
+                </place>
+                <place>
+                    <placeName>Travo (Piacenza)</placeName>
+                    <placeName type="other"><foreign>Travano</foreign></placeName>
+                    <geogName type="coord"><geo>44.860493, 9.545991</geo></geogName>
+                    <idno>places/476</idno>
+                    <note/>
+                    <link type="juridical_persons" corresp="#juridical_persons/151" subtype="link"/>
+                </place>
+                <place>
+                    <placeName>Ancarano (fraz. di Rivergaro; Piacenza)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>44.921664, 9.618173</geo></geogName>
+                    <idno>places/477</idno>
+                    <note/>
+                    <link type="juridical_persons" corresp="#juridical_persons/151" subtype="link"/>
+                </place>
+                <place>
+                    <placeName><foreign>Auliano</foreign> (Montù Beccaria; Pavia)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>45.037739, 9.315270</geo></geogName>
+                    <idno>places/478</idno>
+                    <note/>
+                    <link type="juridical_persons" corresp="#juridical_persons/151" subtype="link"/>
+                </place>
+                <place>
+                    <placeName>Soriasco (fraz. di Santa Maria della Versa; Pavia)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>44.975380, 9.305550</geo></geogName>
+                    <idno>places/479</idno>
+                    <note/>
+                    <link type="juridical_persons" corresp="#juridical_persons/151" subtype="link"/>
+                </place>
+                <place>
+                    <placeName>Rovescala (Pavia)</placeName>
+                    <placeName type="other"><foreign>Rovecla</foreign></placeName>
+                    <geogName type="coord"><geo>45.009720, 9.350290</geo></geogName>
+                    <idno>places/480</idno>
+                    <note/>
+                    <link type="juridical_persons" corresp="#juridical_persons/151" subtype="link"/>
+                </place>
+                <place>
+                    <placeName>Calenzano (fraz. di Bettola; Piacenza)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>44.746220, 9.507550</geo></geogName>
+                    <idno>places/481</idno>
+                    <note/>
+                    <link type="juridical_persons" corresp="#juridical_persons/151" subtype="link"/>
+                </place>
+                <place>
+                    <placeName>Barbasso (fraz. di Roncoferraro; Mantova)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>45.121110, 10.911740</geo></geogName>
+                    <idno>places/482</idno>
+                    <note/>
+                    <link type="juridical_persons" corresp="#juridical_persons/151" subtype="link"/>
+                </place>
+                <place>
+                    <placeName>Frassinara (fraz. di Roncoferraro; Mantova)</placeName>
+                    <placeName type="other"><foreign>Fraxeneta; Fraxineta</foreign></placeName>
+                    <geogName type="coord"><geo>45.128900, 10.964300</geo></geogName>
+                    <idno>places/483</idno>
+                    <note/>
+                    <link type="juridical_persons" corresp="#juridical_persons/151" subtype="link"/>
+                </place>
+                <place>
+                    <placeName>Porto Mantovano (Mantova)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>45.189461, 10.789930</geo></geogName>
+                    <idno>places/484</idno>
+                    <note/>
+                    <link type="juridical_persons" corresp="#juridical_persons/151" subtype="link"/>
+                </place>
+                <place>
+                    <placeName>Comacchio (Ferrara)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>44.694309, 12.179210</geo></geogName>
+                    <idno>places/485</idno>
+                    <note/>
+                    <link type="juridical_persons" corresp="#juridical_persons/151" subtype="link"/>
+                </place>
+                <place>
+                    <placeName>Lammari (Capannori; Lucca)</placeName>
+                    <placeName type="other"><foreign>Vico Alahis</foreign></placeName>
+                    <geogName type="coord"><geo>43.86938453718477, 10.563446200340842</geo></geogName>
+                    <idno>places/486</idno>
+                    <note>Microtoponomastica: <foreign>ad Pirulo</foreign>; <foreign>ad
+                            Piunte</foreign>; <foreign>Valle Alpranduli</foreign>;
+                            <foreign>Larini</foreign>.</note>
+                </place> 
+                <place>
+                    <placeName>Sorbano del Vescovo (Lucca; Lucca)</placeName>
+                    <placeName type="other"><foreign>Suborbano</foreign></placeName>
+                    <geogName type="coord"><geo>43.8251091, 10.5264648</geo></geogName>
+                    <idno>places/487</idno>
+                    <note>Si riferiscono a Sorbano del Vescovo le attestazioni del toponimo areale
+                        senza ulteriore specificazione. Cfr. Sorbano del Giudice.
+                        Microtoponomastica: <foreign>ad Minghorum</foreign>.</note>
+                </place>
+                <place>
+                    <placeName>Ronco (Lucca; Lucca)</placeName>
+                    <placeName type="other"><foreign>Savaliano</foreign></placeName>
+                    <geogName type="coord"><geo>43.8278168, 10.4883075</geo></geogName>
+                    <idno>places/488</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>Pontetetto (Lucca; Lucca)</placeName>
+                    <placeName type="other"><foreign>Stranipagio</foreign></placeName>
+                    <geogName type="coord"><geo>43.823257495427626, 10.494903281381825</geo></geogName>
+                    <idno>places/489</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName><foreign>Forum Clodii</foreign> (Bracciano; Roma)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>42.13160, 12.17030</geo></geogName>
+                    <idno>places/490</idno>
+                    <note>Antica città romana localizzabile sull'altura di S. Liberato a nord di
+                        Bracciano. </note>
+                </place>
+                <place>
+                    <placeName>Passo del Bocco (Mazzanego; Genova)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>44.404600, 9.447700</geo></geogName>
+                    <idno>places/491</idno>
+                    <note/>
+                    <link type="juridical_persons" corresp="#juridical_persons/151" subtype="link"/>
+                </place>
+                <place>
+                    <placeName>Borgo Val di Taro (Parma)</placeName>
+                    <placeName type="other"><foreign>Turris</foreign></placeName>
+                    <geogName type="coord"><geo>44.488210, 9.766870</geo></geogName>
+                    <idno>places/492</idno>
+                    <note>Musina 2012</note>
+                    <link type="juridical_persons" corresp="#juridical_persons/151" subtype="link"/>
+                </place>
+                <place>
+                    <placeName>Solignano (Parma)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>44.614071, 9.976570</geo></geogName>
+                    <idno>places/493</idno>
+                    <note>Musina 2012</note>
+                    <link type="juridical_persons" corresp="#juridical_persons/151" subtype="link"/>
+                </place>
+                <place>
+                    <placeName><foreign>Gomorga di Rivarola di Carasco</foreign> (Genova)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>44.349816, 9.340120; 44.350951, 9.351242; 44.341990, 9.350512</geo></geogName>
+                    <idno>places/494</idno>
+                    <note>Musina 2012</note>
+                    <link type="juridical_persons" corresp="#juridical_persons/151" subtype="link"/>
+                </place>
+                <place>
+                    <placeName><foreign>Pettiano</foreign> (Pacchione; Capannori; Lucca)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>43.866763, 10.5800448</geo></geogName>
+                    <idno>places/495</idno>
+                    <note>Il toponimo talvolta è riferito a Marlia, talvolta a Lammari. Marcava
+                        l’area umida e boschiva bagnata dal torrente Caprio.</note>
+                </place>
+                <place>
+                    <placeName>Colognora (Pescaglia; Lucca)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>43.9829301, 10.4629589</geo></geogName>
+                    <idno>places/496</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>Monte Gazzo (Felina; Reggio Emilia)</placeName>
+                    <placeName type="other">Monte Cervario</placeName>
+                    <geogName type="coord"><geo>44.441134, 10.459103</geo></geogName>
+                    <idno>places/497</idno>
+                    <note>Zoni 2018</note>
+                    <link type="juridical_persons" corresp="#juridical_persons/108" subtype="link"/>
+                </place>
+                <place>
+                    <placeName>Pastino (Borgo a Mozzano; Lucca)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>43.9568456, 10.5027061</geo></geogName>
+                    <idno>places/498</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>Pieve di Brancoli (Lucca; Lucca)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>43.9358575, 10.5273339</geo></geogName>
+                    <idno>places/499</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>Sant'Ilario di Brancoli (Lucca; Lucca)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>43.9351218, 10.5374109</geo></geogName>
+                    <idno>places/500</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>Monza</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>45.584499, 9.274449</geo></geogName>
+                    <idno>places/501</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>Sankt Gallen (CH)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>47.426418, 9.376020</geo></geogName>
+                    <idno>places/502</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>Massino Visconti (Novara)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>45.822220, 8.539920</geo></geogName>
+                    <idno>places/503</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>Montecalvoli (Santa Maria a Monte; Pisa)</placeName>
+                    <placeName type="other"><foreign>Monteflexesi</foreign>; <foreign>Alberetum</foreign></placeName>
+                    <geogName type="coord"><geo>43.6878201, 10.6584587</geo></geogName>
+                    <idno>places/504</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>Arezzo</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>43.46699045254859, 11.883282107724744</geo></geogName>
+                    <idno>places/505</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>Fiesole (Firenze)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>43.80721209048225, 11.292517654705037</geo></geogName>
+                    <idno>places/506</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>Pistoia</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>43.93330825610846, 10.91792306208564</geo></geogName>
+                    <idno>places/507</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>Montioni (Suvereto; Livorno)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>43.0133868, 10.7600406</geo></geogName>
+                    <idno>places/508</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>Cambiano (Castelfiorentino; Firenze)</placeName>
+                    <placeName type="other"><foreign>Camiano</foreign></placeName>
+                    <geogName type="coord"><geo>43.6346956, 10.9615572</geo></geogName>
+                    <idno>places/509</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>Miliana (San Miniato; Pisa)</placeName>
+                    <placeName type="other"><foreign>Miliano</foreign></placeName>
+                    <geogName type="coord"><geo>43.6274515, 10.8433133</geo></geogName>
+                    <idno>places/510</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>Filettole (Vecchiano; Pisa)</placeName>
+                    <placeName type="other"><foreign>Filituli</foreign></placeName>
+                    <geogName type="coord"><geo>43.8141773, 10.4029111</geo></geogName>
+                    <idno>places/511</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>Piazzano (Lucca; Lucca)</placeName>
+                    <placeName type="other"><foreign>Pluciano</foreign></placeName>
+                    <geogName type="coord"><geo>43.8912394, 10.4013256</geo></geogName>
+                    <idno>places/512</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>Torre (Lucca; Lucca)</placeName>
+                    <placeName type="other"><foreign>Conca</foreign></placeName>
+                    <geogName type="coord"><geo>43.9112701, 10.4682333</geo></geogName>
+                    <idno>places/513</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>Misciano (Camaiore; Lucca)</placeName>
+                    <placeName type="other"><foreign>Miciano</foreign></placeName>
+                    <geogName type="coord"><geo>43.9399548, 10.3139516</geo></geogName>
+                    <idno>places/514</idno>
                     <note/>
                 </place>
             </listPlace>

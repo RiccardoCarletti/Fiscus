@@ -117,6 +117,7 @@
                     <orgName>Casa Dei; coenobium (Cadeo; Piacenza)</orgName>
                     <idno>juridical_persons/67</idno>
                     <note>Ciliberti e Salvestrini 2014.</note>
+                    <link type="places" corresp="#places/57" subtype="isWithin"/>
                 </org>
                 <org>
                     <orgName>Sanctus Martinus; episcopium (Lucca)</orgName>
@@ -148,15 +149,20 @@
                     <link type="places" corresp="#places/294" subtype="hasConnectionWith"/>
                     <link type="places" corresp="#places/295" subtype="hasConnectionWith"/>
                     <link type="people" corresp="#people/150" subtype="link"/>
+                    <link type="places" corresp="#places/471" subtype="hasConnectionWith"/>
+                    <link type="places" corresp="#places/472" subtype="hasConnectionWith"/>
+                    <link type="places" corresp="#places/495" subtype="hasConnectionWith"/>
                 </org>
                 <org>
                     <orgName>Sanctus Pontianus; monasterium (Lucca)</orgName>
                     <idno>juridical_persons/71</idno>
                     <note/>
-                    <link type="places" corresp="#places/22"
-                        subtype="hasConnectionWith"/>
-                    <link type="places" corresp="#places/4"
-                        subtype="isWithin"/>
+                    <link type="places" corresp="#places/22" subtype="hasConnectionWith"/>
+                    <link type="places" corresp="#places/4" subtype="isWithin"/>
+                    <link type="places" corresp="#places/36" subtype="hasConnectionWith"/>
+                    <link type="people" corresp="#people/44" subtype="link"/>
+                    <link type="people" corresp="#people/255" subtype="link"/>
+                    <link type="places" corresp="#places/504" subtype="hasConnectionWith"/>
                 </org>
                 <org>
                     <orgName>Sancta Maria; ecclesia (Santa Maria a Monte; Pisa)</orgName>
@@ -413,6 +419,9 @@
                     <link type="places" corresp="#places/38"
                         subtype="hasConnectionWith"/>
                     <link type="people" corresp="#people/152" subtype="link"/>
+                    <link type="places" corresp="#places/40" subtype="hasConnectionWith"/>
+                    <link type="estates" corresp="#estates/50"
+                        subtype="hasConnectionWith"/>
                 </org>
                 <org>
                     <orgName>Sancta Maria in Cingla; monasterium (Ailano; Caserta)</orgName>
@@ -781,8 +790,8 @@
                     <orgName>Sanctus Anthimus in Valle Starcia; monasterium</orgName>
                     <orgName type="other"/>
                     <idno>juridical_persons/131</idno>
-                    <note>Altri beni a: Buble; Adrina; Larciano; Monte; Lavinum; Poiolo; Cipolona;
-                        Locornio; </note>
+                    <note>Altri beni a: Buble; Adrina; Cipolona (=? Capolona?); Larciano; Monte;
+                        Lavinum; Poiolo; Cipolona; Poiolo; </note>
                     <link type="places" corresp="#places/316" subtype="isWithin"/>
                     <link type="estates" corresp="#estates/174" subtype="isPartOf"/>
                     <link type="people" corresp="#people/229" subtype="link"/>
@@ -796,7 +805,7 @@
                         corresp="#places/420 #places/421 #places/143 #places/429 #places/417 #places/422 #places/412 #places/414 #places/411 #places/413 #places/409 #places/415 #places/418 #places/427 #places/292 #places/66 #places/419 #places/410 #places/425 #places/424 #places/164 #places/430 #places/416 #places/398 #places/423"
                         subtype="hasConnectionWith"/>
                     <link type="juridical_persons"
-                        corresp="#juridical_persons/171 #juridical_persons/169 #juridical_persons/175 #juridical_persons/174 #juridical_persons/172 #juridical_persons/182 #juridical_persons/168 #juridical_persons/176 #juridical_persons/177 #juridical_persons/170 #juridical_persons/139 #juridical_persons/141 #juridical_persons/173 #juridical_persons/167 #juridical_persons/178"
+                        corresp="#juridical_persons/171 #juridical_persons/193 #juridical_persons/169 #juridical_persons/195 #juridical_persons/200 #juridical_persons/175 #juridical_persons/198 #juridical_persons/199 #juridical_persons/174 #juridical_persons/172 #juridical_persons/183 #juridical_persons/168 #juridical_persons/176 #juridical_persons/177 #juridical_persons/196 #juridical_persons/170 #juridical_persons/182 #juridical_persons/141 #juridical_persons/173 #juridical_persons/181 #juridical_persons/194 #juridical_persons/167 #juridical_persons/178 #juridical_persons/197"
                         subtype="link"/>
                 </org>
                 <org>
@@ -1180,7 +1189,6 @@
                     <idno>juridical_persons/178</idno>
                     <note/>
                     <link type="juridical_persons" corresp="#juridical_persons/131" subtype="link"/>
-                    <link type="places" corresp="#places/466" subtype="isWithin"/>
                 </org>
                 <org>
                     <orgName>Sanctus Paulus; ecclesia (Val di Nizza; Pavia)</orgName>
@@ -1204,7 +1212,7 @@
                     <idno>juridical_persons/181</idno>
                     <note/>
                     <link type="places" corresp="#places/415" subtype="isWithin"/>
-                    <link type="juridical_persons" corresp="#juridical_persons/166" subtype="link"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/131" subtype="link"/>
                 </org>
                 <org>
                     <orgName>Sanctus Petrus; ecclesia (Buti)</orgName>
@@ -1220,7 +1228,150 @@
                     <idno>juridical_persons/183</idno>
                     <note/>
                     <link type="places" corresp="#places/417" subtype="isWithin"/>
-                    <link type="juridical_persons" corresp="#juridical_persons/166" subtype="link"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/131" subtype="link"/>
+                </org>
+                <org>
+                    <orgName>Sanctus Antoninus; ecclesia (Tovazza; Pavia)</orgName>
+                    <orgName type="other"/>
+                    <idno>juridical_persons/184</idno>
+                    <note/>
+                    <link type="places" corresp="#places/468" subtype="isWithin"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/151" subtype="link"/>
+                </org>
+                <org>
+                    <orgName>Sanctus Paulus; ecclesia (Zavattarello; Pavia)</orgName>
+                    <orgName type="other"/>
+                    <idno>juridical_persons/185</idno>
+                    <note/>
+                    <link type="places" corresp="#places/469" subtype="isWithin"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/151" subtype="link"/>
+                </org>
+                <org>
+                    <orgName>Sanctus Severus; ecclesia (Perducco; Pavia)</orgName>
+                    <orgName type="other"/>
+                    <idno>juridical_persons/186</idno>
+                    <note/>
+                    <link type="places" corresp="#places/470" subtype="isWithin"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/151" subtype="link"/>
+                </org>
+                <org>
+                    <orgName>Sanctus Salvator de Vico Alahis; ecclesia</orgName>
+                    <orgName type="other"/>
+                    <idno>juridical_persons/187</idno>
+                    <note/>
+                    <link type="places" corresp="#places/486" subtype="isWithin"/>
+                </org>
+                <org>
+                    <orgName>Sanctus Alexander; ecclesia (Bergamo)</orgName>
+                    <orgName type="other"/>
+                    <idno>juridical_persons/188</idno>
+                    <note>Antico luogo di sepoltura del martire Alessandro</note>
+                    <link type="places" corresp="#places/10" subtype="isWithin"/>
+                    <link type="estates" corresp="#estates/222" subtype="hasConnectionWith"/>
+                    <link type="people" corresp="#people/21" subtype="link"/>
+                </org>
+                <org>
+                    <orgName>Sanctus Alexander; episcopium (Bergamo)</orgName>
+                    <orgName type="other">Sanctus Vincentius</orgName>
+                    <idno>juridical_persons/189</idno>
+                    <note/>
+                    <link type="places" corresp="#places/10" subtype="isWithin"/>
+                    <link type="estates" corresp="#estates/222" subtype="hasConnectionWith"/>
+                    <link type="people" corresp="#people/78 #people/21" subtype="link"/>
+                </org>
+                <org>
+                    <orgName>Sanctus Gallus; monasterium (Sankt Gallen)</orgName>
+                    <orgName type="other"/>
+                    <idno>juridical_persons/190</idno>
+                    <note/>
+                    <link type="places" corresp="#places/502" subtype="isWithin"/>
+                    <link type="people" corresp="#people/21" subtype="link"/>
+                </org>
+                <org>
+                    <orgName>Sancta Maria; monasterium (Massino Visconti; Novara)</orgName>
+                    <orgName type="other"/>
+                    <idno>juridical_persons/191</idno>
+                    <note/>
+                    <link type="places" corresp="#places/503" subtype="isWithin"/>
+                    <link type="estates" corresp="#estates/111" subtype="hasConnectionWith"/>
+                    <link type="people" corresp="#people/21" subtype="link"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/190" subtype="link"/>
+                </org>
+                <org>
+                    <orgName>Sanctus Quiricus; plebs (Oliveto)</orgName>
+                    <orgName type="other"/>
+                    <idno>juridical_persons/192</idno>
+                    <note/>
+                    <link type="places" corresp="#places/276" subtype="isWithin"/>
+                </org>
+                <org>
+                    <orgName>Sancta Maria de Arcione; ecclesia (Buriano)</orgName>
+                    <orgName type="other"/>
+                    <idno>juridical_persons/193</idno>
+                    <note/>
+                    <link type="places" corresp="#places/143" subtype="isWithin"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/131" subtype="link"/>
+                </org>
+                <org>
+                    <orgName>Sanctus Petrus; ecclesia (Quinciano)</orgName>
+                    <orgName type="other"/>
+                    <idno>juridical_persons/194</idno>
+                    <note/>
+                    <link type="places" corresp="#places/419" subtype="isWithin"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/131" subtype="link"/>
+                </org>
+                <org>
+                    <orgName>Sancta Severa; ecclesia</orgName>
+                    <orgName type="other"/>
+                    <idno>juridical_persons/195</idno>
+                    <note/>
+                    <link type="juridical_persons" corresp="#juridical_persons/131" subtype="link"/>
+                </org>
+                <org>
+                    <orgName>Sanctus Liberus; ecclesia (Pisa)</orgName>
+                    <orgName type="other"/>
+                    <idno>juridical_persons/196</idno>
+                    <note/>
+                    <link type="juridical_persons" corresp="#juridical_persons/131" subtype="link"/>
+                    <link type="places" corresp="#places/66" subtype="isWithin"/>
+                </org>
+                <org>
+                    <orgName>Sanctus Thomatus; monasterium (Santomato)</orgName>
+                    <orgName type="other"/>
+                    <idno>juridical_persons/197</idno>
+                    <note/>
+                    <link type="juridical_persons" corresp="#juridical_persons/131" subtype="link"/>
+                    <link type="places" corresp="#places/425" subtype="isWithin"/>
+                </org>
+                <org>
+                    <orgName>Sanctus Anthimus; ecclesia (Corno)</orgName>
+                    <orgName type="other"/>
+                    <idno>juridical_persons/198</idno>
+                    <note/>
+                    <link type="juridical_persons" corresp="#juridical_persons/131" subtype="link"/>
+                    <link type="places" corresp="#places/414" subtype="isWithin"/>
+                </org>
+                <org>
+                    <orgName>Sanctus Blasius de Corneto; ecclesia (Tarquinia)</orgName>
+                    <orgName type="other"/>
+                    <idno>juridical_persons/199</idno>
+                    <note/>
+                    <link type="places" corresp="#places/430" subtype="isWithin"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/131" subtype="link"/>
+                </org>
+                <org>
+                    <orgName>Sancta Maria in Buble; ecclesia</orgName>
+                    <orgName type="other"/>
+                    <idno>juridical_persons/200</idno>
+                    <note/>
+                    <link type="juridical_persons" corresp="#juridical_persons/131" subtype="link"/>
+                </org>
+                <org>
+                    <orgName>Sanctus Petrus; basilica maior (Roma)</orgName>
+                    <orgName type="other"/>
+                    <idno>juridical_persons/201</idno>
+                    <note/>
+                    <link type="places" corresp="#places/52" subtype="isWithin"/>
                 </org>
             </listOrg>
         </body>

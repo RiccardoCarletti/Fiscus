@@ -75,8 +75,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change who="dinternullo" when="2021-01-17T05:52:17.912-08:00">creation of record</change>
-           <change when="2021-01-17T06:16:05.957-08:00" who="dinternullo"/>
+                <change who="dinternullo" when="2021-01-17">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -86,7 +85,7 @@
                 <div type="textpart">
                     <ab>Ex registro Gregorii iunioris. <persName key="#Popes" ref="#people/71"
                             >Gregorius</persName>
-                        <persName key="#Priests">Stephano</persName>
+                        <persName key="#Priests"><name ref="Stephanus">Stephano</name></persName>
                         <rs key="#Priests">presbitero</rs> atque aliis duabus successim personis.
                         Quotiens illa a nobis tribui sperantur, que rationi incunctanter conveniunt,
                         animo nos decet libenti concedere et petentium desideriis congruum impertire
@@ -100,8 +99,8 @@
                                 >domo</rs> sua et <rs key="#Wine">vinea</rs>
                         </geogName> posita via Flaminea .XIIII. plus minus miliario ab ac urbe
                             <placeName ref="#places/52" key="#Cities">Roma</placeName>, quem tenuit
-                        per emunitionem <persName key="#Papal_court_officer #Priests"
-                            >Sergius</persName>
+                        per emunitionem <persName key="#Papal_court_officer #Priests"><name
+                                ref="Sergius">Sergius</name></persName>
                         <rs key="#Priests">presbiter</rs> et <rs key="#Papal_court_officer"
                             >vestararius</rs> noster, qui fundus exstitit ex corpore <rs
                             key="#Patrimonium">patrimonii</rs>

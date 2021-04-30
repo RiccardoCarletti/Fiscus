@@ -75,8 +75,8 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change who="fiscus" when="2021-01-14T02:49:33.151-08:00">creation of record</change>
-           <change when="2021-01-17T05:30:02.785-08:00" who="dinternullo"/>
+                <change who="dinternullo" when="2021-01-14">creation of record</change>
+           <change when="2021-01-17" who="dinternullo"/>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -86,13 +86,13 @@
                 <div type="textpart">
                     <ab>
                         <persName key="#Popes" ref="#people/68">Honorius</persName>
-                        <persName key="#Notary">Servodei</persName>
+                        <persName key="#Notary"><name ref="Servusdei">Servodei</name></persName>
                         <rs key="#Notary">notario</rs>. Quotiens a nobis illud petitur, quod rationi
                         noscitur convenire, animo nos decet libenti concedere. Ideoque quia petisti
-                        a nobis, ut <rs key="#Casali">casale</rs>, quod appellatur <geogName
-                            key="#Casali #Wine #Fiscal_property #Object #Outflow #Allocation_to_individuals #Rent_in_money #Popes"
+                        a nobis, ut <rs key="#Casalia">casale</rs>, quod appellatur <geogName
+                            key="#Casalia #Wine #Fiscal_property #Object #Outflow #Allocation_to_individuals #Rent_in_money #Popes"
                             ref="#estates/101"><placeName
-                                key="#Casali #Wine #Fiscal_property #Object #Outflow #Allocation_to_individuals #Rent_in_money"
+                                key="#Casalia #Wine #Fiscal_property #Object #Outflow #Allocation_to_individuals #Rent_in_money"
                                 ref="#places/139">Aurelianum</placeName></geogName>, in integro una
                         cum <rs key="#Wine">vineis</rs> suis positum via Portuensi iuxta
                             <orgName>Sanctos Abdon et Sennen</orgName>, <rs key="#Rent_in_money"

@@ -87,7 +87,8 @@
                         habuerimus, clementiam dei promereri et regni nostri statum divina ope
                         fulciri non ambigimus. Igitur omnium fidelium sanctae dei aecclesiae
                         nostrorumque presentium scilicet ac futurorum noverit industria, qualiter
-                            <persName key="#Archchancellor #Bishops">Petrus</persName>
+                            <persName key="#Archchancellor #Bishops" ref="#people/223"
+                            >Petrus</persName>
                         <rs key="#Bishops">episcopus</rs> noster <rs key="#Archchancellor"
                             >archicancellarius</rs> obtutibus nostrae maiestatis obtulit precepta
                         divae memoriae <persName key="#Emperor/king" ref="#people/110"
@@ -109,12 +110,14 @@
                         iure ac legaliter pertinentibus mobilibus atque immobilibus rebus adquisitis
                         et adquirendis usque in finem vitae suae teneat atque possideat. Insuper
                         etiam confirmamus omnes res quascumque idem monasterium longo tempore
-                        dinoscitur possedisse a <persName key="#Private_foundations">Gregorio ipsius
-                            monasterii fundatore</persName>, id est inter ceteras <rs
+                        dinoscitur possedisse a <persName key="#Private_foundations"><name
+                                ref="Gregorius">Gregorio</name> ipsius monasterii
+                            fundatore</persName>, id est inter ceteras <rs
                             key="#Landed_possessions #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
                             >campum Zauani</rs> quem ipse quondam tanti monasterii fundator
-                        comparavit a <persName>Tatone</persName> et <persName>Laurentio</persName>,
-                        cum <orgName
+                        comparavit a <persName><name ref="Teuto">Tatone</name></persName> et
+                                <persName><name ref="Laurentius">Laurentio</name></persName>, cum
+                            <orgName
                             key="#Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches #Churches"
                             >aecclesia in honore sancte Mariae quae dicitur Corbellaria</orgName> et
                         alia <orgName
@@ -216,7 +219,7 @@
                             monasterii</rs>. Et ut verius credatur ac diligentius ab omnibus
                         observetur, sigilli nostri impressione subter insigniri iussimus. Signum
                         domni Ottonis invictissimi imperatoris augusti. <persName key="#Chancellor"
-                            >Heribertus</persName>
+                                ><name ref="Heribertus">Heribertus</name></persName>
                         <rs key="#Chancellor">cancellarius</rs> vice <persName
                             key="#Archchancellor #Bishops" ref="#people/223">Petri Cumani</persName>
                         <rs key="#Bishops">episcopi</rs> et <rs key="#Archchancellor"

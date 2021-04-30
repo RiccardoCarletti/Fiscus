@@ -74,8 +74,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change who="scollavini" when="2020-12-30T10:00:50.981-08:00">creation of
-                    record</change>
+                <change who="scollavini" when="2020-12-30">creation of record</change>
            <change when="2021-03-08" who="scollavini">major changes</change>
             </listChange>
         </revisionDesc>
@@ -86,21 +85,22 @@
                 <div type="textpart">
                     <ab>(S) In nomine sancte et individue trinitatis, amen. <persName
                             key="#Marquis’/ducal/princely_diploma #Marquis/duke" ref="#people/44"
-                            >Ramprettus</persName> divino munere <placeName>Tuscie</placeName>
+                            >Ramprettus</persName> divino munere <rs key="#Areas">Tuscie</rs>
                         <rs key="#Marquis/duke">preses ac marchio</rs> omnibus quidem notum fieri
                         volumus quomodo concedimus atque damus <rs key="#Churches">ecclesie</rs> et
                             <rs key="#Monasteries">monasterio</rs>
                         <orgName key="#Churches #Monasteries" ref="#juridical_persons/71">Sancti
-                            Pontiani</orgName> fundato prope muros <placeName ref="#places/4">Lucane
-                            civitatis</placeName> unam videlicet <rs key="#Petiae">petiam de
-                            terra</rs> culta et inculta in qua <rs key="#Casalini/fundamenta"
-                            >casalinum</rs> et <rs key="#Fountains">fontanam</rs> habetur et est in
-                        loco <placeName>Monteflexesi</placeName>, ubi dicitur
-                            <placeName>Alberetum</placeName> et vocatur <placeName
+                            Pontiani</orgName> fundato prope muros <placeName ref="#places/4"
+                            key="#Cities">Lucane <rs key="#Cities">civitatis</rs></placeName> unam
+                        videlicet <rs key="#Petiae">petiam de terra</rs> culta et inculta in qua <rs
+                            key="#Casalini/fundamenta">casalinum</rs> et <rs key="#Fountains"
+                            >fontanam</rs> habetur et est in loco <placeName ref="#places/504"
+                            >Monteflexesi</placeName>, ubi dicitur <placeName ref="#places/504"
+                            >Alberetum</placeName> et vocatur <placeName
                             key="#Casalini/fundamenta #Petiae #Size #Fiscal_property #Object #Redistributive #Allocation_to_churches #Fountains"
-                            >Mons Calvuli</placeName>, sicut in circuitu designata est, que est per
-                        mensuram cum iusta pertica mensurata <rs key="#Size">modiora
-                            quadraginta</rs>, una cum inferioribus et superioribus et cum
+                            ref="#places/504">Mons Calvuli</placeName>, sicut in circuitu designata
+                        est, que est per mensuram cum iusta pertica mensurata <rs key="#Size"
+                            >modiora quadraginta</rs>, una cum inferioribus et superioribus et cum
                         accessionibus et ingressibus suis, quatenus deinceps in antea sit in
                         potestate ipsius ecclesie et monasterii et illius abbatis atque illorum
                         monachorum qui in ea pro tempore fuerint eam ad partem prefate ecclesie et
@@ -119,23 +119,23 @@
                         firmissimum semper obtieneat venerabili crucis singno propria manu
                         subscripto firmamus et nostri sigilli inpressione iussimus insigniri. + (LS)
                         Hec acta sunt infra <rs key="#Comitatus">comitatum</rs>
-                        <geogName ref="#estates/107"><placeName ref="#places/128"
-                                >Vulterrensem</placeName></geogName> in loco <placeName
-                            key="#Churches" ref="#places/271">Pratello</placeName>, prope <orgName
-                            key="#Churches" ref="#juridical_persons/161">ecclesiam Sancti
+                        <geogName ref="#estates/107" key="#Comitatus"><placeName ref="#places/128"
+                                key="#Comitatus">Vulterrensem</placeName></geogName> in loco
+                            <placeName key="#Churches" ref="#places/271">Pratello</placeName>, prope
+                            <orgName key="#Churches" ref="#juridical_persons/161">ecclesiam Sancti
                             Frigiani</orgName>, presentibus <persName>Guidone
                             Maloconsilio</persName>
                         <persName>qd. Rolandi</persName>, <persName>Fulcerio</persName>
                         <persName>qd. Rainerii</persName>, <persName>Balbano</persName>
                         <persName>qd. Gerardi</persName>, <persName>Adaldo</persName> filio
-                            <persName>Opiti</persName>, | <persName>Ludrigo</persName> qd. filio
-                            <persName>Guidi</persName>, <persName>Sighirolo</persName> qd.
-                            <persName>Morandi</persName>, <persName>Guiscardo</persName> filio
+                            <persName>Opiti</persName>, <persName>Ludrigo</persName> qd. filio
+                            <persName>Guidi</persName>, <persName>Sighirolo</persName>
+                        <persName>qd. Morandi</persName>, <persName>Guiscardo</persName> filio
                             <persName>Rustici</persName>. Anno dominice incarnationis millesimo
                         centesimo trigesimo primo, sexto kalendas decembris, indictione decima. (S)
-                            <persName key="#Notary">Ugo</persName>
-                        <rs key="#Notary">notarius</rs> domni imperatoris cui presentia hec omnia
-                        acta ex iussione prefati domni Rampretti marchionis hec memorie causa
+                            <persName key="#Writer #Notary">Ugo</persName>
+                        <rs key="#Writer #Notary">notarius</rs> domni imperatoris cui presentia hec
+                        omnia acta ex iussione prefati domni Rampretti marchionis hec memorie causa
                         scripsi.</ab>
                 </div>
             </div>

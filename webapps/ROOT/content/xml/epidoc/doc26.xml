@@ -75,7 +75,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change who="ptomei" when="2021-01-14T08:12:42.4-08:00">creation of record</change>
+                <change who="ptomei" when="2021-01-14">creation of record</change>
                 <change when="2021-02-16" who="ptomei">changes</change>
             </listChange>
         </revisionDesc>
@@ -85,39 +85,46 @@
             <div type="edition">
                 <div type="textpart">
                     <ab>Il <rs key="#Priests">prete</rs>
-                        <persName key="#Priests">Tetbaldo</persName>
-                        <rs key="#Clerical_concubinage">figlio della <persName>fu Rodilinda detta
-                                Rozia</persName></rs>, vende ai fratelli <persName>Erizio detto
-                            Venerando</persName> e <persName>Pietro</persName> del <persName>fu
-                            Pietro</persName> un appezzamento di terra, cum cassina super se
-                        abentes, posto in loco et finibus <placeName ref="#places/23"
+                        <persName key="#Priests"><name ref="Teobaldus">Tetbaldo</name></persName>
+                        <rs key="#Clerical_concubinage">figlio della <persName
+                                key="#Clerical_concubinage">fu <name ref="Rodelinda/Rotia">Rodilinda
+                                    detta Rozia</name></persName></rs>, vende ai fratelli
+                                <persName><name ref="Eritius/Venerandus">Erizio detto
+                                Venerando</name></persName> e <persName><name ref="Petrus"
+                                >Pietro</name></persName> del <persName>fu <name ref="Petrus"
+                                >Pietro</name></persName> un appezzamento di terra, cum cassina
+                        super se abentes, posto in loco et finibus <placeName ref="#places/23"
                             >Catiana</placeName> ubi dicitur <placeName
                             key="#Curtes #Petiae #Fiscal_property #Mention #Emperor/king #Queen"
                             ref="#places/23"><rs key="#Curtes #Fiscal_property #Mention">Curte</rs>
                             <rs key="#Queen">Regine</rs></placeName> quas mihi per cartule scripte
-                        sunt manibus <persName key="#Notary">Heriberti</persName>
-                        <rs key="#Notary">notarii domni imperatoris</rs>
-                        <rs key="#Venditio">ex conparationem</rs> obvenit da
-                            <persName>Albone</persName> del <persName>fu Tetbaldo detto
-                            Teuzio</persName> e dalla moglie <persName>Bonizia</persName> del
-                            <persName>fu Rozio detto Omicio</persName>, confinante ambas capitas in
-                        via publica, lato uno con <rs key="#Petiae #Fiscal_property #Mention"
-                            >terra</rs> del <rs key="#Emperor/king">re</rs>, alio lato con terra dei
-                        suddetti fratelli, con tutte le sue dipendenze et cum exempler de
-                        suprascripte cartule, per il prezzo di 15 soldi d'argento. Chiede al <rs
-                            key="#Writer #Notary">notaio imperiale</rs>
-                        <persName key="#Writer #Notary">Eriberto</persName> la stesura della
-                        cartula. Actum in loco ubi dicitur <placeName ref="#places/62"
-                            >Bibbia</placeName> prope <rs key="#Castle">castello</rs> et <orgName
-                            key="#Churches" ref="#juridical_persons/72"><rs key="#Churches"
-                                >eclesia</rs> Sancte Marie ubi dicitur <placeName
-                                key="#Castle #Churches" ref="#places/63"> ad
-                            Monte</placeName></orgName>. <rs key="#Witness">Testimoni</rs>
-                        sottoscrittori: <persName key="#Witness">Rozio</persName> del <persName>fu
-                            Rozio detto Omicio</persName>, <persName key="#Witness"
-                            >Ildebrando</persName> del <persName>fu Rodolfo</persName>, <persName
-                            key="#Witness">Rodolfo</persName> del <persName>fu
-                        Albuino</persName>.</ab>
+                        sunt manibus Heriberti notarii domni imperatoris <rs key="#Venditio">ex
+                            conparationem</rs> obvenit da <persName><name ref="Albo"
+                            >Albone</name></persName> del <persName>fu <name ref="Teobaldus/Teutius"
+                                >Tetbaldo detto Teuzio</name></persName> e dalla moglie
+                                <persName><name ref="Bonitia">Bonizia</name></persName> del
+                            <persName>fu <name ref="Rotius/Omicius">Rozio detto
+                            Omicio</name></persName>, <rs key="#Confinia #Landed_possessions"
+                            >confinante</rs> ambas capitas in via publica, lato uno con <rs
+                            key="#Petiae #Fiscal_property #Mention">terra</rs> del <rs
+                            key="#Emperor/king">re</rs>, alio lato con terra dei suddetti fratelli,
+                        con tutte le sue dipendenze et cum exempler de suprascripte cartule, per il
+                        prezzo di 15 soldi d'argento. Chiede al <rs key="#Writer #Notary">notaio
+                            imperiale</rs>
+                        <persName key="#Writer #Notary"><name ref="Eribertus"
+                            >Eriberto</name></persName> la stesura della cartula. Actum in loco ubi
+                        dicitur <placeName ref="#places/62">Bibbia</placeName> prope <rs
+                            key="#Castle">castello</rs> et <orgName key="#Churches"
+                            ref="#juridical_persons/72"><rs key="#Churches">eclesia</rs> Sancte
+                            Marie ubi dicitur <placeName key="#Castle #Churches" ref="#places/63">
+                                ad Monte</placeName></orgName>. <rs key="#Witness">Testimoni</rs>
+                        sottoscrittori: <persName key="#Witness"><name ref="Rotius"
+                            >Rozio</name></persName> del <persName>fu <name ref="Rotius/Omicius"
+                                >Rozio detto Omicio</name></persName>, <persName key="#Witness"
+                                ><name ref="Ildebrandus">Ildebrando</name></persName> del
+                            <persName>fu <name ref="Rodulfus">Rodolfo</name></persName>, <persName
+                            key="#Witness"><name ref="Rodulfus">Rodolfo</name></persName> del
+                            <persName>fu <name ref="Alboinus">Albuino</name></persName>.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
