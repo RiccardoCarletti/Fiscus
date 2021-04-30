@@ -1712,6 +1712,7 @@
                     <link type="people" corresp="#people/171 #people/7" subtype="link"/>
                     <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
                     <link type="estates" corresp="#estates/62" subtype="hasConnectionWith"/>
+                    <link type="people" corresp="#people/130" subtype="link"/>
                 </place>
                 <place>
                     <placeName>Candelo (Biella)</placeName>
@@ -1796,6 +1797,7 @@
                     <link type="people" corresp="#people/171 #people/7" subtype="link"/>
                     <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
                     <link type="people" corresp="#people/172" subtype="link"/>
+                    <link type="people" corresp="#people/130" subtype="link"/>
                 </place>
                 <place>
                     <placeName>Ghislarengo (Vercelli)</placeName>
@@ -3845,6 +3847,7 @@
                     <link type="people" corresp="#people/171 #people/7" subtype="link"/>
                     <link type="estates" corresp="#estates/206" subtype="hasConnectionWith"/>
                     <note/>
+                    <link type="people" corresp="#people/130" subtype="link"/>
                 </place>
                 <place>
                     <placeName>Bobbio (Piacenza)</placeName>
@@ -4275,6 +4278,33 @@
                     <geogName type="coord"><geo>43.9399548, 10.3139516</geo></geogName>
                     <idno>places/514</idno>
                     <note/>
+                </place>
+                <place>
+                    <placeName>Magnano (Biella)</placeName>
+                    <placeName type="other">Petrò</placeName>
+                    <geogName type="coord"><geo>45.462057, 8.006287</geo></geogName>
+                    <idno>places/515</idno>
+                    <note/>
+                    <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
+                    <link type="people" corresp="#people/130 #people/171" subtype="link"/>
+                </place>
+                <place>
+                    <placeName>Ratisbona</placeName>
+                    <placeName type="other"></placeName>
+                    <geogName type="coord"><geo>49.014455, 12.096634</geo></geogName>
+                    <idno>places/516</idno>
+                    <note/>
+                    <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
+                    <link type="people" corresp="#people/130 #people/171" subtype="link"/>
+                </place>
+                <place>
+                    <placeName>San Secondo di Salussola</placeName>
+                    <placeName type="other"><foreign>Victimulae</foreign></placeName>
+                    <geogName type="coord"><geo>45.437008, 8.092461</geo></geogName>
+                    <idno>places/517</idno>
+                    <note/>
+                    <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
+                    <link type="people" corresp="#people/130 #people/171" subtype="link"/>
                 </place>
             </listPlace>
         </body>
