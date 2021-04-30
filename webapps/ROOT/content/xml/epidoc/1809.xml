@@ -31,10 +31,10 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#"/>
-                            <rs type="record_source" ref="#"/>
-                            <rs type="document_tradition" ref="#"/>
-                            <rs type="fiscal_property"/>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -42,10 +42,10 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate notBefore="0001" notAfter="0001" when="0001"> 
-                                <note type="displayed_date"></note>
-                                <note type="dating_elements"></note>
-                                <note type="topical_date"></note>
+                            <origDate notBefore="0001" notAfter="0001" when="1027-04-07">
+                                <note type="displayed_date">7 April 1027</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Roma</note>
                             </origDate>
                             <origPlace/>
                         </origin>
@@ -81,14 +81,148 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab></ab>
+                    <ab>In nomine domini, quod est super omne nomen. <persName>Chuonradus</persName>
+                        divina dispensatione Romanorum <rs>imperator</rs> augustus. Quotienscumque
+                        sanctarum ecclesiarum usui prospicimus, imperium nostrum corroboramus, quia
+                        communis lingua vocat: sancta ecclesia apud deum intervenire pro
+                        benefactoribus non cessat. Quapropter universorum sacrosancte eiusdem
+                        ecclesie fidelium nostrorumve presentium nec non et futurorum noverit
+                        caritas, quod interventu domini <persName>Arderici</persName> sancte
+                            <placeName>Vercellensis</placeName>
+                        <rs>ecclesie</rs> venerabilis <rs>episcopi</rs> et nostri fidelis karissimi
+                        ecclesie <rs>sancti Eusebii</rs> a deo et a nobis sibi comisse per presentis
+                        precepti auctoritatem <rs>confirmamus</rs> [omnes] donationes concessiones,
+                        que supra dicte ecclesie a seculo usque nunc facte sunt a nostris
+                        predecessoribus regibus vel imperatoribus, et omnia, que interventu
+                            <persName>Leonis</persName>, supra dicti episcopi antecessoris,
+                        Constanciae largientes Eusebiane ecclesie nostro precepto addidimus, huic
+                        ecclesie pre[fate in perpetuum confirmamus. Et ut omnibus fiat clarius,
+                        potissimum concessimus, ut concessa a predecessoribus nostris vel a nobis,
+                        nunc autem confirmanda in presentis precepti pagina nominentur expressius,
+                        videlicet <rs>comitatum</rs>
+                        <geogName ref="#estates/131">Vercellensem</geogName> cum universis
+                            <rs>publicis functionibus</rs>, totam <rs>civitatem</rs> cum omni
+                        publica potestate in integrum et cum omnibus publicis pertinentiis comitatus
+                        et civitatis et totum comitatum quem dicunt<geogName> sancte Agathe
+                        </geogName>imperpetuum cum omnibus <rs>castellis</rs> villis
+                            <rs>piscationibus</rs> venationibus <rs>silvis</rs> pratis pascuis
+                            <rs>aquis aquarumve decursibus</rs> et omnibus publicis pertinentiis
+                            <rs>mercatis</rs>
+                        <rs>theloneis</rs> et cum omnibus publicis functionibus in civitate
+                        Vercellensi intus et foris, in toto comitatu Vercellensi et in toto comitatu
+                        sancte Agathe intus et foris et in omnibus eorum pertinentiis et ut in
+                        castello sancte Agathe et in <rs>burgo</rs> eius aut per quinque miliaria in
+                        circuitu nullus nunquam <rs>placitum</rs> teneat aut <rs>fodrum</rs>
+                        colligat aut <rs>albergarias</rs> faciat publicas aut publicam exactionem
+                        exigat, nisi Vercellensis episcopus aut eius missus, in tota campania nullus
+                        theloneum accipiat, nullus mercata habeat publica, nisi Vercellensis
+                        ecclesia theloneum et districtum suarum plebium et super sua habitancium,
+                        aquam de Scicida, aquam de Saruo, aquam de Heleuo cum utrisque
+                            <rs>ripis</rs> a loco ubi nascuntur usque in Padum, aquam de Pado cum
+                        utrisque ripis a <placeName>Lionna</placeName> usque
+                                <orgName><rs>plebem</rs> Martori,</orgName> aquam de Duria cum
+                        utrisque ripis a <placeName>Petra grossa</placeName> usque
+                            <placeName>Verucham</placeName>, <placeName>Marascum</placeName>,
+                            <geogName>Firminianam</geogName>, <geogName>Sestignum</geogName>,
+                            <geogName>Carisianam</geogName> cum utraque ripa,
+                            <geogName>Buiellam</geogName> cum omnibus suis appendiciis,
+                            <placeName>Galianicum</placeName>, <placeName>Ponderanam</placeName>,
+                            <placeName>Mulinaram</placeName>, <placeName>Andurni</placeName>,
+                            <placeName>Causade</placeName>, <rs>montem</rs> Cisidola,
+                            <placeName>Pedroro</placeName>, <placeName>Blatinum</placeName>,
+                            <placeName>Bedolium</placeName>, <placeName>Clauaza</placeName>,
+                            <placeName>Candele</placeName>, <placeName>Cleuoli</placeName>,
+                            <placeName>Treuere</placeName> et <rs>districtum</rs> per totum
+                        Buiellense, <placeName>Calamazo</placeName>,
+                        <placeName>Radigada</placeName>, Radigadella, Thiebledo, Orco
+                            <placeName>valle Cleui</placeName>
+                        <rs>walda</rs>, omnia predia <persName>Arduini</persName> filii
+                            <persName>Dadonis</persName>, quia hostis publicus adiudicatus episcopum
+                            <persName>Petrum</persName> Vercellensem interfecit et interfectum
+                        incendere non expavit, et predia eorum, qui exploratu armis et ipsis manibus
+                        huic crudelitati interfuerunt, id est filiorum
+                                <persName><name>Teperti</name></persName> de Casale,
+                                <name><persName>Goslini</persName></name> et
+                                <persName><name>Aymini</name></persName> de Liburno,
+                            <name>Alberti</name> et <name><persName>Gribaldi</persName></name> de
+                        Vglano, predia <persName><name>Oldrici</name></persName> de Baina,
+                                <name><persName>Roderardi</persName></name> de Sandiliano,
+                                <persName><name>Arderici</name></persName> de Magnanigulo servi
+                        sancti Eusebii, Alberici et Guilelmi de Saluzola,
+                                <name><persName>Astulfi</persName></name> et fratrum eius de
+                        Gualdingo, <persName><name>Vgonis</name></persName> de Palestre,
+                                <name><persName>Stephani</persName></name> de Cliuoli,
+                                <persName><name>Ademarii</name></persName> de Gambulade,
+                                <name><persName>Ingonis</persName></name> de Ciriago,
+                                <persName><name>Aldonis</name></persName> de Leoriano, Ysaac et
+                        fratris eius, <placeName>Sulciam</placeName> cum<placeName> silva
+                            Salsa</placeName>, castellum <placeName>Vinctimuli</placeName>, mercatum
+                        [et districtum] <rs>curtis</rs> de <geogName>Asiliano</geogName> et in
+                            <placeName>Tronzano</placeName> et in altero Tronzano, castellum
+                            <placeName>Quirini</placeName>, predia
+                            <name><persName>Egadi</persName></name> subdiaconi de sancta Agatha,
+                        Goslini, Constancii, Godonis, Euarardi, <orgName>sanctam Mariam
+                            Moliade</orgName> cum sua pertinencia, cum
+                            <placeName>Bornade</placeName> et <placeName>Grignasco</placeName>,
+                        districtum vallis Scicide, <rs>arimannos</rs> de
+                            <placeName>Nauola</placeName> et de <placeName>Cassaliclo</placeName>,
+                            silvam<placeName> Rouisindam</placeName>,
+                            <placeName>Gatinariam</placeName> cum districto, predia Gisolberti
+                        archidiaconi, predia suorum generorum Vulimanni et Ingizonis, predia
+                        parentum eius Liprandi et Ermanni, Giselberti iudicis, districtum et
+                        theloneum in <placeName>Rade</placeName>,
+                        <placeName>Gislarincho</placeName>, <placeName>Arbori</placeName>,
+                            <placeName>Grezi</placeName>, <placeName>Albano</placeName>,
+                            <placeName>Conflencia</placeName>, <placeName>Odonicum</placeName> cum
+                        districto, <orgName>ecclesia sancti Salvatoris </orgName>ultra Padum, montem
+                        Pedocletum, Brosule, districtum in <placeName>Palazolo</placeName>,
+                            <placeName>Gorzano</placeName>, <placeName>Lauari</placeName>,
+                            <placeName>Gabiano</placeName>, <placeName>Cantauenna</placeName>,
+                            <placeName>Carderisi</placeName>, <placeName>Vliago</placeName>,
+                            <placeName>Malione</placeName>, <placeName>Arelii</placeName>,
+                            <placeName>Medule</placeName>, <placeName>Erbara</placeName>, districtum
+                            <placeName>sancto Euasio</placeName> a Pado usque in Stura, in
+                            <placeName>Fraxineto</placeName>, <placeName>Pasiliano</placeName>,
+                            <placeName>Ticinisse</placeName>, <placeName>Sarmaza</placeName>,
+                            <placeName>sancto Georgio </placeName>et ultra tria miliaria, predia
+                        Alberici de Monterone, Milonis de Salerana, Thedisii de Leuagna, Disonis de
+                        Vacaria, Armanni iudicis, Graseuerti de Cirisido et fratrum eius,
+                            <placeName>Cerro</placeName>, <placeName>Caualli</placeName>, castellum
+                            <placeName>sancti Angeli,</placeName>
+                        <placeName>Cerretum</placeName>, <placeName>Vulparia</placeName>,
+                            <placeName>Cassanoua</placeName>, curticellem in
+                            <geogName>Bremide</geogName>, curtem <geogName>Turcelli</geogName>,
+                        curtem <geogName>Canauam</geogName>, predia Cuniberti archipresbiteri,
+                            <orgName>abaciam de<placeName> Loceio</placeName></orgName> [cum
+                        pertinencia quae] Ortum sancti Michaelis vocatur a Monte regis usque Aquam
+                        nigram sicut currit Ampori, usque fossatum Asinarium et sicut est ecclesia
+                        sancte Marie a Ponte et Stura currit subtus broilum, Aleram usque Gardinam
+                        et usque Ronchum sichum, eciam a terra monacorum sicut Ampori tenet usque in
+                        capud montis Palarosse, usque in Padum, Camassaniga et totum Uersade usque
+                        in Ampori et totum Andolium intra Duriam [et Padum et Zebadasco], sancto
+                        Michaeli de Loceio, quicquid Lotharius augustus donavit, cortem Quadradulam
+                        cum districto arimannorum et theloneo, aquam Padi a portu Cleuaxi cum
+                        utrisque ripis usque ad Derum, ubi vetus Duria intrat in Padum, et a Dero
+                        usque in Mundine et Maminica, silvam de Loceio et Roncum sicum, Conzuningun
+                        et silvam Palazolascam, Romanianum et Aucimianum -- hec omnia ecclesie
+                        sancti Eusebii in perpetuum tenenda confirmamus. Si quis autem sanctam
+                        Vercellensem ecclesiam de hiis omnibus disvestiverit aut molestiam intulerit
+                        vel aliquo ingenio nostre confirmationis preceptum frangere presumpserit,
+                        componat mille libras auri optimi, medietatem camere nostre et sancto
+                        Eusebio alteram. Quod ut credatur et conservetur, manu nostra firmavimus et
+                        sigillo nostro insigniri iussimus servata lege et ministerio in omnibus.
+                        Signum domini Chuonradi (M.) serenissimi atque invictissimi imperatoris
+                        augusti. Vgo cancellarius ad vicem Aribonis archiepiscopi et
+                        archicancellarii recognovit. Datum anno dominice incarnationis MXXVII,
+                        indicione X, anno domini Chuonradi regnantis III, imperii vero eius I, VII.
+                        die mensis aprilis; actum Rome; feliciter amen. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p/>
+                <p>MGH DD Ko II, D. 84</p>
             </div>
             <div type="bibliography" subtype="additional">
-                <p/>
+                <p>Panero 2004</p>
             </div>
             <div type="bibliography" subtype="links">
                 <p/>
