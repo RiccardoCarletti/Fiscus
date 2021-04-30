@@ -376,7 +376,7 @@
     </i>
   </xsl:template>
 
-  <xsl:template match="t:title[not(ancestor::t:titleStmt)][not(ancestor::t:div[@type = 'edition'])]">
+  <xsl:template match="t:title[not(parent::t:titleStmt)][not(ancestor::t:div[@type = 'edition'])]">
     <i>
       <xsl:apply-templates/>
     </i>
