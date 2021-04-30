@@ -1712,6 +1712,7 @@
                     <link type="people" corresp="#people/171 #people/7" subtype="link"/>
                     <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
                     <link type="estates" corresp="#estates/62" subtype="hasConnectionWith"/>
+                    <link type="people" corresp="#people/130" subtype="link"/>
                 </place>
                 <place>
                     <placeName>Candelo (Biella)</placeName>
@@ -3845,6 +3846,7 @@
                     <link type="people" corresp="#people/171 #people/7" subtype="link"/>
                     <link type="estates" corresp="#estates/206" subtype="hasConnectionWith"/>
                     <note/>
+                    <link type="people" corresp="#people/130" subtype="link"/>
                 </place>
                 <place>
                     <placeName>Bobbio (Piacenza)</placeName>
@@ -4278,10 +4280,12 @@
                 </place>
                 <place>
                     <placeName>Magnano (Biella)</placeName>
-                    <placeName type="other"/>
-                    <geogName type="coord"><geo/></geogName>
+                    <placeName type="other">Petrò</placeName>
+                    <geogName type="coord"><geo>45.462057, 8.006287</geo></geogName>
                     <idno>places/515</idno>
                     <note/>
+                    <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
+                    <link type="people" corresp="#people/130 #people/171" subtype="link"/>
                 </place>
             </listPlace>
         </body>
