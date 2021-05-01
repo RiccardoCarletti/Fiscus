@@ -45,7 +45,7 @@
                         <origin>
                             <origDate notBefore="1083-06-02" notAfter="1084-06-02">
                                 <note type="displayed_date"> [1083 o 1084] June 2</note>
-                                <note type="dating_elements">Il documento sarebbe datato al 1084,
+                                <note type="dating_elements">Il documento sarebbe datato al 1084
                                     secondo l’anno dell’incarnazione (stile senese) e l’indizione
                                     VII; ma nella maggioranza degli altri atti il notaio sembra
                                     usare lo stile pisano (certamente in Giorgetti, n. 20 e 23;
@@ -92,11 +92,13 @@
                     <ab>Cartula da Casalappi, da Livellaria et da Sancta Maria in Campo, prope ipsa
                         ecclesia. In nomine domini nostri Iesu Christi Dei eterni. Anno ab
                         incarnatione eius millesimo optuagesimo quarto, quarto nonas iunii,
-                        indictione septima. Manifesti sumus nos <persName>Vivo</persName> et
-                            <persName>Teutjo</persName> germani filii quondam
-                            <persName>Petri</persName> quia per hanc cartula pro animabus nostris
-                        remedium offerimus donamus et cedimus tibi omnipotenti Deo et a pars <rs
-                            key="#Churches">ecclesia</rs> et <rs key="#Monasteries">monasterio</rs>
+                        indictione septima. Manifesti sumus nos <persName><name ref="Vivus"
+                                >Vivo</name></persName> et <persName><name ref="Teutius"
+                                >Teutjo</name></persName> germani filii quondam <persName><name
+                                ref="Petrus">Petri</name></persName> quia per hanc cartula pro
+                        animabus nostris remedium offerimus donamus et cedimus tibi omnipotenti Deo
+                        et a pars <rs key="#Churches">ecclesia</rs> et <rs key="#Monasteries"
+                            >monasterio</rs>
                         <orgName key="#Churches #Monasteries" ref="#juridical_persons/78">Sancti
                             Salvatoris et Sancte Marie Sanctique Quirici et in aliis sanctorum
                             vocabulis ibidem consecrati</orgName>, qui est fundata et edificata in
@@ -107,27 +109,29 @@
                         de tres <rs key="#Petiae">petiis</rs> de terris positi unum ex ipsis petiis,
                         quod est <rs key="#Casalini/fundamenta">casalino</rs>, in loco et finibus
                         ubi dicitur <placeName
-                            key="#Casalini/fundamenta #Petiae #Landed_possessions #Fiscal_property #Mention #Castle #Count #Consortes/shared_possessions"
+                            key="#Casalini/fundamenta #Petiae #Fiscal_property #Mention #Castle #Count #Consortes/shared_possessions"
                             ref="#places/133">Casalappi</placeName> prope ipso <rs key="#Castle"
                             >castello</rs>, abentem capud unum in <rs
-                            key="#Landed_possessions #Fiscal_property #Mention #Count #Consortes/shared_possessions"
+                            key="#Confinia #Landed_possessions #Fiscal_property #Mention #Count #Consortes/shared_possessions"
                             >terra Tedicinga</rs>, alio capo cum uno latere abet in via, aliud latus
-                        abet in terra filiorum quondam <persName>Bandi</persName>; secunda petia de
-                        terra quae est <rs key="#Wine">vinea</rs> posita in loco et finibus ubi
-                        dicitur <placeName
-                            key="#Petiae #Landed_possessions #Wine #Fiscal_property #Mention #Count #Consortes/shared_possessions"
+                        abet in terra filiorum quondam <persName key="#Confinia #Petiae"><name
+                                ref="Bandus">Bandi</name></persName>; secunda petia de terra quae
+                        est <rs key="#Wine">vinea</rs> posita in loco et finibus ubi dicitur
+                            <placeName
+                            key="#Petiae #Wine #Fiscal_property #Mention #Count #Consortes/shared_possessions"
                             ref="#places/134">Livellaria</placeName>, abente unum capud in terra et
-                        vinea de filiis quondam <persName>Sturmuli</persName>, aliut capud cum uno
-                        latere abet in terra filiorum quondam <persName>Bandi</persName>, aliud
-                        latus abet in <rs
-                            key="#Landed_possessions #Fiscal_property #Mention #Count #Consortes/shared_possessions"
+                        vinea de filiis quondam <persName key="#Confinia #Petiae #Wine"><name
+                                ref="Sturmulus">Sturmuli</name></persName>, aliut capud cum uno
+                        latere abet in terra filiorum quondam <persName key="#Confinia #Petiae"
+                                ><name ref="Bandus">Bandi</name></persName>, aliud latus abet in <rs
+                            key="#Confinia #Petiae #Fiscal_property #Mention #Count #Consortes/shared_possessions"
                             >terra Tedicinga</rs>; tertia petia de terra que est <rs key="#Cereals"
                             >campo</rs>, posita non logne ab <rs key="#Churches">ecclesia</rs>
                         <orgName key="#Churches">Sancte Marie, quae vocatur in Campo</orgName>,
                         abentem capud unum in via, aliut capud abet in Notulo, latus unum a[bet] in
-                            <rs key="#Landed_possessions #Consortes/shared_possessions">terra
+                            <rs key="#Confinia #Petiae #Consortes/shared_possessions">terra
                             Ferolfinga</rs>, aliud latus abet in terra de <orgName
-                            key="#Landed_possessions" ref="#juridical_persons/86">episcopatu Sancti
+                            key="#Confinia #Petiae" ref="#juridical_persons/86">episcopatu Sancti
                             Cerbonii</orgName>. De his predictis petiis de terris qualiter ab
                         omnibus partibus circumdatis per designatis locis competit exinde nobis de
                         medietatem duo portionis. Ipsis nostris portionis in integris cum
@@ -137,11 +141,14 @@
                         ecclesia et monasterio una petia de terra que iam fuit <rs
                             key="#Casalini/fundamenta">casalino</rs>, posita in predicto loco
                             <placeName key="#Casalini/fundamenta #Petiae" ref="#places/133"
-                            >Casalappi</placeName>, abentem capud unum in terra
-                            <persName>Amichi</persName> filii quondam <persName>Anatelli</persName>,
-                        aliud capud abet in terra filiorum quondam <persName>Bandi</persName>, latus
-                        unum in terra <persName>Ildebrandi</persName> quondam
-                            <persName>Gethi</persName>, aliud latus abet in via. Ac predicta petia
+                            >Casalappi</placeName>, abentem capud unum in terra <persName
+                            key="#Confinia #Petiae"><name ref="Amicus">Amichi</name></persName>
+                        filii quondam <persName><name ref="Anatellus">Anatelli</name></persName>,
+                        aliud capud abet in terra filiorum quondam <persName key="#Confinia #Petiae"
+                                ><name ref="Bandus">Bandi</name></persName>, latus unum in terra
+                            <persName key="#Confinia #Petiae"><name ref="Ildebrandus"
+                                >Ildebrandi</name></persName> quondam <persName><name ref="Gezo"
+                                >Gethi</name></persName>, aliud latus abet in via. Ac predicta petia
                         de terra qualiter ab omni parte circumdata est per designata loca in
                         integrum cum inferioribus et superioribus suis seu cum accessionibus et
                         ingressoras suas tibi Deo omnipotenti et eiusdem eccelesia et monasterio
@@ -172,18 +179,25 @@
                         …] et Herode et Iuda traditore, fiat dimersus ab altitudine celi in
                         profundum inferi et cum diabolus in infernum sit semper arsurum et in die
                         iudicii ante Domini tribunal non resurgat in numero iustorum, quia in tali
-                        [ordine hanc cartula] offertionis <persName key="#Notary"
-                            >Sigismundus</persName>
+                        [ordine hanc cartula] offertionis <persName key="#Writer #Notary"><name
+                                ref="Sigismundus">Sigismundus</name></persName>
                         <rs key="#Notary">notarius</rs> domni regis scribere rogavimus infra
                         predicto monasterio Sancti Quirici. Signum manus suprascripti Vivi et Teutj
-                        germani qui hanc carta offertjonis fieri rogaverunt. Signa manuum
-                            <persName>Amic[hi</persName> … <foreign>6 l</foreign>. et]
-                            <persName>Raineri</persName> filius ipsius <persName>Amichi</persName>
-                        et <persName>Rodulfus</persName> filii quondam <persName>Berte</persName>,
-                        et <persName>Martino</persName> filii <persName>Athi</persName> et
-                            <persName>Petrus</persName> filius quondam <persName>Ferrucci</persName>
-                        et <persName>Gerardus</persName> filius <persName>Gerardi</persName>
-                        testium. Sismundus notarius domni regis post tradita complevi et dedi. </ab>
+                        germani qui hanc carta offertjonis fieri rogaverunt. Signa manuum <persName
+                            key="#Witness"><name ref="Amicus">Amic[hi</name></persName> … <foreign>6
+                            l</foreign>. et] <persName key="#Witness"><name ref="Rainerius"
+                                >Raineri</name></persName> filius ipsius <persName><name
+                                ref="Amicus">Amichi</name></persName> et <persName key="#Witness"
+                                ><name ref="Rodulfus">Rodulfus</name></persName> filii quondam
+                                <persName><name ref="Berta">Berte</name></persName>, et <persName
+                            key="#Witness"><name ref="Martinus">Martino</name></persName> filii
+                                <persName><name ref="Azo">Athi</name></persName> et <persName
+                            key="#Witness"><name ref="Petrus">Petrus</name></persName> filius
+                        quondam <persName><name ref="Ferrutius">Ferrucci</name></persName> et
+                            <persName key="#Witness"><name ref="Gherardus"
+                            >Gerardus</name></persName> filius <persName><name ref="Gherardus"
+                                >Gerardi</name></persName> testium. Sismundus notarius domni regis
+                        post tradita complevi et dedi. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
