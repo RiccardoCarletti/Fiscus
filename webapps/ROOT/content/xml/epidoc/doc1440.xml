@@ -46,7 +46,7 @@
                             <origDate notBefore="1122-03-01" notAfter="1122-03-24">
                                 <note type="displayed_date">1122 March [1-24]</note>
                                 <note type="dating_elements">La data proposta si ricava pensando a
-                                    una datazione secondo l'anno dell'incanrnazione, stile
+                                    una datazione secondo l'anno dell'incarnazione, stile
                                     sense-fiorentino (usato anche altrove da Amerigo), e
                                     all’indizione. Altrimenti (stile pisano, datazione
                                         <foreign>post</foreign> 24 marzo) ci sarebbe uno scostamento
@@ -96,7 +96,7 @@
                         <rs key="#Count">comitis</rs> et <persName key="#Countess" ref="#people/98"
                             >Maximilla</persName>
                         <rs key="#Countess">comitissa</rs>, iugales, et filia <persName key="#Count"
-                            >Rugeri</persName>
+                                ><name ref="Rogerius">Rugeri</name></persName>
                         <rs key="#Count">comiti</rs>, et <persName key="#Countess" ref="#people/99"
                             >Lupa</persName>
                         <rs key="#Countess">comitissa</rs>, relicta <persName key="#Count"
@@ -117,16 +117,16 @@
                             key="#Landed_possessions" ref="#juridical_persons/86">Sancti
                             Gerboni</orgName> et <orgName key="#Landed_possessions"
                             ref="#juridical_persons/78">Sancti Quirici</orgName>, et rectus fuit per
-                            <persName key="#Mansi #Wine #Oil #Fiscal_property #Mention #Count"
-                            >Benzonem</persName>, et designatus est ab omni parte, q[ui]a ex una
-                        parte est <rs key="#Landed_possessions">terra</rs>
-                        <orgName key="#Landed_possessions" ref="#juridical_persons/79">Sancti
-                            Petri</orgName> de <placeName ref="#places/85" key="#Monasteries"
-                            >Monteviridi</placeName>, ex altera parte tenet <persName
-                            key="#Landed_possessions #Viscount" ref="#people/104"
-                            >Rugerius</persName>
+                            <persName key="#Mansi #Wine #Oil #Fiscal_property #Mention #Count"><name
+                                ref="Benzo">Benzonem</name></persName>, et designatus est ab omni
+                        parte, q[ui]a ex una parte est <rs key="#Landed_possessions">terra</rs>
+                        <orgName key="#Confinia #Landed_possessions" ref="#juridical_persons/79"
+                            >Sancti Petri</orgName> de <placeName ref="#places/85"
+                            key="#Monasteries">Monteviridi</placeName>, ex altera parte tenet
+                            <persName key="#Confinia #Landed_possessions #Viscount"
+                            ref="#people/104">Rugerius</persName>
                         <rs key="#Viscount">vicecomes</rs>, desuper est terra <orgName
-                            key="#Landed_possessions" ref="#juridical_persons/86">Sancti
+                            key="#Confinia #Landed_possessions" ref="#juridical_persons/86">Sancti
                             Cerbonii</orgName>, desubtus via, quem autem mansum suprascriptum una
                         cum accessione et ingressione omnia in integrum sicut superius legitur
                         prefato Mauro abbati donamus atque tradimus, ut vos et ecclesia vestra et
@@ -154,21 +154,30 @@
                         tuis successoribus prefatum mansum restituere in duplum, sicut pro tempore
                         fuerit melioratus aut valuerit sub extimatione in consimili loco, quia inter
                         nos taliter convenimus. Actum in <rs key="#Castle">castello</rs> de
-                            <placeName key="#Fiscal_property #Residential #Castle #Count"
+                            <placeName key="#Fiscal_property #Residential #Castle #Count #Itinerary"
                             ref="#places/87">Suvereto</placeName>. Signa manuum prefati comitis et
                         comitissarum, qui que vero hanc cartula, qualiter supra legitur, scribere
-                        rogaverunt. Signa manuum <persName key="#Viscount" ref="#people/104"
-                            >Rugerii</persName>
-                        <rs key="#Viscount">vicecomitis</rs> filii <persName>Ildibrandi</persName>
-                        et <persName>Vulpelli</persName> filii <persName>Perli</persName> et
-                            <persName>B(er)ardini</persName> filii <persName>Petri Grassi
-                        </persName>et <persName>Malpilli</persName> filii eius et
-                            <persName>Raineri</persName> filii <persName>Rufinelli</persName> et
-                            <persName>Tancredi</persName> filii <persName>Ugiccionis</persName> et
-                            <persName>Salarii</persName> filii <persName>Valfredi</persName> de
-                            <placeName>Tremali</placeName> et <persName>Vazonis</persName> de
+                        rogaverunt. Signa manuum <persName key="#Witness #Viscount"
+                            ref="#people/104">Rugerii</persName>
+                        <rs key="#Viscount">vicecomitis</rs> filii <persName><name ref="Ildebrandus"
+                                >Ildibrandi</name></persName> et <persName key="#Witness"><name
+                                ref="Vulpellus">Vulpelli</name></persName> filii <persName><name
+                                ref="Perlus">Perli</name></persName> et <persName key="#Witness"
+                                ><name ref="Berardinus">B(er)ardini</name></persName> filii
+                                <persName><name ref="Petrus/Crassus">Petri Grassi</name>
+                        </persName>et <persName key="#Witness"><name ref="Malpilius"
+                            >Malpilli</name></persName> filii eius et <persName key="#Witness"><name
+                                ref="Rainerius">Raineri</name></persName> filii <persName><name
+                                ref="Rufinellus">Rufinelli</name></persName> et <persName
+                            key="#Witness"><name ref="Tancredus">Tancredi</name></persName> filii
+                                <persName><name ref="Huguccio">Ugiccionis</name></persName> et
+                            <persName key="#Witness"><name ref="Salarius">Salarii</name></persName>
+                        filii <persName><name ref="Walfredus de Tremali">Valfredi</name></persName>
+                        de <placeName>Tremali</placeName> et <persName key="#Witness"><name
+                                ref="Wazo de Monte Liverenti">Vazonis</name></persName> de
                             <placeName>Monte Liverenti</placeName>. Ego <persName
-                            key="#Notary #Judge">Aimerigus</persName>
+                            key="#Writer #Notary #Judge"><name ref="Aimerigus"
+                            >Aimerigus</name></persName>
                         <rs key="#Judge">iudex</rs> et <rs key="#Notary">notarius</rs> domini
                         inperatoris post tradita complevi et dedi. </ab>
                 </div>
