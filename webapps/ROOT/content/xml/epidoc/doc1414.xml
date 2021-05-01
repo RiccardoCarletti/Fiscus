@@ -35,7 +35,7 @@
                             <rs type="text_type" ref="#">--Offersio/donatio</rs>
                             <rs type="record_source" ref="#">Original document</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property">No</rs>
+                            <rs type="fiscal_property">Uncertain</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -87,11 +87,12 @@
                     <ab>Cartula de Livellaria de eccelsia et una petia de vinea ubi dicitur Fossa
                         Paterni. In nomine domini nostri Iesu Christi Dei eterni. Anno ab
                         incarnatione eius millesimo septuagesimo nono, hoctavo idus novembris,
-                        indictione secunda. Manifestus sum ego <persName><name ref="Guido"
+                        indictione secunda. Manifestus sum ego <persName><name ref="Wido"
                                 >Wido</name></persName> filius quondam <persName><name
-                                ref="Teuzo Broccolo">Teutj qui Brocculo</name> vocabatur</persName>,
-                        quia per hanc cartula pro anime mee remedium offero tibi Deo, <rs
-                            key="#Churches">ecclesia</rs> et <rs key="#Monasteries">monasterio</rs>
+                                ref="Teutius/Broccolo">Teutj qui Brocculo</name>
+                            vocabatur</persName>, quia per hanc cartula pro anime mee remedium
+                        offero tibi Deo, <rs key="#Churches">ecclesia</rs> et <rs key="#Monasteries"
+                            >monasterio</rs>
                         <orgName ref="#juridical_persons/78" key="#Churches #Monasteries">Domini et
                             Sancti Salvatoris et Sancte Marie Sanctique Quirici et Sancti Martini et
                             Sancti Nicholai et Sancti Benedicti</orgName> meam portionem quae mihi
@@ -104,13 +105,14 @@
                         integram de una <rs key="#Petiae #Cereals #Wine">petia</rs> de terra cum <rs
                             key="#Wine">vinea</rs> et terra <rs key="#Cereals">laboratoria</rs>
                         super se habentem in loco et finibus ubi dicitur <placeName
-                            ref="#places/134" key="#Petiae #Cereals #Wine"><rs key="#Canals"
-                                >Fossa</rs> Paterni</placeName>, non longe de suprascripta ecclesia
-                        Sancti Christofori; et est tenens unum capud in terra <persName
-                            key="#Confinia #Petiae"><name ref="Enrico">Enrigi</name></persName> fili
-                        quondam <persName><name ref="Alberto">Alberti</name></persName>, et aliut
-                        capud tenet in prenominata fossa, lateribus ambobus detinet in terra de <rs
-                            key="#Churches">ecclesia</rs> et <rs key="#Monasteries">monasterio</rs>
+                            ref="#places/134" key="#Petiae #Cereals #Wine #Fiscal_property #Mention"
+                                ><rs key="#Canals">Fossa</rs> Paterni</placeName>, non longe de
+                        suprascripta ecclesia Sancti Christofori; et est tenens unum capud in terra
+                            <persName key="#Confinia #Petiae"><name ref="Heinricus"
+                            >Enrigi</name></persName> fili quondam <persName><name ref="Albertus"
+                                >Alberti</name></persName>, et aliut capud tenet in prenominata
+                        fossa, lateribus ambobus detinet in terra de <rs key="#Churches"
+                            >ecclesia</rs> et <rs key="#Monasteries">monasterio</rs>
                         <orgName ref="#juridical_persons/87" key="#Confinia #Petiae">Sancte
                             Marie</orgName>, sito loco <placeName ref="#places/200"
                             key="#Monasteries">Serena</placeName>, et aliquantolum de unum latus
@@ -151,24 +153,24 @@
                         finem ponendi, modis omnibus vobis eas defensandi ad pars suprascripte
                         ecclesie et monasterio cum cartula ista, qualiter iusta legem melius
                         potueritis, quia in tali ordine hanc cartula <persName key="#Writer #Notary"
-                                ><name ref="Sismondo">Sesmundo</name></persName>
+                                ><name ref="Sisemundus">Sesmundo</name></persName>
                         <rs key="#Notary">notario</rs> domni regis scribere rogavi. Actum loco et
                         finibus ubi dicitur <placeName key="#Castle #Churches" ref="#places/133"
                             >Casalappi</placeName>, prope ipso <rs key="#Castle">castello</rs> et
                         prope <rs key="#Churches">ecclesia</rs>
                         <orgName ref="#juridical_persons/149">Sancti Martini</orgName>. Signum manus
                         infrascripti Widi qui hanc cartula offertjonis fieri rogavi. Signa manuum
-                            <persName key="#Witness"><name ref="Guido">Widi</name></persName>
-                        quondam <persName key="#Witness"><name ref="Teuzo">Teuti</name></persName>
-                        et <persName key="#Witness"><name ref="Giovanni">Iohannis</name></persName>
-                        quondam <persName key="#Witness"><name ref="Moro">Mori</name></persName> et
-                            <persName key="#Witness"><name ref="Nerlo">Nerli</name></persName> filii
-                        predicti <persName key="#Witness"><name ref="Giovanni"
+                            <persName key="#Witness"><name ref="Wido">Widi</name></persName> quondam
+                            <persName key="#Witness"><name ref="Teutius">Teuti</name></persName> et
+                            <persName key="#Witness"><name ref="Iohannes">Iohannis</name></persName>
+                        quondam <persName key="#Witness"><name ref="Morus">Mori</name></persName> et
+                            <persName key="#Witness"><name ref="Nerlus">Nerli</name></persName>
+                        filii predicti <persName key="#Witness"><name ref="Iohannes"
                             >Iohanni</name></persName> et <persName key="#Witness"><name
-                                ref="Rodolfo">Rodulfi</name></persName> filii quondam <persName
-                            key="#Witness"><name ref="Lamberto">Lamberti</name></persName> et
-                            <persName key="#Witness"><name ref="Giovanni">Iohannis</name></persName>
-                        filii <persName key="#Witness"><name ref="Concio">Cunci</name></persName>
+                                ref="Rodulfus">Rodulfi</name></persName> filii quondam <persName
+                            key="#Witness"><name ref="Lambertus">Lamberti</name></persName> et
+                            <persName key="#Witness"><name ref="Iohannes">Iohannis</name></persName>
+                        filii <persName key="#Witness"><name ref="Concius">Cunci</name></persName>
                         testium. Sesmundo notarius domini regis post tradita complevi et dedi. </ab>
                 </div>
             </div>
