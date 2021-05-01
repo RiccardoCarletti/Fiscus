@@ -94,7 +94,7 @@
                             >Iolittas</persName> iugale filia quondam <persName key="#Marquis/duke"
                             ref="#people/198">Wilielmi</persName>
                         <rs key="#Marquis/duke">marchionis</rs> cognita sub interrogatione <persName
-                            key="#Judge">Henrici</persName>
+                            key="#Judge"><name ref="Heinricus">Henrici</name></persName>
                         <rs key="#Judge">iudicis</rs> sacri palatii nullam me passam violentiam,
                         voluntarie hanc celebrasse offersione, comuniter et legaliter dato consensu;
                         in Dei enim nomine nos suprascripti iugales tibi omnipotenti Deo et <rs
@@ -106,38 +106,42 @@
                         cedimus, largimus et tradimus quattuor videlicet <rs key="#Petiae"
                             >petia</rs> de terra, quorum primo coheret ab oriente <rs
                             key="#Landed_possessions">terra</rs>
-                        <orgName key="#Landed_possessions" ref="#juridical_persons/79">Sancti
-                            Petri</orgName> de <placeName ref="#places/85" key="#Monasteries"
-                            >Monteviridi</placeName>, ab occidente terra
-                            <persName>Ildibrandi</persName> quondam <persName>Gethi</persName>, a
-                        septentrione coheret ei <placeName key="#Rivers">Cornia</placeName>, a
-                        meridie <rs key="#Landed_possessions #Fiscal_property #Mention #Count"
+                        <orgName key="#Confinia #Landed_possessions" ref="#juridical_persons/79"
+                            >Sancti Petri</orgName> de <placeName ref="#places/85"
+                            key="#Monasteries">Monteviridi</placeName>, ab occidente terra <persName
+                            key="#Confinia #Landed_possessions"><name ref="Ildebrandus"
+                                >Ildibrandi</name></persName> quondam <persName><name ref="Gezo"
+                                >Gethi</name></persName>, a septentrione coheret ei <placeName
+                            key="#Rivers">Cornia</placeName>, a meridie <rs
+                            key="#Confinia #Landed_possessions #Fiscal_property #Mention #Count"
                             >terram</rs>, quam nobis reservamus, et dicitur istud petium <placeName
                             key="#Petiae #Landed_possessions #Fiscal_property #Object #Redistributive #Allocation_to_churches #Count"
                             >Petraficta</placeName>; alteri vero petia, quod dicitur <placeName
                             key="#Petiae #Fiscal_property #Object #Redistributive #Allocation_to_churches"
                             >Quercus Grossa</placeName>, ab oriente choheret Cornia et prope
                             <placeName>Burdi</placeName>, ab occidente <rs key="#Roads">via</rs>
-                        <rs key="#Consortes/shared_possessions">Ubertinga</rs>, a septentrione
-                        coheret ei <rs key="#Landed_possessions #Fiscal_property #Mention #Count"
+                        <rs key="#Confinia #Landed_possessions #Consortes/shared_possessions"
+                            >Ubertinga</rs>, a septentrione coheret ei <rs
+                            key="#Confinia #Landed_possessions #Fiscal_property #Mention #Count"
                             >terra</rs> quam nobis reservamus, a meridie <rs
-                            key="#Landed_possessions #Fiscal_property #Mention #Count #Consortes/shared_possessions"
+                            key="#Confinia #Landed_possessions #Fiscal_property #Mention #Count #Consortes/shared_possessions"
                             >terre Tedicinge</rs>; tertio autem petio ab oriente coheret <rs
-                            key="#Landed_possessions #Fiscal_property #Mention #Count">terra</rs>
-                        nostra, ab occidente via Ubertinga, a septentrionem via, a meridie terra <rs
-                            key="#Landed_possessions #Consortes/shared_possessions"
+                            key="#Confinia #Landed_possessions #Fiscal_property #Mention #Count"
+                            >terra</rs> nostra, ab occidente via Ubertinga, a septentrionem via, a
+                        meridie terra <rs
+                            key="#Confinia #Landed_possessions #Consortes/shared_possessions"
                             >Pungulinesis</rs>; quarto vero quod dicitur prope <placeName
-                            key="#Petiae #Fiscal_property #Object #Redistributive #Allocation_to_churches"
+                            key="#Petiae #Oil #Fiscal_property #Object #Redistributive #Allocation_to_churches"
                             >Corbellaio</placeName>, est per <rs key="#Size">mensura stariorum
                             VI</rs> cum <rs key="#Oil">olivis</rs> ad seminatura sextarii panum
                         decem, ab oriente coheret via puplica, ab occidente <rs
-                            key="#Landed_possessions #Fiscal_property #Mention #Count #Consortes/shared_possessions"
+                            key="#Confinia #Landed_possessions #Fiscal_property #Mention #Count #Consortes/shared_possessions"
                             >terra nostra Roccisiana</rs>, a septentrione via puplica, a meridie <rs
-                            key="#Landed_possessions #Fiscal_property #Mention #Count">terra</rs>
-                        nostra; ut hec supranominata petja de terris cum ingressoris et
-                        accessionibus suis, sicut termini et confinia sua consistunt, sint in [i]ure
-                        predicti monasterii proprietario nomine ad usum et commodum ibidem Deo
-                        militantium et militatorum. Quam nostram offersionem si nos qui supra
+                            key="#Confinia #Landed_possessions #Fiscal_property #Mention #Count"
+                            >terra</rs> nostra; ut hec supranominata petja de terris cum ingressoris
+                        et accessionibus suis, sicut termini et confinia sua consistunt, sint in
+                        [i]ure predicti monasterii proprietario nomine ad usum et commodum ibidem
+                        Deo militantium et militatorum. Quam nostram offersionem si nos qui supra
                         iugales vel nostri heredes removere vel diminuere quesierimus per aliquod
                         ingenium, aut si exinde molestare abbatem ipsius monasterii vel prepositum
                         vel eius <rs>ministeriales</rs> vel <rs>servientes</rs> presumpserimus
@@ -148,23 +152,31 @@
                         dato consensu nos nostrosque heredes debere componere ad partem predicti
                         monasterii ea omnia in dupplum inferquidem loco sub estimatione et insuper
                         pene nomine libras argenti optimi L, quia in hoc ordine <persName
-                            key="#Notary">Henricum</persName> sacri palatii <rs key="#Notary"
-                            >notarium</rs> pro nobis scribere rogavimus. Actum in <rs key="#Castle"
-                            >castello</rs> de <placeName
+                            key="#Writer #Notary"><name ref="Heinricus">Henricum</name></persName>
+                        sacri palatii <rs key="#Notary">notarium</rs> pro nobis scribere rogavimus.
+                        Actum in <rs key="#Castle">castello</rs> de <placeName
                             key="#Fiscal_property #Residential #Castle #Count #Itinerary"
                             ref="#places/142">Sticciano</placeName>, anno dominice incarnationis
                         millesimo octuagesimo octavo, quarto nonas ianuarii, indictione Xa. Signa
                         manuum predictorum iugalium qui hanc cartulam fieri rogaverunt. Unde super
                         violatorem huius nostre dispositionis sit maledictio Dei et sanctorum omnium
                         et sit super eum anathema maranatha, in die iudicii inrecuperabiliter
-                        damnetur. Amen, amen, amen. Henricus sacri palatji iudex interfui. Signa
-                        manuum <persName>Widonis</persName> quondam <persName>Widonis</persName> et
-                            <persName>Pagani</persName> filii <persName>Benboni</persName> et
-                            <persName>Ugonis</persName> quondam <persName>Sirici</persName> et
-                            <persName>Widonis</persName> quondam <persName>Rola(ndi)</persName> et
-                            <persName>Ugonis</persName> quondam <persName>Ilditj</persName> et
-                            <persName>Winithonis</persName> quondam <persName>Petri</persName>
-                        testium. Henricus sacri palatii notarius post traditionem completam absolvi. </ab>
+                        damnetur. Amen, amen, amen. <persName key="#Witness #Judge"><name
+                                ref="Heinricus">Henricus</name></persName> sacri palatji <rs
+                            key="#Judge">iudex</rs> interfui. Signa manuum <persName key="#Witness"
+                                ><name ref="Wido">Widonis</name></persName> quondam <persName><name
+                                ref="Wido">Widonis</name></persName> et <persName key="#Witness"
+                                ><name ref="Paganus">Pagani</name></persName> filii <persName><name
+                                ref="Benbonus">Benboni</name></persName> et <persName key="#Witness"
+                                ><name ref="Hugo">Ugonis</name></persName> quondam <persName><name
+                                ref="Siricus">Sirici</name></persName> et <persName key="#Witness"
+                                ><name ref="Wido">Widonis</name></persName> quondam <persName><name
+                                ref="Rodelandus">Rola(ndi)</name></persName> et <persName
+                            key="#Witness"><name ref="Hugo">Ugonis</name></persName> quondam
+                                <persName><name ref="Ilditius">Ilditj</name></persName> et <persName
+                            key="#Witness"><name ref="Winizo">Winithonis</name></persName> quondam
+                                <persName><name ref="Petrus">Petri</name></persName> testium.
+                        Henricus sacri palatii notarius post traditionem completam absolvi. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
