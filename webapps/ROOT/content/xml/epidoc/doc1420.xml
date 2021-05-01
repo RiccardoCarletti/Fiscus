@@ -87,8 +87,9 @@
                 <div type="textpart">
                     <ab>Cartula de Livellaria. In nomine domini nostri Iesu Christi Dei eterni. Anno
                         dominice incarnationis millesimo centesimo octavo Xo, quarto idus novembris,
-                        indictione nona. Manifestus sum ego <persName>Gisolfus</persName> filius
-                        quondam bone memorie <persName>Gerardi</persName> de <rs
+                        indictione nona. Manifestus sum ego <persName><name ref="Ghisulfus"
+                                >Gisolfus</name></persName> filius quondam bone memorie
+                                <persName><name ref="Gherardus">Gerardi</name></persName> de <rs
                             key="#Villages/settlements">villa</rs>
                         <placeName ref="#places/131" key="#Villages/settlements">Sancti
                             Fridiani</placeName>, quia per hanc cartula vinditionis vindo et trado
@@ -99,17 +100,17 @@
                             Quirici</orgName>, sito <placeName ref="#places/86" key="#Monasteries"
                             >Populonio</placeName>, unam <rs key="#Petiae">petia</rs> de terra que
                         est in loco ubi dicitur <placeName
-                            key="#Landed_possessions #Fiscal_property #Mention #Count"
-                            ref="#places/134">Libellaria</placeName>, que <rs
-                            key="#Curtes #Seigneurial_district">curtis</rs> de <rs key="#Castle"
-                            >castello</rs>
+                            key="#Petiae #Fiscal_property #Mention #Count" ref="#places/134"
+                            >Libellaria</placeName>, que <rs key="#Curtes #Seigneurial_district"
+                            >curtis</rs> de <rs key="#Castle">castello</rs>
                         <placeName
                             key="#Curtes #Landed_possessions #Fiscal_property #Mention #Castle #Count #Seigneurial_district"
                             ref="#places/133">Casalappi</placeName> videtur esse, sicut designata
-                        videtur, que tenet capud et latus in terra de filiis
-                            <persName>Brunetti</persName> quondam <persName>Stormoli</persName> et
-                        ex altera in <rs key="#Landed_possessions #Fiscal_property #Mention #Count"
-                            >terra contile</rs> predicta hac petia, sicut designata esse videtur in
+                        videtur, que tenet capud et latus in terra de filiis <persName
+                            key="#Confinia #Petiae"><name ref="Brunectus">Brunetti</name></persName>
+                        quondam <persName><name ref="Sturmulus">Stormoli</name></persName> et ex
+                        altera in <rs key="#Confinia #Petiae #Fiscal_property #Mention #Count">terra
+                            contile</rs> predicta hac petia, sicut designata esse videtur in
                         integrum eam vindo et trado tibi predicto abbati ad partem et utilitatem
                         ecclesie et monasterii Sancti Quirici, ut ab odie in antea [sit in]
                         potestate tua, qui supra Mauro abbati, et pastoribus et rectoribus illis,
@@ -138,17 +139,20 @@
                         ponendi, modis omnibus eam vobis defensandi cum cartula ista ad partem et
                         utilitatem suprascripte ecclesie et mona[sterio] Sancti Quirici, qualiter
                         iusta legem melius potueritis, quia in tali hordine hanc cartula <persName
-                            key="#Notary">Petrum</persName> domni regis <rs key="#Notary"
-                            >notarium</rs> scribere rogavi. Actum in loco <placeName
-                            ref="#places/91">Cornino</placeName>, in villa Sancti Fridiani, <rs
-                            key="#Comitatus">territorio</rs>
+                            key="#Writer #Notary"><name ref="Petrus">Petrum</name></persName> domni
+                        regis <rs key="#Notary">notarium</rs> scribere rogavi. Actum in loco
+                            <placeName ref="#places/91">Cornino</placeName>, in villa Sancti
+                        Fridiani, <rs key="#Comitatus">territorio</rs>
                         <geogName key="#Comitatus" ref="#estates/87">Populoniense</geogName>. Signum
                         manus suprascripti Gisolfi [quondam] Gerardi qui hanc cartula vinditionis
-                        fieri rogavit. Signa manuum <persName>Germondi</persName> quodam
-                            <persName>Alberti</persName> et <persName>Alberti</persName> quodam
-                            <persName>Teutj</persName> et <persName>Rustichi</persName> quondam
-                            <persName>Iohannis</persName> testium. Petrus domini regis notarius post
-                        tradita complevi et dedi. </ab>
+                        fieri rogavit. Signa manuum <persName key="#Witness"><name ref="Garimundus"
+                                >Germondi</name></persName> quodam <persName><name ref="Albertus"
+                                >Alberti</name></persName> et <persName key="#Witness"><name
+                                ref="Albertus">Alberti</name></persName> quodam <persName><name
+                                ref="Teutius">Teutj</name></persName> et <persName key="#Witness"
+                                ><name ref="Rusticus">Rustichi</name></persName> quondam
+                                <persName><name ref="Iohannes">Iohannis</name></persName> testium.
+                        Petrus domini regis notarius post tradita complevi et dedi. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
