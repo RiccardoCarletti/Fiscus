@@ -86,9 +86,11 @@
                 <div type="textpart">
                     <ab>Cartula de Livellaria. In nomine domini nostri Iesu Christi Dei eterni. Anno
                         dominice incarnationis millesimo centesimo quinto Xo, pridie nonas
-                        novembris, indictione VIII. Manifestus sum ego <persName>Albertus</persName>
-                        filius bone memorie <persName>Enrichi</persName> quia per hanc cartula
-                        offersionis offero Deo et <rs key="#Monasteries">monasterio</rs>
+                        novembris, indictione VIII. Manifestus sum ego <persName><name
+                                ref="Albertus">Albertus</name></persName> filius bone memorie
+                                <persName><name ref="Heinricus">Enrichi</name></persName> quia per
+                        hanc cartula offersionis offero Deo et <rs key="#Monasteries"
+                            >monasterio</rs>
                         <orgName key="#Monasteries" ref="#juridical_persons/78">Sancti
                             Quirici</orgName>, sito <placeName ref="#places/86" key="#Monasteries"
                             >Populonio</placeName>, una <rs key="#Petiae">petia</rs> de terra mea
@@ -115,16 +117,19 @@
                         voluntas, exinde causam agendi, responsum reddendi, finem ponendi, modis
                         omnibus nobis eam defensandi ad partem suprascripti monasterii cum cartula
                         ista, qualiter iusta legem melius potueritis, quia in tali ordi[nem] hanc
-                        cartula <persName key="#Notary">Petrum</persName>
+                        cartula <persName key="#Writer #Notary"><name ref="Petrus"
+                            >Petrum</name></persName>
                         <rs key="#Notary">notarium</rs> domni regis scribere rogavi. Actum in loco
                         qui dicitur <placeName ref="#places/132">Vignale</placeName>, <rs
                             key="#Comitatus">territorio</rs>
                         <geogName key="#Comitatus" ref="#estates/87">Populoniense</geogName>. Signum
                         manus suprascripti Alberti, qui hanc cartulam offersionis fieri rogavit.
-                        Signa manuum <persName>Corucci</persName> quondam
-                            <persName>Opithi</persName> et <persName>Bruni</persName> quondam
-                            <persName>Berithi</persName>, rogati testes. Petrus notarius domni regis
-                        post tradita complevi et dedi. </ab>
+                        Signa manuum <persName key="#Witness"><name ref="Coruccius"
+                            >Corucci</name></persName> quondam <persName><name ref="Obizo"
+                                >Opithi</name></persName> et <persName key="#Witness"><name
+                                ref="Brunus">Bruni</name></persName> quondam <persName><name
+                                ref="Beritius">Berithi</name></persName>, rogati testes. Petrus
+                        notarius domni regis post tradita complevi et dedi. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">

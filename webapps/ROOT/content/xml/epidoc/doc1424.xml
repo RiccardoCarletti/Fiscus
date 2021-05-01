@@ -87,28 +87,30 @@
                 <div type="textpart">
                     <ab>Cartula de Livellaria. In nomine domini nostri Iesu Christi Dei eterni. Anno
                         ab incarnatione eius millesimo septuagesimo quarto, quarto idus decembris,
-                        indictione tertia Xa. Manifestus sum ego <persName>Tegrimo, qui Saracino
-                            vocatur</persName>, filius bone memorie <persName>Berithi, qui Ioco
-                            vocabatur </persName>quia per hanc cartula pro anime mee remedio offero
-                        tibi Deo <rs key="#Churches">ecclesia</rs> et <rs key="#Monasteries"
-                            >monasterio</rs>
+                        indictione tertia Xa. Manifestus sum ego <persName><name
+                                ref="Tegrimus/Saracinus">Tegrimo, qui Saracino
+                            vocatu</name>r</persName>, filius bone memorie <persName><name
+                                ref="Beritius/Iocus">Berithi, qui Ioco vocabatur</name>
+                        </persName>quia per hanc cartula pro anime mee remedio offero tibi Deo <rs
+                            key="#Churches">ecclesia</rs> et <rs key="#Monasteries">monasterio</rs>
                         <orgName key="#Churches #Monasteries" ref="#juridical_persons/78">Sancti
                             Quirici</orgName> qui est constructum et edificatum in loco et finibus
                             <placeName key="#Monasteries" ref="#places/86">Populonio</placeName>,
                         idest una <rs key="#Petiae">petia</rs> de terra mea illa quod est <rs
                             key="#Cereals">campo</rs> in qua fuit <rs
                             key="#Casae/cassinae_massaricie">cassina et res massaricias</rs>, ubi
-                        residebat quondam <persName>Baroccio</persName>, quam habeo in loco et
-                        finibus <placeName
-                            key="#Casae/cassinae_massaricie #Petiae #Landed_possessions #Cereals #Fiscal_property #Mention #Count #Consortes/shared_possessions"
+                        residebat quondam <persName><name ref="Baroccius"
+                        >Baroccio</name></persName>, quam habeo in loco et finibus <placeName
+                            key="#Casae/cassinae_massaricie #Petiae #Cereals #Fiscal_property #Mention #Count #Consortes/shared_possessions"
                             ref="#places/133">Casalappi</placeName>, prope <rs key="#Churches"
                             >ecclesia</rs>
                         <orgName key="#Churches" ref="#juridical_persons/145">Sancti
-                            Christofori</orgName>, tenentes uno capo cum uno lato in terra mea, quas
-                        mihi reservo, et alio capo in <rs
-                            key="#Landed_possessions #Fiscal_property #Mention #Count #Consortes/shared_possessions"
+                            Christofori</orgName>, tenentes uno capo cum uno lato in terra <persName
+                            key="#Confinia #Petiae"><name ref="Tegrimus/Saracinus"
+                            >mea</name></persName>, quas mihi reservo, et alio capo in <rs
+                            key="#Confinia #Petiae #Fiscal_property #Mention #Count #Consortes/shared_possessions"
                             >terra Tedicinga</rs>, et alio lato in <rs
-                            key="#Landed_possessions #Consortes/shared_possessions">terra que fuit
+                            key="#Confinia #Petiae #Consortes/shared_possessions">terra que fuit
                             Ubertinga</rs>. Has suprascripta petia de terra que est campo, sicut eam
                         detinuit quondam suprascripto Baroccio qualiter ab omni parte circumdata est
                         per designatas locas, quod est per mensura a iusta seminatura a sistario de
@@ -151,8 +153,8 @@
                         Pilato et Erode, et cum Iuda traditore fiat demersus ab altitudine celi in
                         profundum inferni et cum diabolus in infernu sit semper arsurus et in die
                         iudicii ante Domini tribunal non resurgat in numero iustorum, quia in tali
-                        ordinem hanc cartulam offersionis <persName key="#Notary"
-                            >Adanulfum</persName>
+                        ordinem hanc cartulam offersionis <persName key="#Writer #Notary"><name
+                                ref="Adanulfus">Adanulfum</name></persName>
                         <rs key="#Notary">notarium</rs> domni regis scribere rogavi. Actum in
                         suprascripto loco et finibus <placeName key="#Baptismal_churches"
                             ref="#places/133">Casalappi</placeName>, prope <rs>ecclesia et
@@ -160,11 +162,14 @@
                         <orgName key="#Baptismal_churches" ref="#juridical_persons/152">Sancti
                             Apollenari</orgName>. Signum manus suprascripti Tegrimi, qui Saracino
                         vocatur, qui hanc cartula offersionis fieri rogavit. Signa (manuum)
-                            <persName>Vidi</persName> filii bone memorie <persName>Teutj</persName>
-                        et <persName>Venerelli</persName> filii bone memorie
-                            <persName>Vitali</persName> et <persName>Vitali</persName> filii bone
-                        memorie <persName>Martini</persName> testium. Adanulfus notarius domni regis
-                        post tradita complevi et dedi. </ab>
+                            <persName key="#Witness"><name ref="Wido">Vidi</name></persName> filii
+                        bone memorie <persName><name ref="Teutius">Teutj</name></persName> et
+                            <persName key="#Witness"><name ref="Venerellus"
+                            >Venerelli</name></persName> filii bone memorie <persName><name
+                                ref="Vitalis">Vitali</name></persName> et <persName key="#Witness"
+                                ><name ref="Vitalis">Vitali</name></persName> filii bone memorie
+                                <persName><name ref="Martinus">Martini</name></persName> testium.
+                        Adanulfus notarius domni regis post tradita complevi et dedi. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
