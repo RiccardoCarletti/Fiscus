@@ -45,10 +45,10 @@
                         <origin>
                             <origDate when="1121-02-10">
                                 <note type="displayed_date">1121 February 10</note>
-                                <note type="dating_elements">Si propone qui una datazione secondo
-                                    l’anno dell’incarnazione, stile senese. L’indizione sarebbe in
-                                    difetto di un’unità, se si considerasse datata secondo lo stile
-                                    pisano dell’incarnazione.</note>
+                                <note type="dating_elements">Datata secondo l’anno
+                                    dell’incarnazione, stile senese. L’indizione sarebbe in difetto
+                                    di un’unità, se si pensasse a una datazione secondo lo stile
+                                    pisano.</note>
                                 <note type="topical_date"/>
                             </origDate>
                             <origPlace/>
@@ -88,34 +88,42 @@
                     <ab>Cartula de Morgolatico et da Livellaria. In nomine domini nostri Iesu
                         Christi Dei eterni. Anno dominice incarnationis eius millesimo centesimo
                         vicesimo, quarto idus februarii, indictione XIIa. Manifesti sumus nos
-                            <persName>Ugo</persName> quondam <persName>Rollandi</persName> et
-                            <persName>Saracenus</persName> quondam <persName>Rodulfi</persName>
-                        insimul ambo per hanc cartula venditionis vindimus et tradimus tibi,
-                            <persName key="#Monks">Benigno</persName>
+                                <persName><name ref="Hugo">Ugo</name></persName> quondam
+                                <persName><name ref="Rodelandus">Rollandi</name></persName> et
+                                <persName><name ref="Saracinus">Saracenus</name></persName> quondam
+                                <persName><name ref="Rodulfus">Rodulfi</name></persName> insimul
+                        ambo per hanc cartula venditionis vindimus et tradimus tibi, <persName
+                            key="#Monks"><name ref="Benignus">Benigno</name></persName>
                         <rs key="#Monks">monaco</rs> de <rs key="#Churches">ecclesia</rs> et <rs
                             key="#Monasteries">monasterio</rs>
                         <orgName key="#Churches #Monasteries" ref="#juridical_persons/78">Sancti
                             Quirici</orgName> de <placeName ref="#places/86" key="#Monasteries"
                             >Populonio</placeName>, idest tres <rs key="#Petiae">petias</rs> de
                         terris, que una videtur esse in loco <placeName key="#Petiae"
-                            >Morgolatico</placeName>, et continere videtur latus in terra
-                            <persName>Rugerii</persName> quondam <persName>Brunetti</persName>, capo
-                        in terra <orgName key="#Landed_possessions">Sancte Marie de Masio</orgName>,
-                        aliud latus in terra <persName key="#Landed_possessions" ref="#people/104"
-                            >Rugeri</persName> quondam <persName>Ildebrandi</persName>, aliud capud
-                        in terra Sancti Quirici, quae est de vestro monasterio; secunda petia de
-                        terra est in loco <placeName key="#Petiae" ref="#places/134"
+                            >Morgolatico</placeName>, et continere videtur latus in terra <persName
+                            key="#Confinia #Petiae"><name ref="Rogerius">Rugerii</name></persName>
+                        quondam <persName><name ref="Brunectus">Brunetti</name></persName>, capo in
+                        terra <orgName key="#Confinia #Petiae">Sancte Marie de Masio</orgName>,
+                        aliud latus in terra <persName key="#Confinia #Petiae" ref="#people/104"
+                            >Rugeri</persName> quondam <persName><name ref="Ildebrandus"
+                                >Ildebrandi</name></persName>, aliud capud in terra <orgName
+                            key="#Confinia #Petiae" ref="#juridical_persons/78">Sancti
+                            Quirici</orgName>, quae est de vestro monasterio; secunda petia de terra
+                        est in loco <placeName key="#Petiae" ref="#places/134"
                             >Livellaria</placeName>, que tenet capud unum in via puplica, latus in
-                        terra de fil(iis) <persName>Enrigi</persName>, aliud latus cum capite in
-                        terra Sancti Quirici, de vestro predicto monasterio; tertia vero petia est
-                        in loco Livellaria, circumdata est ex omni parte de terra Sancti Quirici.
-                        Suprascriptas has tres petias vindo et trado tibi Benigno tuisque
-                        confratribus ad partem et hutilitatem vestri predicti monasterii Sancti
-                        Quirici, ut ab odie in antea sit in vestra potestate eam habendi, tenendi,
-                        regendi, gubernandi et faciendi exinde quicquid facere volueritis ad partem
-                        et utilitatem prefati monasterii vestri Sancti Quirici; in integrum eas
-                        vindimus et tradimus cum inferioribus et superioribus suis seu cum
-                        ascensioribus et ingressoribus suis tibi, qui supra Benigno, tuisque
+                        terra de fil(iis) <persName key="#Confinia #Petiae"><name ref="Heinricus"
+                                >Enrigi</name></persName>, aliud latus cum capite in terra <orgName
+                            key="#Confinia #Petiae" ref="#juridical_persons/78">Sancti
+                            Quirici</orgName>, de vestro predicto monasterio; tertia vero petia est
+                        in loco Livellaria, circumdata est ex omni parte de terra <orgName
+                            key="#Confinia #Petiae" ref="#juridical_persons/78">Sancti
+                            Quirici</orgName>. Suprascriptas has tres petias vindo et trado tibi
+                        Benigno tuisque confratribus ad partem et hutilitatem vestri predicti
+                        monasterii Sancti Quirici, ut ab odie in antea sit in vestra potestate eam
+                        habendi, tenendi, regendi, gubernandi et faciendi exinde quicquid facere
+                        volueritis ad partem et utilitatem prefati monasterii vestri Sancti Quirici;
+                        in integrum eas vindimus et tradimus cum inferioribus et superioribus suis
+                        seu cum ascensioribus et ingressoribus suis tibi, qui supra Benigno, tuisque
                         confratribus vindimus et tradimus pro que recepimus pretium pro valentes
                         solidos XXXta in prefinito. Unde repromittimus nos, qui supra Ugo et
                         Saracenus, una cum nostris heredibus tibi, qui supra Benigno, tuisque
@@ -132,14 +140,19 @@
                         habeatis absque nostra persona, si vestra fuerit voluntas, exinde causam
                         agendi, responsum reddendi, finem ponendi modis omnibus vobis eam defensandi
                         cum cartula ista, qualiter iuxta legem melius potueritis, quia in tali
-                        [ordine] hanc cartulam <persName key="#Notary">Petrum</persName> domni regis
-                            <rs key="#Notary">notarium</rs> scribere rogavimus. Actum in loco
-                            <placeName ref="#places/132">Vignale</placeName>. Signa manuum
-                        suprascriptorum Ugonis et Saraceni qui hanc cartulam fieri rogaverunt. Signa
-                        manuum <persName>Ugonis</persName> quondam <persName>C[o]ruc[c]i</persName>
-                        [et] <persName>Gerardi</persName> quondam <persName>Raineri</persName> et
-                            <persName>Raimondi</persName> quondam <persName>Tebaldi</persName>
-                        testium. Petrus domni regis notarius post tradita complevi et dedi. </ab>
+                        [ordine] hanc cartulam <persName key="#Writer #Notary"><name ref="Petrus"
+                                >Petrum</name></persName> domni regis <rs key="#Notary"
+                            >notarium</rs> scribere rogavimus. Actum in loco <placeName
+                            ref="#places/132">Vignale</placeName>. Signa manuum suprascriptorum
+                        Ugonis et Saraceni qui hanc cartulam fieri rogaverunt. Signa manuum
+                            <persName key="#Witness"><name ref="Hugo">Ugonis</name></persName>
+                        quondam <persName><name ref="Coruccius">C[o]ruc[c]i</name></persName> [et]
+                            <persName key="#Witness"><name ref="Gherardus">Gerardi</name></persName>
+                        quondam <persName><name ref="Rainerius">Raineri</name></persName> et
+                            <persName key="#Witness"><name ref="Raginmundus"
+                            >Raimondi</name></persName> quondam <persName><name ref="Teobaldus"
+                                >Tebaldi</name></persName> testium. Petrus domni regis notarius post
+                        tradita complevi et dedi. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
