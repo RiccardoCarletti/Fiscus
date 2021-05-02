@@ -32,9 +32,9 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#"/>
-                            <rs type="record_source" ref="#"/>
-                            <rs type="document_tradition" ref="#"/>
+                            <rs type="text_type" ref="#">--Judicial breve</rs>
+                            <rs type="record_source" ref="#">Document summary</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
                             <rs type="fiscal_property"/>
                         </summary>
                         <msItem xml:id="msItem1">
@@ -43,12 +43,13 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate notBefore="0001" notAfter="0001" when="0001"> 
-                                <note type="displayed_date"></note>
-                                <note type="dating_elements"></note>
-                                <note type="topical_date"></note>
+                            <origDate when="1226-12-15">
+                                <note type="displayed_date">1226 December 15</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date"><foreign>Cremonae</foreign>, <foreign>in
+                                        consilio</foreign></note>
                             </origDate>
-                            <origPlace/>
+                            <origPlace>Sanctus Sixtus; monasterium (Piacenza)</origPlace>
                         </origin>
                         <provenance>
                             <location>
@@ -74,7 +75,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2021-02-08">creation of record</change>
+                <change when="2021-02-08" who="ltabarrini">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -82,7 +83,12 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab></ab>
+                    <ab>Consilium statuit quod reficiatur damnum quod habuerunt
+                            <persName>Arbizonus</persName> et <persName>Guilelmus</persName> et
+                            <persName>Anselmus de Salvaticis</persName> ad <placeName
+                            ref="#places/97" key="#Castle">Castrum novum</placeName> de eo quod <rs
+                            key="#Castle">castellus</rs> fuit cavatus et elevatus, post
+                        aestimationem bonorum et lealium hominum.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
