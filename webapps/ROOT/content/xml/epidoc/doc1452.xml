@@ -174,7 +174,8 @@
                             >villa</rs> de Gualda, cum omni iure patronat(us) de ipsa plebe et cum
                         omni pertinentia et adiacentia sua et cum omnia et in omnibus ad ipsam
                         plebem est pertinentes, et cum <rs key="#Churches">ecclesia</rs> mea illa,
-                        cui vocabulum est beati <orgName>sancti Blaxii et sancti Ipoliti</orgName>,
+                        cui vocabulum est beati <orgName key="#Churches"
+                            ref="#juridical_persons/203">sancti Blaxii et sancti Ipoliti</orgName>,
                         sita infra predicta <rs key="#Villages/settlements">villa</rs> mea delle
                             <placeName ref="#places/246" key="#Churches">Striscie</placeName>, salvo
                         iure Populoniensis ephiscopatus de supradicta plebe quae est fundata et
@@ -205,15 +206,18 @@
                         faciendi, responsum redendi, finem ponendis, modis omnibus eas defensand(i)
                         cum cartula ista, qualiter iusta legem melius potueritis, quia in tali
                         ordine hanc cartulam venditionis et iudicati et offertionis <persName
-                            key="#Notary">Abboni</persName>
+                            key="#Writer #Notary"><name ref="Abbo">Abboni</name></persName>
                         <rs key="#Notary">notarii</rs> domini imperatoris scribere rogavi. Actum
                         loco et finibus prope ecclesia et plebe Sancte Marie et sancti Iohannis
                         Batiste de predicta Gualda. + Signum manus de supredict(is) iugales qui hanc
                         cartulam venditionis iudicatis offertionis fieri rogavit. + Signum manus
-                            <persName>Alberti</persName> filio b.m. <persName>Ansaldi</persName>
-                        rogatus testis. + Ego <persName>Rondinus</persName> in hanc cartulam rogatus
-                        testis subscripsi. + Signum manus <persName>Actu</persName> filio b.m.
-                            <persName>Roduini</persName> rogatus testis.</ab>
+                            <persName key="#Witness"><name ref="Albertus">Alberti</name></persName>
+                        filio b.m. <persName><name ref="Ansualdus">Ansaldi</name></persName> rogatus
+                        testis. + Ego <persName key="#Witness"><name ref="Roduinus"
+                            >Rondinus</name></persName> in hanc cartulam rogatus testis subscripsi.
+                        + Signum manus <persName key="#Witness"><name ref="Azo"
+                            >Actii</name></persName> filio b.m. <persName><name ref="Roduinus"
+                                >Roduini</name></persName> rogatus testis.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
