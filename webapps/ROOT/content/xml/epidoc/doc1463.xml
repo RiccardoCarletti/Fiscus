@@ -82,9 +82,10 @@
                 <body>
                     <div type="edition">
                         <div type="textpart">
-                            <ab><persName>Iudo</persName> filio bone memorie
-                            <persName>Odi</persName> per il remedium anime mee offre <rs
-                            key="#Churches">ecclesia</rs> et <rs key="#Monasteries">monasterio</rs>
+                            <ab><persName><name ref="Iudo">Iudo</name></persName> filio bone memorie
+                                <persName><name ref="Otto">Odi</name></persName> per il remedium
+                        anime mee offre <rs key="#Churches">ecclesia</rs> et <rs key="#Monasteries"
+                            >monasterio</rs>
                         <orgName key="#Churches #Monasteries" ref="#juridical_persons/79">Sancti
                             Petri</orgName> sito loco <placeName key="#Monasteries"
                             ref="#places/285">Palatiolo</placeName> prope <placeName
@@ -92,13 +93,16 @@
                             <rs key="#Casae/cassinae_massaricie">res</rs> mea illa quam abeo in loco
                             <placeName key="#Casae/cassinae_massaricie" ref="#places/289">Aqua
                             Calida</placeName>, con tutte le sue dipendenze. Pena del doppio. Chiede
-                        a <persName key="#Notary #Judge">Rodulfo</persName>
+                        a <persName key="#Writer #Notary #Judge"><name ref="Rodulfus"
+                            >Rodulfo</name></persName>
                         <rs key="#Notary">notarius</rs> et <rs key="#Judge">iudex</rs> donni
                         imperatoris la stesura della cartula. Actuum <placeName ref="#places/285"
-                            >loco intus monasterio Sancti Petri</placeName>. Testimoni:
-                            <persName>Uberti</persName> filio bone memorie
-                            <persName>Uberti</persName>; <persName>Ildibrandini</persName> filio
-                        bone memorie <persName>Alberti</persName>; <persName>Petrus</persName>.
+                            >loco intus monasterio Sancti Petri</placeName>. Testimoni: <persName
+                            key="#Witness"><name ref="Hubertus">Uberti</name></persName> filio bone
+                        memorie <persName><name ref="Hubertus">Uberti</name></persName>; <persName
+                            key="#Witness"><name ref="Ildebrandinus">Ildibrandini</name></persName>
+                        filio bone memorie <persName><name ref="Albertus">Alberti</name></persName>;
+                            <persName key="#Witness"><name ref="Petrus">Petrus</name></persName>.
                         Scrive: Rodulfus notarius et iudex donni imperatoris.</ab>
                         </div>
                     </div>
