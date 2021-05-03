@@ -82,11 +82,13 @@
                 <body>
                     <div type="edition">
                         <div type="textpart">
-                            <ab><persName key="#Priests">Benedictus</persName>
-                        <rs key="#Priests">presbiter</rs> filio bone memorie
-                            <persName>Iohanni</persName> per timore dei et remedium anime genitoris
-                        et genitrici mee et pro redeptione anime mee dona in <rs key="#Churches"
-                            >ecclesia</rs> que est <rs key="#Monasteries">monasterio</rs>
+                            <ab><persName key="#Priests"><name ref="Benedictus"
+                            >Benedictus</name></persName>
+                        <rs key="#Priests">presbiter</rs> filio bone memorie <persName><name
+                                ref="Iohannes">Iohanni</name></persName> per timore dei et remedium
+                        anime genitoris et genitrici mee et pro redeptione anime mee dona in <rs
+                            key="#Churches">ecclesia</rs> que est <rs key="#Monasteries"
+                            >monasterio</rs>
                         <orgName key="#Churches #Monasteries" ref="#juridical_persons/126">Sancti
                             Bartholomei</orgName> apostoli qui ponitur in <placeName
                             key="#Monasteries" ref="#places/281">Sestinge Curte
@@ -102,17 +104,23 @@
                         et <placeName key="#Landed_possessions #Wine" ref="#places/297"
                             >Pruniano</placeName> sive per aliis locis (…) sicut per successionem
                         mihi evenit a quondam parentorum meorum sive ex quacumque modis, con tutte
-                        le loro dipendenze. Pena del doppio. Chiede a <persName key="#Notary #Judge"
-                            >Romanus</persName>
+                        le loro dipendenze. Pena del doppio. Chiede a <persName
+                            key="#Writer #Notary #Judge"><name ref="Romanus"
+                            >Romanus</name></persName>
                         <rs key="#Notary">notarius</rs> et <rs key="#Judge">iudex</rs> domni
                         imperatoris la stesura della cartula. Actum <placeName ref="#places/281"
                             >Sestinge</placeName>. Ego Benedictos presbiteres qui anc chartula fieri
-                        rogavi. Testimoni: <persName>Ugoni</persName> filio bone memorie
-                            <persName>Petri</persName>; <persName>Rustici</persName> filio bone
-                        memorie <persName>Lamberti</persName>; <persName>Guidoni</persName> filio
-                        bone memorie <persName>Ildibrandi</persName>; <persName>Fuski</persName>
-                        filio bone memorie <persName>Martini</persName>. Scrive: Romanus notarius et
-                        iudex domni imperatoris. </ab>
+                        rogavi. Testimoni: <persName key="#Witness"><name ref="Hugo"
+                            >Ugoni</name></persName> filio bone memorie <persName><name ref="Petrus"
+                                >Petri</name></persName>; <persName key="#Witness"><name
+                                ref="Rusticus">Rustici</name></persName> filio bone memorie
+                                <persName><name ref="Lambertus">Lamberti</name></persName>;
+                            <persName key="#Witness"><name ref="Wido">Guidoni</name></persName>
+                        filio bone memorie <persName><name ref="Ildebrandus"
+                            >Ildibrandi</name></persName>; <persName key="#Witness"><name
+                                ref="Fuscus">Fuski</name></persName> filio bone memorie
+                                <persName><name ref="Martinus">Martini</name></persName>. Scrive:
+                        Romanus notarius et iudex domni imperatoris. </ab>
                         </div>
                     </div>
                     <div type="bibliography" subtype="editions">

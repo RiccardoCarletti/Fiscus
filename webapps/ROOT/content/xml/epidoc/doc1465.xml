@@ -82,9 +82,10 @@
                 <body>
                     <div type="edition">
                         <div type="textpart">
-                            <ab><persName>Bonitio qui Bonodie vocor</persName> filio bone memorie
-                            <persName>Teutii</persName> vende in <rs key="#Churches">ecclesia</rs>
-                        que est <rs key="#Monasteries">monasterio</rs>
+                            <ab><persName><name ref="Bonitius/Bonodie">Bonitio qui Bonodie
+                                vocor</name></persName> filio bone memorie <persName><name
+                                ref="Teutius">Teutii</name></persName> vende in <rs key="#Churches"
+                            >ecclesia</rs> que est <rs key="#Monasteries">monasterio</rs>
                         <orgName key="#Churches #Monasteries" ref="#juridical_persons/126">Sancti
                             Bartholomei</orgName> apostoli qui ponitur in <placeName
                             key="#Monasteries" ref="#places/281">Sestinge</placeName> et vocitatur
@@ -107,16 +108,20 @@
                             ref="#people/285">Fralmi</persName> germani filiorum bone memorie
                             <persName ref="#people/286">Alberici qui Albitio</persName> vocabatur;
                         prezzo argentum mensuratos solidos quadraginta. Chiede a <persName
-                            key="#Notary #Judge">Romano</persName>
+                            key="#Writer #Notary #Judge"><name ref="Romanus"
+                            >Romano</name></persName>
                         <rs key="#Notary">notarius</rs> et <rs key="#Judge">iudex</rs> domni
                         imperatoris la stesura della cartula. Actum ante <orgName
                             key="#Baptismal_churches" ref="#juridical_persons/125"><rs
                                 key="#Baptismal_churches">plebe</rs> de <placeName
                                 key="#Baptismal_churches" ref="#places/274"
-                            >Morrano</placeName></orgName>. Testimoni: <persName>Girardi</persName>
-                        filii <persName>Conradi</persName>; <persName>Ilditii</persName> filii bone
-                        memorie <persName>Roitii</persName>; <persName>Pepi</persName> filii bone
-                        memorie <persName>Rateri</persName>. </ab>
+                            >Morrano</placeName></orgName>. Testimoni: <persName key="#Witness"
+                                ><name ref="Gherardus">Girardi</name></persName> filii
+                                <persName><name ref="Cuneradus">Conradi</name></persName>; <persName
+                            key="#Witness"><name ref="Ilditius">Ilditii</name></persName> filii bone
+                        memorie <persName><name ref="Rotius">Roitii</name></persName>; <persName
+                            key="#Witness"><name ref="Pepo">Pepi</name></persName> filii bone
+                        memorie <persName><name ref="Raterius">Rateri</name></persName>. </ab>
                         </div>
                     </div>
                     <div type="bibliography" subtype="editions">
