@@ -191,6 +191,20 @@
       <xsl:apply-templates select="$apptxt" mode="sqbrackets"/>
     </div>
 
+    <xsl:if test="//t:div[@type='edition']//t:rs[@key!='']">
+      <div id="keywords">
+        <xsl:variable name="doc_keys">
+          <xsl:for-each select="//t:div[@type='edition']//t:rs[@key!='']">
+            <xsl:value-of select="lower-case(translate(@key, '#', ''))"/><xsl:if test="position()!=last()"><xsl:text> </xsl:text></xsl:if>
+          </xsl:for-each>
+        </xsl:variable>
+        <xsl:variable name="unique_keys" select="distinct-values(tokenize($doc_keys, '\s+?'))"/>
+        <xsl:variable name="sorted_keys"><xsl:for-each select="$unique_keys"><xsl:sort/><xsl:value-of select="replace(., '_', ' ')"/><xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if></xsl:for-each></xsl:variable>
+        <p><b><i18n:text i18n:key="epidoc-xslt-fiscus-keywords">Keywords</i18n:text>: </b>
+          <xsl:value-of select="$sorted_keys"/><xsl:text>.</xsl:text></p>
+      </div>
+    </xsl:if>
+    
     <div id="bibliography">
       <xsl:if test="//t:div[@type = 'bibliography'][@subtype = 'editions']/t:p/node()"><p>
         <b><i18n:text i18n:key="epidoc-xslt-fiscus-bibliography">Editions and document
