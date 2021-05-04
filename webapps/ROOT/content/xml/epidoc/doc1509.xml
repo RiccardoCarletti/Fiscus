@@ -81,10 +81,19 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>Idem in eodem. Leoni notario et Leontiae iugalibus eorumque filiis ac
-                        nepotibus fundum Ripacesarium cum silvis, glandaretis et terris sationalibus
-                        sitam in via Aurelia miliario plus minus .X. ex corpore suburbani patrimonii
-                        Tusciae; prestat annuatim numero .V. auri siliquas</ab>
+                    <ab>Idem in eodem (<persName key="#Popes" ref="#people/71">Gregorius
+                            iunior</persName> locat). <persName key="#Notary"><name ref="Leo"
+                                >Leoni</name></persName>
+                        <rs key="#Notary">notario</rs> et <persName><name ref="Leontia"
+                                >Leontiae</name></persName> iugalibus eorumque filiis ac nepotibus
+                            <rs key="#Fundi">fundum</rs>
+                        <geogName
+                            key="#Fundi #Fiscal_property #Object #Outflow #Allocation_to_individuals #Rent_in_money"
+                            >Ripacesarium</geogName> cum silvis, glandaretis et terris sationalibus
+                        sitam in via Aurelia miliario plus minus .X. ex corpore suburbani <rs
+                            key="#Patrimonium">patrimonii</rs>
+                        <geogName key="#Patrimonium" ref="#estates/103">Tusciae</geogName>; prestat
+                        annuatim <rs key="#Rent_in_money">numero .V. auri siliquas</rs></ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
