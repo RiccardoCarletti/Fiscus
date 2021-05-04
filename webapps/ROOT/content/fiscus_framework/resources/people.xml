@@ -22,6 +22,8 @@
                     <idno>people/1</idno>
                     <link type="people" subtype="dominusOf" corresp="#people/2"/>
                     <note/>
+                    <link type="people" corresp="#people/292" subtype="legallyRecognisedUnionWith"/>
+                    <link type="people" corresp="#people/125" subtype="fatherOf"/>
                 </person>
                 
                 <person>
@@ -888,6 +890,8 @@
                     <idno>people/125</idno>
                     <note/>
                     <link type="estates" corresp="#estates/116" subtype="hasConnectionWith"/>
+                    <link type="people" corresp="#people/1" subtype="daughterOf"/>
+                    <link type="people" corresp="#people/292" subtype="daughterOf"/>
                 </person>
                 <person>
                     <persName>Conradus III (1093-1152) rex</persName>
@@ -2407,6 +2411,8 @@
                     <persName type="other"/>
                     <idno>people/292</idno>
                     <note/>
+                    <link type="people" corresp="#people/125" subtype="motherOf"/>
+                    <link type="people" corresp="#people/1" subtype="legallyRecognisedUnionWith"/>
                 </person>
             </listPerson>
         </body>
