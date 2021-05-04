@@ -513,6 +513,7 @@
                     <link type="estates" corresp="#estates/220" subtype="isMadeOf"/>
                     <link type="estates" corresp="#estates/216" subtype="isMadeOf"/>
                     <link type="estates" corresp="#estates/218" subtype="isMadeOf"/>
+                    <link type="estates" corresp="#estates/234" subtype="isMadeOf"/>
                 </place>
                 <place>
                     <geogName>Hochburg; <foreign>curtis</foreign></geogName>
@@ -1740,13 +1741,24 @@
                     <link type="estates" corresp="#estates/231" subtype="isMadeOf"/>
                 </place> 
                 <place>
-                    <geogName>Beneventana; <foreign>curtis</foreign></geogName>
+                    <geogName>Beneventana;<foreign>curtis</foreign></geogName>
                     <geogName type="other"/>
                     <idno>estates/233</idno>
-                    <note/>
+                    <note>Faini 2010, pp. 38-39, 41.</note>
                     <link type="people" corresp="#people/21" subtype="link"/>
                     <link type="places" corresp="#places/2" subtype="isWithin"/>
+                    <link type="places" corresp="#places/522" subtype="hasConnectionWith"/>
                     <link type="juridical_persons" corresp="#juridical_persons/204" subtype="link"/>
+                </place>
+                <place>
+                    <geogName><foreign>Ripacesarius</foreign>; <foreign>fundus</foreign></geogName>
+                    <geogName type="other"/>
+                    <idno>estates/234</idno>
+                    <note>Localizzabile al X miglio della via Aurelia, nei pressi dell'antico
+                        abitato di Lorium (residenza imperiale) tra Castel di Guido e la Bottaccia.
+                        Cf. De Francesco 2004: 211-213</note>
+                    <link type="people" corresp="#people/71" subtype="link"/>
+                    <link type="estates" corresp="#estates/103" subtype="isPartOf"/>
                 </place>
             </listPlace>
         </body>
