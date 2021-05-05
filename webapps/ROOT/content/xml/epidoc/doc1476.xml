@@ -46,7 +46,8 @@
                                     <origDate when="1073-09-05"> 
                                         <note type="displayed_date">1073 September 5</note>
                                         <note type="dating_elements">Anno dell’incarnazione. I dati
-                                    cronologici non concordano: 1072/09/06 secondo l’indizione. </note>
+                                    cronologici non concordano: 1072 settembre 05 secondo
+                                    l’indizione. </note>
                                         <note type="topical_date">Morrano</note>
                                     </origDate>
                                     <origPlace/>
@@ -83,12 +84,15 @@
                 <body>
                     <div type="edition">
                         <div type="textpart">
-                            <ab><persName>Saporello</persName> et <persName>Nirllo</persName> et
-                            <persName>Iohannes</persName> et alio <persName>Iohannes que
-                            Pappulino</persName> vocatur germani filii bone memorie
-                            <persName>Morrani que Corpulo</persName> vocatur ricevono in livello da
-                            <persName key="#Abbots" ref="#people/219">Stefano</persName> in Christi
-                        nomine <rs key="#Abbots">abbas</rs>
+                            <ab><persName><name ref="Saporellus">Saporello</name></persName> et
+                                <persName><name ref="Nerlus">Nirllo</name></persName> et
+                                <persName><name ref="Iohannes">Iohannes</name></persName> et alio
+                                <persName><name ref="Iohannes/Pappulino">Iohannes que
+                                Pappulino</name></persName> vocatur germani filii bone memorie
+                                <persName><name ref="Morranus/Corpulus">Morrani que
+                            Corpulo</name></persName> vocatur ricevono in livello da <persName
+                            key="#Abbots" ref="#people/219">Stefano</persName> in Christi nomine <rs
+                            key="#Abbots">abbas</rs>
                         <rs key="#Churches">ecclesie</rs> et <rs key="#Monasteries">monasterii</rs>
                         <orgName key="#Churches #Monasteries" ref="#juridical_persons/126">Sancti
                             Bartholomei</orgName> sito loco <placeName key="#Monasteries"
@@ -98,35 +102,42 @@
                         quod esse videtur in loco et finibus <placeName
                             key="#Petiae #Size #Cereals #Wine" ref="#places/274">Morrano et
                             vocitatur a Perita</placeName>, tenentes uno capo in terra et vinea quod
-                        fui quondam <persName>Ilditii dal Prato</persName> et alio capo tene in
-                        terra <persName>Roctii</persName> et <persName>Sclavi</persName> germani,
-                        lato uno tene in terra <orgName key="#Landed_possessions"
-                            ref="#juridical_persons/124">Sancti Laurentii</orgName>, alio lato tene
-                        in terra <orgName key="#Landed_possessions" ref="#juridical_persons/124"
-                            >Sancti Laurentii </orgName>et alliquantulo in terra de fili quondam
-                            <persName key="#Specialized_workers">Ghirardini</persName> qui fui <rs
-                            key="#Specialized_workers">aurifex</rs>, con tutte le sue dipendenze qua
-                        sunt <rs key="#Size">tres tramiti</rs> in integrum. Si impegnano a versare
-                        pro omni censum et iustitiam all’abate e ai suoi successori ogni mese di
-                        agosto al monastero il censo annuale di argentu denariis boni expendibilibus
-                        numeros tres, nam post ipsa pensione data et ostensa abuerimus tu qui supra
-                        Stefano abbas vel tuique successores aut vestro misso ipsa pensione da nobis
-                        in <rs key="#Beneficium">beneficio</rs> perdere et dare debeatis. Se non
+                        fui quondam <persName key="#Confinia #Petiae #Wine"><name
+                                ref="Ilditius dal Prato">Ilditii dal Prato</name></persName> et alio
+                        capo tene in terra <persName key="#Confinia #Petiae"><name ref="Rotius"
+                                >Roctii</name></persName> et <persName key="#Confinia #Petiae"><name
+                                ref="Sclavus">Sclavi</name></persName> germani, lato uno tene in
+                        terra <orgName key="#Confinia #Petiae" ref="#juridical_persons/124">Sancti
+                            Laurentii</orgName>, alio lato tene in terra <orgName
+                            key="#Confinia #Petiae" ref="#juridical_persons/124">Sancti Laurentii
+                        </orgName>et alliquantulo in terra de fili quondam <persName
+                            key="#Confinia #Petiae #Specialized_workers"><name ref="Gherardinus"
+                                >Ghirardini</name></persName> qui fui <rs key="#Specialized_workers"
+                            >aurifex</rs>, con tutte le sue dipendenze qua sunt <rs key="#Size">tres
+                            tramiti</rs> in integrum. Si impegnano a versare pro omni censum et
+                        iustitiam all’abate e ai suoi successori ogni mese di agosto al monastero il
+                        censo annuale di argentu denariis boni expendibilibus numeros tres, nam post
+                        ipsa pensione data et ostensa abuerimus tu qui supra Stefano abbas vel
+                        tuique successores aut vestro misso ipsa pensione da nobis in <rs
+                            key="#Beneficium">beneficio</rs> perdere et dare debeatis. Se non
                         rispetteranno i suddetti impegni, promettono con i loro eredi di versare
                         all’abate e ai suoi successori la pena di 20 soldi d’argento. Chiedono a
-                            <persName key="#Notary">Rodilandus</persName>
+                            <persName key="#Writer #Notary"><name ref="Rodelandus"
+                            >Rodilandus</name></persName>
                         <rs key="#Notary">notarius</rs> domini imperatoris la stesura di due
                         cartulas. Actu in loco <placeName key="#Baptismal_churches"
                             ref="#places/274">Morrano</placeName> prope <rs
                             key="#Baptismal_churches">eccclesia e plebe</rs>
                         <orgName key="#Baptismal_churches" ref="#juridical_persons/125">Sancti
                             Donati</orgName>. Sottoscrivono: Saporelli et Nirlli et Iohannis et alio
-                        Iohanni qui Pappulino vocatur germani. Testi: <persName>Gheradi</persName>
-                        filio bone memorie <persName>Rustichi</persName>;
-                            <persName>Rollandi</persName> filio bone memorie
-                            <persName>Alboni</persName>; <persName>Lamberti</persName> filio bone
-                        memorie <persName>Uberti</persName>. Scrive: Rodilandus notarius domni
-                        imperatoris. </ab>
+                        Iohanni qui Pappulino vocatur germani. Testi: <persName key="#Witness"><name
+                                ref="Gherardus">Gherardi</name></persName> filio bone memorie
+                                <persName><name ref="Rusticus">Rustichi</name></persName>; <persName
+                            key="#Witness"><name ref="Rodelandus">Rollandi</name></persName> filio
+                        bone memorie <persName><name ref="Albo">Alboni</name></persName>; <persName
+                            key="#Witness"><name ref="Lambertus">Lamberti</name></persName> filio
+                        bone memorie <persName><name ref="Hubertus">Uberti</name></persName>.
+                        Scrive: Rodilandus notarius domni imperatoris. </ab>
                         </div>
                     </div>
                     <div type="bibliography" subtype="editions">

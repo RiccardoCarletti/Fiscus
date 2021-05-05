@@ -79,7 +79,7 @@
         </doc>
       </xsl:for-each-group>
       
-      <xsl:for-each-group select="//tei:name[ancestor::tei:div/@type='edition'][@ref!='']" group-by="lower-case(@ref)">
+      <xsl:for-each-group select="//tei:persName[ancestor::tei:div/@type='edition'][not(@ref) or @ref=''][descendant::tei:name[@ref!='']]" group-by="lower-case(tei:name[1]/@ref)">
         <doc>
           <field name="document_type">
             <xsl:value-of select="$subdirectory" />
@@ -91,8 +91,31 @@
           <field name="index_item_name">
             <xsl:text># </xsl:text>
             <xsl:choose>
-              <xsl:when test="starts-with(normalize-space(.), '\s')"><xsl:value-of select="substring(normalize-space(@ref), 2)"/></xsl:when>
-              <xsl:otherwise><xsl:value-of select="normalize-space(@ref)"/></xsl:otherwise>
+              <xsl:when test="starts-with(normalize-space(tei:name[1]/@ref), '\s')"><xsl:value-of select="substring(normalize-space(tei:name[1]/@ref), 2)"/></xsl:when>
+              <xsl:otherwise><xsl:value-of select="normalize-space(tei:name[1]/@ref)"/></xsl:otherwise>
+            </xsl:choose>
+          </field>
+          <field name="index_external_resource">
+            <xsl:text>~</xsl:text>
+          </field>
+          <xsl:apply-templates select="current-group()" />
+        </doc>
+      </xsl:for-each-group>
+      
+      <xsl:for-each-group select="//tei:persName[ancestor::tei:div/@type='edition'][not(@ref) or @ref=''][ancestor::tei:name[@ref!='']]" group-by="lower-case(tei:name[1]/@ref)">
+        <doc>
+          <field name="document_type">
+            <xsl:value-of select="$subdirectory" />
+            <xsl:text>_</xsl:text>
+            <xsl:value-of select="$index_type" />
+            <xsl:text>_index</xsl:text>
+          </field>
+          <xsl:call-template name="field_file_path" />
+          <field name="index_item_name">
+            <xsl:text># </xsl:text>
+            <xsl:choose>
+              <xsl:when test="starts-with(normalize-space(ancestor::tei:name[1]/@ref), '\s')"><xsl:value-of select="substring(normalize-space(ancestor::tei:name[1]/@ref), 2)"/></xsl:when>
+              <xsl:otherwise><xsl:value-of select="normalize-space(ancestor::tei:name[1]/@ref)"/></xsl:otherwise>
             </xsl:choose>
           </field>
           <field name="index_external_resource">
@@ -105,7 +128,7 @@
   </xsl:template>
   
 
-  <xsl:template match="tei:persName|tei:name">
+  <xsl:template match="tei:persName">
     <xsl:call-template name="field_index_instance_location" />
   </xsl:template>
 

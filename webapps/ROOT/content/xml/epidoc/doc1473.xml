@@ -35,7 +35,7 @@
                                 >--Libellus/precaria/emphyteusis</rs>
                                     <rs type="record_source" ref="#">Original document</rs>
                                     <rs type="document_tradition" ref="#">Original</rs>
-                                    <rs type="fiscal_property">Yes</rs>
+                                    <rs type="fiscal_property">Uncertain</rs>
                                 </summary>
                                 <msItem xml:id="msItem1">
                                     <textLang mainLang="" otherLangs=""/>
@@ -95,14 +95,14 @@
                         nomine, a censum redendum vel perexolvendum nomine dare atque firmare videor
                         vobis <persName key="#Count" ref="#people/102">Ildibrando</persName>
                         <rs key="#Count">comes</rs>, filio item <persName key="#Count"
-                            ref="#people/102">Ildibrandi</persName> qui fuit <rs key="#Count"
+                            ref="#people/218">Ildibrandi</persName> qui fuit <rs key="#Count"
                             >comes</rs>, idest ex integra medietate de <geogName
                             key="#Curtes #Castle #Count #Churches" ref="#estates/163"><rs
                                 key="#Curtes">curte</rs> et <rs key="#Castle">castello</rs> qui
-                            dicitur <placeName key="#Curtes #Castle #Churches" ref="#places/314"
-                                >Ravi</placeName></geogName>, et predicta integra medietatem de
-                        iamdicta curte et castello cum medie[tate] de <rs key="#Churches"
-                            >eclesia</rs>
+                            dicitur <placeName key="#Curtes #Castle #Count #Churches"
+                                ref="#places/314">Ravi</placeName></geogName>, et predicta integra
+                        medietatem de iamdicta curte et castello cum medie[tate] de <rs
+                            key="#Churches">eclesia</rs>
                         <orgName key="#Churches" ref="#juridical_persons/160">Sancte Marie et Sancti
                             Simonis et Iude</orgName>, q(ue) in [dicto] loco est consistentes, cum
                         casis et curtis, ortis, vineis et terris cultis et agrestis, eclesiis et
@@ -126,15 +126,19 @@
                         qualiter superius de nos legitur, non compleverimus, tunc conponamus nos
                         vobis similiter penam numero de bono argento libras sexaginta, quia inter
                         nobis taliter convenit qua vero unc libellum <persName
-                            key="#Writer #Notary #Judge">Gerardus</persName>
+                            key="#Writer #Notary #Judge"><name ref="Gherardus"
+                            >Gerardus</name></persName>
                         <rs key="#Notary">notarius</rs> et <rs key="#Judge">iudex</rs> scripsit.
                         Acto loco <rs key="#Fortress">rocca</rs> de <placeName key="#Fortress"
                             ref="#places/201">Petra</placeName>. Ego Stefanus abbas in unc libellum
                         a me factum manus mea subsripsi. (S) Signum manu <persName key="#Witness"
-                            >Guidi</persName> filii <persName>Rustici</persName> et
-                                <persName key="#Witness">Albertu</persName> a.c<placeName>Casale</placeName> et
-                                <persName key="#Witness">Bernardu</persName> filii <persName>Tederici</persName> rogati
-                            <rs key="#Witness">testes</rs>. </ab>
+                                ><name ref="Wido">Guidi</name></persName> filii <persName><name
+                                ref="Rusticus">Rustici</name></persName> et <persName key="#Witness"
+                                ><name ref="Albertus da Casale">Albertu</name></persName>
+                            a.c<placeName>Casale</placeName> et <persName key="#Witness"><name
+                                ref="Bernardus">Bernardu</name></persName> filii <persName><name
+                                ref="Teudericus">Tederici</name></persName> rogati <rs
+                            key="#Witness">testes</rs>. </ab>
                         </div>
                     </div>
                     <div type="bibliography" subtype="editions">

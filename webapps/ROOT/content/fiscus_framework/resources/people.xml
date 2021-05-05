@@ -22,6 +22,8 @@
                     <idno>people/1</idno>
                     <link type="people" subtype="dominusOf" corresp="#people/2"/>
                     <note/>
+                    <link type="people" corresp="#people/292" subtype="legallyRecognisedUnionWith"/>
+                    <link type="people" corresp="#people/125" subtype="fatherOf"/>
                 </person>
                 
                 <person>
@@ -888,6 +890,8 @@
                     <idno>people/125</idno>
                     <note/>
                     <link type="estates" corresp="#estates/116" subtype="hasConnectionWith"/>
+                    <link type="people" corresp="#people/1" subtype="daughterOf"/>
+                    <link type="people" corresp="#people/292" subtype="daughterOf"/>
                 </person>
                 <person>
                     <persName>Conradus III (1093-1152) rex</persName>
@@ -1977,8 +1981,8 @@
                     <link type="people" corresp="#people/264" subtype="legallyRecognisedUnionWith"/>
                 </person>
                 <person>
-                    <persName>Teuzo (1051) abbas monasterii Sancti Anthimi</persName>
-                    <persName type="other"/>
+                    <persName>Teutius (1051) abbas monasterii Sancti Anthimi</persName>
+                    <persName type="other"><foreign>Teuzo</foreign>; </persName>
                     <idno>people/238</idno>
                     <note/>
                     <link type="people" corresp="#people/237" subtype="link"/>
@@ -2111,8 +2115,8 @@
                     <link type="juridical_persons" corresp="#juridical_persons/71" subtype="link"/>
                 </person>
                 <person>
-                    <persName>Bonizo (1076) prior monasterii Sancti Quirici (Populonia)</persName>
-                    <persName type="other"/>
+                    <persName>Bonitius (1076) prior monasterii Sancti Quirici (Populonia)</persName>
+                    <persName type="other"><foreign>Bonizo</foreign>;</persName>
                     <idno>people/256</idno>
                     <note/>
                     <link type="juridical_persons" corresp="#juridical_persons/78" subtype="link"/>
@@ -2227,8 +2231,9 @@
                     <persName>Ildegarius (898-915) episcopus Laudensis</persName>
                     <persName type="other"/>
                     <idno>people/270</idno>
-                    <note/>
+                    <note>Consiliarius regis</note>
                     <link type="places" corresp="#places/262" subtype="hasConnectionWith"/>
+                    <link type="people" corresp="#people/21" subtype="formerMasterOf"/>
                 </person>
                 <person>
                     <persName>Grasulfus (896-930) episcopus Florentinus</persName>
@@ -2236,6 +2241,9 @@
                     <idno>people/271</idno>
                     <note/>
                     <link type="places" corresp="#places/2" subtype="hasConnectionWith"/>
+                    <link type="places" corresp="#places/522" subtype="hasConnectionWith"/>
+                    <link type="estates" corresp="#estates/233" subtype="link"/>
+                    <link type="people" corresp="#people/21" subtype="link"/>
                 </person>
                 <person>
                     <persName>Alboinus (901-908) episcopus Volaterranus</persName>
@@ -2252,7 +2260,7 @@
                     <link type="places" corresp="#places/128" subtype="hasConnectionWith"/>
                 </person>
                 <person>
-                    <persName>Herilandus (901) episcopus Faesulensis</persName>
+                    <persName>Erilandus (901) episcopus Faesulensis</persName>
                     <persName type="other"/>
                     <idno>people/274</idno>
                     <note/>
@@ -2272,19 +2280,19 @@
                     <note>Hlawitschka 1960, pp. 189-190.</note>
                 </person>
                 <person>
-                    <persName>Rotbaldus (901) comes</persName>
+                    <persName>Roppaldus (901) comes</persName>
                     <persName type="other"/>
                     <idno>people/277</idno>
                     <note>Di origine provenzale. Cfr. Hlawitschka 1960, p. 80.</note>
                 </person>
                 <person>
-                    <persName>Adelelmus (901) comes</persName>
+                    <persName>Adalelmus (901) comes</persName>
                     <persName type="other"/>
                     <idno>people/278</idno>
                     <note>Conte di Valence. Cfr. Hlawitschka 1960, p. 80.</note>
                 </person>
                 <person>
-                    <persName>Waltherius (901) vassus et missus imperatoris</persName>
+                    <persName>Walterius (901) vassus et missus imperatoris</persName>
                     <persName type="other"/>
                     <idno>people/279</idno>
                     <note>Krause 1890, p. 297.</note>
@@ -2292,7 +2300,7 @@
                     <link type="people" subtype="agentFor" corresp="#people/267"/>    
                 </person>
                 <person>
-                    <persName>Theophylactus (901-915) vestararius</persName>
+                    <persName>Theophilactus (901-915) vestararius</persName>
                     <persName type="other"/>
                     <idno>people/280</idno>
                     <note/>    
@@ -2397,6 +2405,14 @@
                     <idno>people/291</idno>
                     <note/>
                     <link type="people" subtype="fatherOf" corresp="#people/172"/>
+                </person>
+                <person>
+                    <persName>Beatrix (1019-1076) de Lorena; marchionissa et ducatrix</persName>
+                    <persName type="other"/>
+                    <idno>people/292</idno>
+                    <note/>
+                    <link type="people" corresp="#people/125" subtype="motherOf"/>
+                    <link type="people" corresp="#people/1" subtype="legallyRecognisedUnionWith"/>
                 </person>
             </listPerson>
         </body>
