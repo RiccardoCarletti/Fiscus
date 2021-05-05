@@ -33,7 +33,7 @@
                             <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Original</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -80,20 +80,39 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>In nomine domini Dei aeterni. Berengarius divina facente clementia rex. Si
-                        sacris ac venerabilibus locis regalis sublimitas ea impendere studet quibus
-                        augmentum et allevacionem assummere cognoscamur, id profecto ad aeternae
-                        retributionis premium proficere nequaquam ambigimus. Igitur omnium fidelium
-                        sanctae Dei Aeclesiae nostrorumque silicet presentium ac futurorum noverit
-                        industria, qualiter Petrus venerabilis sanctae Regiensis aeclesiae episcopus
-                        nostrae pietatis adierit clementiam suppliciter petens, quatenus pro Dei
-                        amore nostraeque remedio animae sanctae Mutinensi aeclesiae, cui Gotfredus
-                        venerabilis episcopus praeest, quandam terram iuris regni nostri, sitam in
-                        loco qui dicitur Quarantula hatenus pertinentem de comitatu Regiensi, simul
-                        cum piscaria quae simili modo nuncupatur Quarantula, una cum campo eiusdem
-                        piscariae qui vocatur Lunacla cum Vara et Bannoni, seu aliis campis ad
-                        eandem piscariam pertinentibus cum omnibus eorum adi[ace]ntiis, ripis, aquis
-                        paludibus cum portibus qui vocant[u]r Gardinacula, Monziana, et ripatico
+                    <ab>In nomine domini Dei aeterni. <persName key="#Emperor/king" ref="#people/21"
+                            >Berengarius</persName> divina facente clementia <rs key="#Emperor/king"
+                            >rex</rs>. Si sacris ac venerabilibus locis regalis sublimitas ea
+                        impendere studet quibus augmentum et allevacionem assummere cognoscamur, id
+                        profecto ad aeternae retributionis premium proficere nequaquam ambigimus.
+                        Igitur omnium fidelium sanctae Dei Aeclesiae nostrorumque silicet presentium
+                        ac futurorum noverit industria, qualiter <persName key="#Bishops"
+                            ref="#people/232">Petrus</persName> venerabilis sanctae <orgName
+                            ref="#juridical_persons/108">Regiensis aeclesiae</orgName>
+                        <rs key="#Bishops">episcopus</rs> nostrae pietatis adierit clementiam
+                        suppliciter petens, quatenus pro Dei amore nostraeque remedio animae sanctae
+                            <orgName ref="#juridical_persons/96">Mutinensi aeclesiae</orgName>, cui
+                            <persName key="#Bishops" ref="#people/287">Gotfredus</persName>
+                        venerabilis <rs key="#Bishops">episcopus</rs> praeest, quandam <rs
+                            key="#Landed_possessions #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
+                            >terram iuris regni nostri</rs>, sitam in loco qui dicitur <placeName
+                            key="#Landed_possessions #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
+                            >Quarantula</placeName> hatenus pertinentem de <rs key="#Comitatus"
+                            >comitatu</rs>
+                        <geogName key="#Comitatus" ref="#estates/193">Regiensi</geogName>, simul cum
+                            <rs
+                            key="#Fisheries #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
+                            >piscaria</rs> quae simili modo nuncupatur Quarantula, una cum <rs
+                            key="#Landed_possessions #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
+                            >campo</rs> eiusdem piscariae qui vocatur Lunacla cum Vara et Bannoni,
+                        seu aliis campis ad eandem piscariam pertinentibus cum omnibus eorum
+                        adi[ace]ntiis, <rs
+                            key="#Natural_landscape #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
+                            >ripis</rs>, <rs
+                            key="#Marshes/lagoons/tombolos #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
+                            >aquis paludibus</rs> cum <rs
+                            key="#Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches #Ports"
+                            >portibus</rs> qui vocant[u]r Gardinacula, Monziana, et ripatico
                         intrantis fluminis quod nominatur Bundino ex utraque parte usque ad pedes
                         duodecim cum omni etiam districto ibidem legaliter quocumque ordine
                         pertinente iure proprietario in integrum confirmantes concederemus. Cuius
