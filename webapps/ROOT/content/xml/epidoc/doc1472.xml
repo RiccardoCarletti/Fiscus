@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio di Stato di Siena, Diplomatico, S. Agostino, 1055 giugno
+                    14</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc1472</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">-Placitum/iudicatum</rs>
+                                    <rs type="record_source" ref="#">Original document</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">Uncertain</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate when="1055-06-14"> 
+                                        <note type="displayed_date">1055 June 14</note>
+                                        <note type="dating_elements"/>
+                                        <note type="topical_date">Omiclo</note>
+                                    </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-05-05" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab>(S) Dum in Dei nomine, in comitatu Florentino, prope fluvium Arni,
+                        in loco qui nominatur Omiclo in iudicio residebat domnus Gunterius
+                        cancelarius et missus domni inperatoris iusticias faciendas ac
+                        delibearandas, adesent cum eo Bonusfilius, Otto, Atto, Wiberto, Burgundius,
+                        Wolcausus, Tolbertus iudices sacri palacii et reliqui plures. Ibique eorum
+                        veniens presencie Lanfrancus, avocatus monesterii Sancti Bartholomei, sito
+                        loco qui vocatur Curtis Mainberti, et cepit dicere: “Iam plures vice me
+                        reclamavi ad vos, donnus Gunterius cacelarius et missus, super Bonefacium et
+                        Eponem et supra Ranerium filium Wille qui parti predicti monesterii malo
+                        ordine et contra legem detinent omne quod abemus in Alma et contradicent
+                        nominative medietatem de curte una que noncupatur Sesstinga cum casis et
+                        capellis seu teritoriis omnibusque rebus que ad ipsam medietatem de iamdicta
+                        corte et capella pertinente. Nam aliam medietatem de iamdicta corte et
+                        capella sive rebus omnibus ad parte suprascripto monesterii a proprietatem
+                        pertinet; et sive medietate de curte una qui noncupatur Columnata cum
+                        ecclexiis casis teritoriis et omnibus rebus que ad ipsa medietas de predicta
+                        curte et ecclesiis pertinet; reliquam namque medietas pars ipsius monesterii
+                        a proprietatem ipsius monesterii detinent. Unde quero ad vos, donnus
+                        cancellarius et missus, ut vos propter Deum et anime domni imperatoris ac
+                        vestre mercedis, ut investiatis me et parti predicti monesterii de is
+                        omnibus rebus ad salva querela, quoqusque ipsi Bonefacius et Eppo et
+                        Rainerius ad vestrum placito veninant, et ad predicti monesterii iustitiam
+                        faciant”. Cum ipse Lanfrancus avocatus taliter retulisent, tunc domnus
+                        Gunterius cancelarius et missus per fuste, quam sua tenebat manum,
+                        investivit predictum Lanfrancum avocatum et predictum monesterium de
+                        suprascriptis medietatibus vel duabus curtibus, siccuti supra denominantur
+                        ad salva querellam, quodusque predictus Bonefacius et Eppo et Rainerius ad
+                        placitum veniant et predicti monesterii iusticia faciant. Et insuper mixit
+                        bannum ex parte domni imperatoris, ut nullus quislibet eundem Lanfrancum
+                        parte predicti monesterii de is omnibus rebus devestire molestare vel
+                        inquietare audeat sine legale iudicio. Qui vero fecerit centum libras auri
+                        se conpoxiturus agnoscad, medietatem camere domni imperatoris, medietatem
+                        parti predicti monesterii. Et ac noticia qualiter acta est causa fieri
+                        amonuerunt. Quidem et ego Aldus notarius sacri palaci et iusione
+                        suprascripto cancelalarii et misso seu iudicum amonicione scripsi. Hanno ab
+                        incarnacione somini nostris Iesu Christi milleximo quimquageximo quinto,
+                        imperii vero domni secundi Einrigi Deo propicio nono, quartodecimo die
+                        mensis iunii, indicione octava. Ego Guntherius cancellarius confirmavi (SR).
+                        (S) Bonusfilius iudex sacri palatii interfuit. (S) Atzo iudex et missus
+                        domni imperatoris interfuit. (S) Ego Otto iudex sacri palatii interfui. (S)
+                        Ego Wibertus iudex sacri palacii interfui. (S) Ego Burgundius iudex sacri
+                        palatii interfui. (S) Walcausus iudex sacri palatii interfuit.
+                            <persName>Autori: Gunterio cancellarius et missus, Lanfranco advocatus,
+                            Bonifacio, Eppo, Ranieri di Willa. Scrittore: Aldo notarius sacri
+                            palatii. Testimoni sottoscrittori: Bonfiglio iudex sacri palatii, Atto
+                            iudex et missus dom. imp., Otto iudex sacri palatii, Wiberto iudex sacri
+                            palatii, Burgundio iudex sacri palatii, Walcauso iudex sacri palatii.
+                            Altro: Enrico imperator.</persName>
+                        <placeName>Omiclo (Podere Castellucci, Montelupo Fiorentino), Florentia
+                            (Firenze), Arno (fiume Arno), Curtis Mainberti, Sesstinga (Badia
+                            Vecchia, Castiglione della Pescaia), Columnata (vicino Vetulonia,
+                            Castiglione della Pescaia).</placeName>
+                        <orgName>San Bartolomeo di Sestinga.</orgName>
+                    </ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>Reg.: Lisini 1908: 516-517; <foreign>RegSen</foreign>: 18, n. 51; Ediz.:
+                    Muratori 1738-1742, I, 473-474; Manaresi, III/1, n. 397, pp. 222-224.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                        <p>Stile dell’incarnazione. Anno d’impero di Enrico.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>
