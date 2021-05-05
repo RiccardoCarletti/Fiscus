@@ -33,7 +33,7 @@
                             <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Original</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -41,10 +41,10 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate notBefore="0001" notAfter="0001" when="0001"> 
-                                <note type="displayed_date"></note>
-                                <note type="dating_elements"></note>
-                                <note type="topical_date"></note>
+                            <origDate when="0904-06-24">
+                                <note type="displayed_date">904 june 24</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Pavia</note>
                             </origDate>
                             <origPlace/>
                         </origin>
@@ -80,22 +80,46 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>In nomine domini Dei aeterni. Berengarius divina facente clementia rex. Si
-                        sacris ac venerabilibus locis regalis sublimitas ea impendere studet quibus
-                        augmentum et allevacionem assummere cognoscamur, id profecto ad aeternae
-                        retributionis premium proficere nequaquam ambigimus. Igitur omnium fidelium
-                        sanctae Dei Aeclesiae nostrorumque silicet presentium ac futurorum noverit
-                        industria, qualiter Petrus venerabilis sanctae Regiensis aeclesiae episcopus
-                        nostrae pietatis adierit clementiam suppliciter petens, quatenus pro Dei
-                        amore nostraeque remedio animae sanctae Mutinensi aeclesiae, cui Gotfredus
-                        venerabilis episcopus praeest, quandam terram iuris regni nostri, sitam in
-                        loco qui dicitur Quarantula hatenus pertinentem de comitatu Regiensi, simul
-                        cum piscaria quae simili modo nuncupatur Quarantula, una cum campo eiusdem
-                        piscariae qui vocatur Lunacla cum Vara et Bannoni, seu aliis campis ad
-                        eandem piscariam pertinentibus cum omnibus eorum adi[ace]ntiis, ripis, aquis
-                        paludibus cum portibus qui vocant[u]r Gardinacula, Monziana, et ripatico
-                        intrantis fluminis quod nominatur Bundino ex utraque parte usque ad pedes
-                        duodecim cum omni etiam districto ibidem legaliter quocumque ordine
+                    <ab>In nomine domini Dei aeterni. <persName key="#Emperor/king" ref="#people/21"
+                            >Berengarius</persName> divina facente clementia <rs key="#Emperor/king"
+                            >rex</rs>. Si sacris ac venerabilibus locis regalis sublimitas ea
+                        impendere studet quibus augmentum et allevacionem assummere cognoscamur, id
+                        profecto ad aeternae retributionis premium proficere nequaquam ambigimus.
+                        Igitur omnium fidelium sanctae Dei Aeclesiae nostrorumque silicet presentium
+                        ac futurorum noverit industria, qualiter <persName key="#Bishops"
+                            ref="#people/232">Petrus</persName> venerabilis sanctae <orgName
+                            ref="#juridical_persons/108">Regiensis aeclesiae</orgName>
+                        <rs key="#Bishops">episcopus</rs> nostrae pietatis adierit clementiam
+                        suppliciter petens, quatenus pro Dei amore nostraeque remedio animae sanctae
+                            <orgName ref="#juridical_persons/96">Mutinensi aeclesiae</orgName>, cui
+                            <persName key="#Bishops" ref="#people/287">Gotfredus</persName>
+                        venerabilis <rs key="#Bishops">episcopus</rs> praeest, quandam <rs
+                            key="#Landed_possessions #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
+                            >terram iuris regni nostri</rs>, sitam in loco qui dicitur <placeName
+                            key="#Landed_possessions #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
+                            >Quarantula</placeName> hatenus pertinentem de <rs key="#Comitatus"
+                            >comitatu</rs>
+                        <geogName key="#Comitatus" ref="#estates/193">Regiensi</geogName>, simul cum
+                            <rs
+                            key="#Fisheries #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
+                            >piscaria</rs> quae simili modo nuncupatur Quarantula, una cum <rs
+                            key="#Landed_possessions #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
+                            >campo</rs>
+                        <rs
+                            key="#Fisheries #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
+                            >eiusdem piscariae qui vocatur Lunacla cum Vara et Bannoni</rs>, seu
+                        aliis campis ad eandem piscariam pertinentibus cum omnibus eorum
+                        adi[ace]ntiis, <rs
+                            key="#Natural_landscape #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
+                            >ripis</rs>, <rs
+                            key="#Marshes/lagoons/tombolos #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
+                            >aquis paludibus</rs> cum <rs
+                            key="#Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches #Ports"
+                            >portibus</rs> qui vocant[u]r Gardinacula, Monziana, et <rs
+                            key="#Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches #Rights_of_use_on_woods/pastures/waters"
+                            >ripatico <rs key="#Rivers">intrantis fluminis quod nominatur
+                                Bundino</rs></rs> ex utraque parte usque ad <rs key="#Size">pedes
+                            duodecim</rs> cum omni etiam districto ibidem legaliter quocumque ordine
                         pertinente iure proprietario in integrum confirmantes concederemus. Cuius
                         nos devotis precibus divino compulsi amore libenter assensum prebentes,
                         praelibate sanctae aeclesiae Mutinensi in honore sancti Geminiani dicate
@@ -107,9 +131,21 @@
                         eorum pert[ine]ntibus adiacentiis, ripis, aquis, paludibus cum portibus qui
                         Gardinacula, Monziana nuncupatur, et ripatico intrantis fluminis quod
                         nominatur Bundino ex utraque parte usque ad pedes duodecim cum omni
-                        districto ibidem quocumque ordine pertinente [lega]liter, videlicet terris,
-                        vineis, campis, pratis, silvis, pascuis, ripis, piscariis, paludibus,
-                        molendinis, aquis aquarumque decursibus, vel cum universis quicquid in eis
+                        districto ibidem quocumque ordine pertinente [lega]liter, videlicet <rs
+                            key="#Landed_possessions #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
+                            >terris</rs>, <rs
+                            key="#Wine #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
+                            >vineis</rs>, <rs
+                            key="#Cereals #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
+                            >campis</rs>, <rs
+                            key="#Hay/fodder #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
+                            >pratis</rs>, <rs
+                            key="#Forests #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
+                            >silvis</rs>, pascuis, ripis, piscariis, paludibus, <rs
+                            key="#Mills #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
+                            >molendinis</rs>, <rs
+                            key="#Rivers #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
+                            >aquis aquarumque decursibus</rs>, vel cum universis quicquid in eis
                         dici vel nominari potest, hac nostrae confirmationis et largitionis pagina
                         totum in integrum concedimus atque regali auctoritate corroboramus, ut
                         perpetuo iure eadem sancta Mutinensis aeclesia suique rectores possideant,
@@ -117,20 +153,25 @@
                         cognoverint, absque contradictione vel molestia cuiuscumque. Si quis vero
                         hoc nostrae concessionis et confirmationis praeceptum aliquando per
                         quodlibet ingenium infringere vel violare temera presumptione quesierit, ut
-                        inchoata perficere nequeat, sciat se compositurum auri optimi libras
-                        sexaginta, medietatem camere palatii et medietatem rectoribus eiusdem
-                        sanctae Mutinensis aeclesiae qui pro tempore fuerint. Et ut verius credatur
-                        diligentiusque ab omnibus observetur, manu propria roboratum anuli nostri
-                        impressione iussimus annotari. Signum domni (MF) Berengarii serenissimi
-                        regis. Ambrosius cancellarius ad vicem Ardingi episcopi et archicancellarii
-                        recognovit et subscripsi. (SR) (SI D) Data VIII kal. iuli(i), anno
-                        incarnationis dominicae DCCCCIIII, domni vero Berengarii serenissimi regis
-                        XVII, indictione VII. Actum urbe Ticinensi. In Christi nomine feliciter,
-                        amen.</ab>
+                        inchoata perficere nequeat, sciat se compositurum <rs key="#Penalty">auri
+                            optimi libras sexaginta</rs>, <rs key="#Camera_regis">medietatem camere
+                            palatii</rs> et <rs key="#Camera_of_other_public_authorities">medietatem
+                            rectoribus eiusdem sanctae Mutinensis aeclesiae</rs> qui pro tempore
+                        fuerint. Et ut verius credatur diligentiusque ab omnibus observetur, manu
+                        propria roboratum anuli nostri impressione iussimus annotari. Signum domni
+                        (MF) Berengarii serenissimi regis. <persName key="#Chancellor"><name
+                                ref="Ambrosius">Ambrosius</name></persName>
+                        <rs key="#Chancellor">cancellarius</rs> ad vicem <persName
+                            key="#Archchancellor #Bishops" ref="#people/216">Ardingi</persName>
+                        <rs key="#Bishops">episcopi</rs> et <rs key="#Archchancellor"
+                            >archicancellarii</rs> recognovit et subscripsi. (SR) (SI D) Data VIII
+                        kal. iuli(i), anno incarnationis dominicae DCCCCIIII, domni vero Berengarii
+                        serenissimi regis XVII, indictione VII. Actum <placeName ref="#places/65"
+                            >urbe Ticinensi</placeName>. In Christi nomine feliciter, amen.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p/>
+                <p>DD B I, pp. 139-141, n° XLVIII</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>
