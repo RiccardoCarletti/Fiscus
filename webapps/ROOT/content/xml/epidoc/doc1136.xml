@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Archivio Storico Diocesano di Novara, <foreign>Documentario
+                        Episcopale</foreign> I, n. 2, Rotolo, doc. n° 8</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc1136</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">Yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0908-08-14">
+                                <note type="displayed_date">908 august 14</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Pavia</note>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-02-08" who="Chiara Stedile">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine domini Dei aeterni. Berengarius gratia Dei rex. Si sanctis ac
+                        venerabilibus locis pro nostrorum fidelium peticionibus nostre serenitatis
+                        presidia conferimus, id nobis ad eternam retributionem proficere credimus.
+                        Quapropter omnium fidelium sancte Dei Eclesie nostrorum videlicet presentium
+                        et futurorum comperiat sollicitudo, qualiter Gariardus vicecomes fidelis
+                        Adalberti marchionis per Dagibertum venerabilem episcopum nostram exoravit
+                        clementiam, quatinus pro Dei omnipotentis amore animeque nostre remedio per
+                        nostrum preceptum confirmare dignaremur cenobio in honore sancti Sebastiani
+                        dedicato loco Functaneto ab eodem Gariardo constructo res illas undecumque
+                        aut qualitercumque ab eodem Gariardo adquisitas eidemque monasterio
+                        distributas. Cuius peticionem ratam considerantes, id fieri annuimus, hoc
+                        nostre confirmationis preceptum scribi iubentes, per quod memorato
+                        venerabili loco confirmamus omnes res illas quas ab eodem Gariardo optinere
+                        videtur, tam illas quas ipse Gariardus per preceptorum auctoritatem aut per
+                        comparationem aut commutationem quamque per alia cartarum instrumenta
+                        adquisivit ipsique sancto cenobio in perpetuum habendas statuit, et si quod
+                        ex ipsis rebus nostro iuri ac potestati umquam exigi potuit aut pertinere
+                        debuit, in eiusdem cenobii ius et potestatem per hanc nostram auctoritatem
+                        modis omnibus transfundimus et perdonamus. Per cuius etiam precepti paginam
+                        sepe dicto sancto loco roboramus mercationes que per singulos menses in
+                        eodem loco fiunt, ut quicquid exinde nostre publice parti exigi debuit, ad
+                        usum monasterii in perpetuum habeatur. Hoc quoque in mandatis dantes, ut
+                        nulla quelibet in regni nostri magna parvaque persona theloneum aut
+                        ripaticum vel aliquam functionem publicam a famulis ipsius monasterii
+                        ubicumque in nostro regno negotia exercentibus exigere presumat, sed liceat
+                        ipsis per nostrum regnum exercere negotia sine aliqua redibitione. Si quis
+                        autem hanc nostre confirmationis vel concessionis paginam violare
+                        temptaverit, sciat se compositurum auri optimi libras LXXX, medietatem
+                        camere palatii nostri et medietatem sepedicto cenobio. Et ut hoc certius
+                        credatur diligentiusque observetur, manu propria roborantes de anulo nostro
+                        subter sigillari iussimus. Signum domni Berengarii serenissimi regis.
+                        Iohannes cancellarius ad vicem Ardingi [episcopi] et archicancellarii
+                        recognovi et subscripsi. Data XVIIII kal. Septemb., anno incarnationis
+                        Domini DCCCCVIII, domni quoque Berengarii gloriosissimi regis XXI,
+                        indictione VI. Actum Papia. In Dei nomine feliciter.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>DD B I, pp. 183-185, n° LXVIII</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
