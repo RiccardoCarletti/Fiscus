@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title></title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc1135</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#"/>
+                            <rs type="record_source" ref="#"/>
+                            <rs type="document_tradition" ref="#"/>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate notBefore="0001" notAfter="0001" when="0001"> 
+                                <note type="displayed_date"></note>
+                                <note type="dating_elements"></note>
+                                <note type="topical_date"></note>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-02-08" who="Chiara Stedile">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine domini nostri Iesu Christi Dei aeterni. Berengarius gratia Dei
+                        rex. Si sanctis ac venerabilibus locis nostrae memoriae augmentum tribuimus
+                        vel privilegia apostolicorum seu praedecessorum nostrorum regum videlicet ac
+                        imperatorum praecepta roboramus, apud Dominum veniam promereri non
+                        diffidimus. Unde notum esse volumus omnibus sanctae Dei Ecclesiae fidelibus
+                        tam praesentibus quam futuris, qualiter vir venerabilis noster fidelis
+                        scilicet Garibaldus Novariensis episcopus nostram expetiit clementiam,
+                        interventu ac petitione venerabilis Adelberti Bergomensis episcopi, quatenus
+                        omnia privilegia apostolica ipsius sanctae Novariensis ecclesiae atque
+                        omnium praedecessorum nostrorum regum vel imperatorum praecepta eiusdem iam
+                        dictae ecclesiae suarum omnium rerum eorum auctoritate subnixa
+                        confirmationis et corroborationis nostrae praecepto innovare dignaremur.
+                        Cuius petitionibus animum concessionis accomodantes, in omnibus, iuxta
+                        privilegia et praecepta roborata, suam petitionem stipulare ratum duximus,
+                        hoc est abbatiam in honorem sancti Archangeli Michaelis et sancti Ianuarii
+                        martyris Christi aedificatam iuxta Leocedio cum cellis et sinodochiis atque
+                        capellis cum servis et ancillis et aldionibus utriusque sexus et cum omnibus
+                        pertinentiis suisque adiacentiis, seu et universas res iam dictae sanctae
+                        Novariensis ecclesiae undecumque vel qualitercunque iuste et legaliter
+                        acquisitas, praecipientes et statuentes sub nostrae immunitatis tuitione
+                        perpetuo consistere et a nulla potestativa vel tirannica persona quasi
+                        regali auctoritate aliquid exigendo presumatur qualibet violentia aut
+                        teloeum vel ripaticum atque districtum seu arbustericiam aut quamcumque
+                        redibitionem publicam quoquo modo exigere, et cum reliquis aliis sacratis
+                        locis, cortibus cunctisque rebus et familiis utriusque sexus aldianibusque
+                        et libellariis, libers etiam homiibus et servis ad eundem episcopium
+                        pertinentibus. Deinceps sicut a sanctis apostolicis et beatae memoriae
+                        predecessoribus nostris privilegiis et preceptis summa auctoritate statutum
+                        est, ita etiam scripto manu et annulo corroborationis nostrae perpetuam
+                        immunitatis nostrae firmiatetem relinquimus, confirmamus et corroboramus,
+                        absque contradictione ullius vim inferentis personae. Quod si quis, quod
+                        minime credimus, hoc nostrae regalis clementiae indultum molestare
+                        praesumpserit, mulctamus eum poena districtionis nostrae compositurum centum
+                        libras auri optimi, medietatem parti nostrae, medietatem sanctae ecclesiae
+                        cui vim praesumptuosam intulerit. Et ut haec in Dei nomine institutionis
+                        nostrae auctoritas perpetuum obtineat firmitatis tenorem et ab omnibus
+                        fidelibus nostris praesentibus et futuris diligentius observetur, manu
+                        corroborationis nostrae firmavimus et annuli nostri inpressione insigniri
+                        iussimus. Signum domni (M) Berengarii gloriosissimi regis.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
