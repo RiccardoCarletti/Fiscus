@@ -673,7 +673,7 @@
                         subtype="hasConnectionWith"/>
                 </place>
                 <place>
-                    <geogName>Fonteiana; <foreign>massa</foreign></geogName>
+                    <geogName><foreign>Fonteiana</foreign>; <foreign>massa</foreign></geogName>
                             <geogName type="other">Forteiana; <foreign>massa</foreign></geogName>
                     <idno>estates/120</idno>
                     <note>Cfr. De Francesco 2004: 242: sulla localizzazione non v'è certezza, ma
@@ -683,6 +683,9 @@
                         adiacente alla <foreign>domusculta Lauretum</foreign>. </note>
                     <link type="people" corresp="#people/69" subtype="link"/>
                     <link type="places" corresp="#places/300" subtype="hasConnectionWith"/>
+                    <link type="estates" corresp="#estates/224" subtype="isPartOf"/>
+                    <link type="people" corresp="#people/71" subtype="link"/>
+                    <link type="estates" corresp="#estates/237" subtype="isMadeOf"/>
                 </place>             
                 <place>
                     <geogName>Tora; <foreign>curtis</foreign></geogName>
@@ -1788,6 +1791,8 @@
                     <geogName type="other"/>
                     <idno>estates/237</idno>
                     <note/>
+                    <link type="people" corresp="#people/71" subtype="link"/>
+                    <link type="estates" corresp="#estates/120" subtype="isPartOf"/>
                 </place>
             </listPlace>
         </body>
