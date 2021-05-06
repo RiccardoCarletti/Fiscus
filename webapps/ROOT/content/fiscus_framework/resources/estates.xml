@@ -686,6 +686,7 @@
                     <link type="estates" corresp="#estates/224" subtype="isPartOf"/>
                     <link type="people" corresp="#people/71" subtype="link"/>
                     <link type="estates" corresp="#estates/237" subtype="isMadeOf"/>
+                    <link type="estates" corresp="#estates/238" subtype="isMadeOf"/>
                 </place>             
                 <place>
                     <geogName>Tora; <foreign>curtis</foreign></geogName>
@@ -1796,10 +1797,12 @@
                     <link type="estates" corresp="#estates/120" subtype="isPartOf"/>
                 </place>
                 <place>
-                    <geogName>Folianus; fundus</geogName>
+                    <geogName><foreign>Folianus</foreign>; <foreign>fundus</foreign></geogName>
                     <geogName type="other"/>
                     <idno>estates/238</idno>
                     <note/>
+                    <link type="people" corresp="#people/71" subtype="link"/>
+                    <link type="estates" corresp="#estates/120" subtype="isPartOf"/>
                 </place>
             </listPlace>
         </body>
