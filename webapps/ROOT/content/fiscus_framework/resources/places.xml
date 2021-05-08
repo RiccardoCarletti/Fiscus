@@ -4568,6 +4568,7 @@
                         <idno>places/548</idno>
                         <note>Ora inglobato in Colle di Val d'Elsa.</note>
                     <link type="estates" corresp="#estates/243" subtype="isPartOf"/>
+                        <link type="places" corresp="#places/553" subtype="isPartOf"/>
                     </place>
                 <place>
                     <placeName><foreign>Spugna</foreign> (Colle di Val d’Elsa; Siena)</placeName>
@@ -4576,6 +4577,7 @@
                     <idno>places/549</idno>
                     <note>Ora inglobato in Colle di Val d'Elsa; Cf. Repetti, I, 28-29.</note>
                     <link type="estates" corresp="#estates/243" subtype="isPartOf"/>
+                    <link type="places" corresp="#places/553" subtype="isPartOf"/>
                 </place>
                 <place>
                     <placeName><foreign>Spallorum</foreign> (? Poggio Spadone; Montaione;
@@ -4602,6 +4604,13 @@
                     <idno>places/552</idno>
                     <note/>
                     <link type="estates" corresp="#estates/243" subtype="isPartOf"/>
+                </place>
+                <place>
+                    <placeName>Colle di Val d’Elsa (Siena)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>43.4226643, 11.1266231</geo></geogName>
+                    <idno>places/553</idno>
+                    <note/>
                 </place>
             </listPlace>
         </body>
