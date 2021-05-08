@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    Diplomatico, *O.27 (Copia sec. VIII )</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc4001</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Promissio</rs>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Copy</rs>
+                                    <rs type="fiscal_property">Yes</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate when="0685-01-20"> 
+                                        <note type="displayed_date">685 January 20</note>
+                                        <note type="dating_elements"/>
+                                        <note type="topical_date"/>
+                                    </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-05-08" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab>+ Exsemplar. Et ideo nos <persName key="#Bishops">Felix</persName>
+                        gratia Dei <rs key="#Bishops">episcopus</rs> una cum presbiteri uel diacones
+                        seo cliro abitatoris ciuitatis istius nostre Lucensis qui subter
+                        subscripturi sunt. Unde promittimus tibi <persName key="#Abbots"
+                            >Babbino</persName>
+                        <rs key="#Abbots">abbas</rs> uel monachorum tuorum, ut firmiter inibi in <rs
+                            key="#Monasteries">monasterio</rs>
+                        <orgName
+                            key="#Landed_possessions #Cows #Horses #Slave_labour #Monasteries #Relics #Slave"
+                            ref="#juridical_persons/70">Sancti Fricdiani</orgName> resedire debeatis
+                        et, ut superius legitur, pro anima uel generationem iam dicti
+                            <persName>Fauloni</persName> orare diueatis, tam uos uel qui post uos
+                        fuerent, qui digne peragere ualeant in eodem loco sanctorum Dei; et numquam
+                        nos eadem <rs key="#Landed_possessions">pecuniam</rs>, quot inibi obtulet
+                        sepe dictus Faulo, umquam ullo tempore a nobis retragendum est ad aliam
+                        ecdesiam aut ad alium sacerdotem, nisi qui ibidem abbas fueret, et quem
+                        volueret sicum adiberet, ipsi fruatur in onorem Domini, et elemosinarium
+                        fueret, eo quot pro opes fidelium ipsas riscellas offerta est. Et si abbas
+                        de hanc luce migratus fuerit, et dormierit cum patribuss suis, quem monaci
+                        ipsi eligerent sibi abbatem ordinandum, ipsum sibi abbatem debeant ordinare.
+                            <rs key="#Relics">Reliquias</rs> uero dandas de ipsum corpus sanctum ad
+                        consilium episcopi sint, uigilia tenendum abbati cum monaci suis. Et nihil
+                        adgravetur quoquo tempore neque ab episcopus ne[c] ab ullo sacerdotem, nisi
+                        tantum per unumquemquem annus semel in Alba ad omni sacerdotis unum prandeum
+                        faciendi, sicut consuetudo fuit ecclesie illius. Et hoc addimus in hanc
+                        paginam: si quiscumque homo Dei fueret, sibe hominem seu <rs key="#Horses"
+                            >equus</rs> uel <rs key="#Cows">bouem</rs> aut terra uel <rs
+                            key="#Slave_labour #Slave">mancipium</rs>, tam mouile quam inmouile,
+                        quidquid ibidem offertum fueret, in potestatem illius abbati sint qui in
+                        eodem loco reseruire uidetur. Et regula custodiendum uel monachorum
+                        consuetudinem et ordinem sanctum tenendum in abbati sint potestatem. Et
+                        numquam nos Felìx episcopus seu cunctis sacerdotis nostris uel clirus contra
+                        hanc cessionis nostre cartulam quandoque ire presumat, nec nos nec qui post
+                        nos uenturis sunt, quia quot bene disponitur et ligibus roboratur, oportum
+                        est perennis et futuris temporibus permanire. Et si quis contra hanc
+                        discritiones nostre cartulam ire presumserit, Dei incurrat periculum, sicut
+                        Iudas traditor qui se laqueo suspide, et ad iudiciali reuerentia reatus
+                        recidat. Et cum summa dulcidinem et desideria Domini colendum <persName
+                            key="#Writer">Petronaci</persName> filio nostro scriuendam dictavimus et
+                        manibus nostris suscripsimus, ut perpetuis temporibus stauilitum persistere
+                        dibeant. Actum in <rs key="#Cities">ciuitate</rs>
+                        <placeName key="#Cities" ref="#places/4">Lucense</placeName>, sub die tertio
+                        decimo kalendarum februariarum, per indictione tertia decima, regnante
+                        domnis nostris Pertharit et Cunipert uiris excellentissimis regibus, anno
+                        filicissimis regni eorum tertio decimo et quinto, per indictione
+                        suprascripta; feliciter.~ + Ego Feli uir beatissimus gratia Dei episcopus
+                        uhic cartole cesionis nostre, postea mihi relictum est, consensi et
+                        subscripsi. + Ego <persName key="#Witness #Archpriests"
+                            >Iohannacis</persName> vir venerabilis <rs key="#Archpriests"
+                            >arcipresbiter</rs>. + Ego <persName key="#Witness #Priests"
+                            >Clarus</persName> vir venerabilis <rs key="#Priests">presbiter</rs>. +
+                        Ego <persName key="#Witness #Priests">Teuderacis</persName> vir venerabilis
+                            <rs key="#Priests">presbiter</rs>. + Ego <persName
+                            key="#Witness #Priests">Candidus</persName>
+                        <rs key="#Priests">presbiter</rs>. + Ego <persName key="#Witness #Priests"
+                            >Geminianus</persName> vir venerabilis <rs key="#Priests"
+                        >presbiter</rs>. </ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>reg. MDL, V/2, n. 1; ed. Muratori, Antiquitates, V, 367; MDL, IV/1, n.
+                    32; CDL, I, n. 7</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                         <p>Persone: Felix [Felice] ep [di Lucca]; Babbino ab.; Faulo; Petronaci [Petronace]; Pertharit re; Cunipert re; Iohannacis v. ven. a/pbr; Clarus v. ven. pbr; Teuderacis v. ven. pbr; Candidus pbr; Geminianus v. ven. pbr. Luoghi: civitas Lucensis [Lucca]. Chiese: monasterio S. Fridiani [S. Frediano]. Cariche: . Note: . Indice: promissio - monastero - servi - </p>
+                    </div>
+                </body>
+            </text>
+        </TEI>
