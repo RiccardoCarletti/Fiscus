@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Ex-Gabinetto della Scuola di Paleografia di Firenze, Diplomatico, 1</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc31</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Offersio/donatio</rs>
+                            <rs type="record_source" ref="#">Original document</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">Uncertain</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0995-10-08">
+                                <note type="displayed_date">995 October 8</note>
+                                <note type="dating_elements">Stile dell'incarnazione</note>
+                                <note type="topical_date"><foreign>Campetroso</foreign> (Podere
+                                    Campetroso, Monterotondo Marittimo, Grosseto)</note>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-05-08" who="ptomei">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>† Divine gratiȩ munere et superne virtutis auxilio faucibus demonice
+                        potestatis eruti, ut nos misericors Deus aeternȩ patriȩ gaudiis faciat
+                        coheredes, sedulis ammonitionibus crebrisque preceptis | informat. Unde est
+                        illud: Venite ad me omnes qui laboratis et onerati estis et ego vos
+                        requiescere faciam. Ut ne quis de vi******* ad eum perveniendi vel qualiter
+                        ab eo recipiendi esse facultas dubitaret quod promisit, ipse | certam
+                        ostendit formulam cum dixit: Dimittite et dimittetur vobis, date et dabitur
+                        vobis. Sed tamen hoc idem quod docuit signiter quis agire, ortatur ipse
+                        alibi cum dicit: Vigilate itaque quia nescitis diem neque horam. Hanc vocem
+                        | [scilicet] ita omnes debemus frequentissime meditare, quatenus semper pre
+                        oculis mentis habeatur. Oportet denique singulis, qui se omnipotentis
+                        misericordia huius mundi divitiis vel quibuscumque temporalibus adiumentis
+                        noverint | [conso]latos, ex his quibus accepit ab eo quantumlibet illi
+                        conferre cum gratiarum actione, a quo sibi nescit cuncta quȩ habet concessa,
+                        quia regnum Dei tanti valet quantum habet; quo ut credi possimus dominicis |
+                        [instr]uimur documentis, qui mulierem duo minuta devote offerentem plus
+                        ceteris omnibus offerentibus ***************.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>Guidorizzi 1937-1938, n. 1, pp. 1-5.</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p>Falce 1929, pp. 94-98.</p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
