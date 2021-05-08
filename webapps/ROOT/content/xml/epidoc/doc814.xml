@@ -34,7 +34,7 @@
                             <rs type="text_type" ref="#">-Cartula</rs>
                             <rs type="record_source" ref="#">Document summary</rs>
                             <rs type="document_tradition" ref="#">Original</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -84,16 +84,18 @@
                 <div type="textpart">
                     <ab>D. <persName ref="#people/16" key="#Abbots">Gandulfus</persName>
                         <rs key="#Abbots">abbas</rs> predicti <orgName ref="#juridical_persons/53"
-                            >monasterii</orgName> investivit et datum fecit Tercio de Pado de <rs
-                            key="#Tolls">ripatico</rs> suo toto Fosuste, quod est a buca Fosuste
-                        inferius usque ad pontem Butatei et ab ipso ponte inferius tantum quantum
-                        legitur in cartula sentencie abbatis, eo pacto quod ille Tercius et sui
-                        heredes tenere et godere debent per XXIV annos. Pro hac investitura
-                        predictus abbas accepit <rs key="#Price">XII libras Placentie</rs>. Actum
-                        hoc suprascripto die. <rs key="#Witness">Testes</rs>: Gandulfus de Rocca,
-                        Tucius frater eius, Iacobus de Rocca, Bregondius frater eius, Albertus
-                        domini Pagani de Arcellis, Bernardus Arditionus, Rainaldus Calvus, Rainaldus
-                        de Andito, Rainaldus Arditionus de Pado et Albertus Carencionus <rs
+                            key="#Monasteries"><rs key="#Monasteries">monasterii</rs></orgName>
+                        investivit et datum fecit <persName><name ref="Tercius de Pado">Tercio de
+                                Pado</name></persName> de <rs key="#Tolls">ripatico</rs> suo toto
+                            <rs key="#Rivers">Fosuste</rs>, quod est a buca Fosuste inferius usque
+                        ad pontem Butatei et ab ipso ponte inferius tantum quantum legitur in
+                        cartula sentencie abbatis, eo pacto quod ille Tercius et sui heredes tenere
+                        et godere debent per XXIV annos. Pro hac investitura predictus abbas accepit
+                            <rs key="#Price">XII libras Placentie</rs>. Actum hoc suprascripto die.
+                            <rs key="#Witness">Testes</rs>: Gandulfus de Rocca, Tucius frater eius,
+                        Iacobus de Rocca, Bregondius frater eius, Albertus domini Pagani de
+                        Arcellis, Bernardus Arditionus, Rainaldus Calvus, Rainaldus de Andito,
+                        Rainaldus Arditionus de Pado et Albertus Carencionus <rs
                             key="#Gastaldus/vicegastaldus">gastaldus</rs>. (S.T.) Albertus Riottus
                             <rs key="#Notary">notarius</rs>.</ab>
                 </div>
@@ -102,7 +104,7 @@
                 <p/>
             </div>
             <div type="bibliography" subtype="additional">
-                <p/>
+                <p>Zaninoni 1999</p>
             </div>
             <div type="bibliography" subtype="links">
                 <p/>
