@@ -2081,6 +2081,7 @@
                     <idno>people/250</idno>
                     <note/>
                     <link type="juridical_persons" corresp="#juridical_persons/151" subtype="link"/>
+                    <link type="people" corresp="#people/299" subtype="fatherOf"/>
                 </person>
                 <person>
                     <persName>Grimoaldus (662-671) rex</persName>
@@ -2463,6 +2464,13 @@
                     <link type="places" corresp="#places/84" subtype="hasConnectionWith"/>
                     <link type="juridical_persons" corresp="#juridical_persons/84"/>
                     <link type="people" subtype="link" corresp="#people/195"/>
+                </person>
+                <person>
+                    <persName>Gundeperga (?-post 652) regina</persName>
+                    <idno>people/299</idno>
+                    <note/>
+                    <link type="juridical_persons" corresp="#juridical_persons/221" subtype="link"/>
+                    <link type="people" corresp="#people/250" subtype="daughterOf"/>
                 </person>
             </listPerson>
         </body>
