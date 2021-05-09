@@ -43,9 +43,9 @@
                             <history>
                                 <origin>
                                     <origDate when="0700-05-12"> 
-                                        <note type="displayed_date"/>
+                                        <note type="displayed_date">700 May 12</note>
                                         <note type="dating_elements"/>
-                                        <note type="topical_date"/>
+                                        <note type="topical_date">Lucca</note>
                                     </origDate>
                                     <origPlace/>
                                 </origin>
@@ -73,7 +73,7 @@
                 </profileDesc>
                 <revisionDesc>
                     <listChange>
-                        <change when="2021-04-18" who="scollavini">creation of record</change>
+                        <change when="2021-05-09" who="scollavini">creation of record</change>
                     </listChange>
                 </revisionDesc>
             </teiHeader>
@@ -84,8 +84,8 @@
                             <ab>+ Exemplar. In nomine domini Dei nostri Iesu Christi. Repromitto
                         tibi <persName key="#Bishops" ref="#people/310">Balsari</persName> Deo
                         gratia <rs key="#Bishops">episcopus</rs> me <persName key="#Abbots"
-                            >Adroald</persName> filio meo <persName key="#Bishops" ref="#people/311"
-                            >Iohannes</persName>, <rs key="#Bishops">electus</rs>
+                            ref="#people/312">Adroald</persName> filio meo <persName key="#Bishops"
+                            ref="#people/311">Iohannes</persName>, <rs key="#Bishops">electus</rs>
                         <rs key="#Cities">civitatis</rs>
                         <placeName key="#Cities" ref="#places/507">Pistoriensis</placeName>, [....]
                         sacerdotibus, ut iusto moderamine conservemus <rs key="#Promissio"
@@ -106,8 +106,11 @@
                         sanctitas peragendum. Et hoç repromino tibi domnus Balsari episcopus uel
                         successoribus tuis de eglesie uel qui prope nos esse videtur, me nunquam
                         esse causator, neque subtragendum da vos hoc ipse ccclesie; uel ut si
-                        subtrahere voluero ego lohannes per me ipsos de Neore uel Cellesis <rs
-                            key="#Plebs">ecclesie</rs> vel per somessione alio uiu […] dere
+                        subtrahere voluero ego lohannes per me ipsos de <orgName
+                            key="#Baptismal_churches"><placeName key="#Baptismal_churches"
+                                >Neore</placeName></orgName> uel <orgName key="#Baptismal_churches"
+                                ><placeName key="#Baptismal_churches">Cellesis</placeName></orgName>
+                        <rs key="#Plebs">ecclesie</rs> vel per somessione alio uiu […] dere
                         promissionem ire temtaverimus, componat parti vestre auri soledos centum
                         pene causa; sed in omnibus adimpleta qualiter decrevimus; et amodo Dei
                         incorrat iudicium, et ad sagrosancto altario sed remutus, si ego Iohannes
@@ -117,8 +120,9 @@
                         conscriptionem manevus meis uel sacerdotum meorum tradedi ad scribendum.
                         Actum in <orgName key="#Mother_churches" ref="#juridical_persons/68">domo
                             sancte ecclesie</orgName>
-                        <rs key="#Cities">ciuitati</rs> Lucensis, sub die XII kalendarum iuniarum,
-                        indictione XIII; feliciter.</ab>
+                        <rs key="#Cities">ciuitati</rs>
+                        <placeName key="#Cities" ref="#places/4">Lucensis</placeName>, sub die XII
+                        kalendarum iuniarum, indictione XIII; feliciter.</ab>
                         </div>
                     </div>
                     <div type="bibliography" subtype="editions">
@@ -133,7 +137,7 @@
                         <p/>
                     </div>
                     <div type="commentary">
-                         <p>Persone: Balsari ep [di Lucca]; Adroald [p. Iohannes]; Iohannes electus ep. civitatis Pistoriensis [Giovanni ep. Pistoia] [f. Adroald]. Luoghi: civitatis Pistoriensis (Pistoia); Lucanus episcopus [Lucca]; Neore [Nievole]; Cellensis [Celle]; civitati Lucensis [Lucca]. Chiese: Neore vel Cellensis ecclesie. Cariche: . Note: . Indice: promissio - </p>
+                         <p/>
                     </div>
                 </body>
             </text>
