@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    Diplomatico, *L.75 </title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc4004</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Offersio/donatio</rs>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Copy</rs>
+                                    <rs type="fiscal_property">Uncertain</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate notAfter="0714-06-30" notBefore="0713-09-01">
+                                <note type="displayed_date">[713 September 1 – 714 June 30]</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Lucca</note>
+                            </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-05-09" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab>
+                                Fortunato rel(igiosus) e il figlio Bonualdo vir venerabili presbiter, avendo, con licenza domini Telesperiani Deo gratia episcopo di Lucca et cum gratia domni Vualperti duci nostro civitatis nostre Lucensis, fondato una chiesa e monastero in onore di san Pietro apostolo nel vico qui vocatur Cassiana, presso Vaccoli, offrono alla medesima i loro averi; dispongono che i lor figli e nipoti possano vivere regulariter nella chiesa ed usufruire dei suoi beni; inoltre circa l’elezione dell’abate da parte dei monaci. Scrive Sicherado su richiesta del vescovo Telesperiano e dei due donatori. Copia di Sicherad stesso. Beni donati: Fortunato: campo prope ipsa ecclesia plus minus modiorum duodeci et vergario modiloco uno prope ipsa ecclesia; Bonualdo: ipsa portiuncula mea, quinta pars qui mihi a fratribus mei advinet, excepto campo vel vergario qualiter superius legitor, quod in potestatem patris nostri Fortonati demisimus. (e poi in aggiunta donano anche particellula nostra de oliveto in Vaccule).
+                            </ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>Muratori 1738-1742, I, 227; MDL V/2, n. 4; CDL I, n. 16, pp. 42-46</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                         <p>Persone: Liutprando re; Fortunatus religiosus [p. Bonuald, Benetato, Roduald, Raduald, Baronte]; Bonuald v. ven. pbr [f. Fortunatus]; Talesperianus ep. [di Lucca]; Vualpert [Walpert] dux civitatis Lucensis; Sicherad pbr; Benetato [f. Fortunatus]; Roduald v. dev. [f. Fortunatus]; Raduald v. dev. [f. Fortunatus]; Baronte [f. Fortunatus]; Vuidicau v. dev.; Vuileradu v. dev.; Benenato v. dev.; Mauricioni v. dev.. Luoghi: vico qui vocatur Cassiana [c/o Vaccoli]; civitatis Lucensis [Lucca]; Vaccule [Vaccoli, LU]. Chiese: ecclesia in honore Sancti Petri apostuli [S. Pietro]. Cariche: Walperto duca di Lucca. Note: . Indice: donazione - duca - monastero - divisione ereditaria - fam. Walprando vesc</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>
