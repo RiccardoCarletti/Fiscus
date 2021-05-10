@@ -403,6 +403,8 @@
                     <idno>people/72</idno>
                     <note/>
                     <link type="people" corresp="#people/79" subtype="sonOf"/>
+                    <link type="people" corresp="#people/318" subtype="link"/>
+                    <link type="estates" corresp="#estates/247" subtype="hasConnectionWith"/>
                 </person>
                 
                 <person>
@@ -450,6 +452,8 @@
                     <link type="people" corresp="#people/14" subtype="descendentOf"/>
                     <link type="people" corresp="#people/72" subtype="fatherOf"/>
                     <link type="people" corresp="#people/39" subtype="legallyRecognisedUnionWith"/>
+                    <link type="people" corresp="#people/318" subtype="link"/>
+                    <link type="estates" corresp="#estates/247" subtype="hasConnectionWith"/>
                 </person>
                 <person>
                     <persName>Karlomannus (830?-880) rex</persName>
@@ -2627,7 +2631,7 @@
                     <idno>people/318</idno>
                     <note/>
                     <link type="places" corresp="#places/20" subtype="hasConnectionWith"/>
-                    <link type="estates"/>
+                    <link type="estates" corresp="#estates/247" subtype="hasConnectionWith"/>
                     <link type="people" corresp="#people/79" subtype="link"/>
                     <link type="people" corresp="#people/72" subtype="link"/>
                 </person>
