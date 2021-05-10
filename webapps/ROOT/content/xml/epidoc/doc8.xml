@@ -100,8 +100,8 @@
                             <placeName key="#City_territory #Plebs" ref="#places/7"
                             >Bononiense</placeName>. <rs key="#Commutatio">Commutant</rs> inter se |
                         presenti die domnus <persName
-                            key="#Commutatio #Curtes #Fundi #Petiae #Count" ref="#people/23"
-                            >Bonefatius</persName>
+                            key="#Commutatio #Libellus/precaria/emphyteusis #Curtes #Fundi #Petiae #Count"
+                            ref="#people/23">Bonefatius</persName>
                         <rs key="#count">comes</rs> filius bone memorie dom(ni) <persName
                             ref="#people/24" key="#Count">Ubaldi</persName> comitis, dans ipse
                         suprascriptus do(m)nu(s) | Bonefatius comes de iure suo in iure domni
@@ -113,30 +113,41 @@
                                 >Nonantule</placeName></orgName> territorio Moti|(ne)nsi eiusque
                         successoribus in perpetuis temporibus possidendum. Idest in <rs key="#Fundi"
                             >fundo</rs>
-                        <placeName key="#Fundi" ref="#places/71">Gaiolo</placeName> omnibus rebus et
-                        casis qu(e) | fuerunt recte et laborate per <persName key="#Agricultural_workers">Geminiano
-                            Paulicio</persName> et modo fiunt laborate per <persName
-                            key="#Agricultural_workers">Iohanne Presurio</persName> et detinet | de
-                        ipsis rebus per infiteosin <persName>Berno</persName> et <persName>Urso
-                            Paulicio</persName>, <persName>Azo</persName> et <persName
-                            key="#Other_minor_officer">Urso</persName>
+                        <placeName
+                            key="#Fundi #Petiae #Maiores #Wine #Wood #Agricultural_workers #Other_minor_officer"
+                            ref="#places/71">Gaiolo</placeName> omnibus rebus et casis qu(e) |
+                        fuerunt recte et laborate per <persName key="#Agricultural_workers"><name
+                                ref="Geminianus/Paulicio">Geminiano</name> Paulicio</persName> et
+                        modo fiunt laborate per <persName key="#Agricultural_workers"><name
+                                ref="Iohannes/Presurio">Iohanne</name> Presurio</persName> et
+                        detinet | de ipsis rebus per infiteosin <persName><name ref="Berno"
+                                >Berno</name></persName> et <persName><name ref="Ursus/Paulicio"
+                                >Urso</name> Paulicio</persName>, <persName><name ref="Azo"
+                                >Azo</name></persName> et <persName key="#Other_minor_officer"><name
+                                ref="Ursus">Urso</name></persName>
                         <rs key="#Other_minor_officer">dec(ani)</rs>, et sunt ipse res ad ratione |
-                        facta int(er) <rs key="#Petiae">terra</rs> aratoria et vineata et terra cum
-                        frascario iuge L et VI. Item in fundo<placeName key="#Fundi"
-                            ref="#places/72">Viniole</placeName> | omnibus rebus et casis et vineis,
-                        terris cum omni sua pertinentia int(er) terra aratoria et frascario et
-                        vineata | ad ratione facta sunt iuges XVI et fiunt laborate ipse res per
-                            <persName>Samuhelem</persName> et <persName>Iohannem</persName> et
-                            <persName>Petrum</persName>; | simulque in fundo <placeName key="#Fundi"
-                            ref="#places/73">Riolo</placeName> omnibus rebus et casis, terris,
-                        vineis, c[u]m omni sua pertinentia in integrum, quod est int(er) terra | de
-                            <persName>Hismahel</persName> et alia terra cum silva et frascario,
-                        iuges XVII et habet ibi massaricia una que | fuit recta et laborata per
-                            <persName>Andream Glutto</persName> que habet int(er) terra aratoria et
-                        vineata et silva|ta iuges XVIII. Et sunt de ipsis rebus in <placeName
-                            key="#Fundi" ref="#places/74">Arcuado</placeName> iuges IIIIor. E(t) est
-                        de suprascripis rebus in fundo | <placeName
-                            key="#Fundi #Casae/cassinae_massaricie">Rusti</placeName>, <rs
+                        facta int(er) <rs key="#Petiae">terra</rs>
+                        <rs key="#Maiores">aratoria</rs> et <rs key="#Wine">vineata</rs> et terra
+                        cum <rs key="#Wood">frascario</rs> iuge L et VI. Item in fundo<placeName
+                            key= "#Maiores #Petiae #Wine #Wood #Agricultural_workers #Houses #Fundi" ref="#places/72">Viniole</placeName> | omnibus
+                        rebus et casis et vineis, terris cum omni sua pertinentia int(er) terra
+                        aratoria et frascario et vineata | ad ratione facta sunt iuges XVI et fiunt
+                        laborate ipse res per <persName key="#Agricultural_workers"><name
+                                ref="Samuel">Samuhelem</name></persName> et <persName
+                            key="#Agricultural_workers"><name ref="Iohannes"
+                            >Iohannem</name></persName> et <persName key="#Agricultural_workers"
+                                ><name ref="Petrus">Petrum</name></persName>; | simulque in fundo
+                        <placeName key="#Maiores #Petiae #Wine #Wood #Agricultural_workers #Houses #Forests #Casae/cassinae_massaricie #Fundi" ref="#places/73">Riolo</placeName> omnibus rebus
+                        et casis, terris, vineis, c[u]m omni sua pertinentia in integrum, quod est
+                        int(er) terra | de <persName><name ref="Ismael">Hismahel</name></persName>
+                        et alia terra cum <rs key="#Forests">silva</rs> et frascario, iuges XVII et
+                        habet ibi <rs key="#Casae/cassinae_massaricie">massaricia</rs> una que |
+                        fuit recta et laborata per <persName key="#Agricultural_workers"><name
+                                ref="Andreas/Glutto">Andream</name> Glutto</persName> que habet
+                        int(er) terra aratoria et vineata et silva|ta iuges XVIII. Et sunt de ipsis
+                        rebus in <placeName key="#Fundi" ref="#places/74">Arcuado</placeName> iuges
+                        IIIIor. E(t) est de suprascripis rebus in fundo | <placeName
+                            key="#Fundi #Maiores #Wine #Wood #Casae/cassinae_massaricie">Rusti</placeName>, <rs
                             key="#Casae/cassinae_massaricie">massaricia</rs> I, insimul cum terra
                         aratoria et frascario et vineata ad ratione facta | iuges XXVI in
                         suprascripto fundo. Item in fundo <placeName key="#Fundi" ref="#places/75"
@@ -144,20 +155,36 @@
                         nomen meum pertinent in suprascripto fundo aut in circumiacentiis fundi[s]
                         et modo | detinent per <rs key="#Libellus/precaria/emphyteusis"
                             >enfiteusin</rs>
-                        <persName>Rainfreus</persName>, <persName>Petrus</persName>,
-                            <persName>Adelbertus</persName>, <persName>Iohannes</persName>
-                        <persName>Cristini</persName>, <persName>Daibertus</persName>,
-                            <persName>Petrus</persName> et res | de <persName>Siginulfo</persName>
-                        et <persName>Andrea</persName>, item <persName>Petrus</persName>, <persName
-                            key="#Priests">Martinus</persName>
-                        <rs key="#Priests">presbiter</rs> et <persName>Leo</persName> et reliqui. Et
-                        in <placeName key="#Casae/cassinae_massaricie" ref="#places/76"
-                            >Gebolini</placeName> massariciola | una que est iuges III. Itemque
-                            <placeName key="#Petiae #Fiscal_property #Object" ref="#places/27">terra
-                            que dicitur Regia</placeName>
+                        <persName key="#Libellus/precaria/emphyteusis"><name ref="Rainfredus"
+                                >Rainfredus</name></persName>, <persName><name ref="Petrus"
+                                >Petrus</name></persName>, <persName
+                            key="#Libellus/precaria/emphyteusis"><name ref="Adalbertus"
+                                >Adelbertus</name></persName>, <persName
+                            key="#Libellus/precaria/emphyteusis"><name ref="Iohannes"
+                                >Iohannes</name></persName>
+                        <persName><name ref="Christinus">Cristini</name></persName>, <persName
+                            key="#Libellus/precaria/emphyteusis"><name ref="Daibertus"
+                                >Daibertus</name></persName>, <persName
+                            key="#Libellus/precaria/emphyteusis"><name ref="Petrus"
+                            >Petrus</name></persName> et res | de <persName
+                            key="#Libellus/precaria/emphyteusis"><name ref="Sigenulfus"
+                                >Siginulfo</name></persName> et <persName
+                            key="#Libellus/precaria/emphyteusis"><name ref="Andreas"
+                            >Andrea</name></persName>, item <persName
+                            key="#Libellus/precaria/emphyteusis"><name ref="Petrus"
+                            >Petrus</name></persName>, <persName
+                            key="#Libellus/precaria/emphyteusis #Priests"><name ref="Martinus"
+                                >Martinus</name></persName>
+                        <rs key="#Priests">presbiter</rs> et <persName
+                            key="#Libellus/precaria/emphyteusis"><name ref="Leo"
+                            >Leo</name></persName> et reliqui. Et in <placeName
+                            key="#Casae/cassinae_massaricie" ref="#places/76">Gebolini</placeName>
+                        massariciola | una que est iuges III. Itemque <placeName
+                            key="#Petiae #Fiscal_property #Object" ref="#places/27">terra que
+                            dicitur Regia</placeName>
                         <rs key="#Fiscal_property #Object">in fundo </rs><placeName key="#Fundi"
                             ref="#places/27">Persecetano</placeName> per singulas petiolas | mihi
-                        pertinente ad ratione facta iuges XXX. Item in fundo <placeName key="#Fundi"
+                        pertinente ad ratione facta iuges XXX. Item in fundo <placeName key="#Fundi #Maiores #Wood"
                             ref="#places/82">Corticelle</placeName>, terra aratoria | cum frascario
                         quanta ibi habemus omnia in integrum, quod est ad ratione facta iuges LXXV.
                         | Et est ipsa res super totum insimul per singula loca et fundoras sicut
@@ -196,39 +223,64 @@
                         Bonefatii bone memorie comitis eiusque heredibus in perpet[uis tem]|poribus
                         possidendum curtem unam que vocatur <geogName
                             key="#Curtes #Wine #Oil #Chestnuts" ref="#estates/82"
-                            >Funziano</geogName> in comitatu <geogName key="#Comitatus"
-                            ref="#estates/83">Florentino</geogName> [in lo]|co qui vocatur
-                            <placeName key="#Curtes #Wine #Oil #Chestnuts" ref="#places/81">Maceline
-                            qui et Funziano</placeName> vocatus cum omnibus rebus et pertinentiis
-                        su[is] | ad ipsam curtem pertinentibus una cum casis et rebus illis que sunt
-                        posite in loco qui dicitur <placeName>Sebe[..2..]no</placeName> et in loco
-                        que dicitur <placeName>Susiano</placeName> et
-                            <placeName>Memuniano</placeName> vel ubi et ubi infra suprascriptis
-                        com|itatibus ad ipsa curtem pertinentibus per quovis titulum in integrum una
-                        cum terris, vineis, ca|sis, edificiis, seu colonis et massariciis. Et hec
-                        sunt nomina illorum: <persName>Sigo</persName>, <persName>Lupo</persName>,
-                            <persName>Alperto</persName>, | <persName>Leopardo</persName>,
-                            <persName>Barantino</persName>, <persName>Savino</persName>,
-                            <persName>Baruntio</persName>, <persName>Giso</persName>,
-                            <persName>Leopardo</persName>, <persName>Martino</persName>,
-                            <persName>Ildo</persName>, <persName>Lupo</persName>, |
-                            <persName>Stephano</persName>, <persName>Taiberto</persName>,
-                            <persName>Urso</persName>, <persName>Teoperto</persName>, item
-                            <persName>Urso</persName>, <persName>Rozo</persName> et alio
-                            <persName>Urso</persName>, <persName>Donato</persName>,
-                            <persName>Ursesredo</persName>, <persName>Urso</persName> et alio
-                            <persName>Urso</persName>, <persName>Grimizo</persName>,
-                            <persName>Leo</persName>, <persName>Ansulo</persName>. Istis
-                        suprascriptis residentibus in terra | que pertinet de suprascript(am) curtem
-                        et est ipsa cors per apodismu(m) ad rationem facta | iuges mil(le) CLXIIIor,
-                        et sunt tulpi <rs key="#Wine">vinearum</rs> in ea per num(erum) XXX, et tres
-                        | milia XXV una cum silvis et <rs key="#Chestnuts">casteneto</rs> et <rs
-                            key="#Oil">oliveto</rs> et pascuis, pratis, silvis, | salectis,
-                        arbustis, arboribus pomiferis, fructiferis diversique generibus, aquis,
-                        rivis, | rupinis, usibus aquarum fontibus, cultum et incultum cum omnia
-                        super se et infra se ha|bentem omnia in integrum sicut superius comprehensum
-                        est ad ipsam curtem pertinentibus; | et si amplius de ipsis rebus infra
-                        prenominata loca invenire potueritis in vestro iure | permaneat.</ab>
+                            >Funziano</geogName> in <rs key="#Comitatus">comitatu</rs>
+                        <geogName key="#Comitatus" ref="#estates/83">Florentino</geogName> [in
+                        lo]|co qui vocatur <placeName key="#Curtes #Wine #Oil #Chestnuts"
+                            ref="#places/81">Maceline qui et Funziano</placeName> vocatus cum
+                        omnibus rebus et pertinentiis su[is] | ad ipsam curtem pertinentibus una cum
+                        casis et rebus illis que sunt posite in loco qui dicitur
+                            <placeName>Sebe[..2..]no</placeName> et in loco que dicitur
+                            <placeName>Susiano</placeName> et <placeName>Memuniano</placeName> vel
+                        ubi et ubi infra suprascriptis com|itatibus ad ipsa curtem pertinentibus per
+                        quovis titulum in integrum una cum terris, vineis, ca|sis, edificiis, seu
+                        colonis et massariciis. Et hec sunt nomina illorum: <persName
+                            key="#Agricultural_workers"><name ref="Sigo">Sigo</name></persName>,
+                            <persName key="#Agricultural_workers"><name ref="Lupus"
+                            >Lupo</name></persName>, <persName key="#Agricultural_workers"><name
+                                ref="Amalbertus">Alperto</name></persName>, | <persName
+                            key="#Agricultural_workers"><name ref="Leopardus"
+                            >Leopardo</name></persName>, <persName key="#Agricultural_workers"><name
+                                ref="Barantinus">Barantino</name></persName>, <persName
+                            key="#Agricultural_workers"><name ref="Savinus"
+                        >Savino</name></persName>, <persName key="#Agricultural_workers"><name
+                                ref="Baruncius">Baruntio</name></persName>, <persName
+                            key="#Agricultural_workers"><name ref="Giso">Giso</name></persName>,
+                            <persName key="#Agricultural_workers"><name ref="Leopardo"
+                                >Leopardo</name></persName>, <persName key="#Agricultural_workers"
+                                ><name ref="Martinus">Martino</name></persName>, <persName
+                            key="#Agricultural_workers"><name ref="Ildus">Ildo</name></persName>,
+                            <persName key="#Agricultural_workers"><name ref="Lupus"
+                            >Lupo</name></persName>, | <persName key="#Agricultural_workers"><name
+                                ref="Stefanus">Stephano</name></persName>, <persName
+                            key="#Agricultural_workers"><name ref="Daibertus"
+                            >Taiberto</name></persName>, <persName key="#Agricultural_workers"><name
+                                ref="Ursus">Urso</name></persName>, <persName
+                            key="#Agricultural_workers"><name ref="Teudebertus"
+                            >Teoperto</name></persName>, item <persName key="#Agricultural_workers"
+                                ><name ref="Ursus">Urso</name></persName>, <persName
+                            key="#Agricultural_workers"><name ref="Rotius">Rozo</name></persName> et
+                        alio <persName key="#Agricultural_workers"><name ref="Ursus"
+                            >Urso</name></persName>, <persName key="#Agricultural_workers"><name
+                                ref="Donatus">Donato</name></persName>, <persName
+                            key="#Agricultural_workers"><name ref="Ursesredus"
+                            >Ursesredo</name></persName>, <persName key="#Agricultural_workers"
+                                ><name ref="Ursus">Urso</name></persName> et alio <persName
+                            key="#Agricultural_workers"><name ref="Ursus">Urso</name></persName>,
+                            <persName key="#Agricultural_workers"><name ref="Grimizus"
+                                >Grimizo</name></persName>, <persName key="#Agricultural_workers"
+                                ><name ref="Leo">Leo</name></persName>, <persName
+                            key="#Agricultural_workers"><name ref="Ansulus"
+                        >Ansulo</name></persName>. Istis suprascriptis residentibus in terra | que
+                        pertinet de suprascript(am) curtem et est ipsa cors per apodismu(m) ad
+                        rationem facta | iuges mil(le) CLXIIIor, et sunt tulpi <rs key="#Wine"
+                            >vinearum</rs> in ea per num(erum) XXX, et tres | milia XXV una cum
+                        silvis et <rs key="#Chestnuts">casteneto</rs> et <rs key="#Oil">oliveto</rs>
+                        et pascuis, pratis, silvis, | salectis, arbustis, arboribus pomiferis,
+                        fructiferis diversique generibus, aquis, rivis, | rupinis, usibus aquarum
+                        fontibus, cultum et incultum cum omnia super se et infra se ha|bentem omnia
+                        in integrum sicut superius comprehensum est ad ipsam curtem pertinentibus; |
+                        et si amplius de ipsis rebus infra prenominata loca invenire potueritis in
+                        vestro iure | permaneat.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
