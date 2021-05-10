@@ -2602,6 +2602,7 @@
                     <idno>people/314</idno>
                     <note/>
                     <link type="places" corresp="#places/4" subtype="hasConnectionWith"/>
+                    <link type="people" corresp="#people/320" subtype="fatherOf"/>
                 </person>
                 <person>
                     <persName>Landolfus III (959-968/969) princeps</persName>
@@ -2649,11 +2650,13 @@
                     <link type="estates" corresp="#estates/247" subtype="hasConnectionWith"/>
                 </person>
                 <person>
-                    <persName>Walbrandus (737-754) episcopus Lucensis</persName>
+                    <persName>Walprandus (737-754) episcopus Lucensis</persName>
                     <persName type="other"/>
                     <idno>people/320</idno>
                     <note/>
                     <link type="places" corresp="#places/4" subtype="hasConnectionWith"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/219" subtype="link"/>
+                    <link type="people" corresp="#people/314" subtype="sonOf"/>
                 </person>
             </listPerson>
         </body>
