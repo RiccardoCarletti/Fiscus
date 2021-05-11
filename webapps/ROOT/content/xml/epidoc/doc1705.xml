@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Archivio di Stato di Torino (MGH D H II Arduin D. 8)</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc1705</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">Yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1003">
+                                <note type="displayed_date">1003</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Pavia</note>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-05-11" who="lmotta">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine sanctae et individuae trinitatis. Ardoinus divina favente gratia
+                        invictissimus rex. Si adeuntibus digne postulata largimur, precipue
+                        convenit, ut nostrae dilectissimae coniugis atque consortis regni nostri
+                        Bertae postulationibus libentissime aclinemur. Quocirca omnium fidelium
+                        sanctae dei aecclesiae nostrorumque presentium ac futurorum noverit
+                        industria, qualiter interventu ac petitione nostrae dilectissimae coniugis
+                        Bertae et Petri pontificis Cumani nostrique prestantissimi fidelis Tedeverto
+                        sanctae Iporiensis aecclesiae diacono concedimus et donamus cortem de Orco
+                        plurium…, quae olim Cortis regia nominabatur, nunc vero ab loci illius
+                        incolis sancti Georgii castrum apellatur, in comitatu videlicet Iporiensi
+                        reiacentem, et vallem etiam supra montem quae Clivis dicitur… eidem
+                        Tedeverto levite similiter largimur cum omnibus illarum pertinentiis et
+                        adiacenciis, scilicet cum castellis plurimis capellis villis montibus
+                        alpibus vallibus… pratis pascuis silvis astallareis castenetis ripis rupinis
+                        paludibus aquis aquarumque decursibus terminis accessionibus forestibus in
+                        predicto comitatu consistentibus nec non etiam… servis et ancillis aldionis
+                        et aldianis omnibusque rebus mobilibus et inmobilibus in integrum. Insuper
+                        tribuimus supra dicto levitae Tedeverto omne destrictum mercata teloneum
+                        curaturam… cum omnibus publicis reddibicionibus ad eandem cortem vel ad
+                        prefatas valles pertinentibus et de nostro iure ac dominio in eius ius et
+                        dominium transfundimus ac delegamus, eo videlicet ordine ut ipse vel
+                        quibuscumque ipse dederit aut proprietarii iuris inde cartam fecerit,
+                        habeant teneant firmiterque possideant, sitque eis facultas vendendi tenendi
+                        pro anima iudicandicandi donandi vel alineandi vel commutandi vel quicquid
+                        animus eorum decreverit voluntas faciendi, omni publica molestacione ac
+                        omnium hominum contradiccione vel fatigacione funditus remota. Si quis vero
+                        temerario ausu, quod minime credimus, huius nostri regni huic concessionis
+                        ac donationis violator extiterit aut frangere temptaverit, sciat se
+                        compositurum auri cocti libras ducenti, medietatem camerae nostrae et
+                        medietatem Tedeverto prenominato vel cui per concessionem cartule dederit.
+                        Quod ut verius credatur diligentiusque ab omnibus observetur, manu propria
+                        roborantes sigilli nostri impressione fieri iusimus. Signum domni Ardoini
+                        serenissimi (M.) et invictissimi regis. Cunibertus cancellarius vice Petri
+                        Cumani episcopi et archicancellarii regnovit et subscripsit (SI. D.) Data…
+                        anno dominicae incarnationis millesimo III, indictione I, anno vero domni
+                        Ardoini regis invictissimi regnante I; actum Papiae in Ticinensi palacio;
+                        feliciter amen. </ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>MGH D H II Arduin, n. 8, pp. 709-711</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
