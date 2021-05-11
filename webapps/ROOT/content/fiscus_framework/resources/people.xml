@@ -2740,12 +2740,25 @@
                     <persName type="other">Gisulfo I principe di Salerno</persName>
                     <idno>people/327</idno>
                     <note>Cherubini 2001</note>
+                    <link type="places"
+                        corresp="#places/567 #places/569 #places/84 #places/568 #places/570"
+                        subtype="hasConnectionWith"/>
+                    <link type="people" corresp="#people/328" subtype="legallyRecognisedUnionWith"/>
+                    <link type="people" corresp="#people/298" subtype="sonOf"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/84" subtype="link"/>
+                    <link type="people" corresp="#people/309" subtype="link"/>
                 </person>
                 <person>
                     <persName>Gemma (960-977) principissa</persName>
                     <persName type="other"/>
                     <idno>people/328</idno>
                     <note>Moglie di Gisulfo I di Salerno; Stasser 2008, n. 101, p. 389.</note>
+                    <link type="places"
+                        corresp="#places/567 #places/569 #places/84 #places/568 #places/570"
+                        subtype="hasConnectionWith"/>
+                    <link type="people" corresp="#people/327" subtype="legallyRecognisedUnionWith"/>
+                    <link type="people" corresp="#people/309" subtype="link"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/84" subtype="link"/>
                 </person>
                 <person>
                     <persName>Itta (895-901) principissa</persName>
@@ -2753,6 +2766,12 @@
                     <idno>people/329</idno>
                     <note>Sorella di Guido IV di Spoleto; moglie di Guaimario I di Salerno, Stasser,
                         n. 98, p. 387.</note>
+                    <link type="places"
+                        corresp="#places/567 #places/569 #places/84 #places/568 #places/570"
+                        subtype="hasConnectionWith"/>
+                    <link type="people" corresp="#people/90" subtype="legallyRecognisedUnionWith"/>
+                    <link type="people" corresp="#people/309" subtype="link"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/84" subtype="link"/>
                 </person>
             </listPerson>
         </body>
