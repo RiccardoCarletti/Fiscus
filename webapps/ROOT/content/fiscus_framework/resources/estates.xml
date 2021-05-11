@@ -140,6 +140,8 @@
                     <link type="estates" corresp="#estates/258" subtype="hasConnectionWith"/>
                     <link type="people" corresp="#people/172" subtype="link"/>
                     <link type="people" corresp="#people/325" subtype="link"/>
+                    <link type="places" corresp="#places/102 #places/566 #places/103"
+                        subtype="hasInItsVicinity"/>
                 </place>
                 
                 <place>
@@ -1975,6 +1977,8 @@
                     <note/>
                     <link type="places" corresp="#places/563" subtype="hasConnectionWith"/>
                     <link type="estates" corresp="#estates/60" subtype="hasConnectionWith"/>
+                    <link type="places" corresp="#places/102 #places/566 #places/103"
+                        subtype="hasConnectionWith"/>
                 </place>
             </listPlace>
         </body>
