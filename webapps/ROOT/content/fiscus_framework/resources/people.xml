@@ -1355,6 +1355,7 @@
                         subtype="link"/>
                     <link type="juridical_persons"
                         corresp="#juridical_persons/81" subtype="link"/>
+                    <link type="people" corresp="#people/321" subtype="legallyRecognisedUnionWith"/>
                 </person>
                 <person>
                     <persName>Otto I (912-973) imperaror</persName>
@@ -2664,6 +2665,20 @@
                     <link type="places" corresp="#places/4" subtype="hasConnectionWith"/>
                     <link type="juridical_persons" corresp="#juridical_persons/219" subtype="link"/>
                     <link type="people" corresp="#people/314" subtype="sonOf"/>
+                </person>
+                <person>
+                    <persName>Berta (1002-1014) regina</persName>
+                    <persName type="other"/>
+                    <idno>people/321</idno>
+                    <note/>
+                    <link type="people" corresp="#people/172" subtype="legallyRecognisedUnionWith"/>
+                </person>
+                <person>
+                    <persName>Teodericus (454-526) rex</persName>
+                    <persName type="other"/>
+                    <idno>people/322</idno>
+                    <note/>
+                    <link type="places" corresp="#places/65" subtype="hasConnectionWith"/>
                 </person>
             </listPerson>
         </body>
