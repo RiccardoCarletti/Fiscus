@@ -1356,6 +1356,9 @@
                     <link type="juridical_persons"
                         corresp="#juridical_persons/81" subtype="link"/>
                     <link type="people" corresp="#people/321" subtype="legallyRecognisedUnionWith"/>
+                    <link type="people" corresp="#people/324" subtype="link"/>
+                    <link type="estates" corresp="#estates/60" subtype="hasConnectionWith"/>
+                    <link type="places" corresp="#places/563" subtype="hasConnectionWith"/>
                 </person>
                 <person>
                     <persName>Otto I (912-973) imperaror</persName>
@@ -2693,6 +2696,8 @@
                     <persName type="other"/>
                     <idno>people/324</idno>
                     <note/>
+                    <link type="people" corresp="#people/172" subtype="link"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/111" subtype="link"/>
                 </person>
             </listPerson>
         </body>
