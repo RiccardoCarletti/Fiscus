@@ -837,6 +837,8 @@
                     <idno>places/102</idno>
                     <note>Frazione di San Giorgio Canavese</note>
                     <link type="estates" corresp="#estates/60" subtype="hasConnectionWith"/>
+                    <link type="places" corresp="#places/566" subtype="hasInItsVicinity"/>
+                    <link type="estates" corresp="#estates/258" subtype="hasConnectionWith"/>
                 </place>
                 <place>
                     <placeName>Valchiusella (Traversella; Torino)</placeName>
@@ -4702,6 +4704,8 @@
                     <geogName type="coord"><geo>45.508458, 7.749415</geo></geogName>
                     <idno>places/565</idno>
                     <note/>
+                    <link type="estates" corresp="#estates/60" subtype="hasConnectionWith"/>
+                    <link type="estates" corresp="#estates/258" subtype="hasConnectionWith"/>
                 </place>
                 <place>
                     <placeName>San Giorgio Canavese (Torino)</placeName>
@@ -4709,6 +4713,9 @@
                     <geogName type="coord"><geo>45.334155, 7.796819</geo></geogName>
                     <idno>places/566</idno>
                     <note/>
+                    <link type="places" corresp="#places/102" subtype="isInVicinityOf"/>
+                    <link type="estates" corresp="#estates/60" subtype="isInVicinityOf"/>
+                    <link type="estates" corresp="#estates/258" subtype="hasConnectionWith"/>
                 </place>
                 <place>
                     <placeName>Amiterno (San Vittorino; AQ)</placeName>
