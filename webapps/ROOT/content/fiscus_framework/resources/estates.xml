@@ -518,6 +518,7 @@
                     <link type="estates" corresp="#estates/256" subtype="isMadeOf"/>
                     <link type="estates" corresp="#estates/102" subtype="isMadeOf"/>
                     <link type="estates" corresp="#estates/118" subtype="isMadeOf"/>
+                    <link type="estates" corresp="#estates/257" subtype="isMadeOf"/>
                 </place>
                 <place>
                     <geogName>Hochburg; <foreign>curtis</foreign></geogName>
@@ -1961,6 +1962,8 @@
                     <idno>estates/257</idno>
                     <note>De Francesco 2004: 215. come il <foreign>fundus Gratinianus</foreign>,
                         anche questo doveva trovarsi presso il VII miglio della via Clodia. </note>
+                    <link type="people" corresp="#people/71" subtype="link"/>
+                    <link type="estates" corresp="#estates/103" subtype="isPartOf"/>
                 </place>
             </listPlace>
         </body>
