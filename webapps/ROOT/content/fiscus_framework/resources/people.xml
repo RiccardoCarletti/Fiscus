@@ -1355,6 +1355,7 @@
                         subtype="link"/>
                     <link type="juridical_persons"
                         corresp="#juridical_persons/81" subtype="link"/>
+                    <link type="people" corresp="#people/321" subtype="legallyRecognisedUnionWith"/>
                 </person>
                 <person>
                     <persName>Otto I (912-973) imperaror</persName>
@@ -2670,6 +2671,7 @@
                     <persName type="other"/>
                     <idno>people/321</idno>
                     <note/>
+                    <link type="people" corresp="#people/172" subtype="legallyRecognisedUnionWith"/>
                 </person>
             </listPerson>
         </body>
