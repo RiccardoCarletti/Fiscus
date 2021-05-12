@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Biblioteca comunale di Cremona, <foreign>Codice Sicardiano</foreign>,
+                    principio del sec. XIII, c. 60, <foreign>Notitia de Cucullo et molinis et
+                        portoribus</foreign>.</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc1139</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#"/>
+                            <rs type="record_source" ref="#"/>
+                            <rs type="document_tradition" ref="#"/>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate notBefore="0001" notAfter="0001" when="0001"> 
+                                <note type="displayed_date"></note>
+                                <note type="dating_elements"></note>
+                                <note type="topical_date"></note>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-02-08" who="Chiara Stedile">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>Dum domnus Berengarius gloriosissimus rex ad regali dignitate in civitate
+                        Cremona advenisset et domum episcopii et matris Cremonensis ecclesie in
+                        caminata dormitorio eiusdem domui, ubi ipse princeps cum suis gasindiis et
+                        iudicibus ceterisque suis fidelibus adesset, quorum nomina hec sunt: Gasus,
+                        Tiso, Bernardus, Pazo, Rainerius, Bebo, Anno, Milo, Oldericus et Ingelramus
+                        vassi domni regis, Ambrosius cancellarius idem domni regis, Vualpertus,
+                        Sicharuds et Befanius iudices domni regis, Ratfredus notarius sacri palatii,
+                        Iohannes, Archerius et Andreas capellanus similiter domni regis, Leo
+                        archipresbiter, Petrus, Lampertus et Rampertus presbiteri, Lupus
+                        archidiaconus, Aldo, Odelbertus diacones cardinis ipsius episcopii,
+                        Rodelandus, Vulmannus, item Rodelandus, Adelbertus, Vuitegad, Aribertus et
+                        Odelbertus vasalli predicti presulis et reliqui multi; ibique eorum
+                        presentia veniens Lando episcopus ipsius sedis una simul et Adelbertus
+                        vasallo et advocato suo afferens secum precetoras paginas tres et notitiam
+                        unam inquisitionis, quas ipse domnus Berengarius rex ante se legere fecit
+                        presentia. Ubi continebatur, in primo precepto inter cetera, qualiter
+                        Karolus res Francorum et Longobardorum per petitionem sanctissimi Stephani
+                        Cremonensis ecclesie episcopus concessisset et confirmasset per suas
+                        auctoritates preceptas omnes res episcopii Sancte Marie et Sancti Stephani
+                        quod ibidem a longo tempore visum esset pertinere tam monasteria quamque et
+                        scenodochia seu ecclesias baptismales vel reliquas possessiones ad eundem
+                        episcopatum pertinentes, insuper et iuncxisset ipsius venerabilem locum qui
+                        dicitur Tecledo cum Brivisula et Cucullo et omnia ad ipsa loca pertinentia
+                        et porto Vulpariolo transitorio militum usque in capud Addue cum molitura et
+                        portoras usque in capud Addue. In alio namque precepto continente in eo
+                        inter cetera, qualiter Lotharius imperator confirmasset pro mercedis sue
+                        augmentum quicquid ad prefatam ecclesiam episcopii Sancte Marie et Sancti
+                        Stephani longo tempore reges vel aliquibuslibet homines largissent, vel ea
+                        que divina pietas ibidem augere voluisset cum omni integritate per sui
+                        preceptionem ad eandem confirmassent ecclesiam, per quam concedisset et
+                        confirmasset ad prefatam Cremonensem ecclesiam quasdam res, locum videlicet
+                        qui dicitur Tecledas cum Brivisula et Cucullo vel omnia ad ipsa loca
+                        pertinentia et portum cuius vocabulum est Vualplriolo cum transitorio
+                        militorum usque in capud Addue. In tertio namque precepto continente in eo
+                        inter cetera, qualiter domnus Hludovicus imperator per petitionem Benedicti
+                        Cremonensis ecclesiae episcopi confirmasset et iuncxisset per sui preceto
+                        quicquid ad prefatam ecclesiam Cremonenses episcopi, reges vel quibuslibet
+                        homines largissent vel antea augere voluissent, una cum quasdam res locum
+                        qui dicitur Tecledas, Brivisula et Cucullo cum omnia sua pertinentia, cum
+                        porto qui dicitur Vulpariolo, cum transitorio militum usque in capud Addue
+                        et cum molitura de molinis et portoribus usque in capud Addue. Erant
+                        precepta ipsas firmata ab ipsis regibus et imperatoribus manibus propriis et
+                        ab eorum anulis sigillata et a suis cancellariis scripta et emissa per data
+                        et indictione. In iam dicta notitia continebatur in ea inter cetera,
+                        qualiter per sanctionem sacri principis et gloriosissimi Lotharii
+                        imperatoris Adelgisus comes Cremonensis advenisset ad perquirendum instituta
+                        precepti que Karolus rex in eadem ecclesia concessit habendum, id est curte
+                        Cucullo et Tecledo, Caprariolas et Brivisula, una simul cum porto Vulpariolo
+                        et molitura de molendinis et navium transitoria et reliqua portora usque in
+                        capud Addue, et cum eo fuissent Panchoardus eiusdem civitatis episcopus una
+                        cum sacerdotibus suis atque cum iudicibus ceterisque bonis hominibus de
+                        eodem comitatu Cremonensi nec non et Bergomensis atque Parmense comitatus,
+                        in ipsorum hominum presentia coniurati sacerdotes in fide sacerdotii et
+                        christianitati suorum, quod de precepti investitura scirent, ut verum
+                        dixissent. Qui primis Antonius dixisset, quod sciret et bene memorasset
+                        quando Karolus rex per suum prepectum in ecclesia Cremonensi concessisset
+                        curte Cucullo, Tecledo, Brivisula et porto Vulpariolo cum molitura de
+                        molinis et transitorio militum cum reliqua portora usque in capud Addue.
+                        Simpertus, Natalis, Ursevertus, Audemarius similiter dixisset. Caroto de
+                        Auceps iuratus a Dei evuangelia et inquisitus dixisset, quod sciret se et
+                        bene memorasset Atonem episcopum habentem in integrum iuxta ipsum preceptum
+                        curte Cucullo cum reliqua sequentia et porto Vulpariolo et reliqua portora
+                        usque in capud Addue quousque a Rotechild contra legem descestitus fuisset.
+                        Agevertus de Vualdeningo, Isembertus de Muredellis, Grausevertus et
+                        Agemundus et Alipertus de Gaidisco isti omnes iurati et inquisiti similiter
+                        dixerunt. Erat notitia ipsa firmata manu propria idem Adelghisi comitis et
+                        aliis iudicibus et reliquis iudicibus, scripta per manum Ingeprandi diaconi
+                        et emissa per regnorum et indictionem. Preceptoras ipsas et notitia ostensas
+                        et lectas interrogatus est ipse Lando episcopus et Adelbertus advocatus ab
+                        eodem domn Berengario rege per quod eos ostenderent. Qui dixerunt: Ideo eos
+                        hic vestri ostensimus presentia, ut vobis cognita sint et ne quis dicere
+                        valeat, quod pars huius Cremonensis ecclesie eos scilens aut occulte vel
+                        conludiose habuisset, et quod plus est, iste Leo scavino huius Cremonensis
+                        [ecclesie] et advocatus curtis vestre Sexpilas, qui hic vestri adest
+                        presentia, querimus, ut dicat si precepta ista et notitiam iudicati quam hic
+                        ostensimus bonas et vera sunt et si res illas in locas Cucullo, Tecledo,
+                        Brivisula et porto Vulpariolo cum transitorio militum usque in capud Addue
+                        cum molitura de molendinis et portoribus usque in capud Addue, sicut in
+                        eisdem preceptis legitur, de pars predicte curtis vestre Sespiras nobis a
+                        pars huius episcopii Cremonensis contradicere queret an non. Qui et ipse Leo
+                        scavino et advocatus ex verbo et preceptione idem domni Berengarii regis
+                        dixit et professus est: vere precepta ista et notitiam quam hic ostensistis
+                        bonas et veraces sunt, et res in locas Cucullo, Tecledo, Brivisula cum omni
+                        sua pertinentia et porto Vulpariolo transitorio militum usque in capud Addue
+                        cum molitura de molendinis et portoribus usque in capud Addue, sicut per
+                        eisdem preceptis legitur, a parte predicte curtis Sexpile vobis a parte
+                        episcopii Sancte Cremonensis ecclesie nec contradixi nec contradicere quero,
+                        quia cum lege non possum, eo quod iuxta ipsa legibus eiusdem episcopii
+                        proprias esse debent et a parte ipsius curtis nichil pertinent ad habendum
+                        cum lege. Cum ipse Leo scavino et advocarus taliter professus et manifestus
+                        fuisset, rectum eis omnibus paruit esse et iudicaverunt, ut iuxta eorum
+                        altercationem et eidem Leoni advocatori professione et manifestatione pars
+                        eiusdem Cremonensis ecclesie res illas in eisdem locis Cucullo, Tecledo,
+                        Brivisula, cum omnia suorum pertinentia et porto Vulpariolo tranistorio
+                        militum usque in capud Addue et cum molitura de molendinis et portoribus
+                        usque in capud Addue, sicut in easdem legitur preceptoras, ad suorum
+                        proprietatem habere deberet iuxta ipsas preceptoras. Et ipse Leo advocatus
+                        vel pars eiusdem curtis maneant inde taciti et contenti. Et finita est
+                        causa, et hec notitia pro securitate parti eiusdem episcopii fieri iussimus
+                        quidem et ego Petrus notarius per iussonem domni regis et admonitionem
+                        suprascriptorum iudicum scripsi. Anno regni domni Berengarii regis Deo
+                        propitio XXIII, mense novembr., indictione XIIII. Ego Ambrosius diaconus et
+                        cancellarius domni regis inerfui et subscripsi. Ego Andreas diaconus sancte
+                        Ticinensis ecclesie et capellanus domni regis interfui. Iohannes clericus
+                        interfui. Ego Gauso interfui. Vualpertus iudex domni regis interfui.
+                        Sichardus iudex domni regis interfui. Befanius iudex domni regis interfui.
+                        Rotfredus notarius domni regis interfui. Lupus archidiaconus interfui.
+                        Petrus diaconus ibi fui. Agivertus presbiter ibi fui. Aldo diaconus ibi fui.
+                        Lampertus presbiter ibi fui. Signum manibus suprascriptorum Bernardi et
+                        Pazoni seu Rainerii vassi domni regis qui interfuerunt. Signum manibus
+                        suprascriptorum Beboni et Miloni item vassi domni regis qui interfuerunt.
+                        Signum manibus suprascriptorum Olderici et Ingelrami similiter vassi domni
+                        regis qui interfuerunt. Rodelando ibi fui.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
