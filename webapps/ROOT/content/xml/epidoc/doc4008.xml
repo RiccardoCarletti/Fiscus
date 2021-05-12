@@ -31,10 +31,10 @@
                             </msIdentifier>
                             <msContents>
                                 <summary>
-                                    <rs type="text_type" ref="#"/>
-                                    <rs type="record_source" ref="#"/>
-                                    <rs type="document_tradition" ref="#"/>
-                                    <rs type="fiscal_property"/>
+                                    <rs type="text_type" ref="#">--Offersio/donatio</rs>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Copy</rs>
+                                    <rs type="fiscal_property">No</rs>
                                 </summary>
                                 <msItem xml:id="msItem1">
                                     <textLang mainLang="" otherLangs=""/>
@@ -42,11 +42,11 @@
                             </msContents>
                             <history>
                                 <origin>
-                                    <origDate when="0720-03-31"> 
-                                        <note type="displayed_date">[720 marzo(?)]</note>
-                                        <note type="dating_elements"/>
-                                        <note type="topical_date"/>
-                                    </origDate>
+                                    <origDate notAfter="0720-03-31" notBefore="0720-03-01">
+                                <note type="displayed_date">[720 March]</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date"/>
+                            </origDate>
                                     <origPlace/>
                                 </origin>
                                 <provenance type="findspot">
