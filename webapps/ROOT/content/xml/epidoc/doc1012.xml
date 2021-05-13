@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Vienna, già presso J. P. Richter (DD B I, n. LIX, pp. 164-166)</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc1012</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">Yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0905-08-01">
+                                <note type="displayed_date">905 August 1</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Torri del Benaco</note>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-02-08" who="ecinello">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>(C) In nomine domini Dei omnipotentis aeterni. <persName key="#Emperor/king"
+                            ref="#people/21">Berengarius</persName> divina misericordia <rs
+                            key="#Emperor/king">rex</rs>. Quia sacerdotibus et Deo famulantibus
+                        temporale regiae dignitati conferre subsidium convenit, id circo noverit
+                        omnium fidelium sanctae Dei Ecclesiae nostrorumque presentium scilicet ac
+                        futurorum industria, <persName
+                            key="#Intercessory #Archchancellor #Bishops #fidelisOf"
+                            ref="#people/216">Ardingum <rs
+                                key="#Intercessory #Archchancellor #Bishops #fidelisOf"
+                                >reverentissimum episcopum summumque cancellarium et dilectissimum
+                                fidelem nostrum</rs></persName> suppliciter nostram exorasse
+                        clementiam, quatenus quendam <rs
+                            key="#Mansi #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_individuals"
+                            >massariolum iuris regni nostri</rs> situm <geogName key="#Comitatus"
+                            ref="#estates/124"><rs key="#Comitatus">in comitatu
+                            Veronensi</rs></geogName>
+                        <geogName key="#Other_administrative_unit" ref="#estates/261"><placeName
+                                key="#Other_administrative_unit" ref="#places/575"><rs
+                                    key="#Other_administrative_unit">in valle Veriaco loco ubi
+                                    dicitur <placeName key="#Mansi"
+                                >Sortiago</placeName></rs></placeName></geogName>, pertinentem
+                            <geogName key="#Fiscal_property #Textual_occurrence #Mention"
+                            ref="#estates/135"><placeName
+                                key="#Fiscal_property #Textual_occurrence #Mention"
+                                ref="#places/258"><rs
+                                    key="#Curtes #Fiscal_property #Textual_occurrence #Mention">de
+                                    curte nostra quae Lazeses</rs></placeName>
+                        </geogName>vocitatur, cum universis ad eundem massariolum pertinentibus ex
+                        integro, nec non et <rs key="#Mills">quendam molendinum </rs>positum
+                            <geogName key="#Other_administrative_unit" ref="#estates/261"><placeName
+                                key="#Other_administrative_unit" ref="#places/575"><rs
+                                    key="#Other_administrative_unit">in predicta valle loco qui
+                                    dicitur <placeName key="#Mills">Pruno qui nominatur
+                                        Spiculum</placeName></rs></placeName></geogName>, pro Dei
+                        amore et remedio animae nostrae cuidam presbitero nomine <persName
+                            key="#fidelisOf" ref="#people/334"><rs key="#fidelisOf"
+                            >Odelberto</rs></persName><rs key="#Iure_proprietatis/pleno_iure"> iure
+                            proprietario</rs> modis omnibus concedere dignaremur. Cuius precibus
+                        acclinati predictum massariolum cum omnibus adiacentiis ac pertinentiis
+                        suis, casis videlicet, terris, vineis, campis, pratis, vineis, silvis,
+                        salectis, sacionibus, aquis aquarumque decursibus, seu cum omnibus que dici
+                        vel nominari possunt ad se pertinentibus, seu et prenominatum molendinum
+                        perpetuo iure eidem presbitero per hoc nostrae concessionis preceptum modis
+                        omnibus concedimus atque donamus, et de nostro iure ac dominio in eius ius
+                        atque dominium transfundimus et donamus, ut habeat, teneat, possideat
+                        faciatque in omnibus quicquid eius decreverit animus vel voluntas,
+                        potestatemque habeat donandi, vendendi, commutandi, alienandi, pro anima
+                        iudicandi seu quicquid voluerit faciendi tam ipse quam sui heredes, absque
+                        minoratione vel contradictione cuiusquam. Si quis igitur hoc nostrae
+                        auctoritatis seu concessionis preceptum aliquando infringere aut violare
+                        quesierit, sciat se procul dubio compositurum <rs key="#Penalty">auri optimi
+                            libras triginta</rs>, medietatem <rs key="#Camera_regis">camerae
+                            pal[at]ii nostri</rs> et medietatem predic[to presbitero suisque
+                        heredi]bus vel cui ipse aut ipsi habere conces[serint. Quod ut verius
+                        credatur et diligentius ob]servetur, manu propria roboratum de anulo nostro
+                        subter assignari prec[epimus.] Signum domni (MF) Berengarii serenissimi
+                        regis. <persName key="#Chancellor">Ambrosius <rs key="#Chancellor"
+                                >cancellarius </rs></persName>ad vicem <persName
+                            key="#Archchancellor #Bishops" ref="#people/216">Ardingi <rs
+                                key="#Archchancellor #Bishops">episcopi et archicancellarii
+                                recognovi et subscripsi</rs></persName>. (SR) (SI n. 11) Data kal.
+                        aug., anno dominice incamationis .DCCCCV., domni vero Berengarii serenissimi
+                        regis .XVIII., indictione .VIII. Actum <placeName
+                            key="#Fiscal_property #Textual_occurrence #Mention" ref="#places/364"
+                                ><rs key="#Fiscal_property #Textual_occurrence #Mention"
+                            >Tulles</rs></placeName>. in Christi nomine feliciter, amen. </ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>Schiapparelli, DD B. I, n. LIX, pp. 164-166; Fainelli, CDV, II, n. 72, pp. 85-87. </p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
