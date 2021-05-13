@@ -527,6 +527,7 @@
                     <link type="estates" corresp="#estates/262" subtype="isMadeOf"/>
                     <link type="estates" corresp="#estates/263" subtype="isMadeOf"/>
                     <link type="estates" corresp="#estates/264" subtype="isMadeOf"/>
+                    <link type="estates" corresp="#estates/265" subtype="isMadeOf"/>
                 </place>
                 <place>
                     <geogName>Hochburg; <foreign>curtis</foreign></geogName>
@@ -2038,10 +2039,13 @@
                     <link type="estates" corresp="#estates/103" subtype="isPartOf"/>
                 </place>
                 <place>
-                    <geogName>Tutitianus; fundus</geogName>
+                    <geogName><foreign>Tutitianus</foreign>; <foreign>fundus</foreign></geogName>
                     <geogName type="other"/>
                     <idno>estates/265</idno>
-                    <note/>
+                    <note>De Francesco 2004: 213: situato al IX miglio della via Clodia, questo
+                        fondo doveva trovarsi nei pressi dell'attuale Giustiniana (Roma).</note>
+                    <link type="people" corresp="#people/71" subtype="link"/>
+                    <link type="estates" corresp="#estates/103" subtype="isPartOf"/>
                 </place>
             </listPlace>
         </body>
