@@ -75,6 +75,7 @@
         <revisionDesc>
             <listChange>
                 <change when="2021-05-07" who="Antoniotagliente">creation of record</change>
+                <change when="2021-05-14" who="Antoniotagliente">minor changes</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -88,10 +89,12 @@
                             >Iohanni</persName> venerabili <rs key="#Abbots">abbati</rs>
                         <rs key="#Monasteries">monasterii</rs><orgName key="#Monasteries"
                             ref="#juridical_persons/84"> Sancti Benedicti</orgName>, hoc est omnes
-                            <geogName
+                            <rs
                             key="#Fiscal_property #Redistributive #Property_of_persons_without_heirs"
-                            >res et substantias que fuerunt cuiusdam Vitaliani</geogName> qui <rs
-                            key="#Natio">de exteris generationibus</rs> adveniens, sub scuto <rs
+                            >res et substantias que fuerunt cuiusdam <persName
+                                key="#Property_of_persons_without_heirs"><name ref="Vitalis"
+                                    >Vitaliani</name></persName></rs> qui <rs key="#Natio">de
+                            exteris generationibus</rs> adveniens, sub scuto <rs
                             key="#Tuitio/bannum/mundeburdium">nostre potestatis</rs> subdidit et
                         quiuia ad diem sui <rs key="#Funerary_rituals">obitus</rs>
                         <rs key="#Property_of_persons_without_heirs">filios legitimos</rs> non
@@ -107,7 +110,7 @@
                         vel inquietudine, sed perpetuis temporibus tu ipse venerabilis abbas
                         Iohannes et posteres tui habeatis et possideatis iam dictas res et
                         substantias predicti Vitaliani. Scripsi ego <persName key="#Writer #Monks"
-                            >Ildericus</persName>
+                                ><name ref="Ildericus">Ildericus</name></persName>
                         <rs key="#Monks">monachus</rs> in anno principatus supradictae potestatis
                         tricesimo, mense Septembrio, indictione quarta.</ab>
                 </div>

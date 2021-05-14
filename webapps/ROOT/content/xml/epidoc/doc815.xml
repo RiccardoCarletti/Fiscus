@@ -73,7 +73,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2021-02-08" who="ltabarrini">creation of record</change>
+                <change when="2021-05-14" who="ltabarrini">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -81,32 +81,36 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>In nomine Domini. Imperante domno nostro Hlodohuvicus magnus <rs
-                            key="#Emperor/king">imperator</rs>, anno quinto decimo, die de mense
-                        novembris, indictione terdia decima, feliciter. Breve recordationis qualiter
-                        Vualpertus Motinense ecclesie <rs key="#Bishops">episcopus</rs> et <rs
+                    <ab>In nomine Domini. Imperante domno nostro <persName key="#Emperor/king"
+                            ref="#people/267">Hlodohuvicus</persName> magnus <rs key="#Emperor/king"
+                            >imperator</rs>, anno quinto decimo, die de mense novembris, indictione
+                        terdia decima, feliciter. Breve recordationis qualiter <persName
+                            ref="#people/340" key="#Missus_regis #Bishops">Vualpertus</persName>
+                        Motinense ecclesie <rs key="#Bishops">episcopus</rs> et <rs
                             key="#Missus_regis">missus</rs> domni imperatoris veniens Vuardestalla,
                         habens exsemplar <rs key="#Imperial/royal_diploma">precepti</rs> domni
                         imperatoris quem ab multimode dilectionis <rs key="#Queen">auguste</rs>
-                        Inghelberge <rs
+                        <persName ref="#people/55" key="#Queen">Inghelberge</persName>
+                        <rs
                             key="#Fiscal_property #Textual_occurrence #Mention #Function #Exceptive #Dowry #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_individuals"
                             >iure proprietario</rs> domno imperator predicta <rs key="#Curtes"
                             >curtem</rs> cum <rs key="#Churches">capella</rs> et dote sua, cum
                         omnibus <rs key="#Royal_slave">servis et ancillis</rs> ac <rs key="#Houses"
                             >domibus</rs>, <rs key="#Cereals">agris</rs>, <rs key="#Wine"
-                            >vineis</rs>, pratis, pascuis, silvis, aquis aquarumque decursibus
-                        cunctisque in integrum ab eandem curtem aspicientibus seu omnibus movilibus
-                        et inmovilibus iuxte e legaliter ab eandem pertinentibus perpetualiter
-                        habendum concesserat. Quod exemplare lectum eorum presentia quorum nomina
-                        subto leguntur, idest Tancheradus capellanus et consiliarius domni
-                        imperatoris, Gisebertus, Adulfus, Deusdedit, Ragimfredus, Ragimbertus,
-                        Adelbertus, Teudericus, Petro, Atrepaldo, Amicho ex genere Francorum,
-                        Teusperto ex genere Francorum, Fulcherius ex genere Alammanorum, Ioanace
-                        presbiter, Vitale presbiter, Austreverto, Germano presbiter ex genere
-                        Francorum, Roperto presbiter, Hadebald diacono ex genere Francorum,
-                        Ildeberto diacono, Roperto diacono, Urso Langobardo, Urso presbiter,
-                        Luvegiso ex genere Francorum, Adreverto ex genere Francorum, Grinebertus
-                        notarius, Inglericus ex genere Alamannorum. In istorum omnium
+                            >vineis</rs>, <rs key="#Hay/fodder">pratis, pascuis</rs>, <rs
+                            key="#Forests">silvis</rs>, <rs key="#Rivers">aquis aquarumque
+                            decursibus</rs> cunctisque in integrum ab eandem curtem aspicientibus
+                        seu omnibus movilibus et inmovilibus iuxte e legaliter ab eandem
+                        pertinentibus perpetualiter habendum concesserat. Quod exemplare lectum
+                        eorum presentia quorum nomina subto leguntur, idest Tancheradus capellanus
+                        et consiliarius domni imperatoris, Gisebertus, Adulfus, Deusdedit,
+                        Ragimfredus, Ragimbertus, Adelbertus, Teudericus, Petro, Atrepaldo, Amicho
+                        ex genere Francorum, Teusperto ex genere Francorum, Fulcherius ex genere
+                        Alammanorum, Ioanace presbiter, Vitale presbiter, Austreverto, Germano
+                        presbiter ex genere Francorum, Roperto presbiter, Hadebald diacono ex genere
+                        Francorum, Ildeberto diacono, Roperto diacono, Urso Langobardo, Urso
+                        presbiter, Luvegiso ex genere Francorum, Adreverto ex genere Francorum,
+                        Grinebertus notarius, Inglericus ex genere Alamannorum. In istorum omnium
                         superscriptorum praesentia, post relectum exemplar, iamdictus Vualpertus
                         episcopus ex iussione domni imperatoris a parte domne Ingheberghae auguste
                         Petrum iuris eius famulum et ministrum vicem eiusdem augustem per columnam
