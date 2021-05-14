@@ -75,6 +75,7 @@
         <revisionDesc>
             <listChange>
                 <change when="2021-05-07" who="Antoniotagliente">creation of record</change>
+                <change when="2021-05-14" who="Antoniotagliente">changes</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -84,8 +85,8 @@
                 <div type="textpart">
                     <ab>Nos <persName key="#Princeps" ref="#people/157">Paldolfus</persName> divina
                         ordinante providentia <rs key="#Princeps">Langobardorum gentis
-                        princeps</rs>, per rogum <persName key="#Personal_rank"><name
-                                ref="Paldolfus">Paldolfi</name></persName>
+                        princeps</rs>, <rs key="#Intercessory">per rogum </rs><persName
+                            key="#Personal_rank"><name ref="Pandulfus">Paldolfi</name></persName>
                         <rs key="#Personal_rank">dilecti </rs>nostri, concedimus et confirmamus in
                             <rs key="#Monasteries">monasterio</rs>
                         <orgName key="#Monasteries" ref="#juridical_persons/84">Beatissimi
@@ -108,7 +109,7 @@
                         querat parte predicti monasterii de ipsis rebus tollere vel diminuare aut
                         exinde in aliquo molestare vel in curte eiusdem monasterii intrare ad
                         tollendum qualibet publica exactione, sed amodo et deinceps predictis rebus
-                        cum <rs key="#Diploma">scriptionibus</rs> et <rs key="#Offersio/donatio"
+                        cum <rs key="#Cartula">scriptionibus</rs> et <rs key="#Offersio/donatio"
                             >offersionibus</rs> seu preceptora possideat in perpetuum absque omni
                         datione publica. Nunc autem nominatim concedimus et cursus ipsius aque cum
                             <rs key="#Rights_of_use_on_woods/pastures/waters">alveo suo et
@@ -135,8 +136,8 @@
                         possideat predictus sanctus monasterium semper. Et quicumque hanc nostram
                         concessionem in aliquo violare presumpserit, sciat se esse compositurum in
                         eodem venerabili loco <rs key="#Penalty">auri libras IIII(or)</rs>, et heac
-                        concessio firma permaneat in perpetuum. Scrisi ego <persName key="#Notary"
-                            >Petrus</persName>
+                        concessio firma permaneat in perpetuum. Scripsi ego <persName key="#Notary"
+                            ref="#people/337">Petrus</persName>
                         <rs key="#Notary">notarius</rs> ex iussione supradicte potestatis, in anno
                         XX(o) primo principatus eius, mense Maio, indictione VII. Actum in <rs
                             key="#Cities">civitate</rs>
