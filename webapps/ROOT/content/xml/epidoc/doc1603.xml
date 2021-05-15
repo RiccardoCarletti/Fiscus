@@ -4,8 +4,8 @@
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
-                <title>Archivio Storico Diocesano di Salerno, Arca I, n. 1 (dopia autenticata del
-                    1179); Giordano 2014, nn. 1 e 178.</title>
+                <title>Archivio Storico Diocesano di Salerno, Arca I, n. 1, copia autenticata del
+                    1179 (Giordano, Le pergamene, nn. 1 e 178)</title>
             </titleStmt>
             <editionStmt>
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
@@ -42,10 +42,10 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate notBefore="0001" notAfter="0001" when="0001"> 
-                                <note type="displayed_date"></note>
-                                <note type="dating_elements"></note>
-                                <note type="topical_date"></note>
+                            <origDate when="0841">
+                                <note type="displayed_date">841-08-00</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Salerno</note>
                             </origDate>
                             <origPlace/>
                         </origin>
@@ -73,7 +73,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2021-02-08">creation of record</change>
+                <change when="2021-05-15" who="Vlore">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -81,11 +81,32 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab></ab>
+                    <ab>In nomine domini Dei salvatoris Iesu Christi. Nos domnus vir gloriosissimus
+                        Sicenolfus Dei providentia Longobardorum gentis princeps, pro salutis anime
+                        nostre et ex gentis nostre salvationis, per rogum Grimoaldi comiti fideli
+                        nostro concedimus in episcopio sancte sedis Salernitane Ecclesie, ubi nunc
+                        Alo episcopus preesse videtur, monasterio Sancti Petri de Palatio qui es in
+                        S.coline cum terris et vineis, campis et silvis seu pascuis cum servis et
+                        ancillis et omnem suam pertinentiam; insimul et concedimus in predictam
+                        sanctam sedem plebem Sancte Marie de Nuceria cum omnem suam substantiam cum
+                        servis et ancillis et omnem suam pertinentiam; quam et concedimus in eodem
+                        sancto episcopio molina ipsa in flubio Lirno qui fuerunt de Leone Scrofella,
+                        qui habunt fines ipsa terra: de una parte fine predictum flumen Lirno; de
+                        duas partes fine via publica cum arcaturia et sedimen de predicta molina. In
+                        ea videlicet ratione ut amodo et deinceps, per hoc nostrum roboreum
+                        preceptum, predicta omnia que superius legitur in predictam sanctam sedem
+                        permaneat eius rectoribus dominandi atque possidendi et fruendi nomine et a
+                        nullo ex nostris iudicibus, idest comitibus, gastaldeis vel a quibuscumque
+                        agentibus habeatis aliquam requisitionem, set in perpetuis temporibus omnia
+                        que superius legitur in eadem sancta sede permaneat eius rectoribus
+                        ordinandum et dominandum atque securiter habendum. Quod vero preceptum
+                        concessionis ex iussione suprascripte potestati scripsi ego Ragemprandus
+                        notarius. Actum Salerno, secundo anno, mense qugusto, quarta
+                        indictione.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p/>
+                <p>Giordano 2014, n. 1.</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>
