@@ -2876,6 +2876,8 @@
                     <persName>Pertualdus (720) <foreign>vir magnificus</foreign></persName>
                     <persName type="other"/>
                     <idno>people/341</idno>
+                    <link type="people" corresp="#people/342" subtype="sonOf"/>
+                    <link type="people" corresp="#people/343" subtype="sonOf"/>
                     <note/>
                 </person>
                 <person>
@@ -2883,12 +2885,16 @@
                     <persName type="other"/>
                     <idno>people/342</idno>
                     <note/>
+                    <link type="people" corresp="#people/343" subtype="brotherOf"/>
+                    <link type="people" corresp="#people/341" subtype="fatherOf"/>
                 </person>
                 <person>
                     <persName>Peredeo (720) <foreign>episcopus Lucensis</foreign></persName>
                     <persName type="other"/>
                     <idno>people/343</idno>
                     <note/>
+                    <link type="people" corresp="#people/342" subtype="brotherOf"/>
+                    <link type="people" corresp="#people/341" subtype="fatherOf"/>
                 </person>
             </listPerson>
         </body>
