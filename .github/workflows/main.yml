@@ -11,7 +11,7 @@ jobs:
        uses: easingthemes/ssh-deploy@v2.1.4
        env:
             SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
-            REMOTE_HOST: ${{ secrets.SSH_HOST }}
+            REMOTE_HOST: 137.204.128.125
             REMOTE_USER: irene.vagionakis2@unibo.it
-            SOURCE: "/"
+            SOURCE: ""
             TARGET: /var/www/html/Fiscus_bis
