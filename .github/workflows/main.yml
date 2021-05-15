@@ -29,5 +29,7 @@ jobs:
         key: ${{ secrets.SSH_PRIVATE_KEY }} 
         known_hosts: ${{ secrets.SSH_HOST }} 
       
-    - name: Deploy with rsync
-      run: rsync -re --delete --exclude={'.git/','*.log','sw/jetty/temp'} . ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/var/www/html/
+    - name: Pull
+      run: ssh -i ${{ secrets.SSH_PRIVATE_KEY }} irene.vagionakis2@unibo.it@137.204.128.125
+        cd /var/www/html/Fiscus_bis
+        sudo git pull
