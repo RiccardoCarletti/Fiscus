@@ -1,35 +1,17 @@
-# This is a basic workflow to help you get started with Actions
-
 name: CI
-
-# Controls when the action will run. 
 on:
-  # Triggers the workflow on push or pull request events but only for the master branch
-  push:
+  push: 
     branches: [ master ]
-  pull_request:
-    branches: [ master ]
-
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
-
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
-  build:
-    # The type of runner that the job will run on
+  deploy:
     runs-on: ubuntu-latest
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-    
-    - name: Install SSH Key
-      uses: shimataro/ssh-key-action@v2
-      with:
-        key: ${{ secrets.SSH_PRIVATE_KEY }} 
-        known_hosts: ${{ secrets.SSH_HOST }} 
-      
-    - name: Pull
-      run: ssh -i ${{ secrets.SSH_PRIVATE_KEY }} irene.vagionakis2@unibo.it@137.204.128.125
-        cd /var/www/html/Fiscus_bis
-        sudo git pull
+     - uses: actions/checkout@v2
+     - name: ssh deploy
+       uses: easingthemes/ssh-deploy@v2.1.4
+       env:
+            SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+            REMOTE_HOST: 137.204.128.125
+            REMOTE_USER: irene.vagionakis2@unibo.it
+            SOURCE: ""
+            TARGET: /var/www/html/Fiscus_bis
