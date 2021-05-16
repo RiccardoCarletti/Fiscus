@@ -7,13 +7,6 @@ jobs:
     runs-on: [ubuntu-latest]
     steps:
       - uses: actions/checkout@v1
-      #  uses: easingthemes/ssh-deploy@v2.1.4
-      #  env:
-      #      SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY_BEGIN_END }}
-      #      REMOTE_HOST: ${{ secrets.SERVER_IP }}
-      #      REMOTE_USER: ${{ secrets.SERVER_USERNAME }}
-      #      TARGET: "/var/www/html/Fiscus_bis"
-
      #   - name: Install SSH Key
      #     uses: shimataro/ssh-key-action@v2
      #     with:
