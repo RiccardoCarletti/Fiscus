@@ -18,6 +18,14 @@ jobs:
         uses: easingthemes/ssh-deploy@v2.1.4
         env:
             SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
-            REMOTE_HOST: "137.204.128.125"
-            REMOTE_USER: "irene.vagionakis2@unibo.it"
+            REMOTE_HOST: ${{ secrets.SERVER_IP }}
+            REMOTE_USER: ${{ secrets.SERVER_USERNAME }}
             TARGET: "/var/www/html/Fiscus_bis"
+
+      #${{ secrets.SERVER_IP }}
+      #${{ secrets.SERVER_PASSWORD }}
+      #${{ secrets.SERVER_USERNAME }}
+      #${{ secrets.SSH_HOST }}
+      #${{ secrets.SSH_PRIVATE_KEY }}
+      #${{ secrets.SSH_PRIVATE_KEY_BEGIN_END }}
+      #${{ secrets.SSH_PUBLIC_KEY }}
