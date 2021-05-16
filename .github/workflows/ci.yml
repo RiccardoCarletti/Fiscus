@@ -7,11 +7,17 @@ jobs:
     if: github.ref == 'refs/heads/master'
     runs-on: [ubuntu-latest]
     steps:
-      - uses: actions/checkout@v1
-      #- name: Push to server
+      - uses: actions/checkout@v2
+      - name: ssh deploy
       #  uses: appleboy/ssh-action@master
       #  with:
       #    host: ${{ secrets.SERVER_IP }}
       #    username: ${{ secrets.SERVER_USERNAME }}
       #    password: ${{ secrets.SERVER_PASSWORD }}
       #    script: cd /var/www/html/Fiscus_bis && git pull
+        uses: easingthemes/ssh-deploy@v2.1.4
+        env:
+            SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+            REMOTE_HOST: "137.204.128.125"
+            REMOTE_USER: "irene.vagionakis2@unibo.it"
+            TARGET: "/var/www/html/Fiscus_bis"
