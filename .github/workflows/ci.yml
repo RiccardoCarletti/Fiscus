@@ -3,11 +3,11 @@ name: CI
 on: [push]
 
 jobs:
-  build:
+  deploy:
     if: github.ref == 'refs/heads/master'
     runs-on: [ubuntu-latest]
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v1
       - name: ssh deploy
       #  uses: appleboy/ssh-action@master
       #  with:
@@ -15,12 +15,13 @@ jobs:
       #    username: ${{ secrets.SERVER_USERNAME }}
       #    password: ${{ secrets.SERVER_PASSWORD }}
       #    script: cd /var/www/html/Fiscus_bis && sudo git pull
-        uses: easingthemes/ssh-deploy@v2.1.4
-        env:
-            SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
-            REMOTE_HOST: ${{ secrets.SERVER_IP }}
-            REMOTE_USER: ${{ secrets.SERVER_USERNAME }}
-            TARGET: "/var/www/html/Fiscus_bis"
+      
+      #  uses: easingthemes/ssh-deploy@v2.1.4
+      #  env:
+      #      SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+      #      REMOTE_HOST: ${{ secrets.SERVER_IP }}
+      #      REMOTE_USER: ${{ secrets.SERVER_USERNAME }}
+      #      TARGET: "/var/www/html/Fiscus_bis"
 
       #${{ secrets.SERVER_IP }}
       #${{ secrets.SERVER_PASSWORD }}
