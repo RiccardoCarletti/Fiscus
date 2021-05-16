@@ -1,19 +1,18 @@
+#https://github.com/shimataro/ssh-key-action
 name: CI
-
 on: [push]
-
 jobs:
   deploy:
     runs-on: [ubuntu-latest]
     steps:
       - uses: actions/checkout@v1
-     #   - name: Install SSH Key
-     #     uses: shimataro/ssh-key-action@v2
-     #     with:
-     #       key: ${{ secrets.SSH_PRIVATE_KEY_BEGIN_END }} 
-     #       known_hosts: ${{ secrets.SSH_HOST }}
-     #   - name: rsync over ssh
-     #     run: rsync ./ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/var/www/html/
+      - name: Install SSH Key
+        uses: shimataro/ssh-key-action@v2
+        with:
+            key: ${{ secrets.SSH_PRIVATE_KEY_BEGIN_END }} 
+            known_hosts: ${{ secrets.SSH_HOST }}
+      - name: rsync over ssh
+        run: rsync ./ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/var/www/html/
 
       #${{ secrets.SERVER_IP }}
       #${{ secrets.SERVER_PASSWORD }}
