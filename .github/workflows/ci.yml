@@ -2,17 +2,17 @@ name: CI
 on: [push]
 jobs:
   build:
-    name: Build
     runs-on: ubuntu-latest
     steps:
-      - name: executing remote ssh commands using ssh key
-        uses: appleboy/ssh-action@master
-        with:
-          host: ${{ secrets.SERVER_IP }}
-          username: ${{ secrets.SERVER_USERNAME }}
-          key: ${{ secrets.SSH_PRIVATE_KEY }}
+      - uses: actions/checkout@v1
+      #- name: executing remote ssh commands using ssh key
+        #uses: appleboy/ssh-action@master
+        #with:
+          #host: ${{ secrets.SERVER_IP }}
+          #username: ${{ secrets.SERVER_USERNAME }}
+          #key: ${{ secrets.SSH_PRIVATE_KEY }}
           #password: ${{ secrets.SERVER_PASSWORD }}
-          script: cd /var/www/html/Fiscus_bis && git pull
+          #script: cd /var/www/html/Fiscus_bis && git pull
       
       #  uses: easingthemes/ssh-deploy@v2.1.4
       #  env:
