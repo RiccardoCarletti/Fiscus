@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    Diplomatico, +K.64 (copia sec. VIII-IX) </title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc4012</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#"/>
+                                    <rs type="record_source" ref="#"/>
+                                    <rs type="document_tradition" ref="#"/>
+                                    <rs type="fiscal_property"/>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate notAfter="0722-08-31" notBefore="0722-06-01">
+                                <note type="displayed_date">722 [June - August 31]</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Lucca</note>
+                            </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-05-16" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab>Exemplar. + In nomine domini Dei nostri Iesu Christi. Regnante domno
+                        nostro Liutprand vir excellentissimo rege, anno filicissimo regni eius in
+                        Dei nomen undecimo, per indictione quinta; feliciter. Dum praesentis vitae
+                        et transitus istius temporis facultas et axis noster nativitatis huius
+                        saeculi spatia devolvitur certissime, considerandum est hac tota mente
+                        intentionem cogitandum, ea que nobiscum in perpetuum tenere non possumus de
+                        ipsa temporalia rerum habundantia, quod nobis Dominus dignatus est donare,
+                        aeterna mercare debeamus, quia huius mundi divitiae donando in aeternum
+                        servantur, et retenendo aeterna poena damnantur. unde Dominus per semetipsum
+                        loquitur dicens: “Nolite thensaurizare vobis super terram, ubi furis
+                        effodiunt et furantur, sed thesaurizate uobis thesaurum in caelum, ubi fur,
+                        id est diabolus, non adpropinquat”. Et iter(um) dicens: “facite vobis amicus
+                        de mamone iniquitatis, ut cum defeceritis, recipiam vos in aeterna
+                        tabernacula”. Hinc itaque ego Ursus ex tota mente devotionis pertractans ea
+                        que supra memorata sunt, pro mercidem et remedium anime meae et
+                        conparationem vitae aeterne, aedificavi ecclesia proprio in territorio meo
+                        in honore sancte Dei genetricis Marie, in qua filia mea Ursa abbatissa esse
+                        constituo, una cum germana sua Anstruda relegiosa hac monastica vitam
+                        gerentis, in qua ecclesia mea pro facinora hodie in presentia civium do,
+                        dono, trado, donatoque esse volo: in primis, fundamentum ubi predicta
+                        ecdesia fundata est, cum curte et puteo suo, orto, aditu, accessu et egitu
+                        suo, hoc est terra modio simis; campo in Fussione, qui nobis in cambio
+                        advenit, medietate de Auchis et medietate de Wilif[…] in integrum et casa
+                        Fusculi in Massa Tagiani, qui mihi advenit ex dono domni Aripert rege;
+                        Candido vaccario cum armento suo et cum metato suo in loco Tumolo; sala in
+                        loco Ferroniano cum duas casas tributarias, una qui regitur per Candido et
+                        alia per Maioriano, cum familia eorum, uinea, olivito, silva, peculiare
+                        prato in ipso loco supramemorato; et casa Aroald […]; casas duas in Novole
+                        de morganicaput mulieri meae, una qui regitur per Fridichis et alia per
+                        Corbolo; Godoara puella pro livera; Gunda pro livera; Wilipergula pro
+                        livera; Candida pro ancilla, Tinctula pro ancilla; ut haec omnia iam dicta
+                        Dei ecclesia bono iure possedeat, et quod adhuc ibidem largitus fuero firmum
+                        permaneat, et christianis temporibus sanctarum ancillarum Dei monasterio
+                        nuncupentur; et post decessu Ursae filiae meae, Anstruda germana eius
+                        monasterii cura ipsa suscepiat, et post ambarum decessum, eam que sibi
+                        congregatio eligere voluerit, ipsa in abbatisse ordo succidat; et ego qui
+                        supra Ursus dum sub propria et iuxta Dei volumtate, in mea volo esse
+                        potestate gubernandi, nam filius meus uel heredis meus nullam ibidem habeat
+                        potestatem dominandi, nisi orare et benefacire. nec nullus sacerdus ibidem
+                        habitare presummat, nisi quem ipsas ancillas Dei invitare voluerint missarum
+                        sollempnia celebrandum. Si quis contra hanc decretum meum ire quandoque
+                        presumpserit, in Dei incurrat iudicium, et ab ipsa sancta Dei genetricem
+                        anathematus subiaceat. Quam vero cartulam decretionis meae noto et amico meo
+                        Agione viro venerabili presbitero scribendam rogavi, et subter pro
+                        confirmationcm propriis manibus meis signum sancte crucis feci, et testibus
+                        obtuli eam roborandam, sub stipulatione et spunsioneque interposita. Actum
+                        Luca, diem et regnum et indictione suprascripta; feliciter. Signum + manus
+                        Ursuni autori et donatori seo et conservatori, qui hanc cartulam fieri
+                        rogavit. + Ego T alesperianus eximius episcopus uhic cartule dotalium
+                        rogatus ad filio meo Urisone testi subiscripsi. + Ego Roduald indignus ac
+                        presbiter rogatus ad Orsum testis suscripsi. + Ego Aunichisi exiguus
+                        presbiter rogatus ab Ursone testis suscripsi. +Ego Gaifrid presbiter rogatus
+                        ad Orsune huic cartule dotalium testis suscripsi. Signum + manus Walpert
+                        viri illustris duci testis. Signum + manus Alahis viri magnifici testem. +
+                        Ego […]troni vir laudabilis rogatus a Ursone viro devoto uhic cartule
+                        dotalium facta in Sancta Maria vel confirrnationis in filia sua ut superius
+                        legitor, testis suscripsi. Signum + manus Romuald testem. Signum + manus
+                        Guntelmi testem. Signum + manus Sinduini testem. + Ego Rachiprandus
+                        subdiaconus fideliter exemplavi. + Ego […]prandus presbiter ipsum
+                        auctenticum vidi et legi, unde hoc exemplar relevatum est, in qua manu mea
+                        subscripsi. + Ego […]theri presbiter ipsum auctenticum vidi et legi, unde
+                        hoc exemplar relevatum est, in qua manu mea subscripsi. + Ego [… pres]biter
+                        ipsum autenticum vidi et legi, unde hoc exemplar relevuatum est, in qua manu
+                        mea subscripsi. [+ Ego …]randus presbiter ipsum autenticum vidi et legi,
+                        unde hoc exemplar relevatum est, in qua manu mea subscripsi. [+ Ego
+                        …]epertus subdiaconus ipsum autenticum vidi et legi, unde hoc exemplar
+                        relevatum est, in qua manu mea subscripsi. + Ego Benedictus subdiaconus
+                        ipsum autenticum vidi et legi, unde hoc exemplar relevatum est, in qua manum
+                        mea subscripsi. </ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL, V/2, n. 10; CDL I, n. 30; ChLA, XXX, 900</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                         <p>Persone: Liutprando re; Ursus (p. Ursa ab., Anstruda) [Orso]; Ursa ab. (f. Ursus; sor. Anstruda) [Orsa]; Anstruda (f. Ursus; sor. Ursa ab.); Auchis; Vuilifusi; Fusculus [mass]; Ariperto re; Candido vaccario; Candido [mass]; Maiorano [mass]; Aroald [mass]; Fridichis [mass]; Corbolo [mass]; Godoara; Gunda; Vuilipergula; Candida ancilla; Tinctula ancilla; Aio v. ven. pbr; Talesperianus ep [di Lucca]; Roduald pbr; Aunichisi pbr; Gaifrid pbr; Vualpert [Walpert] v. glor. duci; Alahis v. magn.; […]troni v. laud.; Romuald; Guntelmi; Sinduini; Rachiprandus s/diac; […]prandus pbr; […]theri pbr; […] pbr; […]prandus pbr; […]dipertus s/diac; Benedictus s/diac. Luoghi: Fussione [c/o Lammari]; Massa Tagiani; Tumolo; Ferroniano; Novule; Luca [Lucca]. Chiese: ecclesia … in honore sancte dei genitricis Marie [S. Maria (Ursimanni di Lucca)] . Cariche: Walperto duca di Lucca. Note: rif. a cives; cit. prec. permuta; cit. dono regio; Talesperiano ep definisce nella sscr Orso filio meo (in senso proprio o figurato?) . Indice: fondazione / dotazione - monastero - re - dipendenti - allevamento - morgengabe - duca - fam. Walprando vesc</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>
