@@ -1,11 +1,11 @@
-name: CI
+#name: CI
 
-on: [push]
+#on: [push]
 
-jobs:
-  deploy:
-    runs-on: [ubuntu-latest]
-    steps:
+#jobs:
+ # deploy:
+  #  runs-on: [ubuntu-latest]
+   # steps:
       #- uses: actions/checkout@v1
       #- name: Push to server
       #  uses: appleboy/ssh-action@master
@@ -23,13 +23,13 @@ jobs:
       #      REMOTE_USER: ${{ secrets.SERVER_USERNAME }}
       #      TARGET: "/var/www/html/Fiscus_bis"
 
-        - name: Install SSH Key
-          uses: shimataro/ssh-key-action@v2
-          with:
-            key: ${{ secrets.SSH_PRIVATE_KEY_BEGIN_END }} 
-            known_hosts: ${{ secrets.SSH_HOST }}
-        - name: Deploy with rsync
-          run: rsync -avz . ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/var/www/html/
+     #   - name: Install SSH Key
+     #     uses: shimataro/ssh-key-action@v2
+     #     with:
+     #       key: ${{ secrets.SSH_PRIVATE_KEY_BEGIN_END }} 
+     #       known_hosts: ${{ secrets.SSH_HOST }}
+     #   - name: Deploy with rsync
+     #     run: rsync -avz . ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/var/www/html/
 
       #${{ secrets.SERVER_IP }}
       #${{ secrets.SERVER_PASSWORD }}
