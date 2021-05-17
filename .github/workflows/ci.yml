@@ -10,16 +10,16 @@ jobs:
         with:
             key: ${{ secrets.SSH_PRIVATE_KEY_BEGIN_END }} 
             known_hosts: ${{ secrets.SSH_HOST }}
-      #- name: rsync over ssh
-      #  run: rsync ./ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/var/www/html/
-
-      - name: pull via ssh
-        uses: appleboy/ssh-action@master
-        with:
-          host: ${{ secrets.SERVER_IP }}
-          username: ${{ secrets.SERVER_USERNAME }}
-          password: ${{ secrets.SERVER_PASSWORD }}
-          script: cd /var/www/html/Fiscus_bis
+      - name: rsync
+        run: ssh ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}
+        
+      #- name: pull via ssh
+      #  uses: appleboy/ssh-action@master
+       # with:
+        #  host: ${{ secrets.SERVER_IP }}
+         # username: ${{ secrets.SERVER_USERNAME }}
+         # password: ${{ secrets.SERVER_PASSWORD }}
+         # script: cd /var/www/html/Fiscus_bis
 
       #${{ secrets.SERVER_IP }}
       #${{ secrets.SERVER_PASSWORD }}
