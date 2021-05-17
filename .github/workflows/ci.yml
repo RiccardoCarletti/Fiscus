@@ -10,8 +10,8 @@ jobs:
         with:
             key: ${{ secrets.SSH_PRIVATE_KEY_BEGIN_END }} 
             known_hosts: ${{ secrets.SSH_HOST }}
-      - name: rsync over ssh
-        run: rsync ./ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/var/www/html/
+      #- name: rsync over ssh
+      #  run: rsync ./ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/var/www/html/
 
       #${{ secrets.SERVER_IP }}
       #${{ secrets.SERVER_PASSWORD }}
