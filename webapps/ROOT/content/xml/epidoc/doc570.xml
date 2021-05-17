@@ -35,7 +35,7 @@
                                 >--Libellus/precaria/emphyteusis</rs>
                                     <rs type="record_source" ref="#">Original document</rs>
                                     <rs type="document_tradition" ref="#">Original</rs>
-                                    <rs type="fiscal_property">No</rs>
+                                    <rs type="fiscal_property">Yes</rs>
                                 </summary>
                                 <msItem xml:id="msItem1">
                                     <textLang mainLang="" otherLangs=""/>
@@ -43,11 +43,11 @@
                             </msContents>
                             <history>
                                 <origin>
-                                    <origDate notBefore="0001" notAfter="0001" when="0001">
-                                    <note type="displayed_date">0902/05/18</note>
-                                    <note type="dating_elements"></note>
-                                    <note type="topical_date">Actum Luca (Lucca)</note>
-                                    </origDate>
+                                    <origDate when="0902-05-18">
+                                <note type="displayed_date">902 May 18</note>
+                                <note type="dating_elements">Anno d’impero di Ludovico</note>
+                                <note type="topical_date">Lucca</note>
+                            </origDate>
                                     <origPlace/>
                                 </origin>
                                 <provenance>
@@ -74,7 +74,7 @@
                 </profileDesc>
                 <revisionDesc>
                     <listChange>
-                        <change when="2021-01-06" who="ptomei">creation of record</change>
+                        <change when="2021-05-17" who="ptomei">creation of record</change>
                     </listChange>
                 </revisionDesc>
             </teiHeader>
@@ -82,24 +82,90 @@
                 <body>
                     <div type="edition">
                         <div type="textpart">
-                            <ab>
-                                Il notaio Leone del fu Pietro detto Ato riceve in livello dal vescovo di Lucca Pietro, la chiesa di San Terenzio sito loco Vico Elingo prope Strata, di pertinenza del vescovato di San Martino, con tutte le sue dipendenze, fra cui una casa et res massaricia posta in loco et finibus ubi dicitur inter fluvio Arno et fluvio Eubula, in precedenza tenuta dal prete Simprando; una casa et res massaricia posta in loco et finibus Vitriano, tenuta da Deusdedi, Leone e Adalprando; una res posta in loco et finibus Caricini, in precedenza tenuta da (...); una vigna posta in suprascripto loco et finibus Vico Elingo, confinante uno capo in fluvio Auserclo, alio capo con terra della chiesa di San Terenzio, lato uno con terra dei figli di Luccio, alio lato con una vigna dei figli di Adaldo; un appezzamento di terra nello stesso luogo, confinante uno capo con la suddetta vigna, alio capo in via e con la suddetta chiesa di San Terenzio, lato uno con terra dei figli del fu Adaldo, alio lato con terra del figlio di Arderico; un appezzamento di terra nello stesso luogo, confinante capo uno con terra di Pietro, alio capo con terra dei figli di Luccio, lato uno con terra del suddetto Pietro, alio lato in via; un appezzamento di terra nello stesso luogo, confinante capo uno in via, alio capo in via, lato uno con terra ecclesie Sancti Petri, alio lato con terra del re; 5 appezzamenti di terra posti in loco et finibus Vico prope ecclesie Sancti Petri, il primo confinante capo uno con terra dei fratelli Adalghisi e Teuperto, alio capo in simitula, lato uno con terra che fu di Ildiberto, il secondo confinante capo uno in via publica, alio capo con terra del fu conte Ildiprando, il terzo confinante capo uno in via publica, alio capo con terra del fu Ildiberto, il quarto confinante capo uno cum uno lato con terra del fu Ildiprando, il quinto confinante capo uno cum uno lato con terra del re, alio capo in simitula; con tutte le loro dipendenze.
-Ottiene la potestas di suballivellare la chiesa con i suoi beni a Rogerio.
-Si impegna affinché per sua disposizione nella chiesa si tengano officium Dei et luminaria seo missarum solemnia.
-Si impegna a versare pro omni censum et iustitia al vescovo e ai suoi successori ogni mese di gennaio il censo annuale di 72 denari d’argento ad pars del vescovato.
-Se non rispetterà i suddetti impegni, promette di versare al vescovo e ai suoi successori la pena di 60 soldi d’argento.
-Chiede al notaio Cosperto la stesura di due cartulas.
-                                <persName>Autori: Pietro episcopus, Leone notarius del fu Pietro detto Ato.
-Scrittore: Cosperto notarius.
-Testimoni sottoscrittori: Romualdo, Tassimanno notarius, Gheripaldo, Ghisimundo notarius, Adalperto notarius et schabinus.
-Altro: Simprando presbiter, Deusdedi, Leone, Adalprando, ff. del fu Luccio, ff. del fu Adaldo, f. di Arderico, gg. Adalghisi e Teuperto, fu Ildiberto, fu Ildiprando comes, Rogerio.</persName>
-                                <placeName>Luca (Lucca), Vico Elingo prope Strata (vicino Marlia, Capannori), Arno (fiume Arno), Eubula (torrente Egola), Vitriano (Vetriano, Pescaglia), Caricini (Careggine), Auserclo (fiume Serchio), Vico (San Pietro a Vico, Lucca).</placeName>
-                                <orgName>San Terenzio di Vico Elingo, San Pietro di (?), San Pietro di Vico Asulari, San Martino di Lucca (chiesa matrice).</orgName>
-                            </ab>
+                            <ab>Il <rs key="#Notary">notaio</rs>
+                        <persName key="#Notary"><name ref="Leo">Leone</name></persName> del
+                            <persName>fu <name ref="Petrus/Atto">Pietro detto Ato</name></persName>
+                        riceve in livello dal <rs key="#Bishops">vescovo</rs> di Lucca <persName
+                            ref="#people/213" key="#Bishops">Pietro</persName>, la <orgName
+                            key="#Confinia #Landed_possessions #Churches"><rs key="#Churches"
+                                >chiesa</rs> di San Terenzio sito loco <placeName
+                                key="#Rivers #Petiae #Fiscal_property #Mention #Emperor/king #Churches"
+                                >Vico Elingo prope Strata</placeName></orgName>, di pertinenza del
+                            <orgName ref="#juridical_persons/68" key="#Mother_churches"><rs
+                                key="#Mother_churches">vescovato</rs> di San Martino</orgName>, con
+                        tutte le sue dipendenze, fra cui una casa et res massaricia posta in loco et
+                        finibus ubi dicitur inter <rs key="#Rivers">fluvio Arno</rs> et <rs>fluvio
+                            Eubula</rs>, in precedenza tenuta dal <rs key="#Priests">prete</rs>
+                        <persName key="#Priests"><name ref="Sindebrandus"
+                            >Simprando</name></persName>; una casa et res massaricia posta in loco
+                        et finibus <placeName>Vitriano</placeName>, tenuta da <persName><name
+                                ref="Deusdedit">Deusdedi</name></persName>, <persName><name
+                                ref="Leo">Leone</name></persName> e <persName><name
+                                ref="Adalbrandus">Adalprando</name></persName>; una res posta in
+                        loco et finibus <placeName ref="#places/202">Caricini</placeName>, in
+                        precedenza tenuta da (...); una vigna posta in suprascripto loco et finibus
+                        Vico Elingo, <rs key="#Confinia #Landed_possessions">confinante</rs> uno
+                        capo in <rs key="#Rivers">fluvio Auserclo</rs>, alio capo con terra della
+                        chiesa di San Terenzio, lato uno con terra dei figli di <persName
+                            key="#Confinia #Landed_possessions"><name ref="Luccius"
+                            >Luccio</name></persName>, alio lato con una vigna dei figli del
+                            <persName key="#Confinia #Landed_possessions" ref="#people/151">fu
+                            Adaldo</persName>; un appezzamento di terra nello stesso luogo,
+                        confinante uno capo con la suddetta vigna, alio capo in via e con la
+                        suddetta chiesa di San Terenzio, lato uno con terra dei figli del fu Adaldo,
+                        alio lato con terra del figlio di <persName
+                            key="#Confinia #Landed_possessions"><name ref="Ardericus"
+                                >Arderico</name></persName>; un appezzamento di terra nello stesso
+                        luogo, confinante capo uno con terra di <persName
+                            key="#Confinia #Landed_possessions"><name ref="Petrus"
+                            >Pietro</name></persName>, alio capo con terra dei figli di Luccio, lato
+                        uno con terra del suddetto Pietro, alio lato in via; un appezzamento di
+                        terra nello stesso luogo, confinante capo uno in via, alio capo in via, lato
+                        uno con terra <orgName key="#Churches"><rs key="#Churches">ecclesie</rs>
+                            Sancti Petri</orgName>, alio lato con <rs
+                            key="#Petiae #Fiscal_property #Mention">terra</rs> del <rs
+                            key="#Emperor/king">re</rs>; 5 appezzamenti di terra posti in loco et
+                        finibus <placeName key="#Churches" ref="#places/64">Vico</placeName> prope
+                            <orgName key="#Churches"><rs key="#Churches">ecclesie</rs> Sancti
+                            Petri</orgName>, il primo confinante capo uno con terra dei fratelli
+                            <persName key="#Confinia #Landed_possessions">Adalghisi</persName> e
+                            <persName key="#Confinia #Landed_possessions">Teuperto</persName>, alio
+                        capo in simitula, lato uno con terra del <persName
+                            key="#Confinia #Landed_possessions">fu Ildiberto</persName>, il secondo
+                        confinante capo uno in via publica, alio capo con terra del <persName
+                            key="#Confinia #Petiae #Count" ref="#people/225">fu
+                            Ildiprando</persName>
+                        <rs key="#Count">conte</rs>, il terzo confinante capo uno in via publica,
+                        alio capo con terra del fu Ildiberto, il quarto confinante capo uno cum uno
+                        lato con terra del <persName key="#Confinia #Landed_possessions">fu
+                            Ildiprando</persName>, il quinto confinante capo uno cum uno lato con
+                            <rs key="#Petiae #Fiscal_property #Mention">terra</rs> del <rs
+                            key="#Emperor/king">re</rs>, alio capo in simitula; con tutte le loro
+                        dipendenze. Ottiene la potestas di suballivellare la chiesa con i suoi beni
+                        a <persName>Rogerio</persName>. Si impegna affinché per sua disposizione
+                        nella chiesa si tengano officium Dei et luminaria seo missarum solemnia. Si
+                        impegna a versare pro omni censum et iustitia al vescovo e ai suoi
+                        successori ogni mese di gennaio il censo annuale di 72 denari d’argento ad
+                        pars del vescovato. Se non rispetterà i suddetti impegni, promette di
+                        versare al vescovo e ai suoi successori la pena di 60 soldi d’argento.
+                        Chiede al notaio Cosperto la stesura di due cartulas. Actum Luca.
+                            <persName>Autori: Pietro episcopus, Leone notarius del fu Pietro detto
+                            Ato. Scrittore: Cosperto notarius. Testimoni sottoscrittori: Romualdo,
+                            Tassimanno notarius, Gheripaldo, Ghisimundo notarius, Adalperto notarius
+                            et schabinus. Altro: Simprando presbiter, Deusdedi, Leone, Adalprando,
+                            ff. del fu Luccio, ff. del fu Adaldo, f. di Arderico, gg. Adalghisi e
+                            Teuperto, fu Ildiberto, fu Ildiprando comes, Rogerio.</persName>
+                        <placeName>Luca (Lucca), Vico Elingo prope Strata (vicino Marlia,
+                            Capannori), Arno (fiume Arno), Eubula (torrente Egola), Vitriano
+                            (Vetriano, Pescaglia), Caricini (Careggine), Auserclo (fiume Serchio),
+                            Vico (San Pietro a Vico, Lucca).</placeName>
+                        <orgName>San Terenzio di Vico Elingo, San Pietro di (?), San Pietro di Vico
+                            Asulari, San Martino di Lucca (chiesa matrice).</orgName>
+                    </ab>
                         </div>
                     </div>
                     <div type="bibliography" subtype="editions">
-                        <p>MDL, V/3, n. 1057, pp. 11-13</p>
+                        <p>MDL, 5/3, n. 1057, pp. 11-13.</p>
                     </div>
                     <div type="bibliography" subtype="additional">
                         <p/>
@@ -108,10 +174,8 @@ Altro: Simprando presbiter, Deusdedi, Leone, Adalprando, ff. del fu Luccio, ff. 
                         <p/>
                     </div>
                     <div type="commentary">
-                        <p>Anno d’impero di Ludovico.
-Beni della corona. Beni dei conti Aldobrandeschi.
-Recuperata col placito fiorentino: vedi cartula ad censum perexolvendum concessa a Adaldo del fu Fraiperto in data 887/09/26 (n. 984).</p>
-                        <p><note>Mod_id: 37</note></p>
+                        <p>Recuperata col placito fiorentino: vedi cartula ad censum perexolvendum
+                    concessa a Adaldo del fu Fraiperto in data 887/09/26 (n. 984).</p>
                     </div>
                 </body>
             </text>
