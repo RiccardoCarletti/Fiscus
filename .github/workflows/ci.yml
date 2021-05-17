@@ -16,7 +16,7 @@ jobs:
       - name: pull via ssh
         uses: fifsky/ssh-action@master
         with:
-          command: cd /var/www/html/Fiscus_bis
+          command: cd /var/www/html/Fiscus_bis && sudo git pull
           host: ${{ secrets.SERVER_IP }}
           user: ${{ secrets.SERVER_USERNAME }}
           key: ${{ secrets.SSH_PRIVATE_KEY_BEGIN_END }}
