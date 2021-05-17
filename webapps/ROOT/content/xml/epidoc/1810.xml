@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title></title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc1</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#"/>
+                            <rs type="record_source" ref="#"/>
+                            <rs type="document_tradition" ref="#"/>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate notBefore="0001" notAfter="0001" when="0001"> 
+                                <note type="displayed_date"></note>
+                                <note type="dating_elements"></note>
+                                <note type="topical_date"></note>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-05-17" who="caterinaciccopiedi">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine sanctae et individue trinitatis. Chuonradus ipsius dispensatione
+                        Romanorum [imperator] augustus. Quia nullus extra aecclesiam salvus potest
+                        fieri, consequens est, ut unusquisque fidelis laborans in agro dei sine
+                        intermissione incumbat incremento ecclesiastice rei. Certum est enim, quia,
+                        sicut exaltatur mater omnium viventium, ita crescit merces omnium sibi
+                        servientium. Quapropter universorum eiusdem fidelium tam presencium quam
+                        futurorum noverit caritas, quod nos ecclesiasticis profectibus incumbentes
+                        ac dilectissime nostre Gisle imperatricis seu carissimi nostri filii regis
+                        Henrici precibus pietatis aures accomodantes per presentis precepti stabile
+                        firmamentum sancte Vercellensi ecclesie confirmamus omnia bona quiete
+                        tenenda ac pacifice imperpetuum fruenda, que sancto Eusebio olim collata
+                        sunt a nostris predecessoribus regibus vel imperatoribus seu quibuscunque
+                        fidelibus. Set ut mentes fidelium plenius gaudeant et predones cautius se
+                        custodiant, Vercellensem comitatum et sancte Agathe cum districto et teloneo
+                        ac universa publica functione vel exactione aut redhibitione confirmamus
+                        Eusebiane ecclesie; Bugellam insuper cum omni sua integritate, id est
+                        Vernade, Clauaza, Bedolium, Galianicum, Ponderanam, Mulinariam, Andurnum,
+                        Cisidulam curticellam in monte, Carisianam cum omni sua integritate,
+                        Sestegnum, Rouasindam, montem Victimali, Pedrorium, curtem quoque
+                        Vercellensis civitatis cum omnibus ad eam pertinentibus, curticellam in
+                        Audenico, curtem Canauam, curtem Caualli, abbatiam sancti Michaelis de
+                        Laucedio, Firminianam; curtem regiam quam Orcum nominant cum tota silva
+                        walda et Fulgitio et cum omnibus cortibus et villis, cum valle Cliui; pontem
+                        eciam Notingum, quem Notingus episcopus eiusdem Vercellensis ecclesie
+                        mirabiliter super eum equitando legaliter recepit; Languscum, curtem de
+                        Aucimiano cum omnibus suis pertinentiis, aquam de Scicida, aquam de Saruo,
+                        aquam de Eleuo cum utrisque ripis a loco ubi nascuntur usque in Padum, aquam
+                        Padi cum utrisque ripis a Lionna usque plebem Martori, aquam de Duria cum
+                        utrisque ripis a Petra grossa usque in Padum, Cousade, Martasca, Candeli,
+                        Treuere, Cleuoli, Sulzam cum silva Salsa, castellum Quirini, curtem Torcelli
+                        -- hec omnia sancta Vercellensis ecclesia proprio iure habeat in eternum cum
+                        omnibus publicis districtis mercatis teloneis piscationibus venationibus
+                        portibus molendinis montibus et vallibus alpibus edificiis mancipiis
+                        utriusque sexus agris vineis cappellis pratis pascuis silvis aquis aquarum
+                        decursibus cultis et incultis. Et insuper speciali edicto sancimus, ut in
+                        omnibus et per omnia supra nominatis locis nullus mortalium mercatum
+                        presumat instituere aut districtum vel teloneum aut fodrum seu aliquam
+                        publicam functionem ac redhibitionem exigere neque piscationem aut
+                        venationem exercere, nisi ad profectum vel ad proprium ius ipsius ecclesie.
+                        Quicunque ergo huic nostre confirmationi contraierit, nostre maiestatis reus
+                        erit, insuper mille libras auri se compositurum noverit, medietatem
+                        imperiali camere et medietatem ecclesie, cui molestiam intulerit. Quod ut
+                        firmius habeatur et diligentius ab omnibus observetur, hoc preceptum ex
+                        nostra iussione factum nostris manibus subtus firmavimus ac sigilli nostri
+                        impressione inferius insigniri iussimus et Arderico nostro fidelissimo deo
+                        dispensante a nobis ordinato sancti Eusebii vicario ad perpetuam pacem
+                        conservandam contulimus. Signum domini Chuonradi (M. IMP.) serenissimi atque
+                        invictissimi imperatoris augusti. </ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
