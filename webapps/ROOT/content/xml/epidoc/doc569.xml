@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    Diplomatico,  ++ A 32</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                        </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc569</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#"
+                                >--Libellus/precaria/emphyteusis</rs>
+                                    <rs type="record_source" ref="#">Original document</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property"/>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate when="0902-02-27">
+                                <note type="displayed_date">902 February 27</note>
+                                <note type="dating_elements">Anno d’impero di Ludovico</note>
+                                <note type="topical_date">Lucca</note>
+                            </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance>
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                            <place></place>
+                        </listPlace>
+                        <listPerson>
+                            <person></person>
+                        </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-05-17" who="ptomei">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab><persName>Ardimanno</persName> del <persName>fu
+                            Achiprando</persName> riceve in livello dal <rs key="#Bishops"
+                            >vescovo</rs> di Lucca <persName ref="#people/213" key="#Bishops"
+                            >Pietro</persName>, tres portionis de casa et res posta in loco et
+                        finibus <placeName>Cursiano</placeName>, di pertinenza della <orgName
+                            key="#Churches"><rs key="#Churches">chiesa</rs> di San
+                            Frediano</orgName> qui est de subpotestatem del vescovato di San
+                        Martino, in precedenza tenuta da Gumprandulo massario, con tutte le sue
+                        dipendenze a Cursiana e Sulignana; la terza porzione de casa et res posta in
+                        loco et finibus Cursiana, in precedenza tenuta da Pietro massario, con tutte
+                        le sue dipendenze. Si impegna con i suoi eredi a mettervi uomini ad
+                        residendum et abitandum i quali dovranno bene laborare et gubernare seu
+                        meliorare la suddetta casa et res. Si impegna a versare pro omni censum et
+                        iustitia al vescovo e ai suoi successori ogni mese di dicembre il censo
+                        annuale di 5 denari d’argento ad pars suprascripte ecclesie e a far venire a
+                        Lucca legem et iustitiam faciendum, gli stessi uomini che abiteranno la casa
+                        a mandato del vescovo. Se non rispetterà i suddetti impegni, promette con i
+                        suoi eredi di versare al vescovo e ai suoi successori la pena di 50 soldi
+                        d’argento. Chiede al notaio Ghisimundo la stesura di due cartulas. Actum
+                        Luca. <persName>Autori: Pietro episcopus, + Ardimanno del fu Achiprando.
+                            Scrittore: Ghisimundo notarius. Testimoni sottoscrittori: Cosperto
+                            notarius, Altiperto, Pietro, Teudimundo notarius. Altro: Gumprandulo
+                            massarius, Pietro.</persName>
+                        <placeName>Luca (Lucca), Cursiana, Sulignana (Crasciana e San Martino, Bagni
+                            di Lucca).</placeName>
+                        <orgName>Santi Vincenzo, Frediano, Stefano e Lorenzo di Lucca (chiesa
+                            sedale), San Martino di Lucca (chiesa matrice).</orgName>
+                    </ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL, 5/3, n. 1056, pp. 11.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                        <p>Nota dorsale XI sec.: in Carfaniana.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>
