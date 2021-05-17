@@ -6,12 +6,13 @@ jobs:
     runs-on: [ubuntu-latest]
     steps:
       - name: Install SSH Key
-        uses: shimataro/ssh-key-action@v2
+        uses: shimataro/ssh-key-action@v1
         with:
             key: ${{ secrets.SSH_PRIVATE_KEY_BEGIN_END }} 
             known_hosts: ${{ secrets.SSH_HOST }}
       - name: rsync
         run: rsync ./ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/var/www/html/
+        #cd /var/www/html/Fiscus_bis && sudo git pull
         
       #- name: pull via ssh
       #  uses: appleboy/ssh-action@master
