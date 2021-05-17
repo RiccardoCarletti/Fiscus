@@ -13,16 +13,16 @@ jobs:
       #- name: rsync over ssh
       #  run: rsync ./ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/var/www/html/
 
-      #- name: pull via ssh
-        #uses: fifsky/ssh-action@master
-        #with:
-          #command: |
-            #cd /var/www/html/Fiscus_bis
+      - name: pull via ssh
+        uses: fifsky/ssh-action@master
+        with:
+          command: |
+            cd /var/www/html/Fiscus_bis
             #git pull
-          #host: ${{ secrets.SERVER_IP }}     #${{ secrets.SSH_HOST }}
-          #user: ${{ secrets.SERVER_USERNAME }}
-          #key: ${{ secrets.SSH_PRIVATE_KEY_BEGIN_END }}
-          #pass: ${{ secrets.SERVER_PASSWORD }}
+          host: ${{ secrets.SSH_HOST }}     #${{ secrets.SERVER_IP }}
+          user: ${{ secrets.SERVER_USERNAME }}
+          key: ${{ secrets.SSH_PRIVATE_KEY_BEGIN_END }}
+          pass: ${{ secrets.SERVER_PASSWORD }}
 
 
       #- name: pull via ssh
