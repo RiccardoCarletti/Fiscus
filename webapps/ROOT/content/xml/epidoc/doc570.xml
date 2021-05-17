@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>ASDL, AAL, D, + D 72 (n. 1085)</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                        </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc81</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">Cartula ad censum perexolvendum</rs>
+                                    <rs type="record_source" ref="#"/>
+                                    <rs type="document_tradition" ref="#"/>
+                                    <rs type="fiscal_property"/>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate notBefore="0001" notAfter="0001" when="0001">
+                                    <note type="displayed_date">0902/05/18</note>
+                                    <note type="dating_elements"></note>
+                                    <note type="topical_date">Actum Luca (Lucca)</note>
+                                    </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance>
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                            <place></place>
+                        </listPlace>
+                        <listPerson>
+                            <person></person>
+                        </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-01-06" who="ptomei">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab>
+                                Il notaio Leone del fu Pietro detto Ato riceve in livello dal vescovo di Lucca Pietro, la chiesa di San Terenzio sito loco Vico Elingo prope Strata, di pertinenza del vescovato di San Martino, con tutte le sue dipendenze, fra cui una casa et res massaricia posta in loco et finibus ubi dicitur inter fluvio Arno et fluvio Eubula, in precedenza tenuta dal prete Simprando; una casa et res massaricia posta in loco et finibus Vitriano, tenuta da Deusdedi, Leone e Adalprando; una res posta in loco et finibus Caricini, in precedenza tenuta da (...); una vigna posta in suprascripto loco et finibus Vico Elingo, confinante uno capo in fluvio Auserclo, alio capo con terra della chiesa di San Terenzio, lato uno con terra dei figli di Luccio, alio lato con una vigna dei figli di Adaldo; un appezzamento di terra nello stesso luogo, confinante uno capo con la suddetta vigna, alio capo in via e con la suddetta chiesa di San Terenzio, lato uno con terra dei figli del fu Adaldo, alio lato con terra del figlio di Arderico; un appezzamento di terra nello stesso luogo, confinante capo uno con terra di Pietro, alio capo con terra dei figli di Luccio, lato uno con terra del suddetto Pietro, alio lato in via; un appezzamento di terra nello stesso luogo, confinante capo uno in via, alio capo in via, lato uno con terra ecclesie Sancti Petri, alio lato con terra del re; 5 appezzamenti di terra posti in loco et finibus Vico prope ecclesie Sancti Petri, il primo confinante capo uno con terra dei fratelli Adalghisi e Teuperto, alio capo in simitula, lato uno con terra che fu di Ildiberto, il secondo confinante capo uno in via publica, alio capo con terra del fu conte Ildiprando, il terzo confinante capo uno in via publica, alio capo con terra del fu Ildiberto, il quarto confinante capo uno cum uno lato con terra del fu Ildiprando, il quinto confinante capo uno cum uno lato con terra del re, alio capo in simitula; con tutte le loro dipendenze.
+Ottiene la potestas di suballivellare la chiesa con i suoi beni a Rogerio.
+Si impegna affinché per sua disposizione nella chiesa si tengano officium Dei et luminaria seo missarum solemnia.
+Si impegna a versare pro omni censum et iustitia al vescovo e ai suoi successori ogni mese di gennaio il censo annuale di 72 denari d’argento ad pars del vescovato.
+Se non rispetterà i suddetti impegni, promette di versare al vescovo e ai suoi successori la pena di 60 soldi d’argento.
+Chiede al notaio Cosperto la stesura di due cartulas.
+                                <persName>Autori: Pietro episcopus, Leone notarius del fu Pietro detto Ato.
+Scrittore: Cosperto notarius.
+Testimoni sottoscrittori: Romualdo, Tassimanno notarius, Gheripaldo, Ghisimundo notarius, Adalperto notarius et schabinus.
+Altro: Simprando presbiter, Deusdedi, Leone, Adalprando, ff. del fu Luccio, ff. del fu Adaldo, f. di Arderico, gg. Adalghisi e Teuperto, fu Ildiberto, fu Ildiprando comes, Rogerio.</persName>
+                                <placeName>Luca (Lucca), Vico Elingo prope Strata (vicino Marlia, Capannori), Arno (fiume Arno), Eubula (torrente Egola), Vitriano (Vetriano, Pescaglia), Caricini (Careggine), Auserclo (fiume Serchio), Vico (San Pietro a Vico, Lucca).</placeName>
+                                <orgName>San Terenzio di Vico Elingo, San Pietro di (?), San Pietro di Vico Asulari, San Martino di Lucca (chiesa matrice).</orgName>
+                            </ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL, V/3, n. 1057, pp. 11-13</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                        <p>Anno d’impero di Ludovico.
+Beni della corona. Beni dei conti Aldobrandeschi.
+Recuperata col placito fiorentino: vedi cartula ad censum perexolvendum concessa a Adaldo del fu Fraiperto in data 887/09/26 (n. 984).</p>
+                        <p><note>Mod_id: 37</note></p>
+                    </div>
+                </body>
+            </text>
+        </TEI>
