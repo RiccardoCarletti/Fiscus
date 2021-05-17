@@ -11,7 +11,7 @@ jobs:
             key: ${{ secrets.SSH_PRIVATE_KEY_BEGIN_END }} 
             known_hosts: ${{ secrets.SSH_HOST }}
       - name: rsync
-        run: ssh ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}
+        run: rsync ./ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/var/www/html/
         
       #- name: pull via ssh
       #  uses: appleboy/ssh-action@master
