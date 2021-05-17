@@ -14,24 +14,12 @@ jobs:
       #  run: rsync ./ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/var/www/html/
 
       - name: pull via ssh
-        uses: fifsky/ssh-action@master
+        uses: appleboy/ssh-action@master
         with:
-          command: cd /var/www/html/Fiscus_bis && sudo git pull
           host: ${{ secrets.SERVER_IP }}
-          user: ${{ secrets.SERVER_USERNAME }}
-          key: ${{ secrets.SSH_PRIVATE_KEY_BEGIN_END }}
-          pass: ${{ secrets.SERVER_PASSWORD }}
-
-
-      #- name: pull via ssh
-        #uses: appleboy/ssh-action@master
-        #with:
-          #host: ${{ secrets.HOST }}
-          #username: ${{ secrets.USERNAME }}
-          #password: ${{ secrets.PASSWORD }}
-          #port: ${{ secrets.PORT }}
-          #script: cd /var/www/html/Fiscus_bis && git pull
-
+          username: ${{ secrets.SERVER_USERNAME }}
+          password: ${{ secrets.SERVER_PASSWORD }}
+          script: cd /var/www/html/Fiscus_bis
 
       #${{ secrets.SERVER_IP }}
       #${{ secrets.SERVER_PASSWORD }}
