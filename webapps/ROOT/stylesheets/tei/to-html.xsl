@@ -376,7 +376,7 @@
           <script type="text/javascript" src="../../assets/scripts/maps.js"></script>
           <script type="text/javascript">
             var <xsl:value-of select="concat('map', $id)"/> = L.map('<xsl:value-of select="concat('map', $id)"/>', 
-            { center: [44, 10.335], zoom: 6, layers: layers });
+            { center: [44, 10.335], zoom: 6, fullscreenControl: true, layers: layers });
             L.control.layers(baseMaps, overlayMaps).addTo(<xsl:value-of select="concat('map', $id)"/>);
             L.control.scale().addTo(<xsl:value-of select="concat('map', $id)"/>);
             L.Control.geocoder().addTo(<xsl:value-of select="concat('map', $id)"/>);
@@ -692,7 +692,7 @@
       </script>
       <script type="text/javascript" src="../../assets/scripts/maps.js"></script>
       <script type="text/javascript">
-        var mymap = L.map('mapid', { center: [44, 10.335], zoom: 6, layers: layers });
+        var mymap = L.map('mapid', { center: [44, 10.335], zoom: 6, fullscreenControl: true, layers: layers });
         L.control.layers(baseMaps, overlayMaps).addTo(mymap);
         L.control.scale().addTo(mymap);
         L.Control.geocoder().addTo(mymap);
