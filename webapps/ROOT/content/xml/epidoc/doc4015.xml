@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    Diplomatico,*M.95 (orig.) </title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc4015</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Offersio/donatio</rs>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate notBefore="0724-10-01" notAfter="0724-10-31">
+                                <note type="displayed_date">724 October</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Lucca</note>
+                            </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-05-18" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab>+ In nomine domini Dei nostri Iesu Christi. Regnante domno nostro
+                        Liutprando vir excellentissimo rege, anno filicissimo regni eius tertio
+                        decimo, mense octubrio, indictione octava; felciter. Romuald vir venerabilis
+                        presbiter peregrinus partibus Transpadanis ecclesie beati Sancti Petri et
+                        Sancti Martini et Sancti Quirici in loco qui vocatur Capannule, positum in
+                        Castellione, una cum voluntate seo licentia domno viri beatissimi
+                        Talesperiani episcopo, unde dum una cum coniuge mea praesbitera nomine
+                        Ratperga hic Tuscia finibus Lucensis nos in Capannule conlocassimus et
+                        resedimus in predicta ecclesia Sancti Petri et Sancti Martini seo Sancti
+                        Quirici, et dum in parvis substantiis ibidem resedire visi fuissimus, tunc
+                        cumparavimus nobis uineas terras de partibus Pisana vel Lucense. Unde
+                        consideravimus Dei misericordia et redemptione anime nostrae, et offerimus
+                        vobis beati sancti Petri et sancti Martini, sancti Quirici quidquid ad mano
+                        mea habere videor omnia ad ipsas sanctas virtutes offerre disposui, sic ita
+                        ut, dum advivere meruero, ego vel Ratperga, ad ipso sancto loco Domino
+                        deservire debeamus; et si forsitans ego antea de Ratperga de saeculo
+                        recessero, ut ipsa in ipso sancto loco una cum conquisito meo quieta et sine
+                        omni taxatione Domino deservire debeat; et post obito nostro, quem in vita
+                        nostra elexeremus, una cum voluntate domni episcopi in ipso sancto loco
+                        Domino deserviat, et possedeat casa cum extrinsico suo, sicut superius
+                        decrivimus, qui ospitale vocatur; et numquam ego Romuald vel quolivet homo
+                        ipso conquisito meo da ipso sancto loco subtragi aut molestari praesumat;
+                        sed volo ut cunctis diebus quietus ipse sancto loco ipso conquisito meo
+                        possedere debeat. Quam viro meis moniminis pagina Sicoin notario scribere
+                        rogavi, in quam I et ego subter signum sanctae cruci firmans et testibus
+                        optuli roborandum, sub stipulatione et sponsione sollemni interposita. Actum
+                        Luca, regnum et indictione suprascripta; feliciter. Signum manus Romuald
+                        viri venerabilis axi indignus presbiter, qui hanc monimen scribere rogavit.
+                        Ego Talesperianus eximius episcopus uhic cartule donationis facta in eglesia
+                        Sancti Petri manibus meis iscripsi. + Ego Sichimundus presbiter rogatus ad
+                        presbitero Rumualtu uthic cartule donatinois facta in eclesia Sancti Petr
+                        propria manus suscripsi. + Ratthelm diaconus huic cartule donationis facta
+                        in ecclesia Sancti Petri manibus meis suscripsi. Ego Deusdede presbiter huic
+                        cartula donationis facta in eclesia Sancti Petri manibus meis supscripsi. +
+                        Ego Praudipertu viro relegioso clirico huic cartula dnationis facta in
+                        eclesia Sancti Petri manibus mea suscripsi. </ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL IV/1, n. 2 reg. MDL V/2, n. 12; CDL I, n. 34; ChLA, XXX, 904.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                         <p>Persone: Liutprando re; Romuald v. ven. pbr transpadano (sp. Ratperga); Talesperianus ep [di Lucca]; Ratperga pbra (sp. Romuald); Sicoin not.; Sichimundus pbr; Ratthelm diac; Deusdede pbr; Praudipertu v. rel. cler. Luoghi: Capannule [Capannoli]; Castellione; Tuscia; fines Lucenses, Luca [Lucca]; partes Pisana vel Lucense [Pisa e Lucca]. Chiese: ecclesie beati sancti Petri et sancti Martini et sancti Quirici in loco qui Capannule, positum in Castellione [S. Pietro, S. Martino, S. Quirico]. Cariche: . Note: cit. prec. acquisto. Indice: donazione - monastero - fines - cit. compravendita (tra laici) - ospedale - transpadano - </p>
+                    </div>
+                </body>
+            </text>
+        </TEI>
