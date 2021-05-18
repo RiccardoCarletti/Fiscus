@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    Diplomatico, +F.43 (copia sec. VIII) </title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc4016</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#"/>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Copy</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate notAfter="0728-06-30" notBefore="0727-09-01">
+                                <note type="displayed_date">[727 September -728 June]</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Pugnano</note>
+                            </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-05-18" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab>+ In nomine domini nostri Iesu Christi. Regnante domno nostro
+                        Liutprandum, anno filicissimo regni eius sextodecimo, per indictione
+                        undecima; feliciter. Radchis vir venerabilis abbas presbites tibi dolcissimo
+                        et in Christo filio Waltprand clericus filio domni Waltpert gloriosissimi
+                        duci. Manifestum mihi est et multorum claruet, qualiter ego Radchis una cum
+                        bone memorie Ansfred germanus meus monasterio Sancti Michaeli a fundamenta
+                        edificare visi sumus hic in loco cui vocabulum est Aponiano, et qualiter
+                        suprascriptus Ansfredus germanus meus medietatem omnibus rebus substantie
+                        sue ividem per dotis pagina cuntulet; simol et ego memoratus Radchis meam
+                        parte in integro idem per predictas dotis fermavi. Nunc vero recolor ego
+                        hanc diem Radchis fragilitas seculi stius, ideo bona mentem et spontanea
+                        volumtatem volo adque decerno, ut tu nominatus Waltprand ipso sancto Dei
+                        monasterio Beati Michaheli cum omnia et in omnibus ividem pertenentem ad
+                        gubemandum et regendo in tua sid potestatem, quatenus ad te et parentibus
+                        tuis omni tempore ipse veneravilis Dei monasterio ab omni controversia
+                        seculari defensatus esset inveniator, et tu dolcissime et in Christo filio
+                        Waltprand sic ipso sancto monasterio guvernare et regere diveas, ut omni
+                        tempore in omnibus melioretor, et non in luminariis uel officio depereat; et
+                        post obito meo, omnia et in omnibus, sicut dixi, ipse sancus monasterio et
+                        omnes res ividem pertenente in tua defensionem et dominio valeat permanere;
+                        et dum ego superius nominatus Ratchis advivere meruero, omnia res ipsa cum
+                        predicto monasterio guvernando et regendo in mea sid potestatem. Post obito
+                        vero meo, tu ividem dominus et gubernator esset inveniaris, et familiola
+                        Sancti Michahili, qui post me remanserit, tu eos regere et guvernare diveas,
+                        hic in ipso Dei monasterio, ut non in errore vel aliqua deceptionem post me
+                        remaneant; et deinceps, sicut in suprascriptas dotis a me Radchis et bone
+                        memorie Ansfred germano cunfirmatum legitur, in tua Waltprand potestatem
+                        permaneat; et nullo tempore a novis posterus nostrus hec, sicut superius
+                        legitur, valeat molestari; et servos vel ancilla, quod pro anima mea
+                        livertari voluero, volo ut liveram aveat potestatem, et firmando livertate
+                        eorum per cartula. Quam firmitatis mei cartula Eoin notario et in Christo
+                        filio meo scrivendo dictavi, in qua ego subter signum sancte crocis firmans
+                        et testibus obtuli rovorando, sub stipulatione sponsione sollemnique
+                        interposita. Actum in suprascripto loco Aponiano, regno et indictione
+                        suprascripta; feliciter. Signum + manus Radchis vir venerabilis abbas
+                        presbites, qui ipso firmitatis monimen fieri rogauet. + Ego Talesperianus
+                        eximius episcopus huic cartule donationis facta ad Radchis presbites in
+                        Waltprand vir religiosus clericus, sicut superius legitor, ad confirmando
+                        suscribsi. + Ego Sicimundus vir venerabilis presbites rogatus ad Radchis vir
+                        venerabilis presbites in hanc donationis cartula facta in Waltprand
+                        clericus, sicut superius legitor, ad confirmando suscribsi. Signum + manus
+                        Teutpald vir devotus) scaro testis. + Ego Gaifred presbites rogatus a
+                        Radchis presbitero in hanc cartula donationis facta in Waltprand abbas
+                        proprias manus meas suscribsi. Signum + manus Raduald filio Guntifred
+                        testis. Signum + manus Filimari filio Autoni testis. Signum + manus Gauserad
+                        vir devotus filio Maurelli testis. + Ego Gaudentius indignus presbites
+                        notarius sancte eclesie Lucane civitatis quantum in auctentico invenire
+                        potui, sine fraude uel dolo exeplavi, nec plus atdedi, nec menime scribsi.  </ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL V/2, n. 14; CDL I, n. 40, pp. 137-140; ChLA, XXX, 905.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                         <p>Persone: Liutprando re; Radchis v. ven. ab pbr (fr. Ansfred); Vualtprand [Walprando] cler (f. Vualtpert duca); Vualtpert [Walperto] dux [di Lucca]; Ansfred (fr. Radchis); Eoin not.; Talesperianus ep [di Lucca]; Sicimundus [Sichimundo] v. ven. pbr; Teutpald v. dev. scaro; Gaifred pbr; Raduald (f. Guntifred); Guntifred (p. Raduald); Filimari (f. Autoni); Auto / Autoni (p. Filimari); Gauserad v. dev. (f. Maurellus); Maurellus (p. Gauserad); Gaudentius pbr not.. Luoghi: Aponiano [Pugnano, PI]; Lucane civitatis [Lucca]. Chiese: monasterio sancti Michahelis in loco cui vocabulum est Aponiano [S. Michele di Pugnano]. Cariche: Walperrto duca di Lucca; Teutpaldo v. dev. scaro. Note: . Indice: donazione - monastero - duca - (fam. Walprando) - servi -</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>
