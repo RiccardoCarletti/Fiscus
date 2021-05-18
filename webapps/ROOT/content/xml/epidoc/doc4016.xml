@@ -31,7 +31,7 @@
                             </msIdentifier>
                             <msContents>
                                 <summary>
-                                    <rs type="text_type" ref="#"/>
+                                    <rs type="text_type" ref="#">--Promissio</rs>
                                     <rs type="record_source" ref="#">Critical edition</rs>
                                     <rs type="document_tradition" ref="#">Copy</rs>
                                     <rs type="fiscal_property">No</rs>
@@ -83,9 +83,12 @@
                         <div type="textpart">
                             <ab>+ In nomine domini nostri Iesu Christi. Regnante domno nostro
                         Liutprandum, anno filicissimo regni eius sextodecimo, per indictione
-                        undecima; feliciter. Radchis vir venerabilis <rs key="#Abbots">abbas</rs>
+                        undecima; feliciter. <persName key="#Priests #Abbots"><name ref="Ratchis"
+                                >Radchis</name></persName> vir venerabilis <rs key="#Abbots"
+                            >abbas</rs>
                         <rs key="#Priests">presbites</rs> tibi dolcissimo et in Christo filio
-                        Waltprand <rs key="#Other_clerics">clericus</rs> filio domni Waltpert <rs
+                            <persName key="#Other_clerics" ref="#people/320">Waltprand</persName>
+                        <rs key="#Other_clerics">clericus</rs> filio domni Waltpert <rs
                             key="#Vir_gloriosus/vir_sublimis">gloriosissimi</rs>
                         <rs key="#Marquis/duke">duci</rs>. Manifestum mihi est et multorum claruet,
                         qualiter ego Radchis una cum bone memorie Ansfred germanus meus <rs
