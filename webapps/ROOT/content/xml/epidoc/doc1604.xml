@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Archivio della SS. Trinità di Cava de’ Tirreni, A, 7 (Codex Diplomaticus
+                    Cavensis, I, n. 179)</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc1604</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">-Diploma</rs>
+                            <rs type="record_source" ref="#">Edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">Yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0950">
+                                <note type="displayed_date">950-00-00</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date"/>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-05-18" who="vlore">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>+ In nomine domini dei salbatori nostri ihesu cristi. Concessimus nos vir
+                        gloriosissimus gisolfus divina providentia langobardorum gentis princeps,
+                        pro amore omnipotentis dei et salute anime nostre, per rogum domne
+                        gaitelgrime dilecte matrix nostre tibi iohanni abbati patri nostro et in tuo
+                        monasterio, que a nobo fundamento intus hec civitatem salernitanam fundasti,
+                        terras pertinentes sacri nostri palatii, que est hiscla ubi due flumina
+                        dicitur acto lucaniano, in qua ecclesia sancte dei genetrici virginis marie
+                        sita est cum terris, silvis, aquis, et aquarum usibus per circuitum ipsius
+                        ecclesie, idest ex omnibus partibus miliaria quattuor, cum finis et viis, et
+                        cum omnia infra se habentibus; in ea ratione, ut amodo et deinceps per hoc
+                        nostrum roboreum preceptum, ea que prelegitur, tu nominatus iohannes abba,
+                        tuisque successoribus et pars vestri monasterii securo nomine habere et
+                        possidere baleatis, et omnia exinde faciatis quod volueritis, et a nullo ex
+                        nostris iudicibus, comitibus, castaldeis, vel a quibuscumque agentibus,
+                        habeatis exinde aliqua requisitione, set perpetuis temporibus securiter hanc
+                        firmiter eos habeatis. quod vero preceptum concessionis ex iussione
+                        suprascripte potestatis (+) scripsi ego petrus notarius. actum salerno
+                        palatio de anno octabo decimo, MENSE NOBEMBER NONA INDICTIO. </ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>CDC, I, n. 179.</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p>Loré 2013b, p. 34.</p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p>http://alim.dfll.univr.it/Notarili/alimnot.nsf/(DocumentiPID)/A471A7B126999A69C125724000701092!opendocument</p>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
