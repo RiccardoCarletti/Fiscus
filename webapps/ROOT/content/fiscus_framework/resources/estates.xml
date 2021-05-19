@@ -2196,6 +2196,14 @@
                     <note/>
                     <link type="people" corresp="#people/71" subtype="link"/>
                     <link type="estates" corresp="#estates/281" subtype="isPartOf"/>
+                    <link type="estates" corresp="#estates/283" subtype="isMadeOf"/>
+                    <link type="estates" corresp="#estates/284" subtype="isMadeOf"/>
+                    <link type="estates" corresp="#estates/285" subtype="isMadeOf"/>
+                    <link type="estates" corresp="#estates/286" subtype="isMadeOf"/>
+                    <link type="estates" corresp="#estates/287" subtype="isMadeOf"/>
+                    <link type="estates" corresp="#estates/288" subtype="isMadeOf"/>
+                    <link type="estates" corresp="#estates/289" subtype="isMadeOf"/>
+                    <link type="estates" corresp="#estates/290" subtype="isMadeOf"/>
                 </place>
                 <place>
                     <geogName><foreign>Argenti</foreign>; <foreign>fundus</foreign></geogName>
@@ -2222,7 +2230,7 @@
                     <link type="estates" corresp="#estates/282" subtype="isPartOf"/>
                 </place>
                 <place>
-                    <geogName><foreign>Collibertorm</foreign>; <foreign>fundus</foreign></geogName>
+                    <geogName><foreign>Collibertorum</foreign>; <foreign>fundus</foreign></geogName>
                     <geogName type="other"/>
                     <idno>estates/286</idno>
                     <note/>
@@ -2230,7 +2238,7 @@
                     <link type="estates" corresp="#estates/282" subtype="isPartOf"/>
                 </place>
                 <place>
-                    <geogName><foreign>Taleranus</foreign>; <foreign>fundus</foreign></geogName>
+                    <geogName><foreign>Toleranus</foreign>; <foreign>fundus</foreign></geogName>
                     <geogName type="other"/>
                     <idno>estates/287</idno>
                     <note/>
@@ -2255,10 +2263,12 @@
                     <link type="estates" corresp="#estates/282" subtype="isPartOf"/>
                 </place>
                 <place>
-                    <geogName>Possessianus; fundus</geogName>
+                    <geogName><foreign>Possessianus</foreign>; <foreign>fundus</foreign></geogName>
                     <geogName type="other"/>
                     <idno>estates/290</idno>
                     <note/>
+                    <link type="people" corresp="#people/71" subtype="link"/>
+                    <link type="estates" corresp="#estates/282" subtype="isPartOf"/>
                 </place>
             </listPlace>
         </body>
