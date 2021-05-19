@@ -81,12 +81,34 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>Idem (Gregorius iunior locat) in eodem Annae religiosae et aliis duabus
-                        personis fundum Argenti, Verclanum, Lugeranum, Collibertorum, Toleranum,
-                        prestantes .II. auri solidos et fundum Truci, Trasissessanum et
-                        Possessianum, prestantes numero &lt;...> auri solidos, ex corpore massae
-                        Sabinensis via Tiburtina, miliario ab Urbe plus minus .X. ex corpore
-                        patrimonii Tiburtini</ab>
+                    <ab>Idem (<persName key="#Popes" ref="#people/71">Gregorius iunior</persName>
+                        locat) in eodem <persName key="#Clergy/religious_persons"><name ref="Anna"
+                                >Annae</name></persName>
+                        <rs key="#Clergy/religious_persons">religiosae</rs> et aliis duabus personis
+                            <rs key="#Fundi">fundum</rs>
+                        <geogName
+                            key="#Fundi #Fiscal_property #Object #Outflow #Allocation_to_individuals #Rent_in_money"
+                            >Argenti</geogName>, <geogName
+                            key="#Fundi #Fiscal_property #Object #Outflow #Allocation_to_individuals #Rent_in_money"
+                            >Verclanum</geogName>, <geogName
+                            key="#Fundi #Fiscal_property #Object #Outflow #Allocation_to_individuals #Rent_in_money"
+                            >Lugeranum</geogName>, <geogName
+                            key="#Fundi #Fiscal_property #Object #Outflow #Allocation_to_individuals #Rent_in_money"
+                            >Collibertorum</geogName>, <geogName
+                            key="#Fundi #Fiscal_property #Object #Outflow #Allocation_to_individuals #Rent_in_money"
+                            >Toleranum</geogName>, <rs key="#Rent_in_money">prestantes .II. auri
+                            solidos</rs> et <rs key="#Fundi">fundum</rs>
+                        <geogName
+                            key="#Fundi #Fiscal_property #Object #Outflow #Allocation_to_individuals"
+                            >Truci</geogName>, <geogName
+                            key="#Fundi #Fiscal_property #Object #Outflow #Allocation_to_individuals #Rent_in_money"
+                            >Trasissessanum</geogName> et <geogName
+                            key="#Fundi #Fiscal_property #Object #Outflow #Allocation_to_individuals #Rent_in_money"
+                            >Possessianum</geogName>, <rs key="#Rent_in_money">prestantes numero
+                            &lt;...> auri solidos</rs>, ex corpore <rs key="#Massae">massae</rs>
+                        <geogName key="#Massae">Sabinensis</geogName> via Tiburtina, miliario ab
+                        Urbe plus minus .X. ex corpore <rs key="#Patrimonium">patrimonii</rs>
+                        <geogName key="#Patrimonium">Tiburtini</geogName></ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
