@@ -5,7 +5,7 @@
         <fileDesc>
             <titleStmt>
                 <title>Biblioteca Apostolica Vaticana, Vat. Lat. 3833, f. 88v (Deusdedit, nr.
-                    223)</title>
+                    225)</title>
             </titleStmt>
             <editionStmt>
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
@@ -14,7 +14,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
-                <idno type="filename">doc1512</idno>
+                <idno type="filename">doc1514</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -73,7 +73,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2021-05-13" who="dinternullo">creation of record</change>
+                <change when="2021-05-19" who="dinternullo">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -81,29 +81,41 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>Idem (<persName key="#Popes" ref="#people/71">Gregorius iunior
-                        </persName>locat) in eodem. <persName><name ref="Gennadius"
-                            >Gennadio</name></persName> tribuno et <persName><name ref="Lucia"
-                                >Luciae</name></persName> et ex eorum amplexu filiis ac nepotibus
+                    <ab>Idem (<persName key="#Popes" ref="#people/71">Gregorius iunior</persName>
+                        locat) in eodem <persName key="#Clergy/religious_persons"><name ref="Anna"
+                                >Annae</name></persName>
+                        <rs key="#Clergy/religious_persons">religiosae</rs> et aliis duabus personis
                             <rs key="#Fundi">fundum</rs>
                         <geogName
                             key="#Fundi #Fiscal_property #Object #Outflow #Allocation_to_individuals #Rent_in_money"
-                            ref="#estates/262">Porcianum</geogName> et <geogName
+                            ref="#estates/283">Argenti</geogName>, <geogName
                             key="#Fundi #Fiscal_property #Object #Outflow #Allocation_to_individuals #Rent_in_money"
-                            ref="#estates/263">Leonianum</geogName> et <rs key="#Fundi">fundum</rs>
+                            ref="#estates/284">Verclanum</geogName>, <geogName
+                            key="#Fundi #Fiscal_property #Object #Outflow #Allocation_to_individuals #Rent_in_money"
+                            ref="#estates/285">Lugeranum</geogName>, <geogName
+                            key="#Fundi #Fiscal_property #Object #Outflow #Allocation_to_individuals #Rent_in_money"
+                            ref="#estates/286">Collibertorum</geogName>, <geogName
+                            key="#Fundi #Fiscal_property #Object #Outflow #Allocation_to_individuals #Rent_in_money"
+                            ref="#estates/287">Toleranum</geogName>, <rs key="#Rent_in_money"
+                            >prestantes .II. auri solidos</rs> et <rs key="#Fundi">fundum</rs>
                         <geogName
+                            key="#Fundi #Fiscal_property #Object #Outflow #Allocation_to_individuals"
+                            ref="#estates/288">Truci</geogName>, <geogName
                             key="#Fundi #Fiscal_property #Object #Outflow #Allocation_to_individuals #Rent_in_money"
-                            ref="#estates/264">Grecorum</geogName> et <geogName
-                            key="#Fundi #Fiscal_property #Object #Allocation_to_individuals #Rent_in_money"
-                            ref="#estates/265">Tutitianum</geogName>, via Clodia miliario
-                        plus minus .VIIII., ex corpore <rs key="#Patrimonium">patrimonii</rs>
-                        <geogName key="#Patrimonium" ref="#estates/103">Tusciae</geogName>. <rs
-                            key="#Rent_in_money">(Prestant annue) numero .II. auri solidos</rs>. </ab>
-                    <ab></ab>
+                            ref="#estates/289">Trasissessanum</geogName> et <geogName
+                            key="#Fundi #Fiscal_property #Object #Outflow #Allocation_to_individuals #Rent_in_money"
+                            ref="#estates/290">Possessianum</geogName>, <rs key="#Rent_in_money"
+                            >prestantes numero &lt;...> auri solidos</rs>, ex corpore <rs
+                            key="#Massae">massae</rs>
+                        <geogName key="#Massae" ref="#estates/282">Sabinensis</geogName>
+                        <placeName key="#Fundi #Fiscal_property #Rent_in_money" ref="#places/599"
+                            >via Tiburtina, miliario ab Urbe plus minus .X.</placeName> ex corpore
+                            <rs key="#Patrimonium">patrimonii</rs>
+                        <geogName key="#Patrimonium" ref="#estates/281">Tiburtini</geogName></ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p>Deusdedit, Collectio Canonum, nr. 223, p. 367</p>
+                <p>Deusdedit, Collectio Canonum, nr. 225, p. 367</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p>Marazzi 1998: 303-304</p>
@@ -112,8 +124,11 @@
                 <p><ref>https://digi.vatlib.it/view/MSS_Vat.lat.3833</ref></p>
             </div>
             <div type="commentary">
-                <p>La cifra in soldi, tracciata in note tachigrafiche, è sciolta seguendo le
-                    indicazioni di Marazzi 1998: 303-304.</p>
+                <p>Per il mancato inserimento della cifra nella seconda rendita cf. Marazzi 1998:
+                    304: la copiatura approssimativa dei segni relativi alle cifre riflette una
+                    mancanza di interesse nei loro confronti da parte di Deusdedit, che invece
+                    prestava attenzione massima alla menzione in sé delle proprietà e alla loro
+                    ubicazione geografica. </p>
             </div>
         </body>
     </text>

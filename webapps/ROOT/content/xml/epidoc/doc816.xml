@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Archivio di Stato di Cremona (Falconi, <foreign>Le carte</foreign> I, n. 24,
+                    pp. 64-6)</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc816</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">-Breve</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">Yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0879-08-01">
+                                <note type="displayed_date">879 August</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date"><foreign>in ipsa curte
+                                    Faedo</foreign></note>
+                            </origDate>
+                            <origPlace>Sanctus Sixtus; monasterium (Piacenza)</origPlace>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-05-19" who="ltabarrini">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine Domini. Brevem pro futuris temporibus securitate et firmitatem ad
+                        memoriam retinendam, qualiter vel quibus presencia bonorum hominum, corum
+                        nomina subter leguntur, investivit Iohannes et Pascalis <rs key="#Bishops"
+                            >episcopi</rs> sancte Romane ecclesie et Gerardus episcopus sancte
+                        Laudensis ecclesie, nec non et Dido <rs key="#Gastaldus/vicegastaldus"
+                            >gastaldio</rs>
+                        <rs key="#Missus_regis">missi</rs> domni Karlomanni <rs key="#Emperor/king"
+                            >regis</rs> per colunna de casa et <rs key="#Other_minor_officer"
+                            >servo</rs>
+                        <rs key="#Monasteries">monasterii</rs> Gariberto, Adelberto servo monasterii
+                        in honore sancte Resurectionis atque sanctorum martirum Systi et Fabiani,
+                        quod domna Angilberga <rs key="#Queen">imperatrix</rs> a fundamentis
+                            <placeName ref="#places/43">Placentie</placeName> construxit, per
+                        iussionem dompni Karlomanni regis de <rs key="#Curtes">curte</rs> Faeto
+                        atque curte Muciaria seu et de <rs key="#Casae/cassinae_massaricie"
+                            >massariciis</rs> in Vualdo Meleto cum ipso Vualdo cum omnibus
+                        abiacenciis et pertinenciis, cum <rs key="#Royal_slave">servis et
+                            ancillis</rs> ad ipsas prenominatas duas curtes aspicientibus in
+                        integrum ad partem predicti monasterii ad proprietatem habendam iuxta ipsum
+                        preceptum quas domnus Karlomannus rex a presenti die pro remedium anime sue
+                        prefato monasterio contulit <rs key="#Iure_proprietatis/pleno_iure"
+                            >proprietario iure</rs> omni tempore habendum atque possidendum. Factum
+                        est hanc investitura in ipsa curte Faedo, anno dompni Karlomanni regis in
+                        Italia II, mense augusto, indictione XII. + Ego Iohannes episcopus <rs
+                            key="#Papal_court_officer">legatus</rs> sancte sedis apostolice sicut
+                        supra peregi et subscripsi. + Pascalis episcopus legatus sancte sedis
+                        apostolice sicut supra peregi et subscripsi. + Gerardus episcopus qui
+                        iussione regia egi subscripsi. + Ego Dido qui iussione regia egi subscripsi.
+                        Ego Gauso ibi fui. Ripran interfui. + Ilderado interfui + Ego Tethaldo
+                        interfui. Redaldo ibi fui. Sigiprando scavino ibi fui. Zuzeprando ibi fui. +
+                        Ego Gariprando ibi fui. Ego Riebertus ibi fui. + Ego Appo ibi fui. +
+                        Pedebertus ibi fui. + Esenbertus ibi fui. + Ego Stadebertus ibi fui. Signum
+                        manus + Ermernulfi comes interfui. Signum manus + Gauselmi filius Berte qui
+                        interfuit. Signum manus + Boniperti de Pravello qui interfuit. Signum manus
+                        + Cristofali de Silvani qui interfuit. Signum manus + Nanteri ex genere
+                        Francorum qui interfuit. Signum manus + Ansemondi ex genere Francorum qui
+                        interfuit. Signum manus + Ingelberti ex genere Francorum qui interfuit.
+                        Signum manus + Guilleranni vicecomiti qui interfuit. Signum manus + Teomulti
+                        de Isella ex genere Francorum qui interfuit. + Ego Vuido notarius hunc breve
+                        scripsi et interfui. </ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>Astegiano, <foreign>Codex Diplomaticus Cremonae</foreign> I, n. 18, p. 29; Kehr,
+                        <foreign>Italia pontificia</foreign> V, n. 7, p. 491.</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p>Mantegna 2017, p. 19.</p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>Cf.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

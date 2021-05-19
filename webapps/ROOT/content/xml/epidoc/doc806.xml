@@ -74,7 +74,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2021-02-08" who="ltabarrini">creation of record</change>
+                <change when="2021-05-19" who="ltabarrini">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -82,23 +82,29 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>In domo <persName>Ferrariorum</persName>. <persName>Sibilia</persName> uxor
-                            <persName>Ercarii Ferrarii</persName>, presente eius viro, et
-                            <persName>Beatris </persName>mater <persName>Roberti Ferrarii</persName>
-                        et <persName>Matelda</persName> eius uxor, presente eius viro et
+                    <ab>In domo Ferrariorum. <persName><name ref="Sibilia">Sibilia</name></persName>
+                        uxor <persName><name ref="Ercarius Ferrarii">Ercarii
+                            Ferrarii</name></persName>, presente eius viro, et <persName><name
+                                ref="Beatrix">Beatris</name>
+                        </persName>mater <persName><name ref="Robertus Ferrarii">Roberti
+                                Ferrarii</name></persName> et <persName><name ref="Matilda"
+                                >Matelda</name></persName> eius uxor, presente eius viro et
                         consenciente vendicionibus de <rs key="#Areas #Rivers">terra de Riva</rs> et
                         de <rs key="#Areas #Rivers">terra de ultra Trebia</rs> atque refutacionibus
-                        quas ipsi Ercarius et Robertus fecerunt domino <persName
-                            ref="#people/16">Gandulfo</persName>
+                        quas ipsi Ercarius et Robertus fecerunt domino <persName ref="#people/16"
+                            >Gandulfo</persName>
                         <rs key="#Abbots">abbati</rs>
                         <rs key="#Monasteries">monasterii</rs>
-                        <orgName ref="#juridical_persons/53"
-                            key="#Areas #Rivers">S. Sisti</orgName>. <rs key="#Witness">Testes</rs>
-                        <persName key="#Witness">Albericus Brachiumforte</persName>, <persName
-                            key="#Witness">Guido Buxus</persName>, <persName key="#Witness"
-                            >Bertolotus Bonaminus</persName> et <persName key="#Witness">Obertus
-                            Ferrarius</persName>
-                        <persName key="#Notary">Petrus Lachetta</persName>
+                        <orgName ref="#juridical_persons/53" key="#Areas #Rivers">S.
+                        Sisti</orgName>. <rs key="#Witness">Testes</rs>
+                        <persName key="#Witness"><name ref="Albericus Brachiumforte">Albericus
+                                Brachiumforte</name></persName>, <persName key="#Witness"><name
+                                ref="Guidus Buxus">Guido Buxus</name></persName>, <persName
+                            key="#Witness"><name ref="Bertolottus Bonaminus">Bertolotus
+                                Bonaminus</name></persName> et <persName key="#Witness"><name
+                                ref="Obertus Ferrarius">Obertus Ferrarius</name></persName>
+                        <persName key="#Notary"><name ref="Petrus Lachetta">Petrus
+                            Lachetta</name></persName>
                         <rs key="#Notary">notarius</rs>.</ab>
                 </div>
             </div>

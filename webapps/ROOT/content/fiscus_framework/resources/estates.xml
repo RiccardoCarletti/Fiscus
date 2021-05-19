@@ -1046,11 +1046,10 @@
                     <link type="juridical_persons" corresp="#juridical_persons/84" subtype="link"/>
                 </place>
                 <place>
-                    <geogName>Ad Trifonem; <foreign>locus</foreign></geogName>
-                    <geogName type="other">Ad Trefone</geogName>
+                    <geogName><foreign>Ad Trifonem</foreign>; <foreign>locus</foreign></geogName>
+                    <geogName type="other"><foreign>Ad Trefone</foreign></geogName>
                     <idno>estates/150</idno>
-                    <note>Capasso, <foreign>Monumenta ad Neapolitani</foreign>, II, 1, p.
-                        421.</note>
+                    <note>Capasso 1885: 421, n. 668.</note>
                     <link type="people" corresp="#people/156" subtype="link"/>
                     <link type="juridical_persons" corresp="#juridical_persons/84" subtype="link"/>
                     <link type="people" corresp="#people/189" subtype="link"/>
@@ -1421,6 +1420,7 @@
                     <link type="estates" corresp="#estates/189" subtype="isMadeOf"/>
                     <link type="estates" corresp="#estates/230" subtype="isMadeOf"/>
                     <link type="estates" corresp="#estates/227" subtype="isMadeOf"/>
+                    <link type="estates" corresp="#estates/292" subtype="isMadeOf"/>
                 </place>
                 <place>
                     <geogName>Reggio Emilia; <foreign>comitatus</foreign></geogName>
@@ -1584,7 +1584,7 @@
                 <place>
                     <geogName>Lucca; <foreign>comitatus</foreign></geogName>
                     <idno>estates/210</idno>
-                    <note/>
+                    <note><foreign>fines</foreign>; </note>
                     <link type="places" corresp="#places/4" subtype="hasConnectionWith"/>
                     <link type="estates" corresp="#estates/78" subtype="hasConnectionWith"/>
                     <link type="estates" corresp="#estates/211" subtype="hasConnectionWith"/>
@@ -1726,6 +1726,8 @@
                     <link type="estates" corresp="#estates/226" subtype="isMadeOf"/>
                     <link type="estates" corresp="#estates/192" subtype="isPartOf"/>
                     <link type="estates" corresp="#estates/228" subtype="isMadeOf"/>
+                    <link type="estates" corresp="#estates/279" subtype="isMadeOf"/>
+                    <link type="estates" corresp="#estates/280" subtype="isMadeOf"/>
                 </place>
                 <place>
                     <geogName><foreign>Lauretis</foreign>; <foreign>fundus</foreign></geogName>
@@ -2136,6 +2138,155 @@
                     <idno>estates/275</idno>
                     <note/>
                     <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
+                </place>
+                <place>
+                    <geogName><foreign>Devisiano;</foreign><foreign>curtis</foreign></geogName>
+                    <geogName type="other"/>
+                    <idno>estates/276</idno>
+                    <link type="people" corresp="#people/21" subtype="link"/>
+                    <link type="people" corresp="#people/349" subtype="link"/>
+                    <note/>
+                </place>
+                <place>
+                    <geogName>Aucia; <foreign>curtis</foreign></geogName>
+                    <geogName type="other"/>
+                    <idno>estates/277</idno>
+                    <link type="people" corresp="#people/21" subtype="link"/>
+                    <link type="people" corresp="#people/335" subtype="link"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/224" subtype="link"/>
+                    <link type="places" corresp="#places/596" subtype="isWithin"/>
+                    <note/>
+                </place>
+                <place>
+                    <geogName>Castendolo; <foreign>curtis</foreign></geogName>
+                    <geogName type="other"/>
+                    <idno>estates/278</idno>
+                    <link type="people" corresp="#people/21" subtype="link"/>
+                    <link type="people" corresp="#people/335" subtype="link"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/224" subtype="link"/>
+                </place>
+                <place>
+                    <geogName><foreign>Serrulas</foreign>; <foreign>fundus</foreign></geogName>
+                    <geogName type="other"/>
+                    <idno>estates/279</idno>
+                    <note/>
+                    <link type="people" corresp="#people/71" subtype="link"/>
+                    <link type="estates" corresp="#estates/227" subtype="isPartOf"/>
+                </place>
+                <place>
+                    <geogName><foreign>Sisinianus</foreign>; <foreign>fundus</foreign></geogName>
+                    <geogName type="other"/>
+                    <idno>estates/280</idno>
+                    <note/>
+                    <link type="people" corresp="#people/71" subtype="link"/>
+                    <link type="estates" corresp="#estates/227" subtype="isPartOf"/>
+                </place>
+                <place>
+                    <geogName><foreign>Tiburtinum</foreign>;
+                        <foreign>patrimonium</foreign></geogName>
+                    <geogName type="other"/>
+                    <idno>estates/281</idno>
+                    <note>De Francesco 2004: 223-227</note>
+                    <link type="people" corresp="#people/71" subtype="link"/>
+                    <link type="estates" corresp="#estates/282" subtype="isMadeOf"/>
+                </place>
+                <place>
+                    <geogName><foreign>Sabinensis</foreign>; <foreign>massa</foreign></geogName>
+                    <geogName type="other"/>
+                    <idno>estates/282</idno>
+                    <note/>
+                    <link type="people" corresp="#people/71" subtype="link"/>
+                    <link type="estates" corresp="#estates/281" subtype="isPartOf"/>
+                    <link type="estates" corresp="#estates/283" subtype="isMadeOf"/>
+                    <link type="estates" corresp="#estates/284" subtype="isMadeOf"/>
+                    <link type="estates" corresp="#estates/285" subtype="isMadeOf"/>
+                    <link type="estates" corresp="#estates/286" subtype="isMadeOf"/>
+                    <link type="estates" corresp="#estates/287" subtype="isMadeOf"/>
+                    <link type="estates" corresp="#estates/288" subtype="isMadeOf"/>
+                    <link type="estates" corresp="#estates/289" subtype="isMadeOf"/>
+                    <link type="estates" corresp="#estates/290" subtype="isMadeOf"/>
+                </place>
+                <place>
+                    <geogName><foreign>Argenti</foreign>; <foreign>fundus</foreign></geogName>
+                    <geogName type="other"/>
+                    <idno>estates/283</idno>
+                    <note/>
+                    <link type="people" corresp="#people/71" subtype="link"/>
+                    <link type="estates" corresp="#estates/282" subtype="isPartOf"/>
+                </place>
+                <place>
+                    <geogName><foreign>Verclanus</foreign>; <foreign>fundus</foreign></geogName>
+                    <geogName type="other"/>
+                    <idno>estates/284</idno>
+                    <note/>
+                    <link type="people" corresp="#people/71" subtype="link"/>
+                    <link type="estates" corresp="#estates/282" subtype="isPartOf"/>
+                </place>
+                <place>
+                    <geogName><foreign>Lugeranus</foreign>; <foreign>fundus</foreign></geogName>
+                    <geogName type="other"/>
+                    <idno>estates/285</idno>
+                    <note/>
+                    <link type="people" corresp="#people/71" subtype="link"/>
+                    <link type="estates" corresp="#estates/282" subtype="isPartOf"/>
+                </place>
+                <place>
+                    <geogName><foreign>Collibertorum</foreign>; <foreign>fundus</foreign></geogName>
+                    <geogName type="other"/>
+                    <idno>estates/286</idno>
+                    <note/>
+                    <link type="people" corresp="#people/71" subtype="link"/>
+                    <link type="estates" corresp="#estates/282" subtype="isPartOf"/>
+                </place>
+                <place>
+                    <geogName><foreign>Toleranus</foreign>; <foreign>fundus</foreign></geogName>
+                    <geogName type="other"/>
+                    <idno>estates/287</idno>
+                    <note/>
+                    <link type="people" corresp="#people/71" subtype="link"/>
+                    <link type="estates" corresp="#estates/282" subtype="isPartOf"/>
+                </place>
+                <place>
+                    <geogName><foreign>Truci</foreign>; <foreign>fundus</foreign></geogName>
+                    <geogName type="other"/>
+                    <idno>estates/288</idno>
+                    <note/>
+                    <link type="people" corresp="#people/71" subtype="link"/>
+                    <link type="estates" corresp="#estates/282" subtype="isPartOf"/>
+                </place>
+                <place>
+                    <geogName><foreign>Trasissessanus</foreign>;
+                        <foreign>fundus</foreign></geogName>
+                    <geogName type="other"/>
+                    <idno>estates/289</idno>
+                    <note/>
+                    <link type="people" corresp="#people/71" subtype="link"/>
+                    <link type="estates" corresp="#estates/282" subtype="isPartOf"/>
+                </place>
+                <place>
+                    <geogName><foreign>Possessianus</foreign>; <foreign>fundus</foreign></geogName>
+                    <geogName type="other"/>
+                    <idno>estates/290</idno>
+                    <note/>
+                    <link type="people" corresp="#people/71" subtype="link"/>
+                    <link type="estates" corresp="#estates/282" subtype="isPartOf"/>
+                </place>
+                <place>
+                    <geogName><foreign>Casa Siri</foreign>; <foreign>fundus</foreign></geogName>
+                    <geogName type="other"/>
+                    <idno>estates/291</idno>
+                    <note/>
+                    <link type="people" corresp="#people/71" subtype="link"/>
+                    <link type="estates" corresp="#estates/292" subtype="isPartOf"/>
+                </place>
+                <place>
+                    <geogName><foreign>Porculis</foreign>; <foreign>massa</foreign></geogName>
+                    <geogName type="other"/>
+                    <idno>estates/292</idno>
+                    <note/>
+                    <link type="people" corresp="#people/71" subtype="link"/>
+                    <link type="estates" corresp="#estates/291" subtype="isMadeOf"/>
+                    <link type="estates" corresp="#estates/192" subtype="isPartOf"/>
                 </place>
             </listPlace>
         </body>
