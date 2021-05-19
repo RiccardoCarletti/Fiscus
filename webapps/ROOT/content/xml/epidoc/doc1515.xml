@@ -81,9 +81,19 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>Idem in eodem Heraclio praeposito coquine domnice fundum Casa Siri ex
-                        corpore massa Proculis (Porculis) patrimonii Lavicani. Prestat . . . auri
-                        solidos. </ab>
+                    <ab>Idem (<persName key="#Popes" ref="#people/71">Gregorius iunior</persName>
+                        locat) in eodem <persName key="#Papal_court_officer"><name ref="Heraclius"
+                                >Heraclio</name></persName>
+                        <rs key="#Papal_court_officer">praeposito coquine domnice</rs>
+                        <rs key="#Fundi">fundum</rs>
+                        <geogName
+                            key="#Fundi #Fiscal_property #Object #Outflow #Allocation_to_individuals #Rent_in_money"
+                            >Casa Siri</geogName> ex corpore <rs key="#Massae">massa</rs>
+                        <geogName key="#Massae"><placeName key="#Massae #Fiscal_property"
+                                ref="#places/600">Proculis</placeName></geogName> (Porculis) <rs
+                            key="#Patrimonium">patrimonii</rs>
+                        <geogName key="#Patrimonium" ref="#estates/192">Lavicani</geogName>. <rs
+                            key="#Rent_in_money">Prestat . . . auri solidos</rs>. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
