@@ -1725,6 +1725,7 @@
                     <link type="estates" corresp="#estates/226" subtype="isMadeOf"/>
                     <link type="estates" corresp="#estates/192" subtype="isPartOf"/>
                     <link type="estates" corresp="#estates/228" subtype="isMadeOf"/>
+                    <link type="estates" corresp="#estates/279" subtype="isMadeOf"/>
                 </place>
                 <place>
                     <geogName><foreign>Lauretis</foreign>; <foreign>fundus</foreign></geogName>
@@ -2163,9 +2164,17 @@
                     <link type="juridical_persons" corresp="#juridical_persons/224" subtype="link"/>
                 </place>
                 <place>
-                    <geogName>Serrulas; fundus</geogName>
+                    <geogName><foreign>Serrulas</foreign>; <foreign>fundus</foreign></geogName>
                     <geogName type="other"/>
                     <idno>estates/279</idno>
+                    <note/>
+                    <link type="people" corresp="#people/71" subtype="link"/>
+                    <link type="estates" corresp="#estates/227" subtype="isPartOf"/>
+                </place>
+                <place>
+                    <geogName>Sisinianus; fundus</geogName>
+                    <geogName type="other"/>
+                    <idno>estates/280</idno>
                     <note/>
                 </place>
             </listPlace>
