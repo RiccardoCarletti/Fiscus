@@ -31,10 +31,10 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#"/>
-                            <rs type="record_source" ref="#"/>
-                            <rs type="document_tradition" ref="#"/>
-                            <rs type="fiscal_property"/>
+                            <rs type="text_type" ref="#">-Breve</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -42,12 +42,12 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate notBefore="0001" notAfter="0001" when="0001"> 
-                                <note type="displayed_date"></note>
-                                <note type="dating_elements"></note>
-                                <note type="topical_date"></note>
+                            <origDate when="0879-08-01">
+                                <note type="displayed_date">879 August</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date"><foreign>curte Faedo</foreign></note>
                             </origDate>
-                            <origPlace/>
+                            <origPlace>Sanctus Sixtus; monasterium (Piacenza)</origPlace>
                         </origin>
                         <provenance>
                             <location>
@@ -73,7 +73,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2021-02-08">creation of record</change>
+                <change when="2021-05-19" who="ltabarrini">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -81,14 +81,47 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab></ab>
+                    <ab>In nomine Domini. Brevem pro futuris temporibus securitate et firmitatem ad
+                        memoriam retinendam, qualiter vel quibus presencia bonorum hominum, corum
+                        nomina subter leguntur, investivit Iohannes et Pascalis <rs key="#Bishops"
+                            >episcopi</rs> sancte Romane ecclesie et Gerardus episcopus sancte
+                        Laudensis ecclesie, nec non et Dido <rs key="#Gastaldus/vicegastaldus"
+                            >gastaldio</rs>
+                        <rs key="#Missus_regis">missi</rs> domni Karlomanni <rs key="#Emperor/king"
+                            >regis</rs> per colunna de casa et servo monasterii Gariberto, Adelberto
+                        servo monasterii in honore sancte Resurectionis atque sanctorum martirum
+                        Systi et Fabiani, quod domna Angilberga imperatrix a fundamentis Placentie
+                        construxit, per iussionem dompni Karlomanni regis de curte Faeto atque curte
+                        Muciaria seu et de massariciis in Vualdo Meleto cum ipso Vualdo cum omnibus
+                        abiacenciis et pertinenciis, cum servis et ancillis ad ipsas prenominatas
+                        duas curtes aspicientibus in integrum ad partem predicti monasterii ad
+                        proprietatem habendam iuxta ipsum preceptum quas domnus Karlomannus rex a
+                        presenti die pro remedium anime sue prefato monasterio contulit proprietario
+                        iure omni tempore habendum atque possidendum. Factum est hanc investitura in
+                        ipsa curte Faedo, anno dompni Karlomanni regis in Italia II, mense augusto,
+                        indictione XII. + Ego Iohannes episcopus legatus sancte sedis apostolice
+                        sicut supra peregi et subscripsi. + Pascalis episcopus legatus sancte sedis
+                        apostolice sicut supra peregi et subscripsi. + Gerardus episcopus qui
+                        iussione regia egi subscripsi. + Ego Dido qui iussione regia egi subscripsi.
+                        Ego Gauso ibi fui. Ripran interfui. + Ilderado interfui + Ego Tethaldo
+                        interfui. Redaldo ibi fui. Sigiprando scavino ibi fui. Zuzeprando ibi fui. +
+                        Ego Gariprando ibi fui. Ego Riebertus ibi fui. + Ego Appo ibi fui. +
+                        Pedebertus ibi fui. + Esenbertus ibi fui. + Ego Stadebertus ibi fui. Signum
+                        manus + Ermernulfi comes interfui. Signum manus + Gauselmi filius Berte qui
+                        interfuit. Signum manus + Boniperti de Pravello qui interfuit. Signum manus
+                        + Cristofali de Silvani qui interfuit. Signum manus + Nanteri ex genere
+                        Francorum qui interfuit. Signum manus + Ansemondi ex genere Francorum qui
+                        interfuit. Signum manus + Ingelberti ex genere Francorum qui interfuit.
+                        Signum manus + Guilleranni vicecomiti qui interfuit. Signum manus + Teomulti
+                        de Isella ex genere Francorum qui interfuit. + Ego Vuido notarius hunc breve
+                        scripsi et interfui. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p/>
+                <p>Astegiano, <foreign>Codex Diplomaticus Cremonae</foreign> I, n. 18, p. 29</p>
             </div>
             <div type="bibliography" subtype="additional">
-                <p/>
+                <p>Mantegna 2017, p. 19.</p>
             </div>
             <div type="bibliography" subtype="links">
                 <p/>
