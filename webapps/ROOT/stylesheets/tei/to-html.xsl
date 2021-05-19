@@ -293,7 +293,7 @@
           <xsl:text>{</xsl:text>
           <xsl:for-each select="$linkedplaces">
             <xsl:variable name="key" select="translate(translate(.,' ',''), '#', '')"/>
-            <xsl:for-each select="$places/tei:place[descendant::tei:idno=$key][contains(descendant::tei:geo[not(@style)], ';')]">
+            <xsl:for-each select="$places/tei:place[descendant::tei:idno=$key][contains(descendant::tei:geo[not(@style='line')], ';')]">
             <xsl:variable name="name" select="normalize-space(translate(tei:placeName[1], ',', '; '))"/>
             <xsl:variable name="id" select="substring-after(translate(tei:idno,'#',''), 'places/')"/>
             <xsl:variable name="idno" select="translate(translate(tei:idno, '#', ''), ' ', '')"/>
@@ -307,7 +307,7 @@
             <xsl:text>"</xsl:text><xsl:value-of select="$name"/>
             <xsl:text>#</xsl:text><xsl:value-of select="$number_of_mentioning_documents"/>
             <xsl:text>#</xsl:text><xsl:value-of select="$id"/><xsl:text>": "</xsl:text>
-              <xsl:value-of select="replace(replace(normalize-space(tei:geogName/tei:geo[not(@style)]), ', ', ';'), '; ', ';')"/>
+              <xsl:value-of select="replace(replace(normalize-space(tei:geogName/tei:geo[not(@style='line')]), ', ', ';'), '; ', ';')"/>
               <xsl:text>", </xsl:text>
             </xsl:for-each>
           </xsl:for-each>
@@ -318,7 +318,7 @@
           <xsl:text>{</xsl:text>
           <xsl:for-each select="$linkedplaces">
             <xsl:variable name="key" select="translate(translate(.,' ',''), '#', '')"/>
-            <xsl:for-each select="$places/tei:place[descendant::tei:idno=$key][contains(descendant::tei:geo[@style], ';')]">
+            <xsl:for-each select="$places/tei:place[descendant::tei:idno=$key][contains(descendant::tei:geo[@style='line'], ';')]">
               <xsl:variable name="name" select="normalize-space(translate(tei:placeName[1], ',', '; '))"/>
               <xsl:variable name="id" select="substring-after(translate(tei:idno,'#',''), 'places/')"/>
               <xsl:variable name="idno" select="translate(translate(tei:idno, '#', ''), ' ', '')"/>
@@ -332,7 +332,7 @@
               <xsl:text>"</xsl:text><xsl:value-of select="$name"/>
               <xsl:text>#</xsl:text><xsl:value-of select="$number_of_mentioning_documents"/>
               <xsl:text>#</xsl:text><xsl:value-of select="$id"/><xsl:text>": "</xsl:text>
-              <xsl:value-of select="replace(replace(normalize-space(tei:geogName/tei:geo[@style]), ', ', ';'), '; ', ';')"/>
+              <xsl:value-of select="replace(replace(normalize-space(tei:geogName/tei:geo[@style='line']), ', ', ';'), '; ', ';')"/>
               <xsl:text>", </xsl:text>
             </xsl:for-each>
           </xsl:for-each>
@@ -631,7 +631,7 @@
     <!-- generate lists of places by type -->
     <xsl:variable name="map_polygons">
       <xsl:text>{</xsl:text>
-      <xsl:for-each select="$places/tei:place[contains(descendant::tei:geo[not(@style)], ';')]">
+      <xsl:for-each select="$places/tei:place[contains(descendant::tei:geo[not(@style='line')], ';')]">
         <xsl:variable name="name" select="normalize-space(translate(tei:placeName[1], ',', '; '))"/>
         <xsl:variable name="id" select="substring-after(translate(tei:idno,'#',''), 'places/')"/>
         <xsl:variable name="idno" select="translate(translate(tei:idno, '#', ''), ' ', '')"/>
@@ -645,7 +645,7 @@
         <xsl:text>"</xsl:text><xsl:value-of select="$name"/>
         <xsl:text>#</xsl:text><xsl:value-of select="$number_of_mentioning_documents"/>
         <xsl:text>#</xsl:text><xsl:value-of select="$id"/><xsl:text>": "</xsl:text>
-        <xsl:value-of select="replace(replace(normalize-space(tei:geogName/tei:geo[not(@style)]), ', ', ';'), '; ', ';')"/>
+        <xsl:value-of select="replace(replace(normalize-space(tei:geogName/tei:geo[not(@style='line')]), ', ', ';'), '; ', ';')"/>
         <xsl:text>"</xsl:text><xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if>
       </xsl:for-each>
       <xsl:text>}</xsl:text>
@@ -653,7 +653,7 @@
     
     <xsl:variable name="map_lines">
       <xsl:text>{</xsl:text>
-      <xsl:for-each select="$places/tei:place[contains(descendant::tei:geo[@style], ';')]">
+      <xsl:for-each select="$places/tei:place[contains(descendant::tei:geo[@style='line'], ';')]">
         <xsl:variable name="name" select="normalize-space(translate(tei:placeName[1], ',', '; '))"/>
         <xsl:variable name="id" select="substring-after(translate(tei:idno,'#',''), 'places/')"/>
         <xsl:variable name="idno" select="translate(translate(tei:idno, '#', ''), ' ', '')"/>
@@ -667,7 +667,7 @@
         <xsl:text>"</xsl:text><xsl:value-of select="$name"/>
         <xsl:text>#</xsl:text><xsl:value-of select="$number_of_mentioning_documents"/>
         <xsl:text>#</xsl:text><xsl:value-of select="$id"/><xsl:text>": "</xsl:text>
-        <xsl:value-of select="replace(replace(normalize-space(tei:geogName/tei:geo[@style]), ', ', ';'), '; ', ';')"/>
+        <xsl:value-of select="replace(replace(normalize-space(tei:geogName/tei:geo[@style='line']), ', ', ';'), '; ', ';')"/>
         <xsl:text>"</xsl:text><xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if>
       </xsl:for-each>
       <xsl:text>}</xsl:text>
