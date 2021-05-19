@@ -293,7 +293,7 @@
           <xsl:text>{</xsl:text>
           <xsl:for-each select="$linkedplaces">
             <xsl:variable name="key" select="translate(translate(.,' ',''), '#', '')"/>
-            <xsl:for-each select="$places/tei:place[descendant::tei:idno=$key][contains(descendant::tei:geo, ';')]">
+            <xsl:for-each select="$places/tei:place[descendant::tei:idno=$key][contains(descendant::tei:geo[not(@style)], ';')]">
             <xsl:variable name="name" select="normalize-space(translate(tei:placeName[1], ',', '; '))"/>
             <xsl:variable name="id" select="substring-after(translate(tei:idno,'#',''), 'places/')"/>
             <xsl:variable name="idno" select="translate(translate(tei:idno, '#', ''), ' ', '')"/>
@@ -307,7 +307,32 @@
             <xsl:text>"</xsl:text><xsl:value-of select="$name"/>
             <xsl:text>#</xsl:text><xsl:value-of select="$number_of_mentioning_documents"/>
             <xsl:text>#</xsl:text><xsl:value-of select="$id"/><xsl:text>": "</xsl:text>
-            <xsl:value-of select="replace(replace(normalize-space(tei:geogName/tei:geo), ', ', ';'), '; ', ';')"/>
+              <xsl:value-of select="replace(replace(normalize-space(tei:geogName/tei:geo[not(@style)]), ', ', ';'), '; ', ';')"/>
+              <xsl:text>", </xsl:text>
+            </xsl:for-each>
+          </xsl:for-each>
+          <xsl:text>!}</xsl:text>
+        </xsl:variable>
+        
+        <xsl:variable name="map_lines">
+          <xsl:text>{</xsl:text>
+          <xsl:for-each select="$linkedplaces">
+            <xsl:variable name="key" select="translate(translate(.,' ',''), '#', '')"/>
+            <xsl:for-each select="$places/tei:place[descendant::tei:idno=$key][contains(descendant::tei:geo[@style], ';')]">
+              <xsl:variable name="name" select="normalize-space(translate(tei:placeName[1], ',', '; '))"/>
+              <xsl:variable name="id" select="substring-after(translate(tei:idno,'#',''), 'places/')"/>
+              <xsl:variable name="idno" select="translate(translate(tei:idno, '#', ''), ' ', '')"/>
+              <xsl:variable name="mentioning_documents">
+                <xsl:for-each select="$texts">
+                  <xsl:for-each select=".[descendant::tei:placeName[contains(concat(@ref, ' '), concat($idno, ' '))]]"><p/></xsl:for-each>
+                </xsl:for-each>
+              </xsl:variable>
+              <xsl:variable name="number_of_mentioning_documents"><xsl:value-of select="count($mentioning_documents/p)"/></xsl:variable>
+              
+              <xsl:text>"</xsl:text><xsl:value-of select="$name"/>
+              <xsl:text>#</xsl:text><xsl:value-of select="$number_of_mentioning_documents"/>
+              <xsl:text>#</xsl:text><xsl:value-of select="$id"/><xsl:text>": "</xsl:text>
+              <xsl:value-of select="replace(replace(normalize-space(tei:geogName/tei:geo[@style]), ', ', ';'), '; ', ';')"/>
               <xsl:text>", </xsl:text>
             </xsl:for-each>
           </xsl:for-each>
@@ -318,7 +343,7 @@
           <xsl:text>{</xsl:text> 
           <xsl:for-each select="$linkedplaces">
             <xsl:variable name="key" select="translate(translate(.,' ',''), '#', '')"/>
-                <xsl:for-each select="$places/tei:place[descendant::tei:idno=$key][descendant::tei:geo/text()]">
+            <xsl:for-each select="$places/tei:place[descendant::tei:idno=$key][descendant::tei:geo/text()]">
                   <xsl:variable name="name" select="normalize-space(translate(tei:placeName[1], ',', '; '))"/>
                   <xsl:variable name="id" select="substring-after(translate(tei:idno,'#',''), 'places/')"/>
                   <xsl:variable name="idno" select="translate(translate(tei:idno, '#', ''), ' ', '')"/>
@@ -358,7 +383,8 @@
             <p>
               <img src="../../../assets/images/golden.png" alt="golden circle" class="mapicon"/>Places linked to fiscal properties
               <img src="../../../assets/images/purple.png" alt="purple circle" class="mapicon"/>Places not linked to fiscal properties
-              <img src="../../../assets/images/polygon.png" alt="green polygon" class="mapicon"/>Places not precisely located or wider areas <br/>
+              <img src="../../../assets/images/polygon.png" alt="green polygon" class="mapicon"/>Places not precisely located or wider areas
+              <img src="../../../assets/images/line.png" alt="blue line" class="mapicon"/> Rivers and other longilinear places <br/>
               <img src="../../../assets/images/anchor.png" alt="anchor" class="mapicon"/>Ports, fords
               <img src="../../../assets/images/tower.png" alt="tower" class="mapicon"/>Fortifications
               <img src="../../../assets/images/sella.png" alt="sella" class="mapicon"/>Residences
@@ -371,6 +397,7 @@
           </div>
           <script type="text/javascript">
             var polygons = <xsl:value-of select="replace(replace($map_polygons, ', !', ''), '!', '')"/>;
+            var lines = <xsl:value-of select="replace(replace($map_lines, ', !', ''), '!', '')"/>;
             var points = <xsl:value-of select="replace($map_points, ', ,', ',')"/>;
             </script>
           <script type="text/javascript" src="../../assets/scripts/maps.js"></script>
@@ -383,6 +410,7 @@
             toggle_purple_places.addTo(<xsl:value-of select="concat('map', $id)"/>);
             toggle_golden_places.addTo(<xsl:value-of select="concat('map', $id)"/>);
             toggle_polygons.addTo(<xsl:value-of select="concat('map', $id)"/>);
+            toggle_lines.addTo(<xsl:value-of select="concat('map', $id)"/>);
           </script>
         </div>
       </xsl:if>
@@ -603,7 +631,7 @@
     <!-- generate lists of places by type -->
     <xsl:variable name="map_polygons">
       <xsl:text>{</xsl:text>
-      <xsl:for-each select="$places/tei:place[contains(descendant::tei:geo, ';')]">
+      <xsl:for-each select="$places/tei:place[contains(descendant::tei:geo[not(@style)], ';')]">
         <xsl:variable name="name" select="normalize-space(translate(tei:placeName[1], ',', '; '))"/>
         <xsl:variable name="id" select="substring-after(translate(tei:idno,'#',''), 'places/')"/>
         <xsl:variable name="idno" select="translate(translate(tei:idno, '#', ''), ' ', '')"/>
@@ -617,7 +645,29 @@
         <xsl:text>"</xsl:text><xsl:value-of select="$name"/>
         <xsl:text>#</xsl:text><xsl:value-of select="$number_of_mentioning_documents"/>
         <xsl:text>#</xsl:text><xsl:value-of select="$id"/><xsl:text>": "</xsl:text>
-        <xsl:value-of select="replace(replace(normalize-space(tei:geogName/tei:geo), ', ', ';'), '; ', ';')"/>
+        <xsl:value-of select="replace(replace(normalize-space(tei:geogName/tei:geo[not(@style)]), ', ', ';'), '; ', ';')"/>
+        <xsl:text>"</xsl:text><xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if>
+      </xsl:for-each>
+      <xsl:text>}</xsl:text>
+    </xsl:variable>
+    
+    <xsl:variable name="map_lines">
+      <xsl:text>{</xsl:text>
+      <xsl:for-each select="$places/tei:place[contains(descendant::tei:geo[@style], ';')]">
+        <xsl:variable name="name" select="normalize-space(translate(tei:placeName[1], ',', '; '))"/>
+        <xsl:variable name="id" select="substring-after(translate(tei:idno,'#',''), 'places/')"/>
+        <xsl:variable name="idno" select="translate(translate(tei:idno, '#', ''), ' ', '')"/>
+        <xsl:variable name="mentioning_documents">
+          <xsl:for-each select="$texts">
+            <xsl:for-each select=".[descendant::tei:placeName[contains(concat(@ref, ' '), concat($idno, ' '))]]"><p/></xsl:for-each>
+          </xsl:for-each>
+        </xsl:variable>
+        <xsl:variable name="number_of_mentioning_documents"><xsl:value-of select="count($mentioning_documents/p)"/></xsl:variable>
+        
+        <xsl:text>"</xsl:text><xsl:value-of select="$name"/>
+        <xsl:text>#</xsl:text><xsl:value-of select="$number_of_mentioning_documents"/>
+        <xsl:text>#</xsl:text><xsl:value-of select="$id"/><xsl:text>": "</xsl:text>
+        <xsl:value-of select="replace(replace(normalize-space(tei:geogName/tei:geo[@style]), ', ', ';'), '; ', ';')"/>
         <xsl:text>"</xsl:text><xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if>
       </xsl:for-each>
       <xsl:text>}</xsl:text>
@@ -652,7 +702,7 @@
         <xsl:if test="matches($all_keys, '.* (petiae|landed_possessions) .*')"><xsl:text>i@</xsl:text></xsl:if> <!-- land -->
         <xsl:if test="matches($all_keys, '.* (mines|quarries|forests|gualdi|cafagia|fisheries|saltworks|other_basins) .*')"><xsl:text>j@</xsl:text></xsl:if> <!-- fallow -->
         <xsl:value-of select="$id"/><xsl:text>": "</xsl:text><xsl:choose>
-         <xsl:when test="contains(normalize-space(tei:geogName/tei:geo), ';')"><xsl:value-of select="substring-before(tei:geogName/tei:geo, ';')"/></xsl:when>
+          <xsl:when test="contains(normalize-space(tei:geogName/tei:geo), ';')"><xsl:value-of select="substring-before(tei:geogName/tei:geo, ';')"/></xsl:when>
           <xsl:otherwise><xsl:value-of select="normalize-space(tei:geogName/tei:geo)"/></xsl:otherwise>
           </xsl:choose><xsl:text>"</xsl:text><xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if>
       </xsl:for-each>
@@ -674,7 +724,8 @@
         <p>
           <img src="../../../assets/images/golden.png" alt="golden circle" class="mapicon"/>Places linked to fiscal properties
           <img src="../../../assets/images/purple.png" alt="purple circle" class="mapicon"/>Places not linked to fiscal properties
-          <img src="../../../assets/images/polygon.png" alt="green polygon" class="mapicon"/>Places not precisely located or wider areas <br/>
+          <img src="../../../assets/images/polygon.png" alt="green polygon" class="mapicon"/>Places not precisely located or wider areas
+          <img src="../../../assets/images/line.png" alt="blue line" class="mapicon"/> Rivers and other longilinear places <br/>
           <img src="../../../assets/images/anchor.png" alt="anchor" class="mapicon"/>Ports, fords
           <img src="../../../assets/images/tower.png" alt="tower" class="mapicon"/>Fortifications
           <img src="../../../assets/images/sella.png" alt="sella" class="mapicon"/>Residences
@@ -687,6 +738,7 @@
       </div>
       <script type="text/javascript">
         var polygons = <xsl:value-of select="$map_polygons"/>;
+        var lines = <xsl:value-of select="$map_lines"/>;
         var points = <xsl:value-of select="$map_points"/>;
         var map_labels = <xsl:value-of select="$map_labels"/>;
       </script>
@@ -699,6 +751,7 @@
         toggle_purple_places.addTo(mymap); 
         toggle_golden_places.addTo(mymap);
         toggle_polygons.addTo(mymap);
+        toggle_lines.addTo(mymap);
       </script>
     </div>
   </xsl:template>

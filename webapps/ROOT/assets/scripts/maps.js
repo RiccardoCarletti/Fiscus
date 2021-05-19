@@ -51,6 +51,7 @@ var streets = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{
         
         
          var polygons_places = [];
+         var lines_places = [];
             var purple_places = [];
             var golden_places = [];
             var ports_places = [];
@@ -135,6 +136,15 @@ var streets = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{
             polygons_places.push(L.polygon([coords], {color: 'green'}).bindPopup('<a target="_blank" href="places.html#0">'.replace("0", key.substring(key.lastIndexOf("#") +1)) + key.substring(0, key.indexOf("#")) + '</a> <span class="block">See linked documents (' + key.substring(key.indexOf("#") +1, key.lastIndexOf("#")) + '): <a target="_blank" href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("#") +1)) + '➚</a></span>'));
             }; 
             
+            for (var [key, value] of Object.entries(lines)) {
+            var split_values = value.split(';');
+            split_values.forEach(function(item, index, array) {
+            array[index] = parseFloat(item);
+            });
+            var coords = chunkArray(split_values, 2);
+            lines_places.push(L.polyline([coords], {color: 'blue'}).bindPopup('<a target="_blank" href="places.html#0">'.replace("0", key.substring(key.lastIndexOf("#") +1)) + key.substring(0, key.indexOf("#")) + '</a> <span class="block">See linked documents (' + key.substring(key.indexOf("#") +1, key.lastIndexOf("#")) + '): <a target="_blank" href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("#") +1)) + '➚</a></span>'));
+            }; 
+            
         var toggle_ports_places = L.layerGroup(ports_places);
         var toggle_fortifications_places = L.layerGroup(fortifications_places);
         var toggle_residences_places = L.layerGroup(residences_places);
@@ -146,6 +156,7 @@ var streets = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{
         var toggle_purple_places = L.layerGroup(purple_places); 
         var toggle_golden_places = L.layerGroup(golden_places);
         var toggle_polygons = L.layerGroup(polygons_places);
+        var toggle_lines = L.layerGroup(lines_places);
         
         var baseMaps = {
         "DARE": dare,
@@ -161,6 +172,7 @@ var streets = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{
         "All places linked to fiscal properties": toggle_golden_places,
         "All places not linked to fiscal properties": toggle_purple_places,
         "Places not precisely located or wider areas": toggle_polygons,
+        "Rivers and other longilinear places": toggle_lines,
         "Ports and fords": toggle_ports_places,
         "Fortifications": toggle_fortifications_places,
         "Residences": toggle_residences_places,
