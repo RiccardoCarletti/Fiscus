@@ -2622,11 +2622,12 @@
                     <link type="people" corresp="#people/311" subtype="fatherOf"/>
                 </person>
                 <person>
-                    <persName>Talesperianus (713-724) episcopus Lucensis</persName>
+                    <persName>Talesperianus (713-730) episcopus Lucensis</persName>
                     <persName type="other"/>
                     <idno>people/313</idno>
                     <note/>
                     <link type="people" corresp="#people/345" subtype="sonOf"/>
+                    <link type="people" corresp="#people/358" subtype="brotherOf"/>
                     <link type="juridical_persons" corresp="#juridical_persons/68" subtype="link"/>
                 </person>
                 <person>
@@ -3013,7 +3014,7 @@
                     <note/>
                 </person>
                 <person>
-                    <persName>Vitalianus (902/911) diaconus ecclesiae Aquileiensis</persName>
+                    <persName>Vitalianus (902-911) diaconus ecclesiae Aquileiensis</persName>
                     <persName type="other"/>
                     <idno>people/356</idno>
                     <link type="people" corresp="#people/165" subtype="link"/>
@@ -3031,7 +3032,38 @@
                     <link type="places" corresp="#places/275" subtype="hasConnectionWith"/>
                     <note/>
                 </person>
-            </listPerson>
+                <person>
+                    <persName>Sichimundus (730) archipresbiter ecclesie Lucensis</persName>
+                    <persName type="other"/>
+                    <idno>people/358</idno>
+                    <note/>
+                    <link type="people" corresp="#people/313" subtype="brotherOf"/>
+                </person>
+                <person>
+                    <persName>Teudebertus (730) gasindius regis</persName>
+                    <persName type="other"/>
+                    <idno>people/359</idno>
+                    <note/>
+                    <link type="people" corresp="#people/360" subtype="brotherOf"/>
+                    <link type="people" corresp="#people/361" subtype="brotherOf"/>
+                </person>
+                <person>
+                    <persName>Ratepertus (730) gasindius regis</persName>
+                    <persName type="other"/>
+                    <idno>people/360</idno>
+                    <note/>
+                    <link type="people" corresp="#people/359" subtype="brotherOf"/>
+                    <link type="people" corresp="#people/361" subtype="brotherOf"/>
+                </person>
+                <person>
+                    <persName>Gotepertus (730) gasindius regis</persName>
+                    <persName type="other"/>
+                    <idno>people/361</idno>
+                    <note/>
+                    <link type="people" corresp="#people/359" subtype="brotherOf"/>
+                    <link type="people" corresp="#people/360" subtype="brotherOf"/>
+                </person>
+                </listPerson>
         </body>
     </text>
 </TEI>
