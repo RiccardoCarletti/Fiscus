@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title></title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc1143</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#"/>
+                            <rs type="record_source" ref="#"/>
+                            <rs type="document_tradition" ref="#"/>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate notBefore="0001" notAfter="0001" when="0001"> 
+                                <note type="displayed_date"></note>
+                                <note type="dating_elements"></note>
+                                <note type="topical_date"></note>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-02-08" who="Chiara Stedile">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine domini nostri Iesu Christi Dei aeterni. Berengarius rex. Noverit
+                        omnium industria fidelium nostrorum presentium scilicet ac futurorum,
+                        qualiter sepius disceptionem actam venerabilis Regensis episcopus Petrus
+                        inter se et Vuifredum comitem de quibusdam rebus Regensi ecclesiae
+                        pertinentibus, hoc est de capella Sanctae Marie que dicitur in Turricella,
+                        usque ad nostrae serenitatis aures detulerit. Cuius negotii causam usque ad
+                        palatini nostri iuditii discussum perduximus. In quo examinis iuditio
+                        residentibus nobis in nostro regali auditorio, presentibus Aichone
+                        venerabile Mediolanensi archiepiscopo atque Iohanne Ticinensi aliisque
+                        complurimis coepiscopis, abbatibus, commitibus, omnibus palatinis iudicibus,
+                        nec non maxima fidelium nostrorum manu inter astante, V id. iun. in palatio
+                        Ticini, audita ex utraque parte causa legalique iuditio terminata,
+                        revestivit nobis presentibus iam dictus Vuifredus revictus de supradicta
+                        Sanctae Marie capella et castro inibi facto vicarios Sanctae Marie et Sancti
+                        Prosperi, quorum videbatur esse proprietas. Ex hinc facta notitia, adiit
+                        nostram celsitudinem venerabilis sepe dictus pontifex Petrus, ut quia
+                        seculum in male positum multas iniurias fraudulentas sanctae Dei Ecclesiae
+                        cotidie inferre laborat, quatinus eandem causam coram nobis devictam in
+                        nostri mundiburdii tuitione susciperemus, et ex hoc advocati atque vicarii
+                        Sanctae Dei genitricis virginis Marie et Sancti Prosperi fieremus ob
+                        peccatorum nostrorum remissionem. Cuius petitionibus a vice sanctorum nobis
+                        oblatis non audentes contra ire, iussimus exinde hoc nostre defensionis
+                        mundiburdium scribere, ut ipsi nostri vicarii pro nobis sint coram Deo,
+                        quatinus ab hodierna die quod est V id. iun. et deinceps nulla potestas
+                        magna vel parva audeat impedire locum ipsum vel aliquem ibi commanentem de
+                        qualicumque comitatu actenus ibi conductum, non masculum, non feminam, sed
+                        sicut sunt ibi consiti sic permaneant sub nostra defensione muniti, neque de
+                        ullo negotio piscationis vel venundationis in nullo fluvio iuris nostri
+                        navigantibus, vel per terram euntibus, aut in foro mercantibus ullus actor
+                        presumat eis vim inferre aut theloneum tollere, sed ubiubi fuerint, sint
+                        salvi et defensi per nostrae defensionis amorem pariter et timorem. Quod si
+                        aliquis, quod non credimus, contra hoc decreti nostri mundiburdiale
+                        institutum ad lesionem inire temptaverit, mancosos aureos duo milia poena
+                        multatus exsolvat. Et ut in Dei nomine haec nostra auctoritas firmiorem
+                        habeat statum et a fidelibus nostris verius credatur et diligentius
+                        observetur, anulo inpressionis nostre iussimus insigniri. Iohannes notarius
+                        iussu regio recognovi et subscripsi. (SR) (SI D). Data V id. iun., anno
+                        dominice incarnationis DCCCCXII, domni Berengarii piissimi regis XXV,
+                        indictione XV. Actum palatio Ticinensi. In Dei nomine feliciter, amen.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
