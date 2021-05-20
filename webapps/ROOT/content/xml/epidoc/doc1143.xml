@@ -4,7 +4,7 @@
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
-                <title>Archivio Capitolare di Reggio Emilia</title>
+                <title>DD B I, pp. 222-224, n° LXXXIII</title>
             </titleStmt>
             <editionStmt>
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
@@ -41,10 +41,10 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate notBefore="0001" notAfter="0001" when="0001"> 
-                                <note type="displayed_date"></note>
-                                <note type="dating_elements"></note>
-                                <note type="topical_date"></note>
+                            <origDate when="0912-06-09">
+                                <note type="displayed_date">912 june 9</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Pavia</note>
                             </origDate>
                             <origPlace/>
                         </origin>
@@ -80,10 +80,14 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>In nomine domini nostri Iesu Christi Dei aeterni. Berengarius rex. Noverit
-                        omnium industria fidelium nostrorum presentium scilicet ac futurorum,
-                        qualiter sepius disceptionem actam venerabilis Regensis episcopus Petrus
-                        inter se et Vuifredum comitem de quibusdam rebus Regensi ecclesiae
+                    <ab>In nomine domini nostri Iesu Christi Dei aeterni. <persName
+                            key="#Emperor/king" ref="#people/21">Berengarius</persName>
+                        <rs key="#Emperor/king">rex</rs>. Noverit omnium industria fidelium
+                        nostrorum presentium scilicet ac futurorum, qualiter sepius disceptionem
+                        actam venerabilis <persName key="#Bishops" ref="#people/232">Regensis
+                            episcopus Petrus</persName> inter se et <persName key="#Count"
+                            >Vuifredum</persName>
+                        <rs key="#Count">comitem</rs> de quibusdam rebus Regensi ecclesiae
                         pertinentibus, hoc est de capella Sanctae Marie que dicitur in Turricella,
                         usque ad nostrae serenitatis aures detulerit. Cuius negotii causam usque ad
                         palatini nostri iuditii discussum perduximus. In quo examinis iuditio
@@ -132,7 +136,7 @@
             </div>
             <div type="commentary">
                 <p>Schiaparelli, dalla cui edizione è tratto il testo qui trascritto, si rifà alla
-                    copia del diploma presente in Ughelli, <foreign>IS</foreign>.</p>
+                    copia del diploma presente in Ughelli, <foreign>IS</foreign>, II, 260.</p>
             </div>
         </body>
     </text>
