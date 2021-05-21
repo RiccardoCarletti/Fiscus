@@ -31,10 +31,10 @@
                             </msIdentifier>
                             <msContents>
                                 <summary>
-                                    <rs type="text_type" ref="#"/>
-                                    <rs type="record_source" ref="#"/>
-                                    <rs type="document_tradition" ref="#"/>
-                                    <rs type="fiscal_property"/>
+                                    <rs type="text_type" ref="#">--Offersio/donatio</rs>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
                                 </summary>
                                 <msItem xml:id="msItem1">
                                     <textLang mainLang="" otherLangs=""/>
@@ -46,7 +46,7 @@
                                 <note type="displayed_date">[731-732] August</note>
                                 <note type="dating_elements">Data: Anno di Liutprando 20 (=731) ;
                                     indizione 15 (= 732).</note>
-                                <note type="topical_date"/>
+                                <note type="topical_date"><foreign>Laveriana</foreign></note>
                             </origDate>
                                     <origPlace/>
                                 </origin>
@@ -84,25 +84,31 @@
                         <div type="textpart">
                             <ab>+ In nomine domini Dei salvatoris nostri Iesum Christi. Regnante
                         domno nostro Liutprand rege, anno regni eius vigensimo, per indictione
-                        quinta decima; feliciter. Ideo Deo autorem constat me Baronta, Auderat
-                        fratres germani qui pro mercide et remedio anime patri nostro vel barbani
-                        nostri Ursoni et Ghisolf, qui fuet barbane nostro, vel mercide anime
-                        Barontani et Auderat vel de nostris eridis damus et tradimus vinea nostra
-                        propria plus minus ordinis vigenti et duo ad beata sancta Maria offerimus,
-                        qui genetrige Domini nostri, in talem tenore, ut qui pos nostro ovitum
-                        presviteratum in casa Sancte Marie tenuere, semper noviscum sia, ut
-                        licentiam aveas omo noster per ipsa vinea transsire ad alia vinea nostra; et
-                        de ipsa offerta semper securus possedeas ipsa vinea cum homnis edificia suas
-                        et facias comodo placueret qui ad ipsa Sancta Maria per fide servire dignus
-                        est. Actum in Laveriana, per mense augusto, indictione et regnum
-                        suprascriptum; feliciter. Signum + manus Baronte viri devoti, qui pro
-                        mercide patris vel barbanis suis seo et sua anima et de germano suo Auderat
-                        offerse. Signum + manus Auderat consentiente fratris suis. </ab>
+                        quinta decima; feliciter. Ideo Deo autorem constat me <persName><name
+                                ref="Baronte">Baronta</name></persName>, <persName><name
+                                ref="Auderat">Auderat</name></persName> fratres germani qui pro
+                        mercide et remedio anime patri nostro vel barbani nostri <persName><name
+                                ref="Ursus">Ursoni</name></persName> et <persName><name
+                                ref="Ghisulfus">Ghisolf</name></persName>, qui fuet barbane nostro,
+                        vel mercide anime Barontani et Auderat vel de nostris eridis damus et
+                        tradimus <rs key="#Wine">vinea</rs> nostra propria <rs key="#Size">plus
+                            minus ordinis vigenti et duo</rs> ad <orgName key="#Churches">beata
+                            sancta Maria</orgName> offerimus, qui genetrige Domini nostri, in talem
+                        tenore, ut qui pos nostro ovitum presviteratum in casa Sancte Marie tenuere,
+                        semper noviscum sia, ut licentiam aveas omo noster per ipsa vinea transsire
+                        ad alia <rs key="#Wine">vinea</rs> nostra; et de ipsa offerta semper securus
+                        possedeas ipsa vinea cum homnis edificia suas et facias comodo placueret qui
+                        ad ipsa Sancta Maria per fide servire dignus est. Actum in <placeName
+                            key="#Size #Wine #Churches">Laveriana</placeName>, per mense augusto,
+                        indictione et regnum suprascriptum; feliciter. Signum + manus Baronte <rs
+                            key="#Vir_devotus/vir_honestus">viri devoti</rs>, qui pro mercide patris
+                        vel barbanis suis seo et sua anima et de germano suo Auderat offerse. Signum
+                        + manus Auderat consentiente fratris suis. </ab>
                         </div>
                     </div>
                     <div type="bibliography" subtype="editions">
                         <p>MDL IV/1, n. 38 reg. MDL V/2, n. 17; CDL I, n. 51, pp. 171-172; ChLA,
-                    XXX, 908</p>
+                    XXX, 908.</p>
                     </div>
                     <div type="bibliography" subtype="additional">
                         <p/>
@@ -111,11 +117,11 @@
                         <p/>
                     </div>
                     <div type="commentary">
-                         <p>Persone: Baronta v. dev. (f. Ursoni; fr. Auderat; nepos Ghisolf);
-                    Auderat (f. Ursoni; fr. Baronta; nepos Ghisolf); Ghisolf (barbanus: Auderat,
-                    Baronta); Ursoni [Orso] (p. Baronta, Auderat). Luoghi: Laveriana. Chiese: beata
-                    sancta Maria … qui genetrige domini nostri [S. Maria]. Cariche: . Note: .
-                    Indice: donazione - chiesa Manca della sottoscrizione notarile</p>
+                         <p>Manca della sottoscrizione notarile. S. Maria de Laveriana = S. Maria di
+                    Lavaiano in Val d’Era a ovest di Ponsacco (Gello di Lavaiano; Pontedera; Pisa:
+                    43.6369677, 10.5983455); Repetti, II, 664 e Pieri, Top Arno, p. 153 S. Maria a
+                    Vaiano (Vaiana) nel piviere di Montopoli (già Musciano) (Casa Vaiana; Montopoli
+                    in Val d'Arno; Pisa: 43.6733872, 10.7137279).</p>
                     </div>
                 </body>
             </text>
