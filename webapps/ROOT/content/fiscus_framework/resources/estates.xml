@@ -714,16 +714,10 @@
                     <note/>
                     <link type="places" corresp="#places/177"
                         subtype="isInVicinityOf"/>
-                    <link type="people" corresp="#people/114" subtype="link"/>
-                    <link type="people" corresp="#people/159" subtype="link"/>
                     <link type="juridical_persons"
                         corresp="#juridical_persons/97" subtype="link"/>
                     <link type="places" corresp="#places/194"
                         subtype="isPartOf"/>
-                    <link type="juridical_persons"
-                        corresp="#juridical_persons/98" subtype="link"/>
-                    <link type="estates" corresp="#estates/123"
-                        subtype="hasInItsVicinity"/>
                 </place>
                 <place>
                     <geogName>Teano; <foreign>comitatus</foreign></geogName>
@@ -735,14 +729,7 @@
                     <link type="places" corresp="#places/194"
                         subtype="isPartOf"/>
                     <link type="juridical_persons"
-                        corresp="#juridical_persons/98" subtype="link"/>
-                    <link type="juridical_persons"
                         corresp="#juridical_persons/97" subtype="link"/>
-                    <link type="people" corresp="#people/114" subtype="link"
-                    />
-                    <link type="estates" corresp="#estates/123"
-                        subtype="hasConnectionWith"/>
-                    <link type="people" corresp="#people/167" subtype="link"/>
                     <link type="places" corresp="#places/198"
                         subtype="isInVicinityOf"/>
                 </place>
@@ -2287,6 +2274,24 @@
                     <link type="people" corresp="#people/71" subtype="link"/>
                     <link type="estates" corresp="#estates/291" subtype="isMadeOf"/>
                     <link type="estates" corresp="#estates/192" subtype="isPartOf"/>
+                </place>
+                <place>
+                    <geogName><foreign>Vualdo Meleto</foreign></geogName>
+                    <geogName type="other"/>
+                    <idno>estates/293</idno>
+                    <note/>
+                    <link type="juridical_persons" corresp="#juridical_persons/53" subtype="link"/>
+                    <link type="people" corresp="#people/55" subtype="link"/>
+                    <link type="people" corresp="#people/80" subtype="link"/>
+                </place>
+                <place>
+                    <geogName><foreign>Sancta Maria; curtis</foreign></geogName>
+                    <geogName type="other"/>
+                    <idno>estates/294</idno>
+                    <note/>
+                    <link type="juridical_persons" corresp="#juridical_persons/47" subtype="link"/>
+                    <link type="people" corresp="#people/21" subtype="link"/>
+                    <link type="people" corresp="#people/354" subtype="link"/>
                 </place>
             </listPlace>
         </body>

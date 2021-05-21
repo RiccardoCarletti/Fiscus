@@ -413,8 +413,13 @@
     <span class="geogName"><xsl:apply-templates/></span>
     <xsl:if test="@ref !=''"><a target="_blank" class="links hidden"><xsl:attribute name="href"><xsl:value-of select="concat('../texts/estates.html#', substring-after(translate(@ref, '#', ''), 'estates/'))"/></xsl:attribute> ➚</a></xsl:if>
   </xsl:template>
+  
   <xsl:template match="t:rs[ancestor::t:div[@type = 'edition']]">
     <span class="rs"><xsl:apply-templates/></span>
+  </xsl:template>
+  
+  <xsl:template match="t:date[ancestor::t:div[@type = 'edition']]">
+    <span class="date"><xsl:apply-templates/></span>
   </xsl:template>
 
 

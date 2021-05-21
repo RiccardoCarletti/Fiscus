@@ -253,8 +253,6 @@
                     <orgName type="other"/>
                     <idno>juridical_persons/80</idno>
                     <note/>
-                    <link type="people" corresp="#people/94" subtype="link"/>
-                    <link type="people" corresp="#people/117" subtype="link"/>
                 </org>
                 <org>
                     <orgName>Sanctus Eusebius; episcopium (Vercelli)</orgName>
@@ -301,28 +299,6 @@
                     <note/>
                     <link type="places" corresp="#places/109"
                         subtype="isWithin"/>
-                    <link type="juridical_persons"
-                        corresp="#juridical_persons/97" subtype="link"/>
-                    <link type="people" corresp="#people/186"
-                        subtype="gratitudeTo"/>
-                    <link type="estates" corresp="#estates/140"
-                        subtype="hasConnectionWith"/>
-                    <link type="people" corresp="#people/192" subtype="link"/>
-                    <link type="people" corresp="#people/187" subtype="link"/>
-                    <link type="people" corresp="#people/193" subtype="gratitudeTo"/>
-                    <link type="estates"
-                        corresp="#estates/148"
-                        subtype="link"/>
-                    <link type="estates"
-                        corresp="#estates/146"
-                        subtype="link"/>
-                    <link type="estates"
-                        corresp="#estates/149"
-                        subtype="link"/>
-                    <link type="estates"
-                        corresp="#estates/147"
-                        subtype="link"/>
-                    <link type="people" corresp="#people/115" subtype="gratitudeTo"/>
                 </org>
                 <org>
                     <orgName>Sancta Sophia; monasterium (Benevento)</orgName>
@@ -331,8 +307,6 @@
                     <note/>
                     <link type="places" corresp="#places/110"
                         subtype="isWithin"/>
-                    <link type="people" corresp="#people/113"
-                        subtype="agentFor"/>
                 </org>
                 <org>
                     <orgName>Sanctus Cerbonius; episcopium (Populonia; Livorno)</orgName>
@@ -374,7 +348,6 @@
                     <link type="people" corresp="#people/49" subtype="link"/>
                     <link type="people" corresp="#people/14" subtype="link"/>
                     <link type="people" corresp="#people/117" subtype="link"/>
-                    <link type="people" corresp="#people/94" subtype="link"/>
                 </org>
                 <org>
                     <orgName>Sanctus Zeno; ecclesia (Verona)</orgName>
@@ -436,23 +409,10 @@
                     <orgName type="other"/>
                     <idno>juridical_persons/97</idno>
                     <note/>
-                    <link type="people" corresp="#people/159"
-                        subtype="professionalRelationship"/>
                     <link type="juridical_persons"
                         corresp="#juridical_persons/84" subtype="link"/>
-                    <link type="people" corresp="#people/114" subtype="link"/>
-                    <link type="estates" corresp="#estates/121"
-                        subtype="hasConnectionWith"/>
-                    <link type="people" corresp="#people/156"
-                        subtype="benefactorOf"/>
-                    <link type="people" corresp="#people/157"
-                        subtype="benefactorOf"/>
                     <link type="places" corresp="#places/193"
                         subtype="isWithin"/>
-                    <link type="people" corresp="#people/162" subtype="link"/>
-                    <link type="people" corresp="#people/160" subtype="link"/>
-                    <link type="people" subtype="link" corresp="#people/168"/>
-                    <link type="people" corresp="#people/167" subtype="link"/>
                 </org>
                 <org>
                     <orgName>Sancta Cecilia; ecclesia (Vairano Patenora; Caserta)</orgName>
@@ -539,8 +499,6 @@
                         subtype="hasConnectionWith"/>
                     <link type="places" corresp="#places/198"
                         subtype="hasConnectionWith"/>
-                    <link type="juridical_persons"
-                        corresp="#juridical_persons/106" subtype="link"/>
                 </org>
                 <org>
                     <orgName>Sanctus Martinus; ecclesia (Vairano Patenora; Caserta)</orgName>
@@ -700,21 +658,7 @@
                     <orgName type="other"/>
                     <idno>juridical_persons/122</idno>
                     <note/>
-                    <link type="people" corresp="#people/193" subtype="link"/>
-                    <link type="people" corresp="#people/191" subtype="benefactorOf"/>
                     <link type="places" corresp="#places/110" subtype="isWithin"/>
-                    <link type="estates"
-                        corresp="#estates/148"
-                        subtype="link"/>
-                    <link type="estates"
-                        corresp="#estates/146"
-                        subtype="link"/>
-                    <link type="estates"
-                        corresp="#estates/149"
-                        subtype="link"/>
-                    <link type="estates"
-                        corresp="#estates/147"
-                        subtype="link"/>
                 </org>
                 <org>
                     <orgName>Sanctus Stephanus; monasterium (Vercelli)</orgName>
@@ -1686,6 +1630,15 @@
                     <note/>
                     <link type="places" subtype="isWithin" corresp="#places/598"/>
                     <link type="people" subtype="link" corresp="#people/313"/>
+                </org>
+                <org>
+                    <orgName>Sancta Maria qui diciur in Turricella; ecclesia (Reggio Emilia)</orgName>
+                    <orgName type="other">Santa Maria Assunta in Ventoso</orgName>
+                    <idno>juridical_persons/237</idno>
+                    <note/>
+                    <link type="places" subtype="isWithin" corresp="#places/603"/>
+                    <link type="people" subtype="link" corresp="#people/21"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/108" subtype="link"/>
                 </org>
             </listOrg>
         </body>

@@ -111,7 +111,7 @@
             }
         },
         draw: {
-            polyline: false,
+            polyline: true,
             circle: false,
             circlemarker: false,
             rectangle: false,
@@ -140,6 +140,11 @@
             if (layer instanceof L.Marker) {
                 var coord = strLatLng(layer.getLatLng());
                 return coord.replaceAll('(', '').replaceAll(')', '');
+            } 
+            else if (layer instanceof L.Polyline) {
+                var latlngs = layer._defaultShape ? layer._defaultShape() : layer.getLatLngs();
+                var all_coord = ""+latlngs;
+                return all_coord.replaceAll('),LatLng(', '; ').replaceAll('LatLng(', '').replaceAll(')', '');
             } 
             else if (layer instanceof L.Polygon) {
                 var latlngs = layer._defaultShape ? layer._defaultShape() : layer.getLatLngs();

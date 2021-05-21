@@ -107,10 +107,15 @@
           href, '../resources/map.html',
           width, 100%,
           height, 400px)*/
-        oxy_editor(
+            oxy_editor(
            type, text,
            edit, "#text"
-           columns, 40);
+           columns, 40)
+           "  If line:"
+            oxy_editor(
+           type, text,
+           edit, "@style"
+           columns, 5);
            display:block;
            padding-left:20px;
            padding-right:20px;

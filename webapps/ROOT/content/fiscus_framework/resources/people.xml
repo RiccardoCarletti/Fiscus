@@ -157,6 +157,9 @@
                     <idno>people/16</idno>
                     <note/>
                     <link type="juridical_persons" corresp="#juridical_persons/53" subtype="link"/>
+                    <link type="estates" corresp="#estates/40" subtype="hasConnectionWith"/>
+                    <link type="estates" corresp="#estates/38" subtype="hasConnectionWith"/>
+                    <link type="places" corresp="#places/97" subtype="hasConnectionWith"/>
                 </person>
                 
                 <person>
@@ -326,18 +329,21 @@
                     <persName>Innocentius II (?-1143) papa</persName>
                     <idno>people/51</idno>
                     <note/>
+                    <link type="places" corresp="#places/52" subtype="hasConnectionWith"/>
                 </person>
                 
                 <person>
                     <persName>Paschalis II (1050?-1118) papa</persName>
                     <idno>people/52</idno>
                     <note/>
+                    <link type="places" corresp="#places/52" subtype="hasConnectionWith"/>
                 </person>
                 
                 <person>
                     <persName>Callixtus II (1060-1124) papa</persName>
                     <idno>people/54</idno>
                     <note/>
+                    <link type="places" corresp="#places/52" subtype="hasConnectionWith"/>
                 </person>
                 
                 <person>
@@ -1282,6 +1288,7 @@
                         subtype="hasConnectionWith"/>
                     <link type="people" corresp="#people/21"
                         subtype="vassusOf"/>
+                    <link type="people" corresp="#people/356" subtype="link"/>
                 </person>
                 <person>
                     <persName>Anselmus (901-911) comes Veronensis</persName>
@@ -1641,7 +1648,8 @@
                         subtype="link"/>
                 </person>
                 <person>
-                    <persName>Atenolfus I (887-910) princeps</persName>
+                    <persName>Atenolfus (887-910) princeps</persName>
+                    <persName type="other">Atenolf I </persName>
                     <persName type="other"/>
                     <idno>people/194</idno>
                     <note>Cilento, <foreign>Italia meridionale</foreign>, p. 326.</note>
@@ -2541,14 +2549,16 @@
                     <link type="places" corresp="#places/110" subtype="hasConnectionWith"/>
                 </person>
                 <person>
-                    <persName>Atenolfus III (933-943) princeps</persName>
+                    <persName>Atenolfus (933-943) princeps</persName>
+                    <persName type="other">Atenolf III </persName>
                     <persName type="other"/>
                     <idno>people/304</idno>
                     <note>Thomas 2016: 270</note>
                     <link type="people" corresp="#people/305" subtype="sonOf"/>
                 </person>
                 <person>
-                    <persName>Landolfus I (901-943) princeps</persName>
+                    <persName>Landolfus (901-943) princeps</persName>
+                    <persName type="other">Landolf II</persName>
                     <persName type="other"/>
                     <idno>people/305</idno>
                     <note>Beolchini 2004</note>
@@ -2615,15 +2625,16 @@
                     <link type="people" corresp="#people/311" subtype="fatherOf"/>
                 </person>
                 <person>
-                    <persName>Talesperianus (713-724) episcopus Lucensis</persName>
+                    <persName>Talesperianus (713-730) episcopus Lucensis</persName>
                     <persName type="other"/>
                     <idno>people/313</idno>
                     <note/>
                     <link type="people" corresp="#people/345" subtype="sonOf"/>
+                    <link type="people" corresp="#people/358" subtype="brotherOf"/>
                     <link type="juridical_persons" corresp="#juridical_persons/68" subtype="link"/>
                 </person>
                 <person>
-                    <persName>Walpertus (713-736) dux Lucensis</persName>
+                    <persName>Walpertus (dux Lucensis; 713-736) </persName>
                     <persName type="other"/>
                     <idno>people/314</idno>
                     <note/>
@@ -2656,7 +2667,7 @@
                     <link type="juridical_persons" corresp="#juridical_persons/84" subtype="link"/>
                 </person>
                 <person>
-                    <persName>Alleramus marchio (933-q. 991)</persName>
+                    <persName>Alleramus (marchio; 933-991)</persName>
                     <persName type="other"/>
                     <idno>people/318</idno>
                     <note/>
@@ -2667,7 +2678,7 @@
                     <link type="people" corresp="#people/319" subtype="link"/>
                 </person>
                 <person>
-                    <persName>Ingelbertus (933-945) comes (Vienne)</persName>
+                    <persName>Ingelbertus (comes di Vienne; 933-945) </persName>
                     <persName type="other"/>
                     <idno>people/319</idno>
                     <note/>
@@ -2677,7 +2688,7 @@
                     <link type="estates" corresp="#estates/247" subtype="hasConnectionWith"/>
                 </person>
                 <person>
-                    <persName>Walprandus (728-754) episcopus Lucensis (737-754)</persName>
+                    <persName>Walprandus (728-754) (episcopus Lucensis; 737-754)</persName>
                     <persName type="other"/>
                     <idno>people/320</idno>
                     <note/>
@@ -2686,7 +2697,7 @@
                     <link type="people" corresp="#people/314" subtype="sonOf"/>
                 </person>
                 <person>
-                    <persName>Berta (1002-1014) regina</persName>
+                    <persName>Berta (regina; 1002-1014)</persName>
                     <persName type="other"/>
                     <idno>people/321</idno>
                     <note/>
@@ -2711,7 +2722,7 @@
                     <link type="juridical_persons" corresp="#juridical_persons/221" subtype="link"/>
                 </person>
                 <person>
-                    <persName>Cunibertus (995-1005) cancellarius</persName>
+                    <persName>Cunibertus (cancellarius; 995-1005) </persName>
                     <persName type="other"/>
                     <idno>people/324</idno>
                     <note/>
@@ -2897,7 +2908,7 @@
                     <link type="people" corresp="#people/341" subtype="fatherOf"/>
                 </person>
                 <person>
-                    <persName>Peredeo (720-779) episcopus Lucensis (754-779)</persName>
+                    <persName>Peredeo (720-779) (episcopus Lucensis; 754-779)</persName>
                     <persName type="other"/>
                     <idno>people/343</idno>
                     <note/>
@@ -2905,7 +2916,7 @@
                     <link type="people" corresp="#people/341" subtype="fatherOf"/>
                 </person>
                 <person>
-                    <persName>Aripertus II (702-712) rex Langobardorum</persName>
+                    <persName>Aripertus II (rex Langobardorum; 702-712) </persName>
                     <persName type="other"/>
                     <idno>people/344</idno>
                     <note/>
@@ -2983,12 +2994,127 @@
                 <person>
                     <persName>Gundelbertus (890; q. 903) abbas</persName>
                     <persName type="other"/>
-                    <idno>people/</idno>
+                    <idno>people/353</idno>
                     <note/>
                     <link type="juridical_persons" corresp="#juridical_persons/136" subtype="link"/>
                     <link type="places" corresp="#places/572" subtype="hasConnectionWith"/>
                     <link type="people" corresp="#people/21" subtype="link"/>
                     <link type="estates" corresp="#estates/124" subtype="link"/>
+                </person>
+                <person>
+                    <persName>Petrus III (907-913 abbas Nonantulensis)</persName>
+                    <persName type="other"/>
+                    <idno>people/354</idno>
+                    <note/>
+                    <link type="juridical_persons" corresp="#juridical_persons/47" subtype="link"/>
+                    <link type="people" corresp="#people/21" subtype="link"/>
+                </person>
+                <person>
+                    <persName>Radelgarius (851-854 princeps)</persName>
+                    <persName type="other"/>
+                    <idno>people/355</idno>
+                    <link type="places" corresp="#places/110" subtype="hasConnectionWith"/>
+                    <note/>
+                </person>
+                <person>
+                    <persName>Vitalianus (902-911) diaconus ecclesiae Aquileiensis</persName>
+                    <persName type="other"/>
+                    <idno>people/356</idno>
+                    <link type="people" corresp="#people/165" subtype="link"/>
+                    <link type="people" corresp="#people/21" subtype="fidelis_of"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/67" subtype="link"/>
+                    <note/>
+                </person>
+                <person>
+                    <persName>Hegilolfus (894-911? episcopus Mantuanus)</persName>
+                    <persName type="other"/>
+                    <idno>people/357</idno>
+                    <link type="people" corresp="#people/165" subtype="link"/>
+                    <link type="people" corresp="#people/21" subtype="link"/>
+                    <link type="people" corresp="#people/356" subtype="link"/>
+                    <link type="places" corresp="#places/275" subtype="hasConnectionWith"/>
+                    <note/>
+                </person>
+                <person>
+                    <persName>Sichimundus (730) archipresbiter ecclesie Lucensis</persName>
+                    <persName type="other"/>
+                    <idno>people/358</idno>
+                    <note/>
+                    <link type="people" corresp="#people/313" subtype="brotherOf"/>
+                    <link type="people" corresp="#people/359" subtype="link"/>
+                    <link type="people" corresp="#people/360" subtype="link"/>
+                    <link type="people" corresp="#people/361" subtype="link"/>
+                    <link type="people" corresp="#people/362" subtype="link"/>
+                    <link type="people" corresp="#people/363" subtype="link"/>
+                    <link type="people" corresp="#people/364" subtype="link"/>
+                    <link type="places" corresp="#places/4" subtype="hasConnectionWith"/>
+                </person>
+                <person>
+                    <persName>Teudebertus (730) gasindius regis</persName>
+                    <persName type="other"/>
+                    <idno>people/359</idno>
+                    <note/>
+                    <link type="people" corresp="#people/360" subtype="brotherOf"/>
+                    <link type="people" corresp="#people/361" subtype="brotherOf"/>
+                    <link type="people" corresp="#people/12" subtype="gasindiusOf"/>
+                    <link type="places" corresp="#places/4" subtype="hasConnectionWith"/>
+                    <link type="places" corresp="#places/65" subtype="hasConnectionWith"/>
+                </person>
+                <person>
+                    <persName>Ratepertus (730) gasindius regis</persName>
+                    <persName type="other"/>
+                    <idno>people/360</idno>
+                    <note/>
+                    <link type="people" corresp="#people/359" subtype="brotherOf"/>
+                    <link type="people" corresp="#people/361" subtype="brotherOf"/>
+                    <link type="people" corresp="#people/12" subtype="gasindiusOf"/>
+                    <link type="places" corresp="#places/4" subtype="hasConnectionWith"/>
+                    <link type="places" corresp="#places/65" subtype="hasConnectionWith"/>
+                </person>
+                <person>
+                    <persName>Gotepertus (730) gasindius regis</persName>
+                    <persName type="other"/>
+                    <idno>people/361</idno>
+                    <note/>
+                    <link type="people" corresp="#people/359" subtype="brotherOf"/>
+                    <link type="people" corresp="#people/360" subtype="brotherOf"/>
+                    <link type="people" corresp="#people/12" subtype="gasindiusOf"/>
+                    <link type="places" corresp="#places/4" subtype="hasConnectionWith"/>
+                    <link type="places" corresp="#places/65" subtype="hasConnectionWith"/>
+                </person>
+                <person>
+                    <persName>Rodualdus (730) gasindius regis</persName>
+                    <persName type="other"/>
+                    <idno>people/362</idno>
+                    <note/>
+                    <link type="people" corresp="#people/359" subtype="link"/>
+                    <link type="people" corresp="#people/360" subtype="link"/>
+                    <link type="people" corresp="#people/361" subtype="link"/>
+                    <link type="people" corresp="#people/12" subtype="gasindiusOf"/>
+                    <link type="places" corresp="#places/65" subtype="hasConnectionWith"/>
+                </person>
+                <person>
+                    <persName>Rodualdus (730) gasindius regis</persName>
+                    <persName type="other"/>
+                    <idno>people/363</idno>
+                    <note/>
+                    <link type="people" corresp="#people/359" subtype="link"/>
+                    <link type="people" corresp="#people/360" subtype="link"/>
+                    <link type="people" corresp="#people/361" subtype="link"/>
+                    <link type="people" corresp="#people/12" subtype="gasindiusOf"/>
+                    <link type="places" corresp="#places/65" subtype="hasConnectionWith"/>
+                </person>
+                <person>
+                    <persName>Giselbertus (730) vesterarius regie potestatis</persName>
+                    <persName type="other"/>
+                    <idno>people/364</idno>
+                    <note/>
+                    <link type="people" corresp="#people/359" subtype="link"/>
+                    <link type="people" corresp="#people/360" subtype="link"/>
+                    <link type="people" corresp="#people/361" subtype="link"/>
+                    <link type="people" corresp="#people/362" subtype="link"/>
+                    <link type="people" corresp="#people/12" subtype="link"/>
+                    <link type="places" corresp="#places/65" subtype="hasConnectionWith"/>
                 </person>
             </listPerson>
         </body>
