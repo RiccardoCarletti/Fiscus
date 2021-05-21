@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Biblioteca Ambrosiana, D, I, n° 20.</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc1144</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Uncertain tradition</rs>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0912-07-23">
+                                <note type="displayed_date">912 july 23</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Pavia</note>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-02-08">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine domini Dei aeternierengarius rex. Si regalis munificentia sanctas
+                        Dei ecclesias et venerabilia loca temporali custodia protegit, morem suorum
+                        predecessorum equiperat et perpetua stabilitate in aeterna gaudia a Domino
+                        suscipitur, eisque continuo perfuri nequaquam ambigitur. Proinde noverit
+                        omnium fidelium sanctae Dei Ecclesiae nostrorumque presentiumscilicet ac
+                        futurorum industria, Iohannem sanctae Ticinensis eclesiae episcopum nostrae
+                        serenitatis humiliter exorasse clementiam, quatenus Risinde venerabili
+                        abbatissae monasterii Deodote regali auctoritate edificandi castella
+                        concedere dignaremur licentiam in prediis et possessionibus praefati
+                        monasterii in nostro Italico regno adiacentibus ubicumque utilius et melius
+                        visum fuerit pro persecutione et incursione Paganorum. Cuius petitionibus
+                        assensum prebentes, iam fatae abbatissae Risindae nostrae videlicet speciali
+                        oratrici in rebus et possessionibus sui monasterii quod Deodete nominatur
+                        per hoc nostrum preceptum edificandi castella in oportunis locis licentiam
+                        attribuimus una cum bertiscis, merulorum propugnaculis, aggeribus atque
+                        fossatis, omnique argumento ad Paganorum deprimendas insidias. Concedimus
+                        etiam saepe dictae abbatissae incidere et claudere vias publicas circa ipsa
+                        castella ad tutamen et firmamentum sui, aliis donatis per quas publicus
+                        meatus incedat. Quam etiam Risindam abbatissam et sua castella omniaque sui
+                        monasterii predia una cum servis et ancillis, libellariis, colonis suisque
+                        commendaticiis sub nostrae emunitatis atque defensionis praeceptum
+                        recepimus, ut nullus dux, comes, vicecomes, sculdassio, gastaldio, decanus
+                        aut aliqua magna parvaque persona infra potestative ingrediens placitum
+                        custodiat, neque teloneum exquirat, aut infra ipsa castella publicas exigat
+                        functiones, sed omnia sint in potestate et dominio eiusdem Risindae
+                        abbatissae suisque successoribus, amota totius publicae partis
+                        contradictione. Si quis igitur hoc nostrae auctoritatis et defensionis
+                        preceptum infringere vel violare temptaverit, sciat se compositurum auri
+                        optimi libras centum, medietatem camerae nostrae et medietatem praedictae
+                        Risindae venerabili abbatissae suisque successoribus. Quod ut verius
+                        credatur et diligentius observetur, manu propria roborantes de anulo nostro
+                        subter insigniri iussimus. Signum domni (MF) Berengarii serenissimi regis.
+                        Iohannes cancellarius ad vicem Ardigni episcopi et archicancellarii
+                        recognovi et subscripsi. (SR) (SI D). Data X kal. aug., anno dominicae
+                        incarnationis DCCCCXII, domni vero Berengarii serenissimi regis XXV,
+                        indictione XV. Actum Papie. In Christi nomine feliciter, amen.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>DD B I, pp. 224-226, n° LXXXIV</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
