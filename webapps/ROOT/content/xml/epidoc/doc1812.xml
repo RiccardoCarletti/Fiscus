@@ -4,7 +4,7 @@
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
-                <title>Archivio Capitolare di Vercelli ((MGH DD H III, D. 328)</title>
+                <title>Archivio Capitolare di Vercelli (MGH DD H III, D. 328)</title>
             </titleStmt>
             <editionStmt>
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
@@ -30,10 +30,10 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#"/>
-                            <rs type="record_source" ref="#"/>
-                            <rs type="document_tradition" ref="#"/>
-                            <rs type="fiscal_property"/>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -41,10 +41,10 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate notBefore="0001" notAfter="0001" when="0001"> 
-                                <note type="displayed_date"></note>
-                                <note type="dating_elements"></note>
-                                <note type="topical_date"></note>
+                            <origDate notBefore="0001" notAfter="0001" when="1054-11-17">
+                                <note type="displayed_date"/>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Mainz</note>
                             </origDate>
                             <origPlace/>
                         </origin>
@@ -72,7 +72,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2021-02-08">creation of record</change>
+                <change when="2021-05-21" who="caterinaciccopiedi">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -80,11 +80,92 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab></ab>
+                    <ab>In nomine sancte et individue trinitatis. <persName>Heinricus</persName>
+                        divina favente clemencia Romanorum <rs>imperator</rs> augustus. Quia nullus
+                        extra ecclesiam salvus potest fieri, consequens est, ut unusquisque fidelis
+                        laborans in agro dei sine intermissione incumbat incremento ecclesiastice
+                        rei. Certum est enim, quia, sicut exaltatur mater omnium vivencium, ita
+                        crescit merces omnium sibi serviencium. Quapropter universorum eiusdem
+                        fidelium tam presencium quam futurorum noverit caritas, quod nos
+                        ecclesiasticis profectibus incumbentes ac dilectissime nostre coniugis
+                            <rs>imperatricis</rs> seu carissimi nostri filii <rs>regis</rs>
+                        <persName>Heinrici</persName> precibus pietatis aures accomodantes per
+                        presentis precepti stabile firmamentum sancte <orgName>Vercellensi
+                                <rs>ecclesie</rs></orgName>
+                        <rs>confirmamus</rs> omnia bona quiete tenenda ac pacifice in eternum
+                        fruenda, que sancto Eusebio olim collata sunt a nostris predecessoribus
+                        regibus vel imperatoribus seu quibuscumque fidelibus. Sed ut mentes fidelium
+                        plenius gaudeant et predones caucius se custodiant, <geogName>Vercellensem
+                                <rs>comitatum</rs>
+                        </geogName>et <geogName>sancte Agathe </geogName>cum <rs>districto</rs> et
+                            <rs>theloneo</rs> et universa <rs>publica funccione </rs>vel
+                            <rs>exaccione</rs> aut redibicione confirmamus Eusebiane ecclesie;
+                            <placeName>Buiellam</placeName> insuper cum omni sua integritate, id est
+                            <placeName>Vernade</placeName>, <placeName>Clauaza</placeName>,
+                            <placeName>Bedollium</placeName>, <placeName>Gallianicum</placeName>,
+                            <placeName>Ponderianam</placeName>, <placeName>Mulinariam</placeName>,
+                            <placeName>Andurnum</placeName>, <placeName>Cisidulam</placeName>,
+                        corticellam in monte, <placeName>Carixianam</placeName> cum omni sua
+                        integritate, <placeName>Sextegnum</placeName>,
+                            <placeName>Rouisindam</placeName>, <placeName>montem
+                            Uictimali,</placeName>
+                        <placeName>Pedrorium</placeName>; <rs>curtem</rs> quoque
+                            <placeName>Vercellensis</placeName> civitatis cum omnibus ad eam
+                        pertinentibus, curticellam in <placeName>Audenic[o]</placeName>, curtem
+                            <geogName>Canauam</geogName>, curtem <geogName>Caualli</geogName>,
+                            <rs>abbaciam</rs>
+                        <orgName>sancti Michahelis de <placeName>Laucedio</placeName>,</orgName>
+                        <placeName>Firminianam</placeName>; curtem regiam quam
+                            <geogName>Orcum</geogName> nominant cum tota <geogName><rs>silva</rs>
+                            walda</geogName> et <placeName>Fulgitio</placeName> et cum omnibus
+                        curtibus et villis, cum <geogName>valle Cliui;</geogName>
+                        <rs>pontem</rs> etiam <placeName>Notingum</placeName>, quem
+                            <persName>Notingus</persName>
+                        <rs>episcopus</rs> eiusdem Vercellensis ecclesie mirabiliter super eum
+                        equitando legaliter recepit; <placeName>Languscum</placeName>, curtem de
+                            <geogName>Aucimiano</geogName> cum omnibus suis pertinentiis, aquam de
+                            <geogName>Scicida</geogName>, aquam de <geogName>Saruo</geogName>, aquam
+                        de <geogName>Heleuo</geogName> cum utrisque <rs>ripis</rs> a loco ubi
+                        nascuntur usque in Padum, aquam <geogName>Padi</geogName> cum utrisque ripis
+                        a <placeName>Lionna</placeName> usque ad <orgName><placeName>plebem Martori,
+                            </placeName></orgName>aquam de <geogName>Duria</geogName> cum utrisque
+                        ripis a <placeName>Petra grossa</placeName> usque in Padum,
+                            <placeName>Consade</placeName>, <placeName>Matascum</placeName>,
+                            <placeName>Candele</placeName>, <placeName>Treuere</placeName>,
+                            <placeName>Cleuoli</placeName>, <placeName>Sulza</placeName> cum
+                            <rs>silva</rs> Salsa, <rs>castellum</rs>
+                        <placeName>Quirini</placeName>, curtem <geogName>Torcelli</geogName> -- hec
+                        omnia [sancta Ver]cellensis e[cclesia] <rs>proprio iure </rs>in eternum
+                        habeat cum omnibus publicis <rs>districtis</rs>
+                        <rs>mercatis</rs>
+                        <rs>theloneis</rs>
+                        <rs>piscacionibus</rs>
+                        <rs>venacionibus</rs>
+                        <rs>portibus</rs>
+                        <rs>molendinis</rs>
+                        <rs>montibus</rs> et vallibus alpibus edificiis <rs>mancipiis</rs> utriusque
+                        sexus agris vineis capellis <rs>pratis</rs>
+                        <rs>pascuis</rs>
+                        <rs>silvis</rs>
+                        <rs>aquis</rs> aquarumque decursibus <rs>cultis et incultis.</rs> Et insuper
+                        speciali edicto sanccimus, ut in omnibus supra nominatis locis nullus
+                        mortalium mercatum presumat instituere aut districtum vel <rs>theloneum</rs>
+                        aut <rs>fodrum</rs> seu aliquam publicam funccionem ac redibicionem exigere
+                        neque piscacionem aut venacionem exercere, nisi ad profectum vel ad proprium
+                        ius ipsius ecclesie. Quicumque ergo huic nostre confirmacioni contraierit,
+                        nostre maiestatis reus erit, insuper mille libras auri se compositurum
+                        noverit, medietatem imperiali camere et medietatem ecclesie, cui molestiam
+                        intulerit. Quod ut firmius habeatur et diligencius ab omnibus observetur,
+                        hoc preceptum ex nostra iussione factum nostris manibus subter confirmavimus
+                        ac sigilli nostri impressione inferius insigniri iussimus et
+                            <persName>Gregorio</persName> nostro fidelissimo deo dispensante
+                        episcopo sancti Eusebii vicario ad perpetuam pacem sue ecclesie conservandum
+                        contulimus. Signum domni Heinrici tercii regis invictissimi (M.) imperatoris
+                        autem secundi. (SMP.) </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p/>
+                <p>MGH DD H III, D. 328</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>
