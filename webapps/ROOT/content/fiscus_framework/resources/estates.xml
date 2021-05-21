@@ -2322,12 +2322,25 @@
                     <geogName type="other"/>
                     <idno>estates/297</idno>
                     <note/>
-                    <link type="juridical_persons" corresp="#juridical_persons/85" subtype="link"/>
                     <link type="people" corresp="#people/21" subtype="link"/>
                     <link type="people" corresp="#people/153" subtype="link"/>
                     <link type="people" corresp="#people/188" subtype="link"/>
-                    <link type="juridical_persons" corresp="#juridical_persons/92" subtype="isWithin"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/92" subtype="link"/>
                     <link type="places" corresp="#places/12" subtype="hasConnectionWith"/>
+                    <link type="places" corresp="#places/607" subtype="isAdjacentTo"/>
+                </place>
+                <place>
+                    <geogName>Pozzuolo; <foreign>castrum</foreign></geogName>
+                    <geogName type="other"/>
+                    <idno>estates/298</idno>
+                    <link type="people" corresp="#people/21" subtype="link"/>
+                    <link type="people" corresp="#people/153" subtype="link"/>
+                    <link type="people" corresp="#people/188" subtype="link"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/92" subtype="link"/>
+                    <link type="places" corresp="#places/12" subtype="hasConnectionWith"/>
+                    <link type="places" corresp="#places/607" subtype="isMadeOf"/>
+                    <link type="estates" corresp="#estates/297" subtype="isAdiacentTo"/>
+                    <note/>
                 </place>
             </listPlace>
         </body>
