@@ -904,6 +904,7 @@
                     <geogName type="coord"><geo>41.521945, 13.879852</geo></geogName>
                     <idno>places/109</idno>
                     <note/>
+                    <link type="juridical_persons" corresp="#juridical_persons/84" subtype="link"/>
                 </place>
                 <place>
                     <placeName>Benevento</placeName>
@@ -911,7 +912,11 @@
                     <geogName type="coord"><geo>41.127987, 14.783478</geo></geogName>
                     <idno>places/110</idno>
                     <note/>
-                    <link type="juridical_persons"/>
+                    <link type="people" corresp="#people/111" subtype="link"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/85" subtype="link"/>
+                    <link type="people" corresp="#people/193" subtype="link"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/122" subtype="link"/>
+                    <link type="people" corresp="#people/186" subtype="link"/>
                 </place>
                 <place>
                     <placeName>Telese (Benevento)</placeName>
@@ -1359,6 +1364,8 @@
                     <geogName type="coord"><geo>41.25132, 14.06652</geo></geogName>
                     <idno>places/174</idno>
                     <note/>
+                    <link type="people" corresp="#people/114" subtype="link"/>
+                    <link type="people" corresp="#people/167" subtype="link"/>
                     <link type="estates" corresp="#estates/122" subtype="isPartOf"/>
                 </place>
                 <place>
@@ -1383,6 +1390,12 @@
                     <geogName type="coord"><geo>41.33702, 14.13112</geo></geogName>
                     <idno>places/177</idno>
                     <note/>
+                    <link type="estates" corresp="#estates/121" subtype="isInVicinityOf"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/98" subtype="link"/>
+                    <link type="places" corresp="#places/195" subtype="isInVicinityOf"/>
+                    <link type="places" corresp="#places/194" subtype="isInVicinityOf"/>
+                    <link type="estates" corresp="#estates/123" subtype="isInVicinityOf"/>
+                    <link type="places" subtype="isMadeOf"/>
                 </place>
                 <place>
                     <placeName><foreign>Ito</foreign> (Prata; Massa Marittima; Grosseto)</placeName>
@@ -1504,6 +1517,9 @@
                     <geogName type="coord"><geo>41.3775, 14.17796</geo></geogName>
                     <idno>places/193</idno>
                     <note/>
+                    <link type="juridical_persons" corresp="#juridical_persons/97" subtype="link"/>
+                    <link type="people" corresp="#people/160" subtype="link"/>
+                    <link type="people" corresp="#people/162" subtype="link"/>
                 </place>
                 <place>
                     <placeName><foreign>Tora</foreign> (Vairano Patenora; Caserta)</placeName>
@@ -1514,6 +1530,13 @@
                     <idno>places/194</idno>
                     <note/>
                     <link type="juridical_persons" corresp="#juridical_persons/97" subtype="link"/>
+                    <link type="people" corresp="#people/114" subtype="link"/>
+                    <link type="estates" corresp="#estates/121" subtype="isPartOf"/>
+                    <link type="estates" corresp="#estates/122" subtype="isMadeOf"/>
+                    <link type="people" corresp="#people/160" subtype="link"/>
+                    <link type="places" corresp="#places/177" subtype="hasInItsVicinity"/>
+                    <link type="estates" corresp="#estates/123" subtype="hasInItsVicinity"/>
+                    <link type="places" corresp="#places/250" subtype="hasInItsVicinity"/>
                 </place>
                 <place>
                     <placeName><foreign>Mons Sancti Leutherii</foreign> (Vairano Patenora;
@@ -1525,7 +1548,12 @@
                     <idno>places/195</idno>
                     <note>RPD, n. 3: 620; CMC, n. 4: 131</note>
                     <link type="places" corresp="#places/177" subtype="hasInItsVicinity"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/98" subtype="link"/>
+                    <link type="estates" corresp="#estates/121" subtype="isInVicinityOf"/>
                     <link type="estates" corresp="#estates/122" subtype="isPartOf"/>
+                    <link type="people" corresp="#people/114" subtype="link"/>
+                    <link type="estates" corresp="#estates/123" subtype="isInVicinityOf"/>
+                    <link type="places" corresp="#places/198" subtype="hasInItsVicinity"/>
                 </place>
                 <place>
                     <placeName>Gavassa (Reggio Emilia)</placeName>
@@ -1558,12 +1586,14 @@
                             41.309344, 14.103695; 41.324312, 14.093329</geo></geogName>
                     <idno>places/198</idno>
                     <note/>
+                    <link type="estates" corresp="#estates/123" subtype="isMadeOf"/>
                     <link type="places" corresp="#places/177" subtype="isInVicinityOf"/>
                     <link type="places" corresp="#places/194" subtype="isInVicinityOf"/>
                     <link type="estates" corresp="#estates/122" subtype="isPartOf"/>
                     <link type="estates" corresp="#estates/121" subtype="isInVicinityOf"/>
                     <link type="places" corresp="#places/195" subtype="isInVicinityOf"/>
                     <link type="juridical_persons" corresp="#juridical_persons/106" subtype="link"/>
+                    <link type="places" corresp="#places/250" subtype="isInVicinityOf"/>
                 </place>
                 <place>
                     <placeName><foreign>Monte Scalocchio</foreign> (Casa Montescalocchi;
@@ -2077,7 +2107,8 @@
                             41.309344, 14.103695; 41.324312, 14.093329</geo></geogName>
                     <idno>places/250</idno>
                     <note/>
-                    <link type="places" corresp="#places/177" subtype="isPartOf"/>
+                    <link type="people" corresp="#people/170" subtype="link"/>
+                    <link type="places" corresp="#places/177" subtype="isMadeOf"/>
                     <link type="places" corresp="#places/195" subtype="isInVicinityOf"/>
                     <link type="places" corresp="#places/198" subtype="isInVicinityOf"/>
                     <link type="places" corresp="#places/194" subtype="isInVicinityOf"/>
@@ -4998,38 +5029,6 @@
                     <geogName type="coord"><geo>45.469762, 8.708610</geo></geogName>
                     <idno>places/602</idno>
                     <note>Localizzabile, secondo Andenna 1985, a circa metà strada tra Galliate (No) e Romentino (No).</note>
-                </place>
-                <place>
-                    <placeName>Scandiano (Reggio Emilia)</placeName>
-                    <placeName type="other"/>
-                    <geogName type="coord"><geo>44.597519, 10.691720</geo></geogName>
-                    <idno>places/603</idno>
-                    <note/>
-                </place>
-                <place>
-                    <placeName>Pietramelara (Caserta)</placeName>
-                    <placeName type="other"/>
-                    <geogName type="coord"><geo>41.27086, 14.18711</geo></geogName>
-                    <idno>places/604</idno>
-                    <note/>
-                </place>
-                <place>
-                    <placeName>Liburia (Caserta)</placeName>
-                    <placeName type="other">Terra di Lavoro</placeName>
-                    <geogName type="coord"><geo>41.264163, 13.655162; 41.42878, 13.761809;
-                            41.370624, 14.04824; 41.265868, 14.144164; 41.185504, 14.124407;
-                            41.144194, 14.430111; 41.023802, 14.529261; 40.870229, 14.537799;
-                            40.911152, 14.381803; 40.986804, 14.200617; 40.936805, 14.014198;
-                            41.186283, 13.822283</geo></geogName>
-                    <idno>places/605</idno>
-                    <place>
-                        <placeName><foreign>Pantanus; locus</foreign> (Benevento)</placeName>
-                        <placeName type="other"/>
-                        <geogName type="coord"><geo>41.216241, 14.527016</geo></geogName>
-                        <idno>places/606</idno>
-                        <note/>
-                    </place>
-                    <note/>
                 </place>
             </listPlace>
         </body>
