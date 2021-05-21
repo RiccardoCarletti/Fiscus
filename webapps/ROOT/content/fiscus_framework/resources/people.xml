@@ -3173,7 +3173,24 @@
                     <persName type="other"/>
                     <idno>people/370</idno>
                     <note/>
+                    <link type="people" corresp="#people/314" subtype="agentFor"/>
+                </person>
+                <person>
+                    <persName>Lupus (736) vir honestus de Castello Uffi</persName>
+                    <persName type="other"/>
+                    <idno>people/371</idno>
                     <link type="people" corresp="#people/314" subtype="link"/>
+                    <link type="people" corresp="#people/370" subtype="link"/>
+                    <note>Figlio di Audoloald</note>
+                </person>
+                <person>
+                    <persName>Teudebertus (736) vir magnificus</persName>
+                    <persName type="other"/>
+                    <idno>people/372</idno>
+                    <link type="people" corresp="#people/314" subtype="link"/>
+                    <link type="people" corresp="#people/370" subtype="link"/>
+                    <link type="people" corresp="#people/371" subtype="link"/>
+                    <note>Figlio di Pertirichis de Luca.</note>
                 </person>
             </listPerson>
         </body>
