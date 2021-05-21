@@ -33,7 +33,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Original</rs>
-                            <rs type="fiscal_property">Yes</rs>
+                            <rs type="fiscal_property">Uncertain</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -80,44 +80,87 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>+ In nomine Domini salvatoris nostri Iesu Christi Dei aeterni. Landolfus et
-                        Atenolfus divina ordinante providentia Langobardorum gentis principes. Cum
+                    <ab>+ In nomine Domini salvatoris nostri Iesu Christi Dei aeterni. <persName
+                            key="#Princeps" ref="#people/305">Landolfus</persName> et <persName
+                            key="#Princeps" ref="#people/154">Atenolfus</persName> divina ordinante
+                        providentia Langobardorum gentis <rs key="#Princeps">principes</rs>. Cum
                         principalis excellentia petitione dilecti sui iuste petenti clementer favet,
                         igitur noverit omnium fidelium nostrorum presentium scilicet ac futurorum
-                        sagacitas quia, sicut omnibus notum est, habuit bonae memoriae genitor
-                        noster emptam a partae aecclesiae Sancte Sophiae, quae constructa esse
-                        videtur infra Beneventanam civitatem unam curtem quae vocatur Ferrumanum, in
-                        finibus Liburiae, pertinentem ipsius ecclesiae. Postea vero, recordantes non
-                        ne forte in eadem emptionem aliquid offendisset idem genitor noster contra
-                        partem ipsius ecclesiae, unde illius anima periculum in futuro saeculo
-                        sustineret, tunc pro redemptione animae eius dedimus in cambium in
-                        monasterio ecclesiae Sancti Benedicti situm in castro Casino, ubi nunc
-                        Iohannes venerabilis abba regimen tenere videtur, unam curtem nostram de
-                        Petra Mellaria, que quondam fuit de Gaidone, et tulimus ab eodem monasterio
-                        terras ipsius ecclesiae pertinentes infra fines de Benevento, loco ubi
-                        nominatur Pantanum, et offeruimus illas in iam dicta aecclesia Sanctae
-                        Sophiae pro anima eiusdem nostri genitoris. Modo vero iterum pro amore Dei
-                        offeruimus in eodem monasterio Sancti Benedicti hos aldiones nostros
-                        commanentes in iam dicto loco Petra Mellaria, pertinentes de eadem curte de
-                        Gaidone, id est Guttemari filium Iobiniani, Gizzolum fratrem Piniuli, Ursum
-                        filium Anissonis et alterum Ursum filium Benedicti. Piniolum non ibi
-                        offeruimus, quia habet uxorem ancillam nostram. Simulque et offeruimus in
-                        eodem monasterio integrum ipsum gualdum nostrum et castanetum in eodem loco
-                        Petra Mellaria et fundora et omnes pertinentias quas in finibus de Petra
-                        Mellaria habemus sive per hereditationem nostri genitoris, sive per
-                        emptionem. Predictos vero aldiones cum filiis ac filiabus suis et omnibus
-                        rebus ac pertinentiis illorum ibi offeruimus. Ex quibus omnibus predictis
-                        hos nostre munificentiae apices exarari iussimus, per quos omnino sancimus
-                        et perpetualiter habendum nostris et futuris temporibus, offeruimus eosdem
-                        aldiones in fato monasterio et omnia ut super legitur habendi ac possidendi
-                        iure quieto sine contrarietate heredum nostrorum. ut autem haec nostra
-                        offersio ab omnibus observetur, manu propria scripsimus et ex anulo nostro
-                        iussimus sigillari. Signum dominorum nostrorum Landolfi et Atenolfi
-                        gloriosorum principium. LANDOLFUS ATENOLFUS. Petrus clericus et scriba ex
-                        iussione supradictarum potestatum scripsi. Datum VII kalendas Maias, anno
-                        vicesimo octavo principatus domni nostri Landolfi excellentissimi principis
-                        et anno octavo decimo principatus domni nostri Atenolfi gloriosi principis,
-                        indictione prima. Actum in civitate Capuana.</ab>
+                        sagacitas quia, sicut omnibus notum est, habuit bonae memoriae <persName
+                            key="#Princeps" ref="#people/194">genitor noster</persName> emptam a
+                        partae <rs key="#Monasteries">aecclesiae</rs>
+                        <orgName ref="#juridical_persons/85" key="#Monasteries">Sancte
+                            Sophiae</orgName>, quae constructa esse videtur infra <placeName
+                            ref="#places/110" key="#Cities #Monasteries">Beneventanam</placeName>
+                        <rs key="#Cities">civitatem</rs> unam <rs key="#Curtes">curtem</rs> quae
+                        vocatur <geogName key="#Curtes" ref="#estates/296">Ferrumanum</geogName>, in
+                            finibus<placeName key="#Curtes" ref="#places/605"> Liburiae</placeName>,
+                        pertinentem ipsius ecclesiae. Postea vero, recordantes non ne forte in eadem
+                        emptionem aliquid offendisset idem genitor noster contra partem ipsius
+                        ecclesiae, unde illius anima periculum in futuro saeculo sustineret, tunc
+                        pro redemptione animae eius <rs key="#Commutatio">dedimus in cambium</rs> in
+                            <rs key="#Monasteries">monasterio</rs> ecclesiae <orgName
+                            ref="#juridical_persons/84" key="#Monasteries">Sancti
+                            Benedicti</orgName> situm in <rs key="#Castle">castro</rs>
+                        <placeName ref="#places/109" key="#Castle #Monasteries">Casino</placeName>,
+                        ubi nunc <persName key="#Abbots" ref="#people/332">Iohannes</persName>
+                        venerabilis <rs key="#Abbots">abba</rs> regimen tenere videtur, unam <rs
+                            key="#Curtes">curtem</rs> nostram de <geogName
+                            key="#Curtes #Agricultural_workers #Aldius #Fundi #Gualdi #Chestnuts #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Inflow #Purchase #Inheritance #Outflow #Allocation_to_churches #Property_of_persons_without_heirs"
+                            ref="#estates/295">Petra Mellaria</geogName>, que quondam fuit de
+                            <persName
+                            key="#Fiscal_property #Textual_occurrence #Mention #Inflow #Inheritance #Property_of_persons_without_heirs"
+                                ><name ref="Gaido">Gaidone</name></persName>, et tulimus ab eodem
+                        monasterio <rs key="#Landed_possessions">terras</rs> ipsius ecclesiae
+                        pertinentes infra fines de Benevento, loco ubi nominatur <placeName
+                            key="#Landed_possessions" ref="#places/606">Pantanum</placeName>, et
+                        offeruimus illas in iam dicta aecclesia Sanctae Sophiae pro anima eiusdem
+                        nostri genitoris. Modo vero iterum pro amore Dei offeruimus in eodem
+                        monasterio Sancti Benedicti hos <rs key="#Aldius #Agricultural_workers"
+                            >aldiones</rs> nostros commanentes in iam dicto loco <placeName
+                            key="#Curtes #Fundi #Gualdi #Chestnuts #Agricultural_workers #Aldius #Royal_slave #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Inflow #Purchase #Inheritance #Outflow #Allocation_to_churches #Property_of_persons_without_heirs"
+                            ref="#places/604">Petra Mellaria,</placeName> pertinentes de eadem curte
+                        de Gaidone, id est <persName key="#Aldius #Agricultural_workers"><name
+                                ref="Guttemarus de Petra Mellaria">Guttemari</name></persName>
+                        filium <persName><name ref="Iobinianus">Iobiniani</name></persName>,
+                            <persName key="#Aldius #Agricultural_workers"><name
+                                ref="Gizzolus de Petra Mellaria">Gizzolum</name></persName> fratrem
+                            <persName key="#Agricultural_workers #Aldius #Royal_slave"><name
+                                ref="Piniulus de Petra Mellaria">Piniuli</name></persName>,
+                            <persName key="#Aldius #Agricultural_workers"><name
+                                ref="Ursus de Petra Mellaria">Ursum</name></persName> filium
+                                <persName><name ref="Anisso">Anissonis</name></persName> et alterum
+                            <persName key="#Aldius #Agricultural_workers"><name
+                                ref="Ursus de Petra Mellaria">Ursum</name></persName> filium
+                                <persName><name ref="Benedictus">Benedicti</name></persName>.
+                        Piniolum non ibi offeruimus, quia habet uxorem <rs key="#Royal_slave"
+                            >ancillam nostram</rs>. Simulque et offeruimus in eodem monasterio
+                        integrum ipsum <rs key="#Gualdi">gualdum</rs> nostrum et <rs
+                            key="#Chestnuts">castanetum</rs> in eodem loco Petra Mellaria et <rs
+                            key="#Fundi">fundora</rs> et omnes pertinentias quas in finibus de Petra
+                        Mellaria habemus sive <rs
+                            key="#Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Inflow #Inheritance"
+                            >per hereditationem</rs> nostri genitoris, sive <rs
+                            key="#Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Inflow #Purchase"
+                            >per emptionem</rs>. Predictos vero aldiones cum filiis ac filiabus suis
+                        et omnibus rebus ac pertinentiis illorum ibi offeruimus. Ex quibus omnibus
+                        predictis hos nostre munificentiae apices exarari iussimus, per quos omnino
+                        sancimus et perpetualiter habendum nostris et futuris temporibus, <rs
+                            key="#Marquis’/ducal/princely_diploma">offeruimus</rs> eosdem aldiones
+                        in fato monasterio et omnia ut super legitur habendi ac possidendi iure
+                        quieto sine contrarietate heredum nostrorum. ut autem haec nostra offersio
+                        ab omnibus observetur, manu propria scripsimus et ex anulo nostro iussimus
+                        sigillari. Signum dominorum nostrorum Landolfi et Atenolfi gloriosorum
+                        principium. LANDOLFUS ATENOLFUS. <persName key="#Other_clerics #Notary"
+                                ><name ref="Petrus">Petrus</name></persName>
+                        <rs key="#Other_clerics">clericus</rs> et <rs key="#Notary">scriba</rs> ex
+                        iussione supradictarum potestatum scripsi. <date>Datum VII kalendas Maias,
+                            anno vicesimo octavo principatus domni nostri Landolfi excellentissimi
+                            principis et anno octavo decimo principatus domni nostri Atenolfi
+                            gloriosi principis, indictione prima. Actum in <rs key="#Cities"
+                                >civitate</rs>
+                            <placeName ref="#places/173" key="#Cities"
+                        >Capuana</placeName></date>.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">

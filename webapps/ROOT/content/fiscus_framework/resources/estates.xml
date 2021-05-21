@@ -714,16 +714,10 @@
                     <note/>
                     <link type="places" corresp="#places/177"
                         subtype="isInVicinityOf"/>
-                    <link type="people" corresp="#people/114" subtype="link"/>
-                    <link type="people" corresp="#people/159" subtype="link"/>
                     <link type="juridical_persons"
                         corresp="#juridical_persons/97" subtype="link"/>
                     <link type="places" corresp="#places/194"
                         subtype="isPartOf"/>
-                    <link type="juridical_persons"
-                        corresp="#juridical_persons/98" subtype="link"/>
-                    <link type="estates" corresp="#estates/123"
-                        subtype="hasInItsVicinity"/>
                 </place>
                 <place>
                     <geogName>Teano; <foreign>comitatus</foreign></geogName>
@@ -735,14 +729,7 @@
                     <link type="places" corresp="#places/194"
                         subtype="isPartOf"/>
                     <link type="juridical_persons"
-                        corresp="#juridical_persons/98" subtype="link"/>
-                    <link type="juridical_persons"
                         corresp="#juridical_persons/97" subtype="link"/>
-                    <link type="people" corresp="#people/114" subtype="link"
-                    />
-                    <link type="estates" corresp="#estates/123"
-                        subtype="hasConnectionWith"/>
-                    <link type="people" corresp="#people/167" subtype="link"/>
                     <link type="places" corresp="#places/198"
                         subtype="isInVicinityOf"/>
                 </place>
@@ -2296,6 +2283,38 @@
                     <link type="juridical_persons" corresp="#juridical_persons/53" subtype="link"/>
                     <link type="people" corresp="#people/55" subtype="link"/>
                     <link type="people" corresp="#people/80" subtype="link"/>
+                </place>
+                <place>
+                    <geogName><foreign>Sancta Maria; curtis</foreign></geogName>
+                    <geogName type="other"/>
+                    <idno>estates/294</idno>
+                    <note/>
+                    <link type="juridical_persons" corresp="#juridical_persons/47" subtype="link"/>
+                    <link type="people" corresp="#people/21" subtype="link"/>
+                    <link type="people" corresp="#people/354" subtype="link"/>
+                </place>
+                <place>
+                    <geogName><foreign>Petra Mellaria; curtis</foreign></geogName>
+                    <geogName type="other"/>
+                    <idno>estates/295</idno>
+                    <note/>
+                    <link type="juridical_persons" corresp="#juridical_persons/84" subtype="link"/>
+                    <link type="people" corresp="#people/154" subtype="link"/>
+                    <link type="people" corresp="#people/305" subtype="link"/>
+                    <link type="people" corresp="#people/194" subtype="link"/>
+                    <link type="people" corresp="#people/332" subtype="link"/>
+                    <link type="places" corresp="#places/604" subtype="isWithin"/>
+                </place>
+                <place>
+                    <geogName><foreign>Ferrumanus; curtis</foreign></geogName>
+                    <geogName type="other"/>
+                    <idno>estates/296</idno>
+                    <note/>
+                    <link type="juridical_persons" corresp="#juridical_persons/85" subtype="link"/>
+                    <link type="people" corresp="#people/154" subtype="link"/>
+                    <link type="people" corresp="#people/305" subtype="link"/>
+                    <link type="people" corresp="#people/194" subtype="link"/>
+                    <link type="places" corresp="#places/605" subtype="isWithin"/>
                 </place>
             </listPlace>
         </body>
