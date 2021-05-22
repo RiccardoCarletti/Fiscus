@@ -2548,6 +2548,7 @@
                     <link type="juridical_persons" corresp="#juridical_persons/85" subtype="link"/>
                     <link type="juridical_persons" corresp="#juridical_persons/84" subtype="link"/>
                     <link type="places" corresp="#places/110" subtype="hasConnectionWith"/>
+                    <link type="people" corresp="#people/373" subtype="fatherOf"/>
                 </person>
                 <person>
                     <persName>Atenolfus (933-943) princeps</persName>
@@ -3193,15 +3194,15 @@
                     <note>Figlio di Pertirichis de Luca.</note>
                 </person>
                 <person>
-                    <persName>Grimoaldus princeps</persName>
+                    <persName>Grimoaldus (787-806 princeps)</persName>
                     <persName type="other"/>
                     <idno>people/373</idno>
-                    <link type="people" corresp="" subtype="link"/>
-                    <link type="people" corresp="" subtype="link"/>
+                    <link type="people" corresp="people/303" subtype="sonOf"/>
+                    <link type="places" corresp="places/110" subtype="hasConnectionWith"/>
                     <link type="people" corresp="" subtype="link"/>
                     <note></note>
                 </person>
             </listPerson>
-        </body>
+        </body>a
     </text>
 </TEI>
