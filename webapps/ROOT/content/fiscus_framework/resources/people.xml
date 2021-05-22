@@ -1220,6 +1220,8 @@
                     <note/>
                     <link type="places" corresp="#places/110"
                         subtype="hasConnectionWith"/>
+                    <link type="people" corresp="#people/374"
+                        subtype="fatherOf"/>
                 </person>
                 <person>
                     <persName>Paldo (944) iudex</persName>
@@ -3204,9 +3206,11 @@
                 </person>
                 <person>
                     <persName>Liutprandus (dux; 751-758)</persName>
-                    <idno>people/374</idno>
+                    <idno>people/374</idno> 
                     <note/>
                     <link type="places" corresp="places/110" subtype="hasConnectionWith"/>
+                    <link type="people" corresp="people/158" subtype="sonOf"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/84" subtype="benefactorOf"/>
                 </person>
             </listPerson>
         </body>a
