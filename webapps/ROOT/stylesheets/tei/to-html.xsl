@@ -235,13 +235,100 @@
         </xsl:variable>
         <xsl:variable name="number_of_mentioning_documents"><xsl:value-of select="count($mentioning_documents/p)"/></xsl:variable>
     
+    <!-- variables for map for each juridical person having linked places -->
+    <xsl:variable name="map_polygons">
+      <xsl:text>{</xsl:text>
+      <xsl:for-each select="$linkedplaces">
+        <xsl:variable name="key" select="translate(translate(.,' ',''), '#', '')"/>
+        <xsl:for-each select="$places/tei:place[descendant::tei:idno=$key][contains(descendant::tei:geo[not(@style='line')], ';')]">
+          <xsl:variable name="name" select="normalize-space(translate(tei:placeName[1], ',', '; '))"/>
+          <xsl:variable name="id" select="substring-after(translate(tei:idno,'#',''), 'places/')"/>
+          <xsl:variable name="idno" select="translate(translate(tei:idno, '#', ''), ' ', '')"/>
+          <xsl:variable name="mentioning_documents">
+            <xsl:for-each select="$texts">
+              <xsl:for-each select=".[descendant::tei:placeName[contains(concat(@ref, ' '), concat($idno, ' '))]]"><p/></xsl:for-each>
+            </xsl:for-each>
+          </xsl:variable>
+          <xsl:variable name="number_of_mentioning_documents"><xsl:value-of select="count($mentioning_documents/p)"/></xsl:variable>
+          <xsl:text>"</xsl:text><xsl:value-of select="$name"/>
+          <xsl:text>#</xsl:text><xsl:value-of select="$number_of_mentioning_documents"/>
+          <xsl:text>#</xsl:text><xsl:value-of select="$id"/><xsl:text>": "</xsl:text>
+          <xsl:value-of select="replace(replace(normalize-space(tei:geogName/tei:geo[not(@style='line')]), ', ', ';'), '; ', ';')"/>
+          <xsl:text>", </xsl:text>
+        </xsl:for-each>
+      </xsl:for-each>
+      <xsl:text>!}</xsl:text>
+    </xsl:variable>
+    <xsl:variable name="map_lines">
+      <xsl:text>{</xsl:text>
+      <xsl:for-each select="$linkedplaces">
+        <xsl:variable name="key" select="translate(translate(.,' ',''), '#', '')"/>
+        <xsl:for-each select="$places/tei:place[descendant::tei:idno=$key][contains(descendant::tei:geo[@style='line'], ';')]">
+          <xsl:variable name="name" select="normalize-space(translate(tei:placeName[1], ',', '; '))"/>
+          <xsl:variable name="id" select="substring-after(translate(tei:idno,'#',''), 'places/')"/>
+          <xsl:variable name="idno" select="translate(translate(tei:idno, '#', ''), ' ', '')"/>
+          <xsl:variable name="mentioning_documents">
+            <xsl:for-each select="$texts">
+              <xsl:for-each select=".[descendant::tei:placeName[contains(concat(@ref, ' '), concat($idno, ' '))]]"><p/></xsl:for-each>
+            </xsl:for-each>
+          </xsl:variable>
+          <xsl:variable name="number_of_mentioning_documents"><xsl:value-of select="count($mentioning_documents/p)"/></xsl:variable>
+          <xsl:text>"</xsl:text><xsl:value-of select="$name"/>
+          <xsl:text>#</xsl:text><xsl:value-of select="$number_of_mentioning_documents"/>
+          <xsl:text>#</xsl:text><xsl:value-of select="$id"/><xsl:text>": "</xsl:text>
+          <xsl:value-of select="replace(replace(normalize-space(tei:geogName/tei:geo[@style='line']), ', ', ';'), '; ', ';')"/>
+          <xsl:text>", </xsl:text>
+        </xsl:for-each>
+      </xsl:for-each>
+      <xsl:text>!}</xsl:text>
+    </xsl:variable>
+    <xsl:variable name="map_points">
+      <xsl:text>{</xsl:text> 
+      <xsl:for-each select="$linkedplaces">
+        <xsl:variable name="key" select="translate(translate(.,' ',''), '#', '')"/>
+        <xsl:for-each select="$places/tei:place[descendant::tei:idno=$key][descendant::tei:geo/text()]">
+          <xsl:variable name="name" select="normalize-space(translate(tei:placeName[1], ',', '; '))"/>
+          <xsl:variable name="id" select="substring-after(translate(tei:idno,'#',''), 'places/')"/>
+          <xsl:variable name="idno" select="translate(translate(tei:idno, '#', ''), ' ', '')"/>
+          <xsl:variable name="linked_keys"><xsl:for-each select="$keys//p[@class='place_keys'][@id=$id]"><xsl:value-of select="lower-case(.)"/><xsl:text> </xsl:text></xsl:for-each></xsl:variable>
+          <xsl:variable name="all_keys" select="concat(' ', normalize-space($linked_keys))"/>
+          <xsl:variable name="mentioning_documents">
+            <xsl:for-each select="$texts">
+              <xsl:for-each select=".[descendant::tei:placeName[contains(concat(@ref, ' '), concat($idno, ' '))]]"><p/></xsl:for-each>
+            </xsl:for-each>
+          </xsl:variable>
+          <xsl:variable name="number_of_mentioning_documents"><xsl:value-of select="count($mentioning_documents/p)"/></xsl:variable>
+          <xsl:text>"</xsl:text><xsl:value-of select="$name"/>
+          <xsl:text>#</xsl:text><xsl:value-of select="$number_of_mentioning_documents"/>
+          <xsl:if test="not(matches($all_keys, '.*(fiscal_property).*'))"><xsl:text>#a@</xsl:text></xsl:if> <!-- fiscal -->
+          <xsl:if test="matches($all_keys, '.*(fiscal_property).*')"><xsl:text>#b@</xsl:text></xsl:if> <!-- not fiscal -->
+          <xsl:if test="matches($all_keys, '.* (ports|bridges/pontoons|maritime_trade|fluvial_transport|navicularii) .*')"><xsl:text>c@</xsl:text></xsl:if> <!-- ports -->
+          <xsl:if test="matches($all_keys, '.* (castle|fortress|tower|clusae/gates|walls|carbonaria|defensive_elements|incastellamento) .*')"><xsl:text>d@</xsl:text></xsl:if> <!-- fortifications -->
+          <xsl:if test="matches($all_keys, '.* (residential|palatium|laubia/topia) .*')"><xsl:text>e@</xsl:text></xsl:if> <!-- residences -->
+          <xsl:if test="matches($all_keys, '.* (mills|kilns|workshops|gynaecea|mints|overland_transport|local_markets|periodic_markets|decima|nona_et_decima|fodrum|albergaria/gifori|profits_of_justice|profits_of_mining/minting|tolls|teloneum|rights_of_use_on_woods/pastures/waters|coinage) .*')"><xsl:text>f@</xsl:text></xsl:if> <!-- revenues -->
+          <xsl:if test="matches($all_keys, '.* (villas|curtes|gai|massae|salae|demesnes|domuscultae|casali|mansi) .*')"><xsl:text>g@</xsl:text></xsl:if> <!-- estates -->
+          <xsl:if test="matches($all_keys, '.* (casae/cassinae_massaricie|casalini/fundamenta) .*')"><xsl:text>h@</xsl:text></xsl:if> <!-- tenures -->
+          <xsl:if test="matches($all_keys, '.* (petiae|landed_possessions) .*')"><xsl:text>i@</xsl:text></xsl:if> <!-- land -->
+          <xsl:if test="matches($all_keys, '.* (mines|quarries|forests|gualdi|cafagia|fisheries|saltworks|other_basins) .*')"><xsl:text>j@</xsl:text></xsl:if> <!-- fallow -->
+          <xsl:value-of select="$id"/><xsl:text>": "</xsl:text><xsl:choose>
+            <xsl:when test="contains(normalize-space(tei:geogName/tei:geo), ';')"><xsl:value-of select="substring-before(tei:geogName/tei:geo, ';')"/></xsl:when>
+            <xsl:otherwise><xsl:value-of select="normalize-space(tei:geogName/tei:geo)"/></xsl:otherwise>
+          </xsl:choose><xsl:text>"</xsl:text>
+        </xsl:for-each><xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if>
+      </xsl:for-each>
+      <xsl:text>}</xsl:text>
+    </xsl:variable>
+    
     <!-- display -->
     <div class="list_item"><xsl:attribute name="id"><xsl:value-of select="$id"/></xsl:attribute>
       <xsl:if test="tei:orgName|tei:persName|tei:placeName"><h2 class="item_name"><xsl:apply-templates select="tei:orgName[1]|tei:persName[1]|tei:placeName[1]"/></h2></xsl:if>
       <xsl:if test="tei:geogName[not(descendant::tei:geo)]"><h2 class="item_name"><xsl:apply-templates select="tei:geogName[not(descendant::tei:geo)][1]"/></h2></xsl:if>
       
       <p><xsl:if test="tei:orgName[@type='other']//text()|tei:persName[@type='other']//text()|tei:placeName[@type='other']//text()|tei:geogName[@type='other']//text()"><strong><xsl:text>Also known as: </xsl:text></strong><xsl:apply-templates select="tei:orgName[@type='other']|tei:persName[@type='other']|tei:placeName[@type='other']|tei:geogName[@type='other']"/><br/></xsl:if>
-        <xsl:if test="tei:geogName/tei:geo"><strong><xsl:text>Coordinates (Lat, Long): </xsl:text></strong><xsl:value-of select="tei:geogName/tei:geo"/><br/></xsl:if>
+        
+        <xsl:if test="tei:geogName/tei:geo"><strong><xsl:text>Coordinates (Lat, Long): </xsl:text></strong>
+          <xsl:value-of select="tei:geogName/tei:geo"/> <a href="#" onclick="openPopupById($(this)[0].id);"><xsl:attribute name="id"><xsl:value-of select="substring-after(tei:idno, 'places/')"/></xsl:attribute><xsl:text> [See on map]</xsl:text></a><br/></xsl:if>
+        
         <xsl:if test="tei:idno"><strong><xsl:text>Item number: </xsl:text></strong><xsl:value-of select="translate(tei:idno, '#', '')"/><br/></xsl:if>
         <xsl:if test="tei:note//text()"><strong><xsl:text>Commentary/Bibliography: </xsl:text></strong><xsl:for-each select="tei:note[node()]"><xsl:apply-templates select="."/><br/></xsl:for-each></xsl:if>
         <xsl:if test="//tei:org and matches($all_keys_jp, '.*[a-zA-Z].*')"><strong><xsl:text>Linked keywords: </xsl:text></strong> 
@@ -286,97 +373,9 @@
           <li class="linked_item"><a><xsl:attribute name="href"><xsl:value-of select="concat('./people.html#', substring-after($key, 'people/'))"/></xsl:attribute><xsl:apply-templates select="$people/tei:person[descendant::tei:idno=$key]/tei:persName[1]"/></a>
             <xsl:variable name="subtype" select="$links[@subtype][contains(concat(@corresp, ' '), concat($key, ' '))]/@subtype"/>
             <xsl:if test="$subtype"><xsl:text> (</xsl:text><xsl:value-of select="$subtype"/><xsl:text>)</xsl:text></xsl:if></li></xsl:for-each></ul><br/></xsl:if>
-      
-      <!-- map for each juridical person having linked places -->
+        
+        <!-- map for each juridical person -->
       <xsl:if test="ancestor::tei:listOrg and $linkedplaces!=''">
-        <xsl:variable name="map_polygons">
-          <xsl:text>{</xsl:text>
-          <xsl:for-each select="$linkedplaces">
-            <xsl:variable name="key" select="translate(translate(.,' ',''), '#', '')"/>
-            <xsl:for-each select="$places/tei:place[descendant::tei:idno=$key][contains(descendant::tei:geo[not(@style='line')], ';')]">
-            <xsl:variable name="name" select="normalize-space(translate(tei:placeName[1], ',', '; '))"/>
-            <xsl:variable name="id" select="substring-after(translate(tei:idno,'#',''), 'places/')"/>
-            <xsl:variable name="idno" select="translate(translate(tei:idno, '#', ''), ' ', '')"/>
-            <xsl:variable name="mentioning_documents">
-                <xsl:for-each select="$texts">
-                  <xsl:for-each select=".[descendant::tei:placeName[contains(concat(@ref, ' '), concat($idno, ' '))]]"><p/></xsl:for-each>
-                </xsl:for-each>
-              </xsl:variable>
-              <xsl:variable name="number_of_mentioning_documents"><xsl:value-of select="count($mentioning_documents/p)"/></xsl:variable>
-              
-            <xsl:text>"</xsl:text><xsl:value-of select="$name"/>
-            <xsl:text>#</xsl:text><xsl:value-of select="$number_of_mentioning_documents"/>
-            <xsl:text>#</xsl:text><xsl:value-of select="$id"/><xsl:text>": "</xsl:text>
-              <xsl:value-of select="replace(replace(normalize-space(tei:geogName/tei:geo[not(@style='line')]), ', ', ';'), '; ', ';')"/>
-              <xsl:text>", </xsl:text>
-            </xsl:for-each>
-          </xsl:for-each>
-          <xsl:text>!}</xsl:text>
-        </xsl:variable>
-        
-        <xsl:variable name="map_lines">
-          <xsl:text>{</xsl:text>
-          <xsl:for-each select="$linkedplaces">
-            <xsl:variable name="key" select="translate(translate(.,' ',''), '#', '')"/>
-            <xsl:for-each select="$places/tei:place[descendant::tei:idno=$key][contains(descendant::tei:geo[@style='line'], ';')]">
-              <xsl:variable name="name" select="normalize-space(translate(tei:placeName[1], ',', '; '))"/>
-              <xsl:variable name="id" select="substring-after(translate(tei:idno,'#',''), 'places/')"/>
-              <xsl:variable name="idno" select="translate(translate(tei:idno, '#', ''), ' ', '')"/>
-              <xsl:variable name="mentioning_documents">
-                <xsl:for-each select="$texts">
-                  <xsl:for-each select=".[descendant::tei:placeName[contains(concat(@ref, ' '), concat($idno, ' '))]]"><p/></xsl:for-each>
-                </xsl:for-each>
-              </xsl:variable>
-              <xsl:variable name="number_of_mentioning_documents"><xsl:value-of select="count($mentioning_documents/p)"/></xsl:variable>
-              
-              <xsl:text>"</xsl:text><xsl:value-of select="$name"/>
-              <xsl:text>#</xsl:text><xsl:value-of select="$number_of_mentioning_documents"/>
-              <xsl:text>#</xsl:text><xsl:value-of select="$id"/><xsl:text>": "</xsl:text>
-              <xsl:value-of select="replace(replace(normalize-space(tei:geogName/tei:geo[@style='line']), ', ', ';'), '; ', ';')"/>
-              <xsl:text>", </xsl:text>
-            </xsl:for-each>
-          </xsl:for-each>
-          <xsl:text>!}</xsl:text>
-        </xsl:variable>
-        
-        <xsl:variable name="map_points">
-          <xsl:text>{</xsl:text> 
-          <xsl:for-each select="$linkedplaces">
-            <xsl:variable name="key" select="translate(translate(.,' ',''), '#', '')"/>
-            <xsl:for-each select="$places/tei:place[descendant::tei:idno=$key][descendant::tei:geo/text()]">
-                  <xsl:variable name="name" select="normalize-space(translate(tei:placeName[1], ',', '; '))"/>
-                  <xsl:variable name="id" select="substring-after(translate(tei:idno,'#',''), 'places/')"/>
-                  <xsl:variable name="idno" select="translate(translate(tei:idno, '#', ''), ' ', '')"/>
-                  <xsl:variable name="linked_keys"><xsl:for-each select="$keys//p[@class='place_keys'][@id=$id]"><xsl:value-of select="lower-case(.)"/><xsl:text> </xsl:text></xsl:for-each></xsl:variable>
-                  <xsl:variable name="all_keys" select="concat(' ', normalize-space($linked_keys))"/>
-                  <xsl:variable name="mentioning_documents">
-                    <xsl:for-each select="$texts">
-                      <xsl:for-each select=".[descendant::tei:placeName[contains(concat(@ref, ' '), concat($idno, ' '))]]"><p/></xsl:for-each>
-                    </xsl:for-each>
-                  </xsl:variable>
-                  <xsl:variable name="number_of_mentioning_documents"><xsl:value-of select="count($mentioning_documents/p)"/></xsl:variable>
-                  
-                  <xsl:text>"</xsl:text><xsl:value-of select="$name"/>
-                  <xsl:text>#</xsl:text><xsl:value-of select="$number_of_mentioning_documents"/>
-                  <xsl:if test="not(matches($all_keys, '.*(fiscal_property).*'))"><xsl:text>#a@</xsl:text></xsl:if> <!-- fiscal -->
-                  <xsl:if test="matches($all_keys, '.*(fiscal_property).*')"><xsl:text>#b@</xsl:text></xsl:if> <!-- not fiscal -->
-                  <xsl:if test="matches($all_keys, '.* (ports|bridges/pontoons|maritime_trade|fluvial_transport|navicularii) .*')"><xsl:text>c@</xsl:text></xsl:if> <!-- ports -->
-                  <xsl:if test="matches($all_keys, '.* (castle|fortress|tower|clusae/gates|walls|carbonaria|defensive_elements|incastellamento) .*')"><xsl:text>d@</xsl:text></xsl:if> <!-- fortifications -->
-                  <xsl:if test="matches($all_keys, '.* (residential|palatium|laubia/topia) .*')"><xsl:text>e@</xsl:text></xsl:if> <!-- residences -->
-                  <xsl:if test="matches($all_keys, '.* (mills|kilns|workshops|gynaecea|mints|overland_transport|local_markets|periodic_markets|decima|nona_et_decima|fodrum|albergaria/gifori|profits_of_justice|profits_of_mining/minting|tolls|teloneum|rights_of_use_on_woods/pastures/waters|coinage) .*')"><xsl:text>f@</xsl:text></xsl:if> <!-- revenues -->
-                  <xsl:if test="matches($all_keys, '.* (villas|curtes|gai|massae|salae|demesnes|domuscultae|casali|mansi) .*')"><xsl:text>g@</xsl:text></xsl:if> <!-- estates -->
-                  <xsl:if test="matches($all_keys, '.* (casae/cassinae_massaricie|casalini/fundamenta) .*')"><xsl:text>h@</xsl:text></xsl:if> <!-- tenures -->
-                  <xsl:if test="matches($all_keys, '.* (petiae|landed_possessions) .*')"><xsl:text>i@</xsl:text></xsl:if> <!-- land -->
-                  <xsl:if test="matches($all_keys, '.* (mines|quarries|forests|gualdi|cafagia|fisheries|saltworks|other_basins) .*')"><xsl:text>j@</xsl:text></xsl:if> <!-- fallow -->
-                  <xsl:value-of select="$id"/><xsl:text>": "</xsl:text><xsl:choose>
-                    <xsl:when test="contains(normalize-space(tei:geogName/tei:geo), ';')"><xsl:value-of select="substring-before(tei:geogName/tei:geo, ';')"/></xsl:when>
-                    <xsl:otherwise><xsl:value-of select="normalize-space(tei:geogName/tei:geo)"/></xsl:otherwise>
-                  </xsl:choose><xsl:text>"</xsl:text>
-                </xsl:for-each><xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if>
-              </xsl:for-each>
-          <xsl:text>}</xsl:text>
-        </xsl:variable>
-        
         <div class="row map_box">
           <div class="map_jp"><xsl:attribute name="id"><xsl:value-of select="concat('map', $id)"/></xsl:attribute></div>
           <div class="legend" id="map_legend">

@@ -131,7 +131,7 @@
                     <geogName>Cortereggio; <foreign>curtis</foreign></geogName>
                     <idno>estates/60</idno>
                     <link type="people" subtype="link" corresp="#people/33"/>
-                    <note></note>
+                    <note>Poi nota con il nome di curtis Orco</note>
                     <link type="places" corresp="#places/48"
                         subtype="hasConnectionWith"/>
                     <link type="places" corresp="#places/49"
@@ -338,9 +338,10 @@
                 </place>
                 <place>
                     <geogName><foreign>Fagedum</foreign>; <foreign>curtis</foreign></geogName>
-                    <geogName type="other"/>
+                    <geogName type="other"><foreign>Faedo</foreign>;
+                        <foreign>Faeto</foreign></geogName>
                     <idno>estates/90</idno>
-                    <note/>
+                    <note> Darmstädter 1896, p. 174, lo colloca  a Lardara (Lodi), località di Fagi. Hlawitschka 1960, p. 178, nota 3, parla di un luogo ignoto nei dintorni di Cremona o Lodi.</note>
                     <link type="places" corresp="#places/97"
                         subtype="hasConnectionWith"/>
                     <link type="juridical_persons"
@@ -351,9 +352,10 @@
                 </place>
                 <place>
                     <geogName><foreign>Muciana</foreign>; <foreign>curtis</foreign></geogName>
-                    <geogName type="other"/>
+                    <geogName type="other"><foreign>Muciaria</foreign></geogName>
                     <idno>estates/91</idno>
-                    <note/>
+                    <note>Darmstädter 1896, p. 174 la colloca a Mezzano Passone (Lodi); Hlawitschka
+                        1960, p. 178, nota 3, la identifica con Vittadone (Lodi).</note>
                     <link type="places" corresp="#places/97"
                         subtype="hasConnectionWith"/>
                     <link type="people"
@@ -2105,11 +2107,16 @@
                     <link type="places" corresp="#places/589" subtype="isWithin"/>
                 </place>
                 <place>
-                    <geogName>Orco curtis</geogName>
+                    <geogName>Orco; curtis</geogName>
                     <geogName type="other"/>
                     <idno>estates/273</idno>
-                    <note/>
+                    <note>Si tratta della curtis di Cortereggio che con i nomi di Orco e di castello
+                        di San Giorgio (Canavese) restò sotto il controllo dei marchesi d'Ivrea </note>
                     <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
+                    <link type="places" corresp="#places/566" subtype="isMadeOf"/>
+                    <link type="people" corresp="#people/288 #people/366 #people/237 #people/7"
+                        subtype="link"/>
+                    <link type="estates" corresp="#estates/60" subtype="hasConnectionWith"/>
                 </place>
                 <place>
                     <geogName>Vercelli <foreign>curtis</foreign></geogName>
@@ -2279,7 +2286,7 @@
                     <geogName><foreign>Vualdo Meleto</foreign></geogName>
                     <geogName type="other"/>
                     <idno>estates/293</idno>
-                    <note/>
+                    <note>Hlawitschka 1960, p. 178, nota 3, la identifica con Meletto, che faceva parte del distretto di Codogno tra Sette e Ottocento. Pare comunque plausibile l'identificazione con Meleti, nel Lodigiano, appena a nord-ovest di Castelnuovo Bocca d'Adda.</note>
                     <link type="juridical_persons" corresp="#juridical_persons/53" subtype="link"/>
                     <link type="people" corresp="#people/55" subtype="link"/>
                     <link type="people" corresp="#people/80" subtype="link"/>

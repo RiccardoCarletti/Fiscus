@@ -4385,7 +4385,7 @@
                 <place>
                     <placeName>Crescentino (Vercelli)</placeName>
                     <placeName type="other"><foreign>Andolinum</foreign></placeName>
-                    <geogName type="coord"><geo/>45.185909, 8.1007</geogName>
+                    <geogName type="coord"><geo>45.185909, 8.1007</geo></geogName>
                     <idno>places/529</idno>
                     <note/>
                     <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
@@ -4686,6 +4686,7 @@
                     <link type="places" corresp="#places/102" subtype="isInVicinityOf"/>
                     <link type="estates" corresp="#estates/60" subtype="isInVicinityOf"/>
                     <link type="estates" corresp="#estates/258" subtype="hasConnectionWith"/>
+                    <link type="estates" corresp="#estates/273" subtype="isPartOf"/>
                 </place>
                 <place>
                     <placeName>Amiterno (San Vittorino; L'Aquila)</placeName>
@@ -5106,9 +5107,29 @@
                 <place>
                     <placeName>Lete; river (Caserta)</placeName>
                     <placeName type="other"/>
-                    <geogName type="coord">41.435781, 14.318974; 41.452227, 14.258457; 41.451915, 14.240564; 41.445677, 14.218094; 41.432887, 14.207691; 41.413364, 14.176807; 41.380693, 14.176832<geo style="line"> </geo></geogName>
+                    <geogName type="coord"><geo style="line">41.435781, 14.318974; 41.452227, 14.258457; 41.451915, 14.240564; 41.445677, 14.218094; 41.432887, 14.207691; 41.413364, 14.176807; 41.380693, 14.176832</geo></geogName>
                     <idno>places/610</idno>
                     <note/>
+                </place>
+                <place>
+                    <placeName>Sesia; river (Vercelli)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo style="line">45.851282, 7.940369; 45.803435, 8.266525; 45.173808,
+                        8.596802</geo></geogName>
+                    <idno>places/611</idno>
+                    <note/>
+                    <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
+                    <link type="people"/>
+                </place>
+                <place>
+                    <placeName>Lardara (Lodi)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>45.153211738507785,
+                        9.799470968223835</geo></geogName>
+                    <idno>places/612</idno>
+                    <note/>
+                    <link type="estates" corresp="#estates/90" subtype="isInVicinityOf"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/53" subtype="link"/>
                 </place>
             </listPlace>
         </body>
