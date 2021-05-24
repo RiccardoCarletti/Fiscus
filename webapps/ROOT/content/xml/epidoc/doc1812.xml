@@ -80,35 +80,40 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>In nomine sancte et individue trinitatis. <persName>Heinricus</persName>
-                        divina favente clemencia Romanorum <rs>imperator</rs> augustus. Quia nullus
-                        extra ecclesiam salvus potest fieri, consequens est, ut unusquisque fidelis
+                    <ab>In nomine sancte et individue trinitatis. <persName key="#Emperor/king"
+                            ref="#people/237">Heinricus</persName> divina favente clemencia
+                        Romanorum <rs key="#Emperor/king">imperator</rs> augustus. Quia nullus extra
+                        ecclesiam salvus potest fieri, consequens est, ut unusquisque fidelis
                         laborans in agro dei sine intermissione incumbat incremento ecclesiastice
                         rei. Certum est enim, quia, sicut exaltatur mater omnium vivencium, ita
                         crescit merces omnium sibi serviencium. Quapropter universorum eiusdem
                         fidelium tam presencium quam futurorum noverit caritas, quod nos
-                        ecclesiasticis profectibus incumbentes ac dilectissime nostre coniugis
-                            <rs>imperatricis</rs> seu carissimi nostri filii <rs>regis</rs>
-                        <persName>Heinrici</persName> precibus pietatis aures accomodantes per
-                        presentis precepti stabile firmamentum sancte <orgName>Vercellensi
-                                <rs>ecclesie</rs></orgName>
-                        <rs>confirmamus</rs> omnia bona quiete tenenda ac pacifice in eternum
-                        fruenda, que sancto Eusebio olim collata sunt a nostris predecessoribus
-                        regibus vel imperatoribus seu quibuscumque fidelibus. Sed ut mentes fidelium
-                        plenius gaudeant et predones caucius se custodiant, <geogName>Vercellensem
-                                <rs>comitatum</rs>
-                        </geogName>et <geogName>sancte Agathe </geogName>cum <rs>districto</rs> et
-                            <rs>theloneo</rs> et universa <rs>publica funccione </rs>vel
-                            <rs>exaccione</rs> aut redibicione confirmamus Eusebiane ecclesie;
-                            <placeName>Buiellam</placeName> insuper cum omni sua integritate, id est
-                            <placeName>Vernade</placeName>, <placeName>Clauaza</placeName>,
-                            <placeName>Bedollium</placeName>, <placeName>Gallianicum</placeName>,
-                            <placeName>Ponderianam</placeName>, <placeName>Mulinariam</placeName>,
-                            <placeName>Andurnum</placeName>, <placeName>Cisidulam</placeName>,
-                        corticellam in monte, <placeName>Carixianam</placeName> cum omni sua
-                        integritate, <placeName>Sextegnum</placeName>,
-                            <placeName>Rouisindam</placeName>, <placeName>montem
-                            Uictimali,</placeName>
+                        ecclesiasticis profectibus incumbentes ac dilectissime nostre coniugis <rs
+                            key="#Queen">imperatricis</rs> seu carissimi nostri filii regis
+                            <persName key="#Emperor/king" ref="#people/77">Heinrici</persName>
+                        precibus pietatis aures accomodantes per presentis precepti stabile
+                        firmamentum sancte <orgName key="#Mother_churches"
+                            ref="#juridical_persons/81">Vercellensi <rs key="#Mother_churches"
+                                >ecclesie</rs></orgName>
+                        <rs key="#Imperial/royal_diploma">confirmamus</rs> omnia bona quiete tenenda
+                        ac pacifice in eternum fruenda, que sancto Eusebio olim collata sunt a
+                        nostris predecessoribus regibus vel imperatoribus seu quibuscumque
+                        fidelibus. Sed ut mentes fidelium plenius gaudeant et predones caucius se
+                        custodiant, <geogName
+                            key="#Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches #Comitatus #Revenues #Teloneum #Districtio"
+                            ref="#estates/131">Vercellensem <rs key="#Comitatus" >comitatum</rs>
+                        </geogName>et <geogName ref="#estates/132" key="#Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches #Comitatus #Revenues #Teloneum #Districtio">sancte Agathe </geogName>cum <rs
+                            key="#Districtio">districto</rs> et <rs key="#Teloneum">theloneo</rs> et
+                        universa <rs>publica funccione </rs>vel <rs>exaccione</rs> aut redibicione
+                        confirmamus Eusebiane ecclesie; <placeName>Buiellam</placeName> insuper cum
+                        omni sua integritate, id est <placeName>Vernade</placeName>,
+                            <placeName>Clauaza</placeName>, <placeName>Bedollium</placeName>,
+                            <placeName>Gallianicum</placeName>, <placeName>Ponderianam</placeName>,
+                            <placeName>Mulinariam</placeName>, <placeName>Andurnum</placeName>,
+                            <placeName>Cisidulam</placeName>, corticellam in monte,
+                            <placeName>Carixianam</placeName> cum omni sua integritate,
+                            <placeName>Sextegnum</placeName>, <placeName>Rouisindam</placeName>,
+                            <placeName>montem Uictimali,</placeName>
                         <placeName>Pedrorium</placeName>; <rs>curtem</rs> quoque
                             <placeName>Vercellensis</placeName> civitatis cum omnibus ad eam
                         pertinentibus, curticellam in <placeName>Audenic[o]</placeName>, curtem
@@ -174,7 +179,7 @@
                 <p/>
             </div>
             <div type="commentary">
-                <p/>
+                <p>Si tratta della conferma del diploma del 1030 concesso al vescovo Arderico</p>
             </div>
         </body>
     </text>
