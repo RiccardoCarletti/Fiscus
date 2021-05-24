@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Archivio di Montecassino, aula III, capsa X, n. 17</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc2011</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
+                            <rs type="record_source" ref="#">Original document</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">Yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0944-08-30">
+                                <note type="displayed_date">944 August 30</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Capua</note>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-05-24" who="gzornetta">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine Domini salvatoris nostri Iesu Christi Dei ȩterni. Landolfus et
+                        Paldolfus filius eiusdem domni Landolfi divina ordinante providentia
+                        Langobardorum gentis principes. Cum principalis excellentia petitione
+                        dilecti iuste petenti clementer favet, igitur noverit omnium fidelium
+                        nostrorum presentium scilicet ac futurorum sagacitas quia Adalbertus
+                        veneravilis episcopus sancte Capuane sedis exoravit nostram clementiam ut,
+                        pro amore Dei et mercede ac redemptione animȩ nostrȩ concederemus et
+                        confirmaremus in monasterio Beatissimi Benedicti situm in castro Casino, ubi
+                        nunc, Deo favente, Magelpotus veneravilis abbas regimen tenere videtur,
+                        omnia et in omnibus qualiter inferius declaramus, de quibus omnibus petiit a
+                        nostra excelletia firmitatis apices in eodem monasterio fieri. Cuius
+                        petitionem pro Dei amore exaudienter, hos firmitatis apices in prephato
+                        sancto cenobio fieri iussimus, per quos omnino sancimus et perpetualiter
+                        havendum nostris et futuris temporibus concedimus in eodem sancto loco omnes
+                        aquas et decursus ipsius aquȩ et ripas ex utraque parte positas insimul cum
+                        ipso albeo unde ipsa aqua decurrit, ubicumque pars ipsius ȩcclesiȩ
+                        hereditatem habuerit, nominatim concedimus ibi aquam et decursus ipsius aque
+                        cum albeo suo et ripas ex utraque parte positas de ips Saone que nominatur
+                        ad Decempondera, ubi molini de ipso monasterio ȩdificata sunt aut fuerunt
+                        vel quolivet tempore ȩdificata fuerint, ita ut de veteri albeo ipsius aque
+                        de predicto Saone nullus presumat sive superius predicta molina ipsius
+                        monasterii, sive inferius deribare aut excutere aquam de albeo suo in
+                        quamcumque partem aliam. Necnon et concedimus in eodem monasterio ipsum
+                        arcum qui ȩdificatum esse videtur super aquam de predicto Saone, insimul cum
+                        ripis ex utraque parte positis, ut licentiam et potestatem haveat pars
+                        ipsius monasterii facere ibi molinum et omnia quȩ necessaria fuerint.
+                        Simulque et concedimus in eodem monasterio omnes feminas liveras que sivi
+                        serbos maritos copulaverunt ipsius monasterii vel que sivi tempore nostro
+                        copulaverint, insimul cum eisdem servis sivi copulatis et cum filiis,
+                        filiabus illorum.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p><foreign>Registrum Petri Diaconi </foreign>f. 91vA-92rA; RPD 209: 637-639;
+                    Gattola 1734: 53-54; Voigt *140; CMC I, 60: 150 (summary)</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p>Bloch: 1347; Zeller: 127</p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
