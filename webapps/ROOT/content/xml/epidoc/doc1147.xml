@@ -30,9 +30,9 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#"/>
-                            <rs type="record_source" ref="#"/>
-                            <rs type="document_tradition" ref="#"/>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Uncertain tradition</rs>
                             <rs type="fiscal_property"/>
                         </summary>
                         <msItem xml:id="msItem1">
@@ -41,10 +41,10 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate notBefore="0001" notAfter="0001" when="0001"> 
-                                <note type="displayed_date"></note>
-                                <note type="dating_elements"></note>
-                                <note type="topical_date"></note>
+                            <origDate when="0915-02-01">
+                                <note type="displayed_date">915 february 1</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Coriano</note>
                             </origDate>
                             <origPlace/>
                         </origin>
@@ -72,7 +72,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2021-02-08">creation of record</change>
+                <change when="2021-02-08" who="Chiara Stedile">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -80,11 +80,46 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab></ab>
+                    <ab>In nomine sancte et individue Trinitatis. <persName key="#Emperor/king"
+                            ref="#people/21">Berengarius</persName> gratia Dei <rs
+                            key="#Emperor/king">rex</rs>. Si sanctis ac venerabilibus locia
+                        munificentiam quamlibet tribuimus largitatis, presentis eterneque vite
+                        remunerationem adipisci non titubamus. Idcirco omnium sancte Dei Ecclesie
+                        fidelium nostrorumque presentium ac futurorum comperiat solertia, qualiter
+                            <persName key="#Bishops"><name ref="Beatus">Beatus</name></persName>
+                        sancte <orgName>Terdonensis ecclesie</orgName> venerabilis episcopus per
+                        Ioannem Ticinensem et Liutardum Cumanum venerabiles presules nostre sugessit
+                        maiestati, ut teloneum et districtum et omnem publicam functionem, sicut
+                        hactenus investita plebs de Viqueria fuerat, confirmaremus et
+                        corroboraremus. Insuper etiam aqueductum de Stafulla ad molendina
+                        construenda ad opus eiusdem plebis per quamcunque terram que nostre
+                        pertineret regie potestati, et ut nullsin eodem aqueductu sine sua suorumque
+                        successorum licentia molendinum construere audeat, concedere ac donare
+                        dignaremur. Quorum petitionibus assensum prebentes, eidem plebi in honorem
+                        sancti Laurentii constructe teloneum, districtum et omnem publicam
+                        functionem, sicut hactenus tenuit et investita fuit, per hoc nostrum
+                        preceptum confirmamus et corroboramus. Insuper etiam largimur et concedimus,
+                        ut aqueductum de Stafulla ad molendina conficienda ad opus predicte ecclesie
+                        sive per nostram regiam terram sive per publicam viam deducat, et si aliqua
+                        regia terra ibi vicina est ubi molendinum possit construi ad opus ipsius
+                        ecclesie, quantum necesse est ex eadem accipiat terra, et publicam, si opus
+                        est, viam incidat. Statuimus quoque et interdicimus, ut nemo in eodem
+                        aqueductu, quem prefatus episcopus vel sui successores fecerint, conficiendi
+                        molendinum potestatem habeat nisi consensu et licentia episcopi qui pro
+                        tempore in eadem Terdonensi ecclesia fuerit. Si quis igitur huius precepti
+                        violator extiterit, auri optimi manchosos mille componere cogatur,
+                        medietatem camere nostre et medietatem rectoribus ipsius ecclesie. Quod ut
+                        verius credatur diligentiusque ab omnibus observetur, manu propria
+                        roborantes anuli nostri impressione subter insigniri iussimus. Signum
+                        serenissimi (M) Berengarii regis. Iohannes episcopus et cancellarius ad
+                        vicem Ardingi episcopi et archicancellarii recognovi et [subscripsi]. Data
+                        kalendis februarii, [anno] dominice incarnationis DCCCCXVIIII regni domni
+                        Berengarii piissimi regis XXVIIII, indictione VIII, Actum in
+                            <placeName>Coriano</placeName>, feliciter.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p/>
+                <p>DD B I, pp. 250-252, n° XCV</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>
