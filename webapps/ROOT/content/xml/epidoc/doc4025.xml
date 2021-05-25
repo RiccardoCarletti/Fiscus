@@ -32,9 +32,9 @@
                             <msContents>
                                 <summary>
                                     <rs type="text_type" ref="#"/>
-                                    <rs type="record_source" ref="#"/>
-                                    <rs type="document_tradition" ref="#"/>
-                                    <rs type="fiscal_property"/>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Copy</rs>
+                                    <rs type="fiscal_property">No</rs>
                                 </summary>
                                 <msItem xml:id="msItem1">
                                     <textLang mainLang="" otherLangs=""/>
@@ -84,9 +84,10 @@
                             <ab>+ In nomine domini Dei et salvatori nostri Iesu Christi. Regnante
                         domnos nostros Liutprand et Helprand regibus, anno regni eorum Deo propitio
                         .XXVII. et quarto, mense octubrio, per indictione septima; feliciter.
-                        Anstrualda religiosa Dei ancilla una cum licentia et auturitatem filii sui
-                        Gumprandi tibi ecclesia Dei adque Beati Sancti Georgi Dei martheris, sita in
-                        loco Noctuno, perpetuam salutem dixit. Dum enim velsi indigna Anstruald Deo
+                        Anstrualda <rs key="#Nuns/sanctimoniales">religiosa Dei ancilla</rs> una cum
+                        licentia et auturitatem filii sui Gumprandi tibi <rs key="#Churches"
+                            >ecclesia</rs> Dei adque Beati Sancti Georgi Dei martheris, sita in loco
+                        Noctuno, perpetuam salutem dixit. Dum enim velsi indigna Anstruald Deo
                         copolata post decesso domni Barutte iocali meo deuotas desiderans domino
                         Iesu Christo vel eiusque liminibus prumtisque animo deservire, iuvantesque
                         eius clementia, una cum ipso suprascripto filio meo, ut virtus admiset, in
@@ -95,33 +96,39 @@
                         fondamenta construximus, in qua omni spe vite et salutem anime nostre
                         posuemus Deo serbiendum. Idcirca ego que supra Anstrualda Deo copolata una
                         cum autoritatem Gumprand filio meo odie in Dei nomine per hanc dotis titulo
-                        offero Deo et beatissimo sancti Georgi vel ad tuus monasterio, id est: casa
-                        Marichis cum omnia adiacentia sua, simol cum territoriis, vineis, olivetis,
-                        silvis, virgariis, cultis et incultis, omnia et in omnibus, mobilia vel
-                        inmobilia seo semoventibus; omnia quidquid ad ipsa suprascripta casa
-                        Marechis modo pertenet, tibi beatissime sancte Georgi transfundo in integro
-                        ad possedendum, quia mihi ipse suprascripta casa data est morgangab per
-                        domno bone memorie Barutta iocale meo, ita ut ab hodierna dies possedeas
-                        ipsa Dei vertutem vel eius monasterio a nobis edito in perpetuum profuturum
-                        munusculi causa; et quem nos in vita nostra sacerdotem elegerimus, vel
-                        constituerimus, ipse sit in eodem loco cunfermatus, ut pro nobis Dominum
-                        exorare debeat; et luminaria sanctorum Dei facias, et messarum precibus nos
-                        Domino cummendare deveas; contra quam dotaliis seo monusculi nostre pagina
-                        numquam nos heredis successoris nostris aversus ipsa sancta Dei eclesia vel
-                        eius monasterio aliquando spondimus esset venturus, set in omnibus, qualiter
-                        superius legitor, post actis et futuris temporibus inivi firmum et
-                        stabilitum permaneat; et quod a nobis supra offerta sunt, ita ut nullo
-                        hominem nulloque tempore disrumpi possant, set magis roboretor in suo vigore
-                        et in sua potestatem ipsa eclesia vel eius monasterio sine omne inpedimento
-                        inimici, iuvantem dominum Iesum Christum. Quam vero pagina dothalii et
-                        Gaudentius quamvis indigno presbitero scrivere rogavimus, et subter signa
-                        sancte croci fecimus, sub stipulatione sponsione sollemnique interposita.
-                        Actum Luca. Signum + manus Anstrualde religiose Deo copolate offeretricis et
-                        auctricis. Signum + manus Gumprandi viri devoti fìlio eius consentientes.
-                        Signum + manus Ursi Avinio testis. Signum + manus Framuald viri devoti filio
-                        quondam Maurelli testis. Signum + manus Waldifred viri venerabilis diacono
-                        testis. Signum + manus Gairimund vir devoti cognato eius testis. Signum +
-                        manus Aiuald viri devoti titili testis. Ego Osprandus diaconus quantum in
+                        offero Deo et beatissimo sancti Georgi vel ad tuus monasterio, id est: <rs
+                            key="#Casae/cassinae_massaricie">casa</rs> Marichis cum omnia adiacentia
+                        sua, simol cum territoriis, <rs key="#Wine">vineis</rs>, <rs key="#Oil"
+                            >olivetis</rs>, <rs key="#Acorns">silvis</rs>, virgariis, cultis et
+                        incultis, omnia et in omnibus, mobilia vel inmobilia seo semoventibus; omnia
+                        quidquid ad ipsa suprascripta casa Marechis modo pertenet, tibi beatissime
+                        sancte Georgi transfundo in integro ad possedendum, quia mihi ipse
+                        suprascripta casa data est <rs key="#Morgengabe">morgangab</rs> per domno
+                        bone memorie Barutta iocale meo, ita ut ab hodierna dies possedeas ipsa Dei
+                        vertutem vel eius monasterio a nobis edito in perpetuum profuturum munusculi
+                        causa; et quem nos in vita nostra sacerdotem elegerimus, vel constituerimus,
+                        ipse sit in eodem loco cunfermatus, ut pro nobis Dominum exorare debeat; et
+                        luminaria sanctorum Dei facias, et messarum precibus nos Domino cummendare
+                        deveas; contra quam dotaliis seo monusculi nostre pagina numquam nos heredis
+                        successoris nostris aversus ipsa sancta Dei eclesia vel eius monasterio
+                        aliquando spondimus esset venturus, set in omnibus, qualiter superius
+                        legitor, post actis et futuris temporibus inivi firmum et stabilitum
+                        permaneat; et quod a nobis supra offerta sunt, ita ut nullo hominem nulloque
+                        tempore disrumpi possant, set magis roboretor in suo vigore et in sua
+                        potestatem ipsa eclesia vel eius <rs key="#Monasteries">monasterio</rs> sine
+                        omne inpedimento inimici, iuvantem dominum Iesum Christum. Quam vero pagina
+                        dothalii et Gaudentius quamvis indigno <rs key="#Priests">presbitero</rs>
+                        scrivere rogavimus, et subter signa sancte croci fecimus, sub stipulatione
+                        sponsione sollemnique interposita. Actum Luca. Signum + manus Anstrualde
+                        religiose Deo copolate offeretricis et auctricis. Signum + manus Gumprandi
+                            <rs key="#Vir_devotus/vir_honestus">viri devoti</rs> fìlio eius
+                        consentientes. Signum + manus Ursi avinio testis. Signum + manus Framuald
+                            <rs key="#Vir_devotus/vir_honestus">viri devoti</rs> filio quondam
+                        Maurelli testis. Signum + manus Waldifred viri venerabilis <rs
+                            key="#Deacons">diacono</rs> testis. Signum + manus Gairimund <rs
+                            key="#Vir_devotus/vir_honestus">vir devoti</rs> cognato eius testis.
+                        Signum + manus Aiuald <rs key="#Vir_devotus/vir_honestus">viri devoti</rs>
+                        titili testis. Ego Osprandus <rs key="#Deacons">diaconus</rs> quantum in
                         autenticum inveni, nec plus addedi, nec menime scribsi. </ab>
                         </div>
                     </div>
