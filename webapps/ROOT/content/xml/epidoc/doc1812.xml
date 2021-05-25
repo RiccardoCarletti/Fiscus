@@ -106,8 +106,8 @@
                             key="#Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches #Comitatus #Revenues #Teloneum #Districtio"
                             >sancte Agathe </geogName>cum <rs key="#Districtio">districto</rs> et
                             <rs key="#Teloneum">theloneo</rs> et universa <rs>publica funccione
-                        </rs>vel <rs>exaccione</rs> aut redibicione confirmamus Eusebiane ecclesie;
-                            <placeName
+                        </rs>vel <rs key="#Revenues">exaccione</rs> aut redibicione confirmamus
+                        Eusebiane ecclesie; <placeName
                             key="#Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches"
                             ref="#places/50">Buiellam</placeName> insuper cum omni sua integritate,
                         id est <placeName ref="#places/591"
@@ -171,8 +171,8 @@
                         <rs key="#Bridges/pontoons">pontem</rs> etiam
                             <placeName>Notingum</placeName>, quem <persName ref="#people/109"
                             key="#Bishops">Notingus</persName>
-                        <rs>episcopus</rs> eiusdem Vercellensis ecclesie mirabiliter super eum
-                        equitando legaliter recepit; <placeName ref="#places/100"
+                        <rs key="#Bishops">episcopus</rs> eiusdem Vercellensis ecclesie mirabiliter
+                        super eum equitando legaliter recepit; <placeName ref="#places/100"
                             key="#Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches"
                             > >Languscum</placeName>, curtem de <geogName ref="#estates/98"
                             key=" #Curtes #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches"
@@ -194,20 +194,20 @@
                             </placeName></orgName>aquam de <placeName key="#Rivers"
                             >Duria</placeName> cum utrisque ripis a <placeName ref="#places/617"
                             key="#Rivers">Petra grossa</placeName> usque in Padum, <placeName
-                            key="#Rivers #Landed_possessions #Fisheries #Mills #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches #Ports #Local_markets #Revenues #Teloneum #Rights_of_use_on_woods/pastures/waters #Districtio #Slave"
+                            key="#Landed_possessions #Fisheries #Mills #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches #Ports #Local_markets #Revenues #Teloneum #Rights_of_use_on_woods/pastures/waters #Districtio #Slave"
                             ref="#places/221">Consade</placeName>, <placeName>Matascum</placeName>,
                             <placeName
-                            key="#Rivers #Landed_possessions #Fisheries #Mills #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches #Ports #Local_markets #Revenues #Teloneum #Rights_of_use_on_woods/pastures/waters #Districtio #Slave"
+                            key="#Landed_possessions #Fisheries #Mills #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches #Ports #Local_markets #Revenues #Teloneum #Rights_of_use_on_woods/pastures/waters #Districtio #Slave"
                             ref="#places/213">Candele</placeName>, <placeName
-                            key="#Rivers #Landed_possessions #Fisheries #Mills #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches #Ports #Local_markets #Revenues #Teloneum #Rights_of_use_on_woods/pastures/waters #Districtio #Slave"
+                            key="#Landed_possessions #Fisheries #Mills #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches #Ports #Local_markets #Revenues #Teloneum #Rights_of_use_on_woods/pastures/waters #Districtio #Slave"
                             ref="#places/215">Treuere</placeName>, <placeName
-                            key="#Rivers #Landed_possessions #Fisheries #Mills #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches #Ports #Local_markets #Revenues #Teloneum #Rights_of_use_on_woods/pastures/waters #Districtio #Slave"
+                            key="#Landed_possessions #Fisheries #Mills #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches #Ports #Local_markets #Revenues #Teloneum #Rights_of_use_on_woods/pastures/waters #Districtio #Slave"
                             ref="#places/214">Cleuoli</placeName>, <placeName
-                            key="#Rivers #Landed_possessions #Fisheries #Mills #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches #Ports #Local_markets #Revenues #Teloneum #Rights_of_use_on_woods/pastures/waters #Districtio #Slave"
-                            >Sulza</placeName> cum <rs>silva</rs> Salsa, <rs key="#Castle"
-                            >castellum</rs>
+                            key="#Landed_possessions #Fisheries #Mills #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches #Ports #Local_markets #Revenues #Teloneum #Rights_of_use_on_woods/pastures/waters #Districtio #Slave"
+                            >Sulza</placeName> cum <rs key="#Forests">silva</rs> Salsa, <rs
+                            key="#Castle">castellum</rs>
                         <placeName
-                            key="#Rivers #Landed_possessions #Fisheries #Mills #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches #Ports #Local_markets #Revenues #Teloneum #Rights_of_use_on_woods/pastures/waters #Districtio #Slave"
+                            key="#Landed_possessions #Fisheries #Mills #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches #Ports #Local_markets #Revenues #Teloneum #Rights_of_use_on_woods/pastures/waters #Districtio #Slave"
                             ref="#places/450">Quirini</placeName>, curtem <geogName
                             key="#Curtes #Rivers #Landed_possessions #Fisheries #Mills #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches #Ports #Local_markets #Revenues #Teloneum #Rights_of_use_on_woods/pastures/waters #Districtio #Slave"
                             ref="#estates/128">Torcelli</geogName> -- hec omnia [sancta
@@ -218,16 +218,15 @@
                         <rs key="#Fisheries">piscacionibus</rs>
                         <rs>venacionibus</rs>
                         <rs key="#Ports">portibus</rs>
-                        <rs key="#Mills">molendinis</rs> montibus et vallibus alpibus edificiis <rs
-                            key="#Slave">mancipiis</rs> utriusque sexus agris vineis capellis
+                        <rs key="#Mills">molendinis</rs> montibus et vallibus alpibus <rs
+                            key="#Houses">edificiis</rs>
+                        <rs key="#Slave">mancipiis</rs> utriusque sexus agris vineis capellis
                             <rs>pratis</rs>
-                        <rs>pascuis</rs>
-                        <rs>silvis</rs>
-                        <rs key="#Rivers">aquis</rs> aquarumque decursibus <rs>cultis et
-                            incultis.</rs> Et insuper speciali edicto sanccimus, ut in omnibus supra
-                        nominatis locis nullus mortalium mercatum presumat instituere aut districtum
-                        vel theloneum aut <rs key="#Fodrum">fodrum</rs> seu aliquam publicam
-                        funccionem ac redibicionem exigere neque piscacionem aut venacionem
+                        <rs>pascuis</rs> silvis <rs key="#Rivers">aquis</rs> aquarumque decursibus
+                            <rs>cultis et incultis.</rs> Et insuper speciali edicto sanccimus, ut in
+                        omnibus supra nominatis locis nullus mortalium mercatum presumat instituere
+                        aut districtum vel theloneum aut <rs key="#Fodrum">fodrum</rs> seu aliquam
+                        publicam funccionem ac redibicionem exigere neque piscacionem aut venacionem
                         exercere, nisi ad profectum vel ad proprium ius ipsius ecclesie. Quicumque
                         ergo huic nostre confirmacioni contraierit, nostre maiestatis reus erit,
                         insuper mille libras auri se compositurum noverit, medietatem imperiali
