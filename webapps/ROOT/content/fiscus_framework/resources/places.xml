@@ -382,6 +382,10 @@
                         8.057964323088527</geo></geogName>
                     <idno>places/50</idno>
                     <note/>
+                    <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
+                    <link type="people" corresp="#people/7" subtype="link"/>
+                    <link type="people" corresp="#people/237" subtype="link"/>
+                    <link type="estates" corresp="#estates/62"/>
                 </place>
                 <place>
                     <placeName>Sostegno (Biella)</placeName>
@@ -1629,7 +1633,8 @@
                     <idno>places/206</idno>
                     <note/>
                     <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
-                    <link type="people" corresp="#people/7" subtype="link"/>
+                    <link type="people" corresp="#people/7 #people/237 #people/366 #people/288"
+                        subtype="link"/>
                     <link type="estates" corresp="#estates/62" subtype="hasConnectionWith"/>
                 </place>
                 <place>
@@ -1687,7 +1692,8 @@
                     <geogName type="coord"><geo>45.570794, 8.064823</geo></geogName>
                     <idno>places/212</idno>
                     <note/>
-                    <link type="people" corresp="#people/171 #people/7" subtype="link"/>
+                    <link type="people" corresp="#people/171 #people/7 #people/366 #people/288"
+                        subtype="link"/>
                     <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
                     <link type="estates" corresp="#estates/62" subtype="hasConnectionWith"/>
                     <link type="people" corresp="#people/130" subtype="link"/>
@@ -3822,8 +3828,11 @@
                     <geogName type="coord"><geo>45.596744, 8.129196</geo></geogName>
                     <idno>places/457</idno>
                     <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
-                    <link type="people" corresp="#people/171 #people/7" subtype="link"/>
-                    <link type="estates" corresp="#estates/206" subtype="hasConnectionWith"/>
+                    <link type="people"
+                        corresp="#people/171 #people/7 #people/237 #people/366 #people/288"
+                        subtype="link"/>
+                    <link type="estates" corresp="#estates/206 #estates/62"
+                        subtype="hasConnectionWith"/>
                     <note/>
                     <link type="people" corresp="#people/130" subtype="link"/>
                 </place>
@@ -4910,6 +4919,8 @@
                     <idno>places/591</idno>
                     <note/>
                     <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
+                    <link type="estates" corresp="62" subtype="hasConnectionWith"/>
+                    <link type="people" corresp="237;7; 366; 288" subtype="link"/>
                 </place>
                 <place>
                     <placeName>Casino (Alessandria)</placeName>
