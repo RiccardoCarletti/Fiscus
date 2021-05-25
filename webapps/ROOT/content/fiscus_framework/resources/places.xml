@@ -35,6 +35,11 @@
                     <geogName type="coord"><geo>45.222008, 8.506020</geo></geogName>
                     <idno>places/3</idno>
                     <note/>
+                    <link type="estates" corresp="#estates/41" subtype="isPartOf"/>
+                    <link type="people" corresp="#people/7 #people/237 #people/366 #people/288"
+                        subtype="link"/>
+                    <link type="juridical_persons"
+                        corresp="#juridical_persons/81 #juridical_persons/111" subtype="link"/>
                 </place>
                 <place>
                     <placeName>Lucca</placeName>
@@ -395,6 +400,9 @@
                     <idno>places/51</idno>
                     <note/>
                     <link type="estates" corresp="#estates/63" subtype="hasConnectionWith"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
+                    <link type="people" corresp="#people/7 #people/237 #people/366 #people/288"
+                        subtype="link"/>
                 </place>
                 <place>
                     <placeName>Roma</placeName>
@@ -825,7 +833,6 @@
                     <geogName type="coord"><geo>45.225624, 8.510349</geo></geogName>
                     <idno>places/100</idno>
                     <note/>
-                    <link type="estates" corresp="#estates/41" subtype="hasConnectionWith"/>
                 </place>
                 <place>
                     <placeName>Asigliano Vercellese (Vercelli)</placeName>
@@ -1651,10 +1658,11 @@
                     <geogName type="coord"><geo>45.537978, 8.055725</geo></geogName>
                     <idno>places/208</idno>
                     <note/>
-                    <link type="people" corresp="#people/7" subtype="link"/>
+                    <link type="people" corresp="#people/7 #people/237 #people/366 #people/288"
+                        subtype="link"/>
                     <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
                     <link type="estates" corresp="#estates/62" subtype="hasConnectionWith"/>
-                    <link type="people" corresp="#people/171"/>
+                    <link type="people" corresp="#people/171" subtype="link"/>
                 </place>
                 <place>
                     <placeName>Rocca S. Silvestro (Campiglia Marittima; Livorno) </placeName>
@@ -1671,8 +1679,11 @@
                     <idno>places/210</idno>
                     <note/>
                     <link type="places" corresp="#places/106" subtype="hasConnectionWith"/>
-                    <link type="people" corresp="#people/171 #people/7" subtype="link"/>
+                    <link type="people"
+                        corresp="#people/171 #people/7 #people/237 #people/366 #people/288"
+                        subtype="link"/>
                     <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
+                    <link type="estates" corresp="#estates/62" subtype="hasConnectionWith"/>
                 </place>
                 <place>
                     <placeName>Coggiola (Biella)</placeName>
@@ -1682,7 +1693,8 @@
                     <note/>
                     <link type="places" corresp="#places/106" subtype="hasConnectionWith"/>
                     <link type="people" corresp="#people/171" subtype="link"/>
-                    <link type="people" corresp="#people/7" subtype="link"/>
+                    <link type="people" corresp="#people/7 #people/237 #people/366 #people/288"
+                        subtype="link"/>
                     <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
                     <link type="estates" corresp="#estates/62" subtype="hasConnectionWith"/>
                 </place>
@@ -4300,7 +4312,8 @@
                     <idno>places/518</idno>
                     <note/>
                     <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
-                    <link type="people" corresp="#people/261 #people/288" subtype="link"/>
+                    <link type="people" corresp="#people/261 #people/288  #people/366 #people/237"
+                        subtype="link"/>
                 </place>
                 <place>
                     <placeName>Piatto (Biella)</placeName>
