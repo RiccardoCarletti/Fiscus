@@ -379,6 +379,9 @@
                     <idno>places/49</idno>
                     <note/>
                     <link type="estates" corresp="#estates/60" subtype="hasConnectionWith"/>
+                    <link type="people" corresp="#people/7 #people/237 #people/366 #people/288"
+                        subtype="link"/>
+                    <link type="juridical_persons" corresp="#juridical_person/81" subtype="link"/>
                 </place>
                 <place>
                     <placeName>Biella</placeName>
@@ -822,7 +825,9 @@
                     <geogName type="coord"><geo>45.429178, 8.291073</geo></geogName>
                     <idno>places/99</idno>
                     <note/>
-                    <link type="people" corresp="#people/33" subtype="link"/>
+                    <link type="people"
+                        corresp="#people/33 #people/7 #people/237 #people/366 #people/288"
+                        subtype="link"/>
                     <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
                     <link type="estates" corresp="#estates/96" subtype="hasConnectionWith"/>
                 </place>
@@ -833,6 +838,9 @@
                     <geogName type="coord"><geo>45.225624, 8.510349</geo></geogName>
                     <idno>places/100</idno>
                     <note/>
+                    <link type="juridical_persons" corresp="#juridical_person/81" subtype="link"/>
+                    <link type="people" corresp="#people/7 #people/237 #people/366 #people/288"
+                        subtype="link"/>
                 </place>
                 <place>
                     <placeName>Asigliano Vercellese (Vercelli)</placeName>
@@ -858,7 +866,9 @@
                     <idno>places/103</idno>
                     <note>Le coordinate di localizzazione si basano su Traversella, comune
                         all'imbocco della Val Chiusella.</note>
-                    <link type="people" corresp="#people/32 #people/33" subtype="link"/>
+                    <link type="people"
+                        corresp="#people/32 #people/33 #people/7 #people/237 #people/366 #people/288"
+                        subtype="link"/>
                     <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
                     <link type="estates" corresp="#estates/60" subtype="hasConnectionWith"/>
                 </place>
@@ -1716,7 +1726,9 @@
                     <geogName type="coord"><geo>45.545673, 8.114262</geo></geogName>
                     <idno>places/213</idno>
                     <note/>
-                    <link type="people" corresp="#people/171 #people/7" subtype="link"/>
+                    <link type="people"
+                        corresp="#people/171 #people/7 #people/237 #people/366 #people/288"
+                        subtype="link"/>
                     <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
                     <link type="estates" corresp="#estates/62" subtype="hasConnectionWith"/>
                 </place>
@@ -1726,7 +1738,9 @@
                     <geogName type="coord"><geo>45.333504, 8.03666</geo></geogName>
                     <idno>places/214</idno>
                     <note/>
-                    <link type="people" corresp="#people/171 #people/7" subtype="link"/>
+                    <link type="people"
+                        corresp="#people/171 #people/7 #people/237 #people/366 #people/288"
+                        subtype="link"/>
                     <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
                     <link type="estates" corresp="#estates/62" subtype="hasConnectionWith"/>
                 </place>
@@ -1736,7 +1750,9 @@
                     <geogName type="coord"><geo>45.6707649, 8.1678328</geo></geogName>
                     <idno>places/215</idno>
                     <note/>
-                    <link type="people" corresp="#people/171 #people/7" subtype="link"/>
+                    <link type="people"
+                        corresp="#people/171 #people/7 #people/237 #people/366 #people/288"
+                        subtype="link"/>
                     <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
                 </place>
                 <place>
@@ -1792,7 +1808,8 @@
                     <note/>
                     <link type="people" corresp="#people/171 #people/7" subtype="link"/>
                     <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
-                    <link type="people" corresp="#people/172" subtype="link"/>
+                    <link type="people" corresp="#people/172 #people/237 #people/288 #people/366"
+                        subtype="link"/>
                     <link type="people" corresp="#people/130" subtype="link"/>
                 </place>
                 <place>
@@ -3775,7 +3792,9 @@
                     <idno>places/450</idno>
                     <note/>
                     <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
-                    <link type="people" corresp="#people/171 #people/7" subtype="link"/>
+                    <link type="people"
+                        corresp="#people/171 #people/7 #people/237 #people/366 #people/288"
+                        subtype="link"/>
                 </place>
                 <place>
                     <placeName>Grignasco (Novara)</placeName>
