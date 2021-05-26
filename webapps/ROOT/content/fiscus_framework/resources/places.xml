@@ -5297,11 +5297,21 @@
                     <link type="juridical_persons" corresp="#juridical_persons/90" subtype="link"/>
                 </place>
                 <place>
-                    <placeName>Genova</placeName>
+                    <placeName><foreign>Corvolata </foreign>
+                    </placeName>
                     <placeName type="other"/>
-                    <geogName type="coord"><geo>45.599579, 9.885080</geo></geogName>
+                    <geogName type="coord"><geo>45.15178, 10.976222</geo></geogName>
                     <idno>places/625</idno>
-                    <note/>
+                    <note>Secondo Castagnetti, da identificare con la località di Cornovala o con la
+                        roggia omonima, site entrambe nei pressi di Villimpenta, v. Castagnetti
+                        1974-1975, p. 87. </note>
+                    <link type="places" corresp="#places/624" subtype="isinTheVicinityOf"/>
+                    <link type="people" corresp="#people/21" subtype="link"/>
+                    <link type="people" corresp="#people/379" subtype="link"/>
+                    <link type="people" corresp="#people/155" subtype="link"/>
+                    <link type="places" corresp="#places/622" subtype="isAdjacentTo"/>
+                    <link type="estates" corresp="#estates/303" subtype="isAdjacentTo"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/90" subtype="link"/>
                 </place>
                     
             </listPlace>
