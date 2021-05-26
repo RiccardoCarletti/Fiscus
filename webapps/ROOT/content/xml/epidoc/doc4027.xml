@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    Diplomatico, *C.58 (primo documento) </title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc4027</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Venditio</rs>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate when="0739-04-20"> 
+                                        <note type="displayed_date">739 April 20</note>
+                                        <note type="dating_elements"/>
+                                        <note type="topical_date">Lucca</note>
+                                    </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-05-26" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab>Iustu aurifice de porta Sancti Gervasii vende a Urse abbatisse
+                        eclesie Sancte Marie vinea mea quem havire visu sum in loco qui vocitator
+                        Casisi, unu caput tenet in via Teuderadi, et aliut caput tenet in vinea
+                        Ansprandi, et de uno latere est de vinea Autelm, et de alio latere est de
+                        vinea Faffuli, qui est de sup casa Raduald, qui mihi ex comparationem
+                        obvenit de Ildulu, parte mea quantum in ipso loco havire visu sum; prezzo:
+                        auris soledos numero sex boni Lucani stellati expendivilis; pena in duplum.
+                        Scrive: Petrus quamvis indignus presbiter. (…) Actum Luca. Sottoscrivono: +
+                        Iustoni aurifici vindituri; + Sindoin viri devoti de porta Sancti Vincentii;
+                        + Walderamu filio quondam Wattuli; + Autpert clirico filio quondam Rotchis.
+                        Scrive: Petrus</ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL V/2, n. 24; CDL I, n. 69; ChLA, XXXI, 916a.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                         <p>Persone: Liutprando re; Ilprando re; Iustu / Iustoni aurifice de porta
+                    Sancti Gervasii; Urse [Orsa] abbatisse eclesie Sancte Marie; Teuderadi;
+                    Ansprandi; Autelm; Faffuli; Raduald; Ildulu; Petrus pbr; Sindoin v. dev. de
+                    porta Sancti Vincenti; Vualderam (f. Vuattuli); Vuattuli (p. Vualderam); Autpert
+                    cler (f. Rotchis); Rotchis (p. Autpert). Luoghi: porta Sancti Gervasii - porta
+                    sancti Vincenti Luca [Lucca]; Casisi [c/o Camaiore]. Chiese: de porta Sancti
+                    Gervasii [S. Gervasio di Lucca]; eclesie Sancte Marie [mon. S. Maria (di
+                    Lucca)]; porta sancti Vincenti [S. Vincenzo di Lucca]. Cariche: . Note: cit.
+                    prec. compravendita. Indice: orefice - monastero - compravendita - denaro
+                    contante - porte cittadine - mestiere (aurifex) -  Nota dorsale (sec. XII ex.):
+                    Offersio ecclesie beate Marie in Sassi.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>
