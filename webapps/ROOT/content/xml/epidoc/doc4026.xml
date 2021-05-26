@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    Diplomatico, +G.92</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc4026</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#"/>
+                                    <rs type="record_source" ref="#"/>
+                                    <rs type="document_tradition" ref="#"/>
+                                    <rs type="fiscal_property"/>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate notBefore="0739-01-01" notAfter="0739-01-31">
+                                <note type="displayed_date">739 January</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date"/>
+                            </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-05-26" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab>Pettu viro devoto filio quondam Alti de vico Viniale vende ad Aloin
+                        viro venerabili presbitero aliquantula terrula iuris meis in loco qui
+                        vocitator Limite, ubi vocavolum est Centuporche et est plus mino
+                        scaffiliorum tre: capu uno tene in via publica, et alio caput tene in
+                        Limite, et de latere uno tene in terra de filii quondam Alfridi, et de alio
+                        latere in terra Audolfi; prezzo: auri soledos numero octo; pena in duplum.
+                        Scrive: Teuderado amico nostro. (…) Actum ad eclesia beati Sancti Petri,
+                        territurio Lucense. Sottoscrivono: + Petto viri devoti venditori; + Alloni
+                        viri devoti testis; + Mauri viri devoti testis; + Walfridi filio quondam
+                        Alfrid viri devoti testis. Scrive: Teuderado </ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL V/2, n. 26; CDL I, n. 68; ChLA, XXXI, 915.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                         <p>Persone: Liutprando re; Ilprando re; Pettu / Petto v. dev. (f. Alti) de
+                    vico Viniale; Alti (p. Pettu); Aloin v. ven. pbr; Alfridi; Audolfi; Teuderado;
+                    Alloni v. dev.; Mauri [Mauro] v. dev.; Vualfridi (f. Alfridi); Alfridi (p.
+                    Vualfridi). Luoghi: vico Viniale; Limite [Limiti in Val di Serchio];
+                    Centuporche; territurio Lucense [Lucca]. Chiese: eclesia beati Sancti Petri,
+                    territurio Lucense [S. Pietro]. Cariche: . Note: . Indice: compravendita - vico
+                    - denaro contante - territorio -  Nota dorsale (sec. VIII): Cartula de Pettu.
+                    Nota dorsale (sec. XII ex.): Venditio terre in Limite. </p>
+                    </div>
+                </body>
+            </text>
+        </TEI>
