@@ -161,7 +161,7 @@
            edit, "@subtype"
            editable, true,
              columns, 16,
-             values, "isPartOf, isMadeOf, isInVicinityOf, hasInItsVicinity, isAdjacentTo, hasConnectionWith");
+             values, "isPartOf, isMadeOf, isWithin, hasWithin, isInVicinityOf, hasInItsVicinity, isAdjacentTo, hasConnectionWith");
            display:block;
            padding-left:20px;
     }
@@ -186,7 +186,7 @@
            edit, "@subtype"
            editable, true,
              columns, 16,
-             values, "isPartOf, isMadeOf, isInVicinityOf, hasInItsVicinity, isAdjacentTo, hasConnectionWith");
+             values, "isPartOf, isMadeOf, isWithin, hasWithin, isInVicinityOf, hasInItsVicinity, isAdjacentTo, hasConnectionWith");
            display:block;
            padding-left:20px;
     }
@@ -211,7 +211,7 @@
            edit, "@subtype"
            editable, true,
              columns, 16,
-             values, "isPartOf, isWithin, isAdjacentTo, hasConnectionWith");
+             values, "isPartOf, isMadeOf, isWithin, hasWithin, isInVicinityOf, hasInItsVicinity, isAdjacentTo, hasConnectionWith");
            display:block;
            padding-left:20px;
     }
@@ -237,7 +237,7 @@
            edit, "@subtype"
            editable, true,
              columns, 24,
-             values, "legallyRecognisedUnionWith, seriousIntimateRelationshipWith, casualIntimateRelationshipWith, intimateRelationshipWith, fatherOf, fatherInLawOf, motherOf, motherInLawOf, parentOf, fosterParentOf, sonOf, sonInLawOf, daughterOf, daughterInLawOf, childOf, grandfatherOf, grandmotherOf, grandparentOf, grandsonOf, granddaughterOf, grandchildOf, greatGrandfatherOf, greatGrandmotherOf, greatGrandparentOf, greatGrandsonOf, greatGranddaughterOf, brotherOf, brotherInLawOf, sisterOf, sisterInLawOf, siblingOf, auntOf, uncleOf, nephewOf, nieceOf, childOfSiblingOf, cousinOf, kinOf, ancestorOf, descendentOf, familyOf, extendedFamilyOf, hereditaryFamilyOf, householdOf, extendedHouseholdOf, patronOf, clientOf, masterOf, formerMasterOf, slaveOf, houseSlaveOf, formerSlaveOf, freedSlaveOf, freedmanOf, freedwomanOf, fellowFreedmanOf, godfatherOf, godmotherOf, godsonOf, goddaughterOf, compaterOf, commaterOf, nutritusOf, nutritorOf, benefactorOf, gratitudeTo, testamentaryLinkWith, legateeOf, heirTo, mundualdusOf, friendshipFor, allianceWith, enmityFor, dominusOf, seniorOf, vassusOf, gasindiusOf, fidelisOf, milesOf, homoOf, agentFor, professionalRelationship, link");
+             values, "legallyRecognisedUnionWith, seriousIntimateRelationshipWith, casualIntimateRelationshipWith, intimateRelationshipWith, fatherOf, fatherInLawOf, motherOf, motherInLawOf, parentOf, fosterParentOf, sonOf, sonInLawOf, daughterOf, daughterInLawOf, childOf, grandfatherOf, grandmotherOf, grandparentOf, grandsonOf, granddaughterOf, grandchildOf, greatGrandfatherOf, greatGrandmotherOf, greatGrandparentOf, greatGrandsonOf, greatGranddaughterOf, greatGrandchildOf, brotherOf, brotherInLawOf, sisterOf, sisterInLawOf, siblingOf, auntOf, uncleOf, nephewOf, nieceOf, childOfSiblingOf, cousinOf, kinOf, ancestorOf, descendentOf, familyOf, extendedFamilyOf, hereditaryFamilyOf, householdOf, extendedHouseholdOf, patronOf, clientOf, masterOf, formerMasterOf, slaveOf, houseSlaveOf, formerSlaveOf, freedSlaveOf, freedmanOf, freedwomanOf, fellowFreedmanOf, godfatherOf, godmotherOf, godsonOf, goddaughterOf, compaterOf, commaterOf, nutritusOf, nutritorOf, benefactorOf, gratitudeTo, testamentaryLinkWith, legateeOf, heirTo, mundualdusOf, friendshipFor, allianceWith, enmityFor, dominusOf, seniorOf, vassusOf, gasindiusOf, fidelisOf, milesOf, homoOf, agentFor, professionalRelationship, link");
 /*values, oxy_concat("", oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/thesaurus.xml'), '")//taxonomy[@xml:id="thesaurus"]//category[@n="bonds"]//category/catDesc/@n, ",")'))));*/
            display:block;
            padding-left:20px;
@@ -263,7 +263,7 @@
            edit, "@subtype"
            editable, true,
              columns, 24,
-             values, "legallyRecognisedUnionWith, seriousIntimateRelationshipWith, casualIntimateRelationshipWith, intimateRelationshipWith, fatherOf, fatherInLawOf, motherOf, motherInLawOf, parentOf, fosterParentOf, sonOf, sonInLawOf, daughterOf, daughterInLawOf, childOf, grandfatherOf, grandmotherOf, grandparentOf, grandsonOf, granddaughterOf, grandchildOf, greatGrandfatherOf, greatGrandmotherOf, greatGrandparentOf, greatGrandsonOf, greatGranddaughterOf, brotherOf, brotherInLawOf, sisterOf, sisterInLawOf, siblingOf, auntOf, uncleOf, nephewOf, nieceOf, childOfSiblingOf, cousinOf, kinOf, ancestorOf, descendentOf, familyOf, extendedFamilyOf, hereditaryFamilyOf, householdOf, extendedHouseholdOf, patronOf, clientOf, masterOf, formerMasterOf, slaveOf, houseSlaveOf, formerSlaveOf, freedSlaveOf, freedmanOf, freedwomanOf, fellowFreedmanOf, godfatherOf, godmotherOf, godsonOf, goddaughterOf, compaterOf, commaterOf, nutritusOf, nutritorOf, benefactorOf, gratitudeTo, testamentaryLinkWith, legateeOf, heirTo, mundualdusOf, friendshipFor, allianceWith, enmityFor, dominusOf, seniorOf, vassusOf, gasindiusOf, fidelisOf, milesOf, homoOf, agentFor, professionalRelationship, link");
+             values, "legallyRecognisedUnionWith, seriousIntimateRelationshipWith, casualIntimateRelationshipWith, intimateRelationshipWith, fatherOf, fatherInLawOf, motherOf, motherInLawOf, parentOf, fosterParentOf, sonOf, sonInLawOf, daughterOf, daughterInLawOf, childOf, grandfatherOf, grandmotherOf, grandparentOf, grandsonOf, granddaughterOf, grandchildOf, greatGrandfatherOf, greatGrandmotherOf, greatGrandparentOf, greatGrandsonOf, greatGranddaughterOf, greatGrandchildOf, brotherOf, brotherInLawOf, sisterOf, sisterInLawOf, siblingOf, auntOf, uncleOf, nephewOf, nieceOf, childOfSiblingOf, cousinOf, kinOf, ancestorOf, descendentOf, familyOf, extendedFamilyOf, hereditaryFamilyOf, householdOf, extendedHouseholdOf, patronOf, clientOf, masterOf, formerMasterOf, slaveOf, houseSlaveOf, formerSlaveOf, freedSlaveOf, freedmanOf, freedwomanOf, fellowFreedmanOf, godfatherOf, godmotherOf, godsonOf, goddaughterOf, compaterOf, commaterOf, nutritusOf, nutritorOf, benefactorOf, gratitudeTo, testamentaryLinkWith, legateeOf, heirTo, mundualdusOf, friendshipFor, allianceWith, enmityFor, dominusOf, seniorOf, vassusOf, gasindiusOf, fidelisOf, milesOf, homoOf, agentFor, professionalRelationship, link");
              /*values, oxy_concat("", oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/thesaurus.xml'), '")//taxonomy[@xml:id="thesaurus"]//category[@n="bonds"]//category/catDesc/@n, ",")'))));*/
            display:block;
            padding-left:20px;
@@ -290,7 +290,7 @@
            edit, "@subtype"
            editable, true,
              columns, 24,
-             values, "legallyRecognisedUnionWith, seriousIntimateRelationshipWith, casualIntimateRelationshipWith, intimateRelationshipWith, fatherOf, fatherInLawOf, motherOf, motherInLawOf, parentOf, fosterParentOf, sonOf, sonInLawOf, daughterOf, daughterInLawOf, childOf, grandfatherOf, grandmotherOf, grandparentOf, grandsonOf, granddaughterOf, grandchildOf, greatGrandfatherOf, greatGrandmotherOf, greatGrandparentOf, greatGrandsonOf, greatGranddaughterOf, brotherOf, brotherInLawOf, sisterOf, sisterInLawOf, siblingOf, auntOf, uncleOf, nephewOf, nieceOf, childOfSiblingOf, cousinOf, kinOf, ancestorOf, descendentOf, familyOf, extendedFamilyOf, hereditaryFamilyOf, householdOf, extendedHouseholdOf, patronOf, clientOf, masterOf, formerMasterOf, slaveOf, houseSlaveOf, formerSlaveOf, freedSlaveOf, freedmanOf, freedwomanOf, fellowFreedmanOf, godfatherOf, godmotherOf, godsonOf, goddaughterOf, compaterOf, commaterOf, nutritusOf, nutritorOf, benefactorOf, gratitudeTo, testamentaryLinkWith, legateeOf, heirTo, mundualdusOf, friendshipFor, allianceWith, enmityFor, dominusOf, seniorOf, vassusOf, gasindiusOf, fidelisOf, milesOf, homoOf, agentFor, professionalRelationship, link");
+             values, "legallyRecognisedUnionWith, seriousIntimateRelationshipWith, casualIntimateRelationshipWith, intimateRelationshipWith, fatherOf, fatherInLawOf, motherOf, motherInLawOf, parentOf, fosterParentOf, sonOf, sonInLawOf, daughterOf, daughterInLawOf, childOf, grandfatherOf, grandmotherOf, grandparentOf, grandsonOf, granddaughterOf, grandchildOf, greatGrandfatherOf, greatGrandmotherOf, greatGrandparentOf, greatGrandsonOf, greatGranddaughterOf, greatGrandchildOf, brotherOf, brotherInLawOf, sisterOf, sisterInLawOf, siblingOf, auntOf, uncleOf, nephewOf, nieceOf, childOfSiblingOf, cousinOf, kinOf, ancestorOf, descendentOf, familyOf, extendedFamilyOf, hereditaryFamilyOf, householdOf, extendedHouseholdOf, patronOf, clientOf, masterOf, formerMasterOf, slaveOf, houseSlaveOf, formerSlaveOf, freedSlaveOf, freedmanOf, freedwomanOf, fellowFreedmanOf, godfatherOf, godmotherOf, godsonOf, goddaughterOf, compaterOf, commaterOf, nutritusOf, nutritorOf, benefactorOf, gratitudeTo, testamentaryLinkWith, legateeOf, heirTo, mundualdusOf, friendshipFor, allianceWith, enmityFor, dominusOf, seniorOf, vassusOf, gasindiusOf, fidelisOf, milesOf, homoOf, agentFor, professionalRelationship, link");
              /*values, oxy_concat("", oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/thesaurus.xml'), '")//taxonomy[@xml:id="thesaurus"]//category[@n="bonds"]//category/catDesc/@n, ",")'))));*/
            display:block;
            padding-left:20px;
@@ -316,7 +316,7 @@
            edit, "@subtype",
            editable, true,
              columns, 24,
-             values, "legallyRecognisedUnionWith, seriousIntimateRelationshipWith, casualIntimateRelationshipWith, intimateRelationshipWith, fatherOf, fatherInLawOf, motherOf, motherInLawOf, parentOf, fosterParentOf, sonOf, sonInLawOf, daughterOf, daughterInLawOf, childOf, grandfatherOf, grandmotherOf, grandparentOf, grandsonOf, granddaughterOf, grandchildOf, greatGrandfatherOf, greatGrandmotherOf, greatGrandparentOf, greatGrandsonOf, greatGranddaughterOf, brotherOf, brotherInLawOf, sisterOf, sisterInLawOf, siblingOf, auntOf, uncleOf, nephewOf, nieceOf, childOfSiblingOf, cousinOf, kinOf, ancestorOf, descendentOf, familyOf, extendedFamilyOf, hereditaryFamilyOf, householdOf, extendedHouseholdOf, patronOf, clientOf, masterOf, formerMasterOf, slaveOf, houseSlaveOf, formerSlaveOf, freedSlaveOf, freedmanOf, freedwomanOf, fellowFreedmanOf, godfatherOf, godmotherOf, godsonOf, goddaughterOf, compaterOf, commaterOf, nutritusOf, nutritorOf, benefactorOf, gratitudeTo, testamentaryLinkWith, legateeOf, heirTo, mundualdusOf, friendshipFor, allianceWith, enmityFor, dominusOf, seniorOf, vassusOf, gasindiusOf, fidelisOf, milesOf, homoOf, agentFor, professionalRelationship, link");
+             values, "legallyRecognisedUnionWith, seriousIntimateRelationshipWith, casualIntimateRelationshipWith, intimateRelationshipWith, fatherOf, fatherInLawOf, motherOf, motherInLawOf, parentOf, fosterParentOf, sonOf, sonInLawOf, daughterOf, daughterInLawOf, childOf, grandfatherOf, grandmotherOf, grandparentOf, grandsonOf, granddaughterOf, grandchildOf, greatGrandfatherOf, greatGrandmotherOf, greatGrandparentOf, greatGrandsonOf, greatGranddaughterOf, greatGrandchildOf, brotherOf, brotherInLawOf, sisterOf, sisterInLawOf, siblingOf, auntOf, uncleOf, nephewOf, nieceOf, childOfSiblingOf, cousinOf, kinOf, ancestorOf, descendentOf, familyOf, extendedFamilyOf, hereditaryFamilyOf, householdOf, extendedHouseholdOf, patronOf, clientOf, masterOf, formerMasterOf, slaveOf, houseSlaveOf, formerSlaveOf, freedSlaveOf, freedmanOf, freedwomanOf, fellowFreedmanOf, godfatherOf, godmotherOf, godsonOf, goddaughterOf, compaterOf, commaterOf, nutritusOf, nutritorOf, benefactorOf, gratitudeTo, testamentaryLinkWith, legateeOf, heirTo, mundualdusOf, friendshipFor, allianceWith, enmityFor, dominusOf, seniorOf, vassusOf, gasindiusOf, fidelisOf, milesOf, homoOf, agentFor, professionalRelationship, link");
              /*values, oxy_concat("", oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/thesaurus.xml'), '")//taxonomy[@xml:id="thesaurus"]//category[@n="bonds"]//category/catDesc/@n, ",")'))));*/
            display:block;
            padding-left:20px;
@@ -343,7 +343,7 @@
            edit, "@subtype"
            editable, true,
              columns, 16,
-             values, "isPartOf, isMadeOf, isInVicinityOf, hasInItsVicinity, isAdjacentTo, hasConnectionWith");
+             values, "isPartOf, isMadeOf, isWithin, hasWithin, isInVicinityOf, hasInItsVicinity, isAdjacentTo, hasConnectionWith");
            display:block;
            padding-left:20px;
     }
@@ -368,7 +368,7 @@
            edit, "@subtype"
            editable, true,
              columns, 16,
-             values, "isPartOf, isMadeOf, isInVicinityOf, hasInItsVicinity, isAdjacentTo, hasConnectionWith");
+             values, "isPartOf, isMadeOf, isWithin, hasWithin, isInVicinityOf, hasInItsVicinity, isAdjacentTo, hasConnectionWith");
            display:block;
            padding-left:20px;
     }
