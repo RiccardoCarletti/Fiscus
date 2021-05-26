@@ -5272,7 +5272,7 @@
                     <link type="people" corresp="#people/21" subtype="link"/>
                     <link type="people" corresp="#people/379" subtype="link"/>
                     <link type="people" corresp="#people/155" subtype="link"/>
-                    <link type="people" corresp="#people/155" subtype="link"/>
+                   
                     <link type="estates" corresp="#estates/303" subtype="isPartOf"/>
                     <link type="juridical_persons" corresp="#juridical_persons/90" subtype="link"/>
                    </place>
@@ -5283,7 +5283,20 @@
                     <idno>places/623</idno>
                     <note/>
                 </place>
-                
+                <place>
+                    <placeName>Nosedole (Roncoferraro; Mantova)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>45.115934, 10.990963</geo></geogName>
+                    <idno>places/624</idno>
+                    <note/>
+                    <link type="people" corresp="#people/21" subtype="link"/>
+                    <link type="people" corresp="#people/379" subtype="link"/>
+                    <link type="people" corresp="#people/155" subtype="link"/>
+                    <link type="places" corresp="#places/622" subtype="isAdjacentTo"/>
+                    <link type="estates" corresp="#estates/303" subtype="isAdjacentTo"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/90" subtype="link"/>
+                </place>
+                    
             </listPlace>
         </body>
     </text>
