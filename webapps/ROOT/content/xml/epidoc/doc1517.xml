@@ -81,9 +81,18 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab> (Gregorius iunior locat) Care religiose coloniam, quae dicitur Pofinis via
-                        Lata, miliario ab urbe plus minus .XII. post absidam basilicae Sancti Pewtri
-                        intra massam Marulis. Prestat numero I. auri solidum. </ab>
+                    <ab> (<persName key="#Popes" ref="#people/71">Gregorius iunior</persName> locat)
+                            <persName key="#Nuns/sanctimoniales"><name ref="Cara"
+                            >Care</name></persName>
+                        <rs key="#Nuns/sanctimoniales">religiose</rs>
+                        <rs key="#Landed_possessions">coloniam</rs>, quae dicitur <geogName
+                            key="#Landed_possessions #Fiscal_property #Object #Outflow #Allocation_to_individuals #Rent_in_money"
+                            >Pofinis</geogName> via Lata, miliario ab urbe plus minus .XII. post
+                        absidam <rs key="#Churches">basilicae</rs>
+                        <orgName key="#Churches">Sancti Petri</orgName> intra <rs key="#Massae"
+                            >massam</rs>
+                        <geogName key="#Massae">Marulis</geogName>. <rs key="#Rent_in_money">Prestat
+                            numero I. auri solidum</rs>. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
