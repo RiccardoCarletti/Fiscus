@@ -2915,6 +2915,8 @@
                     <link type="people" corresp="#people/364" subtype="link"/>
                     <link type="places" corresp="#places/4" subtype="hasConnectionWith"/>
                     <link type="juridical_persons" corresp="#juridical_persons/242" subtype="link"/>
+                    <link type="people" corresp="#people/381" subtype="legallyRecognisedUnionWith"/>
+                    <link type="people" corresp="#people/380" subtype="fatherInLawOf"/>
                 </person>
                 <person>
                     <persName>Teudebertus (730) gasindius regis</persName>
@@ -3123,12 +3125,16 @@
                     <persName type="other"/>
                     <idno>people/380</idno>
                     <note/>
+                    <link type="people" corresp="#people/358" subtype="sonInLawOf"/>
+                    <link type="people" corresp="#people/381" subtype="fatherOf"/>
                 </person>
                 <person>
                     <persName>Auria (740)</persName>
                     <persName type="other"/>
                     <idno>people/381</idno>
                     <note/>
+                    <link type="people" corresp="#people/380" subtype="daughterOf"/>
+                    <link type="people" corresp="#people/358" subtype="legallyRecognisedUnionWith"/>
                 </person>
             </listPerson>
         </body>
