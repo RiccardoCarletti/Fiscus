@@ -31,7 +31,7 @@
                             </msIdentifier>
                             <msContents>
                                 <summary>
-                                    <rs type="text_type" ref="#"/>
+                                    <rs type="text_type" ref="#">--Venditio</rs>
                                     <rs type="record_source" ref="#">Critical edition</rs>
                                     <rs type="document_tradition" ref="#">Original</rs>
                                     <rs type="fiscal_property">No</rs>
@@ -81,19 +81,37 @@
                 <body>
                     <div type="edition">
                         <div type="textpart">
-                            <ab>Mauro transpadanus, havitator in civitatem Pistoriense, genero
-                        Filicissimi de Piscia vende a Crispinuli negudianti parte mea de terra et
-                        vineam quem avire visum sum in Piscia, parte qui mihi etvinet per donationem
-                        da Sturnulo, qui est posita ad latum de terra tua ipsius Crispine, et vineas
-                        est posita similiter ad latum de vineas tua ipsius ad Sorbulo; quod est
-                        parte mea de prato, hoc est quarta parte in integro, similiter et de vinea,
-                        qui mihi cuntiget, quarta parte de integra sorte mea (…); et uno serbo
-                        nomine Dulculo. Prezzo: auri soledos bonos expendivile nomero trigenta et
-                        quinque tantum. Pena in duplum. Scrive: Teutpert vir devotum (…). Actum
-                        Luca. Sottoscrizioni: + Mauri viri honesti vendituri; + Petti viri devoti
-                        filio Authelmi testis; + Tachipert viri devoti germano Amalongo testis; +
-                        Bonichis viri devoti caldorario de porta Sancto Donati testis; Scrive:
-                        Teutpert. Segue: + Evo Altipert vir devotus in anc cartula suscripsi. </ab>
+                            <ab><persName><name ref="Maurus traspadanus">Mauro</name></persName>
+                        transpadanus, havitator in <rs key="#Cities">civitatem</rs>
+                        <placeName key="#Cities" ref="#places/507">Pistoriense</placeName>, genero
+                                <persName><name ref="Felicissimus de Pisca"
+                            >Filicissimi</name></persName> de <placeName ref="#places/464"
+                            >Piscia</placeName>
+                        <foreign>vende</foreign> a <persName><name ref="Crispinus negotians"
+                                >CrispinusCrispinuli</name></persName> negudianti parte mea de <rs
+                            key="#Landed_possessions">terra</rs> et <rs key="#Wine">vineam</rs> quem
+                        avire visum sum in <placeName key="#Landed_possessions #Wine"
+                            ref="#places/464">Piscia</placeName>, parte qui mihi etvinet per <rs
+                            key="#Offersio/donatio">donationem</rs> da <persName
+                            key="#Offersio/donatio"><name ref="Sturmulus"
+                        >Sturnulo</name></persName>, qui est posita ad latum de <rs
+                            key="#Landed_possessions">terra</rs> tua ipsius <persName
+                            key="#Confinia #Petiae #Wine"><name ref="Crispinus negotians"
+                                >Crispine</name></persName>, et vineas est posita similiter ad latum
+                        de <rs key="#Wine">vineas</rs> tua ipsius <placeName key="#Wine"
+                            ref="#places/464">ad Sorbulo</placeName>; quod est parte mea de <rs
+                            key="#Hay/fodder">prato</rs>, hoc est quarta parte in integro, similiter
+                        et de vinea, qui mihi cuntiget, quarta parte de integra sorte mea (…); et
+                        uno <rs key="#Slave_labour #Slave">serbo</rs> nomine Dulculo.
+                            <foreign>Prezzo</foreign>: auri soledos bonos expendivile nomero
+                        trigenta et quinque tantum. <foreign>Pena in duplum. Scrive</foreign>:
+                        Teutpert <rs key="#Vir_devotus/vir_honestus">vir devotum</rs> (…). Actum
+                        Luca. <foreign>Sottoscrizioni:</foreign> + Mauri viri honesti vendituri; +
+                        Petti viri devoti filio Authelmi testis; + Tachipert viri devoti germano
+                        Amalongo testis; + Bonichis viri devoti caldorario de porta Sancto Donati
+                        testis; <foreign>Scrive</foreign>: Teutpert. <foreign>Segue</foreign>: + Evo
+                        Altipert <rs key="#Vir_devotus/vir_honestus">vir devotus</rs> in anc cartula
+                        suscripsi. </ab>
                         </div>
                     </div>
                     <div type="bibliography" subtype="editions">
