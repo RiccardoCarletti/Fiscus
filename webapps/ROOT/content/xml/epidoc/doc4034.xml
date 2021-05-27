@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    Diplomatico, +I.92</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc4034</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Venditio</rs>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate notBefore="0742-10-01" notAfter="0745-08-31">
+                                <note type="displayed_date">[742 Octobert - 745 August]</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">San Donato <foreign>in
+                                    Fasqua</foreign></note>
+                            </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-05-27" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab>Emithancu vir honestus filius Emmi una cum coiuge sua Teuflada filia
+                        quondam Muccioni vendono a Tanualdi viro venerabili presbitero de beatus
+                        Sancto Reculi medietate de case me in Paternu, case Minculi et Racculi cum
+                        terra et vineas, campis, silvis, cum arbustra fructefera, cum fontis; omnia
+                        in adpretiato in tregenta soledus (…) quem tertio homo Deus timente dixere.
+                        Prezzo: auris soledus nomero tregenta. Pena in duplum. Scrive: Alipertu
+                        amico meo. (…) Actum ad monstio Sanctu Donatu in Fasqua, in finibus
+                        Voloterrana. Sottoscrizioni: + Ermitanchi viri honesti vendituri; + Teufrada
+                        viro honesta venditricis; + Aiduini viri devoti, parente eius, testis; +
+                        Albuini viri devoti filius quondam Baronci testis; + Ursu viri devoti filius
+                        quondam Fridualdi parente eius testis; + Tachipert viri devoti filius
+                        quondam Teudimari testis; + Baroncellu viri devoti filius quondam Tronci
+                        testis; + Mazulio viri devoti filius quondam Teudimari testis; + Pinci viri
+                        devoti filius quondam Barunco testis. </ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL IV/1, n. 42; reg. MDL V/2, n. 32; CDL, I, n. 84, pp. 248-250; ChLA,
+                    XXXI, 922.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                         <p>Persone: Ratchis re; Emithancu / Emitanchi v. hon. f. Emmi (sp.
+                    Teuflada); Emmi (p. Emithancu); Teuflada / Teufrada v. hon. (f. Muccioni; sp.
+                    Emithancu; parente Aiduini, Ursu?); Muccioni (p. Teuflada); Tanualdi v. ven.
+                    pbr; Minculi (mass); Racculi (mass); Alipertu; Aiduini v. dev. (parente
+                    Teufleda); Albuini v. dev. (f. Baronci); Baronci (p. Albuini); Ursu [Orso] v.
+                    dev. (f. Fridualdi; parente Teuflada?); Fridualdi (p. Ursu); Tachipert v. dev.
+                    (f. Teudimari); Teudimari (p. Tachipert); Baroncellu v. dev. (f. Tronci); Tronci
+                    (p. Baroncellu); Mazulio v. dev. (f. Teudimari); Teudimari (p. Mazulio); Pinci
+                    v. dev. (f. Baronco); Baronco (p. Pinci); . Luoghi: Paternu - Paterno [Paterno
+                    in Val di Cornia]; finibus Volaterrana [Volterra]. Chiese: Sancto Reculi -
+                    sancti Reguli [S. Regolo in Gualdo]; Sanctu Donatu in Fasqua [S. Donato].
+                    Cariche: . Note: . Indice: volterra - fines - compravendita - dipendenti -
+                    monastero - s. regolo in gualdo - maremma. <foreign>Nota dorsale (sec.
+                        VIII)</foreign>: carta de Paterno f[..]n[..]s[.] sancti Reguli.
+                        <foreign>Nota dorsale (sec XII ex)</foreign>: Offersio sancto Regulo de
+                    casis in Paterno. </p>
+                    </div>
+                </body>
+            </text>
+        </TEI>
