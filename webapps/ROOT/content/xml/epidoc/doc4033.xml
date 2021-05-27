@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    Diplomatico, *A.70</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc4033</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#"/>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate notAfter="0742-10-30" notBefore="0742-10-01">
+                                <note type="displayed_date">742 ottobre</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Lucca</note>
+                            </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-05-27" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab>Mauro transpadanus, havitator in civitatem Pistoriense, genero
+                        Filicissimi de Piscia vende a Crispinuli negudianti parte mea de terra et
+                        vineam quem avire visum sum in Piscia, parte qui mihi etvinet per donationem
+                        da Sturnulo, qui est posita ad latum de terra tua ipsius Crispine, et vineas
+                        est posita similiter ad latum de vineas tua ipsius ad Sorbulo; quod est
+                        parte mea de prato, hoc est quarta parte in integro, similiter et de vinea,
+                        qui mihi cuntiget, quarta parte de integra sorte mea (…); et uno serbo
+                        nomine Dulculo. Prezzo: auri soledos bonos expendivile nomero trigenta et
+                        quinque tantum. Pena in duplum. Scrive: Teutpert vir devotum (…). Actum
+                        Luca. Sottoscrizioni: + Mauri viri honesti vendituri; + Petti viri devoti
+                        filio Authelmi testis; + Tachipert viri devoti germano Amalongo testis; +
+                        Bonichis viri devoti caldorario de porta Sancto Donati testis; Scrive:
+                        Teutpert. Segue: + Evo Altipert vir devotus in anc cartula suscripsi. </ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL V/2, n. 31; CDL, I, n. 80, pp. 233-235; ChLA, XXXI, 921.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                         <p>Persone: Liutprando re; Ilprando re; Mauro v. hon. transpadanus,
+                    avitator in civitatem Pistoriense (genero Filicissimi de Piscia); Filicissimi de
+                    Piscia (suocero Mauro); Crispinulus / Crispinus negutianti; Sturnulo; Dulculo
+                    serbo; Teutpert v. dev.; Petti v. dev. (f. Authelmi); Authelmus (p. Petti);
+                    Tachipert v. dev. (fr. Amolongo); Amolongo (fr. Tachipert); Bonichis v. dev.
+                    caldorario de porta Sancto Donati; Alipert v. dev. . Luoghi: civitatem
+                    Pistoriense [Pistoia]; Piscia [Pescia]; Sorbulo; Luca - porta Sancto Donati
+                    [Lucca]. Chiese: Sancto Donato [S. Donato (di Lucca?)]. Cariche: . Note: cit.
+                    prec. donazione; Bonichis v. dev. caldorario de porta Sancto Donati. Indice:
+                    traspadano - compravendita (tra laici) - servo - mestiere (calderario;
+                    negotiator) - porta. <foreign>Nota dorsale (sec. XII ex.)</foreign>: Cartula
+                    venditionis cuiusdam vinee in […] Piscionore; altra mano vinditionis.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>
