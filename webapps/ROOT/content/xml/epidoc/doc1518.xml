@@ -81,9 +81,19 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>Iohanni consuli fossam, quae dicitur Vaianicum, iuxta campum Veneris
-                        miliario ab urbe Roma plus minus .XX. ex corpore massae Fonteianae
-                        patrimonii Appiae. Prestat auri solidos. </ab>
+                    <ab>(<persName key="#Popes" ref="#people/71">Gregorius iunior</persName> locat)
+                            <persName key="#Consul/hypatos"><name ref="Iohannes"
+                            >Iohanni</name></persName>
+                        <rs key="#Consul/hypatos">consuli</rs>
+                        <rs key="#Canals">fossam</rs>, quae dicitur <geogName
+                            key="#Fiscal_property #Object #Outflow #Allocation_to_individuals #Rent_in_money #Canals"
+                            >Vaianicum</geogName>, iuxta <rs key="#Landed_possessions">campum</rs>
+                        <geogName key="#Landed_possessions">Veneris</geogName> miliario ab urbe Roma
+                        plus minus .XX. ex corpore <rs key="#Massae">massae</rs>
+                        <geogName key="#Massae" ref="#estates/120">Fonteianae</geogName>
+                        <rs key="#Patrimonium">patrimonii</rs>
+                        <geogName key="#Patrimonium" ref="#estates/224">Appiae</geogName>. <rs
+                            key="#Rent_in_money">Prestat auri solidos</rs>. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
