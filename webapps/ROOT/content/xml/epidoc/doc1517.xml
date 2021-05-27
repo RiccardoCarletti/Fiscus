@@ -5,7 +5,7 @@
         <fileDesc>
             <titleStmt>
                 <title>Biblioteca Apostolica Vaticana, Vat. Lat. 3833, f. 89r (Deusdedit, nr.
-                    227)</title>
+                    228)</title>
             </titleStmt>
             <editionStmt>
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
@@ -14,7 +14,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
-                <idno type="filename">doc1516</idno>
+                <idno type="filename">doc1517</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -73,7 +73,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2021-05-25" who="dinternullo">creation of record</change>
+                <change when="2021-05-27" who="dinternullo">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -81,25 +81,22 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab><persName><name ref="Gemulus">Gemulo</name></persName>
-                        <rs key="#milesOf">militi</rs> (<persName key="#Popes" ref="#people/71"
-                            >Gregorius iunior</persName> locat) <rs key="#Fundi">fundum</rs>
-                        <geogName
-                            key="#Fundi #Fiscal_property #Object #Outflow #Allocation_to_individuals #Rent_in_money"
-                            ref="#estates/301">Mauricis</geogName>, <rs key="#Fundi">fundum</rs>
-                        <geogName
-                            key="#Fundi #Fiscal_property #Object #Outflow #Allocation_to_individuals #Rent_in_money"
-                            ref="#estates/300">Vianova</geogName>, via Prenestina miliario plus
-                        minus .VIIII. ex corpore <rs key="#Massae">massae</rs>
-                        <geogName key="#Massae" ref="#estates/299">Varvariane</geogName>
-                        <rs key="#Patrimonium">patrimonium</rs>
-                        <geogName key="#Patrimonium" ref="#estates/192">Lavicani</geogName>; <rs
-                            key="#Rent_in_money">prestant numero .III. auri solidos</rs>
-                    </ab>
+                    <ab> (<persName key="#Popes" ref="#people/71">Gregorius iunior</persName> locat)
+                            <persName key="#Nuns/sanctimoniales"><name ref="Cara"
+                            >Care</name></persName>
+                        <rs key="#Nuns/sanctimoniales">religiose</rs>
+                        <rs key="#Landed_possessions">coloniam</rs>, quae dicitur <geogName
+                            key="#Landed_possessions #Fiscal_property #Object #Outflow #Allocation_to_individuals #Rent_in_money"
+                            >Pofinis</geogName> via Lata, miliario ab urbe plus minus .XII. post
+                        absidam <rs key="#Churches">basilicae</rs>
+                        <orgName key="#Churches">Sancti Petri</orgName> intra <rs key="#Massae"
+                            >massam</rs>
+                        <geogName key="#Massae">Marulis</geogName>. <rs key="#Rent_in_money">Prestat
+                            numero I. auri solidum</rs>. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p>Deusdedit, Collectio Canonum, nr. 227, p. 368</p>
+                <p>Deusdedit, Collectio Canonum, nr. 228, p. 368</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p>Marazzi 1998: 303-304</p>
@@ -108,14 +105,9 @@
                 <p><ref>https://digi.vatlib.it/view/MSS_Vat.lat.3833</ref></p>
             </div>
             <div type="commentary">
-                <p>Il <foreign>Liber Censuum</foreign> di Cencio, che censisce la medesima
-                    locazione, registra anche un terzo fondo, il <foreign>Maurini</foreign>, e dà la
-                    diversa lezione <foreign>Villa Nova</foreign> per il <foreign>fundus via
-                        Nova</foreign>. Cf. De Francesco 2004: 227. Non è escluso che
-                        <foreign>Maurini</foreign> e <foreign>Mauricis</foreign> coincidano con una
-                    doppia lezione, nel <foreign>Liber</foreign>, del medesimo fondo. La rendita,
-                    tracciataa in note tachigrafiche, è sciolta seguendo le indicazioni di
-                    Marazzi.</p>
+                <p>La rendita è tracciata in note tachigrafiche. Viene qui sciolta seguendo le
+                    indicazioni di Marazzi. <foreign>Via Lata</foreign> è qui da intendersi come
+                        <foreign>Via Latina</foreign>.</p>
             </div>
         </body>
     </text>
