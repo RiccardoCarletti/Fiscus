@@ -81,17 +81,49 @@
                 <body>
                     <div type="edition">
                         <div type="textpart">
-                            <ab>Causulu vir honestus filius quondam Radualdi vende a Tanualde viro
-                        venerabili presbitero de beato Sancto Regulu tres parti in Teutpasciu qui
-                        vocitatur Favarius, casa, terra, vineis, cultu vel incultu, silvis et
-                        pascuas; quo dix, que ad me vel duis germani meis pertinet, exceptu quarta
-                        parte quen tenu filiis quondam Radiperti; prezzo: auris soledus nomero decem
-                        et octo; pena in duplum. Scrive: Altipert amico meo (…). Actum Luca finibus,
-                        Massa. Sottoscrizioni: + Causuli viri honesti vendituri; + Ratpert viri
-                        devoti soceru eius testis; + Gairepert viri devoti filius quondam Arochis
-                        testis; + Elprandi viri devoti testis; + Reculi viri devoti filius quondam
-                        Vitaliani testis; + Bonari viri devoti filius quondam Auradi homo Pisanus
-                        testis. Scrive: Altipert vir devotus. </ab>
+                            <ab><persName key="#Vir_devotus/vir_honestus"><name ref="Causulus"
+                                >Causulu</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">vir honestus</rs> filius quondam
+                                <persName><name ref="Radaldus">Radualdi</name></persName>
+                        <foreign>vende a</foreign>
+                        <persName key="#Priests"><name ref="Tanualdus">Tanualde</name></persName>
+                        viro venerabili <rs key="#Priests">presbitero</rs> de <orgName
+                            key="#Churches" ref="#juridical_persons/243">beato Sancto
+                            Regulu</orgName> tres parti in <placeName
+                            key="#Casae/cassinae_massaricie #Landed_possessions #Wine #Acorns #Hay/fodder"
+                            >Teutpasciu</placeName> qui vocitatur <placeName>Favarius</placeName>,
+                            <rs key="#Casae/cassinae_massaricie">casa</rs>, <rs
+                            key="#Landed_possessions">terra</rs>, <rs key="#Wine">vineis</rs>, cultu
+                        vel incultu, <rs key="#Acorns">silvis</rs> et <rs key="#Hay/fodder"
+                            >pascuas</rs>; quo dix, que ad me vel duis germani meis pertinet,
+                        exceptu quarta parte quen tenu filiis quondam <persName><name
+                                ref="Radipertus">Radiperti</name></persName>;
+                            <foreign>prezzo:</foreign> auris soledus nomero decem et octo;
+                            <foreign>pena in duplum. Scrive:</foreign>
+                        <persName key="#Writer"><name ref="Aldebertus">Altipert</name></persName>
+                        amico meo (…). Actum <geogName key="#Fines" ref="#estates/210"
+                            >Luca</geogName>
+                        <rs key="#Fines">finibus</rs>, <placeName>Massa</placeName>.
+                            <foreign>Sottoscrizioni:</foreign> + Causuli viri honesti vendituri; +
+                            <persName key="#Witness #Vir_devotus/vir_honestus"><name
+                                ref="Radipertus">Ratpert</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">viri devoti</rs> soceru eius testis; +
+                            <persName key="#Witness #Vir_devotus/vir_honestus"><name
+                                ref="Garipertus">Gairepert</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">viri devoti</rs> filius quondam
+                                <persName><name ref="Aregis">Arochis</name></persName> testis; +
+                            <persName key="#Witness #Vir_devotus/vir_honestus"><name
+                                ref="Ildebrandus">Elprandi</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">viri devoti</rs> testis; + <persName
+                            key="#Witness #Vir_devotus/vir_honestus"><name ref="Regulus"
+                                >Reculi</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">viri devoti</rs> filius quondam
+                        Vitaliani testis; + <persName key="#Witness #Vir_devotus/vir_honestus"><name
+                                ref="Bonari homo Pisanus">Bonari</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">viri devoti</rs> filius quondam
+                                <persName><name ref="Auradus">Auradi</name></persName> homo
+                            <placeName ref="#places/66">Pisanus</placeName> testis.
+                            <foreign>Scrive:</foreign> Altipert vir devotus. </ab>
                         </div>
                     </div>
                     <div type="bibliography" subtype="editions">
