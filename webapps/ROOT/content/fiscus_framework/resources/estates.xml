@@ -2480,7 +2480,7 @@
                 </place>
                 <place>
                     <geogName>de Robationico; <foreign>curtis</foreign></geogName>
-                    <geogName type="other">Genuensis</geogName>
+                    <geogName type="other"/>
                     <idno>estates/311</idno>
                     <note/>
                     <link type="people" corresp="#people/21" subtype="link"/>
@@ -2490,11 +2490,13 @@
                 </place>
                 <place>
                     <geogName>Brescia; <foreign>comitatus</foreign></geogName>
-                    <geogName type="other">Genuensis</geogName>
+                    <geogName type="other"/>
                     <idno>estates/311</idno>
                     <note/>
                     <link type="people" corresp="#people/21" subtype="link"/>
                     <link type="places" corresp="#places/9" subtype="hasConnectionWith"/>
+                    <link type="places" corresp="#places/26" subtype="hasConnectionWith"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/30" subtype="link"/>
                 </place>
             </listPlace>
         </body>
