@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    Diplomatico, *C.13 </title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc4037</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Venditio</rs>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate when="0746-12-16"> 
+                                        <note type="displayed_date">746 December 16</note>
+                                        <note type="dating_elements"/>
+                                        <note type="topical_date"><foreign>Massa</foreign></note>
+                                    </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-05-28" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab>Causulu vir honestus filius quondam Radualdi vende a Tanualde viro
+                        venerabili presbitero de beato Sancto Regulu tres parti in Teutpasciu qui
+                        vocitatur Favarius, casa, terra, vineis, cultu vel incultu, silvis et
+                        pascuas; quo dix, que ad me vel duis germani meis pertinet, exceptu quarta
+                        parte quen tenu filiis quondam Radiperti; prezzo: auris soledus nomero decem
+                        et octo; pena in duplum. Scrive: Altipert amico meo (…). Actum Luca finibus,
+                        Massa. Sottoscrizioni: + Causuli viri honesti vendituri; + Ratpert viri
+                        devoti soceru eius testis; + Gairepert viri devoti filius quondam Arochis
+                        testis; + Elprandi viri devoti testis; + Reculi viri devoti filius quondam
+                        Vitaliani testis; + Bonari viri devoti filius quondam Auradi homo Pisanus
+                        testis. Scrive: Altipert vir devotus. </ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL V/2, n. 35; CDL I, n. 87, pp. 254-256; ChLA, XXXI, 925.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                         <p>Persone: Ratchis re; Causulu v. hon. (f. Radualdi; genero Ratpert);
+                    Radualdi (p. Causulu); Tanualde v. ven. pbr; Radiperti; Ratpert v. dev. (soceru
+                    Causuli); Gairepert v. dev. (f. Arochis); Arochis (p. Gairepert); Elprandi v.
+                    dev.; Reculi v. dev. (f. Vitaliani); Vitaliani (p. Reculi); Bonari v. dev. homo
+                    Pisanus (f. Auradi); Auradi (p. Bonari); Altipert v. dev.. Luoghi: Teutpasciu
+                    [Teupascio]; Favarius; Luca finibus [Lucca]; Massa; homo Pisanus [Pisa]. Chiese:
+                    beato Sancto Regulu [S. Regolo in Gualdo]. Cariche: . Note: Luca finibus.
+                    Indice: compravendita - fines - pisa - s. regolo in gualdo - maremma - massa.
+                    Nota dorsale (sec. VIII): carta de Causulo de T[anualdo] Sancti Reguli. Nota
+                    dorsale (sec. XII ex): cartula Sancti Reguli de casis et rebus in Teopascio. </p>
+                    </div>
+                </body>
+            </text>
+        </TEI>
