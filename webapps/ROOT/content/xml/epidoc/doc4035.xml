@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    Diplomatico, *L.29</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc4035</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#"/>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate notBefore="0746-09-01" notAfter="0746-09-30">
+                                <note type="displayed_date">746 September</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date"/>
+                            </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-05-28" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab>
+                                Auselmi v. dev. promette a domno viro beatissimo Vualprand episcopus, ut in casa tua in loco Vuamo, uvi qd. b. m. genitor meus avitare visus fuet et ividem natus est, ut in ipsa casa usque in diebus vite mee ividem resedire diveam, et consuetudo ipseius case, quas parentis nostris ficerunt per singulus annus, perexolvere diveam, tam ego quam et filius meus; et ipsa susprascripta casa et res bene lavorare et gubernare sicot rectum fueret. Et si ego qui supra Auselmi vel meus eredes ipsa casa suprascripta casa et res eius bene non guvernaremus et angaria, quas usum abuit ipsa casa, minime perexolverimus, cunponamus tivi domino Vualprando episcopus vel ad tuos erides auri soledos nomero sexagenta, et exeat nanis et vacuum foras. 	Scrive: Perteradu clericus ex dectatu Gaudentio presbitero magistro meo .	Actum in domo sancte eclesie
+                            </ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL V/2, n. 33; CDL I, n. 85, pp. 250-252; ChLA, XXXI, 923.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                         <p>Persone: Ratchis re; Auselmi v. dev.; v. beat. Vualprand ep [di Lucca]; Perteradu cler; Iuvacini cler; Luci v. ven. pbr de Colonnola; Mauriperti v. ven. pbr; Aunipert de Guamo; Alamundi cler; Gaudentio pbr. Luoghi: Vuamo / Guamo [Guamo]; in domo sancte eclesie (Lucensis) [Lucca]; Colonnola [Colognora?]. Chiese: domo sancte eclesie (Lucensis) [S. Martino di Lucca]. Cariche: . Note: Walprando agisce a titolo privato. Indice: dipendente - residenza - promissio - fam. Walprando -</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

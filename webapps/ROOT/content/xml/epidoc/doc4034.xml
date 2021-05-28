@@ -91,29 +91,54 @@
                         <foreign>vendono a</foreign>
                         <persName key="#Priests"><name ref="Tanualdus">Tanualdi</name></persName>
                         viro venerabili <rs key="#Priests">presbitero</rs> de <orgName
-                            key="#Churches">beatus Sancto Reculi</orgName> medietate de <rs
-                            key="#Casae/cassinae_massaricie">case</rs> me in
-                            <placeName>Paternu</placeName>, case Minculi et Racculi cum <rs
-                            key="#Landed_possessions">terra</rs> et <rs key="#Wine">vineas</rs>, <rs
-                            key="#Cereals">campis</rs>, <rs key="#Acorns">silvis</rs>, cum <rs
-                            key="#Fruits/vegetables">arbustra fructefera,</rs> cum fontis; omnia in
-                        adpretiato in tregenta soledus (…) quem tertio homo Deus timente dixere.
-                            <foreign>Prezzo</foreign>: auris soledus nomero tregenta. <foreign>Pena
-                            in duplum. Scrive</foreign>: Alipertu amico meo. (…) Actum ad <rs
-                            key="#Monasteries">monstio</rs> Sanctu Donatu in Fasqua, in <rs
-                            key="#Fines">finibus</rs> Voloterrana.
-                        <foreign>Sottoscrizioni</foreign>: + Ermitanchi viri honesti vendituri; +
-                        Teufrada <rs key="#Vir_devotus/vir_honestus">viro honesta</rs> venditricis;
-                        + Aiduini <rs key="#Vir_devotus/vir_honestus">viri devoti</rs>, parente
-                        eius, testis; + Albuini <rs key="#Vir_devotus/vir_honestus">viri devoti</rs>
-                        filius quondam Baronci testis; + Ursu <rs key="#Vir_devotus/vir_honestus"
-                            >viri devoti</rs> filius quondam Fridualdi parente eius testis; +
-                        Tachipert <rs key="#Vir_devotus/vir_honestus">viri devoti</rs> filius
-                        quondam Teudimari testis; + Baroncellu <rs key="#Vir_devotus/vir_honestus"
-                            >viri devoti</rs> filius quondam Tronci testis; + Mazulio <rs
-                            key="#Vir_devotus/vir_honestus">viri devoti</rs> filius quondam
-                        Teudimari testis; + Pinci <rs key="#Vir_devotus/vir_honestus">viri
-                            devoti</rs> filius quondam Barunco testis. </ab>
+                            key="#Churches" ref="#juridical_persons/243">beatus Sancto
+                            Reculi</orgName> medietate de <rs key="#Casae/cassinae_massaricie"
+                            >case</rs> me in <placeName ref="#places/672"
+                            key="#Casae/cassinae_massaricie #Landed_possessions #Cereals #Wine #Fruits/vegetables #Acorns"
+                            >Paternu</placeName>, <rs key="#Casae/cassinae_massaricie">case</rs>
+                        <persName key="#Casae/cassinae_massaricie"><name ref="Minculus"
+                                >Minculi</name></persName> et <persName
+                            key="#Casae/cassinae_massaricie"><name ref="Raccorus"
+                            >Racculi</name></persName> cum <rs key="#Landed_possessions">terra</rs>
+                        et <rs key="#Wine">vineas</rs>, <rs key="#Cereals">campis</rs>, <rs
+                            key="#Acorns">silvis</rs>, cum <rs key="#Fruits/vegetables">arbustra
+                            fructefera,</rs> cum fontis; omnia in adpretiato in tregenta soledus (…)
+                        quem tertio homo Deus timente dixere. <foreign>Prezzo</foreign>: auris
+                        soledus nomero tregenta. <foreign>Pena in duplum. Scrive</foreign>:
+                            <persName key="#Writer"><name ref="Albertus">Alipertu</name></persName>
+                        amico meo. (…) Actum ad <rs key="#Monasteries">monstio</rs>
+                        <orgName key="#Monasteries">Sanctu Donatu</orgName> in <placeName
+                            key="#Monasteries">Fasqua</placeName>, in <rs key="#Fines">finibus</rs>
+                        <geogName key="#Fines" ref="#estates/107">Voloterrana</geogName>.
+                            <foreign>Sottoscrizioni</foreign>: + Ermitanchi viri honesti vendituri;
+                        + Teufrada <rs key="#Vir_devotus/vir_honestus">viro honesta</rs>
+                        venditricis; + <persName key="#Witness #Vir_devotus/vir_honestus"><name
+                                ref="Auduinus">Aiduini</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">viri devoti</rs>, parente eius, testis;
+                        + <persName key="#Witness #Vir_devotus/vir_honestus"><name ref="Alboinus"
+                                >Albuini</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">viri devoti</rs> filius quondam
+                                <persName><name ref="Baruncius">Baronci</name></persName> testis; +
+                            <persName key="#Witness #Vir_devotus/vir_honestus"><name ref="Ursus"
+                                >Ursu</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">viri devoti</rs> filius quondam
+                                <persName><name ref="Fridualdus">Fridualdi</name></persName> parente
+                        eius testis; + <persName key="#Witness #Vir_devotus/vir_honestus"><name
+                                ref="Tachipertus">Tachipert</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">viri devoti</rs> filius quondam
+                                <persName><name ref="Teudemarius">Teudimari</name></persName>
+                        testis; + <persName key="#Witness #Vir_devotus/vir_honestus"><name
+                                ref="Baroncellus">Baroncellu</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">viri devoti</rs> filius quondam
+                                <persName><name ref="Troncius">Tronci</name></persName> testis; +
+                            <persName key="#Witness #Vir_devotus/vir_honestus"><name ref="Mazulius"
+                                >Mazulio</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">viri devoti</rs> filius quondam
+                                <persName><name ref="Teudemarius">Teudimari</name></persName>
+                        testis; + <persName key="#Witness #Vir_devotus/vir_honestus"><name
+                                ref="Pincius">Pinci</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">viri devoti</rs> filius quondam
+                                <persName><name ref="Baruncius">Barunco</name></persName> testis. </ab>
                         </div>
                     </div>
                     <div type="bibliography" subtype="editions">
@@ -127,22 +152,9 @@
                         <p/>
                     </div>
                     <div type="commentary">
-                         <p>Persone: Ratchis re; Emithancu / Emitanchi v. hon. f. Emmi (sp.
-                    Teuflada); Emmi (p. Emithancu); Teuflada / Teufrada v. hon. (f. Muccioni; sp.
-                    Emithancu; parente Aiduini, Ursu?); Muccioni (p. Teuflada); Tanualdi v. ven.
-                    pbr; Minculi (mass); Racculi (mass); Alipertu; Aiduini v. dev. (parente
-                    Teufleda); Albuini v. dev. (f. Baronci); Baronci (p. Albuini); Ursu [Orso] v.
-                    dev. (f. Fridualdi; parente Teuflada?); Fridualdi (p. Ursu); Tachipert v. dev.
-                    (f. Teudimari); Teudimari (p. Tachipert); Baroncellu v. dev. (f. Tronci); Tronci
-                    (p. Baroncellu); Mazulio v. dev. (f. Teudimari); Teudimari (p. Mazulio); Pinci
-                    v. dev. (f. Baronco); Baronco (p. Pinci); . Luoghi: Paternu - Paterno [Paterno
-                    in Val di Cornia]; finibus Volaterrana [Volterra]; Fasqua =? Fasciano terr.
-                    Volterra (Pisa). Chiese: Sancto Reculi - sancti Reguli [S. Regolo in Gualdo];
-                    Sanctu Donatu in Fasqua [S. Donato]. Cariche: . Note: . Indice: volterra - fines
-                    - compravendita - dipendenti - monastero - s. regolo in gualdo - maremma.
-                        <foreign>Nota dorsale (sec. VIII)</foreign>: carta de Paterno f[..]n[..]s[.]
-                    sancti Reguli. <foreign>Nota dorsale (sec XII ex)</foreign>: Offersio sancto
-                    Regulo de casis in Paterno. </p>
+                         <p><foreign>Nota dorsale (sec. VIII)</foreign>: carta de Paterno
+                    f[..]n[..]s[.] Sancti Reguli. <foreign>Nota dorsale (sec XII ex)</foreign>:
+                    Offersio Sancto Regulo de casis in Paterno. </p>
                     </div>
                 </body>
             </text>
