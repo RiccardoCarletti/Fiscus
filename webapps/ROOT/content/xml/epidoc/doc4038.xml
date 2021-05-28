@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    Diplomatico, +P. 36</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc4038</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Venditio</rs>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate notBefore="0746-12-01" notAfter="0746-12-31">
+                                <note type="displayed_date">746 December</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Lucca</note>
+                            </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-05-28" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab>Albulo filio quondam Toudioni, havitator in vico Civiliano ad Piscia
+                        Minore, vir honestus, vende a Crespine vir devotus clausura mea in ipso loco
+                        Viliano, ubi super casa posita habuit, cum fondamento vel vinia seo et
+                        arboribus, qui de omne parte cum sepe cercumdata est; (…) cui de uno latum
+                        decorre via publica, simol et de capo alia via publica ei decurre, uno latum
+                        tene in vinia Fraolmi, alio capu in terra Freduli et Alipert filio quondam
+                        Teuduald; prezzo: auri solidis bonis Lucanis expendevilis nomero quindeci.
+                        Pena in duplum. Actum Luca. Sottoscrizioni: + Albuli viri honesti
+                        venditoris; +Ansipert clerico filio Rinconi viri devoti testis; + Guntiperti
+                        filio quondam Guntifridi viri devoti testis; + Radipert viri devoti testis.
+                        Scrive: Tetfrid notario. </ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL V/2, n. 36; CDL I, n. 88, pp. 256-258; ChLA, XXXI, 926.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                         <p>Persone: Ratchis re; Albulo v. hon. havitator in vico Civiliano ad
+                    Piscia Minore (f. Toudioni); Toudioni (p. Albulo); Crespine [Crispino] v. dev.;
+                    Fraolmi; Freduli; Alipert (f. Teuduald); Teuduald (p. Alipert); Teufrid not.;
+                    Ansipert v. dev. cler (f. Rinconi); Rinconi (p. Ansipert); Guntiperti v. dev.
+                    (f. Guntifridi); Guntifridi (p. Guntipert); Radipert v. dev.. Luoghi: vico
+                    Civiliano / Viliano; Piscia Minore [fl. Pescia di Collodi]; Luca [Lucca].
+                    Chiese: . Cariche: . Note: . Indice: compravendita - clausura. Nota dorsale
+                    (sec. XII ex): carta venditionis in Pissia de terra que est modo Sancti Martini
+                    de Lunata. Nota dorsale (sec. XII ex) (altra mano): In Piscia de terra et casa
+                    in Liviano. Viliano = Civiliano presso la Pescia di Collodi:</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>
