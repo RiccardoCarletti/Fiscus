@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    Diplomatico, +N.2</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc4039</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Venditio</rs>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate notBefore="0747-03-01" notAfter="0747-03-31">
+                                <note type="displayed_date">747 March</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Lucca</note>
+                            </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-05-28" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab>Teutpert filio quondam Auti de Placule quia cum pretio meo emtus sum
+                        ecclesia beati Petri in loco qui dicitur Castellione da Donni filio quondam
+                        Guduin, portionem eius in integrum (…) quantum ei de fratre eius quondam
+                        Aurinand in portionem contiget, hoc est ex integra medietas cum cultum et
+                        incultum, cum movile vel inmovile (…) sicut dotis eius continet; ora vende
+                        questa metà tibi Anucardi viro venerabili presbitero (…), dandogli sicut
+                        cartula illa legitur de venditionis quem mihi exinde Donnis fecet, quem tibi
+                        pro monimen dedi. Prezzo: auri soledos nomero quindecim pro ipsa ecclesia.
+                        Pena in duplum. Actum Luca. Sottoscrizioni: Teutpert autor (ss); + Autpert
+                        filio quondam Aunipert testis; + Rachipert filio quondam Ratichis de Flexo
+                        testis; + Auruli testis; Altipert vir devotus (ss); Fetro (ss); Scrive:
+                        Chiserat.</ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL V/2, n. 37; CDL I, n. 89, pp. 258-260; ChLA, XXXI, 927.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                         <p>Persone: Ratchis re; Teutpert de Placule (f. Auti); Auti (p. Teutpert);
+                    Donni (f. Guduin; Aurinand); Guduin (p. Aurinand, Donni); Aurinand (f. Guduin;
+                    fr. Donni); Anucardi v. ven. pbr; Chiserat scriptor; Autpert (f. Aunipert);
+                    Aunipert (p. Autpert); Rachipert de Flexo (f. Ratchis); Ratchis (p. Rachipert);
+                    Auruli; Altipert v. dev.; Fetro. Luoghi: Placule [c/o Lucca]; Castellione
+                    [Castiglione Garfagnana]; Luca [Lucca]; Flexo [Flesso]. Chiese: ecclesia beati
+                    Petri in loco qui dicitur Castellione [S. Pietro]. Cariche: . Note: . Indice:
+                    compravendita - monastero - eredità. Nota dorsale (sec. XII ex) (altra mano):
+                    Farneta pro ecclesia Sancti Petri. Nota dorsale (sec. XII ex): Emptio Anacardi
+                    presbiteri de medietate ecclesie Sancti Petri in Farnita. </p>
+                    </div>
+                </body>
+            </text>
+        </TEI>
