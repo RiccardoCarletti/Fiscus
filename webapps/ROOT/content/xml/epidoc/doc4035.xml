@@ -31,7 +31,8 @@
                             </msIdentifier>
                             <msContents>
                                 <summary>
-                                    <rs type="text_type" ref="#"/>
+                                    <rs type="text_type" ref="#"
+                                >--Libellus/precaria/emphyteusis</rs>
                                     <rs type="record_source" ref="#">Critical edition</rs>
                                     <rs type="document_tradition" ref="#">Original</rs>
                                     <rs type="fiscal_property">No</rs>
@@ -45,7 +46,7 @@
                                     <origDate when="0746-09-01">
                                 <note type="displayed_date">746 September 1</note>
                                 <note type="dating_elements"/>
-                                <note type="topical_date"/>
+                                <note type="topical_date">S. Martino di Lucca</note>
                             </origDate>
                                     <origPlace/>
                                 </origin>
@@ -81,23 +82,48 @@
                 <body>
                     <div type="edition">
                         <div type="textpart">
-                            <ab>Auselmi vir devotus <foreign>promette a</foreign> domno viro
-                        beatissimo Walprand episcopus, ut in casa tua in loco Vuamo, uvi quondam
-                        bone memorie genitor meus avitare visus fuet et ividem natus est, ut in ipsa
-                        casa usque in diebus vite mee ividem resedire diveam, et consuetudo ipseius
-                        case, quas parentis nostris ficerunt per singulus annus, perexolvere diveam,
-                        tam ego quam et filius meus; et ipsa susprascripta casa et res bene lavorare
-                        et guvernare sicot rectum fueret. Et si ego qui supra Auselmi vel meus
-                        eredes ipsa suprascripta casa et res eius bene non guernaremus et angaria,
-                        quas usum abuit ipsa casa, minime perexolverimus, cunponamus tivi domno
-                        Walprando episcopus vel ad tuos erides auri soledos nomero sexagenta, et
-                        exeat nanis et vacuus foras. (…) Actum in domo sancte eclesie.
+                            <ab><persName key="#Vir_devotus/vir_honestus"><name ref="Auselmus"
+                                >Auselmi</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">vir devotus</rs>
+                        <foreign>promette a</foreign> domno viro beatissimo <persName key="#Bishops"
+                            ref="#people/320">Walprand</persName>
+                        <rs key="#Bishops">episcopus</rs>, ut in <rs
+                            key="#Casae/cassinae_massaricie">casa</rs> tua in loco <placeName
+                            key="#Casae/cassinae_massaricie #Landed_possessions #Operae"
+                            ref="#places/179">Vuamo</placeName>, uvi quondam bone memorie genitor
+                        meus avitare visus fuet et ividem natus est, ut in ipsa casa usque in diebus
+                        vite mee ividem resedire diveam, et consuetudo ipseius case, quas parentis
+                        nostris ficerunt per singulus annus, perexolvere diveam, tam ego quam et
+                        filius meus; et ipsa susprascripta casa et res bene lavorare et guvernare
+                        sicot rectum fueret. Et si ego qui supra Auselmi vel meus eredes ipsa
+                        suprascripta casa et <rs key="#Landed_possessions">res</rs> eius bene non
+                        guernaremus et <rs key="#Operae">angaria</rs>, quas usum abuit ipsa casa,
+                        minime perexolverimus, cunponamus tivi domno Walprando episcopus vel ad tuos
+                        erides auri soledos nomero sexagenta, et exeat nanis et vacuus foras. (…)
+                        Actum in <orgName ref="#juridical_persons/68">domo <rs
+                                key="#Mother_churches">sancte eclesie</rs></orgName>.
                             <foreign>Sottoscrizioni:</foreign> + Auselmi viri devoti repromissori; +
-                        Iuvacini clerici testis; + Luci viri venerabilis presbiteri de Colonnola
-                        testis; +Mauriperti viri venerabilis presbiteri testis; + Aunipert de Guamo
-                        testis; + Alamundi clerici testis; <foreign>Scrive:</foreign> Perteradu
-                        clericus (…) ex dectato Gaudentio presbitero maigistro meo. + Ego Gaudentius
-                        persbiterus propria manus mea suscribsi et confirmavi. </ab>
+                            <persName key="#Witness #Other_clerics"><name ref="Iuvacinus"
+                                >Iuvacini</name></persName>
+                        <rs key="#Other_clerics">clerici</rs> testis; + <persName
+                            key="#Witness #Priests"><name ref="Lucius de Colonnola"
+                            >Luci</name></persName> viri venerabilis <rs key="#Priests"
+                            >presbiteri</rs> de <placeName>Colonnola</placeName> testis; +<persName
+                            key="#Witness #Priests"><name ref="Mauripertus"
+                            >Mauriperti</name></persName> viri venerabilis <rs key="#Priests"
+                            >presbiteri</rs> testis; + <persName key="#Witness"><name
+                                ref="Aunibertus de Guamo">Aunipert</name></persName> de <placeName
+                            ref="#places/179">Guamo</placeName> testis; + <persName
+                            key="#Witness #Other_clerics"><name ref="Alamundus"
+                            >Alamundi</name></persName>
+                        <rs key="#Other_clerics">clerici</rs> testis; <foreign>Scrive:</foreign>
+                        <persName key="#Writer #Other_clerics"><name ref="Perteradus"
+                                >Perteradu</name></persName>
+                        <rs key="#Other_clerics">clericus</rs> (…) ex dectato Gaudentio presbitero
+                        maigistro meo. + Ego <persName key="#Intercessory #Priests"><name
+                                ref="Gaudentius">Gaudentius</name></persName>
+                        <rs key="#Priests">presbiterus</rs> propria manus mea suscribsi et
+                        confirmavi. </ab>
                         </div>
                     </div>
                     <div type="bibliography" subtype="editions">
