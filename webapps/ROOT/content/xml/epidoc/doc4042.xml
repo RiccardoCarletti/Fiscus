@@ -31,7 +31,7 @@
                             </msIdentifier>
                             <msContents>
                                 <summary>
-                                    <rs type="text_type" ref="#"/>
+                                    <rs type="text_type" ref="#">--Offersio/donatio</rs>
                                     <rs type="record_source" ref="#">Critical edition</rs>
                                     <rs type="document_tradition" ref="#">Original</rs>
                                     <rs type="fiscal_property">No</rs>
@@ -45,7 +45,7 @@
                                     <origDate notBefore="0748-03-01" notAfter="0748-03-31">
                                 <note type="displayed_date">748 March</note>
                                 <note type="dating_elements"/>
-                                <note type="topical_date"/>
+                                <note type="topical_date">Lucca</note>
                             </origDate>
                                     <origPlace/>
                                 </origin>
@@ -81,21 +81,46 @@
                 <body>
                     <div type="edition">
                         <div type="textpart">
-                            <ab>Gallus vir venerabilis diaconus si indirizza alla eclesie Dei adque
-                        beatissimi Sancti Reguli loco in Vualdo. Offre a S. Regolo: idest una casa
-                        mea, quas havere videor in loco Germaniano, qui regitor per Cioddolo et
-                        Teudericulo massariis, riservandosene l’usufrutto vitalizio; dopo la morte
-                        la casa e i massari aliut redditum non facias nec angarias nec nulla scufias
-                        ad ipsa suprascripta Dei eclesia, nisi tantum per singulus annus quattuor
-                        modia granu, uno animale quale abuerit, pro camisia tremmisse uno, una libra
-                        cera, uno sistario mel et amplius nulla dationem aut scufia perexolvant. (…)
-                        et sacerdus qui ividem deservierit, pro meis delictos, facinoribus
-                        incensanter Dominum deprecare diveas et luminaria sanctorum Dei facias.
-                        Chiede di scrivere (in doppia copia) a Gaudentium indignus presbiterus. (…)
-                        Actum Luca Sottoscrizioni: Gallus diaconus (ss); + Theopigntus arcidiaconus
-                        testis; + Milonia viri venerabilis presbitero testis; + Deusdede viri
-                        venerabilis presbitero magistro soli testis; + Alvari clerici testis; +
-                        Gunpulu clerici filio Munipert testis; Scrive: Gaudentius presbiterus </ab>
+                            <ab><persName key="#Deacons"><name ref="Gallus">Gallus</name></persName>
+                        vir venerabilis <rs key="#Deacons">diaconus</rs>
+                        <foreign>si indirizza alla</foreign>
+                        <rs key="#Churches">eclesie</rs> Dei adque <orgName key="#Churches"
+                            ref="#juridical_persons/243">beatissimi Sancti Reguli</orgName> loco in
+                            <placeName ref="#places/673" key="#Churches">Vualdo</placeName>.
+                            <foreign>Offre a S. Regolo</foreign>: idest una <rs
+                            key="#Casae/cassinae_massaricie">casa</rs> mea, quas havere videor in
+                        loco <placeName key="#Casae/cassinae_massaricie">Germaniano</placeName>, qui
+                        regitor per <persName><name ref="Cioddolus">Cioddolo</name></persName> et
+                                <persName><name ref="Teudericulus">Teudericulo</name></persName>
+                        massariis, <foreign>riservandosene l’usufrutto vitalizio; dopo la morte la
+                            casa e i massari</foreign> aliut redditum non facias nec <rs
+                            key="#Operae">angarias</rs> nec nulla <rs
+                            key="#Scufiae/transport_service">scufias</rs> ad ipsa suprascripta Dei
+                        eclesia, nisi tantum per singulus annus quattuor modia granu, uno animale
+                        quale abuerit, pro camisia tremmisse uno, una libra cera, uno sistario mel
+                        et amplius nulla dationem aut scufia perexolvant. (…) et sacerdus qui ividem
+                        deservierit, pro meis delictos, facinoribus incensanter Dominum deprecare
+                        diveas et luminaria sanctorum Dei facias. <foreign>Chiede di scrivere (in
+                            doppia copia) a</foreign>
+                        <persName key="#Writer #Priests"><name ref="Gaudentius"
+                            >Gaudentium</name></persName> indignus <rs key="#Priests"
+                            >presbiterus</rs>. (…) Actum <placeName ref="#places/4"
+                        >Luca</placeName>, <foreign>Sottoscrizioni:</foreign> Gallus diaconus (ss);
+                        + <persName key="#Witness #Archdeacons"><name ref="Thepingtus"
+                                >Theopigntus</name></persName>
+                        <rs key="#Archdeacons">arcidiaconus</rs> testis; + <persName
+                            key="#Witness #Priests"><name ref="Milo">Milonia</name></persName> viri
+                        venerabilis <rs key="#Priests">presbitero</rs> testis; + <persName
+                            key="#Witness #Priests"><name ref="Deusdedit">Deusdede</name></persName>
+                        viri venerabilis <rs key="#Priests">presbitero</rs> magistro soli testis; +
+                            <persName key="#Witness #Other_clerics"><name ref="Aluarius"
+                                >Alvari</name></persName>
+                        <rs key="#Other_clerics">clerici</rs> testis; + <persName
+                            key="#Witness #Other_clerics"><name ref="Gumpulus"
+                            >Gunpulu</name></persName>
+                        <rs key="#Other_clerics">clerici</rs> filio <persName><name ref="Munipertus"
+                                >Munipert</name></persName> testis; <foreign>Scrive</foreign>:
+                        Gaudentius presbiterus </ab>
                         </div>
                     </div>
                     <div type="bibliography" subtype="editions">
@@ -108,15 +133,9 @@
                         <p/>
                     </div>
                     <div type="commentary">
-                         <p>Persone: Ratchis re; Gallus v. ven. diac; Gaudentius pbr; Theopigntus
-                    a/diac; Milonia v. ven. pbr; Deusdede v. ven. pbr magistro soli; Alvari cler;
-                    Gunpulu cler (f. Munipert); Munipert (p. Gumpulu); Cioddolo (mass); Teudericulo
-                    (mass). Luoghi: Vualdo [Gualdo]; loco Germaniano; Luca [Lucca]. Chiese: eclesie
-                    dei adque beatissimi sancti Reguli loco in Vualdo - sancti Reculli [S. Regolo in
-                    Gualdo]. Cariche: . Note: angarias; scufias; magistro soli. Indice: donazione -
-                    s. regolo in gualdo - dipendenti - precisazione censi - maremma - preghiere.
-                    Nota dorsale (sec. VIII): carta de [Gemini]ano sancti Reculli. Nota dorsale (sec
-                    XIIex): Offersio in Sancto Regulo de casa et terra in Germaniano.</p>
+                         <p><foreign>Nota dorsale (sec. VIII):</foreign> carta de [Gemini]ano sancti
+                    Reculli. <foreign>Nota dorsale (sec XIIex):</foreign> Offersio in Sancto Regulo
+                    de casa et terra in Germaniano.</p>
                     </div>
                 </body>
             </text>
