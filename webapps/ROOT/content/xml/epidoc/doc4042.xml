@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    *K.88</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc4042</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#"/>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate notBefore="0748-03-01" notAfter="0748-03-31">
+                                <note type="displayed_date">748 March</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date"/>
+                            </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-05-29" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab>Gallus vir venerabilis diaconus si indirizza alla eclesie Dei adque
+                        beatissimi Sancti Reguli loco in Vualdo. Offre a S. Regolo: idest una casa
+                        mea, quas havere videor in loco Germaniano, qui regitor per Cioddolo et
+                        Teudericulo massariis, riservandosene l’usufrutto vitalizio; dopo la morte
+                        la casa e i massari aliut redditum non facias nec angarias nec nulla scufias
+                        ad ipsa suprascripta Dei eclesia, nisi tantum per singulus annus quattuor
+                        modia granu, uno animale quale abuerit, pro camisia tremmisse uno, una libra
+                        cera, uno sistario mel et amplius nulla dationem aut scufia perexolvant. (…)
+                        et sacerdus qui ividem deservierit, pro meis delictos, facinoribus
+                        incensanter Dominum deprecare diveas et luminaria sanctorum Dei facias.
+                        Chiede di scrivere (in doppia copia) a Gaudentium indignus presbiterus. (…)
+                        Actum Luca Sottoscrizioni: Gallus diaconus (ss); + Theopigntus arcidiaconus
+                        testis; + Milonia viri venerabilis presbitero testis; + Deusdede viri
+                        venerabilis presbitero magistro soli testis; + Alvari clerici testis; +
+                        Gunpulu clerici filio Munipert testis; Scrive: Gaudentius presbiterus </ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL V/2, n. 40; CDL I, n. 94, pp. 272-274; ChLA, XXXI, 930.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                         <p>Persone: Ratchis re; Gallus v. ven. diac; Gaudentius pbr; Theopigntus
+                    a/diac; Milonia v. ven. pbr; Deusdede v. ven. pbr magistro soli; Alvari cler;
+                    Gunpulu cler (f. Munipert); Munipert (p. Gumpulu); Cioddolo (mass); Teudericulo
+                    (mass). Luoghi: Vualdo [Gualdo]; loco Germaniano; Luca [Lucca]. Chiese: eclesie
+                    dei adque beatissimi sancti Reguli loco in Vualdo - sancti Reculli [S. Regolo in
+                    Gualdo]. Cariche: . Note: angarias; scufias; magistro soli. Indice: donazione -
+                    s. regolo in gualdo - dipendenti - precisazione censi - maremma - preghiere.
+                    Nota dorsale (sec. VIII): carta de [Gemini]ano sancti Reculli. Nota dorsale (sec
+                    XIIex): Offersio in Sancto Regulo de casa et terra in Germaniano.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>
