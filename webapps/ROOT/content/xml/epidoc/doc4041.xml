@@ -31,7 +31,7 @@
                             </msIdentifier>
                             <msContents>
                                 <summary>
-                                    <rs type="text_type" ref="#"/>
+                                    <rs type="text_type" ref="#">--Commutatio</rs>
                                     <rs type="record_source" ref="#">Critical edition</rs>
                                     <rs type="document_tradition" ref="#">Original</rs>
                                     <rs type="fiscal_property">No</rs>
@@ -45,7 +45,7 @@
                                     <origDate notBefore="0747-07-01" notAfter="0747-07-31">
                                 <note type="displayed_date">747 July</note>
                                 <note type="dating_elements"/>
-                                <note type="topical_date"/>
+                                <note type="topical_date">Lucca</note>
                             </origDate>
                                     <origPlace/>
                                 </origin>
@@ -81,21 +81,33 @@
                 <body>
                     <div type="edition">
                         <div type="textpart">
-                            <ab>Aurimo viro honesto filio quondam Marichis cede a Petrus terra mea
-                        in loco ad Sancto Paulo in clausura ante casa Aiuli, qui est posita ad latum
-                        de terra Leopardi, alio latum est terra mea qui in meo reserbavi potestatem,
-                        quod est modiorum quattuor ad mensura. Si ipsa clausura non fueret conplita,
-                        ut tibi dare diveas in alio loco prope Sancto Paulo in Canpora, cum ipsa
-                        fossata qui in ipsa terra est. Et recipi a te in viganeo parte tua de casa
-                        in loco Apulia cum fondamento, corte, orto, petras, cum omnis edificia
-                        ipsius case, ut dixi, parte mea puteo cum quidquid in ipso loco avire visus
-                        his, pumis, arboribus, quantum in ipso loco da germano tuo tibi in parte
-                        contigent in integro; excepto de terra vacua uno sistariorum terra et una
-                        iscala de uno lato, unde volueris. Pena in duplum. Actum Luca.
-                        Sottoscrizioni: + Aurimi viri honesti auturi; + Plittelmi viri devoti filio
-                        quondam Autelmi testis; + Carnucio viri devoti de Colonia testis; +
-                        Baracottuli viri devoti de Apulia testis. Scrive: Teutpert vir devotus
-                        .</ab>
+                            <ab>Aurimo <rs key="#Vir_devotus/vir_honestus">viro honesto</rs> filio
+                        quondam Marichis <foreign>cede a</foreign> Petrus <rs key="#Petiae"
+                            >terra</rs> mea in loco ad Sancto Paulo in <rs key="#Petiae"
+                            >clausura</rs> ante <rs key="#Casae/cassinae_massaricie">casa</rs>
+                        Aiuli, qui est posita ad latum de <rs key="#Petiae">terra</rs> Leopardi,
+                        alio latum est <rs key="#Petiae">terra</rs> mea qui in meo reserbavi
+                        potestatem, quod est <rs key="#Size">modiorum quattuor</rs> ad mensura. Si
+                        ipsa clausura non fueret conplita, ut tibi dare diveas in alio loco prope
+                        Sancto Paulo in <rs key="#Cereals">canpora</rs>, cum ipsa <rs key="#Canals"
+                            >fossata</rs> qui in ipsa terra est. Et recipi a te in viganeo parte tua
+                        de <rs key="#Casae/cassinae_massaricie">casa</rs> in <placeName
+                            ref="#places/4">loco Apulia</placeName> cum <rs
+                            key="#Casalini/fundamenta">fondamento</rs>, corte, <rs
+                            key="#Fruits/vegetables">orto</rs>, petras, cum omnis edificia ipsius
+                        case, ut dixi, parte mea <rs key="#Cisterns/pits">puteo</rs> cum quidquid in
+                        ipso loco avire visus his, <rs key="#Fruits/vegetables">pumis,
+                            arboribus</rs>, quantum in ipso loco da germano tuo tibi in parte
+                        contigent in integro; excepto de <rs key="#Landed_possessions">terra</rs>
+                        vacua <rs key="#Size">uno sistariorum terra et una iscala</rs> de uno lato,
+                        unde volueris. <foreign>Pena in duplum.</foreign> Actum Luca.
+                            <foreign>Sottoscrizioni:</foreign> + Aurimi viri honesti auturi; +
+                        Plittelmi <rs key="#Vir_devotus/vir_honestus">viri devoti</rs> filio quondam
+                        Autelmi testis; + Carnucio <rs key="#Vir_devotus/vir_honestus">viri
+                            devoti</rs> de Colonia testis; + Baracottuli <rs
+                            key="#Vir_devotus/vir_honestus">viri devoti</rs> de Apulia testis.
+                            <foreign>Scrive:</foreign> Teutpert <rs key="#Vir_devotus/vir_honestus"
+                            >vir devotus</rs> .</ab>
                         </div>
                     </div>
                     <div type="bibliography" subtype="editions">
