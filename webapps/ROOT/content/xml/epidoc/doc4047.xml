@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    +B.71</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc4047</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Venditio</rs>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate notBefore="0752-06-01" notAfter="0752-06-30">
+                                <note type="displayed_date">752 June</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date"/>
+                            </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-05-29" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab>Perprand virum magnificum filio bone memorie domni Walpert duci
+                        vende tibi domno Walprand gratias Deo episcopo parte mea de sala sundriale,
+                        quam avire visum sum in loco qui dicitur Tocciano, cum terra et vinea,
+                        silvis, vergaria, olivis, pumis, arboribus; simol et casas massaricia in
+                        ipso loco Tocciano, cum territurii, vineis, silvis, vergarias, olivis,
+                        pumis, arboribus, cum cultum et incultum, cum movile vel inmovile seo
+                        semmoventibus, cum serbus vel ancella, quem avire visus sum in ipso loco,
+                        omnia et in omnebus mea portione in integrus, excepto Teudifridulo cum
+                        muliere sua et uno filius suum nomine Personula, alii infantis sui. Prezzo:
+                        auri soledos nomero tricenti. Con la clausola che se i beni anplius
+                        adpretiata fueret super tricenti soledos Walprando avrebbe pagato la
+                        differenza; se al contrario sarebbe stata valutata meno, Perprando avrebbe
+                        reso la differenza a Walprando. Pena in duplum. Scrive: Teutpert viro
+                        devoto. (…) Actum Luca Sottoscrizioni: + Perprand viri magnifici venditori;
+                        +Suintroaldi viri devoti filio Ansualdi testis; +Fratelli viri devoti filio
+                        Alipert testis: + Ermiteulo viri devoti filio quondam Aritheo testis.
+                        Scrive: Teupert.</ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>Muratori 1738-1742, V, 1011; MDL V/2, n. 44; CDL I, n. 105, pp. 301-303;
+                    ChLA, XXXI, 935.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                         <p>Persone: Astolfo re; Perprand v. magn. (f. domni Vualpert duci);
+                    Vualpert [Walperto] duci [di Lucca] (p. Perprand); Vualprand ep [di Lucca];
+                    Teutpert v. dev.; Suintroaldi v. dev. (f. Ansualdi); Ansualdi (p. Suintroaldi);
+                    Fratelli v. dev. (f. Alipert); Alipert (p. Fratelli); Ermiteulo v. dev. (f.
+                    Aritheo); Aritheo (p. Ermiteulo); Teudifridulo (servo) (p. Personula); Personula
+                    (servo) (f. Teudifridulo). Luoghi: Tocciano; Luca [Lucca]. Chiese: . Cariche: q.
+                    Walperto duca [di Lucca]. Note: sala sundriale; casas massaricias dalle
+                    clausole: è forse un anticipo sulla vendita di Tocciano a terzi. Indice:
+                    compravendita - fam. Walprando - duca - proprietà bipartita - servi - eredità.
+                    Note dorsali (sec VIII): XXVII; Cartula de Tocciano … Perprandi vinditionis.
+                    Nota dorsale (sec XI-XII): Carta vendicionis de curte de Tutiano in comitatu
+                    Suanensi comparata a Walperto episcopus Lucensi trecentorum solidorum auri. Nota
+                    dorsale (sec XIIex): Emptione Walpert episcopi in comitatu. </p>
+                    </div>
+                </body>
+            </text>
+        </TEI>
