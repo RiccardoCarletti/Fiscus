@@ -31,7 +31,7 @@
                             </msIdentifier>
                             <msContents>
                                 <summary>
-                                    <rs type="text_type" ref="#"/>
+                                    <rs type="text_type" ref="#">--Promissio</rs>
                                     <rs type="record_source" ref="#">Critical edition</rs>
                                     <rs type="document_tradition" ref="#">Original</rs>
                                     <rs type="fiscal_property">No</rs>
@@ -83,24 +83,42 @@
                 <body>
                     <div type="edition">
                         <div type="textpart">
-                            <ab>Tanuald vir venerabilis presbitero promette tibi domno meo Waltprand
-                        in Dei nomine episcopus, ut in eclesia Sancti Reguli in Vualdo, ubi usque
-                        modo deservivi, resedire diveam usque in diebus vite me, casto et iusto
-                        hordinem ividem serviendum e di gestirne bene i beni, absque omnem fraudem
-                        vel rapinam et nulla peculiarina faceintes, (…) et nullam res exinde dare
-                        aut naufragare possam, absque tua iam dicto domno Waltprand episcopo, nisi
-                        cause benedictionis; et voluntatem tuam in omnibus facere et adimplere
-                        diveam sicut de domnio et benefactorem meum in quo tibi recte placueret
-                        obediendum; et ad te semper defensus et protector esset diveas ad pravis
-                        hominibus, sic tamen ut omnia et in omnibus rebus suprascripte sancte
-                        eclesie in tua sid potestatem iudicandi aut faciendi qualiter volueris; et
-                        usque dum advivere meruero semper in eclesia Sancti Reguli havitare et
-                        deservire diveam. Pena: auri soledi boni Lucani nomero ducenti. (…) Actum
-                        Luca, in domo sancte eclesie. Sottoscrizioni: Tanoaldu presbitero (ss);
-                        Sisimundus indignus presbiter (ss); Magnipertus presbiter (ss); Peredeus
-                        licet indignus diaconus (ss); + Alamund viri magnifici filio quondam Alahis
-                        testis; + Gauspert viri devoti filio Raduare testis; Scrive: Gaudentius
-                        indi[gnus] presbitero.</ab>
+                            <ab><persName key="#Priests"><name ref="Tanualdus"
+                            >Tanuald</name></persName> vir venerabilis <rs key="#Priests"
+                            >presbitero</rs>
+                        <foreign>promette</foreign> tibi domno meo <persName key="#Bishops"
+                            ref="#people/320">Waltprand</persName> in Dei nomine <rs key="#Bishops"
+                            >episcopus</rs>, ut in <rs key="#Churches">eclesia</rs>
+                        <orgName key="#Churches" ref="#juridical_persons/243">Sancti
+                            Reguli</orgName> in <placeName key="#Churches" ref="#places/673"
+                            >Vualdo</placeName>, ubi usque modo deservivi, resedire diveam usque in
+                        diebus vite me, casto et iusto hordinem ividem serviendum <foreign>e di
+                            gestirne bene i beni</foreign>, absque omnem fraudem vel rapinam et
+                        nulla peculiarina facientes, (…) et nullam res exinde dare aut naufragare
+                        possam, absque tua iam dicto domno Waltprand episcopo, nisi cause
+                        benedictionis; et voluntatem tuam in omnibus facere et adimplere diveam
+                        sicut de domino et benefactorem meum in quo tibi recte placueret obediendum;
+                        et ad te semper defensus et protector esset diveas ad pravis hominibus, sic
+                        tamen ut omnia et in omnibus rebus suprascripte sancte eclesie in tua sid
+                        potestatem iudicandi aut faciendi qualiter volueris; et usque dum advivere
+                        meruero semper in eclesia Sancti Reguli havitare et deservire diveam.
+                            <foreign>Pena</foreign>: auri soledi boni Lucani nomero ducenti. (…)
+                        Actum <placeName ref="#places/4">Luca</placeName>, in <orgName
+                            key="#Mother_churches" ref="#juridical_persons/68">domo <rs
+                                key="#Mother_churches">sancte eclesie</rs></orgName>.
+                            <foreign>Sottoscrizioni</foreign>: Tanoaldu presbitero (ss); <persName
+                            key="#Witness #Priests"><name ref="Sigismundus"
+                            >Sisimundus</name></persName> indignus <rs key="#Priests">presbiter</rs>
+                        (ss); <persName key="#Witness #Priests"><name ref="Maginpertus"
+                                >Magnipertus</name></persName>
+                        <rs key="#Priests">presbiter</rs> (ss); <persName ref="#people/343"
+                            key="#Witness #Deacons">Peredeus</persName> licet indignus <rs
+                            key="#Deacons">diaconus</rs> (ss); + <persName
+                            key="#Witness #Vir_magnificus">Alamund</persName>
+                        <rs key="#Vir_magnificus">viri magnifici</rs> filio quondam Alahis testis; +
+                        Gauspert <rs key="#Vir_devotus/vir_honestus">viri devoti</rs> filio Raduare
+                        testis. <foreign>Scrive:</foreign> Gaudentius indi[gnus] <rs key="#Priests"
+                            >presbitero</rs>.</ab>
                         </div>
                     </div>
                     <div type="bibliography" subtype="editions">
