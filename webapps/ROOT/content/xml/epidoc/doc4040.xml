@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    Diplomatico, *O. 36</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc4040</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Offersio/donatio</rs>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate when="0747-04-24"> 
+                                        <note type="displayed_date">747 April 24</note>
+                                        <note type="dating_elements"/>
+                                        <note type="topical_date">Lucca</note>
+                                    </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-05-29" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab>Achipert vir devotus filio quondam Sicuald dona pro anima alla
+                        ecclesie beatissimi Sancti Georgii sita in civitate Lucense, ubi Iordanni
+                        presbiter preesse videtur (…) casa una ubi vocabulum est Miliano, qui
+                        regitor per servo meo nomine Maurulo, qui mihi in sorte obvinet de germani
+                        mei, cum omnia ad ipsa casa pertenente in integrum; serbus vel ancellas in
+                        mea reserbo potestate pro anima mea livertandum; nam suprascripta casa cum
+                        terra, vinea, silbis, cultum vel incultum, omnia et in omnebus, seo et parte
+                        mea de sundro illo qui nobis obvinet de Tachipert, quem commune habemus cum
+                        Causari in ipso suprascripto loco. Dona inoltre et aliquantola terrola ubi
+                        vocabulum est Cisiana, giuntagli da bone memorie Sichemi et Chiculo germanis
+                        per la sua metà. Pena, per i suoi eredi che cercassero di sottrarre i beni
+                        alla chiesa, auri soledus nomero quinienti. Si riserva l’usufrutto vitalizio
+                        dei beni. Se Achipert dovesse avere figli potrà annullare la donazione e
+                        lasciar loro i beni in eredità. Fa beneficiaria dei beni la moglie Waltruda,
+                        se gli sopravvivesse e lectum meum custodieret et fidis maritalis
+                        observaveret (…). Dona inoltre alla chiesa di S. Giorgio portionem meam de
+                        sala ad Cicina, vel portionem meam de casas quantum mihi in sorte contiget
+                        da fratres meos, cum sorte mea de olibetas, et parte mea de campo et monte
+                        in Latronario, et parte mea de cahagio sub monte cum vinea; quantum in eodem
+                        loco mihi da germanos meos contiget, tam de sundro quam et de casas
+                        tributarias vel terra, ubi Sichipertulo casa sua posita habet, de cahagio
+                        illo meo in integrum. Scrive: Lamipert. (…) Actum Luca. Sottoscrizioni:
+                        Achipert vir devotus (ss); + Fermuso filio quondam Ghisi viri devoti testis;
+                        + Suatchis filio Alathei viri devoti testis; + Ildipert filio quondam
+                        Perteradi testis. </ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL V/2, n. 38; CDL I, n. 90, pp. 260-263; ChLA, XXXI, 928.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                         <p>Persone: Ratchis re; Achipert v. dev. (f. Sicuald; sp. Vualtruda);
+                    Sicuald (p. Achipert); Iordanni pbr; Maurulo (servo); Tachipert; Causari;
+                    Sichemi (fr. Chiculo); Chiculo (fr. Sichemi); Vualtruda (sp. Achipert);
+                    Sichipertulo (mass?); Lamipert; Fermuso v. dev. (f. Ghisi); Ghisi (p. Fermuso);
+                    Suatchis v. dev. (f. Alatei); Alatei (p. Suatchis); Ildipert (f. Perteradi);
+                    Perteradi (p. Ildipert). Luoghi: civitate Lucense - Luca [Lucca]; Miliano
+                    [Migliano]; Cisiana [Ciciana]; Cicina [Cecina?]; Latronario. Chiese: ecclesie
+                    beatissimi sancti Georgii sita in civitate Lucense [S. Giorgio di Lucca].
+                    Cariche: . Note: sundro; precedenti acquisti o eredità; sala; cafaggio. Indice:
+                    donazione - servo - eredità - dipendenti - proprietà bipartita?. Nota dorsale
+                    (sec. XII ex): Offersio in Miliano.       ecclesie beatissimi Sancti Georgii poi
+                    S. Paolino Belli Barsali, p. 527 Migliano in val di Serchio Repetti, III, 209;
+                    Pieri, Serchio, p. 30 Ciciana in Val di Serchio: Repetti, I, 731; Peri, Serchio,
+                    p. 37 </p>
+                    </div>
+                </body>
+            </text>
+        </TEI>
