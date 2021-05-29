@@ -2424,6 +2424,8 @@
                     <idno>people/304</idno>
                     <note>Thomas 2016: 270</note>
                     <link type="people" corresp="#people/305" subtype="sonOf"/>
+                    <link type="juridical_persons"
+                        corresp="juridical_persons/84" subtype="benefactorOf"/>
                 </person>
                 <person>
                     <persName>Landolfus (901-943) princeps</persName>
@@ -3156,6 +3158,17 @@
                     <link type="people" corresp="#people/382" subtype="link"/>
                     <link type="places" corresp="#places/674" subtype="hasConnectionWith"/>
                     <link type="juridical_persons" corresp="#juridical_persons/244" subtype="link"/>
+                </person>
+                <person>
+                    <persName>Adalbertus (944) episcopus Capuae</persName>
+                    <persName type="other">Adelpertus; Adalpertus</persName>
+                    <idno>people/384</idno>
+                    <note/>
+                    <link type="juridical_persons" corresp="juridical_persons/105" subtype="link"/>
+                    <link type="places" corresp="#places/173" subtype="hasConnectionWith"/>
+                    <link type="juridical_persons" corresp="juridical_persons/84" subtype="link"/>
+                    <link type="people" corresp="#people/157" subtype="link"/>
+                    <link type="people" corresp="#people/156" subtype="link"/>
                 </person>
             </listPerson>
         </body>
