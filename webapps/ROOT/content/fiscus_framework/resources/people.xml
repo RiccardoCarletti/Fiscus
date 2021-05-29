@@ -2826,11 +2826,12 @@
                     <link type="juridical_persons" corresp="#juridical_persons/228" subtype="link"/>
                 </person>
                 <person>
-                    <persName>Alahis (722) vir magnificus</persName>
+                    <persName>Alahis (722; q. 749-50) vir magnificus</persName>
                     <persName type="other"/>
                     <idno>people/348</idno>
                     <note/>
                     <link type="people" corresp="#people/345" subtype="link"/>
+                    <link type="people" corresp="#people/385" subtype="fatherOf"/>
                 </person>
                 <person>
                     <persName>Adlegida (908) abbatissa</persName>
@@ -3175,6 +3176,7 @@
                     <persName type="other"/>
                     <idno>people/385</idno>
                     <note/>
+                    <link type="people" corresp="#people/348" subtype="sonOf"/>
                 </person>
             </listPerson>
         </body>
