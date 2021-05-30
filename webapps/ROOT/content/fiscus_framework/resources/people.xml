@@ -282,6 +282,7 @@
                     <persName>Aistulfus (749-756) rex</persName>
                     <idno>people/48</idno>
                     <note/>
+                    <link type="people" corresp="#people/389" subtype="dominusOf"/>
                 </person>
                 <person>
                     <persName>Anselmus (752-803) abbas Nonantulensis</persName>
@@ -2579,6 +2580,7 @@
                     <link type="people" corresp="#people/386" subtype="brotherOf"/>
                     <link type="juridical_persons" corresp="#juridical_persons/68" subtype="link"/>
                     <link type="people" corresp="#people/387" subtype="brotherOf"/>
+                    <link type="people" corresp="#people/389" subtype="link"/>
                 </person>
                 <person>
                     <persName>Berta (regina; 1002-1014)</persName>
@@ -3216,9 +3218,18 @@
                     <link type="juridical_persons" corresp="#juridical_persons/243" subtype="link"/>
                 </person>
                 <person>
-                    <persName>Alpertus (755) dux Lucensis</persName>
+                    <persName>Alpertus (754-755) dux Lucensis</persName>
                     <persName type="other"/>
                     <idno>people/389</idno>
+                    <note/>
+                    <link type="people" corresp="#people/48" subtype="agentFor"/>
+                    <link type="people" corresp="#people/320" subtype="link"/>
+                    <link type="places" corresp="#places/4" subtype="hasConnectionWith"/>
+                </person>
+                <person>
+                    <persName>Auripert (754-755) pictor</persName>
+                    <persName type="other"/>
+                    <idno>people/390</idno>
                     <note/>
                 </person>
             </listPerson>

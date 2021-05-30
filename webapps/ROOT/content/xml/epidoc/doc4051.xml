@@ -5,7 +5,7 @@
                 <fileDesc>
                     <titleStmt>
                         <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
-                    +L.51 (copia del sett. 755) </title>
+                    +L.51</title>
                     </titleStmt>
                     <editionStmt>
                         <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
@@ -33,7 +33,7 @@
                                 <summary>
                                     <rs type="text_type" ref="#">--Commutatio</rs>
                                     <rs type="record_source" ref="#">Critical edition</rs>
-                                    <rs type="document_tradition" ref="#">Copy</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
                                     <rs type="fiscal_property">Yes</rs>
                                 </summary>
                                 <msItem xml:id="msItem1">
@@ -42,8 +42,8 @@
                             </msContents>
                             <history>
                                 <origin>
-                                    <origDate notBefore="0754-07-02" notAfter="0754-07-03">
-                                <note type="displayed_date">754 July [2-3?]</note>
+                                    <origDate notBefore="0754-07-01" notAfter="0754-07-02">
+                                <note type="displayed_date">754 July [1-2]</note>
                                 <note type="dating_elements"/>
                                 <note type="topical_date"/>
                             </origDate>
@@ -86,11 +86,13 @@
                         iussionem domno excilentissimo <persName ref="#people/48"
                             key="#Emperor/king">Aistolf</persName>
                         <rs key="#Emperor/king">rege</rs> demandatum fuisset mihi <persName
-                            key="#Marquis/duke">Alpert</persName>
-                        <rs key="#Marquis/duke">duci</rs> seo et Walprand <rs key="#Bishops"
-                            >episcopi</rs>
-                        <rs key="#Commutatio">viganeum</rs> facere de res Auripert <rs
-                            key="#Specialized_workers">pictori</rs> cum <rs key="#Curtes">curte</rs>
+                            key="#Marquis/duke" ref="#people/389">Alpert</persName>
+                        <rs key="#Marquis/duke">duci</rs> seo et <persName key="#Bishops"
+                            ref="#people/320">Walprand</persName>
+                        <rs key="#Bishops">episcopi</rs>
+                        <rs key="#Commutatio">viganeum</rs> facere de res <persName
+                            key="#Specialized_workers">Auripert</persName>
+                        <rs key="#Specialized_workers">pictori</rs> cum <rs key="#Curtes">curte</rs>
                         domni <rs key="#Emperor/king">regi</rs>, ita et factum est. Unde duas
                         cartulas uno tenore fuirunt conscriptas. Et dum per preceptum ipsius domno
                         nostro confermatus fieri devirent, requisivimus cartula illa quem de partis
@@ -251,7 +253,7 @@
                     Sottoscrizione autografa duca Alpert. Lupelia = Loppeglia (Pescaglia; Lucca)
                     Pompiano (S. Macario) in Val di Serchio Torre nella Valle del Serchio (com. e
                     prov. Di Lucca) Ozzei Fontanella (suburbio S di Lucca?) Ronco (pianura S di
-                    Lucca?) </p>
+                    Lucca?). La relevatio è compiuta nel settembre 755.</p>
                     </div>
                 </body>
             </text>
