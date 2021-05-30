@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    *G.27</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc4049</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#"/>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate when="0753-03-25"> 
+                                        <note type="displayed_date">752 March 25</note>
+                                        <note type="dating_elements"/>
+                                        <note type="topical_date"/>
+                                    </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-05-30" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab>Pertifuns, quia devitor sum dare tibi domno Walprand episcopo
+                        soledus propter casa Auderad, quod mihi per alia cartula vinditionis mihi
+                        venundare visus fuisti, pro ipso vero pretio quos exinde devitor sum tibi
+                        daare modo vero dare tibi visus sum una torre de auto fabrita, insuper et
+                        casa ubi quondam Morentiulus resedere visus fuet et modo presens resedet
+                        germano eius Alipert, cum omnia et in omnibus, cum quantum ad ipsa casa
+                        pertenent et ipse Morentiulus ad manu sua habuet, insimul et ipsi homines
+                        qui ividem resedeunt. Cede inoltre insimul et parte mea in loco qui
+                        nominator Tucciano et Lusciano; omnia et in omnibus cum casas, terris,
+                        vineis, cultum vel incultum, silvis, virgariis, olivetis, pumiferis, insimul
+                        et homines qui in ipsas casas redeunt, cum qualem iustitia persolvere
+                        consueti sunt; omnia et in omnibus parte mea, iam dixi, in Tucciano et
+                        Lusciano, cum quantum da vos germanis meis ividem mihi in parte obvinet,
+                        omnia et in omnibus lo cede a Walprando. Pena: soledus mille novi. (…) Actum
+                        Luca. Sottoscrizioni: + Pertifuns daturi; + Pacifici clerici viri devoti
+                        filio quondam Rodpert testis; + Arnipert filio quondam Warnicaus testis; +
+                        Teuprand viri devoti filio Fermuns testis. Scrive: Osprand subdiaconus.</ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL IV/1, n. 13; MDL,V/2, n. 46; CDL I, n. 108, pp. 311-313; ChLA, XXXII,
+                    937.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                         <p>Persone: Astolfo re; Pertifuns (fr. Vualprand); Vualprand [Walprando] ep
+                    [di Lucca] (fr. Pertifuns); Osprand s/diac; Pacifici v. dev. cler (f. Rodpert);
+                    Rodpert (p. Pacifici); Arnipert v. dev. (f. Vuarnicaus); Vuarnicaus (p.
+                    Arnipert); Teuprand v. dev. (f. Fermuns); Fermuns (p. Teuprand); Auderad
+                    (mass?); Morentiulus (mass?) (fr. Alipert); Alipert (mass?) (fr. Morentiulus).
+                    Luoghi: Tucciano; Lusciano; Luca [Lucca]. Chiese: . Cariche: . Note: iusitia (=
+                    censo). Indice: pagamento di un debito - fam. Walprando - dipendenti - pagamento
+                    con oggetto d’oro - eredità? - iustitia. Nota dorsale (sec VIII-IX): Carta de
+                    Tuscano da Walprandu episcopis. Nota dorsale (sec VIII): Cartula venditionis da
+                    Pertifuns. Nota dorsale (sec XI-XII): Emptio Walprandi episcopi de casis et
+                    rebus in Tociano et Lusciano aliisque locis. </p>
+                    </div>
+                </body>
+            </text>
+        </TEI>
