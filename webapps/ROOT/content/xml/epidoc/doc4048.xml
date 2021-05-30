@@ -45,7 +45,7 @@
                                     <origDate notBefore="0752-09-01" notAfter="0752-09-30">
                                 <note type="displayed_date">752 September</note>
                                 <note type="dating_elements"/>
-                                <note type="topical_date"/>
+                                <note type="topical_date">Lucca</note>
                             </origDate>
                                     <origPlace/>
                                 </origin>
@@ -81,23 +81,46 @@
                 <body>
                     <div type="edition">
                         <div type="textpart">
-                            <ab>Willeradu <rs key="#Other_clerics">cliricho</rs>
-                        <rs key="#Vir_devotus/vir_honestus">viro devoto</rs> fili quondam Iffoni
-                            <foreign>vende a</foreign> Crespinulo negutiante duas petioli de <rs
-                            key="#Petiae">terra</rs>: uno petio est in locho qui dicitor at Grippo
-                        in entegro: uno latere tenent in <rs key="#Petiae">terra</rs> Lamperti et
-                        uno caput tenet in <rs key="#Rivers">rio</rs> Chaprio; et alio <rs
-                            key="#Petiae">petio</rs> est in integro quem visu sum avire at Murianise
-                        caput tenet in <rs key="#Petiae">terra</rs> Ratduli et alio caput tene in
-                            <rs key="#Petiae">terra</rs> Sancti Fridiani. <foreign>Cede la sua quota
-                            e quella del fratello. Prezzo</foreign>: in auri soledum numero tris.
-                            <foreign>Pena in duplum. Scrive</foreign>: Rasper amicho meo. (…) Actum
-                        Lucha. <foreign>Sottoscrizioni:</foreign> + Willeradi clirici viri devoti
-                        venditoris; + Tachipert <rs key="#Vir_devotus/vir_honestus">viri devoti</rs>
-                        Vich testis; + Wiliper di Lunata testis; + Pertualdu <rs
-                            key="#Vir_devotus/vir_honestus">viri devoti</rs> testis; + Cospert <rs
-                            key="#Vir_devotus/vir_honestus">viri devoti</rs> testis; + Iscaffulu <rs
-                            key="#Vir_devotus/vir_honestus">viri devoti</rs> testis.</ab>
+                            <ab><persName key="#Other_clerics #Vir_devotus/vir_honestus"><name
+                                ref="Willeradus">Willeradu</name></persName>
+                        <rs key="#Other_clerics">cliricho</rs>
+                        <rs key="#Vir_devotus/vir_honestus">viro devoto</rs> fili quondam
+                                <persName><name ref="Iffo">Iffoni</name></persName>
+                        <foreign>vende a</foreign>
+                        <persName><name ref="Crispinus">Crespinulo</name></persName> negutiante duas
+                        petioli de <rs key="#Petiae">terra</rs>: uno petio est in locho qui dicitor
+                        at <placeName key="#Petiae" ref="#places/699">Grippo</placeName> in entegro:
+                        uno latere tenent in <rs key="#Petiae">terra</rs>
+                        <persName key="#Confinia #Petiae"><name ref="Lambertus"
+                                >LambertusLamperti</name></persName> et uno caput tenet in <rs
+                            key="#Rivers">rio</rs> Chaprio; et alio <rs key="#Petiae">petio</rs> est
+                        in integro quem visu sum avire at <placeName key="#Petiae"
+                            >Murianise</placeName> caput tenet in <rs key="#Petiae">terra</rs>
+                        <persName key="#Confinia #Petiae"><name ref="Raddulus"
+                            >Ratduli</name></persName> et alio caput tene in <rs key="#Petiae"
+                            >terra</rs>
+                        <orgName key="#Confinia #Petiae #Churches" ref="#juridical_persons/70"
+                            >Sancti Fridiani</orgName>. <foreign>Cede la sua quota e quella del
+                            fratello. Prezzo</foreign>: in auri soledum numero tris. <foreign>Pena
+                            in duplum. Scrive</foreign>: <persName key="#Writer"><name
+                                ref="Raspertus">Rasper</name></persName> amicho meo. (…) Actum
+                            <placeName ref="#places/4">Lucha</placeName>.
+                            <foreign>Sottoscrizioni:</foreign> + Willeradi clirici viri devoti
+                        venditoris; + <persName key="#Witness #Vir_devotus/vir_honestus"><name
+                                ref="Tachipertus de Vico">Tachipert</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">viri devoti</rs>
+                        <placeName key="#Vici">Vich</placeName> testis; + <persName key="#Witness"
+                                ><name ref="Willibertus de Lunata">Wiliper</name></persName> di
+                            <placeName ref="#places/473">Lunata</placeName> testis; + <persName
+                            key="#Witness #Vir_devotus/vir_honestus"><name ref="Pertualdus"
+                                >Pertualdu</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">viri devoti</rs> testis; + <persName
+                            key="#Witness #Vir_devotus/vir_honestus"><name ref="Gausbertus"
+                                >Cospert</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">viri devoti</rs> testis; + <persName
+                            key="#Witness #Vir_devotus/vir_honestus"><name ref="Scaffulus"
+                                >Iscaffulu</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">viri devoti</rs> testis.</ab>
                         </div>
                     </div>
                     <div type="bibliography" subtype="editions">
@@ -110,14 +133,7 @@
                         <p/>
                     </div>
                     <div type="commentary">
-                         <p>Persone: Astolfo re; Vuilleradu v. dev. cler (f. Iffoni); Iffoni (p.
-                    Vuilleradu); Crispinulo / Crispino negutiante; Lamperti; Ratduli; Raspert;
-                    Tachipert v. dev. &lt;de&gt; Vichu; Vuilipert de Lunata; Pertualdu v. dev.;
-                    Cospert v. dev.; Iscaffulu v. dev.. Luoghi: Grippo; rio Chaprio (fl.) [rio
-                    Caprio in Marlia]; Lucha [Lucca]; Murianise [Moriano]; Vichu [Vico]; Lunata
-                    [Lunata]. Chiese: Sancti Fridiani [S. Frediano]. Cariche: . Note: Crispinulo
-                    negutiante. Indice: compravendita - denaro contante - mestiere (negotiator).
-                        <foreign>Nota dorsale (sec VIII):</foreign> Cartula de Wileradu.
+                         <p><foreign>Nota dorsale (sec VIII):</foreign> Cartula de Wileradu.
                         <foreign>Nota dorsale (sec XIIex):</foreign> Venditio terre in plebe Lunata
                     loco Greppo et in Morianese. </p>
                     </div>
