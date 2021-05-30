@@ -34,7 +34,7 @@
                                     <rs type="text_type" ref="#">--Venditio</rs>
                                     <rs type="record_source" ref="#">Critical edition</rs>
                                     <rs type="document_tradition" ref="#">Original</rs>
-                                    <rs type="fiscal_property">No</rs>
+                                    <rs type="fiscal_property">Yes</rs>
                                 </summary>
                                 <msItem xml:id="msItem1">
                                     <textLang mainLang="" otherLangs=""/>
@@ -81,19 +81,37 @@
                 <body>
                     <div type="edition">
                         <div type="textpart">
-                            <ab>Ghairipert virum honestum vende a viro venerabili presbites Tanuald
-                        de Sanctus Richulo da Vuald[o] particela mea et bone memorie Davit et
-                        Galluci digachoni in loco qui dicitor at Munte at Panchule prope Waldo domni
-                        regi; tamen excepto parte de dui germani mei quondam Hildipert et Vitaliani,
-                        quemque menime dededi; dunque ora vende tre delle 5 parti complessive. Et da
-                        finis sunt: fine Sancti Richuli, et fine de Tricchase, et fine de Aque
-                        Albule. Prezzo: auris soledos numero trinta. Pena in duplum. Scrive:
-                        Teutpert rationato et amico meum. (…) Actum in Massa Robiani.
-                        Sottoscrizioni: + Gairepert viri honesti venditoris (…) filio quondam
-                        Aruchis; + Hilprand viri devoti nepotis eius; + Bandi viri devoti centinarii
-                        testis; + Ermuli viri devoti filius quondaam Deusdonani de Versiciano
-                        testis; + Richipert viri devoti filius quondam Vitaliani testis; Scrive:
-                        Teutpert scriptor.</ab>
+                            <ab><persName key="#Vir_devotus/vir_honestus"><name ref="Gairepertus"
+                                >Ghairipert</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">virum honestum</rs>
+                        <foreign>vende a</foreign> viro venerabili <rs key="#Priests">presbites</rs>
+                        <persName key="#Priests"><name ref="Tanualdus">Tanuald</name></persName> de
+                            <orgName key="#Churches" ref="#juridical_persons/243">Sanctus
+                            Richulo</orgName> da <placeName key="#Churches" ref="#places/673"
+                            >Vuald[o]</placeName>
+                        <rs key="#Landed_possessions">particela</rs> mea et bone memorie <persName
+                            key="#Landed_possessions"><name ref="David">Davit</name></persName> et
+                            <persName key="#Landed_possessions #Deacons"><name ref="Gallucius"
+                                >Galluci</name></persName>
+                        <rs key="#Deacons">digachoni</rs> in loco qui dicitor at <placeName
+                            key="#Landed_possessions">Munte at Panchule</placeName> prope <rs
+                            key="#Gualdi #Fiscal_property #Mention #Emperor/king"><rs key="#Gualdi"
+                                >Waldo</rs> domni <rs key="#Emperor/king">regi</rs></rs>; tamen
+                        excepto parte de dui germani mei quondam Hildipert et Vitaliani, quemque
+                        menime dededi; <foreign>dunque ora vende tre delle cinque parti
+                            complessive</foreign>. Et da finis sunt: fine Sancti Richuli, et fine de
+                        Tricchase, et fine de Aque Albule. <foreign>Prezzo</foreign>: auris soledos
+                        numero trinta. <foreign>Pena in duplum. Scrive:</foreign> Teutpert rationato
+                        et amico meum. (…) Actum in Massa Robiani.
+                            <foreign>Sottoscrizioni:</foreign> + Gairepert viri honesti venditoris
+                        (…) filio quondam Aruchis; + Hilprand <rs key="#Vir_devotus/vir_honestus"
+                            >viri devoti</rs> nepotis eius; + Bandi <rs
+                            key="#Vir_devotus/vir_honestus">viri devoti</rs>
+                        <rs key="#Other_minor_officer">centinarii</rs> testis; + Ermuli <rs
+                            key="#Vir_devotus/vir_honestus">viri devoti</rs> filius quondaam
+                        Deusdonani de Versiciano testis; + Richipert <rs
+                            key="#Vir_devotus/vir_honestus">viri devoti</rs> filius quondam
+                        Vitaliani testis. <foreign>Scrive</foreign>: Teutpert scriptor.</ab>
                         </div>
                     </div>
                     <div type="bibliography" subtype="editions">
