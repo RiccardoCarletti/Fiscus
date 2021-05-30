@@ -81,34 +81,52 @@
                 <body>
                     <div type="edition">
                         <div type="textpart">
-                            <ab><persName key="#Vir_magnificus">Perprand</persName>
+                            <ab><persName key="#Vir_magnificus" ref="#people/386"
+                            >Perprand</persName>
                         <rs key="#Vir_magnificus">virum magnificum</rs> filio bone memorie domni
-                        Walpert <rs key="#Marquis/duke">duci</rs>
-                        <foreign>vende</foreign> tibi domno Walprand gratias Deo <rs key="#Bishops"
+                            <persName key="#Marquis/duke" ref="#people/314">Walpert</persName>
+                        <rs key="#Marquis/duke">duci</rs>
+                        <foreign>vende</foreign> tibi domno <persName key="#Bishops"
+                            ref="#people/320">Walprand</persName> gratias Deo <rs key="#Bishops"
                             >episcopo</rs> parte mea de <rs key="#Salae #Demesnes">sala
-                            sundriale</rs>, quam avire visum sum in loco qui dicitur Tocciano, cum
-                            <rs key="#Landed_possessions #Cereals">terra</rs> et <rs key="#Wine"
-                            >vinea</rs>, <rs key="#Acorns">silvis</rs>, vergaria, <rs key="#Oil"
-                            >olivis</rs>, <rs key="#Fruits/vegetables">pumis, arboribus</rs>; simol
-                        et <rs key="#Casae/cassinae_massaricie">casas massaricia</rs> in ipso loco
+                            sundriale</rs>, quam avire visum sum in loco qui dicitur <placeName
+                            key="#Salae #Demesnes #Casae/cassinae_massaricie #Landed_possessions #Cereals #Wine #Oil #Fruits/vegetables #Acorns #Slave_labour #Slave"
+                            >Tocciano</placeName>, cum <rs key="#Landed_possessions #Cereals"
+                            >terra</rs> et <rs key="#Wine">vinea</rs>, <rs key="#Acorns"
+                        >silvis</rs>, vergaria, <rs key="#Oil">olivis</rs>, <rs
+                            key="#Fruits/vegetables">pumis, arboribus</rs>; simol et <rs
+                            key="#Casae/cassinae_massaricie">casas massaricia</rs> in ipso loco
                         Tocciano, cum territurii, vineis, silvis, vergarias, olivis, pumis,
                         arboribus, cum cultum et incultum, cum movile vel inmovile seo
                         semmoventibus, cum <rs key="#Slave_labour #Slave">serbus vel ancella</rs>,
                         quem avire visus sum in ipso loco, omnia et in omnebus mea portione in
-                        integrus, excepto Teudifridulo cum muliere sua et uno filius suum nomine
-                        Personula, alii infantis sui. <foreign>Prezzo</foreign>: auri soledos nomero
-                        tricenti. <foreign>Con la clausola che se i beni </foreign>anplius
-                        adpretiata fueret super tricenti soledos Walprando <foreign>avrebbe pagato
-                            la differenza; se al contrario sarebbe stata valutata meno, Perprando
+                        integrus, excepto <persName key="#Slave_labour #Slave"><name
+                                ref="Teofridulus">Teudifridulo</name></persName> cum muliere sua et
+                        uno filius suum nomine <persName key="#Slave_labour #Slave"><name
+                                ref="Personula">Personula</name></persName>, alii infantis sui.
+                            <foreign>Prezzo</foreign>: auri soledos nomero tricenti. <foreign>Con la
+                            clausola che se i beni </foreign>anplius adpretiata fueret super
+                        tricenti soledos <foreign>Walprando </foreign><foreign>avrebbe pagato la
+                            differenza; se al contrario sarebbe stata valutata meno, Perprando
                             avrebbe reso la differenza a Walprando. Pena in duplum.
-                        Scrive</foreign>: Teutpert <rs key="#Vir_devotus/vir_honestus">viro
-                            devoto</rs>. (…) Actum Luca. <foreign>Sottoscrizioni:</foreign> +
-                        Perprand viri magnifici venditori; + Suintroaldi <rs
-                            key="#Vir_devotus/vir_honestus">viri devoti</rs> filio Ansualdi testis;
-                        + Fratelli <rs key="#Vir_devotus/vir_honestus">viri devoti</rs> filio
-                        Alipert testis: + Ermiteulo <rs key="#Vir_devotus/vir_honestus">viri
-                            devoti</rs> filio quondam Aritheo testis. <foreign>Scrive:</foreign>
-                        Teupert.</ab>
+                        Scrive</foreign>: <persName key="#Writer #Vir_devotus/vir_honestus"><name
+                                ref="Teudebertus">Teutpert</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">viro devoto</rs>. (…) Actum <placeName
+                            ref="#places/4">Luca</placeName>. <foreign>Sottoscrizioni:</foreign> +
+                        Perprand viri magnifici venditori; + <persName
+                            key="#Witness #Vir_devotus/vir_honestus"><name ref="Sintrualdus"
+                                >Suintroaldi</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">viri devoti</rs> filio <persName><name
+                                ref="Ansualdus">Ansualdi</name></persName> testis; + <persName
+                            key="#Witness #Vir_devotus/vir_honestus"><name ref="Fratellus"
+                                >Fratelli</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">viri devoti</rs> filio <persName><name
+                                ref="Albertus">Alipert</name></persName> testis: + <persName
+                            key="#Witness #Vir_devotus/vir_honestus"><name ref="Ermiteulus"
+                                >Ermiteulo</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">viri devoti</rs> filio quondam
+                                <persName><name ref="Eriteus">Aritheo</name></persName> testis.
+                            <foreign>Scrive:</foreign> Teupert.</ab>
                         </div>
                     </div>
                     <div type="bibliography" subtype="editions">

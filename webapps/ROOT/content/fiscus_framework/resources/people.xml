@@ -2509,7 +2509,7 @@
                     <link type="juridical_persons" corresp="#juridical_persons/68" subtype="link"/>
                 </person>
                 <person>
-                    <persName>Walpertus (dux Lucensis; 713-736) </persName>
+                    <persName>Walpertus (dux Lucensis; 713-736; q. 752) </persName>
                     <persName type="other"/>
                     <idno>people/314</idno>
                     <note/>
@@ -2517,6 +2517,8 @@
                     <link type="people" corresp="#people/320" subtype="fatherOf"/>
                     <link type="people" corresp="#people/345" subtype="link"/>
                     <link type="people" corresp="#people/370" subtype="link"/>
+                    <link type="people" corresp="#people/386" subtype="fatherOf"/>
+                    <link type="estates" corresp="#estates/210" subtype="hasConnectionWith"/>
                 </person>
                 <person>
                     <persName>Landolfus III (959-968/969) princeps</persName>
@@ -2573,6 +2575,8 @@
                     <link type="places" corresp="#places/4" subtype="hasConnectionWith"/>
                     <link type="juridical_persons" corresp="#juridical_persons/219" subtype="link"/>
                     <link type="people" corresp="#people/314" subtype="sonOf"/>
+                    <link type="people" corresp="#people/386" subtype="brotherOf"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/68" subtype="link"/>
                 </person>
                 <person>
                     <persName>Berta (regina; 1002-1014)</persName>
@@ -3189,6 +3193,8 @@
                     <persName type="other"/>
                     <idno>people/386</idno>
                     <note/>
+                    <link type="people" corresp="#people/314" subtype="sonOf"/>
+                    <link type="people" corresp="#people/320" subtype="brotherOf"/>
                 </person>
             </listPerson>
         </body>
