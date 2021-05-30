@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    +.74</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc4050</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Venditio</rs>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate notBefore="0754-04-01" notAfter="0754-04-30">
+                                <note type="displayed_date">754 April</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date"/>
+                            </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-04-18" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab>Ghairipert virum honestum vende a viro venerabili presbites Tanuald
+                        de Sanctus Richulo da Vuald[o] particela mea et bone memorie Davit et
+                        Galluci digachoni in loco qui dicitor at Munte at Panchule prope Waldo domni
+                        regi; tamen excepto parte de dui germani mei quondam Hildipert et Vitaliani,
+                        quemque menime dededi; dunque ora vende tre delle 5 parti complessive. Et da
+                        finis sunt: fine Sancti Richuli, et fine de Tricchase, et fine de Aque
+                        Albule. Prezzo: auris soledos numero trinta. Pena in duplum. Scrive:
+                        Teutpert rationato et amico meum. (…) Actum in Massa Robiani.
+                        Sottoscrizioni: + Gairepert viri honesti venditoris (…) filio quondam
+                        Aruchis; + Hilprand viri devoti nepotis eius; + Bandi viri devoti centinarii
+                        testis; + Ermuli viri devoti filius quondaam Deusdonani de Versiciano
+                        testis; + Richipert viri devoti filius quondam Vitaliani testis; Scrive:
+                        Teutpert scriptor.</ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL IV/1, n. 45; reg. MDL V/2, n. 47; CDL I, n. 111, pp. 319-333; ChLA,
+                    XXXII, 938.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                         <p>Persone: Astolfo re; Ghairipert / Gairepert v. hon. (f. Aruchis; fr.
+                    Vitaliani, Hildipert, Davit, Galluci; zio Hilprand); v. ven. pbr Tanuald de
+                    Sanctus Richulo da Vualdo; Davit diac (fr. Vitaliani, Hildipert, Ghairipert,
+                    Galluci); Galluci diac (fr. Vitaliani, Hildipert, Davit, Ghairipert); Hildipert
+                    (fr. Vitaliani, Ghairipert, Davit, Galluci); Vitaliani (fr. Hildepert,
+                    Ghairipert, Davit, Galluci); Robiani (?); Aruchis / Arochis (p. Ghairipert);
+                    Hilprand v. dev. (nepos Ghairipert); Bandi v. dev. centinarii; Ermuli v. dev. de
+                    Versiciano (f. Deusdonani); Deusdonani (p. Ermuli); Richipert v. dev. (f.
+                    Vitaliani); Vitaliani (p. Richipert); Teutpert scriptor. Luoghi: Sanctus Richulo
+                    da Vualdo [S. Regolo in Gualdo]; Munte at Panchule; Vualdo domni regi [Gualdo];
+                    Tricchase [Tricasi]; Aque Albule; Massa Robiani; Versiciano [Verciano]. Chiese:
+                    Sanctus Richulo da Vualdo [S. Regolo in Gualdo]. Cariche: Bandi v. dev.
+                    centenarius. Note: Vualdo domni regi [Gualdo]; finis. Indice: s. regolo in
+                    gualdo - compravendita - re - fines - maremma. Nota dorsale (sec XI-XII):
+                    Cartula de terris in Pancule prope Gualdo. Niccolaj identifica lo scrittore con
+                    l’autore di ChLA 927 = CDL 89 (un lucchese di Placule). Ne definisce la
+                    scrittura «una minuscola piuttosto imperita e tarda, ignara di legature (…)
+                    segnata di forme elementari». Munte =? Monte Balboli in Val di Cornia Tricasi </p>
+                    </div>
+                </body>
+            </text>
+        </TEI>
