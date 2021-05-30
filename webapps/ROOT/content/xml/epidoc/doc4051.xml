@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    +L.51 (copia del sett. 755) </title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc4051</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#"/>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Copy</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate notBefore="0754-07-02" notAfter="0754-07-03">
+                                <note type="displayed_date">754 July [2-3?]</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date"/>
+                            </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-05-30" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab>+ In Dei nomine. Regnante domno nostro Aistolfo rege, anno regni
+                        eius quinto, per indictionem septima, mense iulio; feliciter. Dum per
+                        iussionem domno excilentissimo Aistolf rege demandatum fuisset mihi Alpert
+                        duci seo et Walprand episcopi viganeum facere de res Auripert pictori cum
+                        curte domni regi, ita et factum est. Unde duas cartulas uno tenore fuirunt
+                        conscriptas. Et dum per preceptum ipsius domno nostro confermatus fieri
+                        devirent, requisivimus cartula illa quem de partis curtis regia de ipso
+                        viganium inn eclesia Sancti Martini data fuera; minime ea iungere potuimus,
+                        eo quod in exercitus domno nostro peruerat. Et dum hec dictum fuisset domno
+                        regi per Peredeus vir beatissimus episcopus, eo quod ipsa cartula minime
+                        invenire potuisset, demandavet ipse piissimo domno regi, alia tale cartula
+                        relevare per ipso notario, qui ea antea scripserad, qualis ille erat, quem
+                        de parte eclesie ad curtis regia emissat fuerad. Placuet adque convinet
+                        inter eclesiam Sancti Martini nec non et curtes domni regi, et qualiter au
+                        ipso piissimo et ad Deo conserbato domno Aistolf rege est demandatum, ut
+                        cambium de curte ipsius Lucense in predicta eclesia Sancti Martini
+                        melioratum datum fieri devirent pro personas de germanis vel germanas
+                        Auripert pictori seo et homenis pertinentibus eorum vel res quem ad manum
+                        sua abuirunt, qui sunt pertenentes eclesie sancti Martini. Unde
+                        consentientem vir beatissimus Walprand episcopus et au ipso ordinati fuirunt
+                        da parte eclesie ipsa commutationem faciendum Iordanni arcipresbitero,
+                        Rachipert arcidiaconus et Auduaci scario; et da parte domni regi ab Alpert
+                        duce ordinati fuirunt ad ipsa res extimandum Teutpert scario, Teutprand
+                        filio quondam Teuppoli et Grasulus negudias. Unde constat dedisset eclesia
+                        Sancti Martini: in primis, casa avitationis ipsius Auripert vel de germani
+                        eius una cum fundamenta sua hic infra civitate, et recipet in viganei locum
+                        a curte domni regi casa cum fundamenta [sua hic] prope muro civitatis, ubi
+                        residerunt Aumundulo et Silvolus, qui fuerunt epistolas deportantes; et pro
+                        terra quem abuirunt Auripert vel de germani eius ad area ubi ipse casella
+                        edificata est, recipet eclesia Sancti Martini terra in atpretiato sub
+                        extimationem intra clausura illa prope muro civitatis ubi ipse casella
+                        Aumunduli et Silvoli edificata est; et pro casa quam abuirunt in loco
+                        Lupelia et in Pumpiano prope eclesia sancti Machari cum terris, vineis,
+                        olivitis, vel omnia quantum in suprascriptas locas avire visis fuirunt,
+                        recipet eclesia Sancti Martini casa Willuli et casa Gaipertuli et casa
+                        Filipert in loco [… Tu]rre cum fundamentas suas, terris, vineis, olivitis,
+                        silvis, castaneitis, omnia et in omnibus ad ipsas suprascriptas casas
+                        pertenentes in integrum, excepto homenis de ipse case et fondamenta eorum
+                        hic infra civitate et terre eorum ultra fluvium Ausare, quem a curte domni
+                        regi est reserbatum. Et de terre qui fuirunt de suprascripte case da Turre,
+                        qui sunt hic circa civitatem, recipet eclesia Sancti Martini per mensura pro
+                        terre qui fuerant Auripert vel de germani eius, in primis campo Fontanolas
+                        modiorum sex et sistariorum octo pro campo ipsius Auripert vel de germani
+                        eius, loco qui dicitur ad Ausare, quod est modiorum sex; similiter recipet
+                        eclesia Sancti Martini duas petias de terra in loco Roncho, una qui fuet
+                        Protestuli serbo domni regi et illa alia ipsorum case pertenentem de Turrem,
+                        qui ad ipsi hominis avitaturis in Turre da Saxulo in viganium obvinet, qui
+                        sunt inter ambas petias sistariorum duas minus de quinque modiorum propter
+                        duas petias de terra qui fuerant Auripert vel de germani eius in ipso loco
+                        Roncho, quod sunt per mensura quattuor sistariorum minus de quinque
+                        modiorum; et de terre ipsorum homenis avitaturis in Turre, hic circa
+                        civitate, reserbatum est a curte domni regi terra scaffiliorum tris, qui est
+                        prope terra Saxuli; et pro vinea ipsius Auripert vel de germani eius ultra
+                        fluvium Ausere, qui est per mensura modiloco uno, et recipet eclesia Sancti
+                        Martini de ipsis suprascritptis homenis de Turre, in ipso loco Turre, vinea
+                        prope eclesia Sancti Martini, alio modiloco, sub extimationem. Et ipse
+                        edificia Auripert seo de germani eius in atpretiato fuirunt amplius valentem
+                        soledus quatragenta, et ipse edificias quem curtes hic prope civitate dedet
+                        eclesie Sancti Martini, et qualiter placuet domno regi, ut ipse viganium
+                        quem curtes regia dare amplius valentem melioratus super ipsum cambium quem
+                        ad eclesiam Sancti Martini reciperat, soledus quatragenta; et de ipsa terra
+                        quem dedet curte regia relicum fuet sistariorum quattuordeci tam pro ipsa
+                        meliorationem quam et pro ipsas fabricas que amplius fuet valentem. Omnia
+                        adimplivet curtis domni regi eclesie Sancti Martini de fondamento et
+                        clausura illa ubi ipse casa ipsorum Aumunduli et Sivoli edificata est, cum
+                        pomis vel omnia ipsa clausura in integrum, excepto res movile. De hominis
+                        viro dedet eclesia Sancti Martini: Ansprand, Catocciulo, Fosculo, Hemmulo
+                        clerico, Teulo, Mauriculo, Aurifia, Auriperga, Castaldu, […lo] et
+                        Aricondula; et recipet a curte domni regi: Mauripert, Baroncello, Bonari,
+                        Agiprand, Luciprand, Audipert et Magniperga, Ermitroda, Ciontula, Maurella
+                        et Asperta, Seipert, Teudipert, Hildipert clerico et Gaitroda. Modo viro
+                        qualiter ipse cambium ex urtaque partis factum vel contraditum est,
+                        stavilitum diveat permanire, qualiter suprascriptua commutatio acta est per
+                        Walprand episcopus et Alpert duce. Unde duas cartulas uno tenure conscriptas
+                        Radalpert notario scrivere commonuemus. Actum Luca, regnum et indictionem
+                        suprascripta; feliciter. Cartula ista relevata est per demandationem ipsius
+                        domno nostro Aistolf regi inn anno septimo, indictione nona, mense
+                        septembrio. + Ego Alpert dux in anc cartula commutationis a me facta et
+                        Walprando episcopo, sicut supra legitur, propria manu mea scuscripsi. + Ego
+                        Teutprand, qui in hanc cummutationem interfuit ad ipsam res extimandum,
+                        manus mea suscripsi. Signum + manus Alatei filio quondam Alais viri devoti
+                        testis. + Ego Teuderadu presbiter in ach cartula comutationis facta a
+                        Gualprandu episcopus et Alpertu duce propria manus mea me teste supcripsi. +
+                        Ego Filosofronius presbiter in hanc cartula cummutationis facta a Gualprand
+                        episcopus et Alpert dux propria manus mea testis subscripsi. + Ego Gairipert
+                        i hanc cartula cummutationis facta ad Walprand episcopus et Alpert dux,
+                        sicot superius legitor, me teste supiscripsi. + Ego Suintrualdus in hanc
+                        cartula cummutationis facta ad Walprandus episcopus seo Alpertu dux, sicut
+                        superius legetur, me tesstes subscripsi. + Ego Radalpert, qui hanc cartula
+                        relevavi per demandamandationem ipsius domno nostro regi per dicto Alpert
+                        doci, et qualiter ipsius demadatio fuet, conplivi et dedi. </ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>Muratori 1738-1742, I, 135; MDL IV/1, n. 47; reg. MDL V/2, n. 49; CDL I,
+                    n. 113, pp. 328-333; ChLA, XXXII, 942.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                         <p>Persone: Astolfo re; Vualprand [Walprando] ep [di Lucca]; Alpert duci
+                    [di Lucca?]; Auripert pictori; Iordanni a/pbr; Rachipert a/diac; Auduaci scario
+                    [della chiesa di Lucca]; Teutpert scario; Teutprand / Teuprand (f. Teuppoli);
+                    Teuppoli (p. Teutprand); Grasulus negudias; Saxulo; Radalpert not.; Alatei v.
+                    dev. (f. Alais); Alais (p. Alatei); Teuderadu pbr; Filosofronius pbr; Garipert;
+                    Suintrualdus dipendenti: Aumundulo et Silvolus, qui fuerunt epistolas
+                    deportantes; Vuilluli (mass); Gaipertuli (mass); Filipert (mass); Protestuli
+                    serbo domni regi; Ansprand; Catocciulo; Fosculo; Hemmulo cler; Teulo; Mauriculo;
+                    Aurifia; Auriperga; Castaldu; P[…lo]; Aricondula; Mauripert; Baroncello; Bonari;
+                    Agiprand; Luciprand; Audipert et Magniperga; Ermitroda; Ciontula; Maurella;
+                    Asperta; Seipert; Teudipert; Hildipert clerico; Gaitroda. Luoghi: curte Lucense
+                    [Lucca]; civitas [Lucca o Pavia?]; loco Lupelia [Loppeglia]; Pumpiano
+                    [Pompiano]; loco a vocabulo Turre [Torre in Val di Serchio]; fluvium Ausere
+                    [Ozzeri fl.]; Fontanolas; Roncho [Ronco]. Chiese: eclesia sancti Martini [S.
+                    Martino di Lucca]. Cariche: Alperto duca [di Lucca?]; Auduaci scario [della
+                    chiesa di Lucca?]; Teutpert scario. Note: Auripert pictor; curte domni regi;
+                    estimatori. rif. all’esercito di Astolfo; Grasulus negudias; Aumundulo et
+                    Silvolus, qui fuerunt epistolas deportantes. Indice: permuta - fam. Walprando -
+                    re - duca - exercitus - mestiere (negotiator - pictor) - stimatori permuta -
+                    ministeriali - dipendenti - servi. Nota dorsale (sec XI): Viganeum inter
+                    Austulfum regem et episcopatum huius civitatis. Nota dorsale (sec XI): Viganeum
+                    inter Agistulfum regem et episcopum huius civitatis. Nota dorsale (sec. XI-XII):
+                    Viganeum […]ris huic ecclesie ab Aistulfo rege in cambium dans hic prope Lucam
+                    et in Runco atque in plebe Turri. Nota dorsale (forse sec. XI): Guamo.
+                    Sottoscrizione autografa duca Alpert. Lupelia = Loppeglia (Pescaglia; Lucca)
+                    Pompiano (S. Macario) in Val di Serchio Torre nella Valle del Serchio (com. e
+                    prov. Di Lucca) Ozzei Fontanella (suburbio S di Lucca?) Ronco (pianura S di
+                    Lucca?) </p>
+                    </div>
+                </body>
+            </text>
+        </TEI>
