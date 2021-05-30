@@ -34,8 +34,8 @@
                         <summary>
                             <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
-                            <rs type="document_tradition" ref="#"/>
-                            <rs type="fiscal_property"/>
+                            <rs type="document_tradition" ref="#">Uncertain tradition</rs>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -101,22 +101,28 @@
                         <placeName key="#Fundi #Castle #Roads #Pagus" ref="#places/26"
                             >Temolina</placeName>, eidem monasterio iure proprietario ad incidendum
                         concedere dignaremur. Cuius precibus acclinati, eandem viam publicam
-                        existentem in circuitu prefati castelli monasterio Beate Iuliae iure
-                        proprietario ad incidendum et fossata facienda omneque monitionem
-                        edificandam et quicquid voluerit faciendum concedimus et largimur, et de
-                        nostro iure et dominio in eius ius et dominium transfundimus et donamus ad
-                        habendum, tenendum, alienandum commutandum, et quicquid voluerit faciendum,
-                        alia tamen via per quam publicus meatus discurrat. Si quis igitur hoc
-                        nostrae auctoritatis et concessionis preceptum infringere temptaverit, sciat
-                        se compositurum auri optimi libras triginta, medietatem camerae nostrae et
-                        medietatem predicte Berchte abbatissae filiae nostrae suisque successoribus.
-                        Quod ut verius credatur et diligentius observetu[r, m]anu propria roborantes
-                        de anulo nostro subter iussimus insigniri. Signum domni (MF) Berengarii
-                        serenissimi regis. Iohannes cancellarius ad vicem Ardingi episcopi et
-                        archicancellarii recognovi et subscripsi. (SR) (SI n. II). Data IIII non.
-                        Mar., anno dominicae incarnationis DCCCCXV, domni vero Berengarii
-                        serenissimi regis XXVIII, indictione III. Actum Verone. In Christi nomine
-                        f[e]liciter, amen.</ab>
+                        existentem in circuitu prefati castelli monasterio Beate Iuliae <rs
+                            key="#Fiscal_property #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_individuals"
+                            >iure proprietario</rs> ad incidendum et fossata facienda omneque <rs
+                            key="#Fortifications">monitionem edificandam</rs> et quicquid voluerit
+                        faciendum concedimus et largimur, et de nostro iure et dominio in eius ius
+                        et dominium transfundimus et donamus ad habendum, tenendum, alienandum
+                        commutandum, et quicquid voluerit faciendum, alia tamen via per quam
+                        publicus meatus discurrat. Si quis igitur hoc nostrae auctoritatis et
+                        concessionis preceptum infringere temptaverit, sciat se compositurum auri
+                        optimi libras triginta, medietatem camerae nostrae et medietatem predicte
+                        Berchte abbatissae filiae nostrae suisque successoribus. Quod ut verius
+                        credatur et diligentius observetu[r, m]anu propria roborantes de anulo
+                        nostro subter iussimus insigniri. Signum domni (MF) Berengarii serenissimi
+                        regis. <persName key="#Chancellor"><name ref="Iohannes"
+                            >Iohannes</name></persName>
+                        <rs key="#Chancellor">cancellarius</rs> ad vicem <persName
+                            key="#Archchancellor #Bishops" ref="#people/216">Ardingi</persName>
+                        <rs key="#Bishops">episcopi</rs> et <rs key="#Archchancellor"
+                            >archicancellarii</rs> recognovi et subscripsi. (SR) (SI n. II). Data
+                        IIII non. Mar., anno dominicae incarnationis DCCCCXV, domni vero Berengarii
+                        serenissimi regis XXVIII, indictione III. Actum <placeName ref="#places/59"
+                            >Verone</placeName>. In Christi nomine f[e]liciter, amen.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
