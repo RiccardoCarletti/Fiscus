@@ -283,6 +283,7 @@
                     <idno>people/48</idno>
                     <note/>
                     <link type="people" corresp="#people/389" subtype="dominusOf"/>
+                    <link type="people" corresp="#people/390" subtype="dominusOf"/>
                 </person>
                 <person>
                     <persName>Anselmus (752-803) abbas Nonantulensis</persName>
@@ -3227,10 +3228,14 @@
                     <link type="places" corresp="#places/4" subtype="hasConnectionWith"/>
                 </person>
                 <person>
-                    <persName>Auripert (754-755) pictor</persName>
+                    <persName>Auripertus (754-755) pictor</persName>
                     <persName type="other"/>
                     <idno>people/390</idno>
                     <note/>
+                    <link type="people" corresp="#people/48" subtype="clientOf"/>
+                    <link type="people" corresp="#people/389" subtype="link"/>
+                    <link type="people" corresp="#people/320" subtype="link"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/68" subtype="link"/>
                 </person>
             </listPerson>
         </body>
