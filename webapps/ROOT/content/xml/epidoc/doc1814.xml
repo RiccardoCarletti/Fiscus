@@ -4,7 +4,7 @@
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
-                <title></title>
+                <title><title>Archivio comunale di Vercelli (MGH DD H IV, D. 235)</title></title>
             </titleStmt>
             <editionStmt>
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
@@ -13,7 +13,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
-                <idno type="filename">doc1</idno>
+                <idno type="filename">doc1814</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -30,10 +30,10 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#"/>
-                            <rs type="record_source" ref="#"/>
-                            <rs type="document_tradition" ref="#"/>
-                            <rs type="fiscal_property"/>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -41,10 +41,10 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate notBefore="0001" notAfter="0001" when="0001"> 
-                                <note type="displayed_date"></note>
-                                <note type="dating_elements"></note>
-                                <note type="topical_date"></note>
+                            <origDate notBefore="0001" notAfter="0001" when="1070-07-20">
+                                <note type="displayed_date">1070 July 20</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date"/>
                             </origDate>
                             <origPlace/>
                         </origin>
@@ -72,7 +72,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2021-02-08">creation of record</change>
+                <change when="2021-05-31" who="caterinaciccopiedi">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -80,7 +80,42 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab></ab>
+                    <ab>In nomine sancte et individue summeque trinitatis. <persName
+                            key="#Emperor/king" ref="#people/77">Heinricus</persName> quartus dei
+                        gracia <rs key="#Emperor/king">rex</rs>. Omnibus dei nostrique fidelibus tam
+                        futuris quam presentibus notum esse volumus, quatinus nos pro patris nostri
+                        domni <persName ref="#people/237" key="#Emperor/king">Heinrici</persName>
+                        imperatoris anime nec non et nostre remedio, interventu quoque domni
+                            <persName key="#Bishops">Herimanni</persName> Babembergensis
+                            <rs>episcopi</rs> nobis dilectissimi <persName>Gregorio</persName>
+                        <placeName>Vercellensi</placeName> episcopo nostroque <rs>cancellario</rs>
+                        carissimo et<orgName> Eusebiane <rs key="#Mother_churches"
+                            >ecclesie</rs></orgName> et omnibus eius successoribus <rs>dedimus</rs>
+                        <placeName>Casale</placeName> cum <rs>arimannia</rs> et cum
+                            <rs>servicio</rs>, quod pertinet ad <rs>comitatum</rs>,
+                            <placeName>Odalingo</placeName> cum omnibus arimannis et quod pertinet
+                        ad comitatum, <placeName>Albalingo</placeName> cum omnibus arimannis et quod
+                        pertinet ad comitatum, <placeName>Ocelingo</placeName> cum omnibus arimannis
+                        et quod pertinet ad comitatum, <placeName>Momolerio</placeName> cum omnibus
+                        arimannis et quod pertinet ad comitatum, <placeName>Seluolinam</placeName>
+                        cum omnibus arimannis et quod pertinet ad comitatum,
+                            <placeName>Redingo</placeName> cum omnibus arimannis et quod pertinet ad
+                        comitatum et cum eorum <rs>finibus</rs> et pertinenciis <rs>silvis</rs>
+                        <rs>pratis</rs>
+                        <rs>aquis</rs> aquarumque decursibus <rs>piscationibus</rs> t<rs>erris
+                            arabilibus</rs> et inarabilibus sub precepti nostri tradicione in
+                        perpetuum contulimus, ea scilicet racione ut nullus <rs>archiepiscopus</rs>,
+                        nullus episcopus, nullus <rs>dux</rs>, nullus <rs>marchio</rs>, nullus
+                            <rs>comes</rs>, nullus <rs>vicecomes</rs>, nullus <rs>miles</rs>, nullus
+                            <rs>gastaldio</rs>, nulla magna parvaque persona predictum episcopum
+                        neque sancti Eusebii ecclesiam neque eius successores molestare, iniuriam
+                        inferre, disvestire de omnibus predictis locis audeat, sicut dictum est in
+                        integrum. Quod si aliquis, quod minime credimus, huius nostri precepti
+                        paginam temere violaverit, sciat se compositurum C libras auri, medietatem
+                        nostre camere et medietatem episcopo predicto nostro fideli aut eius
+                        successoribus. Quod ut verius credatur cauciusque ab omnibus custodiatur,
+                        manu propria corroborantes sigillo nostro sigillari infra iussimus. Signum
+                        (M.) domni Heinrici quarti invictissimi regis et principis </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
