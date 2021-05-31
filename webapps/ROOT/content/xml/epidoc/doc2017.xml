@@ -4,7 +4,7 @@
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
-                <title></title>
+                <title>Archivio di Montecassino, aula III, capsa X, n. 19</title>
             </titleStmt>
             <editionStmt>
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
@@ -13,7 +13,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
-                <idno type="filename">doc1</idno>
+                <idno type="filename">doc2017</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -30,10 +30,10 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#"/>
-                            <rs type="record_source" ref="#"/>
-                            <rs type="document_tradition" ref="#"/>
-                            <rs type="fiscal_property"/>
+                            <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -41,10 +41,10 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate notBefore="0001" notAfter="0001" when="0001"> 
-                                <note type="displayed_date"></note>
-                                <note type="dating_elements"></note>
-                                <note type="topical_date"></note>
+                            <origDate notBefore="0915-08-22" notAfter="0934-03-31">
+                                <note type="displayed_date">915 August 22 - 934 March 31</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date"/>
                             </origDate>
                             <origPlace/>
                         </origin>
@@ -72,7 +72,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2021-02-08">creation of record</change>
+                <change when="2021-05-31" who="gzornetta">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -84,10 +84,12 @@
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p/>
+                <p><foreign>Registrum Petri Diaconi </foreign>f. 109rA-B; RPD 241b: 753-755; Gattola
+                    1734: 87-89; Voigt *135; Gallo 1937: 58, n. 20; Poupardin 1907: 144; CMC I, 54:
+                    139 (summary).</p>
             </div>
             <div type="bibliography" subtype="additional">
-                <p/>
+                <p>Bloch 1986: 1348; Thomas 2016: 91.</p>
             </div>
             <div type="bibliography" subtype="links">
                 <p/>
