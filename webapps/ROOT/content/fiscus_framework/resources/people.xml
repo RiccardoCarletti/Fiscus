@@ -1159,6 +1159,7 @@
                     <link type="people" corresp="#people/167" subtype="fatherOf"/>
                     <link type="juridical_persons"
                         corresp="juridical_persons/84" subtype="benefactorOf"/>
+                    <link type="people" corresp="#people/395" subtype="legallyRecognisedUnionWith"/>
                 </person>
                 <person>
                     <persName>Gisulfus (720?-751) dux</persName>
@@ -3272,11 +3273,24 @@
                     <link type="people" corresp="#people/393" subtype="link"/>
                 </person>
                 <person>
-                    <persName>Aloara</persName>
+                    <persName>Aloara principissa</persName>
                     <persName type="other"/>
                     <idno>people/395</idno>
                     <note/>
                     <link type="estates" corresp="#estates/313" subtype="hasConnectionWith"/>
+                    <link type="places" corresp="#places/609" subtype="hasConnectionWith"/>
+                    <link type="people" corresp="#people/157" subtype="wifeOf"/>
+                </person>
+                <person>
+                    <persName>Landenolfus () princeps</persName>
+                    <persName type="other"></persName>
+                    <idno>people/396</idno>
+                    <note/>
+                    <link type="people" corresp="#people/157" subtype="sonOf"/>
+                    <link type="people" corresp="#people/315" subtype="#nephewOf"/>
+                    <link type="people" corresp="#people/156" subtype="grandsonOf"/>
+                    <link type="estates" corresp="#estates/313" subtype="hasConnectionWith"/>
+                    <link type="places" corresp="#places/609" subtype="hasConnectionWith"/>
                 </person>
             </listPerson>
         </body>
