@@ -160,10 +160,11 @@
                             ref="#places/704">Lupelia</placeName> et in <placeName ref="#places/325"
                             key="#Casae/cassinae_massaricie #Cereals #Wine #Oil #Fiscal_property #Object #Inflow #Purchase"
                             >Pumpiano</placeName> prope <rs key="#Churches">eclesia</rs>
-                        <orgName key="#Churches">Sancti Machari</orgName> cum <rs key="#Cereals"
-                            >terris</rs>, <rs key="#Wine">vineis</rs>, <rs key="#Oil">olivitis</rs>,
-                        vel omnia quantum in suprascriptas locas avire visis fuirunt, recipet
-                        eclesia Sancti Martini <rs key="#Casae/cassinae_massaricie">casa</rs>
+                        <orgName key="#Churches" ref="#juridical_persons/251">Sancti
+                            Machari</orgName> cum <rs key="#Cereals">terris</rs>, <rs key="#Wine"
+                            >vineis</rs>, <rs key="#Oil">olivitis</rs>, vel omnia quantum in
+                        suprascriptas locas avire visis fuirunt, recipet eclesia Sancti Martini <rs
+                            key="#Casae/cassinae_massaricie">casa</rs>
                         <persName key="#Casae/cassinae_massaricie"><name ref="Willulus"
                                 >Willuli</name></persName> et <rs key="#Casae/cassinae_massaricie"
                             >casa</rs>
@@ -195,36 +196,51 @@
                             key="#Size #Cereals #Fiscal_property #Object #Inflow #Purchase">ad
                             Ausare</placeName>, quod est <rs key="#Size">modiorum sex</rs>;
                         similiter recipet <rs key="#Mother_churches">eclesia</rs> Sancti Martini
-                        duas <rs key="#Petiae">petias de terra</rs> in loco Roncho, una qui fuet
-                        Protestuli <rs key="#Royal_slave">serbo domni regi</rs> et illa alia ipsorum
-                        case pertenentem de Turrem, qui ad ipsi hominis avitaturis in Turre da
-                        Saxulo in <rs key="#Commutatio">viganium</rs> obvinet, qui sunt inter ambas
-                        petias <rs key="#Size">sistariorum duas minus de quinque modiorum</rs>
-                        propter duas petias de terra qui fuerant Auripert vel de germani eius in
-                        ipso loco Roncho, quod sunt per mensura <rs key="#Size">quattuor sistariorum
-                            minus de quinque modiorum</rs>; et de terre ipsorum homenis avitaturis
-                        in Turre, hic circa civitate, <rs key="#Fiscal_property #Object #Exceptive"
-                            >reserbatum est a curte domni regi terra <rs key="#Size">scaffiliorum
-                                tris</rs>, qui est prope <rs key="#Landed_possessions">terra</rs>
-                            Saxuli</rs>; et pro <rs key="#Wine">vinea</rs> ipsius Auripert vel de
-                        germani eius ultra <rs key="#Rivers">fluvium</rs> Ausere, qui est per
-                        mensura <rs key="#Size">modiloco uno</rs>, et recipet eclesia Sancti Martini
-                        de ipsis suprascritptis homenis de Turre, in ipso loco Turre <rs key="#Wine"
-                            >vinea</rs> prope <rs key="#Churches">eclesia</rs> Sancti Martini, alio
-                        modiloco, sub extimationem. Et ipse edificia Auripert seo de germani eius in
-                        atpretiato fuirunt amplius <rs key="#Value">valentem soledus
-                            quatragenta</rs>, et ipse edificias quem curtes hic prope civitate dedet
-                        eclesie Sancti Martini, et qualiter placuet domno regi, ut ipse viganium
-                        quem curtes regia dare amplius valentem melioratus super ipsum cambium quem
-                        ad eclesiam Sancti Martini reciperat, soledus quatragenta; et de ipsa terra
-                        quem dedet curte regia relicum fuet <rs key="#Size">sistariorum
-                            quattuordeci</rs> tam pro ipsa meliorationem quam et pro ipsas fabricas
-                        que amplius fuet valentem. Omnia adimplivet curtis domni regi eclesie Sancti
-                        Martini de fondamento et clausura illa ubi ipse casa ipsorum Aumunduli et
-                        Sivoli edificata est, cum <rs key="#Fruits/vegetables">pomis</rs> vel omnia
-                        ipsa clausura in integrum, excepto res movile. De <rs
-                            key="#Work_and_workers">hominis</rs> viro dedet <rs
-                            key="#Mother_churches">eclesia</rs> Sancti Martini: Ansprand,
+                        duas <rs key="#Petiae">petias de terra</rs> in loco <placeName
+                            key="#Petiae #Size #Fiscal_property #Object #Outflow #Counter-gift #Royal_slave"
+                            >Roncho</placeName>, una qui fuet <persName key="#Royal_slave"><name
+                                ref="Protestulus">Protestuli</name></persName>
+                        <rs key="#Royal_slave">serbo domni regi</rs> et illa alia ipsorum case
+                        pertenentem de <placeName key="#Fiscal_property #Mention" ref="#places/513"
+                            >Turrem</placeName>, qui ad ipsi hominis avitaturis in Turre da
+                                <persName><name ref="Sassulus">Saxulo</name></persName> in <rs
+                            key="#Commutatio #Fiscal_property #Mention #Inflow #Purchase"
+                            >viganium</rs> obvinet, qui sunt inter ambas petias <rs key="#Size"
+                            >sistariorum duas minus de quinque modiorum</rs> propter duas petias de
+                        terra qui fuerant Auripert vel de germani eius in ipso loco <placeName
+                            key="#Petiae #Size #Textual_occurrence #Object #Inflow #Purchase"
+                            >Roncho</placeName>, quod sunt per mensura <rs key="#Size">quattuor
+                            sistariorum minus de quinque modiorum</rs>; et de <rs
+                            key="#Landed_possessions">terre</rs> ipsorum homenis avitaturis in
+                            <placeName
+                            key="#Landed_possessions #Size #Fiscal_property #Object #Exceptive"
+                            >Turre</placeName>, hic circa civitate, <rs
+                            key="#Fiscal_property #Object #Exceptive">reserbatum est a curte domni
+                            regi terra <rs key="#Size">scaffiliorum tris</rs>, qui est prope <rs
+                                key="#Landed_possessions">terra</rs>
+                            <persName><name ref="Sassulus">Saxuli</name></persName></rs>; et pro <rs
+                            key="#Wine">vinea</rs> ipsius Auripert vel de germani eius <placeName
+                            key="#Size #Wine #Fiscal_property #Object #Inflow #Purchase">ultra <rs
+                                key="#Rivers">fluvium</rs> Ausere</placeName>, qui est per mensura
+                            <rs key="#Size">modiloco uno</rs>, et recipet eclesia Sancti Martini de
+                        ipsis suprascritptis homenis de Turre, in ipso loco <placeName
+                            key="#Wine #Fiscal_property #Object #Outflow #Counter-gift"
+                            ref="#places/513">Turre</placeName>
+                        <rs key="#Wine">vinea</rs> prope <rs key="#Churches">eclesia</rs>
+                        <orgName key="#Churches">Sancti Martini</orgName>, alio modiloco, sub
+                        extimationem. Et ipse edificia Auripert seo de germani eius in atpretiato
+                        fuirunt amplius <rs key="#Value">valentem soledus quatragenta</rs>, et ipse
+                        edificias quem curtes hic prope civitate dedet eclesie Sancti Martini, et
+                        qualiter placuet domno regi, ut ipse viganium quem curtes regia dare amplius
+                        valentem melioratus super ipsum cambium quem ad eclesiam Sancti Martini
+                        reciperat, soledus quatragenta; et de ipsa terra quem dedet curte regia
+                        relicum fuet <rs key="#Size">sistariorum quattuordeci</rs> tam pro ipsa
+                        meliorationem quam et pro ipsas fabricas que amplius fuet valentem. Omnia
+                        adimplivet curtis domni regi eclesie Sancti Martini de fondamento et
+                        clausura illa ubi ipse casa ipsorum Aumunduli et Sivoli edificata est, cum
+                            <rs key="#Fruits/vegetables">pomis</rs> vel omnia ipsa clausura in
+                        integrum, excepto res movile. De <rs key="#Work_and_workers">hominis</rs>
+                        viro dedet <rs key="#Mother_churches">eclesia</rs> Sancti Martini: Ansprand,
                         Catocciulo, Fosculo, Hemmulo <rs key="#Other_clerics">clerico</rs>, Teulo,
                         Mauriculo, Aurifia, Auriperga, Castaldu, […lo] et Aricondula; et recipet a
                             <rs key="#Curtes">curte</rs> domni <rs key="#Emperor/king">regi</rs>:
