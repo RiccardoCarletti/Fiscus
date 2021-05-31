@@ -81,22 +81,31 @@
                 <body>
                     <div type="edition">
                         <div type="textpart">
-                            <ab>Walprand in Dei nomine <rs key="#Bishops">episcopus</rs>, quia ex
-                        iussione domni nostri Aistulfi <rs key="#Emperor/king">regis</rs> directus
-                        sum in <rs key="#Army">exercito</rs> ambulandum cum ipso. Unde dispensare
-                        previdi de <rs key="#Landed_possessions">omnibus rebus meis</rs> ut, dum
-                        advivere meruero, omnia in mea sit potestate (…); et si mihi occasio mortis
+                            <ab><persName key="#Bishops" ref="#people/320">Walprand</persName> in
+                        Dei nomine <rs key="#Bishops">episcopus</rs>, quia ex iussione domni nostri
+                            <persName key="#Emperor/king" ref="#people/48">Aistulfi</persName>
+                        <rs key="#Emperor/king">regis</rs> directus sum in <rs key="#Army"
+                            >exercito</rs> ambulandum cum ipso. Unde dispensare previdi de <rs
+                            key="#Landed_possessions">omnibus rebus meis</rs> ut, dum advivere
+                        meruero, omnia in mea sit potestate (…); et si mihi occasio mortis
                         obvenerit, volo ut omnes res meas que iniudicata vel non vinduta aut non
                         donata remanserit, duas partes habeat <rs key="#Mother_churches"
-                            >eclesia</rs> Sancti Martini, ubi nunc presenti ego pontifex esse
-                        videor; et taliter volo, ut una pars de ipse duo portionis, quas in eclesia
-                        Sancti Martini feci, debeat esse in <rs key="#Hospitals">senodochio</rs> qui
-                        a domno Talesperiano <rs key="#Bishops">episcopo</rs> hic fore <rs
-                            key="#Walls">muro</rs>
-                        <rs key="#Cities">civitatis</rs> constructum est; et tertiam partem habeat
-                            <rs key="#Churches">eclesia</rs> Sancti Fridiani, ubi ipse <rs
-                            key="#Relics">sanctus corpus requiescit</rs>; et quarta parte habeat <rs
-                            key="#Churches">eclesia</rs> Sancte Reparate, ubi Garimundus <rs
+                            >eclesia</rs>
+                        <orgName key="#Mother_churches" ref="#juridical_persons/68">Sancti
+                            Martini</orgName>, ubi nunc presenti ego pontifex esse videor; et
+                        taliter volo, ut una pars de ipse duo portionis, quas in eclesia Sancti
+                        Martini feci, debeat esse in <orgName key="#Hospitals"
+                            ref="#juridical_persons/132"><rs key="#Hospitals"
+                            >senodochio</rs></orgName> qui a domno <persName key="#Bishops"
+                            ref="#people/313">Talesperiano</persName>
+                        <rs key="#Bishops">episcopo</rs> hic fore <rs key="#Walls">muro</rs>
+                        <placeName ref="#places/4" key="#Cities #Walls"><rs key="#Cities"
+                                >civitatis</rs></placeName> constructum est; et tertiam partem
+                        habeat <rs key="#Churches">eclesia</rs>
+                        <orgName key="#Churches #Relics" ref="#juridical_persons/70">Sancti
+                            Fridiani</orgName>, ubi ipse <rs key="#Relics">sanctus corpus
+                            requiescit</rs>; et quarta parte habeat <rs key="#Churches">eclesia</rs>
+                        <orgName key="#Churches">Sancte Reparate</orgName>, ubi Garimundus <rs
                             key="#Other_clerics">clericus</rs>
                         <rs key="#Priors">custor</rs> esse videtur, <foreign>affinché i preti di
                             dette chiese preghino per lui</foreign>. <rs key="#Slave">Servos autem
