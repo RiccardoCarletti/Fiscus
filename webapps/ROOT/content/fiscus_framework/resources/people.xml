@@ -282,6 +282,8 @@
                     <persName>Aistulfus (749-756) rex</persName>
                     <idno>people/48</idno>
                     <note/>
+                    <link type="people" corresp="#people/389" subtype="dominusOf"/>
+                    <link type="people" corresp="#people/390" subtype="dominusOf"/>
                 </person>
                 <person>
                     <persName>Anselmus (752-803) abbas Nonantulensis</persName>
@@ -342,25 +344,25 @@
                     <link type="people" corresp="#people/155" subtype="daughterOf"/>
                 </person>
                 <person>
-                    <persName>Honorius I (625-638) papa</persName>
+                    <persName>Honorius I (papa; 625-638) </persName>
                     <idno>people/68</idno>
                     <note>Cf. Sennis 2013.</note>
                     <link type="places" corresp="#places/52" subtype="hasConnectionWith"/>
                 </person>
                 <person>
-                    <persName>Zacharias (741-752) papa</persName>
+                    <persName>Zacharias (papa; 741-752) </persName>
                     <idno>people/69</idno>
                     <note>Cf. Delogu 2020.</note>
                     <link type="places" corresp="#places/52" subtype="hasConnectionWith"/>
                 </person>
                 <person>
-                    <persName>Sergius II (844-847) papa</persName>
+                    <persName>Sergius II (papa; 844-847) </persName>
                     <idno>people/70</idno>
                     <note>Cf. Bonaccorsi 2018.</note>
                     <link type="places" corresp="#places/52" subtype="hasConnectionWith"/>
                 </person>
                 <person>
-                    <persName>Gregorius II (715-731) papa</persName>
+                    <persName>Gregorius II (papa; 715-731)</persName>
                     <idno>people/71</idno>
                     <note>Cf. Delogu 2002.</note>
                 </person>
@@ -1135,8 +1137,11 @@
                     <link type="people" subtype="professionalRelationship" corresp="#people/159"/>
                     <link type="people" corresp="#people/154" subtype="nephewOf"/>
                     <link type="people" corresp="#people/114" subtype="cousinOf"/>
+                    <link type="people" corresp="#people/167" subtype="grandfatherOf"/>
                     <link type="juridical_persons" corresp="#juridical_persons/97"
                         subtype="benefactorOf"/>
+                    <link type="juridical_persons"
+                        corresp="juridical_persons/84" subtype="benefactorOf"/>
                 </person>
                 <person>
                     <persName>Pandolfus (944-981) princeps</persName>
@@ -1145,12 +1150,15 @@
                     <idno>people/157</idno>
                     <note/>
                     <link type="people" corresp="#people/156" subtype="sonOf"/>
+                    <link type="people" corresp="#people/315" subtype="brotherOf"/>
                     <link type="places" corresp="#places/110" subtype="hasConnectionWith"/>
                     <link type="places" subtype="hasConnectionWith" corresp="#places/173"/>
                     <link type="people" corresp="#people/159" subtype="professionalRelationship"/>
                     <link type="juridical_persons" corresp="#juridical_persons/97"
                         subtype="benefactorOf"/>
                     <link type="people" corresp="#people/167" subtype="fatherOf"/>
+                    <link type="juridical_persons"
+                        corresp="juridical_persons/84" subtype="benefactorOf"/>
                 </person>
                 <person>
                     <persName>Gisulfus (720?-751) dux</persName>
@@ -1223,6 +1231,7 @@
                     <note>Castagnetti 2006. </note>
                     <link type="places" corresp="#places/59" subtype="hasConnectionWith"/>
                     <link type="people" corresp="#people/21" subtype="compaterOf"/>
+                    <link type="estates" corresp="#estates/124" subtype="link"/>
                 </person>
                 <person>
                     <persName>Landolfus (968-982) princeps</persName>
@@ -1230,6 +1239,8 @@
                     <idno>people/167</idno>
                     <note/>
                     <link type="people" corresp="#people/157" subtype="sonOf"/>
+                    <link type="people" corresp="#people/315" subtype="#nephewOf"/>
+                    <link type="people" corresp="#people/156" subtype="grandsonOf"/>
                 </person>
                 <person>
                     <persName>Adelgarda (963) abbatissa</persName>
@@ -1394,6 +1405,7 @@
                         riguardante il territorio veronese (D B I n. XVI), ma non vi sono prove
                         ulteriori a sostegno dell'ipotesi. Si veda anche Hlawitschka 1960, p. 120.
                     </note>
+                    <link type="people" corresp="people/21" subtype="link"/>
                 </person>
                 <person>
                     <persName>Arichis (837) marpahis</persName>
@@ -1532,7 +1544,7 @@
                     <note><foreign>Chronica Monasterii Casinensis</foreign>, I, 60</note>
                     <link type="people" corresp="#people/156" subtype="benefactorOf"/>
                     <link type="juridical_persons" corresp="#juridical_persons/84" subtype="link"/>
-                    <link type="estates" subtype="hasConnectionWith" corresp="#estates/150"/>
+                    <link type="estates" subtype="hasConnectionWith" corresp="#estates/150"/> 
                 </person>
                 <person>
                     <persName>Rodulfus (IV; Aldobrandeschi; 1074-1099; q. 1105) comes</persName>
@@ -1999,7 +2011,7 @@
                     <link type="juridical_persons" corresp="#juridical_persons/151" subtype="link"/>
                 </person>
                 <person>
-                    <persName>Iohannes II (876-912) episcopus Ticinensis</persName>
+                    <persName>Iohannes II (876-911 episcopus Ticinensis)</persName>
                     <persName type="other"/>
                     <idno>people/253</idno>
                     <note/>
@@ -2286,8 +2298,7 @@
                     <note/>
                     <link type="people" subtype="link" corresp="#people/261"/>
                     <link type="people" subtype="link" corresp="#people/171"/>
-                    <link type="juridical_persons"
-                        corresp="#juridical_persons/81 #juridical_persons/" subtype="link"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
                 </person>
                 <person>
                     <persName>Petrus (?-997) episcopus Vercellensis</persName>
@@ -2419,6 +2430,8 @@
                     <idno>people/304</idno>
                     <note>Thomas 2016: 270</note>
                     <link type="people" corresp="#people/305" subtype="sonOf"/>
+                    <link type="juridical_persons"
+                        corresp="juridical_persons/84" subtype="benefactorOf"/>
                 </person>
                 <person>
                     <persName>Landolfus (901-943) princeps</persName>
@@ -2498,7 +2511,7 @@
                     <link type="juridical_persons" corresp="#juridical_persons/68" subtype="link"/>
                 </person>
                 <person>
-                    <persName>Walpertus (dux Lucensis; 713-736) </persName>
+                    <persName>Walpertus (dux Lucensis; 713-736; q. 752) </persName>
                     <persName type="other"/>
                     <idno>people/314</idno>
                     <note/>
@@ -2506,6 +2519,9 @@
                     <link type="people" corresp="#people/320" subtype="fatherOf"/>
                     <link type="people" corresp="#people/345" subtype="link"/>
                     <link type="people" corresp="#people/370" subtype="link"/>
+                    <link type="people" corresp="#people/386" subtype="fatherOf"/>
+                    <link type="estates" corresp="#estates/210" subtype="hasConnectionWith"/>
+                    <link type="people" corresp="#people/387" subtype="fatherOf"/>
                 </person>
                 <person>
                     <persName>Landolfus III (959-968/969) princeps</persName>
@@ -2513,6 +2529,8 @@
                     <idno>people/315</idno>
                     <note>Beolchini 2004</note>
                     <link type="people" corresp="#people/156" subtype="sonOf"/>
+                    <link type="people" corresp="#people/167" subtype="uncleOf"/>
+                    <link type="people" corresp="#people/157" subtype="brotherOf"/>
                     <link type="juridical_persons" corresp="#juridical_persons/84" subtype="link"/>
                 </person>
                 <person>
@@ -2560,6 +2578,11 @@
                     <link type="places" corresp="#places/4" subtype="hasConnectionWith"/>
                     <link type="juridical_persons" corresp="#juridical_persons/219" subtype="link"/>
                     <link type="people" corresp="#people/314" subtype="sonOf"/>
+                    <link type="people" corresp="#people/386" subtype="brotherOf"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/68" subtype="link"/>
+                    <link type="people" corresp="#people/387" subtype="brotherOf"/>
+                    <link type="people" corresp="#people/389" subtype="link"/>
+                    <link type="people" corresp="#people/391" subtype="link"/>
                 </person>
                 <person>
                     <persName>Berta (regina; 1002-1014)</persName>
@@ -2801,7 +2824,7 @@
                     <link type="juridical_persons" corresp="#juridical_persons/228" subtype="link"/>
                 </person>
                 <person>
-                    <persName>Ursa (722) abbatissa</persName>
+                    <persName>Ursa (722-739) abbatissa</persName>
                     <persName type="other"/>
                     <idno>people/346</idno>
                     <note/>
@@ -2819,11 +2842,12 @@
                     <link type="juridical_persons" corresp="#juridical_persons/228" subtype="link"/>
                 </person>
                 <person>
-                    <persName>Alahis (722) vir magnificus</persName>
+                    <persName>Alahis (722; q. 749-50) vir magnificus</persName>
                     <persName type="other"/>
                     <idno>people/348</idno>
                     <note/>
                     <link type="people" corresp="#people/345" subtype="link"/>
+                    <link type="people" corresp="#people/385" subtype="fatherOf"/>
                 </person>
                 <person>
                     <persName>Adlegida (908) abbatissa</persName>
@@ -2886,7 +2910,7 @@
                     <persName type="other"/>
                     <idno>people/356</idno>
                     <link type="people" corresp="#people/165" subtype="link"/>
-                    <link type="people" corresp="#people/21" subtype="fidelis_of"/>
+                    <link type="people" corresp="#people/21" subtype="fidelisOf"/>
                     <link type="juridical_persons" corresp="#juridical_persons/67" subtype="link"/>
                     <note/>
                 </person>
@@ -2901,7 +2925,7 @@
                     <note/>
                 </person>
                 <person>
-                    <persName>Sichimundus (730) archipresbiter ecclesie Lucensis</persName>
+                    <persName>Sichimundus (730-740) archipresbiter ecclesie Lucensis</persName>
                     <persName type="other"/>
                     <idno>people/358</idno>
                     <note/>
@@ -2913,6 +2937,9 @@
                     <link type="people" corresp="#people/363" subtype="link"/>
                     <link type="people" corresp="#people/364" subtype="link"/>
                     <link type="places" corresp="#places/4" subtype="hasConnectionWith"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/242" subtype="link"/>
+                    <link type="people" corresp="#people/381" subtype="legallyRecognisedUnionWith"/>
+                    <link type="people" corresp="#people/380" subtype="fatherInLawOf"/>
                 </person>
                 <person>
                     <persName>Teudebertus (730) gasindius regis</persName>
@@ -3024,7 +3051,7 @@
                         riportato in DD B I, pp. 88-92, n° XXX.</note>
                 </person>
                 <person>
-                    <persName>Iohannes III (912-924 episcopus Ticinensis) </persName>
+                    <persName>Iohannes III (911-924 episcopus Ticinensis) </persName>
                     <persName type="other"/>
                     <idno>people/369</idno>
                     <link type="people" corresp="#people/21" subtype="link"/>
@@ -3095,13 +3122,154 @@
                         subtype="hasConnectionWith"/>
                 </person>
                 <person>
-                    <persName>Herimannus (episcopus Pauenbergensis; 1065-1075)</persName>
+                    <persName>Aufridus (736-741) vir devotus gasindius</persName>
                     <persName type="other"/>
                     <idno>people/377</idno>
-                    <note>Vescovo di Bamberga deposto nel 1075.</note>
-                    <link type="people" corresp="#people/77" subtype="link"/>
-                    <link type="people" corresp="#people/366" subtype="link"/>
-                    <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
+                    <note/>
+                    <link type="places" corresp="#places/619" subtype="hasConnectionWith"/>
+                </person>
+                <person>
+                    <persName>Liutwardus (915) episcopus Comensis</persName>
+                    <idno>people/378</idno>
+                    <link type="people" subtype="link" corresp="#people/21"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/227" subtype="link"/>
+                    <note/>
+                </person>
+                <person>
+                    <persName>Giovanni <foreign>Braccacurta (905)</foreign></persName>
+                    <idno>people/379</idno>
+                    <link type="people" subtype="link" corresp="#people/21"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/90" subtype="link"/>
+                    <link type="places" corresp="#places/59" subtype="link"/>
+                    <note> Giovanni Braccacurta fu uno dei sostenitori di Ludovico III. Viene citato anche nei <foreign>Gesta Berengarii</foreign>, p. 128, IV, vv. 66-69, che ne raccontano la cattura e la morte: "Tu ponens etiam curtum femorale Johannes/alta tenes turri, si fortis resumere vitam/sis potis: hinc traheris tamen ad distrimina mortis. / Et miser in patria nudus truncaris harena". Mor 1964, pp. 93-94, n. 4.  </note>
+                </person>
+                <person>
+                    <persName>Sindo (q. 740)</persName>
+                    <persName type="other"/>
+                    <idno>people/380</idno>
+                    <note/>
+                    <link type="people" corresp="#people/358" subtype="sonInLawOf"/>
+                    <link type="people" corresp="#people/381" subtype="fatherOf"/>
+                </person>
+                <person>
+                    <persName>Auria (740)</persName>
+                    <persName type="other"/>
+                    <idno>people/381</idno>
+                    <note/>
+                    <link type="people" corresp="#people/380" subtype="daughterOf"/>
+                    <link type="people" corresp="#people/358" subtype="legallyRecognisedUnionWith"/>
+                </person>
+                <person>
+                    <persName>Ratepertus (746) centenarius</persName>
+                    <persName type="other"/>
+                    <idno>people/382</idno>
+                    <note/>
+                    <link type="places" corresp="#places/674" subtype="hasConnectionWith"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/244" subtype="link"/>
+                </person>
+                <person>
+                    <persName>Barbula (746) centenarius</persName>
+                    <persName type="other"/>
+                    <idno>people/383</idno>
+                    <note/>
+                    <link type="people" corresp="#people/382" subtype="link"/>
+                    <link type="places" corresp="#places/674" subtype="hasConnectionWith"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/244" subtype="link"/>
+                </person>
+                <person>
+                    <persName>Adalbertus (944) episcopus Capuae</persName>
+                    <persName type="other">Adelpertus; Adalpertus</persName>
+                    <idno>people/384</idno>
+                    <note/>
+                    <link type="juridical_persons" corresp="juridical_persons/105" subtype="link"/>
+                    <link type="places" corresp="#places/173" subtype="hasConnectionWith"/>
+                    <link type="juridical_persons" corresp="juridical_persons/84" subtype="link"/>
+                    <link type="people" corresp="#people/157" subtype="link"/>
+                    <link type="people" corresp="#people/156" subtype="link"/>
+                </person>
+                <person>
+                    <persName>Alamundus (749-750) vir magnificus</persName>
+                    <persName type="other"/>
+                    <idno>people/385</idno>
+                    <note/>
+                    <link type="people" corresp="#people/348" subtype="sonOf"/>
+                </person>
+                <person>
+                    <persName>Perprandus (752) vir magnificus</persName>
+                    <persName type="other"/>
+                    <idno>people/386</idno>
+                    <note/>
+                    <link type="people" corresp="#people/314" subtype="sonOf"/>
+                    <link type="people" corresp="#people/320" subtype="brotherOf"/>
+                    <link type="people" corresp="#people/387" subtype="brotherOf"/>
+                </person>
+                <person>
+                    <persName>Pertifunsus (753)</persName>
+                    <persName type="other"/>
+                    <idno>people/387</idno>
+                    <note/>
+                    <link type="people" corresp="#people/314" subtype="sonOf"/>
+                    <link type="people" corresp="#people/320" subtype="brotherOf"/>
+                    <link type="people" corresp="#people/386" subtype="brotherOf"/>
+                </person>
+                <person>
+                    <persName>Pando (754) vir devotus centenarius</persName>
+                    <persName type="other"><foreign>Bandus</foreign>; </persName>
+                    <idno>people/388</idno>
+                    <note/>
+                    <link type="juridical_persons" corresp="#juridical_persons/243" subtype="link"/>
+                </person>
+                <person>
+                    <persName>Alpertus (754-755) dux Lucensis</persName>
+                    <persName type="other"/>
+                    <idno>people/389</idno>
+                    <note/>
+                    <link type="people" corresp="#people/48" subtype="agentFor"/>
+                    <link type="people" corresp="#people/320" subtype="link"/>
+                    <link type="places" corresp="#places/4" subtype="hasConnectionWith"/>
+                    <link type="people" corresp="#people/392" subtype="link"/>
+                </person>
+                <person>
+                    <persName>Auripertus (754-755) pictor</persName>
+                    <persName type="other"/>
+                    <idno>people/390</idno>
+                    <note/>
+                    <link type="people" corresp="#people/48" subtype="clientOf"/>
+                    <link type="people" corresp="#people/389" subtype="link"/>
+                    <link type="people" corresp="#people/320" subtype="link"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/68" subtype="link"/>
+                </person>
+                <person>
+                    <persName>Auducius (754) scario</persName>
+                    <persName type="other"/>
+                    <idno>people/391</idno>
+                    <note/>
+                    <link type="people" corresp="#people/320" subtype="agentFor"/>
+                </person>
+                <person>
+                    <persName>Teudebertus (754) scario</persName>
+                    <persName type="other"/>
+                    <idno>people/392</idno>
+                    <note/>
+                    <link type="people" corresp="#people/48" subtype="link"/>
+                    <link type="people" corresp="#people/389" subtype="agentFor"/>
+                </person>
+                <person>
+                    <persName>Aumundulus (754) quondam epistolas deportans</persName>
+                    <persName type="other"/>
+                    <idno>people/393</idno>
+                    <note/>
+                    <link type="estates" corresp="#estates/78" subtype="hasConnectionWith"/>
+                    <link type="places" corresp="#places/4" subtype="hasConnectionWith"/>
+                </person>
+                <person>
+                    <persName>Silvulus (754) quondam epistolas deportans</persName>
+                    <persName type="other"/>
+                    <idno>people/394</idno>
+                    <note/>
+                    <link type="estates" corresp="#estates/78" subtype="hasConnectionWith"/>
+                    <link type="places" corresp="#places/4" subtype="hasConnectionWith"/>
+                    <link type="people" corresp="#people/393" subtype="link"/>
                 </person>
             </listPerson>
         </body>
