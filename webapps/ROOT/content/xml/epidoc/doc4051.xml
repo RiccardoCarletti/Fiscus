@@ -201,9 +201,10 @@
                             >Roncho</placeName>, una qui fuet <persName key="#Royal_slave"><name
                                 ref="Protestulus">Protestuli</name></persName>
                         <rs key="#Royal_slave">serbo domni regi</rs> et illa alia ipsorum case
-                        pertenentem de <placeName key="#Fiscal_property #Mention" ref="#places/513"
-                            >Turrem</placeName>, qui ad ipsi hominis avitaturis in Turre da
-                                <persName><name ref="Sassulus">Saxulo</name></persName> in <rs
+                        pertenentem de <geogName key="#Curtes" ref="#estates/316"><placeName
+                                key="#Fiscal_property #Mention" ref="#places/513"
+                            >Turrem</placeName></geogName>, qui ad ipsi hominis avitaturis in Turre
+                        da <persName><name ref="Sassulus">Saxulo</name></persName> in <rs
                             key="#Commutatio #Fiscal_property #Mention #Inflow #Purchase"
                             >viganium</rs> obvinet, qui sunt inter ambas petias <rs key="#Size"
                             >sistariorum duas minus de quinque modiorum</rs> propter duas petias de
@@ -214,7 +215,7 @@
                             key="#Landed_possessions">terre</rs> ipsorum homenis avitaturis in
                             <placeName
                             key="#Landed_possessions #Size #Fiscal_property #Object #Exceptive"
-                            >Turre</placeName>, hic circa civitate, <rs
+                            ref="#places/513">Turre</placeName>, hic circa civitate, <rs
                             key="#Fiscal_property #Object #Exceptive">reserbatum est a curte domni
                             regi terra <rs key="#Size">scaffiliorum tris</rs>, qui est prope <rs
                                 key="#Landed_possessions">terra</rs>
@@ -227,25 +228,42 @@
                             key="#Wine #Fiscal_property #Object #Outflow #Counter-gift"
                             ref="#places/513">Turre</placeName>
                         <rs key="#Wine">vinea</rs> prope <rs key="#Churches">eclesia</rs>
-                        <orgName key="#Churches">Sancti Martini</orgName>, alio modiloco, sub
-                        extimationem. Et ipse edificia Auripert seo de germani eius in atpretiato
-                        fuirunt amplius <rs key="#Value">valentem soledus quatragenta</rs>, et ipse
-                        edificias quem curtes hic prope civitate dedet eclesie Sancti Martini, et
-                        qualiter placuet domno regi, ut ipse viganium quem curtes regia dare amplius
-                        valentem melioratus super ipsum cambium quem ad eclesiam Sancti Martini
-                        reciperat, soledus quatragenta; et de ipsa terra quem dedet curte regia
-                        relicum fuet <rs key="#Size">sistariorum quattuordeci</rs> tam pro ipsa
-                        meliorationem quam et pro ipsas fabricas que amplius fuet valentem. Omnia
-                        adimplivet curtis domni regi eclesie Sancti Martini de fondamento et
-                        clausura illa ubi ipse casa ipsorum Aumunduli et Sivoli edificata est, cum
-                            <rs key="#Fruits/vegetables">pomis</rs> vel omnia ipsa clausura in
-                        integrum, excepto res movile. De <rs key="#Work_and_workers">hominis</rs>
-                        viro dedet <rs key="#Mother_churches">eclesia</rs> Sancti Martini: Ansprand,
-                        Catocciulo, Fosculo, Hemmulo <rs key="#Other_clerics">clerico</rs>, Teulo,
-                        Mauriculo, Aurifia, Auriperga, Castaldu, […lo] et Aricondula; et recipet a
-                            <rs key="#Curtes">curte</rs> domni <rs key="#Emperor/king">regi</rs>:
-                        Mauripert, Baroncello, Bonari, Agiprand, Luciprand, Audipert et Magniperga,
-                        Ermitroda, Ciontula, Maurella et Asperta, Seipert, Teudipert, Hildipert <rs
+                        <orgName key="#Churches" ref="#juridical_persons/252">Sancti
+                            Martini</orgName>, alio modiloco, sub extimationem. Et ipse edificia
+                        Auripert seo de germani eius in atpretiato fuirunt amplius <rs key="#Value"
+                            >valentem soledus quatragenta</rs>, et ipse edificias quem curtes hic
+                        prope civitate dedet eclesie Sancti Martini, et qualiter placuet domno regi,
+                        ut ipse viganium quem curtes regia dare amplius valentem melioratus super
+                        ipsum cambium quem ad eclesiam Sancti Martini reciperat, soledus
+                        quatragenta; et de ipsa terra quem dedet curte regia relicum fuet <rs
+                            key="#Size">sistariorum quattuordeci</rs> tam pro ipsa meliorationem
+                        quam et pro ipsas fabricas que amplius fuet valentem. Omnia adimplivet
+                        curtis domni regi eclesie Sancti Martini de fondamento et clausura illa ubi
+                        ipse casa ipsorum Aumunduli et Sivoli edificata est, cum <rs
+                            key="#Fruits/vegetables">pomis</rs> vel omnia ipsa clausura in integrum,
+                        excepto res movile. De <rs key="#Slave_labour">hominis</rs> viro dedet <rs
+                            key="#Mother_churches">eclesia</rs> Sancti Martini: <rs
+                            key="#Fiscal_property #Object #Inflow #Purchase #Slave_labour"><persName
+                                key="#Slave_labour"><name ref="Ansebrandus"
+                                >Ansprand</name></persName>, <persName key="#Slave_labour"><name
+                                    ref="Catocciulus">Catocciulo</name></persName>, <persName
+                                key="#Slave_labour"><name ref="Fusculus">Fosculo</name></persName>,
+                                <persName key="#Slave_labour #Other_clerics"><name ref="Emmulus"
+                                    >Hemmulo</name></persName>
+                            <rs key="#Other_clerics">clerico</rs>, <persName key="#Slave_labour"
+                                    ><name ref="Teulus">Teulo</name></persName>, <persName
+                                key="#Slave_labour"><name ref="Mauriculus"
+                                >Mauriculo</name></persName>, <persName key="#Slave_labour"><name
+                                    ref="Aurifia">Aurifia</name></persName>, <persName
+                                key="#Slave_labour"><name ref="Auriperga"
+                                >Auriperga</name></persName>, <persName key="#Slave_labour"><name
+                                    ref="Castaldus">Castaldu</name></persName>, <persName
+                                key="#Slave_labour">[…lo]</persName> et <persName
+                                key="#Slave_labour"><name ref="Auricundula"
+                                >Aricondula</name></persName></rs>; et recipet a <rs key="#Curtes"
+                            >curte</rs> domni <rs key="#Emperor/king">regi</rs>: Mauripert,
+                        Baroncello, Bonari, Agiprand, Luciprand, Audipert et Magniperga, Ermitroda,
+                        Ciontula, Maurella et Asperta, Seipert, Teudipert, Hildipert <rs
                             key="#Other_clerics">clerico</rs> et Gaitroda. Modo viro qualiter ipse
                         cambium ex urtaque partis factum vel contraditum est, stavilitum diveat
                         permanire, qualiter suprascriptua commutatio acta est per Walprand episcopus
