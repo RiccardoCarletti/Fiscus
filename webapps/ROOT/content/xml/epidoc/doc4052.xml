@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>AALu, dipl., +I.76 (copia 755-58)</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc4052</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Testamentum/iudicatum</rs>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Copy</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate when="0754-07-03">
+                                <note type="displayed_date">754 luglio [2-3?]</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date"/>
+                            </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-05-31" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab>Walprand in Dei nomine episcopus, quia ex iussione domni nostri
+                        Aistulfi regis directus sum in exercito ambulandum cum ipso. Unde dispensare
+                        previdi de omnibus rebus meis ut, dum advivere meruero, omnia in mea sit
+                        potestate (…); et si mihi occasio mortis obvenerit, volo ut omnes res meas
+                        que iniudicata vel non vinduta aut non donata remanserit, duas partes habeat
+                        eclesia Sancti Martini, ubi nunc presenti ego pontifex esse videor; et
+                        taliter volo, ut una pars de ipse duo portionis, quas in eclesia Sancti
+                        Martini feci, debeat esse in senodochio qui a domno Talesperiano episcopo
+                        hic fore muro civitatis constructum est; et tertiam partem habeat eclesia
+                        Sancti Fridiani, ubi ipse sanctus corpus requiescit; et quarta parte habeat
+                        eclesia Sancte Reparate, ubi Garimundus clericus custor esse videtur,
+                        affinché i preti di dette chiese preghino per lui. Servos autem meos vel
+                        ancillas volo ut liveri omnes esse debeant et a ius patronati absoluti,
+                        sicut illi homines qui ex nubile genere procreati et nati esse videntur. Chi
+                        si opponga o i preti che non pregassero per lui siano sottoposti al giudizio
+                        divino. Et vos fratres meos Perprand et Pertifuns, volo ut habeatis parte me
+                        de pecunia nostra in Corsica in integrum; et in hoc sitits contempti. Se
+                        Walprando tornasse salvo dalla guerra, il testamento sia annullato. Scrive:
+                        Osprando subdiacono nostro. (…) Actum in Luca, in domo sacnte eclesie. Et
+                        quod menime recordatus sum, quicquid indivisum de rebus meis remanserit, aut
+                        per quocumque ingenio mihi legibus pertenet, mobile vel inmobile, volo ut,
+                        sicut supra legitur, in suprascriptas eclesias debeat esse potestate; sic
+                        tamen, ut supra dixi, post decesso meo in eo ordine permaneat.
+                        Sottoscrizioni: Walprand in Dei nomine episcopus (ss); Ospert exiguus
+                        diaconus (ss); Buccio presbitero (ss); Gauspertus exiguus clericus et rector
+                        eclesie Sancti Fridiani (ss); + Garimund viri devoti testis; + Gairipert
+                        viri devoti testis. Copia: Ego ipse Osprand subdiaconus supradictus scriptor
+                        quantum in autenticum inveni, nec plus addendi, nec menime scribsi; et
+                        presens exempla data est Mauri, qui fuit supradicti bone memorie quondam
+                        Vualprand episcopi. </ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>Ughelli, IS, I, 795; MDL, IV/1, n. 46; reg. MDL, V/2, n. 48; CDL, I, n.
+                    114, pp. 333-336; ChLA, XXXII, 939.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                         <p>Persone: Astolfo re; Vualprand [Walprando] ep [di Lucca]; Talesperiano
+                    ep [di Lucca]; Garimundus cler (rettore di S. Reparata); Perprand (fr. Walprando
+                    ep, Pertifuns); Pertifuns (fr. Walprando ep, Perprand); Osprando s/diac; Ospert
+                    diac; Buccio pbr; Gauspertus cler rector eccl. S. Fridiani; Garimund v. dev.;
+                    Gairipert v. dev.; Mauri. Luoghi: civitate - Luca [Lucca]; Corsica. Chiese:
+                    eclesia Sancti Martini - domo sancte eclesie [S. Martino di Lucca]; eclesia
+                    sancti Fridiani [S. Frediano di Lucca]; eclesia Sancte Reparate [S. Reparata di
+                    Lucca]. Cariche: . Note: Walprando sta partendo con l’esercito di Astolfo.
+                    Indice: fam. Walprando - testamento - exercitus - xenodochio - servi.
+                        <foreign>Nota dorsale (sec VIII)</foreign>: Iudicato Walprandi episcopi.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>
