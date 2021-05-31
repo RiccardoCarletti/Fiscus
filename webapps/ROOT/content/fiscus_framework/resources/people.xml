@@ -342,25 +342,25 @@
                     <link type="people" corresp="#people/155" subtype="daughterOf"/>
                 </person>
                 <person>
-                    <persName>Honorius I (papa; 625-638) </persName>
+                    <persName>Honorius I (625-638) papa</persName>
                     <idno>people/68</idno>
                     <note>Cf. Sennis 2013.</note>
                     <link type="places" corresp="#places/52" subtype="hasConnectionWith"/>
                 </person>
                 <person>
-                    <persName>Zacharias (papa; 741-752) </persName>
+                    <persName>Zacharias (741-752) papa</persName>
                     <idno>people/69</idno>
                     <note>Cf. Delogu 2020.</note>
                     <link type="places" corresp="#places/52" subtype="hasConnectionWith"/>
                 </person>
                 <person>
-                    <persName>Sergius II (papa; 844-847) </persName>
+                    <persName>Sergius II (844-847) papa</persName>
                     <idno>people/70</idno>
                     <note>Cf. Bonaccorsi 2018.</note>
                     <link type="places" corresp="#places/52" subtype="hasConnectionWith"/>
                 </person>
                 <person>
-                    <persName>Gregorius II (papa; 715-731)</persName>
+                    <persName>Gregorius II (715-731) papa</persName>
                     <idno>people/71</idno>
                     <note>Cf. Delogu 2002.</note>
                 </person>
@@ -2286,7 +2286,8 @@
                     <note/>
                     <link type="people" subtype="link" corresp="#people/261"/>
                     <link type="people" subtype="link" corresp="#people/171"/>
-                    <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
+                    <link type="juridical_persons"
+                        corresp="#juridical_persons/81 #juridical_persons/" subtype="link"/>
                 </person>
                 <person>
                     <persName>Petrus (?-997) episcopus Vercellensis</persName>
@@ -3092,13 +3093,6 @@
                     <link type="juridical_persons" corresp="#juridical_persons/53" subtype="link"/>
                     <link type="estates" corresp="#estates/90 #estates/91 #estates/293"
                         subtype="hasConnectionWith"/>
-                </person>
-                <person>
-                    <persName>Aufridus (736-741) vir devotus gasindius</persName>
-                    <persName type="other"/>
-                    <idno>people/377</idno>
-                    <note/>
-                    <link type="places" corresp="#places/619" subtype="hasConnectionWith"/>
                 </person>
             </listPerson>
         </body>
