@@ -33,7 +33,7 @@
                             <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Uncertain tradition</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -88,33 +88,49 @@
                         fidelium nostrorumque presentium ac futurorum comperiat solertia, qualiter
                             <persName key="#Bishops"><name ref="Beatus">Beatus</name></persName>
                         sancte <orgName ref="#juridical_persons/239">Terdonensis ecclesie</orgName>
-                        venerabilis episcopus per Ioannem Ticinensem et Liutardum Cumanum
-                        venerabiles presules nostre sugessit maiestati, ut teloneum et districtum et
-                        omnem publicam functionem, sicut hactenus investita plebs de Viqueria
-                        fuerat, confirmaremus et corroboraremus. Insuper etiam aqueductum de
-                        Stafulla ad molendina construenda ad opus eiusdem plebis per quamcunque
-                        terram que nostre pertineret regie potestati, et ut nullsin eodem aqueductu
-                        sine sua suorumque successorum licentia molendinum construere audeat,
-                        concedere ac donare dignaremur. Quorum petitionibus assensum prebentes,
-                        eidem plebi in honorem sancti Laurentii constructe teloneum, districtum et
-                        omnem publicam functionem, sicut hactenus tenuit et investita fuit, per hoc
-                        nostrum preceptum confirmamus et corroboramus. Insuper etiam largimur et
-                        concedimus, ut aqueductum de Stafulla ad molendina conficienda ad opus
-                        predicte ecclesie sive per nostram regiam terram sive per publicam viam
-                        deducat, et si aliqua regia terra ibi vicina est ubi molendinum possit
-                        construi ad opus ipsius ecclesie, quantum necesse est ex eadem accipiat
-                        terra, et publicam, si opus est, viam incidat. Statuimus quoque et
-                        interdicimus, ut nemo in eodem aqueductu, quem prefatus episcopus vel sui
-                        successores fecerint, conficiendi molendinum potestatem habeat nisi consensu
-                        et licentia episcopi qui pro tempore in eadem Terdonensi ecclesia fuerit. Si
-                        quis igitur huius precepti violator extiterit, auri optimi manchosos mille
-                        componere cogatur, medietatem camere nostre et medietatem rectoribus ipsius
-                        ecclesie. Quod ut verius credatur diligentiusque ab omnibus observetur, manu
-                        propria roborantes anuli nostri impressione subter insigniri iussimus.
-                        Signum serenissimi (M) Berengarii regis. Iohannes episcopus et cancellarius
-                        ad vicem Ardingi episcopi et archicancellarii recognovi et [subscripsi].
-                        Data kalendis februarii, [anno] dominice incarnationis DCCCCXVIIII regni
-                        domni Berengarii piissimi regis XXVIIII, indictione VIII, Actum in
+                        venerabilis episcopus per <persName key="#Bishops" ref="#people/369">Ioannem
+                            Ticinensem</persName> et <persName key="#Bishops" ref="#people/378"
+                            >Liutardum Cumanum</persName> venerabiles <rs key="#Bishops"
+                            >presules</rs> nostre sugessit maiestati, ut <rs key="#Teloneum"
+                            >teloneum</rs> et <rs key="#Districtio">districtum</rs> et omnem
+                        publicam functionem, sicut hactenus investita <rs key="#Plebs">plebs</rs> de
+                            <orgName key="#Plebs" ref="#juridical_persons/241">Viqueria</orgName>
+                        fuerat, confirmaremus et corroboraremus. Insuper etiam <rs
+                            key="#Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_groups #Aqueducts"
+                            >aqueductum</rs> de Stafulla ad <rs
+                            key="#Mills #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_groups"
+                            >molendina</rs> construenda ad opus eiusdem plebis per quamcunque <rs
+                            key="#Landed_possessions #Fiscal_property #Textual_occurrence #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_groups"
+                            >terram que nostre pertineret regie potestati</rs>, et ut nullus in
+                        eodem aqueductu sine sua suorumque successorum licentia molendinum
+                        construere audeat, concedere ac donare dignaremur. Quorum petitionibus
+                        assensum prebentes, eidem plebi in honorem sancti Laurentii constructe
+                        teloneum, districtum et omnem publicam functionem, sicut hactenus tenuit et
+                        investita fuit, per hoc nostrum preceptum confirmamus et corroboramus.
+                        Insuper etiam largimur et concedimus, ut aqueductum de Stafulla ad molendina
+                        conficienda ad opus predicte ecclesie sive per nostram regiam terram sive
+                        per publicam viam deducat, et si aliqua regia terra ibi vicina est ubi
+                        molendinum possit construi ad opus ipsius ecclesie, quantum necesse est ex
+                        eadem accipiat terra, et publicam, si opus est, viam incidat. Statuimus
+                        quoque et interdicimus, ut nemo in eodem aqueductu, quem prefatus episcopus
+                        vel sui successores fecerint, conficiendi molendinum potestatem habeat nisi
+                        consensu et licentia episcopi qui pro tempore in eadem Terdonensi ecclesia
+                        fuerit. Si quis igitur huius precepti violator extiterit, <rs key="#Penalty"
+                            >auri optimi manchosos mille</rs> componere cogatur, <rs
+                            key="#Camera_regis">medietatem camere nostre</rs> et <rs
+                            key="#Camera_of_other_public_authorities">medietatem rectoribus ipsius
+                            ecclesie</rs>. Quod ut verius credatur diligentiusque ab omnibus
+                        observetur, manu propria roborantes anuli nostri impressione subter
+                        insigniri iussimus. Signum serenissimi (M) Berengarii regis. <persName
+                            key="#Chancellor #Bishops"><name ref="Iohannes"
+                            >Iohannes</name></persName>
+                        <rs key="#Bishops">episcopus</rs> et <rs key="#Chancellor">cancellarius</rs>
+                        ad vicem <persName key="#Archchancellor #Bishops" ref="#people/216"
+                            >Ardingi</persName>
+                        <rs key="#Bishops">episcopi</rs> et <rs key="#Archchancellor"
+                            >archicancellarii</rs> recognovi et [subscripsi]. Data kalendis
+                        februarii, [anno] dominice incarnationis DCCCCXVIIII regni domni Berengarii
+                        piissimi regis XXVIIII, indictione VIII, Actum in
                             <placeName>Coriano</placeName>, feliciter.</ab>
                 </div>
             </div>

@@ -712,6 +712,8 @@
                     <link type="people" corresp="#people/71" subtype="link"/>
                     <link type="estates" corresp="#estates/237" subtype="isMadeOf"/>
                     <link type="estates" corresp="#estates/238" subtype="isMadeOf"/>
+                    <link type="estates" corresp="#estates/308" subtype="isMadeOf"/>
+                    <link type="people" corresp="#people/71" subtype="link"/>
                 </place>             
                 <place>
                     <geogName>Tora; <foreign>curtis</foreign></geogName>
@@ -1049,6 +1051,7 @@
                     <link type="people" corresp="#people/156" subtype="link"/>
                     <link type="juridical_persons" corresp="#juridical_persons/84" subtype="link"/>
                     <link type="people" corresp="#people/189" subtype="link"/>
+                    
                 </place>
                 <place>
                     <geogName>Lodi; <foreign>comitatus</foreign></geogName>
@@ -1528,7 +1531,7 @@
                 </place>
                 <place>
                     <geogName><foreign>Sancti Geminiani</foreign>; <foreign>massa</foreign></geogName>
-                    <geogName type="other"/>
+                    <geogName type="other">Gavello</geogName>
                     <idno>estates/204</idno>
                     <note/>
                     <link type="juridical_persons" corresp="#juridical_persons/96" subtype="link"/>
@@ -1776,7 +1779,7 @@
                     <idno>estates/233</idno>
                     <note>Faini 2010, pp. 38-39, 41.</note>
                     <link type="people" corresp="#people/21 #people/220" subtype="link"/>
-                    <link type="places" corresp="#places/523" subtype="isInVicinityof"/>
+                    <link type="places" corresp="#places/523" subtype="isInVicinityOf"/>
                     <link type="places" corresp="#places/522" subtype="hasConnectionWith"/>
                     <link type="juridical_persons" corresp="#juridical_persons/204" subtype="link"/>
                 </place>
@@ -1883,9 +1886,9 @@
                         subtype="link"/>
                 </place>
                 <place>
-                    <geogName><foreign>in finibus Aquinensis</foreign>;
-                        <foreign>terrae</foreign></geogName>
-                    <geogName type="other"/>
+                    <geogName>Aquino; <foreign>fines</foreign>
+                        </geogName>
+                    <geogName type="other">Aquino; <foreign>terrae</foreign>; <foreign>Aquinensis fines</foreign></geogName>
                     <idno>estates/246</idno>
                     <note/>
                     <link type="people" corresp="#people/317 #people/157" subtype="link"/>
@@ -2004,8 +2007,8 @@
                     <geogName type="other"/>
                     <idno>estates/261</idno>
                     <note/>
-                    <link type="estates" corresp="#estates/172" subtype="hasconnectionwith"/>
-                    <link type="estates" corresp="#estates/124" subtype="ispartof"/>
+                    <link type="estates" corresp="#estates/172" subtype="hasConnectionWith"/>
+                    <link type="estates" corresp="#estates/124" subtype="isPartOf"/>
                     <link type="places" corresp="#places/306" subtype="link"/>
                     <link type="people" corresp="#people/21" subtype="link"/>
                     <link type="people" corresp="#people/334" subtype="link"/>
@@ -2098,7 +2101,7 @@
                     <geogName type="other"/>
                     <idno>estates/270</idno>
                     <note/>
-                    <link type="places" corresp="#places/10" subtype="haConnectionWith"/>
+                    <link type="places" corresp="#places/10" subtype="hasConnectionWith"/>
                 </place>
                 <place>
                     <geogName>Cremona; <foreign>comitatus</foreign></geogName>
@@ -2358,7 +2361,7 @@
                     <link type="juridical_persons" corresp="#juridical_persons/92" subtype="link"/>
                     <link type="places" corresp="#places/12" subtype="hasConnectionWith"/>
                     <link type="places" corresp="#places/607" subtype="isMadeOf"/>
-                    <link type="estates" corresp="#estates/297" subtype="isAdiacentTo"/>
+                    <link type="estates" corresp="#estates/297" subtype="isAdjacentTo"/>
                     <note/>
                 </place>
                 <place>
@@ -2398,6 +2401,152 @@
                     <link type="places" corresp="#places/364" subtype="isMadeOf"/>
                     <link type="juridical_persons" corresp="#juridical_persons/90" subtype="link"/>
                     <link type="estates" corresp="estates/124" subtype="isPartOf"/>
+                </place>
+                <place>
+                    <geogName><foreign>Villapicta; curtis</foreign></geogName>
+                    <geogName type="other"> <foreign>Dominatoria</foreign></geogName>
+                    <idno>estates/303</idno>
+                    <note> Si tratta dell'attuale Villimpenta, Castagnetti, 1974-1975 e 2011, p. 8. Mor 1964, pp. 61-62, segnala una donazione di terre regie in Villimpenta, che sarebbe stata effettuata da Berengario a favore del monastero di San Zeno nell’893. Tuttavia, l’unico diploma di Berengario datato 893 e diretto a San Zeno non sembra riguardare Villimpenta, disponendo, invece, la conferma di due <foreign>manentes</foreign>, estratti dalla corte regia di Albaredo e già donati al monastero dalla comitissa Gisla, e la donazione della corte di Meleto, nel gardesano </note>
+                    <link type="people" corresp="#people/21" subtype="link"/>
+                    <link type="people" corresp="#people/379" subtype="link"/>
+                    <link type="people" corresp="#people/155" subtype="link"/>
+                    <link type="places" corresp="#places/622" subtype="isMadeOf"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/90" subtype="link"/>
+                    <link type="people" corresp="#people/155" subtype="link"/>
+                </place>
+                <place>
+                    <geogName>Palatiolum; <foreign>curtis</foreign></geogName>
+                    <geogName type="other"/>
+                    <idno>estates/304</idno>
+                    <note/>
+                    <link type="people" corresp="#people/21" subtype="link"/>
+                    <link type="places" corresp="#places/623" subtype="isWithin"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/211" subtype="link"/>
+                </place>
+                <place>
+                    <geogName>Ianuensis; <foreign>curtis</foreign></geogName>
+                    <geogName type="other">Genuensis</geogName>
+                    <idno>estates/305</idno>
+                    <note/>
+                    <link type="people" corresp="#people/21" subtype="link"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/211" subtype="link"/>
+                    <link type="estates" corresp="estates/304" subtype="link"/>
+                </place>
+                <place>
+                    <geogName>Tortona; <foreign>comitatus</foreign></geogName>
+                    <geogName type="other"/>
+                    <idno>estates/306</idno>
+                    <note/>
+                    <link type="people" corresp="#people/21" subtype="link"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/211" subtype="link"/>
+                    <link type="places" corresp="#places/627" subtype="hasConnectionWith"/>
+                </place>
+                <place>
+                    <geogName>Acqui; <foreign>comitatus</foreign></geogName>
+                    <geogName type="other"/>
+                    <idno>estates/307</idno>
+                    <note/>
+                    <link type="people" corresp="#people/21" subtype="link"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/211" subtype="link"/>
+                    <link type="places" corresp="#places/628" subtype="hasConnectionWith"/>
+                </place>
+                <place>
+                    <geogName><foreign>Vaianicum</foreign>; <foreign>fossa</foreign></geogName>
+                    <geogName type="other"/>
+                    <idno>estates/308</idno>
+                    <note>De Francesco 2004: 243. La fossa è identificabile con il Fosso di Pratica,
+                        nei pressi di Tor Vaianica (Roma).</note>
+                    <link type="people" corresp="#people/71" subtype="link"/>
+                    <link type="estates" corresp="#estates/120" subtype="isPartOf"/>
+                </place>
+                <place>
+                    <geogName><foreign>Ripafracta</foreign>; <foreign>curtis</foreign></geogName>
+                    <geogName type="other"/>
+                    <idno>estates/309</idno>
+                    <note/>
+                    <link type="people" corresp="#people/15" subtype="link"/>
+                    <link type="people" corresp="#people/13" subtype="link"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/66"/>
+                    <link type="places" corresp="#places/19" subtype="link"/>
+                </place>
+                <place>
+                    <geogName>Treviso; <foreign>curtis ducis</foreign></geogName>
+                    <geogName type="other"/>
+                    <idno>estates/310</idno>
+                    <note/>
+                    <link type="people" corresp="#people/15" subtype="link"/>
+                    <link type="people" corresp="#people/13" subtype="link"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/66"/>
+                    <link type="places" corresp="#places/39" subtype="link"/>
+                </place>
+                <place>
+                    <geogName>de Robationico; <foreign>curtis</foreign></geogName>
+                    <geogName type="other"/>
+                    <idno>estates/311</idno>
+                    <note/>
+                    <link type="people" corresp="#people/21" subtype="link"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/211" subtype="link"/>
+                    <link type="estates" corresp="estates/305" subtype="link"/>
+                    <link type="estates" corresp="estates/304" subtype="link"/>
+                </place>
+                <place>
+                    <geogName>Brescia; <foreign>comitatus</foreign></geogName>
+                    <geogName type="other"/>
+                    <idno>estates/312</idno>
+                    <note/>
+                    <link type="people" corresp="#people/21" subtype="link"/>
+                    <link type="places" corresp="#places/9" subtype="hasConnectionWith"/>
+                    <link type="places" corresp="#places/26" subtype="hasConnectionWith"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/30" subtype="link"/>
+                </place>
+                <place>
+                    <geogName><foreign>terra Sancti Benedicti</foreign>; (Cassino; Frosinone)</geogName>
+                    <geogName type="other"/>
+                    <idno>estates/313</idno>
+                    <note/>
+                    <link type="people" corresp="#people/332" subtype="link"/>
+                    <link type="people" corresp="#people/305" subtype="link"/>
+                    <link type="people" corresp="#people/154" subtype="link"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/84" subtype="link"/>
+                    <link type="places" corresp="#places/694" subtype="hasWithin"/>
+                    <link type="places" corresp="#places/693" subtype="hasWithin"/>
+                    <link type="places" corresp="#places/692" subtype="hasWithin"/>
+                    <link type="places" corresp="#places/690" subtype="hasWithin"/>
+                    <link type="places" corresp="#places/689" subtype="hasWithin"/>
+                    <link type="places" corresp="#places/688" subtype="hasWithin"/>
+                    <link type="places" corresp="#places/687" subtype="hasWithin"/>
+                    <link type="places" corresp="#places/686" subtype="hasWithin"/>
+                    <link type="places" corresp="#places/685" subtype="hasWithin"/>
+                    <link type="places" corresp="#places/684" subtype="hasWithin"/>
+                    <link type="places" corresp="#places/683" subtype="hasWithin"/>
+                    <link type="places" corresp="#places/682" subtype="hasWithin"/>
+                    <link type="places" corresp="#places/681" subtype="hasWithin"/>
+                    <link type="places" corresp="#places/680" subtype="hasWithin"/>
+                    <link type="places" corresp="#places/679" subtype="hasWithin"/>
+                    <link type="places" corresp="#places/678" subtype="hasWithin"/>
+                    <link type="places" corresp="#places/699" subtype="hasWithin"/>
+                    <link type="places" corresp="#places/698" subtype="hasWithin"/>
+                    <link type="places" corresp="#places/697" subtype="hasWithin"/>
+                    <link type="places" corresp="#places/706" subtype="hasWithin"/>
+                </place>
+                <place>
+                    <geogName><foreign>Casa Gentiana</foreign>; <foreign>curtis</foreign></geogName>
+                    <geogName type="other">Casa Genziana</geogName>
+                    <idno>estates/314</idno>
+                    <note/>
+                    <link type="people" corresp="#people/167" subtype="link"/>
+                    <link type="people" corresp="#people/309" subtype="link"/>
+                    <link type="people" corresp="#people/156" subtype="link"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/84" subtype="link"/>
+                </place>
+                <place>
+                    <geogName><foreign>Tuna</foreign>; <foreign>curtis</foreign></geogName>
+                    <geogName type="other"/>
+                    <idno>estates/315</idno>
+                    <note/>
+                    <link type="people" corresp="#people/21" subtype="link"/>
+                    <link type="people" corresp="#people/400" subtype="link"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/223" subtype="link"/>
                 </place>
             </listPlace>
         </body>

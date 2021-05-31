@@ -47,8 +47,10 @@
                         10.50121307373047</geo></geogName>
                     <idno>places/4</idno>
                     <note>Microtoponomastica: <foreign>Porta Sancti Petri</foreign>; <foreign>Porta
-                            Sancti Donati</foreign>; <foreign>ad Silice</foreign>;
-                        <foreign>Perolascio</foreign>; <foreign>Cipriano</foreign>; <foreign>a Pulia</foreign>.</note>
+                            Sancti Donati</foreign>; <foreign>Porta Sancti Gervasii</foreign>;
+                            <foreign>Porta Sancti Vincentii</foreign>; <foreign>ad Silice</foreign>;
+                            <foreign>Perolascio</foreign>; <foreign>Cipriano</foreign>; <foreign>a
+                            Pulia</foreign>; <foreign>Apulia</foreign>; <foreign>Placule</foreign>; </note>
                 </place>
                 <place>
                     <placeName>Sale (Alessandria)</placeName>
@@ -153,10 +155,13 @@
                         di Marengo</note>
                 </place>
                 <place>
-                    <placeName>Biverone (Venezia)</placeName>
+                    <placeName>Biverone (San Stino di Livenza; Venezia)</placeName>
                     <geogName type="coord"><geo>45.69372, 12.71281</geo></geogName>
                     <idno>places/19</idno>
-                    <note>Frazione di San Stino di Livenza</note>
+                    <note/>
+                    <link type="people" corresp="#people/15" subtype="link"/>
+                    <link type="people" corresp="#people/13" subtype="link"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/66"/>
                 </place>
                 <place>
                     <placeName><foreign>Auriola</foreign> (Trino; Vercelli)</placeName>
@@ -212,6 +217,8 @@
                     <geogName type="coord"><geo>45.64322, 9.99241</geo></geogName>
                     <idno>places/26</idno>
                     <note>frazione di Corte Franca</note>
+                    <link type="people" corresp="#people/21" subtype="link"/>
+                    <link type="people" corresp="#people/67" subtype="link"/>
                 </place>
                 <place>
                     <placeName><foreign>Persiceta</foreign> (San Giovanni in Persiceto;
@@ -381,7 +388,7 @@
                     <link type="estates" corresp="#estates/60" subtype="hasConnectionWith"/>
                     <link type="people" corresp="#people/7 #people/237 #people/366 #people/288"
                         subtype="link"/>
-                    <link type="juridical_persons" corresp="#juridical_person/81" subtype="link"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
                 </place>
                 <place>
                     <placeName>Biella</placeName>
@@ -472,7 +479,7 @@
                 </place>
                 <place>
                     <placeName>Marlia (Lucca; Lucca)</placeName>
-                    <placeName type="other"/>
+                    <placeName type="other"><foreign>Marilau</foreign>; </placeName>
                     <geogName type="coord"><geo>43.892349, 10.559020</geo></geogName>
                     <idno>places/60</idno>
                     <note/>
@@ -838,7 +845,7 @@
                     <geogName type="coord"><geo>45.225624, 8.510349</geo></geogName>
                     <idno>places/100</idno>
                     <note/>
-                    <link type="juridical_persons" corresp="#juridical_person/81" subtype="link"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
                     <link type="people" corresp="#people/7 #people/237 #people/366 #people/288"
                         subtype="link"/>
                 </place>
@@ -1030,7 +1037,6 @@
                     <geogName type="coord"><geo>42.972561, 10.689564</geo></geogName>
                     <idno>places/132</idno>
                     <note>Ceccarelli 2004: 6 nt. 38</note>
-                    <link type="places"/>
                     <link type="estates" corresp="#estates/87" subtype="isPartOf"/>
                 </place>
                 <place>
@@ -1371,7 +1377,7 @@
                     <placeName>Capua (Caserta)</placeName>
                     <placeName type="other"/>
                     <geogName type="coord"><geo>41.09971, 14.22013</geo></geogName>
-                    <idno>places/173</idno>
+                    <idno>s</idno>
                     <note/>
                     <link type="places" corresp="#places/609" subtype="hasInItsVicinity"/>
                 </place>
@@ -1416,10 +1422,10 @@
                 </place>
                 <place>
                     <placeName>Guamo (Lucca; Lucca)</placeName>
-                    <placeName type="other"/>
+                    <placeName type="other"><foreign>Vuamo</foreign>; </placeName>
                     <geogName type="coord"><geo>43.811119, 10.512886</geo></geogName>
                     <idno>places/179</idno>
-                    <note/>
+                    <note>Microtoponomastica: <foreign>Saliceta</foreign>; </note>
                 </place>
                 <place>
                     <placeName>Vaccoli (San Lorenzo a Vaccoli; Lucca; Lucca)</placeName>
@@ -2268,8 +2274,8 @@
                 <place>
                     <placeName>Tricasi (Poggio Castello Tricasi; Massa Marittima;
                         Grosseto)</placeName>
-                    <placeName type="other"><foreign>Trecasem</foreign></placeName>
-                    <geogName type="coord"><geo>43.0826118, 10.8025653</geo></geogName>
+                    <placeName type="other"><foreign>Trecasem</foreign>; <foreign>Gricaso</foreign>; </placeName>
+                    <geogName type="coord"><geo>43.0830043, 10.8024211</geo></geogName>
                     <idno>places/264</idno>
                     <note/>
                     <link type="estates" corresp="#estates/153" subtype="isPartOf"/>
@@ -2784,11 +2790,13 @@
                     <note/>
                 </place>
                 <place>
-                    <placeName>Tricasi (Poggio Castello Tricasi; Massa Marittima)</placeName>
-                    <placeName type="other"><foreign>Gricaso</foreign></placeName>
-                    <geogName type="coord"><geo>43.0829769, 10.8022665</geo></geogName>
+                    <placeName><foreign>Pompiano</foreign> (San Macario in Monte; Lucca;
+                        Lucca)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>43.883, 10.42697</geo></geogName>
                     <idno>places/325</idno>
                     <note/>
+                    <link type="juridical_persons" corresp="#juridical_persons/251" subtype="link"/>
                 </place>
                 <place>
                     <placeName><foreign>Chastianu</foreign> (Podere Castiano; Radicondoli;
@@ -2998,8 +3006,6 @@
                     <idno>places/352</idno>
                     <note/>
                     <link type="estates" corresp="#estates/165" subtype="hasConnectionWith"/>
-                    <link type="estates" corresp="#estates/165" subtype="hasConnectionWith"/>
-                    <link type="estates" corresp="#estates/165" subtype="hasConnectionWith"/>
                 </place>
                 <place>
                     <placeName>Fiorano Modenese (Modena)</placeName>
@@ -3095,6 +3101,7 @@
                     <idno>places/364</idno>
                     <note/>
                     <link type="people" corresp="#people/21" subtype="link"/>
+                    <link type="estates" corresp="#estates/124" subtype="link"/>
                 </place>
                 <place>
                     <placeName>San Filippo (Lucca; Lucca)</placeName>
@@ -3615,7 +3622,7 @@
                     <link type="juridical_persons" corresp="#juridical_persons/131" subtype="link"/>
                 </place>
                 <place>
-                    <placeName>S. Pietro [di Farneta] (Buti; Pisa)</placeName>
+                    <placeName>San Pietro [di Farneta] (Buti; Pisa)</placeName>
                     <placeName type="other"/>
                     <geogName type="coord"><geo>43.7260584, 10.5818239</geo></geogName>
                     <idno>places/428</idno>
@@ -3818,8 +3825,8 @@
                 </place>
                 <place>
                     <placeName>Gavello (Mirandola; Modena)</placeName>
-                    <placeName type="other"/>
-                    <geogName type="coord"><geo>44.91352, 11.299095</geo></geogName>
+                    <placeName type="other"><foreign>massa Sancti Geminiani</foreign></placeName>
+                    <geogName type="coord"><geo>44.924730566721486, 11.18371848658183</geo></geogName>
                     <idno>places/453</idno>
                     <note></note>
                     <link type="juridical_persons" corresp="#juridical_persons/96" subtype="link"/>
@@ -3918,7 +3925,7 @@
                     <placeName type="other"/>
                     <geogName type="coord"><geo>43.90094131032583, 10.69201539438697</geo></geogName>
                     <idno>places/464</idno>
-                    <note/>
+                    <note>Microtoponomastica: <foreign>ad Sorbulo</foreign>; </note>
                 </place>
                 <place>
                     <placeName>San Genesio (San Miniato; Pisa)</placeName>
@@ -4090,7 +4097,7 @@
                     <idno>places/486</idno>
                     <note>Microtoponomastica: <foreign>ad Pirulo</foreign>; <foreign>ad
                             Piunte</foreign>; <foreign>Valle Alpranduli</foreign>;
-                            <foreign>Larini</foreign>.</note>
+                            <foreign>Larini</foreign>; <foreign>Communalia</foreign>; </note>
                 </place> 
                 <place>
                     <placeName>Sorbano del Vescovo (Lucca; Lucca)</placeName>
@@ -4222,10 +4229,12 @@
                 </place>
                 <place>
                     <placeName>Montecalvoli (Santa Maria a Monte; Pisa)</placeName>
-                    <placeName type="other"><foreign>Monteflexesi</foreign>; <foreign>Alberetum</foreign></placeName>
+                    <placeName type="other"><foreign>Monteflexesi</foreign>;
+                            <foreign>Alberetum</foreign>; <foreign>Noctuno</foreign>; </placeName>
                     <geogName type="coord"><geo>43.6878201, 10.6584587</geo></geogName>
                     <idno>places/504</idno>
                     <note/>
+                    <link type="juridical_persons" corresp="#juridical_persons/245" subtype="link"/>
                 </place>
                 <place>
                     <placeName>Arezzo</placeName>
@@ -4331,7 +4340,7 @@
                     <idno>places/518</idno>
                     <note/>
                     <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
-                    <link type="people" corresp="#people/261 #people/288  #people/366 #people/237"
+                    <link type="people" corresp="#people/261 #people/288 #people/366 #people/237"
                         subtype="link"/>
                 </place>
                 <place>
@@ -4951,8 +4960,8 @@
                     <idno>places/591</idno>
                     <note/>
                     <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
-                    <link type="estates" corresp="62" subtype="hasConnectionWith"/>
-                    <link type="people" corresp="237;7; 366; 288" subtype="link"/>
+                    <link type="estates" corresp="#estates/62" subtype="hasConnectionWith"/>
+                    <link type="people" corresp="#people/237 #people/7 #people/366 #people/288" subtype="link"/>
                 </place>
                 <place>
                     <placeName>Casino (Alessandria)</placeName>
@@ -4983,7 +4992,7 @@
                     <placeName type="other"><foreign>Telidana; Telidiano; Allidianas</foreign></placeName>
                     <geogName type="coord"><geo>45.191232, 11.059113</geo></geogName>
                     <idno>places/595</idno>
-                    <link type="estates" corresp="#estates/116" subtype="HasConnectionWith"/>
+                    <link type="estates" corresp="#estates/116" subtype="hasConnectionWith"/>
                     <link type="estates" corresp="#estates/124" subtype="hasConnectionWith"/>
                     <link type="people" corresp="#people/21" subtype="link"/>
                     <link type="people" corresp="#people/227" subtype="link"/>
@@ -5241,6 +5250,812 @@
                     <geogName type="coord"><geo>42.6573998, 11.6453257</geo></geogName>
                     <idno>places/619</idno>
                     <note/>
+                </place>
+                <place>
+                    <placeName>Garda (Verona)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>45.574879, 10.70858</geo></geogName>
+                    <idno>places/620</idno>
+                    <note/>
+                    <link type="people" corresp="people/21" subtype="link"/>
+                    <link type="people" corresp="people/166" subtype="link"/>
+                    <link type="estates" corresp="estates/124" subtype="link"/>
+                    <link type="estates" corresp="estates/302" subtype="link"/>
+                    <link type="juridical_persons" corresp="juridical_persons/90" subtype="link"/>
+                    <link type="places" corresp="places/364" subtype="link"/>
+                </place>
+                <place>
+                    <placeName>Voghera (Pavia)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>44.992210, 9.009680</geo></geogName>
+                    <idno>places/621</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>Villimpenta (Mantova)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord">45.142094, 11.033707</geogName>
+                    <idno>places/622</idno>
+                    <note/>
+                    <link type="people" corresp="#people/21" subtype="link"/>
+                    <link type="people" corresp="#people/379" subtype="link"/>
+                    <link type="people" corresp="#people/155" subtype="link"/>
+                   
+                    <link type="estates" corresp="#estates/303" subtype="isPartOf"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/90" subtype="link"/>
+                   </place>
+                <place>
+                    <placeName>Palazzolo sull'Oglio (Brescia)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>45.599579, 9.885080</geo></geogName>
+                    <idno>places/623</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>Nosedole (Roncoferraro; Mantova)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>45.115934, 10.990963</geo></geogName>
+                    <idno>places/624</idno>
+                    <note/>
+                    <link type="people" corresp="#people/21" subtype="link"/>
+                    <link type="people" corresp="#people/379" subtype="link"/>
+                    <link type="people" corresp="#people/155" subtype="link"/>
+                    <link type="places" corresp="#places/622" subtype="isAdjacentTo"/>
+                    <link type="estates" corresp="#estates/303" subtype="isAdjacentTo"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/90" subtype="link"/>
+                </place>
+                <place>
+                    <placeName><foreign>Corvolata </foreign>
+                    </placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>45.15178, 10.976222</geo></geogName>
+                    <idno>places/625</idno>
+                    <note>Secondo Castagnetti, da identificare con la località di Cornovala o con la
+                        roggia omonima, site entrambe nei pressi di Villimpenta, v. Castagnetti
+                        1974-1975, p. 87. </note>
+                    <link type="places" corresp="#places/624" subtype="isInVicinityOf"/>
+                    <link type="people" corresp="#people/21" subtype="link"/>
+                    <link type="people" corresp="#people/379" subtype="link"/>
+                    <link type="people" corresp="#people/155" subtype="link"/>
+                    <link type="places" corresp="#places/622" subtype="isAdjacentTo"/>
+                    <link type="estates" corresp="#estates/303" subtype="isAdjacentTo"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/90" subtype="link"/>
+                </place>
+                <place>
+                    <placeName>Genova</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>44.407059, 8.933990</geo></geogName>
+                    <idno>places/626</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>Tortona (Alessandria)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>44.897171, 8.865490</geo></geogName>
+                    <idno>places/627</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>Acqui Terme (Alessandria)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>44.675529, 8.470670</geo></geogName>
+                    <idno>places/628</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName><foreign>Ceneda</foreign> (Vittorio Veneto; Treviso)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>45.976938, 12.294227</geo></geogName>
+                    <idno>places/629</idno>
+                    <link corresp="juridical_persons" type="juridical_persons/101" subtype="link"/>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>Fosso di Pratica (Roma)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo style="line">41.633381, 12.481113; 41.633035,
+                            12.477965; 41.634782, 12.476395; 41.635344, 12.472698; 41.634149,
+                            12.463225; 41.626478, 12.454188</geo></geogName>
+                    <idno>places/630</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>Campori (Castiglione di Garfagnana; Lucca) </placeName>
+                    <placeName type="other"><foreign>Vico Campulo</foreign>; <foreign>Vico
+                            Canpulo</foreign>; </placeName>
+                    <geogName type="coord"><geo>44.139568, 10.4196646</geo></geogName>
+                    <idno>places/631</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>Trassilico (Gallicano; Lucca)</placeName>
+                    <placeName type="other"><foreign>Trasicclu</foreign>; </placeName>
+                    <geogName type="coord"><geo>44.0427161, 10.4042502</geo></geogName>
+                    <idno>places/632</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>San Michele in Escheto (Lucca; Lucca)</placeName>
+                    <placeName type="other"><foreign>Sclito</foreign>; </placeName>
+                    <geogName type="coord"><geo>43.8156638, 10.4799611</geo></geogName>
+                    <idno>places/633</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName><foreign>Nassaria</foreign></placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo></geo></geogName>
+                    <idno>places/634</idno>
+                    <note/>
+                    <link corresp="juridical_persons" type="juridical_persons/211" subtype="link"/>
+                    <link corresp="people" type="people/21" subtype="link"/>
+                </place>
+                <place>
+                    <placeName><foreign>Terra Arsa</foreign></placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo></geo></geogName>
+                    <idno>places/635</idno>
+                    <note/>
+                    <link corresp="juridical_persons" type="juridical_persons/211" subtype="link"/>
+                    <link corresp="people" type="people/21" subtype="link"/>
+                </place>
+                <place>
+                    <placeName><foreign>Rivassi</foreign></placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo></geo></geogName>
+                    <idno>places/636</idno>
+                    <note>Potrebbe trattarsi dell'attuale Rivarone (Alessandria)</note>
+                    <link corresp="juridical_persons" type="juridical_persons/211" subtype="link"/>
+                    <link corresp="people" type="people/21" subtype="link"/>
+                </place>
+                <place>
+                    <placeName><foreign>Altruelini</foreign></placeName>
+                    <placeName type="other"><foreign>Altradin; Altuelini</foreign></placeName>
+                    <geogName type="coord"><geo></geo></geogName>
+                    <idno>places/637</idno>
+                    <note/>
+                    <link corresp="juridical_persons" type="juridical_persons/211" subtype="link"/>
+                    <link corresp="people" type="people/21" subtype="link"/>
+                </place>
+                <place>
+                    <placeName><foreign>Berterassi</foreign></placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo></geo></geogName>
+                    <idno>places/638</idno>
+                    <note><ref>http://www.lombardiabeniculturali.it/cdlm/edizioni/pv/pavia-sfelice/carte/felice0998-01-15</ref>; Berterassi potrebbe essere localizzabile nella zona di Bassignana (Alessandria).</note>
+                    <link corresp="juridical_persons" type="juridical_persons/211" subtype="link"/>
+                    <link corresp="people" type="people/21" subtype="link"/>
+                </place>
+                <place>
+                    <placeName><foreign>Pulveria</foreign></placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo></geo></geogName>
+                    <idno>places/639</idno>
+                    <note/>
+                    <link corresp="juridical_persons" type="juridical_persons/211" subtype="link"/>
+                    <link corresp="people" type="people/21" subtype="link"/>
+                </place>
+                <place>
+                    <placeName><foreign>Bucellade</foreign></placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo></geo></geogName>
+                    <idno>places/640</idno>
+                    <note/>
+                    <link corresp="juridical_persons" type="juridical_persons/211" subtype="link"/>
+                    <link corresp="people" type="people/21" subtype="link"/>
+                </place>
+                <place>
+                    <placeName><foreign>Gebedi</foreign></placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo></geo></geogName>
+                    <idno>places/641</idno>
+                    <note/>
+                    <link corresp="juridical_persons" type="juridical_persons/211" subtype="link"/>
+                    <link corresp="people" type="people/21" subtype="link"/>
+                </place>
+                <place>
+                    <placeName><foreign>Archidiaconi</foreign></placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo></geo></geogName>
+                    <idno>places/642</idno>
+                    <note/>
+                    <link corresp="juridical_persons" type="juridical_persons/211" subtype="link"/>
+                    <link corresp="people" type="people/21" subtype="link"/>
+                </place>
+                <place>
+                    <placeName><foreign>Balbiano</foreign></placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo></geo></geogName>
+                    <idno>places/643</idno>
+                    <note/>
+                    <link corresp="juridical_persons" type="juridical_persons/211" subtype="link"/>
+                    <link corresp="people" type="people/21" subtype="link"/>
+                </place>
+                <place>
+                    <placeName><foreign>Sancti Cipriani</foreign></placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo></geo></geogName>
+                    <idno>places/644</idno>
+                    <note>Potrebbe trattarsi di una frazione del comune di Serra Riccò (Genova), con la cappella dedicata a San Michele Castrofino.</note>
+                    <link corresp="juridical_persons" type="juridical_persons/211" subtype="link"/>
+                    <link corresp="people" type="people/21" subtype="link"/>
+                </place>
+                <place>
+                    <placeName><foreign>Segestri</foreign></placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo></geo></geogName>
+                    <idno>places/645</idno>
+                    <note>Guglielmotti 2005.</note>
+                    <link corresp="juridical_persons" type="juridical_persons/211" subtype="link"/>
+                    <link corresp="people" type="people/21" subtype="link"/>
+                </place>
+                <place>
+                    <placeName><foreign>Levarnia</foreign></placeName>
+                    <placeName type="other"><foreign>Lavania</foreign></placeName>
+                    <geogName type="coord"><geo></geo></geogName>
+                    <idno>places/646</idno>
+                    <note>Guglielmotti 2005.</note>
+                    <link corresp="juridical_persons" type="juridical_persons/211" subtype="link"/>
+                    <link corresp="people" type="people/21" subtype="link"/>
+                </place>
+                <place>
+                    <placeName><foreign>Caruani</foreign></placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo></geo></geogName>
+                    <idno>places/647</idno>
+                    <note/>
+                    <link corresp="juridical_persons" type="juridical_persons/211" subtype="link"/>
+                    <link corresp="people" type="people/21" subtype="link"/>
+                </place>
+                <place>
+                    <placeName><foreign>Regiana</foreign></placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo></geo></geogName>
+                    <idno>places/648</idno>
+                    <note/>
+                    <link corresp="juridical_persons" type="juridical_persons/211" subtype="link"/>
+                    <link corresp="people" type="people/21" subtype="link"/>
+                </place>
+                <place>
+                    <placeName><foreign>Mariana</foreign></placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo></geo></geogName>
+                    <idno>places/649</idno>
+                    <note/>
+                    <link corresp="juridical_persons" type="juridical_persons/211" subtype="link"/>
+                    <link corresp="people" type="people/21" subtype="link"/>
+                </place>
+                <place>
+                    <placeName><foreign>Verlasca</foreign></placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo></geo></geogName>
+                    <idno>places/650</idno>
+                    <note/>
+                    <link corresp="juridical_persons" type="juridical_persons/211" subtype="link"/>
+                    <link corresp="people" type="people/21" subtype="link"/>
+                </place>
+                <place>
+                    <placeName><foreign>Freneto</foreign></placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo></geo></geogName>
+                    <idno>places/651</idno>
+                    <note/>
+                    <link corresp="juridical_persons" type="juridical_persons/211" subtype="link"/>
+                    <link corresp="people" type="people/21" subtype="link"/>
+                </place>
+                <place>
+                    <placeName><foreign>Cassiano</foreign></placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo></geo></geogName>
+                    <idno>places/652</idno>
+                    <note/>
+                    <link corresp="juridical_persons" type="juridical_persons/211" subtype="link"/>
+                    <link corresp="people" type="people/21" subtype="link"/>
+                </place>
+                <place>
+                    <placeName><foreign>Topiole</foreign></placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo></geo></geogName>
+                    <idno>places/653</idno>
+                    <note/>
+                    <link corresp="juridical_persons" type="juridical_persons/211" subtype="link"/>
+                    <link corresp="people" type="people/21" subtype="link"/>
+                </place>
+                <place>
+                    <placeName><foreign>Cuspiano</foreign></placeName>
+                    <placeName type="other"><foreign>Caspiano</foreign></placeName>
+                    <geogName type="coord"><geo></geo></geogName>
+                    <idno>places/654</idno>
+                    <note/>
+                    <link corresp="juridical_persons" type="juridical_persons/211" subtype="link"/>
+                    <link corresp="people" type="people/21" subtype="link"/>
+                    <link corresp="estates" type="estates/307" subtype="link"/>
+                </place>
+                <place>
+                    <placeName><foreign>Cavanasco</foreign></placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo></geo></geogName>
+                    <idno>places/655</idno>
+                    <note/>
+                    <link corresp="juridical_persons" type="juridical_persons/211" subtype="link"/>
+                    <link corresp="people" type="people/21" subtype="link"/>
+                </place>
+                <place>
+                    <placeName><foreign>Frisosco</foreign></placeName>
+                    <placeName type="other"><foreign>Trisosca</foreign></placeName>
+                    <geogName type="coord"><geo></geo></geogName>
+                    <idno>places/656</idno>
+                    <note/>
+                    <link corresp="juridical_persons" type="juridical_persons/211" subtype="link"/>
+                    <link corresp="people" type="people/21" subtype="link"/>
+                </place>
+                <place>
+                    <placeName><foreign>Bibiano</foreign></placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo></geo></geogName>
+                    <idno>places/657</idno>
+                    <note/>
+                    <link corresp="juridical_persons" type="juridical_persons/211" subtype="link"/>
+                    <link corresp="people" type="people/21" subtype="link"/>
+                </place>
+                <place>
+                    <placeName><foreign>Miolaco</foreign></placeName>
+                    <placeName type="other"><foreign>Miolato</foreign></placeName>
+                    <geogName type="coord"><geo></geo></geogName>
+                    <idno>places/658</idno>
+                    <note/>
+                    <link corresp="juridical_persons" type="juridical_persons/211" subtype="link"/>
+                    <link corresp="people" type="people/21" subtype="link"/>
+                </place>
+                <place>
+                    <placeName><foreign>Gambaro</foreign></placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo></geo></geogName>
+                    <idno>places/659</idno>
+                    <note/>
+                    <link corresp="juridical_persons" type="juridical_persons/211" subtype="link"/>
+                    <link corresp="people" type="people/21" subtype="link"/>
+                </place>
+                <place>
+                    <placeName><foreign>Moliana</foreign></placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo></geo></geogName>
+                    <idno>places/660</idno>
+                    <note/>
+                    <link corresp="juridical_persons" type="juridical_persons/211" subtype="link"/>
+                    <link corresp="people" type="people/21" subtype="link"/>
+                </place>
+                <place>
+                    <placeName><foreign>Corliasco</foreign></placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo></geo></geogName>
+                    <idno>places/661</idno>
+                    <note/>
+                    <link corresp="juridical_persons" type="juridical_persons/211" subtype="link"/>
+                    <link corresp="people" type="people/21" subtype="link"/>
+                </place>
+                <place>
+                    <placeName><foreign>Merlade</foreign></placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo></geo></geogName>
+                    <idno>places/662</idno>
+                    <note/>
+                    <link corresp="juridical_persons" type="juridical_persons/211" subtype="link"/>
+                    <link corresp="people" type="people/21" subtype="link"/>
+                </place>
+                <place>
+                    <placeName><foreign>Carponio</foreign></placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo></geo></geogName>
+                    <idno>places/663</idno>
+                    <note/>
+                    <link corresp="juridical_persons" type="juridical_persons/211" subtype="link"/>
+                    <link corresp="people" type="people/21" subtype="link"/>
+                </place>
+                <place>
+                    <placeName><foreign>Visedano</foreign></placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo></geo></geogName>
+                    <idno>places/664</idno>
+                    <note/>
+                    <link corresp="juridical_persons" type="juridical_persons/211" subtype="link"/>
+                    <link corresp="people" type="people/21" subtype="link"/>
+                </place>
+                <place>
+                    <placeName><foreign>Frontinassi</foreign></placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo></geo></geogName>
+                    <idno>places/665</idno>
+                    <note/>
+                    <link corresp="juridical_persons" type="juridical_persons/211" subtype="link"/>
+                    <link corresp="people" type="people/21" subtype="link"/>
+                </place>
+                <place>
+                    <placeName><foreign>Grameneto</foreign></placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo></geo></geogName>
+                    <idno>places/666</idno>
+                    <note/>
+                    <link corresp="juridical_persons" type="juridical_persons/211" subtype="link"/>
+                    <link corresp="people" type="people/21" subtype="link"/>
+                </place>
+                <place>
+                    <placeName><foreign>Turredano</foreign></placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo></geo></geogName>
+                    <idno>places/667</idno>
+                    <note/>
+                    <link corresp="juridical_persons" type="juridical_persons/211" subtype="link"/>
+                    <link corresp="people" type="people/21" subtype="link"/>
+                </place>
+                <place>
+                    <placeName><foreign>Aurello</foreign></placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo></geo></geogName>
+                    <idno>places/668</idno>
+                    <note/>
+                    <link corresp="juridical_persons" type="juridical_persons/211" subtype="link"/>
+                    <link corresp="people" type="people/21" subtype="link"/>
+                </place>
+                <place>
+                    <placeName><foreign>Carvina</foreign></placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo></geo></geogName>
+                    <idno>places/669</idno>
+                    <note/>
+                    <link corresp="juridical_persons" type="juridical_persons/211" subtype="link"/>
+                    <link corresp="people" type="people/21" subtype="link"/>
+                </place>
+                <place>
+                    <placeName><foreign>Pino</foreign></placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo></geo></geogName>
+                    <idno>places/670</idno>
+                    <note/>
+                    <link corresp="juridical_persons" type="juridical_persons/211" subtype="link"/>
+                    <link corresp="people" type="people/21" subtype="link"/>
+                </place>
+                <place>
+                    <placeName><foreign>Canobio</foreign></placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo></geo></geogName>
+                    <idno>places/671</idno>
+                    <note/>
+                    <link corresp="juridical_persons" type="juridical_persons/211" subtype="link"/>
+                    <link corresp="people" type="people/21" subtype="link"/>
+                </place>
+                <place>
+                    <placeName><foreign>Paterno</foreign> (Podere Paterno; Monterotondo Marittimo;
+                        Grosseto)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>43.1428886, 10.8363293</geo></geogName>
+                    <idno>places/672</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>San Regolo in Gualdo (Podere San Regolo; Monterotondo Marittimo;
+                        Grosseto)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>43.124631, 10.7886654</geo></geogName>
+                    <idno>places/673</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName><foreign>Mosciano</foreign> (Musciano; Montopoli in Valdarno;
+                        Pisa)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>43.6666174, 10.7317874</geo></geogName>
+                    <idno>places/674</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>San Pietro in <foreign>Mosciano</foreign> (Podere La Pieve; Montopoli
+                        in Valdarno; Pisa)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>43.6720071, 10.7389323</geo></geogName>
+                    <idno>places/675</idno>
+                    <note/>
+                    <link type="places" corresp="#places/674" subtype="isPartOf"/>
+                </place>
+                <place>
+                    <placeName><foreign>Rocta</foreign> (La Rotta; Pontedera; Pisa)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>43.6581514, 10.678698</geo></geogName>
+                    <idno>places/676</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName><foreign>Vico Civiliano</foreign> (Villa Basilica; Lucca)</placeName>
+                    <placeName type="other"><foreign>loco Viliano</foreign>;
+                            <foreign>Liviano</foreign>; </placeName>
+                    <geogName type="coord"><geo>43.94762, 10.6553</geo></geogName>
+                    <idno>places/677</idno>
+                    <note>Repetti, VI, 76 s.v. Pescia di Collodi.</note>
+                </place>
+                <place>
+                    <placeName>Viticuso (Cassino; Frosinone)</placeName>
+                    <placeName type="other"></placeName>
+                        <geogName type="coord"><geo>41.525545, 13.969518</geo></geogName>
+                    <idno>places/678</idno>
+                    <note></note>
+                    <link corresp="juridical_persons" type="juridical_persons/84" subtype="link"/>
+                    <link type="people" corresp="#people/154" subtype="link"/>
+                    <link type="people" corresp="#people/305" subtype="link"/>
+                    <link type="people" corresp="#people/332" subtype="link"/>
+                </place>
+                <place>
+                    <placeName>Acquafondata (Cassino; Frosinone)</placeName>
+                    <placeName type="other"></placeName>
+                    <geogName type="coord"><geo>41.544246, 13.951941</geo></geogName>
+                    <idno>places/679</idno>
+                    <note></note>
+                    <link corresp="juridical_persons" type="juridical_persons/84" subtype="link"/>
+                    <link type="people" corresp="#people/154" subtype="link"/>
+                    <link type="people" corresp="#people/305" subtype="link"/>
+                    <link type="people" corresp="#people/332" subtype="link"/>
+                </place>
+                <place>
+                    <placeName>Valleluce (Cassino; Frosinone)</placeName>
+                    <placeName type="other"></placeName>
+                    <geogName type="coord"><geo>41.566974, 13.857854</geo></geogName>
+                    <idno>places/680</idno>
+                    <note></note>
+                    <link corresp="juridical_persons" type="juridical_persons/84" subtype="link"/>
+                    <link type="people" corresp="#people/154" subtype="link"/>
+                    <link type="people" corresp="#people/305" subtype="link"/>
+                    <link type="people" corresp="#people/332" subtype="link"/>
+                </place>
+                <place>
+                    <placeName>Cervaro (Cassino; Frosinone)</placeName>
+                    <placeName type="other"></placeName>
+                    <geogName type="coord"><geo>41.481977, 13.906762</geo></geogName>
+                    <idno>places/681</idno>
+                    <note></note>
+                    <link corresp="juridical_persons" type="juridical_persons/84" subtype="link"/>
+                    <link type="people" corresp="#people/154" subtype="link"/>
+                    <link type="people" corresp="#people/305" subtype="link"/>
+                    <link type="people" corresp="#people/332" subtype="link"/>
+                </place>
+                <place>
+                    <placeName><foreign>Villa</foreign> del Garigliano (Cassino; Frosinone)</placeName>
+                    <placeName type="other"><foreign>Villa de Gareliano</foreign></placeName>
+                    <geogName type="coord"><geo>41.397775, 13.869950</geo></geogName>
+                    <idno>places/682</idno>
+                    <note></note>
+                    <link corresp="juridical_persons" type="juridical_persons/84" subtype="link"/>
+                    <link type="people" corresp="#people/154" subtype="link"/>
+                    <link type="people" corresp="#people/305" subtype="link"/>
+                    <link type="people" corresp="#people/332" subtype="link"/>
+                </place>
+                <place>
+                    <placeName><foreign>Cripta imperatoris</foreign> (Cassino; Frosinone)</placeName>
+                    <placeName type="other"></placeName>
+                    <geogName type="coord"><geo>41.375512, 13.842072</geo></geogName>
+                    <idno>places/683</idno>
+                    <note></note>
+                    <link corresp="juridical_persons" type="juridical_persons/84" subtype="link"/>
+                    <link type="people" corresp="#people/154" subtype="link"/>
+                    <link type="people" corresp="#people/305" subtype="link"/>
+                    <link type="people" corresp="#people/332" subtype="link"/>
+                </place>
+                <place>
+                    <placeName><foreign>Duo Leones</foreign> (Cassino; Frosinone)</placeName>
+                    <placeName type="other"></placeName>
+                    <geogName type="coord"><geo>41.365853, 13.747175</geo></geogName>
+                    <idno>places/684</idno>
+                    <note></note>
+                    <link corresp="juridical_persons" type="juridical_persons/84" subtype="link"/>
+                    <link type="people" corresp="#people/154" subtype="link"/>
+                    <link type="people" corresp="#people/305" subtype="link"/>
+                    <link type="people" corresp="#people/332" subtype="link"/>
+                </place>
+                <place>
+                    <placeName><foreign>Casale</foreign> (Cassino; Frosinone)</placeName>
+                    <placeName type="other"></placeName>
+                    <geogName type="coord"><geo>41.388485, 13.782619</geo></geogName>
+                    <idno>places/685</idno>
+                    <note></note>
+                    <link corresp="juridical_persons" type="juridical_persons/84" subtype="link"/>
+                    <link type="people" corresp="#people/154" subtype="link"/>
+                    <link type="people" corresp="#people/305" subtype="link"/>
+                    <link type="people" corresp="#people/332" subtype="link"/>
+                </place>
+                <place>
+                    <placeName><foreign>Farnitu</foreign> (Cassino; Frosinone)</placeName>
+                    <placeName type="other"><foreign>Farnietu</foreign></placeName>
+                    <geogName type="coord"><geo>41.469890, 13.737343</geo></geogName>
+                    <idno>places/686</idno>
+                    <note></note>
+                    <link corresp="juridical_persons" type="juridical_persons/84" subtype="link"/>
+                    <link type="people" corresp="#people/154" subtype="link"/>
+                    <link type="people" corresp="#people/305" subtype="link"/>
+                    <link type="people" corresp="#people/332" subtype="link"/>
+                </place>
+                <place>
+                    <placeName><foreign>Arcu de Giczuli</foreign> (Cassino; Frosinone)</placeName>
+                    <placeName type="other">Arcu de Gizzuli</placeName>
+                    <geogName type="coord"><geo>41.503435, 13.730038</geo></geogName>
+                    <idno>places/687</idno>
+                    <note></note>
+                    <link corresp="juridical_persons" type="juridical_persons/84" subtype="link"/>
+                    <link type="people" corresp="#people/154" subtype="link"/>
+                    <link type="people" corresp="#people/305" subtype="link"/>
+                    <link type="people" corresp="#people/332" subtype="link"/>
+                </place>
+                <place>
+                    <placeName><foreign>Sanctus Damasus</foreign> (Cassino; Frosinone)</placeName>
+                    <placeName type="other"></placeName>
+                    <geogName type="coord"><geo>41.524913, 13.761385</geo></geogName>
+                    <idno>places/688</idno>
+                    <note></note>
+                    <link corresp="juridical_persons" type="juridical_persons/84" subtype="link"/>
+                    <link type="people" corresp="#people/154" subtype="link"/>
+                    <link type="people" corresp="#people/305" subtype="link"/>
+                    <link type="people" corresp="#people/332" subtype="link"/>
+                </place>
+                <place>
+                    <placeName><foreign>Quirquitulu</foreign> (Cassino; Frosinone)</placeName>
+                    <placeName type="other"></placeName>
+                    <geogName type="coord"><geo>41.527168, 13.749650</geo></geogName>
+                    <idno>places/689</idno>
+                    <note></note>
+                    <link corresp="juridical_persons" type="juridical_persons/84" subtype="link"/>
+                    <link type="people" corresp="#people/154" subtype="link"/>
+                    <link type="people" corresp="#people/305" subtype="link"/>
+                    <link type="people" corresp="#people/332" subtype="link"/>
+                </place>
+                <place>
+                    <placeName><foreign>Falconari</foreign> (Cassino; Frosinone)</placeName>
+                    <placeName type="other">monte Cifalco</placeName>
+                    <geogName type="coord"><geo>41.565445, 13.850707</geo></geogName>
+                    <idno>places/690</idno>
+                    <note></note>
+                    <link corresp="juridical_persons" type="juridical_persons/84" subtype="link"/>
+                    <link type="people" corresp="#people/154" subtype="link"/>
+                    <link type="people" corresp="#people/305" subtype="link"/>
+                    <link type="people" corresp="#people/332" subtype="link"/>
+                </place>
+                <place>
+                    <placeName>Pieve San Paolo (Capannori; Lucca)</placeName>
+                    <placeName type="other"><foreign>ad Sancto Paulo</foreign>; </placeName>
+                    <geogName type="coord"><geo>43.8334661, 10.5482637</geo></geogName>
+                    <idno>places/691</idno>
+                    <note></note>
+                </place>
+                <place>
+                    <placeName><foreign>Petra Scripta</foreign> (Cassino; Frosinone)</placeName>
+                    <placeName type="other"></placeName>
+                    <geogName type="coord"><geo>41.599340, 13.857643</geo></geogName>
+                    <idno>places/692</idno>
+                    <note></note>
+                    <link corresp="juridical_persons" type="juridical_persons/84" subtype="link"/>
+                    <link type="people" corresp="#people/154" subtype="link"/>
+                    <link type="people" corresp="#people/305" subtype="link"/>
+                    <link type="people" corresp="#people/332" subtype="link"/>
+                </place>
+                <place>
+                    <placeName><foreign>Furca de Pubplo</foreign> (Cassino; Frosinone)</placeName>
+                    <placeName type="other"></placeName>
+                    <geogName type="coord"><geo>41.506407, 13.964729</geo></geogName>
+                    <idno>places/693</idno>
+                    <note></note>
+                    <link corresp="juridical_persons" type="juridical_persons/84" subtype="link"/>
+                    <link type="people" corresp="#people/154" subtype="link"/>
+                    <link type="people" corresp="#people/305" subtype="link"/>
+                    <link type="people" corresp="#people/332" subtype="link"/>
+                </place>
+                <place>
+                    <placeName><foreign>Furca Sancti Martini</foreign> (Cassino; Frosinone)</placeName>
+                    <placeName type="other"></placeName>
+                    <geogName type="coord"><geo>41.445250, 14.001801</geo></geogName>
+                    <idno>places/694</idno>
+                    <note></note>
+                    <link corresp="juridical_persons" type="juridical_persons/84" subtype="link"/>
+                    <link type="people" corresp="#people/154" subtype="link"/>
+                    <link type="people" corresp="#people/305" subtype="link"/>
+                    <link type="people" corresp="#people/332" subtype="link"/>
+                </place>
+                <place>
+                    <placeName>Savone; river (Caserta)</placeName>
+                    <placeName type="other">ad Decempondera</placeName>
+                    <geogName type="coord"><geo>41.274198, 14.052895</geo></geogName>
+                    <idno>places/695</idno>
+                    <note></note>
+                    <link corresp="juridical_persons" type="juridical_persons/84" subtype="link"/>
+                    <link type="people" corresp="#people/157" subtype="link"/>
+                    <link type="people" corresp="#people/156" subtype="link"/>
+                    <link type="people" corresp="#people/196" subtype="link"/>
+                </place>
+                <place>
+                    <placeName>Janula; castellum (Frosinone)</placeName>
+                    <placeName type="other">Rocca Janula; castrum Iannole</placeName>
+                    <geogName type="coord"><geo>41.498003, 13.822094</geo></geogName>
+                    <idno>places/696</idno>
+                    <note></note>
+                    <link corresp="juridical_persons" type="juridical_persons/84" subtype="link"/>
+                    <link type="people" corresp="#people/157" subtype="link"/>
+                    <link type="people" corresp="#people/309" subtype="link"/>
+                    <link type="people" corresp="#people/315" subtype="link"/>
+                </place>
+                <place>
+                    <placeName>Sant'Angelo in Theodice; castellum (Frosinone)</placeName>
+                    <placeName type="other"><foreign>Sancto Angelo ad Tudici</foreign></placeName>
+                    <geogName type="coord"><geo>41.447392, 13.830983</geo></geogName>
+                    <idno>places/697</idno>
+                    <note></note>
+                    <link corresp="juridical_persons" type="juridical_persons/84" subtype="link"/>
+                    <link type="people" corresp="#people/157" subtype="link"/>
+                    <link type="people" corresp="#people/309" subtype="link"/>
+                    <link type="people" corresp="#people/315" subtype="link"/>
+                </place>
+                <place>
+                    <placeName>San Giorgio al Liri (Frosinone)</placeName>
+                    <placeName type="other"></placeName>
+                    <geogName type="coord"><geo>41.405974, 13.765263</geo></geogName>
+                    <idno>places/698</idno>
+                    <note></note>
+                    <link corresp="juridical_persons" type="juridical_persons/84" subtype="link"/>
+                    <link type="people" corresp="#people/157" subtype="link"/>
+                    <link type="people" corresp="#people/309" subtype="link"/>
+                    <link type="people" corresp="#people/315" subtype="link"/>
+                </place>
+                <place>
+                    <placeName><foreign>Grippo</foreign> (Greppone; Capannori; Lucca)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>43.9086476, 10.5849631</geo></geogName>
+                    <idno>places/699</idno>
+                    <note>Viti 2019-2020: 160-168.</note>
+                    <link type="juridical_persons" corresp="#juridical_persons/70" subtype="link"/>
+                </place>
+                <place>
+                    <placeName>Larino (Campobasso)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>41.80449, 14.91843</geo></geogName>
+                    <idno>places/700</idno>
+                    <note></note>
+                </place>
+                <place>
+                    <placeName>Patria; lake (Napoli)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>40.937497, 14.033355</geo></geogName>
+                    <idno>places/701</idno>
+                    <note></note>
+                </place>
+                <place>
+                    <placeName>Montebamboli (Massa Marittima; Grosseto)</placeName>
+                    <placeName type="other"><foreign>Munte at Panchule</foreign>; </placeName>
+                    <geogName type="coord"><geo>43.0771393, 10.8103282</geo></geogName>
+                    <idno>places/702</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>Verciano (Capannori; Lucca)</placeName>
+                    <placeName type="other"><foreign>Versiciano</foreign>; </placeName>
+                    <geogName type="coord"><geo>43.8203354, 10.5220951</geo></geogName>
+                    <idno>places/703</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>Loppeglia (Pescaglia; Lucca)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>43.93855, 10.42863</geo></geogName>
+                    <idno>places/704</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName>Atina (Frosinone)</placeName>
+                    <placeName type="other"/>
+                    <geogName type="coord"><geo>41.62062, 13.79971</geo></geogName>
+                    <idno>places/705</idno>
+                    <note/>
+                </place>
+                <place>
+                    <placeName><foreign>Furca Sancti Valentini</foreign> (Cassino; Frosinone)</placeName>
+                    <placeName type="other"><foreign>Furca Sancti Balentini</foreign></placeName>
+                    <geogName type="coord"><geo>41.647840, 13.88056</geo></geogName>
+                    <idno>places/706</idno>
+                    <note></note>
+                    <link corresp="juridical_persons" type="juridical_persons/84" subtype="link"/>
                 </place>
             </listPlace>
         </body>

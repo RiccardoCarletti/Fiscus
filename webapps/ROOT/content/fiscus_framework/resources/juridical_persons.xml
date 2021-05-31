@@ -27,6 +27,7 @@
                     <note/>
                     <link type="places" corresp="#places/9"
                         subtype="isAdjacentTo"/>
+                    <link type="places" corresp="#places/26" subtype="link"/>
                     <link type="people" corresp="#people/120" subtype="link"/>
                     <link type="people" corresp="#people/11" subtype="link"/>
                 </org>
@@ -112,6 +113,11 @@
                     <link type="places" corresp="#places/11"
                         subtype="isAdjacentTo"/>
                     <link type="juridical_persons" corresp="#juridical_persons/34" subtype="link"/>
+                    <link type="people" corresp="#people/15" subtype="link"/>
+                    <link type="people" corresp="#people/13" subtype="link"/>
+                    <link type="people" corresp="#people/21" subtype="link"/>
+                    <link type="places" corresp="#places/39" subtype="hasConnectionWith"/>
+                    <link type="places" corresp="#places/11" subtype="hasConnectionWith"/>
                 </org>
                 <org>
                     <orgName>Casa Dei; coenobium (Cadeo; Piacenza)</orgName>
@@ -158,6 +164,8 @@
                     <link type="places" corresp="#places/495" subtype="hasConnectionWith"/>
                     <link type="places" corresp="#places/584" subtype="hasConnectionWith"/>
                     <link type="places" corresp="#places/585" subtype="hasConnectionWith"/>
+                    <link type="places" corresp="#places/699" subtype="hasConnectionWith"/>
+                    <link type="places" corresp="#places/165" subtype="hasConnectionWith"/>
                 </org>
                 <org>
                     <orgName>Sanctus Pontianus; monasterium (Lucca)</orgName>
@@ -457,6 +465,7 @@
                     <orgName type="other"/>
                     <idno>juridical_persons/101</idno>
                     <note/>
+                    <link type="people" corresp="people/21" subtype="link"/>
                 </org>
                 <org>
                     <orgName>Sanctus Michael Archangelus; ecclesia (Pieve Modolena; Reggio Emilia)</orgName>
@@ -1430,6 +1439,7 @@
                     <note/>
                     <link type="people" corresp="#people/21" subtype="link"/>
                     <link type="places" corresp="#places/65" subtype="isWithin"/>
+                    <link type="places" corresp="#places/43" subtype="link"/>
                 </org>
                 <org>
                     <orgName>Sanctus Felix; ecclesia (Papina)</orgName>
@@ -1664,7 +1674,7 @@
                     <orgName type="other"/>
                     <idno>juridical_persons/239</idno>
                     <note/>
-                    <link type="places" subtype="isWithin" corresp="#places/611"/>
+                    <link type="places" subtype="isWithin" corresp="#places/627"/>
                     <link type="people" subtype="link" corresp="#people/21"/>
                 </org>
                 <org>
@@ -1676,6 +1686,94 @@
                     <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
                     <link type="people" corresp="#people/288 #people/366 #people/237 #people/7"
                         subtype="link"/>
+                </org>
+                <org>
+                    <orgName>Sanctus Laurentius de Viqueria; plebs (Voghera)</orgName>
+                    <orgName type="other"/>
+                    <idno>juridical_persons/241</idno>
+                    <note>Forzatti Golia 2005.</note>
+                    <link type="people" subtype="link" corresp="#people/21"/>
+                    <link type="places" subtype="isWithin" corresp="#places/621"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/239" subtype="link"/>
+                </org>
+                <org>
+                    <orgName>Sanctus Petrus maior; ecclesia (Lucca)</orgName>
+                    <orgName type="other"/>
+                    <idno>juridical_persons/242</idno>
+                    <note/>
+                    <link type="places" corresp="#places/4" subtype="isWithin"/>
+                </org>
+                <org>
+                    <orgName>Sanctus Regulus in Gualdo; ecclesia</orgName>
+                    <orgName type="other"/>
+                    <idno>juridical_persons/243</idno>
+                    <note/>
+                    <link type="places" corresp="#places/673" subtype="isWithin"/>
+                </org>
+                <org>
+                    <orgName>Sanctus Petrus in loco Mosciano; plebs</orgName>
+                    <orgName type="other"/>
+                    <idno>juridical_persons/244</idno>
+                    <note/>
+                    <link type="places" corresp="#places/675" subtype="isWithin"/>
+                    <link type="places" corresp="#places/674" subtype="isPartOf"/>
+                </org>
+                <org>
+                    <orgName>Sanctus Georgius de Noctuno; ecclesia (Montecalvoli)</orgName>
+                    <orgName type="other"/>
+                    <idno>juridical_persons/245</idno>
+                    <note>Repetti, III, 330.</note>
+                    <link type="places" corresp="#places/504" subtype="isWithin"/>
+                </org>
+                <org>
+                    <orgName>Sanctus Georgius in Pisticoro; ecclesia (Lucca)</orgName>
+                    <orgName type="other"/>
+                    <idno>juridical_persons/246</idno>
+                    <note>Belli Barsali 1988: 134.</note>
+                    <link type="places" corresp="#places/4" subtype="isWithin"/>
+                </org>
+                <org>
+                    <orgName>Sancta Agatha de Tempaniano; ecclesia et monasterium</orgName>
+                    <orgName type="other"/>
+                    <idno>juridical_persons/247</idno>
+                    <note/>
+                    <link type="places" corresp="#places/166" subtype="isWithin"/>
+                    <link type="places" corresp="#places/4" subtype="isInVicinityOf"/>
+                </org>
+                <org>
+                    <orgName>Sanctus Benedictus de Larino; ecclesia et monasterium (Larino)</orgName>
+                    <orgName type="other"/>
+                    <idno>juridical_persons/248</idno>
+                    <note/>
+                    <link type="places" corresp="#places/700" subtype="isWithin"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/84" subtype="link"/>
+                    <link type="people" corresp="#people/167" subtype="link"/>
+                    <link type="people" corresp="#people/309" subtype="link"/>
+                    <link type="people" corresp="#people/156" subtype="link"/>
+                </org>
+                <org>
+                    <orgName>Sanctus Salvator de Octavo; ecclesia (Valdottavo)</orgName>
+                    <orgName type="other"/>
+                    <idno>juridical_persons/249</idno>
+                    <note/>
+                    <link type="places" corresp="#places/167" subtype="isWithin"/>
+                </org>
+                <org>
+                    <orgName>Sanctus Martinus; ecclesia (Cassino)</orgName>
+                    <orgName type="other"/>
+                    <idno>juridical_persons/250</idno>
+                    <note/>
+                    <link type="places" corresp="places/109" subtype="isWithin"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/84" subtype="link"/>
+                    <link type="estates" corresp="#estates/313" subtype="isWithin"/>
+                    <link type="places" corresp="#places/694" subtype="isWithin"/>
+                </org>
+                <org>
+                    <orgName>Sanctus Macharius de Pompiano; ecclesia</orgName>
+                    <orgName type="other"/>
+                    <idno>juridical_persons/251</idno>
+                    <note/>
+                    <link type="places" corresp="#places/325" subtype="isWithin"/>
                 </org>
             </listOrg>
         </body>
