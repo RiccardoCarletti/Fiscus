@@ -506,7 +506,7 @@
         <xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if>
       </xsl:for-each>
       <xsl:text>], edges:[</xsl:text>
-      <xsl:for-each select="$people//tei:link[tokenize(concat(replace(@corresp, '#', ''), ' '), ' ')=$people//tei:idno][@type='people'][not(starts-with(@corresp, ' '))]">
+      <xsl:for-each select="$people//tei:link[tokenize(concat(replace(@corresp, '#', ''), ' '), ' ')=$people//tei:idno][@type='people'][not(starts-with(@corresp, ' '))][not(ends-with(@corresp, ' '))]">
         <xsl:variable name="id" select="parent::tei:*/tei:idno[1]"/>
         <xsl:variable name="relation_type"><xsl:choose>
           <xsl:when test="@subtype='' or @subtype='link' or @subtype='hasConnectionWith'"><xsl:text> </xsl:text></xsl:when>
@@ -608,7 +608,7 @@
         <xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if>
       </xsl:for-each>
       <xsl:text>], edges:[</xsl:text>
-      <xsl:for-each select="$people//tei:link[tokenize(concat(replace(@corresp, '#', ''), ' '), ' ')=$all_items//tei:idno][not(starts-with(@corresp, ' '))]|$juridical_persons//tei:link[tokenize(concat(replace(@corresp, '#', ''), ' '), ' ')=$all_items//tei:idno][not(starts-with(@corresp, ' '))]|$estates//tei:link[tokenize(concat(replace(@corresp, '#', ''), ' '), ' ')=$all_items//tei:idno][not(starts-with(@corresp, ' '))]|$places//tei:link[tokenize(concat(replace(@corresp, '#', ''), ' '), ' ')=$all_items//tei:idno][not(starts-with(@corresp, ' '))]">
+      <xsl:for-each select="$people//tei:link[tokenize(concat(replace(@corresp, '#', ''), ' '), ' ')=$all_items//tei:idno][not(starts-with(@corresp, ' '))][not(ends-with(@corresp, ' '))]|$juridical_persons//tei:link[tokenize(concat(replace(@corresp, '#', ''), ' '), ' ')=$all_items//tei:idno][not(starts-with(@corresp, ' '))][not(ends-with(@corresp, ' '))]|$estates//tei:link[tokenize(concat(replace(@corresp, '#', ''), ' '), ' ')=$all_items//tei:idno][not(starts-with(@corresp, ' '))][not(ends-with(@corresp, ' '))]|$places//tei:link[tokenize(concat(replace(@corresp, '#', ''), ' '), ' ')=$all_items//tei:idno][not(starts-with(@corresp, ' '))][not(ends-with(@corresp, ' '))]">
         <xsl:variable name="id" select="parent::tei:*/tei:idno[1]"/>
         <xsl:variable name="relation_type"><xsl:choose>
           <xsl:when test="@subtype='' or @subtype='link' or @subtype='hasConnectionWith'"><xsl:text> </xsl:text></xsl:when>

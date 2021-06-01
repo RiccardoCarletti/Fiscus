@@ -4,7 +4,8 @@
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
-                <title>Archivio di Montecassino, aula III, capsa X, n. 14</title>
+                <title>Archivio di Stato di Parma, Diplomatico (Drei, <foreign>Le carte</foreign>
+                    III/2, n. 729, pp. 538-9)</title>
             </titleStmt>
             <editionStmt>
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
@@ -13,7 +14,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
-                <idno type="filename">doc2018</idno>
+                <idno type="filename">doc817</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -30,10 +31,10 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
-                            <rs type="record_source" ref="#">Critical edition</rs>
-                            <rs type="document_tradition" ref="#">Original</rs>
-                            <rs type="fiscal_property">Yes</rs>
+                            <rs type="text_type" ref="#">-Cartula</rs>
+                            <rs type="record_source" ref="#">Document summary</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property"/>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -41,12 +42,12 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate when="0917-09-07">
-                                <note type="displayed_date">917 September 7</note>
+                            <origDate when="1193-07-04">
+                                <note type="displayed_date">1193 July 4</note>
                                 <note type="dating_elements"/>
-                                <note type="topical_date">Capua</note>
+                                <note type="topical_date"/>
                             </origDate>
-                            <origPlace/>
+                            <origPlace>Sanctus Sixtus; monasterium (Piacenza)</origPlace>
                         </origin>
                         <provenance>
                             <location>
@@ -72,7 +73,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2021-06-01" who="gzornetta">creation of record</change>
+                <change when="2021-05-31" who="ltabarrini">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -80,7 +81,24 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab></ab>
+                    <ab>An. inc. MCXCIII, die dominico, IV mensis iulii, ind. XI, in coro S.
+                        Protaxii. Albericus de Arcellis, Gislerius de Andito, Fulco Iniquitatis,
+                        Nicolaus Coxadoca tunc <rs key="#Consules">consules</rs> comunis, presente
+                        Guidone de Roncoveteri socio eorum et eis associante a parte <orgName
+                            ref="#juridical_persons/253">communi <placeName ref="#places/43"
+                                >Placentie</placeName></orgName> fecerunt datum et cessionem atque
+                        promissionem Iniquitati Guardegio converso <rs key="#Churches">ecclesie</rs>
+                        Misericordie nomine ipsius ecclesie et Iohanni clerico S. Marie de Mastriano
+                        nomine predicte eccl. et Gerardo Candolo nomine suo et fratrum et aliorum
+                        consortum qui partem habent in molendinis qui sunt in rivo, de uno canali
+                        Arde aque conducendo ad molendina Misericordie et de Candolis et aliorum
+                        suorum consortium, ita ut liceat parti ecclesie Misericordie et parti
+                        ecclesie de Mistriano et Candolis aliisque eorum consortibus, qui participes
+                        iamdicti rivi sunt, predictum canale aque ad ssta. molendina conducere et
+                        eorum voluntate facere bucam rivi mutando et rivum novum faciendo si
+                        fortuitu rivus vel bucha rivi in toto vel in parte propter Ardam districtus
+                        fuerit et hoc totum liceat eis facere sine predictorum consulum
+                        contradictione. Pena XL sol. Plac. (S.T.) Guilielmus Graidus not. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
