@@ -4502,9 +4502,9 @@
                     <link type="estates" corresp="#estates/234" subtype="hasConnectionWith"/>
                 </place>
                 <place>
-                    <placeName>Moncrivello (Vercelli)</placeName>
-                    <placeName type="other"><foreign>Uliaco</foreign></placeName>
-                    <geogName type="coord"><geo/></geogName>
+                    <placeName>Borgovercelli (Vercelli)</placeName>
+                    <placeName type="other"><foreign>Bulgaro</foreign></placeName>
+                    <geogName type="coord"><geo>45.356729, 8.464622</geo></geogName>
                     <idno>places/536</idno>
                     <note/>
                     <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
@@ -4978,7 +4978,7 @@
                     <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
                 </place>
                 <place>
-                    <placeName>Capodistria(SL)</placeName>
+                    <placeName>Capodistria (SL)</placeName>
                     <placeName type="other"><foreign>Iustinopolis</foreign></placeName>
                     <geogName type="coord"><geo>45.540984, 13.731537</geo></geogName>
                     <link type="people" corresp="#people/21" subtype="link"/>
@@ -4994,7 +4994,8 @@
                     <note/>
                 </place>
                 <place>
-                    <placeName><foreign>Tillioano;</foreign><foreign> villa (Nogara; Verona)</foreign></placeName>
+                    <placeName><foreign>Tillioano;</foreign><foreign> villa</foreign> (Nogara;
+                        Verona)</placeName>
                     <placeName type="other"><foreign>Telidana; Telidiano; Allidianas</foreign></placeName>
                     <geogName type="coord"><geo>45.191232, 11.059113</geo></geogName>
                     <idno>places/595</idno>
@@ -5091,7 +5092,7 @@
                         <note/>
                 </place>
                 <place>
-                    <placeName>Pozzuolo del Friuli(Udine)</placeName>
+                    <placeName>Pozzuolo del Friuli (Udine)</placeName>
                     <placeName type="other"/>
                     <geogName type="coord"><geo>45.983604, 13.195267</geo>/></geogName>
                     <idno>places/607</idno>
@@ -5353,7 +5354,7 @@
                     <placeName type="other"/>
                     <geogName type="coord"><geo>45.976938, 12.294227</geo></geogName>
                     <idno>places/629</idno>
-                    <link corresp="juridical_persons" type="juridical_persons/101" subtype="link"/>
+                    <link type="juridical_persons" corresp="juridical_persons/101" subtype="link"/>
                     <note/>
                 </place>
                 <place>
@@ -5393,8 +5394,8 @@
                     <geogName type="coord"><geo></geo></geogName>
                     <idno>places/634</idno>
                     <note/>
-                    <link corresp="juridical_persons" type="juridical_persons/211" subtype="link"/>
-                    <link corresp="people" type="people/21" subtype="link"/>
+                    <link type="juridical_persons" corresp="juridical_persons/211" subtype="link"/>
+                    <link type="people" corresp="people/21" subtype="link"/>
                 </place>
                 <place>
                     <placeName><foreign>Terra Arsa</foreign></placeName>
@@ -5402,8 +5403,8 @@
                     <geogName type="coord"><geo></geo></geogName>
                     <idno>places/635</idno>
                     <note/>
-                    <link corresp="juridical_persons" type="juridical_persons/211" subtype="link"/>
-                    <link corresp="people" type="people/21" subtype="link"/>
+                    <link type="juridical_persons" corresp="juridical_persons/211" subtype="link"/>
+                    <link type="people" corresp="people/21" subtype="link"/>
                 </place>
                 <place>
                     <placeName><foreign>Rivassi</foreign></placeName>
@@ -6185,7 +6186,7 @@
                 <place>
                     <placeName>Capalle (Campi Bisenzio; Firenze)</placeName>
                     <placeName type="other"/>
-                    <geogName type="coord"><geo/></geogName>
+                    <geogName type="coord"><geo>43.8396836, 11.1323346</geo></geogName>
                     <idno>places/718</idno>
                     <note>Microtoponomastica: <foreign>Calduchule</foreign>.</note>
                 </place>
@@ -6195,6 +6196,9 @@
                     <geogName type="coord"><geo>45.330668, 7.999763</geo></geogName>
                     <idno>places/719</idno>
                     <note/>
+                    <link type="people" corresp="#people/77" subtype="link"/>
+                    <link type="people" corresp="#people/402" subtype="link"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
                 </place>
             </listPlace>
         </body>
