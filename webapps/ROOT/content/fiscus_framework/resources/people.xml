@@ -1151,6 +1151,7 @@
                     <note/>
                     <link type="people" corresp="#people/156" subtype="sonOf"/>
                     <link type="people" corresp="#people/315" subtype="brotherOf"/>
+                    <link type="people" corresp="#people/397" subtype="husbandOf"/>
                     <link type="places" corresp="#places/110" subtype="hasConnectionWith"/>
                     <link type="places" subtype="hasConnectionWith" corresp="#places/173"/>
                     <link type="people" corresp="#people/159" subtype="professionalRelationship"/>
@@ -1159,6 +1160,9 @@
                     <link type="people" corresp="#people/167" subtype="fatherOf"/>
                     <link type="juridical_persons"
                         corresp="juridical_persons/84" subtype="benefactorOf"/>
+                    <link type="people" corresp="#people/399" subtype="fatherOf"/>
+                    <link type="people" corresp="#people/398" subtype="fatherOf"/>
+                    <link type="people" corresp="#people/400" subtype="fatherOf"/>
                 </person>
                 <person>
                     <persName>Gisulfus (720?-751) dux</persName>
@@ -1241,6 +1245,9 @@
                     <link type="people" corresp="#people/157" subtype="sonOf"/>
                     <link type="people" corresp="#people/315" subtype="#nephewOf"/>
                     <link type="people" corresp="#people/156" subtype="grandsonOf"/>
+                    <link type="people" corresp="#people/399" subtype="brotherOf"/>
+                    <link type="people" corresp="#people/398" subtype="brotherOf"/>
+                    <link type="people" corresp="#people/400" subtype="brotherOf"/>
                 </person>
                 <person>
                     <persName>Adelgarda (963) abbatissa</persName>
@@ -3288,15 +3295,7 @@
                     <link type="juridical_persons" corresp="#juridical_persons/246" subtype="link"/>
                     <link type="juridical_persons" corresp="#juridical_persons/142" subtype="link"/>
                     <link type="juridical_persons" corresp="#juridical_persons/84" subtype="link"/>
-                </person>
-                <person>
-                    <persName>Aloara (955/960-986?) principissa</persName>
-                    <persName type="other"/>
-                    <idno>people/397</idno>
-                    <note>Stasser 2008, pp. 366-368</note>
-                    <link type="juridical_persons" corresp="#juridical_persons/84" subtype="link"/>
-                    <link type="places" corresp="#places/173" subtype="hasConnectionWith"/>
-                </person>
+                </person>    
                 <person>
                     <persName>Aloara (?-992) principissa</persName>
                     <persName type="other"/>
@@ -3305,6 +3304,7 @@
                     <link type="juridical_persons" corresp="#juridical_persons/84" subtype="link"/>
                     <link type="places" corresp="#places/173" subtype="hasConnectionWith"/>
                     <link type="people" corresp="#people/398" subtype="motherOf"/>
+                    <link type="people" corresp="#people/157" subtype="wifeOf"/>
                 </person>
                 <person>
                     <persName>Landenolfus (993)</persName>
@@ -3314,7 +3314,9 @@
                     <link type="places" corresp="#places/173" subtype="hasConnectionWith"/>
                     <link type="people" corresp="#people/397" subtype="brotherOf"/>
                     <link type="people" corresp="#people/400" subtype="brotherOf"/>
+                    <link type="people" corresp="people/167" subtype="brotherOf"/>
                     <link type="people" corresp="#people/398" subtype="sonOf"/>
+                    <link type="people" corresp="#people/157" subtype="sonOf"/>
                     <link type="juridical_persons" corresp="#juridical_persons/84" subtype="link"/>
                 </person>
                 <person>
@@ -3325,8 +3327,10 @@
                     <link type="juridical_persons" corresp="#juridical_persons/84" subtype="link"/>
                     <link type="places" corresp="#places/173" subtype="hasConnectionWith"/>
                     <link type="people" corresp="#people/397" subtype="sonOf"/>
+                    <link type="people" corresp="#people/157" subtype="sonOf"/>
                     <link type="people" corresp="#people/400" subtype="brotherOf"/>
                     <link type="people" corresp="#people/398" subtype="brotherOf"/>
+                    <link type="people" corresp="people/167" subtype="brotherOf"/>
                 </person>
                 <person>
                     <persName>Gisulfus</persName>
@@ -3336,8 +3340,10 @@
                     <link type="juridical_persons" corresp="#juridical_persons/84" subtype="link"/>
                     <link type="places" corresp="#places/173" subtype="hasConnectionWith"/>
                     <link type="people" corresp="#people/397" subtype="sonOf"/>
+                    <link type="people" corresp="#people/157" subtype="sonOf"/>
                     <link type="people" corresp="#people/399" subtype="brotherOf"/>
                     <link type="people" corresp="#people/398" subtype="brotherOf"/>
+                    <link type="people" corresp="people/167" subtype="brotherOf"/>
                 </person>
                 <person>
                     <persName>Manso (986-996; abbas Casinensis)</persName>
