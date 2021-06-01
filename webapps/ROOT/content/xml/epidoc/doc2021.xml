@@ -4,7 +4,7 @@
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
-                <title></title>
+                <title>Archivio di Montecassino, aula III, capsa XI, n. 49</title>
             </titleStmt>
             <editionStmt>
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
@@ -13,7 +13,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
-                <idno type="filename">doc1</idno>
+                <idno type="filename">doc2021</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -30,10 +30,10 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#"/>
-                            <rs type="record_source" ref="#"/>
-                            <rs type="document_tradition" ref="#"/>
-                            <rs type="fiscal_property"/>
+                            <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -41,10 +41,10 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate notBefore="0001" notAfter="0001" when="0001"> 
-                                <note type="displayed_date"></note>
-                                <note type="dating_elements"></note>
-                                <note type="topical_date"></note>
+                            <origDate when="0952-06-05">
+                                <note type="displayed_date">956 June 5</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Capua</note>
                             </origDate>
                             <origPlace/>
                         </origin>
@@ -72,7 +72,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2021-02-08">creation of record</change>
+                <change when="2021-02-08" who="gzornetta">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -80,14 +80,58 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab></ab>
+                    <ab>+ In nomine Domini salvatoris nostri Iesu Christi Dei eterni. Landolfus et
+                        Paldolfus filius eiusdem domni Landolfi divina ordinante providentia
+                        Langovardorum gentis principes. Cum principalis excellentia petitione
+                        dilecti sui petenti clementer favet, igitur noverit omnium fidelium
+                        nostrorum presentium scilicet ac futurorum sollertia quia Ardericus
+                        venerabilis episcopus dilectus noster nostram exoravit excellentiam quatenus
+                        concederemus et confirmaremus in monasterio Beati Benedicti confessoris
+                        Christi situs in Monte Casino, in quo domnus Alagernus veneravilis abbas
+                        regimen tenere videntus, omnia que inferius declaramus, de quibus petiit a
+                        nostra excellentia ut firmitatis apices in eadem sancto monasterio ibi fieti
+                        iuveremus. Cuius petitionem exaudientes, hos firmitatis apices ibique in
+                        eodem sancto monasterio fieri iussimus, per quos omnino sancimus et
+                        perpetualiter habendum nostris et futuris temporibus concedimus in eodem
+                        sancto monasterio ut neque nos, neque quiscumque post nos pro parti nostri
+                        publici tollat de eodem monasterium bobes aut carra pro portandum illa in
+                        hoste, set in omnibus sint ibi concessa. Simulque et concedimus et
+                        confirmamus in eodem sancto monasterio ad possessione eiusdem monasterii et
+                        de eiusque abbatibus vel rectoribus monasterium Beati Benedicti qui
+                        edificatus esse videtur in finibus Larino infra murum et muricinum de eadem
+                        cibitate Larino cum resa et celle seu terris pertinentibus de eodem
+                        monasterio. Necnon et concedimus et confirmamus in eodem sancto monasterio
+                        omnibus rebus et substantiis qui fuerunt Crispoli monachi qui fuit abitante
+                        de eadem civitate Laarino, sic in integrum ipsis rebus et substantiis eius
+                        in eodem monasterio concedimus et confirmamus, sicut ipse Crispolus monachus
+                        ipsos offertum abuit in iam dicto monasterio Sancti Benedicti de eadem
+                        cibitate Larino. Quam et concedimus et concedimus (sic) et confirmamus in
+                        supra nominato monasterio Beati Benedicti, in quo supradictus domnus
+                        Alagernus abbas regimen tenere videntur, omnibus rebus et substantiis
+                        pertinentibus de eodem monasterio, qaliter ec antiquis temporibus ipsos
+                        abuit et possessurus fuit predictus monasterius in tota pertinentia de eadem
+                        civita telarino (sic). Ea videlicet ratione ea omnia que superius legitur in
+                        eodem sancto monasterio concedimus et confirmamus ad habendum et possidendum
+                        ipsos, ita ut neque nos, neque quiscumque post nos pro parti publice, neque
+                        a nostris comitibus, castaldeis, iudicibus habeat pars predicti monasterii
+                        de omnia supradicta qualemcumque molestiam aut contrarietatem, set semper
+                        securiter habeat et possideat predictus monasterius et eiusque abbatibus et
+                        rectoribus omnia supradicta, veniat nemine ibi exinde aliqua contraria
+                        ingerente. Ut autem hec nostra concessio pleniorem in Deo nomine optineat
+                        vigorem, manu propria scripsimus et ex anulo nostro supter iussimus
+                        sigillari. Signum domni Landolfi excellentissimi principis. LANDOLFVS.
+                        Petrus notarius ex iussione supradicte potestaris scripsi. Data nonas
+                        Iunias, anno tertiodecimo principatus domni Landolfi gloriosi principis et
+                        anno nono principatus domni Paldolfi eius filii, indictione decima. Actum in
+                        civitate Capuana.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p/>
+                <p><foreign>Registrum Petri Diaconi </foreign>f. 172v-173r; RPD 312: 926-928; Voigt
+                    *145; Gallo 1937: 65, n. 36; Poupardin 1907: XI, 98.</p>
             </div>
             <div type="bibliography" subtype="additional">
-                <p/>
+                <p>Bloch 1986: 49, 1349</p>
             </div>
             <div type="bibliography" subtype="links">
                 <p/>
