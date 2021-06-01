@@ -4,7 +4,7 @@
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
-                <title>Archivio storico città di Vercelli (MGH DD F I / 1)</title>
+                <title>Archivio storico città di Vercelli (MGH DD F I / 1 D. 31)</title>
             </titleStmt>
             <editionStmt>
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
@@ -30,10 +30,10 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#"/>
-                            <rs type="record_source" ref="#"/>
-                            <rs type="document_tradition" ref="#"/>
-                            <rs type="fiscal_property"/>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -41,10 +41,10 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate notBefore="0001" notAfter="0001" when="0001"> 
-                                <note type="displayed_date"></note>
-                                <note type="dating_elements"></note>
-                                <note type="topical_date"></note>
+                            <origDate notBefore="0001" notAfter="0001" when="1152-10-17">
+                                <note type="displayed_date">1152 October 17</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date"/>
                             </origDate>
                             <origPlace/>
                         </origin>
@@ -80,48 +80,58 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>(C.) In nomine sancte et individue trinitatis. Fridericus dei gratia
-                        Romanorum rex augustus. Quia Romani imperii regimen potestatemque
-                        suscepimus, ecclesiis a nostris predecessoribus plurima largitione
-                        sublimatis regia nos competit provisione consulere et, ne ipsarum
-                        possessiones aliqua distractione depereant, suffragium sufficiens adhibere.
-                        Presentibus igitur ac futuris Christi fidelibus volumus esse cognitum, quod
-                        petitione domini pape Eugenii tertii et intercedente karissimo cancellario
-                        nostro Arnoldo aliisque pluribus regni principibus venerabilem Vercellensem
-                        episcopum Vgucionem atque ecclesiam sancti Eusebii in regiam protectionem
-                        suscepimus et presentis privilegii pagina conmunivimus. Quecumque ergo
-                        memorate ecclesie largitione regum, concessione pontificum seu quorumlibet
-                        oblatione fidelium collata esse noscuntur et que in posterum largiente
-                        domino conferentur, castella sive villas, prata, pascua, vineas, aquas,
-                        molendina, culta et inculta, districtum, pedaticum, naulum et omnia, que in
-                        suis privilegiis a nostris predecessoribus regibus seu imperatoribus sibi
+                    <ab>(C.) In nomine sancte et individue trinitatis.
+                            <persName>Fridericus</persName> dei gratia Romanorum <rs>rex</rs>
+                        augustus. Quia Romani imperii regimen potestatemque suscepimus, ecclesiis a
+                        nostris predecessoribus plurima largitione sublimatis regia nos competit
+                        provisione consulere et, ne ipsarum possessiones aliqua distractione
+                        depereant, suffragium sufficiens adhibere. Presentibus igitur ac futuris
+                        Christi fidelibus volumus esse cognitum, quod petitione domini <rs>pape</rs>
+                        <persName>Eugenii</persName> tertii et intercedente karissimo
+                            <rs>cancellario</rs> nostro <persName>Arnoldo</persName> aliisque
+                        pluribus regni principibus venerabilem Vercellensem <rs>episcopum</rs>
+                        <persName>Vgucionem</persName> atque ecclesiam <orgName>sancti Eusebii
+                        </orgName>in regiam protectionem suscepimus et presentis privilegii pagina
+                            <rs>conmunivimus</rs>. Quecumque ergo memorate ecclesie largitione
+                        regum, concessione pontificum seu quorumlibet oblatione fidelium collata
+                        esse noscuntur et que in posterum largiente domino conferentur,
+                            <rs>castella</rs> sive <rs>villas</rs>, prata, <rs>pascua</rs>,
+                            <rs>vineas</rs>, <rs>aquas</rs>, <rs>molendina</rs>, culta et inculta,
+                            <rs>districtum</rs>, <rs>pedaticum</rs>, naulum et omnia, que in suis
+                        privilegiis a nostris predecessoribus regibus seu imperatoribus sibi
                         concessis contineri noscuntur, presenti privilegio confirmamus, ex quibus
-                        hec propriis duximus exprimenda vocabulis: monasterium sancti Michaelis in
-                        Laucelio cum suis pertinentiis, monasterium sancti Stephani cum suis
-                        pertinentiis, monasterium sancti Salvatoris de Bessia cum suis pertinentiis,
-                        Tridinum cum suis pertinentiis, Matascum, Casale sancti Euasii cum omnibus
-                        insulis et pertinentiis, castellum sancti Georgii, Ozanum, Pomarium,
-                        Picetum, Mirabellum, civitatem Vercellensem cum omni comitatu et districto
-                        et omnibus regalibus, Asilianum cum omni districto et integritate,
-                        Pertingum, Balsulam, Saletam, Constantianam, Stripianam, Roncum sicum cum
-                        omni nemore, Salugiam cum pedatico et omni integritate, Moncrauellum,
-                        Miraldam, Saluciolam cum suis pertinentiis, Cerrionem cum suis pertinentiis,
-                        Magnanum, Calamatium, Bugellam cum suis pertinentiis, Gallianicum,
-                        Ponderanum, Mulinariam, Andurnum, Causate, Montem Beroardum, Clauaziam,
-                        Thisidolam, Pedrorium, Blatinum, Candelem, Triuerium, comitatum sancte
-                        Agathe cum mercatis, theloneis et pedaticum et cetera omnia, que regalia
-                        esse noscuntur, Oldenicum, Albanum, Grecium et arimannos de Arborio,
-                        Ghislarengo, Lentam cum monasterio sanctimonialium cum suis pertinentiis,
-                        Rade, Gatinariam, Vinteblium cum suis pertinentiis, Nauola, Bornade,
-                        Creuacorium cum villis et piscationibus et ceteris regalibus, Quirinum,
-                        Messeranum cum omnibus regalibus, Lexonam et Pratum celsum et in
-                        Montegrandi, Palexum et Casale, Salam, Verrucham, Miroculum, Durbercum,
-                        Montem ville, Castellum turris, Luaretum, Odalengum cum omnibus arimannis
-                        suis. Preterea venditiones, commutationes, alienationes, distractiones ab
-                        invasoribus sancti Eusebii factas, qui pontificalem benedictionem non
-                        obtinuerunt, videlicet Gregorio de Verrucha, Liprando, Sigifredo, Ardicione
-                        in irritum ducimus et regia auctoritate cassamus, quemadmodum et patruus
-                        atque antecessor noster Cvonradus Romanorum rex ipsam cassavit. Investituram
+                        hec propriis duximus exprimenda vocabulis: <rs>monasterium</rs>
+                        <orgName>sancti Michaelis in <placeName>Laucelio</placeName></orgName> cum
+                        suis pertinentiis, monasterium <orgName>sancti Stephani</orgName> cum suis
+                        pertinentiis, monasterium <orgName>sancti Salvatoris de Bessia</orgName> cum
+                        suis pertinentiis, <placeName>Tridinum</placeName> cum suis pertinentiis,
+                            <placeName>Matascum</placeName>, <placeName>Casale sancti
+                            Euasii</placeName> cum omnibus <rs>insulis</rs> et pertinentiis,
+                            <rs>castellum</rs>
+                        <placeName>sancti Georgii</placeName>, <placeName>Ozanum</placeName>,
+                            <placeName>Pomarium</placeName>, <placeName>Picetum</placeName>,
+                            <placeName>Mirabellum</placeName>, civitatem
+                            <placeName>Vercellensem</placeName> cum omni comitatu et districto et
+                        omnibus regalibus, Asilianum cum omni districto et integritate, Pertingum,
+                        Balsulam, Saletam, Constantianam, Stripianam, Roncum sicum cum omni nemore,
+                        Salugiam cum pedatico et omni integritate, Moncrauellum, Miraldam,
+                        Saluciolam cum suis pertinentiis, Cerrionem cum suis pertinentiis, Magnanum,
+                        Calamatium, Bugellam cum suis pertinentiis, Gallianicum, Ponderanum,
+                        Mulinariam, Andurnum, Causate, Montem Beroardum, Clauaziam, Thisidolam,
+                        Pedrorium, Blatinum, Candelem, Triuerium, comitatum sancte Agathe cum
+                        mercatis, theloneis et pedaticum et cetera omnia, que regalia esse
+                        noscuntur, Oldenicum, Albanum, Grecium et arimannos de Arborio, Ghislarengo,
+                        Lentam cum monasterio sanctimonialium cum suis pertinentiis, Rade,
+                        Gatinariam, Vinteblium cum suis pertinentiis, Nauola, Bornade, Creuacorium
+                        cum villis et piscationibus et ceteris regalibus, Quirinum, Messeranum cum
+                        omnibus regalibus, Lexonam et Pratum celsum et in Montegrandi, Palexum et
+                        Casale, Salam, Verrucham, Miroculum, Durbercum, Montem ville, Castellum
+                        turris, Luaretum, Odalengum cum omnibus arimannis suis. Preterea
+                        venditiones, commutationes, alienationes, distractiones ab invasoribus
+                        sancti Eusebii factas, qui pontificalem benedictionem non obtinuerunt,
+                        videlicet Gregorio de Verrucha, Liprando, Sigifredo, Ardicione in irritum
+                        ducimus et regia auctoritate cassamus, quemadmodum et patruus atque
+                        antecessor noster Cvonradus Romanorum rex ipsam cassavit. Investituram
                         quoque ab Anselmo Vercellensi episcopo contra voluntatem sue ecclesie
                         occulte et irrationabiliter factam de Clauatiolo atque investituram a
                         Gisulfo eiusdem ecclesie episcopo contra iuramentum, quod fecerat, et contra
@@ -157,7 +167,7 @@
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p>MGH DD F I / 1, p. 52.</p>
+                <p>MGH DD F I / 1, p. 52-54</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>
