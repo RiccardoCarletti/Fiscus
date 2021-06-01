@@ -13,7 +13,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
-                <idno type="filename">doc1</idno>
+                <idno type="filename">doc2019</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -30,10 +30,10 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#"/>
-                            <rs type="record_source" ref="#"/>
-                            <rs type="document_tradition" ref="#"/>
-                            <rs type="fiscal_property"/>
+                            <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">Uncertain</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -41,10 +41,10 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate notBefore="0001" notAfter="0001" when="0001"> 
-                                <note type="displayed_date"></note>
-                                <note type="dating_elements"></note>
-                                <note type="topical_date"></note>
+                            <origDate when="1004-12">
+                                <note type="displayed_date">1004? December</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Aquino</note>
                             </origDate>
                             <origPlace/>
                         </origin>
@@ -72,7 +72,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2021-02-08">creation of record</change>
+                <change when="2021-06-01" who="gzornetta">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -84,10 +84,11 @@
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p/>
+                <p><foreign>Registrum Petri Diaconi </foreign>f. 109vB-110rA; RPD 243: 758-760;
+                    Gallo 1937: 73-75, n. 5; CMC II, 26: 213 (summary). </p>
             </div>
             <div type="bibliography" subtype="additional">
-                <p/>
+                <p>Bloch 1986: 1348.</p>
             </div>
             <div type="bibliography" subtype="links">
                 <p/>
