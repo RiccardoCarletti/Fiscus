@@ -96,7 +96,8 @@
                         duo <rs key="#Castle">castella</rs>
                         <placeName ref="#places/719"
                             key="#Houses #Rivers #Forests #Fisheries #Mills #Hay/fodder #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches #Castle #Rights_of_use_on_woods/pastures/waters"
-                            >Merebellum</placeName> et <placeName ref="#places/717" key="#Houses #Rivers #Forests #Fisheries #Mills #Hay/fodder #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches #Castle #Rights_of_use_on_woods/pastures/waters"
+                            >Merebellum</placeName> et <placeName ref="#places/717"
+                            key="#Houses #Rivers #Forests #Fisheries #Mills #Hay/fodder #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches #Castle #Rights_of_use_on_woods/pastures/waters"
                             >Becetum</placeName> cum omnibus appendiciis utriusque sexus <rs
                             key="#Slave">mancipiis</rs> areis <rs key="#Houses">hedificiis</rs>
                         pratis <rs key="#Hay/fodder">pascuis</rs> terris cultis et incultis viis et
@@ -120,10 +121,12 @@
                         scribi iussimus, quam, ut infra videtur, nostra manu corroboratam et sigilli
                         nostri impressione insignitam omnis generationis tam future quam presentis
                         noticie relinquimus. Signum domni Henrici quarti regis invictissimi. (M.)
-                            <persName>Burcardus</persName> episcopus et <rs>cancellarius</rs>
-                        recognovi. Dat. IIII non. iulii anno dominice incarnationis MoLXXXIII,
-                        indictione VI, anno autem ordinationis dompni Henrici IIII regis XXVIIII,
-                        regni XXVII; actum Sutrie; feliciter in Christi nomine amen. </ab>
+                            <persName key="#Chancellor"><name ref="Burcardus"
+                            >Burcardus</name></persName> episcopus et <rs key="#Chancellor"
+                            >cancellarius</rs> recognovi. Dat. IIII non. iulii anno dominice
+                        incarnationis MoLXXXIII, indictione VI, anno autem ordinationis dompni
+                        Henrici IIII regis XXVIIII, regni XXVII; actum Sutrie; feliciter in Christi
+                        nomine amen. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
