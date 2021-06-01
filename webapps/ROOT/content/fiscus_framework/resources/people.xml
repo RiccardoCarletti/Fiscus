@@ -2539,6 +2539,10 @@
                     <link type="people" corresp="#people/156" subtype="sonOf"/>
                     <link type="people" corresp="#people/167" subtype="uncleOf"/>
                     <link type="people" corresp="#people/157" subtype="brotherOf"/>
+                    <link type="people" corresp="#people/401" subtype="cousinOf"/>
+                    <link type="people" corresp="#people/400" subtype="uncleOf"/>
+                    <link type="people" corresp="#people/399" subtype="uncleOf"/>
+                    <link type="people" corresp="#people/398" subtype="uncleOf"/>
                     <link type="juridical_persons" corresp="#juridical_persons/84" subtype="link"/>
                 </person>
                 <person>
@@ -3289,7 +3293,7 @@
                     <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
                 </person>
                 <person>
-                    <persName>Adenolfus Megalu (comes Aquinensis; ?-982)</persName>
+                    <persName>Adenolfus Megalu (?-982 comes Aquinensis)</persName>
                     <persName type="other"/>
                     <idno>people/396</idno>
                     <note></note>
@@ -3305,10 +3309,13 @@
                     <link type="juridical_persons" corresp="#juridical_persons/84" subtype="link"/>
                     <link type="places" corresp="#places/173" subtype="hasConnectionWith"/>
                     <link type="people" corresp="#people/398" subtype="motherOf"/>
+                    <link type="people" corresp="#people/399" subtype="motherOf"/>
+                    <link type="people" corresp="#people/400" subtype="motherOf"/>
                     <link type="people" corresp="#people/157" subtype="wifeOf"/>
+                    <link type="estates" corresp="#estates/313" subtype="hasConnectionWith"/>
                 </person>
                 <person>
-                    <persName>Landenolfus (993)</persName>
+                    <persName>Landenolfus (993 princeps)</persName>
                     <persName type="other">Landenolfus II</persName>
                     <idno>people/398</idno>
                     <note/>
@@ -3319,9 +3326,11 @@
                     <link type="people" corresp="#people/398" subtype="sonOf"/>
                     <link type="people" corresp="#people/157" subtype="sonOf"/>
                     <link type="juridical_persons" corresp="#juridical_persons/84" subtype="link"/>
+                    <link type="people" corresp="#people/305" subtype="nephewOf"/>
+                    <link type="estates" corresp="#estates/313" subtype="hasConnectionWith"/>
                 </person>
                 <person>
-                    <persName>Laidolfus </persName>
+                    <persName>Laidolfus (?-992? comes Teanensis; 992-999 princeps Capuae)</persName>
                     <persName type="other"/>
                     <idno>people/399</idno>
                     <note></note>
@@ -3332,30 +3341,40 @@
                     <link type="people" corresp="#people/400" subtype="brotherOf"/>
                     <link type="people" corresp="#people/398" subtype="brotherOf"/>
                     <link type="people" corresp="people/167" subtype="brotherOf"/>
+                    <link type="estates" corresp="#estates/122" subtype="hasConnectionWith"/>
+                    <link type="places" corresp="#places/174" subtype="hasConnectionWith"/>
+                    <link type="people" corresp="#people/305" subtype="nephewOf"/>
+                    <link type="estates" corresp="#estates/313" subtype="hasConnectionWith"/>
                 </person>
                 <person>
-                    <persName>Gisulfus</persName>
+                    <persName>Gisulfus (996 comes Teanensis)</persName>
                     <persName type="other"/>
                     <idno>people/400</idno>
                     <note></note>
                     <link type="juridical_persons" corresp="#juridical_persons/84" subtype="link"/>
-                    <link type="places" corresp="#places/173" subtype="hasConnectionWith"/>
                     <link type="people" corresp="#people/397" subtype="sonOf"/>
                     <link type="people" corresp="#people/157" subtype="sonOf"/>
                     <link type="people" corresp="#people/399" subtype="brotherOf"/>
                     <link type="people" corresp="#people/398" subtype="brotherOf"/>
                     <link type="people" corresp="people/167" subtype="brotherOf"/>
+                    <link type="estates" corresp="#estates/122" subtype="hasConnectionWith"/>
+                    <link type="places" corresp="#places/174" subtype="hasConnectionWith"/>
+                    <link type="people" corresp="#people/305" subtype="nephewOf"/>
+                    <link type="estates" corresp="#estates/313" subtype="hasConnectionWith"/>
                 </person>
                 <person>
-                    <persName>Manso (986-996; abbas Casinensis)</persName>
+                    <persName>Manso (986-996 abbas Casinensis)</persName>
                     <persName type="other"/>
                     <idno>people/401</idno>
                     <note>Beolchini 2007</note>
+                    <link type="places" corresp="#places/109" subtype="hasConnectionWith"/>
                     <link type="juridical_persons" corresp="#juridical_persons/84" subtype="link"/>
                     <link type="people" corresp="#people/397" subtype="sonOf"/>
                     <link type="people" corresp="#people/399" subtype="brotherOf"/>
                     <link type="people" corresp="#people/398" subtype="brotherOf"/>
                     <link type="people" corresp="#people/157" subtype="cousinOf"/>
+                    <link type="people" corresp="#people/305" subtype="cousinOf"/>
+                    <link type="estates" corresp="#estates/313" subtype="hasConnectionWith"/>
                 </person>
             </listPerson>
         </body>
