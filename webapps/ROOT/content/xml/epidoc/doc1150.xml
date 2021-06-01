@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title></title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc1150</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#"/>
+                            <rs type="record_source" ref="#"/>
+                            <rs type="document_tradition" ref="#"/>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate notBefore="0001" notAfter="0001" when="0001"> 
+                                <note type="displayed_date"></note>
+                                <note type="dating_elements"></note>
+                                <note type="topical_date"></note>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-02-08">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine domini Dei aeterni. Berengarius rex. Omnibus sanctae Dei Ecclesiae
+                        fidelibus notum fieri volumus, Adalbertum venerandum sanctae Pergamensis
+                        sedis antistitem nostrae proclamasse mansuetudini suam ecclesiam habuisse
+                        mansiones et solarium in Ticinensi civitate in loco qui dicitur Faramania,
+                        et inminente persecutione Hungrorum propter munitionem ipsius civitatis a
+                        civibus et domus destructe fuerint et murus civitatis edificatus sit super
+                        terram suae ecclesiae et suam, sicut nunc constructus esse videtur, ideoque
+                        se absque episcopali domo in predicta civitate esse dicebat. Et quia ita
+                        fuisse conperimus, omnes opressos consolari cupientes maximeque ecclesias et
+                        Christi sacerdotes, dignum duximus, ut in eodem loco qui dicitur Faramania
+                        super murum ipsius civitatis licentiam habeat ex nostra parte et potestatem
+                        quodcumque voluerit edificium construendi tam ipse quamqe eius posteri, et
+                        via quae ibi ab occidente ad orientem dirigitur, quia satis muro predicto
+                        proxima est, non iuxta murum usque ad posterulam sed a meridiana parte suae
+                        terrae inter se et Sancti Petri Sanctaeque Tecle terram dirigatur, quia ad
+                        hanc previdendam Iohannem Ticinensem direximus episcopum. Extenditur autem
+                        murus ipse, cuius proprietatis suaeque ecclesiae licentiam concessimus
+                        edificandorum edificiorum, usque ad perticas legitimas duodecim. Si quis
+                        igitur hoc nostrae auctoritatis et concessionis preceptum infringere vel
+                        violare temptaverit, sciat se compositurum auri optimi libras quinquaginta,
+                        medietatem camerae nostrae et medietatem predicto Adalberto episcopo suisque
+                        successoribus. Quod ut verius credatur et diligentius observetur, manu
+                        porpria roborantes de anulo nostro subter iussimus insigniri. Signum domni
+                        (MF) Berengarii serenissimi regis. Iohannes cancellarius ad vicem Ardingi
+                        episcopi et archicancellarii recognovi et subscripsi. (SR) (SI D). Data kal.
+                        Septemb., anno dominicae incarnationis DCCCCXV, domni vero Berengarii
+                        serenissimi regis XXVIII, indictione IIII. Actum curte Curiano. In Christi
+                        nomine feliciter, amen.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
