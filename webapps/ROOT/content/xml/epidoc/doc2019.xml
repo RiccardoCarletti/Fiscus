@@ -33,7 +33,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Original</rs>
-                            <rs type="fiscal_property">Uncertain</rs>
+                            <rs type="fiscal_property">No</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -84,13 +84,14 @@
                                 <persName key="#Princeps">Landolfi</persName> gloriosi <rs
                                 key="#Princeps">principis</rs>, mense December, tertia
                             indictione</date>. Ideoque ego <persName key="#Princeps #Monks"
-                            >Landolfus</persName> qui fui princebs de cibitate Salerno, et modo sum
-                            <rs key="#Monks">monachus</rs> in <rs key="#Monasteries">monasterio</rs>
+                            ref="#people/406">Landolfus</persName> qui fui princebs de cibitate
+                        Salerno, et modo sum <rs key="#Monks">monachus</rs> in <rs
+                            key="#Monasteries">monasterio</rs>
                         <orgName key="#Monasteries #Abbots #Monks" ref="#juridical_persons/84"
                             >Sancti Benedicti</orgName> de <rs key="#Castle">castro</rs>
                         <placeName key="#Castle #Monasteries" ref="#places/109">Casino</placeName>
-                        et filius domni <persName>Landolfi</persName> bone memoriȩ nostrȩ <rs
-                            key="#Cities">cibitati</rs>
+                        et filius domni <persName ref="#people/405">Landolfi</persName> bone memoriȩ
+                        nostrȩ <rs key="#Cities">cibitati</rs>
                         <placeName key="#Cities" ref="#places/84">Salernum</placeName>, declaro quia
                         redemtione anime meȩ, ut hic et aput ȩternum Dominum de peccatis meis
                         requiem inbenire valeam, per hanc carta <rs key="#Offersio/donatio"
