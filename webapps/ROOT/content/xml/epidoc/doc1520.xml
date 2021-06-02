@@ -4,8 +4,7 @@
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
-                <title>Biblioteca Apostolica Vaticana, Vat. Lat. 3833, f. 89r (Deusdedit, nr.
-                    231)</title>
+                <title></title>
             </titleStmt>
             <editionStmt>
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
@@ -14,7 +13,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
-                <idno type="filename">doc1519</idno>
+                <idno type="filename">doc1</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -31,10 +30,10 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#">-Papal concession (papyrus)</rs>
-                            <rs type="record_source" ref="#">Original document</rs>
-                            <rs type="document_tradition" ref="#">Compendium</rs>
-                            <rs type="fiscal_property">Yes</rs>
+                            <rs type="text_type" ref="#"/>
+                            <rs type="record_source" ref="#"/>
+                            <rs type="document_tradition" ref="#"/>
+                            <rs type="fiscal_property"/>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -42,10 +41,10 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate notBefore="0715" notAfter="0731">
-                                <note type="displayed_date">715 May 19 - 731 February 11</note>
-                                <note type="dating_elements"/>
-                                <note type="topical_date"/>
+                            <origDate notBefore="0001" notAfter="0001" when="0001"> 
+                                <note type="displayed_date"></note>
+                                <note type="dating_elements"></note>
+                                <note type="topical_date"></note>
                             </origDate>
                             <origPlace/>
                         </origin>
@@ -73,7 +72,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2021-06-02" who="dinternullo">creation of record</change>
+                <change when="2021-02-08">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -81,35 +80,20 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>(<persName key="#Popes" ref="#people/71">Gregorius iunior</persName>
-                        [locat?]) idem <rs key="#Monasteries">monasterio</rs>
-                        <orgName key="#Monasteries" ref="#juridical_persons/257">Sancti Silvestri in
-                            monte Soractae</orgName>
-                        <rs key="#Iure_proprietatis/pleno_iure">in perpetuum</rs>
-                        <rs key="#Fundi">fundum</rs>
-                        <geogName
-                            key="#Fundi #Fiscal_property #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches #Rent_in_money"
-                            ref="#estates/320">Scantianum</geogName> ex corpore <rs key="#Massae"
-                            >massae</rs>
-                        <geogName key="#Massae" ref="#estates/321">Castellianae</geogName>
-                        <rs key="#Patrimonium">patrimonii</rs>
-                        <geogName key="#Patrimonium" ref="#estates/103">Tusciae</geogName>, <rs
-                            key="#Rent_in_money">suppensione numero semis quartum siliquas
-                        auri</rs>.</ab>
+                    <ab></ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p>Deusdedit, Collectio Canonum, nr. 231, p. 369</p>
+                <p/>
             </div>
             <div type="bibliography" subtype="additional">
-                <p>Marazzi 1998: 303-304</p>
+                <p/>
             </div>
             <div type="bibliography" subtype="links">
-                <p><ref>https://digi.vatlib.it/view/MSS_Vat.lat.3833</ref></p>
+                <p/>
             </div>
             <div type="commentary">
-                <p>La rendita è tracciata in note tachigrafiche. Viene qui sciolta seguendo le
-                    indicazioni di Marazzi.</p>
+                <p/>
             </div>
         </body>
     </text>
