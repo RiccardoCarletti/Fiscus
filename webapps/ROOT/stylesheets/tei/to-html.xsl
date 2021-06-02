@@ -830,6 +830,10 @@
         toggle_golden_places.addTo(mymap);
         toggle_polygons.addTo(mymap);
         toggle_lines.addTo(mymap);
+          
+       <!-- var sliderControl = L.control.sliderControl({layer: L.layerGroup(markers)});
+        mymap.addControl(sliderControl);
+        sliderControl.startSlider();-->
       </script>
     </div>
   </xsl:template>
