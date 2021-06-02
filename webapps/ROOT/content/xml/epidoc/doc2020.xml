@@ -81,11 +81,14 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>+ In nomine Domini salvatoris nostri Iesu Christi Dei eterni. Landolfus et
-                        Atenolfus et Landolfus divina ordinante providentia Langobardorum gentis
-                        principes. Cum principalis excellentia petitionibus dilectorum di (sic)
-                        suorum iuste petentibus clementer favet, quapropter noverit omnium fidelium
-                        nostrorum presentium scilicet ac futurorum sagacitas quoniam nos Atenolfus
+                    <ab>+ In nomine Domini salvatoris nostri Iesu Christi Dei eterni. <persName
+                            key="#Princeps" ref="#people/305">Landolfus</persName> et <persName
+                            key="#Princeps" ref="#people/304">Atenolfus</persName> et <persName
+                            key="#Princeps" ref="#people/156">Landolfus</persName> divina ordinante
+                        providentia Langobardorum gentis <rs key="#Princeps">principes</rs>. Cum
+                        principalis excellentia petitionibus dilectorum di (sic) suorum iuste
+                        petentibus clementer favet, quapropter noverit omnium fidelium nostrorum
+                        presentium scilicet ac futurorum sagacitas quoniam nos Atenolfus
                         misericordia Dei princeps pro mercede et redeptione (sic) anime nostre, quam
                         et per rogum Baldoin venerabilis abbas carissimo patri nostro, concessimus
                         atque confirmamus in ipso sacratissimo cenobi (sic) beati Benedicti Christi
@@ -140,12 +143,16 @@
                         predicti nostri antecessores gloriosi principes insituerunt atque
                         disposuerunt. Porro ut hoc quod iuvemur ab omnibus immobiliter observetur,
                         manu propria scripsimus et anulo nostro iussimus sigillari. Signum domni
-                        Atenolfi principis. ATENOLFVS. Ursus clericus et scriba ex iussione
-                        supradicte potestatis scripsi. Data tertio kalendas Februarias in anno
-                        quadragesimo tertio principatus domni Landolfi gloriosi principis et decimo
-                        anno principatus domni Atenolfi et quarto anno principatus domni Landolfi
-                        filii predicti domni Landolfi gloriosi principis, indictione prima. Actu
-                        Beneventi in sacto Palatio.</ab>
+                        Atenolfi principis. ATENOLFVS. <persName key="#Notary #Other_clerics"><name
+                                ref="Ursus">Ursus</name></persName>
+                        <rs key="#Other_clerics">clericus</rs> et <rs key="#Notary">scriba</rs> ex
+                        iussione supradicte potestatis scripsi. <date>Data tertio kalendas
+                            Februarias in anno quadragesimo tertio principatus domni Landolfi
+                            gloriosi principis et decimo anno principatus domni Atenolfi et quarto
+                            anno principatus domni Landolfi filii predicti domni Landolfi gloriosi
+                            principis, indictione prima. Actu <placeName key="#Palatia"
+                                ref="#places/110">Beneventi</placeName> in sacro <rs key="#Palatia"
+                                >Palatio</rs></date>.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
