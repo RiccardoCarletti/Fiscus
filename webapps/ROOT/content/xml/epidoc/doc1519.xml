@@ -81,9 +81,19 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>Idem monasterio Sancti Silvestri in monte Soractae in perpetuum fundum
-                        Scantianum ex corpore massae Castellianae patrimonii Tusciae, suppensione
-                        numero semis quartum siliquas auri.</ab>
+                    <ab>(<persName key="#Popes" ref="#people/71">Gregorius iunior</persName>) idem
+                            <rs key="#Monasteries">monasterio</rs>
+                        <orgName key="#Monasteries">Sancti Silvestri in monte Soractae</orgName>
+                        <rs key="#Iure_proprietatis/pleno_iure">in perpetuum</rs>
+                        <rs key="#Fundi">fundum</rs>
+                        <geogName
+                            key="#Fundi #Fiscal_property #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches #Rent_in_money"
+                            >Scantianum</geogName> ex corpore <rs key="#Massae">massae</rs>
+                        <geogName key="#Massae">Castellianae</geogName>
+                        <rs key="#Patrimonium">patrimonii</rs>
+                        <geogName key="#Patrimonium" ref="#estates/103">Tusciae</geogName>, <rs
+                            key="#Rent_in_money">suppensione numero semis quartum siliquas
+                        auri</rs>.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
