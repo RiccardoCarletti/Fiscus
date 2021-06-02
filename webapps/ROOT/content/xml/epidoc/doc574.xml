@@ -35,7 +35,7 @@
                                 >--Libellus/precaria/emphyteusis</rs>
                                     <rs type="record_source" ref="#">Original document</rs>
                                     <rs type="document_tradition" ref="#">Original</rs>
-                                    <rs type="fiscal_property"/>
+                                    <rs type="fiscal_property">No</rs>
                                 </summary>
                                 <msItem xml:id="msItem1">
                                     <textLang mainLang="" otherLangs=""/>
@@ -74,7 +74,7 @@
                 </profileDesc>
                 <revisionDesc>
                     <listChange>
-                        <change when="2021-01-06" who="ptomei">creation of record</change>
+                        <change when="2021-06-02" who="ptomei">creation of record</change>
                     </listChange>
                 </revisionDesc>
             </teiHeader>
@@ -82,31 +82,35 @@
                 <body>
                     <div type="edition">
                         <div type="textpart">
-                            <ab> Il notaio e scabino Ghisalfridi del fu Roffridi riceve in livello
-                        dal vescovo di Lucca Pietro, una casa et res posta in loco ubi dicitur
-                        Castelione prope ecclesia Sancti Miniati et prope plebe Sancti Genesi, di
-                        pertinenza delle chiese di Santa Maria sita loco et finibus ubi dicitur a
-                        Monte e Sant’Ippolito qui sunt de subpotestate del vescovato di San Martino,
-                        in precedenza tenuta dal fu Giordano e ora dal figlio, con tutte le sue
+                            <ab>Il <rs key="#Notary">notaio</rs> e <rs key="#Scabini">scabino</rs>
+                        <persName>Ghisalfridi</persName> del <persName>fu Roffridi</persName> riceve
+                        in livello dal <rs key="#Bishops">vescovo</rs> di Lucca <persName
+                            ref="#people/213" key="#Bishops">Pietro</persName>, una casa et res
+                        posta in loco ubi dicitur <placeName>Castelione</placeName> prope <orgName
+                            key="#Churches"><rs key="#Churches">ecclesia</rs>
+                            <placeName key="#Churches">Sancti Miniati</placeName></orgName> et prope
+                            <orgName key="#Baptismal_churches"><rs key="#Baptismal_churches"
+                                >plebe</rs>
+                            <placeName key="#Baptismal_churches" ref="#places/465">Sancti
+                                Genesi</placeName></orgName>, di pertinenza della <rs
+                            key="#Churches">chiesa</rs> di Santa Maria sita loco et finibus ubi
+                        dicitur a Monte e della <rs key="#Baptismal_churches">chiesa</rs> di
+                        Sant’Ippolito qui sunt de subpotestate del vescovato di San Martino, in
+                        precedenza tenuta dal fu Giordano e ora dal figlio, con tutte le sue
                         dipendenze. Si impegna a versare pro omni censum et iustitia al vescovo e ai
                         suoi successori per i successivi 29 anni ad ipsa ecclesie Sancte Marie il
                         censo annuale di 24 denari d’argento ad pars della stessa chiesa. Se non
                         rispetterà i suddetti impegni, promette con i suoi eredi e illas personas
                         homini cui nos suprascripta casa et res libellario nomine dederimus di
                         versare al vescovo e ai suoi successori la pena di 50 soldi d’argento.
-                        Chiede al notaio Leone la stesura di due cartulas. Actum Luca.
-                            <persName>Autori: Pietro episcopus, Ghisalfridi notarius et schabinus
-                            del fu Roffridi. Scrittore: Leone notarius. Testimoni sottoscrittori:
-                            Cunimundo, Emillo, Imalfridi, Giovanni, Ildiprando, Vito, Adalperto
-                            notarius et schabinus. Altro: f. del fu Giordano.</persName>
-                        <placeName>Luca (Lucca), Castelione (Castiglioni, San Miniato).</placeName>
-                        <orgName>San Miniato, San Genesio di Vico Vallari (chiesa battesimale), San
-                            Martino di Lucca (chiesa matrice).</orgName>
-                    </ab>
+                        Chiede al notaio Leone la stesura di due cartulas. Actum Luca. Autori:
+                        Pietro episcopus, Ghisalfridi notarius et schabinus del fu Roffridi.
+                        Scrittore: Leone notarius. Testimoni sottoscrittori: Cunimundo, Emillo,
+                        Imalfridi, Giovanni, Ildiprando, Vito, Adalperto notarius et schabinus.</ab>
                         </div>
                     </div>
                     <div type="bibliography" subtype="editions">
-                        <p>MDL, 5/3, n. 1061, p. 15</p>
+                        <p>MDL, 5/3, n. 1061, p. 15.</p>
                     </div>
                     <div type="bibliography" subtype="additional">
                         <p/>
