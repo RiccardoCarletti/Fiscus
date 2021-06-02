@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    +H.86</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc4057</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Offersio/donatio</rs>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate notBefore="0757-10-01" notAfter="0757-10-31">
+                                <note type="displayed_date">757 October</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date"/>
+                            </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-06-02" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab>Eonand vir devotus si indirizza alla ecclesie monasterio Sancte
+                        Marie sita in loco Gurgite, ubi Leonaci abba preesse videtur. Dona Deo et
+                        tibi ecclesie Dei et beate Sacnte Marie Dei genetrix terra mea que habere
+                        visu sum in loco prope Tripontio, uno foscione: uno caput tene in via
+                        publica; et alio caput in terra Filimari, lato in terra que offerui sancti
+                        Petri cum ipsa fossa et alio lato in terra ipsius eclesie Sancte Marie. Si
+                        riserva l’usufrutto vitalizio della terra donata; vincola i preti alla
+                        preghiera per i suoi peccati. Pena maledizione. Et pro confirmatione
+                        Deusdona presbitero scrivere rogavi. Actum Luca, in vico Gurgite.
+                        Sottoscrizioni: + Eonand vir devotus offertor; + Ansipert viri devoti
+                        testis; + Garipald viri devoti filio quondam Mariniani de Gurgite testis; +
+                        Lampert clerici filio quondam Gudifrid de Gurgite testis. Scrive: Deusdona
+                        presbiter.</ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL IV/1, n. 49; reg. MDL V/2, n. 53; CDL II, n. 125, pp. 3-5; ChLA,
+                    XXXII, 944.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                         <p>Persone: Desiderio re; Eonand v. dev.; Leonaci abba (di S. Maria in
+                    Gurgite); Filimari; Deusdona pbr; Ansipert v. dev.; Garipald v. dev. de Gurgite
+                    (f. Mariniani); Marinianus (p. Garipald de Gurgite); Lampert cler de Gurgite (f.
+                    Gudifrid); Gudufrid (p. Lampert cler de Gurgite). Luoghi: vico Gurgite;
+                    Tripontio [S. Leonardo in Treponzio, com. Capannori]; Luca [Lucca]. Chiese:
+                    ecclesie monasterio Sancte Marie sita in loco Gurgite [S. Maria in Gurgite];
+                    Sanctus Petrus [S. Pietro]. Cariche: . Note: . Indice: monastero - donazione.
+                    Nota dorsale (sec. XI): de terra in Turingo prope Tripontho. Nota dorsale (sec.
+                    XI): Cartula offersionis de una petia de terra quod est prope Tripontio facta in
+                    Sancta Maria de Turingo. Vico Gurgite (= Pieve S. Paolo; Capannori; Lucca) S.
+                    Leonardo in Triponzio (com. Capannori; Lucca) </p>
+                    </div>
+                </body>
+            </text>
+        </TEI>
