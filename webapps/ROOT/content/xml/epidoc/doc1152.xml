@@ -34,7 +34,7 @@
                             <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Uncertain tradition</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -95,29 +95,35 @@
                             ref="#people/369">Iohannes sancte Ticinensis eclesie</persName>
                         venerabilis <rs key="#Bishops">episcopus</rs> deprecatus est nostram
                         clementiam, ut ei concederemus, quatinus ipse circa <rs key="#Plebs"
-                            >plebem</rs> sue eclesie que nuncupatur <geogName key="#Plebs"
+                            >plebem</rs> sue eclesie que nuncupatur <geogName
+                            key="#Defensive_elements #Roads #Plebs" ref="#estates/328"
                             >Celavinnio</geogName> quandam munificentiam constitueret ob timorem
                         Ungrorum, qui pene omnes Italie eclesias ad nihilum redegerunt. Nos vero
-                        iustam eius considerantes peticionem, ob amorem Dei ita fieri annuimus,
-                        viamque publicam ei concessimus ad eandem munificentiam construendam.
-                        Percipientes ergo iubemus, ut nullus exactor rei publice infra eandem
-                        firmitatem teloneum accipere, aut placita tenere, vel hominem distringere,
-                        aut mansionaticum dare presumat, sed liceat eis qui ibi habitant pacifice ac
-                        quiete vivere, sine omnium nostrorum [hominum] molestacione degere, sintque
-                        in potestate prenominati presulis sueque eclesie. Si quis vero quoquo
-                        tempore contra hoc nostre donationis et libere concessionis preceptum
-                        insurgere aut contra ire temptaverit, sciat se compositurum iam dicte
-                        eclesie parti auri optimi libras XX, medietatem palatio nostro et medietatem
-                        supradicto presuli sueque eclesie. Quod ut verius credatur et a nostris
-                        fidelibus diligentius observetur in posterum, manu propria subter
-                        roboravimus et anuli nostri inpressione nsigniri iussimus.</ab>
+                        iustam eius considerantes peticionem, ob amorem Dei ita fieri annuimus, <rs
+                            key="#Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_individuals #Roads"
+                            >viamque publicam</rs> ei concessimus ad eandem <rs
+                            key="#Defensive_elements">munificentiam construendam</rs>. Percipientes
+                        ergo iubemus, ut <rs key="#Privileges">nullus exactor rei publice infra
+                            eandem firmitatem <rs key="#Teloneum">teloneum</rs> accipere, aut
+                            placita tenere, vel hominem distringere, aut mansionaticum dare
+                            presumat</rs>, sed liceat eis qui ibi habitant pacifice ac quiete
+                        vivere, sine omnium nostrorum [hominum] molestacione degere, sintque in
+                        potestate prenominati presulis sueque eclesie. Si quis vero quoquo tempore
+                        contra hoc nostre donationis et libere concessionis preceptum insurgere aut
+                        contra ire temptaverit, sciat se compositurum iam dicte eclesie parti <rs
+                            key="#Penalty">auri optimi libras XX</rs>, <rs key="#Camera_regis"
+                            >medietatem palatio nostro</rs> et <rs
+                            key="#Camera_of_other_public_authorities">medietatem supradicto presuli
+                            sueque eclesie</rs>. Quod ut verius credatur et a nostris fidelibus
+                        diligentius observetur in posterum, manu propria subter roboravimus et anuli
+                        nostri inpressione nsigniri iussimus.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
                 <p>DD B I, pp. 268-269, n° CIII</p>
             </div>
             <div type="bibliography" subtype="additional">
-                <p/>
+                <p>Rossetti 1975.</p>
             </div>
             <div type="bibliography" subtype="links">
                 <p/>
