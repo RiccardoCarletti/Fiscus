@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    *N.1 </title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc4060</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">-Breve</rs>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate when="0758-01-01">
+                                <note type="displayed_date">758 January 1</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date"/>
+                            </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-06-03" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab>+ Notitia facio ego Pereteo in Dei nomine episcopus, qualiter
+                        atduxerunt Maurino et Magnoviro presbiteri cartula donationis de eglesia
+                        Sancti Prosperii quem ei facta fuerat a quondam domno Talesperiano episcopu.
+                        Et ipsa cartula fecimus relegi in nostris presentiis, et exemplare, et
+                        retdedimus ipsa autentica Magnoviri presbiteri, qui in ipsa eglesia erat,
+                        quem Maurino presbitero miserat ad nus. Actum est in presentia Iordani
+                        arcipresbiteri, Guilli presbiteri, Teuderadi presbiter, Gaidoni presbiteri,
+                        Iohanni presbiteri, Iohannacim, Petronaci clerici, Fratelli subdiaconi,
+                        Periprandi subdiaconi, Gauseramu filio Gausperti, Rotprandi filio Cheidi,
+                        Rotchis filio Solduli, Amuli clerici, Teufridi clerici, Donnulo clerici. Et
+                        hanc breve scripsi ego Raspert clericus, anno domini Desiderii primo,
+                        kalendis ianuaria, indictione undecima.</ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL IV/1, n. 34; reg. MDL V/2, n. 6; CDL, II, n. 128, pp. 11-12; ChLA,
+                    XXXII, 947b.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                         <p>Persone: Desiderio re; Peredeo ep [di Lucca]; Maurino pbr; Magnoviro
+                    pbr; Talesperiano ep [di Lucca]; Iordanus a/pbr; Guillus pbr; Teuderadus pbr;
+                    Gaido pbr; Iohannes pbr [Giovanni]; Iohannacim [Giovanni]; Petronaci cler;
+                    Fratelli s/diac; Periprandi s/diac; Gauseramu (f. Gausperti); Gauspertus (p.
+                    Gauseramu); Rotprandi (f. Cheidi); Cheidi (p. Rotprandi); Rotchis (f. Solduli);
+                    Solduli (p. Rotchis); Amuli cler; Teufridi cler; Donnulo cler; Raspert cler.
+                    Luoghi: . Chiese: eglesia Sancti Prosperii [S. Prospero]. Cariche: . Note: .
+                    Indice: Notitia (copia autentica di donazione) <foreign>Nota dorsale (sec. XI):
+                    </foreign>Carta de ecclesia Sancti Prosperii de Interaccule. <foreign>Nota
+                        dorsale (sec. XI-XII)</foreign>: Exemplar ordinationis ecclesie Sancti
+                    Prosperi de Anteracule.  . </p>
+                    </div>
+                </body>
+            </text>
+        </TEI>
