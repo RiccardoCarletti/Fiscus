@@ -4,7 +4,8 @@
             <teiHeader xml:lang="en">
                 <fileDesc>
                     <titleStmt>
-                        <title>ASDL, AAL, D, ++ F 90 (n. 1090)</title>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    Diplomatico, ++ F 90</title>
                     </titleStmt>
                     <editionStmt>
                         <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
@@ -13,7 +14,7 @@
                         </editionStmt>
                     <publicationStmt>
                         <publisher>Fiscus - DISCI UniBo</publisher>
-                        <idno type="filename">doc86</idno>
+                        <idno type="filename">doc575</idno>
                         <availability xml:lang="en" status="free">
                             <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                                 texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -30,10 +31,11 @@
                             </msIdentifier>
                             <msContents>
                                 <summary>
-                                    <rs type="text_type" ref="#">Cartula ad censum perexolvendum</rs>
-                                    <rs type="record_source" ref="#"/>
-                                    <rs type="document_tradition" ref="#"/>
-                                    <rs type="fiscal_property"/>
+                                    <rs type="text_type" ref="#"
+                                >--Libellus/precaria/emphyteusis</rs>
+                                    <rs type="record_source" ref="#">Original document</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
                                 </summary>
                                 <msItem xml:id="msItem1">
                                     <textLang mainLang="" otherLangs=""/>
@@ -41,11 +43,11 @@
                             </msContents>
                             <history>
                                 <origin>
-                                    <origDate notBefore="0001" notAfter="0001" when="0001">
-                                    <note type="displayed_date">0902/07/19</note>
-                                    <note type="dating_elements"></note>
-                                    <note type="topical_date">Actum Pisa (Pisa)</note>
-                                    </origDate>
+                                    <origDate when="0902-07-19">
+                                <note type="displayed_date">902 July 19</note>
+                                <note type="dating_elements">Anno d’impero di Ludovico</note>
+                                <note type="topical_date">Pisa</note>
+                            </origDate>
                                     <origPlace/>
                                 </origin>
                                 <provenance>
@@ -72,7 +74,7 @@
                 </profileDesc>
                 <revisionDesc>
                     <listChange>
-                        <change when="2021-01-06" who="ptomei">creation of record</change>
+                        <change when="2021-06-03" who="ptomei">creation of record</change>
                     </listChange>
                 </revisionDesc>
             </teiHeader>
@@ -80,22 +82,37 @@
                 <body>
                     <div type="edition">
                         <div type="textpart">
-                            <ab>
-                                Taghiperto del fu Gunderado riceve in livello dal vescovo di Lucca Pietro, una res posta in loco Raisinniano, di pertinenza delle chiesa di San Michele Arcangelo sita fora civitate ista Lucense qui est de supotestate del vescovato di San Martino, in precedenza tenuta da Lucipertulo, con tutte le sue dipendenze.
-Si impegna a versare pro omni censum et iustitia al vescovo e ai suoi successori ogni mese di maggio il censo annuale di 30 denari d’argento ad pars della stessa chiesa.
-Se non rispetterà i suddetti impegni, promette con i suoi eredi di versare al vescovo e ai suoi successori la pena di 50 soldi d’argento.
-Chiede al notaio e scabino Ildipaldo la stesura di due cartulas.
-                                <persName>Autori: Pietro episcopus, Taghiperto del fu Gunderado.
-Scrittore: Ildipaldo notarius et schabinus.
-Testimoni sottoscrittori: Corrado, Fermo, Ubaldo, Roppaldo, + Umberto del fu Tius... , + G...berto del fu Gumberto.
-Altro: Lucipertulo.</persName>
-                                <placeName>Pisa (Pisa), Raisinniano (Rosignano Marittimo).</placeName>
-                                <orgName>San Michele Arcangelo in Cipriano di Lucca, San Martino di Lucca (chiesa matrice).</orgName>
-                            </ab>
+                            <ab><persName>Taghiperto</persName> del <persName>fu
+                            Gunderado</persName> riceve in livello dal <rs key="#Bishops"
+                            >vescovo</rs> di <placeName
+                            key="#Cities #Churches #Mother_churches #Bishops">Lucca</placeName>
+                        <persName ref="#people/213" key="#Bishops">Pietro</persName>, una res posta
+                        in loco <placeName ref="#places/580">Raisinniano</placeName>, di pertinenza
+                        della <orgName key="#Churches" ref="#juridical_persons/235"><rs
+                                key="#Churches">chiesa</rs> di San Michele Arcangelo sita fora
+                                <rs>civitate</rs> ista Lucense</orgName> qui est de supotestate del
+                            <orgName key="#Mother_churches" ref="#juridical_persons/68"><rs
+                                key="#Mother_churches">vescovato</rs> di San Martino</orgName>, in
+                        precedenza tenuta da <persName>Lucipertulo</persName>, con tutte le sue
+                        dipendenze. Si impegna a versare pro omni censum et iustitia al vescovo e ai
+                        suoi successori ogni mese di maggio il censo annuale di 30 denari d’argento
+                        ad pars della stessa chiesa. Se non rispetterà i suddetti impegni, promette
+                        con i suoi eredi di versare al vescovo e ai suoi successori la pena di 50
+                        soldi d’argento. Chiede al <rs key="#Writer #Notary">notaio</rs> e <rs
+                            key="#Scabini">scabino</rs>
+                        <persName key="#Writer #Notary #Scabini">Ildipaldo</persName> la stesura di
+                        due <rs key="#Libellus/precaria/emphyteusis">cartulas</rs>. Actum <placeName
+                            ref="#places/66">Pisa</placeName>. <rs key="#Witness">Testimoni</rs>
+                        sottoscrittori: <persName key="#Witness">Corrado</persName>, <persName
+                            key="#Witness">Fermo</persName>, <persName key="#Witness"
+                            >Ubaldo</persName>, <persName key="#Witness">Roppaldo</persName>,
+                            <persName key="#Witness">Umberto</persName> del <persName>fu
+                            Tius(...)</persName>, <persName key="#Witness">G(…)berto</persName> del
+                            <persName>fu Gumberto</persName>.</ab>
                         </div>
                     </div>
                     <div type="bibliography" subtype="editions">
-                        <p>MDL, V/3, n. 1062, pp. 15-16</p>
+                        <p>MDL, 5/3, n. 1062, pp. 15-16.</p>
                     </div>
                     <div type="bibliography" subtype="additional">
                         <p/>
@@ -104,9 +121,8 @@ Altro: Lucipertulo.</persName>
                         <p/>
                     </div>
                     <div type="commentary">
-                        <p>Anno d’impero di Ludovico.
-Maremma.</p>
-                        <p><note>Mod_id: 20</note></p>
+                        <p>Sottoscrizioni autografe: Taghiperto, Corrado, Fermo, Ubaldo,
+                    Roppaldo.</p>
                     </div>
                 </body>
             </text>
