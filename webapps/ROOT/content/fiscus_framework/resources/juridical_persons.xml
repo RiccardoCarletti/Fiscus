@@ -1736,6 +1736,9 @@
                     <idno>juridical_persons/246</idno>
                     <note>Belli Barsali 1988: 134.</note>
                     <link type="places" corresp="#places/4" subtype="isWithin"/>
+                    <link type="places" corresp="#places/357" subtype="hasConnectionWith"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/68" subtype="link"/>
+                    <link type="places" corresp="#places/180" subtype="hasConnectionWith"/>
                 </org>
                 <org>
                     <orgName>Sancta Agatha de Tempaniano; ecclesia et monasterium</orgName>
@@ -1745,6 +1748,7 @@
                     <link type="places" corresp="#places/166" subtype="isWithin"/>
                     <link type="places" corresp="#places/4" subtype="isInVicinityOf"/>
                     <link type="juridical_persons" corresp="#juridical_persons/68" subtype="link"/>
+                    <link type="places" corresp="#places/64" subtype="hasConnectionWith"/>
                 </org>
                 <org>
                     <orgName>Sanctus Benedictus de Larino; ecclesia et monasterium (Larino)</orgName>
@@ -2024,11 +2028,28 @@
                     <link type="places" corresp="#places/742" subtype="isWithin"/>
                 </org>
                 <org>
-                    <orgName>Sanctus Salvator; ecclesia (Lucca)</orgName>
+                    <orgName>Sanctus Salvator infra civitate; ecclesia (Lucca)</orgName>
                     <orgName type="other"/>
                     <idno>juridical_persons/282</idno>
                     <note/>
                     <link type="places" corresp="#places/4" subtype="isWithin"/>
+                    <link type="places" corresp="#places/358" subtype="hasConnectionWith"/>
+                </org>
+                <org>
+                    <orgName>Sanctus Petrus Sumualdi; ecclesia (Lucca)</orgName>
+                    <orgName type="other"/>
+                    <idno>juridical_persons/283</idno>
+                    <note/>
+                    <link type="places" corresp="#places/4" subtype="isWithin"/>
+                    <link type="places" corresp="#places/64" subtype="hasConnectionWith"/>
+                </org>
+                <org>
+                    <orgName>Santa Maria de Quaratiana; plebs</orgName>
+                    <orgName type="other"/>
+                    <idno>juridical_persons/284</idno>
+                    <note/>
+                    <link type="places" corresp="#places/239" subtype="isWithin"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/68" subtype="link"/>
                 </org>
             </listOrg>
         </body>
