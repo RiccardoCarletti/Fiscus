@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Archivio Storico Diocesano di Novara, <foreign>Documentario
+                        Episcopale</foreign>, I, n. 2 (Rotolo dei Diplomi, n. 17)</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc1153</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Uncertain tradition</rs>
+                            <rs type="fiscal_property">Yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate notBefore="0912" notAfter="0915">
+                                <note type="displayed_date">Between 912 and 915</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date"/>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-02-08" who="Chiara Stedile">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>...Si fidelium nostrorum petitionibus regalis munificentie effectum
+                        inpendimus, devotiores eos ad nostra obsequia reddimus et ad eterne
+                        retributionis munera proficere nobis non dubitamus. Quapropter omnium sancte
+                        Dei Eclesie nostrorumque fidelium presentium scilicet ac futurorum comperiat
+                        industria, eo quod ob immensas sevorum Ungrorum persecutiones, nostra
+                        accepta licentia, Ieronimus sancte Ticinensis eclesie subdiaconus in
+                        propriis rebus suis finibus comitatus Ticinensis villa Figaria castellum
+                        hedificavit; unde per Vuifredum commitem nostrumque consiliarium suppliciter
+                        nostre accessit maiestati postulans, quatinus idem castellum sub regalis
+                        nostre tuitionis mundburdo susciperemus, ac per nostre concessionis paginam
+                        mercatum inibi fieri permitteremus. Nos itaque considerantes ratam prefati
+                        Vuifredi comitis dilectique consiliarii nostri peticionem ac predicti
+                        Hieronimi subdiaconi fidelitatem continuumque eius in nostro obsequio
+                        servitium, ita fieri annuimus, hoc nostrum preceptum fieri iubentes, per
+                        quod concedimus sepe nominato Hieronimo subdiacono in suprascripto castello
+                        mercatum facere vel negotiatoribus aut quibusque hominibus, cum oportunum
+                        fuerit, negotiationum commertia tam infra idem castellum quam circa
+                        exhibere, ita quidem, ut quicquid ex mercimoniis quam ex quacumque causa ad
+                        nostram regiam partem a re publica exigi debuit, ad partem suam prefatus
+                        Hieronimus subdiaconus vel quibus ipse dederit proprietario iure exigant ac
+                        requirant, omni nostra successorumque nostrorum seu publica molestacione ac
+                        cuiuslibet persone inquietudine remota. Nostrum insuper mundburdum fieri
+                        precipientes, ut nullus presul, dux, comes aut quilibet rei publice minister
+                        vel regni nostri magna parvaque persona in eodem aut circa nominati
+                        Hieronimi subdiaconi castello mansionaticum habeat, vel placitum teneat, seu
+                        teloneum aut aliquam functionem publicam exigere presumat, ac neque infra
+                        circaque eandem munitionem aliquam molestiam pretaxato Ieronimo suisque
+                        hominibus vel eiusdem castelli habitatoribus ingerat, sed in nostra mercede
+                        prefatum castellum pacifice possideat, omni molestacione aut inquietudine
+                        vel invasione cuiuscumque hominis repulsa. Si quis autem contra hoc nostre
+                        concessionis preceptum vel tuitionis mundburdum agere temptaverit, sciat se
+                        compositurum auri optimi libras LX, medietatem palatio nostro et medietatem
+                        sepe dicto Hieronimo subdiacono vel quibus ipse concesserit.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
