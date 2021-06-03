@@ -45,7 +45,7 @@
                                     <origDate when="0758-01-01">
                                 <note type="displayed_date">758 January 1</note>
                                 <note type="dating_elements"/>
-                                <note type="topical_date"/>
+                                <note type="topical_date">-</note>
                             </origDate>
                                     <origPlace/>
                                 </origin>
@@ -81,18 +81,31 @@
                 <body>
                     <div type="edition">
                         <div type="textpart">
-                            <ab>+ Notitia facio ego Pereteo in Dei nomine episcopus, qualiter
-                        atduxerunt Maurino et Magnoviro presbiteri cartula donationis de eglesia
-                        Sancti Prosperii quem ei facta fuerat a quondam domno Talesperiano episcopu.
-                        Et ipsa cartula fecimus relegi in nostris presentiis, et exemplare, et
-                        retdedimus ipsa autentica Magnoviri presbiteri, qui in ipsa eglesia erat,
-                        quem Maurino presbitero miserat ad nus. Actum est in presentia Iordani
-                        arcipresbiteri, Guilli presbiteri, Teuderadi presbiter, Gaidoni presbiteri,
-                        Iohanni presbiteri, Iohannacim, Petronaci clerici, Fratelli subdiaconi,
-                        Periprandi subdiaconi, Gauseramu filio Gausperti, Rotprandi filio Cheidi,
-                        Rotchis filio Solduli, Amuli clerici, Teufridi clerici, Donnulo clerici. Et
-                        hanc breve scripsi ego Raspert clericus, anno domini Desiderii primo,
-                        kalendis ianuaria, indictione undecima.</ab>
+                            <ab>+ Notitia facio ego <persName key="#Bishops" ref="#people/343"
+                            >Pereteo</persName> in Dei nomine <rs key="#Bishops">episcopus</rs>,
+                        qualiter atduxerunt <persName key="#Priests"><name ref="Maurinus"
+                                >Maurino</name></persName> et <persName key="#Priests"><name
+                                ref="Magnoviro">Magnoviro</name></persName>
+                        <rs key="#Priests">presbiteri</rs>
+                        <rs key="#Offersio/donatio">cartula donationis</rs> de <rs key="#Churches"
+                            >eglesia</rs>
+                        <orgName key="#Churches" ref="#juridical_persons/219">Sancti
+                            Prosperii</orgName> quem ei facta fuerat a quondam domno <persName
+                            key="#Bishops" ref="#people/313">Talesperiano</persName>
+                        <rs key="#Bishops">episcopu</rs>. Et ipsa cartula fecimus relegi in nostris
+                        presentiis, et exemplare, et retdedimus ipsa autentica Magnoviri presbiteri,
+                        qui in ipsa eglesia erat, quem Maurino presbitero miserat ad nus. Actum est
+                        in presentia Iordani <rs key="#Archpriests">arcipresbiteri</rs>, Guilli <rs
+                            key="#Priests">presbiteri</rs>, Teuderadi <rs key="#Priests"
+                            >presbiter</rs>, Gaidoni <rs key="#Priests">presbiteri</rs>, Iohanni <rs
+                            key="#Priests">presbiteri</rs>, Iohannacim, Petronaci <rs
+                            key="#Other_clerics">clerici</rs>, Fratelli <rs key="#Subdeacons"
+                            >subdiaconi</rs>, Periprandi <rs key="#Subdeacons">subdiaconi</rs>,
+                        Gauseramu filio Gausperti, Rotprandi filio Cheidi, Rotchis filio Solduli,
+                        Amuli <rs key="#Other_clerics">clerici</rs>, Teufridi <rs
+                            key="#Other_clerics">clerici</rs>, Donnulo <rs>clerici</rs>. Et hanc
+                        breve scripsi ego Raspert <rs key="#Other_clerics">clericus</rs>, anno
+                        domini Desiderii primo, kalendis ianuaria, indictione undecima.</ab>
                         </div>
                     </div>
                     <div type="bibliography" subtype="editions">
@@ -106,17 +119,9 @@
                         <p/>
                     </div>
                     <div type="commentary">
-                         <p>Persone: Desiderio re; Peredeo ep [di Lucca]; Maurino pbr; Magnoviro
-                    pbr; Talesperiano ep [di Lucca]; Iordanus a/pbr; Guillus pbr; Teuderadus pbr;
-                    Gaido pbr; Iohannes pbr [Giovanni]; Iohannacim [Giovanni]; Petronaci cler;
-                    Fratelli s/diac; Periprandi s/diac; Gauseramu (f. Gausperti); Gauspertus (p.
-                    Gauseramu); Rotprandi (f. Cheidi); Cheidi (p. Rotprandi); Rotchis (f. Solduli);
-                    Solduli (p. Rotchis); Amuli cler; Teufridi cler; Donnulo cler; Raspert cler.
-                    Luoghi: . Chiese: eglesia Sancti Prosperii [S. Prospero]. Cariche: . Note: .
-                    Indice: Notitia (copia autentica di donazione) <foreign>Nota dorsale (sec. XI):
-                    </foreign>Carta de ecclesia Sancti Prosperii de Interaccule. <foreign>Nota
-                        dorsale (sec. XI-XII)</foreign>: Exemplar ordinationis ecclesie Sancti
-                    Prosperi de Anteracule.  . </p>
+                         <p><foreign>Nota dorsale (sec. XI): </foreign>Carta de ecclesia Sancti
+                    Prosperii de Interaccule. <foreign>Nota dorsale (sec. XI-XII)</foreign>:
+                    Exemplar ordinationis ecclesie Sancti Prosperi de Anteracule. . </p>
                     </div>
                 </body>
             </text>
