@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Archivio Storico Diocesano di Novara, <foreign>Documentario
+                        Episcopale</foreign>, I, n. 2 (Rotolo dei Diplomi, n. 6)</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc1151</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Uncertain tradition</rs>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate notBefore="0911" notAfter="0915">
+                                <note type="displayed_date">Between 911 and 915</note>
+                                <note type="dating_elements">L'anno 911 è considerato da
+                                    Schiaparelli termine <foreign>post quem</foreign> per via
+                                    dell'intervento del marchese Olderico.</note>
+                                <note type="topical_date"/>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-02-08" who="Chiara Stedile">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In virtute et misericordia omnipotentis Dei. Berengarius gratia Dei rex. Si
+                        fidelium nostrorum peticionibus regalis munificentie effectum inpendimus,
+                        devotiores eos ad nostra obsequia reddimus et ad eterne retributionis munera
+                        proficere nobis non dubitamus. Quapropter omnium [fidelium] sancte Dei
+                        Eclesie nostrorumque presentium scilicet ac futurorum comperiat industria,
+                        qualiter Iohannes sancte Ticinensis eclesie venerabilis episcopus et
+                        Oldericus comes et marchio sacri palatii nostri consiliarius fideles nostri
+                        suppliciter nostram petierunt maiestatem, quatinus pro iminenti sevorum
+                        Ungrorum vastacione cuidam fideli nostro Leoni sancte Novariensis eclesie
+                        vicedomino in propriis suis rebus finibus Plumbiensis commitatus in
+                        vocabulis, villulis, id sunt Peronate, Terdoblade, Cammari et Galiade,
+                        concederemus licentiam hedificandi castella necessaria noscuntur, videlicet
+                        merrulos, fossata, bertiscas atque spizatas. Quorum petitionem utillimam
+                        considerantes ac predicti Leonis fidelitatem animadvertentes, ita fieri
+                        annuimus, hoc nostre concessionis pragmaticum scribi iubentes, quo eidem
+                        Leoni concedimus licentiam castella hedificandi in predictis locis cum
+                        omnibus nocessariis instrumentis superius postulatis, et per hoc largimur ei
+                        potestatem inibi faciendi annuales mercationes, et perdonamus omnem publicam
+                        reddibitionem omnemque theloneum vel exibitionem, ut nullus rei publice
+                        minister habeat licentiam inibi aut ubicumque in eiusdem rebus suiscumque
+                        pertinentibus predictam redibitionem vel exibitionem exigere, sed liceat et
+                        siusque heredibus ac proheredibus eadem castella cum ipsis mercationibus in
+                        nostra mercede sine omni publica inquisitione habere, tenere, ac quieto
+                        ordine possidere. Si quis autem contra hoc nostre concessionis preceptum
+                        agere temptaverit, sciat se compositurum auri optimi libras LX, medietatem
+                        kamere palatii nostri et medietatem sepe dicto Leoni suisque heredibus vel
+                        quibus ipse concesserit.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>DD B I, pp. 266-268, n° CII</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
