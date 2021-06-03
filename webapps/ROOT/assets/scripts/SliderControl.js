@@ -8,7 +8,7 @@ L.Control.SliderControl = L.Control.extend({
         timeStrLength: 9,  // the size of  yyyy-mm-dd hh:mm:ss - if millis are present this will be larger
         maxValue: -1,
         minValue: 1,
-        showAllOnStart: false,
+        showAllOnStart: true,
         markers: true,
         range: true,
         follow: 0,
@@ -20,7 +20,6 @@ L.Control.SliderControl = L.Control.extend({
     initialize: function (options) {
         L.Util.setOptions(this, options);
         this._layer = this.options.layer;
-        L.extend(this, L.Mixin.Events);
     },
 
     extractTimestamp: function(time, options) {
