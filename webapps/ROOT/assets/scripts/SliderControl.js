@@ -5,13 +5,13 @@ L.Control.SliderControl = L.Control.extend({
         timeAttribute: 'time',
         isEpoch: false,     // whether the time attribute is seconds elapsed from epoch
         startTimeIdx: 0,    // where to start looking for a timestring
-        timeStrLength: 4,  // the size of  yyyy-mm-dd hh:mm:ss - if millis are present this will be larger
+        timeStrLength: 9,  // the size of  yyyy-mm-dd hh:mm:ss - if millis are present this will be larger
         maxValue: -1,
-        minValue: 0,
+        minValue: 1,
         showAllOnStart: false,
         markers: true,
         range: true,
-        follow: false,
+        follow: 0,
         sameDate: true,
         alwaysShowDate : true,
         rezoom: null
@@ -20,7 +20,7 @@ L.Control.SliderControl = L.Control.extend({
     initialize: function (options) {
         L.Util.setOptions(this, options);
         this._layer = this.options.layer;
-
+        L.extend(this, L.Mixin.Events);
     },
 
     extractTimestamp: function(time, options) {
@@ -67,11 +67,27 @@ L.Control.SliderControl = L.Control.extend({
         var options = this.options;
         this.options.markers = [];
 
+        function compare( a, b ) { var valA = null; var valB = null;
+            if(a.features && a.features.properties && a.feature.properties[options.timeAttribute]){
+                valA = a.feature.properties[options.timeAttribute];
+            }else if(a.options[options.timeAttribute]){ valA = a.options[options.timeAttribute]; }
+            if(b.features && b.features.properties && b.feature.properties[options.timeAttribute]){
+                valB = b.feature.properties[options.timeAttribute];
+            }else if(b.options[options.timeAttribute]){ valB = b.options[options.timeAttribute]; }
+            if(valA && valB) { if (valA < valB) { return -1; } if (valA > valB) { return 1; } }
+            return 0;
+        }
+
         //If a layer has been provided: calculate the min and max values for the slider
         if (this._layer) {
             var index_temp = 0;
+            var templayers = [];
             this._layer.eachLayer(function (layer) {
-                options.markers[index_temp] = layer;
+              templayers.push(layer); //
+            }); //
+            templayers = templayers.sort(compare); //
+            templayers.forEach(function (layer){ //
+            options.markers[index_temp] = layer;
                 ++index_temp;
             });
             options.maxValue = index_temp - 1;
@@ -96,7 +112,7 @@ L.Control.SliderControl = L.Control.extend({
 
     startSlider: function () {
         _options = this.options;
-        _extractTimestamp = this.extractTimestamp
+        _extractTimestamp = this.extractTimestamp;
         var index_start = _options.minValue;
         if(_options.showAllOnStart){
             index_start = _options.maxValue;
@@ -120,17 +136,13 @@ L.Control.SliderControl = L.Control.extend({
                         if(_options.markers[ui.value].feature.properties[_options.timeAttribute]){
                             if(_options.markers[ui.value]) $('#slider-timestamp').html(
                                 _extractTimestamp(_options.markers[ui.value].feature.properties[_options.timeAttribute], _options));
-                        }else {
-                            console.error("Time property "+ _options.timeAttribute +" not found in data");
-                        }
+                        }else { console.error("Time property "+ _options.timeAttribute +" not found in data"); }
                     }else {
                         // set by leaflet Vector Layers
                         if(_options.markers [ui.value].options[_options.timeAttribute]){
                             if(_options.markers[ui.value]) $('#slider-timestamp').html(
                                 _extractTimestamp(_options.markers[ui.value].options[_options.timeAttribute], _options));
-                        }else {
-                            console.error("Time property "+ _options.timeAttribute +" not found in data");
-                        }
+                        }else { console.error("Time property "+ _options.timeAttribute +" not found in data"); }
                     }
 
                     var i;
@@ -146,7 +158,7 @@ L.Control.SliderControl = L.Control.extend({
                                fg.addLayer(_options.markers[i]);
                            }
                         }
-                    }else if(_options.follow){
+                    }else if(_options.follow > 0){
                         for (i = ui.value - _options.follow + 1; i <= ui.value ; i++) {
                             if(_options.markers[i]) {
                                 map.addLayer(_options.markers[i]);
@@ -191,7 +203,7 @@ L.Control.SliderControl = L.Control.extend({
 L.control.sliderControl = function (options) {
     return new L.Control.SliderControl(options);
 };
-
+            
  /*MIT License for:
 Leaflet Time-Slider https://github.com/dwilhelm89/LeafletSlider 
 Copyright (c) 2013 Dennis Wilhelm
