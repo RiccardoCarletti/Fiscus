@@ -713,7 +713,7 @@
         <xsl:variable name="name" select="normalize-space(translate(tei:placeName[1], ',', '; '))"/>
         <xsl:variable name="id" select="substring-after(translate(tei:idno,'#',''), 'places/')"/>
         <xsl:variable name="idno" select="translate(translate(tei:idno, '#', ''), ' ', '')"/>
-        <xsl:variable name="years" select="'years_here'"/>
+        <xsl:variable name="years" select="'0500/1500'"/>
         <xsl:variable name="mentioning_documents">
           <xsl:for-each select="$texts">
             <xsl:for-each select=".[descendant::tei:placeName[contains(concat(@ref, ' '), concat($idno, ' '))]]"><p/></xsl:for-each>
@@ -736,7 +736,7 @@
         <xsl:variable name="name" select="normalize-space(translate(tei:placeName[1], ',', '; '))"/>
         <xsl:variable name="id" select="substring-after(translate(tei:idno,'#',''), 'places/')"/>
         <xsl:variable name="idno" select="translate(translate(tei:idno, '#', ''), ' ', '')"/>
-        <xsl:variable name="years" select="'years_here'"/>
+        <xsl:variable name="years" select="'0500/1500'"/>
         <xsl:variable name="mentioning_documents">
           <xsl:for-each select="$texts">
             <xsl:for-each select=".[descendant::tei:placeName[contains(concat(@ref, ' '), concat($idno, ' '))]]"><p/></xsl:for-each>
@@ -761,7 +761,7 @@
         <xsl:variable name="idno" select="translate(translate(tei:idno, '#', ''), ' ', '')"/>
         <xsl:variable name="linked_keys"><xsl:for-each select="$keys//p[@class='place_keys'][@id=$id]"><xsl:value-of select="lower-case(.)"/><xsl:text> </xsl:text></xsl:for-each></xsl:variable>
         <xsl:variable name="all_keys" select="concat(' ', normalize-space($linked_keys))"/>
-        <xsl:variable name="years" select="'years_here'"/>
+        <xsl:variable name="years" select="'0500/1500'"/>
         <xsl:variable name="mentioning_documents">
           <xsl:for-each select="$texts">
               <xsl:for-each select=".[descendant::tei:placeName[contains(concat(@ref, ' '), concat($idno, ' '))]]"><p/></xsl:for-each>
