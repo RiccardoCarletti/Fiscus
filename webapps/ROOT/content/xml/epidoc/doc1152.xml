@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title></title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc1152</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#"/>
+                            <rs type="record_source" ref="#"/>
+                            <rs type="document_tradition" ref="#"/>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate notBefore="0911" notAfter="0915">
+                                <note type="displayed_date">Between 911 and 915</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date"/>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-02-08" who="Chiara Stedile">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine domini Dei aeterni. Berengarius gratia Dei rex. Si sacri fidelium
+                        nostrorum precibus ad venerabilia sanctorum loca ex rebus publicis more
+                        predecessorum regum videlicet et imperatorum quelibet dona conferre
+                        gratanter studuerimus, id nobis procul dubio ad anime nostre salutem et ad
+                        vitam capescendam proficere confidimus sempiternam. Quapropter omnium
+                        fidelium sancte Dei Eclesie nostrorumque presentium scilicet ac futurorum
+                        comperiat sollertia, qualiter Iohannes sancte Ticinensis eclesie venerabilis
+                        episcopus deprecatus est nostram clementiam, ut ei concederemus, quatinus
+                        ipse circa plebem sue eclesie que nuncupatur Celavinnio quandam
+                        munificentiam constitueret ob timorem Ungrorum, qui pene omnes Italie
+                        eclesias ad nihilum redegerunt. Nos vero iustam eius considerantes
+                        peticionem, ob amorem Dei ita fieri annuimus, viamque publicam ei
+                        concessimus ad eandem munificentiam construendam. Percipientes ergo iubemus,
+                        ut nullus exactor rei publice infra eandem firmitatem teloneum accipere, aut
+                        placita tenere, vel hominem distringere, aut mansionaticum dare presumat,
+                        sed liceat eis qui ibi habitant pacifice ac quiete vivere, sine omnium
+                        nostrorum [hominum] molestacione degere, sintque in potestate prenominati
+                        presulis sueque eclesie. Si quis vero quoquo tempore contra hoc nostre
+                        donationis et libere concessionis preceptum insurgere aut contra ire
+                        temptaverit, sciat se compositurum iam dicte eclesie parti auri optimi
+                        libras XX, medietatem palatio nostro et medietatem supradicto presuli sueque
+                        eclesie. Quod ut verius credatur et a nostris fidelibus diligentius
+                        observetur in posterum, manu propria subter roboravimus et anuli nostri
+                        inpressione nsigniri iussimus.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
