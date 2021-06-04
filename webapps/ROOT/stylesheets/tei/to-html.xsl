@@ -473,8 +473,6 @@
               <img src="../../../assets/images/tree.png" alt="tree" class="mapicon"/>Fallow land
             </p>
           </div>
-          <script type="text/javascript" src="../../assets/scripts/jquery-ui.min.js"></script>
-          <script type="text/javascript" src="../../assets/scripts/SliderControl.js"></script>
           <script type="text/javascript">
             var polygons = <xsl:value-of select="replace(replace($map_polygons, ', !', ''), '!', '')"/>;
             var lines = <xsl:value-of select="replace(replace($map_lines, ', !', ''), '!', '')"/>;
@@ -589,8 +587,7 @@
       <script type="text/javascript">
           var graph_items = <xsl:value-of select="$graph_items"/>, graph_labels = <xsl:value-of select="$graph_labels"/>, my_graph = "mynetwork", box = "mynetwork_box";
         </script>
-      <script type="text/javascript" src="../../assets/scripts/cytoscape.min.js"></script>
-      <script type="text/javascript" src="../../assets/scripts/networks.js"></script>
+        <script type="text/javascript" src="../../assets/scripts/networks.js"></script>
      </div>
   </xsl:template>
   
@@ -702,7 +699,6 @@
       <script type="text/javascript">
         var graph_items = <xsl:value-of select="$graph_items"/>, graph_labels = <xsl:value-of select="$graph_labels"/>, my_graph = "mygraph", box = "mygraph_box";
        </script>
-      <script type="text/javascript" src="../../assets/scripts/cytoscape.min.js"></script>
       <script type="text/javascript" src="../../assets/scripts/networks.js"></script>
     </div>
   </xsl:template>
@@ -821,8 +817,6 @@
           <img src="../../../assets/images/tree.png" alt="tree" class="mapicon"/>Fallow land
         </p>
       </div>
-      <script type="text/javascript" src="../../assets/scripts/jquery-ui.min.js"></script>
-      <script type="text/javascript" src="../../assets/scripts/SliderControl.js"></script>
       <script type="text/javascript">
         var polygons = <xsl:value-of select="$map_polygons"/>;
         var lines = <xsl:value-of select="$map_lines"/>;
