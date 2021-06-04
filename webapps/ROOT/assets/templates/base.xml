@@ -22,40 +22,31 @@
             <kiln:block name="title">Fiscus </kiln:block>
           </title>
           
-          
           <kiln:block name="css">
             <link href="{$kiln:assets-path}/images/favicon.png" rel="shortcut icon" type="image/png"/>
             <link href="{$kiln:assets-path}/foundation/css/normalize.css" rel="stylesheet" type="text/css" />
             <link href="{$kiln:assets-path}/foundation/css/foundation.min.css" rel="stylesheet" type="text/css" />
             <link href="{$kiln:assets-path}/styles/base.css" rel="stylesheet" type="text/css" />
             <link href="{$kiln:assets-path}/styles/site.css" rel="stylesheet" type="text/css" />
-            <link href="{$kiln:assets-path}/cytoscape/font-awesome-4.0.3/css/font-awesome.css" rel="stylesheet" type="text/css" />
-            <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
-              crossorigin=""/>
-            <link rel="stylesheet" href="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css" />
-            <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css' rel='stylesheet' />
-            <!--<link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" />-->
+            <link href="{$kiln:assets-path}/styles/font-awesome.css" rel="stylesheet" type="text/css" />
+            <link href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" rel="stylesheet" type="text/css" />
+            <link href="{$kiln:assets-path}/styles/Control.Geocoder.css" rel="stylesheet" type="text/css" />
+            <link href="{$kiln:assets-path}/styles/leaflet.fullscreen.css" rel="stylesheet" type="text/css" />
+            <link href="{$kiln:assets-path}/styles/jquery-ui/jquery-ui.css" rel="stylesheet" type="text/css" />
           </kiln:block>
-          
-          
           
           <kiln:block name="js">
             <script src="{$kiln:assets-path}/foundation/js/vendor/custom.modernizr.js">&#160;</script>
-            <script src="{$kiln:assets-path}/scripts/cookieinfo.min.js" type="text/javascript" id="cookieinfo"></script>
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-            <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
-              integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
-              crossorigin=""></script>
-            <script src="{$kiln:assets-path}/cytoscape/dist/cytoscape.min.js"></script>
-            <script src="https://unpkg.com/layout-base/layout-base.js"></script>
-            <script src="https://unpkg.com/cose-base/cose-base.js"></script>
-            <script src="https://unpkg.com/cytoscape-fcose/cytoscape-fcose.js"></script>
+            <script src="{$kiln:assets-path}/scripts/cookieinfo.min.js" id="cookieinfo"></script>
+            <script src="{$kiln:assets-path}/foundation/js/vendor/jquery.js"></script>
+            <!-- moved into stylesheets/tei/to-html.xsl:
+              <script src="{$kiln:assets-path}/scripts/jquery-ui.min.js"></script>
+            <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+            <script src="{$kiln:assets-path}/scripts/cytoscape.min.js"></script>
             <script src="{$kiln:assets-path}/scripts/leaflet-providers.js"></script>
-            <script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
-            <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js'></script>
-            <!--<script src="http://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>-->
-            <!--<script src="{$kiln:assets-path}/scripts/SliderControl.js"></script>-->
+            <script src="{$kiln:assets-path}/scripts/SliderControl.js"></script>-->
           </kiln:block>
+          
           <kiln:block name="head-extra"></kiln:block>
         </head>
       </kiln:block>
