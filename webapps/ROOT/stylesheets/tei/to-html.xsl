@@ -844,9 +844,9 @@
         toggle_polygons.addTo(mymap);
         toggle_lines.addTo(mymap);
           
-        var sliderControl = L.control.sliderControl({layer: L.layerGroup(markers)});
+        <!--var sliderControl = L.control.sliderControl({layer: L.layerGroup(markers)});
         mymap.addControl(sliderControl);
-        sliderControl.startSlider();
+        sliderControl.startSlider();-->
       </script>
     </div>
   </xsl:template>
