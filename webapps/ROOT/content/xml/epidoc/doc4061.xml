@@ -73,7 +73,7 @@
                 </profileDesc>
                 <revisionDesc>
                     <listChange>
-                        <change when="2021-04-18" who="scollavini">creation of record</change>
+                        <change when="2021-06-04" who="scollavini">creation of record</change>
                     </listChange>
                 </revisionDesc>
             </teiHeader>
@@ -81,27 +81,52 @@
                 <body>
                     <div type="edition">
                         <div type="textpart">
-                            <ab>Ariprandus clericus filio quondam Aricausi stabilisce delle
-                        disposizioni testamentarie, riservandosi l’usufrutto vitalizio dei beni in
-                        questione e il diritto di disporne altrimenti. Quidquid ex omnibus rebus
-                        meis non donata aut non vinduta aut non iudicata remanserit volo ut in
-                        omnibus sit in potestate eclesie Sancti Thome, ubi Silverad presbiter rector
-                        esse videtur, et in eclesia Sancti Petri in Oliveto, ubi Gaipert presbiter
-                        preesse videtur, et in eclesia Sancti Quirici idem in Oliveto, ubi Iohannis
-                        presbiter rector esse videtur o dei loro successori. Sic tamen, ut homenis
-                        qui in casas massaricias meas nunc presenti habitant, qui mihi aliquid
-                        pertenuerunt aut perteneunt, aut eorum filiis vel nepotes, vel quis ex eorum
-                        germine procreati fuerint vel procreati sunt, per unoqueque anno persolvant
-                        redditum case ubi resedierit, sicut est consuetudo, in suprascriptas
-                        eclesias; nam nullus nullo tempore angarias vel quolibet scuphias in iam
-                        dictas eclesias facere debeant. Se lo facessero perderanno i diritti sulle
-                        case (…). Et Bando frater meus habeat ex rebus meis portionem meam de casas
-                        vel res quas havire videmus in Contrune et in hoc sit contentus. Pena:
-                        maledizione. Scrive: Osprandus diaconus (…). Actum Luca. Sottoscrizioni: +
-                        Ariprand clerici; Gauseramus clericus (ss); Ospert diaconus (ss); Ostripert
-                        presbiter (ss); Clarissimus clericus (ss); Warnipert clericus (ss);
-                        Fratellus subdiaconus (ss); Periprand subdiaconus (ss); Copia: Osprandus
-                        diaconus.</ab>
+                            <ab><persName key="#Other_clerics"><name ref="Aribrandus"
+                                >Ariprandus</name></persName>
+                        <rs key="#Other_clerics">clericus</rs> filio quondam <persName><name
+                                ref="Aricausus">Aricausi</name></persName>
+                        <foreign>stabilisce delle disposizioni testamentarie, riservandosi
+                            l’usufrutto vitalizio dei beni in questione e il diritto di disporne
+                            altrimenti.</foreign> Quidquid ex omnibus rebus meis non donata aut non
+                        vinduta aut non iudicata remanserit volo ut in omnibus sit in potestate <rs
+                            key="#Churches">eclesie</rs>
+                        <orgName key="#Churches">Sancti Thome</orgName>, ubi <persName
+                            key="#Priests"><name ref="Silveradus">Silverad</name></persName>
+                        <rs key="#Priests">presbiter</rs> rector esse videtur, et in <rs
+                            key="#Churches">eclesia</rs>
+                        <orgName key="#Churches">Sancti Petri</orgName> in <placeName
+                            key="#Churches" ref="#places/276">Oliveto</placeName>, ubi <persName
+                            key="#Priests"><name ref="Gaipertus">Gaipert</name></persName>
+                        <rs key="#Priests">presbiter</rs> preesse videtur, et in <rs key="#Churches"
+                            >eclesia</rs>
+                        <orgName key="#Churches" ref="#juridical_persons/192">Sancti
+                            Quirici</orgName> idem in <placeName key="#Churches" ref="#places/276"
+                            >Oliveto</placeName>, ubi <persName key="#Priests"><name ref="Iohannes"
+                                >Iohannis</name></persName>
+                        <rs key="#Priests">presbiter</rs> rector esse videtur <foreign>o dei loro
+                            successori</foreign>. Sic tamen, ut homenis qui in <rs
+                            key="#Casae/cassinae_massaricie">casas massaricias</rs> meas nunc
+                        presenti habitant, qui mihi aliquid pertenuerunt aut perteneunt, aut eorum
+                        filiis vel nepotes, vel quis ex eorum germine procreati fuerint vel
+                        procreati sunt, per unoqueque anno persolvant redditum case ubi resedierit,
+                        sicut est consuetudo, in suprascriptas eclesias; nam nullus nullo tempore
+                            <rs key="#Operae">angarias</rs> vel quolibet <rs
+                            key="#Scufiae/transport_service">scuphias</rs> in iam dictas eclesias
+                        facere debeant. <foreign>Se lo facessero perderanno i diritti sulle
+                            case</foreign> (…). Et <persName><name ref="Bandus"
+                            >Bando</name></persName> frater meus habeat ex rebus meis portionem meam
+                        de <rs key="#Casae/cassinae_massaricie">casas</rs> vel res quas havire
+                        videmus in <placeName key="#Casae/cassinae_massaricie">Contrune</placeName>
+                        et in hoc sit contentus. <foreign>Pena: maledizione. Scrive:</foreign>
+                        Osprandus <rs key="#Deacons">diaconus</rs> (…). Actum Luca.
+                            <foreign>Sottoscrizioni</foreign>: + Ariprand clerici; Gauseramus <rs
+                            key="#Other_clerics">clericus</rs> (ss); Ospert <rs key="#Deacons"
+                            >diaconus</rs> (ss); Ostripert <rs key="#Priests">presbiter</rs> (ss);
+                        Clarissimus <rs key="#Other_clerics">clericus</rs> (ss); Warnipert <rs
+                            key="#Other_clerics">clericus</rs> (ss); Fratellus <rs key="#Subdeacons"
+                            >subdiaconus</rs> (ss); Periprand <rs key="#Subdeacons">subdiaconus</rs>
+                        (ss); <foreign>Copia:</foreign> Osprandus <rs key="#Deacons"
+                        >diaconus</rs>.</ab>
                         </div>
                     </div>
                     <div type="bibliography" subtype="editions">
@@ -122,11 +147,11 @@
                     eclesie Sancti Thome [S. Tommaso (di Lucca)]; eclesia Sancti Petri in Oliveto
                     [S. Pietro in Oliveto]; eclesia Sancti Quirici idem in Oliveto [S. Quirico in
                     Oliveto]. Cariche: . Note: angarias; scuphias. Indice: testamento - massari -
-                    opere. Nota dorsale (sec. XI): Carta iudicati. Nota dorsale (sec. XI-XII):
-                    Exemplar offersionis in Sancto Thoma et in ecclesiis Sancti Petri et Sancti
-                    Quirici in Oliveto. S. Tommaso di Lucca Bellis Barsali, p. 472, 532-532 S.
-                    Pietro di Oliveto in Maremma di Populonia Pieve di Controne (Bagni di Lucca,
-                    Lucca) </p>
+                    opere. <foreign>Nota dorsale (sec. XI)</foreign>: Carta iudicati. <foreign>Nota
+                        dorsale (sec. XI-XII)</foreign>: Exemplar offersionis in Sancto Thoma et in
+                    ecclesiis Sancti Petri et Sancti Quirici in Oliveto. S. Tommaso di Lucca Bellis
+                    Barsali, p. 472, 532-532 S. Pietro di Oliveto in Maremma di Populonia Pieve di
+                    Controne (Bagni di Lucca, Lucca) </p>
                     </div>
                 </body>
             </text>
