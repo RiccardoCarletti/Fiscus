@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    +F.71 (copia sec. VIII) </title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc4061</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Testamentum/iudicatum</rs>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Copy</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate notBefore="0758-10-01" notAfter="0758-10-31">
+                                <note type="displayed_date">758 October</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Lucca</note>
+                            </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-04-18" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab>Ariprandus clericus filio quondam Aricausi stabilisce delle
+                        disposizioni testamentarie, riservandosi l’usufrutto vitalizio dei beni in
+                        questione e il diritto di disporne altrimenti. Quidquid ex omnibus rebus
+                        meis non donata aut non vinduta aut non iudicata remanserit volo ut in
+                        omnibus sit in potestate eclesie Sancti Thome, ubi Silverad presbiter rector
+                        esse videtur, et in eclesia Sancti Petri in Oliveto, ubi Gaipert presbiter
+                        preesse videtur, et in eclesia Sancti Quirici idem in Oliveto, ubi Iohannis
+                        presbiter rector esse videtur o dei loro successori. Sic tamen, ut homenis
+                        qui in casas massaricias meas nunc presenti habitant, qui mihi aliquid
+                        pertenuerunt aut perteneunt, aut eorum filiis vel nepotes, vel quis ex eorum
+                        germine procreati fuerint vel procreati sunt, per unoqueque anno persolvant
+                        redditum case ubi resedierit, sicut est consuetudo, in suprascriptas
+                        eclesias; nam nullus nullo tempore angarias vel quolibet scuphias in iam
+                        dictas eclesias facere debeant. Se lo facessero perderanno i diritti sulle
+                        case (…). Et Bando frater meus habeat ex rebus meis portionem meam de casas
+                        vel res quas havire videmus in Contrune et in hoc sit contentus. Pena:
+                        maledizione. Scrive: Osprandus diaconus (…). Actum Luca. Sottoscrizioni: +
+                        Ariprand clerici; Gauseramus clericus (ss); Ospert diaconus (ss); Ostripert
+                        presbiter (ss); Clarissimus clericus (ss); Warnipert clericus (ss);
+                        Fratellus subdiaconus (ss); Periprand subdiaconus (ss); Copia: Osprandus
+                        diaconus.</ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL V/2, n. 56; CDL II, n. 131, pp. 16-19; ChLA, XXXII, 948.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                         <p>Persone: Desiderio re; Ariprandus cler (f. Aricausi; fr. Bando);
+                    Aricausi (p. Ariprandus cler); Bando (fr. Ariprandus cler); Silverad pbr;
+                    Gaipert pbr; Iohannis pbr [Giovanni]; Gauseramus cler; Ospert diac; Ostripert
+                    pbr; Clarissimus cler; Vuarnipert cler; Fratellus s/diac; Periprand s/diac;
+                    Osprandus diac. Luoghi: Oliveto; Contrune [Controne]; Luca [Lucca]. Chiese:
+                    eclesie Sancti Thome [S. Tommaso (di Lucca)]; eclesia Sancti Petri in Oliveto
+                    [S. Pietro in Oliveto]; eclesia Sancti Quirici idem in Oliveto [S. Quirico in
+                    Oliveto]. Cariche: . Note: angarias; scuphias. Indice: testamento - massari -
+                    opere. Nota dorsale (sec. XI): Carta iudicati. Nota dorsale (sec. XI-XII):
+                    Exemplar offersionis in Sancto Thoma et in ecclesiis Sancti Petri et Sancti
+                    Quirici in Oliveto. S. Tommaso di Lucca Bellis Barsali, p. 472, 532-532 S.
+                    Pietro di Oliveto in Maremma di Populonia Pieve di Controne (Bagni di Lucca,
+                    Lucca) </p>
+                    </div>
+                </body>
+            </text>
+        </TEI>
