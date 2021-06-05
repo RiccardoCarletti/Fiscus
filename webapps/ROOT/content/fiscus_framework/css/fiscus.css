@@ -11,7 +11,7 @@
         content: "";
        }
 
-          oxy|doctype, respStmt, handNote, scriptDesc, profileDesc, authority, provenance, msItem, teiHeader listPlace, teiHeader listPerson, editionStmt, publicationStmt date, publisher, availability, msIdentifier, textLang {
+          oxy|doctype, respStmt, handNote, scriptDesc, profileDesc, authority, provenance, msItem, teiHeader listPlace, teiHeader listPerson, editionStmt, publicationStmt date, publisher, availability, msIdentifier, textLang, personGrp {
            display:none;
            visibility: -oxy-collapse-text ;
        }
