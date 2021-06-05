@@ -36,35 +36,72 @@
            display:inline;
     }
     
-    body listPlace[type="places"]:after {
-        content: 
-              oxy_editor(
-            type, button,
-            actionID, "add_place");
-           display:block;
+    body listPlace[type="places"] listPlace:before, body listPlace[type="estates"] listPlace:before, body listOrg listOrg:before, body listPerson listPerson:before {
+    content: "List by "
+           oxy_editor(
+           type, popupSelection,
+           editable, false,
+           edit, "@n");
+       display:block;
+       padding-left:10px;
+       border:2px solid rgb(153, 153, 143);
+       background-color:orange;
+       font-weight:bold;
     }
     
-    body listPlace[type="estates"]:after {
+    body listPlace[type="places"] listPlace:after {
         content: 
               oxy_editor(
             type, button,
-            actionID, "add_estate");
+            actionID, "add_place")
+            "to list by "
+        oxy_editor(
+           type, popupSelection,
+           editable, false,
+           edit, "@n");
            display:block;
+           margin-bottom: 200px;
     }
     
-    body listOrg:after {
+    body listPlace[type="estates"] listPlace:after {
         content: 
               oxy_editor(
             type, button,
-            actionID, "add_juridical_person");
+            actionID, "add_estate")
+            "to list by "
+        oxy_editor(
+           type, popupSelection,
+           editable, false,
+           edit, "@n");
            display:block;
+           margin-bottom: 200px;
     }
-    body listPerson:after {
+    
+    body listOrg listOrg:after {
         content: 
               oxy_editor(
             type, button,
-            actionID, "add_person");
+            actionID, "add_juridical_person")
+            "to list by "
+        oxy_editor(
+           type, popupSelection,
+           editable, false,
+           edit, "@n");
            display:block;
+           margin-bottom: 200px;
+    }
+    body listPerson listPerson:after {
+        content: 
+              oxy_editor(
+            type, button,
+            actionID, "add_person")
+            "to list by "
+        oxy_editor(
+           type, popupSelection,
+           editable, false,
+           edit, "@n");
+           display:block;
+           margin-bottom: 200px;
     }
         
           body listPlace place geo {
