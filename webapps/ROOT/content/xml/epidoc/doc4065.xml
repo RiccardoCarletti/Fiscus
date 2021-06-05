@@ -81,21 +81,58 @@
                 <body>
                     <div type="edition">
                         <div type="textpart">
-                            <ab>Agare clerico filio quondam Aurimund, <foreign>vende a</foreign>
-                        Iuvanni clerico filio Iordanni presbiteri portione mea et de germani mei
-                        Alamund et Roffi clerici de terrula quam havire visu sum hic infra civitate
-                        ista Lucense, qui uno capu tenente est in via publica, et alio capu tenente
-                        est in casa tua qui supra Iuvanni; et uno lato tenente est in pistrinum de
-                        filii quondam Alatei; et alio lato tenente est in terra tua qui supra
-                        Iovanni; et ipsa petiola per designatas locas parte mea et de germani meis
-                        Alamund et Roffi tibi trado in integrum. <foreign>Prezzo</foreign>: in auri
-                        soledos uno in fenito et deliverato capitulo. <foreign>Pena in
-                            duplum.</foreign> Actum Luca. <foreign>Sottoscrizioni</foreign>: + Agari
-                        clerici vindituri; + Rocheid filio quondam Ratpert viri devoti testis; +
-                        Farolf filio quondam Causari viri devoti testis; + Gosprand filio quondam
-                        Causari viri devoti testis; + Gosprand filio quondam Peritei viri devoti
-                        testis. <foreign>Scrive</foreign>: Prandulo. <foreign>Copia</foreign>:
-                        Richiprandum clericus.</ab>
+                            <ab><persName key="#Other_clerics"><name ref="Agari"
+                            >Agare</name></persName>
+                        <rs key="#Other_clerics">clerico</rs> filio quondam <persName><name
+                                ref="Aurimundus">Aurimund</name></persName>, <foreign>vende
+                            a</foreign>
+                        <persName key="#Other_clerics"><name ref="Iohannes"
+                            >Iuvanni</name></persName>
+                        <rs key="#Other_clerics">clerico</rs> filio <persName key="#Priests"><name
+                                ref="Iordannus">Iordanni</name></persName>
+                        <rs key="#Priests">presbiteri</rs> portione mea et de germani mei
+                                <persName><name ref="Alamundus">Alamund</name></persName> et
+                            <persName key="#Other_clerics"><name ref="Roffus"
+                            >Roffi</name></persName>
+                        <rs key="#Other_clerics">clerici</rs> de <rs key="#Landed_possessions"
+                            >terrula</rs> quam havire visu sum hic infra <rs key="#Cities"
+                            >civitate</rs> ista <placeName
+                            key="#Cities #Casae/cassinae_massaricie #Landed_possessions"
+                            ref="#places/4">Lucense</placeName>, qui uno capu tenente est in via
+                        publica, et alio capu tenente est in <rs key="#Casae/cassinae_massaricie"
+                            >casa</rs> tua qui supra <persName
+                            key="#Confinia #Casae/cassinae_massaricie"><name ref="Iohannes"
+                                >Iuvanni</name></persName>; et uno lato tenente est in <rs
+                            key="#Kilns">pistrinum</rs> de filii quondam <persName
+                            key="#Confinia #Kilns"><name ref="Alateus">Alatei</name></persName>; et
+                        alio lato tenente est in <rs key="#Petiae">terra</rs> tua qui supra
+                            <persName key="#Confinia #Petiae"><name ref="Iohannes"
+                            >Iovanni</name></persName>; et ipsa petiola per designatas locas parte
+                        mea et de germani meis Alamund et Roffi tibi trado in integrum.
+                            <foreign>Prezzo</foreign>: in auri soledos uno in fenito et deliverato
+                        capitulo. <foreign>Pena in duplum.</foreign> Actum
+                            <placeName>Luca</placeName>. <foreign>Sottoscrizioni</foreign>: + Agari
+                        clerici vindituri; + <persName key="#Witness #Vir_devotus/vir_honestus"
+                                ><name ref="Rocheid">Rocheid</name></persName> filio quondam
+                                <persName><name ref="Radipertus">Ratpert</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">viri devoti</rs> testis; + <persName
+                            key="#Witness #Vir_devotus/vir_honestus"><name ref="Farulfus"
+                                >Farolf</name></persName> filio quondam <persName><name
+                                ref="Causari">Causari</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">viri devoti</rs> testis; + <persName
+                            key="#Witness #Vir_devotus/vir_honestus"><name ref="Gausprandus"
+                                >Gosprand</name></persName> filio quondam <persName><name
+                                ref="Causari">Causari</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">viri devoti</rs> testis; + <persName
+                            key="#Witness #Vir_devotus/vir_honestus"><name ref="Gausprandus"
+                                >Gosprand</name></persName> filio quondam <persName><name
+                                ref="Peredeo">Peritei</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">viri devoti</rs> testis.
+                            <foreign>Scrive</foreign>: <persName key="#Writer"><name ref="Prandulus"
+                                >Prandulo</name></persName>. <foreign>Copia</foreign>: <persName
+                            key="#Copyist #Other_clerics"><name ref="Richibrandus"
+                                >Richiprandum</name></persName>
+                        <rs key="#Other_clerics">clericus</rs>.</ab>
                         </div>
                     </div>
                     <div type="bibliography" subtype="editions">
@@ -108,15 +145,7 @@
                         <p/>
                     </div>
                     <div type="commentary">
-                         <p>Persone: Desiderio re; Agare / Agari cler. (f. Aurimund; fr. Alamund,
-                    Roffi cler.); Alamund (f. Aurimund; fr. Agare cler, Roffi cler); Roffi cler (f.
-                    Aurimund; fr. Agare cler, Alamund); Aurimund (p. Agare cler; Alamund; Roffi
-                    cler); Iuvanni [Giovanni] cler (f. Iordanni); Iordanni (p. Iuvanni cler);
-                    Alatei; Rocheid v. dev. (f. Ratpert); Ratpert (p. Rocheid); Farolf v. dev. (f.
-                    Causari); Causari (p. Farolf); Gosprand v. dev. (f. Peritei); Peritei [Peredeo]
-                    (p. Gosprand); Prandulo; Rachiprandum cler. Luoghi: civitate Lucense, Luca
-                    [Lucca]. Chiese: . Cariche: . Note: pistrinuum (?). Indice: compravendita.
-                        <foreign>Nota dorsale (sec. XI-XII)</foreign>: Venditio terrarum in
+                         <p><foreign>Nota dorsale (sec. XI-XII)</foreign>: Venditio terrarum in
                     Luca.</p>
                     </div>
                 </body>
