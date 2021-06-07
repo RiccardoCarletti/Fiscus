@@ -832,11 +832,12 @@
         toggle_purple_places.addTo(mymap); 
         toggle_golden_places.addTo(mymap);
         toggle_polygons.addTo(mymap);
-        toggle_lines.addTo(mymap);
-          
+        toggle_lines.addTo(mymap); 
+         
         <!--var sliderControl = L.control.sliderControl({layer: L.layerGroup(markers)});
         mymap.addControl(sliderControl);
         sliderControl.startSlider();-->
+        <!-- to be fixed: what to put in $year; how to display date ranges; how to use legend filters (best to change approach and use separate arrays of places based on periods? Cf. https://github.com/svitkin/leaflet-timeline-slider) -->
       </script>
     </div>
   </xsl:template>
