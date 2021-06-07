@@ -35,7 +35,7 @@
                                 >--Libellus/precaria/emphyteusis</rs>
                                     <rs type="record_source" ref="#">Original document</rs>
                                     <rs type="document_tradition" ref="#">Original</rs>
-                                    <rs type="fiscal_property"/>
+                                    <rs type="fiscal_property">No</rs>
                                 </summary>
                                 <msItem xml:id="msItem1">
                                     <textLang mainLang="" otherLangs=""/>
@@ -82,16 +82,17 @@
                 <body>
                     <div type="edition">
                         <div type="textpart">
-                            <ab><persName><name>Maimberto detto Adalberto</name></persName> del
-                            <persName>fu <name>Filiperto</name></persName> riceve in livello dal <rs
+                            <ab><persName><name ref="Maginpertus/Adalbertus">Maimberto detto
+                                Adalberto</name></persName> del <persName>fu <name ref="Filibertus"
+                                >Filiperto</name></persName> riceve in livello dal <rs
                             key="#Bishops">vescovo</rs> di Lucca <persName ref="#people/213"
                             key="#Bishops">Pietro</persName>, una casa et res massaricia posta in
                         loco et finibus <placeName key="#Curtes" ref="#places/431"
                             >Capannule</placeName>, di pertinenza del <orgName
                             key="#Mother_churches" ref="#juridical_persons/68"><rs
                                 key="#Mother_churches">vescovato</rs> di San Martino</orgName>, in
-                        precedenza tenuta da <persName key="#Agricultural_workers"
-                                ><name>Amore</name></persName>
+                        precedenza tenuta da <persName key="#Agricultural_workers"><name ref="Amor"
+                                >Amore</name></persName>
                         <rs key="#Agricultural_workers">massario</rs>, con tutte le sue dipendenze.
                         Si impegna con i suoi eredi a mettervi uomini ad residendum et habitandum.
                         Si impegna a versare pro omni censum et iustitiam al vescovo e ai suoi
@@ -109,11 +110,12 @@
                         la stesura di due <rs key="#Libellus/precaria/emphyteusis">cartulas</rs>.
                         Actum <placeName key="#Mother_churches #Bishops" ref="#places/4"
                             >Luca</placeName>. <rs key="#Witness">Testimoni</rs> sottoscrittori:
-                            <persName key="#Witness"><name>Eriteo</name></persName>, <persName
-                            key="#Witness"><name>Teubaldo</name></persName>, <persName
-                            key="#Witness"><name>Isimbaldo</name></persName> di
-                                <persName><name>Andrea</name></persName>, <persName key="#Witness"
-                                ><name>Isalfridi</name></persName>.</ab>
+                            <persName key="#Witness"><name ref="Eriteus">Eriteo</name></persName>,
+                            <persName key="#Witness"><name ref="Teobaldus"
+                            >Teubaldo</name></persName>, <persName key="#Witness"><name
+                                ref="Isembaldus">Isimbaldo</name></persName> di <persName><name
+                                ref="Andreas">Andrea</name></persName>, <persName key="#Witness"
+                                ><name ref="Isalfredus">Isalfridi</name></persName>.</ab>
                         </div>
                     </div>
                     <div type="bibliography" subtype="editions">
