@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    +N.20</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc4069</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Offersio/donatio</rs>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate when="0759-12-29"> 
+                                        <note type="displayed_date">759 December 29</note>
+                                        <note type="dating_elements"/>
+                                        <note type="topical_date">Lucca</note>
+                                    </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-06-07" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab>Gregorii filio quondam Maurici pro remedium anime mee in proprio
+                        territurio meo a fundamentis fabricis ecclesiam construere visus sum in
+                        honore et vocabulo Sancti Donati in loco qui dicitur Asulari. Perciò dona
+                        alla chiesa sé stesso una cum omnibus rebus meis, tam casa habitationis meae
+                        cum fundamento, curte, orto, vel alia tecta vel fabrica, simul et terris,
+                        vineis, mobile vel inmobile seu semoventibus (…); excepto duas petiole de
+                        terra mea: una petia qui est prope terra Bonusuli germani mei, alio vero
+                        petiolo qui est vitis posita in loco qui vocitatur Lamari; iste predicte
+                        petiole in mea reservo potestate. Si riserva l’usufrutto dei beni e la
+                        nomina del rettore della chiesa per la durata della vita. Et pro anima mea
+                        de ipso usufructu vel res mobile potestatem habeam elimosinam faciendum
+                        recto moderamine. Il prete nominato gli succeda come rettore se gli
+                        sopravvivesse. Sic tamen absque ulla femina ividem habitare debeat et per
+                        singola ebdomada quattuor peregrini omni tempore die uno pascere debeat.
+                        Post vero eius decessu volo atque instituo, ut prefata ecclesia cum res
+                        ividem pertentente sit in potestate ecclesie Sancti Martini, ubi est domo
+                        episcoporum vel pontifici qui ividem fuerit ordinatus, ordinando et
+                        defendendo sicut Deo placitum est (…) non ut ividem femina quilibet habitare
+                        debeat; et qui prebiter ividem fuerit ordinatus (…) per singula septimana
+                        die uno quattuor peregrini ividem pascere deveat. Et hoc volo, ut Aculo
+                        puero, qui a me liver et absolutus a servitio factus est, si caste tonso
+                        capite Deo servire voluerit, habeat licentia introidendum in ipso monasterio
+                        et lavorare et servire ividem sub potestate de presbitero qui ividem fuerit
+                        ordinatus. (…) Et presens pagina dotalium et alia similis iste emissa in
+                        ecelsia Sancti Martini Osprandum diaconum scrivere rogavi. Actum Luca.
+                        Sottoscrizioni: + Gregori; + Gaifred de Asulari testis; + Anteneri filio
+                        quondam Gudiscalc testis; + Serbuli de Asulari testis; + Maurici de Asulari
+                        testis; + Rorchis clerici filio Solduli clerici testis. Scrive: Osprandus
+                        diaconus.</ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>Muratori 1738-1742,  II, 1023; MDL, V/2, n. 64; CDL II, n. 140, pp.
+                    40-44; ChLA, XXXII, 956.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                         <p>Persone: Desiderio re; Adelchi re; Gregorii (f. Maurici; fr. Bonusuli);
+                    Maurici (p. Gregorii); Bonusuli (fr. Gregorii); Aculo puero; Osprandus diac;
+                    Gaifred de Asulari / de Lamari; Anteneri (f. Gudiscalc); Gudiscalc (p.
+                    Anteneri); Serbuli de Asulari / de Lamari; Rotchis cler (f. Solduli cler);
+                    Solduli cler (p. Rotchis); Maurici de Asulari. Luoghi: loco qui dicitur Asulari
+                    [Vico Asulari]; Lamari [Lammari]; Luca [Lucca]. Chiese: ecclesiam in honore et
+                    vocabulo Sancti Donati in loco qui dicitur Asulari [S. Donato in Vico Asulari];
+                    ecclesie Sancti Martini ubi est domo episcoporum [S. Martino di Lucca,
+                    vescovato]. Cariche: . Note: doppio originale (come da riferimento nel testo).
+                    Indice: fondazione / dotazione - monastero / chiesa. <foreign>Nota dorsale (sec.
+                        VIII?)</foreign>: De Ansulari. <foreign>Nota dorsale (sec.
+                    XI-XII)</foreign>: Dos ecclesie Sancti Donati in Asulari edificata.
+                        <foreign>Altro originale in Archivio Storico Diocesano di Lucca, Archivio
+                        Arcivescovile di Lucca,  +N.51; edito in ChLA, XXXII, 957.</foreign></p>
+                    </div>
+                </body>
+            </text>
+        </TEI>
