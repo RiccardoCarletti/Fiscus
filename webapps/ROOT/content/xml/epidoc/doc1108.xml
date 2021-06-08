@@ -33,7 +33,7 @@
                         <summary>
                             <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
-                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="document_tradition" ref="#">Uncertain tradition</rs>
                             <rs type="fiscal_property"/>
                         </summary>
                         <msItem xml:id="msItem1">
@@ -85,13 +85,14 @@
                             key="#Emperor/king" ref="#people/21">Berengarius</persName> divina
                         favente clementia <rs key="#Emperor/king">rex</rs>. Noverit industria omnium
                         fidelium sanctae Dei Ecclesiae nostrorumque presentium scilicet ac
-                        futurorum, quod <persName key="#Queen" ref="#people/91"
-                            >Ageltrudis</persName> olim <rs key="#Queen">imperatrix</rs> adiit per
-                            <persName key="#Archchancellor #Bishops" ref="#people/58"
-                            >Petrum</persName> reverentissimum <rs key="#Bishops">episcopum</rs>
-                        sacrique palatii nostri <rs key="#Archchancellor">archicancellarium</rs>
-                        excellentiam nostram, quatenus eidem concederemus et confirmaremus
-                        territoria ac loca ubi nunc <rs
+                        futurorum, quod <persName
+                            key="#Houses #Rivers #Curtes #Casae/cassinae_massaricie #Landed_possessions #Forests #Mills #Wine #Queen #Immunity #Churches #Monasteries #Royal_slave"
+                            ref="#people/91">Ageltrudis</persName> olim <rs key="#Queen"
+                            >imperatrix</rs> adiit per <persName key="#Archchancellor #Bishops"
+                            ref="#people/58">Petrum</persName> reverentissimum <rs key="#Bishops"
+                            >episcopum</rs> sacrique palatii nostri <rs key="#Archchancellor"
+                            >archicancellarium</rs> excellentiam nostram, quatenus eidem
+                        concederemus et confirmaremus territoria ac loca ubi nunc <rs
                             key="#Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_individuals #Immunity #Monasteries"
                             >monasteria</rs> dinoscuntur esse constructa. Unum videlicet quod
                         nuncupatur <orgName
@@ -103,7 +104,7 @@
                             ref="#juridical_persons/118">Flumen</orgName> in <placeName
                             ref="#places/249" key="#Pagus">pago Asisio</placeName> cum omnibus
                         adiacentiis et pertinentiis suis omnibusque rebus et <rs
-                            key="#Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_individuals #Slave"
+                            key="#Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_individuals #Royal_slave"
                             >familiis utriusque sexus</rs> tam hereditariis quamque etiam a
                         predecessoribus nostris regibus sive imperatoribus per preceptorum series
                         ibidem concessis, et quocumque instrumentorum titulo vel cuiuscumque
@@ -136,7 +137,7 @@
                             >monasteriis</rs>, <rs
                             key="#Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_individuals #Immunity #Churches"
                             >eclesiis</rs>, <rs
-                            key="#Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_individuals #Immunity #Churches/religious_bodies"
+                            key="#Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_individuals #Immunity #Churches"
                             >capellis</rs>, <rs
                             key="#Curtes #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_individuals #Immunity"
                             >curtibus</rs>, <rs
