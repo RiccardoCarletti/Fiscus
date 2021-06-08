@@ -34,7 +34,7 @@
                         <summary>
                             <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
-                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="document_tradition" ref="#">Uncertain tradition</rs>
                             <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
@@ -93,9 +93,10 @@
                         nostrae <rs key="#Count">militiae comitem</rs> nostrae suggessisse
                         sublimitati pro quibusdam <rs key="#Priests">presbiteris</rs> atque <rs
                             key="#Other_clerics">officialibus</rs>
-                        <orgName ref="#juridical_persons/95">Sancti Ambrosii</orgName>, ubi eius
-                        corpus venerabiliter tumulatum est, quatenus eis vel eorum successoribus ob
-                        nostrae mercedis cumulum concessa nostra largitatis benivolentia <rs
+                        <orgName ref="#juridical_persons/95" key="#Mansi">Sancti Ambrosii</orgName>,
+                        ubi eius corpus venerabiliter tumulatum est, quatenus eis vel eorum
+                        successoribus ob nostrae mercedis cumulum concessa nostra largitatis
+                        benivolentia <rs
                             key="#Mansi #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches"
                             >mansum</rs> illud quod est in <placeName ref="#places/150"
                             >Cornaledo</placeName> pertinens <geogName ref="#estates/111"
