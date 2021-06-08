@@ -4,7 +4,7 @@
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
-                <title>Archivio storico diocesano di Modena e Nonantola, A, 9, XXVIIIr</title>
+                <title>Modena, Archivio capitolare, A. 9. XXVIII</title>
             </titleStmt>
             <editionStmt>
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
@@ -73,6 +73,7 @@
         <revisionDesc>
             <listChange>
                 <change when="2021-02-08" who="Chiara Stedile">creation of record</change>
+                <change when="2021-06-07" who="emanarini">changes</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -91,7 +92,10 @@
                         reverentissimi <rs key="#Bishops">episcopi</rs> et <rs key="#Archchancellor"
                             >archicancellarii</rs> nostri adiit celsitudinem nostram <persName
                             key="#Bishops"><name ref="Gamenulfus">Gamenulfus</name></persName>
-                        <orgName ref="#juridical_persons/96">sanctae Mutinensis eclesiae</orgName>
+                        <orgName ref="#juridical_persons/96" key="#Churches #Inquisitio #Monasteries #Immunity #Clusae/gates #Hospitals #Tuitio/bannum/mundeburdium #Roads #Baptismal_churches #Bridges/pontoons #Public_exactions #Privileges #Defensive_elements #Walls #Mills Rights_of_use_on_woods/pastures/waters">sanctae <placeName
+                                ref="#places/38"
+                                key="#Clusae/gates #Roads #Bridges/pontoons #Public_exactions #Privileges #Defensive_elements #Walls #Mills Rights_of_use_on_woods/pastures/waters"
+                                >Mutinensis</placeName> eclesiae</orgName>
                         <rs key="#Bishops">episcopus</rs>, quatenus nostrae auctoritatis preceptum
                         confirmaremus cuncta monimina atque possessiones iuste et legaliter ad
                         eandem eclesiam pertinentes. Cuius precibus assensum prebentes <rs
@@ -123,18 +127,17 @@
                         per ingenia adquisita aut conscriptiones et emphitecarios a presulis
                         prefatae eclesiae iniuste conscriptas retinere inde quippiam vel modicum
                         presumat, sed pro Dei reverentia absque ulla contradictionepars et potestas
-                        eiusdem sua recipiat iura. Sancimus etiam pretaxatae eclesiae iuxta <rs
-                            key="#Emperor/king">antecessorum nostrorum</rs> decreta loca in quibus
-                        predicta civitas constructa est, ita nostrae auctoritatis precepto stabilia
-                        maneant cum cancellarius, quos prisca consuetudine prefata eclesia de
-                        clericis sui ordinis ad scribendos suae potestatis libellos et fiotecarios
-                        habeat. Vias quoque, pontes, portas et quicquid antiquo iure eidem civitati
-                        a procuratoribus rei publicae persolvebatur, id est <placeName
-                            ref="#places/38">ubicumque <rs key="#Roads">vias</rs>, <rs
-                                key="#Clusae/gates">portas</rs>, <rs key="#Bridges/pontoons"
-                                >pontes</rs> in sua terra</placeName> habuerit, nostra vice pars
-                        pretaxatae eclesiae <rs key="#Public_exactions #Privileges">liberam capiendi debitum
-                            ex eis censum habeat potestatem</rs>, et liceat ei <rs
+                        eiusdem sua recipiat iura. Sancimus etiam pretaxatae eclesiae iuxta
+                        antecessorum nostrorum decreta loca in quibus predicta civitas constructa
+                        est, ita nostrae auctoritatis precepto stabilia maneant cum cancellarius,
+                        quos prisca consuetudine prefata eclesia de clericis sui ordinis ad
+                        scribendos suae potestatis libellos et fiotecarios habeat. Vias quoque,
+                        pontes, portas et quicquid antiquo iure eidem civitati a procuratoribus rei
+                        publicae persolvebatur, id est ubicumque <rs key="#Roads">vias</rs>, <rs
+                            key="#Clusae/gates">portas</rs>, <rs key="#Bridges/pontoons">pontes</rs>
+                        in sua terra habuerit, nostra vice pars pretaxatae eclesiae <rs
+                            key="#Public_exactions #Privileges">liberam capiendi debitum ex eis
+                            censum habeat potestatem</rs>, et liceat ei <rs
                             key="#Defensive_elements #Privileges">fossata cavare</rs>, <rs
                             key="#Mills #Privileges">molendina construere</rs>, <rs
                             key="#Clusae/gates #Privileges">portas erigere</rs>, et <rs
@@ -167,13 +170,13 @@
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p>DD B I, pp. 72-74, n° XXIV</p>
+                <p>DD B I, pp. 72-74, n° XXIV.</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>
             </div>
             <div type="bibliography" subtype="links">
-                <p>https://archiviodiocesano.mo.it/opere-digitalizzate/file/15185-28_a-9-xxviiir-_privilegio_di_berengario_re_a_favore_di_gamenolfo_vescovo-_bologna-_898-_dic-_7</p>
+                <p/>
             </div>
             <div type="commentary">
                 <p/>
