@@ -219,7 +219,7 @@
                             >Ghislarengo</placeName>, <orgName
                             key="#Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches #Monasteries"
                                 ><placeName
-                                key="#Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches"
+                                key="#Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches #Monasteries"
                                 >Lentam</placeName> cum monasterio</orgName> sanctimonialium cum
                         suis pertinentiis, <placeName
                             key="#Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches"
@@ -233,8 +233,8 @@
                             key="#Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches"
                             >Bornade</placeName>, <placeName
                             key="#Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches"
-                            >Creuacorium</placeName> cum villis et <rs>piscationibus</rs> et ceteris
-                        regalibus, <placeName
+                            >Creuacorium</placeName> cum villis et <rs key="#Fisheries"
+                            >piscationibus</rs> et ceteris regalibus, <placeName
                             key="#Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches"
                             >Quirinum</placeName>, <placeName
                             key="#Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches"
@@ -257,7 +257,7 @@
                             >Castellum</placeName> turris, <placeName
                             key="#Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches"
                             >Luaretum</placeName>, <placeName
-                            key="#Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches"
+                            key="#Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches #Arimannus"
                             >Odalengum</placeName> cum omnibus arimannis suis. Preterea venditiones,
                         commutationes, alienationes, distractiones ab invasoribus sancti Eusebii
                         factas, qui pontificalem benedictionem non obtinuerunt, videlicet
@@ -271,40 +271,50 @@
                             <placeName>Clauatiolo</placeName> atque investituram a
                             <persName>Gisulfo</persName> eiusdem ecclesie episcopo contra
                         iuramentum, quod fecerat, et contra interdictum domini pape Eugenii, cui
-                        ipse eas se non fecisse confessus est, de <rs>pedatico</rs> et
-                            <rs>naulo</rs> Salugie factas et aliis, quecumque probari potuerint,
-                        atque omnes alias investituras in ecclesia sancti Eusebii ab episcopis
-                        furtive occulte factas omnino cassamus et, imposterum ne fiant, sub pena C
-                        librarum auri regia auctoritate interdicimus. Venditiones feudorum ad
-                        Vercellensem ecclesiam pertinentium dolose et contra decreta Romanorum
-                        imperatorum ad detrimentum ecclesie factas sive a capitaneis sive a
-                        vauassoribus sive ab his, qui de familia esse noscuntur, facte sint,
-                        cassamus et iuribus carere decernimus. Potestatem emendi molas et deducendi
-                        tam molas quam alia, quecumque placuerit, per suam terram et per suum
-                        districtum episcopo Vercellensi concedimus semota omni violencia vel
-                        contradictione alicuius principis aut civitatis. Liceat etiam episcopo
-                        montem Vgitionis regia auctoritate hedificare et munire. Prescriptionem
-                        quoque centum annorum tam episcopis Vercellensibus quam ecclesie sancti
-                        Eusebii et sancte Marie concedimus imperpetuum. Decernimus igitur, ut nullus
-                        regum vel imperatorum, <rs>archiepiscoporum</rs>, episcoporum,
-                            <rs>ducum</rs>, marchionum, <rs>comitum</rs> aut alia magna seu parva
-                        persona huic privilegio contraire presumat. Et ut hec omnia imperpetuum
-                        firma et inconvulsa permaneant, presentem paginam sigilli nostri impressione
-                        mandavimus insigniri. Testes fuerunt presentes, quorum nomina subscripta
-                        cernuntur: <persName>Hartuvicus</persName> Bremensis archiepiscopus,
-                            <persName>Gebahardus</persName> Wirceburgensis episcopus,
-                            <persName>Guntherus</persName> Spirensis episcopus,
-                            <persName>Ebrahardus</persName> Babembergensis episcopus,
-                            <persName>Anselmus</persName> Habelbergensis episcopus, dux Vuelfo,
-                            <persName>Heinricus</persName> dux Saxonie,
-                            <persName>Cvonradus</persName> et <persName>Albertus</persName>
-                        marchiones de Saxonia, <persName>Guido</persName> comes de Blanderada.
-                        Signum domini Friderici Romanorum regis invictissimi. (M.) Ego
-                            <persName>Arnoldus</persName>
-                        <rs>cancellarius</rs> vice Heinrici Maguntini archiepiscopi et
-                        archicancellarii recognovi. Datum Wirczburg XVI kal. novembr., anno dominice
-                        incarnationis MCLII, indictione XV, regnante domino Friderico Romanorum rege
-                        gloriosissimo, anno vero regni eius primo; feliciter. </ab>
+                        ipse eas se non fecisse confessus est, de pedatico et naulo Salugie factas
+                        et aliis, quecumque probari potuerint, atque omnes alias investituras in
+                        ecclesia sancti Eusebii ab episcopis furtive occulte factas omnino cassamus
+                        et, imposterum ne fiant, sub pena C librarum auri regia auctoritate
+                        interdicimus. Venditiones feudorum ad Vercellensem ecclesiam pertinentium
+                        dolose et contra decreta Romanorum imperatorum ad detrimentum ecclesie
+                        factas sive a capitaneis sive a vauassoribus sive ab his, qui de familia
+                        esse noscuntur, facte sint, cassamus et iuribus carere decernimus.
+                        Potestatem emendi molas et deducendi tam molas quam alia, quecumque
+                        placuerit, per suam terram et per suum districtum episcopo Vercellensi
+                        concedimus semota omni violencia vel contradictione alicuius principis aut
+                        civitatis. Liceat etiam episcopo montem Vgitionis regia auctoritate
+                        hedificare et munire. Prescriptionem quoque centum annorum tam episcopis
+                        Vercellensibus quam ecclesie sancti Eusebii et sancte Marie concedimus
+                        imperpetuum. Decernimus igitur, ut nullus regum vel imperatorum,
+                        archiepiscoporum, episcoporum, ducum, marchionum, comitum aut alia magna seu
+                        parva persona huic privilegio contraire presumat. Et ut hec omnia
+                        imperpetuum firma et inconvulsa permaneant, presentem paginam sigilli nostri
+                        impressione mandavimus insigniri. Testes fuerunt presentes, quorum nomina
+                        subscripta cernuntur: <persName key="#Archbishops"><name
+                                ref="Hartuvicus Bremensis archiepiscopus"
+                            >Hartuvicus</name></persName> Bremensis archiepiscopus, <persName
+                            key="#Bishops"><name ref="Gebahardus Wirceburgensis episcopus"
+                                >Gebahardus</name></persName> Wirceburgensis episcopus, <persName
+                            key="#Bishops"><name ref="Guntherus Spirensis episcopus"
+                                >Guntherus</name></persName> Spirensis episcopus, <persName
+                            key="#Bishops"><name ref="Ebrahardus Bambergensis episcopus"
+                                >Ebrahardus</name></persName> Babembergensis episcopus, <persName
+                            key="#Bishops"><name ref="Anselmus Halbergensis episcopus"
+                                >Anselmus</name></persName> Habelbergensis episcopus<rs
+                            key="#Marquis/duke">, dux </rs>Vuelfo, <persName key="#Marquis/duke"
+                                ><name ref="Heinricus dux Saxonie">Heinricus</name></persName> dux
+                        Saxonie, <persName key="#Marquis/duke"><name ref="Cuonradus marchio Saxonie"
+                                >Cvonradus</name></persName> et <persName key="#Marquis/duke"
+                            >Albertus</persName> marchiones de Saxonia, <persName key="#Count"><name
+                                ref="Guido comes de Blanderada">Guido</name></persName>
+                        <rs key="#Count">comes</rs> de Blanderada. Signum domini Friderici Romanorum
+                        regis invictissimi. (M.) Ego <persName key="#Chancellor"><name
+                                ref="Arnoldus cancellarius">Arnoldus</name></persName>
+                        <rs key="#Chancellor">cancellarius</rs> vice Heinrici Maguntini
+                        archiepiscopi et archicancellarii recognovi. Datum Wirczburg XVI kal.
+                        novembr., anno dominice incarnationis MCLII, indictione XV, regnante domino
+                        Friderico Romanorum rege gloriosissimo, anno vero regni eius primo;
+                        feliciter. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
