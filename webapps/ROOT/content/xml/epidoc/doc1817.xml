@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Archivio capitolare di Vercelli (DD U L D. 81)</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc1817</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">Yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate notBefore="0001" notAfter="0001" when="0945-08-13">
+                                <note type="displayed_date"/>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Pavia</note>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-06-09" who="caterinaciccopiedi">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine sanctae ac individuae Trinitatis. <persName>Hugo</persName> et
+                            <persName>Lotharius</persName> divina providente clementia reges. Si
+                        sanctis ac venerabus locis divino cultui mancipatis more bonorum
+                        Xristianorum devotissime contulerimus nostri muneris suffragia, certissime
+                        credimus nos nostrumque regnum intercessionibus sanctorum celesti iuvamine
+                        semper sublevari atque divinis beneficiis sublimari. Quocirca noverit omnium
+                        sanctae Dei ecclesiae fidelium ac nostrorum presentium scilicet atque
+                        futurorum devotio, <persName>Berengarium</persName> nostri fidelem dilectum
+                        illustremque <rs>marchionem</rs> nostram monuisse clementiam, ut pro amore
+                        Dei omnipotentis sanctique Eusebii, qui predicando fidem catholicam palmam
+                        martyrii est decentissime consecutus, <rs>canonicis</rs><orgName>
+                            Vercellensis ecclesiae</orgName>, cui venerabilis
+                            <persName>Atto</persName> preese videtur <rs>episcopus</rs>,
+                            <rs>alveos</rs>
+                        <rs>fluminum</rs>
+                        <placeName>Siccide</placeName> et <placeName>Sarvii</placeName>
+                        <rs>largiremur</rs>. Hanc petitionem satis omnibus pene principibus huius
+                        regni ratam suscipientes, per preceptum nostrae auctoritatis alveos
+                        predictorum fluminum canonicorum Vercellensium dominio, prout iuste et
+                        legaliter possumus, presentaliter concedimus, sicuti posita sunt capita
+                            <placeName>Briulae</placeName> usque ad <rs>ripam</rs> que est iuxta
+                            <rs>capellam</rs>
+                        <orgName><placeName>Sancti Columbani,</placeName></orgName> intra hos fines
+                        decurrentia flumina, cum <rs>insulis</rs> et suis ripis nobis pertinentibus,
+                        predictis canonicis Sancti Eusebii, ut dictum est, largimur proinde ut
+                            <rs>piscationes</rs>
+                        <rs>naviumque</rs> redibitiones atque riparum eorum usui famulentur; insuper
+                        etiam confirmamus <placeName>Vercellinos <rs>portus</rs></placeName> per hoc
+                        preceptum veluti predecessores nostri pio amore ordinaverunt ad usum
+                        luminaris ecclesiae Sancti Eusebii, in qua sacratissimum eius corpus
+                        requiescit, et ad indumenta clericorum ibique iugiter famulantium. Si quis
+                        igitur huius nostri precepti statutum aliquando quomodocumque instigante
+                        diabolo infringere conatus fuerit, sciat se compositurum auri optimi libras
+                        mille, medietatem ecclesiae Sancti Eusebii suisque clericis qui inibi pro
+                        tempore fuerint. Quod ut verius credatur diligentiusque ab omnibus
+                        observetur, manibus propriis roborantes anulo nostro insigniri iussimus.
+                        Signa serenissimorum Hugonis et Lothari regum.
+                            <persName>Giseprandus</persName> episcopus et <rs>cancellarius</rs> ad
+                        vicem <persName>Bosonis</persName> episcopi et <rs>archicancellari</rs>
+                        recognovi et subscripsi. Data id. augustas, anno dominice incarnationis
+                        .DCCCCXLV. regni vero domni Hugonis .XX., Lotharii .XV., indic. III. Actum
+                        Papie, feliciter amen. </ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>DD U L D. 81, p. p. 238 sgg.</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
