@@ -72,7 +72,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2021-02-08">creation of record</change>
+                <change when="2021-06-09" who="caterinaciccopiedi">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -80,39 +80,53 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>In nomine domini Dei aeterni. Hugo et Lotharius divina providente clementia
-                        reges. Regni nostri statum ad hoc proficere credimus, si ecclesiarum Dei
-                        predia continuis amplificamus muneribus. Quocirca omnium fidelium sanctae
-                        Dei aecclesiae nostrorumque presentium ac futurorum devotio noverit,
-                        qualiter pro Dei amore animarumque nostrarum remedio per hoc nostrum
-                        preceptum, prout iuste et legaliter possumus, donamus atque largimur
-                        claustrae et canonice Dei genitricis Marie et sancti Eusebii sita Vercellis
-                        nec non canonicis et fratribus pro tempore inibi Deo famulantibus quasdam
-                        res iuris nostri positas in loco et fundo Monte Galiano, sicut nobis
-                        advenerunt a Gotefredo et Atone clerico ierminis, Rainza quoque et Ita
-                        sororibus, in valle Levania habitantibus, verum etiam casam unam cum area
-                        ubi exstat infra civitatem Vercellas, nec non res et sedimina ad eandem
-                        casam aspicientia, sicut quondam fuerunt iuris Razonis nostri venatoris.
-                        prelibatas igitur res in monte Galliano et casas infra civitate Vercellas de
-                        nostro iure et dominio in prefate claustre et canonicorum ius et dominium
-                        omnino transfundimus ac delegamus una cum terris, vineis, campis, pratis,
-                        pascuis, silvis, aquis aquarumque decursibus ad easdem res aspitientibus in
-                        integrum, ut pars predictarum ecclesiarum, sicut hactenus nostri fuerunt
-                        iuris, habeat atque possideat fruaturque iure perpetuo, omnium hominum
-                        contradictione remota. Si quis igitur huius nostri precepti collationem
-                        aliquando infringere conatus fuerit, sciat se compositurum auri optimi
-                        libras centum, medietatem kamere nostre et medietatem prefate claustre
-                        Sanctae Marie et Sancti Eusebii. Quod ut verius credatur diligentiusque ab
-                        omnibus observetur, manibus propriis roborantes anulo nostro insigniri
-                        iussimus. Signa serenissimorum (MF) (MF) Hugonis et Lotharii regum.
-                        Giseprandus cancellarius ad vicem Bosonis episcopi et archicancellari
-                        recognovi et subscripsi. Data idus novembris, anno dominice incarnationis
-                        .DCCCCXLIII., regni domni Hugonis .XVIII, Lotharii .XIII, indictione
-                        secunda. Actum Papie. feliciter. </ab>
+                    <ab>In nomine domini Dei aeterni. <persName key="#Emperor/king" ref="#people/79"
+                            >Hugo</persName> et <persName key="#Emperor/king" ref="#people/72"
+                            >Lotharius</persName> divina providente clementia <rs
+                            key="#Emperor/king">reges</rs>. Regni nostri statum ad hoc proficere
+                        credimus, si ecclesiarum Dei predia continuis amplificamus muneribus.
+                        Quocirca omnium fidelium sanctae Dei aecclesiae nostrorumque presentium ac
+                        futurorum devotio noverit, qualiter pro Dei amore animarumque nostrarum
+                        remedio per hoc nostrum preceptum, prout iuste et legaliter possumus, <rs
+                            key="#Imperial/royal_diploma">donamus</rs> atque largimur claustrae et
+                        canonice Dei genitricis Marie et sancti Eusebii sita <placeName
+                            ref="#places/106">Vercellis</placeName> nec non canonicis et fratribus
+                        pro tempore inibi Deo famulantibus quasdam res iuris nostri positas in loco
+                        et <rs key="#Fundi">fundo</rs>
+                        <placeName
+                            key="#Fundi #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches"
+                            >Monte Galiano</placeName>, sicut nobis advenerunt a <persName
+                            key="#Priests"><name ref="Gotefredus clericus"
+                            >Gotefredo</name></persName> et <persName key="#Priests"><name
+                                ref="Atto clericus">Atone</name></persName>
+                        <rs key="#Priests">clerico</rs> ierminis, Rainza quoque et Ita sororibus, in
+                        valle Levania habitantibus, verum etiam <rs key="#Casae/cassinae_massaricie"
+                            >casam</rs> unam cum area ubi exstat infra civitatem Vercellas, nec non
+                        res et sedimina ad eandem casam aspicientia, sicut quondam fuerunt iuris
+                        Razonis nostri venatoris. prelibatas igitur res in monte Galliano et casas
+                        infra civitate Vercellas de nostro iure et dominio in prefate claustre et
+                        canonicorum ius et dominium omnino transfundimus ac delegamus una cum
+                        terris, <rs key="#Wine">vineis</rs>, <rs key="#Landed_possessions"
+                            >campis</rs>, pratis, <rs key="#Hay/fodder">pascuis</rs>, <rs
+                            key="#Forests">silvis</rs>, <rs key="#Rivers">aquis aquarumque
+                            decursibus </rs>ad easdem res aspitientibus in integrum, ut pars
+                        predictarum ecclesiarum, sicut hactenus nostri fuerunt iuris, habeat atque
+                        possideat fruaturque iure perpetuo, omnium hominum contradictione remota. Si
+                        quis igitur huius nostri precepti collationem aliquando infringere conatus
+                        fuerit, sciat se compositurum auri optimi libras centum, medietatem kamere
+                        nostre et medietatem prefate claustre <orgName>Sanctae Marie</orgName> et
+                            <orgName>Sancti Eusebii</orgName>. Quod ut verius credatur
+                        diligentiusque ab omnibus observetur, manibus propriis roborantes anulo
+                        nostro insigniri iussimus. Signa serenissimorum (MF) (MF) Hugonis et
+                        Lotharii regum. <persName>Giseprandus</persName>
+                        <rs>cancellarius</rs> ad vicem <persName>Bosonis</persName>
+                        <rs>episcopi</rs> et <rs>archicancellari</rs> recognovi et subscripsi. Data
+                        idus novembris, anno dominice incarnationis .DCCCCXLIII., regni domni
+                        Hugonis .XVIII, Lotharii .XIII, indictione secunda. Actum Papie. feliciter. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p/>
+                <p>DD U L D. 73, p. 214</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>
