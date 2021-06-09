@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    +D.35 </title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc4073</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Ordinatio</rs>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate notBefore="0761-01-01" notAfter="0761-01-31">
+                                <note type="displayed_date">761 January</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Lucca</note>
+                            </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-06-09" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab>Lopulo presbitero filio quondam Asfrid de loco Paterno, ha chiesto a
+                        domno viro beatissimo Peredeo in Dei nomine episcopo di essere preposto in
+                        casa ecclesie vestre [Sancti Re]guli prope Vualdo come rectore et
+                        gubernatore. Peredeo accoglie la richiesta e ordina che Lopulo debba diebus
+                        vite sue in suprascripta casa ecclesie (…) residere, reggendone i beni.
+                        Lopulo promette in omnebus in vestra promitto persistere volontate, qualiter
+                        vobis placuerit et numquam contra te agere (…). Et si quandoque tempore,
+                        sine vestra permissione, ipsa ecclesia demittere quesiero, et alibi habitare
+                        presumpsero, vel si ipsa ecclesia, casas vel res ad ea per&lt;tinen>te per
+                        me pegiorata fuerit, o se disubbidirà agli ordini del vescovo, pena auri
+                        soledus tricentus (…). Actum Luca Sottoscrizioni: Lopulo presbitero (ss);
+                        Maurici presbiter (ss); + Garemund clerico filio quondam Deusdedi
+                        presbiteri; + Cotzulo presbitero basilice Sancti Apollenari; + Teufrid
+                        clerico filio quondam Magnefrid; + Urso presbitero ecclesie Sancti Martini
+                        de Trecase. Scrive: Lamipert.</ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL V/2, n. 68; CDL II, 147, pp. 57-59; ChLA, XXXIII, 961</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                         <p>Persone: Desiderio re; Adelchi re; Lopulo / Lupoli pbr de loco Paterno
+                    [Lupo] (f. Asfrid); Asfrid (p. Lopulo pbr); Peredeo ep [di Lucca]; Maurici pbr;
+                    Garemund cler (f. Deusdedi pbr); Deusdedi pbr (p. Garemund cler); Cotzulo pbr
+                    basilice S. Apollenari; Teufrid cler (f. Magnefrid); Magnefrid (p. Teufrid
+                    cler); Urso pbr eccl. S. Martini de Trecase. Luoghi: Paterno [Paterno, Val di
+                    Cornia]; Vulado [Gualdo]; Luca [Lucca]; Trecase [Tricasi]. Chiese: ecclesie
+                    Sancti Reguli prope Vualdo [S. Regolo in Gualdo]; basilice Sancti Apollenari [S.
+                    Apollinare (di Lucca?)]; ecclesie Sancti Martini de Trecase [S. Martino di
+                    Tricasi]. Cariche: . Note: . Indice: promissio - S. Regolo in Gualdo - fam.
+                    Peredeo - maremma. <foreign>Nota dorsale (sec. VIII: attribuita a
+                        Osprandus)</foreign>: + [promi]sio Lupoli presbiteri. <foreign>Nota dorsale
+                        (sec. XII)</foreign>: In Paterno. <foreign>Nota dorsale (sec.
+                    XII)</foreign>: In Paterno.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>
