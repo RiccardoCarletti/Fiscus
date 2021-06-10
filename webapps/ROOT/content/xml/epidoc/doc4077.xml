@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    *O.3 (copia secolo VIII) </title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc4077</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--List/inventory</rs>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Copy</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate when="0761-05-15"> 
+                                        <note type="displayed_date">761 May 15</note>
+                                        <note type="dating_elements"/>
+                                        <note type="topical_date">-</note>
+                                    </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-06-10" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab>+ Exemplar ex autentico. Notitia brevis qualiter devisi ego Sunderad
+                        inter me et domno Peredeo episcopo homenis de ista parte Arnu: in primis
+                        Asprandulo de Tramonte; Maurulo germano ipsius Aspranduli; Rodulo;
+                        Magnipertulo; Angari filii ipsius Roduli; Cospulo filio Barinchuli maiure;
+                        Maricindula muliere Barinchuli; Cospula mulier Aialdi; Geipergula filia
+                        Marcianuli minore; Sisula mulier Magnipertuli de filio Roduli cum filio suo
+                        Sisaldulo; Marcianulo de Caricini; Auripertulo filio ipsius Marcianuli
+                        minore; Maurulo filio Stefani mediano; Candido caprario; Martinulo filio
+                        Marrioni de Salicano; Candida soror ipsius Martinuli; Marinulo de Cincturia;
+                        Iustula mulier ipsius Marinuli cum tres infantes suos, uno masculo et due
+                        femine; Ranfulo de Cincturia; due filie Fuscule de Tramonte, quem habet ad
+                        muliere filio Teudaldi; Alpergula de Lamari; Gunderadula, qui est in casa
+                        Baronaci, cum due filie sue; Teudulo de Monacciatico; Aupertulo de ipso
+                        loco; Cotiolo de Cincturia; Alitruda de Monacciatico; Causulo de Serbano;
+                        Cichula soror Teuduli, qui fuit mulier quondam Radipertuli; uno filio et una
+                        filia Ciuntuli nomine Ausilinda; Ratpertulo da Tramonte. Item breve de
+                        homenis quos antea inter nos divisimus: Romaldulo calicario; Gaudipertulo
+                        pistrinario; Liutpertulo vestorario; Mauripertulo caballario filio Sanduli;
+                        Arcausulo filio Fridipertuli; Martinulo clerico; Gudaldo quocho frater
+                        Gaudipertuli; Causula soror Ghitioli; Auria nepote Widaldi; Lucipergula
+                        nepote Marcianuli; Tachipergula de Massa; Aldula filia Magnipergule;
+                        Teuspergula filia Ranfuli; Marciula filia ipius Ranfuli; Aurula soror
+                        Alpuli; Alipergula cornisiana; Geitruda mulier Tinctuli; Flurula filia
+                        Magiuli; Teudipergula filia Murfuli; Cosfridulo filio Causeramuli; Barulo
+                        porcario; Aurulu filio Roppuli similiter porcario; Ratcausulo vaccario;
+                        Teuderisciulu, quem dedet nobis Ciemiccio in viganio; Prandulo filio
+                        Roppuli; Auripertula filia Ciunciuli; Lucitrudula filia Sanduli; Gunderadula
+                        filia Bonisomoli; Cospulo filio Airaldi. Item breve de homenis quos
+                        livertavet barbane meus: Sichiprandulu; Waliprandulu; duo filii et una filia
+                        Radipertuli de Monacciatico; mulier Pertuli de Vico cum tres infantes suos;
+                        Warnipertulo nepote Teuduli de Lamari; Aurulu russu nepote Widaldi de Quosa;
+                        Bonipertulu filio Bonisomuli de Tramonte; due consubrine Dulciari de
+                        Coloniola; nepote Bonusuli de Roselle. Item breve de homenis quos liveros
+                        emiset barbane meus pro anima bone memorie genituri meo Sundipert germani
+                        sui: Alpergula soror Alpuli; Causeradula soror Aspranduli; Bonaldulo frater
+                        Gaudipertuli; Cellulo frater Causuli; Bonosula soror Sanduli; Liutpergula
+                        soror Magnuli de Valeriano cum infantes suos; Causeradula soror Gaudipertuli
+                        cum tres infantes suos; Alo filio Radaldelli; Aunifridulo de Cincturia. Isti
+                        omnes suprascripti homines, quos barbane meus Peredeus in Dei nomine
+                        episcopus pro anima sua et pro anima bone memorie genitori meo Sundipert
+                        liveros emiset, quod sunt insimul homenis viginti et octo, in hoc ordine eos
+                        commemoravi in hunc breve, ut in eo ordine permaneant, sicut de ipsi inter
+                        nos per cartule convenientia et promissio facta est; nam non dedi isti
+                        homenis in divisione suprascripti barbani mei, sicut alii suprascripti
+                        homenis. Facta suprascripta notitia tempore domno nostro Desiderii et
+                        Adelchis regibus, in anno regni eorum quinto et secundo, idus mensis magii,
+                        per indictione quarta decima. Et scripsi ego Osprandus diaconus. Ego
+                        Sunderad in hunc breve a me facto, sicut supra legitur, manu mea subscripsi.
+                        Ego Peredeus exiguus episcopus in hanc breve subscripsi. Signum ** manus
+                        Wileradi filio Teudipert testis. Signum ** manus Causerami subdiaconi
+                        testis. Signum ** manus Ermisindi clerici filio quondam Ghilduli testis. Ego
+                        Osprandus diaconus scriptor post breve tradita in suprascriptorum presentia
+                        conpolevi et dedi. Ego iamdictus Osprandus diaconus scriptor ex autentico
+                        brevium exemplavi fideliter, nec plus addedi, nec menime scribsi.</ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL IV/1, n. 54; reg. MDL V/2, n. 72; CDL II, 154, pp. 73-76; ChLA,
+                    XXXIII, 965.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                         <p>Persone: Desiderio re; Adelchi re; Sunderad (f. Sundipert; nipote
+                    Peredeo); Peredeo ep [di Lucca] (fr. Sundipert; barbane Sunderad); Sundipert
+                    (fr. Peredeo ep; p. Sunderad); Cimieccio; Osprandus diac; Vuileradi (f.
+                    Teudipert); Teudipert (p. Vuileradi); Causerami s.diac; Ermisindi cler (f.
+                    Ghilduli); Ghilduli (p. Ermisindi cler) massari: Asprandulo de Tramonte; Maurulo
+                    (fr. Aspranduli); Rodulo; Magnipertulo; Angari (f. Roduli); Cospulo (f.
+                    Barinchuli maiure); Maricindula (sp. Barinchuli); Cospula (sp. Aialdi);
+                    Geipergula (f. Marcianuli minore); Sisula (sp. Magnipertuli de filio Roduli);
+                    Sisaldulo (f. Sisula); Marcianulo de Caricini; Auripertulo (f. Marcianuli
+                    minore); Maurulo (f. Stefani mediano); Candido caprario; Martinulo de Salicano
+                    (f. Marrioni); Candida (soror Martinuli); Marinulo de Cincturia; Iustula (sp.
+                    Marinuli) Ranfulo de Cincturia; Fuscule de Tramonte; Teudaldi; Alpergula de
+                    Lamari; Gunderadula; Baronaci, Teudulo de Monacciatico; Aupertulo de ipso loco;
+                    Cotiolo de Cincturia; Alitruda de Monacciatico; Causulo de Serbano; Cichula
+                    (soror Teuduli; sp. Radipertuli); Ausilinda (f. Ciuntuli ); Ratpertulo da
+                    Tramonte; Romaldulo calicario; Gaudipertulo pistrinario; Liutpertulo vestorario;
+                    Mauripertulo caballario (f. Sanduli); Arcausulo (f. Fridipertuli); Martinulo
+                    cler; Gudaldo quocho (fr. Gaudipertuli); Causula (sor Ghitioli); Auria (nepote
+                    Vuidaldi); Lucipergula (nepote Marcianuli); Tachipergula de Massa; Aldula (f.
+                    Magnipergule); Teuspergula (f. Ranfuli); Marciula (f. Ranfuli); Aurula (sor
+                    Alpuli); Alipergula cornisiana; Geitruda (sp. Tinctuli); Flurula (f. Magiuli);
+                    Teudipergula (f. Murfuli); Cosfridulo (f. Causeramuli); Barulo porcario; Aurulu
+                    porcario (f. Roppuli); Ratcausulo vaccario; Teuderisciulu; Prandulo (f.
+                    Roppuli); Auripertula (f. Ciunciuli); Lucitrudula (f. Sanduli); Gunderadula (f.
+                    Bonisomoli); Cospulo (f. Airaldi); Sichiprandulu; Vualiprandulu; Radipertuli de
+                    Monacciatico; Pertuli de Vico; Vuarnipertulo de Lamari (nep Teuduli); Aurulu
+                    russu de Quosa (nep Vuidaldi); Bonipertulu de Tramonte (f. Bonisomuli); Dulciari
+                    de Coloniola; Bonusuli de Roselle; Alperga (sor Alpuli); Causeradula (sor
+                    Aspranduli); Bonaldulo (fr. Gaudipertuli); Cellulo (fr. Causuli); Bonosula (sor
+                    Sanduli); Liutpergula (sor Magnuli de Valeriano); Causeradula (sor
+                    Gaudipertuli); Alo (f. Radaldelli); Aunifridulo de Cincturia.. Luoghi: Arnu [fl.
+                    Arno]; Tramonte [Tramonte di Brancoli]; Caricini [Careggine]; Salicano
+                    [Sillicano]; Cincturia [Cintoia di Buti?]; Lamari [Lammari]; Monacciatico [in
+                    Antraccoli]; Serbano [Sorbano?]; Massa; Vico; Quosa [Quosa]; Coloniola
+                    [Colognora]; Roselle [Roselle]; Valeriano. Chiese: . Cariche: . Note: capraio -
+                    calicario (?) - pistrinario - vestorario - caballario - cornisiana - porcario -
+                    vaccario. Indice: notitia - fam. Peredeo - massari - capraio - artigiani - cit.
+                    prec. divisione - cit. prec. permuta - Maremma - cit. prec. affrancamento. Nota
+                    dorsale (sec. XI-XII): Breve divisionis qualiter Peredeus ditissimus episcopus
+                    fecit suos servos liberos, quos divisit cum suo nepote. Tramonte di Brancoli;
+                    Careggine; Sillicano (Camporgiano; Lucca); Cintoia di Buti?; Lammari (Capannori;
+                    Lucca); Vico d’Antraccoli (Lucca); Sorbano; Muline di Quosa; Colognora (Villa
+                    Basilica; Lucca); Roselle; </p>
+                    </div>
+                </body>
+            </text>
+        </TEI>
