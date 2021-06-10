@@ -82,8 +82,7 @@
                     <geogName>Guastalla; <foreign>curtis</foreign></geogName>
                     <idno>estates/40</idno>
                     <note>Cimino 2012</note>
-                    <link type="juridical_persons"
-                        corresp="#juridical_persons/53"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/53" subtype="link"/>
                     <link type="places" corresp="#places/33"
                         subtype="hasConnectionWith"/>
                 </place>
@@ -1444,6 +1443,7 @@
                     <note/>
                     <link type="places" corresp="#places/1801" subtype="hasWithin"/>
                     <link type="places" corresp="#places/191" subtype="hasConnectionWith"/>
+                        <link type="estates" corresp="#estates/40" subtype="hasWithin"/>
                 </place>
                 <place>
                     <geogName>Felina; <foreign>curtis</foreign></geogName>
