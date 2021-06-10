@@ -2823,6 +2823,7 @@
                     <note/>
                     <link type="people" corresp="#people/342" subtype="brotherOf"/>
                     <link type="people" corresp="#people/341" subtype="fatherOf"/>
+                        <link type="people" corresp="#people/600" subtype="auntOf"/>
                 </person>
                 <person>
                     <persName>Aripertus II (rex Langobardorum; 702-712) </persName>
@@ -3542,10 +3543,13 @@
                 </listPerson>
                 <listPerson n="Collavini Simone">
                     <person>
-                        <persName>XXX</persName>
+                        <persName>Maura (q.? 761)</persName>
                         <persName type="other"/>
                         <idno>people/700</idno>
                         <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/603"
+                            subtype="link"/>
+                        <link type="people" corresp="#people/343" subtype="nephewOf"/>
                     </person>
                 </listPerson>
                 <listPerson n="Di Muro Alessandro">
