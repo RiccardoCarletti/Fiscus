@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    +M.65</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc4075</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Commutatio</rs>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate when="0761-02-05">
+                                <note type="displayed_date"/>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Lucca</note>
+                            </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-06-10" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab>Alamund abbas monasterii eclesie Sancti Petri in Campo Maiure fa una
+                        permuta con viro beatissimo Peredeo in Dei nomine episcopo (…) de casas
+                        massaricias. Pertanto cede casa predicte eclesie nostre, qui ividem ex dono
+                        obvinet da Maura amita vestra, in loco Pappianola prope Sancto Petro, ubi
+                        residet Magnulo massarius noster, cum mobile vel inmobile, et cum omni
+                        pertenente ad ipsa casa. Riceve: per alia pagina in cambio pro suprascripta
+                        rem casa vestra in loco Agello, quem habuistis ex iura parentorum vestrorum,
+                        ubi residet quondam Ratcaus massarius vester, cum omnia mobile vel inmobile
+                        pertenente nunc presenti ad ipsa casa in integrum, excepto homenis de
+                        predictas casas, quod menime cambiavimus inter nos. Pena in duplum. Actum
+                        Luca. Sottoscrizioni: + Alli viri devoti filio quondam Alatei testis; +
+                        Fusuli clerici filio quondam Gudiscalc testis; + Rachinald filio quondam
+                        Rachipert testis; + Gunpert filio quondam Murichi testis; + Uffi filio
+                        Liutperti testis. Scrive: Osprandus diaconus.</ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL IV/1, n. 26; reg. MDL V/2, n. 71; CDL II, 149, pp. 61-63; ChLA,
+                    XXXIII, 963.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                         <p>Persone: Desiderio re; Adelchi re; Alamund ab [S. Pietro di Camaiore];
+                    Peredeo ep [di Lucca]; Maura (amita Peredeo ep); Magnulo mass; Ratcaus mass;
+                    Osprandus diac; Alli v. dev. (f. Alatei); Alatei (p. Alli); Fusuli cler (f.
+                    Gudiscalc); Gudiscalc (p. Fusuli cler); Rachinald (f. Rachipert); Rachipert (p.
+                    Rachinald); Gunpert (f. Maurichi); Maurichi (p. Gunpert); Uffi (f. Liutperti);
+                    Liutperti (p. Uffi). Luoghi: Luca [Lucca]; Campo Maiure [Camaiore]; loco
+                    Pappianola; loco Agello [Gello di Camaiore]. Chiese: monasterii eclesie Sancti
+                    Petri in Campo Maiure [mon. S. Pietro di Camaiore]; Sancto Petro [S. Pietro di
+                    Camaiore?]. Cariche: . Note: . Indice: permuta - fam. Peredeo - Versilia -
+                    monastero - cit. prec. donazione - massari. <foreign>Nota dorsale (sec. VIII,
+                        Osprando)</foreign>: + cartulam vigarii Amundi abbatis. <foreign>Nota
+                        dorsale (sec. XI-XII):</foreign> Viganeum unius case in Pappianula.
+                    Monastero di S. Pietro di Camaiore Camaiore (Lucca) Gello di Camaiore (Lucca) </p>
+                    </div>
+                </body>
+            </text>
+        </TEI>
