@@ -1936,6 +1936,9 @@
                     <note/>
                     <link type="estates" corresp="#estates/130" subtype="hasConnectionWith"/>
                     <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
+                        <link type="people" corresp="#people/124" subtype="link"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/111"
+                            subtype="link"/>
                 </place>
                 <place>
                     <placeName>Penizzo (Reggio Emilia)</placeName>
@@ -6222,6 +6225,9 @@
                     <link type="people" corresp="#people/77" subtype="link"/>
                     <link type="people" corresp="#people/402" subtype="link"/>
                     <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
+                        <link type="people" corresp="#people/124" subtype="link"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/111"
+                            subtype="link"/>
                 </place>
                 <place>
                     <placeName>Castrocielo (Frosinone)</placeName>
@@ -6795,9 +6801,12 @@
                     <place>
                         <placeName>Viverone (Biella)</placeName>
                         <placeName type="other"/>
-                        <geogName type="coord"><geo/></geogName>
+                        <geogName type="coord"><geo>45.423516, 8.050575</geo></geogName>
                         <idno>places/818</idno>
                         <note/>
+                        <link type="people" corresp="#people/124" subtype="link"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/111"
+                            subtype="link"/>
                     </place>
                 </listPlace>
                 <listPlace n="Cinello Erika">
