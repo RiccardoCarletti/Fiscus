@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    ++H.23</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc4081</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Commutatio</rs>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate notBefore="0762-04-01" notAfter="0762-04-30">
+                                <note type="displayed_date">762 April</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Lucca</note>
+                            </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-06-12" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab>Permuta tra Fridulo filio quondam Ciccuni de Brancalo nec non et
+                        Rachiprando presbitero eclesie Sancte Marie in loco Sexto. Fridulo dà:
+                        tertia parte de casa in loco Mitiano, qui a quondam Ciccune patre meo in
+                        comparationem obvenit da Perseradulo, ipsa casa cum fundamento, curte; simul
+                        et una petia de vinea in eodem loco Mitiano: et est caput et latere tenente
+                        in vinea Sancte Marie, alio latere in vinea Achipertuli et Sanituli germanis
+                        mei, et alio capite in vinea Achipertuli. Fridulo riceve in cambio: de res
+                        eclesie Sancte Marie una clausura de vinea in Brancalo, ubi vocabulum est ad
+                        Cella, clausura illa in integro, quem ad manus suas habet […]culo massario
+                        eclesie Sancte Marie. Ubi et de sua presentia direxit […]i clericus, qui
+                        ipsa causa adsimilare deberet, et in omnibus […] que ad parte eclesie
+                        receptum est in viganio, esse meliorata. Pena: auri solidos numero
+                        quinquaginta. (…) Actum Luca. Sottoscrizioni: + Fridulonis; (ss) Ilmiper
+                        supdiaconus; (ss) Deusdona presbiter; + Teuprandi filio quondam Ermi testis;
+                        + Petronaci filio Baronaci testis; + Saxuli clerici filio quondam Autelmi
+                        testis. Scrive: Fratellus presbiter.</ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL V/2, n. 75; CDL II, 160, pp. 92-94; ChLA, XXXIII, 968.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                         <p>Persone: Desiderio re; Adelchi re; Fridulo de Brancalo (f. Ciccuni; fr.
+                    Achipertuli, Sanituli); Ciccuni (p. Fridulo); Achipertuli (fr. Fridulo,
+                    Sanituli); Sanituli (fr. Fridulo, Achipertuli); Rachiprando pbr; Perseradulo;
+                    […]culo mass; […]i cler; Fratellus pbr; Ilmipert s/diac; Deusduna pbr;
+                    Teutprandi (f. Ermi); Ermi (p. Teutprandi); Petronaci (f. Baronci); Baronci (p.
+                    Petronaci); Saxuli cler (f. Autelmi); Autelmi (p. Saxuli cler). Luoghi: Brancalo
+                    [Brancoli]; loco Sexto [Sesto]; loco Mitiano; ad Cella [in Brancoli]; Luca
+                    [Lucca]. Chiese: eclesie Sancte Marie in loco Sexto [S. Maria di Sesto].
+                    Cariche: . Note: clausura - . Indice: permuta - cit. prec. compravendita -
+                    massario. Nota dorsale (sec. VIII-IX): […]a de cambio da Fredulo. Nota dorsale
+                    (sec. XI-XII): Viganeum de casa Sancte Marie de Sexto in Methano. Brancoli; S.
+                    Maria di Sesto, presso Ponte a Moriano; Vico di Brancoli; Cella nella regione di
+                    Brancoli.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>
