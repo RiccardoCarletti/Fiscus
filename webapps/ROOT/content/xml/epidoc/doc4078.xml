@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    +M.31</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc4078</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#"/>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate notAfter="0761-10-01" notBefore="0761-10-01">
+                                <note type="displayed_date">761 October 1</note>
+                                <note type="dating_elements">Indizione in eccesso di
+                                    un’unità.</note>
+                                <note type="topical_date">Lucca</note>
+                            </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-06-12" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab>Auripert presbitero prende alcune disposizioni de casa eclesiae
+                        Sancte Agathe, ut dum advivere meruero in mea sit potestate; e il diritto di
+                        trasmetterla a un degno chierico come successore perché l’amministri et
+                        officium Deii et luminaria et elimosina faciendi e vi viva castamente, ma
+                        non iterum in alio ordine iudicandi vel dispensandi nisi tantum si
+                        convenerit mihi una persona homini sacrato ividem ordinandi. Alla morte sua
+                        e di chi avrà ordinato passi in eredità Deo et tibi eclesia Sancti Martini
+                        infra hanc civitate Lucense, ubi est domo episcoporum supracripta casa
+                        ecclesiae Sancte Agathe ubi rector esse videor una cum omnia ividem
+                        pertenente in integrum, affinché il vescovo ne scelga il rettore. Divieto di
+                        opposizione per i suoi heredibus vel consortes. (…) Actum Luca.
+                        Sottoscrizioni: (ss) Auripertu presbiter; (ss) Fratellus presbiter; (ss)
+                        Auderadus clericus; + Patti presbiteri testis, qui propter caligine oculorum
+                        menime potuit manus sua subscribere, tamen signum sacnte cruci ficet; (ss)
+                        Isprinca clericus; (ss) Alaprandu clericus. Scrive: Osprandus diaconus.</ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL V/2, n. 73; CDL II, 156, pp. 84-86; ChLA, XXXIII, 966.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                         <p>Nota dorsale (sec. XI): Offertio de ecclesia Sancte Agathe de
+                    Timpaniano. Aggiunta (sec. XI-XII) in Sancto Martino.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>
