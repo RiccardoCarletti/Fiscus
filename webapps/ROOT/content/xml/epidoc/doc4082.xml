@@ -100,8 +100,8 @@
                             <placeName ref="#places/1007" key="#Demesnes #Petiae">Fraxo <rs
                                 key="#Demesnes">domnico</rs></placeName> medietate, caput tenente da
                         transmontante, fini signa posite; et <rs key="#Petiae">campo</rs> ad
-                            <placeName key="#Petiae">Filicito</placeName> medieate, qui tenet latere
-                        in <rs key="#Confinia #Petiae">terra</rs>
+                            <placeName key="#Petiae" ref="#places/1008">Filicito</placeName>
+                        medieate, qui tenet latere in <rs key="#Confinia #Petiae">terra</rs>
                         <persName key="#Confinia #Petiae"><name ref="Franculus"
                             >Franchuli</name></persName>, fini signa posite; et <rs
                             key="#Petiae #Wine">clausura de vinea</rs> de <persName
@@ -118,8 +118,8 @@
                         <persName key="#Confinia #Petiae #Wine"><name ref="Alprandus"
                                 >Alprandi</name></persName>, fini signa posite; et <rs
                             key="#Petiae #Wine">vinea</rs>
-                        <placeName key="#Petiae #Wine">ad <orgName>Sancta
-                            Maria</orgName></placeName> de <rs key="#Petiae">petio</rs> maiure
+                        <placeName key="#Petiae #Wine" ref="#places/1010">ad <orgName>Sancta
+                                Maria</orgName></placeName> de <rs key="#Petiae">petio</rs> maiure
                         medietate, da trasmontante, fini signa posite; et <rs key="#Petiae">ordini
                             longi</rs>, qui sunt sub <rs key="#Casae/cassinae_massaricie">casa</rs>
                         <persName key="#Casae/cassinae_massaricie"><name ref="Carellus"
@@ -137,24 +137,36 @@
                             <persName key="#Confinia #Petiae #Wine"><name ref="Pretestatus"
                                 >Pretestati</name></persName>: iusta suprascriptas petiolas de vinea
                         in integrum; et de <rs key="#Petiae">ordini longi</rs>
-                        <placeName key="#Confinia #Petiae">ad Orta sub Sancta Maria</placeName> de
-                        trasmontante; et de <rs key="#Petiae">campo</rs> maiore ad Iunipero, ubi
-                        dicitur Fraxo, medietate, latere tenente in <rs key="#Confinia #Petiae"
-                            >terra</rs> de fili Carelli, fini signa posite; et de <rs key="#Petiae"
-                            >campo</rs> ad Piro Gibbo medietate, latere tenente da exorgiente, fini
-                        signa posite; et <rs key="#Petiae">campo</rs> ad Viniale Brunari, qui tenet
-                        latere in <rs key="#Confinia #Petiae">terra</rs> Sancti Donati, in integrum;
-                            <rs key="#Petiae">campo</rs> sub <rs key="#Casae/cassinae_massaricie"
-                            >casa</rs> Brunari, medietate, latere tenente in <rs
-                            key="#Confinia #Petiae">terra</rs> de filii Gaudimari, fini signa
-                        posite; <rs key="#Petiae">campo</rs> ad via publica medietate, latere
-                        tenente in <rs key="#Confinia #Petiae">terra</rs> Brunari, fini signa
-                        posite. Hec omnia suprascripte terre vel vineae cum <rs
-                            key="#Fruits/vegetables">arboribus fructiferis</rs> vel infructiferis
-                        suis in integrum sint in ista sorte cum introitum vel exitum suum, sicut
-                        antea fuit, nisi tantum <rs key="#Fruits/vegetables">pomas fructiferas</rs>,
-                        qui sunt in caput de <rs key="#Wine">vinea</rs> nostra de Gaudentiolo, et
-                            <rs key="#Fruits/vegetables">pomas</rs> ad Sancta Maria ad Ortalia, <rs
+                        <placeName key="#Petiae" ref="#places/1010">ad Orta sub Sancta
+                            Maria</placeName> de trasmontante; et de <rs key="#Petiae">campo</rs>
+                        maiore <placeName ref="#places/1007" key="#Petiae">ad Iunipero, ubi dicitur
+                            Fraxo</placeName>, medietate, latere tenente in <rs
+                            key="#Confinia #Petiae">terra</rs> de fili <persName
+                            key="#Confinia #Petiae"><name ref="Carellus">Carelli</name></persName>,
+                        fini signa posite; et de <rs key="#Petiae">campo</rs>
+                        <placeName key="#Petiae" ref="#places/1009">ad Piro Gibbo</placeName>
+                        medietate, latere tenente da exorgiente, fini signa posite; et <rs
+                            key="#Petiae">campo</rs>
+                        <placeName key="#Petiae">ad Viniale Brunari</placeName>, qui tenet latere in
+                            <rs key="#Confinia #Petiae">terra</rs>
+                        <orgName key="#Confinia #Petiae">Sancti Donati</orgName>, in integrum; <rs
+                            key="#Petiae">campo</rs> sub <rs key="#Casae/cassinae_massaricie"
+                            >casa</rs>
+                        <persName><name ref="Brunicardus">Brunari</name></persName>, medietate,
+                        latere tenente in <rs key="#Confinia #Petiae">terra</rs> de filii <persName
+                            key="#Confinia #Petiae"><name ref="Gausmar">Gaudimari</name></persName>,
+                        fini signa posite; <rs key="#Petiae">campo</rs> ad via publica medietate,
+                        latere tenente in <rs key="#Confinia #Petiae">terra</rs>
+                        <persName key="#Confinia #Petiae"><name ref="Brunicardus"
+                            >Brunari</name></persName>, fini signa posite. Hec omnia suprascripte
+                        terre vel vineae cum <rs key="#Fruits/vegetables">arboribus fructiferis</rs>
+                        vel infructiferis suis in integrum sint in ista sorte cum introitum vel
+                        exitum suum, sicut antea fuit, nisi tantum <rs key="#Fruits/vegetables"
+                            >pomas fructiferas</rs>, qui sunt in caput de <rs key="#Wine">vinea</rs>
+                        nostra de <persName key="#Wine #Fruits/vegetables"><name ref="Gaudentiulus"
+                                >Gaudentiolo</name></persName>, et <rs key="#Fruits/vegetables"
+                            >pomas</rs> ad <placeName key="#Wine #Fruits/vegetables"
+                            ref="#places/1010">Sancta Maria ad Ortalia</placeName>, <rs
                             key="#Slave_labour">homenis</rs> nostri devidantur per numerum. Facta
                         notitia temporibus domno nostro Desiderii et Adelchis regibus, in anno regni
                         eorum sexto et tertio, septima calendas iunias, per indictione quintadecima.
