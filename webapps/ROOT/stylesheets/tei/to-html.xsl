@@ -435,7 +435,7 @@
   <xsl:template match="//tei:addSpan[@xml:id='graph']">
     <xsl:variable name="graph_items">
       <xsl:text>{nodes:[</xsl:text>
-      <xsl:for-each select="$people//tei:person[not(descendant::tei:persName='XXX')]">
+      <xsl:for-each select="$people//tei:person[not(descendant::tei:persName='XXX')][descendant::tei:idno!=''][descendant::tei:persName!='']">
         <xsl:text>{data: {id: "</xsl:text><xsl:value-of select="tei:idno[1]"/><xsl:text>", name: "</xsl:text>        
         <xsl:value-of select="normalize-space(translate(tei:*[1], ',', '; '))"/><xsl:text>", type: "people_only"}</xsl:text>
         <xsl:text>}</xsl:text>
@@ -481,7 +481,7 @@
     </xsl:variable>
     <xsl:variable name="graph_labels">
       <xsl:text>[</xsl:text>
-      <xsl:for-each select="$people//tei:person[not(descendant::tei:persName='XXX')]">
+      <xsl:for-each select="$people//tei:person[not(descendant::tei:persName='XXX')][descendant::tei:persName!=''][descendant::tei:idno!='']">
         <xsl:text>"</xsl:text><xsl:value-of select="normalize-space(translate(tei:*[1], ',', '; '))"/><xsl:text>"</xsl:text>
         <xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if>
       </xsl:for-each>
@@ -531,7 +531,7 @@
   <xsl:template match="//tei:addSpan[@xml:id='graphs']">
     <xsl:variable name="graph_items">
       <xsl:text>{nodes:[</xsl:text>
-      <xsl:for-each select="$people//tei:person[not(descendant::tei:persName='XXX')]|$juridical_persons//tei:org[not(descendant::tei:orgName='XXX')]|$estates//tei:place[not(descendant::tei:geogName='XXX')]|$places//tei:place[not(descendant::tei:placeName='XXX')]">
+      <xsl:for-each select="$people//tei:person[not(descendant::tei:persName='XXX')][descendant::tei:persName!=''][descendant::tei:idno!='']|$juridical_persons//tei:org[not(descendant::tei:orgName='XXX')][descendant::tei:orgName!=''][descendant::tei:idno!='']|$estates//tei:place[not(descendant::tei:geogName='XXX')][descendant::tei:geogName!=''][descendant::tei:idno!='']|$places//tei:place[not(descendant::tei:placeName='XXX')][descendant::tei:placeName!=''][descendant::tei:idno!='']">
         <xsl:text>{data: {id: "</xsl:text><xsl:value-of select="tei:idno[1]"/><xsl:text>", name: "</xsl:text>        
         <xsl:value-of select="normalize-space(translate(tei:*[1], ',', '; '))"/><xsl:text>"</xsl:text>
         <xsl:text>, type: "</xsl:text><xsl:choose>
@@ -588,7 +588,7 @@
     </xsl:variable>
     <xsl:variable name="graph_labels">
       <xsl:text>[</xsl:text>
-      <xsl:for-each select="$people//tei:person[not(descendant::tei:persName='XXX')]|$juridical_persons//tei:org[not(descendant::tei:orgName='XXX')]|$estates//tei:place[not(descendant::tei:geogName='XXX')]|$places//tei:place[not(descendant::tei:placeName='XXX')]">
+      <xsl:for-each select="$people//tei:person[not(descendant::tei:persName='XXX')][descendant::tei:persName!=''][descendant::tei:idno!='']|$juridical_persons//tei:org[not(descendant::tei:orgName='XXX')][descendant::tei:orgName!=''][descendant::tei:idno!='']|$estates//tei:place[not(descendant::tei:geogName='XXX')][descendant::tei:geogName!=''][descendant::tei:idno!='']|$places//tei:place[not(descendant::tei:placeName='XXX')][descendant::tei:placeName!=''][descendant::tei:idno!='']">
         <xsl:text>"</xsl:text><xsl:value-of select="normalize-space(translate(tei:*[1], ',', '; '))"/><xsl:text>"</xsl:text>
         <xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if>
       </xsl:for-each>

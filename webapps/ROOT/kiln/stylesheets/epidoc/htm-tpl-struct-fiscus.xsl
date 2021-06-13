@@ -18,9 +18,6 @@
         <br/>
         <b>Author(s): </b>
         <xsl:choose>
-          <xsl:when test="contains(lower-case(//t:change[1]/@who), 'admin')"><xsl:text>Admin Fiscus</xsl:text></xsl:when>
-          <xsl:when test="contains(lower-case(//t:change[1]/@who), 'fiscus')"><xsl:text>Admin Fiscus</xsl:text></xsl:when>
-          <xsl:when test="contains(lower-case(//t:change[1]/@who), 'salvaterra')"><xsl:text>Carla Salvaterra</xsl:text></xsl:when>
           <xsl:when test="contains(lower-case(//t:change[1]/@who), 'lazzari')"><xsl:text>Tiziana Lazzari</xsl:text></xsl:when>
           <xsl:when test="contains(lower-case(//t:change[1]/@who), 'tabarrini')"><xsl:text>Lorenzo Tabarrini</xsl:text></xsl:when>
           <xsl:when test="contains(lower-case(//t:change[1]/@who), 'vignodelli')"><xsl:text>Giacomo Vignodelli</xsl:text></xsl:when>
@@ -40,20 +37,8 @@
           <xsl:when test="contains(lower-case(//t:change[1]/@who), 'defalco')"><xsl:text>Fabrizio De Falco</xsl:text></xsl:when>
           <xsl:otherwise><xsl:value-of select="//t:change[1]/@who"/></xsl:otherwise>
         </xsl:choose>
-        <xsl:text> (file creation on </xsl:text>
+        <xsl:text> (file creation on </xsl:text><xsl:value-of select="//t:change[1]/@when"/><xsl:text>); </xsl:text>
         <xsl:choose>
-          <xsl:when test="contains(//t:change[1]/@when, 'T')">
-            <xsl:value-of select="substring-before(//t:change[1]/@when, 'T')"/>
-          </xsl:when>
-          <xsl:otherwise>
-            <xsl:value-of select="//t:change[1]/@when"/>
-          </xsl:otherwise>
-        </xsl:choose>
-        <xsl:text>); </xsl:text>
-        <xsl:choose>
-          <xsl:when test="contains(lower-case(//t:change[last()]/@who), 'admin')"><xsl:text>Admin Fiscus</xsl:text></xsl:when>
-          <xsl:when test="contains(lower-case(//t:change[last()]/@who), 'fiscus')"><xsl:text>Admin Fiscus</xsl:text></xsl:when>
-          <xsl:when test="contains(lower-case(//t:change[last()]/@who), 'salvaterra')"><xsl:text>Carla Salvaterra</xsl:text></xsl:when>
           <xsl:when test="contains(lower-case(//t:change[last()]/@who), 'lazzari')"><xsl:text>Tiziana Lazzari</xsl:text></xsl:when>
           <xsl:when test="contains(lower-case(//t:change[last()]/@who), 'tabarrini')"><xsl:text>Lorenzo Tabarrini</xsl:text></xsl:when>
           <xsl:when test="contains(lower-case(//t:change[last()]/@who), 'vignodelli')"><xsl:text>Giacomo Vignodelli</xsl:text></xsl:when>
@@ -73,26 +58,9 @@
           <xsl:when test="contains(lower-case(//t:change[last()]/@who), 'defalco')"><xsl:text>Fabrizio De Falco</xsl:text></xsl:when>
           <xsl:otherwise><xsl:value-of select="//t:change[last()]/@who"/></xsl:otherwise>
         </xsl:choose>
-        <xsl:text> (last change on </xsl:text>
-        <xsl:choose>
-          <xsl:when test="contains(//t:change[last()]/@when, 'T')">
-            <xsl:value-of select="substring-before(//t:change[last()]/@when, 'T')"/>
-          </xsl:when>
-          <xsl:otherwise>
-            <xsl:value-of select="//t:change[last()]/@when"/>
-          </xsl:otherwise>
-        </xsl:choose>
-        <xsl:text>)</xsl:text>
-        <!--<xsl:for-each select="//t:change">
-         <xsl:choose>
-           <xsl:when test="contains(@who, 'people/')">
-             <xsl:value-of select="substring-after(@who, 'people/')"/>
-           </xsl:when>
-           <xsl:otherwise>
-             <xsl:value-of select="@who"/>
-           </xsl:otherwise>
-         </xsl:choose>
-         <xsl:text> (</xsl:text><xsl:value-of select="substring-before(@when, 'T')"/><xsl:text>). </xsl:text>
+        <xsl:text> (last change on </xsl:text><xsl:value-of select="//t:change[last()]/@when"/><xsl:text>)</xsl:text>
+        <!--<xsl:for-each select="//t:change"><xsl:value-of select="@who"/>
+         <xsl:text> (</xsl:text><xsl:value-of select="@when"/><xsl:text>). </xsl:text>
        </xsl:for-each>-->
         <br/>
         <b>Record source: </b>

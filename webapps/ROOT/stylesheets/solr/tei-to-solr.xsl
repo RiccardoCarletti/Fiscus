@@ -35,6 +35,56 @@
     </field>
   </xsl:template>
   
+  <xsl:template match="tei:msContents/tei:summary/tei:rs[@type='fiscal_property']" mode="facet_fiscal_property">
+    <field name="fiscal_property">
+      <xsl:choose>
+        <xsl:when test="contains(lower-case(.), 'yes')"><xsl:text>Yes</xsl:text></xsl:when>
+        <xsl:when test="contains(lower-case(.), 'no')"><xsl:text>No</xsl:text></xsl:when>
+        <xsl:when test="contains(lower-case(.), 'uncertain')"><xsl:text>Uncertain</xsl:text></xsl:when>
+        <xsl:otherwise><xsl:text>No or uncertain</xsl:text></xsl:otherwise>
+      </xsl:choose>
+    </field>
+  </xsl:template>
+  
+  <xsl:template match="tei:summary/tei:rs[@type='record_source']" mode="facet_record_source">
+    <field name="record_source">
+      <xsl:choose>
+        <xsl:when test="text()">
+          <xsl:value-of select="normalize-space(translate(., '/', '／'))"/>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:text>-</xsl:text>
+        </xsl:otherwise>
+      </xsl:choose>
+    </field>
+  </xsl:template>
+  
+  <xsl:template match="tei:msContents/tei:summary/tei:rs[@type='document_tradition']" mode="facet_document_tradition">
+    <field name="document_tradition">
+      <xsl:choose>
+        <xsl:when test="text()">
+          <xsl:value-of select="normalize-space(translate(., '/', '／'))"/>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:text>-</xsl:text>
+        </xsl:otherwise>
+      </xsl:choose>
+    </field>
+  </xsl:template>
+  
+  <xsl:template match="tei:origDate/tei:note[@type='topical_date']" mode="facet_topical_date">
+    <field name="topical_date">
+      <xsl:choose>
+        <xsl:when test="text()">
+          <xsl:value-of select="normalize-space(translate(., '/', '／'))"/>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:text>-</xsl:text>
+        </xsl:otherwise>
+      </xsl:choose>
+    </field>
+  </xsl:template>
+  
   <xsl:template match="tei:rs[@key!='']" mode="facet_mentioned_keywords_-_terms">
     <xsl:variable name="keyvalue">
       <xsl:choose>
@@ -184,11 +234,59 @@
     </xsl:for-each>
   </xsl:template>
   
+  <xsl:template match="tei:persName[@ref!='']" mode="facet_mentioned_people">
+    <field name="mentioned_people">
+      <xsl:variable name="ref" select="translate(@ref,' #', '')"/>
+      <xsl:choose>
+        <xsl:when test="document('../../content/fiscus_framework/resources/people.xml')//tei:person[descendant::tei:idno=$ref][descendant::tei:persName!='']">
+          <xsl:variable name="name" select="normalize-space(translate(document('../../content/fiscus_framework/resources/people.xml')//tei:person[descendant::tei:idno=$ref][1]/tei:persName[1], '/', '／'))"/>
+          <xsl:value-of select="upper-case(substring($name, 1, 1))"/>
+          <xsl:value-of select="substring($name, 2)"/>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:value-of select="translate(@ref,' #', '')"/>
+        </xsl:otherwise>
+      </xsl:choose>
+    </field>
+  </xsl:template>
+  
+  <xsl:template match="tei:placeName[@ref!='']" mode="facet_mentioned_places">
+    <field name="mentioned_places">
+      <xsl:variable name="ref" select="translate(@ref,' #', '')"/>
+      <xsl:choose>
+        <xsl:when test="document('../../content/fiscus_framework/resources/places.xml')//tei:place[descendant::tei:idno=$ref][descendant::tei:placeName[not(@type)]!='']">
+          <xsl:variable name="name" select="normalize-space(translate(document('../../content/fiscus_framework/resources/places.xml')//tei:place[descendant::tei:idno=$ref][1]/tei:placeName[not(@type)][1], '/', '／'))"/>
+          <xsl:value-of select="upper-case(substring($name, 1, 1))"/>
+          <xsl:value-of select="substring($name, 2)"/>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:value-of select="translate(@ref,' #', '')"/>
+        </xsl:otherwise>
+      </xsl:choose>
+    </field>
+  </xsl:template>
+  
+  <xsl:template match="tei:orgName[@ref!='']" mode="facet_mentioned_juridical_persons">
+    <field name="mentioned_juridical_persons">
+      <xsl:variable name="ref" select="translate(@ref,' #', '')"/>
+      <xsl:choose>
+        <xsl:when test="document('../../content/fiscus_framework/resources/juridical_persons.xml')//tei:org[descendant::tei:idno=$ref][descendant::tei:orgName!='']">
+          <xsl:variable name="name" select="normalize-space(translate(document('../../content/fiscus_framework/resources/juridical_persons.xml')//tei:org[descendant::tei:idno=$ref][1]/tei:orgName[1], '/', '／'))"/>
+          <xsl:value-of select="upper-case(substring($name, 1, 1))"/>
+          <xsl:value-of select="substring($name, 2)"/>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:value-of select="translate(@ref,' #', '')"/>
+        </xsl:otherwise>
+      </xsl:choose>
+    </field>
+  </xsl:template>
+  
   <xsl:template match="tei:geogName[@ref!='']" mode="facet_mentioned_estates">
     <field name="mentioned_estates">
       <xsl:variable name="ref" select="translate(@ref,' #', '')"/>
       <xsl:choose>
-        <xsl:when test="document('../../content/fiscus_framework/resources/estates.xml')//tei:place[descendant::tei:idno=$ref]">
+        <xsl:when test="document('../../content/fiscus_framework/resources/estates.xml')//tei:place[descendant::tei:idno=$ref][descendant::tei:geogName!='']">
           <xsl:variable name="name" select="normalize-space(translate(document('../../content/fiscus_framework/resources/estates.xml')//tei:place[descendant::tei:idno=$ref][1]/tei:geogName[1], '/', '／'))"/>
           <xsl:value-of select="upper-case(substring($name, 1, 1))"/>
           <xsl:value-of select="substring($name, 2)"/>
@@ -224,8 +322,15 @@
   
   <xsl:template name="extra_fields">
     <xsl:call-template name="field_ancient_document_type"/>
+    <xsl:call-template name="field_fiscal_property"/>
+    <xsl:call-template name="field_record_source"/>
+    <xsl:call-template name="field_document_tradition" />
+    <xsl:call-template name="field_topical_date"/>
     <xsl:call-template name="field_mentioned_keywords_-_categories"/>
     <xsl:call-template name="field_mentioned_keywords_-_terms"/>
+    <xsl:call-template name="field_mentioned_people"/>
+    <xsl:call-template name="field_mentioned_places"/>
+    <xsl:call-template name="field_mentioned_juridical_persons"/>
     <xsl:call-template name="field_mentioned_estates"/>
     <xsl:call-template name="field_mentioned_dates"/>
     <xsl:call-template name="field_person_name"/>
@@ -236,6 +341,22 @@
     <xsl:apply-templates mode="facet_ancient_document_type" select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msContents/tei:summary/tei:rs[@type='text_type']"/>
   </xsl:template>
   
+  <xsl:template name="field_fiscal_property">
+    <xsl:apply-templates mode="facet_fiscal_property" select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msContents/tei:summary/tei:rs[@type='fiscal_property']" />
+  </xsl:template>
+  
+  <xsl:template name="field_record_source">
+    <xsl:apply-templates mode="facet_record_source" select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msContents/tei:summary/tei:rs[@type='record_source']"/>
+  </xsl:template>
+  
+  <xsl:template name="field_document_tradition">
+    <xsl:apply-templates mode="facet_document_tradition" select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msContents/tei:summary/tei:rs[@type='document_tradition']" />
+  </xsl:template>
+  
+  <xsl:template name="field_topical_date">
+    <xsl:apply-templates mode="facet_topical_date" select="/tei:TEI/tei:teiHeader//tei:origDate/tei:note[@type='topical_date']"/>
+  </xsl:template>
+  
   <xsl:template name="field_mentioned_keywords_-_categories">
     <xsl:apply-templates mode="facet_mentioned_keywords_-_categories" select="//tei:text/tei:body/tei:div[@type='edition']"/>
   </xsl:template>
@@ -244,7 +365,19 @@
     <xsl:apply-templates mode="facet_mentioned_keywords_-_terms" select="//tei:text/tei:body/tei:div[@type='edition']"/>
   </xsl:template>
   
-   <xsl:template name="field_mentioned_estates">
+  <xsl:template name="field_mentioned_people">
+    <xsl:apply-templates mode="facet_mentioned_people" select="//tei:text/tei:body/tei:div[@type='edition']" />
+  </xsl:template>
+  
+  <xsl:template name="field_mentioned_places">
+    <xsl:apply-templates mode="facet_mentioned_places" select="//tei:text/tei:body/tei:div[@type='edition']" />
+  </xsl:template>
+  
+  <xsl:template name="field_mentioned_juridical_persons">
+    <xsl:apply-templates mode="facet_mentioned_juridical_persons" select="//tei:text/tei:body/tei:div[@type='edition']" />
+  </xsl:template>
+  
+  <xsl:template name="field_mentioned_estates">
     <xsl:apply-templates mode="facet_mentioned_estates" select="//tei:text/tei:body/tei:div[@type='edition']" />
    </xsl:template>
   

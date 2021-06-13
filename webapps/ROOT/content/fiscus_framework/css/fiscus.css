@@ -115,7 +115,6 @@
         visibility: -oxy-collapse-text ;
            padding-left:20px;
           }
-           
           
     body listPlace place placeName, body listPlace place geogName:not([type="coord"]), body listOrg org orgName, body listPerson person persName {
         border:2px solid rgb(153, 153, 143);
@@ -132,7 +131,6 @@
         display:block;
         -oxy-placeholder-content: 'Also known as';
     }    
-
     
     body listPlace place geo:after {
         content: "Coordinates (Lat, Long): "
@@ -175,7 +173,6 @@
         display:block;
         -oxy-placeholder-content: 'Commentary/Bibliography';
     }
-    
     
     /* Links from people, places, juridical persons, estates to PLACES*/
     body listPerson person link[type="places"], body listPlace[type="estates"] place link[type="places"] {
@@ -410,24 +407,13 @@
            padding-left:20px;
     }
     
-    
     body listPlace place:after, body listOrg org:after, body listPerson person:after {
         content: 
-              oxy_editor(
-            type, button,
-            actionID, "add_place_link")
-              oxy_editor(
-            type, button,
-            actionID, "add_person_link")
-              oxy_editor(
-            type, button,
-            actionID, "add_juridical_person_link")
-              oxy_editor(
-            type, button,
-            actionID, "add_estate_link")
-            oxy_editor(
-            type, button,
-            actionID, "delete_item");
+              oxy_editor(type, button, actionID, "add_place_link")
+              oxy_editor(type, button, actionID, "add_person_link")
+              oxy_editor(type, button, actionID, "add_juridical_person_link")
+              oxy_editor(type, button, actionID, "add_estate_link")
+            oxy_editor(type, button, actionID, "delete_item");
            display:block;
            padding-left:20px;
     }
@@ -437,184 +423,14 @@
     }
     
         encodingDesc category:before {
-        content: "Category"
-        oxy_editor(
-           type, text,
-           edit, "@n"
-           columns, 30);
+        content: "Category" oxy_editor( type, text, edit, "@n", columns, 30);
         font-weight:bold;
         display:block;
         visibility: -oxy-collapse-text ;
     }
     
 /*End Authority Lists*/
-
-   TEI {
-    display:block;
-    margin:2em;
-    line-height:175%;
-    width: 75%;
-    margin-left: 50px;
-    border:2px solid rgb(153, 153, 143);
-    background-color:rgb(245, 243, 221);
-    margin:10px 20px 15px 20px;
-   }
-
-/*   TEI:before {
-        content: "Document number: " 
-        oxy_editor(
-           type, text,
-           edit, "@xml:id"
-           columns, 40);
-        display:block;
-   }*/
     
-    foreign, div title, history title, note title, body listPlace title, body listPerson title, body listOrg title {
-        display:inline;
-        font-style: italic;
-    }
-
-    msContents, dimensions, listBibl,  div[type="commentary"],
-    div[type="edition"], div[type="translation"], lb   {
-        display:block;
-    }
-    
-    titleStmt:before {
-        font-weight:bold;
-        content: "Document title";
-        display:block;
-        visibility: -oxy-collapse-text ;
-    }
-    
-    titleStmt > title {
-        border:2px solid rgb(153, 153, 143);
-        background-color: #fdfdfd;
-        margin:10px 20px 15px 20px;
-        display:block;
-        -oxy-placeholder-content: 'Title here';
-    }
-
-     publicationStmt:before {
-        visibility: -oxy-collapse-text;
-    }
-
-    publicationStmt idno:before { 
-       content: "Document number: "
-        oxy_editor(
-           type, text,
-           edit, "#text"
-           columns, 40);
-           display:block;
-    }
-
-    region, institution, settlement, repository, idno {
-        visibility: -oxy-collapse-text;
-    }       
-    
-    summary rs[type=text_type] {
-        content: "Document type: "             
-        oxy_editor(
-           type, combo,
-             edit, "#text",
-             editable, true,
-             columns, 25,
-             /*values, oxy_concat("", oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/thesaurus.xml'), '")//taxonomy[@xml:id="thesaurus"]//category[@n="type_of_document"]//category/catDesc/@n, ",")'))),
-              labels, oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/thesaurus.xml'), '")//taxonomy[@xml:id="thesaurus"]//category[@n="type_of_document"]//category/catDesc, ",")' )));*/
-              values, "Archaeological sources, Parchment documents, -Diploma, --Imperial/royal diploma, --Marquis’/ducal/princely diploma, --Episcopal diploma, -Placitum/iudicatum, -Cartula, --Venditio, --Commutatio, --Libellus/precaria/emphyteusis, --Offersio/donatio, --Promissio, --Ordinatio, --Testamentum/iudicatum, --Morgengabe, -Breve, --List/inventory, --Judicial breve, --Transactional breve, -Catalogus, -Littera/mandatum, -Papal concession, Epigraphic documents, Papyrological documents, -Papal concession (papyrus), -Breve (papyrus), Literary sources, -Author, Juridical sources, -Lex, -Capitulum");
-           display:block;
-    }
-    
-        summary rs[type=record_source] {
-        content: "Record source: "
-        oxy_editor(
-           type, combo,
-           edit, "#text"
-           editable, true,
-             columns, 25,
-             values, "Original document, Critical edition, Edition, Document summary, Scientific literature");
-           display:block;
-    }
-    
-    summary rs[type=document_tradition] {
-        content: "Document tradition: "
-        oxy_editor(
-           type, combo,
-           edit, "#text"
-           editable, true,
-             columns, 25,
-             values, "Original, Copy, Compendium, Uncertain tradition");
-           display:block;
-    }
-    
-        summary rs[type=fiscal_property] {
-        content: "Fiscal property: "
-        oxy_editor(
-           type, combo,
-           edit, "#text"
-           editable, true,
-             columns, 25,
-             values, "Yes, No, Uncertain");
-           display:block;
-    }
-      
-       origDate, summary {
-            display:block;
-            border:2px solid rgb(153, 153, 143);
-            margin:10px 20px 15px 20px;
-            }
-            
-          origDate:before {
-          content: "Date (YYYY-MM-DD). "
-             " When: "
-             oxy_editor(
-             type, text,
-             edit, "@when"
-             columns, 10)
-             " Not Before: "
-             oxy_editor(
-             type, text,
-             edit, "@notBefore"
-             columns, 10)
-             "  Not After: "
-             oxy_editor(
-             type, text,
-             edit, "@notAfter",
-             columns, 10);
-             display:block;
-       }
-
-       note[type="displayed_date"] {
-        border:2px solid rgb(153, 153, 143);
-        margin:10px 20px 15px 20px;
-        background-color: #fdfdfd;
-        display:block;
-        -oxy-placeholder-content: 'Date (to be displayed) here';
-    }
-    
-    note[type="dating_elements"] {
-        border:2px solid rgb(153, 153, 143);
-        margin:10px 20px 15px 20px;
-        background-color: #fdfdfd;
-        display:block;
-        -oxy-placeholder-content: 'Dating elements here';
-    }
-    
-       note[type="topical_date"] {
-        border:2px solid rgb(153, 153, 143);
-        margin:10px 20px 15px 20px;
-        background-color: #fdfdfd;
-        display:block;
-        -oxy-placeholder-content: 'Topical date here';
-    }
-
-       
-    origPlace {
-        border:2px solid rgb(153, 153, 143);
-        margin:10px 20px 15px 20px;
-        background-color: #fdfdfd;
-        display:block;
-        -oxy-placeholder-content: 'Provenance here';
-    }
     
     
 /*Markup inside the text*/
@@ -637,21 +453,11 @@ ab rs {
     border-width: thin;
 }
 
-ab placeName {
-    background-color: #e6e6ff;
-}
-ab persName {
-    background-color: #ffffcc;
-}
-ab orgName {
-    background-color: #ffe6e6;
-}
-ab geogName {
-    background-color: #ccffcc;
-}
-ab date {
-    background-color: #ffccff;
-}
+ab placeName { background-color: #e6e6ff; }
+ab persName { background-color: #ffffcc; }
+ab orgName { background-color: #ffe6e6; }
+ab geogName { background-color: #ccffcc; }
+ab date { background-color: #ffccff; }
     
 ab placeName:before {
         content:  "KEY: " 
@@ -750,142 +556,148 @@ ab placeName:before {
 
 
 
-       /* **************** Revision  **************** */
 
-      revisionDesc:before {
-          content: "Changes";
-          font-weight:bold;
-      }
+   TEI {
+    display:block;
+    margin:2em;
+    line-height:175%;
+    width: 75%;
+    margin-left: 50px;
+    border:1px solid rgb(153, 153, 143);
+    background-color:rgb(245, 243, 221);
+    margin:10px 20px 15px 20px;
+   }
+    
+    foreign, div title, history title, note title, body listPlace title, body listPerson title, body listOrg title {
+        display:inline;
+        font-style: italic;
+    }
 
-       revisionDesc:after {
+    msContents, dimensions, listBibl,  div[type="commentary"], div[type="edition"], div[type="translation"], lb   { display:block; }
+    
+    titleStmt:before {
+        content: "Document title: ";
+        visibility: -oxy-collapse-text ;
+        display:block; 
+        margin:10px 20px 0px 20px;
+    }
+    
+    
+     publicationStmt:before {
+        visibility: -oxy-collapse-text;
+    }
+
+    publicationStmt idno:before { 
+       content: "Document number: "
+        oxy_editor(type, text, edit, "#text", columns, 30);
+        display:block;
+        margin:10px 20px 0px 20px;
+    }
+
+    region, institution, settlement, repository, idno {
+        visibility: -oxy-collapse-text;
+    }       
+    
+    summary rs[type=text_type] {
+        content: "Document type: " oxy_editor(type, combo, edit, "#text", editable, true, columns, 30,
+             /*values, oxy_concat("", oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/thesaurus.xml'), '")//taxonomy[@xml:id="thesaurus"]//category[@n="type_of_document"]//category/catDesc/@n, ",")'))),
+              labels, oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/thesaurus.xml'), '")//taxonomy[@xml:id="thesaurus"]//category[@n="type_of_document"]//category/catDesc, ",")' )));*/
+              values, "Archaeological sources, Parchment documents, -Diploma, --Imperial/royal diploma, --Marquis’/ducal/princely diploma, --Episcopal diploma, -Placitum/iudicatum, -Cartula, --Venditio, --Commutatio, --Libellus/precaria/emphyteusis, --Offersio/donatio, --Promissio, --Ordinatio, --Testamentum/iudicatum, --Morgengabe, -Breve, --List/inventory, --Judicial breve, --Transactional breve, -Catalogus, -Littera/mandatum, -Papal concession, Epigraphic documents, Papyrological documents, -Papal concession (papyrus), -Breve (papyrus), Literary sources, -Author, Juridical sources, -Lex, -Capitulum");
+              display:block;
+              margin:0px 20px 15px 20px;
+              visibility: -oxy-collapse-text ;
+    }
+    
+        summary rs[type=record_source] {
+        content: "Record source: " oxy_editor(type, combo, edit, "#text", editable, true, columns, 30, 
+        values, "Original document, Critical edition, Edition, Document summary, Scientific literature");
+        display:block;
+        margin:10px 20px 15px 20px;
+        visibility: -oxy-collapse-text ;
+    }
+    
+    summary rs[type=document_tradition] {
+        content: "Document tradition: " oxy_editor(type, combo, edit, "#text", editable, true, columns, 30, 
+        values, "Original, Copy, Compendium, Uncertain tradition");
+        display:block;
+        margin:10px 20px 15px 20px;
+        visibility: -oxy-collapse-text ;
+    }
+    
+        summary rs[type=fiscal_property] {
+        content: "Fiscal property: " oxy_editor(type, combo, edit, "#text", editable, true, columns, 30, values, "Yes, No, Uncertain");
+        display:block;
+        margin:10px 20px 15px 20px;
+        visibility: -oxy-collapse-text ;
+    }
+      
+          origDate {
+          content: "     Date (YYYY-MM-DD): "
+             "  When " oxy_editor(type, text, edit, "@when", columns, 10)
+             "  Not Before " oxy_editor(type, text, edit, "@notBefore", columns, 10)
+             "  Not After " oxy_editor(type, text, edit, "@notAfter", columns, 10);
+       }
+
+       listChange:after {
        display:block;
-       content:
-        oxy_editor(
-            type, button,
-            actionID, "insert_revision");
-        font-weight:bold;
-        font-size: 120%;
-      }
-
-      change:before {
-          content: "When: "
-          oxy_editor(
-          type, datePicker,
-            columns, 16,
-            edit, "@when",
-            format, "yyyy-MM-dd"
-          )
-        "Who"
-        oxy_editor(
-             type, text,
-             edit, "@who",
-             columns, 20);
-             display:block;
-      }
-
-      change {
-          content: "Type of change: "
-          oxy_editor(type, combo,
-             edit, "#text",
-             editable, true,
-             columns, 25,
-             values, "creation of record, changes, minor changes, major changes");
-             border-style:solid;
-          border-width:2px;
-          border-color: rgb(153, 153, 143);
-          visibility: -oxy-collapse-text ;
-          display:block;
+       content: oxy_editor(type, button, actionID, "add_change");
       }
       
- 
-      /* **************** Body and full text  **************** */
+      change {
+          content: "When:" oxy_editor(type, datePicker, columns, 13, edit, "@when", format, "yyyy-MM-dd")
+        "  Who:" oxy_editor(type, combo, edit, "@who" editable, true, columns, 18,
+             values, "cciccopiedi, ecinello, smcollavini, fdefalco, adimuro, dinternullo, tlazzari, vlore, emanarini, lmotta, vriveramagos, ltabarrini, atagliente, ptomei, mvvallerani, gvignodelli, gzornetta, other")
+          "  Type of change:"
+          oxy_editor(type, combo, edit, "#text", editable, true, columns, 18, values, "creation of record, changes, minor changes, major changes");
+          margin:10px 20px 15px 20px;
+          visibility: -oxy-collapse-text ;
+          display:block;
+      }  
+      
+    titleStmt > title { -oxy-placeholder-content: 'Title here'; }
+    note[type="displayed_date"] { -oxy-placeholder-content: 'Date (to be displayed) here'; }
+    note[type="dating_elements"] { -oxy-placeholder-content: 'Dating elements here'; }
+    note[type="topical_date"] { -oxy-placeholder-content: 'Topical date here'; }   
+    origPlace { -oxy-placeholder-content: 'Provenance here'; }
+    
+    origDate:before { content: " Date"; }
+    listChange:before { content: " Changes"; }
+    div[type="edition"]:before { content: " Text"; }
+    div[subtype="editions"]:before { content: " Editions and document summaries"; }
+    div[subtype="additional"]:before { content: " Bibliography"; }
+    div[subtype="links"]:before { content: " Links"; }
+    div[type="commentary"]:before { content: " Commentary"; }
+    div[type="translation"]:before { content: " Translation"; }
+    div[type="apparatus"]:before { content: " Apparatus"; }
    
-   div[type="edition"]:before {
+    origDate:before, listChange:before, div[type="edition"]:before, div[subtype="editions"]:before, div[subtype="additional"]:before, div[subtype="links"]:before, div[type="commentary"]:before, div[type="translation"]:before, div[type="apparatus"]:before {
         font-weight:bold;
-        content: "Text";
+        font-size: 20px;
         display:block;
-        visibility: -oxy-collapse-text ;
-    }
-
-        div[subtype="editions"]:before {
-        font-weight:bold;
-        content: "Editions and document summaries";
-        display:block;
-        visibility: -oxy-collapse-text ;
-    }
-    
-    div[subtype="additional"]:before {
-        font-weight:bold;
-        content: "Bibliography";
-        display:block;
-        visibility: -oxy-collapse-text ;
-    }
-    
-    div[subtype="links"]:before {
-        font-weight:bold;
-        content: "Links";
-        display:block;
-        visibility: -oxy-collapse-text ;
-    }
-    
-    div[type="commentary"]:before {
-        font-weight:bold;
-        content: "Commentary";
-        display:block;
-        visibility: -oxy-collapse-text ;
-    }
-    
-        div[type="translation"]:before {
-        font-weight:bold;
-        content: "Translation";
-        display:block;
-        visibility: -oxy-collapse-text ;
-    }
-
-        div[type="apparatus"]:before {
-        font-weight:bold;
-        content: "Apparatus";
-        display:block;
-        visibility: -oxy-collapse-text ;
-    }
-
-
-    div[type="edition"] ab {
-        border:2px solid rgb(153, 153, 143);
+   }
+   
+   titleStmt > title, note[type="displayed_date"], note[type="dating_elements"], note[type="topical_date"], origPlace {
+        margin:15px;
+        padding: 0 10px 0 10px;
         background-color: #fdfdfd;
-        margin:10px 20px 15px 20px;
         display:block;
-        -oxy-placeholder-content: 'Text here';
-    }
-
-        div[subtype="editions"] p, div[subtype="additional"] p, div[subtype="links"] p {
-        border:2px solid rgb(153, 153, 143);
-        background-color: #fdfdfd;
-        margin:10px 20px 15px 20px;
-        display:block;
-        -oxy-placeholder-content: 'Text here';
     }
     
-    div[type="commentary"] p {
-        border:2px solid rgb(153, 153, 143);
-        background-color: #fdfdfd;
-        margin:10px 20px 15px 20px;
-        display:block;
-        -oxy-placeholder-content: 'Text here';
+    origPlace {
+        border:1px solid rgb(153, 153, 143);
+        margin:10px 20px 40px 20px;
     }
     
-        div[type="translation"] p {
-        border:2px solid rgb(153, 153, 143);
-        background-color: #fdfdfd;
-        margin:10px 20px 15px 20px;
+    summary, origDate, listChange, div[type="edition"], div[subtype="editions"], div[subtype="additional"], div[subtype="links"], div[type="commentary"], div[type="translation"], div[type="apparatus"] {
+        border:1px solid rgb(153, 153, 143);
+        margin:10px 20px 40px 20px;
         display:block;
-        -oxy-placeholder-content: 'Text here';
-    }
-
-       div[type="apparatus"] p {
-        border:2px solid rgb(153, 153, 143);
+   }
+   
+    div[type="edition"] ab, div[subtype="editions"] p, div[subtype="additional"] p, div[subtype="links"] p, div[type="commentary"] p, div[type="translation"] p, div[type="apparatus"] p {
         background-color: #fdfdfd;
-        margin:10px 20px 15px 20px;
+        margin:15px;
+        padding: 5px 10px 5px 10px;
         display:block;
         -oxy-placeholder-content: 'Text here';
     }
