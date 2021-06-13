@@ -81,31 +81,69 @@
                 <body>
                     <div type="edition">
                         <div type="textpart">
-                            <ab><foreign>Permuta tra </foreign>Fridulo filio quondam Ciccuni de
-                        Brancalo nec non et Rachiprando <rs key="#Priests">presbitero</rs>
-                        <rs key="#Churches">eclesie</rs> Sancte Marie in loco Sexto.
+                            <ab><foreign>Permuta tra </foreign><persName><name
+                                ref="Fridulus de Brancalo">Fridulo</name></persName> filio quondam
+                                <persName><name ref="Cicco">Ciccuni</name></persName> de <placeName
+                            ref="#places/499">Brancalo</placeName> nec non et <persName
+                            key="#Priests"><name ref="Ragibrandus">Rachiprando</name></persName>
+                        <rs key="#Priests">presbitero</rs>
+                        <rs key="#Churches">eclesie</rs>
+                        <orgName key="#Churches" ref="#juridical_persons/269">Sancte Marie</orgName>
+                        in loco <placeName key="#Churches" ref="#places/165">Sexto</placeName>.
                             <foreign>Fridulo dà</foreign>: tertia parte de <rs
-                            key="#Casae/cassinae_massaricie">casa</rs> in loco Mitiano, qui a
-                        quondam Ciccune patre meo in <rs key="#Venditio">comparationem</rs> obvenit
-                                da Perseradulo, ipsa <rs key="#Casae/cassinae_massaricie">casa</rs> cum <rs key="#Casalini/fundamenta"
-                            >fundamento</rs>, curte; simul et una <rs key="#Petiae">petia</rs> de
-                            <rs key="#Wine">vinea</rs> in eodem loco Mitiano: et est caput et latere
-                                tenente in <rs key="#Wine">vinea</rs> Sancte Marie, alio latere in <rs key="#Wine">vinea</rs>
-                                Achipertuli et Sanituli germanis mei, et alio capite in <rs key="#Wine">vinea</rs>
-                        Achipertuli. <foreign>Fridulo riceve in cambio</foreign>: de <rs
-                            key="#Landed_possessions">res</rs>
-                                <rs key="#Churches">eclesie</rs> Sancte Marie una clausura de <rs>vinea</rs> in Brancalo,
-                        ubi vocabulum est ad Cella, clausura illa in integro, quem ad manus suas
-                        habet […]culo massario <rs>eclesie</rs> Sancte Marie. Ubi et de sua
-                        presentia direxit […]i <rs key="#Other_clerics">clericus</rs>, qui ipsa
-                        causa adsimilare deberet, et in omnibus […] que ad parte eclesie receptum
-                        est in viganio, esse meliorata. <foreign>Pena</foreign>: auri solidos numero
-                        quinquaginta. (…) Actum Luca. <foreign>Sottoscrizioni</foreign>: +
-                        Fridulonis; (ss) Ilmiper <rs key="#Subdeacons">supdiaconus</rs>; (ss)
-                        Deusdona <rs>presbiter</rs>; + Teuprandi filio quondam Ermi testis; +
-                        Petronaci filio Baronaci testis; + Saxuli <rs>clerici</rs> filio quondam
-                        Autelmi testis. <foreign>Scrive</foreign>: Fratellus
-                        <rs>presbiter</rs>.</ab>
+                            key="#Casae/cassinae_massaricie">casa</rs> in loco <placeName
+                            key="#Venditio #Casae/cassinae_massaricie #Casalini/fundamenta #Petiae #Wine"
+                            >Mitiano</placeName>, qui a quondam <persName
+                            key="#Venditio #Casae/cassinae_massaricie #Casalini/fundamenta #Petiae #Wine"
+                                ><name ref="Cicco">Ciccune</name></persName> patre meo in <rs
+                            key="#Venditio">comparationem</rs> obvenit da <persName
+                            key="#Venditio #Casae/cassinae_massaricie #Casalini/fundamenta #Petiae #Wine"
+                                ><name ref="Perteradulus">Perseradulo</name></persName>, ipsa <rs
+                            key="#Casae/cassinae_massaricie">casa</rs> cum <rs
+                            key="#Casalini/fundamenta">fundamento</rs>, curte; simul et una <rs
+                            key="#Petiae">petia</rs> de <rs key="#Wine">vinea</rs> in eodem loco
+                        Mitiano: et est caput et latere tenente in <rs key="#Wine">vinea</rs>
+                        <orgName key="#Confinia #Petiae #Wine" ref="#juridical_persons/269">Sancte
+                            Marie</orgName>, alio latere in <rs key="#Wine">vinea</rs>
+                        <persName key="#Confinia #Petiae #Wine"><name ref="Agibertulus"
+                                >Achipertuli</name></persName> et <persName
+                            key="#Confinia #Petiae #Wine"><name ref="Sanituli"
+                            >Sanituli</name></persName> germanis mei, et alio capite in <rs
+                            key="#Wine">vinea</rs>
+                        <persName key="#Confinia #Petiae #Wine"><name ref="Agibertulus"
+                                >Achipertuli</name></persName>. <foreign>Fridulo riceve in
+                            cambio</foreign>: de <rs key="#Landed_possessions">res</rs>
+                        <rs key="#Churches">eclesie</rs>
+                        <orgName key="#Landed_possessions #Churches" ref="#juridical_persons/269"
+                            >Sancte Marie</orgName> una clausura de <rs key="#Wine">vinea</rs> in
+                            <placeName key="#Wine" ref="#places/499">Brancalo, ubi vocabulum est ad
+                            Cella</placeName>, clausura illa in integro, quem ad manus suas habet
+                            <persName key="#Wine">[…]culo</persName> massario <rs key="#Churches"
+                            >eclesie</rs>
+                        <orgName key="#Churches">Sancte Marie</orgName>. Ubi et de sua presentia
+                        direxit <persName key="#Missus #Other_clerics">[…]i</persName>
+                        <rs key="#Other_clerics">clericus</rs>, qui ipsa causa adsimilare deberet,
+                        et in omnibus […] que ad parte eclesie receptum est in viganio, esse
+                        meliorata. <foreign>Pena</foreign>: auri solidos numero quinquaginta. (…)
+                        Actum <placeName ref="#places/4">Luca</placeName>.
+                            <foreign>Sottoscrizioni</foreign>: + Fridulonis; (ss) <persName
+                            key="#Witness #Subdeacons"><name ref="Ilmipertus"
+                            >Ilmiper</name></persName>
+                        <rs key="#Subdeacons">supdiaconus</rs>; (ss) <persName
+                            key="#Witness #Priests"><name ref="Deusdona">Deusdona</name></persName>
+                        <rs key="#Priests">presbiter</rs>; + <persName key="#Witness"><name
+                                ref="Teudebrandus">Teuprandi</name></persName> filio quondam
+                                <persName><name ref="Ermus">Ermi</name></persName> testis; +
+                            <persName key="#Witness"><name ref="Petronax"
+                            >Petronaci</name></persName> filio <persName><name ref="Baronaci"
+                                >Baronaci</name></persName> testis; + <persName
+                            key="#Witness #Other_clerics"><name ref="Sassulus"
+                            >Saxuli</name></persName>
+                        <rs key="#Other_clerics">clerici</rs> filio quondam <persName><name
+                                ref="Autelmus">Autelmi</name></persName> testis.
+                            <foreign>Scrive</foreign>: <persName key="#Writer #Priests"><name
+                                ref="Fratellus">Fratellus</name></persName>
+                        <rs key="#Priests">presbiter</rs>.</ab>
                         </div>
                     </div>
                     <div type="bibliography" subtype="editions">
