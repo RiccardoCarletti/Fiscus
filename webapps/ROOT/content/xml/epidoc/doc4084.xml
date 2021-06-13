@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    +L.46 (terzo documento) </title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc4084</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--List/inventory</rs>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate when="0762-05-27"> 
+                                        <note type="displayed_date">762 May 27</note>
+                                        <note type="dating_elements"/>
+                                        <note type="topical_date"/>
+                                    </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-06-13" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab>Notitia facio ego Peredeus in Dei nomine episcopus, qualiter
+                        devisionem feci in Rasiniano cum Sunderad nepote meo de res illa quas antea
+                        ividem non devisimus; in primis, de campo ad Fine sundriale, una petia
+                        longa, tenet capite uno in Fine et latere uno tenet in alia petia longa in
+                        ipso campo, fini signa posite; et alia petia minore de ipso campo, latere
+                        uno tenet in terra Lamitei presbiteri et capite uno tenet in terra de
+                        homenis Sancti Michaeli, fini signa posite: quod est, inter perdictas ambas
+                        petias, medietate de ipso campo nostro sundriale; et medietate de silva
+                        nostra ad Capitito Maiure, latere tenente in terra Pertifuns, fini signa
+                        posite; excepto tres modiorum et sistariorum septe de ipsa silva, qui
+                        stancliata est ad parte mea ab ipso Sunderado, fini signa posite; et de
+                        vinea sundriale de petia maiure medietate, latere tenente da trasmontante,
+                        fini signa posite; similiter de vinea sundriale de petia minore medietate,
+                        latere tenente da trasmontante, fini signa posite: quod est inter predictas
+                        ambas petias de vinea sundriale, infra ipsa clausura medietate; et de
+                        fundamento nostro sundriale, ubi sala antiqua posita fuit, medietate, latere
+                        tenente da transmontante, fini signa posite, sicut ex antiquo ipse
+                        fundamento fuit; similiter et de orto sundriale, quem habuet Pertulo ante
+                        casa sua medietate, latere tenente da transmontante, fine signa posite.
+                        Facta notitia temporibus domno nostro Desiderii et Adelchis regibus, in anno
+                        regni eorum sexto et tertio, sexto calendas iunias, per indictione XV. Ex
+                        dictato viri beatissimi Peredei in Dei nomine episcopi scribsi ego Osprandus
+                        diaconus. + Ego Peredeus exiguus episcopus in hanc breve subscripsi. + Ego
+                        Sunderadu in hanc breve subscripsi. Signum + manus Ermicaidi filio quondam
+                        Barunci testis. Signum + manus Teutpert filio vone memorie Teudeperti
+                        testis. Signum + manus Wilipert filio bone memorie Ghispert testis.</ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL IV/1, n. 55; reg. MDL V/2, n. 76; CDL II, 161/III, pp. 97-98; ChLA,
+                    XXXIII, 969c.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                         <p>Persone: Peredeus [Peredeo] ep (di Lucca); Sunderad (nepos Peredeo);
+                    Lamitei pbr; Pertifuns; Pertulo; Osprandus diac; Ermicaidi (f. Barunci);
+                    Teutpert (f. Teudeperti); Teudeperti (p. Teutpert); Vuilipert (f. Ghispert);
+                    Ghispert (p. Vuilipert). Luoghi: Rasiniano [Rosignano Mar., LI]; Fine [fl.
+                    Fine]; Capitito Maiure. Chiese: Sancti Michaeli [S. Michele]. Cariche: . Note:
+                    Fine sundriale; campo, orto, vinea sundriale; clausura; fundamento sundriale;
+                    sala; stancliata est ?. Indice: notitia - fam. Peredeo - divisione ereditaria.
+                        <foreign>Nota dorsale (sec. XII)</foreign>: In Campomaiore. Rasiniano in Val
+                    di Serchio presso San Macario (lucca) Capiteto Pontemazzori (Camaiore; Lucca) </p>
+                    </div>
+                </body>
+            </text>
+        </TEI>
