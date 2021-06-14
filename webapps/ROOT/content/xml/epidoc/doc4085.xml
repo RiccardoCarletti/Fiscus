@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    +Q.8 (copia del secolo VIII) </title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc4085</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Commutatio</rs>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Copy</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate when="0762-09-28"> 
+                                        <note type="displayed_date">762 September 28</note>
+                                        <note type="dating_elements"/>
+                                        <note type="topical_date">Lucca</note>
+                                    </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-06-14" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab>Gauspert clericus rector ecclesie Sancti Fridiani <foreign>permuta
+                            beni con</foreign> viro beatissimo Peredeo in Dei nomine episcopo.
+                        Gauspert <foreign>cede a Peredeo</foreign> ad parte eclesie Sancti Michaheli
+                        monsterio vestro, qui est de iura parentorum vestrorum, in viganio terra
+                        eclesie Sancti Fridiani, qui est prope casa Garipald clerici, modiorum sex
+                        et scafilo uno; ipsa clausura qui fuit Wilitrude in integrum; simul et duas
+                        petias de terra eidem eclesie ad Valle, quas Aspert ad manu sua habuet in
+                        integrum in adpretiato. <foreign>Riceve in cambio</foreign> ad parte eclesie
+                        Sancti Fridiani, in cambio terra suprascripte eclesie Sancti Michaheli, qui
+                        est in Vecliano, modiorum trigenta quinque; ipsa clausura in integrum.
+                            <foreign>Pena in duplum</foreign>. Actum Luca.
+                            <foreign>Sottoscrizioni</foreign>: (ss) Gauspertus rector ecclesie
+                        Sancti Fridiani; + Dulcissime monache (…) consentiens; (ss) Teuselmi
+                        diaconus; (ss) Ospert diaconus; (ss) Fratellus presbiter; + Teudipert filio
+                        quondam Wilipert testis; + Fratelli filio quondam Wilerad.
+                            <foreign>Scrive</foreign>: Osprandus diaconus. <foreign>Copia</foreign>:
+                        Austripertus clericus.</ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL IV/1, n. 21; reg. MDL V/2, n. 77; CDL II, 164, pp. 113-115; ChLA,
+                    XXXIII, 970.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                         <p>Persone: Desiderio re; Adelchi re; Gauspert cler; Peredeo ep [di Lucca];
+                    Garipald cler; Vuilitrude; Aspert; Osprandus diac; Austripertus cler; Dulcissime
+                    mon; Teuselmi diac; Ospert diac; Fratellus pbr; Teudipert (f. Vuilipert);
+                    Vuilipert (p. Teudipert); Fratelli (f. Vuilerad); Vuilerad (p. Fratelli).
+                    Luoghi: Valle; Vecliano [Vecchiano, PI]; Luca [Lucca]. Chiese: ecclesie Sancti
+                    Fridiani [S. Frediano]; eclesie Sancti Michaheli monsterio [S. Michele].
+                    Cariche: . Note: clausura. Indice: permuta - fam. Peredeo - monastero.
+                        <foreign>Nota dorsale (sec. VIII, Osprandus)</foreign>: + cartulam viganii
+                    da Gauspert de Sancto Fridiano. <foreign>Nota dorsale (sec. XI-XIII)</foreign>:
+                    Viganeum a Gausperto clerico clerico de terra Sancti Michaelis. <foreign>Nota
+                        dorsale (sec. XIII)</foreign>: In Vechiano. S. Frediano; S. Micheletto;
+                    Vecchiano (Pisa). </p>
+                    </div>
+                </body>
+            </text>
+        </TEI>
