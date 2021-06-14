@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title></title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc1155</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#"/>
+                            <rs type="record_source" ref="#"/>
+                            <rs type="document_tradition" ref="#"/>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate notBefore="0001" notAfter="0001" when="0001"> 
+                                <note type="displayed_date"></note>
+                                <note type="dating_elements"></note>
+                                <note type="topical_date"></note>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-02-08" who="Chiara Stedile">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>[In nomine domini Dei eterni. Berengarius divina favente clementi]a
+                        [imperator augustus. Notum sit omnibus fideli]bus sancte Dei Ecclesie
+                        [nostrisque presentibus et futuris, qualiter ob amorem Dei omnipoten]tis et
+                        ob reme[dium anime nostre nostrorumque predecessorum perd]onavimus sancte
+                        Aritine ecclesie in qua [beati Donati martir]is Christi corpus humatum
+                        quiescit, cui etiam ecclesie Petrus [venerabilis episcopusdilectu]sque
+                        fidelis noster preesse dignoscitur, quandam ecclesiam Sancti Marini cum suis
+                        pertinentiis, et P[iu]nta cum o[mnibus s]uis appenditiis, nec non Gratigiata
+                        cum omnibus suis pertinentiis, sicut olim de comitatu A[rit]ino sub
+                        integritate pertinuerunt una cum casis, terris, v[ineis, campis, pratis,]
+                        pascuis, silvis, salectis, sacio[nibus], aquis aquarumque decursibus,
+                        molendinis, piscationibus, servis et ancillis, aldionibus et aldianis,
+                        montibus, vallibus, planitiebus seu cum omnibus ad eadem tria loca
+                        pertinentibus. Haec omnia de nostro iure et dominio in prefate ecclesie ius
+                        et dominium omnino transfundimus atque donamus ad habendum, tenendum,
+                        comutandum et fruendum, [qualib]et ecclesiastica censura amota totius
+                        publice partis contraditione aut invasione vel molestia cuiusquam. Si quis
+                        igitur hoc nostrum imperiale preceptum infringere vel violare temtaverit,
+                        sciat se conpositurum auri optimi libras centum, medietatem camere nostre et
+                        medietatem Petro eiusdem ecclesie episcopo suisque successoribus. Quod ut
+                        verius credatur et diligenitus observetur, manu propria roborantes de anulo
+                        nostro subter insigniri iussimus. Signum domni (M) Beren[garii piissimi
+                        imperatoris.] [Iohannes episcopus et] ca[ncellarius ad vicem Ardingi
+                        episcopi et archicancellarii recognovi et subscripsi.] Data IIII non. Ian.,
+                        anno dominice incarnatio[ni]s DCCCCXVI, domni vero Berengarii piissimi regis
+                        XXVIII, imperii autem sui primo, indictione IIII. Actum Mucello. In Christi
+                        nomine feliciter, amen.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
