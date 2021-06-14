@@ -35,7 +35,7 @@
                                 >--Libellus/precaria/emphyteusis</rs>
                                     <rs type="record_source" ref="#">Original document</rs>
                                     <rs type="document_tradition" ref="#">Original</rs>
-                                    <rs type="fiscal_property"/>
+                                    <rs type="fiscal_property">No</rs>
                                 </summary>
                                 <msItem xml:id="msItem1">
                                     <textLang mainLang="" otherLangs=""/>
@@ -82,8 +82,9 @@
                 <body>
                     <div type="edition">
                         <div type="textpart">
-                            <ab><persName><name>Allari detto Atizio</name></persName> del <persName
-                            key="#Other_clerics">fu <name>Albolfo</name></persName>
+                            <ab><persName><name ref="Alarius/Atitius">Allari detto
+                            Atizio</name></persName> del <persName key="#Other_clerics">fu <name
+                                ref="Albulfus">Albolfo</name></persName>
                         <rs key="#Other_clerics">chierico</rs> riceve in livello dal <rs
                             key="#Bishops">vescovo</rs> di Lucca <persName ref="#people/213"
                             key="#Bishops">Pietro</persName>, la <orgName key="#Salae #Churches"><rs
@@ -121,10 +122,15 @@
                             >Luca</placeName>. <rs key="#Witness">Testimoni</rs> sottoscrittori:
                             <persName key="#Witness #Notary"><name ref="Teudemundus"
                                 >Teudimundo</name></persName>
-                        <rs key="#Notary">notarius</rs>, <persName>Tassimanno</persName>
-                        <rs key="#Notary">notarius</rs>, <persName>Lamberto</persName>,
-                            <persName>Auderamo</persName>, <persName>Cosfridi</persName>,
-                            <persName>Ildiperto</persName>, <persName>Adalperto</persName>
+                        <rs key="#Notary">notarius</rs>, <persName key="#Witness #Notary"><name
+                                ref="Tassimannus">Tassimanno</name></persName>
+                        <rs key="#Notary">notarius</rs>, <persName key="#Witness" ref="#people/147"
+                            >Lamberto</persName>, <persName key="#Witness"><name ref="Auderamus"
+                                >Auderamo</name></persName>, <persName key="#Witness"><name
+                                ref="Gausfredus">Cosfridi</name></persName>, <persName
+                            key="#Witness"><name ref="Ildebertus">Ildiperto</name></persName>,
+                            <persName key="#Witness #Notary #Scabini"><name ref="Adalbertus"
+                                >Adalperto</name></persName>
                         <rs key="#Notary">notarius</rs> et <rs key="#Scabini">schabinus</rs>.</ab>
                         </div>
                     </div>
