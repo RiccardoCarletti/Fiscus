@@ -80,47 +80,73 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>In nomine sancte et individue trinitatis <persName>henricus</persName>
-                        sestus Dei gratia Romanorum <rs>Imperator</rs> et semper augustus in
-                        perpetuum. Quia romani imperii regimen potestatemque suscepimus ecclesiis a
-                        nostris predecessoribus plurima largitione sublimatis imperiali nos oportet
+                    <ab>In nomine sancte et individue trinitatis <persName ref="#people/129"
+                            key="#Emperor/king">henricus</persName> sestus Dei gratia Romanorum <rs
+                            key="#Emperor/king">Imperator</rs> et semper augustus in perpetuum. Quia
+                        romani imperii regimen potestatemque suscepimus ecclesiis a nostris
+                        predecessoribus plurima largitione sublimatis imperiali nos oportet
                         provisione consulere et ne ipsarum possessiones aliqua distractione
                         depereant sufragium sufficiens adhibere. Presentibus igitur ac futuris
                         Christi fidelibus volumus esse cognitum quod ad petitionem dilecti et
-                        fidelis principis nostri <persName>Alberti</persName>
-                        <placeName>Vercellensis</placeName>
-                        <rs>episcopi</rs> ecclesiam <orgName>sancti Eusebi</orgName>i in
-                        protectionem imperialem suscepimus et presentis privilegii pagina
-                            <rs>communiuimus</rs>. Quecumque ergo memorate ecclesie largitione Regum
-                        concessione <rs>Pontificum</rs> seu quorumlibet oblatione collata esse
-                        noscuntur et que in posterum largiente Domino conferentur <rs>castella</rs>
-                        sive <rs>villas</rs>
-                        <rs>prata</rs>
-                        <rs>pascua</rs>
-                        <rs>vineas</rs>
-                        <rs>aquas</rs>
-                        <rs>molendina</rs> culta et inculta <rs>districtum</rs>
-                        <rs>pedagium</rs>
-                        <rs>navulum</rs> et omnia que in suis privilegiis a nostris predecessoribus
-                        Rebibus sive Imperatoribus sibi concessis contineri noscuntur presenti
-                        privilegio confirmamus ex quibus hec propriis duximus exprimenda vocabulis.
-                            <rs>Monasterium</rs>
-                        <orgName>sancti Michaelis </orgName>in <placeName>Laucedio</placeName> cum
-                        suis pertinenciis <placeName>Mataschum</placeName>
-                        <placeName>Casale sancti Evasii</placeName> cum omnibus <rs>insulis</rs> et
-                        pertinenciis suis castellum <placeName>sancti Georgii</placeName>
-                        <placeName>Ozanum</placeName>
-                        <placeName>Pomarium</placeName>
-                        <placeName>Picetum</placeName>
-                        <placeName>mirabellum</placeName><geogName> civitatem
-                            vercellensem</geogName> cum omni <rs>comitatu</rs> et districto et
-                        omnibus regalibus <placeName>Axilianum</placeName> cum omni districto et
-                        integritate <placeName>Pertingum</placeName>
-                        <placeName>Balsulam</placeName>
-                        <placeName>Salettam</placeName>
-                        <placeName>Constancianam</placeName>
+                        fidelis principis nostri <persName key="#Bishops" ref="#people/507"
+                            >Alberti</persName>
+                        <placeName ref="#places/106" key="#Mother_churches">Vercellensis</placeName>
+                        <rs key="#Bishops">episcopi</rs>
+                        <rs key="#Mother_churches">ecclesiam</rs>
+                        <orgName key="#Mother_churches" ref="#juridical_persons/81">sancti
+                            Eusebi</orgName>i in protectionem imperialem suscepimus et presentis
+                        privilegii pagina <rs key="#Imperial/royal_diploma">communiuimus</rs>.
+                        Quecumque ergo memorate ecclesie largitione Regum concessione <rs
+                            key="#Popes">Pontificum</rs> seu quorumlibet oblatione collata esse
+                        noscuntur et que in posterum largiente Domino conferentur <rs key="#Castle"
+                            >castella</rs> sive <rs key="#Villas">villas</rs> prata <rs
+                            key="#Hay/fodder">pascua</rs>
+                        <rs key="#Wine">vineas</rs>
+                        <rs key="#Rivers">aquas</rs>
+                        <rs key="#Mills">molendina</rs> culta et inculta <rs key="#Districtio"
+                            >districtum</rs>
+                        <rs key="#Tolls">pedagium</rs>
+                        <rs key="#Navicularii">navulum</rs> et omnia que in suis privilegiis a
+                        nostris predecessoribus Rebibus sive Imperatoribus sibi concessis contineri
+                        noscuntur presenti privilegio confirmamus ex quibus hec propriis duximus
+                        exprimenda vocabulis. <rs key="#Monasteries">Monasterium</rs>
+                        <orgName key="#Monasteries" ref="#juridical_persons/107">sancti Michaelis
+                        </orgName>in <placeName
+                            key="#Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches #Monasteries"
+                            ref="#places/328">Laucedio</placeName> cum suis pertinenciis <placeName
+                            key="#Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches"
+                            >Mataschum</placeName>
+                        <placeName
+                            key="#Islands #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches #Castle"
+                            ref="#places/230">Casale sancti Evasii</placeName> cum omnibus <rs
+                            key="#Islands">insulis</rs> et pertinenciis suis castellum <placeName
+                            key="#Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches"
+                            ref="#places/566">sancti Georgii</placeName>
+                        <placeName ref="#places/740"
+                            key="#Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches"
+                            >Ozanum</placeName>
+                        <placeName ref="#places/741"
+                            key="#Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches"
+                            >Pomarium</placeName>
+                        <placeName ref="#places/708"
+                            key="#Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches"
+                            >Picetum</placeName>
+                        <placeName ref="#places/707"
+                            key="#Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches"
+                            >mirabellum</placeName><geogName
+                            key="#Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches #Comitatus #Districtio"
+                            ref="#estates/131"> civitatem vercellensem</geogName> cum omni <rs
+                            key="#Comitatus">comitatu</rs> et districto et omnibus regalibus
+                            <placeName ref="#places/101"
+                            key="#Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches #Districtio"
+                            >Axilianum</placeName> cum omni districto et integritate <placeName
+                                ref="#places/717" key="#Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches">Pertingum</placeName>
+                        <placeName ref="#places/442" key="#Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches">Balsulam</placeName>
+                        <placeName ref="#places/216" key="#Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches">Salettam</placeName>
+                        <placeName ref="#places/743" key="#Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches">Constancianam</placeName>
                         <placeName>Stripianam</placeName>
-                        <placeName>Ronchum sichum</placeName> cum omni <rs>nemore</rs>
+                        <placeName ref="#places/588" key="#Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches">Ronchum sichum</placeName> cum omni <rs
+                            key="#Forests">nemore</rs>
                         <placeName>Salugiam</placeName> cum <rs>pedagio</rs> et omni integritate
                             <placeName>Moncravellum</placeName>
                         <placeName>Miraldam</placeName>
