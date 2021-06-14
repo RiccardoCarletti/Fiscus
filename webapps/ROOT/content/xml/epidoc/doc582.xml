@@ -5,7 +5,7 @@
                 <fileDesc>
                     <titleStmt>
                         <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
-                    Diplomatico, * H 16</title>
+                    Diplomatico, * F 92</title>
                     </titleStmt>
                     <editionStmt>
                         <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
@@ -14,7 +14,7 @@
                         </editionStmt>
                     <publicationStmt>
                         <publisher>Fiscus - DISCI UniBo</publisher>
-                        <idno type="filename">doc581</idno>
+                        <idno type="filename">doc582</idno>
                         <availability xml:lang="en" status="free">
                             <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                                 texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -35,7 +35,7 @@
                                 >--Libellus/precaria/emphyteusis</rs>
                                     <rs type="record_source" ref="#">Original document</rs>
                                     <rs type="document_tradition" ref="#">Original</rs>
-                                    <rs type="fiscal_property">No</rs>
+                                    <rs type="fiscal_property"/>
                                 </summary>
                                 <msItem xml:id="msItem1">
                                     <textLang mainLang="" otherLangs=""/>
@@ -43,8 +43,8 @@
                             </msContents>
                             <history>
                                 <origin>
-                                    <origDate when="0903-08-02">
-                                <note type="displayed_date">903 August 2</note>
+                                    <origDate when="0903-09-12">
+                                <note type="displayed_date">903 September 12</note>
                                 <note type="dating_elements">Anno di regno di Berengario</note>
                                 <note type="topical_date">Lucca</note>
                             </origDate>
@@ -74,7 +74,7 @@
                 </profileDesc>
                 <revisionDesc>
                     <listChange>
-                        <change when="2021-06-13" who="ptomei">creation of record</change>
+                        <change when="2021-06-14" who="ptomei">creation of record</change>
                     </listChange>
                 </revisionDesc>
             </teiHeader>
@@ -82,44 +82,46 @@
                 <body>
                     <div type="edition">
                         <div type="textpart">
-                            <ab><persName><name ref="Andreas">Andrea</name></persName> del
-                            <persName>fu <name ref="Andreas">Andrea</name></persName> riceve in
-                        livello dal <rs key="#Bishops">vescovo</rs> di Lucca <persName
-                            ref="#people/213" key="#Bishops">Pietro</persName>, una casella et res
-                        posta in loco et finibus <placeName ref="#places/167">Octavo</placeName>, di
-                        pertinenza della <orgName key="#Churches" ref="#juridical_persons/283"><rs
-                                key="#Churches">chiesa</rs> di San Pietro sita foras <rs
-                                key="#Cities">civitate</rs> ista Lucense que dicitur
-                            Sumaldi</orgName>, que est de suppotestate del <orgName
-                            key="#Mother_churches" ref="#juridical_persons/68"><rs
-                                key="#Mother_churches">vescovato</rs> di San Martino</orgName>, in
-                        precedenza tenuta da <persName><name ref="Bonifredus"
-                            >Bonifridi</name></persName>, con tutte le sue dipendenze. Si impegna
-                        con i suoi eredi a mettervi uomini ad residendum et abitandum. Si impegna a
-                        versare pro omni censum et iustitiam al vescovo e ai suoi successori, o
-                        all’uomo che avrà gli stessi beni in <rs key="#Beneficium">beneficio</rs>, a
-                        Lucca al duomo ogni mese di gennaio il censo annuale di 18 denari d’argento
-                        ad pars del vescovato di San Martino, e far venire a Lucca legem et
-                        iustitiam faciendum, gli stessi uomini che abiteranno la casa et res, a
-                        mandato del vescovo. Se non rispetterà i suddetti impegni, promette con i
-                        suoi eredi di versare al vescovo e ai suoi successori la pena di 50 soldi
-                        d’argento. Chiede al <rs key="#Writer #Notary">notaio</rs>
-                        <persName key="#Writer #Notary"><name ref="Petrus">Pietro</name></persName>
-                        la stesura di due <rs key="#Libellus/precaria/emphyteusis">cartulas</rs>.
-                        Actum <placeName ref="#places/4"
-                            key="#Cities #Churches #Mother_churches #Bishops">Luca</placeName>. <rs
-                            key="#Witness">Testimoni</rs> sottoscrittori: <persName key="#Witness"
-                                ><name ref="Fraolmus">Fraolmi</name></persName>, <persName
-                            key="#Witness" ref="#people/1800">Lamberto</persName>, <persName
-                            key="#Witness" ref="#people/149">Cunimundo</persName>, <persName
-                            key="#Witness"><name ref="Andreas">Andrea</name></persName>, <persName
-                            key="#Witness"><name ref="Ildebertus">Ildiperto</name></persName>,
-                            <persName key="#Witness"><name ref="Gausfredus"
-                            >Cosfridi</name></persName>.</ab>
+                            <ab><persName>Allari detto Atizio</persName> del <persName
+                            key="#Other_clerics">fu Albolfo</persName>
+                        <rs key="#Other_clerics">chierico</rs> riceve in livello dal <rs
+                            key="#Bishops">vescovo</rs> di Lucca <persName ref="#people/213"
+                            key="#Bishops">Pietro</persName>, la <orgName key="#Churches"><rs
+                                key="#Churches">chiesa</rs> di San Giorgio sita loco ubi dicitur
+                                <placeName key="#Churches">Feruniano</placeName></orgName> prope
+                            <orgName key="#Baptismal_churches"><rs key="#Baptismal_churches"
+                                >plebe</rs> Sancti Stefani</orgName>, di pertinenza della chiesa di
+                        Santa Maria sita foras civitate ista Lucense prope porta Sancti Donati, que
+                        est de suppotem del vescovato di San Martino, con una sala illa domnicata
+                        prope eadem ecclesia, una casa massaricia posta in suprascripto loco que
+                        vocitatur ad Colle, una casa massaricia nello stesso luogo, un fundamentum
+                        et casalino illo in quo fuit casa massaricia posto in loco ubi vocitatur ad
+                        Lavacclo, con tutte le sue dipendenze. Si impegna affinché per sua
+                        disposizione nella chiesa si tengano officium Dei et luminaria seo missarum
+                        solemnia. Si impegna a versare pro omni censum et iustitiam al vescovo e ai
+                        suoi successori, o all’uomo che avrà la stessa chiesa in beneficio, a Lucca
+                        al duomo ogni mese di gennaio il censo annuale di 10 soldi d’argento ad pars
+                        del vescovato di San Martino e a far venire a Lucca legem et iustitiam
+                        faciendum, gli stessi uomini che abiteranno le case di pertinenza della
+                        chiesa a mandato del vescovo. Se non rispetterà i suddetti impegni entro i
+                        successivi 29 anni promette con i suoi eredi di versare al vescovo e ai suoi
+                        successori la pena di 100 soldi d’argento. Ottiene la potestas con i suoi
+                        uomini di togliere omnes movilias dalla chiesa e dalle sue dipendenze absque
+                        omni calomnia. Chiede al notaio Pietro la stesura di due cartulas. Actum
+                        Luca. <persName>Autori: Pietro episcopus, Allari detto Atizio del fu Albolfo
+                            clericus. Scrittore: Pietro notarius. Testimoni sottoscrittori:
+                            Teudimundo notarius, Tassimanno notarius, Lamberto, Auderamo, Cosfridi,
+                            Ildiperto, Adalperto notarius et schabinus.</persName>
+                        <placeName>Luca, porta Sancti Donati (Lucca), Feruniano, Colle, Lavacclo
+                            (Colle e Lavacchio, Camaiore).</placeName>
+                        <orgName>San Giorgio di Feruniano, Santa Maria Ursimanni di Lucca, Santi
+                            Maria e Stefano di Camaiore (chiesa battesimale), San Martino di Lucca
+                            (chiesa matrice).</orgName>
+                    </ab>
                         </div>
                     </div>
                     <div type="bibliography" subtype="editions">
-                        <p>MDL, 5/3, n. 1068, p. 19.</p>
+                        <p>MDL, 5/3, n. 1069, pp. 19-20.</p>
                     </div>
                     <div type="bibliography" subtype="additional">
                         <p/>
@@ -128,8 +130,7 @@
                         <p/>
                     </div>
                     <div type="commentary">
-                        <p>Sottoscrizioni autografe: Andrea, Fraolmi, Lamberto, Cunimundo, Andrea,
-                    Ildiperto, Cosfridi.</p>
+                        <p/>
                     </div>
                 </body>
             </text>
