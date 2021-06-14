@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    *F.96</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc4086</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Promissio</rs>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate when="0762-12-10">
+                                <note type="displayed_date">762 December 10</note>
+                                <note type="dating_elements">Indizione in eccesso di
+                                    un’unità.</note>
+                                <note type="topical_date"><foreign>Vico Lusciano</foreign></note>
+                            </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-06-14" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab>Ermicauso filio quondam Icoundi <foreign>promette a</foreign> domno
+                        Peredeo in Dei nomine episcopo de casa vel res illa quem ad resedendo et
+                        laborando dedisti in loco Maritima, ubi vocitatur ad Tocciano, casa eclesie
+                        Sancti Martini, ubi antea Teudualdo resedit, casa cum curte, orto, vineis,
+                        terris, silvis, olivitis, pascuis adque inpascuis, qualiter quondam
+                        Teduduald ad manum suam habuet, mihi ad resedendo et laborando et meliorando
+                        dededis, in tali tenure, ut per omnem annum de ipsa casa vel res reddere
+                        debeam uno animale annutino in mense magio, porco uno annuntino in octummio,
+                        sex decimate de vino, grano siligine bono modia quattuor, angaria quantas
+                        utilitas fuerit in curete vestra in Lusciano; et ipse animale et porco a nos
+                        usque in Rosellas minare debeam; et non habeam licentia de ipsa casa exire
+                        alivi ad habitando. <foreign>Pena</foreign>: auri solidos numero viginti; et
+                        exeam de ipsa casa vel res nanis et vacuus. (…) Actum in vico Lusciano.
+                            <foreign>Sottoscrizioni</foreign>: + Ermicausi promissoris; + Maurici
+                        presbiteri filio quondam Leontaci testis; + Osperti diaconi filio quondam
+                        Autelmi testis; Teuprandi clerici filio quondam Ermi testis; + Aggali
+                        clerici filio Santruli testis; + Ermiperti filio Ermei testis.
+                            <foreign>Scrive</foreign>: Fratellus presbiter.</ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>CDL, II, n. 166;  MDL, IV/1, n. 56</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                         <p>Persone: Desiderio re; Adelchis re; Boniperto (f. Ruffi); Ruffi (p.
+                    Boniperto); Peredeus [Peredeo] ep [di Lucca]; Filichis; Fratellus pbr; Achiperti
+                    (f. Radiperti); Radiperti (p. Achiperti); Teuprandi cler (f. Ermi); Ermi (p.
+                    Teuprandi); Ermiperti cler (f. Ermitei cler); Ermitei cler (p. Ermiperti);
+                    Agguli cler (f. Santruli); Santruli (p. Agguli cler); Petronaci cler (f.
+                    Audaci); Audaci (p. Petronaci cler). Luoghi: loco Maritima [Maremma]; Casale
+                    Episcopi [Casalappi]; Colomnata [Colonna, GR]. Chiese: eclesie Sancti Martini
+                    [S. Martino di Lucca, vescovato]. Cariche: . Note: rif. consuetudo della casa
+                    massaricia - . Indice: promissio - fam. Peredeo - contratto agrario - Maremma -
+                    angarie. <foreign>Nota dorsale (sec. XI-XII)</foreign>: Libellus case et rei in
+                    Tociano. <foreign>Nota dorsale (sec. VIII, Osprandus)</foreign>: + Cartulam de
+                    Ermicauso de Tocciano. </p>
+                    </div>
+                </body>
+            </text>
+        </TEI>
