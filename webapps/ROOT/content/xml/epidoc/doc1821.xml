@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Archivio Arcivescovile di Vercelli (HPM 1, Doc. 649) </title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc1821</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">Yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate notBefore="0001" notAfter="0001" when="1191-11-30">
+                                <note type="displayed_date">1191 November 30</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Milano</note>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-06-14" who="caterinaciccopiedi">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine sancte et individue trinitatis henricus sestus Dei gratia
+                        Romanorum Imperator et semper augustus in perpetuum. Quia romani imperii
+                        regimen potestatemque suscepimus ecclesiis a nostris predecessoribus plurima
+                        largitione sublimatis imperiali nos oportet provisione consulere et ne
+                        ipsarum possessiones aliqua distractione depereant sufragium sufficiens
+                        adhibere. Presentibus igitur ac futuris Christi fidelibus volumus esse
+                        cognitum quod ad petitionem dilecti et fidelis principis nostri Alberti
+                        Vercellensis episcopi ecclesiam sancti Eusebii in protectionem imperialem
+                        suscepimus et presentis privilegii pagina communiuimus. Quecumque ergo
+                        memorate ecclesie largitione Regum concessione Pontificum seu quorumlibet
+                        oblatione collata esse noscuntur et que in posterum largiente Domino
+                        conferentur castella sive villas prata pascua vineas aquas molendina culta
+                        et inculta districtum pedagium navulum et omnia que in suis privilegiis a
+                        nostris predecessoribus Rebibus sive Imperatoribus sibi concessis contineri
+                        noscuntur presenti privilegio confirmamus ex quibus hec propriis duximus
+                        exprimenda vocabulis. Monasterium sancti Michaelis in Laucedio cum suis
+                        pertinenciis Mataschum Casale sancti Evasii cum omnibus insulis et
+                        pertinenciis suis castellum sancti Georgii Ozanum Pomarium Picetum
+                        mirabellum civitatem vercellensem cum omni comitatu et districto et omnibus
+                        regalibus Axilianum cum omni districto et integritate Pertingum Balsulam
+                        Salettam Constancianam Stripianam Ronchum sichum cum omni nemore Salugiam
+                        cum pedagio et omni integritate Moncravellum Miraldam Saluciolam cum suis
+                        pertinenciis Cerrionum cum suis pertinenciis Galianicum Punderanuum Mulinarm
+                        Andurnum Causale Montem beroardum Clavaziam Thisidolam Pedrorium Blatinum
+                        Candele Triverium comitatum sancte agathe cum mercatis tholoneis et pedagio
+                        et ceteris omnibus que regalia esse noscuntur Oldinicum Albanum Grezium et
+                        Arimannos de Arborio Gislarengum Lentam cum monasterio Sanctimonialium Rade
+                        Gatinariam venteblium cum suis pertinenciis Naulam Bornade Crevacorium cum
+                        vilis et piscationibus et ceteris omnibus que regalibus Quirinum Messorianum
+                        cum omnibus regalibus Lexonam et pratuumcelsum in muuntegrandi. Plexum et
+                        Casalie Salam verucam Mirocolum durbettum montem ville Castellum turris
+                        Luaretum Odalengum cum omnibus arimannis suis. Preterea vendiciones
+                        commutaciones alienationes distractiones ab invasoribus sancti Eusebii
+                        factas qui puntificalem benedictionem non obtinuerunt videlicet Gregorio da
+                        Veruga Liprando Sigefredo Ardicione in irritum ducimus et imperiali
+                        auctoritate cassamus quemadmodum et Conradus Romanorum Rex et bone memorie
+                        pater noster Fredericus Romanorum Imperator antecessores nostri ipsam
+                        cassaverunt investituram quoque ab Anselmo vercellensi episcopo contra
+                        voluntatem sue ecclesie occulte et irrationabiliter factam de Clavaziolo
+                        atque investituras a Gisulpho eiusdem ecclesie episcopo contra iuramentum
+                        quod fecerat et contra mandatum domini pape Eugenii sicut ipse eas se non
+                        fecisse confessus est de pedagio e naulo Salugie factam et de aliis
+                        quecumque probari potuerint atque omnes alias investituras in ecclesia
+                        sancti Eusebii ab ipsis furtiue et oculte factas omnino cassamus et in
+                        posterum ne fiant sub pena centum librarum auri imperiali auctoritate
+                        interdicimus. Vendiciones feudorum ad vercellensem ecclesiam pertinencium
+                        dolose et contra statuta Romanorum Imperatorum ad detrimentum ecclesie
+                        factas sive a capitaneis sive a vavassoribus sine ab hiis qui de familia
+                        esse noscuntur facte sunt cassamus et iuribus carere decernimus. Potestatem
+                        emendi molas et deducendi tam molas quam alia quecumque placuerint per suam
+                        terram per suum districutum episcopo vercellensi concedimus semota omni
+                        violencia vel contradicione alicuius principis aut civitatis. Prescriprionem
+                        quoque centum annorum tam episcops vercellensibus quam ecclesie sancti
+                        Eusebii et sancte Marie concedimus in perpetuum. Decernimus igitur ut nullus
+                        regum vel imperatorum archiepiscoporum episcoporum ducum marchionum comitum
+                        alia magna seu parva persona huic privilegio contra ire presumant. Et ut
+                        haec omnia in perpetuum firma et inconcussa permaneant presentem paginam
+                        sigilli nostri impressione mandavimus insigniri. Si quis autem contra hoc
+                        nostrum pribilegii munimentum aliquo temeritatis ausi venire presumpserit
+                        centum libras auri puri pro pena componat medietatem camere nostre et partem
+                        residuam predicte ecclesie vercellensi. Huius rei testes sunt Milo
+                        mediolanensis archiepiscopus Bonefacius novariensis episcopus Lafrancus
+                        bergamensis episcopus Comes Theodericus de ostade Comes bouo de Vuerteri
+                        Comes Lodoicus de Othinege Robertus de durno Enricus pincerna de Lutra Otto
+                        bellus passaguerra mediolanenses et iudices curie et alii plures. Sigum
+                        domini henirci sesti Romani imperatoris (monogramma) sanctissimi. Acta sunt
+                        hec anno ab incar. domini M.C.LXXXXI indicione decima regnante domino
+                        henrico romanorum imperatore gloriosissimo anno regni eius uicessimo tertio
+                        imperii vero primo. Datum mediolani pridie kalendas decembris. Ego Ionas
+                        Cumanus sacri palacii notarius autenticum huius privilegii vidi et in isto
+                        et ideo me subscripsi. Ego Mayfredus Meschiatus de Bugella publicus
+                        imperiali auctoritate notarius de mandato sive precepto venerabilis viri
+                        domini Iacobi de meralda capellani et vicarii reverendi in christo patris
+                        domini Lombardi dei et apostolice sedis gratia episcopus vercellensis et
+                        comitis mihi specialiter supra hec facto predictum imperiale privilegium
+                        auctenticavi et in formam pubblicam reddegi sicuti in ipso privilegio
+                        originali continebatur ita et in isto de verbo ad verbum... exemplo nihil
+                        addens vel minuens quod substanciam immutet vel uiciet intellectum et ideo
+                        scripsi me subscripsi et signum meum consuetum huic autentico apposui. </ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
