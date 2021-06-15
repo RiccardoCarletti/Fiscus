@@ -1716,7 +1716,8 @@
                 </place>
                 <place>
                     <placeName>Coggiola (Biella)</placeName>
-                    <placeName type="other"><foreign>Cisidola</foreign></placeName>
+                    <placeName type="other"><foreign>Cisidola</foreign>
+                            <foreign>Thisidola</foreign></placeName>
                     <geogName type="coord"><geo>45.677401, 8.176575</geo></geogName>
                     <idno>places/211</idno>
                     <note/>
@@ -1726,6 +1727,10 @@
                         subtype="link"/>
                     <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
                     <link type="estates" corresp="#estates/62" subtype="hasConnectionWith"/>
+                        <link type="people" corresp="#people/124" subtype="link"/>
+                        <link type="people" corresp="#people/410" subtype="link"/>
+                        <link type="people" corresp="#people/129" subtype="link"/>
+                        <link type="people" corresp="#people/507" subtype="link"/>
                 </place>
                 <place>
                     <placeName>Chiavazza (Biella)</placeName>
@@ -1738,6 +1743,10 @@
                     <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
                     <link type="estates" corresp="#estates/62" subtype="hasConnectionWith"/>
                     <link type="people" corresp="#people/130" subtype="link"/>
+                        <link type="people" corresp="#people/124" subtype="link"/>
+                        <link type="people" corresp="#people/410" subtype="link"/>
+                        <link type="people" corresp="#people/129" subtype="link"/>
+                        <link type="people" corresp="#people/507" subtype="link"/>
                 </place>
                 <place>
                     <placeName>Candelo (Biella)</placeName>
@@ -6647,6 +6656,8 @@
                         <link type="people" corresp="#people/410" subtype="link"/>
                         <link type="juridical_persons" corresp="#juridical_persons/81"
                             subtype="link"/>
+                        <link type="people" corresp="#people/129" subtype="link"/>
+                        <link type="people" corresp="#people/507" subtype="link"/>
                     </place>
                     <place>
                         <placeName>Arborio (Vercelli)</placeName>
