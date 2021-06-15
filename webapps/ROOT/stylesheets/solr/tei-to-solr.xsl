@@ -239,7 +239,7 @@
       <xsl:variable name="ref" select="translate(@ref,' #', '')"/>
       <xsl:choose>
         <xsl:when test="document('../../content/fiscus_framework/resources/people.xml')//tei:person[descendant::tei:idno=$ref][descendant::tei:persName!='']">
-          <xsl:variable name="name" select="normalize-space(translate(document('../../content/fiscus_framework/resources/people.xml')//tei:person[descendant::tei:idno=$ref][1]/tei:persName[1], '/', '／'))"/>
+          <xsl:variable name="name" select="normalize-space(translate(translate(document('../../content/fiscus_framework/resources/people.xml')//tei:person[descendant::tei:idno=$ref][1]/tei:persName[1], '/', '／'), '?', ''))"/>
           <xsl:value-of select="upper-case(substring($name, 1, 1))"/>
           <xsl:value-of select="substring($name, 2)"/>
         </xsl:when>
@@ -255,7 +255,7 @@
       <xsl:variable name="ref" select="translate(@ref,' #', '')"/>
       <xsl:choose>
         <xsl:when test="document('../../content/fiscus_framework/resources/places.xml')//tei:place[descendant::tei:idno=$ref][descendant::tei:placeName[not(@type)]!='']">
-          <xsl:variable name="name" select="normalize-space(translate(document('../../content/fiscus_framework/resources/places.xml')//tei:place[descendant::tei:idno=$ref][1]/tei:placeName[not(@type)][1], '/', '／'))"/>
+          <xsl:variable name="name" select="normalize-space(translate(translate(document('../../content/fiscus_framework/resources/places.xml')//tei:place[descendant::tei:idno=$ref][1]/tei:placeName[not(@type)][1], '/', '／'), '?', ''))"/>
           <xsl:value-of select="upper-case(substring($name, 1, 1))"/>
           <xsl:value-of select="substring($name, 2)"/>
         </xsl:when>
@@ -271,7 +271,7 @@
       <xsl:variable name="ref" select="translate(@ref,' #', '')"/>
       <xsl:choose>
         <xsl:when test="document('../../content/fiscus_framework/resources/juridical_persons.xml')//tei:org[descendant::tei:idno=$ref][descendant::tei:orgName!='']">
-          <xsl:variable name="name" select="normalize-space(translate(document('../../content/fiscus_framework/resources/juridical_persons.xml')//tei:org[descendant::tei:idno=$ref][1]/tei:orgName[1], '/', '／'))"/>
+          <xsl:variable name="name" select="normalize-space(translate(translate(document('../../content/fiscus_framework/resources/juridical_persons.xml')//tei:org[descendant::tei:idno=$ref][1]/tei:orgName[1], '/', '／'), '?', ''))"/>
           <xsl:value-of select="upper-case(substring($name, 1, 1))"/>
           <xsl:value-of select="substring($name, 2)"/>
         </xsl:when>
@@ -287,7 +287,7 @@
       <xsl:variable name="ref" select="translate(@ref,' #', '')"/>
       <xsl:choose>
         <xsl:when test="document('../../content/fiscus_framework/resources/estates.xml')//tei:place[descendant::tei:idno=$ref][descendant::tei:geogName!='']">
-          <xsl:variable name="name" select="normalize-space(translate(document('../../content/fiscus_framework/resources/estates.xml')//tei:place[descendant::tei:idno=$ref][1]/tei:geogName[1], '/', '／'))"/>
+          <xsl:variable name="name" select="normalize-space(translate(translate(document('../../content/fiscus_framework/resources/estates.xml')//tei:place[descendant::tei:idno=$ref][1]/tei:geogName[1], '/', '／'), '?', ''))"/>
           <xsl:value-of select="upper-case(substring($name, 1, 1))"/>
           <xsl:value-of select="substring($name, 2)"/>
         </xsl:when>
@@ -300,7 +300,7 @@
   
   <xsl:template match="tei:date" mode="facet_mentioned_dates">
     <field name="mentioned_dates">
-      <xsl:value-of select="translate(., '/', '／')" />
+      <xsl:value-of select="translate(translate(., '/', '／'), '?', '')" />
     </field>
   </xsl:template>
   
