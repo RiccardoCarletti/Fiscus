@@ -34,6 +34,7 @@
           <xsl:when test="contains(lower-case(//t:change[1]/@who), 'dimuro')"><xsl:text>Alessandro Di Muro</xsl:text></xsl:when>
           <xsl:when test="contains(lower-case(//t:change[1]/@who), 'magos')"><xsl:text>Victor Rivera Magos</xsl:text></xsl:when>
           <xsl:when test="contains(lower-case(//t:change[1]/@who), 'motta')"><xsl:text>Loris Motta</xsl:text></xsl:when>
+          <xsl:when test="contains(lower-case(//t:change[1]/@who), 'ferretti')"><xsl:text>Beatrice Ferretti</xsl:text></xsl:when>
           <xsl:when test="contains(lower-case(//t:change[1]/@who), 'defalco')"><xsl:text>Fabrizio De Falco</xsl:text></xsl:when>
           <xsl:otherwise><xsl:value-of select="//t:change[1]/@who"/></xsl:otherwise>
         </xsl:choose>
@@ -55,6 +56,7 @@
           <xsl:when test="contains(lower-case(//t:change[last()]/@who), 'dimuro')"><xsl:text>Alessandro Di Muro</xsl:text></xsl:when>
           <xsl:when test="contains(lower-case(//t:change[last()]/@who), 'magos')"><xsl:text>Victor Rivera Magos</xsl:text></xsl:when>
           <xsl:when test="contains(lower-case(//t:change[last()]/@who), 'motta')"><xsl:text>Loris Motta</xsl:text></xsl:when>
+          <xsl:when test="contains(lower-case(//t:change[last()]/@who), 'ferretti')"><xsl:text>Beatrice Ferretti</xsl:text></xsl:when>
           <xsl:when test="contains(lower-case(//t:change[last()]/@who), 'defalco')"><xsl:text>Fabrizio De Falco</xsl:text></xsl:when>
           <xsl:otherwise><xsl:value-of select="//t:change[last()]/@who"/></xsl:otherwise>
         </xsl:choose>

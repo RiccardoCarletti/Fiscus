@@ -267,6 +267,8 @@
                     <idno>estates/83</idno>
                     <note/>
                     <link type="places" corresp="#places/2" subtype="hasConnectionWith"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1402"
+                            subtype="link"/>
                 </place>
                 <place>
                     <geogName>Ferrara; <foreign>comitatus</foreign></geogName>
@@ -555,7 +557,7 @@
                     <link type="people" corresp="#people/80" subtype="link"/>
                 </place>
                 <place>
-                    <geogName>Placentia; <foreign>comitatus</foreign></geogName>
+                    <geogName>Piacenza; <foreign>comitatus</foreign></geogName>
                     <geogName type="other"/>
                     <idno>estates/105</idno>
                     <note/>
@@ -1283,6 +1285,8 @@
                     <geogName type="other"><foreign>fines</foreign>; <foreign>territorium</foreign>; </geogName>
                     <idno>estates/174</idno>
                     <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1402"
+                            subtype="link"/>
                 </place>
                 <place>
                     <geogName>Siena; <foreign>comitatus</foreign></geogName>
@@ -1290,6 +1294,8 @@
                     <idno>estates/175</idno>
                     <note/>
                     <link type="places" corresp="#places/424" subtype="hasConnectionWith"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1402"
+                            subtype="link"/>
                 </place>
                 <place>
                     <geogName>Valle Fabbrica; <foreign>curtis</foreign></geogName>
@@ -2869,19 +2875,49 @@
                         <link type="places" corresp="#places/4" subtype="hasWithin"/>
                     </place>
                     <place>
-                        <geogName>Arezzo; comitatus</geogName>
+                        <geogName>Castrum Felicitatis; comitatus</geogName>
                         <geogName type="other"/>
                         <idno>estates/1402</idno>
                         <note/>
-                        <link type="places" corresp="#places/505" subtype="hasConnectionWith"/>
+                        <link type="places" corresp="#places/1803" subtype="hasWithin"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1402"
+                            subtype="link"/>
+                    </place>
+                    <place>
+                        <geogName>Arezzo; comitatus</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/1403</idno>
+                        <note/>
+                        <link type="places" corresp="#places/505" subtype="hasWithin"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1402"
+                            subtype="link"/>
+                    </place>
+                    <place>
+                        <geogName><foreign>Zerpa</foreign>; <foreign>curtis</foreign></geogName>
+                        <geogName type="other"><foreign>Girpa</foreign></geogName>
+                        <idno>estates/1404</idno>
+                        <note/>
+                        <link type="estates" corresp="#estates/124" subtype="isWithin"/>
+                        <link type="people" corresp="#people/165" subtype="link"/>
+                        <link type="people" corresp="#people/21" subtype="link"/>
+                        <link type="places" corresp="#places/1804" subtype="isPartOf"/>
                     </place>
                 </listPlace>
                 <listPlace n="Tabarrini Lorenzo">
                     <place>
-                        <geogName>XXX</geogName>
+                        <geogName>Piacenza; fines</geogName>
                         <geogName type="other"/>
                         <idno>estates/1500</idno>
                         <note/>
+                        <link type="places" corresp="#places/43" subtype="hasWithin"/>
+                    </place>
+                    <place>
+                        <geogName>Duliaria; curtis</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/1501</idno>
+                        <note/>
+                        <link type="places" corresp="#places/1903" subtype="isInVicinityOf"/>
+                        <link type="people" corresp="#people/55" subtype="link"/>
                     </place>
                 </listPlace>
                 <listPlace n="Tagliente Antonio">
