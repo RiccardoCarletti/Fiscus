@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title><title>Archivio di Stato di Milano, Museo Diplomatico, 219/81</title></title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc752</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">-Placitum/iudicatum</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0962-07-05">
+                                <note type="displayed_date">5 July 962</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Reggio Emilia</note>
+                            </origDate>
+                            <origPlace>
+                                <origPlace>Monastero di San Benedetto Polirone</origPlace>
+                            </origPlace>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-02-08">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>(S.) Dum in Dei nomine <rs key="#Cities">civitate</rs>
+                        <placeName>Regio</placeName> in domo ipsius <orgName key="#Mother_churches"
+                            >sancte Regensis ecclesie</orgName>, in sala propria ipsius domui in
+                        laubia maiore ipsius [sale in iudicio resed]isset
+                            <orgName>Vuarmundus</orgName>
+                        <rs key="#Judge">iudex</rs> et <rs key="#Missus_regis">missus</rs> do(m)ni
+                        imperatoris per data licencia do(m)ni <persName>Ermenaldi</persName>
+                        <rs key="#Bishops">episcopi</rs> ipsius episcopio singulorum hominum
+                        iusticias faciendas ac deliberandas, residentibus cum eo predictus
+                        Ermenaldus episcopus, <persName>Albericus</persName> filius bone memorie
+                            <persName key="#fatherOf">Rain[erii</persName>
+                        <rs key="#Count">comite</rs>
+                        <rs key="#vassusOf">vas]sus</rs>
+                        <rs key="#Emperor/king">do(m)ni imperatoris</rs>,
+                            <persName>Giselbertus</persName>, <persName>Roschildus qui et
+                            Rozo</persName>, <persName>Aribertus</persName>,
+                            <persName>Teuzo</persName>, <persName>Iohannes</persName>,
+                            <persName>Adelbertus</persName>
+                        <rs key="#Judge">iudices</rs> do(m)ni imperatoris,
+                            <persName>Causus</persName>, <persName>Berno</persName>,
+                            <persName>Ansefre</persName>, <persName>Iohannes</persName>
+                        <rs key="#Notary">notarii</rs> eiusdem <rs key="#Comitatus">comitatu</rs>,
+                            <persName>Boso</persName>, <persName>Vuarmundus</persName>,
+                            <persName>Tetbaldus</persName>, <persName>Framsit</persName>,
+                            <persName>Vualterius</persName>, <persName>Gausbertus</persName>,
+                            <persName>Elinus</persName>, <persName>Gaithulfus</persName>,
+                            <persName>Stephanus</persName>, <persName>Rodericus</persName>,
+                            <persName>Verno</persName>, <persName>Gezo</persName>,
+                            <persName>Vuatpertus</persName>, <persName>Ansprandus</persName>,
+                            <persName>Ildevertus</persName> germanis,
+                        <persName>Manfredus</persName>, <persName>Sigifredus</persName>,
+                            <persName>Anselmus</persName>, <persName>Girardus</persName>
+                        <rs key="#vassusOf">vasalli</rs> Adelberti qui Atto comes et reliqui plures.
+                        Ibique eorum veniens presencia <persName>Adelbertus qui et Atto</persName>
+                        <rs key="#Count">comes</rs> bone memorie <persName key="#fatherOf"
+                            >Sigifredi</persName> filius et ostensit ibi <rs key="#Commutatio"
+                            >cartula una commutacionis</rs> ubi continebatur in eam ab ordine sicut
+                        hic subter legitur: (Segue latto di permuta del 961 agosto 2). Cartula ipsa
+                        commutacionis ostensa et ab ordine lecta, interrogatus est ipse Adelbertus
+                        comes qui et Atto pro quid cartula commutacionis ipsa ostenderet, qui dixit:
+                        «Vere ideo cartula ipsa commutacionis ibi vestri ostensi presencia, ut ne
+                        quislibet homo dicere possit exinde aliquid adversus me, quos ego eam silens
+                        aut occulta vel conludiosa habuissem vel detinuissem, et nunc casis et rebus
+                        ipsis que sunt in locas et fundas <rs key="#Islands">insola</rs> que dicitur
+                            <placeName>Moricula</placeName> atque <rs key="#Islands">insula</rs>
+                        <placeName>Sancti Benedicti</placeName> prope <rs key="#Rivers">f1uvio</rs>
+                        <placeName>Padi</placeName> quod in ista commutacionis cartula legitur ad
+                        meam habeo et deteneo proprietatem; et si quislibet homo adversus me exinde
+                        aliqui dicere vult, paratus sum cum ipsa cartula commutacionis in racione
+                        standum et legitime finem percipiendum, et quod plus est quero ut dicat iste
+                        do(m)nus Ermenaldus et <persName>Martinus</persName>
+                        <rs key="#Archpriests">archipresbiter</rs> et <rs key="#Prevosts"
+                            >prepositus</rs>
+                        <rs key="#Collegiate_churches">canonice</rs> ipsius episcopio et
+                            <persName>Ursus</persName>
+                        <rs key="#Judge">iudex</rs> eorum et ipsius episcopio seu cannonice <rs
+                            key="#Advocatus_of_other_public_authorities">avocatus</rs>, qui hic ad
+                        presens sunt, si cartula ipsa commutacionis bona et verax est vel si ipse
+                        Martinus archipresbiter et prepositus eam fieri rogavit et manu sua propria
+                        firmasset, vel si casis et rebus ipsis quod ista commutacionis cartula
+                        legitur m(ihi) contradicere aut subtrahere querunt an non». Qui et ipsis
+                        Ermenaldus episcopus et Martinus archipresbiter et prepositus ipsius
+                        cannonice et Ursus iudex eorum et ipsius episcopio et canonice advocatus
+                        unianimiter dixerunt et professi sunt: «Cartula ipsa commutacionìs, quam tu
+                        hic ostensisti, bona et verax est et ego Martinus archipresbiter et
+                        prepositus eam fieri et firmare rogavi et manu mea propria firmavi, et casis
+                        et rebus ipsis quod in ista legitur commutacionis cartula pro illis casis et
+                        rebus, quas tu Adelbertus comes ad vicem pro illis casis et rebus ad partem
+                        predicte canonice commutacionis cartula dedistis, que sunt in locas et <rs
+                            key="#Fundi">fundas</rs>
+                        <placeName>Crhuxto</placeName> et <rs key="#Rivers">fluvio</rs>
+                        <placeName>Quarismo</placeName> et <rs key="#Rivers">fluvio</rs>
+                        <placeName>Rodano</placeName> et <rs key="#Rivers">fluvio</rs>
+                        <placeName>Baniolo</placeName> et in loco qui dicitur
+                            <placeName>Grasito</placeName>
+                        <rs key="#Forests">silva</rs> que dicitur <placeName>Mantuana</placeName>,
+                        et a nobis datis et consignatis et adinpletis habetis iusta ista
+                        commutacionis cartula et casis et rebus ipsis quas tu Adelbertus comes da
+                        nos recepistis iusta istam commutacionis cartulam tuis propriis cum lege
+                        esse debent et nobis da parte iam dicto episcopio seu da parte predicte
+                        canonice ad habendurn nec requirendum nichil pertinet nec pertinere debet
+                        cum lege, pro eo quod exinde nullum scriptum nullam firrnitatem nullamque
+                        racionem inde non habuimus nec habemus neque habere vel invenire possumus da
+                        parte iam dicto episcopio seu cannonice per quam tibi casis et rebus ipsis
+                        quas tu Adelbertus qui et Atto comes da parte iam diete cannonice per istam
+                        commutacionis cartulam de nos recepisti contradicere aut subtrahere
+                        possumus, set ut diximus, tuis propriis cum lege esse debent». Is peractis
+                        et manifestacio ut supra facta, rectum eorum omnibus quorum supra iudicum et
+                        auditoribus paruit esse, et iudicaverunt ut iusta eorum altercacionem et
+                        eorum do(m)ni Ermenaldi episcopi et Martini archipresbitero et prepositus
+                        ipsius cannonice seu Ursoni iudici et advocatori professione et
+                        rnanifestacione ipse Adelbertus qui et Atto comes casis et rebus ipsis,
+                        quibus sunt positis in locas et fundas insola Moricula seu insola Sancti
+                        Benedicti prope fluvio Padi seu <rs key="#Islands">insula</rs>
+                        <placeName>Gurgo Pedanno</placeName> cum suarum ad suam proprietatem habeat
+                        et detinere deberet, et ipse do(m)nus Ermenaldus episcopus et prepositus seu
+                        Ursus iudex eorum advocatus seu pars iam dicto episcopio et canonice
+                        manerent da pars iam dicto episcopio et cannonice inde taciti et
+                        conte(m)pti. Et in eo modo finita est causa. Et hanc noticiam pro securitate
+                        eidem Adelberti comes qui et Atto fieri ammonuerunt. Quidem et ego
+                            <persName>Anianinus</persName>
+                        <rs key="#Notary">notarius</rs> et <rs key="#Judge">iudex</rs> domni
+                        imperatoris ac regi ex iussione suprascripto misso et iudicum amonicione
+                        scripsi. <date>Anno imperii do(m)ni <persName ref="#people/173"
+                                >Ottoni</persName> gratia Dei et item <persName ref="#people/239"
+                                >Ottoni</persName> gratia Dei rex filio eius Deo propicio hic in
+                            Italia primo, quinto die mensis iulii indicione quinta</date>. + Signum
+                        manus suprascripto Vuarmundi qui ut supra missus fui interfui. Giselbertus
+                        iudex Sacri Palacii interfui. Urso iudex do(m)ni irnperatoris ac regi
+                        interfui. Eribertus iudex Sacri Palacii interfui. Teuzo iudex Sacri Palacii
+                        interfui. Berno notarius interfui. (S.) Ego <persName>Teuzo</persName>
+                        <rs key="#Notary">notarius</rs> autenticum huius exe(m)pli vidi lege et sic
+                        inibi continebatur sicut hic scriptum est preter litteras plus minusve et
+                        hoc exe(m)p1um manibus meis exe(m)plavi. </ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>CDP I n. 3, pp. 58-62; Manaresi II/1 n. 146, pp. 7-11.</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p>Fumagalli 1971</p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>La <foreign>notitia iudicati</foreign> contiene come inserto la <foreign>cartula
+                        commutacionis</foreign> CDP I n. 1.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

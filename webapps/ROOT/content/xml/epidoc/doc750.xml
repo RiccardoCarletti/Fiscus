@@ -4,7 +4,7 @@
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
-                <title></title>
+                <title>Archivio di Stato di Milano, Museo Diplomatico, 231/75</title>
             </titleStmt>
             <editionStmt>
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
@@ -30,9 +30,9 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#"/>
-                            <rs type="record_source" ref="#"/>
-                            <rs type="document_tradition" ref="#"/>
+                            <rs type="text_type" ref="#">--Commutatio</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
                             <rs type="fiscal_property"/>
                         </summary>
                         <msItem xml:id="msItem1">
@@ -41,12 +41,12 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate notBefore="0001" notAfter="0001" when="0001"> 
-                                <note type="displayed_date"></note>
-                                <note type="dating_elements"></note>
-                                <note type="topical_date"></note>
+                            <origDate when="0961-08-25">
+                                <note type="displayed_date">25 August 961</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Reggio Emilia</note>
                             </origDate>
-                            <origPlace/>
+                            <origPlace>Monastero di San Benedetto Polirone</origPlace>
                         </origin>
                         <provenance>
                             <location>
@@ -80,7 +80,21 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab></ab>
+                    <ab>(S.) In nomine domini Dei et salvatoris nostri Iésu Christi. <persName
+                            ref="#people/233">Berengarius</persName> et Adelbertus filius eius
+                        gratia Dei [<rs key="#Emperor/king">reges</rs>, <date>anno regni eorum
+                            undecimo, octavo] kalendas septe(m)bris, indicione quarta</date>. <rs
+                            key="#Commutatio">Commutacio</rs> bone fidei noscitur esse contractum ut
+                        vicem e(m)pcionis optineant firmita[tem eodemque nexu obligant
+                        contrahentes.] Placuit itaque bona voluntate convenit inter Martinus
+                        presbiter et prepositus canonice Sancte Marie et Sancti Michaelis sita Regio
+                        quod [una per consensum et auctoritatem fratrum] seniorum cannonicorum
+                        ipsius ecclesie, et inter <persName key="#Commutatio #Lombard">Adelbertus
+                            qui et Atto</persName> filius bone memori <persName>Sigifredi</persName>
+                        de comitatu Lucensi qui profitebatur [nacione sua lege vivere]
+                            <rs>Longuobardorum</rs>, ut in Dei nomine inter se commutare debeant
+                        sicut a presenti dederunt ac tradiderunt vicissim sibi unus alteri in
+                        commutacionis nomine. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
