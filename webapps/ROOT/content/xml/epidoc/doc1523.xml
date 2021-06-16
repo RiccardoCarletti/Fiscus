@@ -81,9 +81,19 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>Idem in eodem Gemulo diacono fundum Dometiorum via Ardeatina, miliario plus
-                        minus .VIIII. ab urbe Roma, ex corpore suburbani patrimonii Appiae, prestat
-                        annue numero semis quartum (?) auri siliquas</ab>
+                    <ab>Idem (<persName key="#Popes" ref="#people/71">Gregorius iunior</persName>
+                        locat) in eodem <persName key="#Deacons"><name ref="Gemulus"
+                            >Gemulo</name></persName>
+                        <rs key="#Deacons">diacono</rs>
+                        <rs key="#Fundi">fundum</rs>
+                        <geogName
+                            key="#Fundi #Fiscal_property #Object #Outflow #Allocation_to_individuals #Rent_in_money"
+                            ref="#estates/803">Dometiorum</geogName> via Ardeatina, miliario plus
+                        minus .VIIII. ab urbe Roma, ex corpore suburbani <rs key="#Patrimonium"
+                            >patrimonii</rs>
+                        <geogName key="#Patrimonium" ref="#estates/224">Appiae</geogName>, <rs
+                            key="#Rent_in_money">prestat annue numero semis quartum (?) auri
+                            siliquas</rs></ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">

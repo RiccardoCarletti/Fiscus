@@ -1732,6 +1732,7 @@
                     <link type="estates" corresp="#estates/120" subtype="isMadeOf"/>
                     <link type="estates" corresp="#estates/322" subtype="isMadeOf"/>
                     <link type="estates" corresp="#estates/324" subtype="isMadeOf"/>
+                        <link type="estates" corresp="#estates/803" subtype="isMadeOf"/>
                 </place>
                 <place>
                     <geogName><foreign>Casa Cantari</foreign>; <foreign>fundus</foreign></geogName>
@@ -2847,6 +2848,16 @@
                         <note>De Francesco 2004: 43-45. </note>
                         <link type="people" corresp="#people/71" subtype="link"/>
                         <link type="estates" corresp="#estates/800" subtype="isPartOf"/>
+                    </place>
+                    <place>
+                        <geogName>Dometiorum; <foreign>fundus</foreign></geogName>
+                        <geogName type="other"/>
+                        <idno>estates/803</idno>
+                        <note>De Francesco 2004: 242. Sulla base del miglio indicato da Deusdedit,
+                            il fondo doveva collocarsi in prossimità del casale della Torretta
+                            oppure del casale Torre della Castelluccia.</note>
+                        <link type="people" corresp="#people/71" subtype="link"/>
+                        <link type="estates" corresp="#estates/224" subtype="isPartOf"/>
                     </place>
                 </listPlace>
                 <listPlace n="Lazzari Tiziana">
