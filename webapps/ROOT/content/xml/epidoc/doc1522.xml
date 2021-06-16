@@ -81,9 +81,21 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>Idem Georgio presbitero fundum Crispinis et Amonetis via Lavicana, miliario
-                        plus minus .XIII. ex corpore massae Fistis patrimonio Lavicano, prestat
-                        annue numero .I. auri solidum. </ab>
+                    <ab>Idem (<persName key="#Popes" ref="#people/71">Gregorius iunior</persName>
+                        locat) <persName key="#Priests"><name ref="Georgius"
+                            >Georgio</name></persName>
+                        <rs key="#Priests">presbitero</rs>
+                        <rs key="#Fundi">fundum</rs>
+                        <geogName
+                            key="#Economy #Fundi #Fiscal_property #Object #Outflow #Allocation_to_individuals #Rent_in_money"
+                            ref="#estates/801">Crispinis</geogName> et <geogName
+                            key="#Fundi #Fiscal_property #Object #Outflow #Allocation_to_individuals #Rent_in_money"
+                            ref="#estates/802">Amonetis</geogName> via Lavicana, miliario plus minus
+                        .XIII. ex corpore <rs key="#Massae">massae</rs>
+                        <geogName key="#Massae" ref="#estates/800">Fistis</geogName>
+                        <rs key="#Patrimonium">patrimonio</rs>
+                        <geogName key="#Patrimonium" ref="#estates/192">Lavicano</geogName>, <rs
+                            key="#Rent_in_money">prestat annue numero .I. auri solidum</rs>. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
