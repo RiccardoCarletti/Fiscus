@@ -1450,6 +1450,7 @@
                     <link type="estates" corresp="#estates/292" subtype="isMadeOf"/>
                     <link type="estates" corresp="#estates/299" subtype="isMadeOf"/>
                         <link type="estates" corresp="#estates/800" subtype="isMadeOf"/>
+                        <link type="estates" corresp="#estates/805" subtype="isMadeOf"/>
                 </place>
                 <place>
                     <geogName>Reggio Emilia; <foreign>comitatus</foreign></geogName>
@@ -2872,7 +2873,37 @@
                         <geogName>Calciana; <foreign>massa</foreign></geogName>
                         <geogName type="other"/>
                         <idno>estates/805</idno>
-                        <note>De Francesco 2004: 143, 168, 225 e sp. p. 236. </note>
+                        <note>De Francesco 2004: 143, 168, 225 e sp. p. 236. Localizzabile nei
+                            pressi dell'attuale Tenuta di Torrenova (Roma). </note>
+                        <link type="people" corresp="#people/71" subtype="link"/>
+                        <link type="estates" corresp="#estates/192" subtype="isPartOf"/>
+                        <link type="estates" corresp="#estates/806" subtype="isMadeOf"/>
+                        <link type="estates" corresp="#estates/807" subtype="isMadeOf"/>
+                        <link type="estates" corresp="#estates/808" subtype="isMadeOf"/>
+                    </place>
+                    <place>
+                        <geogName>Clivus; <foreign>fundus</foreign></geogName>
+                        <geogName type="other"/>
+                        <idno>estates/806</idno>
+                        <note/>
+                        <link type="people" corresp="#people/71" subtype="link"/>
+                        <link type="estates" corresp="#estates/805" subtype="isPartOf"/>
+                    </place>
+                    <place>
+                        <geogName>Querquaetum; <foreign>fundus</foreign></geogName>
+                        <geogName type="other"/>
+                        <idno>estates/807</idno>
+                        <note/>
+                        <link type="people" corresp="#people/71" subtype="link"/>
+                        <link type="estates" corresp="#estates/805" subtype="isPartOf"/>
+                    </place>
+                    <place>
+                        <geogName>Placonianus; fundus</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/808</idno>
+                        <note/>
+                        <link type="people" corresp="#people/71" subtype="link"/>
+                        <link type="estates" corresp="#estates/805" subtype="isPartOf"/>
                     </place>
                 </listPlace>
                 <listPlace n="Lazzari Tiziana">
