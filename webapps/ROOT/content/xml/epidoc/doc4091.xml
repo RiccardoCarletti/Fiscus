@@ -43,9 +43,9 @@
                             <history>
                                 <origin>
                                     <origDate when="0763-04-17"> 
-                                        <note type="displayed_date"/>
+                                        <note type="displayed_date">763 April 17</note>
                                         <note type="dating_elements"/>
-                                        <note type="topical_date"/>
+                                        <note type="topical_date">Lucca</note>
                                     </origDate>
                                     <origPlace/>
                                 </origin>
@@ -81,10 +81,18 @@
                 <body>
                     <div type="edition">
                         <div type="textpart">
-                            <ab>Ratpert <rs>presbitero</rs> filio quondam Ansifridi, <foreign>ha
-                            chiesto a</foreign> domno et viro beatissimo Peredeo in Dei nomine
-                            <rs>episcopo</rs> ut me rectore ordinare iubiuris in <rs>casa</rs>
-                        <rs>eclesiae</rs> Sancti Genesi in loco et plebe ad <rs>vico</rs> Walari,
+                            <ab><persName><name key="#Priests" ref="Ratepertus"
+                            >Ratpert</name></persName>
+                        <rs key="#Priests">presbitero</rs> filio quondam <persName><name
+                                ref="Ansfrit">Ansifridi</name></persName>, <foreign>ha chiesto
+                            a</foreign> domno et viro beatissimo <persName ref="#people/343"
+                            >Peredeo</persName> in Dei nomine <rs key="#Bishops">episcopo</rs> ut me
+                        rectore ordinare iubiuris in <rs key="#Casae/cassinae_massaricie">casa</rs>
+                        <rs key="#Churches">eclesiae</rs>
+                        <orgName key="#Casae/cassinae_massaricie #Churches"
+                            ref="#juridical_persons/261">Sancti Genesi</orgName> in loco et plebe ad
+                            <placeName key="#Vici #Casae/cassinae_massaricie #Churches"
+                            ref="#places/465"><rs key="#Vici">vico</rs> Walari</placeName>,
                             <foreign>ottenendone il consenso. Promette</foreign> ut die vite meae
                         omnia quolibet res adquirere potuero per quolibet ordine, volo ut sit in
                         potestate suprascripte eclesie; et die vite mee ividem semper habitare et
@@ -94,12 +102,25 @@
                         cum tuo inimico me adunare aut consiliare contra te presumam, nec aliqua
                         peculiarina vel subtractione de quolibet res in alio loco faciam. Et omnes
                         res eidem eclesie pertenente in omnibus meliorare promitto.
-                            <foreign>Pena</foreign>: in auro soledos ducenti. (…) Actum Luca.
-                            <foreign>Sottoscrizioni</foreign>: (ss) Ratpert presbiter; + Maurici
-                            <rs>presbiteri</rs> testis; (ss) Liusprand vir venerabilis
-                            <rs>presbitero</rs>; (ss) Soldulo <rs>presbiter</rs>; (ss) Homulo
-                            <rs>clericus</rs>; + Altioli <rs>clerici</rs> filii […]an[…]i testis.
-                            <foreign>Scrive</foreign>: Osprandus <rs>diaconus</rs>.</ab>
+                            <foreign>Pena</foreign>: in auro soledos ducenti. (…) Actum <placeName
+                            ref="#places/4">Luca</placeName>. <foreign>Sottoscrizioni</foreign>:
+                        (ss) Ratpert presbiter; + <persName key="#Witness #Priests"><name
+                                ref="Maurizo">Maurici</name></persName>
+                        <rs key="#Priests">presbiteri</rs> testis; (ss) <persName
+                            key="#Witness #Priests"><name ref="Liutbrandus"
+                            >Liusprand</name></persName> vir venerabilis <rs key="#Priests"
+                            >presbitero</rs>; (ss) <persName key="#Witness #Priests"><name
+                                ref="Soldulus">Soldulo</name></persName>
+                        <rs key="#Priests">presbiter</rs>; (ss) <persName
+                            key="#Witness #Other_clerics"><name ref="Homulus"
+                            >Homulo</name></persName>
+                        <rs key="#Other_clerics">clericus</rs>; + <persName
+                            key="#Witness #Other_clerics"><name ref="Aldiolus"
+                            >Altioli</name></persName>
+                        <rs key="#Other_clerics">clerici</rs> filii <persName>[…]an[…]i</persName>
+                        testis. <foreign>Scrive</foreign>: <persName key="#Writer #Deacons"><name
+                                ref="Osprandus">Osprandus</name></persName>
+                        <rs key="#Deacons">diaconus</rs>.</ab>
                         </div>
                     </div>
                     <div type="bibliography" subtype="editions">
@@ -113,15 +134,9 @@
                         <p/>
                     </div>
                     <div type="commentary">
-                         <p>Persone: Desiderio re; Adelchis re; Ratpert pbr (f. Ansifridi);
-                    Ansifridi (p. Ratpert pbr); Peredeo ep [di Lucca]; Osprandus diac; Maurici pbr;
-                    Liusprand v. ven. pbr; Soldulo pbr; Homulo cler; Altioli cler (f. […]an[…]i).
-                    Luoghi: Luca [Lucca]; vico Vualari [S. Genesio]. Chiese: eclesiae Sancti Genesi
-                    in loco et plebe ad vico Vualari [S. Genesio]. Cariche: . Note: . Indice: fam.
-                    Peredeo - promissio - nomina a rettore. <foreign>Nota dorsale (sec. VIII,
-                        Osprandus)</foreign>: + Cartola promissionis da Ratpert presbitero de vico
-                    Walari. <foreign>Nota dorsale (sec. XI-XII)</foreign>: Repromissio de plebe
-                    Sancti Genesii.</p>
+                         <p><foreign>Nota dorsale (sec. VIII, Osprandus)</foreign>: + Cartola
+                    promissionis da Ratpert presbitero de vico Walari. <foreign>Nota dorsale (sec.
+                        XI-XII)</foreign>: Repromissio de plebe Sancti Genesii.</p>
                     </div>
                 </body>
             </text>
