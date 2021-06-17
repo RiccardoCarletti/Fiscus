@@ -69,15 +69,27 @@
   
   <!-- order lists items -->
   <xsl:template match="//tei:listPlace[@type='places']">
+    <div>
+      <p><xsl:text>Total items: </xsl:text> <xsl:value-of select="count($places//tei:place[not(descendant::tei:placeName='XXX')])"/></p>
+    </div>
     <xsl:apply-templates select="//tei:place[not(descendant::tei:placeName='XXX')]"><xsl:sort select="./tei:placeName[1]"/></xsl:apply-templates>
   </xsl:template>
   <xsl:template match="//tei:listPlace[@type='estates']">
+    <div>
+      <p><xsl:text>Total items: </xsl:text> <xsl:value-of select="count($estates//tei:place[not(descendant::tei:geogName='XXX')])"/></p>
+    </div>
     <xsl:apply-templates select="//tei:place[not(descendant::tei:geogName='XXX')]"><xsl:sort select="./tei:geogName[1]"/></xsl:apply-templates>
   </xsl:template>
   <xsl:template match="//tei:listOrg">
+    <div>
+      <p><xsl:text>Total items: </xsl:text> <xsl:value-of select="count($juridical_persons//tei:org[not(descendant::tei:orgName='XXX')])"/></p>
+    </div>
     <xsl:apply-templates select="//tei:org[not(descendant::tei:orgName='XXX')]"><xsl:sort select="./tei:orgName[1]"/></xsl:apply-templates>
   </xsl:template>
   <xsl:template match="//tei:listPerson">
+    <div>
+      <p><xsl:text>Total items: </xsl:text> <xsl:value-of select="count($people//tei:person[not(descendant::tei:persName='XXX')])"/></p>
+    </div>
     <xsl:apply-templates select="//tei:person[not(descendant::tei:persName='XXX')]"><xsl:sort select="./tei:persName[1]"/></xsl:apply-templates>
   </xsl:template>
   
