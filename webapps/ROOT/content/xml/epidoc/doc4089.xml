@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    ++M.1</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc4089</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Venditio</rs>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate when="0763-02-04">
+                                <note type="displayed_date">763 February 4</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">S. Maria di Sesto</note>
+                            </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-06-17" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab>Baruccio, Teuderisci presbiter germanis filii quondam Donati, et
+                        Auderisci nepus eorum filio quondam Magnenti vendono a Rachiprand presbitero
+                        eclesie Sancte Mariae casa habitationis nostre cum fundamento, curte, in
+                        loco Orticaria, orto et alia ividem edificia, cum terris, vineis, pratis,
+                        pascuis, silvis, virgariis, castanaetis, cultum adque incultum. Prezzo: auri
+                        soledos boni nomero octuaginta (…). Pena in duplum. Actum ad eclesia Sancte
+                        Marie in Sesto. Sottoscrizioni: + Barucci vinditori; + Teuderisci presbiteri
+                        idem vinditori; + Auderisci idem vinditori; + Gaifred de Branchalo testis; +
+                        Miccioli clerici de Castronovo testis; + Altuli filio quondam Warnifridi
+                        testis; + Cinuli monitari testis. Scrive: Osprandus diaconus.</ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL V/2, n. 81; CDL II, 169, pp. 124-126; ChLA, XXXIII, 975.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                         <p>Persone: Desiderio re; Adelchis re; Baruccio (fr. Teuderisci pbr,
+                    Magnenti; f. Donati), Teuderisci pbr (f. Donati; fr. Baruccio, Magnenti); Donati
+                    (p. Baruccio, Teuderisci, Magnenti); Auderisci (f. Magnenti; nepos Baruccio,
+                    Teuderisci); Magnenti (f. Donati; fr. Baruccio, Teuderisci; p. Auderisci);
+                    Rachiprand pbr; Osprandus diac; Gaifred de Branchalo; Miccioli cler de
+                    Castronovo; Altuli (f. Vuarnifridi]; Vuarnifridi (p. Altuli); Cinuli monitari.
+                    Luoghi: loco Orticaria [pr. Brancoli]; Sesto [Sesto]; Branchalo [Brancoli];
+                    Castronovo [Castelnuovo Garfagnana]. Chiese: eclesia Sancte Marie in Sesto [S.
+                    Maria di Sesto]. Cariche: . Note: . Indice: compravendita - mestiere
+                    (monetarius). <foreign>Nota dorsale (sec. VIII, Osprandus)</foreign>: + Cartula
+                    da Barucci et Teuderisci presbitero et Auderisci. <foreign>Nota dorsale (sec.
+                        XI-XIII)</foreign>: Emptio cuiusdam presbiteri Sancte Marie de Sexto de casa
+                    in Urticaria.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>
