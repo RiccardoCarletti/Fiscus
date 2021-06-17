@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    ++S.17 (copia secolo XI-XII)</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc4093</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Promissio</rs>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Copy</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate when="0764-01-21"> 
+                                        <note type="displayed_date">764 January 21</note>
+                                        <note type="dating_elements"/>
+                                        <note type="topical_date">Lucca</note>
+                                    </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-06-17" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab>Liutpert homo liber et filio quondam Teuderici, quia per cartula ad
+                        resedendo confirmasti me et filiis et nepotibus meis tu venerabili domno
+                        Peredeo episcopo in casa ecclesie vestre in loco Ligori, ubi antea ressidet
+                        quondam Ursulo, et in omnes res ividem pertenentes. <foreign>Perciò promette
+                            per sé, i figli e i nipoti</foreign> ut diebus vite nostre in ipsa casa
+                        abitare debeamus et ipsa casa et honnes res ividem pertenentes in omnibus
+                        meliorare debeamus et in alio loco aut in alia casa peculiarina facere non
+                        debeamus. Et per singulo anno (…) reddere debeamus de ipsa res duo modia
+                        grano et duo modia farre, vino anforas quinque, olivas medietate, animale
+                        bono magese, in Pascha pario uno pullos, ovas decen, et angaria vobis facere
+                        debeamus, sicut est consuetudo vobis facere alii massarii de ipso loco.
+                            <foreign>Pena</foreign>: auri solidos trigenta. (…) Actum Luca.
+                            <foreign>Sottoscrizioni</foreign>: + Liutpert promissori; (ss)
+                        Gausprandus subdiaconus; + Pertiperti clerici testis; + Fratelli filio
+                        quondam Gunperti de Trasusare testes. <foreign>Scrive</foreign>: Osprandus
+                        diaconus.</ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL V/2, n. 85; CDL II, 176, pp. 141-143.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                         <p>Persone: Desiderio re; Adelchis re; Liutpert (f. Teuderici); Teuderici
+                    (p. Liutpert); Peredeo ep [di Lucca]; Ursulo; Osprandus diac; Gausprandus
+                    s/diac; Pertiperti cler; Fratelli de Trasausare (f. Gunperti); Gunperti (p.
+                    Fratelli de Trasausare). Luoghi: Luca [Lucca]; loco Ligori [Licori]; Trasausare
+                    [cf. Auser fl.]. Chiese: . Cariche: . Note: . Indice: fam. Peredeo - promissio -
+                    angarie - contratto agrario. <foreign>Nota dorsale (sec. XI-XII)</foreign>: He
+                    cartule XIII nove exemplaria sunt totidem veterum sibi colligatarum.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>
