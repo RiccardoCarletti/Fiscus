@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    *H.10</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc4090</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#"/>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">Yes</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate when="0763-02-16"> 
+                                        <note type="displayed_date">763 February 16</note>
+                                        <note type="dating_elements"/>
+                                        <note type="topical_date">Lucca</note>
+                                    </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-04-18" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab>
+                                Ermipert clerico, quia ante hos annos sanctae recordande memoriae Aistulf rex per suum cessionis preceptum donavet et confirmavet ecclesia et monasterio Sancti Petri fundato a qd. Sumuald, hic prope muro huius civitatis, cum omnia ividem pertenente in integrum, Auripert pictori germani meo, ut in eius esset potestate regendi, gubernandi, usufructuandi et ordinandi, qualiter ei placitum fuerit; et postea per cartulam firmationis me in ipsa eclesia et monasterio Sancti Petri in omnibus ordinare et confirmare visus est, secundum qualiter eum, ut dixi b. m. Aistulf rex in ipso monasterio confirmaverat, nisi tantum die vite sue usufructu de ipso monasterio in suo reservavit dominio. Et ego petivi excellentia domno meo Desiderio regi, ut per suum preceptum predictam donationis et firmationis mei paginam confirmaret; ita et factum est. Ora concede la chiesa e monastero al domno meo viro beatissimo Peredeo episcopo e ai suoi successori, riservandosene l’usufrutto. Actum Luca. Scrive: Osprandus diaconus
+                            </ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>Muratori, Antiquitates, V, 413; MDL V/2, n. 82; CDL II, 170, pp. 126-128;
+                    ChLA, XXXIII, 976-977.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                         <p>Persone: Desiderio re; Adelchis re; Astolfo re; Ermipert cler (fr.
+                    Auripert pictori); Sumuald; Auripert pictori (fr. Ermipert cler); Peredeo ep [di
+                    Lucca]; Osprandus diac; Rachiprand pbr; Periprandus s/diac; Petronaci cler;
+                    Alaprandu cler; Isprinca [Sprinca] cler. Luoghi: civitatis, Luca [Lucca].
+                    Chiese: ecclesia et monasterio Sancti Petri fundato a qd. Sumuld, , hic prope
+                    muro huius civitatis [S. Pietro Somaldi di Lucca]. Cariche: . Note: cit. dipl.
+                    Astolfo e Desiderio - . Indice: cit. dipl. re Astolfo - mestiere (pictor) - cit.
+                    dipl. Desiderio - fam. Peredeo - monastero. <foreign>Nota dorsale (sec.
+                        XI-XII)</foreign>: Ordinatio Ermiperti clerici fratris Auriperti pictoris de
+                    monasterio Sancti Petri Sumualdi. Cfr. anche Archivio Storico Diocesano di
+                    Lucca, Archivio Arcivescovile di Lucca, *A.40 (copia secolo VIII) ediz. ChLA,
+                    XXXIII, 977 (sostanzialmente identica all'originale). <foreign>Nota dorsale
+                        (sec. XI-XII)</foreign>: Exemplar acquistionis Peredei de monasterio Sancti
+                    Petri Sumualdi ab Ermiperto clerico.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>
