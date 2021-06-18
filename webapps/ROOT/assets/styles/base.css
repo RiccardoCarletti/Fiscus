@@ -125,22 +125,19 @@ margin-left:20px;
 #scroll {
   display: none;
   position: fixed;
-  bottom: 20px;
-  right: 30px;
+  bottom: 0px;
+  right: 20px;
   z-index: 99;
   border: none;
   outline: none;
   background-color: #3A2A4C;
   color: white;
   cursor: pointer;
-  padding: 20px;
+  padding: 1px;
   font-size: 20px;
-  margin: 4px 2px;
+  width: 2em;
+  height: 2em;
   border-radius: 50%;
-}
-
-#scroll:hover {
-  background-color: #555;
 }
 
 /**************************************************************************/
