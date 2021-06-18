@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title><title>Archivio di Stato di Milano, Museo Diplomatico, 228/84</title></title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc753</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Commutatio</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0962-10-10">
+                                <note type="displayed_date">10 October 962</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date"><foreign>infra castro Sancti
+                                        Stephani</foreign></note>
+                            </origDate>
+                            <origPlace>Monastero di San Benedetto Polirone</origPlace>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-02-08">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>(S.) In nomine domini Dei et salvatoris nostri Iesu Christi. <date><persName
+                                ref="#people/173">Otto</persName> divina ordina[nte prov]dencia <rs
+                                key="#Emperor/king">imperator</rs>] augusto [et item] <persName
+                                ref="#people/239">Otto</persName> filio eius gratia Dei rex, anno
+                            imperii et regni eorum hic in Italia Dei propicio primo, die decimo
+                            mense oct[ub ]ris, indicione sexta</date>. <rs key="#Commutatio"
+                            >Commutacione</rs> bone fidei innoscitur esse contractum eodemque nexu
+                        publicum vicem e(m)pcionis obligant contrahentes. Placuit itaque bona
+                        convenit voluntate inter do(m)nus <persName key="#Commutatio"
+                            >Vuilielmus</persName> huius <orgName key="#Mother_churches">sancte
+                                <placeName>Mantuanensis</placeName> ecclesie</orgName>
+                        <rs key="#Bishops">episcopus</rs> nec non et inter <persName
+                            key="#Count #Lombard #sonOf">Adelbertus qui et Atto</persName>
+                        <rs key="#Count">comes</rs> bone memorie <persName key="#fatherOf"
+                            >Sigifredi</persName> filius de <rs key="#Comitatus">comitatu</rs>
+                        <placeName>Lu[c]ense</placeName> qui profitebat se ex nacione sua lege
+                        vivere <rs key="#Lombard">Longuobardorum</rs> ut in Dei nomine debeat dare
+                        sicut a presenti dedit vel tradidit ipse namque do(m)nus Vuilielmus
+                        episcopus per consensum et auctoritatem fratrum et sacerdotum vel clericorum
+                        ipsius ecclesie eidem Adelberti comes ad iure et proprietatem in
+                        commutacionis nomine, hoc est <rs>area una de terra</rs> cum <rs
+                            key="#Churches">capella</rs> inibi constructa et edifficata in loco et
+                            <rs key="#Fundi">fundo</rs> ubi nominatur <placeName><rs key="#Islands"
+                                >Insula</rs> qui dicitur Sancti Benedicti</placeName> qui est ad
+                        honorem ipsius sancti Benedicti confessoris Christi, cum <rs key="#Forests"
+                            >silva et buscalibus</rs> se uno tenente iuris ipsius sancte
+                        Mantuanensis ecclesie et episcopio, qui reiacet ipsa area de terra cum silva
+                        et buscalibus in superscripto loco Insula iusta <rs key="#Rivers"
+                            >fluvio</rs>
+                        <placeName>Padi</placeName>, et est ipsa area de terra cum predicta silva et
+                        buscalibus <rs key="#Size">per mensura legittima terra arabile iuges viginti
+                            et due</rs>, silva et buscalibus <rs key="#Size">iuges sexaginta</rs>;
+                        coherentes ei fines: da duabus partibus da mane et de subtus ipsius
+                        Adelberti comes, da tercia parte da medio die tenente in ipso fluvio Padi,
+                        da quarta parte da sera de consortis, sive quod alii sunt affines. Quidem et
+                        ad invicem recepit ipse do(m)nus Vuilielmus episcopus ab eadem Adelbertus
+                        comes a(m)pliorata et meliorata causa ad iure et proprietatem ipsius sue
+                        ecclesię, idest capella una cum area sua in qua estat iuris sui quod est ad
+                        honorem <placeName>sancti Posscidonii</placeName>, qui est constructa et
+                        edifficata in loco et fundo ubi nominatur <placeName>Garfaniana</placeName>
+                        qui est in <rs key="#Comitatus">comitatu</rs>
+                        <placeName>Regense</placeName> cum casis et rebus ipsis in eodem loco ad
+                        ipsam capellam cum sua integritate pertinentibus vel asspicientibus sicut
+                        dictum est de ipsis rebus qui est iuris ipsius Adelberti comes, et est ipsis
+                        rebus ad suprascriptam mensuram inter <rs>sediminas</rs> ubi <rs key="#Wine"
+                            >vites</rs> super estant seu terris arabilis et pratis <rs key="#Size"
+                            >iuges decem</rs>; verum etiam et <rs>masaricia</rs> una iure predicti
+                        Adelberti comes qui reiacet in loco et fundo <placeName>Siniano</placeName>
+                        cum sua pertinentia quod per <persName>Petrus</persName>
+                        <rs key="#Coloni/tenants">massario</rs> directas et laboratas fuerant in
+                        integr(um), et sunt rebus ipsis ad iustam mensuram inter sediminas et terris
+                        ubi vitis super estant seu pratis <rs key="#Size">iuges sex</rs>, terris
+                        arabilis <rs key="#Size">iuges viginti et due</rs>, <rs key="#Forests"
+                            >silvis et buscalibus</rs>
+                        <rs key="#Size">iuges quindecim</rs>; seu dedit vel tradidit ipse Adelbertus
+                        comes eidem do(m)ni presuli ad iure et proprietatem ipsius sue ecclesię , id
+                        est in integr(um) rebus illis iuris ipsius Adelberti comes quibus esse
+                        videntur in loco et fundo <placeName>Nuvelare</placeName>, et sunt rebus
+                        ipsius per mensura iusta de terra arabile <rs key="#Size">iuges
+                            quattuor</rs>, <rs key="#Forests">silvis et buscalibus</rs>
+                        <rs key="#Size">iuges nonaginta et sex</rs>. As denique predictis rebus
+                        superius nominatis vel commutatis sicuti mensura et fines decernitur cum
+                        accessionibus et ingressoras suas seu cum superioribus et inferioribns suis
+                        sibi unus alteri commutacionis nomine dederunt vel tradiderunt ad habendum,
+                        tenendum, possidendum, et faciat exinde unusquis quos receperunt tam ipsis
+                        quamque successores vel heredes proprietario iure quicquid voluerint sine
+                        uni alteri contradicione. Exspoponderunt unusquis quos inter se dederunt ab
+                        omne contradicente homine defensare. Quiderm et ut ordo legis poposcit et ad
+                        hanc previdendam commutacionem accesserunt super ipsis rebus <rs
+                            key="#Missus_of_other_public_authorities">missus</rs> ipsius pontificis
+                        ab eo directus, id est <persName>Eroicus</persName>
+                        <rs key="#Deacons">diaconus</rs> et vicedominus de ordine ipsius ecclesię,
+                        una cum <rs key="#Boni_viri/boni_homines">viri bonos</rs> homines
+                        estimatores qui estimarent, hii sunt <persName>Ursus</persName>
+                        <rs key="#Judge">iudex</rs> do(m)ni imperatoris ac regi et
+                            <persName>Vuibertus</persName>
+                        <rs key="#Viscount">vicecomes</rs> filius bone memorie idemque
+                            <persName>Vuiberti</persName> de <placeName>Baniolo</placeName> seu
+                            <persName>Ildevertus qui est Bezo</persName> filius quondam
+                            <persName>Fredulfi</persName> de <placeName>villa Gurgo</placeName>
+                        quibus omnibus estimantibus rectum eis co(m)pararuit, et estimaverunt ut
+                        a(m)pliata et meliorata causa reciperet ipse do(m)nus Vuilielmus presul ab
+                        eodem Adelbertus comes a parte sue ecclesie et episcopio quam daret et hanc
+                        commutacionem secundum legem fieri posse. De quibus et penam inter se
+                        posuertunt ut quis unus ex ipsis tam successoribus vel heredes se de hanc
+                        commutacionem removere aut eas per quodvis ingenio infrangere conaverint aut
+                        si ab unoquemque homine his quos inter se dederunt non defansaverint, tunc
+                        co(m)ponant pars parti fidem conservanti da cuius pars prius ortum aut
+                        removitum fuerint <rs key="#Penalty">pena</rs> dupliciter rebus ipsis de quo
+                        egerint sicut pro te(m)pore fuerint meliorati aut valuerint sub
+                        estirnacionem in consimilibus locis cum stipulacione subnixa. Unde due
+                        commutaciones scripte sunt. Acta infra <placeName>castro Sancti
+                            Stephani</placeName>. Ego Vuilielmus episcopus in hac commutacione a me
+                        facta manu mea subscripsi. Eroicus diaconus atque vicedominus missus ut
+                        supra subscripsi. Ego Ursus iudex do(m)ni imperatoris ac regis qui supra
+                        ipsis rebus accessi et previdi atque estimavi ut supra subscripsi. + Ego
+                        Vuibertus vicecomes qui super ipsis rebus accessi et previdi atque estimavi
+                        subscripsi. Signum suprascripti Ildeverti qui super ipsis rebus accessi et
+                        previdi atque estimavi ut supra testes. Ego Martinus archidiaconus consensi
+                        et subscripsi. + Ego Petrus presbiter consensi et subscripsi. + Ego Petrus
+                        presbiter consensi et subscripsi. Signum manibus Antoni filius quondam
+                        Annoni de castro Sancti Stephani et Ansprandi seu Maginfredi fihus Ozoni de
+                        Montichi lege viventes <rs key="#Lombard">Longuobardorum</rs> rogati testes.
+                        Signum manibus Ilderadi filius quondam Sigelmi de ipso loco Sancti Stephani,
+                        Vuinizoni filius quondam Vuarinbaldi de Ariole lege viventes <rs
+                            key="#Roman">Romana</rs> rogati testes. Scripsi ego Ansefredus notarius
+                        do(m)ni imperatoris post traditam co(m)plevi et dedi. <rs key="#Copyist"
+                            >(S.) Ego Teuzo notarius autenticurn huius exe(m)pli vidi legi et sic
+                            ibi continebatur sicut in isto legitur exe(m)plo preter litteras plus
+                            minusve et hoc exe(m)plum manibus meis exe(m)plavi atque co(m)plevi et
+                            dedi</rs>. </ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>CDP I n. 4, pp. 63-66.</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p>Fumagalli 1971; Rinaldi 2003.</p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>La <foreign>cartula commutacionis</foreign> è contuna come inserto nelle
+                        <foreign>notiae iudicati</foreign> del 12 ottobre 962 (CDP I n. 5, pp.
+                    67-70), del 6 dicembre 964 (CDP I n. 8, pp. 76-79) e del 6 novembre 981 (CDP I
+                    n. 12, pp. 92-94). L'editrice identifica il <foreign>castrum Sancti
+                        Stephani</foreign> con una località tra Concordia sulla Secchia (MO) e Novi
+                    di Modena (MO), di cui oggi resta traccia solo nell'odonomastica.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

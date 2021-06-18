@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title><title>Archivio di Stato di Milano, Museo Diplomatico, 223/85</title></title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc754</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">-Placitum/iudicatum</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0962-10-12"><note type="displayed_date">12 October
+                                    962</note><note type="dating_elements"/><foreign>
+                                    <note type="topical_date">in loco Vicoluongo, iudicialia
+                                        Regense</note>
+                                </foreign></origDate>
+                            <origPlace>Monastero di San Benedetto Polirone</origPlace>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-02-08">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>(S.) Dum in Dei nomine in loco <placeName>Vicolonguo</placeName>
+                        <rs key="#Iudiciaria">iudicialia</rs>
+                        <placeName>Regense</placeName>, in terra pubblica ante porta <rs
+                            key="#Castle">castro</rs> ipsum <placeName>Sancti Stephani</placeName>
+                        da sera parte, ubi <persName>Rolandus</persName>
+                        <rs key="#Missus_regis">missus</rs> do(m)ni <rs key="#Emperor/king"
+                            >imperatoris et regi</rs> in iudicio residebat et hac causa ab eo
+                        directus, residentibus cum eo <persName>Vuilielmus</persName> huius <orgName
+                            key="#Mother_churches">sancte Mantuanensis ecclesie</orgName>
+                        <rs key="#Bishops">episcopus</rs>, <persName>Deodatus</persName>,
+                            <persName>Eribertus</persName>, <persName>Ursus</persName>,
+                            <persName>Teuzo</persName>
+                        <rs key="#Judge">iudices</rs> do(m)ni imperatori ac regi,
+                            <persName>Adelfredus qui et Albertus</persName>,
+                            <persName>Arderadus</persName>, <persName>Aldeverti</persName>
+                        <rs key="#vassusOf">vassis</rs> ipsius presuli,
+                            <persName>Anselmus</persName> filius quondam
+                            <persName>Radchis</persName> de <placeName>Coliclo</placeName>,
+                            <persName>Asprandus</persName>, <persName>Authekerius qui et
+                            Oddo</persName>, <persName>Manfredus</persName> filius
+                            <persName>Ozoni</persName> de <placeName>Monticlo</placeName>,
+                            <persName>Vualbertus</persName> filius item quondam
+                            <persName>Vualberti</persName>, <persName>Vuibertus</persName> filius
+                        bone memorie idem <persName>Vuiberti</persName> de
+                            <placeName>Bagnolo</placeName>, <persName>Bonifredus</persName> filium
+                            <persName>Litefredi</persName> de <placeName>Linare</placeName>,
+                            <persName>Vuerinzo</persName> filius quondam
+                            <persName>Vuari(m)boldi</persName> de <placeName>Cariole</placeName>,
+                            <persName>Roderico</persName> et <persName>Otto</persName> germanis
+                        filiis quondam <persName>Annoni</persName> de
+                            <placeName>Vicolonguo</placeName>, <persName>Adelgiso qui et
+                            Atzo</persName>, <persName>Sigefredus</persName> de <rs key="#Comitatus"
+                            >comitatu</rs>
+                        <placeName>Lucense</placeName> et filius <persName>Sigifredi</persName>,
+                            <persName>Vuido</persName> filius <persName>Liudoni</persName> et
+                            <persName>Odgerius</persName> de <rs key="#Comitatus">comitatu</rs>
+                        <placeName>Astense</placeName>, <persName>Sadelbertus</persName>,
+                            <persName>Berno</persName>
+                        <rs key="#Notary">notariis</rs> et reliqui plures. lbique eorum veniens
+                        presencia <persName>Adelbertus qui et Atto</persName>
+                        <rs key="#Count">comes</rs> bone memorie <persName>Sigefredi</persName>
+                        filius de <rs key="#Comitatus">comitatu</rs>
+                        <placeName>Lucense</placeName> et ibi ostendit <rs key="#Commutatio">cartula
+                            una commutacionis</rs> et nos eam ab ordine relegi fecimus et in ea ab
+                        ordine continebatur: (<foreign>Segue l’atto di permuta del 962, ottobre
+                            10</foreign>). Cartula ipsa commutacionis ostensa et ab ordine relecta,
+                        interrogatus est ipse Adelbertus comes pro quid ipsa cartula commutacionis
+                        ibi ostenderet, qui dixit: «Vere pro ideo ista mea ostensit cartula
+                        commutacionis, hic vestri ostensit presencia, ut nec quislibet homo dicere
+                        possi[t] quod ego eas silens aut occulta habuissem vel conludiosa
+                        detinuissem, et nunc rebus illis cum predicta <rs key="#Churches"
+                            >capella</rs> inibi constructa et edifficata que in ipsa legitur cartula
+                        commutacionis ad meam habeo et detineo proprietatem, et si quislibet homo
+                        adversum me exinde aliquid dicere vult, paratus sum cum eo ad racionem
+                        standum et inde fine precipiendum; et quod plus est quero ut dicat iste
+                        do(m)nus Vuilielmus episcopus unam cum <persName>Rethaldo qui et
+                            Razo</persName>
+                        <rs key="#Judge">iudex</rs> et <rs
+                            key="#Advocatus_of_other_public_authorities">advocato</rs> ipsius
+                        episcopio qui hic ad presens est si m(ihi) rebus ipsis cum predicta capella
+                        inibi constructa et edifficata, que in ipsa legitur cartula commutacionis,
+                        contradicere aut subtrahere querant aut si ea fieri rogavit, vel si casis et
+                        rebus ipsis quod ad parte iam dicte sue ecclesie vel episcopio dedi per
+                        cartula commutacionis a(m)pliati et meliorati recepti habent an non». Qui et
+                        ipse do(m)nus Vuilielmus presul unam cum dictus Rethaldus iudex tutorem et
+                        advocato suo professi et manifesti dixerunt: «Vere cartula illa
+                        commutacionis quam tu hic ostensisti bona et vera est et in ea fieri rogavi
+                        et rebus ipsis cum predicta capella que in ipsa legitur cartula
+                        commutacionis tibi non contradiximus nec contradicimus nec contradicere
+                        querimus, quia nec legibus possumus, set tuis propriis cum lege esse debet,
+                        ne[c] nobis nec a parte iam dicte nostre ecclesie vel episcopio ad habendum
+                        nec requirendum nichil pertinet nec pertinere debet cum lege, et casis et
+                        rebus ipsis cum predicta capella quod tu a parte iam dicte nostre ecclesie
+                        vel episcopio per ipsa cartula commutacionis emisisti a(m)pliati et
+                        meliorati recepti habemus a parte iam dicte nostre ecclesie vel episcopio».
+                        His actis et manifestacio supra facta omnibus quibus supra iudicum et
+                        auditoribus co(m)paruit eorum rectum esse, et iudicaverunt ut iusta eorum
+                        professionem et eidem do(m)ni presuli et suo advocato manifestacionem ipse
+                        Adelbertus comes ipsis rebus cum predicta capella quam in ipsa legitur
+                        cartula commutacionis ad suam habere et detinere proprietatem, et prefatus
+                        do(m)nus presul et ipse Rethaldus advocato suo inde manerent omni te(m)pore
+                        taciti et conte(m)pti. Et in eo modo finita est causa. Et hanc noticiam pro
+                        securitate ipsius Adelberti comes fieri iussimus. Quidem et ego
+                            <placeName>Ansefre</placeName>
+                        <rs key="#Notary">notarius</rs> do(m)ni i(m)peratori ac regi ex iussione
+                        suprascripto misso et iudicum ammonicione scripsi. <date>Anno do(m)ni
+                                <persName ref="#people/173">Ottoni</persName> imperator augustus et
+                            item <persName ref="#people/239">Ottoni</persName> filio eius gracia Dei
+                            rex, anno imperli et regni eorum hic in Italia primo, die duodecimo
+                            mense octubris, indicione sexta</date>. + [S]ignum manus suprascripto
+                        Rolandi misso qui ut supra interfui. + Ego <persName>Vuibertus</persName>
+                        <rs key="#Viscount">vicecomes</rs> interfui. + Deodatus iudex do(m)ni
+                        imperatons ac regi interfui. + Urso iudex do(m)ni imperatoris ac regi
+                        interfui. + Teuzo iudex do(m)ni imperatori ac regi interfui. + Eribertus
+                        iudex do(m)ni imperatori ac regi interfui. + Sadelbertus notarius do(m)ni
+                        imperatori ac regi interfui. + Berno notanus interfui. Signun manibus
+                        suprascriptorum Adelfredi et Arderadi et Oldeverti et Anselmi et Ansprandi
+                        et Authekerii et Machinfredi et Vualberti et Bonifredi et Vuerinzoni et
+                        Rogeri et Antonius germanis, et Adelgisi et Sigifredi et Vuidonis et
+                        Odgerius, qui ibi ut supra interfuerunt. (S.) <rs key="#Copyist">Ego Teuzo
+                            notarius autenticum huius exe(m)pli vidi legi et sic ibi continebatur
+                            sicut hic legitur preter litteras plus minusve et hoc exe(m)plum manibus
+                            meis exe(m)plavi</rs>. </ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>CDP I n. 5, pp. 67-70; Manaresi II/1 n. 149, pp. 24-31.</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p>Fumagalli 1971; Rinaldi 2003.</p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>La <foreign>notitia iudicati</foreign> contiene come inserto la <foreign>cartula
+                        commutacionis</foreign> del 10 ottobre 962 (CDP I n. 4).</p>
+            </div>
+        </body>
+    </text>
+</TEI>

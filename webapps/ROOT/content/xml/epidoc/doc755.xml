@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title><title>Archivio di Stato di Milano, Museo Diplomatico, 225/87</title></title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc755</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Venditio</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0963-02-08"><note type="displayed_date">8 Februar
+                                    963</note><note type="dating_elements"/><foreign>
+                                    <note type="topical_date">in villa quae dicitur Ariole,
+                                        iudiciaria Regensis</note>
+                                </foreign></origDate>
+                            <origPlace>Monastero di San Benedetto Polirone</origPlace>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-02-08">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>(S.) In nomine domini Dei et salvatoris nostri Iesu Christi. <date><persName
+                                ref="#people/173">Otto</persName> divina ordinante providencia
+                            imperator augustus, anno imperii eius primo et item <persName
+                                ref="#people/239">Otto</persName> filio eius gra(cia) Dei rex hic in
+                            Italia anno die octavo mense februario,indicione sesta</date>. Constat
+                        me <persName key="#legallyRecognisedUnionWith">Albericus</persName> bone
+                        memorie <persName key="#Count">Raginerii</persName>
+                        <rs key="#Count">comiti</rs> filius de <rs key="#Comitatus">cormtatu</rs>
+                        <placeName>Placencia</placeName> et <persName
+                            key="#Lombard #legallyRecognisedUnionWith">Millerada</persName>
+                        iugalibus qui professa sum ex nacione mea lege vivere <rs key="#Lombard"
+                            >Longuobardorum</rs>, set pro ipse vir meus nunc lege vivere
+                        Longuobardorum, ipse namque iugale meus m(ihi) consenciente et hic subter
+                        confirmante, et iusta capitulare domni imperatori ut sicut mulier per
+                        consensum et datam licenciam viri sui potestatem haberet de rebus suis
+                        vendendi, seu pro idem lege viro meo in qua modo vivo, per noticiam et
+                        interrogacionem de propinquiores parentibus meis, cui supra femina, hii sunt
+                            <rs key="#kinOf"><persName>Gusbertus</persName> et
+                                <persName>Elinus</persName> seu <persName>Vuinieldus</persName></rs>
+                        propinquiores parentis meis in quorum presencia vel testium certa facio
+                        promissionem pro nulla me pati violencia ad quempiam hominem nec abc ipso
+                        iugale meo nisi mea bona et spontanea voluntate, accepissemus sicuti et in
+                        presencia testium accepimus nos iugalibus communiter a te <persName
+                            key="#Priests">Rigenfredus</persName>
+                        <rs key="#Priests">presbitero</rs> filius quondam
+                            <persName>Ga(n)fri</persName> del loco <placeName>Ca(r)bole</placeName>
+                        per misso tuo <persName>Assprandus</persName>
+                        <rs key="#Judge">iudex</rs> per <rs key="#Price">denarios bonos libras
+                            decem, habente per libram ducenti quadraginta denarios</rs>, finitum
+                        precium pro insulas duas iuris nostris in comitatu Mantuanense, una vero
+                        insola quae dicitur <placeName key="#Islands">Arcamoretule</placeName> de
+                        fine casa Sancti Benedicti usque in Sancta Maria in caput Mincio; alia
+                        namque insola dicitur Gurgo Pedanno habet finis: ab uno latere fluvio Padi,
+                        alio latere fluvio Largione et rio qui dicitur Pedanno, cum omnibus eorum
+                        adiacenciis vel pertinenciis sicuti ad nos inibi sunt possessas vel
+                        defensatas vel nobis inibi per quocumque ingenio pertinere iuris in
+                        integr(um), tam casis cum edifficiis suis, ca(m)pis, pratis, pascuis,
+                        vineis, silvis ac paludibus, virgariis et pisscacionibus vel usum aquis,
+                        omnia et ex omnibus quicquid ad ipsas insolas cum suas integritates
+                        pertinere videntur per qualibet ordinem vel tuicionem. Que autem
+                        suprascriptas insolas qualiter supra co(m)prehensum legitur, idest omnia et
+                        ex omnibus quicquid m(ihi) pertinere videtur sicuti ad nos sunt possessas et
+                        defensatas vel ibi ad nos per quocumque ingenio pertinet iuris cum
+                        accessiones et ingressoras suas seu cum superioribus et inferioribus suis,
+                        ab hac die tibi qui supra Rigenfredi presbitero per hanc cartulam et per
+                        suprascriptum argentum vendimus, tradimus, mancipamus liberis quoque ab omni
+                        nexu pubblicum privatove, et nulli alii venditas, donatas, alienatas,
+                        obnoxiatas vel traditas nisi tibi, et facias exinde a presenti die tu
+                        Rigenfredus presbiter et heredes tui cui vos dederitis vel habere
+                        statueritis proprietario iure quicquid volueritis sine ulius contradicione
+                        vel repeticione. Insuper ego Millerada per eadem legem quam nata sum
+                        fistucam nodatam, cultellum, vuantonem et vuasone terre vel ramum arboribus
+                        coram testibus legittiman feci investituram vel corporalem et me exinde
+                        vuarpivi foris espoliet asentam feci tibi reliquid. Si quis vero, quod
+                        futurum esse non credo, si ego ipse Millerada quod absit aut ullus de
+                        heredibus aut proheredibus vel propinquis seu quislibet obposita persona qui
+                        contra hanc cartulam vendicionis et tradicionis ire quandoque
+                        te(m)ptaverimus aut eam per quodvis ingenium infrangere conaverimus,
+                        inferamus vobis mulcta quod est pena auri optimun libras decem argenti
+                        ponderas viginti et quod reperierimus vindicare non valeamus, set presens
+                        cartula vendicionis et tradicionis firma et inconvulsa permaneat cum
+                        stipulacione subnixa. Et ad nos iugalibus vel nostris heredibus ac
+                        proheredibus tibi qui supra Riginfredi presbitero vel ad tu aut cui vos
+                        dederitis vel habere statueris quod si nos vobis suprascriptas insulas cum
+                        suas integritates et pertinencias qualiter superius legitur contrahere aut
+                        retollere vel minuare quesierimus per nos aut nostras submittentes personas,
+                        vel si apparuerit ullum datum aut factum vel quodlibet scriptum anteriorem
+                        vel posteriorem aut ullam refutacionem aut obligacionem in aliam partem et
+                        in integr(um) ipsas insolas cum suas integritates et pertinencias qualiter
+                        superius venundavimus ab om[n]e contradicentes homines non defensaverimus,
+                        tunc in duplum super a suprascripta nostra vendicio vos restituamus sicut
+                        pro te(m)pore fuerit melioratas aut valuerit, sub estimacione in consimiles
+                        locas, et nichil vobis ex ipsum precium aliquid amplius reddeberis diximus.
+                        Et bergamena cum atramentario de terra elevavimus et Vualberti notarii
+                        scribere tradimus vel rogavimus manum etiam subter confirmans et testibus
+                        obtulit roborandam. Actum in villa quae dicitur Ariole, iudiciaria Regensis
+                        feliciter. Signum manibus Alberici et Millerade iugalibus qui hanc cartulam
+                        vendicionis et tradicionis ad omnia ut supra fieri rogaverunt et
+                        suprascripto argento acceperunt et eorum relecta est. Signum manibus
+                        suprascriptorum Guusberti et Elini seu Vuinieldi propinquiores parentibus
+                        ipsi Millerade qui eam interrogaverunt ut supra. Signum manibus Uberti et
+                        Uguoni seu Rainerii lege viventes Francorum testes. Signum manibus Oddoni
+                        filius Vuinigisi de civitate Parma et Ribaldi atque Iohanni similiter ex
+                        genere Francorum rogati testes. Signum manibus Ansprandi de Iuminianello seu
+                        Giselberti et Ardemagni de loco Gurgo rogati testes. Ego Petrus rogatus
+                        subscripsi. Ego Garardo rogatus subscripsi. Ansprandus Sacri Palacii rogatus
+                        subscripsi. (S.) Ego qui supra Vualbertus notarius domni imperatoris ac
+                        regis scriptor huius cartula vendicionis et tradicionis per iusso et data
+                        licencia Adelberti comes is eius comitatu Regensis post traditam co(m)plevi
+                        et dedi. <rs key="#Copyist">(S.) Ego Teuzo notarius autenticum huius
+                            exe(m)pli vidi legi et sic ibi continebatur qualiter hic legitur preter
+                            litteras plus minusve et hoc exe(m)plum manibus meis exe(m)plavi</rs>. </ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>CDP I n. 6, pp. 70-73.</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p>Fumagalli 1971; Rinaldi 2003.</p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
