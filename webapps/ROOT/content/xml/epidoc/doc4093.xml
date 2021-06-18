@@ -81,29 +81,45 @@
                 <body>
                     <div type="edition">
                         <div type="textpart">
-                            <ab>Liutpert homo liber et filio quondam Teuderici, quia per cartula ad
+                            <ab><persName key="#Freeborn"><name ref="Liutbertus"
+                            >Liutpert</name></persName>
+                        <rs key="#Freeborn">homo liber</rs> et filio quondam <persName><name
+                                ref="Teudericus">Teuderici</name></persName>, quia per cartula ad
                         resedendo confirmasti me et filiis et nepotibus meis tu venerabili domno
-                        Peredeo <rs key="#Bishops">episcopo</rs> in <rs
-                            key="#Casae/cassinae_massaricie">casa</rs>
-                        <rs key="#Churches">ecclesie</rs> vestre in loco Ligori, ubi antea ressidet
-                        quondam Ursulo, et in omnes <rs key="#Landed_possessions">res</rs> ividem
-                        pertenentes. <foreign>Perciò promette per sé, i figli e i nipoti</foreign>
-                        ut diebus vite nostre in ipsa casa abitare debeamus et ipsa casa et honnes
-                        res ividem pertenentes in omnibus meliorare debeamus et in alio loco aut in
-                        alia casa peculiarina facere non debeamus. Et per singulo anno (…) reddere
-                        debeamus de ipsa res <rs key="#Rent_in_kind">duo modia <rs key="#Maiores"
-                                >grano</rs> et duo modia <rs key="#Minores">farre</rs>, <rs
-                                key="#Wine">vino</rs> anforas quinque, <rs key="#Oil">olivas</rs>
-                            medietate, <rs key="#Animals">animale</rs> bono magese, in Pascha pario
-                            uno <rs key="#Poultry">pullos</rs>, ovas decen</rs>, et <rs
-                            key="#Operae">angaria</rs> vobis facere debeamus, sicut est consuetudo
-                        vobis facere alii massarii de ipso loco. <foreign>Pena</foreign>: auri
-                        solidos trigenta. (…) Actum Luca. <foreign>Sottoscrizioni</foreign>: +
-                        Liutpert promissori; (ss) Gausprandus <rs key="#Subdeacons"
-                        >subdiaconus</rs>; + Pertiperti <rs key="#Other_clerics">clerici</rs>
-                        testis; + Fratelli filio quondam Gunperti de Trasusare testes.
-                            <foreign>Scrive</foreign>: Osprandus <rs key="#Deacons"
-                        >diaconus</rs>.</ab>
+                            <persName ref="#people/343">Peredeo</persName>
+                        <rs key="#Bishops">episcopo</rs> in <rs key="#Casae/cassinae_massaricie"
+                            >casa</rs>
+                        <orgName ref="#juridical_persons/68" key="#Mother_churches"><rs
+                                key="#Mother_churches">ecclesie</rs> vestre</orgName> in loco
+                            <placeName key="#Casae/cassinae_massaricie #Landed_possessions"
+                            >Ligori</placeName>, ubi antea ressidet quondam <persName><name
+                                ref="Ursulus">Ursulo</name></persName>, et in omnes <rs
+                            key="#Landed_possessions">res</rs> ividem pertenentes. <foreign>Perciò
+                            promette per sé, i figli e i nipoti</foreign> ut diebus vite nostre in
+                        ipsa casa abitare debeamus et ipsa casa et honnes res ividem pertenentes in
+                        omnibus meliorare debeamus et in alio loco aut in alia casa peculiarina
+                        facere non debeamus. Et per singulo anno (…) reddere debeamus de ipsa res
+                            <rs key="#Rent_in_kind">duo modia <rs key="#Maiores">grano</rs> et duo
+                            modia <rs key="#Minores">farre</rs>, <rs key="#Wine">vino</rs> anforas
+                            quinque, <rs key="#Oil">olivas</rs> medietate, <rs key="#Animals"
+                                >animale</rs> bono magese, in Pascha pario uno <rs key="#Poultry"
+                                >pullos</rs>, ovas decen</rs>, et <rs key="#Operae">angaria</rs>
+                        vobis facere debeamus, sicut est consuetudo vobis facere alii massarii de
+                        ipso loco. <foreign>Pena</foreign>: auri solidos trigenta. (…) Actum
+                            <placeName ref="#places/4">Luca</placeName>.
+                            <foreign>Sottoscrizioni</foreign>: + Liutpert promissori; (ss) <persName
+                            key="#Witness #Subdeacons"><name ref="Gausprandus"
+                            >Gausprandus</name></persName>
+                        <rs key="#Subdeacons">subdiaconus</rs>; + <persName
+                            key="#Witness #Other_clerics"><name ref="Pertipertus"
+                            >Pertiperti</name></persName>
+                        <rs key="#Other_clerics">clerici</rs> testis; + <persName key="#Witness"
+                                ><name ref="Fratellus de Trasusare">Fratelli</name></persName> filio
+                        quondam <persName><name ref="Gumbertus">Gunperti</name></persName> de
+                            <placeName>Trasusare</placeName> testis. <foreign>Scrive</foreign>:
+                            <persName key="#Writer #Deacons"><name ref="Osprandus"
+                            >Osprandus</name></persName>
+                        <rs key="#Deacons">diaconus</rs>.</ab>
                         </div>
                     </div>
                     <div type="bibliography" subtype="editions">
@@ -116,13 +132,8 @@
                         <p/>
                     </div>
                     <div type="commentary">
-                         <p>Persone: Desiderio re; Adelchis re; Liutpert (f. Teuderici); Teuderici
-                    (p. Liutpert); Peredeo ep [di Lucca]; Ursulo; Osprandus diac; Gausprandus
-                    s/diac; Pertiperti cler; Fratelli de Trasausare (f. Gunperti); Gunperti (p.
-                    Fratelli de Trasausare). Luoghi: Luca [Lucca]; loco Ligori [Licori]; Trasausare
-                    [cf. Auser fl.]. Chiese: . Cariche: . Note: . Indice: fam. Peredeo - promissio -
-                    angarie - contratto agrario. <foreign>Nota dorsale (sec. XI-XII)</foreign>: He
-                    cartule XIII nove exemplaria sunt totidem veterum sibi colligatarum.</p>
+                         <p><foreign>Nota dorsale (sec. XI-XII)</foreign>: He cartule XIII nove
+                    exemplaria sunt totidem veterum sibi colligatarum.</p>
                     </div>
                 </body>
             </text>
