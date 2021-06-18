@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    *H.12</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc4095</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Offersio/donatio</rs>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate notBefore="0764-05-01" notAfter="0764-05-31">
+                                <note type="displayed_date">764 May</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Lucca</note>
+                            </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-06-18" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab>Ego Teuprand (…) edificavi eclesia in territurio meo hic infra muro
+                        civitatis Lucense, in onore beati Archangeli Mihahelis, cum coniuge mea
+                        Gumpranda, pro remedio anime nostre, una cum filias nostras avitare et
+                        vivere diveas subrie et caste; <foreign>alla loro morte possano fare lo
+                            stesso i suoi discendenti, se lo volessero, e potranno amministrarne il
+                            patrimonio. Ora dona</foreign>: in primis, fondamentum infra civitate
+                        ubi ipse eclesia beati Sancti Arcangeli Mihahelis fondata est, cum curte et
+                        puteum, cum granario et ipsa sala comodo ipsi istaffili positi sunt, seo et
+                        orto comodo sepis circumdatu fuerit, seo et casa Rachuli in Sexto, una cum
+                        ipso Rachulo; et casa in Versilia, qui regitur per Sirola massario homine
+                        livero, portionem meam in integrum; et casa Magnipertuli de Asilacto, una
+                        cum ipso Magnipertulo; et quarta portione de sala et de granario, seo et
+                        finile; similiter cum quarta portione de omnes res meas in Asilacto; seo et
+                        quarta portione de Rasiniano de sundrio; et quarta portione de sala in ipso
+                        Rasiniano; et quarta portione de oleo de Trasmunte; et campo nostro ad
+                        Silice in integro; et quarta portionem de gagio nostro in Macritula; et
+                        vinea nostra in Asulari in integrum; et quarta portione de terra nostra
+                        Interacchule. <foreign>Riserva la gestione a sé</foreign>. Et dum Gumpranda
+                        aut filias meas advivere meruerint, nullus sacerdos ividem avitare presumat
+                        nisi quem ipsa Gumpranda aut filias meas invitare voluerint, messarum
+                        solemnia celebrandum. <foreign>Pena</foreign>: maledizioni.
+                            <foreign>Scrive</foreign>: Prandulo (…). Actum Luca.
+                            <foreign>Sottoscrizioni</foreign>: + Tetprand; + Maruald presbiteri
+                        testis; + Deusdedi presbiteri maioscoli testis; (ss) Austripert, filio bone
+                        memorie Thetperti; (ss) Ostripertu clericus filio quondam Pinci; (ss) Homulo
+                        clericus filio Tachipert de Fabrica; (ss) David.</ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL IV/1, n. 58; reg. MDL V/2, n. 87; CDL II, 178, pp. 145-148; ChLA,
+                    XXXIII, 981.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                         <p>Persone: Desiderio re; Adelchis re; Teuprand (sp. Gumpranda); Gumpranda
+                    (sp. Teuprand); Rachulo; Sirola; Magnipertulo; Prandulo; Maruald pbr; Deusdedi
+                    pbr maioscoli; Austripert (f. Theutperti) Theutperti (p. Austripert); Ostripertu
+                    cler (f. Pinci); Pinci (p. Ostripertu cler); Homulo cler de Fabrica (f.
+                    Tachipert); Tachipert (p. Homulo cler de Fabrica); David. Luoghi: civitatis
+                    Lucense, Luca [Lucca]; Sexto [Sesto, sul Serchio?]; Versilia [Versilia];
+                    Asilacto [Asilatto]; Rasiniano [Rosignano Mar., LI]; Trasmunte [Tramonte, pr.
+                    Brancoli]; ad Silice [Silice]; Macritula [= S. Vito]; Interacchule [Antraccoli];
+                    Fabrica. Chiese: eclesia infra muro civitatis Lucense, in onore beati Archangeli
+                    Mihahelis [S. Michele di Lucca]. Cariche: . Note: istaffili ?- maioscoli? sala -
+                    fenile - sundrio - cafagio (gagio). Indice: donazione / dotazione - chiesa /
+                    monastero - Versilia - massari - maremma. <foreign>Nota dorsale (sec.
+                        XI-XII)</foreign>: Dos monasterii Sancti Michahelis. <foreign>Manca la
+                        completio</foreign>. Sesto presso Ponte a Moriano (Lucca); Tramonte di
+                    Brancoli (Lucca); San Vito (già nel territorio di Picciorana; Lucca); Fabbriche
+                    di Vallico o Fabbriche di Casabasciana.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>
