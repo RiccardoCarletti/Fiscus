@@ -82,32 +82,59 @@
                 <body>
                     <div type="edition">
                         <div type="textpart">
-                            <ab>Sundiperto <rs>presbitero</rs>, qui et Sprincho vocor, filio
-                        Ferduli, havitator in <rs>vico</rs> prope <rs>plebe</rs> et <rs>eclesia</rs>
-                        Sancti Martini <rs>diocese</rs> Lucense <foreign>con il consenso del padre
-                            ha chiesto a</foreign> domno et viro beatissimo Peredeo in Dei nomine
-                            <rs>epsicopo</rs>, ut cum tua licentia et iussione trasmutare devirem
-                            <rs>eclesia</rs> beati Sancti Quirici in meliore edificio et
-                            <rs>fundamento</rs> restaurando et meliorando, <foreign>vendendo
+                            <ab><persName key="#Priests"><name
+                                ref="Sundipertus/Sprincho de Vico Agello"
+                            >Sundiperto</name></persName>
+                        <rs key="#Priests">presbitero</rs>, qui et Sprincho vocor, filio
+                                <persName><name ref="Fardulus">Ferduli</name></persName>, havitator
+                        in <rs key="#Vici">vico</rs> prope <rs key="#Baptismal_churches">plebe</rs>
+                        et <rs key="#Churches">eclesia</rs>
+                        <orgName key="#Churches #Baptismal_churches" ref="#juridical_persons/607"
+                            >Sancti Martini</orgName>
+                        <rs key="#Dioecesis">diocese</rs> Lucense <foreign>con il consenso del padre
+                            ha chiesto a</foreign> domno et viro beatissimo <persName key="#Bishops"
+                            ref="#people/343">Peredeo</persName> in Dei nomine <rs key="#Bishops"
+                            >epsicopo</rs>, ut cum tua licentia et iussione trasmutare devirem <rs
+                            key="#Churches">eclesia</rs> beati <orgName
+                            key="#Casalini/fundamenta #Churches" ref="#juridical_persons/608">Sancti
+                            Quirici</orgName> in meliore edificio et <rs key="#Casalini/fundamenta"
+                            >fundamento</rs> restaurando et meliorando, <foreign>vendendo
                             accontentato. Ora promette al vescovo per sé e per i successori di non
                             sottrarre la chiesa </foreign>de sub tua potestate et de successoribus
                         tuis (…), et omni tempore in festivitate sancti Quirici recipere et
-                        gubernare debeamus <rs>presbitero</rs> illo qui in eclesia et plebe Sancti
-                        Martini rector et gubernator fuerit; et ut in ipsa festivitate ividem ipse
-                        presbiter officium et missa precare debeat et eum ad gustare, se sexto, qui
-                        ei solacii fuerint ipso officio faciendo, bene gubernare debeamus et
-                        pleniter sine aliqua dispectione, et offerta ei medietate in ipsa
+                        gubernare debeamus <rs key="#Priests">presbitero</rs> illo qui in eclesia et
+                        plebe Sancti Martini rector et gubernator fuerit; et ut in ipsa festivitate
+                        ividem ipse presbiter officium et missa precare debeat et eum ad gustare, se
+                        sexto, qui ei solacii fuerint ipso officio faciendo, bene gubernare debeamus
+                        et pleniter sine aliqua dispectione, et offerta ei medietate in ipsa
                         festivitate sancti Quirici dare debeamus. <foreign>Pena</foreign>: auri
                         soledos nomero centum (…). Et quod menime superius memoravimus, iam per
                         annos quadraginta et amplius ipsa eclesia Sancti Quirici sub potestate de
                         ipsa plebe vestra Sancti Martini pertenuit, et modo in suprascripto ordine
-                        decernimus, ut cunctis diebus debeat pertinere. (…) Actum in Agello, ad
-                            <rs>eclesia</rs> Sancte Marie. <foreign>Sottoscrizioni</foreign>: (ss)
-                        Sundipertus presbiter; + Ferduli genitori eius consentientis; (ss) Deusdona
-                            <rs>presbitero</rs>; (ss) Celso <rs>clericus</rs>; + Audipert
-                            <rs>presbiteri</rs> de Agello testis; + Bruninghi filio quondam Brunari
-                        de Quercito; + Rotchis <rs>clerici</rs> filio Solduli <rs>presbiteri</rs>
-                        testis. <foreign>Scrive</foreign>: Osprandus <rs>diaconus</rs>.</ab>
+                        decernimus, ut cunctis diebus debeat pertinere. (…) Actum in <placeName
+                            ref="#places/186" key="#Vici #Churches">Agello</placeName>, ad <rs
+                            key="#Churches">eclesia</rs>
+                        <orgName key="#Churches" ref="#juridical_persons/609">Sancte
+                        Marie</orgName>. <foreign>Sottoscrizioni</foreign>: (ss) Sundipertus
+                        presbiter; + Ferduli genitori eius consentientis; (ss) <persName
+                            key="#Witness #Priests"><name ref="Deusdona">Deusdona</name></persName>
+                        <rs key="#Priests">presbitero</rs>; (ss) <persName
+                            key="#Witness #Other_clerics"><name ref="Celsus">Celso</name></persName>
+                        <rs key="#Other_clerics">clericus</rs>; + <persName key="#Witness #Priests"
+                                ><name ref="Audibertus de Agello">Audipert</name></persName>
+                        <rs key="#Priests">presbiteri</rs> de <placeName ref="#places/186"
+                            >Agello</placeName> testis; + <persName key="#Witness"><name
+                                ref="Bruningus">Bruninghi</name></persName> filio quondam
+                                <persName><name ref="Brunari">Brunari</name></persName> de
+                            <placeName>Quercito</placeName>; + <persName
+                            key="#Witness #Other_clerics"><name ref="Rotchis"
+                            >Rotchis</name></persName>
+                                <rs key="#Other_clerics">clerici</rs> filio <persName key="#Priests"><name ref="Soldulus"
+                                >Solduli</name></persName>
+                        <rs key="#Priests">presbiteri</rs> testis. <foreign>Scrive</foreign>:
+                            <persName key="#Writer #Deacons"><name ref="Osprandus"
+                            >Osprandus</name></persName>
+                        <rs key="#Deacons">diaconus</rs>.</ab>
                         </div>
                     </div>
                     <div type="bibliography" subtype="editions">
@@ -126,9 +153,7 @@
                         Osprandus)</foreign>: Promissio Sprinculi presbiteri de Collis.
                         <foreign>Nota dorsale (sec. XII)</foreign>: De Sancto Quirico. <foreign>Nota
                         dorsale (sec. XI-XII)</foreign>: Repromissio a Sprinco presbitero de
-                    ecclesia Sancti Quirici in plebe Agello. chiesa di S. Martino di Gello; chiesa
-                    di San Quirico di Gello; chiesa di Santa Maria di Gello; Gello Mattaccino
-                    (Casciana Terme; Pisa); </p>
+                    ecclesia Sancti Quirici in plebe Agello.</p>
                     </div>
                 </body>
             </text>
