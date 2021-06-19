@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    +G.65</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc4098</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">-Placitum/iudicatum</rs>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate notBefore="0764-12-01" notAfter="0764-12-31">
+                                <note type="displayed_date">764 December</note>
+                                <note type="dating_elements">Indizione di un’unità in
+                                    eccesso.</note>
+                                <note type="topical_date">Lucca</note>
+                            </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-06-19" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab>+ In Dei nomine. Regnante domno nostro Desiderio rege, anno regni
+                        eius octavo, et domno nostro Adelchis rege, anno regni eius sexto, mense
+                        decembrio, per indictione tertia. Notitia iudicati, qualiter venerunt in
+                        presentia mea Peredeo in Dei nomine episcopo, in domo Sanctae Lucensis
+                        ecclesiae, Gunduald presbiter una cum Lucipert presbitero altercationem
+                        inter se habentis. Dicebat ipse Lucipert presbiter: “Iubeat me audire pietas
+                        vestra, quia iste Gunduald presbiter, tempore illo quando custus et rector
+                        erat in ecclesia vestra baptismale Sancti Cassiani, de proprio pretio eidem
+                        ecclesiae conparavet casa, in loco vocabuli Campulo, da Maurello et Dominico
+                        et Gaudentiolo et Micciolo, cum portiuncola quam pertenuit ad ipsa casa, cum
+                        mobilia vel inmobilia in integrum; et modo, postquam foris exiet de ipsa
+                        casa ecclesiae, tulet secum ipsum monimen per quem ipsa rem emerat, et
+                        possidet ipsam rem sibi privato, qui legibus ipsei ecclesiae pertinere
+                        debet”. Ad hec respondebat Gunduald presbiter: “Veritas est, quia, resedente
+                        me in ipsa casa ecclesiae, comparavi ipsa casa de quam adseris, set, Deo
+                        teste, de proprio pretio meo, quem de iura parentum meorum tuli, exinde
+                        conparavi ipsam rem; nam non de aliquo pretio ipsius ecclesiae”. E contra
+                        iterum dicebat Lucipert presbiter: “Habeo testes in quorum presentia ipsa
+                        conparatio facta est, qui interfuerunt quando tu in ipsam rem cruces aureas
+                        desuper altario ipsius ecclesiae in pretio dedisti ad ipsi homenis”. Nos
+                        vero ita audientis, fecimus ipso Luciperto presbitero dare wadia eidem
+                        Gunduald presbiteri, ut in constituto posito ipsos testes in presentia
+                        nostra ostendere deviret. Qui et in constituta die iteratim ambe partes ante
+                        nos coniunxerunt, et renuntiavet nobis id ipse Lucipert presbiter, eo quod
+                        testes nullo modo ostendere potuisset qualiter antea predixerat et wadia
+                        dederat. Talia vero nos cognuscentis, fecimus ipso Gundualdo presbitero
+                        ostendere nobis cartolam ipsam per quam ipsam rem emerat. Qui de presenti
+                        detulet nobis ipsam cartolam; et inveoimus insertum in eam, qualiter in
+                        ipsam rem a predicti homenis dederat Gunduald presbiter in auro soledos
+                        viginti in prefinito et, in presentia testium subter scriptorum, per quos
+                        ipsa cartula rovorata fuerat, persoluto; nam non ividem continebatur ut
+                        cruces aureas ipsius ecclesiae, ut ipse Lucipert presbiter profanabat, pro
+                        pretio dedisset in ipsam rem. Super haec iudicavimus secundum lege, et, ut
+                        plus recte nobis paruit esse, ut ipse Gunduald presbiter, postquam
+                        substantia ex iura parentum suorum havire visus est, super ipsam cartolam
+                        iuratus, se quinto, per sancta Dei evangelia diceret quia “Pretio illo, quod
+                        legitur in hanc cartuilam et dedi in ipsam rem, de proprio pretio ex iura
+                        parentum meorum fuit, nam per nullo ingenio pertenuit eclesie Sancti
+                        Cassiani, nec legibus ipsam rem perdere pro hoc non debeo”. Et in tali
+                        ordine wadia dare fecimus Gundualdo presbitero eidem Luciperti presbiteri,
+                        ut, se quinto, per evangelia ipsum sagramentum persolvere deviret. Et de
+                        presenti direximus misso nostro Osprando diacono, qui ipsum sagramentum
+                        insimul auscultare deviret. Et in eorum presentia deduxet ipsum sagramentum,
+                        ubi aderant insimul: Rachiprando presbiteer, Samuhel clericus, Raspert
+                        clericus, Sprinca clericus, Gaiprand clericus, Auripert clericus, Petto de
+                        curte domni regi et alii plurcs. Et dum hoc nobis renuntiatum fuisset, ut
+                        supra, iudicavimus, ut ipsam rem habiret Gunduald presbiter in prefinito,
+                        sicut cartula eius continebatur, et renuntiavimus eidem Luciperti
+                        presbiteri, ut de ipsa res ipse et successoribus eius remoti et contenti
+                        esse devirent. Unde hanc notitiam iudicati nostri tibi qui supra Gundualdo
+                        presbitero pro cautela et longivis temporibus emitti previdemus, ut amplius
+                        de hac re nullo tempore aliqua oriatur intentio, set cunctis diebus in
+                        suprascripto ordine stabile debeat permanere. Et pro confirmatione Osprando
+                        diacono nostro scrivere precepimus. Actum Luca. + Ego Peredeus exiguus
+                        episcopus in hunc iudicatum manu mea subscripsi. </ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL IV/1, n. 60; reg. MDL V/2, n. 90; CDL II, 182, pp. 157-160; ChLA,
+                    XXXIII, 984.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                         <p>Persone: Desiderio re; Adelchis re; Peredeo ep (di Lucca); Gunduald pbr;
+                    Lucipert pbr; Maurello; Dominico; Gaudentiolo; Micciolo; Osprandum diac (misso
+                    di Peredeo); Rachiprando pbr; Samuhel cler; Raspert cler; Sprinca cler; Gaiprand
+                    cler; Auripertus cler; Petto de curte domni regi. Luoghi: Lucensis ecclesiae,
+                    Luca [Lucca]; Campulo [Campori]. Chiese: domo sancte Lucensis ecclesiae [S.
+                    Martino di Lucca, vescovato]; ecclesia baptismale Sancti Cassiani [S. Cassiano].
+                    Cariche: . Note: Petto de curte domni regi. Indice: giudicato - fam. Peredeo -
+                    fam. Gundualdo - rif. pagamento con oggetti sacri - curte domni regi.
+                        <foreign>Nota dorsale (sec. XI-XII):</foreign> Notitia unius case in
+                    Campulo.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>
