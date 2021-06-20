@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    +N.38</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc4101</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Venditio</rs>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate when="0765-08-24"> 
+                                        <note type="displayed_date">765 August 24</note>
+                                        <note type="dating_elements"/>
+                                        <note type="topical_date">Lucca</note>
+                                    </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-06-20" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab>Bando filio quondam Aricaus vende pro anima a Rachiperta relicta
+                        quondam Ratfuns nepoti meo portione mea de res nostra quem habemus ad Ruchi,
+                        terris, vineis, castanetis. Prezzo: auri soledos nomero sex. Pena in duplum.
+                        Actum Luca. Sottoscrizioni: + Bandi vindituri; + Ermuli genero eius testis;
+                        + Asperti clerici filio quondam Raduald testis; (ss) Rignipertu clericus.
+                        Scrive: Osprandus diaconus.</ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL V/2, n. 93; CDL II, 191, pp. 178-179; ChLA, XXXIV, 987.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                         <p>Persone: Desiderio re; Adelchis re; Bando (f. Aricaus; ?zio Ratfuns;
+                    suocero Ermulo); Aricaus (p. Bando); Rachiperta (sp. Ratfuns); Ratfuns (nepos
+                    Bando; sp. Rachiperta); Osprandus diac; Ermulo (genero Bando); Asperti cler (f.
+                    Raduald); Raduald (p. Asperti cler); Rignipertu cler. Luoghi: Luca [Lucca]; ad
+                    Ruchi [Rughi?]. Chiese: . Cariche: . Note: . Indice: compravendita.
+                        <foreign>Nota dorsale (sec. XII)</foreign>: Venditio terrarum in Ruchi.
+                    Rughi (Porcari; Lucca) </p>
+                    </div>
+                </body>
+            </text>
+        </TEI>
