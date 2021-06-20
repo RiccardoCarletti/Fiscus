@@ -45,7 +45,7 @@
                                     <origDate notBefore="0765-07-01" notAfter="0765-07-31">
                                 <note type="displayed_date">765 July</note>
                                 <note type="dating_elements"/>
-                                <note type="topical_date"/>
+                                <note type="topical_date">S. Agata di Tempagnano</note>
                             </origDate>
                                     <origPlace/>
                                 </origin>
@@ -73,7 +73,7 @@
                 </profileDesc>
                 <revisionDesc>
                     <listChange>
-                        <change when="2021-04-18" who="scollavini">creation of record</change>
+                        <change when="2021-06-20" who="scollavini">creation of record</change>
                     </listChange>
                 </revisionDesc>
             </teiHeader>
@@ -81,18 +81,42 @@
                 <body>
                     <div type="edition">
                         <div type="textpart">
-                            <ab>Regnulo filio quondam Piculi <foreign>si rivolge a</foreign> Deo et
-                        tibi eclesie beate Sancte Aghati, ubi Auripert presbitero preesset videtur
-                        (…). <foreign>Dona alla chiesa</foreign> portionem mea de omnem res mea,
-                        quanta me conpetet de germano meo, (…) ubique in colivet locum avire videor
-                        (…); excepto silva et olivito quem avire videor in loco vocavoli ad rivo
-                        Serre, et terra qui avire videor in loco Macritula (…).
-                            <foreign>Scrive</foreign>: Radalpert. (…) Actum ad ipsa eclesia Sancte
-                        Agathi. <foreign>Sottoscrizioni</foreign>: + Regnuli; + Garipald filio
-                        quondam Aricaus testis; + Warnipert filio quondam Ariolfi testis; + Aspert
-                        filio Orsi testis; + Auduli filio quondam Nandulini testis; + Filipert filio
-                        quondam Filimari testis; (ss) Teuspert presbiter; (ss) Walateu presbiter;
-                        (ss) Teupertu. </ab>
+                            <ab><persName><name ref="Regnulus">Regnulo</name></persName> filio
+                        quondam <persName><name ref="Piculus">Piculi</name></persName>
+                        <foreign>si rivolge a</foreign> Deo et tibi <rs key="#Churches">eclesie</rs>
+                        <orgName key="#Churches" ref="#juridical_persons/247">beate Sancte
+                            Aghati</orgName>, ubi <persName key="#Priests"><name ref="Auripertus"
+                                >Auripert</name></persName>
+                        <rs key="#Priests">presbitero</rs> preesset videtur (…). <foreign>Dona alla
+                            chiesa</foreign> portionem mea de <rs key="#Landed_possessions">omnem
+                            res mea</rs>, quanta me conpetet de germano meo, (…) ubique in colivet
+                        locum avire videor (…); excepto <rs key="#Acorns">silva</rs> et <rs
+                            key="#Oil">olivito</rs> quem avire videor in loco vocavoli <placeName
+                            key="#Rivers #Oil #Acorns">ad <rs key="#Rivers">rivo</rs>
+                            Serre</placeName>, et <rs key="#Landed_possessions">terra</rs> qui avire
+                        videor in loco <placeName key="#Landed_possessions" ref="#places/335"
+                            >Macritula</placeName> (…). <foreign>Scrive</foreign>: <persName
+                            key="#Writer"><name ref="Radalbertus">Radalpert</name></persName>. (…)
+                        Actum ad ipsa <rs key="#Churches">eclesia</rs>
+                        <orgName key="#Churches" ref="#juridical_persons/247">Sancte
+                            Agathi</orgName>. <foreign>Sottoscrizioni</foreign>: + Regnuli; +
+                            <persName key="#Witness"><name ref="Garibaldus"
+                            >Garipald</name></persName> filio quondam <persName><name
+                                ref="Aricausus">Aricaus</name></persName> testis; + <persName
+                            key="#Witness"><name ref="Warimbertus">Warnipert</name></persName> filio
+                        quondam <persName><name ref="Arulfus">Ariolfi</name></persName> testis; +
+                            <persName key="#Witness"><name ref="Anspertus">Aspert</name></persName>
+                        filio <persName><name ref="Ursus">Orsi</name></persName> testis; + <persName
+                            key="#Witness"><name ref="Audulus">Auduli</name></persName> filio
+                        quondam <persName><name ref="Nandulinus">Nandulini</name></persName> testis;
+                        + <persName key="#Witness"><name ref="Filipertus">Filipert</name></persName>
+                        filio quondam <persName><name ref="Filimari">Filimari</name></persName>
+                        testis; (ss) <persName key="#Witness #Priests"><name ref="Teupertus"
+                                >Teuspert</name></persName>
+                        <rs key="#Priests">presbiter</rs>; (ss) <persName key="#Witness #Priests"
+                                ><name ref="Walateus">Walateu</name></persName>
+                        <rs key="#Priests">presbiter</rs>; (ss) <persName key="#Witness"><name
+                                ref="Teupertus">Teupertu</name></persName>. </ab>
                         </div>
                     </div>
                     <div type="bibliography" subtype="editions">
@@ -115,7 +139,8 @@
                     Sancte Aghati [S. Agata di Tempagnano]. Chiese: eclesie beate Sancte Aghati [S.
                     Agata di Tempagnano]. Cariche: . Note: . Indice: donazione. <foreign>Nota
                         dorsale (sec. IX)</foreign>: Da Sancta Agate offersio. <foreign>Nota dorsale
-                        (sec. XII)</foreign>: Offersio in Sancta Agatha de casis et rebus. </p>
+                        (sec. XII)</foreign>: Offersio in Sancta Agatha de casis et rebus. Serre
+                    (Compito) presso Capannori; S Vito (Lucca)</p>
                     </div>
                 </body>
             </text>
