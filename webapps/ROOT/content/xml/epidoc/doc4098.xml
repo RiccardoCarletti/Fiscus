@@ -34,7 +34,7 @@
                                     <rs type="text_type" ref="#">-Placitum/iudicatum</rs>
                                     <rs type="record_source" ref="#">Critical edition</rs>
                                     <rs type="document_tradition" ref="#">Original</rs>
-                                    <rs type="fiscal_property">No</rs>
+                                    <rs type="fiscal_property">Yes</rs>
                                 </summary>
                                 <msItem xml:id="msItem1">
                                     <textLang mainLang="" otherLangs=""/>
@@ -85,31 +85,52 @@
                             <ab>+ In Dei nomine. Regnante domno nostro Desiderio rege, anno regni
                         eius octavo, et domno nostro Adelchis rege, anno regni eius sexto, mense
                         decembrio, per indictione tertia. Notitia iudicati, qualiter venerunt in
-                        presentia mea Peredeo in Dei nomine episcopo, in domo Sanctae Lucensis
-                        ecclesiae, Gunduald presbiter una cum Lucipert presbitero altercationem
-                        inter se habentis. Dicebat ipse Lucipert presbiter: “Iubeat me audire pietas
-                        vestra, quia iste Gunduald presbiter, tempore illo quando custus et rector
-                        erat in ecclesia vestra baptismale Sancti Cassiani, de proprio pretio eidem
-                        ecclesiae conparavet casa, in loco vocabuli Campulo, da Maurello et Dominico
-                        et Gaudentiolo et Micciolo, cum portiuncola quam pertenuit ad ipsa casa, cum
-                        mobilia vel inmobilia in integrum; et modo, postquam foris exiet de ipsa
-                        casa ecclesiae, tulet secum ipsum monimen per quem ipsa rem emerat, et
-                        possidet ipsam rem sibi privato, qui legibus ipsei ecclesiae pertinere
-                        debet”. Ad hec respondebat Gunduald presbiter: “Veritas est, quia, resedente
-                        me in ipsa casa ecclesiae, comparavi ipsa casa de quam adseris, set, Deo
-                        teste, de proprio pretio meo, quem de iura parentum meorum tuli, exinde
-                        conparavi ipsam rem; nam non de aliquo pretio ipsius ecclesiae”. E contra
-                        iterum dicebat Lucipert presbiter: “Habeo testes in quorum presentia ipsa
-                        conparatio facta est, qui interfuerunt quando tu in ipsam rem cruces aureas
-                        desuper altario ipsius ecclesiae in pretio dedisti ad ipsi homenis”. Nos
-                        vero ita audientis, fecimus ipso Luciperto presbitero dare wadia eidem
-                        Gunduald presbiteri, ut in constituto posito ipsos testes in presentia
-                        nostra ostendere deviret. Qui et in constituta die iteratim ambe partes ante
-                        nos coniunxerunt, et renuntiavet nobis id ipse Lucipert presbiter, eo quod
+                        presentia mea <persName key="#Bishops" ref="#people/343">Peredeo</persName>
+                        in Dei nomine <rs key="#Bishops">episcopo</rs>, in domo <orgName
+                            key="#Mother_churches">Sanctae <placeName key="#Mother_churches"
+                                >Lucensis</placeName>
+                            <rs key="#Mother_churches">ecclesiae</rs></orgName>, <persName
+                            key="#Priests"><name ref="Gundualdus">Gunduald</name></persName>
+                        <rs key="#Priests">presbiter</rs> una cum <persName key="#Priests"><name
+                                ref="Lucibertus">Lucipert</name></persName>
+                        <rs key="#Priests">presbitero</rs> altercationem inter se habentis. Dicebat
+                        ipse Lucipert presbiter: “Iubeat me audire pietas vestra, quia iste Gunduald
+                        presbiter, tempore illo quando custus et rector erat in <rs
+                            key="#Baptismal_churches">ecclesia vestra baptismale</rs>
+                        <orgName key="#Casae/cassinae_massaricie #Works_of_art #Baptismal_churches"
+                            ref="#juridical_persons/276">Sancti Cassiani</orgName>, de proprio
+                        pretio eidem ecclesiae <rs key="#Venditio">conparavet</rs>
+                        <rs key="#Casae/cassinae_massaricie">casa</rs>, in loco vocabuli <placeName
+                            key="#Venditio #Casae/cassinae_massaricie #Landed_possessions"
+                            ref="#places/631">Campulo</placeName>, da <persName
+                            key="#Venditio #Casae/cassinae_massaricie #Landed_possessions"><name
+                                ref="Maurellus">Maurello</name></persName> et <persName
+                            key="#Venditio #Casae/cassinae_massaricie #Landed_possessions"><name
+                                ref="Dominicus">Dominico</name></persName> et <persName
+                            key="#Venditio #Casae/cassinae_massaricie #Landed_possessions"><name
+                                ref="Gaudentiulus">Gaudentiolo</name></persName> et <persName
+                            key="#Venditio #Casae/cassinae_massaricie #Landed_possessions"><name
+                                ref="Micciolus">Micciolo</name></persName>, cum <rs
+                            key="#Landed_possessions">portiuncola</rs> quam pertenuit ad ipsa casa,
+                        cum mobilia vel inmobilia in integrum; et modo, postquam foris exiet de ipsa
+                            <rs key="#Casae/cassinae_massaricie">casa</rs> ecclesiae, tulet secum
+                        ipsum monimen per quem ipsa rem emerat, et possidet ipsam rem sibi privato,
+                        qui legibus ipsei ecclesiae pertinere debet”. Ad hec respondebat Gunduald
+                        presbiter: “Veritas est quia, resedente me in ipsa casa ecclesiae, comparavi
+                        ipsa casa de quam adseris, set, Deo teste, de proprio pretio meo, quem de
+                        iura parentum meorum tuli, exinde conparavi ipsam rem; nam non de aliquo
+                        pretio ipsius ecclesiae”. E contra iterum dicebat Lucipert presbiter: “Habeo
+                        testes in quorum presentia ipsa conparatio facta est, qui interfuerunt
+                        quando tu in ipsam rem <rs key="#Works_of_art">cruces aureas</rs> desuper
+                        altario ipsius ecclesiae in pretio dedisti ad ipsi homenis”. Nos vero ita
+                        audientis, fecimus ipso Luciperto presbitero dare wadia eidem Gunduald
+                        presbiteri, ut in constituto posito ipsos testes in presentia nostra
+                        ostendere deviret. Qui et in constituta die iteratim ambe partes ante nos
+                        coniunxerunt, et renuntiavet nobis id ipse Lucipert presbiter, eo quod
                         testes nullo modo ostendere potuisset qualiter antea predixerat et wadia
                         dederat. Talia vero nos cognuscentis, fecimus ipso Gundualdo presbitero
                         ostendere nobis cartolam ipsam per quam ipsam rem emerat. Qui de presenti
-                        detulet nobis ipsam cartolam; et inveoimus insertum in eam, qualiter in
+                        detulet nobis ipsam cartolam; et invenimus insertum in eam, qualiter in
                         ipsam rem a predicti homenis dederat Gunduald presbiter in auro soledos
                         viginti in prefinito et, in presentia testium subter scriptorum, per quos
                         ipsa cartula rovorata fuerat, persoluto; nam non ividem continebatur ut
@@ -123,20 +144,43 @@
                         Cassiani, nec legibus ipsam rem perdere pro hoc non debeo”. Et in tali
                         ordine wadia dare fecimus Gundualdo presbitero eidem Luciperti presbiteri,
                         ut, se quinto, per evangelia ipsum sagramentum persolvere deviret. Et de
-                        presenti direximus misso nostro Osprando diacono, qui ipsum sagramentum
-                        insimul auscultare deviret. Et in eorum presentia deduxet ipsum sagramentum,
-                        ubi aderant insimul: Rachiprando presbiteer, Samuhel clericus, Raspert
-                        clericus, Sprinca clericus, Gaiprand clericus, Auripert clericus, Petto de
-                        curte domni regi et alii plurcs. Et dum hoc nobis renuntiatum fuisset, ut
-                        supra, iudicavimus, ut ipsam rem habiret Gunduald presbiter in prefinito,
-                        sicut cartula eius continebatur, et renuntiavimus eidem Luciperti
-                        presbiteri, ut de ipsa res ipse et successoribus eius remoti et contenti
-                        esse devirent. Unde hanc notitiam iudicati nostri tibi qui supra Gundualdo
-                        presbitero pro cautela et longivis temporibus emitti previdemus, ut amplius
-                        de hac re nullo tempore aliqua oriatur intentio, set cunctis diebus in
-                        suprascripto ordine stabile debeat permanere. Et pro confirmatione Osprando
-                        diacono nostro scrivere precepimus. Actum Luca. + Ego Peredeus exiguus
-                        episcopus in hunc iudicatum manu mea subscripsi. </ab>
+                        presenti direximus <rs key="#Missus">misso</rs> nostro <persName
+                            key="#Missus #Deacons"><name ref="Osprandus">Osprando</name></persName>
+                        <rs key="#Deacons">diacono</rs>, qui ipsum sagramentum insimul auscultare
+                        deviret. Et in eorum presentia deduxet ipsum sagramentum, ubi aderant
+                        insimul: <persName key="#Witness #Priests"><name ref="Ragibrandus"
+                                >Rachiprando</name></persName>
+                        <rs key="#Priests">presbiteer</rs>, <persName key="#Witness #Other_clerics"
+                                ><name ref="Samuel">Samuhel</name></persName>
+                        <rs key="#Other_clerics">clericus</rs>, <persName
+                            key="#Witness #Other_clerics"><name ref="Raspertus"
+                            >Raspert</name></persName>
+                        <rs key="#Other_clerics">clericus</rs>, <persName
+                            key="#Witness #Other_clerics"><name ref="Sprinca"
+                            >Sprinca</name></persName>
+                        <rs key="#Other_clerics">clericus</rs>, <persName
+                            key="#Witness #Other_clerics"><name ref="Gaiprandus"
+                            >Gaiprand</name></persName>
+                        <rs key="#Other_clerics">clericus</rs>, <persName
+                            key="#Witness #Other_clerics"><name ref="Auripertus"
+                            >Auripert</name></persName>
+                        <rs key="#Other_clerics">clericus</rs>, <persName
+                            key="#Witness #Curtes #Fiscal_property #Mention #Emperor/king"><name
+                                ref="Pettus">Petto</name></persName> de <rs
+                            key="#Curtes #Fiscal_property #Mention #Emperor/king">curte domni <rs
+                                key="#Emperor/king">regi</rs></rs> et alii plures. Et dum hoc nobis
+                        renuntiatum fuisset, ut supra, iudicavimus, ut ipsam rem habiret Gunduald
+                        presbiter in prefinito, sicut cartula eius continebatur, et renuntiavimus
+                        eidem Luciperti presbiteri, ut de ipsa res ipse et successoribus eius remoti
+                        et contenti esse devirent. Unde hanc notitiam iudicati nostri tibi qui supra
+                        Gundualdo presbitero pro cautela et longivis temporibus emitti previdemus,
+                        ut amplius de hac re nullo tempore aliqua oriatur intentio, set cunctis
+                        diebus in suprascripto ordine stabile debeat permanere. Et pro confirmatione
+                            <persName key="#Writer #Deacons"><name ref="Osprandus"
+                            >Osprando</name></persName>
+                        <rs key="#Deacons">diacono</rs> nostro scrivere precepimus. Actum <placeName
+                            ref="#places/4">Luca</placeName>. + Ego Peredeus exiguus episcopus in
+                        hunc iudicatum manu mea subscripsi. </ab>
                         </div>
                     </div>
                     <div type="bibliography" subtype="editions">
@@ -159,7 +203,7 @@
                     Cariche: . Note: Petto de curte domni regi. Indice: giudicato - fam. Peredeo -
                     fam. Gundualdo - rif. pagamento con oggetti sacri - curte domni regi.
                         <foreign>Nota dorsale (sec. XI-XII):</foreign> Notitia unius case in
-                    Campulo.</p>
+                    Campulo. La sottoscrizione di Peredeo è autografa.</p>
                     </div>
                 </body>
             </text>
