@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    ++H.53</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc4104</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Offersio/donatio</rs>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate notBefore="0766-01-01" notAfter="0766-01-13">
+                                <note type="displayed_date">766 January [1, 5 or 13]</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date"><foreign>Montenonni</foreign></note>
+                            </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-06-22" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab>Deusdona clericus, qui Lellio vocitatur, filio quondam Barbatiani,
+                        habitator in Montenonni dona pro anima Deo et tibi ecclesiae beati Sancti
+                        Colombani, sita prope muro civitatis nostrae Lucense, quae dominus Peredeus
+                        episcopus consagravit, (…) terrula mea quem habire visus sum in loco qui
+                        vocitatur Aspa: uno capite tenente in via publica, alio capite tenente in
+                        vinea de filiis Alatei, uno latere tenente in vinea Rapperti et Alperti
+                        presbiteri, et alio latere tenente in terra Rachiprandi et Teutprandi
+                        germani (…); similiter et una petiola de vinea mea in ipso loco quem habire
+                        visus sum cum arboribus: uno capite tenente in rio, et alio capite tenente
+                        in via publica, uno latere tenente in vinea Sancti Iohannis, et alio latere
+                        tenente in vinea Rachiprandi et Teuprandi germani (…). Et Ostripertus
+                        clericus scrivere rogavi. Actum Montenonni. Sottoscrizioni: + Deusdonae
+                        clerici; (ss) Gondualdus presbiter; (ss) Martinus presbiter; (ss)
+                        Rignipertus clericus; + Ropprandi clerici filio quondam Rotperti de
+                        Sundrilascio.</ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL V/2, n. 96; CDL II, 195, pp. 187-189; ChLA, XXXIV, 990.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                         <p>Persone: Desiderio re; Adelchis re; Deusdona cler, qui Lellio voc,
+                    habitator in Montenonni (f. Barbatiani); Barbatiani (p. Deusdona cler, qui
+                    Lellio voc.); Peredeo ep (di Lucca); Alatei; Rapperti; Alperti pbr; Rachiprandi
+                    (fr. Teuprandi); Teuprandi (fr. Rachiprandi); Ostripertus cler; Gondualdus pbr;
+                    Martinus pbr; Rignipertus cler; Ropprandi cler de Sundrilascio (f. Rotperti);
+                    Rotperti (p. Ropprandi cler). Luoghi: Montenonni [in Val di Cornia]; civitatis
+                    Lucense [Lucca]; Aspa; Sundrilascio [pr. Moriano]. Chiese: ecclesiae beati
+                    Sancti Colombani, sita prope muro civitatis nostrae Lucense [S. Colombano di
+                    Lucca]; Sancti Iohannis [S. Giovanni]. Cariche: . Note: . Indice: donazione -
+                    fam. Peredeo - fam. Gundualdo. <foreign>Nota dorsale (sec. VIII-IX)</foreign>:
+                    Cartula offersionis de Lellu. <foreign>Nota dorsale (sec. XII)</foreign>:
+                    Offersio a Lello clerico in Sancto Columbano de terra in Aspa. Montenonni
+                    (presso Cornino in Val di Cornia) vd. Schneider 118 nt. 1 S. Colombano; chiesa
+                    (Guerra Guidi, p. 65 nt. 1; ChLA 907) Aspa Santarlascio (S. Michele in Moriano;
+                    Lucca) </p>
+                    </div>
+                </body>
+            </text>
+        </TEI>
