@@ -81,9 +81,19 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>Eustathio presbitero fundum Laurentium et fundum Inaurorum (Maurorum?) extra
-                        portam Sancti Pancratii via Aurelia ex corpore fundi suburbani patrimonii
-                        Tusciae; prestat annue numero semis quartum auri solidos.</ab>
+                    <ab><persName key="#Priests"><name ref="Eustachius">Eustathio</name></persName>
+                        <rs key="#Priests">presbitero</rs>
+                        <rs key="#Fundi">fundum</rs>
+                        <geogName
+                            key="#Fundi #Fiscal_property #Object #Outflow #Allocation_to_individuals #Rent_in_money"
+                            >Laurentium</geogName> et <rs key="#Fundi">fundum</rs>
+                        <geogName
+                            key="#Fundi #Fiscal_property #Object #Outflow #Allocation_to_individuals #Rent_in_money"
+                            >Inaurorum</geogName> (Maurorum?) extra portam Sancti Pancratii via
+                        Aurelia ex corpore fundi suburbani <rs key="#Patrimonium">patrimonii</rs>
+                        <geogName key="#Patrimonium" ref="#estates/103">Tusciae</geogName>; <rs
+                            key="#Rent_in_money">prestat annue numero semis quartum auri
+                            solidos.</rs></ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
