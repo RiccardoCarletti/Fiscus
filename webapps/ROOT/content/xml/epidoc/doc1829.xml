@@ -4,7 +4,7 @@
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
-                <title></title>
+                <title>Archivio Capitolare Vercelli (DD B I; doc. 87) </title>
             </titleStmt>
             <editionStmt>
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
@@ -13,7 +13,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
-                <idno type="filename">doc1</idno>
+                <idno type="filename">doc1829</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -30,10 +30,10 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#"/>
-                            <rs type="record_source" ref="#"/>
-                            <rs type="document_tradition" ref="#"/>
-                            <rs type="fiscal_property"/>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -41,10 +41,10 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate notBefore="0001" notAfter="0001" when="0001"> 
-                                <note type="displayed_date"></note>
-                                <note type="dating_elements"></note>
-                                <note type="topical_date"></note>
+                            <origDate notBefore="0001" notAfter="0001" when="0913-01-26">
+                                <note type="displayed_date">913 January 26</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date"/>
                             </origDate>
                             <origPlace/>
                         </origin>
@@ -72,7 +72,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2021-02-08">creation of record</change>
+                <change when="2021-06-23" who="caterinaciccopiedi">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -80,11 +80,42 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab></ab>
+                    <ab>In nomine domini Dei eterni. Berengarius gratia Dei rex. Notum sit omnibus
+                        fidelibus sancte Dei Ecclesie nostris presentibus et futuris, qualiter
+                        petitione Adelberti gloriosissimi marchionis et dilectissimi generi nostri
+                        et Grimaldi inlustris comitis fidelium nostrorum per nostri precepti paginam
+                        donamus et concedimus ecclesie Sancte Dei genitricis Marie et Sancti Eusebii
+                        Vercellensis ad usum et substentationem canonicorum ibidem Deo famulancium
+                        locum qui olim Curtis Regia dicebatur, sicut pusterula Domini Salvatoris
+                        posita est et sicut turris parva in latere ipsius pusterule ubi carceres
+                        sunt usque in mercato publico et sicut via publica iusta macellum currit
+                        ante portam sancti Nacarii usque ad turrem veterem que dicitur Domini
+                        Salvatoris, de hinc ab ipsa turre usque ad turrim que dicitur Sancte Aghate,
+                        in una parte sicut murus anticus positus est et sicut murus novus eamdem
+                        terram circundat per turricellam Arialdi et venit usque ad pontem lapideum
+                        super flumen quod dicitur Vercellina et usque ad prenominatam pusternulam
+                        Domini Salvatoris ubi carceres sunt, cum casis et massariciis et aldionibus,
+                        tholoneis, curadiis, salvomis et omnibus undecumque publica funcio inibi
+                        censum exigebat, omnia in integrum illis damus. addimus quoque molendinos
+                        duos qui sunt in Rivo Frigido cum ripis ex utraque parte consistentibus, et
+                        perveniunt in flume Sarve. concedimus quidem super hec ipsis canonicis
+                        mercatum publicum, qui singulis kal. aug. in beati Eusebii festivitate fit,
+                        septem precedentibus totidemque eandem festivitatem continuatim
+                        subsequentibus, et mercatum ebdomadalem qui omni die sabati perficitur donec
+                        dies est. preterea de terra dominicata ipsius curtis supradicte medietatem
+                        tam de casis masariciis investitis et absis quam vineis, pratis, terris,
+                        silvis, pischariis et de omnibus ad eandem curtem legaliter pertinentibus in
+                        integrum. donamus eciam quandam curticellam iuris nostri cum mansis quinque
+                        et servis et ancillis et aldionibus ad eandem curticellam legaliter
+                        pertinentibus cum omnibus superius comprehensis; que actenus iuri palatii
+                        nostri pertinuisse visa sunt ad usum canonicorum in ecclesia Beate Marie et
+                        Beati Eusebii confessoris. Dat. VII. kal. febr. anno incarnationis Domini
+                        .DCCCCXIII., domni vero Berengarii piissimi regis .XXV., inditione prima.
+                        Actum Modetia in Christi nomine feliciter, amen. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p/>
+                <p>DD B I; doc. 87; p. 232</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>
