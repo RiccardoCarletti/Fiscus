@@ -30,9 +30,9 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#"/>
-                            <rs type="record_source" ref="#"/>
-                            <rs type="document_tradition" ref="#"/>
+                            <rs type="text_type" ref="#">-Placitum/iudicatum</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Uncertain tradition</rs>
                             <rs type="fiscal_property"/>
                         </summary>
                         <msItem xml:id="msItem1">
@@ -41,10 +41,10 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate notBefore="0001" notAfter="0001" when="0001"> 
-                                <note type="displayed_date"></note>
-                                <note type="dating_elements"></note>
-                                <note type="topical_date"></note>
+                            <origDate when="0899-08-19">
+                                <note type="displayed_date">899 august 19</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date"><foreign>Vuilzachara</foreign></note>
                             </origDate>
                             <origPlace/>
                         </origin>
@@ -118,7 +118,7 @@
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p/>
+                <p>DD B I, pp. 373-375, Falsificazioni n° IV</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>
@@ -127,7 +127,9 @@
                 <p/>
             </div>
             <div type="commentary">
-                <p/>
+                <p>Il diploma è falso e inserisce un privilegio spurio di re Astolfo (cfr. DD B I,
+                    p. 373). Il falsificatore utilizzò il diploma (DD B I, p. 81 n° XXIX) ma non la
+                    copia a noi pervenuta di questo.</p>
             </div>
         </body>
     </text>
