@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title></title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc1172</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Uncertain tradition</rs>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate notBefore="0001" notAfter="0001" when="0001"> 
+                                <note type="displayed_date"></note>
+                                <note type="dating_elements"></note>
+                                <note type="topical_date"></note>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-02-08">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine sanctae et individue Trinitatis. Berengarius divina favente gratia
+                        rex. Ufficium pietatis ac religionis semper duximus, quatenus hominibus
+                        sanctis et divino mancipatis ministerio providere ad solatium animae nostrae
+                        redundet. Quocirca noverit omnium fidelium regni nostri nostrorumque
+                        praesentium ac futurorum industria, quomodo Troilus Volongus et Pamphilus de
+                        Lanternis, legati comunitatis nostrae de Lonado comitatus Brixie, adstantes
+                        ante serenitatem nostram exposuerint damna, cedes et expoliationes, quas
+                        fideles nostri passi sunt ex incendiis et excursionibus Hungarorum.
+                        Quapropter petierunt humiliter in nomine Lupi archipresbyteri totius cleri
+                        et universae plebis illius loci, ut, cum iam immineat Barbarorum rabies,
+                        liceat ipsis construere et reedificare propugnacula et muros, quibus tueri
+                        possint fideles et res sanctas. Nos animadvertentes preces sanctorum illorum
+                        virorum et totius populi qui nobis et regno nostro semper fideles
+                        extiterunt, benigne supplicationibus eorum nobis humiliter porrectis
+                        annuimus et decernimus et nostra auctoritate roboramus, ut imminente
+                        necessitate ac Paganorum incursu reedificentur muri et castrum cum turribus
+                        et fortiliciis et portis. Item potestatem habenat construere turres circa
+                        vel supra ecclesiam Sanctorum Ioannis Baptiste et Zenonis martyris in
+                        defensione plebis, eccleise et sactarum rerum et in loco et ubicumque
+                        archipresbyter Lupus necessarium duxerit. Si quis igitur fideles nostros
+                        perturbare aut quovis modo huic nostrae paginae adversari ausus fuerit,
+                        octuaginta libras auri optimi componere cogatur, medietatem regiae nostrae
+                        camere et reliquam partem ecclesiae Sanctorum Ioannis Baptistae et Zenonis
+                        martyris ipsius loci patroni. Ut vero firmior credatur et processu temporis
+                        stabilitatem obtineat, manu nostra roboramus et anulo nostro segnamus.
+                        Signum domni (M) Berengarii serenissimi regis. Ioannes cancellarius ad vicem
+                        Ardingi episcopi et archicancellarii recognovi. Datum Veronae III idus mai,
+                        anno dominicae incarnationis DCCCCIX, domini vero Berengarii regis XXII,
+                        indictione VI.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
