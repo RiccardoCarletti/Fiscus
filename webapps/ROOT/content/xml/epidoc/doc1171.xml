@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title></title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc1171</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#"/>
+                            <rs type="record_source" ref="#"/>
+                            <rs type="document_tradition" ref="#"/>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate notBefore="0001" notAfter="0001" when="0001"> 
+                                <note type="displayed_date"></note>
+                                <note type="dating_elements"></note>
+                                <note type="topical_date"></note>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-02-08">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine domini nostri Iesu Christi Dei eterni. Berengarius rex. Regali
+                        satis congruit excellencie ut peticionibus servorum Dei libenter aures
+                        accomodet et eorum effectus devote tractando utiliter instituit, quatinus id
+                        agendo et eos in divinis cultibus fervenciores reddat, et pro his apud
+                        Dominum devotis eorum precibus eternam remunerationem percipiat. Omnium
+                        igitur sancte Dei Ecclesie nostrorumque presencium scilicet ac futurorum
+                        comperiat industria, eo quod Petrus venerabilis sancte Regensis ecclesie
+                        presul per Bertilam dilectam coniugem et consortem regni nostri nostre
+                        suggessit mansuetudini, ut quasdam res eclesie sue, quas quondam beate
+                        memorie Sigefredus eiusdem ecclesie pontifex in kanonicorum ibidem Deo
+                        beateque Dei genitricis semperque virginis Marie sanctique Michahelis
+                        Archangelo Dei militancium usibus cotidianisque vite stipendiis ad utiliorem
+                        transferens ordinem divina inspiracione constituit, et postmodum tam ab
+                        eiusdem ecclesie pontificibus quamque et bonis hominibus Deum timentibus
+                        eidem kanonice oblate sunt, nos pro Dei omnipotentis amore animeque nostre
+                        omniumque parentorum nostrorum mercede nostra regali plenius ac firmius
+                        auctoritate corroboraremus, quatinus eisdem Dei famulis largicionis nostre
+                        fultis presidiis devocius Dei famulatum exequi et pro nobis attencius.
+                        Domini misericordiam exorare delectet. Nos autem tanti pontificis precibus
+                        assencientes, hoc nostre confirmacionis apices fieri iussimus, per quos
+                        omnino decernimus atque statuimus, ut ab hinc in futurum omnes res, que
+                        prefate kanonice oblate sunt vel oblate fuerint, perhenniter stabilite
+                        permaneant. Ecclesia scilicet Sancti Michahelis Archangeli et Sancti
+                        Peregrini Sanctique Faustini et Sancti Vitalis cum omnibus pertinenciis
+                        earum et in Gavasa massaricia duo, et de parte Heremberti comitis
+                        massaricium unum, et terra cum vinea prope montem Gammoni qui Corte Duci
+                        vocitatur, et corticellas quattuor in montanis, et hec sunt nomina earum:
+                        Villa, Toano, Massa et Piriniano, seu et massaricium unum in Maxenciatico
+                        cum famulis et famulabus, verum etiam sortes duas in Argene prope corte qui
+                        Nova dicitur, seu et ecclesiam Sancti Laurencii quam Azzo venerabilis
+                        episcopus predictis kanonicis concessit cum omnibus pertinenciis suis,
+                        campum etiam unum inter Mandrie et Mandriole coniacentem qui Centumiuges
+                        nominatur, insuper etiam et omnibus mansis et rebus seu familiis utriusque
+                        sexus quas bonos et Deo timentes ipsis kanonicis ad cotidianum victum habere
+                        disposuerunt homines. Hec omnia sepe nominati kanonici cum plenissima
+                        largitate possideant, et cuncta quecumque preteritis aut futuris temporibus
+                        in eadem kanoica a benignis largitoribus aucta fuerint, per hanc nostra
+                        institucionem et confirmationem ac inviolabilem corroboracionem stabilita et
+                        fixa permaneat, ut nullus ecclesie presul eiusdem sedis vel aliqua rei
+                        publice nostre potestatis ullo umquam in tempore de prefata kanonica
+                        rebusque et familiis seu precariis vel libellariis aliquam violenciam vel
+                        diminoracionem facere presumat. Si quis contra hanc nostram confirmacionem
+                        insurgere temptaverit, aut aliquam violenciam pretaxatis kanonicis facere
+                        quesierit, noverit se compositurum quaingentas libras auri obrizi,
+                        medietatem palacio nostro et medietatem ipsi kanonice et in eadem
+                        militantibus. Et ut hec nostre confirmacionis auctoritas ab omnibus verius
+                        credatur diligenciusque observetur, manu propria subter eam confirmavimus et
+                        anuli nostri impressione insigniri iussimus. Signum domni (M) Berengarii
+                        serenissimi regis. Petrus cancellarius iussu regio recognovi et subscripsi.
+                        (SR) (SI n. II) Dat. VIII id. novembris, anno domni Berengarii serenissimi
+                        regis XX, indictione XI. Actum Papie palatio regio. In Dei nomine feliciter,
+                        amen.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>DD B I, pp. 382-385, Falsificazioni n° VIII</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
