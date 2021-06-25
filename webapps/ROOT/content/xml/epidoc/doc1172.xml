@@ -43,10 +43,10 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate notBefore="0001" notAfter="0001" when="0001"> 
-                                <note type="displayed_date"></note>
-                                <note type="dating_elements"></note>
-                                <note type="topical_date"></note>
+                            <origDate when="0909-05-13">
+                                <note type="displayed_date">909 may 13</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Verona</note>
                             </origDate>
                             <origPlace/>
                         </origin>
@@ -74,7 +74,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2021-02-08">creation of record</change>
+                <change when="2021-02-08" who="Chiara Stedile">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -82,39 +82,45 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>In nomine sanctae et individue Trinitatis. Berengarius divina favente gratia
-                        rex. Ufficium pietatis ac religionis semper duximus, quatenus hominibus
-                        sanctis et divino mancipatis ministerio providere ad solatium animae nostrae
-                        redundet. Quocirca noverit omnium fidelium regni nostri nostrorumque
-                        praesentium ac futurorum industria, quomodo Troilus Volongus et Pamphilus de
-                        Lanternis, legati comunitatis nostrae de Lonado comitatus Brixie, adstantes
-                        ante serenitatem nostram exposuerint damna, cedes et expoliationes, quas
-                        fideles nostri passi sunt ex incendiis et excursionibus Hungarorum.
-                        Quapropter petierunt humiliter in nomine Lupi archipresbyteri totius cleri
-                        et universae plebis illius loci, ut, cum iam immineat Barbarorum rabies,
-                        liceat ipsis construere et reedificare propugnacula et muros, quibus tueri
-                        possint fideles et res sanctas. Nos animadvertentes preces sanctorum illorum
-                        virorum et totius populi qui nobis et regno nostro semper fideles
-                        extiterunt, benigne supplicationibus eorum nobis humiliter porrectis
-                        annuimus et decernimus et nostra auctoritate roboramus, ut imminente
-                        necessitate ac Paganorum incursu reedificentur muri et castrum cum turribus
-                        et fortiliciis et portis. Item potestatem habenat construere turres circa
-                        vel supra ecclesiam Sanctorum Ioannis Baptiste et Zenonis martyris in
-                        defensione plebis, eccleise et sactarum rerum et in loco et ubicumque
-                        archipresbyter Lupus necessarium duxerit. Si quis igitur fideles nostros
-                        perturbare aut quovis modo huic nostrae paginae adversari ausus fuerit,
-                        octuaginta libras auri optimi componere cogatur, medietatem regiae nostrae
-                        camere et reliquam partem ecclesiae Sanctorum Ioannis Baptistae et Zenonis
-                        martyris ipsius loci patroni. Ut vero firmior credatur et processu temporis
-                        stabilitatem obtineat, manu nostra roboramus et anulo nostro segnamus.
-                        Signum domni (M) Berengarii serenissimi regis. Ioannes cancellarius ad vicem
-                        Ardingi episcopi et archicancellarii recognovi. Datum Veronae III idus mai,
-                        anno dominicae incarnationis DCCCCIX, domini vero Berengarii regis XXII,
-                        indictione VI.</ab>
+                    <ab>In nomine sanctae et individue Trinitatis. <persName key="#Emperor/king"
+                            ref="#people/21">Berengarius</persName> divina favente gratia <rs
+                            key="#Emperor/king">rex</rs>. Ufficium pietatis ac religionis semper
+                        duximus, quatenus hominibus sanctis et divino mancipatis ministerio
+                        providere ad solatium animae nostrae redundet. Quocirca noverit omnium
+                        fidelium regni nostri nostrorumque praesentium ac futurorum industria,
+                        quomodo <persName><name ref="Troilus/Volongus">Troilus
+                            Volongus</name></persName> et <persName><name ref="Pamphilus"
+                                >Pamphilus</name></persName> de Lanternis, legati comunitatis
+                        nostrae de <placeName>Lonado</placeName>
+                        <geogName key="#Comitatus" ref="#estates/312"><rs key="#Comitatus"
+                                >comitatus</rs> Brixie</geogName>, adstantes ante serenitatem
+                        nostram exposuerint damna, cedes et expoliationes, quas fideles nostri passi
+                        sunt ex incendiis et excursionibus Hungarorum. Quapropter petierunt
+                        humiliter in nomine Lupi archipresbyteri totius cleri et universae plebis
+                        illius loci, ut, cum iam immineat Barbarorum rabies, liceat ipsis construere
+                        et reedificare propugnacula et muros, quibus tueri possint fideles et res
+                        sanctas. Nos animadvertentes preces sanctorum illorum virorum et totius
+                        populi qui nobis et regno nostro semper fideles extiterunt, benigne
+                        supplicationibus eorum nobis humiliter porrectis annuimus et decernimus et
+                        nostra auctoritate roboramus, ut imminente necessitate ac Paganorum incursu
+                        reedificentur muri et castrum cum turribus et fortiliciis et portis. Item
+                        potestatem habenat construere turres circa vel supra ecclesiam Sanctorum
+                        Ioannis Baptiste et Zenonis martyris in defensione plebis, eccleise et
+                        sactarum rerum et in loco et ubicumque archipresbyter Lupus necessarium
+                        duxerit. Si quis igitur fideles nostros perturbare aut quovis modo huic
+                        nostrae paginae adversari ausus fuerit, octuaginta libras auri optimi
+                        componere cogatur, medietatem regiae nostrae camere et reliquam partem
+                        ecclesiae Sanctorum Ioannis Baptistae et Zenonis martyris ipsius loci
+                        patroni. Ut vero firmior credatur et processu temporis stabilitatem
+                        obtineat, manu nostra roboramus et anulo nostro segnamus. Signum domni (M)
+                        Berengarii serenissimi regis. Ioannes cancellarius ad vicem Ardingi episcopi
+                        et archicancellarii recognovi. Datum Veronae III idus mai, anno dominicae
+                        incarnationis DCCCCIX, domini vero Berengarii regis XXII, indictione
+                        VI.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p/>
+                <p>DD B I, pp. 385-387, Falsificazioni n° IX</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>
@@ -123,7 +129,9 @@
                 <p/>
             </div>
             <div type="commentary">
-                <p/>
+                <p>Secondo DD B I, p. 385 si tratta di una falsificazione non dubbia e non antica,
+                    che ha come modello uno dei diplomi che contenevano licenza di innalzare difese
+                    contro glu Ungari.</p>
             </div>
         </body>
     </text>
