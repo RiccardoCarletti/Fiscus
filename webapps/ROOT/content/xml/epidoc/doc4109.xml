@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    +N.83 (copia secolo VIII)</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc4019</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Offersio/donatio</rs>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Copy</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate notBefore="0767-02-01" notAfter="0767-02-28">
+                                <note type="displayed_date">767 February</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Nobule</note>
+                                <note type="redaction_date">Secolo VIII (seconda metà).</note>
+                            </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-06-26" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab>Gaidoin filio bone memorie Filimari <foreign>pro anima</foreign> a
+                        fundamentis <rs>construxi</rs>
+                        <rs>ecclesiam</rs> in onure domini et salvaturis nostri Iesu Christi in
+                        territurio meo in loco Nobule; <foreign>ed ora la dota di beni</foreign>: in
+                        primis <rs>fundamento</rs> ubi ipsa ecclesia supraposita est, cum
+                            <rs>casis</rs> et omnibus edificiis et fundamentis, una cum curte,
+                            <rs>orto</rs>, <rs>terris</rs>, <rs>vineis</rs>, <rs>olivetis</rs>,
+                            <rs>pratis, pascuis</rs>, <rs>silvis, virgareis,</rs>
+                        <rs>castanatis</rs>, cultum adque incultum, <rs>casas massaricias et
+                            aldionales</rs>, cum omnem rem ad ipsas casas pertinentes (…)
+                            <rs>servos, ancillas</rs>, <rs>aldionibus et aldianes</rs> mihi
+                        pertenentibus, omnia quidquid in quemlibet loco aliquid havire visu sum
+                        pertenentes ad <rs>curte</rs> mea in predicto loco Nobule (…). Insimul et
+                        una <rs>casa</rs> mea massaricia in Quesa, <rs>vico</rs> ubi dicitur
+                        Piniano, qui regitur per Pettulo <rs>homo liver</rs>, cum omnia pertenente
+                        ad ipsa casa, una cum muliere ipsius Pettuli et infantes eius. Pro remedium
+                        anime quondam filii mei Filoni <foreign>fa questa donazione, riservandosi la
+                            gestione vitalizia dei beni</foreign>. Et si post decesso meo ipsa
+                        ecclesia inordinata remanseret, volo ut quis de filiis et nepotibus meis
+                        tonso capite cum omnem rem suam in integrum in ipsa Dei ecclesia se offerre
+                        voluerit, caste et recte moderamine Deo et ad ipsa ecclesia servire ligibus
+                        voluerit, <foreign>possa reggere la chiesa e i suoi beni</foreign> et
+                        susceptione peregrinorum et elemosina faciendi. <foreign>Altrimenti i suoi
+                            eredi abbiano facoltà di scegliere un degno prete per reggerla, ma non
+                            di esercitare potere sulla chiesa. Pena per gli eredi se non lo faranno
+                            o cercheranno di sottrarre i beni della chiesa</foreign>: ad
+                            <rs>episcopum</rs>, qui tunc in <rs>civitate </rs>Lucense ordinatus
+                        fuerit, auri solidos numero quadringenti, quod sunt quattuor centinaria. (…)
+                        Actum in suprascripto loco Nobule. <foreign>Sottoscrizioni</foreign>: +
+                        Gaidoin; (ss) Deusdedit <rs>presbitero</rs> filio quondam Ansfrid; (ss)
+                        Filosofronius <rs>presbitero</rs>; + Gunpert filio quondam Fermuns <rs>vir
+                            devotus</rs> testis; + Richiprand filio quondam Deusdedi testis; (ss)
+                        Teudipert filius Gairepert;. <foreign>Scrive</foreign>: Sichiprand.
+                            <foreign>Copia</foreign>: Sichiprand. </ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL IV/1, n. 65; reg. MDL V/2, n. 101; CDL II, 204, pp. 212-215; ChLA,
+                    XXXIV, 995.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                         <p>Persone: Desiderio re; Adelchis re; Gaidoin (f. Filimari; Filoni);
+                    Filimari (p. Gaidoin); Filoni (f. Gaidoin); Pettulo mass; Sichiprand; Deusdedit
+                    pbr (f. Ansfrid); Ansfrid (p. Deusdedit pbr); Filosofrosius pbr; Gunpert v. dev.
+                    (f. Fermuns); Fermuns (p. Gunpert); Richiprand (f. Deusdedi); Deusdedi (p.
+                    Richiprand); Teudipert (f. Gairepert); Gairepert (p. Teudipert). Luoghi: loco
+                    Nobule [Novali, Val di Serchio? o Novoli]; Quesa [Quiesa]; vico ubi dicitur
+                    Piniano [Pignano]; civitate Lucense [Lucca]. Chiese: ecclesiam in onure domni et
+                    salvaturis nostri Iesu Christi in territurio meo in loco Nobule [S. Salvatore di
+                    Novoli]. Cariche: . Note: . Indice: fondazione / dotazione - servi - aldii -
+                    Versilia. Nota dorsale (sec. VIII-IX): + Exemplar dotali de ecclesia Gaidoin.
+                    Nota dorsale (sec. VIII-IX): + est dote ecclesie Sancti Salvatori de Nobule.
+                    Nota dorsale (sec. XII): Dos ecclesie Sancti Salvatoris site in loco Novale in
+                    Brancalo. Nota dorsale (sec. XI-XII): Cartula Sancti Quirici. Novale in Val di
+                    Serchio? Repetti, I, 360; Peiri, Serchio, 131. Quiesa e Pignano (Massarosa;
+                    Lucca) Pieri, Serchio, 58 </p>
+                    </div>
+                </body>
+            </text>
+        </TEI>
