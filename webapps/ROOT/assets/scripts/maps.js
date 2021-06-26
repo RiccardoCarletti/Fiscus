@@ -50,18 +50,19 @@ var streets = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{
         }); 
         
         
-         var polygons_places = [];
-         var lines_places = [];
-            var purple_places = [];
-            var golden_places = [];
-            var ports_places = [];
-            var fortifications_places = [];
-            var residences_places = [];
-            var revenues_places = [];
-            var estates_places = [];
-            var tenures_places = [];
-            var land_places = [];
-            var fallow_places = [];
+        var polygons_places = [];
+        var lines_places = [];
+        var purple_places = [];
+        var golden_places = [];
+        var ports_places = [];
+        var fortifications_places = [];
+        var residences_places = [];
+        var revenues_places = [];
+        var estates_places = [];
+        var tenures_places = [];
+        var land_places = [];
+        var fallow_places = [];
+        var uncertain_places = [];
             
             var LeafIcon = L.Icon.extend({ options: {iconSize: [14, 14]} });
         var purpleIcon = new LeafIcon({iconUrl: '../../../assets/images/purple.png'}),
@@ -69,7 +70,7 @@ var streets = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{
         
             for (var [key, value] of Object.entries(points)) {
             var info = key.substring(key.indexOf("@"), key.lastIndexOf("@"));
-            symbols = info.replace('@c', '<img src="../../../assets/images/anchor.png" alt="anchor" class="mapicon"/>').replace('@d', '<img src="../../../assets/images/tower.png" alt="tower" class="mapicon"/>').replace('@e', '<img src="../../../assets/images/sella.png" alt="sella" class="mapicon"/>').replace('@f', '<img src="../../../assets/images/coin.png" alt="coin" class="mapicon"/>').replace('@g', '<img src="../../../assets/images/star.png" alt="star" class="mapicon"/>').replace('@h', '<img src="../../../assets/images/square.png" alt="square" class="mapicon"/>').replace('@i', '<img src="../../../assets/images/triangle.png" alt="triangle" class="mapicon"/>').replace('@j', '<img src="../../../assets/images/tree.png" alt="tree" class="mapicon"/>'); 
+            symbols = info.replace('@c', '<img src="../../../assets/images/anchor.png" alt="anchor" class="mapicon"/>').replace('@d', '<img src="../../../assets/images/tower.png" alt="tower" class="mapicon"/>').replace('@e', '<img src="../../../assets/images/sella.png" alt="sella" class="mapicon"/>').replace('@f', '<img src="../../../assets/images/coin.png" alt="coin" class="mapicon"/>').replace('@g', '<img src="../../../assets/images/star.png" alt="star" class="mapicon"/>').replace('@h', '<img src="../../../assets/images/square.png" alt="square" class="mapicon"/>').replace('@i', '<img src="../../../assets/images/triangle.png" alt="triangle" class="mapicon"/>').replace('@j', '<img src="../../../assets/images/tree.png" alt="tree" class="mapicon"/>').replace('@k', '<img src="../../../assets/images/uncertain.png" alt="uncertain" class="mapicon"/>'); 
             if (key.includes('#a')) {
             purple_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {time: key.substring(0, key.indexOf("|")), icon: purpleIcon, id:key.substring(key.lastIndexOf("@") +1)}).bindPopup('<a target="_blank" href="places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(key.indexOf("|") +1, key.indexOf("#")) + '</a> ' + symbols + ' <span class="block">See linked documents (' + key.substring(key.indexOf("#") +1, key.lastIndexOf("#")) + '): <a target="_blank" href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
             if (key.includes('c@')) {
@@ -95,6 +96,9 @@ var streets = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{
             }
             if (key.includes('j@')) {
             fallow_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {time: key.substring(0, key.indexOf("|")), icon: purpleIcon, id:key.substring(key.lastIndexOf("@") +1)}).bindPopup('<a target="_blank" href="places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(key.indexOf("|") +1, key.indexOf("#")) + '</a> ' + symbols + ' <span class="block">See linked documents (' + key.substring(key.indexOf("#") +1, key.lastIndexOf("#")) + '): <a target="_blank" href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
+            }
+            if (key.includes('k@')) {
+            uncertain_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {time: key.substring(0, key.indexOf("|")), icon: purpleIcon, id:key.substring(key.lastIndexOf("@") +1)}).bindPopup('<a target="_blank" href="places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(key.indexOf("|") +1, key.indexOf("#")) + '</a> ' + symbols + ' <span class="block">See linked documents (' + key.substring(key.indexOf("#") +1, key.lastIndexOf("#")) + '): <a target="_blank" href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
             }
             }
             if (key.includes('#b')) {
@@ -122,6 +126,9 @@ var streets = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{
             }
             if (key.includes('j@')) {
             fallow_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {time: key.substring(0, key.indexOf("|")), icon: goldenIcon, id:key.substring(key.lastIndexOf("@") +1)}).bindPopup('<a target="_blank" href="places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(key.indexOf("|") +1, key.indexOf("#")) + '</a> ' + symbols + ' <span class="block">See linked documents (' + key.substring(key.indexOf("#") +1, key.lastIndexOf("#")) + '): <a target="_blank" href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
+            }
+            if (key.includes('k@')) {
+            uncertain_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {time: key.substring(0, key.indexOf("|")), icon: goldenIcon, id:key.substring(key.lastIndexOf("@") +1)}).bindPopup('<a target="_blank" href="places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(key.indexOf("|") +1, key.indexOf("#")) + '</a> ' + symbols + ' <span class="block">See linked documents (' + key.substring(key.indexOf("#") +1, key.lastIndexOf("#")) + '): <a target="_blank" href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
             }
             }
             };
@@ -152,6 +159,7 @@ var streets = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{
         var toggle_tenures_places = L.layerGroup(tenures_places);
         var toggle_land_places = L.layerGroup(land_places);
         var toggle_fallow_places = L.layerGroup(fallow_places);
+        var toggle_uncertain_places = L.layerGroup(uncertain_places);
         var toggle_purple_places = L.layerGroup(purple_places); 
         var toggle_golden_places = L.layerGroup(golden_places);
         var toggle_polygons = L.layerGroup(polygons_places);
@@ -171,7 +179,8 @@ var streets = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{
         "All places linked to fiscal properties": toggle_golden_places,
         "All places not linked to fiscal properties": toggle_purple_places,
         "Places not precisely located or wider areas": toggle_polygons,
-        "Rivers and other longilinear places": toggle_lines,
+        "Rivers": toggle_lines,
+        "From uncertain tradition": toggle_uncertain_places,
         "Ports and fords": toggle_ports_places,
         "Fortifications": toggle_fortifications_places,
         "Residences": toggle_residences_places,
