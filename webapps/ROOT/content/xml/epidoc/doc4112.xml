@@ -31,7 +31,7 @@
                             </msIdentifier>
                             <msContents>
                                 <summary>
-                                    <rs type="text_type" ref="#"/>
+                                    <rs type="text_type" ref="#">--Venditio</rs>
                                     <rs type="record_source" ref="#">Critical edition</rs>
                                     <rs type="document_tradition" ref="#">Original</rs>
                                     <rs type="fiscal_property">No</rs>
@@ -74,7 +74,7 @@
                 </profileDesc>
                 <revisionDesc>
                     <listChange>
-                        <change when="2021-04-18" who="scollavini">creation of record</change>
+                        <change when="2021-06-26" who="scollavini">creation of record</change>
                     </listChange>
                 </revisionDesc>
             </teiHeader>
@@ -82,17 +82,43 @@
                 <body>
                     <div type="edition">
                         <div type="textpart">
-                            <ab>Fridulo virum devotum filio quondam Chichi de Brancalo
-                            <foreign>vende a</foreign> Deusdede presbitero rector eclesie Sancti
-                        Gergi, una petiola terra mea, qui viti superposita sunt, qui havere visu sum
-                        in loco Genariano, prope Sancto Gergius; et est uno capo et uno latere
-                        tenente in vinea Baruttule, et alio capo in via publicha, et alio latere in
-                        vinea Asperuli. <foreign>Prezzo</foreign>: auri soledos nomero dua.
-                            <foreign>Pena in duplum</foreign>. Actum Luca.
-                            <foreign>Sottoscrizioni</foreign>: + Friduli vindituri; + Dulcipert
-                        filio quondam Aritei viri devoti de Quaranta testis; + Perisindi munitario
-                        viri devoti; + Warniprand de Quaretana filio Teudori testis; (ss) Emmo
-                        clericus. <foreign>Scrive</foreign>: Ghisprand.</ab>
+                            <ab><persName key="#Vir_devotus/vir_honestus"><name
+                                ref="Fridulus de Brancalo">Fridulo</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">virum devotum</rs> filio quondam
+                                <persName><name ref="Chicus">Chichi</name></persName> de <placeName
+                            ref="#places/499">Brancalo</placeName>
+                        <foreign>vende a</foreign>
+                        <persName key="#Priests"><name ref="Deusdedit">Deusdede</name></persName>
+                        <rs key="#Priests">presbitero</rs> rector <rs key="#Churches">eclesie</rs>
+                        <orgName key="#Churches" ref="#juridical_persons/267">Sancti
+                        Gergi</orgName>, una <rs key="#Petiae">petiola terra</rs> mea, qui <rs
+                            key="#Wine">viti</rs> superposita sunt, qui havere visu sum in loco
+                            <placeName key="#Petiae #Wine" ref="#places/1021">Genariano</placeName>,
+                        prope Sancto Gergius; et est uno capo et uno latere tenente in <rs
+                            key="#Wine">vinea</rs>
+                        <persName key="#Confinia #Wine"><name ref="Baruttula"
+                            >Baruttule</name></persName>, et alio capo in via publicha, et alio
+                        latere in <rs key="#Wine">vinea</rs>
+                        <persName key="#Confinia #Wine"><name ref="Asperulus"
+                            >Asperuli</name></persName>. <foreign>Prezzo</foreign>: auri soledos
+                        nomero dua. <foreign>Pena in duplum</foreign>. Actum <placeName
+                            ref="#places/4">Luca</placeName>. <foreign>Sottoscrizioni</foreign>: +
+                        Friduli vindituri; + <persName key="#Witness #Vir_devotus/vir_honestus"
+                                ><name ref="Dulcipertus de Quaratana">Dulcipert</name></persName>
+                        filio quondam <persName><name ref="Eriteus">Aritei</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">viri devoti</rs> de <placeName
+                            ref="#places/239">Quaratana</placeName> testis; + <persName
+                            key="#Witness #Moneyers #Vir_devotus/vir_honestus"><name
+                                ref="Perisindus">Perisindi</name></persName>
+                        <rs key="#Moneyers">munitario</rs>
+                        <rs key="#Vir_devotus/vir_honestus">viri devoti</rs>; + <persName
+                            key="#Witness"><name ref="Warniprandus de Quarentana"
+                            >Warniprand</name></persName> de <placeName ref="#places/239"
+                            >Quaretana</placeName> filio <persName><name ref="Theodorus"
+                                >Teudori</name></persName> testis; (ss) <persName
+                            key="#Witness #Other_clerics"><name ref="Emmo">Emmo</name></persName>
+                        <rs key="#Other_clerics">clericus</rs>. <foreign>Scrive</foreign>: <persName
+                            key="#Writer"><name ref="Gisbrandus">Ghisprand</name></persName>.</ab>
                         </div>
                     </div>
                     <div type="bibliography" subtype="editions">
@@ -105,17 +131,8 @@
                         <p/>
                     </div>
                     <div type="commentary">
-                         <p>Persone: Desiderio re; Adelchis re; Fridulo de Brancalo v. dev. (f.
-                    Chichi); Chichi (p. Fridulo); Deusdede pbr; Baruttule; Aspertuli; Ghisprand;
-                    Dulciperti de Quarantana v. dev. (f. Aritei); Aritei (p. Dulciperti); Perisindi
-                    munitario; Vuarniprand de Quaretana (f. Teodori); Teodori (p. Vuarniprand); Emmo
-                    cler. Luoghi: Brancalo [Brancoli]; loco Genariano [Gignano]; Luca [Lucca];
-                    Quarantana, Quaretana [Corazzano]. Chiese: eclesie Sancti Ge&lt;o&gt;rgi [S.
-                    Giorgio (di Gignano)]. Cariche: . Note: . Indice: compravendita - mestiere
-                    (monetarius). <foreign>Nota dorsale (sec. XII)</foreign>: Venditio vinee in
-                    Branculo loco Genariano. Brancoli; Gignano presso Brancoli; Quaranta = Corazzano
-                    in Val d’Evola Repetti, I, 796, IV, 960; oppure Quarazzana in Val di Magra
-                    Pieri, Arno, 177. </p>
+                         <p><foreign>Nota dorsale (sec. XII)</foreign>: Venditio vinee in Branculo
+                    loco Genariano.</p>
                     </div>
                 </body>
             </text>
