@@ -259,6 +259,7 @@
           <xsl:if test="matches($all_keys, '.* (casae/cassinae_massaricie|casalini/fundamenta) .*')"><xsl:text>h@</xsl:text></xsl:if> <!-- tenures -->
           <xsl:if test="matches($all_keys, '.* (petiae|landed_possessions) .*')"><xsl:text>i@</xsl:text></xsl:if> <!-- land -->
           <xsl:if test="matches($all_keys, '.* (mines|quarries|forests|gualdi|cafagia|fisheries|saltworks|other_basins) .*')"><xsl:text>j@</xsl:text></xsl:if> <!-- fallow -->
+          <xsl:if test="matches($all_keys, '.*(uncertain_tradition).*')"><xsl:text>k@</xsl:text></xsl:if> <!-- uncertain tradition -->
           <xsl:value-of select="$id"/><xsl:text>": "</xsl:text><xsl:choose>
             <xsl:when test="contains(normalize-space(tei:geogName/tei:geo), ';')"><xsl:value-of select="substring-before(tei:geogName/tei:geo, ';')"/></xsl:when>
             <xsl:otherwise><xsl:value-of select="normalize-space(tei:geogName/tei:geo)"/></xsl:otherwise>
@@ -418,7 +419,8 @@
               <img src="../../../assets/images/golden.png" alt="golden circle" class="mapicon"/>Places linked to fiscal properties
               <img src="../../../assets/images/purple.png" alt="purple circle" class="mapicon"/>Places not linked to fiscal properties
               <img src="../../../assets/images/polygon.png" alt="green polygon" class="mapicon"/>Places not precisely located or wider areas
-              <img src="../../../assets/images/line.png" alt="blue line" class="mapicon"/> Rivers and other longilinear places <br/>
+              <img src="../../../assets/images/line.png" alt="blue line" class="mapicon"/> Rivers
+              <img src="../../../assets/images/uncertain.png" alt="uncertain" class="mapicon"/>From uncertain tradition <br/>
               <img src="../../../assets/images/anchor.png" alt="anchor" class="mapicon"/>Ports, fords
               <img src="../../../assets/images/tower.png" alt="tower" class="mapicon"/>Fortifications
               <img src="../../../assets/images/sella.png" alt="sella" class="mapicon"/>Residences
@@ -451,8 +453,8 @@
     </div>
   </xsl:template>
   
-  <!-- GRAPH -->
-  <xsl:template match="//tei:addSpan[@xml:id='graph']">
+  <!-- PEOPLE GRAPH -->
+  <xsl:template match="//tei:addSpan[@xml:id='people_graph']">
     <xsl:variable name="graph_items">
       <xsl:text>{nodes:[</xsl:text>
       <xsl:for-each select="$people//tei:person[not(descendant::tei:persName='XXX')][descendant::tei:idno!=''][descendant::tei:persName!='']">
@@ -747,6 +749,7 @@
         <xsl:if test="matches($all_keys, '.* (casae/cassinae_massaricie|casalini/fundamenta) .*')"><xsl:text>h@</xsl:text></xsl:if> <!-- tenures -->
         <xsl:if test="matches($all_keys, '.* (petiae|landed_possessions) .*')"><xsl:text>i@</xsl:text></xsl:if> <!-- land -->
         <xsl:if test="matches($all_keys, '.* (mines|quarries|forests|gualdi|cafagia|fisheries|saltworks|other_basins) .*')"><xsl:text>j@</xsl:text></xsl:if> <!-- fallow -->
+        <xsl:if test="matches($all_keys, '.*(uncertain_tradition).*')"><xsl:text>k@</xsl:text></xsl:if> <!-- uncertain tradition -->
         <xsl:value-of select="$id"/><xsl:text>": "</xsl:text><xsl:choose>
           <xsl:when test="contains(normalize-space(tei:geogName/tei:geo), ';')"><xsl:value-of select="substring-before(tei:geogName/tei:geo, ';')"/></xsl:when>
           <xsl:otherwise><xsl:value-of select="normalize-space(tei:geogName/tei:geo)"/></xsl:otherwise>
@@ -771,7 +774,8 @@
           <img src="../../../assets/images/golden.png" alt="golden circle" class="mapicon"/>Places linked to fiscal properties
           <img src="../../../assets/images/purple.png" alt="purple circle" class="mapicon"/>Places not linked to fiscal properties
           <img src="../../../assets/images/polygon.png" alt="green polygon" class="mapicon"/>Places not precisely located or wider areas
-          <img src="../../../assets/images/line.png" alt="blue line" class="mapicon"/> Rivers and other longilinear places <br/>
+          <img src="../../../assets/images/line.png" alt="blue line" class="mapicon"/> Rivers
+          <img src="../../../assets/images/uncertain.png" alt="uncertain" class="mapicon"/>From uncertain tradition <br/>
           <img src="../../../assets/images/anchor.png" alt="anchor" class="mapicon"/>Ports, fords
           <img src="../../../assets/images/tower.png" alt="tower" class="mapicon"/>Fortifications
           <img src="../../../assets/images/sella.png" alt="sella" class="mapicon"/>Residences
