@@ -45,7 +45,7 @@
                                     <origDate notBefore="0767-02-01" notAfter="0767-02-28">
                                 <note type="displayed_date">767 February</note>
                                 <note type="dating_elements"/>
-                                <note type="topical_date"/>
+                                <note type="topical_date">Gignano</note>
                                 <note type="redaction_date"/>
                             </origDate>
                                     <origPlace/>
@@ -87,23 +87,30 @@
                         <foreign>si rivolge alla</foreign>
                         <rs key="#Churches">eclesie</rs> et <rs key="#Monasteries">monastherio</rs>
                         <orgName key="#Churches #Monasteries" ref="#juridical_persons/267">beati
-                            Sancti Georgi</orgName> ubi <persName>Deusdede</persName>
+                            Sancti Georgi</orgName> ubi <persName key="#Priests"><name
+                                ref="Deusdedit">Deusdede</name></persName>
                         <rs key="#Priests">presbitero</rs> esset videtur. <foreign>Vendendosi in
                             pericolo di morte, dona</foreign> Deo et tibi eclesie et monastherio
                         beati Sancti Georgi <rs key="#Wine">vinea</rs> mea ante <rs
                             key="#Casae/cassinae_massaricie">casa</rs> mea, qui uno caput tenet in
                             <rs key="#Wine">vinea</rs>
-                        <persName>Amantuli</persName>, desuper caput tenet in via, latura anbas
+                        <persName key="#Confinia #Wine"><name ref="Amantulus"
+                            >Amantuli</name></persName>, desuper caput tenet in via, latura anbas
                         tenet in <rs key="#Wine">vinea</rs>
-                        <persName>Causoald</persName>
-                        <rs key="#Specialized_workers">caldarari</rs>; (…) Actum in
-                            <placeName>Gennariano</placeName>. <foreign>Sottoscrizioni</foreign>: +
-                        Ausuli; + <persName key="#Witness">Rotpert</persName> filio
-                            <persName>Roppuli</persName> de <placeName>Brancalo</placeName>; (ss)
-                            <persName>Cuntelmu</persName>
-                        <rs key="#Other_clerics">clericus</rs>; (ss) <persName>Gumprand</persName>
+                        <persName key="#Confinia #Wine #Specialized_workers"><name ref="Causoaldus"
+                                >Causoald</name></persName>
+                        <rs key="#Specialized_workers">caldarari</rs>; (…) Actum in <placeName
+                            key="#Casae/cassinae_massaricie #Wine #Specialized_workers"
+                            ref="#places/1021">Gennariano</placeName>.
+                            <foreign>Sottoscrizioni</foreign>: + Ausuli; + <persName key="#Witness"
+                                ><name ref="Robertus de Brancalo">Rotpert</name></persName> filio
+                                <persName><name ref="Roppulus">Roppuli</name></persName> de
+                                <placeName ref="#places/499">Brancalo</placeName>; (ss) <persName key="#Witness #Other_clerics"><name
+                                ref="Guntelmus">Cuntelmu</name></persName>
+                                <rs key="#Other_clerics">clericus</rs>; (ss) <persName key="#Witness #Subdeacons"><name
+                                ref="Gumbrandus">Gumprand</name></persName>
                         <rs key="#Subdeacons">subdiaconus</rs>. <foreign>Scrive</foreign>: <persName
-                            key="#Writer">Chiserat</persName>
+                            key="#Writer #Vir_devotus/vir_honestus"><name ref="Ghiserad">Chiserat</name></persName>
                         <rs key="#Vir_devotus/vir_honestus">vir devotus</rs>.</ab>
                         </div>
                     </div>
@@ -117,14 +124,8 @@
                         <p/>
                     </div>
                     <div type="commentary">
-                         <p>Persone: Desiderio re; Adelchis re; Ausulo (f. Autelmi); Autelmi (p.
-                    Ausulo); Deusdede pbr; Amantuli; Causoald caldarari; Chiserat v. dev.; Rotpert
-                    de Brancalo (f. Rappuli); Rappuli (p. Rotpert); Cuntelmu cler; Gumprand s/diac.
-                    Luoghi: Gennariano [Gignano]; Brancalo [Brancoli]. Chiese: eclesie et
-                    monastherio beati Sancti Georgi [S. Giorgio]. Cariche: . Note: caldararius - .
-                    Indice: donazione - monastero - mestiere (calderario). <foreign>Nota dorsale
-                        (sec. XII)</foreign>: Offersio de vinea monasterio nescitur in quo loco.
-                    Gennariano = Gignano (Brancoli; Lucca) Brancoli </p>
+                         <p><foreign>Nota dorsale (sec. XII)</foreign>: Offersio de vinea monasterio
+                    nescitur in quo loco.</p>
                     </div>
                 </body>
             </text>
