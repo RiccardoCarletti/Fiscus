@@ -74,7 +74,7 @@
                 </profileDesc>
                 <revisionDesc>
                     <listChange>
-                        <change when="2021-04-18" who="scollavini">creation of record</change>
+                        <change when="2021-06-26" who="scollavini">creation of record</change>
                     </listChange>
                 </revisionDesc>
             </teiHeader>
@@ -82,10 +82,11 @@
                 <body>
                     <div type="edition">
                         <div type="textpart">
-                            <ab><persName><name>Teutperto</name></persName> filio quondam
-                                <persName><name>Suniperti</name></persName> et <persName
-                            key="#Vir_devotus/vir_honestus"><name>Teudiperto</name></persName> filio
-                                <persName><name>Magnualdi</name></persName>, habitatores in loco
+                            <ab><persName><name ref="Teudebertus">Teutperto</name></persName> filio
+                        quondam <persName><name ref="Sunibertus">Suniperti</name></persName> et
+                            <persName key="#Vir_devotus/vir_honestus"><name ref="Teudebertus"
+                                >Teudiperto</name></persName> filio <persName><name
+                                ref="Mangnualdus">Magnualdi</name></persName>, habitatores in loco
                             <placeName
                             key="#Casae/cassinae_massaricie #Casalini/fundamenta #Landed_possessions #Granaries #Cereals #Wine #Oil #Fruits/vegetables #Chestnuts #Acorns #Hay/fodder"
                             ref="#places/431">Capannule</placeName>, <foreign>donano</foreign> una
@@ -113,14 +114,17 @@
                         qui ibidem ordinatus fuerit. (…) Actum <placeName ref="#places/4"
                             >Luca</placeName>. <foreign>Sottoscrizioni</foreign>: + Teudiperti <rs
                             key="#Vir_devotus/vir_honestus">viri devoti</rs>; + <persName
-                            key="#Witness"><name>Magnualdi</name></persName> pater ipsius Teudiperti
-                                consentientis; + <persName key="#Witness #Priests"><name>Arnuli</name></persName>
-                        <rs key="#Priests">presbiteri</rs>; +
-                                <persName key="#Witness"><name>Alpari</name></persName> filio quondam
-                                <persName><name>Clefoni</name></persName>; (ss)
-                                <persName key="#Witness #Other_clerics"><name>Pertipert</name></persName>
+                            key="#Witness"><name ref="Mangnualdus">Magnualdi</name></persName> pater
+                        ipsius Teudiperti consentientis; + <persName key="#Witness #Priests"><name
+                                ref="Arnulus">Arnuli</name></persName>
+                        <rs key="#Priests">presbiteri</rs>; + <persName key="#Witness"><name
+                                ref="Alpari">Alpari</name></persName> filio quondam <persName><name
+                                ref="Cliffo">Clefoni</name></persName>; (ss) <persName
+                            key="#Witness #Other_clerics"><name ref="Pertipertus"
+                            >Pertipert</name></persName>
                         <rs key="#Other_clerics">clericus</rs>. <foreign>Scrive</foreign>: <persName
-                            key="#Writer #Other_clerics"><name>Ostripertus</name></persName>
+                            key="#Writer #Other_clerics"><name ref="Ostribertus"
+                            >Ostripertus</name></persName>
                         <rs key="#Other_clerics">clericus</rs>.</ab>
                         </div>
                     </div>
@@ -134,21 +138,13 @@
                         <p/>
                     </div>
                     <div type="commentary">
-                         <p>Persone: Desiderio re; Adelchis re; Teutperto v. dev. habitator in loco
-                    Capannule (f. Suniperti); Suniperti (p. Teutperto); Teudiperto v. dev. habitator
-                    in loco Capannule (f. Magnualdi); Magnualdi (p. Teudiperto); Ostripertus cler;
-                    Arnuli pbr; Alpari (f. Clefoni); Clefoni (p. Alpari); Pertipert cler. Luoghi:
-                    civitate Lucense, Luca [Lucca]; loco Capannule [Capannoli]; Rasiniano
-                    [Rasiniano, in Val di Serchio?]. Chiese: ecclesiae beati Sancti Martini, ubi est
-                    domo episcoporum, in civitate Lucense [S. Martino di Lucca, vescovato]. Cariche:
-                    . Note: . Indice: donazione - rif. a lite. <foreign>Nota dorsale (sec.
-                        IX-X)</foreign>: Offersio Teutpert pre[…]b[…]. <foreign>Nota dorsale (sec.
-                        XI-XII)</foreign>: Offersio in Capannole ultra Arnum. <foreign>Nota dorsale
-                        (sec. XII)</foreign>: Offersio in Capannule ultra Arnum. <foreign>Nota
-                        dorsale (sec. XIII)</foreign>: de una casa et curte et granario ibidem.
-                        <foreign>Contro gli editori delle ChLA si identifica Rasiniano con Rosignano
-                        Marittimo (l'unica località di questo nome certamente citata a questa
-                        altezza cronologica).</foreign></p>
+                         <p><foreign>Nota dorsale (sec. IX-X)</foreign>: Offersio Teutpert
+                    pre[…]b[…]. <foreign>Nota dorsale (sec. XI-XII)</foreign>: Offersio in Capannole
+                    ultra Arnum. <foreign>Nota dorsale (sec. XII)</foreign>: Offersio in Capannule
+                    ultra Arnum. <foreign>Nota dorsale (sec. XIII)</foreign>: de una casa et curte
+                    et granario ibidem. <foreign>Contro gli editori delle ChLA si identifica
+                        Rasiniano con Rosignano Marittimo (l'unica località di questo nome
+                        certamente citata a questa altezza cronologica).</foreign></p>
                     </div>
                 </body>
             </text>
