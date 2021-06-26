@@ -321,7 +321,9 @@
                 </xsl:when>
               </xsl:choose>
             </xsl:variable>
-            <xsl:if test="$subtype"><xsl:text> (</xsl:text><xsl:value-of select="$subtype"/><xsl:text>)</xsl:text></xsl:if></li></xsl:for-each></ul><br/></xsl:if>
+            <xsl:if test="$subtype"><xsl:text> (</xsl:text><xsl:value-of select="$subtype"/><xsl:text>)</xsl:text></xsl:if>
+            <xsl:if test="$links[contains(concat(@corresp, ' '), concat($key, ' '))][@cert='low'] or $all_items//tei:*[descendant::tei:idno=$key][1]//tei:link[contains(concat(translate(@corresp, '#', ''), ' '), concat($this_id, ' '))][@cert='low']"><xsl:text> [</xsl:text>from uncertain tradition<xsl:text>]</xsl:text></xsl:if>
+          </li></xsl:for-each></ul><br/></xsl:if>
       
       <xsl:if test="$linkedest!=''"><strong><xsl:text>Linked estates: </xsl:text></strong>
         <ul><xsl:for-each select="$linkedest"><xsl:variable name="key" select="translate(translate(.,' ',''), '#', '')"/>
@@ -347,7 +349,9 @@
                 </xsl:when>
               </xsl:choose>
             </xsl:variable>
-            <xsl:if test="$subtype"><xsl:text> (</xsl:text><xsl:value-of select="$subtype"/><xsl:text>)</xsl:text></xsl:if></li></xsl:for-each></ul><br/></xsl:if>
+            <xsl:if test="$subtype"><xsl:text> (</xsl:text><xsl:value-of select="$subtype"/><xsl:text>)</xsl:text></xsl:if>
+            <xsl:if test="$links[contains(concat(@corresp, ' '), concat($key, ' '))][@cert='low'] or $all_items//tei:*[descendant::tei:idno=$key][1]//tei:link[contains(concat(translate(@corresp, '#', ''), ' '), concat($this_id, ' '))][@cert='low']"><xsl:text> [</xsl:text>from uncertain tradition<xsl:text>]</xsl:text></xsl:if>
+          </li></xsl:for-each></ul><br/></xsl:if>
       
       <xsl:if test="$linkedplaces!=''"><strong><xsl:text>Linked places: </xsl:text></strong>
         <ul><xsl:for-each select="$linkedplaces"><xsl:variable name="key" select="translate(translate(.,' ',''), '#', '')"/>
@@ -373,7 +377,9 @@
                 </xsl:when>
               </xsl:choose>
             </xsl:variable>
-            <xsl:if test="$subtype"><xsl:text> (</xsl:text><xsl:value-of select="$subtype"/><xsl:text>)</xsl:text></xsl:if></li></xsl:for-each></ul><br/></xsl:if>
+            <xsl:if test="$subtype"><xsl:text> (</xsl:text><xsl:value-of select="$subtype"/><xsl:text>)</xsl:text></xsl:if>
+            <xsl:if test="$links[contains(concat(@corresp, ' '), concat($key, ' '))][@cert='low'] or $all_items//tei:*[descendant::tei:idno=$key][1]//tei:link[contains(concat(translate(@corresp, '#', ''), ' '), concat($this_id, ' '))][@cert='low']"><xsl:text> [</xsl:text>from uncertain tradition<xsl:text>]</xsl:text></xsl:if>
+          </li></xsl:for-each></ul><br/></xsl:if>
       
       <xsl:if test="$linkedpeople!=''"><strong><xsl:text>Linked people: </xsl:text></strong>
         <ul><xsl:for-each select="$linkedpeople"><xsl:variable name="key" select="translate(translate(.,' ',''), '#', '')"/>
@@ -399,7 +405,9 @@
                 </xsl:when>
               </xsl:choose>
             </xsl:variable>
-            <xsl:if test="$subtype"><xsl:text> (</xsl:text><xsl:value-of select="$subtype"/><xsl:text>)</xsl:text></xsl:if></li></xsl:for-each></ul><br/></xsl:if>
+            <xsl:if test="$subtype"><xsl:text> (</xsl:text><xsl:value-of select="$subtype"/><xsl:text>)</xsl:text></xsl:if>
+            <xsl:if test="$links[contains(concat(@corresp, ' '), concat($key, ' '))][@cert='low'] or $all_items//tei:*[descendant::tei:idno=$key][1]//tei:link[contains(concat(translate(@corresp, '#', ''), ' '), concat($this_id, ' '))][@cert='low']"><xsl:text> [</xsl:text>from uncertain tradition<xsl:text>]</xsl:text></xsl:if>
+          </li></xsl:for-each></ul><br/></xsl:if>
         
         <!-- map for each juridical person -->
       <xsl:if test="ancestor::tei:listOrg and $linkedplaces!=''">
@@ -460,6 +468,7 @@
           <xsl:when test="@subtype='' or @subtype='link' or @subtype='hasConnectionWith'"><xsl:text> </xsl:text></xsl:when>
           <xsl:otherwise><xsl:value-of select="@subtype"/></xsl:otherwise>
         </xsl:choose></xsl:variable>
+        <xsl:variable name="cert" select="@cert"/>
         <xsl:variable name="color">
           <xsl:choose>
             <xsl:when test="$thesaurus//tei:catDesc[@n=$relation_type][@key='family']"><xsl:text>red</xsl:text></xsl:when>
@@ -472,7 +481,8 @@
             <xsl:text>{data: {id: "</xsl:text><xsl:value-of select="concat($id, ' + ', replace(@corresp, '#', ''))"/><xsl:text>", name: "</xsl:text><xsl:value-of select="$relation_type"/><xsl:text>", source: "</xsl:text><xsl:value-of select="$id"/>
             <xsl:text>", target: "</xsl:text><xsl:value-of select="replace(@corresp, '#', '')"/><xsl:text>"</xsl:text> 
             <xsl:text>, type: "</xsl:text><xsl:value-of select="$color"/><xsl:text>"</xsl:text>
-            <xsl:if test="$relation_type!=' '"><xsl:text>, subtype: "</xsl:text>arrow<xsl:text>"</xsl:text></xsl:if>
+            <xsl:if test="$relation_type!=' '"><xsl:text>, subtype: "arrow"</xsl:text></xsl:if>
+            <xsl:if test="$cert='low'"><xsl:text>, cert: "low"</xsl:text></xsl:if>
             <xsl:text>}}</xsl:text>
           </xsl:when>
           <xsl:when test="contains(@corresp, ' ')">
@@ -481,7 +491,8 @@
               <xsl:text>{data: {id: "</xsl:text><xsl:value-of select="concat($id, ' + ', $single_item)"/><xsl:text>", name: "</xsl:text><xsl:value-of select="$relation_type"/><xsl:text>", source: "</xsl:text><xsl:value-of select="$id"/>
               <xsl:text>", target: "</xsl:text><xsl:value-of select="$single_item"/><xsl:text>"</xsl:text> 
               <xsl:text>, type: "</xsl:text><xsl:value-of select="$color"/><xsl:text>"</xsl:text>
-              <xsl:if test="$relation_type!=' '"><xsl:text>, subtype: "</xsl:text>arrow<xsl:text>"</xsl:text></xsl:if>
+              <xsl:if test="$relation_type!=' '"><xsl:text>, subtype: "arrow"</xsl:text></xsl:if>
+              <xsl:if test="$cert='low'"><xsl:text>, cert: "low"</xsl:text></xsl:if>
               <xsl:text>}}</xsl:text>
               <xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if>
             </xsl:for-each>
@@ -528,6 +539,7 @@
           <span class="green_label">➔</span> Interpersonal bonds <input type="checkbox" id="toggle_green" checked="true"/>
           <span id="toggle_orange"/>
           <span class="blue_label">➔</span> Other interpersonal links <input type="checkbox" id="toggle_blue" checked="true"/>
+          <span class="alleged_label">⤑</span> Alleged relations <input type="checkbox" id="toggle_alleged" checked="true"/>
           <span class="relations_label"> Relation types </span> <input type="checkbox" id="toggle_labels" checked="true"/>
         </p>
       </div>
@@ -562,6 +574,7 @@
           <xsl:when test="@subtype='' or @subtype='link' or @subtype='hasConnectionWith'"><xsl:text> </xsl:text></xsl:when>
           <xsl:otherwise><xsl:value-of select="@subtype"/></xsl:otherwise>
         </xsl:choose></xsl:variable>
+        <xsl:variable name="cert" select="@cert"/>
         <xsl:variable name="color">
           <xsl:choose>
             <xsl:when test="ancestor::tei:person and @type='people'">
@@ -579,7 +592,8 @@
             <xsl:text>{data: {id: "</xsl:text><xsl:value-of select="concat($id, ' + ', replace(@corresp, '#', ''))"/><xsl:text>", name: "</xsl:text><xsl:value-of select="$relation_type"/><xsl:text>", source: "</xsl:text><xsl:value-of select="$id"/>
             <xsl:text>", target: "</xsl:text><xsl:value-of select="replace(@corresp, '#', '')"/><xsl:text>"</xsl:text> 
             <xsl:text>, type: "</xsl:text><xsl:value-of select="$color"/><xsl:text>"</xsl:text>
-            <xsl:if test="$relation_type!=' '"><xsl:text>, subtype: "</xsl:text>arrow<xsl:text>"</xsl:text></xsl:if>
+            <xsl:if test="$relation_type!=' '"><xsl:text>, subtype: "arrow"</xsl:text></xsl:if>
+            <xsl:if test="$cert='low'"><xsl:text>, cert: "low"</xsl:text></xsl:if>
             <xsl:text>}}</xsl:text>
           </xsl:when>
           <xsl:when test="contains(@corresp, ' ')">
@@ -588,7 +602,8 @@
               <xsl:text>{data: {id: "</xsl:text><xsl:value-of select="concat($id, ' + ', $single_item)"/><xsl:text>", name: "</xsl:text><xsl:value-of select="$relation_type"/><xsl:text>", source: "</xsl:text><xsl:value-of select="$id"/>
               <xsl:text>", target: "</xsl:text><xsl:value-of select="$single_item"/><xsl:text>"</xsl:text> 
               <xsl:text>, type: "</xsl:text><xsl:value-of select="$color"/><xsl:text>"</xsl:text>
-              <xsl:if test="$relation_type!=' '"><xsl:text>, subtype: "</xsl:text>arrow<xsl:text>"</xsl:text></xsl:if>
+              <xsl:if test="$relation_type!=' '"><xsl:text>, subtype: "arrow"</xsl:text></xsl:if>
+              <xsl:if test="$cert='low'"><xsl:text>, cert: "low"</xsl:text></xsl:if>
               <xsl:text>}}</xsl:text>
               <xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if>
             </xsl:for-each>
@@ -636,10 +651,12 @@
           <span class="jp_label">Juridical persons</span> <input type="checkbox" id="toggle_juridical_persons" checked="true"/>
           <span class="estates_label">Estates</span> <input type="checkbox" id="toggle_estates" checked="true"/>
           <span class="places_label">Places</span> <input type="checkbox" id="toggle_places" checked="true"/>
+          <br/>
           <span class="red_label">➔</span> Family relations <input type="checkbox" id="toggle_red" checked="true"/> 
           <span class="green_label">➔</span> Interpersonal bonds <input type="checkbox" id="toggle_green" checked="true"/>
           <span class="orange_label">➔</span> Other personal links <input type="checkbox" id="toggle_orange" checked="true"/>
           <span class="blue_label">➔</span> Other links <input type="checkbox" id="toggle_blue" checked="true"/>
+          <span class="alleged_label">⤑</span> Alleged relations <input type="checkbox" id="toggle_alleged" checked="true"/>
           <span class="relations_label"> Relation types </span> <input type="checkbox" id="toggle_labels" checked="true"/>
         </p>
       </div>

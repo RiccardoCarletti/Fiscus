@@ -89,6 +89,9 @@
         <xsl:if test="//t:origin/t:origDate/t:note[@type = 'dating_elements']/node()"><br/>
         <b>Dating elements: </b>
         <xsl:apply-templates select="//t:origin/t:origDate/t:note[@type = 'dating_elements']/node()"/></xsl:if>
+        <xsl:if test="//t:origin/t:origDate/t:note[@type = 'redaction_date']/node()"><br/>
+          <b>Date/period of redaction: </b>
+          <xsl:apply-templates select="//t:origin/t:origDate/t:note[@type = 'redaction_date']/node()"/></xsl:if>
       </p>
 
       <p id="toggle_buttons"><b>Show/hide in the text: </b>

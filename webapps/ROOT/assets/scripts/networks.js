@@ -698,6 +698,7 @@ document.addEventListener("click", function (e) {
         { selector: 'edge[type="blue"]', style: { 'line-color': 'blue', 'target-arrow-color': 'blue' } },
         { selector: 'edge[type="orange"]', style: { 'line-color': 'orange', 'target-arrow-color': 'orange' } },
         { selector: 'edge[subtype="arrow"]', style: { 'target-arrow-shape': 'triangle' } },
+        { selector: 'edge[cert="low"]', style: { 'line-style': 'dashed' } },
         
         {selector: 'node.searched', style: {'border-width': 10, 'border-color': 'red'} },
         {selector: '.hidden', style: {'display': 'none'} },
@@ -708,7 +709,7 @@ document.addEventListener("click", function (e) {
         var inputSearch = "inputSearch", inputVal = "#inputSearch", btnSearch = "#btnSearch", reset = "#reset";
         var toggle_people = "toggle_people", toggle_juridical_persons = "toggle_juridical_persons", toggle_estates = "toggle_estates", 
         toggle_places = "toggle_places", toggle_red = "toggle_red", toggle_green = "toggle_green", toggle_blue = "toggle_blue", 
-        toggle_orange = "toggle_orange", toggle_labels = "toggle_labels";
+        toggle_orange = "toggle_orange", toggle_labels = "toggle_labels", toggle_alleged = "toggle_alleged";
           
         const cy_layout = { name: 'fcose', animate: false, nodeRepulsion: 100000000, nodeSeparation: 100, randomize: true, idealEdgeLength: 300,  boxSelectionEnabled: true, selectionType: 'additive' };
         
@@ -727,6 +728,7 @@ document.addEventListener("click", function (e) {
       document.getElementById(toggle_estates).addEventListener("click", function() { cy.$('[type="estates"]').toggleClass('hidden'); });
       document.getElementById(toggle_places).addEventListener("click", function() { cy.$('[type="places"]').toggleClass('hidden'); });
       document.getElementById(toggle_red).addEventListener("click", function() { cy.$('[type="red"]').toggleClass('hidden'); });
+      document.getElementById(toggle_alleged).addEventListener("click", function() { cy.$('[cert="low"]').toggleClass('hidden'); });
       document.getElementById(toggle_green).addEventListener("click", function() { cy.$('[type="green"]').toggleClass('hidden'); });
       document.getElementById(toggle_blue).addEventListener("click", function() { cy.$('[type="blue"]').toggleClass('hidden'); });
       document.getElementById(toggle_orange).addEventListener("click", function() { cy.$('[type="orange"]').toggleClass('hidden'); });

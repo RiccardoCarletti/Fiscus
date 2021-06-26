@@ -76,7 +76,20 @@
     <field name="topical_date">
       <xsl:choose>
         <xsl:when test="text()">
-          <xsl:value-of select="normalize-space(translate(., '/', '／'))"/>
+          <xsl:value-of select="normalize-space(translate(translate(., '/', '／'), '?', ''))"/>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:text>-</xsl:text>
+        </xsl:otherwise>
+      </xsl:choose>
+    </field>
+  </xsl:template>
+  
+  <xsl:template match="tei:origDate/tei:note[@type='redaction_date']" mode="facet_redaction_date">
+    <field name="redaction_date">
+      <xsl:choose>
+        <xsl:when test="text()">
+          <xsl:value-of select="normalize-space(translate(translate(., '/', '／'), '?', ''))"/>
         </xsl:when>
         <xsl:otherwise>
           <xsl:text>-</xsl:text>
@@ -326,6 +339,7 @@
     <xsl:call-template name="field_record_source"/>
     <xsl:call-template name="field_document_tradition" />
     <xsl:call-template name="field_topical_date"/>
+    <xsl:call-template name="field_redaction_date"/>
     <xsl:call-template name="field_mentioned_keywords_-_categories"/>
     <xsl:call-template name="field_mentioned_keywords_-_terms"/>
     <xsl:call-template name="field_mentioned_people"/>
@@ -355,6 +369,10 @@
   
   <xsl:template name="field_topical_date">
     <xsl:apply-templates mode="facet_topical_date" select="/tei:TEI/tei:teiHeader//tei:origDate/tei:note[@type='topical_date']"/>
+  </xsl:template>
+  
+  <xsl:template name="field_redaction_date">
+    <xsl:apply-templates mode="facet_redaction_date" select="/tei:TEI/tei:teiHeader//tei:origDate/tei:note[@type='redaction_date']"/>
   </xsl:template>
   
   <xsl:template name="field_mentioned_keywords_-_categories">
