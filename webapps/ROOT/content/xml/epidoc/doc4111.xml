@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    +H.51</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc4111</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Offersio/donatio</rs>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate when="0767-05-01">
+                                <note type="displayed_date">767 May 1</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Lucca</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-06-26" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab>Osperto et Osprando diaconibus germanis filiis quondam Autelmi, quia
+                        per cartulam tradedit nobis quondam Auderadus presbiter res suas, ut eas
+                        venundare deberimus et despensare pro animae ipsius remedio, qualiter melius
+                        praeviderimus; <foreign>donano perciò</foreign> Deo et tibi ecclesiae beati
+                        Sancti Martini, ubi est domus episcoporum, casam ipsius presbiteri, quae est
+                        prope porticalem eiusdem basilice, ubi est scola; ipsam casam cum
+                        fundamento, curticella, orto; quae ei ex conparatione da filiis quondam
+                        Seifridi obevenit. <foreign>Riservano l’usufrutto vitalizio della casa
+                            a</foreign> Teudiperga filia quondam Gunduli <foreign>e la</foreign>
+                        potestate regendi et gubernandi et resedendi. <foreign>Poi passi sotto la
+                            potestà della chiesa di S. Martino</foreign> (…) Actum Luca.
+                            <foreign>Sottoscrizioni</foreign>: (ss) Ospertus diaconus; (ss)
+                        Osprandus diaconus; (ss) Filosofronius presbiter; (ss) Gauseramus
+                        subdiaconus; (ss) Iohannes clericus; (ss) Andreas clericus.
+                            <foreign>Scrive</foreign>: Austripertus clericus.</ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL V/2, n. 103; CDL II, 207, pp. 221-223; ChLA, XXXIV, 997.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                         <p>Persone: Desiderio re; Adelchis re; Osperto diac (fr. Osprando diac; f.
+                    Autelmi); Osprando diac (fr. Osperto diac; f. Autelmi); Autelmi (p. Osprando
+                    diac, Osperto diac); Auderadus pbr; Seifridi; Teudiperga (f. Gunduli); Gunduli
+                    (p. Teudiperga); Austripertus cler; Filosofrosius pbr; Gauseramus s/diac;
+                    Iohannes [Giovanni] cler; Andreas cler. Luoghi: Luca [Lucca]. Chiese: beati
+                    Sancti Martini, ubi est somus episcoporum [S. Martino di Lucca, vescovato].
+                    Cariche: . Note: Osprando diac è lo scriba di molte carte omonimo. Indice:
+                    donazione - esecuzione testamentaria - scola - esecutori testamentari.
+                        <foreign>Nota dorsale (sec. VIII-IX)</foreign>: Offersio da Ospert et
+                    Osprand diaconi in Sancto Martino.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>
