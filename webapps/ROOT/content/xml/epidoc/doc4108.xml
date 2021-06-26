@@ -82,32 +82,40 @@
                 <body>
                     <div type="edition">
                         <div type="textpart">
-                            <ab><persName><name>Rotprand</name></persName>
-                        <rs key="#Priests">presbitero</rs> filio quondam
-                                <persName><name>Rotpert</name></persName>, havitator in
-                            <placeName>Arsicia</placeName> prope <placeName>Arme</placeName>
+                            <ab><persName key="#Priests"><name
+                                ref="Ropprandus de Arsicia prope Arme">Rotprand</name></persName>
+                        <rs key="#Priests">presbitero</rs> filio quondam <persName><name
+                                ref="Robertus">Rotpert</name></persName>, havitator in
+                            <placeName>Arsicia</placeName> prope <placeName key="#Rivers"
+                            >Arme</placeName>
                         <foreign>ha chiesto al</foreign> domno viro beatissimo <persName
-                            ref="#people/343">Peredeo</persName> in Dei nomine <rs key="#Bishops"
-                            >episcopo</rs>, ut me rectore ordinare digneris in <rs
-                            key="#Baptismal_churches">ecclesia</rs> vestra <orgName>Sancti Quirici
-                        </orgName>in loco et plebe de <placeName>Cappiano</placeName> prope Arme ad
-                        ipsa eclesia, <foreign>ed è stato esaudito. Ora promette</foreign> ut diebus
-                        vite meae ad ipsa Dei ecclesia deservire deveam et tibi et ad successoribus
-                        tuis obedire promitto <foreign>e di non sottrarsi alla sua autorità.
-                            Pena</foreign>: auri soledos nomero centum. (…) Actum
-                            <placeName>Luca</placeName>. <foreign>Sottoscrizioni</foreign>: (ss)
-                        Ropprando presbitero; (ss) <persName key="#Witness"
-                            ><name>Teudipradu</name></persName>
-                        <rs key="#Priests">presbitero</rs>; (ss)
-                            <persName><name>Gunduadum</name></persName>
-                        <rs key="#Priests">presbiter</rs>; +
-                            <persName><name>Cilluli</name></persName>
-                        <rs key="#Priests">presbiteri</rs> de <placeName>vico Elingo</placeName>
-                        testis; + <persName><name>Saxi</name></persName>
-                        <rs key="#Other_clerics">clerici</rs> filio quondam
-                                <persName><name>Ferduald</name></persName>
+                            key="#Bishops" ref="#people/343">Peredeo</persName> in Dei nomine <rs
+                            key="#Bishops">episcopo</rs>, ut me rectore ordinare digneris in <rs
+                            key="#Baptismal_churches">ecclesia</rs> vestra <orgName key="#Churches"
+                            ref="#juridical_persons/615">Sancti Quirici </orgName>in loco et
+                            <orgName key="#Baptismal_churches" ref="#juridical_persons/614"><rs
+                                key="#Baptismal_churches">plebe</rs> de <placeName
+                                key="#Baptismal_churches" ref="#places/319"
+                            >Cappiano</placeName></orgName> prope Arme ad ipsa eclesia, <foreign>ed
+                            è stato esaudito. Ora promette</foreign> ut diebus vite meae ad ipsa Dei
+                        ecclesia deservire deveam et tibi et ad successoribus tuis obedire promitto
+                            <foreign>e di non sottrarsi alla sua autorità. Pena</foreign>: auri
+                        soledos nomero centum. (…) Actum <placeName ref="#places/4"
+                        >Luca</placeName>. <foreign>Sottoscrizioni</foreign>: (ss) Ropprando
+                        presbitero; (ss) <persName key="#Witness #Priests"><name ref="Teudebrandus"
+                                >Teudipradu</name></persName>
+                        <rs key="#Priests">presbitero</rs>; (ss) <persName key="#Witness #Priests"
+                                ><name ref="Gundualdus">Gunduadum</name></persName>
+                        <rs key="#Priests">presbiter</rs>; + <persName key="#Witness #Priests"><name
+                                ref="Cillulus de vico Elingo">Cilluli</name></persName>
+                        <rs key="#Priests">presbiteri</rs> de <placeName ref="#places/587">vico
+                            Elingo</placeName> testis; + <persName key="#Witness #Other_clerics"
+                                ><name ref="Sassus">Saxi</name></persName>
+                        <rs key="#Other_clerics">clerici</rs> filio quondam <persName
+                            key="#Witness #Other_clerics"><name ref="Fardualdus"
+                            >Ferduald</name></persName>
                         <rs key="#Other_clerics">clerici</rs> testis. <foreign>Scrive</foreign>:
-                            <persName key="#Writer"><name ref="Osprandus"
+                            <persName key="#Writer #Deacons"><name ref="Osprandus"
                             >Osprandus</name></persName>
                         <rs key="#Deacons">diaconus</rs>.</ab>
                         </div>
@@ -123,18 +131,10 @@
                         <p/>
                     </div>
                     <div type="commentary">
-                         <p>Persone: Desiderio re; Adelchis re; Rotprand / Ropprandu pbr havitator
-                    in Arsicia prope Arme (f. Rotpert); Rotpert (p. Rotprand pbr); Peredeo ep (di
-                    Lucca); Osprandus diac; Teudipradu; Gunduadum pbr; Cilluli pbr de vico Elingo;
-                    Saxi cler; Rotpert cler (f. Ferduald cler); Ferduald cler (p. Rotpert cler).
-                    Luoghi: Arsicia prope Arme; Cappiano [Cappiano]; Arme [fl.]; Luca [Lucca]; vico
-                    Elingo [= Marlia]. Chiese: ecclesia vestra Sancti Quirici in loco et plebe de
-                    Cappiano prope Arme [S: Quirico di Cappiano]. Cariche: . Note: . Indice:
-                    promissio - fam. Peredeo - pieve - fam. Gundualdo. <foreign>Nota dorsale (sec.
-                        XII)</foreign>: De ecclesia Sancti Quirici prope Arme. <foreign>Nota dorsale
-                        (sec. XI-XII)</foreign>: Cartula Sancti Quirici in plebe de Cappiano.
-                        <foreign>Nota dorsale (sec. XI-XII)</foreign>: Cartula Sancti Quirici.
-                    Arsicia (Pieri, Arno, p. 272); Cappiano; Vico Elingo = Marlia.</p>
+                         <p><foreign>Nota dorsale (sec. XII)</foreign>: De ecclesia Sancti Quirici
+                    prope Arme. <foreign>Nota dorsale (sec. XI-XII)</foreign>: Cartula Sancti
+                    Quirici in plebe de Cappiano. <foreign>Nota dorsale (sec. XI-XII)</foreign>:
+                    Cartula Sancti Quirici. <foreign>Arsicia (Pieri, Arno, p. 272)</foreign></p>
                     </div>
                 </body>
             </text>
