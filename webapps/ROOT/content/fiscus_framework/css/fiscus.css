@@ -658,6 +658,7 @@ ab placeName:before {
     note[type="displayed_date"] { -oxy-placeholder-content: 'Date (to be displayed) here'; }
     note[type="dating_elements"] { -oxy-placeholder-content: 'Dating elements here'; }
     note[type="topical_date"] { -oxy-placeholder-content: 'Topical date here'; }   
+    note[type="redaction_date"] { -oxy-placeholder-content: 'Date/period of redaction'; }   
     origPlace { -oxy-placeholder-content: 'Provenance here'; }
     
     origDate:before { content: " Date"; }
@@ -676,7 +677,7 @@ ab placeName:before {
         display:block;
    }
    
-   titleStmt > title, note[type="displayed_date"], note[type="dating_elements"], note[type="topical_date"], origPlace {
+   titleStmt > title, note[type="displayed_date"], note[type="dating_elements"], note[type="topical_date"], note[type="redaction_date"], origPlace {
         margin:15px;
         padding: 0 10px 0 10px;
         background-color: #fdfdfd;
