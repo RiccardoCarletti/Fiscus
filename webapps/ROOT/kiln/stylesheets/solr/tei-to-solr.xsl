@@ -183,7 +183,7 @@
     <field name="provenance">
       <xsl:choose>
         <xsl:when test="text()">
-          <xsl:value-of select="normalize-space(translate(., '/', '／'))"/>
+          <xsl:value-of select="normalize-space(translate(translate(., '/', '／'), '?', ''))"/>
         </xsl:when>
         <xsl:otherwise>
           <xsl:text>-</xsl:text>

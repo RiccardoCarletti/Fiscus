@@ -193,6 +193,8 @@
      multiValued="true" stored="true" type="string" />
    <field name="topical_date" required="false" indexed="true"
      multiValued="true" stored="true" type="string" />
+   <field name="redaction_date" required="false" indexed="true"
+     multiValued="true" stored="true" type="string" />
    <!-- Concordance fields. -->
    <field name="concordance_bibliography_ref" stored="true" indexed="true"
           multiValued="false" required="false" type="string" />

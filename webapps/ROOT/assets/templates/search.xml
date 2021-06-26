@@ -96,6 +96,7 @@
             <xsl:apply-templates select="/aggregation/response/lst[@name='facet_counts']/lst[@name='facet_fields']/lst[@name='fiscal_property']" mode="search-results" />
             <xsl:apply-templates select="/aggregation/response/lst[@name='facet_counts']/lst[@name='facet_fields']/lst[@name='provenance']" mode="search-results" />
             <xsl:apply-templates select="/aggregation/response/lst[@name='facet_counts']/lst[@name='facet_fields']/lst[@name='topical_date']" mode="search-results" />
+            <xsl:apply-templates select="/aggregation/response/lst[@name='facet_counts']/lst[@name='facet_fields']/lst[@name='redaction_date']" mode="search-results" />
           </div>
           
           <div class="section-container accordion" data-section="accordion">
