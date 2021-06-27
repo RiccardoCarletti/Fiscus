@@ -83,40 +83,52 @@
                 <body>
                     <div type="edition">
                         <div type="textpart">
-                            <ab><persName>Tassilo</persName>
+                            <ab><persName key="#Vir_devotus/vir_honestus"><name ref="Tassilo"
+                                >Tassilo</name></persName>
                         <rs key="#Vir_devotus/vir_honestus">vir devotus</rs> filius bone memorie
-                            <persName>Autchisi</persName>, <foreign>pur riservandosi la piena
-                            disponibilità di tutti i suoi beni finché sarà in vita e di prendere
-                            ulteriori disposizioni testamentarie, vuole che quanto resterà intestato
-                            vada a</foreign>
-                        <persName>Rachipertu</persName>
-                        <rs key="#Priests">presbitero</rs> et <persName>Rottelmi</persName>
-                        <rs key="#Priests">presbitero</rs> et <persName>Aurulo</persName>
-                        <rs key="#Priests">presbitero</rs>, <persName>Gundipertu</persName>
-                        <rs key="#Priests">presbiter</rs> et <persName>Fermuso</persName> filius
-                        quondam <persName>Petronaci</persName> et <persName>Cunimundo</persName>
+                                <persName><name ref="Autchis">Autchisi</name></persName>,
+                            <foreign>pur riservandosi la piena disponibilità di tutti i suoi beni
+                            finché sarà in vita e di prendere ulteriori disposizioni testamentarie,
+                            vuole che quanto resterà intestato vada a</foreign>
+                        <persName key="#Priests #testamentaryLinkWith"
+                            ><name>Rachipertu</name></persName>
+                        <rs key="#Priests ">presbitero</rs> et <persName
+                            key="#Priests #testamentaryLinkWith"><name>Rottelmi</name></persName>
+                        <rs key="#Priests">presbitero</rs> et <persName
+                            key="#Priests #testamentaryLinkWith"><name>Aurulo</name></persName>
+                        <rs key="#Priests">presbitero</rs>, <persName
+                            key="#Priests #testamentaryLinkWith"><name>Gundipertu</name></persName>
+                        <rs key="#Priests">presbiter</rs> et <persName key="#testamentaryLinkWith"
+                                ><name>Fermuso</name></persName> filius quondam
+                                <persName><name>Petronaci</name></persName> et <persName
+                            key="#testamentaryLinkWith"><name>Cunimundo</name></persName>
                         <foreign>che dovranno vendere</foreign>
                         <rs key="#Landed_possessions">omnis res mea</rs> quanta ad me pertene et
                         iniudicata vel non data remansere, tam res movile quam et inmoviles seo qui
                         se moventibus uviqui in colivet locum ad ius meum pertene; (…) excepto parte
                         mea de <rs key="#Casae/cassinae_massaricie">casa</rs>
-                        <persName>Raduli</persName> in <placeName>Corsania</placeName>, et parte mea
-                        de <rs key="#Casae/cassinae_massaricie">casa</rs> ubi quondam
-                            <persName>Guntulo</persName> massario nostro resede, in loco
-                            <placeName>Vetusiano</placeName>; et parte mea de <rs key="#Cafagia"
-                            >cafagio</rs> nostro in loco <placeName>Monacciatico</placeName>, quem
-                        iam antea iudicavi. <foreign>Se non potessero vendere quei beni</foreign>,
-                        volo ut de ipsis rebus meis aveas <rs key="#Monasteries">monasterio</rs>
-                        <orgName>Sancti Petri</orgName> in loco qui dicitor <placeName>Monte
-                            Virde</placeName>, a quondam <persName>Walfridi</persName> fundatum est,
-                            <rs key="#Landed_possessions">omnia portionem meam de res </rs>quanta
-                        avire videor in loco ubi vocatur [<placeName>ad Chint</placeName>; et aveas]
-                            <rs key="#Churches">eclesia</rs>
-                        <orgName>Sancti Martini</orgName> de episcopio parte mea de <rs
-                            key="#Cafagia">gavagio</rs> nostro in loco
-                            <placeName>Cornino</placeName>, uvi vocatur ad
-                            <placeName>Chinzia</placeName>, qui est prope <rs key="#Cafagia"
-                            >gavagius</rs>
+                        <persName key="#Casae/cassinae_massaricie"><name>Raduli</name></persName> in
+                            <placeName key="#Casae/cassinae_massaricie" ref="#places/438"
+                            >Corsania</placeName>, et parte mea de <rs
+                            key="#Casae/cassinae_massaricie">casa</rs> ubi quondam <persName
+                            key="#Casae/cassinae_massaricie"><name>Guntulo</name></persName>
+                        massario nostro resede, in loco <placeName key="#Casae/cassinae_massaricie"
+                            >Vetusiano</placeName>; et parte mea de <rs key="#Cafagia">cafagio</rs>
+                        nostro in loco <placeName key="#Cafagia">Monacciaticho</placeName>, quem iam
+                        antea iudicavi. <foreign>Se non potessero vendere quei beni</foreign>, volo
+                        ut de ipsis rebus meis aveas <rs key="#Monasteries">monasterio</rs>
+                        <orgName key="#Monasteries" ref="#juridical_persons/79">Sancti
+                            Petri</orgName> in loco qui dicitor <placeName key="#Monasteries"
+                            ref="#places/85">Monte Virde</placeName>, a quondam <persName><name
+                                ref="Walfredus">Walfridi</name></persName> fundatum est, <rs
+                            key="#Landed_possessions">omnia portionem meam de res </rs>quanta avire
+                        videor in loco ubi vocatur [<placeName key="#Landed_possessions">ad
+                            Chint</placeName>; et aveas] <rs key="#Mother_churches">eclesia</rs>
+                        <orgName key="#Mother_churches" ref="#juridical_persons/68">Sancti
+                            Martini</orgName> de episcopio parte mea de <rs key="#Cafagia"
+                            >gavagio</rs> nostro in loco <placeName key="#Cafagia" ref="#places/91"
+                            >Cornino</placeName>, uvi vocatur ad <placeName key="#Cafagia"
+                            >Chinzia</placeName>, qui est prope <rs key="#Cafagia">gavagius</rs>
                         <orgName>Sancti Martini</orgName>; et aveas <rs key="#Monasteries"
                             >monastherio</rs>
                         <orgName>Sancti Petri</orgName> in <placeName>Campo Magiore</placeName>
@@ -206,7 +218,7 @@
                             <rs key="#Churches">eclesie</rs>
                         <orgName>Sancti Fridiani</orgName>; et volo ut <rs key="#Freedman">liveru
                             demettere diveatis</rs>
-                        <orgName>Cianci</orgName>, et aveas <rs key="#Petiae">petias de terra</rs>
+                        <persName>Cianci</persName>, et aveas <rs key="#Petiae">petias de terra</rs>
                         prope areas de filii <persName>Pertualdi</persName>, qui <rs key="#Venditio"
                             >mihi obvine</rs> da filii quondam <persName>Ermerisci</persName>; et
                         volo ut <rs key="#Freedman">liveri demettere diveatis</rs>
@@ -242,15 +254,19 @@
                         similiter volo ut <rs key="#Animals">nutriminas</rs> mea, sive menuris vel
                         maioris, quante aveo, volo ut ipse vos similiter vendere diveatis (…). Actum
                             <placeName>Luca</placeName>. <foreign>Sottoscrizioni</foreign>: +
-                        Tassuni viri devoti; + <persName>Teupertu</persName>
+                        Tassuni viri devoti; + <persName key="#Witness #Vir_devotus/vir_honestus"
+                            >Teupertu</persName>
                         <rs key="#Vir_devotus/vir_honestus">viri devoti</rs> filio quondam
-                            <persName>Sanituli</persName> testis; + […] testis; (ss)
-                            <persName>Ratfusu</persName>
-                        <rs key="#Notary">notarius</rs>; (ss) <persName>Wistripert</persName>
-                        <rs key="#Notary">notarius</rs>; (ss) <persName>Willeradus</persName>
+                            <persName>Sanituli</persName> testis; + […] testis; (ss) <persName
+                            key="#Witness #Notary">Ratfusu</persName>
+                        <rs key="#Notary">notarius</rs>; (ss) <persName key="#Witness #Notary"
+                            >Wistripert</persName>
+                        <rs key="#Notary">notarius</rs>; (ss) <persName
+                            key="#Witness #Other_clerics">Willeradus</persName>
                         <rs key="#Other_clerics">clericus</rs>. <foreign>Scrive</foreign>: <persName
-                            key="#Writer">Teutpertu</persName> (<rs key="#Vir_devotus/vir_honestus"
-                            >vir devotus</rs>). <foreign>Copia</foreign>: <persName key="#Copyist"
+                            key="#Writer #Vir_devotus/vir_honestus">Teutpertu</persName> (<rs
+                            key="#Vir_devotus/vir_honestus">vir devotus</rs>).
+                            <foreign>Copia</foreign>: <persName key="#Copyist #Other_clerics"
                             >Rachiprandus</persName>
                         <rs key="#Other_clerics">clericus</rs>.</ab>
                         </div>
@@ -270,13 +286,13 @@
                     <foreign>Nota dorsale (sec. XI)</foreign>: Iudicatum de multis rebus in diversis
                     locis. <foreign>Nota dorsale (sec. XII)</foreign>: Exemplar iudicati in mon[…]to
                     Camaiore Sancto Petro Sumualdi et in Sancto M[…]is de terris multis in Cornino
-                    ad Cicinam et […]. <foreign>Corsania = Corsagna, Borgo a Mozzano; Lucca
-                        Vetusiano = Venturiana sulla Fraga (Lucca) MOnacciatico (Vico di Antraccoli)
-                        Terrinca (Stazzema; Lucca) S. Giorgio in Pisticoro Forse Persianiano Amiate
-                        (Lucca) Ranule presso S. Giusto di Porcari S. Reparata di Monsagrati Arco
-                        sul Serchio Longetia selva in Brancoli (Pieri, Serchio, p. 209)? Pumpiano
-                        (Val di Serchio, Repetti, IV, 510) verso S. Macario (Schiaparelli) Vico
-                        Spardaco (Verso Montebonelli) Pinistello (sul Monte Pisano verso S.
+                    ad Cicinam et […]. <foreign> Vetusiano = Venturiana sulla Fraga (Lucca), Pieri,
+                        Serchio, 69; Monacciatico (Vico di Antraccoli Reptti, I, 95; Pieri, Serchio,
+                        p. 183) Terrinca (Stazzema; Lucca) S. Giorgio in Pisticoro Forse Persianiano
+                        Amiate (Lucca) Ranule presso S. Giusto di Porcari S. Reparata di Monsagrati
+                        Arco sul Serchio Longetia selva in Brancoli (Pieri, Serchio, p. 209)?
+                        Pumpiano (Val di Serchio, Repetti, IV, 510) verso S. Macario (Schiaparelli)
+                        Vico Spardaco (Verso Montebonelli) Pinistello (sul Monte Pisano verso S.
                         Giuliano) (Schiaparelli) </foreign>eclesia Sancte Reparate, qui est prope
                     monastherio Sancti Martini, qui fuit qd. Sicheradi [S. Reparata e S. Martino di
                     Monsagrati];</p>
