@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    *G.91</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc4114</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Testamentum/iudicatum</rs>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Copy</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate when="0768-02-19"> 
+                                        <note type="displayed_date">768 February 19</note>
+                                        <note type="dating_elements"/>
+                                        <note type="topical_date">Lucca</note>
+                                        <note type="redaction_date">Secolo VIII (seconda
+                                    metà)</note>
+                             </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-06-27" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab>Tassilo vir devotus filius bone memorie Autchisi, <foreign>pur
+                            riservandosi la piena disponibilità di tutti i suoi beni finché sarà in
+                            vita e di prendere ulteriori disposizioni testamentarie, vuole che
+                            quanto resterà intestato vada a</foreign> Rachipertu presbitero et
+                        Rottelmi presbitero et Aurulo presbitero, Gundipertu presbiter et Fermuso
+                        filius quondam Petronaci et Cunimundo <foreign>che dovranno
+                            vendere</foreign> omnis res mea quanta ad me pertene et iniudicata vel
+                        non data remansere, tam res movile quam et inmoviles seo qui se moventibus
+                        uviqui in colivet locum ad ius meum pertene; (…) excepto parte mea de casa
+                        Raduli in Corsania, et parte mea de casa ubi quondam Guntulo massario nostro
+                        resede, in loco Vetusiano; et parte mea de cafagio nostro in loco
+                        Monacciatico, quem iam antea iudicavi. <foreign>Se non potessero vendere
+                            quei beni</foreign>, volo ut de ipsis rebus meis aveas monasterio Sancti
+                        Petri in loco qui dicitor Monte Virde, a quondam Walfridi fundatum est,
+                        omnia portionem meam de res quanta avire videor in loco ubi vocatur [ad
+                        Chint; et aveas] eclesia Sancti Martini de episcopio parte mea de gavagio
+                        nostro in loco Cornino, uvi vocatur ad Chinzia, qui est prope gavagius
+                        Sancti Martini; et aveas monastherio Sancti Petri in Campo Magiore parte mea
+                        de casas vel res in loco Terrinca; et aveas eclesia Sancti Ieorgi, ubi
+                        Iordanni presbitero fuit, parte mea de res in loco Corsania, excepto casa
+                        Ruduli, quem iam iudicata aveo; et aveas eclesia Fridiani terra mea sub
+                        Monticello, qui fuit quondam Arochisi quantum mihi da filii ipsius abvine in
+                        integrum, in finito; (…) et aveas similiter parte mea de casa in loco
+                        Cornino, uvi [Ar…]sulo reside; et eclesia Sancte Marie, qui est ad porta
+                        Sancti Cervasi, volo ut aveas parte mea de res in loco Persiniano; et volo
+                        ut aveas eclesia Sancti Salvatori in loco Sexto parte mea de res in loco
+                        Pinistello et ad Arno uvi vocamus ad Noce; et volo ut aveas eclesia Sancti
+                        Iusti ad Ranule prato meo ad fossa Petrosula in integrum; et volo ut aveas
+                        eclesia Sancte Reparate, qui est prope monastherio Sancti Martini, qui fuit
+                        quondam Sicheradi, parte mea de res in loco Nobule; et volo ut terra illa
+                        qui mihi obvinet da quondam Tachipertu ad Archo, qui latum tene in terra de
+                        filii quondam Garisindi, ut eas aveas eclesia Sancti Petri qui vocatur
+                        monastherio Somualdi; et volo ut aveas parte mea de terra trans Auserclo,
+                        qui caput tene in ipso Auserclo et alio caput tene in terra de filii quondam
+                        Burriche, eclesia Sancti Donati. <foreign>Alle</foreign> nepotis meas
+                        Sindiperga, Radalperga et Adalperga, portionem meam de casa Arualdi de
+                        Lunata in loco Tappuniano et parte mea de casa quondam Aufridi in loco
+                        Longize (…) cum parte mea de casa in Tempaniano, ubi reside quondam
+                        Antuninulo (…); et similiter portionem meam de sala vel di sundrio meo in
+                        loco Longize, quantum mihi exinde competent, et sala mea in loco […] vico
+                        Vuilleradi, cum omnia ad se pertinentem, unam cum terra et vineas (…);
+                            <foreign>devono vendere inoltre</foreign> omnis terre mei quantae ad me
+                        hic circa civitatem ista non iudicate remansere. (…) si eam venundare non
+                        potueritis volo ut vos ipsa aur in sinodochio aut in monastherio vel in tale
+                        eclesia faciatis unde mihi et vobis mercidem eveniat (…). Et volo ut omnis
+                        hominis meis mihi pertinentis vos liveris circa altarw demettere deveatis et
+                        eorum cartulam absolutionis emettere diveatis; sic tamen nominative volo de
+                        servis vel mancipias minesterialis ut vos livertare diveatis Teudipertulo,
+                        et aveas pro servitio suo petia se terra sub Monticello prope areas
+                        Perteradi clerici, qui mihi per cambio obvinet da Gausperto, qui est rector
+                        eclesie Sancti Fridiani; et volo ut liveru demettere diveatis Cianci, et
+                        aveas petias de terra prope areas de filii Pertualdi, qui mihi obvine da
+                        filii quondam Ermerisci; et volo ut liveri demettere diveatis Alipertulo,
+                        Audipertulo, et Maxcellio, et aveas portionem mea de res in Ponpiano, ubi
+                        reside quondam F[…; et vo]lo ut liverum demettere diveatis Fusculo, et aveas
+                        portionem de res in loco Longize, cum parte de i[psa casa], quantum exinde
+                        ei da germani eius pertene; et de manciapias volo ut livere demettere
+                        diveatis Te[… de] Corsania et Silbula, Liutpergula et eorum cartulam
+                        abpsolutionis emettere diveatis. <foreign>Lascia poi alle nipoti</foreign>:
+                        in primis Sindiperga de ipsa mancipias mea una ancella nomine Dominica;
+                        Radalperga volo ut aveas filia Luccili nomina Luciula; et Adalperga volo ut
+                        aveas filia Autule de Nobule. Et volo ut vinea illa qui mihi obvine da
+                        Bonulo de Ispardaco, qui est sub casa Liutpertuli, ut aveas eclesia Sancti
+                        Martini, qui est ad terra Russula. Et volo ut livera demettere diveatis
+                        Allula. Pena: auri soledos nomero mille quinienti <foreign>e in
+                            duplum</foreign>. Et quod minime memoravimus, similiter volo ut
+                        nutriminas mea, sive menuris vel maioris, quante aveo, volo ut ipse vos
+                        similiter vendere diveatis (…). Actum Luca.
+                            <foreign>Sottoscrizioni</foreign>: + Tassuni viri devoti; + Teupertu
+                        viri devoti filio quondam Sanituli testis; + […] testis; (ss) Ratfusu
+                        notarius; (ss) Wistripert notarius; (ss) Willeradus clericus.
+                            <foreign>Scrive</foreign>: Teutpertu (vir devotus).
+                            <foreign>Copia</foreign>: Rachiprandus clericus.</ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>Muratori 1738-1742: I, 876; MDL IV/1, 63 (<foreign>ad an</foreign>. 766);
+                    reg. MDL V/2, n. 106; CDL II, 214, pp. 237-243; ChLA, XXXIV, 1000.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                         <p>Persone: Desiderio re; Adelchis re; Tassilo v. dev. (f. Autchisi; zio
+                    Sindiperga, Radalperga et Adalperga); Autchisi (p. Tassilo); Sindiperga (nipote
+                    Tassilo); Radalperga (nipote Tassilo); Adalperga (nipote Tassilo); Rachipertu
+                    pbr; Rottelmi pbr; Aurulo pbr; Gundipertu pbr; Fermuso (f. Petronaci) Petronaci
+                    (p. Fermuso); Cunimundo; Raduli (mass?); Guntulo mass; Vualfridi; Iordanni pbr;
+                    Arochisi; Ar[…]sulo (mass); Sicheradi; Tachipertu; Garisindi; Somuladi;
+                    Burriche; Arualdi de Lunata (mass); Aufridi (mass); Antuninulo (mass);
+                    Vuilleradi; Teudipertulo (servo ministeriale); Perteradi cler; Gausperto rector
+                    eclesie Sancti Fridiani; Cianci (servo); Ermerisci; Pertualdi; Alipertulo
+                    (servo); Audipertulo (servo); Maxcellio (servo); F[…] (mass); Fusculo (servo);
+                    Te[…] de Corsania (ancella); Silbula (ancella); Liutpergula (ancella); Dominica
+                    (ancella); Luciula ancella (fa. Luccili); Autule de Nobule (servo); Bonulo de
+                    Ispardaco; Liutpertuli (mass); Allula (ancella); Teutpertu v. dev. scriptur;
+                    Teutpertu v. dev. (f. Sanituli); Sanituli (p. Teutpertu); Ratfusu not;
+                    Vuistripert not; Vuilleradus cler; Rachiprandus cler. Luoghi: Corsania
+                    [Corsagna]; loco Vetusiano [Veturiana]; loco Monacciatico [pr. Antraccoli];
+                    Monte Viride [Monteverdi]; Chint =?, ad Chinzia; loco Cornino [Val di Cornia];
+                    Campo Magiore [Camaiore]; loco Terrinca [Terrinca]; Monticello; loco Persiniano
+                    [Persiniano]; porta S. Cervasi [Lucca, porta di S. Gervasio]; loco Pinistello;
+                    Sexto [Sesto]; Arno [fl. Arno]; ad Noce; Ranule; Petrosula (fossa); Nobule
+                    [Novoli]; Archo [Arco]; Auserclo [fl. Serchio]; Lunata [Lunata]; loco
+                    Tappuniano; loco Longize [Longetia]; Tempaniano [Tempagnano]; vico Vuilleradi;
+                    Ponpiano [pr. S. Macario]; Nobule [Novoli]; Ispardaco [Vico Spardaco]; Terra
+                    Russula; Luca [Lucca]. Chiese: monasterio Sancti Petri in loco qui dicitor Monte
+                    Viride, a qd. Vualfridi fundatum est [mon. S. Pietro di Monteverdi]; eclesia
+                    Sancti Martini de episcopio [S. Martino di Lucca, vescovato]; monastherio Sancti
+                    Petri in Campo Magiore [S. Pietro di Camaiore]; eclesia Sancti Ieorgi [S.
+                    Giorgio]; eclesia Fridiani [S. Frediano]; eclesia Sancte Marie, qui est ad porta
+                    Sancti Cervasi [S. Maria di Lucca]; eclesia Sancti Salvatori in loco Sexto [S.
+                    Salvatore di Sesto]; eclesia Sancti Iusti ad Ranule [S. Giusto]; eclesia Sancte
+                    Reparate, qui est prope monastherio Sancti Martini, qui fuit qd. Sicheradi [S.
+                    Reparata e S. Martino di Monsagrati]; eclesia Sancti Petri qui vocatur
+                    monastherio Somuladi [S. Pietro Somaldi]; ecelsia Sancti Donati [S. Donato];
+                    eclesia Sancti Martini, qui est ad terra Russula [S. Martino]. Cariche: . Note:
+                    cafagio - sala - sundrio - servis vel mancipias minesterialis - . Indice:
+                    testamento - esecutori testamentari - Versilia - monasteri - servi -
+                    affrancamento - cit. prec. permuta - Maremma. <foreign>Nota dorsale (sec.
+                        XI)</foreign>: Iudicatum de multis rebus in diversis locis. <foreign>Nota
+                        dorsale (sec. XII)</foreign>: Exemplar iudicati in mon[…]to Camaiore Sancto
+                    Petro Sumualdi et in Sancto M[…]is de terris multis in Cornino ad Cicinam et
+                    […]. <foreign>Corsania = Corsagna, Borgo a Mozzano; Lucca Vetusiano = Venturiana
+                        sulla Fraga (Lucca) MOnacciatico (Vico di Antraccoli) Terrinca (Stazzema;
+                        Lucca) S. Giorgio in Pisticoro Forse Persianiano Amiate (Lucca) Ranule
+                        presso S. Giusto di Porcari S. Reparata di Monsagrati Arco sul Serchio
+                        Longetia selva in Brancoli (Pieri, Serchio, p. 209)? Pumpiano (Val di
+                        Serchio, Repetti, IV, 510) verso S. Macario (Schiaparelli) Vico Spardaco
+                        (Verso Montebonelli) Pinistello (sul Monte Pisano verso S. Giuliano)
+                        (Schiaparelli) </foreign></p>
+                    </div>
+                </body>
+            </text>
+        </TEI>
