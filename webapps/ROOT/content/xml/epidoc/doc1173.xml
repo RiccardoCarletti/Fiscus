@@ -4,7 +4,8 @@
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
-                <title></title>
+                <title>Archivio di Stato di Siena, <foreign>Pergamene Monte Amiata</foreign>, a.
+                    915.</title>
             </titleStmt>
             <editionStmt>
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
@@ -30,9 +31,9 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#"/>
-                            <rs type="record_source" ref="#"/>
-                            <rs type="document_tradition" ref="#"/>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Uncertain tradition</rs>
                             <rs type="fiscal_property"/>
                         </summary>
                         <msItem xml:id="msItem1">
@@ -41,12 +42,13 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate notBefore="0001" notAfter="0001" when="0001"> 
-                                <note type="displayed_date"></note>
-                                <note type="dating_elements"></note>
-                                <note type="topical_date"></note>
-                                <note type="redaction_date"/>
-                             </origDate>
+                            <origDate when="0915-12-08">
+                                <note type="displayed_date">915 december 8</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Roma</note>
+                                <note type="redaction_date">Documento redatto probabilmente nel
+                                    secolo XI.</note>
+                            </origDate>
                             <origPlace/>
                         </origin>
                         <provenance>
@@ -81,51 +83,56 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>In nomine domini Dei aeterni. Berengarius imperator augustus. Dignum est ut
-                        qui prudenter Dei obsequia ordinare procurant et hoc ad stabilitatem
-                        perpetuam nostram corroborationem confirmare exposcunt, ut tanto libentius
-                        obaudivimus quanto et Deo placita intellegimus et prudentia Deo protegente
-                        bono studio ad effectum perducere procuravimus. Igitur omnium fidelium
-                        sancte Dei Ecclesiae ac nostrorum presentium scilicet et futurorum comperiat
-                        sollertia, quia dum nos filiolo nostro Vuidoni glorioso marchioni cenobium
-                        Domini Salvatoris in monte Amiate constitutum ad regendum commisissemus et
-                        ibidem neglecta Dei obsequia et procuratione Deo ibidem famulantium
-                        predecessorum suorum incuria multis modis repperisset, studiosus decertavit
-                        congregationem monachorum ibidem Deo servientium regulariter corrigere et
-                        solummodo divinis obsequiis deditos ad sufficient[ia]m suorum largire,
-                        quatenus predictus iam fati monaterii Domini Salvatoris qui per tempora
-                        fuerit ac successorum illius abbati vel prepositi cum subiectis monachis
-                        inibi Deo servientium deinceps in futurum sufficienter habere mereantur, ob
-                        amorem Dei remediumque animarum nostrarum ac successorum nostrorum regum aut
-                        imperatorum conferens eis ad sufficientiam suorum cellam Sancti Stephani in
-                        Monticlo cum castro Montis Latronis cum appendiciis suis, videlicet a via
-                        puplica venit sub ripa per loca concava et sic per viam puplicam puxta
-                        podium Sale venit in Sancona, nec non curticellam de Mustia, curticellam de
-                        Titinano et in Cerri angariales seu et in Feroniano et manentes eius, nec
-                        non et cellam Sancti Salvatoris de valle Racana, et curticellam de Cuniclo
-                        cum ipso agiolo de Portiano, et cellam Sancti Stephani in Terquini, seu et
-                        cellam Sancti Severi super lacum cum ipsa curticella de Bisentio, cella
-                        etiam Sancti Miniati, nec non et cellam Sancte Marie de Valeracano cum ipsas
-                        res de Curtiole cum omnibus pertinentiis et adiacentiis earum, ea videlicet
-                        ratione, ut ab hac in futurum predicta sancta congregatio his omnibus
-                        denominatis cellulis et curtibus cum suis omnibus pertinentiis et
-                        adiacentiis earum tantummodo suis utilitatibus habentes victum vestitumquae
-                        regulariter sumentes absque ulla dilatione solummodo divinis die noctuque
-                        persistant obsequiis, ac pro stabilitate totius imperii nobis a Deo commissi
-                        studeant exorare, sed quod bono studio bonaque voluntate feci perhennem
-                        habeat stabilitatem, petiis pietatem nostram ut eandem ordinationem
-                        confirmaremus conscriptionem, sicuti et fecimus. Denique etiam concedimus
-                        predicto monasterio omnia decima, freta et iudiciaria, vel omnem
-                        compositionem et exhibitionem publicam ex omnibus manentibus de supra
-                        memoratis cellulis et curtibus ob remedium anime nostrae successorumque
-                        nostrorum regum vel imperatorum qui per tempora fuerint ad porta monasterii
-                        conferendam semper ad usus peregrinorum sustentandos in helimosinam et
-                        augmentum animarum nostrarum propter oppressiones malorum ac pravorum
-                        hominum, quae sufferre minime nec sustentate potuerant. Quapropter eidem
-                        sancto loco hoc nostrum preceptum fieri iussimus, per quod precipimus ut ab
-                        hinc repetitu aut rectoris loci illius subtractu easdem cellulas et curtis
-                        in suis utilitatibus ac necessitatibus habeant et ordinent, faciant et
-                        disponant, quatenus exinde sufficientiam habentes in divinis obsequiis et
+                    <ab>In nomine domini Dei aeterni. <persName key="#Emperor/king" ref="#people/21"
+                            >Berengarius</persName>
+                        <rs key="#Emperor/king">imperator</rs> augustus. Dignum est ut qui prudenter
+                        Dei obsequia ordinare procurant et hoc ad stabilitatem perpetuam nostram
+                        corroborationem confirmare exposcunt, ut tanto libentius obaudivimus quanto
+                        et Deo placita intellegimus et prudentia Deo protegente bono studio ad
+                        effectum perducere procuravimus. Igitur omnium fidelium sancte Dei Ecclesiae
+                        ac nostrorum presentium scilicet et futurorum comperiat sollertia, quia dum
+                        nos filiolo nostro <persName key="#Marquis/duke"><name ref="Wido"
+                                >Vuidoni</name></persName> glorioso <rs key="#Marquis/duke"
+                            >marchioni</rs>
+                        <rs key="#Monasteries">cenobium</rs>
+                        <orgName ref="#juridical_persons/301">Domini Salvatoris in monte
+                            Amiate</orgName> constitutum ad regendum commisissemus et ibidem
+                        neglecta Dei obsequia et procuratione Deo ibidem famulantium predecessorum
+                        suorum incuria multis modis repperisset, studiosus decertavit congregationem
+                        monachorum ibidem Deo servientium regulariter corrigere et solummodo divinis
+                        obsequiis deditos ad sufficient[ia]m suorum largire, quatenus predictus iam
+                        fati monaterii Domini Salvatoris qui per tempora fuerit ac successorum
+                        illius abbati vel prepositi cum subiectis monachis inibi Deo servientium
+                        deinceps in futurum sufficienter habere mereantur, ob amorem Dei remediumque
+                        animarum nostrarum ac successorum nostrorum regum aut imperatorum conferens
+                        eis ad sufficientiam suorum cellam Sancti Stephani in Monticlo cum castro
+                        Montis Latronis cum appendiciis suis, videlicet a via puplica venit sub ripa
+                        per loca concava et sic per viam puplicam puxta podium Sale venit in
+                        Sancona, nec non curticellam de Mustia, curticellam de Titinano et in Cerri
+                        angariales seu et in Feroniano et manentes eius, nec non et cellam Sancti
+                        Salvatoris de valle Racana, et curticellam de Cuniclo cum ipso agiolo de
+                        Portiano, et cellam Sancti Stephani in Terquini, seu et cellam Sancti Severi
+                        super lacum cum ipsa curticella de Bisentio, cella etiam Sancti Miniati, nec
+                        non et cellam Sancte Marie de Valeracano cum ipsas res de Curtiole cum
+                        omnibus pertinentiis et adiacentiis earum, ea videlicet ratione, ut ab hac
+                        in futurum predicta sancta congregatio his omnibus denominatis cellulis et
+                        curtibus cum suis omnibus pertinentiis et adiacentiis earum tantummodo suis
+                        utilitatibus habentes victum vestitumquae regulariter sumentes absque ulla
+                        dilatione solummodo divinis die noctuque persistant obsequiis, ac pro
+                        stabilitate totius imperii nobis a Deo commissi studeant exorare, sed quod
+                        bono studio bonaque voluntate feci perhennem habeat stabilitatem, petiis
+                        pietatem nostram ut eandem ordinationem confirmaremus conscriptionem, sicuti
+                        et fecimus. Denique etiam concedimus predicto monasterio omnia decima, freta
+                        et iudiciaria, vel omnem compositionem et exhibitionem publicam ex omnibus
+                        manentibus de supra memoratis cellulis et curtibus ob remedium anime nostrae
+                        successorumque nostrorum regum vel imperatorum qui per tempora fuerint ad
+                        porta monasterii conferendam semper ad usus peregrinorum sustentandos in
+                        helimosinam et augmentum animarum nostrarum propter oppressiones malorum ac
+                        pravorum hominum, quae sufferre minime nec sustentate potuerant. Quapropter
+                        eidem sancto loco hoc nostrum preceptum fieri iussimus, per quod precipimus
+                        ut ab hinc repetitu aut rectoris loci illius subtractu easdem cellulas et
+                        curtis in suis utilitatibus ac necessitatibus habeant et ordinent, faciant
+                        et disponant, quatenus exinde sufficientiam habentes in divinis obsequiis et
                         nobis eorum famulatio proficiat sempiternale remedium. Si quis vero, quod
                         futurum minime credimus esse, quibet homo, magna parvaque persona contra hoc
                         nostrum imperiale muniminis preceptum temerario ausu contendere aut
