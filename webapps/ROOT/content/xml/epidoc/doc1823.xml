@@ -82,24 +82,32 @@
             <div type="edition">
                 <div type="textpart">
                     <ab>Anno dominice incarnacionis millesimo centesimo Septuagesimo octavo die
-                        martis undecimo Kalendas Julii indicione undecima <persName>Vualfredus de
-                            guitachino </persName>et <persName>Gilius de guidalardo</persName> et
-                                <persName><name>iordanis</name></persName> frater eius et
-                                <name><persName>robertus</persName></name> et
-                                <persName><name>iacobus</name></persName> fratres similiter de
-                        guidalardis et item vualfredus. pro
-                            <persName><name>emanuel</name></persName> et
-                                <name><persName>manegoldo</persName></name> et
-                                <persName><name>petro</name></persName> iermanis pupillis filiis
+                        martis undecimo Kalendas Julii indicione undecima <persName key="#vassusOf"
+                            ref="#people/509">Vualfredus de guitachino </persName>et <persName
+                            key="#vassusOf" ref="#people/511">Gilius de guidalardo</persName> et
+                            <persName key="#vassusOf"><name ref="Iordanus de Guidalardo"
+                                >iordanis</name></persName> frater eius et <name
+                            ref="Robertus de Guidalardo"><persName key="#vassusOf"
+                                >robertus</persName></name> et <persName key="#vassusOf"><name
+                                ref="Iacobus de Guidalardo">iacobus</name></persName> fratres
+                        similiter de guidalardis et item vualfredus. pro <persName><name
+                                ref="Emanuel">emanuel</name></persName> et <name ref="Manegoldo "
+                                ><persName>manegoldo</persName></name> et <persName><name
+                                ref="Petrus">petro</name></persName> iermanis pupillis filiis
                         quondam petri fratris ipsius gualfredi quorum tutelam gerit. et domnus
-                                <persName><name>vuilielmus</name></persName>
-                        <rs>come</rs> de <placeName>cavaliate</placeName> et
-                                <persName><name>albertus</name></persName> advocatus et vuala
-                        beccherius pro iacobino filio quondam manfredi de guidalardo cuius tutelam
-                        gerunt et quia predicti pupilli infra etatem esse videbantur. Largiente eis
-                        pro ipsius pupillis licenciam et auctoritatem donnus
-                            <persName>guala</persName> dei gratia
-                            <placeName>vercellensis</placeName>
+                            <persName key="#vassusOf"><name ref="Vuilelmus de Cavaliate"
+                                >vuilielmus</name></persName>
+                        <rs>come</rs> de <placeName ref="#places/329">cavaliate</placeName> et
+                            <persName key="#Advocatus"><name ref="Albertus"
+                            >albertus</name></persName>
+                        <rs key="#Advocatus">advocatus</rs> et <persName><name
+                                ref="Vuala Beccherius">vuala</name> beccherius </persName>pro
+                        iacobino filio quondam <persName><name ref="Manfredus de Guidalardo"
+                                >manfredi</name></persName> de guidalardo cuius tutelam gerunt et
+                        quia predicti pupilli infra etatem esse videbantur. Largiente eis pro ipsius
+                        pupillis licenciam et auctoritatem donnus <persName key="#Bishops"
+                            ref="#people/510">guala</persName> dei gratia <placeName
+                            key="#Mother_churches" ref="#places/106">vercellensis</placeName>
                         <rs>episcopus</rs> fecerunt finem pro ipsis pupillis tutorio nomine et
                         refutacionem et per se presente magistro metello vicario curie adversus
                         predictum episcopum. Nominative de <rs>portu</rs>
