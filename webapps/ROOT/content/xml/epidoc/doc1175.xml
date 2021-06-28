@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title></title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc1175</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#"/>
+                            <rs type="record_source" ref="#"/>
+                            <rs type="document_tradition" ref="#"/>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate notBefore="0001" notAfter="0001" when="0001"> 
+                                <note type="displayed_date"></note>
+                                <note type="dating_elements"></note>
+                                <note type="topical_date"></note>
+                                <note type="redaction_date"></note>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-02-08" who="Chiara Stedile">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine domini Dei nostri amen. Berengarius divina favente clementia
+                        imperator augustus. Quia Deo famulantibus temporalia sunt subsidia
+                        conferenda, ut eorum orationibus imperii nostri iura salventur religioque
+                        sanctarum ecclesiarum Dei in die augeatur, idcirco noverit omnium fidelium
+                        sancte Dei Ecclesie nostrorumque et futurorum universitas, quod serenissima
+                        coniux nostra dilectissima nostram adiit clementiam devote petendo, quatenus
+                        pro Dei ipsiusque sanctissime matris amore privilegia vel concessiones et
+                        rescripta sancte Sedis apostolice seu regum et imperatorum predecessorum
+                        nostrorum concessa venerabili monasterio Beate Virginis Marie, Mediolani
+                        antiquis temporibus constructo in honorem gloriosi martiris sancti
+                        Sigismundi et a religiosissimo rege Desiderio in honorem imaculate sancte
+                        matris Marie a fundamentis instaurato, convalidare dignaremur. Nos vero
+                        considerantes eterne retributionis emolumentum, ob reverentiam sancte Dei
+                        genitricis virginis Marie et devotionem sanctarum reliquiarum prefati
+                        invictissimi martiris Sigismundi regis in ecclesia ipsius monasterii
+                        quiescentium, pieque petitioni prefate serenissime coniugis nostre
+                        complacere volentes, consultu quoque et ortatu incliti Mainfredi qui et
+                        Berengerii comitis consiliarii nostri atque eius filii Hermenulfi alias
+                        Algerii imperialis palatii comitis consanguineorum nostorum, non solum
+                        rescripta, donationes et privilegia piissimorum regum Theudelinde et
+                        Agilulfi eius viri seu Rotaris vel Garimoaldi ac Liutprandi et Rachisii
+                        atque prelibati Desiderii magni avi nostri renovamus, sed etiam indulta
+                        imperatorum et regum predecessorum nostrorum Hludovici, Pipini, Bernardi,
+                        Hlotarii, Caroli, item Caroli atque Arnulfi, quibus precedentia confirmantes
+                        etiam eundem venerabile monasterium et eius abbatissam et moniales cum
+                        omnibus eius bonis et iuribus vivis et mortuis in integrum sub immunitatis
+                        eorum mundiburdio receperunt, confirmamus denuoque concedimus; et etiam cum
+                        religiosus vir ac venerabilis Hugo episcopus Augustanus sacri palatii nostri
+                        archicapelanus nostram petisset celsitudinem varias exhibens cartulas piarum
+                        largitionum et iudicatuum plurium Christi fidelium benefactorum eiusdem
+                        sacri monasterii, precipue illustrium procerum Berengerii avi nostri et
+                        Vuidonis eius fratris dicti Desiderii nepotum atque ingenuorum marchionum
+                        Anscarii sicti Vuidonis geniti ac ipsius venerabilis episcopi patris atque
+                        Adalberti eius fratris generis nostri, qui inter cetera eorum curtem
+                        Cerclati prope flumen Olone cum suis ecclesiis, edifitiis, aquis, servis et
+                        aldiis utriusque sexus et omnibus iuribus ad dictam curtem spectantibus in
+                        integrum donaverunt in remedium animarum suarum et predecessorum ac
+                        descendentium suorum, iugiter clementiam nostram exorando, ut dignaremur
+                        regio decreto omnes prefatas pias donationes confirmare; quem etiam
+                        inconsolatum remittere nolentes, religiose eius petitioni inclinati, tam
+                        prefatam donationem curtis Cerclati quam omnia que per cartarum instrumenta
+                        eidem sacro nostro monasterio dudum a fidelibus oblata fuerunt per hanc
+                        nostram imperialem auctoritatem convalidamus, corroboramus et confirmamus ac
+                        si per nos data et largita forent. Insuper etiam non solum predicta omnia
+                        confirmamus ac concedimus, sed etiam precipiendo mandamus et hac nostra
+                        imperiali sanctione decernimus, ut nullus dux, marchio, comes, vicecomes,
+                        sculdasius, gastaldius vel quelibet persona cuiusvis status et conditionis
+                        existat in rebus et possessionibus prelibati monasterii, ubique sitasint,
+                        aliquam inferant calumpniam aut ab eius hominibus aliquas exhibitiones vel
+                        invitas redibitiones exigere presumat, sub indignationis nostre pena,
+                        sanctientes etiam quod dictum venerabile monasterium et eius homines nullas
+                        retributiones aut publicas excubias, angarias seu arbusterias solvere
+                        cogantur, quoniam ea omnia et universa concessimus et perdonavimus illustri
+                        ac venerabili domne Ermingarde ipsius monasterii abbatisse suisque
+                        successoribus, ut commodius pro conservatione imperii animeque nostre salute
+                        Deum exorare possint. Quicunque ergo qui aliquid horum violare presumpserit,
+                        sciat se libras mille auri obrici compositurum, medietas camere imperiali,
+                        reliquum ad utilitatem eiusdem monasterii soluturum, ac insuper
+                        indignationem nostram condignis penis luiturum esse. Ut autem hoc nostre
+                        confirmationis seu nove concessionis preceptum ratum et stabile futuris
+                        temporibus maneat, eum manu nostra firmavimus ac in angulo annulli nostri
+                        impressione insigniri mandavimus. Signum domni Berengarii (M) imperatoris
+                        augusti. Iohannes episcopus et cancellarius ad vicem Ardingi episcopi
+                        arcicancellarii recognovit. Datum supradicta curte Cerclati prope Ollonam,
+                        pridie kal. Iulii, anno regni XXXIIII, imperii vero sui quinto, indictione
+                        quinta. Feliciter amen.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
