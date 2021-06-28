@@ -42,7 +42,7 @@
                     <history>
                         <origin>
                             <origDate when="0962-07-05">
-                                <note type="displayed_date">5 July 962</note>
+                                <note type="displayed_date">962 July 5</note>
                                 <note type="dating_elements"/>
                                 <note type="topical_date">Reggio Emilia</note>
                                 <note type="redaction_date"/>
@@ -75,7 +75,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2021-02-08" who="bferretti">creation of record</change>
+                <change when="2021-06-15" who="bferretti">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -85,11 +85,12 @@
                 <div type="textpart">
                     <ab>(S.) Dum in Dei nomine <rs key="#Cities">civitate</rs>
                         <placeName>Regio</placeName> in domo ipsius <orgName key="#Mother_churches"
-                            >sancte Regensis ecclesie</orgName>, in sala propria ipsius domui in
-                        laubia maiore ipsius [sale in iudicio resed]isset
-                            <orgName>Vuarmundus</orgName>
+                            ref="#juridical_persons/108">sancte Regensis ecclesie</orgName>, in sala
+                        propria ipsius domui in laubia maiore ipsius [sale in iudicio resed]isset
+                            <persName key="#Judge">Vuarmundus</persName>
                         <rs key="#Judge">iudex</rs> et <rs key="#Missus_regis">missus</rs> do(m)ni
-                        imperatoris per data licencia do(m)ni <persName>Ermenaldi</persName>
+                        imperatoris per data licencia do(m)ni <persName key="#Bishops"
+                            >Ermenaldi</persName>
                         <rs key="#Bishops">episcopi</rs> ipsius episcopio singulorum hominum
                         iusticias faciendas ac deliberandas, residentibus cum eo predictus
                         Ermenaldus episcopus, <persName>Albericus</persName> filius bone memorie
