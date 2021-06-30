@@ -34,7 +34,7 @@
                         <summary>
                             <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
-                            <rs type="document_tradition" ref="#">Uncertain tradition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
                             <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
@@ -90,12 +90,13 @@
                         ad aeterne remunerationis proemium facilius optinendum et ad presentem vitam
                         felicius transigendam fore nullatenus dubitamus. Quapropter omnium fidelium
                         sanctae Dei Aecclesiae nostrorumque presentium scilicet ac futurorum nosse
-                        cupimus universitatis industriam, eo quod interventu et petitione <persName
-                            key="#Consiliarius_regis #Bishops" ref="#people/123">Adelardi</persName>
-                        venerabilis <rs key="#Bishops">episcopi</rs> dilecti ac summi consiliarii
-                        nostri sacri palatii <orgName key="#Curtes #Fundi #Mansi"
-                            ref="#juridical_persons/30"><rs key="#Monasteries">monasterio</rs>
-                            Novo</orgName> quandam <rs
+                        cupimus universitatis industriam, eo quod <rs key="#Intercessory">interventu
+                            et petitione</rs>
+                        <persName key="#Intercessory #Consiliarius_regis #Bishops" ref="#people/123"
+                            >Adelardi</persName> venerabilis <rs key="#Bishops">episcopi</rs>
+                        dilecti ac summi consiliarii nostri sacri palatii <orgName
+                            key="#Curtes #Fundi #Mansi" ref="#juridical_persons/30"><rs
+                                key="#Monasteries">monasterio</rs> Novo</orgName> quandam <rs
                             key="#Mansi #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
                             >mansiculam</rs> cum <rs
                             key="#Fundi #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
