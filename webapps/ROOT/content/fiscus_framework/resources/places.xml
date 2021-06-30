@@ -402,9 +402,10 @@
                     <idno>places/50</idno>
                     <note/>
                     <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
-                    <link type="people" corresp="#people/7" subtype="link"/>
+                    <link type="people" corresp="#people/7" subtype="link" cert="low"/>
                     <link type="people" corresp="#people/237" subtype="link"/>
-                    <link type="estates" corresp="#estates/62"/>
+                    <link type="estates" corresp="#estates/62" subtype="hasConnectionWith"/>
+                        <link type="people" corresp="#people/171" subtype="link" cert="low"/>
                 </place>
                 <place>
                     <placeName>Sostegno (Biella)</placeName>
@@ -844,6 +845,7 @@
                         <link type="people" corresp="#people/33" subtype="link" cert="low"/>
                         <link type="people" corresp="#people/7" subtype="link" cert="low"/>
                         <link type="people" corresp="#people/117" subtype="link" cert="low"/>
+                        <link type="people" corresp="#people/237" subtype="link"/>
                 </place>
                 <place>
                     <placeName>Langosco (Caresana; Vercelli)</placeName>
@@ -1678,13 +1680,15 @@
                     <idno>places/206</idno>
                     <note/>
                     <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
-                    <link type="people" corresp="#people/7 #people/237 #people/366 #people/288"
-                        subtype="link"/>
+                    <link type="people" corresp="#people/366 #people/288" subtype="link"/>
                     <link type="estates" corresp="#estates/62" subtype="hasConnectionWith"/>
                         <link type="people" corresp="#people/124" subtype="link"/>
                         <link type="people" corresp="#people/410" subtype="link"/>
                         <link type="people" corresp="#people/129" subtype="link"/>
                         <link type="people" corresp="#people/507" subtype="link"/>
+                        <link type="people" corresp="#people/7" subtype="link" cert="low"/>
+                        <link type="people" corresp="#people/117" subtype="link" cert="low"/>
+                        <link type="people" corresp="#people/237" subtype="link"/>
                 </place>
                 <place>
                     <placeName><foreign>Campetroso</foreign> (Podere Campetroso; Monterotondo
@@ -1700,12 +1704,13 @@
                     <geogName type="coord"><geo>45.537978, 8.055725</geo></geogName>
                     <idno>places/208</idno>
                     <note/>
-                    <link type="people" corresp="#people/7 #people/237 #people/366 #people/288"
-                        subtype="link"/>
+                    <link type="people" corresp="#people/366 #people/288" subtype="link"/>
                     <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
                     <link type="estates" corresp="#estates/62" subtype="hasConnectionWith"/>
                     <link type="people" corresp="#people/171" subtype="link"/>
                         <link type="people" corresp="#people/124" subtype="link"/>
+                        <link type="people" corresp="#people/7" subtype="link" cert="low"/>
+                        <link type="people" corresp="#people/117" subtype="link" cert="low"/>
                 </place>
                 <place>
                     <placeName type="other">Rocca a Palmento; <foreign>La Rocca
@@ -1720,15 +1725,16 @@
                     <idno>places/210</idno>
                     <note/>
                     <link type="places" corresp="#places/106" subtype="hasConnectionWith"/>
-                    <link type="people"
-                        corresp="#people/171 #people/7 #people/237 #people/366 #people/288"
-                        subtype="link"/>
+                    <link type="people" corresp=" #people/237 #people/366 #people/288"
+                            subtype="link"/>
                     <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
                     <link type="estates" corresp="#estates/62" subtype="hasConnectionWith"/>
                         <link type="people" corresp="#people/124" subtype="link"/>
                         <link type="people" corresp="#people/410" subtype="link"/>
                         <link type="people" corresp="#people/129" subtype="link"/>
                         <link type="people" corresp="#people/507" subtype="link"/>
+                        <link type="people" corresp="#people/7" subtype="link" cert="low"/>
+                        <link type="people" corresp="#people/117" subtype="link" cert="low"/>
                 </place>
                 <place>
                     <placeName>Coggiola (Biella)</placeName>
@@ -1738,15 +1744,16 @@
                     <idno>places/211</idno>
                     <note/>
                     <link type="places" corresp="#places/106" subtype="hasConnectionWith"/>
-                    <link type="people" corresp="#people/171" subtype="link"/>
-                    <link type="people" corresp="#people/7 #people/237 #people/366 #people/288"
-                        subtype="link"/>
+                    <link type="people" corresp="#people/171" subtype="link" cert="low"/>
+                    <link type="people" corresp=" #people/237 #people/366 #people/288"
+                            subtype="link"/>
                     <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
                     <link type="estates" corresp="#estates/62" subtype="hasConnectionWith"/>
                         <link type="people" corresp="#people/124" subtype="link"/>
                         <link type="people" corresp="#people/410" subtype="link"/>
                         <link type="people" corresp="#people/129" subtype="link"/>
                         <link type="people" corresp="#people/507" subtype="link"/>
+                        <link type="people" corresp="#people/7" subtype="link" cert="low"/>
                 </place>
                 <place>
                     <placeName>Chiavazza (Biella)</placeName>
@@ -1754,8 +1761,7 @@
                     <geogName type="coord"><geo>45.570794, 8.064823</geo></geogName>
                     <idno>places/212</idno>
                     <note/>
-                    <link type="people" corresp="#people/171 #people/7 #people/366 #people/288"
-                        subtype="link"/>
+                    <link type="people" corresp="#people/366 #people/288" subtype="link"/>
                     <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
                     <link type="estates" corresp="#estates/62" subtype="hasConnectionWith"/>
                     <link type="people" corresp="#people/130" subtype="link"/>
@@ -1763,6 +1769,8 @@
                         <link type="people" corresp="#people/410" subtype="link"/>
                         <link type="people" corresp="#people/129" subtype="link"/>
                         <link type="people" corresp="#people/507" subtype="link"/>
+                        <link type="people" corresp="#people/7" subtype="link" cert="low"/>
+                        <link type="people" corresp="#people/171" subtype="link" cert="low"/>
                 </place>
                 <place>
                     <placeName>Candelo (Biella)</placeName>
@@ -1829,7 +1837,7 @@
                     <geogName type="coord"><geo>45.33815, 8.173828</geo></geogName>
                     <idno>places/218</idno>
                     <note/>
-                    <link type="people" corresp="#people/171 #people/7" subtype="link"/>
+                    <link type="people" corresp="#people/171 #people/7" subtype="link" cert="low"/>
                     <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
                 </place>
                 <place>
@@ -1864,7 +1872,7 @@
                     <geogName type="coord"><geo>45.565987, 8.180008</geo></geogName>
                     <idno>places/221</idno>
                     <note/>
-                    <link type="people" corresp="#people/171 #people/7" subtype="link"/>
+                    <link type="people" corresp="#people/171 #people/7" subtype="link" cert="low"/>
                     <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
                     <link type="people" corresp="#people/172 #people/237 #people/288 #people/366"
                         subtype="link"/>
@@ -2053,8 +2061,8 @@
                     <note/>
                     <link type="estates" corresp="#estates/132" subtype="hasConnectionWith"/>
                     <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
-                    <link type="people" corresp="#people/171" subtype="link"/>
-                    <link type="people" corresp="#people/7" subtype="link"/>
+                    <link type="people" corresp="#people/171" subtype="link" cert="low"/>
+                    <link type="people" corresp="#people/7" subtype="link" cert="low"/>
                         <link type="people" corresp="#people/129" subtype="link"/>
                         <link type="people" corresp="#people/507" subtype="link"/>
                 </place>
@@ -3964,13 +3972,13 @@
                     <geogName type="coord"><geo>45.596744, 8.129196</geo></geogName>
                     <idno>places/457</idno>
                     <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
-                    <link type="people"
-                        corresp="#people/171 #people/7 #people/237 #people/366 #people/288"
-                        subtype="link"/>
+                    <link type="people" corresp="#people/237 #people/366 #people/288" subtype="link"/>
                     <link type="estates" corresp="#estates/206 #estates/62"
                         subtype="hasConnectionWith"/>
                     <note/>
                     <link type="people" corresp="#people/130" subtype="link"/>
+                        <link type="people" corresp="#people/7" subtype="link" cert="low"/>
+                        <link type="people" corresp="#people/117" subtype="link" cert="low"/>
                 </place>
                 <place>
                     <placeName>Bobbio (Piacenza)</placeName>
@@ -4435,7 +4443,9 @@
                     <idno>places/517</idno>
                     <note/>
                     <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
-                    <link type="people" corresp="#people/130 #people/171" subtype="link"/>
+                    <link type="people" corresp="#people/130" subtype="link"/>
+                        <link type="people" corresp="#people/7" subtype="link" cert="low"/>
+                        <link type="people" corresp="#people/171" subtype="link" cert="low"/>
                 </place>
                 <place>
                     <placeName>Prarolo (Vercelli)</placeName>
@@ -4459,6 +4469,8 @@
                         <link type="people" corresp="#people/410" subtype="link"/>
                         <link type="people" corresp="#people/129" subtype="link"/>
                         <link type="people" corresp="#people/507" subtype="link"/>
+                        <link type="people" corresp="#people/7" subtype="link" cert="low"/>
+                        <link type="people" corresp="#people/117" subtype="link" cert="low"/>
                 </place>
                 <place>
                     <placeName>Roatella (Casalvolone; Novara)</placeName>
