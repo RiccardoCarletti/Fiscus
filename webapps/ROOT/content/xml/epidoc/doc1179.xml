@@ -81,9 +81,14 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>Nelle schede del nostro Girolamo Bossi si accenna un diploma del re
-                        Berengario a favore del monastero del Senatore in data di Pavia nel giorno
-                        30 maggio 894.</ab>
+                    <ab>Nelle schede del nostro Girolamo Bossi si accenna un <rs
+                            key="#Imperial/royal_diploma">diploma</rs> del <rs key="#Emperor/king"
+                            >re</rs>
+                        <persName key="#Emperor/king" ref="#people/21">Berengario</persName> a
+                        favore del <rs key="#Monasteries">monastero</rs> del <orgName
+                            key="#Monasteries" ref="#juridical_persons/1406">Senatore</orgName> in
+                        data di <placeName ref="#places/65">Pavia</placeName> nel giorno 30 maggio
+                        894.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
