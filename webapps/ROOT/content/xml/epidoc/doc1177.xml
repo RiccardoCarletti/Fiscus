@@ -4,8 +4,9 @@
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
-                <title>Biblioteca Ambrosiana di Milano, Cronaca di San Pietro di Lodi vecchio, A.
-                    Vairano, cop. cart. sec. XV, ms. E, 124 sup c. 84 B.</title>
+                <title>Biblioteca Ambrosiana di Milano, <foreign>Cronaca di San Pietro di Lodi
+                        vecchio</foreign> di Anselmo Vairano, cop. cart. sec. XV, ms. E, 124 sup c.
+                    84 B.</title>
             </titleStmt>
             <editionStmt>
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
@@ -82,11 +83,20 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>Anno domini nostri Yesu Christi DCCCLXXXVIII, indictione VI, tempore Stefani
-                        V pape et Girardi episcopi Berengarius rex concessit et confirmavit omnia
-                        privilegia suprascripta et dedit LXXX iugera terre apud Lambrum cum capella
-                        una in eodem sita, et hoc pro amore Dei et anime sue remedio; et hoc ad
-                        peticionem Reitaldi abbatis, sicut legitur in privilegio uno quod sic
+                    <ab>Anno domini nostri Yesu Christi DCCCLXXXVIII, indictione VI, tempore
+                            <persName key="#Popes" ref="#people/1510">Stefani V</persName>
+                        <rs key="#Popes">pape</rs> et <persName key="#Bishops" ref="#people/214"
+                            >Girardi</persName>
+                        <rs key="#Bishops">episcopi</rs>
+                        <persName key="#Emperor/king" ref="#people/21">Berengarius</persName>
+                        <rs key="#Emperor/king">rex</rs> concessit et confirmavit omnia <rs
+                            key="#Privileges">privilegia</rs> suprascripta et dedit <rs
+                            key="#Landed_possessions"><rs key="#Confinia">LXXX iugera</rs> terre
+                            apud <rs key="#Rivers">Lambrum</rs></rs> cum <rs key="#Churches"
+                            >capella</rs> una in eodem sita, et hoc pro amore Dei et anime sue
+                        remedio; et hoc ad peticionem <persName key="#Abbots"><name ref="Reitaldus"
+                                >Reitaldi</name></persName>
+                        <rs key="#Abbots">abbatis</rs>, sicut legitur in privilegio uno quod sic
                         incipit: «In nomine domini nostri Yesu Christi Dei eterni. Berengarius rex
                         &amp;c.».</ab>
                 </div>
