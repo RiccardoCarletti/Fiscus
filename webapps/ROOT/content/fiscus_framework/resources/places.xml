@@ -402,9 +402,10 @@
                     <idno>places/50</idno>
                     <note/>
                     <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
-                    <link type="people" corresp="#people/7" subtype="link"/>
+                    <link type="people" corresp="#people/7" subtype="link" cert="low"/>
                     <link type="people" corresp="#people/237" subtype="link"/>
-                    <link type="estates" corresp="#estates/62"/>
+                    <link type="estates" corresp="#estates/62" subtype="hasConnectionWith"/>
+                        <link type="people" corresp="#people/171" subtype="link" cert="low"/>
                 </place>
                 <place>
                     <placeName>Sostegno (Biella)</placeName>
@@ -1836,7 +1837,7 @@
                     <geogName type="coord"><geo>45.33815, 8.173828</geo></geogName>
                     <idno>places/218</idno>
                     <note/>
-                    <link type="people" corresp="#people/171 #people/7" subtype="link"/>
+                    <link type="people" corresp="#people/171 #people/7" subtype="link" cert="low"/>
                     <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
                 </place>
                 <place>
@@ -2060,8 +2061,8 @@
                     <note/>
                     <link type="estates" corresp="#estates/132" subtype="hasConnectionWith"/>
                     <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
-                    <link type="people" corresp="#people/171" subtype="link"/>
-                    <link type="people" corresp="#people/7" subtype="link"/>
+                    <link type="people" corresp="#people/171" subtype="link" cert="low"/>
+                    <link type="people" corresp="#people/7" subtype="link" cert="low"/>
                         <link type="people" corresp="#people/129" subtype="link"/>
                         <link type="people" corresp="#people/507" subtype="link"/>
                 </place>
@@ -4442,7 +4443,9 @@
                     <idno>places/517</idno>
                     <note/>
                     <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
-                    <link type="people" corresp="#people/130 #people/171" subtype="link"/>
+                    <link type="people" corresp="#people/130" subtype="link"/>
+                        <link type="people" corresp="#people/7" subtype="link" cert="low"/>
+                        <link type="people" corresp="#people/171" subtype="link" cert="low"/>
                 </place>
                 <place>
                     <placeName>Prarolo (Vercelli)</placeName>
