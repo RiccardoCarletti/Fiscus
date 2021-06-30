@@ -1859,7 +1859,7 @@
                     <geogName type="coord"><geo>45.611396, 8.371925</geo></geogName>
                     <idno>places/220</idno>
                     <note/>
-                    <link type="people" corresp="#people/171 #people/7" subtype="link"/>
+                    <link type="people" corresp="#people/171 #people/7" subtype="link" cert="low"/>
                     <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
                         <link type="people" corresp="#people/124" subtype="link"/>
                         <link type="people" corresp="#people/410" subtype="link"/>
@@ -1906,7 +1906,7 @@
                     <geogName type="coord"><geo>45.450016, 8.383255</geo></geogName>
                     <idno>places/224</idno>
                     <note/>
-                    <link type="people" corresp="#people/171 #people/7" subtype="link"/>
+                    <link type="people" corresp="#people/171 #people/7" subtype="link" cert="low"/>
                     <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
                         <link type="people" corresp="#people/124" subtype="link"/>
                         <link type="people" corresp="#people/410" subtype="link"/>
@@ -1919,7 +1919,7 @@
                     <geogName type="coord"><geo>45.4246, 8.382225</geo></geogName>
                     <idno>places/225</idno>
                     <note/>
-                    <link type="people" corresp="#people/171 #people/7" subtype="link"/>
+                    <link type="people" corresp="#people/171 #people/7" subtype="link" cert="low"/>
                     <link type="juridical_persons"
                         corresp="#juridical_persons/94 #juridical_persons/81" subtype="link"/>
                         <link type="people" corresp="#people/124" subtype="link"/>
@@ -1933,7 +1933,7 @@
                     <geogName type="coord"><geo>45.329944, 8.555946</geo></geogName>
                     <idno>places/226</idno>
                     <note/>
-                    <link type="people" corresp="#people/171 #people/7" subtype="link"/>
+                    <link type="people" corresp="#people/171 #people/7" subtype="link" cert="low"/>
                     <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
                 </place>
                 <place>
@@ -1955,8 +1955,8 @@
                     <geogName type="coord"><geo>45.185304, 8.233051</geo></geogName>
                     <idno>places/228</idno>
                     <note/>
-                    <link type="people" corresp="#people/171" subtype="link"/>
-                    <link type="people" corresp="#people/7" subtype="link"/>
+                    <link type="people" corresp="#people/171" subtype="link" cert="low"/>
+                    <link type="people" corresp="#people/7" subtype="link" cert="low"/>
                 </place>
                 <place>
                     <placeName>Maglione (Ivrea)</placeName>
@@ -1964,8 +1964,8 @@
                     <geogName type="coord"><geo>45.344907, 8.012466</geo></geogName>
                     <idno>places/229</idno>
                     <note/>
-                    <link type="people" corresp="#people/171" subtype="link"/>
-                    <link type="people" corresp="#people/7" subtype="link"/>
+                    <link type="people" corresp="#people/171" subtype="link" cert="low"/>
+                    <link type="people" corresp="#people/7" subtype="link" cert="low"/>
                     <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
                 </place>
                 <place>
@@ -3547,6 +3547,8 @@
                     <note/>
                     <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
                     <link type="people" corresp="#people/261 #people/288" subtype="link"/>
+                        <link type="people" corresp="#people/7" subtype="link" cert="low"/>
+                        <link type="people" corresp="#people/171" subtype="link" cert="low"/>
                 </place>
                 <place>
                     <placeName>Gabiano (Alessandria)</placeName>
@@ -3901,13 +3903,13 @@
                     <idno>places/450</idno>
                     <note/>
                     <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
-                    <link type="people"
-                        corresp="#people/171 #people/7 #people/237 #people/366 #people/288"
-                        subtype="link"/>
+                    <link type="people" corresp="#people/237 #people/366 #people/288" subtype="link"/>
                         <link type="people" corresp="#people/124" subtype="link"/>
                         <link type="people" corresp="#people/410" subtype="link"/>
                         <link type="people" corresp="#people/129" subtype="link"/>
                         <link type="people" corresp="#people/507" subtype="link"/>
+                        <link type="people" corresp="#people/7" subtype="link" cert="low"/>
+                        <link type="people" corresp="#people/171" subtype="link" cert="low"/>
                 </place>
                 <place>
                     <placeName>Grignasco (Novara)</placeName>
@@ -3916,7 +3918,7 @@
                     <idno>places/451</idno>
                     <note>Panero 2004. Sicuramente interpolata</note>
                     <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
-                    <link type="people" corresp="#people/171 #people/7" subtype="link"/>
+                    <link type="people" corresp="#people/171 #people/7" subtype="link" cert="low"/>
                     <link type="estates" corresp="#estates/202" subtype="hasConnectionWith"/>
                 </place>
                 <place>
@@ -4522,6 +4524,8 @@
                     <note/>
                     <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
                     <link type="people" corresp="#people/261 #people/288" subtype="link"/>
+                        <link type="people" corresp="#people/7" subtype="link" cert="low"/>
+                        <link type="people" corresp="#people/171" subtype="link" cert="low"/>
                 </place>
                 <place>
                     <placeName>Cardezza (Novara)</placeName>
@@ -6335,7 +6339,7 @@
                     <note>Microtoponomastica: <foreign>Calduchule</foreign>.</note>
                 </place>
                 <place>
-                    <placeName>Moncrivello (Vercelli)</placeName>
+                    <placeName>Uliaco (Moncrivello; Vercelli)</placeName>
                     <placeName type="other">Miralda (<foreign>castrum</foreign>); Uliaco
                             (<foreign>castrum</foreign>)</placeName>
                     <geogName type="coord"><geo>45.330668, 7.999763</geo></geogName>
@@ -6349,6 +6353,8 @@
                             subtype="link"/>
                         <link type="people" corresp="#people/129" subtype="link"/>
                         <link type="people" corresp="#people/507" subtype="link"/>
+                        <link type="people" corresp="#people/7" subtype="link" cert="low"/>
+                        <link type="people" corresp="#people/171" subtype="link" cert="low"/>
                 </place>
                 <place>
                     <placeName>Castrocielo (Frosinone)</placeName>
@@ -6769,8 +6775,8 @@
                         <link type="people" corresp="#people/410" subtype="link"/>
                         <link type="juridical_persons" corresp="#juridical_persons/81"
                             subtype="link"/>
-                        <link type="people" corresp="#people/7" subtype="link"/>
-                        <link type="people" corresp="#people/171" subtype="link"/>
+                        <link type="people" corresp="#people/7" subtype="link" cert="low"/>
+                        <link type="people" corresp="#people/171" subtype="link" cert="low"/>
                     </place>
                     <place>
                         <placeName>Ghislarengo (Vercelli)</placeName>
@@ -6784,6 +6790,8 @@
                             subtype="link"/>
                         <link type="people" corresp="#people/129" subtype="link"/>
                         <link type="people" corresp="#people/507" subtype="link"/>
+                        <link type="people" corresp="#people/7" subtype="link" cert="low"/>
+                        <link type="people" corresp="#people/171" subtype="link" cert="low"/>
                     </place>
                     <place>
                         <placeName>Lenta (Vercelli)</placeName>
@@ -6810,6 +6818,8 @@
                             subtype="link"/>
                         <link type="people" corresp="#people/129" subtype="link"/>
                         <link type="people" corresp="#people/507" subtype="link"/>
+                        <link type="people" corresp="#people/7" subtype="link" cert="low"/>
+                        <link type="people" corresp="#people/171" subtype="link" cert="low"/>
                     </place>
                     <place>
                         <placeName>Vintebbio (Vercelli)</placeName>
@@ -6827,7 +6837,7 @@
                     <place>
                         <placeName>Navola (Seravalle Sesia; Vercelli)</placeName>
                         <placeName type="other">Navola</placeName>
-                        <geogName type="coord"><geo/></geogName>
+                        <geogName type="coord"><geo>45.685317, 8.316822</geo></geogName>
                         <idno>places/808</idno>
                         <note>Località oggi scomparsa presso Seravalle Sesia</note>
                         <link type="people" corresp="#people/124" subtype="link"/>
@@ -6836,6 +6846,8 @@
                             subtype="link"/>
                         <link type="people" corresp="#people/129" subtype="link"/>
                         <link type="people" corresp="#people/507" subtype="link"/>
+                        <link type="people" corresp="#people/7" subtype="link" cert="low"/>
+                        <link type="people" corresp="#people/171" subtype="link" cert="low"/>
                     </place>
                     <place>
                         <placeName>Crevacuore (Biella)</placeName>
