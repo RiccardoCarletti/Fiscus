@@ -1846,7 +1846,7 @@
                     <geogName type="coord"><geo>45.69491, 8.291588</geo></geogName>
                     <idno>places/219</idno>
                     <note/>
-                    <link type="people" corresp="#people/171 #people/7" subtype="link"/>
+                    <link type="people" corresp="#people/171 #people/7" subtype="link" cert="low"/>
                     <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
                         <link type="people" corresp="#people/129" subtype="link"/>
                         <link type="people" corresp="#people/124" subtype="link"/>
@@ -1987,8 +1987,8 @@
                     <geogName type="coord"><geo>45.582569, 8.176746</geo></geogName>
                     <idno>places/231</idno>
                     <note/>
-                    <link type="people" corresp="#people/171" subtype="link"/>
-                    <link type="people" corresp="#people/7" subtype="link"/>
+                    <link type="people" corresp="#people/171" subtype="link" cert="low"/>
+                    <link type="people" corresp="#people/7" subtype="link" cert="low"/>
                     <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
                 </place>
                 <place>
@@ -4547,7 +4547,7 @@
                 </place>
                 <place>
                     <placeName>Volpara (Pavia)</placeName>
-                    <placeName type="other"/>
+                    <placeName type="other"><foreign>Vulpara</foreign></placeName>
                     <geogName type="coord"><geo>44.951436, 9.297953</geo></geogName>
                     <idno>places/528</idno>
                     <note>l castello di “Cerretum” e la località di “Vulparia” furono confiscati al conte
@@ -4555,6 +4555,8 @@
                         III, doc. 321.</note>
                     <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
                     <link type="people" corresp="#people/261 #people/288" subtype="link"/>
+                        <link type="people" corresp="#people/7" subtype="link" cert="low"/>
+                        <link type="people" corresp="#people/171" subtype="link" cert="low"/>
                 </place>
                 <place>
                     <placeName>Crescentino (Vercelli)</placeName>
@@ -4582,6 +4584,8 @@
                     <note/>
                     <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
                     <link type="people" corresp="#people/261 #people/288" subtype="link"/>
+                        <link type="people" corresp="#people/7" subtype="link" cert="low"/>
+                        <link type="people" corresp="#people/171" subtype="link" cert="low"/>
                 </place>
                 <place>
                     <placeName>Romagnano Sesia (Novara)</placeName>
@@ -4593,6 +4597,8 @@
                     <link type="people" corresp="#people/261 #people/288" subtype="link"/>
                         <link type="people" corresp="#people/32 #people/33" subtype="link"
                             cert="low"/>
+                        <link type="people" corresp="#people/7" subtype="link" cert="low"/>
+                        <link type="people" corresp="#people/171" subtype="link" cert="low"/>
                 </place>
                 <place>
                     <placeName><foreign>Omiclo</foreign> (Podere Castellucci; Montelupo Fiorentino;
@@ -6521,6 +6527,8 @@
                     <link type="people" corresp="#people/410" subtype="link"/>
                     <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
                         <link type="people" corresp="#people/129" subtype="link"/>
+                        <link type="people" corresp="#people/7" subtype="link" cert="low"/>
+                        <link type="people" corresp="#people/171" subtype="link"/>
                 </place>
                 <place>
                     <placeName>Pomaro Monferrato (Alessandria)</placeName>
@@ -7028,9 +7036,9 @@
                         <link type="people" corresp="#people/171" subtype="link" cert="low"/>
                     </place>
                     <place>
-                        <placeName>Volpara (Pavia)</placeName>
-                        <placeName type="other"><foreign>Vulpara</foreign></placeName>
-                        <geogName type="coord"><geo>44.952955, 9.298167</geo></geogName>
+                        <placeName>Cassaliglo </placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo/></geogName>
                         <idno>places/824</idno>
                         <note/>
                         <link type="people" corresp="#people/7" subtype="link" cert="low"/>
