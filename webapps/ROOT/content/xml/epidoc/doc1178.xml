@@ -34,7 +34,7 @@
                             <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Compendium</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Uncertain</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -42,11 +42,11 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate notBefore="0001" notAfter="0001" when="0001"> 
-                                <note type="displayed_date"></note>
-                                <note type="dating_elements"></note>
-                                <note type="topical_date"></note>
-                                <note type="redaction_date"></note>
+                            <origDate when="0894-05-30">
+                                <note type="displayed_date">894 may 30</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Pavia</note>
+                                <note type="redaction_date">XVII secolo</note>
                             </origDate>
                             <origPlace/>
                         </origin>
@@ -74,7 +74,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2021-02-08">creation of record</change>
+                <change when="2021-02-08" who="Chiara Stedile">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -82,11 +82,13 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab></ab>
+                    <ab>Carlo Magno ritrovandosi in Pavia doppo la presa del re Desiderio nel *** li
+                        confermò tutte le medesime cose. La qual confirmatione fu anche rinovata da
+                        Berengario nel 984 con loro privilegi.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p/>
+                <p>DD B I, p. 406, Diplomi perduti n° 7</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>
