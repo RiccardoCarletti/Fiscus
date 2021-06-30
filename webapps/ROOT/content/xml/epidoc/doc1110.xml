@@ -34,7 +34,7 @@
                             <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -97,14 +97,15 @@
                         <orgName key="#Monasteries" ref="#juridical_persons/120">monasterii Sancte
                             Cristine</orgName> prope <geogName key="#Curtes" ref="#estates/139"
                             >curtem nostram Ollonam</geogName> sive per <persName
-                            key="#Consiliarius_regis #Bishops" ref="#people/58">Petrum</persName>
-                        venerabilem <rs key="#Bishops">episcopum</rs>, <persName
-                            key="#Consiliarius_regis"><name ref="Restaldus"
-                            >Restaldum</name></persName> et per <persName
-                            key="#Marquis/duke #Consiliarius_regis"><name ref="Aschericus"
-                                >Ascherium</name></persName> illustrem <rs key="#Marquis/duke"
-                            >marchionem</rs> summos <rs key="#Consiliarius_regis">consciliarios</rs>
-                        nostros expetiis clemenciam nostram, ut ei quandam <rs
+                            key="#Intercessory #Consiliarius_regis #Bishops" ref="#people/58"
+                            >Petrum</persName> venerabilem <rs key="#Bishops">episcopum</rs>,
+                            <persName key="#Intercessory #Consiliarius_regis"><name ref="Restaldus"
+                                >Restaldum</name></persName> et per <persName
+                            key="#Intercessory #Marquis/duke #Consiliarius_regis"><name
+                                ref="Aschericus">Ascherium</name></persName> illustrem <rs
+                            key="#Marquis/duke">marchionem</rs> summos <rs key="#Consiliarius_regis"
+                            >consciliarios</rs> nostros expetiis <rs key="#Intercessory"
+                            >clemenciam</rs> nostram, ut ei quandam <rs
                             key="#Curtes #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
                             >curtem</rs> iuris regni nostri nomine <geogName
                             key="#Houses #Natural_landscape #Rivers #Curtes #Fundi #Landed_possessions #Forests #Mills #Wine #Fruits/vegetables #Fiscal_property #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches #Aldius #Royal_slave"
@@ -149,25 +150,33 @@
                         servanda, ab oriente <rs
                             key="#Lakes #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure"
                             >lacus</rs> qui dicitur Sussinate cum tota <placeName ref="#places/298"
+                            key="#Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
                             >Vallinata</placeName> in integrum usque in Padum, a meridie <rs
                             key="#Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_individuals #Ports"
                             >portus qui vocatur Novus</rs> cum rochalibus supera, ab occidente vero
                         a curte nostra Ollona dividitur, a septentrione igitur <placeName
-                            ref="#places/278">terra <orgName ref="#juridical_persons/53">Sancti
-                                Systi</orgName> que nuncupatur <geogName ref="#estates/113"
-                                >Yberni</geogName></placeName> et extenditur usque ad <rs
-                            key="#Rivers">fluvium Lambrum</rs> et
-                            <placeName>Victumlongum</placeName> atque <placeName>Castellum
-                            Desertum</placeName> et usque ad <placeName>fontanam Sancti
-                            Ambrosii</placeName> et <placeName ref="#places/299">Brionem</placeName>
-                        et totus insuper <placeName ref="#places/277">Monsmallus</placeName> usque
-                        in predicta Vallinata. Si quis autem contra hoc nostrum preceptum
-                        quandocumque insurgere temptaverit, sciat se compositurum triginta libras
-                        auri obrizi, medietatem palacio nostro et medietatem prefato abbati eiusque
-                        successoribus. Ut autem ab omnibus verius credatur et diligencius
-                        observetur, manu propria subtus confirmavimus et anuli nostri impressione
-                        insigniri iussimus. Signum domni Berengarii serenissimi regis. <persName
-                            key="#Notary"><name ref="Restaldus">Restaldus</name></persName>
+                            ref="#places/278"
+                            key="#Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
+                            >terra <orgName ref="#juridical_persons/53">Sancti Systi</orgName> que
+                            nuncupatur <geogName ref="#estates/113">Yberni</geogName></placeName> et
+                        extenditur usque ad <rs key="#Rivers">fluvium Lambrum</rs> et <placeName
+                            key="#Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
+                            >Victumlongum</placeName> atque <placeName
+                            key="#Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
+                            >Castellum Desertum</placeName> et usque ad <placeName
+                            key="#Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
+                            >fontanam Sancti Ambrosii</placeName> et <placeName ref="#places/299"
+                            key="#Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
+                            >Brionem</placeName> et totus insuper <placeName ref="#places/277"
+                            key="#Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
+                            >Monsmallus</placeName> usque in predicta Vallinata. Si quis autem
+                        contra hoc nostrum preceptum quandocumque insurgere temptaverit, sciat se
+                        compositurum triginta libras auri obrizi, medietatem palacio nostro et
+                        medietatem prefato abbati eiusque successoribus. Ut autem ab omnibus verius
+                        credatur et diligencius observetur, manu propria subtus confirmavimus et
+                        anuli nostri impressione insigniri iussimus. Signum domni Berengarii
+                        serenissimi regis. <persName key="#Notary"><name ref="Restaldus"
+                                >Restaldus</name></persName>
                         <rs key="#Notary">notarius</rs> iussione regia ad vicem <persName
                             key="#Archchancellor #Bishops" ref="#people/58">Petri</persName>
                         <rs key="#Bishops">episcopi</rs>
