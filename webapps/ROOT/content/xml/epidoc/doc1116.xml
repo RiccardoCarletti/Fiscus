@@ -33,7 +33,7 @@
                             <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Uncertain</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -44,9 +44,9 @@
                             <origDate notBefore="0896" notAfter="0899">
                                 <note type="displayed_date">Between 896 and 899</note>
                                 <note type="dating_elements">Emanato durante il vescovato di
-                                    Landolfo I di Milano</note>
+                                    Landolfo I di Milano.</note>
                                 <note type="topical_date"/>
-                                <note type="redaction_date"/>
+                                <note type="redaction_date">X exeunte</note>
                              </origDate>
                             <origPlace/>
                         </origin>
@@ -133,11 +133,12 @@
                             functiones aut redibiciones vel occasiones requirendas consurgere
                             audeat, set liceat predicto abbati successoribusque eius cum omnibus
                             subiectis sibi rebus iuxta illorum privilegia et precepta sub
-                            immunitatem nostram quieto ordine consistere.</rs> Volumus quoque et
-                        concedimus, ut quandoquidem divina vocatione abbas ipsius monasterii eiusque
-                        successores de ac luce migraverint, ipsi <rs key="#Monks">monachi</rs> de
-                        ipsa congregatione qualem inter se digniorem invenerint licentiam habeant
-                        eligendi abbatem. Et ut firmum et stabile hoc nostrum regale preceptum
+                            immunitatem nostram quieto ordine consistere.</rs>
+                        <rs key="#Uncertain_tradition">Volumus quoque et concedimus, ut quandoquidem
+                            divina vocatione abbas ipsius monasterii eiusque successores de ac luce
+                            migraverint, ipsi <rs key="#Monks">monachi</rs> de ipsa congregatione
+                            qualem inter se digniorem invenerint licentiam habeant eligendi
+                            abbatem.</rs> Et ut firmum et stabile hoc nostrum regale preceptum
                         permaneat, propria manu firmavimus et anulo nostro iussimus
                         sigillari...</ab>
                 </div>
@@ -152,7 +153,13 @@
                 <p/>
             </div>
             <div type="commentary">
-                <p/>
+                <p>La copia pervenutaci è scorretta e incompleta e il passaggio che regola
+                    l'elezione dell'abate è aggiunta in calce da prima mano. Questo diploma potrebbe
+                    essere considerato il modello del diploma falsificato datato 19 agosto 988 (DD B
+                    I, pp. 373-375, Falsificazioni n° IV), ma Schiaparelli ritiene più probabile che
+                    entrambi dipendessero da una copia (o dall'originale) andata perduta, poiché DD
+                    B I, pp. 373-375, Falsificazioni n° IV presenta nelle formule una dizione più
+                    corretta e completa.</p>
             </div>
         </body>
     </text>
