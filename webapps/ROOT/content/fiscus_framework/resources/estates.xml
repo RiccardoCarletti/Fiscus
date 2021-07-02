@@ -548,6 +548,7 @@
                     <link type="estates" corresp="#estates/265" subtype="isMadeOf"/>
                     <link type="estates" corresp="#estates/321" subtype="isMadeOf"/>
                         <link type="estates" corresp="#estates/811" subtype="isMadeOf"/>
+                        <link type="estates" corresp="#estates/812" subtype="isMadeOf"/>
                 </place>
                 <place>
                     <geogName>Hochburg; <foreign>curtis</foreign></geogName>
@@ -2948,6 +2949,14 @@
                         <geogName>Laurentius; <foreign>fundus</foreign></geogName>
                         <geogName type="other"/>
                         <idno>estates/811</idno>
+                        <note>De Francesco 2004: 211, 290. </note>
+                        <link type="people" corresp="#people/71" subtype="link"/>
+                        <link type="estates" corresp="#estates/103" subtype="isPartOf"/>
+                    </place>
+                    <place>
+                        <geogName>Inaurorum; <foreign>fundus</foreign></geogName>
+                        <geogName type="other"/>
+                        <idno>estates/812</idno>
                         <note>De Francesco 2004: 211, 290. </note>
                         <link type="people" corresp="#people/71" subtype="link"/>
                         <link type="estates" corresp="#estates/103" subtype="isPartOf"/>
