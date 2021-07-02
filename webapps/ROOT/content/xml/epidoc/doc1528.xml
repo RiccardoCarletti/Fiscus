@@ -4,7 +4,8 @@
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
-                <title></title>
+                <title>Biblioteca Apostolica Vaticana, Vat. Lat. 3833, f. 89r (Deusdedit, nr.
+                    244)</title>
             </titleStmt>
             <editionStmt>
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
@@ -13,7 +14,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
-                <idno type="filename">doc1</idno>
+                <idno type="filename">doc1528</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -30,10 +31,10 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#"/>
-                            <rs type="record_source" ref="#"/>
-                            <rs type="document_tradition" ref="#"/>
-                            <rs type="fiscal_property"/>
+                            <rs type="text_type" ref="#">-Papal concession (papyrus)</rs>
+                            <rs type="record_source" ref="#">Original document</rs>
+                            <rs type="document_tradition" ref="#">Compendium</rs>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -41,11 +42,11 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate notBefore="0001" notAfter="0001" when="0001"> 
-                                <note type="displayed_date"></note>
-                                <note type="dating_elements"></note>
-                                <note type="topical_date"></note>
-                                <note type="redaction_date"></note>
+                            <origDate notBefore="0715" notAfter="0731">
+                                <note type="displayed_date">715 May 19 - 731 February 11</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date"/>
+                                <note type="redaction_date"/>
                             </origDate>
                             <origPlace/>
                         </origin>
@@ -73,7 +74,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2021-02-08">creation of record</change>
+                <change when="2021-07-02" who="dinternullo">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -81,20 +82,44 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab></ab>
+                    <ab>Diaconiae sancti Eustathii imperpetuum: fundum Cervinariola, fundum
+                        Caldariola, prestantes numero .I. auri solidos; fundum Pompilianum, fundum
+                        Paganum, fundum Lamponianum, fundum Signioba, fundum Pompeianum, fundum
+                        Gavianum, fundum Caprolanum, fundum Veranum, fundum Calechianum, fundum
+                        Constantianum, fundum Camarelis cum casalibus et apendicibus suis: prestant
+                        numero .III. auri solidos; fundum Larintias, fundum Pavianum, fundum
+                        Lamponianum numero .I. auri solidos prestantes; fundum Constantianum
+                        prestans numero .X. auri siliquas; fundum Riccliianum prestantem numero .X.
+                        auri siliquas et casale Torianum, fundum Servilianum, fundum Natianum,
+                        fundum Ruscellis, fundum Silicella, fundum Gregorianum, fundum Casamontis,
+                        fundum Gaianum prestantes numero .II. auri solidos; fundum Saxonigro,
+                        prestat numero semis auri solidum; omnes ex corpore massae Calcianae; fundum
+                        Pigrinum, fundum Casanova, fundum Turritanum, fundum Iaganum, fundum
+                        Calabrilacanum, fundum Trivicianum, prestat numero [...] auri solidos,
+                        posita in Afile ex corpore maxae Pontianae patrimonii Lavicani; et massam
+                        Furanianam cum fundis et casalibus et omnibus suis; fundum Pacurianum,
+                        fundum Ancurianum, fundum Casagallorum, fundum Furanianum, fundum Filanum,
+                        fundum Arclis, fundum Fatianum, fundum Scandilianum, fundum Barbatianense,
+                        fundum Casaherclanea, fundum Serenianum, fundum Casatuscis, fundum
+                        Casalaucini, fundum Casnartellis, fundum Casavini, fundum Casasimiama,
+                        fundum Iussianum, fundum Cetinianum, fundum Casavaleriana, fundum
+                        Pinianellum, prestant numero .V. auri solidos et aureum .I., ex corpore maxe
+                        Aliane patrimonii Tiburtini, prestant annue numero .XIII. semis quartum
+                        solidos. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p/>
+                <p>Deusdedit, Collectio Canonum, nr. 244, pp. 372-373</p>
             </div>
             <div type="bibliography" subtype="additional">
-                <p/>
+                <p>Marazzi 1998: 303-304</p>
             </div>
             <div type="bibliography" subtype="links">
-                <p/>
+                <p><ref>https://digi.vatlib.it/view/MSS_Vat.lat.3833</ref></p>
             </div>
             <div type="commentary">
-                <p/>
+                <p>Le note tachigrafiche della rendita sono qui sciolte seguendo le indicazioni di
+                    Marazzi 1998.</p>
             </div>
         </body>
     </text>
