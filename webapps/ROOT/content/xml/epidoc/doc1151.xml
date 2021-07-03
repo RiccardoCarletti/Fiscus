@@ -33,8 +33,8 @@
                         <summary>
                             <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
-                            <rs type="document_tradition" ref="#">Uncertain tradition</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">Uncertain</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -50,7 +50,7 @@
                                         quem</foreign> è l'incoronazione imperiale di
                                     Berengario.</note>
                                 <note type="topical_date"/>
-                                <note type="redaction_date"/>
+                                <note type="redaction_date">X sec.</note>
                              </origDate>
                             <origPlace/>
                         </origin>
@@ -92,17 +92,19 @@
                         munificentie effectum inpendimus, devotiores eos ad nostra obsequia reddimus
                         et ad eterne retributionis munera proficere nobis non dubitamus. Quapropter
                         omnium [fidelium] sancte Dei Eclesie nostrorumque presentium scilicet ac
-                        futurorum comperiat industria, qualiter <persName key="#Bishops"
-                            ref="#people/369">Iohannes</persName> sancte Ticinensis eclesie
-                        venerabilis <rs key="#Bishops">episcopus</rs> et <persName
-                            key="#Marquis/duke #Palatine_count #Consiliarius_regis"
+                        futurorum comperiat industria, qualiter <persName
+                            key="#Intercessory #Bishops" ref="#people/369">Iohannes</persName>
+                        sancte Ticinensis eclesie venerabilis <rs key="#Bishops">episcopus</rs> et
+                            <persName
+                            key="#Intercessory #Marquis/duke #Palatine_count #Consiliarius_regis"
                             ref="#people/1502">Oldericus</persName>
                         <rs key="#Palatine_count">comes</rs> et <rs key="#Marquis/duke">marchio</rs>
                         sacri palatii nostri <rs key="#Consiliarius_regis">consiliarius</rs> fideles
-                        nostri suppliciter nostram petierunt maiestatem, quatinus pro iminenti
-                        sevorum Ungrorum vastacione cuidam fideli nostro <persName
-                            key="#Other_clerics"><name ref="Leo">Leoni</name></persName> sancte
-                            <orgName ref="#juridical_persons/116">Novariensis eclesie</orgName>
+                        nostri suppliciter nostram <rs key="#Intercessory">petierunt</rs>
+                        maiestatem, quatinus pro iminenti sevorum Ungrorum vastacione cuidam fideli
+                        nostro <persName key="#Other_clerics"><name ref="Leo"
+                            >Leoni</name></persName> sancte <orgName ref="#juridical_persons/116"
+                            >Novariensis eclesie</orgName>
                         <rs key="#Other_clerics">vicedomino</rs> in propriis suis rebus finibus
                             <geogName key="#Comitatus" ref="#estates/327">Plumbiensis
                             commitatus</geogName> in vocabulis, villulis, id sunt <placeName
