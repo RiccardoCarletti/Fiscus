@@ -4,7 +4,8 @@
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
-                <title>DD B I, pp. 222-224, n° LXXXIII</title>
+                <title>Archivio Capitolare di Reggio Emilia (DD B I, pp. 222-224, n°
+                    LXXXIII)</title>
             </titleStmt>
             <editionStmt>
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
@@ -32,8 +33,8 @@
                         <summary>
                             <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
-                            <rs type="document_tradition" ref="#">Uncertain tradition</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -97,14 +98,15 @@
                             ref="#juridical_persons/237">Sanctae Marie que dicitur in
                             Turricella</orgName>, usque ad nostrae serenitatis aures detulerit.
                         Cuius negotii causam usque ad palatini nostri iuditii discussum perduximus.
-                        In quo examinis iuditio residentibus nobis in nostro regali auditorio,
-                        presentibus <persName key="#Archbishops" ref="#people/323"
-                            >Aichone</persName> venerabile Mediolanensi <rs key="#Archbishops"
-                            >archiepiscopo</rs> atque <persName key="#Bishops" ref="#people/253"
-                            >Iohanne</persName> Ticinensi aliisque complurimis coepiscopis, <rs
-                            key="#Abbots">abbatibus</rs>, <rs key="#Count">commitibus</rs>, omnibus
-                            <rs key="#Judge">palatinis iudicibus</rs>, nec non maxima fidelium
-                        nostrorum manu inter astante, V id. iun. in <placeName ref="#places/65">
+                        In quo examinis iuditio residentibus nobis in nostro regali auditorio, <rs
+                            key="#Witness">presentibus</rs>
+                        <persName key="#Witness #Archbishops" ref="#people/323">Aichone</persName>
+                        venerabile Mediolanensi <rs key="#Archbishops">archiepiscopo</rs> atque
+                            <persName key="#Witness #Bishops" ref="#people/253">Iohanne</persName>
+                        Ticinensi aliisque complurimis coepiscopis, <rs key="#Abbots"
+                        >abbatibus</rs>, <rs key="#Count">commitibus</rs>, omnibus <rs key="#Judge"
+                            >palatinis iudicibus</rs>, nec non maxima fidelium nostrorum manu inter
+                        astante, V id. iun. in <placeName ref="#places/65">
                             <rs key="#Palatia">palatio</rs> Ticini</placeName>, audita ex utraque
                         parte causa legalique iuditio terminata, revestivit nobis presentibus iam
                         dictus Vuifredus revictus de supradicta Sanctae Marie capella et <rs
