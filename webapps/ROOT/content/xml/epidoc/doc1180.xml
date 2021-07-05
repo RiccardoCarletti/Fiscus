@@ -90,8 +90,10 @@
                         omnium sancte dei ecclesie nostrorumque presentium scilicet ac futurorum
                         comperiat industria, quia <persName key="#Bishops"><name ref="Gotefredus"
                                 >Gottefredus</name></persName>
-                        <orgName ref="#juridical_persons/138">sancte <placeName ref="#places/67"
-                                >Lunensis</placeName> ecclesie</orgName>
+                        <orgName ref="#juridical_persons/138"
+                            key="#Villas #Curtes #Fisheries #Coloni/tenants #Castle #Local_markets #Plebs #Decima #Churches #Royal_slave #Royal_aldius"
+                            >sancte <placeName ref="#places/67">Lunensis</placeName>
+                            ecclesie</orgName>
                         <rs key="#Bishops">episcopus</rs> ad nostram noticiam venit proclamando de
                         pluribus sue ecclesie iniustis oppressionibus a seculari et publica
                         potestate temere illatis, ita ut, cuntempto amore et timore dei et abiecta a
@@ -126,42 +128,62 @@
                         plurima annorum curricula ab ea detineri cognovimus. Confirmamus etiam in
                             <geogName ref="#estates/161"><rs key="#Comitatus">comitatu</rs>
                             Parmensi</geogName>
-                        <rs key="#Curtes">corticellam</rs> que dicitur
-                            <geogName>Linariclum</geogName>, et <rs key="#Churches">ecclesiam</rs>
-                        <orgName>sancti Georgii</orgName> positam in loco qui dicitur
+                        <rs key="#Curtes">corticellam</rs> que dicitur <geogName
+                            key="#Curtes #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches"
+                            >Linariclum</geogName>, et <rs key="#Churches">ecclesiam</rs>
+                        <orgName
+                            key="#Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches"
+                            >sancti Georgii</orgName> positam in loco qui dicitur
                             <placeName>Uariano</placeName> cum pertinentiis suis, atque ecclesiam
-                            <orgName>sancti Terentii</orgName> in loco qui dicitur
+                            <orgName
+                            key="#Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches"
+                            >sancti Terentii</orgName> in loco qui dicitur
                             <placeName>Carrellia</placeName>, et aliam ecclesiam in loco qui dicitur
                             <placeName>Uuipilia</placeName> cum suis pertinentiis, <rs
                             key="#Local_markets">mercatum</rs> etiam in <rs key="#Plebs">plebe</rs>
-                        <geogName key="#Plebs">sancti Cassiani</geogName> et alium in plebe
-                            <geogName key="#Plebs">sancti Stephani</geogName> nec non et omnes
-                        plebes et cortes, <placeName key="#Curtes #Castle">Ameliam</placeName>
-                        videlicet cum <rs key="#Castle">castello</rs> et curte una, cum omnibus
-                        rebus mobilibus et immobilibus <rs key="#Royal_slave">servis et
-                            ancillis</rs>
-                        <rs key="#Coloni/tenants">collonis et collonabus</rs> aldiis et aldiabus,
-                        cun venationibus et piscationibus infra ipsius episcopatus terram habentibus
-                        et [confl]uentibus, nominative etiam Campilia cum piscatione et venatione
-                        sua. Volumus etiam ut per liberos homines inquisitio facta sit de rebus
-                        predicte ecclesie que ab ea iniuste abstracte sunt; quod infra XL et XXX
-                        annos tenuit, teneat in vestituram et inantea. Pretera confirmamus decimam
-                        VI villarum Uuiffula, Pontula, Ualeburdulasca, Tenirano et Rupinalia,
-                        Caustello quam Gualcherius sancte Lunensis ecclesie super Guinebaldum
-                        Bobiensis abbatem [in] presentia Karoli imperatoris et legatorum sancte
-                        sedis apostolice per iudicium vindicavit. Et ut hec nostra imperialis
-                        institutio et promulgata auctoritas nostrumque confirmationis preceptum
-                        proprium robor obtineat, iubemus ut, si quis contra hec que in hac pagina
-                        continentur, in aliquo agere convictus fuerit, C libras auri optimi
-                        compinese cogatur, medietatem camere nostre et medietatem pontifici sancte
-                        Lunensis ecclesie qui pro tempore fuerit. Et ut verius credatur
+                        <geogName key="#Local_markets #Plebs">sancti Cassiani</geogName> et alium in
+                        plebe <geogName key="#Local_markets #Plebs">sancti Stephani</geogName> nec
+                        non et omnes plebes et cortes, <placeName key="#Curtes #Castle"
+                            >Ameliam</placeName> videlicet cum <rs key="#Castle">castello</rs> et
+                        curte una, cum omnibus rebus mobilibus et immobilibus <rs key="#Royal_slave"
+                            >servis et ancillis</rs>
+                        <rs key="#Coloni/tenants">collonis et collonabus</rs>
+                        <rs key="#Aldius">aldiis et aldiabus</rs>, cun venationibus et <rs
+                            key="#Fisheries">piscationibus</rs> infra ipsius <rs>episcopatus</rs>
+                        terram habentibus et [confl]uentibus, nominative etiam <placeName
+                            key="#Fisheries">Campilia</placeName> cum piscatione et venatione sua.
+                        Volumus etiam ut per liberos homines inquisitio facta sit de rebus predicte
+                        ecclesie que ab ea iniuste abstracte sunt; quod infra XL et XXX annos
+                        tenuit, teneat in vestituram et inantea. Pretera confirmamus <rs
+                            key="#Decima">decimam</rs> VI villarum <geogName>Uuiffula</geogName>,
+                            <geogName>Pontula</geogName>, <geogName>Ualeburdulasca</geogName>,
+                            <geogName>Tenirano</geogName> et <geogName>Rupinalia</geogName>,
+                            <geogName>Caustello</geogName> quam <persName key="#Bishops"><name
+                                ref="Waldegarius">Gualcherius</name></persName> sancte Lunensis
+                        ecclesie super <persName key="#Abbots"><name ref="Winibaldus"
+                                >Guinebaldum</name></persName>
+                        <orgName ref="#juridical_persons/151">Bobiensis</orgName>
+                        <rs key="#Abbots">abbatem</rs> [in] presentia <persName key="#Emperor/king"
+                            ref="#people/32">Karoli</persName> imperatoris et legatorum sancte sedis
+                        apostolice per <rs key="#Placitum/iudicatum">iudicium</rs> vindicavit. Et ut
+                        hec nostra imperialis institutio et promulgata auctoritas nostrumque
+                        confirmationis preceptum proprium robor obtineat, iubemus ut, si quis contra
+                        hec que in hac pagina continentur, in aliquo agere convictus fuerit, <rs
+                            key="#Penalty">C libras auri optimi</rs> componere cogatur, <rs
+                            key="#Camera_regis">medietatem camere nostre</rs> et <rs
+                            key="#Camera_of_other_public_authorities">medietatem pontifici sancte
+                            Lunensis ecclesie</rs> qui pro tempore fuerit. Et ut verius credatur
                         diligentiusque ab omnibus imposterum observetur, manus illud nostre
                         inscriptione annotavimus et anulo nostro subter insigniri iussimus. Signum
                         domni Ottonis serenissi- (M.) mi et invictissimi imperatoris augusti.
-                        Iohannes cancellarius advicem Petri episcopi et archicancellarii recognovi
+                            <persName key="#Chancellor"><name ref="Iohannes"
+                            >Iohannes</name></persName>
+                        <rs key="#Chancellor">cancellarius</rs> advicem <persName
+                            key="#Archchancellor #Bishops"><name ref="Petrus"
+                            >Petri</name></persName> episcopi et <rs>archicancellarii</rs> recognovi
                         et scripsi. Data XV kal. Aug. Anno dominice incarnationis DCCCCLXXXI, anno
                         regni domni Ottonis secundi XXI, imperii autem eius XIIII, indictione VIII;
-                        actum in campo Circi; feliciter amen. </ab>
+                        actum in <placeName>campo Circi</placeName>; feliciter amen. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
