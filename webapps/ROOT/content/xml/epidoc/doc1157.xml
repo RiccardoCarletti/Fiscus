@@ -32,8 +32,8 @@
                         <summary>
                             <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
-                            <rs type="document_tradition" ref="#">Uncertain tradition</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -85,50 +85,51 @@
                             >Berengarius</persName> divina favente clementia <rs key="#Emperor/king"
                             >imperator</rs> augustus. Noverit omnium fidelium sanctae Dei Ecclesiae
                         nostrorumque presentium scilicet ac futurorum industria, <persName
-                            key="#Bishops #fidelisOf" ref="#people/273">Petrum</persName>
+                            key="#Intercessory #Bishops #fidelisOf" ref="#people/273"
+                            >Petrum</persName>
                         <orgName ref="#juridical_persons/1402"
                             key="#Lakes #Curtes #Fisheries #Fiscal_property #Inflow #Gift #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches #Comitatus #Plebs #Immunity #Tuitio/bannum/mundeburdium #Churches #Royal_slave #Royal_aldius"
                             >sanctae <placeName ref="#places/505">Aeritinae</placeName>
                             ecclesiae</orgName> sacerrimum <rs key="#Bishops">pontificem</rs>
                         dilectumque <rs key="#fidelisOf">fidelem nostrum</rs> suppliciter nostram
-                        postulasse clementiam, quatenus omnes possessiones et predia suae ecclesiae
-                        ab exordio suae constitutionis habitas atque in posterum habendas sub omni
-                        integritate sui hoc nostrae auctoritatis precepto confirmare omnimodis
-                        dignaremur. Cuius devotissimam petitionem attentius exequentes, omnes
-                        possessiones et universa predia eiusdem ecclesiae per singula loca et
-                        vocabula tam in montibus quamque in planitiis posita atque per diversa loca
-                        et vocabula adiacentia, seu <rs key="#Fiscal_property #Inflow #Gift">omnia
-                            dona</rs> tam regum et imperatorum eidem ecclesiae concessa vel
-                        concedenda, omnesque confirmationes de omnibus <rs key="#Plebs"
-                            >plebibus</rs> ipsius ecclesiae sive <rs key="#Curtes">cortis</rs>,
-                        rebus mobilibus et inmobilibus, <rs key="#Royal_slave">servis vel ancillis
-                            utriusque sexus</rs>, familiis, <rs key="#Royal_aldius">aldionibus et
-                            aldianis</rs>, omnia et in omnibus in singulis <rs key="#Comitatus"
-                            >comitatibus</rs> posita, id est in <geogName key="#Comitatus"
-                            ref="#estates/1403">Aritino</geogName>, <geogName key="#Comitatus"
-                            ref="#estates/175">Senese</geogName>, <geogName key="#Comitatus"
-                            ref="#estates/83">Florentino</geogName> atque in <geogName
-                            key="#Comitatus" ref="#estates/174">Clusiano</geogName> et <geogName
-                            key="#Comitatus" ref="#estates/1402">Castro Felicitatis</geogName>, cum
-                        quadam <rs key="#Churches">ecclesia</rs> quae dicitur <orgName
-                            key="#Churches" ref="#juridical_persons/1403">Sancti Martini [in l]acu
-                            Peculiari</orgName>, quemadmodum ab uno latere est <rs key="#Lakes"
-                            >lacus Maior</rs> et ab altero latere predictus <rs key="#Lakes">lacus
-                            Peculiaris</rs> constitit, et cum omnibus <rs key="#Fisheries"
-                            >piscariis</rs> quae sunt positae in territorio prenominatae Aritinae
-                        ecclesiae infra aqu[as] et quicquid a bonis hominibus per cuiuscumque
-                        [donati]onis titulum iuste et legaliter prefatae A[r]itinae ecclesiae olim
-                        conlata sunt vel futuris temporibus conferenda fuerint, sub omni
-                        int[eg]ritate per hoc nostrum imperiale preceptum confirmamus, statuentes et
-                        imperiali mandato precipientes, <rs key="#Immunity">ut nullus dux, comes,
-                            viceco[me]s vel iudex, aut cuiuslibet iudiciariae potestatis persona in
-                            plebibus vel rebus prelibatae ecclesiae palcita tenere aut qualescumque
-                            exibitiones vel frea exigere audeat</rs>. Nullus etiam exactor publicus
-                        aut cuiuscumque ordinis homo liberis aut servis prescriptae ecclesiae
-                        aliquam vim vel contrarietatem inferre presumat, sed liceat pretaxatae
-                        ecclesiae securiter cuncta possidere sua, omnium magnarum parvarumque
-                        personarum contradictione vel inquiaetudine remota. Si quis ergo hoc nostrae
-                            <rs
+                        postulasse <rs key="#Intercessory">clementiam</rs>, quatenus omnes
+                        possessiones et predia suae ecclesiae ab exordio suae constitutionis habitas
+                        atque in posterum habendas sub omni integritate sui hoc nostrae auctoritatis
+                        precepto confirmare omnimodis dignaremur. Cuius devotissimam petitionem
+                        attentius exequentes, omnes possessiones et universa predia eiusdem
+                        ecclesiae per singula loca et vocabula tam in montibus quamque in planitiis
+                        posita atque per diversa loca et vocabula adiacentia, seu <rs
+                            key="#Fiscal_property #Inflow #Gift">omnia dona</rs> tam regum et
+                        imperatorum eidem ecclesiae concessa vel concedenda, omnesque confirmationes
+                        de omnibus <rs key="#Plebs">plebibus</rs> ipsius ecclesiae sive <rs
+                            key="#Curtes">cortis</rs>, rebus mobilibus et inmobilibus, <rs
+                            key="#Royal_slave">servis vel ancillis utriusque sexus</rs>, familiis,
+                            <rs key="#Royal_aldius">aldionibus et aldianis</rs>, omnia et in omnibus
+                        in singulis <rs key="#Comitatus">comitatibus</rs> posita, id est in
+                            <geogName key="#Comitatus" ref="#estates/1403">Aritino</geogName>,
+                            <geogName key="#Comitatus" ref="#estates/175">Senese</geogName>,
+                            <geogName key="#Comitatus" ref="#estates/83">Florentino</geogName> atque
+                        in <geogName key="#Comitatus" ref="#estates/174">Clusiano</geogName> et
+                            <geogName key="#Comitatus" ref="#estates/1402">Castro
+                            Felicitatis</geogName>, cum quadam <rs key="#Churches">ecclesia</rs>
+                        quae dicitur <orgName key="#Churches" ref="#juridical_persons/1403">Sancti
+                            Martini [in l]acu Peculiari</orgName>, quemadmodum ab uno latere est <rs
+                            key="#Lakes">lacus Maior</rs> et ab altero latere predictus <rs
+                            key="#Lakes">lacus Peculiaris</rs> constitit, et cum omnibus <rs
+                            key="#Fisheries">piscariis</rs> quae sunt positae in territorio
+                        prenominatae Aritinae ecclesiae infra aqu[as] et quicquid a bonis hominibus
+                        per cuiuscumque [donati]onis titulum iuste et legaliter prefatae A[r]itinae
+                        ecclesiae olim conlata sunt vel futuris temporibus conferenda fuerint, sub
+                        omni int[eg]ritate per hoc nostrum imperiale preceptum confirmamus,
+                        statuentes et imperiali mandato precipientes, <rs key="#Immunity">ut nullus
+                            dux, comes, viceco[me]s vel iudex, aut cuiuslibet iudiciariae potestatis
+                            persona in plebibus vel rebus prelibatae ecclesiae palcita tenere aut
+                            qualescumque exibitiones vel frea exigere audeat</rs>. Nullus etiam
+                        exactor publicus aut cuiuscumque ordinis homo liberis aut servis prescriptae
+                        ecclesiae aliquam vim vel contrarietatem inferre presumat, sed liceat
+                        pretaxatae ecclesiae securiter cuncta possidere sua, omnium magnarum
+                        parvarumque personarum contradictione vel inquiaetudine remota. Si quis ergo
+                        hoc nostrae <rs
                             key="#Fiscal_property #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
                             >confirmationis</rs> et <rs key="#Tuitio/bannum/mundeburdium">tuitionis
                             preceptum</rs> infringere vel violare quandoque temptaverit, sciat se
