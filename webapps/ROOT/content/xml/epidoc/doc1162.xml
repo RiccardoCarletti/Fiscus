@@ -32,7 +32,7 @@
                         <summary>
                             <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
-                            <rs type="document_tradition" ref="#">Uncertain tradition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
                             <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
@@ -84,12 +84,13 @@
                     <ab>In nomine domini Dei aeterni. <persName key="#Emperor/king" ref="#people/21"
                             >Berengarius</persName> divina favente clementia <rs key="#Emperor/king"
                             >imperator</rs> augustus. Quoniam quidem imperatores et reges sanctarum
-                        Dei ecclesiarum sublimitates custodire et ampliari condecuit, idcirco
-                        precibus et supplicationibus <persName key="#Bishops">Agimonis</persName>
-                        venerabillimi <rs key="#Bishops">presulis</rs> nec non et <persName
-                            key="#fidelisOf"><name ref="Walpertus">Vualberti</name></persName>
-                        nobilissimi viri et carissimi <rs key="#fidelisOf">fidelis nostri</rs>
-                        libenter inflexi, <rs
+                        Dei ecclesiarum sublimitates custodire et ampliari condecuit, idcirco <rs
+                            key="#Intercessory">precibus et supplicationibus</rs>
+                        <persName key="#Intercessory #Bishops">Agimonis</persName> venerabillimi <rs
+                            key="#Bishops">presulis</rs> nec non et <persName
+                            key="#Intercessory #fidelisOf"><name ref="Walpertus"
+                            >Vualberti</name></persName> nobilissimi viri et carissimi <rs
+                            key="#fidelisOf">fidelis nostri</rs> libenter inflexi, <rs
                             key="#Fiscal_property #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
                             >concessimus et perpetuo iure donavimus</rs> aliquantulum <rs
                             key="#Landed_possessions">terre in loco qui dicitur
@@ -148,7 +149,10 @@
                 <p/>
             </div>
             <div type="commentary">
-                <p/>
+                <p>L'isola di Orto venne donata da Ludovico III al monastero con un diploma del 4
+                    giugno 905 e, nella stessa data, venne donata anche la tera detta Anglare.
+                    Sull'autenticità di quest'ultimo diploma, sul qual sarebbe modellato quello di
+                    Berengario, sono stati sollevati alcuni dubbi (DD B I, p. 333).</p>
             </div>
         </body>
     </text>
