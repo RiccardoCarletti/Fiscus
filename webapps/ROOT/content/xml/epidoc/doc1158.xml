@@ -32,8 +32,8 @@
                         <summary>
                             <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
-                            <rs type="document_tradition" ref="#">Uncertain tradition</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -89,13 +89,13 @@
                             >Berengarius</persName> divina favente clementia <rs key="#Emperor/king"
                             >imperator</rs> augustus. Noverit omnium fidelium sanctae Dei Ecclesiae
                         nostrorumque presentium scilicet ac futurorum industria, <persName
-                            key="#Count #fidelisOf" ref="#people/188">Grimaldum</persName> gloriosum
-                            <rs key="#Emperor/king">comitem</rs> nec non et <persName
-                            key="#Marquis/duke #fidelisOf" ref="#people/1502">Odelricum</persName>
-                        inclitum <rs key="#Marquis/duke">marchionem</rs> dilectissimos <rs
-                            key="#fidelisOf">fideles nostros</rs> humiliter nostram exorasse
-                        clementiam, quatenus quandam <rs key="#Curtes">curtem</rs> iuris regi nostri
-                        quae <geogName
+                            key="#Intercessory #Count #fidelisOf" ref="#people/188"
+                            >Grimaldum</persName> gloriosum <rs key="#Emperor/king">comitem</rs> nec
+                        non et <persName key="#Intercessory #Marquis/duke #fidelisOf"
+                            ref="#people/1502">Odelricum</persName> inclitum <rs key="#Marquis/duke"
+                            >marchionem</rs> dilectissimos <rs key="#fidelisOf">fideles nostros</rs>
+                        humiliter nostram exorasse <rs key="#Intercessory">clementiam</rs>, quatenus
+                        quandam <rs key="#Curtes">curtem</rs> iuris regi nostri quae <geogName
                             key="#Houses #Rivers #Mountains #Curtes #Landed_possessions #Forests #Fisheries #Mills #Cereals #Wine #Hay/fodder #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_individuals #Iudiciaria #Decima #Districtio #Churches #Royal_slave"
                             ref="#estates/1404">Girpa</geogName> nominatur simul cum <rs
                             key="#Churches">capella</rs> in honore <orgName key="#Churches"
