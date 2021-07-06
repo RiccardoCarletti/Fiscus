@@ -810,13 +810,16 @@
                 </place>
                 <place>
                     <placeName>Rovasenda (Vercelli)</placeName>
-                    <placeName type="other"><foreign>silva Rovasinda</foreign></placeName>
+                    <placeName type="other"><foreign>silva Rovasinda</foreign>
+                            <foreign>foresta Morciliana</foreign>
+                        </placeName>
                     <geogName type="coord"><geo>45.536415, 8.318367</geo></geogName>
                     <idno>places/96</idno>
-                    <note/>
                     <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
                     <link type="people" corresp="#people/32" subtype="link"/>
                     <link type="people" corresp="#people/33" subtype="link"/>
+                        <link type="people" corresp="#people/7" cert="low" subtype="link"/>
+                        <link type="people" corresp="#people/171" subtype="link" cert="low"/>
                 </place>
                 <place>
                     <placeName>Castelnuovo Bocca d'Adda (Lodi)</placeName>
@@ -5340,8 +5343,10 @@
                     <idno>places/613</idno>
                     <note/>
                     <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
-                    <link type="people" corresp="#people/288 #people/366 #people/237 #people/7"
-                        subtype="link"/>
+                    <link type="people" corresp="#people/288 #people/366 #people/237 "
+                            subtype="link"/>
+                        <link type="people" corresp="#people/7" subtype="link" cert="low"/>
+                        <link type="people" corresp="#people/171" subtype="link" cert="low"/>
                 </place>
                 <place>
                     <placeName>Elvo; river (Vercelli)</placeName>
