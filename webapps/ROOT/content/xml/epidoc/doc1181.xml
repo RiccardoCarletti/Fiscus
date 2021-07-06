@@ -33,7 +33,7 @@
                             <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Original</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -120,11 +120,12 @@
                             key="#Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches #Tuitio/bannum/mundeburdium"
                             >Uidriano</placeName> vel aliis locis et rebus ipsius monasterii
                         ubicumque adiacentibus sive positis sive pro his, que iuste adquirere
-                        potuerint, contra illos querelare audeat, sed liceat eos quieto et pacifico
-                        ordine frui. Si quis autem contra hoc nostrae auctoritatis precepto regia
-                        auctoritate edito illos molestare praesumpserit, <rs key="#Penalty">decem
-                            libras auri obrizi</rs> componere cogatur, <rs key="#Camera_regis"
-                            >medietatem camerae nostrae</rs> et <rs
+                        potuerint, contra illos querelare audeat, sed liceat eos <rs
+                            key="#Fiscal_property #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
+                            >quieto et pacifico ordine frui</rs>. Si quis autem contra hoc nostrae
+                        auctoritatis precepto regia auctoritate edito illos molestare praesumpserit,
+                            <rs key="#Penalty">decem libras auri obrizi</rs> componere cogatur, <rs
+                            key="#Camera_regis">medietatem camerae nostrae</rs> et <rs
                             key="#Camera_of_other_public_authorities">medietatem illis
                             fratribus</rs>, quibus molestiam inferre presumpserit. Haec vero nostrae
                         confirmationis praecepto ut per futura tempora ratam ac stabilem optineat
