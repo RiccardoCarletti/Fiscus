@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title></title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc1182</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#"/>
+                            <rs type="record_source" ref="#"/>
+                            <rs type="document_tradition" ref="#"/>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate notBefore="0001" notAfter="0001" when="0001"> 
+                                <note type="displayed_date"></note>
+                                <note type="dating_elements"></note>
+                                <note type="topical_date"></note>
+                                <note type="redaction_date"></note>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-02-08">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>Manifesta causa est mihi Adelberto humili episcopo sancte Bergomensis
+                        ecclesie, quia moderno tempore [statui] et ordinavi canonicam in ecclesia
+                        Beati Vincenci martiris Christi sita infra ipsam urbem ubi prope est domus
+                        ipsius sedis, et statui ibi in ipsa ecclesia ordinarios canonice vivere, et
+                        concessi ibi casas et res vel familias ad ipsam canonicam in subsidium eorum
+                        fratrum, sacerdotum et relicorum ordinariorum aberi ad eorum refeccionem pro
+                        tempore. Mihi coque reges et imperatores per precepta aliquod casas et res
+                        et familias in finibus comitatus Bergomensis donevarunt et concesserunt,
+                        maxime autem domnus Berengarius rex, qui presenti tempore est, mihi
+                        confirmavit et concessit ipsas casas et res vel familias proprietario iure
+                        abendum, dignum est exinde in sanctis et venerabilibus locis offerre.
+                        Preterito namque tempore mercatum mihi ab eodem domno Berengario serenissimo
+                        rege proprietario iure conlatum quod Beati Alexandri dicitur, eo quod
+                        eiusdem sacri martiris festivitate iuxta prefatam urbem annualiter
+                        perficiatur eisdem canonicis ordi[n]ariis in subsidium quod exinde posset
+                        aquiri pro anime prelibati regis nostreque et parentum nostorum remedio
+                        devote concessit, modo ego qui supra Adelbertus episcopus... dono et ofero
+                        ad ipsam sanctam congregacionem id est ad canonicos ordinarios suprascripte
+                        ecclesie Sancti Vincenci.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
