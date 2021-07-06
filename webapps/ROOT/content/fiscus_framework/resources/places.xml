@@ -4868,7 +4868,7 @@
                     <placeName type="other"/>
                     <geogName type="coord"><geo>45.334155, 7.796819</geo></geogName>
                     <idno>places/566</idno>
-                    <note/>
+                    <note>Fa parte della Valle Orco e della curtis omonima </note>
                     <link type="places" corresp="#places/102" subtype="isInVicinityOf"/>
                     <link type="estates" corresp="#estates/60" subtype="isInVicinityOf"/>
                     <link type="estates" corresp="#estates/258" subtype="hasConnectionWith"/>
@@ -7119,6 +7119,18 @@
                         <link type="people" corresp="#people/7" subtype="link" cert="low"/>
                         <link type="people" corresp="#people/171" subtype="link" cert="low"/>
                         <link type="juridical_persons" corresp="#juridical_persons/81"
+                            subtype="link" cert="low"/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Barsan</foreign>
+                        </placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo/></geogName>
+                        <idno>places/831</idno>
+                        <note>Località non identificata</note>
+                        <link type="people" corresp="#people/7" subtype="link" cert="low"/>
+                        <link type="people" corresp="#people/171" subtype="link" cert="low"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/181"
                             subtype="link" cert="low"/>
                     </place>
                 </listPlace>
