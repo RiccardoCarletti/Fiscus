@@ -30,10 +30,10 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#"/>
-                            <rs type="record_source" ref="#"/>
-                            <rs type="document_tradition" ref="#"/>
-                            <rs type="fiscal_property"/>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Compendium</rs>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -81,21 +81,25 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>…His tandem memorandum, exceptis quae rerum et [fa]miliarum idem
-                        excellentissimus princeps ante horum aliquandiu concessionem mercedum pie
-                        recolens pro crebris in Christo meae devotionis obsequiis a se
-                        misericorditer memoratis ex ipsius curtis pertinentia in assignatis alibi
-                        locis per precepti paginam mihi ad possidendum proprietario iure donavit. Ex
-                        quibus mercatum mihi inter cetera dignitatis regie dono collatum quod Beati
-                        Alexandri dicitur, eo quod annuali sollempnitati ipsius almi martyris in
-                        prefate curtis rure prope eam posito perpetretur, prenominate sancte
-                        Pergamensis eclesie cardinalibus, canonicis, presbiteris, diaconibus,
-                        subdiaconibus quoque atque custodibus...offero atque ab ipsis ex eodem
-                        mercato tholoneum suscipiendum instituo.</ab>
+                    <ab>…His tandem memorandum, exceptis quae rerum et <rs key="#Royal_slave"
+                            >[fa]miliarum</rs> idem excellentissimus princeps ante horum aliquandiu
+                        concessionem mercedum pie recolens pro crebris in Christo meae devotionis
+                        obsequiis a se misericorditer memoratis ex <geogName
+                            key="#Curtes #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_individuals"
+                            ref="#estates/222">ipsius <rs key="#Curtes">curtis</rs></geogName>
+                        pertinentia in assignatis alibi locis per precepti paginam mihi ad
+                        possidendum <rs
+                            key="#Fiscal_property #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_individuals"
+                            >proprietario iure</rs> donavit. Ex quibus mercatum mihi inter cetera
+                        dignitatis regie dono collatum quod Beati Alexandri dicitur, eo quod annuali
+                        sollempnitati ipsius almi martyris in prefate curtis rure prope eam posito
+                        perpetretur, prenominate sancte Pergamensis eclesie cardinalibus, canonicis,
+                        presbiteris, diaconibus, subdiaconibus quoque atque custodibus...offero
+                        atque ab ipsis ex eodem mercato tholoneum suscipiendum instituo.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p/>
+                <p>DD B I, pp. 406-407, Diplomi perduti n° 8</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>
