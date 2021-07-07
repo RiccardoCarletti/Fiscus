@@ -33,7 +33,7 @@
                         <summary>
                             <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
-                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="document_tradition" ref="#">Uncertain tradition</rs>
                             <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
@@ -47,7 +47,7 @@
                                 <note type="dating_elements"/>
                                 <note type="topical_date">Hochburg (Ö); <foreign>curte
                                         regia</foreign></note>
-                                <note type="redaction_date"/>
+                                <note type="redaction_date">X</note>
                              </origDate>
                             <origPlace>Sanctus Sixtus; monasterium (Piacenza)</origPlace>
                         </origin>
@@ -90,14 +90,15 @@
                         commissis ad regendum et ab omnipotentae terrarum collatis possessionibis ad
                         honorem et cultum presentis vite daecursu famulantibus ipsi aliquid
                         conferimus. Quapropter notum sit omnibus sanctae dei aeclesie fidaelibus
-                        nostris presentibus scilicet ac futuris, quia <persName key="#Queen"
-                            ref="#people/55">Angilberga</persName> soror nostra amantissima
-                        humiliter nostram petiit clementiam, quatenus terram <rs
+                        nostris presentibus scilicet ac futuris, quia <persName
+                            key="#Intercessory #Queen" ref="#people/55">Angilberga</persName> soror
+                        nostra amantissima humiliter nostram <rs key="#Intercessory">petiit
+                            clementiam</rs>, quatenus terram <rs
                             key="#Fiscal_property #Outflow #Iure_proprietatis/pleno_iure">iuris
                             publici</rs>
                         <geogName key="#Comitatus" ref="#estates/105">de comitatu
                             Placentino</geogName> habentem <rs
-                            key="#Landed_possessions #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
+                            key="#Landed_possessions #Size #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
                             >iuges tredecim</rs> secus <rs key="#Roads">viam publicam</rs>, que ab
                         urbe <placeName ref="#places/43">Placencia</placeName> ad Placentinum <rs
                             key="#Ports">portum</rs> ducit, queque coheret ex parte orientali

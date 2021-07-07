@@ -49,7 +49,7 @@
                             <origDate when="0888-05-08">
                                 <note type="displayed_date">888 May 8</note>
                                 <note type="dating_elements"/>
-                                <note type="topical_date">Pavia (IT)</note>
+                                <note type="topical_date">Pavia</note>
                                 <note type="redaction_date"/>
                              </origDate>
                             <origPlace/>
@@ -90,16 +90,17 @@
                             >Berengarius</persName>
                         <rs key="#Emperor/king">rex</rs>. Omnibus sanctae Dei Ecclesiae fidelibus
                         nostrisque presentibus scilicet et futuris notum esse volumus, qualiter
-                            <persName key="#Bishops" ref="#people/123">Adelardus</persName> et
-                            <persName key="#Bishops"><name ref="Antonius">Antonius</name></persName>
-                        venerabiles <rs key="#Bishops">episcopi</rs> atque <persName
-                            key="#Marquis/duke"><name ref="UUaldefredus"
-                            >Vualfredus</name></persName> illuster <rs key="#Marquis/duke"
+                            <persName key="#Intercessory #Bishops" ref="#people/123"
+                            >Adelardus</persName> et <persName key="#Intercessory #Bishops"><name
+                                ref="Antonius">Antonius</name></persName> venerabiles <rs
+                            key="#Bishops">episcopi</rs> atque <persName
+                            key="#Intercessory #Marquis/duke"><name ref="UUaldefredus"
+                                >Vualfredus</name></persName> illuster <rs key="#Marquis/duke"
                             >marchio</rs> nostri dilectissimi <rs key="#fidelisOf">fideles</rs>
-                        nostram humiliter postulaverunt clementiam, quatenus <persName key="#Queen"
-                            ref="#people/55">Angilbergae</persName> serenissimae <rs key="#Queen"
-                            >imperatrici</rs> concedere et confirmare nostrae auctoritatis precepto
-                        dignaremur quandam <orgName
+                        nostram humiliter postulaverunt <rs key="#Intercessory">clementiam</rs>,
+                        quatenus <persName key="#Queen" ref="#people/55">Angilbergae</persName>
+                        serenissimae <rs key="#Queen">imperatrici</rs> concedere et confirmare
+                        nostrae auctoritatis precepto dignaremur quandam <orgName
                             key="#Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_individuals #Monasteries"
                             ref="#juridical_persons/82"><rs key="#Monasteries">abbatiam</rs> in
                             honore apostolorum principis dicatam</orgName> et non longe ab urbe

@@ -47,7 +47,7 @@
                                 <note type="dating_elements"/>
                                 <note type="topical_date">Cerchiate;
                                     <foreign>curtis</foreign></note>
-                                <note type="redaction_date">1157</note>
+                                <note type="redaction_date">XII sm (1157)</note>
                             </origDate>
                             <origPlace/>
                         </origin>
@@ -94,10 +94,12 @@
                         ipsiusque sanctissime matris amore privilegia vel concessiones et rescripta
                         sancte Sedis apostolice seu regum et imperatorum predecessorum nostrorum
                         concessa venerabili <rs key="#Monasteries">monasterio</rs>
-                        <orgName ref="#juridical_persons/1413">Beate Virginis Marie</orgName>,
-                            <placeName ref="#places/147">Mediolani</placeName> antiquis temporibus
-                        constructo in honorem gloriosi martiris sancti Sigismundi et a
-                        religiosissimo <rs key="#Emperor/king">rege</rs>
+                        <orgName ref="#juridical_persons/1413"
+                            key="#Rivers #Curtes #Immunity #Churches #Monasteries #Royal_slave #Royal_aldius"
+                            >Beate Virginis Marie</orgName>, <placeName ref="#places/147"
+                            >Mediolani</placeName> antiquis temporibus constructo in honorem
+                        gloriosi martiris sancti Sigismundi et a religiosissimo <rs
+                            key="#Emperor/king">rege</rs>
                         <persName ref="#people/249">Desiderio</persName> in honorem imaculate sancte
                         matris Marie a fundamentis instaurato, convalidare dignaremur. Nos vero
                         considerantes eterne retributionis emolumentum, ob reverentiam sancte Dei
@@ -135,46 +137,64 @@
                             key="#Abbesses">abbatissam</rs> et <rs key="#Nuns/sanctimoniales"
                             >moniales</rs> cum omnibus eius bonis et iuribus vivis et mortuis in
                         integrum sub immunitatis eorum mundiburdio receperunt, confirmamus denuoque
-                        concedimus; et etiam cum religiosus vir ac venerabilis
-                            <persName>Hugo</persName> episcopus Augustanus sacri palatii nostri
-                        archicapelanus nostram petisset celsitudinem varias exhibens cartulas piarum
-                        largitionum et iudicatuum plurium Christi fidelium benefactorum eiusdem
-                        sacri monasterii, precipue illustrium procerum Berengerii avi nostri et
-                        Vuidonis eius fratris dicti Desiderii nepotum atque ingenuorum marchionum
-                        Anscarii sicti Vuidonis geniti ac ipsius venerabilis episcopi patris atque
-                        Adalberti eius fratris generis nostri, qui inter cetera eorum curtem
-                        Cerclati prope flumen Olone cum suis ecclesiis, edifitiis, aquis, servis et
-                        aldiis utriusque sexus et omnibus iuribus ad dictam curtem spectantibus in
-                        integrum donaverunt in remedium animarum suarum et predecessorum ac
-                        descendentium suorum, iugiter clementiam nostram exorando, ut dignaremur
-                        regio decreto omnes prefatas pias donationes confirmare; quem etiam
-                        inconsolatum remittere nolentes, religiose eius petitioni inclinati, tam
-                        prefatam donationem curtis Cerclati quam omnia que per cartarum instrumenta
-                        eidem sacro nostro monasterio dudum a fidelibus oblata fuerunt per hanc
-                        nostram imperialem auctoritatem convalidamus, corroboramus et confirmamus ac
-                        si per nos data et largita forent. Insuper etiam non solum predicta omnia
-                        confirmamus ac concedimus, sed etiam precipiendo mandamus et hac nostra
-                        imperiali sanctione decernimus, ut nullus dux, marchio, comes, vicecomes,
-                        sculdasius, gastaldius vel quelibet persona cuiusvis status et conditionis
-                        existat in rebus et possessionibus prelibati monasterii, ubique sitasint,
-                        aliquam inferant calumpniam aut ab eius hominibus aliquas exhibitiones vel
-                        invitas redibitiones exigere presumat, sub indignationis nostre pena,
-                        sanctientes etiam quod dictum venerabile monasterium et eius homines nullas
-                        retributiones aut publicas excubias, angarias seu arbusterias solvere
-                        cogantur, quoniam ea omnia et universa concessimus et perdonavimus illustri
-                        ac venerabili domne Ermingarde ipsius monasterii abbatisse suisque
-                        successoribus, ut commodius pro conservatione imperii animeque nostre salute
-                        Deum exorare possint. Quicunque ergo qui aliquid horum violare presumpserit,
-                        sciat se libras mille auri obrici compositurum, medietas camere imperiali,
-                        reliquum ad utilitatem eiusdem monasterii soluturum, ac insuper
+                        concedimus; et etiam cum religiosus vir ac venerabilis <persName
+                            key="#Archchaplain #Bishops"><name ref="Hugo">Hugo</name></persName>
+                        <rs key="#Bishops">episcopus</rs>
+                        <placeName ref="#places/1835">Augustanus</placeName> sacri palatii nostri
+                            <rs key="#Archchaplain">archicapelanus</rs> nostram petisset
+                        celsitudinem varias exhibens cartulas piarum largitionum et iudicatuum
+                        plurium Christi fidelium benefactorum eiusdem sacri monasterii, precipue
+                        illustrium procerum Berengerii avi nostri et Vuidonis eius fratris dicti
+                        Desiderii nepotum atque ingenuorum marchionum <persName>Anscarii</persName>
+                        dicti Vuidonis geniti ac ipsius venerabilis episcopi patris atque <persName
+                            ref="#people/92">Adalberti</persName> eius fratris generis nostri, qui
+                        inter cetera eorum <rs key="#Curtes">curtem</rs>
+                        <geogName
+                            key="#Uncertain_tradition #Rivers #Curtes #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches #Churches #Royal_slave #Royal_aldius"
+                            ref="#estates/1419">Cerclati</geogName> prope <rs key="#Rivers">flumen
+                            Olone</rs> cum suis <rs key="#Churches">ecclesiis</rs>, edifitiis, <rs
+                            key="#Rivers">aquis</rs>, <rs key="#Royal_slave">servis</rs> et <rs
+                            key="#Royal_aldius">aldiis</rs> utriusque sexus et omnibus iuribus ad
+                        dictam curtem spectantibus in integrum donaverunt in remedium animarum
+                        suarum et predecessorum ac descendentium suorum, iugiter clementiam nostram
+                        exorando, ut dignaremur regio decreto omnes prefatas pias donationes
+                        confirmare; quem etiam inconsolatum remittere nolentes, religiose eius
+                        petitioni inclinati, tam prefatam donationem curtis Cerclati quam omnia que
+                        per cartarum instrumenta eidem sacro nostro monasterio dudum a fidelibus
+                        oblata fuerunt per hanc nostram imperialem auctoritatem convalidamus,
+                        corroboramus et confirmamus ac si per nos data et largita forent. Insuper
+                        etiam non solum predicta omnia confirmamus ac concedimus, sed etiam
+                        precipiendo mandamus et hac nostra imperiali sanctione decernimus, ut nullus
+                        dux, marchio, comes, vicecomes, sculdasius, gastaldius vel quelibet persona
+                        cuiusvis status et conditionis existat in rebus et possessionibus prelibati
+                        monasterii, ubique sitasint, aliquam inferant calumpniam aut ab eius
+                        hominibus aliquas exhibitiones vel invitas redibitiones exigere presumat,
+                        sub indignationis nostre pena, sanctientes etiam quod <rs key="#Immunity"
+                            >dictum venerabile monasterium et eius homines nullas <rs
+                                key="#Public_exactions">retributiones</rs> aut publicas <rs
+                                key="#Scufiae/transport_service">excubias</rs>, <rs key="#Angaria"
+                                >angarias</rs> seu arbusterias solvere cogantur</rs>, quoniam ea
+                        omnia et universa concessimus et perdonavimus illustri ac venerabili domne
+                            <persName key="#Abbesses"><name ref="Ermengarda"
+                            >Ermingarde</name></persName> ipsius monasterii <rs key="#Abbesses"
+                            >abbatisse</rs> suisque successoribus, ut commodius pro conservatione
+                        imperii animeque nostre salute Deum exorare possint. Quicunque ergo qui
+                        aliquid horum violare presumpserit, sciat se <rs key="#Penalty">libras mille
+                            auri obrici</rs> compositurum, <rs key="#Camera_regis">medietas camere
+                            imperiali</rs>, <rs key="#Camera_of_other_public_authorities">reliquum
+                            ad utilitatem eiusdem monasterii</rs> soluturum, ac insuper
                         indignationem nostram condignis penis luiturum esse. Ut autem hoc nostre
                         confirmationis seu nove concessionis preceptum ratum et stabile futuris
                         temporibus maneat, eum manu nostra firmavimus ac in angulo annulli nostri
                         impressione insigniri mandavimus. Signum domni Berengarii (M) imperatoris
-                        augusti. Iohannes episcopus et cancellarius ad vicem Ardingi episcopi
-                        arcicancellarii recognovit. Datum supradicta curte Cerclati prope Ollonam,
-                        pridie kal. Iulii, anno regni XXXIIII, imperii vero sui quinto, indictione
-                        quinta. Feliciter amen.</ab>
+                        augusti. <persName key="#Chancellor #Bishops" ref="#people/1501"
+                            >Iohannes</persName> episcopus et <rs key="#Chancellor"
+                            >cancellarius</rs> ad vicem <persName key="#Archchancellor #Bishops"
+                            ref="#people/216">Ardingi</persName> episcopi <rs key="#Archchancellor"
+                            >archicancellarii</rs> recognovit. Datum supradicta curte <geogName
+                            ref="#estates/1419">Cerclati</geogName> prope Ollonam, pridie kal.
+                        Iulii, anno regni XXXIIII, imperii vero sui quinto, indictione quinta.
+                        Feliciter amen.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">

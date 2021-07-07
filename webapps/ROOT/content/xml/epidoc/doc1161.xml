@@ -32,7 +32,7 @@
                         <summary>
                             <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
-                            <rs type="document_tradition" ref="#">Uncertain tradition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
                             <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
@@ -97,14 +97,15 @@
                         sicut eorum priscis temporibus habuere predecessores, non annue haberent sub
                         integritate expensas. Nos vero illorum devotissime suscipientes
                         lamentationem et nolentes in tam sancto ac venerabili loco quamlibet inesse
-                        murmurationem, consultu etiam et interventu <persName key="#Bishops"
-                            ref="#people/403">Vuidonis</persName> reverentissimi <rs key="#Bishops"
-                            >episcopi</rs> et <persName key="#Marquis/duke #Palatine_count"
-                            ref="#people/1502">Odelrici</persName> incliti <rs key="#Marquis/duke"
-                            >marchionis</rs> sacrique <rs key="#Palatine_count">palacii nostri
-                            gloriosi comitis</rs>, <rs key="#Curtes">tres curtes</rs> de eadem
-                        abbatia, <geogName key="#Curtes" ref="#estates/1412">Cremellam</geogName>
-                        videlicet simul cum <rs key="#Monasteries">monasterio</rs>
+                        murmurationem, consultu etiam et <rs key="#Intercessory">interventu</rs>
+                        <persName key="#Intercessory #Bishops" ref="#people/403">Vuidonis</persName>
+                        reverentissimi <rs key="#Bishops">episcopi</rs> et <persName
+                            key="#Intercessory #Marquis/duke #Palatine_count" ref="#people/1502"
+                            >Odelrici</persName> incliti <rs key="#Marquis/duke">marchionis</rs>
+                        sacrique <rs key="#Palatine_count">palacii nostri gloriosi comitis</rs>, <rs
+                            key="#Curtes">tres curtes</rs> de eadem abbatia, <geogName key="#Curtes"
+                            ref="#estates/1412">Cremellam</geogName> videlicet simul cum <rs
+                            key="#Monasteries">monasterio</rs>
                         <orgName key="#Monasteries #Nuns/sanctimoniales"
                             ref="#juridical_persons/1409">Beatissimi Petri</orgName>, <geogName
                             key="#Curtes" ref="#estates/1413">Blauciacum</geogName> atque <geogName

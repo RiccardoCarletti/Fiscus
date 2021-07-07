@@ -33,7 +33,7 @@
                         <summary>
                             <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
-                            <rs type="document_tradition" ref="#">Uncertain tradition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
                             <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
@@ -86,12 +86,12 @@
                             key="#Emperor/king" ref="#people/21">Berengarius</persName>
                         <rs key="#Emperor/king">rex</rs>. Noverit omnium fidelium sanctae Dei
                         Ecclesiae nostrorumque presentium scilicet ac futurorum industria, <persName
-                            key="#Count #Consiliarius_regis"><name ref="UUaldefredus"
+                            key="#Intercessory #Count #Consiliarius_regis"><name ref="UUaldefredus"
                                 >Vualtfredum</name></persName> illustrem <rs key="#Count"
                             >comitem</rs>
                         <rs key="#Consiliarius_regis">summumque consiliarium</rs> nostrum nostram
-                        adiisse munificentiam exorantem, quatenus <persName
-                            key="#Fundi #Storage_units #Walls #fidelisOf"><name ref="Atto"
+                        adiisse <rs key="#Intercessory">munificentiam</rs> exorantem, quatenus
+                            <persName key="#Fundi #Storage_units #Walls #fidelisOf"><name ref="Atto"
                                 >Attoni</name></persName>
                         <rs key="#fidelisOf">fideli nostro</rs>
                         <rs

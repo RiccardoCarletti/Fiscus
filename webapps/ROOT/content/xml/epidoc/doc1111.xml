@@ -33,7 +33,7 @@
                             <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Original</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">No</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -88,13 +88,16 @@
                         mancipatis ob divine servitutis amorem opem congruam ferimus, et regum morem
                         decenter implemus et apud Deum profuturum nobis non diffidimus. Igitur
                         omnium fidelium sanctae Dei Ecclesiae nostrorumque presentium scilicet et
-                        futurorum noverit industria, qualiter interventu <persName
-                            key="#Archchancellor #Bishops" ref="#people/58">Petri</persName>
-                        reverentissimi <rs key="#Bishops">episcopi</rs> et <rs key="#Archchancellor"
-                            >archicancellarii</rs> nostri adiit celsitudinem nostram <persName
-                            key="#Bishops"><name ref="Gamenulfus">Gamenulfus</name></persName>
-                        <orgName ref="#juridical_persons/96" key="#Churches #Inquisitio #Monasteries #Immunity #Clusae/gates #Hospitals #Tuitio/bannum/mundeburdium #Roads #Baptismal_churches #Bridges/pontoons #Public_exactions #Privileges #Defensive_elements #Walls #Mills Rights_of_use_on_woods/pastures/waters">sanctae <placeName
-                                ref="#places/38"
+                        futurorum noverit industria, qualiter <rs key="#Intercessory"
+                            >interventu</rs>
+                        <persName key="#Intercessory #Archchancellor #Bishops" ref="#people/58"
+                            >Petri</persName> reverentissimi <rs key="#Bishops">episcopi</rs> et <rs
+                            key="#Archchancellor">archicancellarii</rs> nostri adiit celsitudinem
+                        nostram <persName key="#Bishops"><name ref="Gamenulfus"
+                            >Gamenulfus</name></persName>
+                        <orgName ref="#juridical_persons/96"
+                            key="#Churches #Inquisitio #Monasteries #Immunity #Clusae/gates #Hospitals #Tuitio/bannum/mundeburdium #Roads #Baptismal_churches #Bridges/pontoons #Public_exactions #Privileges #Defensive_elements #Walls #Mills Rights_of_use_on_woods/pastures/waters"
+                            >sanctae <placeName ref="#places/38"
                                 key="#Clusae/gates #Roads #Bridges/pontoons #Public_exactions #Privileges #Defensive_elements #Walls #Mills Rights_of_use_on_woods/pastures/waters"
                                 >Mutinensis</placeName> eclesiae</orgName>
                         <rs key="#Bishops">episcopus</rs>, quatenus nostrae auctoritatis preceptum

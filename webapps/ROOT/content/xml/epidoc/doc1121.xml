@@ -34,7 +34,7 @@
                             <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Uncertain tradition</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -46,7 +46,7 @@
                                 <note type="displayed_date">902 august 1</note>
                                 <note type="dating_elements"/>
                                 <note type="topical_date">Pavia</note>
-                                <note type="redaction_date"/>
+                                <note type="redaction_date">XIV pm</note>
                              </origDate>
                             <origPlace/>
                         </origin>
@@ -95,7 +95,7 @@
                         <orgName key="#Monasteries" ref="#juridical_persons/120">Sancte Christine
                             quod Ollonna</orgName> vocatur quandam <rs key="#Curtes">curtem</rs>
                         iuris regni nostri que <geogName
-                            key="#Houses #Natural_landscape #Rivers #Islands #Curtes #Landed_possessions #Forests #Fisheries #Mills #Cereals #Wine #Hay/fodder #Public_exactions #Royal_slave #Royal_aldius"
+                            key="#Houses #Natural_landscape #Rivers #Islands #Curtes #Landed_possessions #Forests #Fisheries #Mills #Cereals #Wine #Hay/fodder #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches #Public_exactions #Royal_slave #Royal_aldius"
                             ref="#estates/183">Salutiola</geogName> nominatur, sitam prope ipsum
                         monasterium plus minusve miliaria quinque, ubi nunc <persName key="#Abbots"
                                 ><name ref="Iohannes">Iohannes</name> qui et Azo</persName> vocatur
@@ -179,7 +179,13 @@
                 <p/>
             </div>
             <div type="commentary">
-                <p/>
+                <p>Schiaparelli ricostruisce il diploma per mezzo delle seguenti copie: copia
+                    cartacea del XVIII secolo nel manoscritto D. S. IV, 2, c. 8 della Biblioteca
+                    Ambrosiana fatta su copia del 4 febbraio 1494 da Giovanni da Gallarate su altra
+                    copia notarile del 19 ottobre 1305 [B]. Copia membranacea 7 ottobre 1337 nel
+                        <foreign>Registrum magnum</foreign> c. 722 B. dell'Archivio comunale di
+                    Piacenza [C]. Copia cartacea del secolo XVIII nel manoscritto D, S, IV, 2, c.
+                    10, Biblioteca Ambrosiana [C1].</p>
             </div>
         </body>
     </text>

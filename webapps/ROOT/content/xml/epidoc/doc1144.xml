@@ -32,8 +32,8 @@
                         <summary>
                             <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
-                            <rs type="document_tradition" ref="#">Uncertain tradition</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">No</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -88,11 +88,12 @@
                         predecessorum equiperat et perpetua stabilitate in aeterna gaudia a Domino
                         suscipitur, eisque continuo perfrui nequaquam ambigitur. Proinde noverit
                         omnium fidelium sanctae Dei Ecclesiae nostrorumque presentium scilicet ac
-                        futurorum industria, <persName key="#Bishops" ref="#people/369"
-                            >Iohannem</persName> sanctae Ticinensis eclesiae <rs key="#Bishops"
-                            >episcopum</rs> nostrae serenitatis humiliter exorasse clementiam,
-                        quatenus <persName key="#Abbesses" ref="#people/368">Risinde</persName>
-                        venerabili <rs key="#Abbesses">abbatissae</rs>
+                        futurorum industria, <persName key="#Intercessory #Bishops"
+                            ref="#people/369">Iohannem</persName> sanctae Ticinensis eclesiae <rs
+                            key="#Bishops">episcopum</rs> nostrae serenitatis humiliter exorasse <rs
+                            key="#Intercessory">clementiam</rs>, quatenus <persName key="#Abbesses"
+                            ref="#people/368">Risinde</persName> venerabili <rs key="#Abbesses"
+                            >abbatissae</rs>
                         <rs key="#Monasteries">monasterii</rs>
                         <orgName
                             key="#Coloni/tenants #Defensive_elements #Teloneum #Immunity #Incastellamento #Monasteries #Slave #Freedman"

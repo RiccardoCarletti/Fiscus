@@ -33,8 +33,8 @@
                         <summary>
                             <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
-                            <rs type="document_tradition" ref="#">Uncertain tradition</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -88,11 +88,11 @@
                         fidelium sanctae Dei Ecclesiae nostrorumque presentium scilicet ac
                         futurorum, quod <persName key="#Queen" ref="#people/91"
                             >Ageltrudis</persName> olim <rs key="#Queen">imperatrix</rs> adiit per
-                            <persName key="#Archchancellor #Bishops" ref="#people/58"
+                            <persName key="#Intercessory #Archchancellor #Bishops" ref="#people/58"
                             >Petrum</persName> reverentissimum <rs key="#Bishops">episcopum</rs>
                         sacrique palatii nostri <rs key="#Archchancellor">archicancellarium</rs>
-                        excellentiam nostram, quatenus eidem concederemus et confirmaremus
-                        territoria ac loca ubi nunc <rs
+                        <rs key="#Intercessory">excellentiam</rs> nostram, quatenus eidem
+                        concederemus et confirmaremus territoria ac loca ubi nunc <rs
                             key="#Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_individuals #Immunity #Monasteries"
                             >monasteria</rs> dinoscuntur esse constructa. Unum videlicet quod
                         nuncupatur <orgName

@@ -33,8 +33,8 @@
                         <summary>
                             <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
-                            <rs type="document_tradition" ref="#">Uncertain tradition</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -89,14 +89,14 @@
                         reformare, quatenus eos mereamur habere apud Dominum intercessores, qui in
                         presenti seculo nos cognoscunt suae Ecclesiae adiutores. Quapropter omnium
                         fidelium sanctae Dei Ecclesiae nostrorumque presentium scilicet et futurorum
-                        noverit sollertia, <persName key="#Bishops #fidelisOf" ref="#people/215"
-                            >Amolonem</persName>
+                        noverit sollertia, <persName key="#Intercessory #Bishops #fidelisOf"
+                            ref="#people/215">Amolonem</persName>
                         <placeName ref="#places/8">Taurinensem</placeName> venerabilem <rs
                             key="#Bishops">episcopum</rs> ac <persName
-                            key="#Palatine_count #fidelisOf" ref="#people/57">Sigefredum</persName>
-                        illustrem <rs key="#Count">comitem</rs> dilectissimos <rs key="#fidelisOf"
-                            >fideles nostros</rs> suggessisse nostrae serenitati, quatenus pro
-                        divino intuitu <rs
+                            key="#Intercessory #Palatine_count #fidelisOf" ref="#people/57"
+                            >Sigefredum</persName> illustrem <rs key="#Count">comitem</rs>
+                        dilectissimos <rs key="#fidelisOf">fideles nostros</rs> suggessisse nostrae
+                        serenitati, quatenus pro divino intuitu <rs
                             key="#Curtes #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
                             >duas curtes</rs> quae vocantur <geogName
                             key="#Curtes #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches #Royal_slave"

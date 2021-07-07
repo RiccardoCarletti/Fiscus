@@ -4,7 +4,7 @@
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
-                <title></title>
+                <title>Archivio Capitolare di Tortona, copia membr. not. 1514 novembre 13.</title>
             </titleStmt>
             <editionStmt>
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
@@ -32,7 +32,7 @@
                         <summary>
                             <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
-                            <rs type="document_tradition" ref="#">Uncertain tradition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
                             <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
@@ -45,7 +45,7 @@
                                 <note type="displayed_date">915 february 1</note>
                                 <note type="dating_elements"/>
                                 <note type="topical_date">Coriano</note>
-                                <note type="redaction_date"/>
+                                <note type="redaction_date">XVI ineunte (1514)</note>
                              </origDate>
                             <origPlace/>
                         </origin>
@@ -89,13 +89,13 @@
                         fidelium nostrorumque presentium ac futurorum comperiat solertia, qualiter
                             <persName key="#Bishops" ref="#people/1500">Beatus</persName> sancte
                             <orgName ref="#juridical_persons/239">Terdonensis ecclesie</orgName>
-                        venerabilis episcopus per <persName key="#Bishops" ref="#people/369">Ioannem
-                            Ticinensem</persName> et <persName key="#Bishops" ref="#people/378"
-                            >Liutardum Cumanum</persName> venerabiles <rs key="#Bishops"
-                            >presules</rs> nostre sugessit maiestati, ut <rs key="#Teloneum"
-                            >teloneum</rs> et <rs key="#Districtio">districtum</rs> et omnem
-                        publicam functionem, sicut hactenus investita <rs key="#Plebs">plebs</rs> de
-                            <orgName
+                        venerabilis episcopus per <persName key="#Intercessory #Bishops"
+                            ref="#people/369">Ioannem Ticinensem</persName> et <persName
+                            key="#Intercessory #Bishops" ref="#people/378">Liutardum
+                            Cumanum</persName> venerabiles <rs key="#Bishops">presules</rs> nostre
+                        sugessit maiestati, ut <rs key="#Teloneum">teloneum</rs> et <rs
+                            key="#Districtio">districtum</rs> et omnem publicam functionem, sicut
+                        hactenus investita <rs key="#Plebs">plebs</rs> de <orgName
                             key="#Landed_possessions #Mills #Aqueducts #Plebs #Teloneum #Districtio"
                             ref="#juridical_persons/241">Viqueria</orgName> fuerat, confirmaremus et
                         corroboraremus. Insuper etiam <rs

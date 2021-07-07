@@ -46,7 +46,7 @@
                                 <note type="displayed_date">961 January 20</note>
                                 <note type="dating_elements"/>
                                 <note type="topical_date">Reggio Emilia</note>
-                                <note type="redaction_date"/>
+                                <note type="redaction_date">XII</note>
                              </origDate>
                             <origPlace>Sanctus Benedictus in Pado Lironi; monasterium
                                 (Mantova)</origPlace>
@@ -84,9 +84,9 @@
             <div type="edition">
                 <div type="textpart">
                     <ab>(S.) Dum in Dei nomine <rs key="#Cities">civitate</rs>
-                        <placeName>Regio</placeName>, infra claustra et <rs key="#Palatium"
-                            >domum</rs> et <rs key="#Dioecesis">episcopio</rs> istius <orgName
-                            key="#Palatium #Dioecesis #Mother_churches #Bishops"
+                        <placeName key="#Cities" ref="#places/191">Regio</placeName>, infra claustra
+                        et <rs key="#Palatium">domum</rs> et <rs key="#Dioecesis">episcopio</rs>
+                        istius <orgName key="#Palatium #Dioecesis #Mother_churches #Bishops"
                             ref="#juridical_persons/108">Regensis</orgName>, in caminata maiore
                         q(ue) est iusta domum et <rs key="#Mother_churches">mater ecclesie</rs>
                         ipsius ecclesie, ubi <persName>Giselbertus</persName>
@@ -99,16 +99,17 @@
                             <persName>Rotchildus</persName>, <persName>Deodatus</persName>,
                             <persName>Teuzo</persName>, <persName>Adelbertus</persName>
                         <rs key="#Judge">iudices</rs> do(m)norum regum,
-                            <persName>Tetbaldus</persName> filius quondam <persName key="#fatherOf"
-                            >Luponi</persName> de <placeName>Gurgo</placeName>,
-                            <persName>Inguo</persName> filius quondam <persName key="#fatherOf"
-                            >Raginerii</persName>, <persName>Oddo</persName>,
-                            <persName>Gaderisio</persName> filius quondam itemque <persName
-                            key="#fatherOf">Gaderisi</persName> de <placeName>Gunbla</placeName>
-                        vassis ipsius Giselberti, <persName>Grimoldo</persName>,
-                            <persName>Geizo</persName>, <persName>Albizio</persName>,
-                                <persName><name ref="Hugo">Uguo</name></persName> de Gurgo,
-                            <persName key="#Notary"><name ref="Iohannes">Iohannes</name></persName>
+                            <persName>Tetbaldus</persName> filius quondam
+                            <persName>Luponi</persName> de <placeName>Gurgo</placeName>,
+                            <persName>Inguo</persName> filius quondam
+                        <persName>Raginerii</persName>, <persName>Oddo</persName>,
+                            <persName>Gaderisio</persName> filius quondam itemque
+                            <persName>Gaderisi</persName> de <placeName>Gunbla</placeName>
+                        <rs key="#vassusOf">vassis</rs> ipsius Giselberti,
+                            <persName>Grimoldo</persName>, <persName>Geizo</persName>,
+                            <persName>Albizio</persName>, <persName><name ref="Hugo"
+                            >Uguo</name></persName> de Gurgo, <persName key="#Notary"><name
+                                ref="Iohannes">Iohannes</name></persName>
                         <rs key="#Notary">notarius</rs> istius Regensis et reliqui plures. Ibique
                         eorum veniens presencia <persName>Adelbertus qui et Atto</persName>
                         <rs key="#Count">comes</rs> filius bone memorie
@@ -122,14 +123,14 @@
                         vel conludiosa habuisse vel detinuisse et casis et rebus ipsis in predictis
                         locis q(uae) in ea legitur, quas da parte ipsius cannonice receptam ad meam
                         habeo et teneo proprietatem, et quod plus est quero ut dicant iste
-                        Ermenaldus episcopus istius Regensis una simul cum iste
-                            <persName>Urso</persName>
+                        Ermenaldus episcopus istius Regensis una simul cum iste <persName
+                            key="#Judge #Advocatus_of_other_public_authorities">Urso</persName>
                         <rs key="#Judge">iudex</rs> et <rs
                             key="#Advocatus_of_other_public_authorities">advocato</rs> suo et ipsius
                         cannonice qui hic ad presens est si commutacionem ista bona et verax est vel
-                        si casis et rebus ipsis q(uae) in ea legitur, q(uae) ego da pars ipsius
-                            <orgName key="#Collegiate_churches">cannonice vestre ecclesie Sancte
-                            Marie et Sancti Michaeli</orgName> commutavit, contradicere aut
+                        si casis et rebus ipsis q(uae) in ea legitur, q(uae) ego da pars ipsius <rs
+                            key="#Churches/religious_bodies">cannonice</rs> vestre <orgName>ecclesie
+                            Sancte Marie et Sancti Michaeli</orgName> commutavit, contradicere aut
                         subtrahere velint, an non, vel si casis et rebus ipsis quas ego ipsius
                         canonice vestre ecclesie dedi vel tradidi receptis habet». Qui et ipse
                         do(m)nus Ermenaldus presul una cum iste Urso iudex et advocato suo professi
@@ -144,13 +145,14 @@
                         iusta eorum altercacionem et professionem et magnifestacionem iam dictus
                         Adelbertus comes predictis et rebus in iam dictis locis <rs key="#Islands"
                             >insola</rs>
-                        <placeName>Mauritula</placeName> seu <rs key="#Islands">insola</rs>
-                        <placeName>Pedangnolo</placeName> cum suorum pertinenciis ad suam haberet et
-                        detinere proprietatem, et ipse Ermenaldus presul seu Urso iudex et advocato
-                        eius inde manerent omni te(m)pore da pars ipsius episcopio taciti et
-                        contenti, et in eo modo finita est causa. Et hanc noticia qualiter actum est
-                        pro securitate eidem Adelberti comes fieri ammonuerunt. Quidem et ego
-                            <persName>Sadelberto</persName>
+                        <placeName key="#Islands">Mauritula</placeName> seu <rs key="#Islands"
+                            >insola</rs>
+                        <placeName key="#Islands">Pedangnolo</placeName> cum suorum pertinenciis ad
+                        suam haberet et detinere proprietatem, et ipse Ermenaldus presul seu Urso
+                        iudex et advocato eius inde manerent omni te(m)pore da pars ipsius episcopio
+                        taciti et contenti, et in eo modo finita est causa. Et hanc noticia qualiter
+                        actum est pro securitate eidem Adelberti comes fieri ammonuerunt. Quidem et
+                        ego <persName>Sadelberto</persName>
                         <rs key="#Notary">notarius</rs> do(m)norum regum ex iussione suprascripto
                         Giselberto missus et iudicum ammonicione scripsi. <date>Anno do(m)ni
                                 <persName ref="#people/173">Ottoni</persName> et item <persName
@@ -162,7 +164,7 @@
                         Adelbertus iudex do(m)norum regum interfui. lohannes notarius do(m)norum
                         regum interfui. Signum manibus suprascriptorum Teubaldi atque Inguoni seu
                         Oddoni atque Gaderisi atque Grimoldi etiam Gezoni, Albizoni, Iuguoni qui
-                        supra interfuerunt. (S.) Ego <persName>Teuzo</persName>
+                        supra interfuerunt. (S.) Ego <persName key="#Notary">Teuzo</persName>
                         <rs key="#Notary">notarius</rs> autenticum huius exe(m)pli legi vidi et sic
                         inibi continebatur qualiter hic legitur preter litteras plus vel minus et
                         hoc exe(m)plum manibus meis exe(m)plavi. </ab>

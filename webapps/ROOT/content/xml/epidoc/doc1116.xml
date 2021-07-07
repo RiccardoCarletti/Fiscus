@@ -33,7 +33,7 @@
                             <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Uncertain</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -44,9 +44,9 @@
                             <origDate notBefore="0896" notAfter="0899">
                                 <note type="displayed_date">Between 896 and 899</note>
                                 <note type="dating_elements">Emanato durante il vescovato di
-                                    Landolfo I di Milano</note>
+                                    Landolfo I di Milano.</note>
                                 <note type="topical_date"/>
-                                <note type="redaction_date"/>
+                                <note type="redaction_date">X exeunte</note>
                              </origDate>
                             <origPlace/>
                         </origin>
@@ -92,30 +92,32 @@
                         Quapropter omnium fidelium sancte Dei Eclesie nostrorumque presencium
                         scilicet et futurorum noverit industria, quia vir venerabilis <persName
                             key="#Abbots"><name ref="Leopardus">Leopardus</name></persName>
-                        <rs key="#Abbots">abbas</rs> ex <orgName key="#Monasteries"
+                        <rs key="#Abbots">abbas</rs> ex <orgName
+                            key="#Curtes #Landed_possessions #Privileges #Immunity #Monasteries #Cells/hermitages"
                             ref="#juridical_persons/47">cenobio Nonantulensi</orgName> per <persName
-                            key="#Consiliarius_regis #Archbishops" ref="#people/228"
+                            key="#Intercessory #Consiliarius_regis #Archbishops" ref="#people/228"
                             >Landulfum</persName> reverentissimum <rs key="#Archbishops"
                             >archipresulem</rs> nec non etiam <persName
-                            key="#Consiliarius_regis #Bishops" ref="#people/123"
+                            key="#Intercessory #Consiliarius_regis #Bishops" ref="#people/123"
                             >Adelardum</persName> venerabilem <rs key="#Bishops">aepiscopum</rs>
                         dilectissimos <rs key="#Consiliarius_regis">consiliarios nostros</rs>
                         imploratus est nostram magnificentiam, quatenus pro amore Dei omnipotentis
-                        nostreque mercedis intuitu omnia privilegia pontificum Romanorum et precepta
-                        regum Langobardorum Francorumque imperatorum predecessorum nostrorum, quibus
-                        illi seu et ceteri fideles ad predictam aeclesiam donacionem largiti sunt et
-                        res fidelium eiusdem aeclesie per eadem precepta auctoritatis oraculo
-                        confirmaverunt, nec non et omnia memoratorum precepta nostra auctoritate vel
-                        liberalitate firmaremus, simul et privilegia Romanorum pontificum. Cuius
-                        peticionem, quia iusta et racionabilis nobis esse videbatur, recipiendam
-                        atque implendam iudicavimus, et ei suisque successoribus hoc nostrum regale
-                        preceptum prout petierat confirmari fecimus. Ita iubentes atque nostra
-                        auctoritate precipientes, ut quicquid christianissimi pontifices seu reges,
-                        imperatores vel quilibet vir chatolicus in prefato sancto cenobio aliquid
-                        largiti sunt, nullus quolibet ingenio abstraere vel minuere audeat, set
-                        perpetuis temporibus cunctis deinceps seculis nostro permaneat testamento
-                        solidatum, ea videlicet auctoritate nostre regalis preceptionis, ut nullus
-                        iudex publicus vel quilibet christianus in supradicto monasterio aut <rs
+                        nostreque mercedis intuitu omnia <rs key="#Privileges">privilegia</rs>
+                        pontificum Romanorum et precepta regum Langobardorum Francorumque
+                        imperatorum predecessorum nostrorum, quibus illi seu et ceteri fideles ad
+                        predictam aeclesiam donacionem largiti sunt et res fidelium eiusdem aeclesie
+                        per eadem precepta auctoritatis oraculo confirmaverunt, nec non et omnia
+                        memoratorum precepta nostra auctoritate vel liberalitate firmaremus, simul
+                        et privilegia Romanorum pontificum. Cuius peticionem, quia iusta et
+                        racionabilis nobis esse videbatur, recipiendam atque implendam iudicavimus,
+                        et ei suisque successoribus hoc nostrum regale preceptum prout petierat
+                        confirmari fecimus. Ita iubentes atque nostra auctoritate precipientes, ut
+                        quicquid christianissimi pontifices seu reges, imperatores vel quilibet vir
+                        chatolicus in prefato sancto cenobio aliquid largiti sunt, nullus quolibet
+                        ingenio abstraere vel minuere audeat, set perpetuis temporibus cunctis
+                        deinceps seculis nostro permaneat testamento solidatum, ea videlicet
+                        auctoritate nostre regalis preceptionis, ut nullus iudex publicus vel
+                        quilibet christianus in supradicto monasterio aut <rs
                             key="#Cells/hermitages">cellulis suis</rs>, <rs key="#Curtes"
                             >curtibus</rs>, <rs key="#Landed_possessions">agris, locis, seu et
                             reliquis possessionibus</rs> que ad cenobium tam de <rs
@@ -131,11 +133,12 @@
                             functiones aut redibiciones vel occasiones requirendas consurgere
                             audeat, set liceat predicto abbati successoribusque eius cum omnibus
                             subiectis sibi rebus iuxta illorum privilegia et precepta sub
-                            immunitatem nostram quieto ordine consistere.</rs> Volumus quoque et
-                        concedimus, ut quandoquidem divina vocatione abbas ipsius monasterii eiusque
-                        successores de ac luce migraverint, ipsi <rs key="#Monks">monachi</rs> de
-                        ipsa congregatione qualem inter se digniorem invenerint licentiam habeant
-                        eligendi abbatem. Et ut firmum et stabile hoc nostrum regale preceptum
+                            immunitatem nostram quieto ordine consistere.</rs>
+                        <rs key="#Uncertain_tradition">Volumus quoque et concedimus, ut quandoquidem
+                            divina vocatione abbas ipsius monasterii eiusque successores de ac luce
+                            migraverint, ipsi <rs key="#Monks">monachi</rs> de ipsa congregatione
+                            qualem inter se digniorem invenerint licentiam habeant eligendi
+                            abbatem.</rs> Et ut firmum et stabile hoc nostrum regale preceptum
                         permaneat, propria manu firmavimus et anulo nostro iussimus
                         sigillari...</ab>
                 </div>
@@ -150,7 +153,13 @@
                 <p/>
             </div>
             <div type="commentary">
-                <p/>
+                <p>La copia pervenutaci è scorretta e incompleta e il passaggio che regola
+                    l'elezione dell'abate è aggiunta in calce da prima mano. Questo diploma potrebbe
+                    essere considerato il modello del diploma falsificato datato 19 agosto 988 (DD B
+                    I, pp. 373-375, Falsificazioni n° IV), ma Schiaparelli ritiene più probabile che
+                    entrambi dipendessero da una copia (o dall'originale) andata perduta, poiché DD
+                    B I, pp. 373-375, Falsificazioni n° IV presenta nelle formule una dizione più
+                    corretta e completa.</p>
             </div>
         </body>
     </text>

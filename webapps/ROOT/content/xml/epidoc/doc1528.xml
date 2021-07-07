@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Biblioteca Apostolica Vaticana, Vat. Lat. 3833, f. 89r (Deusdedit, nr.
+                    244)</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc1528</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">-Papal concession (papyrus)</rs>
+                            <rs type="record_source" ref="#">Original document</rs>
+                            <rs type="document_tradition" ref="#">Compendium</rs>
+                            <rs type="fiscal_property">Yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate notBefore="0715" notAfter="0731">
+                                <note type="displayed_date">715 May 19 - 731 February 11</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date"/>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-07-02" who="dinternullo">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>(<persName key="#Popes" ref="#people/71">Gregorius iunior</persName> locat)
+                            <rs key="#Churches">diaconiae</rs>
+                        <orgName key="#Churches">Sancti Eustathii</orgName> imperpetuum: <rs
+                            key="#Fundi">fundum</rs>
+                        <geogName
+                            key="#Fundi #Fiscal_property #Object #Outflow #Allocation_to_churches #Rent_in_money"
+                            >Cervinariola</geogName>, <rs key="#Fundi">fundum</rs>
+                        <geogName
+                            key="#Fundi #Fiscal_property #Object #Outflow #Allocation_to_churches #Rent_in_money"
+                            >Caldariola</geogName>, <rs key="#Rent_in_money">prestantes numero .I.
+                            auri solidos</rs>; <rs key="#Fundi">fundum</rs>
+                        <geogName
+                            key="#Fundi #Fiscal_property #Object #Outflow #Allocation_to_churches #Rent_in_money"
+                            >Pompilianum</geogName>, <rs key="#Fundi">fundum</rs>
+                        <geogName
+                            key="#Fundi #Fiscal_property #Object #Outflow #Allocation_to_churches #Rent_in_money"
+                            >Paganum</geogName>, <rs key="#Fundi">fundum</rs>
+                        <geogName
+                            key="#Fundi #Fiscal_property #Object #Outflow #Allocation_to_churches #Rent_in_money"
+                            >Lamponianum</geogName>, <rs key="#Fundi">fundum</rs>
+                        <geogName
+                            key="#Fundi #Fiscal_property #Object #Outflow #Allocation_to_churches #Rent_in_money"
+                            >Signioba</geogName>, <rs key="#Fundi">fundum</rs>
+                        <geogName
+                            key="#Fundi #Fiscal_property #Object #Outflow #Allocation_to_churches #Rent_in_money"
+                            >Pompeianum</geogName>, <rs key="#Fundi">fundum</rs>
+                        <geogName
+                            key="#Fundi #Fiscal_property #Object #Outflow #Allocation_to_churches #Rent_in_money"
+                            >Gavianum</geogName>, <rs key="#Fundi">fundum</rs>
+                        <geogName
+                            key="#Fundi #Fiscal_property #Object #Outflow #Allocation_to_churches #Rent_in_money"
+                            >Caprolanum</geogName>, <rs key="#Fundi">fundum</rs>
+                        <geogName
+                            key="#Fundi #Fiscal_property #Object #Outflow #Allocation_to_churches #Rent_in_money"
+                            >Veranum</geogName>, <rs key="#Fundi">fundum</rs>
+                        <geogName
+                            key="#Fundi #Fiscal_property #Object #Outflow #Allocation_to_churches #Rent_in_money"
+                            >Calechianum</geogName>, <rs key="#Fundi">fundum</rs>
+                        <geogName
+                            key="#Fundi #Fiscal_property #Object #Outflow #Allocation_to_churches #Rent_in_money"
+                            >Constantianum</geogName>, <rs key="#Fundi">fundum</rs>
+                        <geogName
+                            key="#Fundi #Fiscal_property #Object #Outflow #Allocation_to_churches #Rent_in_money"
+                            >Camarelis</geogName> cum casalibus et apendicibus suis: <rs
+                            key="#Rent_in_money">prestant numero .III. auri solidos</rs>; <rs
+                            key="#Fundi">fundum</rs>  Larintias, <rs key="#Fundi">fundum</rs>
+                        Pavianum, <rs key="#Fundi">fundum</rs>  Lamponianum <rs key="#Rent_in_money"
+                            >numero .I. auri solidos prestantes</rs>; <rs key="#Fundi">fundum</rs>
+                        Constantianum <rs key="#Rent_in_money">prestans numero .X. auri
+                            siliquas</rs>; <rs key="#Fundi">fundum</rs>  Riccliianum <rs
+                            key="#Rent_in_money">prestantem numero .X. auri siliquas</rs> et <rs
+                            key="#Casalia">casale</rs> Torianum, <rs key="#Fundi">fundum</rs>
+                        Servilianum, <rs key="#Fundi">fundum</rs>  Natianum, <rs key="#Fundi"
+                            >fundum</rs>  Ruscellis, <rs key="#Fundi">fundum</rs>  Silicella, <rs
+                            key="#Fundi">fundum</rs>  Gregorianum, <rs key="#Fundi">fundum</rs>
+                        Casamontis, <rs key="#Fundi">fundum</rs>  Gaianum <rs key="#Rent_in_money"
+                            >prestantes numero .II. auri solidos</rs>; <rs key="#Fundi">fundum</rs>
+                        Saxonigro, <rs key="#Rent_in_money">prestat numero semis auri solidum;</rs>
+                        omnes ex corpore <rs key="#Massae">massae</rs> Calcianae; <rs key="#Fundi"
+                            >fundum</rs>  Pigrinum, <rs key="#Fundi">fundum</rs>  Casanova, <rs
+                            key="#Fundi">fundum</rs>  Turritanum, <rs key="#Fundi">fundum</rs>
+                        Iaganum, <rs key="#Fundi">fundum</rs>  Calabrilacanum, <rs key="#Fundi"
+                            >fundum</rs>  Trivicianum, <rs key="#Rent_in_money">prestat numero [...]
+                            auri solidos</rs>, posita in Afile ex corpore <rs key="#Massae"
+                            >maxae</rs> Pontianae <rs key="#Patrimonium">patrimonii</rs> Lavicani;
+                        et <rs key="#Massae">massam</rs> Furanianam cum fundis et casalibus et
+                        omnibus suis; <rs key="#Fundi">fundum</rs>  Pacurianum, <rs key="#Fundi"
+                            >fundum</rs>  Ancurianum, <rs key="#Fundi">fundum</rs>  Casagallorum,
+                            <rs key="#Fundi">fundum</rs>  Furanianum, <rs key="#Fundi">fundum</rs>
+                        Filanum, <rs key="#Fundi">fundum</rs>  Arclis, <rs key="#Fundi">fundum</rs>
+                        Fatianum, <rs key="#Fundi">fundum</rs>  Scandilianum, <rs key="#Fundi"
+                            >fundum</rs>  Barbatianense, <rs key="#Fundi">fundum</rs>
+                        Casaherclanea, <rs key="#Fundi">fundum</rs>  Serenianum, <rs key="#Fundi"
+                            >fundum</rs>  Casatuscis, <rs key="#Fundi">fundum</rs>  Casalaucini, <rs
+                            key="#Fundi">fundum</rs>  Casnartellis, <rs key="#Fundi">fundum</rs>
+                        Casavini, <rs key="#Fundi">fundum</rs>  Casasimiama, <rs key="#Fundi"
+                            >fundum</rs>  Iussianum, <rs key="#Fundi">fundum</rs>  Cetinianum, <rs
+                            key="#Fundi">fundum</rs>  Casavaleriana, <rs key="#Fundi">fundum</rs>
+                        Pinianellum, <rs key="#Rent_in_money">prestant numero .V. auri solidos et
+                            aureum .I.</rs>, ex corpore <rs key="#Massae">maxe</rs> Aliane <rs
+                            key="#Patrimonium">patrimonii</rs> Tiburtini, <rs key="#Rent_in_money"
+                            >prestant annue numero .XIII. semis quartum solidos</rs>. </ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>Deusdedit, Collectio Canonum, nr. 244, pp. 372-373</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p>Marazzi 1998: 303-304</p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p><ref>https://digi.vatlib.it/view/MSS_Vat.lat.3833</ref></p>
+            </div>
+            <div type="commentary">
+                <p>Le note tachigrafiche della rendita sono qui sciolte seguendo le indicazioni di
+                    Marazzi 1998.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

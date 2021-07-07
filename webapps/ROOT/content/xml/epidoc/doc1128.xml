@@ -35,7 +35,7 @@
                             <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Uncertain</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -47,7 +47,7 @@
                                 <note type="displayed_date">904 june 1</note>
                                 <note type="dating_elements"/>
                                 <note type="topical_date">Pavia</note>
-                                <note type="redaction_date"/>
+                                <note type="redaction_date">XV exeunte-XVI ineunte</note>
                              </origDate>
                             <origPlace/>
                         </origin>
@@ -94,11 +94,12 @@
                             >Salomonem</name></persName> reverendissimum <rs key="#Bishops"
                             >episcopum</rs>, cuius cure ac providencie <orgName key="#Monasteries"
                             ref="#juridical_persons/190">Sancti Galli</orgName>
-                        <rs key="#Monasteries">cenobium</rs> commissum perpenditur, interventu
-                            <persName key="#Palatine_count" ref="#people/57">Sigisfredi</persName>
-                        illustris <rs key="#Palatine_count">sacri palacii nostri comitis</rs>
-                        dilectissimi fidelis nostri summissis precibus nostram exorasse clemenciam,
-                        ut <rs
+                        <rs key="#Monasteries">cenobium</rs> commissum perpenditur, <rs
+                            key="#Intercessory">interventu</rs>
+                        <persName key="#Intercessory #Palatine_count" ref="#people/57"
+                            >Sigisfredi</persName> illustris <rs key="#Palatine_count">sacri palacii
+                            nostri comitis</rs> dilectissimi fidelis nostri summissis precibus
+                        nostram exorasse clemenciam, ut <rs
                             key="#Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches #Monasteries"
                             >abbaciam</rs> nostram que <orgName
                             key="#Houses #Rivers #Mountains #Curtes #Landed_possessions #Forests #Fisheries #Mills #Wine #Hay/fodder #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches #Public_exactions #Teloneum #Districtio #Tuitio/bannum/mundeburdium #Churches #Monasteries #Royal_slave #Royal_aldius"
@@ -182,7 +183,9 @@
                 <p/>
             </div>
             <div type="commentary">
-                <p/>
+                <p>Schiaparelli ritiene di non poter dubitare dell'autenticità del diploma, del
+                    quale comunque non si può ricavare con sicurezza il testo originale, per via
+                    degli errori di lettura e delle molte interpolazioni.</p>
             </div>
         </body>
     </text>
