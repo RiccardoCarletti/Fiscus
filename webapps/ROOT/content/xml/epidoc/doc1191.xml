@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Biblioteca civica di Bergamo</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc1191</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0883-07-30">
+                                <note type="displayed_date"/>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Murgula</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-02-08" who="Chiara Stedile">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>(C.) In nomine sanctae et individuae trinitatis. Karolus divina favente
+                        clementia imperator augustus. Omnium sanctae dei ecclesiae nostrorumque
+                        fidelium presentium videlicet ac futurorum sagacitas noverit, Garibaldum
+                        sanctae Pergamatis ecclesiae venerabilem episcopum nostrae obtulisse
+                        clementiae praecepta atque auctoritates piissimorum augustorum vel regum seu
+                        praedecessorum nostrorum omnium, quotquot a tempore divae memoriae magni
+                        Karoli regnaverunt usque ad praesens tempus nostrum, qui omnes immunitatis
+                        suae ac liberalitatis munimine praefatam ecclesiam exaltarunt et roborarunt.
+                        Sed pravitate quorundam malorum hominum suis propriis rebus expoliata est,
+                        scilicet de ecclesia in honore sancti Alexandri dedicata in loco nuncupante
+                        Fara, quae, ut in eisdem praeceptis perspeximus, iuris praefati episcopii
+                        fuit a tempore Grimoaldi quondam regis Langobardorum, qui eandem ecclesiam
+                        cum omnibus possessionibus suis ditioni praedicti episcopatus stabilivit et
+                        merito eo quod quidam ipsius loci episcopus nomine Iohannes a scismate
+                        Arriano eandem ecclesiam ad fidem quondam catholicam converterit, ideoque
+                        ipsi ecclesiae suae ecclesiasticis sanctionibus iure deberetur. Aliud quoque
+                        id ipsum continens praeceptum declarabat, quomodo Alais rex tempore
+                        tirannidis suae eandem ecclesiam inde substraxerit et Cunipertus rex
+                        Antonino episcopo inde iure proprietario, prout ratio dictabat, restituerit;
+                        nec non et avi nostri reliquaque antecessorum nostrorum praecepta hac eadem
+                        manistissime confirmantia continent, quod nos quoque nostris diebus factum
+                        cernentes doluimus et eidem matri ecclesiae restituentes stabilivimus in
+                        perp[et]uum. Insuper etiam pro expoliatione et iniuria sepe dictae matri
+                        ecclesiae inlata queque lapsa restaurare cupientes hactenus contulimus et
+                        subiecimus eidem episcopio iure proprietario habendum monasteriolum illud
+                        dedicatum in honore sancti Michaelis situm Cerreto iuxta fluvium Ollium cum
+                        omnibus suis cellulis et possessionibus, ut, quia nunc a monasterii habitu
+                        alienum esse cognoscitur, per episcopum Bergomatem monachis inibi
+                        constitutis et abbate ordinato in cenobii revertatur regulam, cuius quoque
+                        curam in anteriori praecepto a nobis concesso diebus vitae Auprandi fidelis
+                        nostri suae delegationi concessimus sub solutione ad predictam matrem
+                        ecclesiam centarum librarum olei. Post cuius obitum ut in toto eidem matri
+                        ecclesiae sit subditum et in perpetuum iure proprietario possideatur, in
+                        praesenti stabilimus ob amorem beatissimi martiris Christi Alexandri, ad
+                        cuius limina confugimus cuiusque intercessionibus a gravi infirmitate
+                        corporis nos dominus restituit sanitati. Petiitque praefatus episcopus, ut
+                        eorundem auctoritatibus nostram superadderemus auctoritatem. Cuius devotis
+                        praecibus libentissime assensum praebentes hos apices inscribi iussimus, per
+                        quos decernimus, ut quicquid antiqui imperatores et reges, imperatrices
+                        quoque et reginae Romanorum quoque et Langobardorum seu Francorum nec non et
+                        reliqui deum timentes memoratae sanctae Pergamati ecclesiae suis praeceptis
+                        et testamentis contulerunt et postmodum praecellentissimi reges atque
+                        augusti sua auctoritate confirmaverunt, stabile atque inconvulsum nostris
+                        futurisque temporibus in ipsius iure et potestate perpetualiter maneat, et
+                        nullus comes vel puplicae partis iudex et gastaldio vel alia quaelibet
+                        persona in monasteriis xenodochiis vel ecclesiis baptismalibus aut
+                        cardinalibus seu oraculis vel cunctis possessionibus, quas a tempore, ut
+                        praediximus, magni Karoli usque in praesens undecumque infra regnum Italicum
+                        sepe dicta Pergamas ecclesia habere dinoscitur vel quas deinceps inibi
+                        divina pietas aucmentare voluerit, nemo superioris aut inferioris rei
+                        publicae procurator ad causas iudiciario more audiendas conventum facere vel
+                        freda exigere aut mansionaticum vel paratas exquirere, parafredios aut
+                        fideiussores violenter tollere, clericos eiusdem ecclesiae in personis vel
+                        domibus suis ledere vel homines tam ingenuos libellarios quamque servos in
+                        possessionibus vel mansionibus ipsius ecclesiae commanentes potestative
+                        distringere nec ullas publicas functiones aut redibitiones vel illicitas
+                        occasiones vel congiaticum seu sparavarios vel operas, sicut circa lacum
+                        Commacinum a servis ipsius ecclesiae actenus exigebatur sive angarias
+                        superimponere audeat vel inferre praesumat. Et quia ipse praesul Garibaldus
+                        fidelissimus noster nostrae innotuit mansuetudini, quod quaedam venationes
+                        publicae ex iniusta et contra omnes leges inventa consuetudine in quibusdam
+                        comitatibus vel ministeriis publicis a nostris exactoribus annuatim
+                        exquirantur, idcirco modis omnibus praecipimus et sub interminatione
+                        iubemus, ut nullus sub regno nostro constitutus de rebus supra taxatae
+                        ecclesiae in quibuscumque comitatibus vel ministeriis publicis ullas
+                        huiuscemodi exhactiones aut alias quaslibet annuales donationes exigere aut
+                        modo et deinceps consuetudinario more tollere audeat, sed repulsa et
+                        extincta omni iniusta consuetudine liceat eidem venerando praesuli suisque
+                        ministris ac successoribus res iam dictae ecclesiae cum universis sibi
+                        subiectis sub immunitatis nostrae, quam sepe dictae ecclesiae in sex libris
+                        auri optimi persolutione habendam stabilimus, ordine quieto manere et
+                        nostris fideliter parere obsequiis atque pro nostra incolumitate statuque
+                        regni nostri altissimum dominum exorare. Omnimodis praecipimus atque
+                        iubemus, ut undecumque a tempore praefati magni Karoli legalem vestituram
+                        habere dinoscitur iam dicta ecclesia, si ullam deminorationem seu
+                        disvestituram quislibet facere temptaverit, non sit necesse iam dicto
+                        episcopo eiusque successoribus sive eiusdem ecclesiae causam peragentibus
+                        ullam facere probationem, sed diligenter per bone fidei pagenses
+                        circumquaque manentes, si opus fuerit, cum iureiurando studiosissime fiat
+                        inquisitio, quatenus rei veritas lucide clarescat. Quicumque autem huius
+                        nostri praececepti prevaricator inventus fuerit et comprobatus, immunitatis
+                        poenam, quam eidem ecclesiae in sex libris auri futuram concedimus,
+                        persolvere sibimet cogatur. Et ut haec nostrae confirmationis seu
+                        concessionis atque inmunitatis futuris temporibus inlibatum obtineat
+                        roborem, manu propria firmantes ex anulo nostro sigillari iussimus. Signum
+                        (MF.) domni Karoli serenissimi imperatoris augusti. Uualdo notarius advicem
+                        Liutuuardi archicancellarii recognovit et (SR.) (SI. D.) Data iii kal. aug.
+                        anno incarnationis domini dccclxxxiii, indictione i, anno vero imperii domni
+                        karoli in Italia iii, in Frantia ii; actum Murgulam curtem regiam; in dei
+                        nomine feliciter amen.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>DD Ka III, pp. 144-147 n° 89</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
