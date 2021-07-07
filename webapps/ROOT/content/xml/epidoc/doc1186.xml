@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Biblioteca Ambrosiana di Milano</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc1186</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0839-05-06">
+                                <note type="displayed_date"/>
+                                <note type="dating_elements"/>
+                                <note type="topical_date"/>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-02-08" who="Chiara Stedile">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine domini nostri Iesu Christi dei eterni. Lotharius divina ordinante
+                        providentia imperator augustus. Dignum est, ut imperialis dignitas servorum
+                        dei petitiones effectuosa deliberatione libenter obaudiat atque ad dei
+                        famulatum utile prebere studeat solatium. Quapropter omnibus fidelibus
+                        sancte dei ecclesie presentibus scilicet et futuris notum facimus, quod pro
+                        mercedis nostre augumento cuidam monasterio in honore sancti Ylarii
+                        confessoris dei constructo quendam curticellam Platanum colactam cum capella
+                        in honore sancti Petri constructa et decimis quoque ad se pertinentibus et
+                        massariciis vel terris seu vineis atque silvis pratis pascuis campis acervis
+                        fluminibus rivis molendinis portubus ripatibus negotiis tholoneis
+                        quarantessimis, cum omnibus quoque ad ipsum dictum portum vel curticellam
+                        pertinentibus, cum suis circundatis lateribus – hoc est a primo latere
+                        canale, quod dicitur Tergola, percurrens usque in capite de fossa, que
+                        dicitur Vissignone, cum rivo, qui dicitur Mauro, ad ipsam fossam pertinente
+                        usque in paludem et aquas salsas percurrente cum fossa, que dicitur Caparia,
+                        cum suis rivis ad se pertinentibus usque ipsum terminum habente et a latere
+                        argerem capite firmante in flumine, quod dicitur Vne, usque in paludem et
+                        aquas salsas percurrente, et latera in predicta curticella Pladano nomine
+                        persistunt – nostra munificentia perhenniter possidendam in eiusdem sancti
+                        loci contulimus utilitatem. Unde pro firmitatis gratia presentem
+                        auctoritatem nostram eidem venerabili abbati nomine Deusdedit fieri
+                        iussimus, per quam precipientes precipimus, ut ab hinc in futurum iure
+                        firmissimo pars ipsius monasterii easdem res quieto ordine teneat atque
+                        absque cuiuspiam contrarietate aut inquietudine possideat et faciat exinde
+                        quicquid utilitatis dicto monasterio placuerit. Hec vero auctoritas, ut
+                        pleniorem in dei nomine habeat vigorem et pro futuro tempore inconvulsam
+                        obtineat firmitatem, manu nostra propria subter firmavimus et anuli nostri
+                        impressione adsignari iussimus. Signum (M.) Lotharii piissimi augusti. Data
+                        VIII idus maii anno Christo propicio imperii domni Lotharii gloriosissimi
+                        augusti decimo octavo, indictione II; actum Papie in palatio regio; in dei
+                        nomine feliciter amen. </ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>DD Lo I, pp. 117-119, n° 38.</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
