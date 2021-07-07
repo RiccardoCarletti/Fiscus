@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title></title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc1184</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#"/>
+                            <rs type="record_source" ref="#"/>
+                            <rs type="document_tradition" ref="#"/>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0833-04-17">
+                                <note type="displayed_date"/>
+                                <note type="dating_elements"/>
+                                <note type="topical_date"/>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-02-08">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine domini nostri Iesu Christi dei aeterni. Hlotarius augustus
+                        invictissimi domni imperatoris Hludouuici filius. Cum petitionibus servorum
+                        et ancillarum dei iustis et rationabilibus divini cultus amore favemus,
+                        superni muneris donum nobis a domino inpertiri credimus. Idcirco notum sit
+                        omnium sanctae dei ecclesiae presentium scilicet et futurorum sollertiae,
+                        qualiter Asia venerabilis abbatissa ex monasterio Dodosi, quod est situm
+                        intra muros civitatis Papiae, nostram petiit clementiam obnixae, ut eundem
+                        monasterium una cum omnia sibi pertinentia sub nostra emunitatis tuitione ac
+                        defensione ob amorem dei et reverentiam sancti loci illius reciperemus.
+                        Cuius petitionem libenter adquievimus et ita, ut petiit, concessimus atque
+                        per hoc nostrum imperiale preceptum confirmavimus. Quapropter precipim[u]s
+                        atque iubemus, ut nullus iude[x p]ublicus vel quislibet ex iuditiaria
+                        potestate in ecclesias au[t] loca vel agros seu reliquas possessiones
+                        memorati monasterii, quas moderno tempore infra ditione regni nostri iustae
+                        et rationabiliter possidet vel quae deinceps in iure ipsius loci voluerit
+                        divina pietas augeri, ad causas audiendas aut freda vel tributa exigenda aut
+                        mansi[o]nes vel paratas faciendas nec fideiussores tollendos aut homines
+                        eiusdem ecclesiae tam ingenuos quam servos super terram ipsius commanentes
+                        iniustae distringendos nec ullas redibitiones aut inlicitas occasiones
+                        requirendas nostris et futuris temporibus ingredi audeat vel ea, que supra
+                        memorata sunt, penitus exigere presumat, sed liceat memorate abbatissae
+                        successoribusve suis res predicti monasterii sub inmunitatis defensionis
+                        nostrae quiete ordine possidere. Et quicquid exinde fiscus noster sperare
+                        poterat, totum nos pro aeterna remuneratione praefato monasterio concedimus,
+                        ut in alimonia ancillarum dei ibidem sub regula sancti Benedicti deo
+                        famulantium proficiat perennis temporibus in augmentis, quatenus ipse
+                        ancillae dei, qui ibidem deo famulantur, pro nobis et coniuge proleque
+                        nostra atque stabilitate tocius regni a deo nobis commissi iugiter domini
+                        misericordiam exorare delectetur. Et quando quidem divina vocatione rectrix
+                        ipsius monasterii ab ac lucae discesserit, si ibi talis repperiri poterit,
+                        qui caeteris secundum regulam sancti Benedicti preesse et prodessepoterit,
+                        licentiam habeant inter se eligendi abbatissam. Gisleramnum quoque
+                        venerabilem abbatem in eodem loco consittuimus inspectorem, quatenus diebus
+                        vitae suae suo studio in omnibus regula ibi exequatur sancti Benedicti. Et
+                        ut haec nostrae auctoritatis preceptio pleniorem in dei nomine optineat
+                        vigorem et a fidelibus sanctae dei ecclesiae nostrisque verius credatur
+                        diligentiusque observetur, manu propria subter eam firmavimus et anuli
+                        nostri inpressione subter adsignare iussimus. Signum (MF) Hlotarii
+                        gloriosissimi augusti. (C.) Liuthardus advicem Ermenfredi recognovi et (SR.
+                        NT.: Liuthardus advicem Hermenfridi recognovi et subscripsi et ipse magister
+                        fieri iussit) (SI. D.) Data XV kl. Mai. Anno Christo propitio XXI imperii
+                        domni Hludouuici serenissimi imperatoris regnique Hlotarii gloriosissimi
+                        augusti in Italia XI, indictione XI; actum Papia civitate palatio publico;
+                        in dei nomine feliciter amen.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
