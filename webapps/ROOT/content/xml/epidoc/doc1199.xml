@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Archivio di Stato di Siena, Pergamene di San Salvatore di Montamiata</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc1199</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0853-07-04">
+                                <note type="displayed_date">853 july 4</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Pavia</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-02-08" who="Chiara Stedile">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine domini nosti Iesu Christi die aeterni. Hludouuicus gratia dei
+                        imperator augustus invictissimi domni imperatoris Hlotarii filius. Dignum
+                        est, ut, qui prudenter dei obsequia ordinare procurant et hoc ad
+                        stabilitatem perpetuam nostram corroborationem confirmare exposcunt, ut
+                        tanto libentius obaudiamus, quanto et deo placita intelligimus et prudentia
+                        comite bono studio effectum esse cognoscimus. Quapropter cunctorum fidelium
+                        sanctae dei ecclesie ac nostrorum presentium scilicet et futurorum cognoscat
+                        sollertia, quia, dum nos dilecto fideli nostro Adalberto coenobium domini
+                        Saluatoris in monte Amiate constitutum ad regendum commissisemus et ibidem
+                        neglecta dei obsequia et procuratione deo ibidem famulantium predecessorum
+                        suorum incuria multis modis repperisset, studiosius decertavit
+                        congregationem monachorum ibidem deo servitium regulariter corrigere et
+                        solummodo divinis obsequiis deditos ad sufficientiam suorum largire
+                        conferens eis ad sufficientiam suorum cellam sancti Benedicti, curte de
+                        Palea, cellam sancti Stephani in Monticlo et cellam sancte Marie in Lamulas,
+                        curticella de Mustia nec non et curticella de Titinano et in Cerri
+                        angariales seu in Feroniano et manentes eius nec non et cellam sancti
+                        Saluatoris de Ualerachana et curticella de Cuniclo cum ipso Cagiolo de
+                        Portiano et cellam sancti Stephani in Terquini seu et cellam sancti Seueri
+                        super lacu cum ipso culticella de Bisentio, cellam etiam sancti Miniati nec
+                        non et cortes, qui vocitantur Corsi et Cortiobole, qui sunt de comitatu
+                        Roselense, cum omnibus pertinentiis et adiacentiis eorum, ea videlicet
+                        ratione, ut ab hinc in futurum predicta sancta congregatio his omnibus
+                        denominatis tantummodo suis utilitatibus habentes victum vestitumque
+                        regulariter sumentes absque ulla dilatione solummodo divinis die noctuque
+                        persistant obsequiis ac pro stabilitate totius imperii nobis a deo commissi
+                        studeant exorare. Sed, quod bono studio bonaque voluntate fecit, perennem
+                        habeat stabilitatem, petiit pietatem nostram, ut eandem ordinationem nostram
+                        confirmaremus conscriptionem, sicuti et fecimus. Quapropter eidem sancto
+                        loco hoc nostrum preceptum fieri iussimus, per quod precipimus, ut ab hinc
+                        in futurum eadem sanctae congregationi omni quietudine absque ullo publico
+                        repetitu auc rectoris loci [i]psius subtractu easdem res in suis
+                        utilitatibus ac necessitatibus habeant ordinent et disponant, quatenus
+                        exinde sufficientiam habentes in divinis obsequiis nullatenus mittant
+                        neglegentiam incuriam, sed eorum assidua famulatio non solum nobis, sed et
+                        eidem fideli nostro pro bona ordinatione maneat sempiternale remedium. Ut
+                        quoque haec nostrae confirmationis auctoritas pleniorem in dei nomine
+                        obtineat vigorem, manu propria subter firmavimus et anuli nostri inpressione
+                        adsignari iussimus. &lt;Si quis autem, quod absit, ausu temerario infringere
+                        ipsum parvipendendo aut annullare temptaverit, debita ab eodem ultione
+                        centum auri libras exsolvi indicimus, medietatem camere nostre ac medietatem
+                        predicte abbatie suisque rectoribus, et perpetuo anathemate in ignea abysso
+                        ligetur.> Signum (M.) domni Hludouuici serenissimi augusti. (C.) Herincus
+                        domni imperatoris cancellarius advice Dructemiri recognovi et (SR.) (SI. D.)
+                        Data IIII non. iulii, anno Christo propicio imperii domni Hlotharii pii
+                        augusti XXXIIII et Hludouuici gloriosi imperatoris in Italia IIII,
+                        indictione I; actum Papia civitate palatio regio; in dei nomine feliciter
+                        amen.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>MGH DD Lu II, pp. 83-87, n° 11</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
