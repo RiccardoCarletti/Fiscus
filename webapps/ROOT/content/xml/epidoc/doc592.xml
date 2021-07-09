@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>ASDL, AAL, D, * K 72 (n. 1107)</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                        </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc103</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">Cartula ad censum perexolvendum</rs>
+                                    <rs type="record_source" ref="#"/>
+                                    <rs type="document_tradition" ref="#"/>
+                                    <rs type="fiscal_property"/>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate notBefore="0001" notAfter="0001" when="0001">
+                                    <note type="displayed_date">0904/06/23</note>
+                                    <note type="dating_elements"></note>
+                                    <note type="topical_date">Actum Luca (Lucca)</note>
+                                        <note type="redaction_date"/>
+                             </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance>
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                            <place></place>
+                        </listPlace>
+                        <listPerson>
+                            <person></person>
+                        </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-01-06" who="ptomei">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab>
+                                Il chierico Warimberto avitator hic Luca del fu Angelberto de comitato Mediolanense riceve in livello dal vescovo di Lucca Pietro, una casa posta infra civitate ista Lucense prope ecclesia Sancti Petri que dicitur ad Vincula, di pertinenza del vescovato di San Martino, confinante uno capo cum uno lato in via publica, alio capo cum alio lato con terra della suddetta chiesa di San Pietro, con tutte le sue dipendenze.
+Si impegna a versare pro omni censum et iustitia al vescovo e ai suoi successori post isti duo anni expleti proximi venturi ogni mese di luglio il censo annuale di 24 denari d’argento ad pars del vescovato di san Martino e a far venire a Lucca legem et iustitiam faciendum, gli stessi uomini che eventualmente abiteranno la casa a mandato del vescovo.
+Se non rispetterà i suddetti impegni, promette con i suoi eredi di versare al vescovo e ai suoi successori la pena di 60 soldi d’argento.
+Chiede al notaio e scabino Pietro la stesura di due cartulas.
+                                <persName>Autori: Pietro episcopus, Warimberto clericus avitator hic Luca del fu Angelberto de comitato Mediolanense.
+Scrittore: Pietro notarius et schabinus.
+Testimoni sottoscrittori: Teuderando notarius, Ermifridi, Leone, Ildiperto, Albone.</persName>
+                                <placeName>Luca (Lucca), Mediolanum (Milano).</placeName>
+                                <orgName>San Pietro in Vincoli di Lucca, San Martino di Lucca (chiesa matrice).</orgName>
+                            </ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL, V/3, n. 1079, p. 25</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                        <p>Anno di regno di Berengario.</p>
+                        <p><note>Mod_id: 16</note></p>
+                    </div>
+                </body>
+            </text>
+        </TEI>
