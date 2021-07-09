@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Archivio Capitolare di Parma</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc2106</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0922-12-08">
+                                <note type="displayed_date">922 december 8</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Pavia</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-02-08" who="Chiara Stedile">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine sanctae et individuae Trinitatis. Rodulfus gratia favente divina
+                        rex. Omnium fidelium sanctae Dei Ecclesiae nostrorumque presentium scilicet
+                        ac futurorum comperiat sollicitudo, quia venientibus nobis in civitatem
+                        Parmam canonici ipsius sanctae Parmensis ecclesiae per Adalbertum inclitum
+                        marchionem dilectum fidelem nostrum petierunt nostram clementiam, quatenus
+                        precepta decessorum nostrorum in ipsa canonica de illorum rebus et familiis
+                        emissa, quae in repentino incendio cremata noscuntur, nos denuo easdem res
+                        et familias ipsis canonicis nostro confirmaremus edicto. Quorum petitionibus
+                        pio affectu consulentes et eorum erga nos devotionem attendentes, iussimus
+                        illis hoc nostrum fieri preceptum, per quod ipsos canonicos et eandem
+                        canonicam de ipsis rebus et familiis nostra regali auctoritate invest[i]mus,
+                        sicut a nostris predecessoribus investiti fuerant et precipue eos ex rebus
+                        illis investimus que de parte quondam Vuibodi episcopi et Vulgundae Deo
+                        dicatae tradite et concessae illis fuerant, et sicut ab ipsis Vuibodo et
+                        Vulgunda ipse res possesse et in illorum dominio tenuerant, nec non etiam
+                        res illas quas Berta dignae memoriae comitissa et [V]uifredus filius eius
+                        comes et ceteri Deum timentes homines in predicta ca[nonica contulerant.
+                        Prec]ipientes per hoc nostrae auctorita[ti]s [re]gal[is precept]un tam eadem
+                        precepta quamque un[iversa cartarum in]str[umen]ta omnesque res mobiles et
+                        [immo]biles, servos et ancillas, aldiones et aldianas et omnia quae a
+                        principio institutionis eius a fidelibus quibusque animabus inibi collata
+                        sunt, et quaecumque in posterum per fideles animas adeptura est confirmamus,
+                        concedimus atque roboramus tenere, possidere ac perfrui iure perpetuo, sine
+                        qualibet inquietudine. Et quoniam quedam ipsius canonicae munimina improviso
+                        incendii periculo periere, statuimus ut de rebus sius tanquam pars nostra
+                        publica per vicinos inquistum habeant aut per sacramenta eas defendant.
+                        Similiter eodem modo concedimus et confirmamus prefatis canonicis, morem
+                        predecessorum nostrorum sequentes, ut nemo fidelium nostrorum vel illorum
+                        homines aut quisquam de parte publica in illorum mansiones vel proprietates
+                        vel per vim introire aut quicquam auferre vel de mansis eorum aliquam
+                        redibitionem exigere aut illorum homines distringere quoquo modo
+                        presuma[nt], ed volumus et iubemus ut a suis patronis districti iustitiam
+                        faciant et adimpleant. Si quis igitur hoc nostrae auctoritatis et
+                        confirmationis et concessionis preceptum infringere vel violare aut in supra
+                        dictis rebus se intromittere temptaverit, sciat se compositurum auri optimi
+                        libras centum, medietatem camerae nostrae et medietatem predictis canonicis
+                        suisque successoribus. Quod ut verius credatur diligentiusque ab omnibus
+                        observetur, manu propria roborantes ex anulo nostro iussimus insigiri. Sigum
+                        manus (MF) domni Rodulfi serenissimi regis. Manno cancellarius ad vicem
+                        Giselberti archicancellarii recognovi et subscribsi. (SR) (SI D). data VI
+                        id. decembr., anno dominicae incarnationis DCCCCXXII, domni vero Ruodulfi
+                        piissimi regis in Italia I, in Burgundia XII, indic. X. Actum Papie. In Dei
+                        nomine feliciter, amen.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>DD R II, pp. 100-103, n° III</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>Il testo del diploma è modellato sui due di Berengario I del 19 febbraio 921 (DD
+                    B I, n° CXXXIV) e 20 febbraio 921 (DD B I, n° CXXXV).</p>
+            </div>
+        </body>
+    </text>
+</TEI>
