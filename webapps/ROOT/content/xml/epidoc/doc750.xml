@@ -46,9 +46,10 @@
                                 <note type="displayed_date">961 August 21</note>
                                 <note type="dating_elements"/>
                                 <note type="topical_date">Reggio Emilia</note>
-                                <note type="redaction_date"/>
+                                <note type="redaction_date">XII</note>
                              </origDate>
-                            <origPlace>Monastero di San Benedetto Polirone</origPlace>
+                            <origPlace>Sanctus Benedictus in Pado Lironi; monasterium
+                                (Mantova)</origPlace>
                         </origin>
                         <provenance>
                             <location>
@@ -74,7 +75,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2021-06-15" who="bferretti">creation of record</change>
+                <change when="2021-07-05" who="bferretti">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -82,28 +83,155 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>(S.) In nomine domini Dei et salvatoris nostri Iésu Christi. <persName
-                            ref="#people/233">Berengarius</persName> et Adelbertus filius eius
-                        gratia Dei [<rs key="#Emperor/king">reges</rs>, <date>anno regni eorum
-                            undecimo, octavo] kalendas septe(m)bris, indicione quarta</date>. <rs
-                            key="#Commutatio">Commutacio</rs> bone fidei noscitur esse contractum ut
-                        vicem e(m)pcionis optineant firmita[tem eodemque nexu obligant
-                        contrahentes.] Placuit itaque bona voluntate convenit inter Martinus
-                        presbiter et prepositus canonice Sancte Marie et Sancti Michaelis sita Regio
-                        quod [una per consensum et auctoritatem fratrum] seniorum cannonicorum
-                        ipsius ecclesie, et inter <persName key="#Commutatio #Lombard">Adelbertus
-                            qui et Atto</persName> filius bone memori <persName>Sigifredi</persName>
-                        de comitatu Lucensi qui profitebatur [nacione sua lege vivere] <rs
-                            key="#Lombard">Longuobardorum</rs>, ut in Dei nomine inter se commutare
-                        debeant sicut a presenti dederunt ac tradiderunt vicissim sibi unus alteri
-                        in commutacionis nomine. </ab>
+                    <ab>S. In nomine domini Dei et salvatoris nostri Iesu Christi. <date><persName
+                                key="#Emperor/king" ref="#people/233">Berengarius</persName> et
+                                <persName key="#Emperor/king" ref="#people/234"
+                                >Adelbertus</persName> filius eius gratia Dei [<rs
+                                key="#Emperor/king">reges</rs>, anno regni eorum undecimo, octavo]
+                            kalendas septembris, indicione quarta</date>. <rs key="#Commutatio"
+                            >Commutacio</rs> bone fidei noscitur esse contractum ut vicem empcionis
+                        optineant firmita[tem eodemque nexu obligant contrahentes.] Placuit itaque
+                        bona voluntate convenit inter <persName><name ref="Martinus"
+                            >Martinus</name></persName>
+                        <rs key="#Priests">presbiter</rs> et <rs key="#Other_clerics"
+                            >prepositus</rs>
+                        <orgName key="#Churches/religious_bodies">canonice Sancte Marie et Sancti
+                            Michaelis sita <placeName key="#Cities" ref="#places/191"
+                                >Regio</placeName></orgName> quod [una per consensum et auctoritatem
+                        fratrum] seniorum <rs>cannonicorum</rs> ipsius ecclesie, et inter <persName
+                            key="#Commutatio #Lombard #sonOf"><name ref="Adalbertus/Atto">Adelbertus
+                                qui et Atto</name></persName> filius bone memorię <persName
+                            key="#Lombard #fatherOf"><name ref="Sigefredus"
+                            >Sigifredi</name></persName> de <rs key="#Comitatus">comitatu</rs>
+                        <placeName key="#Comitatus" ref="#places/4">Lucensi</placeName> qui
+                        profitebatur [nacione sua lege vivere] <rs key="#Lombard"
+                            >Longuobardorum</rs>, ut in Dei nomine inter se commutare debeant sicut
+                        a presenti dederunt ac tradiderunt vicissim sibi unus alteri in
+                        commutacionis nomine. [In primis ipse namque Martinus] archipresbiter et
+                        prepositus eidem Adelberti dedit et tradidit ad eius iure et proprietatem
+                        habendum, hoc sunt rebus illis territoriis omnibus iuris ipsius [canonice
+                        Sancte] Marie et Sancti Michaelis quibus rebus ipsis esse videntur in loco
+                        qui dicitur <rs key="#Islands">insula</rs>
+                        <placeName key="#Islands">Mauritula</placeName> seu insula <placeName
+                            key="#Islands">Sancti Benedicti</placeName> prope <rs key="#Rivers"
+                            >fluvio</rs>
+                        <placeName key="#Rivers">Padi</placeName> ubi [<rs key="#Castle"
+                            >castrum</rs> inibi con]structum vel edifficatum fuit seu cum <rs
+                            key="#Fisheries">pisscacionibus</rs> ipsius loci seu insula <placeName
+                            key="#Islands">Gurgo Pedangnolo</placeName> cum suorum pertinenciis; et
+                        sunt rebus ipsis per [mensura et racionem] ad pertica legittima de pedes
+                        duodecim mensurata inter <rs key="#Landed_possessions">sediminas</rs> et <rs
+                            key="#Landed_possessions">areis</rs> ubi <rs key="#Wine">vites</rs>
+                        super estant seu <rs key="#Cereals">terris arabilis</rs>
+                        <rs key="#Size">modia quadraginta</rs>, <rs key="#Forests">silvis et
+                            [busscalibus</rs>
+                        <rs key="#Size">modia] mille sexaginta</rs>; cui fines decernitur ad ipsis
+                        rebus: da una parte da mane de alia parte da sera <orgName
+                            key="#Mother_churches">sancte Mantuanense ecclesie</orgName>, da [tercia
+                        parte da medio die] tenente in fluvio Pado, da quarta parte de subto fluvio
+                            <placeName key="#Rivers">Largione</placeName>, quod si alie sunt
+                        affines. Quidem et ad invicem recepit iam [dictus Martinus archi]presbiter
+                        et prepositus ampliorata et meliorata causa sicut lex continet ab eodem
+                        Adelbertus ad partem predicte cannonice, id sunt rebus illis iuris [predicti
+                        Adelberti quibus] ipsis rebus esse videntur in comitatu <placeName
+                            key="#Comitatus" ref="#places/191">Regense</placeName> infra fines
+                        designate <placeName>Chruxtum</placeName> et fluvio <placeName key="#Rivers"
+                            >Quarismo</placeName> et fluvio <placeName key="#Rivers"
+                            >Rodano</placeName> et fluvio [<placeName key="#Rivers"
+                            >Baniolo</placeName> et in loco] qui dicitur <placeName
+                            key="#Villages/settlements">Grasito</placeName>
+                        <placeName key="#Forests">silva que dicitur Mantuana</placeName> et sunt
+                        rebus ipsis ad super ascripta mensura illis rebus in suprascripta civitate
+                        Regio <rs key="#Size">modia qu[attor</rs>, et illis] rebus foris ipsa
+                        civitate in loco <placeName key="#Villages/settlements">Rosolani</placeName>
+                        et in loco <rs key="#Villas">villa</rs>
+                        <placeName key="#Villages/settlements #Villas">Irculi</placeName> inter
+                        sediminas et areis ubi vites super estant seu terris arabilis [et <rs
+                            key="#Hay/fodder">pratis</rs>
+                        <rs key="#Size">modia] triginta</rs>; et illis aliis rebus in locis et <rs
+                            key="#Fundi">fundo</rs>
+                        <placeName key="#Villages/settlements">Reslacovio</placeName>, <placeName
+                            key="#Villages/settlements">Paradiso</placeName> seu <placeName
+                            key="#Fundi">Viriliolo</placeName> et <rs key="#Curtes">curte</rs> que
+                        dicitur <placeName key="#Curtes">Vualangi</placeName> vel ubicumque [per
+                        locis infra prenominatis] finis per mensura legitima <rs key="#Size">modia
+                            centumnonaginta</rs>, terris cum silvis et buscalibus <rs key="#Size"
+                            >modia milletriginta</rs>; preter anteposuerit [ipse Adelbertus rebus
+                        illis quod eidem] Adelberti per cartulam advenerunt de Iohannis et Manfredo,
+                        quod eorum canonicis nec dedit nec tradidit, nam illis aliis omnibus rebus
+                        [qualiter supra legitur. Que autem] iam dictis rebus superius nominatis in
+                        super asscriptis locis cum suarum pertinenciis sicut mensura legitur et
+                        fines decernitur una cum [accessionibus et ingresoras earum] seu cum
+                        superioribus et inferioribus suis sibi uni alteri commutacionis nomine
+                        dederunt vel tradiderunt ad habendum, tenendum, possidendum, facie[ndum
+                        exinde unusquis]quis de quo receperint tam ipsis quamque et successores vel
+                        heredes legaliter proprietario iure quicquid voluerint aut previderint sine
+                        uni al[teri contradicione;] et spoponderunt inter se quos dederunt ab omni
+                        contradicente homine defensare. Quidem autem sicut ordo legis poposscit et
+                        ad hanc pre[videndam commu]tacionem accesserunt super iam dictis rebus
+                        predictus Martinus archipresbiter et prepositus seu <persName key="#Deacons"
+                                ><name ref="Grasulfus">Grasulfus</name></persName> et <persName
+                            key="#Deacons"><name>Bernerius</name></persName>
+                        <rs key="#Deacons">diaconi</rs> et ordinarii ip[sius canno]nice una cum
+                            <persName key="#Missus_regis #Priests"><name ref="Andreas"
+                                >Andreas</name></persName> presbiter <rs key="#Missus_regis"
+                            >missus</rs> domni Berengarii gloriosi[ssi]mi regi seu cum <rs
+                            key="#Boni_viri/boni_homines">viri bonos homines</rs> estimatores qui
+                        estimaverint [...], quorum nomina sunt <persName><name>Vuibertus</name> de
+                            loco <placeName key="#Villages/settlements"
+                            >Baniolo</placeName></persName> et <persName><name ref="Richardus"
+                                >Richardo</name> de loco <placeName key="#Villages/settlements"
+                                >Canole</placeName></persName> atque <persName><name>Artaldus</name>
+                            de civitate <placeName ref="#places/191" key="#Cities"
+                            >Regio</placeName></persName>, quibus omnibus estiman[tibus] comparuit
+                        et estimaverunt ut ampliorata et meliorata causa reciperet predictus
+                        Martinus archipresbiter et prepositus ad parte predicte [canno]nice ab eodem
+                        Adelberto quam ei daret et hec commutacionis nomine fieri posse. De quibus
+                        et pena inter se posuerunt ut quis [ex ipsis] vel successoribus aut
+                        heredibus se de hac commutacionis nomine removere aut eas per quovis
+                        ingenium infringere con[averit] [...]is quos inter se dederint non
+                        defensaverint et non permanserint in ea omnia qualiter superius legitur,
+                        tunc [componat pars] parti fidem servanti <rs key="#Penalty">pena duplis
+                            rebus ipsis</rs> de quo egerint sicut pro tempore fuerint melioratis aut
+                        valuerint [sub estimacione] in consimilibus locis cum stipulacione subnixa.
+                        Unde due commutacionis nomine scripte sunt. Actum Regio [feliciter]. + Ego
+                        Martinus archipresbiter et prepositus in hac commutacione a me facta
+                        subscripsi. + Ego Bernerius [diaconus et missus] qui supra ipsas res accessi
+                        et previdi ut supra subscripsi. + Ego <persName key="#Deacons"><name
+                                ref="Aribaldus">Aribaldo</name></persName> diaconus subscripsi. +
+                        Ego Iohannes diaconus [subscripsi]. + Ego <persName key="#Archdeacons"><name
+                                ref="Constantinus">Constantinus</name></persName>
+                        <rs key="#Archdeacons">archidiaconus</rs> subscripsi. + Ego Grasulfus
+                        diaconus missus qui super ipsas res accessi et previdi ut supra manu mea
+                        subscripsi. + Ego Iohannes presbiter. + Ego Andreas presbiter et missus qui
+                        super ipsis rebus accesi et previdi ut supra subscripsiq. + Ego Iohannes
+                        diaconus subscripsi. + Ego <persName key="#Subdeacons"><name
+                                ref="Adalbertus">Adelbertus</name></persName>
+                        <rs key="#Subdeacons">subdiaconus</rs> subscripsi. + Ego Martinus presbiter
+                        manu mea subscripsi. + Ego <persName key="#Priests"
+                            ><name>Selprandus</name></persName> presbiter subscripsi. Ego
+                                <persName><name>Normannus</name></persName> subd[iaconus]
+                        subscripsi. Signum manibus Vuiberti et Richardi seu Artaldi qui super ipsiis
+                        res accesserunt et previderunt atque estimaverunt ut supra. Signum manibus
+                            <persName key="#Witness"><name ref="Christianus"
+                            >Cristiani</name></persName> et <persName key="#Witness"><name
+                                ref="Iohannes">Iohanni</name></persName> seu <persName
+                            key="#Witness"><name>Petroni</name></persName> de civitate Regio testes.
+                        Signum manibus Iohanni qui dicitur Gundiclio et Ansel [...] homini <rs
+                            key="#Roman">Romani</rs> testes. + Scripsi ego <persName
+                            key="#Writer #Notary"><name ref="Ursus">Urso</name></persName> notarius
+                        et iudex domno regi post traditam complevi et dedi. S. Ego <persName
+                            key="#Copyist #Notary"><name ref="Teutius">Teuzo</name></persName>
+                        notarius autenticum huius exempli vidi legi et sic ibi continebatur sicut in
+                        isto legitur exemplo preter litteras plus minusve et hoc exemplum manibus
+                        meis exemplavi atque complevi et dedi.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p/>
+                <p>CDP I n. 1, pp. 51-55.</p>
             </div>
             <div type="bibliography" subtype="additional">
-                <p/>
+                <p>Fumagalli 1971; Rinaldi 2003.</p>
             </div>
             <div type="bibliography" subtype="links">
                 <p/>
