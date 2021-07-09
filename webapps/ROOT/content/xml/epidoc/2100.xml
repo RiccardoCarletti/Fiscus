@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Archivio Capitolare di Reggio Emilia, Cofano I</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc2100</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0857-01-11">
+                                <note type="displayed_date">857 january 11</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Mantova</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-02-08" who="Chiara Stedile">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>(C.) In nomine domini nostri Iesu Christi dei aeterni. Hludouuicus gratia
+                        dei imperator augustus. Imperiali satis congruit excellentiae, ut
+                        petitionibus servorum dei aures libenter accomodet et eorum effectus devote
+                        tractando utiliter instituat, quatenus id agendo et eos in divinis cultibus
+                        ferventiores reddat et pro his apud dominum devotis eorum precibus aeternam
+                        remunerationem percipiat. Igitur omnium fidelium sanctae dei ecclesiae ac
+                        nostrorum presentium scilicet et futurorum comperiat industria, quia
+                        Sigefredus venerabilis sacrae sedis Regiensis episcopus nostrae suggessit
+                        mansuetudini, ut quasdam res eiusdem suae ecclesiae, quas ipse in
+                        canonicorum ibidem deo militantium usibus cotidianis ad utiliorem ordinem
+                        transferens divina inspiratione constituit, nos pro amore dei et aeternae
+                        remunerationis premio nostra imperiali auctoritate id plenius in dei nomine
+                        perpetuo statuentes corroboraremus, quatenus eisdem dei famulis nostris
+                        fultis praesidiis et devotius dei famulatum exsequi et pro nobis adtentius
+                        domini misericordiam exorare delectet. Nos autem eius petitioni libenter
+                        adsentientes id pleniter concessimus et hos nostrae imperialis munificentiae
+                        apices exinde fieri iussimus, per quos omnino stabilientes decernimus, ut ab
+                        hinc in futurum praefatae res, ubi ipsa canonica praefatus Sigefredus
+                        episcopus a fundamentis edificavit - ecclesia videlicet sancti Peregrini nec
+                        non et alia sancti Michahelis archangeli, tertia quoque sancti Faustini
+                        siquidem et sancti Uitalis basilica cum omnibus adiacentiis vel pertinentiis
+                        earum, eclesia denique sancti Ambrosii et corticella atque Riuo Frigido cum
+                        omnibus adpenditiis vel pertinentiis earum, preterea in Gauassa massarii duo
+                        et de parte Heriberti comitis unus et in Faennio massaritia una, quae
+                        regitur per Traseuerto cum nepotibus suis, una cum ipsis famulis et omnes
+                        res illas de Dominico presbitero, casae quoque Alberici et Aioaldi de Pineso
+                        cum pertinentia sibi, massaritia Ermenfredi presbiteri atque res Geminiani
+                        sacerdotis, quas in Regio vel in Sableta habere videtur, aliae quoque res,
+                        quas Romoaldus presbiter tenet, et vinea una de quodam Leouardo in prato
+                        Pauli seu massaritia una in Maxentiatico sive famulis in praedicta canonica
+                        deservientibus et ea omnia cum plenissima integritate et cuncta, quaecumque
+                        in futurum a benignis largitoribus inibi deo favente auctum fuerit - per
+                        hanc nostram imperialem institutionem et inviolabilem corroborationem in
+                        eodem ordine sine alicuius retractione firmiter &lt;absque eorum consilio et
+                        voluntate> corroboratae permaneant. Et nullus successorum eiusdem sedis ullo
+                        umquam tempore hanc nostram institutionem promovere aut irrumpere quoque
+                        modo conetur nec commutationem de praefatis rebus faciendi habeat
+                        potestatem; sed iuste et legaliter secundum hunc nostrum praeceptum ab ipsis
+                        canonicis sint possessa; et iuxta nostram institutionem atque praefati
+                        venerabilis eiusdem sedis Sigefredi episcopi ordinationem statutum fore
+                        dinoscitur, perpetuis temporibus maneat inconvulsum. Quod si quis umquam
+                        ullo tempore praefatae sedis episcopus contra hanc nostram auctoritatem
+                        insurgere temptaverit aut aliquam violentiam in eadem canonica vel in ipsis
+                        canonicis aut in eorum hominibus liberis aut servis vel in omnibus rebus
+                        eorum mobilibus aut immobilibus vel territoriis tam ecclesiasticis quam
+                        proprietariis vel si aliquis dux aut comes aut aliqua iudiciaria potestas
+                        vel minister rei publicae facere quesierit, centum libras auri se
+                        compositurum sciat, medietatem nostrae parti et medietatem in ipsa canonica.
+                        Et ut haec nostra auctoritas inviolabilis permaneat, manu propria firmavimus
+                        et de anulo nostro subter sigillari iussimus. Signum (M.) domni Hludouuici
+                        serenissimi augusti. Teodacrus notarius advicem Dructemiri recognovi et
+                        (SR.) (SI.) Data III id. ian., anno imperii Hludouuici serenissimi augusti
+                        VII, indictione V; actum Mantua palatio regio; feliciter in domino.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>MGH DD Lu II, pp. 108-111, n° 23</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
