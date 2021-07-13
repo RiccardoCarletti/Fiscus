@@ -3713,11 +3713,61 @@
                             subtype="link"/>
                     </person>
                     <person>
-                        <persName>Grimoaldus (846)</persName>
+                        <persName>Grimoaldus (846); filius Engelberti de Erbeto</persName>
                         <persName type="other"/>
                         <idno>people/603</idno>
                         <note/>
                         <link type="people" corresp="#people/602" subtype="childOf"/>
+                    </person>
+                    <person>
+                        <persName>Ingelberta (846)</persName>
+                        <persName type="other"/>
+                        <idno>people/604</idno>
+                        <note/>
+                        <link type="people" corresp="#people/603" subtype="sisterOf"/>
+                        <link type="people" corresp="#people/602" subtype="daughterOf"/>
+                    </person>
+                    <person>
+                        <persName>Grimana (846)</persName>
+                        <persName type="other"/>
+                        <idno>people/605</idno>
+                        <note/>
+                        <link type="people" corresp="#people/602" subtype="sisterOf"/>
+                        <link type="people" corresp="#people/604" subtype="auntOf"/>
+                        <link type="people" corresp="#people/603" subtype="auntOf"/>
+                    </person>
+                    <person>
+                        <persName>Iso (846)</persName>
+                        <persName type="other">Isone</persName>
+                        <idno>people/606</idno>
+                        <note/>
+                        <link type="people" corresp="#people/605" subtype="sonOf"/>
+                        <link type="people" corresp="#people/604" subtype="cousinOf"/>
+                        <link type="people" corresp="#people/603" subtype="cousinOf"/>
+                        <link type="people" corresp="#people/602" subtype="nephewOf"/>
+                    </person>
+                    <person>
+                        <persName>Grimoaldus (846)</persName>
+                        <persName type="other"/>
+                        <idno>people/607</idno>
+                        <note/>
+                        <link type="people" corresp="#people/602" subtype="nephewOf"/>
+                        <link type="people" corresp="#people/603" subtype="cousinOf"/>
+                        <link type="people" corresp="#people/604" subtype="cousinOf"/>
+                        <link type="people" corresp="#people/605" subtype="sonOf"/>
+                        <link type="people" corresp="#people/606" subtype="brotherOf"/>
+                    </person>
+                    <person>
+                        <persName>Uualcarius (846)</persName>
+                        <persName type="other"/>
+                        <idno>people/608</idno>
+                        <note/>
+                        <link type="people" corresp="#people/602" subtype="nephewOf"/>
+                        <link type="people" corresp="#people/603" subtype="cousinOf"/>
+                        <link type="people" corresp="#people/604" subtype="cousinOf"/>
+                        <link type="people" corresp="#people/605" subtype="sonOf"/>
+                        <link type="people" corresp="#people/606" subtype="brotherOf"/>
+                        <link type="people" corresp="#people/607" subtype="brotherOf"/>
                     </person>
                 </listPerson>
                 <listPerson n="Collavini Simone">
