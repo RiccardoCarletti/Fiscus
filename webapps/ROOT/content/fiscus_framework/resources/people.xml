@@ -93,7 +93,7 @@
                     <link type="juridical_persons" corresp="#juridical_persons/131"/>
                 </person>
                 <person>
-                    <persName>Ermengarda (805?-851) regina</persName>
+                    <persName>Ermengarda (805?-851) regina et imperatrix</persName>
                     <idno>people/10</idno>
                     <link type="people" subtype="legallyRecognisedUnionWith" corresp="#people/9"/>
                     <link type="people" subtype="motherOf" corresp="#people/11"/>
@@ -3701,6 +3701,102 @@
                         <link type="juridical_persons" corresp="#juridical_persons/124"
                             subtype="link"/>
                     </person>
+                    <person>
+                        <persName>Engelbertus de Erbeto (846)</persName>
+                        <persName type="other"/>
+                        <idno>people/602</idno>
+                        <note>Bolisani 1958; Castagnetti 1975.</note>
+                        <link type="estates" corresp="#estates/124" subtype="hasConnectionWith"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/90"
+                            subtype="link"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/137"
+                            subtype="link"/>
+                    </person>
+                    <person>
+                        <persName>Grimoaldus (846); filius Engelberti de Erbeto</persName>
+                        <persName type="other"/>
+                        <idno>people/603</idno>
+                        <note/>
+                        <link type="people" corresp="#people/602" subtype="childOf"/>
+                    </person>
+                    <person>
+                        <persName>Ingelberga (846)</persName>
+                        <persName type="other"/>
+                        <idno>people/604</idno>
+                        <note/>
+                        <link type="people" corresp="#people/603" subtype="sisterOf"/>
+                        <link type="people" corresp="#people/602" subtype="daughterOf"/>
+                    </person>
+                    <person>
+                        <persName>Grimana (q. 846)</persName>
+                        <persName type="other"/>
+                        <idno>people/605</idno>
+                        <note/>
+                        <link type="people" corresp="#people/602" subtype="sisterOf"/>
+                        <link type="people" corresp="#people/604" subtype="auntOf"/>
+                        <link type="people" corresp="#people/603" subtype="auntOf"/>
+                    </person>
+                    <person>
+                        <persName>Iso (846)</persName>
+                        <persName type="other">Isone</persName>
+                        <idno>people/606</idno>
+                        <note/>
+                        <link type="people" corresp="#people/605" subtype="sonOf"/>
+                        <link type="people" corresp="#people/604" subtype="cousinOf"/>
+                        <link type="people" corresp="#people/603" subtype="cousinOf"/>
+                        <link type="people" corresp="#people/602" subtype="nephewOf"/>
+                    </person>
+                    <person>
+                        <persName>Grimoaldus (846)</persName>
+                        <persName type="other"/>
+                        <idno>people/607</idno>
+                        <note/>
+                        <link type="people" corresp="#people/602" subtype="nephewOf"/>
+                        <link type="people" corresp="#people/603" subtype="cousinOf"/>
+                        <link type="people" corresp="#people/604" subtype="cousinOf"/>
+                        <link type="people" corresp="#people/605" subtype="sonOf"/>
+                        <link type="people" corresp="#people/606" subtype="brotherOf"/>
+                    </person>
+                    <person>
+                        <persName>Uualcarius (846)</persName>
+                        <persName type="other"/>
+                        <idno>people/608</idno>
+                        <note/>
+                        <link type="people" corresp="#people/602" subtype="nephewOf"/>
+                        <link type="people" corresp="#people/603" subtype="cousinOf"/>
+                        <link type="people" corresp="#people/604" subtype="cousinOf"/>
+                        <link type="people" corresp="#people/605" subtype="sonOf"/>
+                        <link type="people" corresp="#people/606" subtype="brotherOf"/>
+                        <link type="people" corresp="#people/607" subtype="brotherOf"/>
+                    </person>
+                    <person>
+                        <persName>Grimoaldus de Erbeto (q. 846)</persName>
+                        <persName type="other"/>
+                        <idno>people/609</idno>
+                        <note/>
+                        <link type="people" corresp="#people/602" subtype="fatherOf"/>
+                        <link type="people" corresp="#people/605" subtype="fatherOf"/>
+                        <link type="people" corresp="#people/603" subtype="grandfatherOf"/>
+                        <link type="people" corresp="#people/604" subtype="grandfatherOf"/>
+                        <link type="people" corresp="#people/606" subtype="grandfatherOf"/>
+                        <link type="people" corresp="#people/607" subtype="grandfatherOf"/>
+                        <link type="people" corresp="#people/608" subtype="grandfatherOf"/>
+                    </person>
+                    <person>
+                        <persName>Dominator; fiulius q. Petro de Brixia (846)</persName>
+                        <persName type="other"/>
+                        <idno>people/610</idno>
+                        <note/>
+                        <link type="people" corresp="#people/602" subtype="link"/>
+                        <link type="estates" corresp="#estates/303" subtype="hasConnectionWith"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/90"
+                            subtype="link"/>
+                        <link type="places" corresp="#places/9" subtype="hasConnectionWith"/>
+                        <link type="people" corresp="#people/379" subtype="link"/>
+                        <link type="places" corresp="#places/622" subtype="hasConnectionWith"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/137"
+                            subtype="link"/>
+                    </person>
                 </listPerson>
                 <listPerson n="Collavini Simone">
                     <person>
@@ -3764,6 +3860,14 @@
                         <note/>
                         <link type="places" corresp="#places/66" subtype="hasConnectionWith"/>
                         <link type="juridical_persons" corresp="#juridical_persons/611"
+                            subtype="link"/>
+                    </person>
+                    <person>
+                        <persName>Walfridus (qd. 768)</persName>
+                        <persName type="other"/>
+                        <idno>people/707</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/79"
                             subtype="link"/>
                     </person>
                 </listPerson>

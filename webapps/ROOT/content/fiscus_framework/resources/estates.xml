@@ -2039,11 +2039,18 @@
                 </place>
                 <place>
                     <geogName>Erbé; <foreign>curtis</foreign></geogName>
-                    <geogName type="other"><foreign>Erbeto</foreign></geogName>
+                    <geogName type="other"><foreign>Erbeto; Herbeto</foreign></geogName>
                     <idno>estates/259</idno>
-                    <note>Castagnetti, 2006 e 1969.</note>
+                    <note>Castagnetti 2006 1975, 1969.</note>
                     <link type="people" corresp="#people/166" subtype="link"/>
                     <link type="estates" corresp="#estates/124" subtype="isPartOf"/>
+                        <link type="people" corresp="#people/602" subtype="link"/>
+                        <link type="people" corresp="#people/603" subtype="link"/>
+                        <link type="people" corresp="#people/606" subtype="link"/>
+                        <link type="people" corresp="#people/607" subtype="link"/>
+                        <link type="people" corresp="#people/608" subtype="link"/>
+                        <link type="people" corresp="#people/609" subtype="link"/>
+                        <link type="estates" corresp="#estates/904"/>
                 </place>
                 <place>
                     <geogName>Limonta; <foreign>curtis</foreign></geogName>
@@ -2831,6 +2838,31 @@
                         <link type="juridical_persons" corresp="#juridical_persons/92"
                             subtype="link"/>
                         <link type="places" corresp="#places/900" subtype="isInVicinityOf"/>
+                    </place>
+                    <place>
+                        <geogName>Colata; <foreign>curtis</foreign>
+                        </geogName>
+                        <geogName type="other"/>
+                        <idno>estates/501</idno>
+                        <note/>
+                        <link type="people" corresp="#people/604" subtype="link"/>
+                        <link type="estates" corresp="#estates/124" subtype="isPartOf"/>
+                        <link type="people" corresp="#people/602" subtype="link"/>
+                    </place>
+                    <place>
+                        <geogName><foreign>Pupiliano</foreign>; <foreign>curtis</foreign>
+                        </geogName>
+                        <geogName type="other"/>
+                        <idno>estates/502</idno>
+                        <note>Castagnetti 1975.</note>
+                        <link type="people" corresp="#people/602" subtype="link"/>
+                        <link type="people" corresp="#people/609" subtype="link"/>
+                        <link type="people" corresp="#people/608" subtype="link"/>
+                        <link type="people" corresp="#people/607" subtype="link"/>
+                        <link type="people" corresp="#people/606" subtype="link"/>
+                        <link type="people" corresp="#people/605" subtype="link"/>
+                        <link type="people" corresp="#people/603" subtype="link"/>
+                        <link type="places" corresp="#places/904" subtype="isWithin"/>
                     </place>
                 </listPlace>
                 <listPlace n="Collavini Simone">

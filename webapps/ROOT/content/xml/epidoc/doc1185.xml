@@ -33,7 +33,7 @@
                             <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Original</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -42,9 +42,9 @@
                     <history>
                         <origin>
                             <origDate when="0834-06-25">
-                                <note type="displayed_date"/>
+                                <note type="displayed_date">834 june 25</note>
                                 <note type="dating_elements"/>
-                                <note type="topical_date"/>
+                                <note type="topical_date">Pavia</note>
                                 <note type="redaction_date"/>
                             </origDate>
                             <origPlace/>
@@ -81,25 +81,38 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>In nomine domini nostri Iesu Christi dei aeterni. Hlotarius divina ordinante
-                        providentia imperator augustus. Quaecumque is conferimus, qui divinis
-                        exigunt obsequiis, eius munere id nos rependi non dubitamus, cuius amore
-                        ducti hoc nos fecisse credimus. Igitur notum sit omnibus fidelibus sanctae
-                        dei ecclesiae et nostris praesentibus scilicet et futuris, quia compensantes
-                        fragilitatem sexus Asie abbatissae et deo famuantium feminarum in monasterio
-                        D[eodot]e concessimus eis licentiam accipiendi ligna ad materiamina ad
-                        questum suarum utilitatum faciendum in -carbonarias, insuper etiam ut liceat
-                        eis, ubicumque in Padum vel Ticinum voluerint, piscationem exercere nec non,
-                        quando pons destruitur, navem eorum discurrere sicuti et nostram publicam.
-                        Unde pro firmitatis gratia circa eund[em s]anctum locum has nostras litteras
-                        fieri iussimus, per quas decernimus rateque mansurum sancimus, ut nulla
-                        quaelibet persona inde ullo umquam tempore eis quamlibet inferre praesumat
-                        molestiam, sed liceat eis per hanc nostram auctor[itat]em in supra dictis
-                        suam exsequi necessitatem. Et ut haec auctoritas pleniorem in dei nomine
-                        obtineat vigorem, de anulo nostro subter iussimus signari. (C.) Balsamus
-                        notarius recognovi et (SR.) (SI. D.) Data VII kld. Iulias anno Christo
-                        propitio imperii domni Hlotarii gloriosissimi augusti in Francia II, in
-                        Italia XIIII, indictione XII; sctum Papia palatio regio; in dei nomine
+                    <ab>In nomine domini nostri Iesu Christi dei aeterni. <persName
+                            key="#Emperor/king" ref="#people/9">Hlotarius</persName> divina
+                        ordinante providentia <rs key="#Emperor/king">imperator</rs> augustus.
+                        Quaecumque is conferimus, qui divinis exigunt obsequiis, eius munere id nos
+                        rependi non dubitamus, cuius amore ducti hoc nos fecisse credimus. Igitur
+                        notum sit omnibus fidelibus sanctae dei ecclesiae et nostris praesentibus
+                        scilicet et futuris, quia compensantes fragilitatem sexus <persName
+                            key="#Abbesses"><name ref="Asia">Asie</name></persName>
+                        <rs key="#Abbesses">abbatissae</rs> et deo <rs key="#Nuns/sanctimoniales"
+                            >famuantium feminarum</rs> in <rs key="#Monasteries">monasterio</rs>
+                        <orgName
+                            key="#Forests #Fisheries #Bridges/pontoons #Fluvial_transport #Rights_of_use_on_woods/pastures/waters #Monasteries #Abbesses #Nuns/sanctimoniales"
+                            ref="#juridical_persons/129">D[eodot]e</orgName> concessimus eis <rs
+                            key="#Rights_of_use_on_woods/pastures/waters">licentiam accipiendi
+                            ligna</rs> ad materiamina ad questum suarum utilitatum faciendum in
+                            <geogName key="#Forests #Rights_of_use_on_woods/pastures/waters"
+                            ref="#estates/162">Carbonarias</geogName>, insuper etiam ut liceat eis,
+                        ubicumque in <rs key="#Rivers">Padum</rs> vel <rs key="#Rivers">Ticinum</rs>
+                        voluerint, <rs key="#Fisheries">piscationem</rs> exercere nec non, quando
+                            <rs key="#Bridges/pontoons">pons</rs> destruitur, <rs
+                            key="#Fluvial_transport">navem eorum discurrere</rs> sicuti et nostram
+                        publicam. Unde pro firmitatis gratia circa eund[em s]anctum locum has
+                        nostras litteras fieri iussimus, per quas decernimus rateque mansurum
+                        sancimus, ut nulla quaelibet persona inde ullo umquam tempore eis quamlibet
+                        inferre praesumat molestiam, sed liceat eis per hanc nostram auctor[itat]em
+                        in supra dictis suam exsequi necessitatem. Et ut haec auctoritas pleniorem
+                        in dei nomine obtineat vigorem, de anulo nostro subter iussimus signari.
+                        (C.) <persName key="#Notary"><name ref="Balsamus">Balsamus</name></persName>
+                        <rs key="#Notary">notarius</rs> recognovi et (SR.) (SI. D.) Data VII kld.
+                        Iulias anno Christo propitio imperii domni Hlotarii gloriosissimi augusti in
+                        Francia II, in Italia XIIII, indictione XII; sctum <placeName
+                            ref="#places/65">Papia</placeName> palatio regio; in dei nomine
                         feliciter amen.</ab>
                 </div>
             </div>
@@ -113,7 +126,9 @@
                 <p/>
             </div>
             <div type="commentary">
-                <p/>
+                <p>Questo diploma funse da modello per quello del 4 dicembre 881 di Carlo III (MGH
+                    DD Ka III, pp. 73-75 n° 45) e quello del 14 aprile 871 di Ludovico II (MGH DD Lu
+                    II, pp. 170-171, n° 53).</p>
             </div>
         </body>
     </text>
