@@ -5,7 +5,8 @@
         <fileDesc>
             <titleStmt>
                 <title>Biblioteca nazionale di Parigi, ms. lat. 5411, Chron. Casauriense, ms. della
-                    fine del sec XII, fol. 85r-85v.</title>
+                    fine del sec XII, fol. 85r-85v, <foreign>Privilegium primo de cambio insule et
+                        constructione seu libertate cenobii Casauriensis</foreign>.</title>
             </titleStmt>
             <editionStmt>
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
@@ -31,8 +32,8 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#"/>
-                            <rs type="record_source" ref="#"/>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Uncertain tradition</rs>
                             <rs type="fiscal_property">Uncertain</rs>
                         </summary>
@@ -45,8 +46,8 @@
                             <origDate when="0873-05-26">
                                 <note type="displayed_date">873 may 26</note>
                                 <note type="dating_elements"/>
-                                <note type="topical_date"/>
-                                <note type="redaction_date"/>
+                                <note type="topical_date">Capua</note>
+                                <note type="redaction_date">XII exeunte</note>
                             </origDate>
                             <origPlace/>
                         </origin>
@@ -74,7 +75,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2021-02-08">creation of record</change>
+                <change when="2021-02-08" who="Chiara Stedile">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -151,7 +152,7 @@
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p/>
+                <p>MGH DD Lu II, pp. 180-182, n° 58</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>
@@ -160,7 +161,8 @@
                 <p/>
             </div>
             <div type="commentary">
-                <p>Falso, secondo l'editore K. Wanner.</p>
+                <p>Falso, secondo l'editore K. Wanner. Conservato insieme al diploma di Berengario
+                    DD B I, pp. 299-302, n° CXVI.</p>
             </div>
         </body>
     </text>
