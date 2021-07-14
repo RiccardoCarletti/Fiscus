@@ -4,7 +4,7 @@
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
-                <title></title>
+                <title>Archivio Capitolare di Arezzo, copia in rotolo membranaceo n° 138</title>
             </titleStmt>
             <editionStmt>
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
@@ -30,9 +30,9 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#"/>
-                            <rs type="record_source" ref="#"/>
-                            <rs type="document_tradition" ref="#"/>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
                             <rs type="fiscal_property"/>
                         </summary>
                         <msItem xml:id="msItem1">
@@ -41,11 +41,11 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate notBefore="0001" notAfter="0001" when="0001"> 
-                                <note type="displayed_date"></note>
-                                <note type="dating_elements"></note>
-                                <note type="topical_date"></note>
-                                <note type="redaction_date"></note>
+                            <origDate when="0961-02-28">
+                                <note type="displayed_date">961 february 28</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Arezzo</note>
+                                <note type="redaction_date">XI sec.</note>
                             </origDate>
                             <origPlace/>
                         </origin>
@@ -73,7 +73,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2021-02-08">creation of record</change>
+                <change when="2021-02-08" who="Chiara Stedile">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -151,7 +151,7 @@
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p/>
+                <p>DD A, pp. 342-345, n° II</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>
@@ -160,7 +160,10 @@
                 <p/>
             </div>
             <div type="commentary">
-                <p/>
+                <p>Il testo è una ripetizione del diploma di Ugo e Lotario del 17 gennaio 933/936
+                    (DD U L, pp. 101-105, n° XXXIII), ripreso anche nel diploma di Ottone I del 10
+                    maggio 963 (MGH DD O I, n° 253). In questo diploma di accenna a un diploma di
+                    Lotario I probabilmente perduto.</p>
             </div>
         </body>
     </text>
