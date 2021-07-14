@@ -90,45 +90,53 @@
                             <foreign>pur riservandosi la piena disponibilità di tutti i suoi beni
                             finché sarà in vita e di prendere ulteriori disposizioni testamentarie,
                             vuole che quanto resterà intestato vada a</foreign>
-                        <persName key="#Priests #testamentaryLinkWith"
-                            ><name>Rachipertu</name></persName>
+                        <persName key="#Priests #testamentaryLinkWith"><name ref="Ragibertus"
+                                >Rachipertu</name></persName>
                         <rs key="#Priests ">presbitero</rs> et <persName
-                            key="#Priests #testamentaryLinkWith"><name>Rottelmi</name></persName>
+                            key="#Priests #testamentaryLinkWith"><name ref="Rothelmus"
+                                >Rottelmi</name></persName>
                         <rs key="#Priests">presbitero</rs> et <persName
-                            key="#Priests #testamentaryLinkWith"><name>Aurulo</name></persName>
+                            key="#Priests #testamentaryLinkWith"><name ref="Aurulus"
+                            >Aurulo</name></persName>
                         <rs key="#Priests">presbitero</rs>, <persName
-                            key="#Priests #testamentaryLinkWith"><name>Gundipertu</name></persName>
+                            key="#Priests #testamentaryLinkWith"><name ref="Gundipertus"
+                                >Gundipertu</name></persName>
                         <rs key="#Priests">presbiter</rs> et <persName key="#testamentaryLinkWith"
-                                ><name>Fermuso</name></persName> filius quondam
-                                <persName><name>Petronaci</name></persName> et <persName
-                            key="#testamentaryLinkWith"><name>Cunimundo</name></persName>
+                                ><name ref="Firmus">Fermuso</name></persName> filius quondam
+                                <persName><name ref="Petronax">Petronaci</name></persName> et
+                            <persName key="#testamentaryLinkWith"><name ref="Cunimundus"
+                                >Cunimundo</name></persName>
                         <foreign>che dovranno vendere</foreign>
                         <rs key="#Landed_possessions">omnis res mea</rs> quanta ad me pertene et
                         iniudicata vel non data remansere, tam res movile quam et inmoviles seo qui
                         se moventibus uviqui in colivet locum ad ius meum pertene; (…) excepto parte
                         mea de <rs key="#Casae/cassinae_massaricie">casa</rs>
-                        <persName key="#Casae/cassinae_massaricie"><name>Raduli</name></persName> in
-                            <placeName key="#Casae/cassinae_massaricie" ref="#places/438"
-                            >Corsania</placeName>, et parte mea de <rs
-                            key="#Casae/cassinae_massaricie">casa</rs> ubi quondam <persName
-                            key="#Casae/cassinae_massaricie"><name>Guntulo</name></persName>
-                        massario nostro resede, in loco <placeName key="#Casae/cassinae_massaricie"
-                            >Vetusiano</placeName>; et parte mea de <rs key="#Cafagia">cafagio</rs>
-                        nostro in loco <placeName key="#Cafagia">Monacciaticho</placeName>, quem iam
-                        antea iudicavi. <foreign>Se non potessero vendere quei beni</foreign>, volo
-                        ut de ipsis rebus meis aveas <rs key="#Monasteries">monasterio</rs>
+                        <persName key="#Casae/cassinae_massaricie"><name ref="Raddulus"
+                                >Raduli</name></persName> in <placeName
+                            key="#Casae/cassinae_massaricie" ref="#places/438">Corsania</placeName>,
+                        et parte mea de <rs key="#Casae/cassinae_massaricie">casa</rs> ubi quondam
+                            <persName key="#Casae/cassinae_massaricie"><name ref="Guntulo"
+                                >Guntulo</name></persName> massario nostro resede, in loco
+                            <placeName key="#Casae/cassinae_massaricie">Vetusiano</placeName>; et
+                        parte mea de <rs key="#Cafagia">cafagio</rs> nostro in loco <placeName
+                            key="#Cafagia">Monacciaticho</placeName>, quem iam antea iudicavi.
+                            <foreign>Se non potessero vendere quei beni</foreign>, volo ut de ipsis
+                        rebus meis aveas <rs key="#Monasteries #Joint_foundations">monasterio</rs>
                         <orgName key="#Monasteries" ref="#juridical_persons/79">Sancti
                             Petri</orgName> in loco qui dicitor <placeName key="#Monasteries"
-                            ref="#places/85">Monte Virde</placeName>, a quondam <persName><name
-                                ref="Walfredus">Walfridi</name></persName> fundatum est, <rs
+                            ref="#places/85">Monte Virde</placeName>, a quondam <persName
+                            ref="#people/707"><name ref="Walfredus">Walfridi</name></persName>
+                        <rs key="#Joint_foundations">fundatum</rs> est, <rs
                             key="#Landed_possessions">omnia portionem meam de res </rs>quanta avire
-                        videor in loco ubi vocatur [<placeName key="#Landed_possessions">ad
-                            Chint</placeName>; et aveas] <rs key="#Mother_churches">eclesia</rs>
+                        videor in loco ubi vocatur [<placeName key="#Landed_possessions"
+                            ref="#places/91">ad Chint</placeName>; et aveas] <rs
+                            key="#Mother_churches">eclesia</rs>
                         <orgName key="#Mother_churches" ref="#juridical_persons/68">Sancti
                             Martini</orgName> de episcopio parte mea de <rs key="#Cafagia"
                             >gavagio</rs> nostro in loco <placeName key="#Cafagia" ref="#places/91"
                             >Cornino</placeName>, uvi vocatur ad <placeName key="#Cafagia"
-                            >Chinzia</placeName>, qui est prope <rs key="#Cafagia">gavagius</rs>
+                            ref="#places/91">Chinzia</placeName>, qui est prope <rs key="#Cafagia"
+                            >gavagius</rs>
                         <orgName key="#Cafagia" ref="#juridical_persons/68">Sancti
                         Martini</orgName>; et aveas <rs key="#Monasteries">monastherio</rs>
                         <orgName key="#Monasteries" ref="#juridical_persons/603">Sancti
@@ -146,19 +154,20 @@
                             key="#Testamentum/iudicatum #Casae/cassinae_massaricie #Landed_possessions"
                             ref="#places/438">Corsania</placeName>, excepto <rs
                             key="#Casae/cassinae_massaricie">casa</rs>
-                        <persName key="#Casae/cassinae_massaricie"><name>Ruduli</name></persName>,
-                        quem iam <rs key="#Testamentum/iudicatum">iudicata</rs> aveo; et aveas <rs
-                            key="#Churches">eclesia</rs>
+                        <persName key="#Casae/cassinae_massaricie"><name ref="Rodulus"
+                            >Ruduli</name></persName>, quem iam <rs key="#Testamentum/iudicatum"
+                            >iudicata</rs> aveo; et aveas <rs key="#Churches">eclesia</rs>
                         <orgName key="#Churches" ref="#juridical_persons/70">Fridiani</orgName>
                         <rs key="#Landed_possessions">terra</rs> mea sub <placeName
                             key="#Venditio #Landed_possessions" ref="#places/205"
                             >Monticello</placeName>, qui fuit quondam <persName
-                            key=" #Landed_possessions"><name>Arochisi</name></persName> quantum mihi
-                        da filii ipsius <rs key="#Venditio">abvine</rs> in integrum, in finito; (…)
-                        et aveas similiter parte mea de <rs key="#Casae/cassinae_massaricie"
-                            >casa</rs> in loco <placeName key="#Casae/cassinae_massaricie"
-                            >Cornino</placeName>, uvi [<persName key="#Casae/cassinae_massaricie"
-                            >Ar…]sulo</persName> reside; et <rs key="#Churches">eclesia</rs>
+                            key=" #Landed_possessions"><name ref="Aregis">Arochisi</name></persName>
+                        quantum mihi da filii ipsius <rs key="#Venditio">abvine</rs> in integrum, in
+                        finito; (…) et aveas similiter parte mea de <rs
+                            key="#Casae/cassinae_massaricie">casa</rs> in loco <placeName
+                            key="#Casae/cassinae_massaricie" ref="#places/91">Cornino</placeName>,
+                        uvi [<persName key="#Casae/cassinae_massaricie">Ar…]sulo</persName> reside;
+                        et <rs key="#Churches">eclesia</rs>
                         <orgName key="#Churches" ref="#juridical_persons/272">Sancte Marie, qui est
                                 <placeName key="#Churches" ref="#places/4">ad porta Sancti
                                 Cervasi</placeName></orgName>, volo ut aveas parte mea de <rs
@@ -173,34 +182,43 @@
                             <placeName>Arno</placeName> uvi vocamus <placeName
                             key="#Landed_possessions" ref="#places/1023">ad Noce</placeName>; et
                         volo ut aveas <rs key="#Churches">eclesia</rs>
-                                <orgName key="#Churches">Sancti Iusti</orgName> ad <placeName key="#Churches">Ranule</placeName>
-                                <rs key="#Hay/fodder">prato</rs> meo ad <placeName key="#Hay/fodder #Canals"><rs key="#Canals"
-                                >fossa</rs> Petrosula</placeName> in integrum; et volo ut aveas <rs
-                            key="#Churches">eclesia</rs>
+                        <orgName key="#Churches">Sancti Iusti</orgName> ad <placeName
+                            key="#Churches">Ranule</placeName>
+                        <rs key="#Hay/fodder">prato</rs> meo ad <placeName key="#Hay/fodder #Canals"
+                                ><rs key="#Canals">fossa</rs> Petrosula</placeName> in integrum; et
+                        volo ut aveas <rs key="#Churches">eclesia</rs>
                         <orgName>Sancte Reparate</orgName>, qui est prope <rs key="#Monasteries"
                             >monastherio</rs>
-                        <orgName>Sancti Martini</orgName>, qui fuit quondam
-                            <persName>Sicheradi</persName>, parte mea de <rs>res</rs> in loco
-                            <placeName>Nobule</placeName>; et volo ut <rs key="#Landed_possessions"
-                            >terra</rs> illa qui mihi <rs key="#Venditio">obvinet</rs> da quondam
-                            <persName>Tachipertu</persName>
+                        <orgName>Sancti Martini</orgName>, qui fuit quondam <persName
+                            key="#Monasteries"><name ref="Sicardus">Sicheradi</name></persName>,
+                        parte mea de <rs>res</rs> in loco <placeName>Nobule</placeName>; et volo ut
+                            <rs key="#Landed_possessions">terra</rs> illa qui mihi <rs
+                            key="#Venditio">obvinet</rs> da quondam <persName
+                            key="#Venditio #Landed_possessions"><name ref="Tachipertus"
+                                >Tachipertu</name></persName>
                         <placeName>ad Archo</placeName>, qui latum tene in <rs
-                            key="#Landed_possessions">terra</rs> de filii quondam
-                            <persName>Garisindi</persName>, ut eas aveas <rs key="#Churches"
+                            key="#Landed_possessions">terra</rs> de filii quondam <persName
+                            key="#Landed_possessions"><name ref="Garesindus"
+                            >Garisindi</name></persName>, ut eas aveas <rs key="#Churches"
                             >eclesia</rs>
-                        <orgName>Sancti Petri qui vocatur <rs key="#Monasteries">monastherio</rs>
-                            <persName>Somualdi</persName></orgName>; et volo ut aveas parte mea de
-                            <rs key="#Landed_possessions">terra</rs>
-                        <placeName>trans Auserclo</placeName>, qui caput tene in ipso
-                            <placeName>Auserclo</placeName> et alio caput tene in <rs
-                            key="#Landed_possessions">terra</rs> de filii quondam
-                            <persName>Burriche</persName>, <rs key="#Churches">eclesia</rs>
-                        <orgName>Sancti Donati</orgName>. <foreign>Alle</foreign> nepotis meas
-                            <persName>Sindiperga</persName>, <persName>Radalperga</persName> et
-                            <persName>Adalperga</persName>, portionem meam de <rs
-                            key="#Casae/cassinae_massaricie">casa</rs>
-                        <persName>Arualdi</persName> de <placeName>Lunata</placeName> in loco
-                            <placeName>Tappuniano</placeName> et parte mea de <rs
+                        <orgName ref="#juridical_persons/283" key="#Churches #Monasteries">Sancti
+                            Petri qui vocatur <rs key="#Monasteries">monastherio</rs>
+                            <persName ref="#people/704">Somualdi</persName></orgName>; et volo ut
+                        aveas parte mea de <rs key="#Landed_possessions">terra</rs>
+                        <placeName key="#Landed_possessions">trans Auserclo</placeName>, qui caput
+                        tene in ipso <placeName>Auserclo</placeName> et alio caput tene in <rs
+                            key="#Landed_possessions">terra</rs> de filii quondam <persName
+                            key="#Landed_possessions"><name ref="Burrichus"
+                            >Burriche</name></persName>, <rs key="#Churches">eclesia</rs>
+                        <orgName key="#Churches">Sancti Donati</orgName>. <foreign>Alle</foreign>
+                        nepotis meas <persName><name ref="Simperga">Sindiperga</name></persName>,
+                                <persName><name ref="Radalperga">Radalperga</name></persName> et
+                                <persName><name ref="Adalberga">Adalperga</name></persName>,
+                        portionem meam de <rs key="#Casae/cassinae_massaricie">casa</rs>
+                        <persName key="#Casae/cassinae_massaricie"><name ref="Arialdus"
+                                >Arualdi</name></persName> de <placeName ref="#places/473"
+                            >Lunata</placeName> in loco <placeName key="#Casae/cassinae_massaricie"
+                            >Tappuniano</placeName> et parte mea de <rs
                             key="#Casae/cassinae_massaricie">casa</rs> quondam
                             <persName>Aufridi</persName> in loco <placeName>Longize</placeName> (…)
                         cum parte mea de <rs key="#Casae/cassinae_massaricie">casa</rs> in
@@ -300,15 +318,15 @@
                     locis. <foreign>Nota dorsale (sec. XII)</foreign>: Exemplar iudicati in mon[…]to
                     Camaiore Sancto Petro Sumualdi et in Sancto M[…]is de terris multis in Cornino
                     ad Cicinam et […]. <foreign> Vetusiano = Venturiana sulla Fraga (Lucca), Pieri,
-                        Serchio, 69; Monacciatico (Vico di Antraccoli Reptti, I, 95; Pieri, Serchio,
-                        p. 183) Forse Persianiano Amiate (Lucca) Ranule cf. Ranocchiaia (area
-                        Sestinga) e Fossa Petrosula cf. Valle Petrosola (area Sestinga). S. Reparata
-                        di Monsagrati? Arco sul Serchio Longetia selva in Brancoli (Pieri, Serchio,
-                        p. 209)? Pumpiano (Val di Serchio, Repetti, IV, 510) verso S. Macario
-                        (Schiaparelli) Vico Spardaco (Verso Montebonelli) Pinistello (sul Monte
-                        Pisano verso S. Giuliano) (Schiaparelli) </foreign>eclesia Sancte Reparate,
-                    qui est prope monastherio Sancti Martini, qui fuit qd. Sicheradi [S. Reparata e
-                    S. Martino di Monsagrati];</p>
+                        Serchio, 69; Monacciatico (Vico di Antraccoli Repetti, I, 95; Pieri,
+                        Serchio, p. 183) Forse Persianiano Amiate (Lucca) Ranule cf. Ranocchiaia
+                        (area Sestinga) e Fossa Petrosula cf. Valle Petrosola (area Sestinga). S.
+                        Reparata di Monsagrati? Arco sul Serchio Longetia selva in Brancoli (Pieri,
+                        Serchio, p. 209)? Pumpiano (Val di Serchio, Repetti, IV, 510) verso S.
+                        Macario (Schiaparelli) Vico Spardaco (Verso Montebonelli) Pinistello (sul
+                        Monte Pisano verso S. Giuliano) (Schiaparelli) </foreign>eclesia Sancte
+                    Reparate, qui est prope monastherio Sancti Martini, qui fuit qd. Sicheradi [S.
+                    Reparata e S. Martino di Monsagrati];</p>
                     </div>
                 </body>
             </text>
