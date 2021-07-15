@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Biblioteca civica di Bergamo, Salone, cassetto I, n° IX</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc2122</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Uncertain tradition</rs>
+                            <rs type="fiscal_property">Uncertain</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate notBefore="0901-02" notAfter="0901-05">
+                                <note type="displayed_date">Between february 901 and may 901</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date"/>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-02-08" who="Chiara Stedile">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine sanctae et individuae Trinitatis. Hludovicus divina favente
+                        clementia imperator augustus. Si hominis in Deum habenda dilectio nullo
+                        umquam debet fine concludi, ut exarata Omnipotentis digito scriptura
+                        testatur, quicquid utilitatis congrue pro ipsius amore suorumque electorum
+                        possumus, dignum in omnibus iustumque est, ut totis viribus puraque
+                        intentione mentis perficere satagamus. Quapropter cunctorum fidelium sanctae
+                        Dei Ecclesiae nostrorum presentium scilicet ac futurorum noverit industria,
+                        quod Adelbertus reverentissimus sanctae Bergamensis ecclesiae presul
+                        nosterque fidelissimus per Garibaldum venerabilem episcopum et Sigefredum
+                        sacri palatii comitem nec non et Adelelmum illustrem comitem dilectos
+                        consiliarios nostros suppliciter nostram deprecatus est clemen[ti]am,
+                        quatenus ob omnipotentis Dei amorem animaeque nostrae remedium que olim ex
+                        pertinentiis iuris regni nostri beato martiri Alexandro, cuius corpus
+                        humatum quiescit iusta urbis Bergami muros, quaeque etiam universe sanctae
+                        Bergamensis ecclesiae a precessoribus nostris per preceptorum instrumenta
+                        pie fideliterque collata vel confirmata sunt, nec non omnia quae ab ipsius
+                        ecclesiae quibuslibet fidelibus oblata vel tradita existunt nostrae
+                        imperialis a Deo preceptae auctoritatis istitutione confirmare dignaremur.
+                        Quorum p[rec]es dignas atque laudabiles computantes, secundum id quod
+                        poposcerant eidem prelibatae sanctae Bergamensis ecclesiae confirmamus
+                        stabilisque decreti soliditate roboramus. Deprecati sunt nostri etiam
+                        predicti fideles nostram imperialem celsitudinem, ut eidem venerabili
+                        martyri Alexandro quandam curtem iuris nostri quae Morgula dicitur,
+                        constituta scilicet in comitatu Bergamensi secus fluvium simili modo
+                        nuncupatum, cum omnibus rebus, substantiis ac possessionibus suis in
+                        integrum concedere dignaremur, exceptis his quae pridem ex eadem nostra
+                        curte pertinentia eidem Adelberto Venerabili episcopo ipsius sanctae
+                        Bergamatis ecclesiae nostri precepti inscriptione proprietario iure habenda
+                        ac possidenda contulimus. Quorum ratam estmantes petitionem, tam pro Dei
+                        omnipotentis amore quamque pro eiusdem beatissimi Alexandri cultu nec non et
+                        pro ipsius venerabilis presulis fidelitate quam erga nostram imperialem
+                        [impe]nsus est decentiam, iam dictam curtem iuris nostre Morgulam cum
+                        omnibus adiacentiis et pertinentiis suis, mobilibus et immobilibus, casis
+                        videlicet, terris, vineis, campis, pratis, silvis, salectis, sationibus,
+                        pascuis, aquis [aquaru]mque decuribus, molendinis, ripaticis, merc[ati]s,
+                        theloneis, districtionibus, forestis et forestariis, montibus, planitiebus,
+                        servis utriusque sexus progenitis vel in posterum procreandis, aldionibus et
+                        aldianis, exitibus et regressibus seu cum universis quae dici vel nominari
+                        possunt, divisis et indivisis ad eandem cortem iuris regni nostrae,
+                        respitientibus iam dicte ecclesiae per huius nostrae auctoritatis paginam
+                        perpetualiter habenda, tenenda ac possidenda concedimus ac perdonamus, et de
+                        nostro iure atque dominio, sicut nunc nostrae iuri parti pertinere videtur,
+                        in eius ius et dominium modis omnibus transfundimus atque largimur, absque
+                        contradictione, minoratione vel molestia cuiuscumque, exceptis his que
+                        quondam iam dicto Adelberto venerabili episcopo nostrae inscriptionis dono
+                        hereditario iure contulimus, eo videlicet ordine, ut pontifex iam dicte
+                        ecclesiae, qui pro tempore ipsi prefuerit, supradicta omnia ad ius ipsius
+                        ecclesiae teneat, possideat, disponat atque vindicet prout omnes alias res
+                        quae a pontificibus eiusdem ecclesiae priscis temporibus fuerunt possesse ac
+                        vindicate. Si quis igitur hoc nostrae confirmationis et concessionis atque
+                        largitionis preceptum aliquando infringere aut violare quesierit, ne quod
+                        temptat perficere possit, noverit se compositurum auri optimi libras centum,
+                        medietatem palatio nostro et medietatem prelibate ecclesiae. Quod ut verius
+                        credatur et diligentius observetur, manu propria roboratum nostri anuli
+                        impressione assignari precepimus...</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>DD Lu III, pp. 69-71, Falsificazioni n° II</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>Falsificazione in forma di originale. Il testo è compilato in parte sulla
+                    falsariga del diploma di Berengario I del 21 febbraio 904 (DD B I, pp. 124-127
+                    n° XLIII)</p>
+            </div>
+        </body>
+    </text>
+</TEI>
