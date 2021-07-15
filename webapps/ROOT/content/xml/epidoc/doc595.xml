@@ -86,9 +86,9 @@
                             ref="#people/213" key="#Bishops">Pietro</persName>, con il consenso
                         sacerdotum seo filli ipsius ecclesie, ordina il <rs key="#Priests"
                             >prete</rs>
-                        <persName key="#Priests"><name>Gumperto</name></persName>
-                        <rs key="#Clerical_concubinage">figlio della <persName>fu
-                                    <name>Gumperta</name></persName></rs> nella <orgName
+                        <persName key="#Priests"><name ref="Gumbertus">Gumperto</name></persName>
+                        <rs key="#Clerical_concubinage">figlio della <persName>fu <name
+                                    ref="Gumberta">Gumperta</name></persName></rs> nella <orgName
                             key="#Baptismal_churches"><rs key="#Baptismal_churches">pieve</rs> di
                             Santa Maria sita loco et finibus <placeName key="#Baptismal_churches"
                                 ref="#places/486">Lamari</placeName></orgName>, con tutte le sue
@@ -101,15 +101,66 @@
                                 >Vivenzio</name></persName>
                         <rs key="#Archpriests">archipresbiter et vicedominus</rs>, <persName
                             key="#Witness #Priests"><name ref="Christianus"
-                            >Cristiano</name></persName> presbiter, Sicardo presbiter et cardinalis,
-                        Suntripaldo presbiter et cardinalis, Lopo presbiter et cardinalis, Stefano
-                        presbiter et cantor, Ghisolfo presbiter et cardinalis, Ataprando presbiter,
-                        Teufridi presbiter et cardinalis, Pietro presbiter et cardinalis, Erimundo
-                        presbiter, Gregorio presbiter, Ghisalprando presbiter, Eripaldo presbiter et
-                        cardinalis et cantor, Ropprando presbiter et cardinalis, Frediano diaconus,
-                        Raimberto diaconus, Andrea diaconus, Andrea diaconus, Ghisalprando presbiter
-                        et cardinalis, Benedetto presbiter, Teopaldo diaconus, Eoperto presbiter,
-                        Natale subdiaconus, Giovanni subdiaconus, Gherardo subdiaconus.</ab>
+                            >Cristiano</name></persName>
+                        <rs key="#Priests">presbiter</rs>, <persName
+                            key="#Witness #Priests #Cardinals"><name ref="Sicardus"
+                            >Sicardo</name></persName>
+                        <rs key="#Priests">presbiter</rs> et <rs key="#Cardinals">cardinalis</rs>,
+                            <persName key="#Witness #Priests #Cardinals"><name ref="Sundribaldus"
+                                >Suntripaldo</name></persName>
+                        <rs key="#Priests">presbiter</rs> et <rs key="#Cardinals">cardinalis</rs>,
+                            <persName key="#Witness #Priests #Cardinals"><name ref="Lopo"
+                                >Lopo</name></persName>
+                        <rs key="#Priests">presbiter</rs> et <rs key="#Cardinals">cardinalis</rs>,
+                            <persName key="#Witness #Priests"><name ref="Stefanus"
+                            >Stefano</name></persName>
+                        <rs key="#Priests">presbiter et cantor</rs>, <persName
+                            key="#Witness #Priests #Cardinals"><name ref="Ghisulfus"
+                            >Ghisolfo</name></persName>
+                        <rs key="#Priests">presbiter</rs> et <rs key="#Cardinals">cardinalis</rs>,
+                            <persName key="#Witness #Priests"><name ref="Adabrandus"
+                                >Ataprando</name></persName>
+                        <rs key="#Priests">presbiter</rs>, <persName
+                            key="#Witness #Priests #Cardinals"><name ref="Teofridus"
+                            >Teufridi</name></persName>
+                        <rs key="#Priests">presbiter</rs> et <rs key="#Cardinals">cardinalis</rs>,
+                            <persName key="#Witness #Priests #Cardinals"><name ref="Petrus"
+                                >Pietro</name></persName>
+                        <rs key="#Priests">presbiter</rs> et <rs key="#Cardinals">cardinalis</rs>,
+                            <persName key="#Witness #Priests"><name ref="Arimundus"
+                            >Erimundo</name></persName>
+                        <rs key="#Priests">presbiter</rs>, <persName key="#Witness #Priests"><name
+                                ref="Gregorius">Gregorio</name></persName>
+                        <rs key="#Priests">presbiter</rs>, <persName key="#Witness #Priests"><name
+                                ref="Giselbrandus">Ghisalprando</name></persName>
+                        <rs key="#Priests">presbiter</rs>, <persName
+                            key="#Witness #Priests #Cardinals"><name ref="Eribaldus"
+                            >Eripaldo</name></persName>
+                        <rs key="#Priests">presbiter et cantor</rs> et <rs key="#Cardinals"
+                            >cardinalis</rs>, <persName key="#Witness #Priests #Cardinals"><name
+                                ref="Ropprandus">Ropprando</name></persName>
+                        <rs key="#Priests">presbiter</rs> et <rs key="#Cardinals">cardinalis</rs>,
+                            <persName key="#Witness #Deacons"><name ref="Fridianus"
+                            >Frediano</name></persName>
+                        <rs key="#Deacons">diaconus</rs>, <persName key="#Witness #Deacons"><name
+                                ref="Rainbertus">Raimberto</name></persName>
+                        <rs key="#Deacons">diaconus</rs>, <persName key="#Witness #Deacons"><name
+                                ref="Andreas">Andrea</name></persName>
+                        <rs key="#Deacons">diaconus</rs>, <persName key="#Witness #Deacons"><name
+                                ref="Andreas">Andrea</name></persName>
+                        <rs key="#Deacons">diaconus</rs>, <persName
+                            key="#Witness #Priests #Cardinals"><name ref="Giselbrandus"
+                                >Ghisalprando</name></persName>
+                        <rs key="#Priests">presbiter</rs> et <rs key="#Cardinals">cardinalis</rs>,
+                            <persName key="#Witness #Priests"><name ref="Benedictus"
+                                >Benedetto</name></persName>
+                        <rs key="#Priests">presbiter</rs>, <persName key="#Witness #Deacons"><name
+                                ref="Teobaldus">Teopaldo</name></persName>
+                        <rs key="#Deacons">diaconus</rs>, <persName key="#Witness #Priests"><name
+                                ref="Eobertus">Eoperto</name></persName>
+                        <rs key="#Priests">presbiter</rs>, Natale <rs key="#Subdeacons"
+                            >subdiaconus</rs>, Giovanni <rs key="#Subdeacons">subdiaconus</rs>,
+                        Gherardo <rs key="#Subdeacons">subdiaconus</rs>.</ab>
                         </div>
                     </div>
                     <div type="bibliography" subtype="editions">
