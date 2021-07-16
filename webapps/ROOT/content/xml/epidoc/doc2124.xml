@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title></title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc2124</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#"/>
+                            <rs type="record_source" ref="#"/>
+                            <rs type="document_tradition" ref="#"/>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate notBefore="0001" notAfter="0001" when="0001"> 
+                                <note type="displayed_date"></note>
+                                <note type="dating_elements"></note>
+                                <note type="topical_date"></note>
+                                <note type="redaction_date"></note>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-02-08" who="Chiara Stedile">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>(C.) In nomine domini nostri Iesu Christi regis aeterni. Otto divina favente
+                        imperator augustus. Quia imperialis magnificentia pia et larga erga dei
+                        cultores et ecclesiarum dei recuperatrix et restauratrix esse debet, ut id
+                        agendo premium mereatur consequi sempiternum: idcirco omnium fidelium
+                        sanctae dei ecclesiae nostrorumque presentium ac futurorum devotio noverit,
+                        qualiter nos consultu ac interventu venerabilis episcopi Huberti karissimi
+                        fidelis nostri adquiescentes aliquantam terram quam bone+ memorie+ Petrus
+                        episcopus ad utilitatem canonicorum in ecclesia sancti Donati confessoris et
+                        martiris Christi ibi pro tempore deo servientium distribuit et antecessores
+                        nostri i[mperat]ores et reges postea confirmaverunt et suo proprio dono
+                        concesserunt, videlicet vineam unam ad Pinum cum campo ibi prope similiter
+                        ad Pinum nominante+ et campum alterum qui dicitur pratum Sale nec non
+                        corticellam unam que dicitur ad Clane cum sua pertinentia et aliam
+                        corticellam que+ vocatur Moionam sub integritate, sicut discernitur in
+                        scripto a iam nominato Petro episcopo facto, ecclesiam quoque sancti Petri
+                        in castello quam dive memorie+ Lotharius pro remedio anime+ sue+ canonicos
+                        ibi servientes habere concessit, nec non et villas tres quarum una nominatur
+                        Durna, altera Plica, tertia Spegia, quas predictus Lotharius canonicis
+                        confirmavit, mercatum insuper unum quod celebratur in missa sancti Ilariani,
+                        cortem etiam que nominatur Camenina et est in castro Felicitatis cum
+                        ecclesia in honore sancti Andreae edificata cum omni [sua pertine]ntia quam
+                        prefatus imperator canonicis concessit, campum insuper unum qui vocatur
+                        Pisinule+ et consistit in pago Aritiense cum omnibus suis appenditiis, ut
+                        pretaxatus imperator eis concessit, cortem namque qui vocatur Colonaria cum
+                        omni sua pertinentia, per hoc nostrum imperiale preceptum canonicis qui nunc
+                        ibi serviunt, scilicet Grasulfo archidiacono, Suauerico archipresbytero et
+                        primicerio, Sapienti gramatico, Erolfo presbytero, Stratario maiori scole,
+                        Iohannes clericus et custos, Iohannes presbytero, Altiperto presbytero,
+                        Michael et [Iohannes] et Agimo diaconibus et reliquis qui ibi in presenti
+                        serviunt eorumque successoribus qui futuris temporibus ibi servierint,
+                        restituimus confirmamus pleniterque corrobor[a]mus. De iure insuper regni
+                        nostri donamus predicti loci canonicis [corti]cellam unam qui coniacet in
+                        avocabulo Toppo una cum ipsa silva qui dicitur Arbororum et una cum omni
+                        pertinentia et adiacentia sua et cum ipsa gualdemania qui coniacet in Uico
+                        et in Policiano et in Peciano et per illorum vocabulas, et campum unum qui
+                        dicitur Longoria coniacente prope Perilasium qui capere videtur modia
+                        viginti, ita videlicet ut nec rector eiusdem sedis nec cuiuslibet potestatis
+                        persona de prefatis rebus vel de eorum pertinentiis seu de his que+ divina
+                        pietas inibi ageri voluerit illis aliquam inferre presumat contrarietatem
+                        vel deminorationem ullam ingerere adtemptet. Confirmamus eis scilicet terram
+                        quam Hugo rex de sua proprietate eisdem canonicis concessit, id est campum
+                        de Piunta et campum de Graticiata, ut illis absque aliqua minoratione aut
+                        cuiuslibet potestatis contrarietate perhennis perseveret temporibus.
+                        Statuimus quoque ut sit ipsa canonica cum canonicis ipsius loci sub
+                        magisterio et regimine Grasulfi archidiaconi et Suauerici archipresbyteri
+                        eorumque successorum, facientes pari voto communique consensu de frugibus et
+                        reditibus quod in ipsa canonica annualiter dominus dederit seu de elemosinis
+                        absolute et libere, ut canonici facere debent, absque ullius contradictione
+                        vel molestatione. Quia Tuscis consuetudo est ut, accepto ab ecclesia
+                        libello, in contumatiam convertantur contra ecclesiam, ita ut vix aut
+                        numquam constitutum reddant censum, precipimus modisque omnibus iubemus, ut
+                        non episcopus vel canonicus libellum aut aliquod scriptum alicui homini
+                        faciant, nisi laboratoribus qui fructum terre+ ecclesiae et ca[nonicis
+                        ipsius loc]i reddant sine molestia vel contradiction[e aliq]ua. Precipimus
+                        quoque ut in ipsa canonica nulla [deinceps ad]iciatur persona absque communi
+                        consensu, ne propter hoc aliqua inter illos oriatur discordia. Pro maiori
+                        quoque illorum securitate recipimus illos cum omnibus illorum mobilibus et
+                        inmobilibus rebus illis iuste et legaliter pertinentibus sub nostre+
+                        tuitionis munburdo, quatenus secure vivere deoque servire et pro nobis
+                        statuque regni nostri remedioque anime+ nostre+ orare illis iugiter
+                        delectet. Si quis igitur huius nostre+ confirmationis precepti et munburdi
+                        violator aut contradictor extiterit, sciat se compositurum auri optimi
+                        libras centum, medietatem kamere+ nostre+ et medietatem prefatis canonicis
+                        qui in ecclesia beati Donati pro tempore servierint. Quod ut verius credatur
+                        dilige[nti]usque ab omnibus observetur, manu propria roborantes de anulo
+                        nostro subter anotari iussimus. Signum domni Ottonis magni imperatoris (M.)
+                        augusti. Liutgerius cancellarius advicem Uuidonis episcopi et
+                        archicancellarii recognovi et subscripsi. (SI. D.) Data VI. idus mai. anno
+                        dominicae incarnationis DCCCCLXIII, indictione VI, anno imperii magni
+                        Ottonis imperatoris augusti II; actum monte Feretrano ad sanctum
+                        Leonem.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>MGH DD O I, pp. 361-362, n° 253</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
