@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    *B.34</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc4115</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Offersio/donatio</rs>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate when="0768-05-04">
+                                <note type="displayed_date">768 May 5</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Lucca</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-07-16" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab>Anacardo <rs>presbitero</rs> rectori <rs>ecclesiae</rs> beati Sancti
+                        Petri sita in loco Castellione prope Fernetam <foreign>dona pro
+                            anima</foreign> Deo et tibi <rs>ecclesiae</rs> beati Sancti Colombani,
+                            <rs>constructa</rs> a viro beatissimo domno Peredeo in Dei nomine
+                            <rs>episcopo</rs> prope <rs>murum</rs>
+                        <rs>civitatis</rs> nostrae Lucensis, <rs>ecclesiam</rs> ipsam ubi resedere
+                        videor, cum <rs>omnibus rebus</rs> meis, tam quam ipsam rem quam ibidem per
+                        dotem confirmavi quam et ubique mihi pertenentem <rs>terram</rs>,
+                            <rs>vineam</rs>, <rs>orta</rs>, <rs>oliveta</rs>, <rs>silvas</rs>,
+                            <rs>castaneum</rs>, virgarium (…), nisi scerpham meam et pannos, buttes
+                        et arca vel alia usitilia casae seu <rs>nutrimina</rs>, quae in meam reservo
+                        potestatem. <foreign>Ne riserva l’usufrutto vitalizio, ma non la possibilità
+                            di cedere i beni, per sé et per</foreign> Auriperta presbiteria mea (…).
+                            <foreign>Dopo la sua morte i beni e la chiesa appartengano</foreign> in
+                        iamdicta ecclesia <foreign>(scil. di S. Colombano)</foreign> vel de
+                            <rs>pontefice</rs> qui pro tempore fuerit (…). Actum Luca.
+                            <foreign>Sottoscrizioni:</foreign> (ss) Anacard <rs>presbiter</rs>; +
+                        Petti <rs>aurificis</rs> germani eius testis; + Peretheuli <rs>acoliti</rs>
+                        filii quondam Gauderali testis; (ss) Firmo <rs>presbiter</rs>; (ss) Sprinca
+                            <rs>clericus</rs>; (ss) Emmo <rs>clericus</rs>.
+                            <foreign>Scrive</foreign>: Austripertus <rs>clericus</rs>.</ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL IV/1, 23; reg. MDL V/2, n. 106; CDL II, 219, pp. 252-254; ChLA,
+                    XXXIV, 1001.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                         <p>Persone: Desiderio re; Adelchis re; Anacardo pbr (fr. Petti aurificis);
+                    Petti aurificis (fr. Anacardo pbr); Austripertus cler; Peretheuli acoliti (f.
+                    Gauderuli); Gauderuli (p. Peretheuli acoliti); Firmo pbr; Sprinca cler; Emmo
+                    cler; Peredeo ep (di Lucca). Luoghi: loco Castellione [Castiglione Garfagnana];
+                    Fernetam; civitatis Lucensis, Luca [Lucca]. Chiese: ecclesiae beati Sancti Petri
+                    sita in loco Castellione prope Fernetam [S. Pietro a Castiglione Garfagnana];
+                    ecclesiae beati Sancti Colombani prope murum civitatis nostrae Lucensis [S.
+                    Colombano di Lucca]. Cariche: . Note: aurifex - . Indice: donazione - fam.
+                    Peredeo - cit. fondazione chiesa - mestiere (aurifex). <foreign>Nota dorsale
+                        (sec. VIII-IX)</foreign>: + dotem da Anacardo presbitero. <foreign>Nota
+                        dorsale (sec. XI-XII)</foreign>: Offersio de Farneta. <foreign>Nota dorsale
+                        (sec. IX):</foreign> In Sancto Columbano. </p>
+                    </div>
+                </body>
+            </text>
+        </TEI>
