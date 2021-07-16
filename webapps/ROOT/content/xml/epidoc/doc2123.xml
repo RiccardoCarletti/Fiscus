@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Biblioteca civica di Bergano, Salone, cassetto I, X</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc2123</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Uncertain tradition</rs>
+                            <rs type="fiscal_property">Uncertain</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0901-05-23">
+                                <note type="displayed_date">901 may 23</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Vercelli</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-02-08" who="Chiara Stedile">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine sanctae et individuae Trinitatis. Hludovuicus divina favente
+                        clementia imperator augustus. Omnibus sanctae Dei Ecclesiae fidelibus
+                        nostrisque tam presentibus quam et futuris notum fieri volumus, quia
+                        Adelbertus sanctae Bergamensis ecclesiae venerabilis episcopus nosterque
+                        fidelissimus nostram adiit celsitudinem per Garibaldum venerabilem episcopum
+                        et Sigefredum sacri palatii comitem nec non et Adelelmum comitem dilectos
+                        consiliarios nostros postulans, ut sanctam Bergamatem ecclesiam suam ob
+                        omnipotentis Dei amorem animeque nostrae remedium nostra imperiali
+                        auctoritate roboraremur, scilicet confirmando eidem sanctae Dei ecclesiae
+                        precepta vel auctoritates piissimorum augustorum vel regum seu predecessorum
+                        nostrorum omnium quotquot a tempore dive memorie magni Karoli regnaverunt
+                        usque ad presens tempus nostrum iuste et legaliter collata, spetiali tenore
+                        de curte que Morgula clamatur, quam olim ec pertinentiis iuris nostri beati
+                        martiri Alexandro, cuius corpus humatum quiescit iusta urbis Bergami muros,
+                        per nostrae auctoritatis preceptum concessimus, et de ecclesia Sancti
+                        Alexandri sita in Fara, quam quondam Iohannes eidem ecclesiae venerabilis
+                        episcopus ab Arriana heresi ad fidem catholicam convertit, et de
+                        monasteriolo Sancti Michaelis sito Cerreto iuxta Ollium fluvium, que iuris
+                        et proprietatis ipsius ecclesiae esse noscuntur. Quorum devotis precibus
+                        libentissime assensum prebentes, hos apices inscribi iussimus, per quos
+                        decernimus, ut quicquid antiqui imperatores et reges, imperatrices quoque et
+                        reginae Romanor[u]m et Langobardorum seu Francorum, nec non et r[eli]qui
+                        Deum timentes memorate sanctae Bergamati ecclesiae suis preceptis et
+                        testamentis contulerunt, et postmodum precellentissimi reges atque augusti
+                        sua auctoritate confirmaverunt, stabile atque inconvulsum nostris futurisque
+                        temporibus in ipsius iure et potestate perpetualiter maneat. Et nullus comes
+                        vel publice partis iudes et gastaldio vel alia quaelibet persona in
+                        monasteriis, xenodochiis vel ecclesiis baptismalibus aut cardinalibus seu
+                        oraculis vel cunctis possessionibus, quas sepe dicta ecclesia habere
+                        dinoscitur vel quas deinceps divina pietas aucmentare voluerit, nemo
+                        superioris aut inferioris rei publice procurator ad causas iudicario more
+                        audiendas, convenutm facere, vel freda exigere, aut mansionaticum vel
+                        paratas exquirere, parafredos aut fideliussores violenter tollere, clericos
+                        cuiuscumque conditionis eiusdem prelibate ecclesiae diocesis suffraganeos im
+                        personis vel domibus suis ledere vel homines tam ingenuos, libellarios
+                        quamque servos in possessionibus vel mansionibus prefatae ecclesiae
+                        commanentes potestative distringere, nec ullas publicas arbustaritias aut
+                        redibitiones vel illicitas occasiones sive angarias super imponese audeat,
+                        vel inferre presumat. Et quia ipsi nostri dilecti fideles nostrae
+                        innotuerunt mansuetudini, quod ab ipsius ecclesiae pertinentibus quaedam
+                        venationes arbustaritiequae iniustae et contra ones leges inventa
+                        consuetudine in quibusdam comitatibus vel ministeriis publicis a nostris
+                        exactoribus annuatim exquirantur, idcirco modis omnibus praecipimus et sub
+                        interminatione iubemus, ut nullus sub regno nostro consitutus de rebus
+                        suprataxatae ecclesiae in quibuscumque comitatibus vel ministeriis publicis
+                        ullas huiuscemodi exhactiones aut alias quaslibet annuales donationes
+                        exigere, aut ammodo et deinceps consuetudinario more audeat, sed repulsa et
+                        extincta omni iniusta consuetudine, liceat eidem venerando praesuli suisque
+                        successoribus ac ministris res iam dictae ecclesiae cum universis sibi
+                        subiectis sub immunitatis nostrae defensione ordine quieto manere et nostris
+                        fideliter parere obsequiis, atque pro nostra incolumitate statuque regni
+                        nostri altissimum Dominum iugiter exorare. Omnimodis quoque praecipimus
+                        atque iubemus, ut undecumque a tempore prefati magni Karoli legalem
+                        vestitua[m] habere iam dicta ecclesia usque in evum dinosc[i]tur, si ullam
+                        diminoratinem quislibet facere temptaverit, non sit necesse iam dicto
+                        episcopo eiusque successoribus sive eiusdem ecclesiae causam peragentibus
+                        ullam facere probationem, sed diligenter per bonae fidei pagenses
+                        circumquaque manentes, si opus fuerit, cum iureiurando studiosissime fiat
+                        inquisitio, quatenus rei veritas lucide clarescat. Deprecati sunt nostri
+                        etiam predicti fideles imperialem celsitudinem nostram, ut eidem venerabili
+                        martiri Alexandro quoddam monasterium iuris regni nostri constitutum infra
+                        eandem Bergamatem civitatem ac dedicatum in honore Domini Salvatoris cum
+                        omnibus rebus, substantiis ac possessionibus suis in integrum concedere
+                        dignaremur. Quorum salubrem estimantes petitionem, tam pro omnipotentis Dei
+                        quamque pro eiusdem beatissimi Alexandri cultu nec non et pro ipsius
+                        venerabilis presulis fidelitate quam erga imperialem decentiam nostram
+                        imensus est, iam dictum monasterium iuris regni nostri cum omnibus
+                        adiacentiis et pertinentiis suis, mobilibus et immobilibus, casis videlicet,
+                        terris, vineis, campis, pratis, silvis, salectis, sationibus, pascuis, aquis
+                        aquarumque decuribus, molendinis, ripis, ripaticis, districtionius,
+                        montibus, planitiebus, servis utriusque sexus progenitis vel in posterum
+                        procreandis, aldionibus et aldianis, exitibus et regressibus, divisis et
+                        indivisis ad iddem monasterium respitientibus iam dicto beati martiri
+                        Alexandro per huius nostrae auctoritatis paginam perpetualiter habenda,
+                        tenenda ac possidenda concedimus ac perdonamus, et de nostro et regni iure
+                        atque dominio, sicut nunc pertinere videtur, in eius ius et dominium modis
+                        omnibus transfundimus atque largimur, absque contradictione, minoratione vel
+                        molestia cuiuscumque. Si quis autem temerarius, quod non credimus, contra
+                        hoc nostrae confirmationis et concessionis atque largitionis preceptum in
+                        aliquo violare aut inrumpere temptaverit, ne quod temptat perficere possit,
+                        sciat se compositurum auri optimi libras centum, medietatem palatio nostro
+                        et med[i]etatem rectoribus sacrosanctae Bergomatae ecclesiae. Et ut veirus
+                        credatur ac diligentius ab omnibus observetur, manu propria subter
+                        roborantes anuli nostri inpressione insigniri iussimus. Signum (M) domni
+                        Hludovuici serenissimi imperatoris augusti. Arnulfus notarius ad vicem
+                        Liutuardi episcopi et archicanellarii recognovi [et subscripsi] (SR) (SI D).
+                        Data x kal. Iun., anno incarnationis dominicae DCCCCI, indictione IIII, anno
+                        primo imperante domno Hludovico serenissimo imperatore in Italia. Actum
+                        Vercellensis civitate. In Dei nomine feliciter, amen.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>DD Lu III, pp. 71-76, Falsificazioni n° III</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>Falsificazione in forma di originale. </p>
+            </div>
+        </body>
+    </text>
+</TEI>
