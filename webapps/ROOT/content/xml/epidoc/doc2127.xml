@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Archivio Capitolare di Arezzo, (MGH DD O III, pp. 628-629, n° 217)</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc2127</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0996-07-12">
+                                <note type="displayed_date">996 july 12</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Chiesa di San Donato, Arezzo</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-02-08" who="Chiara Stedile">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>(C.) In nomine sanctae et individuae trinitatis. Otto divina favente
+                        clementia imperator augustus. Quia imperialis magnificentia pia et larga
+                        erga dei cultores aecclesiarum dei recuperatrix et restauratrix esse debet,
+                        ut id agendo praemium mereatur consequi sempiternum: idcirco omnium fidelium
+                        sanctae dei ecclesiae nostrorumque praesentium ac futurorum devotio noverit,
+                        qualiter nos consultu ac interventu Helmprati venerabilis episcopi nostrique
+                        fidelis aliquantam terram quam bone memoriae Petrus episcopus ad utilitatem
+                        canonicorum in ecclesia sancti Donati confessoris et martiris Christi ibi
+                        pro tempore servientium deo distribuit ibi et antecessores nostri
+                        imperatores et reges postea confirmaverunt et suo proprio dono concesserunt,
+                        videlicet vineam unam ad Pinum cum campo ibi prope similiter ad Pinum
+                        nominante et campum alterum qui dicitur Protosale nec non corticellam unam
+                        que+ dicitur ad Clane cum sua pertinentia et alia corticella que+ vocatur
+                        Moiona sub integritate, sicut discernitur in scripto ad iam nominato Petro
+                        episcopo facto, ecclesiam quoque sancti Petri in castello quam dive memoriae
+                        Lotharius pro remedio anime+ suae canonicos ibi servientes habere concessit,
+                        nec non et villas tres quarum una nominatur Dorna, altera Pliga, tertia
+                        Spegia, quas praedictus Lotharius canonicis confirmavit, mercatum insuper
+                        unum quod ce+lebratur in missa sancti Hilariani, curtem etiam qui vocatur
+                        Caminina et est in castro Felicitatis cum ecclesia in honore sancti Andree+
+                        aedificata cum omni sua pertinentia quam praefatus imperator canonicis
+                        concessit, campum insuper unum qui vocatur Piscinule+ et consistit in pago
+                        Aritinense cum omnibus suis appenditiis, ut praetaxatus imperator eis
+                        concessit, curtem namque que+ vocatur Colonaria cum omni sua pertinentia,
+                        per hoc nostrum imperiale praeceptum canonicis qui nunc ibi serviunt,
+                        Vuillehelmo scilicet archidiacono et Berahardo presbitero et primicerio,
+                        Martino clerico et custodem sancti Donati, Sigizonem scole cantorem,
+                        Michahel presbitero, Ato presbitero, Uuinizoni presbitero, Iohanni
+                        presbitero, Girardo presbitero, Berto presbitero, Iudoni presbitero, Leoni
+                        presbitero et reliquis qui ibi in praesenti serviunt eorumque successoribus
+                        qui futuris temporibus qui ibi servierint, restituimus confirmamus
+                        pleniterque corroboramus etiam praedicti loci canonicis curticellam unam
+                        quam dive memoriae noster avus Otto imperator eis concessit, que+ coniacet
+                        in avocabulo Toppo una cum ipsa silva que+ dicitur Arbororo et una cum omni
+                        pertinentia sua et cum ipsa waldemannia que+ coniacet in Uico et in
+                        Polliciano et in Petiano et per illorum vocabula, et campum unum qui dicitur
+                        Longoria coniacentem prope Perulascio qui capere videtur modia viginti, ita
+                        videlicet ut nec rector huiusdem sedis nec cuiuslibet potestatis persona de
+                        praefatis rebus vel de eorum pertinentiis seu de his que+ divina pietas
+                        inibi agere voluerit illis aliquam inferre praesumet contrarietatem vel
+                        diminorationem ullam ingerere adtemptet. Confirmamus eis scilicet terram
+                        quam Ugo rex de sua proprietate eisdem concessit canonicis, id est campum
+                        unum de Piunta et campum de Gratigata, ut [i]llis abque aliqua minoratione
+                        aut cuiuslibet potestatis contrarietate perhennis perseveret temporibus.
+                        Statuimus quoque ut sit ipsa canonica cum canonicis ipsius loci sub
+                        magisterio et regimine Uuillehelmi archidiaconi et Berahardi archipresbiteri
+                        eorumque successorum, facientes pari voto communique consensu de frugibus et
+                        redditibus quod in ipsa canonica annualiter dominus dederit seu de
+                        helemosinis absolute et libere, quod canonici facere debent, abque ullius
+                        contradictione vel molestatione. Quia Tuscis consuetudo est ut, accepto ab
+                        ecclesia libello, in contumaciam convertantur contra ecclesiam, ita ut vix
+                        aut constitutum reddant censum, praecipimus quoque ut his que omnibus
+                        iubemus ut non episcopus vel canonicus libellum aut aliquod scriptum alicui
+                        homini faciant, nisi laboratoribus qui fructum terre+ ecclesiae et canonicis
+                        ipsius loci reddant sine molestia vel contradictione aliqua. Praecipimus
+                        quoque ut in ipsa canonica nulla deinceps adiciatur persona absque communi
+                        consensu, ne propter hoc aliqua inter illos oriatur discordia. Pro maiori
+                        quoque illorum securitate praecipimus illos cum omnibus illorum mobilibus et
+                        inmobilibus rebus illis iuste et legaliter pertinentibus sub nostrae
+                        tuitionis mundiburdio, quatenus securae vivere deoque servire et pro nobis
+                        statuque regni nostri remedioque anime+ nostrae orare illis iugiter
+                        delectet. Si quis igitur nostrae huius confirmationis praecepti et
+                        mundiburdii violator aut contradictor extiterit, sciat se compositurum auri
+                        optimi libras centum, medietatem camere nostrae et medietate praefatis
+                        canonicis qui in ecclesia beati Donati pro tempore serviunt. Quod ut verius
+                        credatur diligentiusque ab omnibus observetur, manu propria roborantes
+                        nostro sigillo subter annotari iussimus.Signum domni Ottonis invictissimi
+                        (M.) imperatoris augusti. Heribertus cancellarius vice Petri episcopi et
+                        archicancellarii notavi. (SI. D.) Data IIII. id. iul. anno dominice
+                        incarnationis DCCCCXCVI, indictione VIIII, anno vero tertii Ottonis
+                        regnantis XIII, imperii autem primo; actum in ecclesia sancti Donati;
+                        feliciter amen.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>MGH DD O III, pp. 628-629, n° 217</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>Conferma della donazione di Ugo e Lotario DD U L, pp. 101-105, n° XXXIII.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
