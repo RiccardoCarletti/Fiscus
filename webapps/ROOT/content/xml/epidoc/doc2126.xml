@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title></title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc2126</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0972-07-30">
+                                <note type="displayed_date">972 july 30</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Milano</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-02-08" who="Chiara Stedile">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine patris et filii et spiritus sancti. Otto divina favente clementia
+                        imperator augustus. Si coniugis nostre piis supplicationibus faventes
+                        [ecclesiarum hono]res ob utilitatem servorum dei ordinamus ac coroboramus,
+                        absque dubio imperii nostri stabilimentum [et coelestis] regni nobis
+                        conciliamus emolumentum. Ideoque omnium fidelium sancte dei ecclesie ac
+                        nostrorum presentium videlicet ac futurorum noverit universitas, quia
+                        dilectissima coniux nostra Adelayda et consors nostri imperii humiliter
+                        nostram adiit clemenciam, quatenus Guberto preposito et congregationi
+                        Bobiensis coenobii quod est constructum in honore beati Petri principis
+                        apostolorum, ubi beatissimus confessor Christi Columbanus corpore quiescit,
+                        quemadmodum imperatores sive reges nostri regni antecessores illorum
+                        temporum presulibus preceptiones ac suarum firmitatum manuum coroborationes
+                        contulerunt, ita et nos pro remedio anime nostre et amore prefate
+                        amantissime nostre coniugis, ob stabilitatem et prefati loci firmitatem
+                        Ebobiensis nostre auctoritatis pragmaticum concederemus. Nos itaque
+                        considerantes retributionis mercedisque future gratiam ob reverenciam
+                        sanctorum confessorum Columbani, Atalle atque Bertulfi qui ibidem humati
+                        conquiescunt, propter interventum quoque predicte nostre coniugis Adelayde
+                        libenter asensum prebuimus et huius nostre auctoritatis preceptum perenniter
+                        et immutabiliter conservandum fieri iussimus, et ea que congruere atque
+                        expedire necessitatibus eorum videntur, hac nostra largitione inviolabiliter
+                        persistenda sancimus, per quod omnia que inferius anotantur absque cuiusquam
+                        inquietudine seu immutatione concedimus habenda et ordinanda per abbatem qui
+                        pro tempore fuerit nostra largitione et eorum electione ipsi sancto loco
+                        constitutum secundum dei voluntatem eorumque in omnibus competentem
+                        utilitatem. Id est monasterium cum cellulis infra vallem per fines de
+                        Pretalia et de alpe Pinino cum confinibus suis, descendentem in petra Groam
+                        per viam publicam desubter petra Pedara, venientem in costam Transdignam,
+                        per summam costam descendentem in fluvio Treuia, inde ultra fines de
+                        Barbarino exeuntem de fluvio Treuia ad Membrata cum ipsa insula, ascendente
+                        per Clapetum et summam serram maiorem de Cassiollo in fossa Lupparia, deinde
+                        ambulantem per summam Combreuiam usque in petram Ursicinam et in monte Caluo
+                        atque inde per designata loca in Tres petrellas, inde in Ganeualia,
+                        descendente usque in Telechio trans Granarola ad finem de Metellia usque ad
+                        casale Rodolino que per circuitum per designata loca et teclaturas
+                        percurrunt. Concedimus etiam cellas et oracula sanctorum que hedificata sunt
+                        per universa loca sub ditione nostra, id est fines de Bocullo, Ture vel
+                        ultra Taro ecclesiam sancti Georgii cum confinibus suis, Saloniano montana
+                        ac maritima cum cellulis Carice et Turio, Gomorga, Canpenticem et
+                        Castelione, Ranci et Caniano atque Brioni, Barbada et Uiridini cum ecclesia
+                        sancti Pauli in Niza et sancti Albani in Candubrio, Montem longum cum
+                        Memoriola et omnibus appendiciis suis, Touaciam quoque cum ecclesia sancti
+                        Pauli in Sartoriano, ecclesiam sancti Antonini et sancti Seueri sanctique
+                        Sinphoriani, Peccoraria cum Pallantas et propria Guntelini et Paderno ac
+                        Cassiano, Trauano, Uariano et Anchariano, ecclesiam domini Salvatoris in
+                        Clauzano, Rouaclas etiam et ecclesiam sancte Resurectionis cum his que ad
+                        eam pertinent, Aulianum, Sorlascum et senodochium in casale Lupani,
+                        senodochium etiam sancti Vrci et Clementis, Luliatica, Gardam cum Arbaxio,
+                        Frasanetum et portum Mantuanum, propriumque quod Sabatinus Ueneticus in
+                        Comaclo sancto Columbano tradidit, senodochium in Rega cum apendiciis suis
+                        atque Genuam, senodochium in Papia cum omnibus ad eum pertinentibus.
+                        Concedimus etiam ob utilitatem et honorem ipsius sancti loci ut naves
+                        eiusdem potestatis per Paudum et Ticinum publicum transitum habeant, seu et
+                        molendinum quod Berengarius imperator quondam eidem monasterio concessit.
+                        Similiter conferimus terram quam Benedictus pater ipsius Guberti prepositi
+                        in loco Frafricio eidem monasterio concessit, nec non et eam quam Azo et
+                        Aripertus germani in viculo Gozo quoque et Bernardus de Spinelle prefato
+                        sancto loco dederunt; atque omnia que postea in ipso venerando loco colata
+                        sunt et nunc presenti tempore possidere videntur, nec non quicquid intus et
+                        foris habent in finibus circumnexis Mediolanensibus, Placentinis,
+                        Parmensibus, Terdonensibus, Aquensibus, Astensibus, Uercelensibus,
+                        Taurinensibus, Eporiensibus, Fabriensibus, Comensibus, Laudensibus,
+                        Bergomensibus, Brisianis, Mantuanis, Ueronensibus, Cremonensibus,
+                        Trientinensibus vel Gradensibus, quicquid in Tuscia vel in Luchanensibus
+                        finibus, Pisanensibus vel Pistoriensibus, id est in massa Boscholi, in
+                        Pantimano, in Veriana vel ubiubi: omnia que ad eundem sanctum locum delegata
+                        et tradita esse noscuntur, ita cum omni integritate et cum omnibus ad se
+                        pertinentibus, cum massariciis vel liberis aldionibus seu silvis alpibus
+                        olivetis vel colonias cellis seu cunctis adiacenciis sub omni integritate
+                        absque ulla diminutione integre, sive queque deinceps ipsi sana industria
+                        vel quorumlibet Christianorum legitima collatione adquirere potuerunt,
+                        inconvulsa et perpetua stabilitate concedimus haberi possideri ad votum
+                        ipsorum religiose ac rationabiliter ordinari. Insuper etiam decrevimus ut
+                        iusta privilegia a Romanis pontificibus collata prefatum cenobium suum ius
+                        ac vigorem teneat, ita ut nulli episcopo subiaceat neque aliquod obsequium
+                        prebeat, set cum necesse fuerit, quem episcoporum voluerit predictus
+                        Gubertus prepositus eademque congregatio adeat propter consecracionem vel
+                        chrismatis dacionem. Recepimus autem eundem venerabilem Gubertum prepositum
+                        cunctamque congregationem omnesque res predia et familias eiusdem cenobii
+                        sub nostra defensione ac tuicione atque precipientes iubemus ut nullus dux
+                        marchio comes vicecomes vel aliqua regni nostri magna parvaque persona
+                        predia res familias predicti cenobii distrahere potestative tenere seu
+                        invadere audeat, set liceat prefato coenobio cuncta que sibi videntur
+                        pertinere, virtuoseque perpetuo possidere, omnium hominum contradictione
+                        remota. Si quis igitur huius confirmationis pragmaticum infringere
+                        temptaverit, sciat se compositurum auri optimi libras quingentas, medietatem
+                        camere nostre et medietatem parti coenobii predicti. Itaque ut hec nostra
+                        assertio inconvulsa deinceps maneat ac diligencius ab omnibus observetur,
+                        manibus propriis roborantes anuli nostri impressione insigniri precepimus.
+                        [Signum domni Ottonis (M.) imperatoris serenissimi augusti. Petrus
+                        cancellarius advicem Huberti episcopi et archicancellarii recognovi et
+                        subscripsi. Data tertio kal. augusti anno dominice incarnationis DCCCCLXXII,
+                        imperii vero domni Ottonis XI, indictione XV; actum Mediolani in monasterio
+                        sancti Ambrosii.]</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
