@@ -4,7 +4,7 @@
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
-                <title></title>
+                <title>Archivio Capitolare di Arezzo (MGH DD O I, pp. 361-362, n° 253)</title>
             </titleStmt>
             <editionStmt>
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
@@ -30,9 +30,9 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#"/>
-                            <rs type="record_source" ref="#"/>
-                            <rs type="document_tradition" ref="#"/>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
                             <rs type="fiscal_property"/>
                         </summary>
                         <msItem xml:id="msItem1">
@@ -41,11 +41,11 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate notBefore="0001" notAfter="0001" when="0001"> 
-                                <note type="displayed_date"></note>
-                                <note type="dating_elements"></note>
-                                <note type="topical_date"></note>
-                                <note type="redaction_date"></note>
+                            <origDate when="0963-05-10">
+                                <note type="displayed_date">963 may 10</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">San Leo</note>
+                                <note type="redaction_date"/>
                             </origDate>
                             <origPlace/>
                         </origin>
@@ -164,7 +164,10 @@
                 <p/>
             </div>
             <div type="commentary">
-                <p/>
+                <p>Conferma della donazione di Ugo e Lotario (DD U L, pp. 101-105, n° XXXIII). I
+                    possedimenti di <foreign>Piunta</foreign> e <foreign>Graticiata</foreign> sono
+                    donati alla Chiesa di Arezzo già da Berengario I il 2 gennaio 916 (DD B I, pp.
+                    279-281 n° CIX).</p>
             </div>
         </body>
     </text>
