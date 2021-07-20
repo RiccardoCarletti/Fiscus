@@ -33,7 +33,7 @@
                             <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">No</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -93,9 +93,11 @@
                             >episcopus</rs> et <rs key="#Archchancellor">archicancellarius</rs>
                         noster nostre <rs key="#Intercessory">innotuit celsitudini</rs>, quod
                         peccatis exigentibus casu inprovise accidente thesaurum <orgName
-                            ref="#juridical_persons/206">sancte <placeName ref="#places/254"
-                                >Astensis</placeName> ecclesie</orgName>, cui <persName
-                            key="#Bishops"><name ref="Ioseph">Ioseph</name></persName>
+                            ref="#juridical_persons/206"
+                            key="#Public_exactions #Teloneum #Tuitio/bannum/mundeburdium #Churches #Royal_slave #Royal_aldius"
+                            >sancte <placeName ref="#places/254">Astensis</placeName>
+                            ecclesie</orgName>, cui <persName key="#Bishops"><name ref="Ioseph"
+                                >Ioseph</name></persName>
                         <rs key="#Bishops">episcopus</rs> preesse dignoscitur, igne crematum fuerat,
                         in quo varia <rs key="#Cartula">instrumenta cartarum</rs>, oblationes
                         videlicet et <rs key="#Offersio/donatio">donationes</rs>
