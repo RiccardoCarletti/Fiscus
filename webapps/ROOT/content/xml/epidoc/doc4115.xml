@@ -82,12 +82,13 @@
                 <body>
                     <div type="edition">
                         <div type="textpart">
-                            <ab><persName key="#Priests"><name>Anacardo</name></persName>
+                            <ab><persName key="#Priests"><name ref="Anacardus"
+                            >Anacardo</name></persName>
                         <rs key="#Priests">presbitero</rs> rectori <rs key="#Churches"
                             >ecclesiae</rs> beati <orgName key="#Churches"
                             ref="#juridical_persons/232">Sancti Petri</orgName> sita in loco
                             <placeName key="#Churches" ref="#places/597">Castellione</placeName>
-                        prope <placeName>Fernetam</placeName>
+                        prope <placeName ref="#places/597">Fernetam</placeName>
                         <foreign>dona pro anima</foreign> Deo et tibi <rs key="#Churches"
                             >ecclesiae</rs>
                         <orgName key="#Churches #Private_foundations" ref="#juridical_persons/613"
@@ -108,24 +109,28 @@
                         usitilia casae seu <rs key="#Animals">nutrimina</rs>, quae in meam reservo
                         potestatem. <foreign>Ne riserva l’usufrutto vitalizio, ma non la possibilità
                             di cedere i beni, per sé et per</foreign>
-                        <persName><name>Auriperta</name></persName> presbiteria mea (…).
-                            <foreign>Dopo la sua morte i beni e la chiesa appartengano</foreign> in
+                        <persName><name ref="Auriperta">Auriperta</name></persName> presbiteria mea
+                        (…). <foreign>Dopo la sua morte i beni e la chiesa appartengano</foreign> in
                         iamdicta ecclesia <foreign>(scil. di S. Colombano)</foreign> vel de <rs
                             key="#Bishops">pontefice</rs> qui pro tempore fuerit (…). Actum
                             <placeName ref="#places/4">Luca</placeName>.
                             <foreign>Sottoscrizioni:</foreign> (ss) Anacard presbiter; + <persName
-                                key="#Witness #Specialized_workers"><name>Petti</name></persName>
+                            key="#Witness #Specialized_workers"><name ref="Pettus"
+                            >Petti</name></persName>
                         <rs key="#Specialized_workers">aurificis</rs> germani eius testis; +
-                                <persName key="#Witness #Other_clerics"><name>Peretheuli</name></persName>
-                        <rs key="#Other_clerics">acoliti</rs> filii quondam
-                                <persName><name>Gauderali</name></persName> testis; (ss)
-                                <persName key="#Witness #Priests"><name>Firmo</name></persName>
-                        <rs key="#Priests">presbiter</rs>; (ss)
-                                <persName key="#Witness #Other_clerics"><name>Sprinca</name></persName>
-                        <rs key="#Other_clerics">clericus</rs>; (ss)
-                                <persName key="#Witness #Other_clerics"><name>Emmo</name></persName>
+                            <persName key="#Witness #Other_clerics"><name ref="Peredeulus"
+                                >Peretheuli</name></persName>
+                        <rs key="#Other_clerics">acoliti</rs> filii quondam <persName><name
+                                ref="Gauseradus">Gauderadi</name></persName> testis; (ss) <persName
+                            key="#Witness #Priests"><name ref="Firmus">Firmo</name></persName>
+                        <rs key="#Priests">presbiter</rs>; (ss) <persName
+                            key="#Witness #Other_clerics"><name ref="Sprinca"
+                            >Sprinca</name></persName>
+                        <rs key="#Other_clerics">clericus</rs>; (ss) <persName
+                            key="#Witness #Other_clerics"><name ref="Emmo">Emmo</name></persName>
                         <rs key="#Other_clerics">clericus</rs>. <foreign>Scrive</foreign>: <persName
-                            key="#Writer #Other_clerics"><name>Austripertus</name></persName>
+                            key="#Writer #Other_clerics"><name ref="Ostribertus"
+                            >Austripertus</name></persName>
                         <rs key="#Other_clerics">clericus</rs>.</ab>
                         </div>
                     </div>
