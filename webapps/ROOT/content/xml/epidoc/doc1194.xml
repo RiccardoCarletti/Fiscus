@@ -97,7 +97,7 @@
                             <rs key="#Abbots">abbati</rs>
                         <persName key="#Abbots"><name ref="Agilulf">Agilulfo</name></persName>
                         <orgName ref="#juridical_persons/151"
-                            key="#Islands #Hay/fodder #Coloni/tenants #Pagus #Immunity #Inquisitio #Tuitio/bannum/mundeburdium #Churches #Cells/hermitages #Hospitals #Bishops #Royal_slave"
+                            key="#Islands #Hay/fodder #Fiscal_property #Outflow #Iure_proprietatis/pleno_iure #Coloni/tenants #Pagus #Immunity #Inquisitio #Tuitio/bannum/mundeburdium #Churches #Cells/hermitages #Hospitals #Bishops #Royal_slave"
                             >Ebobiensis <rs key="#Monasteries">coenobii</rs></orgName> eiusque
                         congregationi ibidem degentibus preceptum iuxta felicium decessorum
                         nostrorum augustorum innovare sanciremus. Nos itaque considerantes aeterne
@@ -138,27 +138,35 @@
                             key="#Cells/hermitages">Vicopontio</placeName>, <placeName
                             key="#Cells/hermitages">Virdim</placeName> cum <rs key="#Churches"
                             >ecclesia</rs>
-                        <orgName key="#Churches" ref="#juridical_persons/179">Sancti Pauli</orgName>
-                        in <placeName ref="#places/466">Niza</placeName> et <orgName key="#Churches"
+                        <orgName
+                            key="#Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches #Churches"
+                            ref="#juridical_persons/179">Sancti Pauli</orgName> in <placeName
+                            ref="#places/466">Niza</placeName> et <orgName
+                            key="#Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches #Churches"
                             ref="#juridical_persons/180">Sancti Albani in Candubrio</orgName>,
                             <placeName ref="#places/467">Monte Longum</placeName> cum Memoriola et
                         omnibus appendiciis suis, <placeName key="#Churches" ref="#places/468"
-                            >Tovacia</placeName> cum ecclesia <orgName key="#Churches"
+                            >Tovacia</placeName> cum ecclesia <orgName
+                            key="#Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches #Churches"
                             ref="#juridical_persons/185">Sancti Pauli in Sarturiano</orgName>, <rs
                             key="#Hay/fodder">Prato Silvano</rs> cum ecclesia <orgName
-                            key="#Churches" ref="#juridical_persons/184">Sancti Antonini</orgName>
-                        et <orgName key="#Churches" ref="#juridical_persons/186">Sancti
-                            Severi</orgName>, <placeName ref="#places/474">Pecorari</placeName> cum
-                            <placeName ref="#places/475">Palantas</placeName> et proprio
-                                <persName><name ref="Guntelmus">Guntelmi</name></persName> et
-                            <placeName>Paderno</placeName>, <placeName ref="#places/476"
-                            >Travano</placeName> cum <placeName>Alfiano</placeName> et <placeName
-                            ref="#places/477">Ancariano</placeName> et ecclesia <orgName
-                            key="#Churches">Sancti Salvatoris</orgName> in <placeName
-                            ref="#places/481">Clauzano</placeName>, <placeName ref="#places/480"
-                            >Rovaclas</placeName> et ecclesia <orgName key="#Churches">in honore
-                            sanctae Resurrectionis</orgName> cum his que ad eam pertinent,
-                            <placeName ref="#places/478">Auliano</placeName> cum proprio de
+                            key="#Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches #Churches"
+                            ref="#juridical_persons/184">Sancti Antonini</orgName> et <orgName
+                            key="#Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches #Churches"
+                            ref="#juridical_persons/186">Sancti Severi</orgName>, <placeName
+                            ref="#places/474">Pecorari</placeName> cum <placeName ref="#places/475"
+                            >Palantas</placeName> et proprio <persName><name ref="Guntelmus"
+                                >Guntelmi</name></persName> et <placeName>Paderno</placeName>,
+                            <placeName ref="#places/476">Travano</placeName> cum
+                            <placeName>Alfiano</placeName> et <placeName ref="#places/477"
+                            >Ancariano</placeName> et ecclesia <orgName
+                            key="#Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches #Churches"
+                            >Sancti Salvatoris</orgName> in <placeName ref="#places/481"
+                            >Clauzano</placeName>, <placeName ref="#places/480">Rovaclas</placeName>
+                        et ecclesia <orgName
+                            key="#Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches #Churches"
+                            >in honore sanctae Resurrectionis</orgName> cum his que ad eam
+                        pertinent, <placeName ref="#places/478">Auliano</placeName> cum proprio de
                                 <persName><name ref="Fulcherius">Fulcario</name></persName> et
                                 <persName><name ref="Teutrudis">Teutrude</name></persName>,
                             <placeName>Perlas</placeName> cum <placeName>Romariasca</placeName>,
@@ -185,7 +193,9 @@
                             >familiis</rs> seu cunctis adiacenciis sub om[ni inte]gritate absque
                         ulla diminutioneseu subtractione, et quaeque deinceps ipsi sana industria
                         cel quorumlibet Christianorum legitima collatione adquirere potuerint
-                        inconvulsa hac perpetua stabilitate concedimus haberi, possideri et ad votum
+                        inconvulsa hac <rs
+                            key="#Fiscal_property #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
+                            >perpetua stabilitate concedimus</rs> haberi, possideri et ad votum
                         ipsorum religiose rationabiliter et Deo placite ordinari. Sed et privilegia
                         apostolica auctoritate eidem sancto loco largita [per] hoc pragmaticum
                         confirmamus, et [ut] nullus episcoporum vel ex colibet ecclesiastico ordine
