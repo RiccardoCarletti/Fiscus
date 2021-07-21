@@ -4,7 +4,7 @@
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
-                <title>Archivio Capitolare di Parma</title>
+                <title>Archivio Capitolare di Parma (DD G L, pp. 92-94, n° IX)</title>
             </titleStmt>
             <editionStmt>
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
@@ -81,45 +81,59 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>In nomine sanctae et individuae Trinitatis. Lanbertus divina favente
-                        clementia imperator augustus. Convenit imperiali arbitrio ut sacerdotum Deo
-                        famulantium res iuste quocumque modo adquisite ita ab ipso corroborentur, ut
-                        postmodum a calumniosis et pravis personis nequaquam auferri possint. Igitur
-                        omnium fidelium sanctae Dei Ecclesiae nostorumque presentium scilicet et
-                        futurorum comperiat sollertia, quod canonici sanctae Parmensis ecclesiae per
-                        Amolonem venerabilem episcopum archicancellarium nostrum petierunt nostram
-                        clementiam, ut ecclesias, cappellas, curtes cum massariis et omnibus ibi
-                        adherentibus vel pertinentiis in finibus Parmensis et Regiensis parroechiae
-                        sitas, quae quondam a Vuibodo Parmensi episcopo et Vulgunda Deo dicata
-                        possessae et illorum dominio detentae probantur et legaliter in potestate
-                        praedictorum canonicorum quocumque modo aut undecumque devolutae per paginam
-                        scriptionis noscuntur, nostro eas corroborassemus et confirmaremus edicto.
-                        Quorum petitionibus pio affectu pro omnipotentis Dei et eiusdem genitricis
-                        beatae Mariae debito amore consulentes, iussimus eis hoc nostrum fieri
-                        praeceptum, per quod tam ecclesias, capellas quam curtes cum massariis et
-                        omnibus sibi subditis et pertinentiis in finibus Parmensis et Regiensis vel
-                        in circuitu locatas, quas Vuihbodus episcopus et Vulgunda Deo dicata in ius
-                        et dominium per paginam scriptionis et legitimam vestituram habuisse et
-                        tenuisse dinoscuntur, et de ipsis videlicet Vuihbodo episcopo et Vulgunda
-                        quomodocumque aut undecumque per legitimam firmitatem et scriptionem in
-                        dominio et potestate ipsorum canonicorum integriter pervenisse manifestum
-                        est, nostra imperiali auctoritate in integrum, ut dignum est, praedictis
-                        canonicis firmamus et conservamus, sicut ab ipsis Vuihbodo et Vulgunda eis
-                        traditae sunt, ut nulla magna parvaque persona temere in parte vel in toto
-                        se intermittere praesumat absque legali iudicio vel sacri palacii nostri
-                        diffinitione. Si vero quisquam invasor aut temerator hanc nostram
-                        auctori[tatem] parvipendens praesumptiose violare temptaverit, cognoscat se
-                        secundum capitulare nostrorum antecessorum regum et imperatorum districte
-                        iudicandum, et insuper sulviturum triginta libras auri optimi, medietatem
-                        palaci[o nost]ro et medietatem ipsis canonicis quibus violentia illata
-                        fuerit. Verum ut haec nostrae concessionis veritas stabilius certiusque
-                        credatur et observetur, manu propria subter firmavimus, et anuli nostri
-                        inpraessione insigniri iussimus. Signum domni (MF) Lanberti serenissimi
-                        imperatoris augusti. Englinus cancellarius iubente domno Lanberto imperatore
-                        recognovi et subscripsi (SR) (SI D). Data VI kal.aug., annu incarnationis
-                        Domini DCCCXCVIIII, domni quoque Lanberti piissimi imperatoris VI,
-                        indictione I. Actum Papie urbe Ticinensi. In Dei nomine felicieter,
-                        amen.</ab>
+                    <ab>In nomine sanctae et individuae Trinitatis. <persName key="#Emperor/king"
+                            ref="#people/136">Lanbertus</persName> divina favente clementia <rs
+                            key="#Emperor/king">imperator</rs> augustus. Convenit imperiali arbitrio
+                        ut sacerdotum Deo famulantium res iuste quocumque modo adquisite ita ab ipso
+                        corroborentur, ut postmodum a calumniosis et pravis personis nequaquam
+                        auferri possint. Igitur omnium fidelium sanctae Dei Ecclesiae nostorumque
+                        presentium scilicet et futurorum comperiat sollertia, quod <rs
+                            key="#Priests">canonici</rs>
+                        <orgName key="#Collegiate_churches" ref="#juridical_persons/1410">sanctae
+                                <placeName ref="#places/53">Parmensis</placeName>
+                            ecclesiae</orgName> per <persName
+                            key="#Intercessory #Archchancellor #Bishops" ref="#people/215"
+                            >Amolonem</persName> venerabilem <rs key="#Bishops">episcopum</rs>
+                        <rs key="#Archchancellor">archicancellarium</rs> nostrum petierunt nostram
+                            <rs key="#Intercessory">clementiam</rs>, ut <rs key="#Churches"
+                            >ecclesias</rs>, cappellas, <rs key="#Curtes">curtes</rs> cum <rs
+                            key="#Coloni/tenants">massariis</rs> et omnibus ibi adherentibus vel
+                        pertinentiis in finibus <geogName key="#Other_administrative_unit"
+                            ref="#estates/161">Parmensis</geogName> et <geogName
+                            key="#Other_administrative_unit" ref="#estates/1503"
+                            >Regiensis</geogName>
+                        <rs key="#Other_administrative_unit">parroechiae</rs> sitas, quae quondam a
+                            <persName key="#Bishops" ref="#people/31">Vuibodo</persName> Parmensi
+                        episcopo et <persName><name ref="Wulgunda">Vulgunda</name></persName> Deo
+                        dicata possessae et illorum dominio detentae probantur et legaliter in
+                        potestate praedictorum canonicorum quocumque modo aut undecumque devolutae
+                        per paginam scriptionis noscuntur, nostro eas corroborassemus et
+                        confirmaremus edicto. Quorum petitionibus pio affectu pro omnipotentis Dei
+                        et eiusdem genitricis beatae Mariae debito amore consulentes, iussimus eis
+                        hoc nostrum fieri praeceptum, per quod tam ecclesias, capellas quam curtes
+                        cum massariis et omnibus sibi subditis et pertinentiis in finibus Parmensis
+                        et Regiensis vel in circuitu locatas, quas Vuihbodus episcopus et Vulgunda
+                        Deo dicata in ius et dominium per paginam scriptionis et legitimam
+                        vestituram habuisse et tenuisse dinoscuntur, et de ipsis videlicet Vuihbodo
+                        episcopo et Vulgunda quomodocumque aut undecumque per legitimam firmitatem
+                        et scriptionem in dominio et potestate ipsorum canonicorum integriter
+                        pervenisse manifestum est, nostra imperiali auctoritate in integrum, ut
+                        dignum est, praedictis canonicis firmamus et conservamus, sicut ab ipsis
+                        Vuihbodo et Vulgunda eis traditae sunt, ut nulla magna parvaque persona
+                        temere in parte vel in toto se intermittere praesumat absque legali iudicio
+                        vel sacri palacii nostri diffinitione. Si vero quisquam invasor aut
+                        temerator hanc nostram auctori[tatem] parvipendens praesumptiose violare
+                        temptaverit, cognoscat se secundum capitulare nostrorum antecessorum regum
+                        et imperatorum districte iudicandum, et insuper sulviturum triginta libras
+                        auri optimi, medietatem palaci[o nost]ro et medietatem ipsis canonicis
+                        quibus violentia illata fuerit. Verum ut haec nostrae concessionis veritas
+                        stabilius certiusque credatur et observetur, manu propria subter firmavimus,
+                        et anuli nostri inpraessione insigniri iussimus. Signum domni (MF) Lanberti
+                        serenissimi imperatoris augusti. Englinus cancellarius iubente domno
+                        Lanberto imperatore recognovi et subscripsi (SR) (SI D). Data VI kal.aug.,
+                        annu incarnationis Domini DCCCXCVIIII, domni quoque Lanberti piissimi
+                        imperatoris VI, indictione I. Actum Papie urbe Ticinensi. In Dei nomine
+                        felicieter, amen.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
