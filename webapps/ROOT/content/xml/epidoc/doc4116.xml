@@ -82,38 +82,45 @@
                 <body>
                     <div type="edition">
                         <div type="textpart">
-                            <ab><persName><name>Rodingo</name></persName> filio bone memorie
+                            <ab><persName key="#Vir_devotus/vir_honestus"
+                            ><name>Rodingo</name></persName> filio bone memorie
                                 <persName><name>Teudorichi</name></persName>
                         <foreign>vende a</foreign>
-                        <persName><name>Grasolfe</name></persName>
+                        <persName key="#Moneyers"><name>Grasolfe</name></persName>
                         <rs key="#Moneyers">munitario</rs>
                         <rs key="#Size">uno modiloco</rs> de <rs key="#Petiae">terra</rs> mea per
                         mensura, quem havire visu sum prope <rs key="#Churches">eclesia</rs>
-                        <orgName>Sancti Colombani</orgName> et prope <rs key="#Walls">muro</rs>
-                        <rs key="#Cities">civitatis</rs> ista <placeName>Lucense</placeName>. Qui
-                        ipse terra capo tene in <rs key="#Petiae">terra</rs>
-                        <persName>Peredei</persName>
-                        <rs>episcopus</rs>, alio capo tenente est in <rs key="#Petiae">terra</rs>
-                        <persName><name>Petri</name></persName>, latere uno tene in <rs
+                        <orgName key="#Churches" ref="#juridical_persons/613">Sancti
+                            Colombani</orgName> et prope <rs key="#Walls">muro</rs>
+                        <rs key="#Cities">civitatis</rs> ista <placeName
+                            key="#Cities #Petiae #Size #Walls #Churches" ref="#places/4"
+                            >Lucense</placeName>. Qui ipse terra capo tene in <rs key="#Petiae"
+                            >terra</rs>
+                        <persName key="#Confinia #Petiae #Bishops" ref="#people/343"
+                            >Peredei</persName>
+                        <rs key="#Bishops">episcopus</rs>, alio capo tenente est in <rs
                             key="#Petiae">terra</rs>
-                        <persName><name>Pelerini</name></persName>, et alio latere tenente in <rs
-                            key="#Petiae">terra</rs>
-                        <persName><name>Petri</name></persName>. <foreign>Prezzo</foreign>: in auri
-                        soledos nomero quindeci et uno <rs key="#Horses">cavallo</rs> pro soledis
-                        trideci. <foreign>Pena in duplum</foreign>. Actum
-                            <placeName>Luca</placeName>. <foreign>Sottoscrizioni</foreign>: +
-                        Rodinghi <rs key="#Vir_devotus/vir_honestus">viri devoti</rs> vindituri; +
-                                <persName><name>Deusdedi</name></persName> filio quondam
-                                <persName><name>Baruncelli</name></persName> testis; +
-                                <persName><name>Pranduli</name></persName>
+                        <persName key="#Confinia #Petiae"><name ref="Petrus"
+                        >Petri</name></persName>, latere uno tene in <rs key="#Petiae">terra</rs>
+                        <persName key="#Confinia #Petiae"><name>Pelerini</name></persName>, et alio
+                        latere tenente in <rs key="#Petiae">terra</rs>
+                        <persName key="#Confinia #Petiae"><name ref="Petrus"
+                        >Petri</name></persName>. <foreign>Prezzo</foreign>: in auri soledos nomero
+                        quindeci et uno <rs key="#Horses">cavallo</rs> pro soledis trideci.
+                            <foreign>Pena in duplum</foreign>. Actum <placeName ref="#places/4"
+                            >Luca</placeName>. <foreign>Sottoscrizioni</foreign>: + Rodinghi <rs
+                            key="#Vir_devotus/vir_honestus">viri devoti</rs> vindituri; + <persName
+                            key="#Witness"><name>Deusdedi</name></persName> filio quondam
+                                <persName><name>Baruncelli</name></persName> testis; + <persName
+                            key="#Witness #Other_clerics"><name>Pranduli</name></persName>
                         <rs key="#Other_clerics">clerici</rs> filii quondam
-                                <persName><name>Aspert</name></persName> testis; +
-                                <persName><name>Vallerini</name></persName>
+                                <persName><name>Aspert</name></persName> testis; + <persName
+                            key="#Witness #Other_clerics"><name>Vallerini</name></persName>
                         <rs key="#Other_clerics">clerici</rs> filio
-                            <persName><name>Gienti</name></persName> testis; (ss)
-                                <persName><name>Fortunatu</name></persName>
-                        <rs key="#Other_clerics">clericus</rs>. <foreign>Scrive</foreign>:
-                                <persName><name>Prandulo</name></persName>. </ab>
+                            <persName><name>Gienti</name></persName> testis; (ss) <persName
+                            key="#Witness #Other_clerics"><name>Fortunatu</name></persName>
+                        <rs key="#Other_clerics">clericus</rs>. <foreign>Scrive</foreign>: <persName
+                            key="#Writer"><name>Prandulo</name></persName>. </ab>
                         </div>
                     </div>
                     <div type="bibliography" subtype="editions">
