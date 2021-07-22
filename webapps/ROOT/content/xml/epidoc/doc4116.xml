@@ -82,11 +82,11 @@
                 <body>
                     <div type="edition">
                         <div type="textpart">
-                            <ab><persName key="#Vir_devotus/vir_honestus"
-                            ><name>Rodingo</name></persName> filio bone memorie
-                                <persName><name>Teudorichi</name></persName>
+                            <ab><persName key="#Vir_devotus/vir_honestus"><name ref="Rodingus"
+                                >Rodingo</name></persName> filio bone memorie <persName><name
+                                ref="Teudericus">Teudorichi</name></persName>
                         <foreign>vende a</foreign>
-                        <persName key="#Moneyers"><name>Grasolfe</name></persName>
+                        <persName key="#Moneyers"><name ref="Grasulfus">Grasolfe</name></persName>
                         <rs key="#Moneyers">munitario</rs>
                         <rs key="#Size">uno modiloco</rs> de <rs key="#Petiae">terra</rs> mea per
                         mensura, quem havire visu sum prope <rs key="#Churches">eclesia</rs>
@@ -102,25 +102,29 @@
                             key="#Petiae">terra</rs>
                         <persName key="#Confinia #Petiae"><name ref="Petrus"
                         >Petri</name></persName>, latere uno tene in <rs key="#Petiae">terra</rs>
-                        <persName key="#Confinia #Petiae"><name>Pelerini</name></persName>, et alio
-                        latere tenente in <rs key="#Petiae">terra</rs>
+                        <persName key="#Confinia #Petiae"><name ref="Peregrinus"
+                            >Pelerini</name></persName>, et alio latere tenente in <rs key="#Petiae"
+                            >terra</rs>
                         <persName key="#Confinia #Petiae"><name ref="Petrus"
                         >Petri</name></persName>. <foreign>Prezzo</foreign>: in auri soledos nomero
                         quindeci et uno <rs key="#Horses">cavallo</rs> pro soledis trideci.
                             <foreign>Pena in duplum</foreign>. Actum <placeName ref="#places/4"
                             >Luca</placeName>. <foreign>Sottoscrizioni</foreign>: + Rodinghi <rs
                             key="#Vir_devotus/vir_honestus">viri devoti</rs> vindituri; + <persName
-                            key="#Witness"><name>Deusdedi</name></persName> filio quondam
-                                <persName><name>Baruncelli</name></persName> testis; + <persName
-                            key="#Witness #Other_clerics"><name>Pranduli</name></persName>
-                        <rs key="#Other_clerics">clerici</rs> filii quondam
-                                <persName><name>Aspert</name></persName> testis; + <persName
-                            key="#Witness #Other_clerics"><name>Vallerini</name></persName>
-                        <rs key="#Other_clerics">clerici</rs> filio
-                            <persName><name>Gienti</name></persName> testis; (ss) <persName
-                            key="#Witness #Other_clerics"><name>Fortunatu</name></persName>
+                            key="#Witness"><name ref="Deusdedit">Deusdedi</name></persName> filio
+                        quondam <persName><name ref="Baroncellus">Baruncelli</name></persName>
+                        testis; + <persName key="#Witness #Other_clerics"><name ref="Prandulus"
+                                >Pranduli</name></persName>
+                        <rs key="#Other_clerics">clerici</rs> filii quondam <persName><name
+                                ref="Anspertus">Aspert</name></persName> testis; + <persName
+                            key="#Witness #Other_clerics"><name ref="Wallarinus"
+                            >Vallerini</name></persName>
+                        <rs key="#Other_clerics">clerici</rs> filio <persName><name ref="Gienti"
+                                >Gienti</name></persName> testis; (ss) <persName
+                            key="#Witness #Other_clerics"><name ref="Fortunatus"
+                            >Fortunatu</name></persName>
                         <rs key="#Other_clerics">clericus</rs>. <foreign>Scrive</foreign>: <persName
-                            key="#Writer"><name>Prandulo</name></persName>. </ab>
+                            key="#Writer"><name ref="Prandulus">Prandulo</name></persName>. </ab>
                         </div>
                     </div>
                     <div type="bibliography" subtype="editions">
@@ -133,16 +137,9 @@
                         <p/>
                     </div>
                     <div type="commentary">
-                         <p>Persone: Desiderio re; Adelchis re; Rodingo v. dev. (f. Teudorichi);
-                    Teudorichi (p. Rodingo); Grisolfe munitario; Peredeo ep (di Lucca); Petri;
-                    Pelerini; Prandulo; Deusdedi (f. Baruncelli); Baruncelli (p. Deusdedi); Pranduli
-                    cler (f. Aspert); Aspert (p. Pranduli cler); Vallerini cler (f. Gienti); Gienti
-                    (p. Vallerini cler); Fortonatu cler. Luoghi: civitatis ista Lucense, Luca
-                    [Lucca]. Chiese: eclesia Sancti Colombani prope muro civitatis ista Lucense [S.
-                    Colombano di Lucca]. Cariche: . Note: . Indice: compravendita - mestiere
-                    (monetarius) - fam. Peredeo. <foreign>Nota dorsale (sec. VIII-IX)</foreign>: +
-                    cartula da Rodingo. <foreign>Nota dorsale (sec. XII)</foreign>: Venditio terre
-                    prope Sanctum Columbanum. </p>
+                         <p><foreign>Nota dorsale (sec. VIII-IX)</foreign>: + cartula da Rodingo.
+                        <foreign>Nota dorsale (sec. XII)</foreign>: Venditio terre prope Sanctum
+                    Columbanum. </p>
                     </div>
                 </body>
             </text>
