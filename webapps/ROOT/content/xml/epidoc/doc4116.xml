@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    *G.90</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc4116</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Venditio</rs>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate when="0768-07-02">
+                                <note type="displayed_date">768 July 2</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Lucca</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-07-22" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab><persName><name>Rodingo</name></persName> filio bone memorie
+                                <persName><name>Teudorichi</name></persName>
+                        <foreign>vende a</foreign>
+                        <persName><name>Grasolfe</name></persName>
+                        <rs key="#Moneyers">munitario</rs>
+                        <rs key="#Size">uno modiloco</rs> de <rs key="#Petiae">terra</rs> mea per
+                        mensura, quem havire visu sum prope <rs key="#Churches">eclesia</rs>
+                        <orgName>Sancti Colombani</orgName> et prope <rs key="#Walls">muro</rs>
+                        <rs key="#Cities">civitatis</rs> ista <placeName>Lucense</placeName>. Qui
+                        ipse terra capo tene in <rs key="#Petiae">terra</rs>
+                        <persName>Peredei</persName>
+                        <rs>episcopus</rs>, alio capo tenente est in <rs key="#Petiae">terra</rs>
+                        <persName><name>Petri</name></persName>, latere uno tene in <rs
+                            key="#Petiae">terra</rs>
+                        <persName><name>Pelerini</name></persName>, et alio latere tenente in <rs
+                            key="#Petiae">terra</rs>
+                        <persName><name>Petri</name></persName>. <foreign>Prezzo</foreign>: in auri
+                        soledos nomero quindeci et uno <rs key="#Horses">cavallo</rs> pro soledis
+                        trideci. <foreign>Pena in duplum</foreign>. Actum
+                            <placeName>Luca</placeName>. <foreign>Sottoscrizioni</foreign>: +
+                        Rodinghi <rs key="#Vir_devotus/vir_honestus">viri devoti</rs> vindituri; +
+                                <persName><name>Deusdedi</name></persName> filio quondam
+                                <persName><name>Baruncelli</name></persName> testis; +
+                                <persName><name>Pranduli</name></persName>
+                        <rs key="#Other_clerics">clerici</rs> filii quondam
+                                <persName><name>Aspert</name></persName> testis; +
+                                <persName><name>Vallerini</name></persName>
+                        <rs key="#Other_clerics">clerici</rs> filio
+                            <persName><name>Gienti</name></persName> testis; (ss)
+                                <persName><name>Fortunatu</name></persName>
+                        <rs key="#Other_clerics">clericus</rs>. <foreign>Scrive</foreign>:
+                                <persName><name>Prandulo</name></persName>. </ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL V/2, n. 108; CDL II, 220, pp. 254-255; ChLA, XXXIV, 1002.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                         <p>Persone: Desiderio re; Adelchis re; Rodingo v. dev. (f. Teudorichi);
+                    Teudorichi (p. Rodingo); Grisolfe munitario; Peredeo ep (di Lucca); Petri;
+                    Pelerini; Prandulo; Deusdedi (f. Baruncelli); Baruncelli (p. Deusdedi); Pranduli
+                    cler (f. Aspert); Aspert (p. Pranduli cler); Vallerini cler (f. Gienti); Gienti
+                    (p. Vallerini cler); Fortonatu cler. Luoghi: civitatis ista Lucense, Luca
+                    [Lucca]. Chiese: eclesia Sancti Colombani prope muro civitatis ista Lucense [S.
+                    Colombano di Lucca]. Cariche: . Note: . Indice: compravendita - mestiere
+                    (monetarius) - fam. Peredeo. <foreign>Nota dorsale (sec. VIII-IX)</foreign>: +
+                    cartula da Rodingo. <foreign>Nota dorsale (sec. XII)</foreign>: Venditio terre
+                    prope Sanctum Columbanum. </p>
+                    </div>
+                </body>
+            </text>
+        </TEI>
