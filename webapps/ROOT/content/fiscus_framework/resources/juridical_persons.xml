@@ -2266,8 +2266,10 @@
                     <idno>juridical_persons/302</idno>
                     <note>Marrocchi 2014.</note>
                     <link type="places" corresp="#places/756" subtype="isWithin"/>
-                    <link type="juridical_persons" corresp="#juridical_persons/301" subtype="link"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/301" subtype="link"
+                            cert="low"/>
                     <link type="people" corresp="#people/21" subtype="link"/>
+                        <link type="people" corresp="#people/110" cert="low" subtype="link"/>
                 </org>
                 <org>
                     <orgName>Sanctus Stephanus; ecclesia (Monticello Amiata; Grosseto)</orgName>
