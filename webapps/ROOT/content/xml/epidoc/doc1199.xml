@@ -32,8 +32,8 @@
                         <summary>
                             <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
-                            <rs type="document_tradition" ref="#">Original</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="document_tradition" ref="#">Uncertain tradition</rs>
+                            <rs type="fiscal_property">Uncertain</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -45,7 +45,7 @@
                                 <note type="displayed_date">853 july 4</note>
                                 <note type="dating_elements"/>
                                 <note type="topical_date">Pavia</note>
-                                <note type="redaction_date"/>
+                                <note type="redaction_date">IX sec.</note>
                             </origDate>
                             <origPlace/>
                         </origin>
@@ -90,18 +90,44 @@
                         confirmare exposcunt, ut tanto libentius obaudiamus, quanto et deo placita
                         intelligimus et prudentia comite bono studio effectum esse cognoscimus.
                         Quapropter cunctorum fidelium sanctae dei ecclesie ac nostrorum presentium
-                        scilicet et futurorum cognoscat sollertia, quia, dum nos dilecto fideli
-                        nostro Adalberto coenobium domini Saluatoris in monte Amiate constitutum ad
-                        regendum commissisemus et ibidem neglecta dei obsequia et procuratione deo
-                        ibidem famulantium predecessorum suorum incuria multis modis repperisset,
-                        studiosius decertavit congregationem monachorum ibidem deo servitium
+                        scilicet et futurorum cognoscat sollertia, quia, dum nos dilecto <rs
+                            key="#fidelisOf">fideli nostro</rs>
+                        <persName key="#fidelisOf"><name ref="Adalbertus"
+                            >Adalberto</name></persName>
+                        <rs key="#Monasteries">coenobium</rs>
+                        <orgName ref="#juridical_persons/301">domini Saluatoris in monte
+                            Amiate</orgName> constitutum ad regendum commissisemus et ibidem
+                        neglecta dei obsequia et procuratione deo ibidem famulantium predecessorum
+                        suorum incuria multis modis repperisset, studiosius decertavit <rs
+                            key="#Monks">congregationem monachorum</rs> ibidem deo servitium
                         regulariter corrigere et solummodo divinis obsequiis deditos ad
                         sufficientiam suorum largire conferens eis ad sufficientiam suorum cellam
-                        sancti Benedicti, curte de Palea, cellam sancti Stephani in Monticlo et
-                        cellam sancte Marie in Lamulas, curticella de Mustia nec non et curticella
-                        de Titinano et in Cerri angariales seu in Feroniano et manentes eius nec non
-                        et cellam sancti Saluatoris de Ualerachana et curticella de Cuniclo cum ipso
-                        Cagiolo de Portiano et cellam sancti Stephani in Terquini seu et cellam
+                        sancti Benedicti, <rs key="#Curtes">curte</rs> de <geogName
+                            key="#Uncertain_tradition #Curtes #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
+                            ref="#estates/334">Palea</geogName>, <rs key="#Cells/hermitages"
+                            >cellam</rs>
+                        <orgName
+                            key="#Uncertain_tradition #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
+                            ref="#juridical_persons/303">sancti Stephani</orgName> in <placeName
+                            ref="#places/757">Monticlo</placeName> et <rs key="#Cells/hermitages"
+                            >cellam</rs>
+                        <orgName
+                            key="#Uncertain_tradition #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches #Cells/hermitages"
+                            ref="#juridical_persons/302">sancte Marie in Lamulas</orgName>, <rs
+                            key="#Curtes">curticella</rs> de <geogName
+                            key="#Uncertain_tradition #Curtes #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
+                            ref="#estates/331">Mustia</geogName> nec non et curticella de <geogName
+                            key="#Uncertain_tradition #Curtes #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
+                            ref="#estates/335">Titinano</geogName> et in
+                            <placeName>Cerri</placeName>
+                        <rs key="#Angaria">angariales</rs> seu in <placeName
+                            key="#Uncertain_tradition #Mansi #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
+                            ref="#places/761">Feroniano</placeName> et <rs key="#Mansi"
+                            >manentes</rs> eius nec non et cellam <orgName
+                            key="#Uncertain_tradition #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches #Cells/hermitages"
+                            ref="#juridical_persons/308">sancti Saluatoris</orgName> de <placeName
+                            ref="#places/762">Ualerachana</placeName> et curticella de Cuniclo cum
+                        ipso Cagiolo de Portiano et cellam sancti Stephani in Terquini seu et cellam
                         sancti Seueri super lacu cum ipso culticella de Bisentio, cellam etiam
                         sancti Miniati nec non et cortes, qui vocitantur Corsi et Cortiobole, qui
                         sunt de comitatu Roselense, cum omnibus pertinentiis et adiacentiis eorum,
@@ -143,7 +169,7 @@
                 <p/>
             </div>
             <div type="commentary">
-                <p/>
+                <p>L'editore K. Wanner considera questo diploma falso.</p>
             </div>
         </body>
     </text>

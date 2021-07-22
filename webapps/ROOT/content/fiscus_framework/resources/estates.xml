@@ -2776,8 +2776,11 @@
                     <geogName type="other"/>
                     <idno>estates/331</idno>
                     <note>Marrocchi 2014.</note>
-                    <link type="juridical_persons" corresp="#juridical_persons/301" subtype="link"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/301" subtype="link"
+                            cert="low"/>
                     <link type="places" corresp="#places/760" subtype="isInVicinityOf"/>
+                        <link type="people" corresp="#people/21" subtype="link"/>
+                        <link type="people" corresp="#people/110" subtype="link" cert="low"/>
                 </place>
                 <place>
                     <geogName>Cuniclo; <foreign>curtis</foreign></geogName>
@@ -2803,7 +2806,9 @@
                     <note>Marrocchi 2014.</note>
                     <link type="places" corresp="#places/764" subtype="hasConnectionWith"/>
                     <link type="people" corresp="#people/21" subtype="link"/>
-                    <link type="juridical_persons" corresp="#juridical_persons/301" subtype="link"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/301" subtype="link"
+                            cert="low"/>
+                        <link type="people" corresp="#people/110" subtype="link" cert="low"/>
                 </place>
                 <place>
                     <geogName>Titinano; <foreign>curtis</foreign></geogName>
@@ -2811,7 +2816,9 @@
                     <idno>estates/335</idno>
                     <note/>
                     <link type="people" corresp="#people/21" subtype="link"/>
-                    <link type="juridical_persons" corresp="#juridical_persons/301" subtype="link"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/301" subtype="link"
+                            cert="low"/>
+                        <link type="people" corresp="#people/110" cert="low" subtype="link"/>
                 </place>
                 </listPlace>
                 <listPlace n="Belluscio Luca">
