@@ -33,7 +33,7 @@
                             <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Original</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">No</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -89,9 +89,9 @@
                         auferri possint. Igitur omnium fidelium sanctae Dei Ecclesiae nostorumque
                         presentium scilicet et futurorum comperiat sollertia, quod <rs
                             key="#Priests">canonici</rs>
-                        <orgName key="#Collegiate_churches" ref="#juridical_persons/1410">sanctae
-                                <placeName ref="#places/53">Parmensis</placeName>
-                            ecclesiae</orgName> per <persName
+                        <orgName key="#Curtes #Coloni/tenants #Churches #Collegiate_churches"
+                            ref="#juridical_persons/1410">sanctae <placeName ref="#places/53"
+                                >Parmensis</placeName> ecclesiae</orgName> per <persName
                             key="#Intercessory #Archchancellor #Bishops" ref="#people/215"
                             >Amolonem</persName> venerabilem <rs key="#Bishops">episcopum</rs>
                         <rs key="#Archchancellor">archicancellarium</rs> nostrum petierunt nostram
