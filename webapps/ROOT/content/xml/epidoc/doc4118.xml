@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    ++M.2</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc4118</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Offersio/donatio</rs>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate when="0768-08-01">
+                                <note type="displayed_date">768 August 1</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date"><foreign>Vico Valeriana</foreign></note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-07-22" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab>Aliperto filio quondam Asfridi, havitator in vico Septiniana, quia
+                        ante os annos una cum filio meo Rotperto presbitero a fundamentis in proprio
+                        nostro construximus ecclesiam in honorem Dei et Sancti Fridiani in ipso
+                        loco. Ubi et in ipsa sacrationis diem, in presentia viri beatissimi Andreati
+                        episcopi et de sacerdotibus eius et cuncta congregatione populi,
+                        offeruerimus nosmetipsos cum omnibus rebus nostris (…) in ipsa Dei ecclesia
+                        (…). Qui et ipse episcopus per absolutionem domni viri beatissimi Peredei in
+                        Dei nomine episcopi, cuius diocese esse videtur, ipsam ecclesiam sacravit.
+                        Ora i due donano la stessa chiesa e i loro beni Deo et tibi beati Sancti
+                        Martini, ubi est domus episcoporum, in civitate Lucense. Si riservano vita
+                        natural durante di in casa ipsius ecclesiae habitando, regendo et
+                        usumfructuando omnia suprscripta res; et per singulo anno ex ipsis rebus
+                        reddere debeamus in ecclesiam Sancti Martini uno solido valentem oleo. Et si
+                        Teupertulo clerico nepote nostro super nos vixerit caste et servire voluerit
+                        eidem ecclesiae et ad honorem presbiterii pertingere potuerit, cum voluntate
+                        pontifici suprascripte ecclesie licentiam habeat habitare in casa ipsius
+                        ecclesiae, serviendo in omibus officiis bonis. Si riservano inoltre de rebus
+                        mobilibus et de usumfructum in nostra sit potestate pro anime nostrae
+                        remedium despensandi (…). Actum in vico Valeriana, ad ecclesiam Sancti
+                        Fridiani. Sottoscrizioni: + Aliperti offerturi; (ss) Rodpert presbitero;
+                        (ss) Deusdona presbitero; (ss) Stabilis presbiter; (ss) Saxo indignus
+                        presbiter; (ss) Desudedit subdiaconus; (ss) Agiprandus clericus. Scrive:
+                        Osprandus diaconus.</ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>Muratori, II, 1027-1028 (ad an. 768); MDL V/2, n. 110; CDL II, 222, pp.
+                    257-260; ChLA, XXXIV, 1004.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                         <p>Persone: Desiderio re; Adelchis re; Aliperto havitator in vico
+                    Septiniana (f. Asfridi; p. Rotperto pbr; avo Teupertulo cler); Asfridi (p.
+                    Aliperto); Rotperto pbr (f. Aliperto; zio Teupertulo cler); Teupertulo cler
+                    (nipote Aliperto, Rotperto pbr); Andreati ep (di Pisa?); Peredeo ep (di Lucca);
+                    Osprandus diac; Deusduna pbr; Stabilis pbr; Saxi pbr; Deusdedit s/diac;
+                    Agiprandus cler. Luoghi: vico Septiniana [pr. Filettole]; civitate Lucense
+                    [Lucca]; vico Valeriana [Valeriana]. Septiniana = Filettole, Vecchiano Pisa
+                    (Pieri, Serchio, p. 63) Valeriana incerta ubicazione non lontano da Vecchiano.
+                    Chiese: ecclesiam in honorem Dei et Sancti Fridiani in ipso loco [S. Frediano in
+                    Valeriana]; beati Sancti Martini, ubi est domus episcoporum, in civitate Lucense
+                    [S. Martino di Lucca, vescovato]. Cariche: . Note: . Indice: donazione - fam.
+                    Peredeo - diocesi. <foreign>Nota dorsale (sec. VIII-IX)</foreign>: + cartula
+                    offersionis de ecclesia Sancti Fridiani data in episcopio per Aliperto et filio
+                    eius Rotperto presbitero. <foreign>Nota dorsale (sec. XII)</foreign>: Offersio
+                    in Sancto Martino de ecclesia Sancti Frigiani in Valeriana edificata prope Eira </p>
+                    </div>
+                </body>
+            </text>
+        </TEI>
