@@ -32,7 +32,7 @@
                         <summary>
                             <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
-                            <rs type="document_tradition" ref="#">Uncertain tradition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
                             <rs type="fiscal_property">Uncertain</rs>
                         </summary>
                         <msItem xml:id="msItem1">
@@ -45,7 +45,7 @@
                                 <note type="displayed_date">853 july 4</note>
                                 <note type="dating_elements"/>
                                 <note type="topical_date">Pavia</note>
-                                <note type="redaction_date">IX sec.</note>
+                                <note type="redaction_date"/>
                             </origDate>
                             <origPlace/>
                         </origin>
@@ -143,8 +143,11 @@
                             >cellam</rs> etiam <orgName
                             key="#Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches #Cells/hermitages"
                             >sancti Miniati</orgName> nec non et <rs key="#Curtes">cortes</rs>, qui
-                        vocitantur <geogName>Corsi</geogName> et <geogName>Cortiobole</geogName>,
-                        qui sunt de <rs key="#Comitatus">comitatu</rs>
+                        vocitantur <geogName
+                            key="#Uncertain_tradition #Curtes #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
+                            ref="#estates/1426">Corsi</geogName> et <geogName
+                            key="#Uncertain_tradition #Curtes #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
+                            >Cortiobole</geogName>, qui sunt de <rs key="#Comitatus">comitatu</rs>
                         <geogName key="#Comitatus" ref="#estates/154">Roselense</geogName>, cum
                         omnibus pertinentiis et adiacentiis eorum, ea videlicet ratione, ut ab hinc
                         in futurum predicta sancta congregatio his omnibus denominatis tantummodo
@@ -162,16 +165,21 @@
                         eorum assidua famulatio non solum nobis, sed et eidem fideli nostro pro bona
                         ordinatione maneat sempiternale remedium. Ut quoque haec nostrae
                         confirmationis auctoritas pleniorem in dei nomine obtineat vigorem, manu
-                        propria subter firmavimus et anuli nostri inpressione adsignari iussimus.
-                        &lt;Si quis autem, quod absit, ausu temerario infringere ipsum parvipendendo
-                        aut annullare temptaverit, debita ab eodem ultione centum auri libras
-                        exsolvi indicimus, medietatem camere nostre ac medietatem predicte abbatie
-                        suisque rectoribus, et perpetuo anathemate in ignea abysso ligetur.> Signum
-                        (M.) domni Hludouuici serenissimi augusti. (C.) Herincus domni imperatoris
-                        cancellarius advice Dructemiri recognovi et (SR.) (SI. D.) Data IIII non.
-                        iulii, anno Christo propicio imperii domni Hlotharii pii augusti XXXIIII et
-                        Hludouuici gloriosi imperatoris in Italia IIII, indictione I; actum Papia
-                        civitate palatio regio; in dei nomine feliciter amen.</ab>
+                        propria subter firmavimus et anuli nostri inpressione adsignari iussimus. Si
+                        quis autem, quod absit, ausu temerario infringere ipsum parvipendendo aut
+                        annullare temptaverit, debita ab eodem ultione <rs key="#Penalty">centum
+                            auri libras</rs> exsolvi indicimus, <rs key="#Camera_regis">medietatem
+                            camere nostre</rs> ac <rs key="#Camera_of_other_public_authorities"
+                            >medietatem predicte abbatie</rs> suisque rectoribus, et perpetuo
+                        anathemate in ignea abysso ligetur. Signum (M.) domni Hludouuici serenissimi
+                        augusti. (C.) <persName key="#Chancellor"><name ref="Heinricus"
+                                >Herincus</name></persName> domni imperatoris cancellarius advice
+                                <persName><name ref="Dructemirus">Dructemiri</name></persName>
+                        recognovi et (SR.) (SI. D.) Data IIII non. iulii, anno Christo propicio
+                        imperii domni Hlotharii pii augusti XXXIIII et Hludouuici gloriosi
+                        imperatoris in Italia IIII, indictione I; actum <placeName ref="#places/65"
+                            >Papia</placeName> civitate palatio regio; in dei nomine feliciter
+                        amen.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
