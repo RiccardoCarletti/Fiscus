@@ -68,6 +68,7 @@
         <xsl:when test="contains(lower-case(@who), 'motta')"><xsl:text>Loris Motta</xsl:text></xsl:when>
         <xsl:when test="contains(lower-case(@who), 'ferretti')"><xsl:text>Beatrice Ferretti</xsl:text></xsl:when>
         <xsl:when test="contains(lower-case(@who), 'defalco')"><xsl:text>Fabrizio De Falco</xsl:text></xsl:when>
+        <xsl:when test="contains(lower-case(@who), 'cortese')"><xsl:text>Maria Elena Cortese</xsl:text></xsl:when>
         <xsl:otherwise>
           <xsl:choose>
             <xsl:when test="@who"><xsl:value-of select="@who"/></xsl:when>
