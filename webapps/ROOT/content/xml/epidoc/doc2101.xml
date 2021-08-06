@@ -33,7 +33,7 @@
                             <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Original</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -94,23 +94,25 @@
                                 >Cumensis</placeName> ecclesiae</orgName>
                         <rs key="#Bishops">episcopus</rs> et <rs key="#Abbots">abba</rs>
                         <rs key="#Monasteries">monasterii</rs>
-                        <orgName key="#Monasteries" ref="#juridical_persons/151"
-                            >Ebobiensis</orgName>, quod est constructum in honore beati Petri
-                        principis apostolorum, ubi clarissimus Christi confessor Columbanus corpore
-                        quiescit, detulit optutibus nostris praeceptiones et privilegia regum
-                        Langobardorum, id est <persName key="#Emperor/king" ref="#people/250"
-                            >Agilulfi</persName>, <persName key="#Emperor/king"
-                            >Adaluuoldi</persName>, <persName key="#Emperor/king" ref="#people/251"
-                            >Grimoaldi</persName>, <persName key="#Emperor/king" ref="#people/217"
-                            >Chuniberti</persName>, <persName key="#Emperor/king" ref="#people/374"
-                            >Liutprandi</persName>, <persName key="#Emperor/king" ref="#people/248"
-                            >Ratchisi</persName>, <persName key="#Emperor/king" ref="#people/48"
-                            >Haistulfi</persName> et <persName key="#Emperor/king" ref="#people/249"
-                            >Desiderii</persName>, quibus praefatum monasterium Ebobiense de
-                        reditibus suis possessionibusque ditaverant et cum omnibus ad eundem
-                        venerabilem locum pertinentibus sub immunitatis defensione tenuerant, sed et
-                        auctoritates divae memoriae <rs key="#greatGrandfatherOf">atavi</rs> nostri
-                            <persName key="#Emperor/king #greatGrandfatherOf" ref="#people/14"
+                        <orgName
+                            key="#Confinia #Rivers #Mountains #Villas #Curtes #Landed_possessions #Forests #Fisheries #Coloni/tenants #Roads #Bridges/pontoons #Fluvial_transport #Periodic_markets #Pagus #Census #Privileges #Immunity #Tuitio/bannum/mundeburdium #Churches #Monasteries #Hospitals #Monks #Freeborn #Slave #Royal_slave #Royal_aldius"
+                            ref="#juridical_persons/151">Ebobiensis</orgName>, quod est constructum
+                        in honore beati Petri principis apostolorum, ubi clarissimus Christi
+                        confessor Columbanus corpore quiescit, detulit optutibus nostris
+                        praeceptiones et <rs key="#Privileges">privilegia</rs> regum Langobardorum,
+                        id est <persName key="#Emperor/king" ref="#people/250">Agilulfi</persName>,
+                            <persName key="#Emperor/king">Adaluuoldi</persName>, <persName
+                            key="#Emperor/king" ref="#people/251">Grimoaldi</persName>, <persName
+                            key="#Emperor/king" ref="#people/217">Chuniberti</persName>, <persName
+                            key="#Emperor/king" ref="#people/374">Liutprandi</persName>, <persName
+                            key="#Emperor/king" ref="#people/248">Ratchisi</persName>, <persName
+                            key="#Emperor/king" ref="#people/48">Haistulfi</persName> et <persName
+                            key="#Emperor/king" ref="#people/249">Desiderii</persName>, quibus
+                        praefatum monasterium Ebobiense de reditibus suis possessionibusque
+                        ditaverant et cum omnibus ad eundem venerabilem locum pertinentibus sub
+                        immunitatis defensione tenuerant, sed et auctoritates divae memoriae <rs
+                            key="#greatGrandfatherOf">atavi</rs> nostri <persName
+                            key="#Emperor/king #greatGrandfatherOf" ref="#people/14"
                             >Karoli</persName> augusti simulque <rs key="#grandfatherOf">avi</rs>
                         <persName key="#Emperor/king #grandfatherOf" ref="#people/118"
                             >Hludouuici</persName> atque augusti et felicissimae recordationis domni
@@ -237,9 +239,9 @@
                             <placeName>Rodelascingo</placeName>, quas <persName><name ref="Petrus"
                                 >Petrus</name></persName> infantulus in extremis positus tradidit et
                         quas postea pars eiusdem monasterii per testimonia legalia et iudicata
-                        evindicavit et legittimo iure possedit.   Pascua quoque, quae memorati
-                        germani Leofredus et Leoprandus monachi adquisierunt in memorata Pecoraria,
-                        et ingressum, qui per eorum res memoratas, quas ipsi tradiderunt, ducit et
+                        evindicavit et legittimo iure possedit. Pascua quoque, quae memorati germani
+                        Leofredus et Leoprandus monachi adquisierunt in memorata Pecoraria, et
+                        ingressum, qui per eorum res memoratas, quas ipsi tradiderunt, ducit et
                         reducit, ipsi loco sancto confirmamus atque statuimus, vel quicquid ad ipsam
                             <rs key="#Curtes">cortem</rs>
                         <geogName key="#Curtes" ref="#estates/1429">Pecorariam</geogName> pertinere
@@ -308,11 +310,11 @@
                             key="#Emperor/king" ref="#people/12">Liutprandus</persName>
                         <rs key="#Emperor/king">rex</rs> de <geogName key="#Curtes"
                             ref="#estates/1430">corte sua Gardensi</geogName> eidem loco pro sua
-                        portione concessit, hoc est annuatim in piscibus <rs>auri solidos X</rs>,
-                        praecipimus, ut et <persName key="#Count"><name ref="Bernardus"
-                                >Bernardus</name></persName> comes, qui nunc eandem Gardensem cortem
-                        optinet, et quicumque eam post ipsum possederit, iam dictum <rs
-                            key="#Census">censum X solidorum annuatim</rs> sine ulla omnino
+                        portione concessit, hoc est annuatim in piscibus <rs key="#Census">auri
+                            solidos X</rs>, praecipimus, ut et <persName key="#Count"><name
+                                ref="Bernardus">Bernardus</name></persName> comes, qui nunc eandem
+                        Gardensem cortem optinet, et quicumque eam post ipsum possederit, iam dictum
+                            <rs key="#Census">censum X solidorum annuatim</rs> sine ulla omnino
                         contradictione persolvat, quatenus servi dei in eodem loco sancto degentes
                         in rebus et subsidiis necessariis competenter adiuti pro nostra et coniugis
                         prolisque nostrae prosperitate totiusque nostri imperii conservatione domino
@@ -320,10 +322,13 @@
                         pragmaticum firmissimum omni tempore vigorem optineat et diligenter a
                         posteris nostris cunctisque ministris rei publice Italiae conservetur, more
                         nostro subter confirmavimus et de bulla nostra sigillari praecepimus.  
-                        Signum domni (M.) Hludouuici piissimi augusti.   (C.) Adalbertus
-                        cancellarius advicem Remigii (SR.)   Data non. octob., anno Christo propitio
-                        imperii domni Hludouuici piissimi augusti XI, indictione VIIII; actum
-                        Maringo palacio regio; in dei nomine feliciter amen.</ab>
+                        Signum domni (M.) Hludouuici piissimi augusti. (C.) <persName
+                            key="#Chancellor"><name ref="Adalbertus">Adalbertus</name></persName>
+                        <rs key="#Chancellor">cancellarius</rs> advicem <name ref="Remegius"
+                            >Remigii</name> (SR.) Data non. octob., anno Christo propitio imperii
+                        domni Hludouuici piissimi augusti XI, indictione VIIII; actum <geogName
+                            ref="#estates/209">Maringo</geogName> palacio regio; in dei nomine
+                        feliciter amen.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
