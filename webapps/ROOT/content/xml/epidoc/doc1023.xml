@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Archivio Abbaziale di Nonantola (Fainelli, CDV, II, n. 95, pp.
+                    122-124)</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc1023</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#"/>
+                            <rs type="record_source" ref="#"/>
+                            <rs type="document_tradition" ref="#"/>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate notBefore="0001" notAfter="0001" when="0001"> 
+                                <note type="displayed_date"></note>
+                                <note type="dating_elements"></note>
+                                <note type="topical_date"></note>
+                                <note type="redaction_date"></note>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-02-08">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine nostri Domini Jhesu Christi regnante domno nostro Berengario rege
+                        hic in Italia anno uigisimo tercio sub die secondo de mense augusto
+                        indicione tercia decima feliciter. Secundum peticione uestra Landeuertus
+                        filius quondam Aziuertus, et Johannes fiulius quondam Isoni de casale
+                        Coruulo liberis hominibus locaui uobis ego in Dei nomine Anselmus comite
+                        comitatus ueronensis, idest in integrum ariale uno una cum aquimolo suo sa
+                        juris proprietatis mee quem habere uisus sum, que situs est in fluuio
+                        Tartaris in porto de Rouescello non longe de capella Sancti Zenonis de eodem
+                        loco Rouescello ab ipso ariale una cum aquimulo, et gresso et regresso suo,
+                        ubi dicitur ad fossato, omnia in integrum uobis locaui, eam uero racione ut
+                        super ipso ariale mulino edificare debeatis, cum tecto super se habente et
+                        rodas et cum uniuersis municionibus et fabrica sua, que ad ipso molino
+                        pertinere dinoscitur, et omnia sicut supra legitur habere, et cum eo
+                        fideliter laborare debeatis uos et heredibus uestris libellario nomine ad
+                        annos uiginti et nouem, et exinde reddere debeatis censum annualiter pro
+                        omni festiuitate Sancti Martini quod est de mense november anteposito in
+                        ipso anno, nobis et heredibus nostris aut cui nos dederimus anona selg.
+                            (<foreign>sic</foreign>) modio uno, segal. modia dua, ordio modio uno,
+                        milio modia dua, surico modia dua, quod faciunt in summa super totum anona
+                        modia octo, et ipsa anona infra castrum, que in suprascripto loco Rouescello
+                        constructum fuerit, dare debeatis et sic [ ] missum ipsa anona recepere
+                        debead. Exenia uero per annum in ipsa festiuitate Sancti Martini dare
+                        debeatis, pullo bono uno caldola una, uino sectario uno, aliud uobis []
+                        super imponatur. Proptere(a) spondeo atque repromitto me ego suprascriptus
+                        Anselmus [m]eis heredes uobis suprascriptis petitores uel ad uestris
+                        heredibus, si de suprascripto ariale et mol[estare  ] uos foris excutere,
+                        tollere, contendere aut minuare uoluerimus [    ] annos uiginti et nouem,
+                        aut aliqua super imposita uobis facere temptauerimus, nisi quod hic superius
+                        legitur, et clare factum fuerit, tunc componam ego uel meis her[edibus]
+                        uobis uel uestris heredibus pena argentum solidos numeratos uiginti et
+                        nouem, et post pena co[    ], hec prensens pagina in eodem statu ut supra
+                        legitur firmam et stabilis permaneat usque ad suprascriptos annos uiginti et
+                        nouem cum stipolacione subnixa. Acto in monasterio Sancte Marie sito in
+                        Gagio feliciter. Signum + manum superscripti domini Anselmi comitis ex
+                        franquorum (<foreign>sic</foreign>) genere, qui hanc pagina fieri rogauit ad
+                        omnia superscripta et ei relecta est. Signum [   ]delmo sculdasio teste.
+                        Signum + + + manibus Auspertus filium quondam Amelberti, Platone et Johanne
+                        de Telidiano filius quondam Giseluerti, et Lupo fiulius quondam Teudibertus
+                        de Rouescello testes. Signum + manu Isoni ex franquorum genere uasso Amizoni
+                        teste. Signum + manu Teudoni fiulius quondam Odelberti teste. + Ego
+                        Madelbertus rogatus testis manu mea subscripsi. + Ego Pedelbertus notarius
+                        rogatus manu mea qui hanc paginam scripsi, et post  tradita complevi. </ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
