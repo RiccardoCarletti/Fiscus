@@ -11,18 +11,6 @@
         }
 
 /*Maps layers*/
-        var grayscale = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoiaXZhZ2lvbmFraXMiLCJhIjoiY2treTVmZnhyMDBzdTJ2bWxyemY4anJtNSJ9.QrP-0v-7btCzG97ll23HKw', {
-        id: 'mapbox/light-v10', 
-        tileSize: 512, 
-        zoomOffset: -1, 
-        attribution: 'Map data <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>'
-        });
-        var satellite = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoiaXZhZ2lvbmFraXMiLCJhIjoiY2treTVmZnhyMDBzdTJ2bWxyemY4anJtNSJ9.QrP-0v-7btCzG97ll23HKw', {
-        id: 'mapbox/satellite-streets-v11', 
-        tileSize: 512, 
-        zoomOffset: -1, 
-        attribution: 'Map data <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>'
-        });
         var dare = L.tileLayer('https://dh.gu.se/tiles/imperium/{z}/{x}/{y}.png', {
         minZoom: 4,
         maxZoom: 11,
@@ -164,8 +152,6 @@
         var baseMaps = {
         "DARE": dare,
         "Terrain": terrain, 
-        "Grayscale": grayscale,
-        "Satellite": satellite,
         "Watercolor": watercolor,
         "Open Street Map": osm
         };
@@ -186,7 +172,7 @@
         "Fallow land": toggle_fallow_places
         };
         
-        var layers = [osm, grayscale, satellite, terrain, watercolor];
+        var layers = [osm, terrain, watercolor];
         
         var markers = purple_places.concat(golden_places);
         function openPopupById(id){ for(var i = 0; i < markers.length; ++i) { if (markers[i].options.id == id){ markers[i].openPopup(); }; }}
