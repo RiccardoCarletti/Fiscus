@@ -420,7 +420,7 @@
               <img src="../../../assets/images/purple.png" alt="purple circle" class="mapicon"/>Places not linked to fiscal properties
               <img src="../../../assets/images/polygon.png" alt="green polygon" class="mapicon"/>Places not precisely located or wider areas
               <img src="../../../assets/images/line.png" alt="blue line" class="mapicon"/> Rivers
-              <img src="../../../assets/images/uncertain.png" alt="uncertain" class="mapicon"/>From uncertain tradition <br/>
+              <img src="../../../assets/images/black.png" alt="black" class="mapicon" style="margin-right:0"/> <img src="../../../assets/images/uncertain.png" alt="uncertain" class="mapicon" style="margin-left:2px"/>From uncertain tradition <br/>
               <img src="../../../assets/images/anchor.png" alt="anchor" class="mapicon"/>Ports, fords
               <img src="../../../assets/images/tower.png" alt="tower" class="mapicon"/>Fortifications
               <img src="../../../assets/images/sella.png" alt="sella" class="mapicon"/>Residences
@@ -775,7 +775,7 @@
           <img src="../../../assets/images/purple.png" alt="purple circle" class="mapicon"/>Places not linked to fiscal properties
           <img src="../../../assets/images/polygon.png" alt="green polygon" class="mapicon"/>Places not precisely located or wider areas
           <img src="../../../assets/images/line.png" alt="blue line" class="mapicon"/> Rivers
-          <img src="../../../assets/images/uncertain.png" alt="uncertain" class="mapicon"/>From uncertain tradition <br/>
+          <img src="../../../assets/images/black.png" alt="black" class="mapicon" style="margin-right:0"/> <img src="../../../assets/images/uncertain.png" alt="uncertain" class="mapicon" style="margin-left:2px"/>From uncertain tradition <br/>
           <img src="../../../assets/images/anchor.png" alt="anchor" class="mapicon"/>Ports, fords
           <img src="../../../assets/images/tower.png" alt="tower" class="mapicon"/>Fortifications
           <img src="../../../assets/images/sella.png" alt="sella" class="mapicon"/>Residences
