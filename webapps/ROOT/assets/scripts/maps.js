@@ -11,12 +11,6 @@
         }
 
 /*Maps layers*/
-var streets = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoiaXZhZ2lvbmFraXMiLCJhIjoiY2treTVmZnhyMDBzdTJ2bWxyemY4anJtNSJ9.QrP-0v-7btCzG97ll23HKw', {
-        id: 'mapbox/streets-v11', 
-        tileSize: 512, 
-        zoomOffset: -1, 
-        attribution: 'Map data <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>'
-        });
         var grayscale = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoiaXZhZ2lvbmFraXMiLCJhIjoiY2treTVmZnhyMDBzdTJ2bWxyemY4anJtNSJ9.QrP-0v-7btCzG97ll23HKw', {
         id: 'mapbox/light-v10', 
         tileSize: 512, 
@@ -66,7 +60,9 @@ var streets = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{
             
             var LeafIcon = L.Icon.extend({ options: {iconSize: [14, 14]} });
         var purpleIcon = new LeafIcon({iconUrl: '../../../assets/images/purple.png'}),
-        goldenIcon = new LeafIcon({iconUrl: '../../../assets/images/golden.png'});
+        goldenIcon = new LeafIcon({iconUrl: '../../../assets/images/golden.png'}),
+        purpleUncertainIcon = new LeafIcon({iconUrl: '../../../assets/images/purple_uncertain.png'}),
+        goldenUncertainIcon = new LeafIcon({iconUrl: '../../../assets/images/golden_uncertain.png'});
         
             for (var [key, value] of Object.entries(points)) {
             var info = key.substring(key.indexOf("@"), key.lastIndexOf("@"));
@@ -98,7 +94,7 @@ var streets = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{
             fallow_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {time: key.substring(0, key.indexOf("|")), icon: purpleIcon, id:key.substring(key.lastIndexOf("@") +1)}).bindPopup('<a target="_blank" href="places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(key.indexOf("|") +1, key.indexOf("#")) + '</a> ' + symbols + ' <span class="block">See linked documents (' + key.substring(key.indexOf("#") +1, key.lastIndexOf("#")) + '): <a target="_blank" href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
             }
             if (key.includes('k@')) {
-            uncertain_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {time: key.substring(0, key.indexOf("|")), icon: purpleIcon, id:key.substring(key.lastIndexOf("@") +1)}).bindPopup('<a target="_blank" href="places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(key.indexOf("|") +1, key.indexOf("#")) + '</a> ' + symbols + ' <span class="block">See linked documents (' + key.substring(key.indexOf("#") +1, key.lastIndexOf("#")) + '): <a target="_blank" href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
+            uncertain_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {time: key.substring(0, key.indexOf("|")), icon: purpleUncertainIcon, id:key.substring(key.lastIndexOf("@") +1)}).bindPopup('<a target="_blank" href="places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(key.indexOf("|") +1, key.indexOf("#")) + '</a> ' + symbols + ' <span class="block">See linked documents (' + key.substring(key.indexOf("#") +1, key.lastIndexOf("#")) + '): <a target="_blank" href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
             }
             }
             if (key.includes('#b')) {
@@ -128,7 +124,7 @@ var streets = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{
             fallow_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {time: key.substring(0, key.indexOf("|")), icon: goldenIcon, id:key.substring(key.lastIndexOf("@") +1)}).bindPopup('<a target="_blank" href="places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(key.indexOf("|") +1, key.indexOf("#")) + '</a> ' + symbols + ' <span class="block">See linked documents (' + key.substring(key.indexOf("#") +1, key.lastIndexOf("#")) + '): <a target="_blank" href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
             }
             if (key.includes('k@')) {
-            uncertain_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {time: key.substring(0, key.indexOf("|")), icon: goldenIcon, id:key.substring(key.lastIndexOf("@") +1)}).bindPopup('<a target="_blank" href="places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(key.indexOf("|") +1, key.indexOf("#")) + '</a> ' + symbols + ' <span class="block">See linked documents (' + key.substring(key.indexOf("#") +1, key.lastIndexOf("#")) + '): <a target="_blank" href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
+            uncertain_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {time: key.substring(0, key.indexOf("|")), icon: goldenUncertainIcon, id:key.substring(key.lastIndexOf("@") +1)}).bindPopup('<a target="_blank" href="places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(key.indexOf("|") +1, key.indexOf("#")) + '</a> ' + symbols + ' <span class="block">See linked documents (' + key.substring(key.indexOf("#") +1, key.lastIndexOf("#")) + '): <a target="_blank" href="../indices/epidoc/places.html#0">'.replace("0", key.substring(key.lastIndexOf("@") +1)) + '➚</a></span>'));
             }
             }
             };
@@ -171,7 +167,6 @@ var streets = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{
         "Grayscale": grayscale,
         "Satellite": satellite,
         "Watercolor": watercolor,
-        "Streets": streets,
         "Open Street Map": osm
         };
         
@@ -191,7 +186,7 @@ var streets = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{
         "Fallow land": toggle_fallow_places
         };
         
-        var layers = [osm, streets, grayscale, satellite, terrain, watercolor];
+        var layers = [osm, grayscale, satellite, terrain, watercolor];
         
         var markers = purple_places.concat(golden_places);
         function openPopupById(id){ for(var i = 0; i < markers.length; ++i) { if (markers[i].options.id == id){ markers[i].openPopup(); }; }}
