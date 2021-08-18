@@ -353,6 +353,8 @@
                         corresp="#juridical_persons/81" subtype="link"/>
                     <link type="people" corresp="#people/32" subtype="link"/>
                     <link type="people" corresp="#people/33" subtype="link"/>
+                        <link type="places" corresp="#places/107" subtype="hasInItsVicinity"/>
+                        <link type="estates" corresp="#estates/1212" subtype="hasConnectionWith"/>
                 </place>
                 <place>
                     <geogName><foreign>Fagedum</foreign>; <foreign>curtis</foreign></geogName>
@@ -3242,6 +3244,7 @@
                         <link type="places" corresp="#places/1607" subtype="hasConnectionWith"/>
                         <link type="places" corresp="#places/107" subtype="hasConnectionWith"/>
                         <link type="places" corresp="#places/1608" subtype="hasConnectionWith"/>
+                        <link type="estates" corresp="#estates/89" subtype="hasConnectionWith"/>
                     </place>
                 </listPlace>
                 <listPlace n="Rivera Magos Victor">
