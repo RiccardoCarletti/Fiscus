@@ -31,10 +31,10 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#"/>
-                            <rs type="record_source" ref="#"/>
-                            <rs type="document_tradition" ref="#"/>
-                            <rs type="fiscal_property"/>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -42,11 +42,13 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate notBefore="0001" notAfter="0001" when="0001"> 
-                                <note type="displayed_date"></note>
-                                <note type="dating_elements"></note>
-                                <note type="topical_date"></note>
-                                <note type="redaction_date"></note>
+                            <origDate notBefore="1002" notAfter="1003">
+                                <note type="displayed_date">1002-1003</note>
+                                <note type="dating_elements">Il testo dell'originale non presenta
+                                    datazione, che è quindi desunta da Panero, <foreign>Una signoria
+                                        vescovile nel cuore dell'impero</foreign>, p. 98</note>
+                                <note type="topical_date"/>
+                                <note type="redaction_date"/>
                             </origDate>
                             <origPlace/>
                         </origin>
@@ -74,7 +76,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2021-02-08">creation of record</change>
+                <change when="2021-08-18" who="lmotta">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -82,14 +84,55 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab></ab>
+                    <ab>(C) In nomine sanctae et individuae trinitatis. Hardoinus divina favente
+                        misericordia rex. Si nostrorum fidelium peticionibus adsensum praebemus,
+                        devociores eos fore nostrae fidelitatis obsequio minime titubamus. Idcirco
+                        noverit omnium fidelium sanctae dei aecclesiae nostrorumque presentium ac
+                        futurorum solertia, qualiter interventu ac peticione Bertae dilectissimae
+                        consortis regni nostri per hoc nostrum praeceptum, prout iuste et legaliter
+                        possumus, confirmando corroboramus et confirmamus Cuniberto Vercellensis
+                        ecclesiae preposito atque nostri cancellario curtem Desianam sibi iure
+                        proprietario pertinentem cum castro et capellam ibidem consistentem una cum
+                        mansis terris vineis pratis pascuis silvis molendinis aquis aquarumque
+                        decursibus piscariis omnibusque que dici vel nominari possunt ad ipsam
+                        cortem aspicientibus in integrum. Verum etiam concedimus atque donamus ipsi
+                        prefato Cuniberto omne publicum destrictum mercata teloneum atque sagumum
+                        curaturas omnemque publicam redhibitionem, quam infra Desianam villam pars
+                        publica exigere aut sperare potuerat aut defforis iuxta ipsam villam usque
+                        ad unum milliarium in circuitu, de comitatu Vercellensi hactenus
+                        pertinentem, statuentes, omnes querelas et intentiones omnium hominum in
+                        ipsa villa degentium et habitantium ut ipse Cunibertus nostri cancellarius
+                        suique heredes aut cuicumque ipse dederit nostri esistentes missi ita
+                        diffiniant legaliter, tamquam si nostri comitis palatii ibi adeset
+                        presentia. Predictum igitur destrictum omnemque publicam funccionem Desianae
+                        villae, sicut superius declaratum est, de regni nostri iure et dominio in
+                        praefati Cuniberti ius et dominium omnino transfundimus ac delegamus, ut
+                        ipse suique heredes vel quibuscumque ipse dederit, habeant teneant
+                        firmiterque possideant iure perpetuo atque omnium hominum contradiccione
+                        remota. Precipientes igitur regali iubemus potestate, ut nullus
+                        archiepiscopus episcopus dux marchio comes vicecomes nullaque nostri regni
+                        marva parvaque persona iam dictum Cunibertum prepositum suosque heredes vel
+                        eos quibus dederit de prelibatae villae destricto teloneo curatura sagumo
+                        vel de omnibus quae dici vel nominari possunt ad nostrae regiae potestatis
+                        iure pertinentibus usque ad unum miliarium in circuitu inquietare molestare
+                        vel disvestire presumat. Si quis igitur huius nostri precepti statutum
+                        aliquando infringere conatus fuerit, sciat se compositurum auri optimi
+                        libras mille, medietatem camerae nostrae et medietatem iam dicto Cuniberto
+                        preposito et nostri cancellario eiusque heredibus. Quod ut verius credatur
+                        diligentiusque ab omnibus observetur, manu propria presentem paginam
+                        confirmantes sigilli nostri impressione inferius iussimus sigillari. Signum
+                        domni Hardoini serenissimi (M.) et invictissimi regis. Cunibertus
+                        cancellarius vice Petri Cunani episcopi et archicancellarii recognovit. (SI.
+                        D.) </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p/>
+                <p>MGH DD H II Arduin n. 6, pp.. 706-708</p>
             </div>
             <div type="bibliography" subtype="additional">
-                <p/>
+                <p>F. Panero, <foreign>Una signoria vescovile nel cuore dell'impero: funzioni
+                        pubbliche, diritti signorili e proprietà della Chiesa di Vercelli dall'età
+                        tardocarolingia all'età sveva</foreign>, Vercelli, 2004.</p>
             </div>
             <div type="bibliography" subtype="links">
                 <p/>
