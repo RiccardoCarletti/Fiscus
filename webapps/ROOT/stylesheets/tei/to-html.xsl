@@ -44,6 +44,23 @@
     </xsl:for-each>
   </xsl:variable>
   
+  <!-- identifying places from uncertain tradition -->
+  <xsl:variable name="uncertain_places">
+    <xsl:for-each select="$texts">
+      <xsl:for-each select=".//tei:placeName[matches(lower-case(@key), '.*(uncertain_tradition).*')][@ref]">
+        <xsl:text> </xsl:text><xsl:value-of select="substring-after(@ref, 'places/')"/><xsl:text> </xsl:text>
+      </xsl:for-each>
+    </xsl:for-each>
+  </xsl:variable>
+  
+  <xsl:variable name="certain_places">
+    <xsl:for-each select="$texts">
+      <xsl:for-each select=".//tei:placeName[not(matches(lower-case(@key), '.*(uncertain_tradition).*'))][@ref]">
+        <xsl:text> </xsl:text><xsl:value-of select="substring-after(@ref, 'places/')"/><xsl:text> </xsl:text>
+      </xsl:for-each>
+    </xsl:for-each>
+  </xsl:variable>
+  
   <!-- import lists -->
   <xsl:template match="//tei:p[@n='import']">
     <div class="imported_list">
@@ -259,7 +276,8 @@
           <xsl:if test="matches($all_keys, '.* (casae/cassinae_massaricie|casalini/fundamenta) .*')"><xsl:text>h@</xsl:text></xsl:if> <!-- tenures -->
           <xsl:if test="matches($all_keys, '.* (petiae|landed_possessions) .*')"><xsl:text>i@</xsl:text></xsl:if> <!-- land -->
           <xsl:if test="matches($all_keys, '.* (mines|quarries|forests|gualdi|cafagia|fisheries|saltworks|other_basins) .*')"><xsl:text>j@</xsl:text></xsl:if> <!-- fallow -->
-          <xsl:if test="matches($all_keys, '.*(uncertain_tradition).*')"><xsl:text>k@</xsl:text></xsl:if> <!-- uncertain tradition -->
+          <xsl:if test="contains($uncertain_places, concat(' ',$id,' ')) and not(contains($certain_places, concat(' ',$id,' ')))"><xsl:text>k@</xsl:text></xsl:if> <!-- all occurrences from uncertain tradition -->
+          <!--<xsl:if test="matches($all_keys, '.*(uncertain_tradition).*')"><xsl:text>k@</xsl:text></xsl:if> <!-\- at least one occurrence from uncertain tradition -\->-->
           <xsl:value-of select="$id"/><xsl:text>": "</xsl:text><xsl:choose>
             <xsl:when test="contains(normalize-space(tei:geogName/tei:geo), ';')"><xsl:value-of select="substring-before(tei:geogName/tei:geo, ';')"/></xsl:when>
             <xsl:otherwise><xsl:value-of select="normalize-space(tei:geogName/tei:geo)"/></xsl:otherwise>
@@ -276,7 +294,7 @@
       
       <p><xsl:if test="tei:orgName[@type='other']//text()|tei:persName[@type='other']//text()|tei:placeName[@type='other']//text()|tei:geogName[@type='other']//text()"><strong><xsl:text>Also known as: </xsl:text></strong><xsl:apply-templates select="tei:orgName[@type='other']|tei:persName[@type='other']|tei:placeName[@type='other']|tei:geogName[@type='other']"/><br/></xsl:if>
         
-        <xsl:if test="tei:geogName/tei:geo"><strong><xsl:text>Coordinates (Lat, Long): </xsl:text></strong>
+        <xsl:if test="tei:geogName/tei:geo/text()"><strong><xsl:text>Coordinates (Lat, Long): </xsl:text></strong>
           <xsl:value-of select="tei:geogName/tei:geo"/> <a href="#" onclick="openPopupById($(this)[0].id);"><xsl:attribute name="id"><xsl:value-of select="substring-after(tei:idno, 'places/')"/></xsl:attribute><xsl:text> [See on map]</xsl:text></a><br/></xsl:if>
         <xsl:if test="tei:idno"><strong><xsl:text>Item number: </xsl:text></strong><xsl:value-of select="$this_id"/><br/></xsl:if>
         <xsl:if test="tei:note//text()"><strong><xsl:text>Commentary/Bibliography: </xsl:text></strong><xsl:for-each select="tei:note[node()]"><xsl:apply-templates select="."/><br/></xsl:for-each></xsl:if>
@@ -749,7 +767,8 @@
         <xsl:if test="matches($all_keys, '.* (casae/cassinae_massaricie|casalini/fundamenta) .*')"><xsl:text>h@</xsl:text></xsl:if> <!-- tenures -->
         <xsl:if test="matches($all_keys, '.* (petiae|landed_possessions) .*')"><xsl:text>i@</xsl:text></xsl:if> <!-- land -->
         <xsl:if test="matches($all_keys, '.* (mines|quarries|forests|gualdi|cafagia|fisheries|saltworks|other_basins) .*')"><xsl:text>j@</xsl:text></xsl:if> <!-- fallow -->
-        <xsl:if test="matches($all_keys, '.*(uncertain_tradition).*')"><xsl:text>k@</xsl:text></xsl:if> <!-- uncertain tradition -->
+        <xsl:if test="contains($uncertain_places, concat(' ',$id,' ')) and not(contains($certain_places, concat(' ',$id,' ')))"><xsl:text>k@</xsl:text></xsl:if> <!-- all occurrences from uncertain tradition -->
+        <!--<xsl:if test="matches($all_keys, '.*(uncertain_tradition).*')"><xsl:text>k@</xsl:text></xsl:if> <!-\- at least one occurrence from uncertain tradition -\->-->
         <xsl:value-of select="$id"/><xsl:text>": "</xsl:text><xsl:choose>
           <xsl:when test="contains(normalize-space(tei:geogName/tei:geo), ';')"><xsl:value-of select="substring-before(tei:geogName/tei:geo, ';')"/></xsl:when>
           <xsl:otherwise><xsl:value-of select="normalize-space(tei:geogName/tei:geo)"/></xsl:otherwise>
