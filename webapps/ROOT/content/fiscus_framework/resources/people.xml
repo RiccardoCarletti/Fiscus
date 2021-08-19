@@ -424,7 +424,9 @@
                         <link type="juridical_persons" corresp="#juridical_persons/1200"
                             subtype="link"/>
                         <link type="people" corresp="#people/1305" subtype="link"/>
-                        <link type="people" corresp="#people/365" subtype="sonOf"/>
+                        <link type="people" corresp="#people/365" subtype="sonOf" cert="low"/>
+                        <link type="people" corresp="#people/1306" subtype="link"/>
+                        <link type="places" corresp="#places/1614" subtype="hasConnectionWith"/>
                 </person>
                 <person>
                     <persName>Adalbertus (894-929) episcopus Bergomensis</persName>
@@ -1947,6 +1949,7 @@
                     <link type="people" corresp="#people/262" subtype="sonOf"/>
                     <link type="people" corresp="#people/264" subtype="legallyRecognisedUnionWith"/>
                     <link type="people" corresp="#people/365" subtype="legallyRecognisedUnionWith"/>
+                        <link type="places" corresp="#places/1614" subtype="hasConnectionWith"/>
                 </person>
                 <person>
                     <persName>Teutius (1051) abbas monasterii Sancti Anthimi</persName>
@@ -3093,6 +3096,8 @@
                             subtype="link"/>
                         <link type="people" corresp="#people/1305" subtype="link"/>
                         <link type="people" corresp="#people/77" subtype="motherOf"/>
+                        <link type="people" corresp="#people/1306" subtype="link"/>
+                        <link type="places" corresp="#places/1614" subtype="hasConnectionWith"/>
                 </person>
                 <person>
                     <persName>Gregorius (episcopus Vercellensis; 1044-1077) </persName>
@@ -4050,6 +4055,12 @@
                         <idno>people/1306</idno>
                         <note/>
                         <link type="places" corresp="#places/1613" subtype="hasConnectionWith"/>
+                        <link type="people" corresp="#people/1305" subtype="link"/>
+                        <link type="people" corresp="#people/365" subtype="link"/>
+                        <link type="people" corresp="#people/77" subtype="link"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1200"
+                            subtype="link"/>
+                        <link type="places" corresp="#places/1614" subtype="hasConnectionWith"/>
                     </person>
                 </listPerson>
                 <listPerson n="Rivera Magos Victor">
