@@ -30,10 +30,10 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#"/>
-                            <rs type="record_source" ref="#"/>
-                            <rs type="document_tradition" ref="#"/>
-                            <rs type="fiscal_property"/>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -41,11 +41,11 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate notBefore="0001" notAfter="0001" when="0001"> 
-                                <note type="displayed_date"></note>
-                                <note type="dating_elements"></note>
-                                <note type="topical_date"></note>
-                                <note type="redaction_date"></note>
+                            <origDate when="1070-06-15">
+                                <note type="displayed_date">1070 June 15</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Sankt Goar</note>
+                                <note type="redaction_date"/>
                             </origDate>
                             <origPlace/>
                         </origin>
@@ -73,7 +73,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2021-02-08">creation of record</change>
+                <change when="2021-08-19" who="lmotta">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -81,11 +81,42 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab></ab>
+                    <ab>In nomine sanctae et individue trinitatis. Henricus divina favente clementia
+                        rex. Omnium dei nostrorumque fidelium tam futurorum quam presentium sollers
+                        industria noverit, qualiter nos pro amore divino animeque beate memorie
+                        patris nostri Heinrici imperatoris augusti et nostre remedio et per
+                        interventu piissimae matris mee Agnetis auguste imperatricis et A.
+                        Coloniensis archiepiscopi atque archicancellarii Fructuariensi monasterio in
+                        honore sancte dei genitricis et perpetue virginis Mariae et sanctorum
+                        martyrum Benigni et Tyburii constructo quendam locum, quem pater meus
+                        adquisivit, Forum nuncupatum cum omnibus pertinentiis et appenditiis suis ad
+                        me et ad matrem meam pertinentibus, hoc est ecclesiis areis edificiis pratis
+                        pascuis cultis et incultis viis et inviis aquis aquarumque decursibus molis
+                        molendinis piscationibuel s portu venationibus et cum omni utilitate vel
+                        quam nunc habet aut que deinceps ullo modo inde provenire poterit, in
+                        proprium dedimus atque tradidimus, eundem vero locum in comitatu Aquensi
+                        situm, ea videlicet ratione ut venerabilis abbas Albertus omnesque
+                        successores illius cum consilio aliorum monachorum eiusdem monasterii
+                        liberam potestatem habeant tenendi precariandi commutandi vel quicquid sibi
+                        placuerit ad usum prenominati monasterii inde faciendi; nullus itaque rex
+                        archiepiscopus episcopus dux vel marchio comes vicecomes vela liqua regni
+                        nostri magna parvaque persona prenominatum monasterium de prefatis prediis
+                        beneficiis aut possessionibus inquietare molestare disvestire sine legali
+                        iudicio presumat. Si quis igitur, quod absit, huius nostri precepti violator
+                        extiterit, mille libras auri optimi componat, medietatem nostre camere et
+                        medietatem predicte ecclesie Fructuariensi. Quod ut verius credatur et
+                        diligentius ab omnibus custodiatur, sigilli nostri impressione hanc precepti
+                        paginam insigniri precepimus manu propria corroborantes. Signum domni
+                        Heinrici (M.) invictissimi regis. (SI. D.) Anno ab incarnatione domini
+                        nostri Iesu Christi millesimo septuagesimo, indicione ottava, XVII kal.
+                        iulii, anno vero ordinationis domni Heinrici invictissimi regis XVI, regni
+                        autem eiusdem serenissimi principis XIIII; in loco qui dicitur sancti Goari
+                        actum atque datum; feliciter. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p/>
+               
+                <p>MGH DD H IV. 1 n. 233 pp. 293-294</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>
