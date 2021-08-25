@@ -33,7 +33,7 @@
                             <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Original</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">No</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -88,8 +88,10 @@
                         venientibus nobis in civitatem <placeName ref="#places/53"
                             >Parmam</placeName>
                         <rs key="#Priests">canonici</rs> ipsius <orgName
-                            ref="#juridical_persons/1410">sanctae <placeName ref="#places/53"
-                                >Parmensis</placeName> ecclesiae</orgName> per <persName
+                            ref="#juridical_persons/1410"
+                            key="#Inquisitio #Collegiate_churches #Royal_slave #Royal_aldius"
+                            >sanctae <placeName ref="#places/53">Parmensis</placeName>
+                            ecclesiae</orgName> per <persName
                             key="#Intercessory #Marquis/duke #fidelisOf"><name ref="Adalbertus"
                                 >Adalbertum</name></persName> inclitum <rs key="#Marquis/duke"
                             >marchionem</rs> dilectum <rs key="#fidelisOf">fidelem nostrum</rs>
