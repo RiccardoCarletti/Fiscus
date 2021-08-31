@@ -4,7 +4,8 @@
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
-                <title><title>Archivio di Stato di Milano, Museo Diplomatico, 225/87</title></title>
+                <title><title>Archivio di Stato di Milano, Museo Diplomatico, 225/87
+                        (provvisorio)</title></title>
             </titleStmt>
             <editionStmt>
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus
@@ -92,7 +93,7 @@
                         memorie <persName key="#Count"><name ref="Rainerius"
                             >Raginerii</name></persName>
                         <rs key="#Count">comiti</rs> filius de <rs key="#Comitatus">comitatu</rs>
-                        <placeName key="#Comitatus" ref="#places/43">Placencia</placeName> et
+                        <geogName key="#Comitatus" ref="#estates/105">Placencia</geogName> et
                             <persName key="#Lombard"><name>Millerada</name></persName> iugalibus qui
                         professa sum ex nacione mea lege vivere <rs key="#Lombard"
                             >Longuobardorum</rs>, set pro ipse vir meus nunc lege vivere
@@ -111,20 +112,21 @@
                         nos iugalibus communiter a te <persName key="#Priests"><name
                                 ref="Ragifredus">Rigenfredus</name></persName>
                         <rs key="#Priests">presbitero</rs> filius quondam
-                                <persName><name>Ga(n)fri</name></persName> del loco <placeName
-                            key="#Villages/settlements">Ca(r)bole</placeName> per <rs key="#Missus"
-                            >misso</rs> tuo <persName key="#Judge #Missus"><name ref="Ansebrandus"
-                                >Assprandus</name></persName>
+                                <persName><name>Ga(n)fri</name></persName> del loco
+                            <placeName>Ca(r)bole</placeName> per <rs key="#Missus">misso</rs> tuo
+                            <persName key="#Judge #Missus"><name ref="Ansebrandus"
+                            >Assprandus</name></persName>
                         <rs key="#Judge">iudex</rs> per <rs key="#Price">denarios bonos libras
                             decem, habente per libram ducenti quadraginta denarios</rs>, finitum
-                        precium pro insulas duas iuris nostris in comitatu <placeName
-                            key="#Comitatus" ref="#places/275">Mantuanense</placeName>, una vero <rs
-                            key="#Islands">insola</rs> quae dicitur <placeName key="#Islands"
+                        precium pro insulas duas iuris nostris in comitatu <geogName
+                            key="#Comitatus">Mantuanense</geogName>, una vero <rs key="#Islands"
+                            >insola</rs> quae dicitur <placeName
+                            key="#Marshes/lagoons/tombolos #Islands #Forests #Fisheries #Cereals #Legumes #Wine #Hay/fodder"
                             >Arcamoretule</placeName> de fine <orgName key="#Cells/hermitages">casa
-                            Sancti Benedicti</orgName> usque in <placeName
-                            key="#Villages/settlements">Sancta Maria in caput Mincio</placeName>;
-                        alia namque insola dicitur <placeName key="#Islands">Gurgo
-                            Pedanno</placeName> habet finis: ab uno latere <rs key="#Rivers"
+                            Sancti Benedicti</orgName> usque in <placeName>Sancta Maria in caput
+                            Mincio</placeName>; alia namque insola dicitur <placeName
+                            key="#Marshes/lagoons/tombolos #Islands #Forests #Fisheries #Cereals #Legumes #Wine #Hay/fodder"
+                            >Gurgo Pedanno</placeName> habet finis: ab uno latere <rs key="#Rivers"
                             >fluvio</rs>
                         <placeName key="#Rivers">Padi</placeName>, alio latere fluvio <placeName
                             key="#Rivers">Largione</placeName> et rio qui dicitur <placeName
@@ -176,19 +178,18 @@
                             >Vualberti</name></persName>
                         <rs key="#Notary">notarii</rs> scribere tradimus vel rogavimus manum etiam
                         subter confirmans et testibus obtulit roborandam. Actum in <rs key="#Villas"
-                            >villa</rs> quae dicitur <placeName key="#Villages/settlements #Villas"
-                            >Ariole</placeName>, <rs key="#Iudiciaria">iudiciaria</rs>
-                        <placeName key="#Iudiciaria" ref="#places/191">Regensis</placeName>
-                        feliciter. Signum manibus Alberici et Millerade iugalibus qui hanc cartulam
-                        vendicionis et tradicionis ad omnia ut supra fieri rogaverunt et
-                        suprascripto argento acceperunt et eorum relecta est. Signum manibus
-                        suprascriptorum Guusberti et Elini seu Vuinieldi propinquiores parentibus
-                        ipsi Millerade qui eam interrogaverunt ut supra. Signum manibus <persName
-                            key="#Witness #Salian"><name ref="Hubertus">Uberti</name></persName> et
-                            <persName key="#Witness #Salian"><name ref="Hugo"
-                            >Uguoni</name></persName> seu <persName key="#Witness #Salian"><name
-                                ref="Rainerius">Rainerii</name></persName> lege viventes <rs
-                            key="#Salian">Francorum</rs>
+                            >villa</rs> quae dicitur <placeName key="#Villas">Ariole</placeName>,
+                            <rs key="#Iudiciaria">iudiciaria</rs>
+                        <geogName key="#Iudiciaria">Regensis</geogName> feliciter. Signum manibus
+                        Alberici et Millerade iugalibus qui hanc cartulam vendicionis et tradicionis
+                        ad omnia ut supra fieri rogaverunt et suprascripto argento acceperunt et
+                        eorum relecta est. Signum manibus suprascriptorum Guusberti et Elini seu
+                        Vuinieldi propinquiores parentibus ipsi Millerade qui eam interrogaverunt ut
+                        supra. Signum manibus <persName key="#Witness #Salian"><name ref="Hubertus"
+                                >Uberti</name></persName> et <persName key="#Witness #Salian"><name
+                                ref="Hugo">Uguoni</name></persName> seu <persName
+                            key="#Witness #Salian"><name ref="Rainerius">Rainerii</name></persName>
+                        lege viventes <rs key="#Salian">Francorum</rs>
                         <rs key="#Witness">testes</rs>. Signum manibus <persName
                             key="#Witness #Salian"><name>Oddoni</name></persName> filius <persName
                             key="#Salian"><name ref="Winizo">Vuinigisi</name></persName> de <rs
@@ -197,17 +198,16 @@
                             key="#Witness #Salian"><name>Ribaldi</name></persName> atque <persName
                             key="#Witness #Salian"><name ref="Iohannes">Iohanni</name></persName>
                         similiter ex genere Francorum rogati testes. Signum manibus <persName><name
-                                ref="Ansebrandus">Ansprandi</name></persName> de <placeName
-                            key="#Villages/settlements">Iuminianello</placeName> seu
-                            <persName>Giselberti</persName> et <persName>Ardemagni</persName> de
-                        loco <placeName>Gurgo</placeName> rogati testes. Ego <persName
-                            key="#Witness"><name ref="Petrus">Petrus</name></persName> rogatus
-                        subscripsi. Ego <persName key="#Witness"><name ref="Gherardus"
-                                >Garardo</name></persName> rogatus subscripsi. <persName
-                            key="#Witness"><name ref="Ansebrandus">Ansprandus</name></persName>
-                        Sacri Palacii rogatus subscripsi. (S.) Ego qui supra <persName
-                            key="#Venditio #Writer #Notary"><name ref="Walpertus"
-                            >Vualbertus</name></persName>
+                                ref="Ansebrandus">Ansprandi</name></persName> de
+                            <placeName>Iuminianello</placeName> seu <persName>Giselberti</persName>
+                        et <persName>Ardemagni</persName> de loco <placeName>Gurgo</placeName>
+                        rogati testes. Ego <persName key="#Witness"><name ref="Petrus"
+                            >Petrus</name></persName> rogatus subscripsi. Ego <persName
+                            key="#Witness"><name ref="Gherardus">Garardo</name></persName> rogatus
+                        subscripsi. <persName key="#Witness"><name ref="Ansebrandus"
+                                >Ansprandus</name></persName> Sacri Palacii rogatus subscripsi. (S.)
+                        Ego qui supra <persName key="#Venditio #Writer #Notary"><name
+                                ref="Walpertus">Vualbertus</name></persName>
                         <rs key="#Notary">notarius</rs> domni imperatoris ac regis scriptor huius
                         cartula vendicionis et tradicionis per iusso et data licencia <persName
                             key="#Count #Comitatus">Adelberti</persName>
@@ -215,8 +215,7 @@
                         co(m)plevi et dedi. (S.) Ego <persName key="#Venditio #Copyist #Notary"
                                 ><name ref="Teutius">Teuzo</name></persName> notarius autenticum
                         huius exe(m)pli vidi legi et sic ibi continebatur qualiter hic legitur
-                        preter litteras plus minusve et hoc exe(m)plum manibus meis exe(m)plavi.
-                    </ab>
+                        preter litteras plus minusve et hoc exe(m)plum manibus meis exe(m)plavi. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
