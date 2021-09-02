@@ -33,7 +33,7 @@
                             <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Original</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -109,9 +109,11 @@
                             key="#Landed_possessions">campo</rs> ibi propesimiliter ad Pinum
                         nominantem, et <rs key="#Landed_possessions">campum</rs> alterumqui dicitur
                             <placeName key="#Landed_possessions">Pratum Sale</placeName>, nec non
-                            <rs key="#Curtes">corticellam</rs> unam que dicitur ad Clane cum sua
-                        pertinentia, et aliam corticellam que vocatur Moionam sub integritate, sicut
-                        discernitur in scripto a iam nominato Petro episcopo facto; aecclesiam
+                            <rs key="#Curtes">corticellam</rs> unam que dicitur ad <geogName
+                            key="#Curtes #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches"
+                            ref="#estates/1431">Clane</geogName> cum sua pertinentia, et aliam <rs
+                            key="#Curtes">corticellam</rs> que vocatur Moionam sub integritate,
+                        sicut discernitur in scripto a iam nominato Petro episcopo facto; aecclesiam
                         quoque Sancti Petri in Castello, quam dive memoriae Lotharius imperator
                         avius noster pro remedio anime suae canonicos ibi servientes habere
                         concessit, nec non et villas tres, quarum una nominatur Durna, altera Plica,
