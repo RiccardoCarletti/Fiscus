@@ -4,7 +4,8 @@
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
-                <title/>
+                <title>Archivio della Curia vescovile di Bergamo, Liber Censualis episcopi Barotii,
+                    1464-1470, c. 299 B, n° 4</title>
             </titleStmt>
             <editionStmt>
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
@@ -30,10 +31,10 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#"/>
-                            <rs type="record_source" ref="#"/>
-                            <rs type="document_tradition" ref="#"/>
-                            <rs type="fiscal_property"/>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -41,11 +42,11 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate notBefore="0001" notAfter="0001" when="0001"> 
-                                <note type="displayed_date"></note>
-                                <note type="dating_elements"></note>
-                                <note type="topical_date"></note>
-                                <note type="redaction_date"></note>
+                            <origDate when="0901-03-25">
+                                <note type="displayed_date">901 march 25</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Pavia</note>
+                                <note type="redaction_date">XV s.m.</note>
                             </origDate>
                             <origPlace/>
                         </origin>
@@ -73,7 +74,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2021-02-08">creation of record</change>
+                <change when="2021-02-08" who="Chiara Stedile">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -81,7 +82,38 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab></ab>
+                    <ab>In nomine sancte et individue Trinitatis. Hludovicus divina favente
+                        clementia imperator augustus. Omnibus sancte Dei Ecclesie fidelibus
+                        nostrisque tam presentibus quam et futuris notum fieri volumus, quia
+                        Adelbertus sancte Pergomensis ecclesie venerabilis episcopus nosterque
+                        fidelissimus nostram adiit celsitudinem per Adelelmum dilectum consiliarium
+                        nostrum postulans, ut sanctam Bergomatem ecclesiam suam nostra imperiali
+                        auctoritate roboraremus, scilicet confirmando eidem ecclesie precepta
+                        antecessorum nostrorum regum atque imperatorum iuste et legaliter collata,
+                        speciali tenore de ecclesia Sancti Alexandri sita in Fara, quam quondam
+                        Iohannes eiusdem ecclesie venerabilis episcopus ad Arriana heresi ad fidem
+                        catholicam convertit, et de monasterio infra eandem civitatem dedicato in
+                        honorem Domini Salvatoris, et de monasteriolo Sancti Michaelis scito Cereto
+                        iuxta Ollium fluvium, que iuris et proprietatis ipsius ecclesie noscuntur.
+                        Innotuit etiam, imminente Ungarorum hactenus persecutione pleraque sue
+                        ecclesie munimina seu instrumenta cartarum perdita fuisse, et ob hoc
+                        possessiones ecclesiasticas a quibusdam invasoribus impediri. quod nos
+                        dolentes, confirmamus eidem ecclesie omnia precepta seu instrumenta cartarum
+                        et quicquid tempore nephande persecutionis Ungarorum ipsa ecclesia iure
+                        quieto habuit et detinuit. Quod autem iudicum recordatione aut bonorum
+                        hominum circumquaque manentium inquisitione clarescere potuerit, ut iuris et
+                        possessionis ipsius ecclesie fuerit, habeat et detineat atque possideat,
+                        absque alicuius contradictione. Si quis autem temerarius, quod non credimus,
+                        contra hoc nostre insitutionis preceptum in aliquo violare aut irrumpere
+                        temptaverit, sciat se compositurum auri libras X, [medietatem palatio nostro
+                        et] medietatem rectoribus sancte Bergomatis ecclesie. Et ut verius credatur
+                        ac diligentius ab omnibus observetur, manu propria subter roborantes anuli
+                        nostri impressione insigniri iussimus. Signum (M) domni Hludovici
+                        gloriosissimi imperatoris augusti. Arnulfus notarius ad vicem Liutuardi
+                        episcopi et archicancellarii recognovi [et subscripsi]. Data VIII kal.
+                        april., anno incarnationis Domini DCCCCI, indictione IIII, anno primo
+                        imperante domno nostro Hludovico glorioso imperatore augusto. Actum Papia.
+                        In Dei nomine feliciter, amen.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
