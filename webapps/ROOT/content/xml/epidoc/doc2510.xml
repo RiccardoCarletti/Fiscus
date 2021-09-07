@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Archivio Capitolare di Modena, Fondo Diplomatico, A.3.VII</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc2510</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">pergamena</rs>
+                            <rs type="record_source" ref="#"/>
+                            <rs type="document_tradition" ref="#"/>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            
+                            
+                            
+                             <origDate when="0822-02-08">
+                                <note type="displayed_date">-</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Aquisgrana (Germania)</note>
+                            </origDate>
+                                
+                            <origPlace/>
+                        </origin>
+                        <provenance type="findspot">
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+            <place/>
+        </listPlace>
+        <listPerson>
+            <person/>
+        </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-09-07" who="emanarini">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>Ludovico il Pio imperatore conferma alla chiesa di Modena, a istanza di Deodato vescovo, i privilegi e le donazioni ad essa concesse dai re longobardi Cuniperto, Liutprando, Ildebrando, Ratchis, Desiderio e dal padre Carlo, confermando anche quanto donato alla chiesa dai coniugi Gundoaldo e Maria e Costantino e Agnita</ab>
+                    <ab>Autore: Ludovico Il Pio (imperatore). Destinatario: Deodato (vescovo). Antroponimi: Williario (prete); Cuniperto (re); Liutprando (re); Ildebrando (re); Desiderio (re); Carlo Magno (imperatore); Guandoaldo; Costantino; Maria; Agnita; Durando (diacono); Fridugiso (cancelliere). Toponimi: Portile (Modena); Gavello (Mirandola, Modena); Cittanova (Modena); Ganaceto (Modena); Stagnano (Monteveglio, Bologna); Cluziam (San Donnino, Modena); Monteveglio (Bologna); Civitate Geminiana (presso Modena) .</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p>Lodovico: <ref>https://lodovico.medialibrary.it/media/schedadl.aspx?id=569c1d7e-9522-4aba-99f8-9807aa772803</ref></p>
+            </div>
+            <div type="commentary">
+                 <p>06_A.3.VIIr, Diploma Ludovico Pio, Aquisgrana 822, feb. 8-06_A.3.VIIv, Diploma Ludovico Pio, Aquisgrana 822, feb. 8. Diploma di Ludovico il Pio a Deodato vescovo. Originale interpolato. Vicini n. 9; </p>
+            </div>
+        </body>
+    </text>
+</TEI>

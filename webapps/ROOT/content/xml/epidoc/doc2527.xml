@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Archivio Capitolare di Modena, Fondo Diplomatico, A.8.XXV</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc2527</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">pergamena</rs>
+                            <rs type="record_source" ref="#"/>
+                            <rs type="document_tradition" ref="#"/>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            
+                            
+                            
+                             <origDate when="0887-05-05">
+                                <note type="displayed_date">-</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Cornaleto (Baggiovara, Modena)</note>
+                            </origDate>
+                                
+                            <origPlace/>
+                        </origin>
+                        <provenance type="findspot">
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+            <place/>
+        </listPlace>
+        <listPerson>
+            <person/>
+        </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-09-07" who="emanarini">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>Leodoino vescovo permuta con Eliburga col conseso del marito Rodoardo sei pezze di terra in località Freto, presso Secchia, ricevendone undici in località Mugnano</ab>
+                    <ab>Autore: Leodoino (vescovo). Destinatario: Eliburga. Antroponimi: Carlo III il Grosso (imperatore); Rodoardo; Gausareno; Arardo (conte); Ragimfredo; Marino; Rainardo; Lamberto; Landeverto; Gisemondo; Ingervergo; Bernegerio; Gundeverto (prete); Aldeverto; Isebardo; Odelberto (prete); Lopicino (avvocato); Mauro (avvocato); Marino (prete); Audeverto (prete, testimone); Iseberto (prete); Rodeberto; Ramberto; Rodemondo; Auseramo; Leone (notaio); Leone; Madreverto (testimone); Giselberto (testimone); Gaidone (testimone); Ragimpaldo (testimone); Folcero (testimone); Rodolfo (tertimone); Ariberto (testimone); Natale (notaio); Leone (prete). Toponimi: Freto (Modena); Suave (Cittanova?, Modena); Mugnano (Montale Rangone, Castelnuovo Rangone, Modena); Cittanova (Modena); Secchia (San Matteo, Modena).</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p>Lodovico: <ref>https://lodovico.medialibrary.it/media/schedadl.aspx?id=abd0fb3f-4322-458b-ab65-a203dff8cb7d</ref></p>
+            </div>
+            <div type="commentary">
+                 <p>24_A.8.XXVr, Permuta di terre seguita tra Leodoino vescovo ed Eliburga, villa Cornaleto, 887, mag. 5-24_A.8.XXVv, Permuta di terre seguita tra Leodoino vescovo ed Eliburga, villa Cornaleto, 887, mag. 5. Permuta tra Leodoino vesocvo ed Eliburga. Vicini n. 28; </p>
+            </div>
+        </body>
+    </text>
+</TEI>
