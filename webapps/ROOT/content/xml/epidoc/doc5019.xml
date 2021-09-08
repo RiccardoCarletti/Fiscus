@@ -4,7 +4,8 @@
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
-                <title/>
+                <title>Mantova, Biblioteca comunale, ms. 208 (B.III.4), f.
+                    158<foreign>v</foreign></title>
             </titleStmt>
             <editionStmt>
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
@@ -13,7 +14,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
-                <idno type="filename">doc1</idno>
+                <idno type="filename">doc5019</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -30,9 +31,9 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#"/>
-                            <rs type="record_source" ref="#"/>
-                            <rs type="document_tradition" ref="#"/>
+                            <rs type="text_type" ref="#">-Littera/mandatum</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
                             <rs type="fiscal_property"/>
                         </summary>
                         <msItem xml:id="msItem1">
@@ -41,13 +42,14 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate notBefore="0001" notAfter="0001" when="0001"> 
-                                <note type="displayed_date"></note>
-                                <note type="dating_elements"></note>
-                                <note type="topical_date"></note>
-                                <note type="redaction_date"></note>
+                            <origDate notBefore="1017" notAfter="1024">
+                                <note type="displayed_date">1017-1024</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Roma</note>
+                                <note type="redaction_date">XI, seconda metà</note>
                             </origDate>
-                            <origPlace/>
+                            <origPlace>Sanctus Benedictus in Pado Lironi; monasterium
+                                (Mantova)</origPlace>
                         </origin>
                         <provenance>
                             <location>
@@ -73,7 +75,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2021-02-08">creation of record</change>
+                <change when="2021-09-08" who="bferretti">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -81,11 +83,27 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab></ab>
+                    <ab>Pax. <persName>Benedictus</persName>
+                        <rs key="#Bishops">episcopus</rs>, <rs key="#Popes">servus servorum
+                        Dei</rs>, <persName key="#Marquis/duke" ref="#people/1">Bonifatio</persName>
+                        gratia Dei <rs>marchioni</rs> inclito salutem karissimam cum benedictione
+                        apostolica. Requisistis iuditium nostrum, sicut dignum fuerat, utrum in
+                        honore <persName><name>Symeonis</name></persName> nuper sanctificati, quod
+                        opera probant, et innumera ac diversa miracula testificant, liceret vobis
+                            <rs key="#Churches">aecclesiam</rs> construere, et eius venerabile
+                        corpus honorifice collocare ibidem. De quo respondemus: si ita corruscat
+                        miraculis ut vester homo nobis asseruit, aedificate aecclesiam, collocate in
+                        ea eundem, iuxta quem altare consaecrari rogate. In quo reliquiae antiquorum
+                        sanctorum recondantur, cum sacratissimo corpore domini nostri Ihesu Christi,
+                        et sic demum divina mysteria celebrentur. Tractate eum ut sanctum, sanctus
+                        sanctorum reddat vobis mercedem sancti, sicut ipse dixit: Qui recipit
+                        prophetam in nomine prophetae, mercedem prophetae accipiet. Ipse inspector
+                        est renum et cordium, et ipse illi dignam reconpensationem remuneret, et
+                        vobis pro tanto desiderio gratiam suam indulgeat. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p/>
+                <p>CDP I 019, pp. 110-112.</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>
