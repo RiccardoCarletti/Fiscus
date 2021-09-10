@@ -94,8 +94,9 @@
                             ref="#people/1301">Adelayda</persName> et <rs key="#Queen">consors
                             nostri imperii</rs> humiliter nostram adiit clemenciam, quatenus
                                 <persName><name ref="Gubertus">Guberto</name></persName> preposito
-                        et congregationi <orgName ref="#juridical_persons/151"><placeName
-                                ref="#places/458">Bobiensis</placeName>
+                        et congregationi <orgName ref="#juridical_persons/151"
+                            key="#Confinia #Rivers #Islands #Mountains #Massae #Landed_possessions #Forests #Mills #Oil #Coloni/tenants #Roads #Fines #Privileges #Tuitio/bannum/mundeburdium #Churches #Monasteries #Cells/hermitages #Hospitals #Popes #Abbots #Freeborn #Royal_aldius"
+                                ><placeName ref="#places/458">Bobiensis</placeName>
                             <rs key="#Monasteries">coenobii</rs> quod est constructum in honore
                             beati Petri principis apostolorum</orgName>, ubi beatissimus confessor
                         Christi Columbanus corpore quiescit, quemadmodum imperatores sive reges
@@ -248,7 +249,9 @@
                             key="#Fines" ref="#estates/1453">Luchanensibus</geogName> finibus,
                             <geogName key="#Fines" ref="#estates/1454">Pisanensibus</geogName> vel
                             <geogName key="#Fines" ref="#estates/1455">Pistoriensibus</geogName>, id
-                        est in <rs key="#Massae">massa</rs> Boscholi, in Pantimano, in Veriana vel
+                        est in <rs key="#Massae">massa</rs>
+                        <geogName key="#Massae">Boscholi</geogName>, in
+                            <placeName>Pantimano</placeName>, in <placeName>Veriana</placeName> vel
                         ubiubi: omnia que ad eundem sanctum locum delegata et tradita esse
                         noscuntur, ita cum omni integritate et cum omnibus ad se pertinentibus, cum
                             <rs key="#Coloni/tenants">massariciis</rs> vel <rs key="#Freeborn"
@@ -279,12 +282,17 @@
                             >medietatem parti coenobii predicti</rs>. Itaque ut hec nostra assertio
                         inconvulsa deinceps maneat ac diligencius ab omnibus observetur, manibus
                         propriis roborantes anuli nostri impressione insigniri precepimus. [Signum
-                        domni Ottonis (M.) imperatoris serenissimi augusti. Petrus <rs
-                            key="#Chancellor">cancellarius</rs> advicem Huberti <rs key="#Bishops"
-                            >episcopi</rs> et <rs key="#Archchancellor">archicancellarii</rs>
-                        recognovi et subscripsi. Data tertio kal. augusti anno dominice
-                        incarnationis DCCCCLXXII, imperii vero domni Ottonis XI, indictione XV;
-                        actum Mediolani in monasterio sancti Ambrosii.]</ab>
+                        domni Ottonis (M.) imperatoris serenissimi augusti. <persName
+                            key="#Chancellor"><name ref="Petrus">Petrus</name></persName>
+                        <rs key="#Chancellor">cancellarius</rs> advicem <persName
+                            key="#Archchancellor #Bishops"><name ref="Hubertus"
+                            >Huberti</name></persName>
+                        <rs key="#Bishops">episcopi</rs> et <rs key="#Archchancellor"
+                            >archicancellarii</rs> recognovi et subscripsi. Data tertio kal. augusti
+                        anno dominice incarnationis DCCCCLXXII, imperii vero domni Ottonis XI,
+                        indictione XV; actum <placeName ref="#places/147">Mediolani</placeName> in
+                            <orgName ref="#juridical_persons/95">monasterio sancti
+                            Ambrosii</orgName>.]</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
