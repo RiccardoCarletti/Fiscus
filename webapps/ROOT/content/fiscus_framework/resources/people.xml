@@ -3973,9 +3973,26 @@
                 </listPerson>
                 <listPerson n="Ferretti Beatrice">
                     <person>
-                        <persName>XXX</persName>
-                        <persName type="other"/>
+                        <persName>Adalbertus Atto (951-988) comes</persName>
+                        <persName type="other">Adelbertus qui et Atto</persName>
                         <idno>people/2100</idno>
+                        <note/>
+                        <link type="people" corresp="#people/2101" subtype="fatherOf"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/108"
+                            subtype="link"/>
+                        <link type="people" corresp="#people/"/>
+                    </person>
+                    <person>
+                        <persName>Sigefredus</persName>
+                        <persName type="other"/>
+                        <idno>people/2101</idno>
+                        <note/>
+                        <link type="people" corresp="#people/2100" subtype="sonOf"/>
+                    </person>
+                    <person>
+                        <persName>Wilielmus (962-964) episcopus Mantuanensis</persName>
+                        <persName type="other">Vuilielmus</persName>
+                        <idno>people/2102</idno>
                         <note/>
                     </person>
                 </listPerson>

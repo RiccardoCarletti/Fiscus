@@ -130,7 +130,7 @@
                     <idno>places/15</idno>
                     <note/>
                     <link type="people" corresp="#people/49" subtype="link"/>
-                    <link type="juridical_persons" corresp="#juridical_persons/47"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/47" subtype="link"/>
                     <link type="people" corresp="#people/48" subtype="link"/>
                 </place>
                 <place>
@@ -7578,10 +7578,18 @@
                 </listPlace>
                 <listPlace n="Ferretti Beatrice">
                     <place>
-                        <placeName>XXX</placeName>
+                        <placeName>San Benedetto Po (Mantova)</placeName>
+                        <placeName type="other"><foreign>Insula Sancti
+                            Benedicti</foreign></placeName>
+                        <geogName type="coord"><geo>45.041508, 10.928907</geo></geogName>
+                        <idno>places/2400</idno>
+                        <note/>
+                    </place>
+                    <place>
+                        <placeName/>
                         <placeName type="other"/>
                         <geogName type="coord"><geo/></geogName>
-                        <idno>places/2400</idno>
+                        <idno>places/</idno>
                         <note/>
                     </place>
                 </listPlace>

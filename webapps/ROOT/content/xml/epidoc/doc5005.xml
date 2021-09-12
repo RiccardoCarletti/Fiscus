@@ -94,9 +94,9 @@
                             >imperatoris et regi</rs> in iudicio residebat et hac causa ab eo
                         directus, residentibus cum eo <persName
                             key="#Placitum/iudicatum #Commutatio #Witness #Mother_churches #Bishops"
-                            >Vuilielmus</persName> huius <orgName
+                            ref="#people/2102">Vuilielmus</persName> huius <orgName
                             key="#Placitum/iudicatum #Commutatio #Islands #Fundi #Casae/cassinae_massaricie #Landed_possessions #Forests #Cereals #Wine #Hay/fodder #Coloni/tenants #Cells/hermitages #Mother_churches #Bishops"
-                            >sancte Mantuanensis ecclesie</orgName>
+                            ref="#juridical_persons/1426">sancte Mantuanensis ecclesie</orgName>
                         <rs key="#Bishops">episcopus</rs>, <persName
                             key="#Placitum/iudicatum #Witness #Judge"><name ref="Deusdedit"
                                 >Deodatus</name></persName>, <persName
@@ -148,13 +148,15 @@
                                 qui et Atzo</name></persName>, <persName
                             key="#Placitum/iudicatum #Witness"><name ref="Sigefredus"
                                 >Sigefredus</name></persName> de <geogName key="#Comitatus"
-                            ref="#estates/210"><rs key="#Comitatus">comitatu</rs> Lucense</geogName>
-                        et filius <persName><name ref="Sigefredus">Sigifredi</name></persName>,
-                            <persName key="#Placitum/iudicatum #Witness"><name ref="Wido"
-                                >Vuido</name></persName> filius <persName><name ref="Liudo"
-                                >Liudoni</name></persName> et <persName
+                            ref="#estates/210"><rs key="#Comitatus">comitatu</rs>
+                            <placeName key="#Comitatus" ref="#places/4"
+                            >Lucense</placeName></geogName> et filius <persName ref="#people/2101"
+                            >Sigifredi</persName>, <persName key="#Placitum/iudicatum #Witness"
+                                ><name ref="Wido">Vuido</name></persName> filius <persName><name
+                                ref="Liudo">Liudoni</name></persName> et <persName
                             key="#Placitum/iudicatum #Witness"><name>Odgerius</name></persName> de
-                            <geogName key="#Comitatus">comitatu Astense</geogName>, <persName
+                            <geogName key="#Comitatus">comitatu <placeName key="#Comitatus"
+                                ref="#places/254">Astense</placeName></geogName>, <persName
                             key="#Placitum/iudicatum #Witness #Notary"
                             ><name>Sadelbertus</name></persName>, <persName
                             key="#Placitum/iudicatum #Witness #Notary"><name ref="Berno"
@@ -162,10 +164,10 @@
                         <rs key="#Notary">notariis</rs> et reliqui plures. lbique eorum veniens
                         presencia <persName
                             key="#Placitum/iudicatum #Commutatio #Islands #Fundi #Casae/cassinae_massaricie #Landed_possessions #Forests #Cereals #Wine #Hay/fodder #Coloni/tenants #Cells/hermitages #Count #Lombard #sonOf"
-                            >Adelbertus qui et Atto</persName>
+                            ref="#people/2100">Adelbertus qui et Atto</persName>
                         <rs key="#Count">comes</rs> bone memorie <persName
                             key="#Lombard
-                            #fatherOf"
+                            #fatherOf" ref="#people/2101"
                             >Sigefredi</persName> filius de comitatu Lucense et ibi ostendit <rs
                             key="#Commutatio">cartula una commutacionis</rs> et nos eam ab ordine
                         relegi fecimus et in ea ab ordine continebatur: «(S.) In nomine domini Dei
