@@ -96,7 +96,7 @@
                                 >Aribertum</name></persName>, qui preest <rs key="#Monasteries"
                             >monasterio</rs>
                         <orgName
-                            key="#Casae/cassinae_massaricie #Coloni/tenants #Castle #Tuitio/bannum/mundeburdium #Monasteries #Royal_slave"
+                            key="#Casae/cassinae_massaricie #Coloni/tenants #Castle #Plebs #Decima #Tuitio/bannum/mundeburdium #Monasteries #Archpriests #Monks #Royal_slave #vassusOf"
                             ref="#juridical_persons/148">Domini Salvatoris quod dicitur
                             Tolla</orgName>, cum <rs key="#Monks">fratribus</rs> sub regularis
                         discipline [institutis ibidem Domino famulantibus pariter cum ipso
@@ -110,34 +110,37 @@
                         videntur seu qui ex integro cum omnibus suis pro sua salvatione eidem se
                         conferunt, per hanc nostre auctoritatis paginam sub nostre <rs
                             key="#Tuitio/bannum/mundeburdium">tuitionis mundburdum</rs> nostris
-                        futurisque temporibus suscepimus. De vassallis vero, qui prefato abbati ad
-                        utilitatem ipsius monasterii pro tempore deserviunt, precipimus omnino, ut
-                        nemo quod iniustum videtur eis inferre presumat, nec eos legis occasione in
-                        aliquo damnare pertemptet; et si occasio eis gravis videtur, aut ante iam
-                        dicti loci abbatem qui pro tempore fuerit] definiatur ratio regalis aut in
-                        nostra nostrorumque missorum presentia. <rs key="#Castle">Castellum etiam
-                            quod <placeName ref="#places/1874">Spelunca</placeName></rs> vocatur,
-                        quia pro Paganorum ac depredantium persecutione ad utilitatem denominati
-                        monasterii fundatum videatur, ut nostra auctoritate servetur et tueatur
-                        fraternae congregationi ad suorum plenissimam salutem concedimus et
-                        largimur. Insuper etiam iubemus iubentesque precipimus, ut, postquam
-                        inspirante pietate divina prelibatum monasterium [in honorem Domini
-                        Salvatoris constructum quod dicitur, sicut supra legitur, Tolla, prout supra
-                        comprehensum est, cum omnibus rebus mobilibus et immobilibus ac utriusque
-                        sexus familiis quoquo modo sibi pertinentibus a predecessoribus nostris
-                            <orgName ref="#juridical_persons/221">Ambrosiane ecclesiae</orgName>
-                        penitus largitum et concessum fore perspeximus, volumus, ut eiusdem
-                        ecclesiae monasteriorum consuetudines ac mores prosequatur in cunctis, id
-                        est ut abbas predicti monasterii qui pro tempore fuerit quicquid in <rs>domo
-                            coltili</rs> ubicunque suorum locorum laborare curaverit, sive ipsius
-                        monasterii domestici famuli de hoc, quod pro vestimento ubicunque proprio
-                        invenerint elaborantes sudore, nulla ex his <rs key="#Decima">decima</rs>
-                        neque ab <rs key="#Bishops">episcopo</rs>
+                        futurisque temporibus suscepimus. De <rs key="#vassusOf">vassallis</rs>
+                        vero, qui prefato abbati ad utilitatem ipsius monasterii pro tempore
+                        deserviunt, precipimus omnino, ut nemo quod iniustum videtur eis inferre
+                        presumat, nec eos legis occasione in aliquo damnare pertemptet; et si
+                        occasio eis gravis videtur, aut ante iam dicti loci abbatem qui pro tempore
+                        fuerit] definiatur ratio regalis aut in nostra nostrorumque missorum
+                        presentia. <rs key="#Castle">Castellum etiam quod <placeName
+                                ref="#places/1874">Spelunca</placeName></rs> vocatur, quia pro
+                        Paganorum ac depredantium persecutione ad utilitatem denominati monasterii
+                        fundatum videatur, ut nostra auctoritate servetur et tueatur fraternae
+                        congregationi ad suorum plenissimam salutem concedimus et largimur. Insuper
+                        etiam iubemus iubentesque precipimus, ut, postquam inspirante pietate divina
+                        prelibatum monasterium [in honorem Domini Salvatoris constructum quod
+                        dicitur, sicut supra legitur, Tolla, prout supra comprehensum est, cum
+                        omnibus rebus mobilibus et immobilibus ac utriusque sexus familiis quoquo
+                        modo sibi pertinentibus a predecessoribus nostris <orgName
+                            ref="#juridical_persons/221">Ambrosiane ecclesiae</orgName> penitus
+                        largitum et concessum fore perspeximus, volumus, ut eiusdem ecclesiae
+                        monasteriorum consuetudines ac mores prosequatur in cunctis, id est ut abbas
+                        predicti monasterii qui pro tempore fuerit quicquid in <rs>domo coltili</rs>
+                        ubicunque suorum locorum laborare curaverit, sive ipsius monasterii
+                        domestici famuli de hoc, quod pro vestimento ubicunque proprio invenerint
+                        elaborantes sudore, nulla ex his <rs key="#Decima">decima</rs> neque ab <rs
+                            key="#Bishops">episcopo</rs>
                         <orgName ref="#juridical_persons/223">Placentinae ecclesiae</orgName>
-                        suisque successoribus neque a quibuslibet eiusdem episcopatus plebium
-                        archipresbiteris vel prepositis per quodvis exigatur ingenium, sed hospitio
-                        eiusdem monasterii, uti iustum est, pro pauperibus offerre cogatur, quia sic
-                        prenominate ecclesiae Ambrosiane cenobia peragere comperimus. Tum etiam
+                        suisque successoribus neque a quibuslibet eiusdem episcopatus <rs
+                            key="#Plebs">plebium</rs>
+                        <rs key="#Archpriests">archipresbiteris</rs> vel prepositis per quodvis
+                        exigatur ingenium, sed hospitio eiusdem monasterii, uti iustum est, pro
+                        pauperibus offerre cogatur, quia sic prenominate ecclesiae Ambrosiane <rs
+                            key="#Monasteries">cenobia</rs> peragere comperimus. Tum etiam
                         precipimus atque nostra auctoritate sancimus, ut nullus superioris vel
                         inferioris ordinis reique publicae procurator vel quelibet magna parvaque
                         persona absque consensu et voluntate predicti monasterii abbatis vel
@@ -145,7 +148,8 @@
                         ingredi aut ullam molestiam vel contrarietatem tam de omnibus monasterii
                         rebus quam de decimis, ut dictum est, ipsi abbati vel successoribus suis
                         ullo inquam tempore inferre presumant, sed liceat prenominato abbati cum
-                        omnibus suis per hoc nostre defensionis ac tuitionis preceptum quiete vivere
+                        omnibus suis per hoc nostre defensionis ac <rs
+                            key="#Tuitio/bannum/mundeburdium">tuitionis preceptum</rs> quiete vivere
                         et pacifico ordine divinum cum eiusdem monasterii fratribus semper implere
                         obsequium pro nobis statuque regni nostri et animabus parentum nostrorum
                         orantes absque ullium personarum offendiculo. Si quis autem temerario ausu
