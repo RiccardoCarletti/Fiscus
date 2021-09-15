@@ -91,22 +91,29 @@
                         in <rs key="#Monasteries">monasterio</rs>
                         <orgName ref="#juridical_persons/1405">sancte trinitatis</orgName>, &lt;quod
                         edificari iussimus in honore sancte et individue trinitatis, videlicet res,
-                        quas bone memoriae <persName>Hyrmingarda</persName> genitrix nostra per
-                        cartulam a quibusdam fratribus, Liutardo diacono et Chunrado, germanis
-                        consentiende Liuprando genitore eorum conquisierat in singulis locis,
-                        videlicet sanctum Desiderium, Brilianum atque Lignari cum omnibus
-                        pertinentiis servis et ancillis cartulatis, cum mobilibus et immobilibus.>
-                        Dedimus et res quorundam hominum infidelium nostrorum, Vrsonis gastaldii
-                        atque Hitteri, similiter cum servis et ancillis cartulatis, cum mobilibus et
-                        immobilibus, ubicumque de omnibus illorum rebus adinventum fuerit. Pari
-                        etiam modo donamus res Camarocii cum servis similiter et ancillis, cum
-                        cartulatis, cum mobilibus et immobilibus. Nichilominus et donamus res
-                        Teobberti, qui ob nostram infidelitatem Beneuentum fugam petiit. Simulque
-                        donamus res Coruini et res, quas Ekardus Alammannus nobis per cartulam
-                        deligavit, nec non etiam et res, que fuerunt Gundi uxoris Ivstoni, id est
-                        curte de Monatiano et cuncta portione eius, quam a viro suo Iustone in dote
-                        acceperat. Que Gundi post velamine religionis in adulterio copulata in
-                        placitum ante iudices sacri palatii nostri legaliter devicta est. &lt;De
+                        quas bone memoriae <persName key="#motherOf" ref="#people/10"
+                            >Hyrmingarda</persName>
+                        <rs key="#motherOf">genitrix nostra</rs> per <rs key="#Cartula"
+                            >cartulam</rs> a quibusdam <rs key="#Monks">fratribus</rs>, <persName
+                            key="#Deacons"><name ref="Liutwardus">Liutardo</name></persName>
+                        <rs key="#Deacons">diacono</rs> et <persName><name ref="Cuneradus"
+                                >Chunrado</name></persName>, germanis consentiende <persName
+                            key="#fatherOf"><name ref="Liutbrandus">Liuprando</name></persName>
+                        genitore eorum conquisierat in singulis locis, videlicet <placeName>sanctum
+                            Desiderium</placeName>, <placeName>Brilianum</placeName> atque
+                            <placeName>Lignari</placeName> cum omnibus pertinentiis <rs
+                            key="#Royal_slave">servis et ancillis</rs> cartulatis, cum mobilibus et
+                        immobilibus.> Dedimus et res quorundam hominum infidelium nostrorum, Vrsonis
+                        gastaldii atque Hitteri, similiter cum servis et ancillis cartulatis, cum
+                        mobilibus et immobilibus, ubicumque de omnibus illorum rebus adinventum
+                        fuerit. Pari etiam modo donamus res Camarocii cum servis similiter et
+                        ancillis, cum cartulatis, cum mobilibus et immobilibus. Nichilominus et
+                        donamus res Teobberti, qui ob nostram infidelitatem Beneuentum fugam petiit.
+                        Simulque donamus res Coruini et res, quas Ekardus Alammannus nobis per
+                        cartulam deligavit, nec non etiam et res, que fuerunt Gundi uxoris Ivstoni,
+                        id est curte de Monatiano et cuncta portione eius, quam a viro suo Iustone
+                        in dote acceperat. Que Gundi post velamine religionis in adulterio copulata
+                        in placitum ante iudices sacri palatii nostri legaliter devicta est. &lt;De
                         omnia autem hec precipimus, ut, si intentio exorta fuerit, a publicis
                         ministris tanquam de domnicatis nostris per inquisitionem exigantur. Pro
                         nulla denique mallatura quispiam a monachis de prefato monasterio vel ab
