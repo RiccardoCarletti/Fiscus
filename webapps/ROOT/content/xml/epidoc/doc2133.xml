@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Archivio di Stato di Verona, Orfanotrofio femminile, diplomi, n. 13</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc2133</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">Yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0924-11-12">
+                                <note type="displayed_date">924 november 12</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Verona</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-02-08" who="Chiara Stedile">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine domini Dei aeterni. Rodulfus divina ordinante clementia rex. Si
+                        sac[ri]s et venerabilibus locis sublevamen nostrae auctoritatis impendimus
+                        et ad ministerium divinum exequendum opem ferimus, pro cuius amore id agimus
+                        aeternae remunerationis nobis premia largiri non ambigimus. Idcirco omnium
+                        fidelium sanctae Dei Aecclesiae nostrorumque present[iu]m scilicet ac
+                        futurorum comperiat sollertia, Vuidonem venerabilem episcopum dilectumque
+                        fidelem et consiliarium nostrum suppliciter nostrae pietatis exorasse
+                        clementiam, quatenus monasterium Beati Zenonis, ubi eius corpus humatum
+                        quiescit, sub nostrum mundburdum recipere dignaremur. Ad cuius preces aures
+                        nostras inclinantes, idem monasterium cum omnibus suis undeunde acquisitis
+                        et in futuro acquirendis sub nostro mundburdo recepimus, videlicet cum
+                        omnibus rebus mobilibus et inmobilibus seseque moventibus, familiis et
+                        servis utriusque sexus, mancipiis, colonis, libellariis, cartulatis eiusque
+                        commenditis; precipientes ut nullus dux, comes, vicecomes, nullaque magna
+                        parvaque persona in posessiones predicti monasterii commenditorumque eius se
+                        deinceps intromittere audeat, aut aliquo ingenio de eisdem usurpando vel
+                        invadendo subtrahere, absque imperiali et nostrorum iudicum palatinorum
+                        iudicio. Insuper etiam et nostro bando bandimus, ut si quis fortasse aliquid
+                        de supradictis rebus hactenus iniuste detinuit, et in suos usus sua
+                        potestate et temerario ausu possedit, continuo se a tali violentia
+                        subtrahat, et se funditus suosque homines removeat. Omnia quoque precepta et
+                        privilegia eiusdem monasterii quae concessa sunt, confirmata et funditus
+                        delegata priscis temporibus a regibus et imperatoribus, Langobardorum sive
+                        Francorum, seu omnes inscriptiones universasque res unde ipsum monasterium
+                        iuste et legaliter investitum permansit, et quicquid ei legibus pertinere
+                        dinoscitur tam per commutationes et precarias quam per offersiones et
+                        oblationes bonorum hominum, sive aliquas traditiones et quascumque
+                        donationes quae dici et nominari possunt, per hanc presentem nostrae
+                        munificentiae auctoritatem perpetuo confirmamus et modis omnibus
+                        corroboramus, quatenus, sicut inferius scriptum est, predictum monasterium
+                        in integrum aeternaliter possideat, teneat et iure proprietario vindicet,
+                        sine contradictione, molestatione vel minoratione omnium hominum. Concedimus
+                        etiam et donamus ut, sicut a divae memoriae Berengario imperatore et aliis
+                        antecessoribus nostris per precepti paginam concessum est, liceat abbatibus
+                        prefati coenobii, qui per tempora fuerint, duas naves in Pado et in flumine
+                        Athesis et per cetera flumina habere ad navigandum et eundem ubicumque
+                        necesse fuerit, absque ulla publica exactione et datione. Si quis igitur
+                        contra hoc nostrae concessionis et corroborationis preceptum infringere aut
+                        contraire temptaverit, sciat se compositurum auri optimi libras mille,
+                        medietatem camerae nostrae et medietatem ad partem pretaxati coenobii cui
+                        violentia fuerit illata. Quod ut verius credatur et diligentius im perpetuum
+                        observetur, manu propria roborantes de anuli nostri inpressione subter
+                        insigniri precepimus. Signum domni (MF) Rodulfi gloriosissimi regis. Manno
+                        cancellarius ad vicem Beati venerabilis episcopi et archicancellarii
+                        recognovi et subscripsi. (SR) (SI D) Data prid. id. novembr., anno dominicae
+                        incarnationis DCCCCXXIII[I], regni vero domni Rodulfi serenissimi [re]gis in
+                        Italia III, indic. XIII. Actum Veronae. In Christi nomine feliciter,
+                        amen.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>DD R II, pp. 113-116, n° VII</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>Questo diploma funse da modello per DD U, pp. 3-6, n° I. Il diploma di Berengario
+                    (DD BI, pp. 39-41, n° XI) citato nel testo fu utilizzato quasi soltanto per il
+                    passo relativo al diritto delle navi.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
