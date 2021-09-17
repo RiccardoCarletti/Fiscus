@@ -76,6 +76,7 @@
                     <link type="places" corresp="#places/32"
                         subtype="hasConnectionWith"/>
                     <link type="juridical_persons" subtype="link" corresp="#juridical_persons/53"/>
+                        <link type="people" corresp="#people/79" subtype="link"/>
                 </place>
                 
                 <place>
@@ -85,6 +86,7 @@
                     <link type="juridical_persons" corresp="#juridical_persons/53" subtype="link"/>
                     <link type="places" corresp="#places/33"
                         subtype="hasConnectionWith"/>
+                        <link type="people" corresp="#people/79" subtype="link"/>
                 </place>
                 
                 <place>
@@ -215,6 +217,7 @@
                     <link type="people" corresp="#people/242" subtype="link"/>
                     <link type="people" corresp="#people/21" subtype="link"/>
                     <link type="places" corresp="#places/361" subtype="hasConnectionWith"/>
+                        <link type="people" corresp="#people/79" subtype="link"/>
                 </place>
                 <place>
                     <geogName>Lucca; <foreign>curtis</foreign></geogName>
@@ -238,6 +241,7 @@
                         125.</note>
                     <link type="juridical_persons" corresp="#juridical_persons/53" subtype="link"/>
                     <link type="places" corresp="#places/362" subtype="hasConnectionWith"/>
+                        <link type="people" corresp="#people/79" subtype="link"/>
                 </place>
                 <place>
                     <geogName>Settepolesini; <foreign>curtis</foreign></geogName>
@@ -630,6 +634,9 @@
                     <link type="places" corresp="#places/9"
                         subtype="hasConnectionWith"/>
                     <link type="estates" corresp="#estates/208" subtype="hasConnectionWith"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/53"
+                            subtype="link"/>
+                        <link type="people" corresp="#people/79" subtype="link"/>
                 </place>
                 <place>
                     <geogName>Stazzona; <foreign>comitatus</foreign></geogName>
@@ -651,6 +658,9 @@
                     <link type="places" corresp="#places/14"
                         subtype="hasConnectionWith"/>
                     <link type="places" corresp="#places/354" subtype="hasConnectionWith"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/53"
+                            subtype="link"/>
+                        <link type="people" corresp="#people/79" subtype="link"/>
                 </place>
                 <place>
                     <geogName>Inverno; <foreign>curtis</foreign></geogName>
@@ -1631,6 +1641,9 @@
                     <note/>
                     <link type="people" corresp="#people/55" subtype="link"/>
                     <link type="places" corresp="#places/462" subtype="isInVicinityOf"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/53"
+                            subtype="link"/>
+                        <link type="people" corresp="#people/79" subtype="link"/>
                 </place>
                 <place>
                     <geogName>Modena; <foreign>comitatus</foreign></geogName>
