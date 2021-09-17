@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc2134</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#"/>
+                            <rs type="record_source" ref="#"/>
+                            <rs type="document_tradition" ref="#"/>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate notBefore="0001" notAfter="0001" when="0001"> 
+                                <note type="displayed_date"></note>
+                                <note type="dating_elements"></note>
+                                <note type="topical_date"></note>
+                                <note type="redaction_date"></note>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-02-08">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine domini Dei aeterni. Hugo divina largiente clemencia rex. Si sacris
+                        ac venerabilibus locis temporalia atque transitoria concedimus, magnam apud
+                        Dominum remunerari in futuro nequaquam diffidimus. Quocirca noverit omnium
+                        fidelium sanctae Dei Aeclesiae nostrorumque presencium scilicet ac futurorum
+                        industria, Lampertum sanctae Mediolanensis ecclesiae archiepiscopum nec non
+                        et Adelbertum sanctae Bergamensis sedis presulem et Ermengardis
+                        gloriosissimam comitissam karissimamque germanam nostram et Giselbertum
+                        illustrem comitem palatii humiliter nostram exorasse celsitudinem, quatenus
+                        ob amore superne remunerationis per nostri precepti paginam quoddam
+                        monasterium imfra civitate Placentina a ceate videlicet memoriae Angelberga
+                        imperatrice constructum et in honore sancti Sixti dedicatum Berte
+                        gloriosissime abbatisse consanguineae nostrae cum omnibus suis pertinenciis
+                        confirmare dignaremur, simul quoque roborantes et in perpetuum concedentes
+                        eidem monasterio quasdam cortes, Vuardestallam scilicet, Campum Miliatio,
+                        Curtem Novam, Sexto, Luciariam, Litora Paludiana, Villole, Piguniariam, cum
+                        adiacenciis eorum et omnia quecumque memorata imperatrix institutionis suae
+                        paginam ubicumque eidem cenobio diffinivit ad habendum. Quorum peticionibus
+                        tota devocione faventes, id fieri anuimus, hoc nostrum preceptum scribi
+                        iubentes, per quod prelibate Berte eundem monasterium confirmamus, quatenus
+                        in sua sit potestate et dominio cousque vixerit et ibidem dominatrix et
+                        ordinatrix atque rectrix invigilet ac permaneat donec eius fuerit vita. Per
+                        quod etiam iam prescripto venerabili loco concedimus hac confirmamus omnes
+                        res et possessiones mobiles ac inmobiles, tam per cartulas quamque extra
+                        cartulas vel cuiuscumque inscripcionis titulo ad partem ipsius monasterii
+                        legibus adquisitas et acquirendas, seu quicquid per regum vel imperatorum
+                        antecessorum nostrorum precepta ad eundem sacrum locumc ollatum; atque
+                        cellulam quandam que intiquitus Monaterium dicebatur non procul a Placentina
+                        urbe sitam, loco qui Caput Trebiae vocatur, in qua ecclesia apostolorum
+                        principis hoore dicata consistit, cum omnibus inibi inibi pertinentibus,
+                        quemadmodum Karlomannus serenissimus rex antiquitus eandem cellulam cum
+                        universis suis appendiciis eidem monasterio proprietario iure largitus est,
+                        prenominato venerabili loco per hoc nostrae regalis auctoritatis preceptum
+                        ex integro perdonamus, largimur, confirmamus modisque omnibus corroboramus.
+                        Familias quoque utriusque sexus et condicionis cum curtibus et capellis
+                        earumque appendiciis, cum omnibus castellis, casis, vineis, campis, pascuis,
+                        pratis, silvis, salectis, sacionibus, paludibus, aquis aquarumque
+                        decursibus, molendinis, fluminibus, piscacionibus, ripis, rupinis, montibus,
+                        collibus, vallibus ac planiciebus, coltis et incoltis, divisis et indivisis,
+                        mercacionibus, vectigalibus, districtionibus, servis et ancillis, aldiis et
+                        aldianis et omnibus que dici aut nominari possunt ad eundem monasterium
+                        iuste et legaliter respicientibus in integrum confirmamus, ita videlicet, ut
+                        prelibata abbatissa Berta, quousque vixerit, hac nostra auctoritate roborata
+                        de prescriptis rebus eidem monasterio pertinentibus tam per preceptorum
+                        paginam, ut diximus, quamque aliarum instrumenta cartarum et adquisitis et
+                        adquirendis potestative faciat, omnium magnarum parvarumque personarum
+                        molestacione remota. Si quis vero hanc nostram auctoritatem violare
+                        temtaverit, CL libras auti optimi componere cogatur, medietatem camere
+                        nostrae et medietatem sepe fate Berte abbatissae. Quod ut verius credatur
+                        diligenciusque ab omnibus opservetur, manu propria roborantes de anulo
+                        nostro iussimus insigniri. Signum (MF) domni Hugonis piissimi regis.
+                        Sigefredus cancellairus ad vicem Beati episcopi et archicancellarii
+                        recognovi et subscripsi. (SR) (SI) data anno dominice incarnacionis
+                        DCCCCXXVI, III non. Sep., indiccione XV, anno vero domni Hugonis I. Actum
+                        Papia. In Christi nomine feliciter, amen.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
