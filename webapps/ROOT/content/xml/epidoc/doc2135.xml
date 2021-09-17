@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Archivio si Stato di Parma, sez. Diplomatica, sec. X (DD B II, pp. 291-294,
+                    n° I)</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc2135</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">Yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0951-01-17">
+                                <note type="displayed_date">951 january 17</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Pavia</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-02-08" who="Chiara Stedile">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine domini Dei aeterni. Berengarius et Adelbertus divina providente
+                        clementia reges. Si sacris ac venerabilibus locis temporalia atque
+                        transitoria concedimus, magnam apud Dominum remunerari in futuro nequaquam
+                        diffidimus. Quocirca noverit omnium fidelium sanctae Dei Aecclesiae
+                        nostrorumque presentium scilicet ac futurorum industria, Giseprandum sanctae
+                        Terdonensis aecclesiae episcopum nec non Vuidonem sanctae Mutinensis sedis
+                        presulem humiliter nostram exorasse celsitudinem, quatenus ut amorae
+                        supernae remuneracionis per nostri precepti paginam quoddam monasterium
+                        infra civitatem Placentinam a beate videlicet memoriae Angelberga
+                        imperatricae constructum et in honore sancti Sisti hedificatum Bertae
+                        gloriosissimae abbatissae amitae nostrae cum omnibus suis pertinenciis
+                        confirmare ac corroborare dignaremur, simul quoque roborantes et in
+                        perpetuum concedentes eidem monasterio quasdam cortes, Vuardistalla
+                        scilicet, Campum Miliatio, Curte Nova, Piguniarius, Sexto, Lutiariam,
+                        Littora Paludiana, Villolae, cum adiacenciis eorum et omnia quecumque
+                        memorata imperatrix institutionis suae iudicati ubicumque eidem caenobio
+                        diffinivit ad habendum. Quorum petitionibus tota devotione faventes, id
+                        fieri annuimus, hoc nostrum preceptum scribi iubentes, per quod prelibatae
+                        Bertae abbatissae eundem monasterium confirmamus ac corroboramus, quatenus
+                        in sua sit potestate et dominio quousque vixerit et ibidem dominatrix et
+                        ordinatrix atque rectrix invigilet ac permaneat donec eius fuerit vita. Per
+                        quod etiam iam prescripto venerabili loco concedimus et confirmamus omnes
+                        res et possessiones mobiles ac immobiles, tam per cartulas quamque extra
+                        cartulas vel cuiuscumque inscriptionis titulo ad partem ipsius monasterii
+                        legibus adquisitas et adquirendas, seu quicquid per egum vel imperatorum
+                        antecessorum nostrorum precepta ad eundem sacrum locum collatum; atque
+                        cellulam quandam que antiquitus Monasterium dicebatur non procul a
+                        Placentinae urbe sitam, loco qui Capud Trebiae vocatur, in qua ecclesia
+                        apostolorum principis dicata consistit, cum omnibus inibi pertinentibus,
+                        quemadmodum Carlemannus serenissimus rex antiquitus eandem cellulam cum
+                        universis suis appenditiis et pertinentiis eidem monasterio proprietario
+                        iure largitus est, prenominato venerabili loco per hoc nostrae regalis
+                        auctoritatis preceptum ex integro perdonamus, largimur, confirmamus,
+                        modisque omnibus corrobor[mu]s. Familias quoque utriusque sexus et
+                        conditiones cum curtibus et capellis earumque appenditiis, cum omnibus
+                        castellis, casis, vineis, campis, pascuis, pratis, silvis, salectis,
+                        sationibus, paludibus, aquis aquarumque decursibus, molendinis, fluminibus,
+                        piscationibus, ripis, rupinis, montibus, collibus, vallibus ac planiciebus,
+                        coltis et incoltis, divisis et indivisis, mercationibus, vectigalibus,
+                        districtionibus, servis et ancillis, aldiis et aldianis et cum omnibus ad
+                        eundem monasterium iuxste et legaliter respicientibus in integrum
+                        confirmamus, ita videlicet, ut pelibata abbatissa Berta, quousque vixerit,
+                        hac nostra auctoritate roborata de prescriptis rebus eidem monasterio
+                        pertinentibus tam per preceptorum paginam, ut diximus, quamque aliarum
+                        instrumenta cartarum et adquisitis et adquirendis potestative omnium faciat
+                        magnarum parvarumque personarum molestatione remota. Si quis vero hanc
+                        nostram auctoritatem violare temptaverit, centum quinquaginta libras auri
+                        optimi componese coga[t]ur, medietatem ka[m]erae nostrae et medietatem sepe
+                        fate Bertae abbatissae. Quod ut verius credatur diligentiusque ab omnibus
+                        observetur, manibus propriis roborantes de anulo nostro iussimus insigniri.
+                        Signa domnorum (MF) (MF) Berengarii et Adelberti serenissorum regum. Ubertus
+                        cancellarius ad vicem Bruningi episcopi et archicancellarii recognovit et
+                        subscripsit. (SR) (SI D). Data XVI kalendis februarii, anno dominicae
+                        incarnationis DCCCCL, regni vero domni Berengarii atque Adelberti
+                        piissimorum regum primo, indictione nona. Actum Papiae Titinum. Feliciter,
+                        amen.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>DD B II, pp. 291-294, n° I</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p>Il testo ripete quello del diploma di Ugo per il medesimo destinatario (DD U, pp.
+                    6-9, n° II). La forma <foreign>Piguniariuis</foreign> era presente nel diploma
+                    di Rodolfo del 12 novembre 924 (DD R II, pp. 117-120, n° VIII).</p>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
