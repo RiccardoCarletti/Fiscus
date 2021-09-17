@@ -30,10 +30,10 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#">pergamena</rs>
-                            <rs type="record_source" ref="#"/>
-                            <rs type="document_tradition" ref="#"/>
-                            <rs type="fiscal_property"/>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Uncertain tradition</rs>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -45,9 +45,10 @@
                             
                             
                             <origDate notBefore="0749-07-03" notAfter="0756-12-31">
-                                <note type="displayed_date">749-756</note>
+                                <note type="displayed_date">749 July 3/756 December 31</note>
                                 <note type="dating_elements"/>
-                                <note type="topical_date">-</note>
+                                <note type="topical_date"></note>
+                                <note type="redaction_date">XI</note>
                             </origDate>
                                 
                             <origPlace/>
@@ -84,12 +85,36 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>Astolfo re dona al vescovo Lopecino, su intervento della regina Giseltruda, la curtis Gena nel territorio di Modena e la foresta da essa dipendente</ab>
-                    <ab>Autore: Astolfo (re). Destinatario: Lopecino (vescovo). Antroponimi: Giseltruda (regina); Teutperto (referendario). Toponimi: Gena (Nonantola, Modena).</ab>
+                    <ab>+ Flavius <persName>Aistulfus</persName>
+                        <rs>rex</rs> excellentissimus. <orgName>Aecclesiae beatissimi et confessoris
+                            Christi Geminiani</orgName>, in qua eius sanctum corpus quiescit
+                        humatum, et beatissimo viro, patri nostro, <persName>Lopecino</persName>
+                        <rs>episcopo</rs>. Per presens <rs>praeceptum</rs> potestatis regni nostri,
+                        sicut a nobis tua speravit paternitas, per gloriosissimam atque
+                        praecellentissima <persName>Giseltrudam</persName>
+                        <rs>reginam</rs>, dilectam <rs>coniugem</rs> nostram, cedimus atque donamus
+                        in ipsa sancta <rs>aecclesia</rs>
+                        <rs>curtem</rs> nostram que dicitur
+                            <placeName><geogName>Gena</geogName></placeName>, <rs>territorio</rs>
+                        <placeName>Mutinense</placeName>, <rs>silva</rs> iugis numero quingentis
+                        coherentes ibi a tribus partibus <rs>gaio</rs> nostro, qui pertinere videtur
+                        de ipsa curte Gena, de quarta vero parte percurrente <rs>fluvio</rs> qui
+                        nominatur Scultenna; ea ratione suprascripta quingenta iugera silve
+                        concedimus, ut ab hac die ipse sanctus locus vel tua paternitas omni in
+                        tempore securiter dona nostra valeat possidere, qualiter ex nostra iussimus,
+                        tradimus atque consignatum esse videtur voluntare. Quatinus ab hodierno die
+                        habentes hoc nostrae donationis et cessionis praeceptum securiter atque
+                        firmiter ipse sanctus locus valeat possidere; et nullus <rs>dux</rs>,
+                            <rs>comes</rs>, <rs>gastaldius</rs> vel <rs>actionarius</rs> noster
+                        contra hoc nostrae donationis et cessionis praeceptum audeat ire quandoque,
+                        sed omni in tempore ipse praenominatus sanctus locus vel tua paternitas
+                        securiter valeatis possidere. Ex dicto domni regis per
+                                <persName><name>Theutpert</name></persName> illustrem
+                            <rs>referendarium</rs> scripsi ego …; feliciter.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p/>
+                <p>CDL III, n. 24.</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>
@@ -98,7 +123,8 @@
                 <p>Lodovico: <ref>https://lodovico.medialibrary.it/media/schedadl.aspx?id=1a36ead7-0ade-4940-ab0b-bf8c3ca01612</ref></p>
             </div>
             <div type="commentary">
-                 <p>01_A.1.Ir, Donazione fatta da Flavio Astolfo re dei Longobardi a favore di Lapicino vescovo, [749-756]-01_A.1.Iv, Donazione fatta da Flavio Astolfo re dei Longobardi a favore di Lapicino vescovo, [749-756]. Diploma di Astolfo re a Lopecino vescovo. Copia del secolo XI. Vicini n. 1; </p>
+                 <p>Brühl la definisce una copia del secolo XI. La pergamena era cucita in un rotolo
+                    insieme alle coeve A.2.I e A.3.IX.</p>
             </div>
         </body>
     </text>
