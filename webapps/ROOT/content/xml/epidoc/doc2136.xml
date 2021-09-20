@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Archivio Segreto Vaticano, arm. LXI, to. 28, <foreign>Privilegia ecclesiae
+                        Parmensis</foreign></title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc2136</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">Yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0926-09-04">
+                                <note type="displayed_date">926 september 4</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Pavia</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-02-08" who="Chiara Stedile">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine sancte et individue Trinitatis. Hugo divino munere largiente
+                        serenissimus rex. Nichil aptius ad nostre sublimitatis honorem nostrique
+                        regiminis corroborationem facere posse credimus,quam si sanctarum Dei
+                        ecclesiarum habentes sollicitudinem earum dotes inconvulsas servare curamus,
+                        et votis fidelium pias aures accomodamus. Ac per hoc omnium sancte Dei
+                        ecclesie nostrorumque fidelium presentium et futurorum sagacitas noverit,
+                        Hercardum venerabilem sancte Parmensis ecclesie episcopum nostre serenitatis
+                        adiisse clemetiam, quatenus precepta et auctoritates piissimorum augustorum
+                        vel regum predecessorum nostrorum omnium, quotquot a tempore dive memorie
+                        Rachis regis usque ad presens tempus nostrum sui predecessores prefate
+                        sancte Parmensi ecclesie acquerire potuerunt, abbatiam scilicet Sancti
+                        Remigii sitam in Bercedo ac eiusdem Parme civitatis districtum ac omne ius
+                        publicum vel toloneum, veluti a nostris predecessoribus prelibate Parmensi
+                        ecclesie dudum fuerunt collata, ita demum nostri corroboratione precepti
+                        eorumdem auctoritatibus nostram adderemus confirmationem. Cuius igitur
+                        devotissimis precibus annuentes et libentissime assensum prebentes, hos
+                        nostre auctoritatis apices inscribi iussimus, quibus decernimus ut ipsa
+                        precepta de abbatia Bercedo, districto iuris publici Parmensis civitatis
+                        sive toloneo eiusdem loci nec non Corte Regia ac Prato Regio vel quidquid
+                        antiqui reges sive imperatores et reliqui homines Deum timentes memorate
+                        sancte Parmensi ecclesie suis preceptis vel testamentis contulerunt et
+                        postmodum preexcellentissimi reges atque augusti sua auctoritate
+                        confirmarunt, stabilia ac inconvulsa nostris futurisque temporibus in
+                        potestate vel iure prescripti Hercardi episcopi sancte Parmensis ecclesie
+                        suorumque successorum perpetualiter maneant. Statuimus etiam et omnino
+                        interdicimus, ut nullus comes vel publice partis iudex aut gastaldio vel
+                        alia quelibet persona magna aut parva in predicta abbatia de Bercedo seu in
+                        districtu Parme civitatis, quod ad ius publicum sive toloneum pertinet, vel
+                        cunctis possessionibus, quas a tempore, ut prediximus, predecessorum
+                        nostrorum regum scilicet sive imperatorum usque in presens undecumque
+                        firmitatem vel auctoritatem prelibata Parmensis ecclesia habere dignoscitur,
+                        vel quas deinceps inibi divina pietas augmentare voluerit, nemo, ut
+                        prediximus, superioris aut inferioris ordinis rei publice procurator ad
+                        causas iudiciario more audiendas conventum facere vel freda exigere aut
+                        mansionaticum vel paratas exquirere, parafredos aut fideiussores violenter
+                        tollere, homines tam ingenuos liberos quamque servos in possessionibus vel
+                        mansionibus ipsius ecclesie permanentes potestative distringere aut aliquas
+                        functiones publicas aut redibitiones atque inlicitas occasiones sive
+                        angarias super imponere presumat, sed contra in potestate eiusdem loci
+                        episcopi sint, totius publice partis inquietudine remota. Nullus enim sub
+                        regno nostro constitutus de rebus suprataxate Parmensis ecclesie in
+                        quibuscumìnque comitatibus vel locis aliquam deminorationem facere aut alias
+                        quaslibet annuales dominationes exigere aut consuetudinario more aliquid
+                        tollere vel clericos eiusdem ecclesie in personis vel domibus suis ledere
+                        audeat, sed repulsa omni inlicita consuetudine liceat pretaxato venerabili
+                        episcopo Herchardo suisque successoribus res iam dicte ecclesie Parmensis
+                        cum universis sibi subiectis sub immunitatis nostre defensione quieto ordine
+                        tenere atque pro nostra incolumitate altissimum Dominum exorare; et omnimodo
+                        precipimus, ut, undecumque a tempore nostrorum predecessorum iam dicta
+                        ecclesia legalem investituram habere dignoscitur, si ullam diminorationem
+                        quilibet facere tentaverit, non sit necesse iam dicto episcopo eiusque
+                        successoribus sive eiusdem ecclesie causam peragentibus ullam facere
+                        probationem, sed diligenter per bone fidei homines, si opus fuerit,
+                        iureiurando fiat inquisitio, ut rei veritas clarescat. Quicunque ergo huius
+                        nostri precepti prevaricator extiterit, trecentas auri purissimi componat
+                        libras, medietatem camere nostre et medietatem prefate Parmensi ecclesie.
+                        Quod ut verius credatur et diligentius ab omnibus observetur, manu propria
+                        roborantes anulo nostro subter insigniri decrevimus. Signum domni (M)
+                        Hugonis gloriosissimi regis. Sigefredus cancellarius ad vicem Beati episcopi
+                        et archicancellarii recognovi et subscripsi. Dat. Pridie nonas septembris,
+                        anno incarnationis dominice DCCCCXXVI, regni vero domni Hugonis
+                        gloriosissimi regis primo, indictione I. Actum Papie in Christi nomine
+                        feliciter, amen.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>DD U, pp. 10-14, n° III</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
