@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc2137</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#"/>
+                            <rs type="record_source" ref="#"/>
+                            <rs type="document_tradition" ref="#"/>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate notBefore="0001" notAfter="0001" when="0001"> 
+                                <note type="displayed_date"></note>
+                                <note type="dating_elements"></note>
+                                <note type="topical_date"></note>
+                                <note type="redaction_date"></note>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-02-08">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine domini nostri Iesu Christi aeterni Dei. Hugo divina ordinante
+                        providentia rex. Si petitionibus fidelium nostrorum libenter anuimus,
+                        devotiores eos ad nostrae fidelitatis obsequia reddimus. Quocirca noverit
+                        omnium fidelium Sanctae Dei ecclesiae nostrorumque presentium scilicet ac
+                        futurorum industria, Adalbertum egregium presulem atque Giselbertum sacri
+                        palatii gloriosum comitem dilectosque fideles nostros suppliciter nostram
+                        postulasse clementiam, quatenus abbatiolam unam iuris regni nostri
+                        attinentem ad honorem beatae Cristinae virginis consecratam, infra scilicet
+                        Ticinensem urbem positam, ob Dei amorem ac pro nostrae parentumque nostrorum
+                        animae salute sanctissimo Antonino martiri Christi ac sacratissimae Iustinae
+                        virgini hoc nostrae auctoritatis precepto cum omni eiusdem abbatiolae
+                        integritate iure proprietario concedere dignaremur. Quorum petitionibus
+                        acclinati karissimumque fidelis nostri Vuidonis venerabilis episcopi
+                        fidelitatem cognoscentes continuam, qui iam nominati Beati Antonini Christi
+                        martiris ac Sanctae Iustinae virginis ecclesiae pontifex fore cernitur,
+                        prescriptam abbatiolam ad honorem beatae Cristinae virginis, infra scilicet
+                        Ticinensem civitatem dedicatam et positam, pro Dei amore nostraeque animae
+                        salute seu parentum vel predecessorum [nostrorum animae re]medio iam sepae
+                        dicto Christi martiri Antonino et Beatae virgini Iustinae in integrum
+                        proprietario iure per hoc nostrum regale preceptum perpetuo concedimus ac
+                        largimur, et de nostro iure ac potestate in eorum ius et potestatem omnino
+                        transfundius ac delegamus una cum casis, terris, vineis, campis, pratis,
+                        pascuis, silvis, salectis, sacionibus, aquis aquarumque decursibus,
+                        molendinis, piscationibus, servis et ancillis, aldionibus et aldianis,
+                        montibus, vallibus, planitiebus, coltis et incoltis, divisis et indivisis,
+                        ripis, rupinis omnibusque quae dici aut nominari possunt ad eandem
+                        abbatiolam pertinentibus vel aspicientibus; quatenus pretaxatus Vuido
+                        reverendus antistes dilectusque fidelis noster auique successores predictam
+                        abbatiolam cum omni sua integritate perpetualiter habeant, teneant,
+                        possideant faciantque ex omnibus quae sibi iuste et legaliter pertinuerint
+                        et quicquid illorum decreverit voluntas, absque contradictione vel molestia
+                        seu minoratione cuiusque. Si quis igitur hoc nostrae regalis concessionis
+                        preceptum infringere vel inrumpere quandoque temptaverit, sciat se
+                        compositurum auri obtimi libras ducentas, medietatem camerae nostrae et
+                        medietatem cui ex his omnibus iniusta fuerit iniecta molestia. Quod ut
+                        verius credatur diligentiusque futuris temporibus ab omnibus observetur,
+                        manu propria roborantes de anulo nostro subter sigillari iussimus. Signum
+                        domni (MF) Hugonis piissimi regis. Sigefredus vocatus episcopus et
+                        cancellarius recognovi et subscripsi (SR) (SI D). Data anno dominicae
+                        incarnationis DCCCCXXVI, IIII kal. Decembris, indictione XV, anno vero domni
+                        Hugonis primo. Actum Papia. In Christi nomine feliciter, amen.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
