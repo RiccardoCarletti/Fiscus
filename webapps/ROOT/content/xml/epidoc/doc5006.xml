@@ -95,7 +95,8 @@
                             <persName key="#Count"><name ref="Rainerius">Raginerii</name></persName>
                         <rs key="#Count">comiti</rs> filius de <geogName key="#Comitatus"
                             ref="#estates/105"><rs key="#Comitatus">comitatu</rs>
-                            Placencia</geogName> et <persName
+                            <placeName key="#Comitatus" ref="#places/43"
+                            >Placencia</placeName></geogName> et <persName
                             key="#Venditio #Witness #Marshes/lagoons/tombolos #Houses #Forests #Fisheries #Cereals #Legumes #Wine #Hay/fodder #Animals #Lombard #legallyRecognisedUnionWith #kinOf"
                                 ><name>Millerada</name></persName> iugalibus qui professa sum <rs
                             key="#Lombard">ex nacione mea lege vivere Longuobardorum</rs>, set pro
@@ -124,8 +125,10 @@
                         <rs key="#Judge">iudex</rs> per denarios bonos <rs key="#Price">libras
                             decem</rs>, habente per libram ducenti quadraginta denarios, finitum
                         precium pro <rs key="#Islands">insulas</rs> duas iuris nostris in <geogName
-                            key="#Comitatus" ref="#estates/2000">comitatu Mantuanense</geogName>,
-                        una vero insola quae dicitur <placeName
+                            key="#Comitatus" ref="#estates/2000">comitatu <placeName
+                                key="#Comitatus" ref="#places/275"
+                            >Mantuanense</placeName></geogName>, una vero insola quae dicitur
+                            <placeName
                             key="#Marshes/lagoons/tombolos #Houses #Forests #Fisheries #Cereals #Legumes #Wine #Hay/fodder #Animals"
                             ref="#places/2401">Arcamoretule</placeName> de fine <orgName
                             key="#Cells/hermitages">casa Sancti Benedicti</orgName> usque in
@@ -182,13 +185,14 @@
                             >Vualberti</name></persName>
                         <rs key="#Notary">notarii</rs> scribere tradimus vel rogavimus manum etiam
                         subter confirmans et testibus obtulit roborandam. Actum in <rs key="#Villas"
-                            >villa</rs> quae dicitur <placeName key="#Villas">Ariole</placeName>,
-                            <geogName key="#Iudiciaria">iudiciaria Regensis</geogName> feliciter.
-                        Signum manibus Alberici et Millerade iugalibus qui hanc cartulam vendicionis
-                        et tradicionis ad omnia ut supra fieri rogaverunt et suprascripto argento
-                        acceperunt et eorum relecta est. Signum manibus suprascriptorum Guusberti et
-                        Elini seu Vuinieldi propinquiores parentibus ipsi Millerade qui eam
-                        interrogaverunt ut supra. Signum manibus <persName
+                            >villa</rs> quae dicitur <placeName key="#Villas" ref="#places/2411"
+                            >Ariole</placeName>, <geogName key="#Iudiciaria">iudiciaria <placeName
+                                key="#Iudiciaria" ref="#places/191">Regensis</placeName></geogName>
+                        feliciter. Signum manibus Alberici et Millerade iugalibus qui hanc cartulam
+                        vendicionis et tradicionis ad omnia ut supra fieri rogaverunt et
+                        suprascripto argento acceperunt et eorum relecta est. Signum manibus
+                        suprascriptorum Guusberti et Elini seu Vuinieldi propinquiores parentibus
+                        ipsi Millerade qui eam interrogaverunt ut supra. Signum manibus <persName
                             key="#Venditio #Witness #Salian"><name ref="Hubertus"
                             >Uberti</name></persName> et <persName key="#Venditio #Witness #Salian"
                                 ><name ref="Hugo">Uguoni</name></persName> seu <persName
@@ -202,12 +206,11 @@
                             key="#Venditio #Witness #Salian"><name>Ribaldi</name></persName> atque
                             <persName key="#Venditio #Witness #Salian"><name ref="Iohannes"
                                 >Iohanni</name></persName> similiter ex genere Francorum rogati
-                        testes. Signum manibus <persName key="#Venditio #Witness"><name
-                                ref="Ansebrandus">Ansprandi</name></persName> de
-                            <placeName>Iuminianello</placeName> seu <persName
-                            key="#Venditio #Witness"><name>Giselberti</name></persName> et <persName
-                            key="#Venditio #Witness"><name>Ardemagni</name></persName> de loco
-                            <placeName>Gurgo</placeName> rogati testes. Ego <persName
+                        testes. Signum manibus <persName key="#Venditio #Witness" ref="#people/2103"
+                            >Ansprandi</persName> de <placeName>Iuminianello</placeName> seu
+                            <persName key="#Venditio #Witness"><name>Giselberti</name></persName> et
+                            <persName key="#Venditio #Witness"><name>Ardemagni</name></persName> de
+                        loco <placeName>Gurgo</placeName> rogati testes. Ego <persName
                             key="#Venditio #Witness"><name ref="Petrus">Petrus</name></persName>
                         rogatus subscripsi. Ego <persName key="#Venditio #Witness"><name
                                 ref="Gherardus">Garardo</name></persName> rogatus subscripsi.

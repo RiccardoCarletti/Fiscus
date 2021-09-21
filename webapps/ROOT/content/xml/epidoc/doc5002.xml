@@ -83,7 +83,9 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>(S.) Dum in Dei nomine <rs key="#Cities">civitate</rs>
+                    <ab>(S.) Dum in Dei nomine <rs
+                            key="#Cities #Mother_churches #Local_elites #Boni_viri/boni_homines"
+                            >civitate</rs>
                         <placeName key="#Cities" ref="#places/191">Regio</placeName>, infra claustra
                         et <rs key="#Palatium">domum</rs> et <rs key="#Mother_churches"
                             >episcopio</rs> istius <orgName
@@ -129,11 +131,11 @@
                                 ><name ref="Albitius">Albizio</name></persName>, <persName
                             key="#Placitum/iudicatum #Witness"><name ref="Hugo"
                             >Uguo</name></persName> de Gurgo, <persName
-                            key="#Placitum/iudicatum #Witness #Notary"
-                            ><name>Iohannes</name></persName>
+                            key="#Placitum/iudicatum #Witness #Notary"><name ref="Iohannes"
+                                >Iohannes</name></persName>
                         <rs key="#Notary">notarius</rs> istius Regensis et reliqui plures. Ibique
                         eorum veniens presencia <persName
-                            key="#Placitum/iudicatum #Commutatio #Islands #Curtes #Fundi #Landed_possessions #Forests #Fisheries #Cereals #Wine #Count #Lombard #sonOf"
+                            key="#Placitum/iudicatum #Commutatio #Islands #Curtes #Areas #Landed_possessions #Forests #Fisheries #Cereals #Wine #Count #Lombard #sonOf"
                             ref="#people/2100">Adelbertus qui et Atto</persName>
                         <rs key="#Count">comes</rs> filius bone memorie <persName
                             key="#Lombard #fatherOf" ref="#people/2101">Sigifredi</persName> et ibi
@@ -151,22 +153,22 @@
                             >Martinus</persName>
                         <rs key="#Priests">presbiter</rs> et <rs key="#Prevosts">prepositus</rs>
                         <orgName
-                            key="#Commutatio #Islands #Curtes #Fundi #Landed_possessions #Forests #Fisheries #Cereals #Wine #Mother_churches #Prevosts"
+                            key="#Commutatio #Islands #Curtes #Areas #Landed_possessions #Forests #Fisheries #Cereals #Wine #Mother_churches #Prevosts"
                             ref="#juridical_persons/1418"><rs>canonice Sancte Marie et Sancti
                                 Michaelis</rs></orgName> sita Regio quod [una per consensum et
                         auctoritatem fratrum] seniorum <rs key="#Canons">cannonicorum</rs> ipsius
                         ecclesie, et inter Adelbertus qui et Atto filius bone memorie Sigifredi de
                             <rs key="#Comitatus">comitatu</rs>
-                        <geogName key="#Comitatus" ref="#estates/210">Lucensi</geogName> qui
-                        profitebatur [nacione sua lege vivere] <rs key="#Lombard"
-                            >Longuobardorum</rs>, ut in Dei nomine inter se commutare debeant sicut
-                        a presenti dederunt ac tradiderunt vicissim sibi unus alteri in
-                        commutacionis nomine. [In primis ipse namque Martinus] <rs
-                            key="#Archpriests">archipresbiter</rs> et prepositus eidem Adelberti
-                        dedit et tradidit ad eius iure et proprietatem habendum, hoc sunt rebus
-                        illis territoriis omnibus iuris ipsius [canonice Sancte] Marie et Sancti
-                        Michaelis quibus rebus ipsis esse videntur in loco qui dicitur <placeName
-                            key="#Islands #Landed_possessions #Forests #Cereals #Wine"
+                        <geogName key="#Comitatus" ref="#estates/210"><placeName key="#Comitatus"
+                                ref="#places/4">Lucensi</placeName></geogName> qui profitebatur
+                        [nacione sua lege vivere] <rs key="#Lombard">Longuobardorum</rs>, ut in Dei
+                        nomine inter se commutare debeant sicut a presenti dederunt ac tradiderunt
+                        vicissim sibi unus alteri in commutacionis nomine. [In primis ipse namque
+                        Martinus] <rs key="#Archpriests">archipresbiter</rs> et prepositus eidem
+                        Adelberti dedit et tradidit ad eius iure et proprietatem habendum, hoc sunt
+                        rebus illis territoriis omnibus iuris ipsius [canonice Sancte] Marie et
+                        Sancti Michaelis quibus rebus ipsis esse videntur in loco qui dicitur
+                            <placeName key="#Islands #Landed_possessions #Forests #Cereals #Wine"
                             ref="#places/2401"><rs key="#Islands">insula</rs> Mauritula</placeName>
                         seu <placeName
                             key="#Islands #Landed_possessions #Forests #Fisheries #Cereals #Wine #Castle"
@@ -183,15 +185,17 @@
                             key="#Forests">silvis et [busscalibus</rs> modia] mille sexaginta; cui
                         fines decernitur ad ipsis rebus: da una parte da mane de alia parte da sera
                             <orgName key="#Mother_churches" ref="#juridical_persons/1426">sancte
-                            Mantuanense ecclesie</orgName>, da [tercia parte da medio die] tenente
-                        in fluvio Pado, da quarta parte de subto fluvio Largione, quod si alie sunt
-                        affines. Quidem et ad invicem recepit iam [dictus Martinus archi]presbiter
-                        et prepositus ampliorata et meliorata causa sicut lex continet ab eodem
-                        Adelbertus ad partem predicte cannonice, id sunt rebus illis iuris [predicti
-                        Adelberti quibus] ipsis rebus esse videntur in <geogName key="#Comitatus"
-                            ref="#estates/193">comitatu Regense</geogName> infra fines designate
-                        Chruxtum et fluvio Quarismo et fluvio Rodano et fluvio [Baniolo et in loco]
-                        qui dicitur <placeName key="#Forests">Grasito</placeName>
+                                <placeName key="#Mother_churches" ref="#places/275"
+                                >Mantuanense</placeName> ecclesie</orgName>, da [tercia parte da
+                        medio die] tenente in fluvio Pado, da quarta parte de subto fluvio Largione,
+                        quod si alie sunt affines. Quidem et ad invicem recepit iam [dictus Martinus
+                        archi]presbiter et prepositus ampliorata et meliorata causa sicut lex
+                        continet ab eodem Adelbertus ad partem predicte cannonice, id sunt rebus
+                        illis iuris [predicti Adelberti quibus] ipsis rebus esse videntur in
+                            <geogName key="#Comitatus" ref="#estates/193">comitatu
+                            Regense</geogName> infra fines designate Chruxtum et fluvio Quarismo et
+                        fluvio Rodano et fluvio [Baniolo et in loco] qui dicitur <placeName
+                            key="#Forests">Grasito</placeName>
                         <geogName key="#Forests" ref="#estates/2006">silva que dicitur
                             Mantuana</geogName> et sunt rebus ipsis ad super ascripta mensura illis
                         rebus in suprascripta civitate Regio modia qu[attor, et illis] rebus foris
