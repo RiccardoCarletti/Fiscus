@@ -4,7 +4,8 @@
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
-                <title>Archivio di Stato di Milano, Museo Diplomatico, 232/95</title>
+                <title>Archivio di Stato di Milano, Museo Diplomatico, Pergamene-S.Benedetto,
+                    232/95</title>
             </titleStmt>
             <editionStmt>
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
@@ -113,7 +114,7 @@
                                 >Deodatus</name></persName>
                         <rs key="#Judge">iudices</rs> idem domni imperatoris et reliqui plures.
                         Ibique eorum veniens presentia <persName
-                            key="#Placitum/iudicatum #Commutatio #Islands #Fundi #Casae/cassinae_massaricie #Landed_possessions #Forests #Cereals #Wine #Hay/fodder #Coloni/tenants #Count #Cells/hermitages #Lombard #sonOf"
+                            key="#Placitum/iudicatum #Commutatio #Islands #Areas #Casae/cassinae_massaricie #Landed_possessions #Forests #Cereals #Wine #Hay/fodder #Coloni/tenants #Count #Cells/hermitages #Lombard #sonOf"
                             ref="#people/2100">Adelbertus <rs key="#Count">comes</rs> qui
                             Atto</persName> vocatur filius bone memorie <persName
                             key="#Lombard #fatherOf" ref="#people/2101">Sigefredi</persName> et
@@ -129,7 +130,7 @@
                         voluntate inter domnus <persName
                             key="#Commutatio #Witness #Mother_churches #Bishops" ref="#people/2102"
                             >Vuilielmus</persName> huius <orgName
-                            key="#Commutatio #Islands #Fundi #Casae/cassinae_massaricie #Landed_possessions #Forests #Cereals #Wine #Hay/fodder #Coloni/tenants #Cells/hermitages #Mother_churches #Bishops"
+                            key="#Commutatio #Islands #Areas #Casae/cassinae_massaricie #Landed_possessions #Forests #Cereals #Wine #Hay/fodder #Coloni/tenants #Cells/hermitages #Mother_churches #Bishops"
                             >sancte <placeName key="#Mother_churches" ref="#places/275"
                                 >Mantuanensis</placeName> ecclesie</orgName>
                         <rs key="#Bishops">episcopus</rs> nec non et inter Adelbertus qui et Atto
@@ -143,8 +144,8 @@
                         eidem Adelberti comes ad iure et proprietatem in commutacionis nomine, hoc
                         est <rs key="#Landed_possessions">area una de terra</rs> cum <rs
                             key="#Cells/hermitages">capella</rs> inibi constructa et edifficata in
-                        loco et <rs key="#Fundi">fundo</rs> ubi nominatur <placeName
-                            key="#Islands #Fundi #Landed_possessions #Forests #Cereals #Cells/hermitages"
+                            <rs key="#Areas">loco et fundo</rs> ubi nominatur <placeName
+                            key="#Islands #Areas #Landed_possessions #Forests #Cereals #Cells/hermitages"
                             ref="#places/2400"><rs key="#Islands">Insula</rs> qui dicitur Sancti
                             Benedicti</placeName> qui est ad honorem ipsius sancti Benedicti
                         confessoris Christi, cum <rs key="#Forests">silva et buscalibus</rs> se uno
@@ -161,7 +162,7 @@
                         ecclesie, idest capella una cum area sua in qua estat iuris sui quod est ad
                         honorem <placeName key="#Cells/hermitages">sancti Posscidonii</placeName>,
                         qui est constructa et edifficata in loco et fundo ubi nominatur <placeName
-                            key="#Fundi #Landed_possessions #Cereals #Wine #Hay/fodder#Cells/hermitages"
+                            key="#Areas #Landed_possessions #Cereals #Wine #Hay/fodder#Cells/hermitages"
                             ref="#places/2405">Garfaniana</placeName> qui est in <geogName
                             key="#Comitatus" ref="#estates/193">comitatu <placeName key="#Comitatus"
                                 ref="#places/191">Regense</placeName></geogName> cum casis et rebus
@@ -172,7 +173,7 @@
                         super estant seu terris arabilis et <rs key="#Hay/fodder">pratis</rs> iuges
                         decem; verum etiam et <rs key="#Casae/cassinae_massaricie">masaricia</rs>
                         una iure predicti Adelberti comes qui reiacet in loco et fundo <placeName
-                            key="#Casae/cassinae_massaricie #Landed_possessions #Cereals #Wine #Hay/fodder #Coloni/tenants"
+                            key="#Areas #Casae/cassinae_massaricie #Landed_possessions #Cereals #Wine #Hay/fodder #Coloni/tenants"
                             ref="#places/2406">Siniano</placeName> cum sua pertinentia quod per
                             <persName key="#Coloni/tenants"><name ref="Petrus"
                             >Petrus</name></persName>
@@ -182,7 +183,7 @@
                         et due, silvis et buscalibus iuges quindecim; seu dedit vel tradidit ipse
                         Adelbertus comes eidem domni presuli ad iure et proprietatem ipsius sue
                         ecclesie, id est in integrum rebus illis iuris ipsius Adelberti comes quibus
-                        esse videntur in loco et fundo <placeName key="#Fundi #Forests #Cereals"
+                        esse videntur in loco et fundo <placeName key="#Areas #Forests #Cereals"
                             ref="#places/462">Nuvelare</placeName>, et sunt rebus ipsius per mensura
                         iusta de terra arabile iuges quattuor, silvis et buscalibus iuges nonaginta
                         et sex. As denique predictis rebus superius nominatis vel commutatis sicuti
@@ -255,9 +256,10 @@
                         ipso loco Sancti Stephani, <persName key="#Commutatio #Witness #Roman"><name
                                 ref="Winizo">Vuinizoni</name></persName> filius quondam
                                 <persName><name ref="Garibaldus">Vuarinbaldi</name></persName> de
-                            <placeName>Ariole</placeName> lege viventes <rs key="#Roman">Romana</rs>
-                        rogati testes. Scripsi ego <persName key="#Commutatio #Writer #Notary"><name
-                                ref="Ansfrit">Ansefredus</name></persName>
+                            <placeName ref="#places/2411">Ariole</placeName> lege viventes <rs
+                            key="#Roman">Romana</rs> rogati testes. Scripsi ego <persName
+                            key="#Commutatio #Writer #Notary"><name ref="Ansfrit"
+                            >Ansefredus</name></persName>
                         <rs key="#Notary">notarius</rs> domni imperatoris post traditam complevi et
                         dedi.». Cartula ista commutacionis ostensa et ab ordine lecta, interrogatus
                         est ipse Adelbertus comes per quod cartula ibi ostenderet, qui dixi: «Vere

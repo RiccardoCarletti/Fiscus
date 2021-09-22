@@ -4,7 +4,8 @@
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
-                <title>Archivio di Stato di Milano, Museo Diplomatico, 235/98</title>
+                <title>Archivio di Stato di Milano, Museo Diplomatico, Pergamene-S.Benedetto,
+                    235/98</title>
             </titleStmt>
             <editionStmt>
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
@@ -89,22 +90,23 @@
                         <rs key="#Commutatio">Comutacio</rs> bo[ne] fidei nossitur esse contractum
                         [ut vi]cem emcionis obtineat firmitatem eodemque nexu obligant contraentes.
                         Placuit itaque et bona[m] convenit voluntatem inter domnus <persName
-                            key="#Mother_churches #Bishops">Gumbaldus</persName>
+                            key="#Mother_churches #Bishops" ref="#people/2124">Gumbaldus</persName>
                         <rs key="#Bishops">episcopus</rs>
                         <orgName
-                            key="#Mother_churches #Bishops #Fundi #Houses #Casae/cassinae_massaricie #Landed_possessions #Forests #Cereals #Wine #Hay/fodder #Coloni/tenants #Cells/hermitages"
-                            >sancte Mantuanensis eclesiae</orgName> nec non et inter <persName
-                            key="#Fundi #Houses #Casae/cassinae_massaricie #Landed_possessions #Forests #Cereals #Wine #Hay/fodder #Coloni/tenants #Cells/hermitages"
-                            >Adelbertus qui et Otto</persName>
-                        <rs>comes</rs> filius bone memorie
-                            <persName><name>Siefredi</name></persName> qui se profitebat lege vivere
-                            <rs key="#Lombard">Langobardorum</rs>, ut in Dei nomine debeant dare
-                        sicut a presenti dederunt ac tradiderunt sibi unus alteri in Domini nomine.
-                        In primis dedi ipse domnus Gumbaldus episcopus eidem domni Adelberti comiti
-                        in causa comutacionis, id sunt rebus illis iuris ipsius sui episcopii quibus
-                        sunt positis in locas et <rs key="#Fundi">fundas</rs>
+                            key="#Mother_churches #Bishops #Areas #Houses #Casae/cassinae_massaricie #Landed_possessions #Forests #Cereals #Wine #Hay/fodder #Coloni/tenants #Cells/hermitages"
+                            ref="#juridical_persons/2000">sancte Mantuanensis eclesiae</orgName> nec
+                        non et inter <persName
+                            key="#Areas #Houses #Casae/cassinae_massaricie #Landed_possessions #Forests #Cereals #Wine #Hay/fodder #Coloni/tenants #Cells/hermitages"
+                            ref="#people/2100">Adelbertus qui et Otto</persName>
+                        <rs>comes</rs> filius bone memorie <persName ref="#people/2101"
+                            >Siefredi</persName> qui se profitebat lege vivere <rs key="#Lombard"
+                            >Langobardorum</rs>, ut in Dei nomine debeant dare sicut a presenti
+                        dederunt ac tradiderunt sibi unus alteri in Domini nomine. In primis dedi
+                        ipse domnus Gumbaldus episcopus eidem domni Adelberti comiti in causa
+                        comutacionis, id sunt rebus illis iuris ipsius sui episcopii quibus sunt
+                        positis in <rs key="#Areas">locas et fundas</rs>
                         <placeName
-                            key="#Fundi #Landed_possessions #Cereals #Wine #Hay/fodder #Cells/hermitages"
+                            key="#Areas #Landed_possessions #Cereals #Wine #Hay/fodder #Cells/hermitages"
                             >Garfaniana</placeName> et est in <geogName key="#Comitatus"
                             ref="#estates/193"><rs key="#Comitatus">comitatu</rs> Regense</geogName>
                         et in loco <placeName
@@ -134,7 +136,7 @@
                             <placeName>locus ubi Sancta Maria Vicedomino dicitur</placeName>, et <rs
                             key="#Houses">casis</rs> et omnibus rebus illis hec omnia iuris ipsius
                         Adelberti quibus sunt positis in locas et fundas ubi <placeName
-                            key="#Fundi #Houses #Landed_possessions #Forests #Cereals #Wine #Hay/fodder"
+                            key="#Areas #Houses #Landed_possessions #Forests #Cereals #Wine #Hay/fodder"
                             >Pecorile</placeName> dicitur et in loco <placeName
                             key="#Landed_possessions #Cereals #Wine #Hay/fodder"
                             >Fraseneta</placeName>. Predicta pecia de terra infra eadem civitate est
@@ -187,11 +189,11 @@
                         semel factum vel conscriptum est inviolabiliter conservare promiserunt curo
                         stipulacione subnixxa. Unde due cartule comutacionis uno tenore scripte
                         sunt. Acto in <rs key="#Castle">castro</rs>
-                        <placeName key="#Castle">Gunzagha</placeName> feliciter. Ego Gumbaldus
-                        indignus episcopus in hanc commutacionem a me facta subscripsi. Ego
-                        Vualterius diaconus adque prepositus missus fui ut supra. Signum manibus
-                        suprascriptorum Vualpertus, Ariulfus, Benedictus qui super ipsas res
-                        accesserunt et estimaverunt ut supra. (S.) <persName
+                        <placeName key="#Castle" ref="#places/2414">Gunzagha</placeName> feliciter.
+                        Ego Gumbaldus indignus episcopus in hanc commutacionem a me facta
+                        subscripsi. Ego Vualterius diaconus adque prepositus missus fui ut supra.
+                        Signum manibus suprascriptorum Vualpertus, Ariulfus, Benedictus qui super
+                        ipsas res accesserunt et estimaverunt ut supra. (S.) <persName
                             key="#Commutatio #Witness #Judge"><name>Teuzo</name></persName>
                         <rs key="#Judge">iudex</rs> Sacri Palacii subscripsi. (S.) <persName
                             key="#Commutatio #Witness #Judge"><name>Petrus</name></persName> iudex
