@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    Diplomatico, * L 87</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                        </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc601</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#"
+                                >--Libellus/precaria/emphyteusis</rs>
+                                    <rs type="record_source" ref="#">Original document</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property"/>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate when="0905-09-16">
+                                <note type="displayed_date">905 September 16</note>
+                                <note type="dating_elements">Stile dell’incarnazione</note>
+                                <note type="topical_date">Lucca</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance>
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                            <place></place>
+                        </listPlace>
+                        <listPerson>
+                            <person></person>
+                        </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-01-06" who="ptomei">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab>
+                                Baldo homo Senense del fu Raimbaldo riceve in livello dal vescovo di Lucca Pietro, prata posti in loco ubi dicitur Runcho et Savaliana, di pertinenza del vescovato di San Martino, uno confinante uno capo con il prato che il vescovo ha dato in permuta al diacono Sighibrando del fu Fulcheramo, alio capo con un prato di Flaiperto e Leone, lato uno in classo e con un prato que vocitatur da Wilifridi dello stesso vescovato, alio lato in fosa que vocitatur Cisiana; gli altri confinanti uno cappo in suprascripta fossa que vocitatur Cisiana, alio capo in classo e con terra del prete Ropperto, lato uno con terra del fu Adalfridi scabino, con terra del suddiacono Ghisalprando, con terra del prete Ropperto, alio lato con terra della chiesa di San Zeno; un appezzamento di terra posto in iam dicto loco Savaliana, confinante uno capo cum uno lato con terra della chiesa di San Zeno, alio capo in classo, alio lato con terra che ha sopra ricevuto; due appezzamenti di terra posti nello stesso luogo di pertinenza della chiesa di San Silvestro sito foras civitate ista Lucense, qui est de suppotestatem dello stesso vescovato, una confinante uno capo cum uno lato con terra del monastero di San Salvatore que dicitur Olioli, alio capo con terra del prete Ropperto, alio lato in classo; l’altro confinante uno capo con terra del monastero di San Salvatore que dicitur Olioli, alio capo in via, lato uno in classo, alio lato con terra del suddiacono Ghisalprando; 3 casis et rebus massariciis poste in loco et finibus Sugrominio ubi vocitatur Ceruliano, di pertinenza dello stesso vescovato, in precedenza tenute dal fu Aurimo, dal fu Bonio, dal fu Altulo con tutte le loro dipendenze.
+Si impegna a versare pro omni censum et iustitiam al vescovo e ai suoi successori a Lucca al duomo ogni mese di ottobre il censo annuale di 10 soldi d’argento ad pars del vescovato di San Martino, e a far venire due volte l’anno a Lucca legem et iustitiam faciendum, gli stessi uomini che abiteranno le suddette case.
+Se non rispetterà i suddetti impegni, promette con i suoi eredi di versare al vescovo e ai suoi successori la pena di 200 soldi d’argento.
+Chiede al notaio e scabino Pietro la stesura di due cartulas.
+                                <persName>Autori: Pietro episcopus, Baldo homo Senense del fu Raimbaldo.
+Scrittore: Pietro notarius et schabinus.
+Testimoni sottoscrittori: Lamberto, Fraolmi, Eriteo, Cosperto notarius et schabinus, Leone notarius, Teuderando notarius, Fraolmi.
+Altro: Sighibrando diaconus del fu Fulcheramo, Flaiperto, Leone, Wilifridi, Ropperto presbiter, fu Adalfridi schabinus, Ghisalprando subdiaconus, fu Aurimo, fu Bonio, fu Altulo.</persName>
+                                <placeName>Luca (Lucca), Sena (Siena), Roncho, Savaliana, Cisiana (vicino Pontetetto, Lucca), Sugrominio ubi vocitatur Ceruliano (Segromigno in Monte, Capannori).</placeName>
+                                <orgName>San Silvestro di Lucca, San Zeno di (?), San Salvatore Olioli di Lucca, San Martino di Lucca (chiesa matrice).</orgName>
+                            </ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                        <p/>
+                    </div>
+                </body>
+            </text>
+        </TEI>
