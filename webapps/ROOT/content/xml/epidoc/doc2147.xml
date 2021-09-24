@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Archivio Capitolare di Arezzo, n° XXXIII</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc2147</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0927">
+                                <note type="displayed_date"/>
+                                <note type="dating_elements"/>
+                                <note type="topical_date"/>
+                                <note type="redaction_date">X exeunte-XI ineunte</note>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-02-08" who="Chiara Stedile">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine sancte et individue Trinitatis. Hugo divina favente clemencia rex.
+                        Omnibus fidelius sacte Dei Ecclesie nostrisque presentibus scilicet hac
+                        futuris notum esse volumus, qualiter suburbium civitatis Ortensium venerunt
+                        ad nos homines supplicantes ac petientes nostram regalem clementiam, ut eis
+                        roborem securitatis auxilium respiceremus, tam super eos quam super eorum
+                        omnibus rebus misericordiam confirmaremus. Hi homines sunt habitatores
+                        terretorium Balneensis; nomina vero eorum propria sunt: Georgius cum tres
+                        filiis suis, id est Albericus, Gandulfus atque Frodgerius. Nos namque pro
+                        Dei amore animeque nostre remedium supero eos et super eorum rebus
+                        adminiculum pietatis inpendimus, atque nostram regalem potentiam
+                        mundburdimus tam movilibus quam et inmovilibus rebus sive familiis, servis
+                        atque liberis utriusque sexu, que esse videntur in terretorium Balneensis
+                        seu in comitatu Montefeltro, Bobio, Cesena atque Arimino et etiam Castello
+                        Felicitatis seu Aritio vel per ceteras locas, tam in omnibus finibus Romanie
+                        quam in cunctis finibus Tussie sive Italie, tam in omnibus finibus Spoletim
+                        quam et circa maris littoribus est vel fuerit conquisita, tam cultis quam
+                        agris seu habitantibus quam inhabitantibus sive solestres quamque publicis,
+                        alpestribus seu pascualibus, animantibus, tam aquis piscantium quam et
+                        silvis venantium, tam de hereditario iure quamque et de comparatione.
+                        Insuper et statuimus ac confirmamus vos prefati Georgius et Albericus atque
+                        Gandulfus seu Frodgerius ipsa foresta quem tenetis per comparationem
+                        cartulam da Garardus. Unde vos nostram regalem clementiam auxilium
+                        auctoritatis existet, seu et omnem vestrum conquisitum tam proprietatis
+                        quamque et preceptarias atque livellarias vel per quacumque genio
+                        scripturarum vel corporalis traditio sive quantacumque per monimina cartarum
+                        vestrarum instrumenta tenuistis vel tenetis vel in antea conquirere
+                        potueritis, bannum nostrum in mancosos auri duo milia mitti iuberemus, per
+                        quo salvi et quieti vivere valerent. Sicuti et fecimus, et has nostras
+                        regales litteras in eorum scribere iussimus. De quo precipientes omnino
+                        iubemus, ut nullam quelibet magna marvaque persona in persona eorum vel in
+                        eorum rebus movilibus et inmovilibus rebus seu servis et ancillis, liberis
+                        et colonis, tam originariis quam noviter adquisisti, tam per omnia eorum
+                        monimina quam qui per diversarum cartarum strumenta vel per qualicumque
+                        ingentium adquisitas, infra super et scriptas comitata et territorias tam
+                        Balneensis quam et ceteris finibus positas, ut nullus nullam audeat inferre
+                        molestia aut contrarietatem sine legali iuditio. Qui vero fecerit, predictos
+                        duo milia mancosos auri se agnoscat esset conpositurum, medietatem parti
+                        camere nostre et medietatem predictorum Georgii et Alberici atque Gandulfi
+                        seu Frodgerii eorumque heredes. Ut verius credatur diligentiusque ab omnibus
+                        observetur, de sigillo nostro subter iussimus sigillari.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>DD U, pp. 32-34, n° X</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
