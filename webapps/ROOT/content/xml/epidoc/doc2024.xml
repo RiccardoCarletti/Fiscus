@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title><foreign>Chronicon Vulturnense</foreign>, n. 32</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc2024</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">Yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0754-11">
+                                <note type="displayed_date">754 November</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Benevento</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-07-06" who="gzornetta">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine domini Dei et salvatoris nostri Iesu Christi. Firmavimus nos
+                        gloriosissima domna Scaniperga et domnus vir gloriosissimus Liudprand, summi
+                        ducibus gentis Longobardorum, per rogum Eufimie abbatisse et, oratricis
+                        nostre, in monasterio beate Sancte Marie genitricis domini nostri Iesu
+                        Christi, quod fundatum esse dinoscitur in locum, qui nominatur Loco Sano,
+                        ubi Albileopa abbatissa regimen tenere videtur, hoc est condoma no­mine
+                        Rodone cum uxore, filios et filias suas, vel cum integra eorum pertinencia;
+                        et condoma nomine Candolus cum uxore, filios et filias, vel cum omnia sua,
+                        qui habitare videntur in Viviano; et condoma nomine Mauro cum uxore, filios
+                        et filias seu germanos, vel cum omnia eorum pertinencia; condoma nomine
+                        Ansoald cum uxore, filios et filias seu germanos, vel cum omnibus rebus
+                        eorum, qui habitare videntur in Turri; condoma nomine Maroald cum uxore,
+                        filios et filias, germanos seu nepote suo, vel cum omnia eorum pertinencia;
+                        condoma nomine Marullo cum uxore, filios et filias, seu germanos suos, vel
+                        cum omnia sua, qui habitare videntur in[i]vi; simul et condoma nomine
+                        Agustaldo cum uxore, filios et filias suas, vel cum omnia sua; condoma
+                        nomine Alissone cum uxore, filios et filias suas, seu germanos suos, vel cum
+                        omnia eorum pertinentia, qui habitare videntur in Baruli; condoma nomine
+                        Boniolo cum uxore, filios et filias suas, vel cum omnia sua, qui habitare
+                        videntur ad Sanctum Marciano in Frecento; condoma nomine Audoald cum uxore,
+                        filios et filias suas, et cum omnia eorum; condoma nomine Calvo cum uxore,
+                        filios et filias, et cum omnia sua, qui habitare videtur || in Botonto;
+                        condoma nomine Ursus cum uxore, filiis et filiabus, et cum omnia sua, qui
+                        habitat in Remelo; simulque et casa infra hanc Beneventanam civitatem, qui
+                        fuit de Radoin, que posita est ad Porta Aurea, et vinea que posita est ad
+                        Sancto Vito in Quinto Decimo. secundum qualiter hec, que supra legitur, in
+                        isto Dei loco concessum est a domno sancte memorie Romoald socero et avone
+                        nostro, et per eius preceptum firmatum, sed quia per pravos homines delibata
+                        sunt de nominatum preceptum nomina de duas condomas, idest Calbi et Ursi,
+                        quem in nostra ostendistis presencia, quem nostra gloria certam agnovimus
+                        veritatem, continuo hunc nostrum firmissimum emisimus preceptum, quatenus a
+                        modo et deinceps habeatis et possideatis tam vos, qui supra Albileopa, quam
+                        et posteras vestras, et nullus ex nostris castaldeis, aut accionariis, vel
+                        quisquani homo contra ea, que nostra firmavit potestas, quandoque ire
+                        presu&lt;meret>, nostra firmitas omni tempore roborata permaneat. Quod vero
+                        preceptum firmitatis, ex iussione et dictatu supra scripte domne Scaniperge,
+                        scripsi ego Auderissius notarius. Actum Benevento, in palacium, mense
+                        novembrio, per indiccione octava, feliciter.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p><foreign>Chronicon Vulturnense</foreign>, n. 32, pp. 246-247</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
