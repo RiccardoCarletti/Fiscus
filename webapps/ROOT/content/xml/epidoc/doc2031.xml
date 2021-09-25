@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Roma, Biblioteca Vaticana, Chronicon Vultumense, Cod. Barb. lat. 2724
+                        (<foreign>Chronicon Vulturnense</foreign>, I, n. 68)</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc2031</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">Yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0858-04">
+                                <note type="displayed_date">858 April</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Salerno</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-07-18" who="gzornetta">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine Domini. Quinto anno principatus domni nostri Ademari, mense
+                        aprilis, sexta indiccione. Ideoque ego supradictus domnus Ademari princeps
+                        declaro quia intencionem habuit nobiscum Artefusus, prepositus maior, et
+                        Cumprando, manipulus maior, qui pertinentes sunt in monasterio Sancti
+                        Vincencii, ubi nunc domnus Iohannes humilis abbas regimen tenere videtur, de
+                        quarta illa, quam domnus Petrus, genitor meus, emisit ac dedit, et de casis
+                        et de curte, et ecclesia atque edificiis, que sunt infra civitate
+                        Salernitana, ubi predictus genitor meus et ipsa Audperga usque ad diem
+                        obitus sui residentes fuerunt, et dum per partes conveniencie mihi eundem
+                        relaxasti quantum in vestro monasterio per ipsa Audperga eundem fuit
+                        pertinentem et scriptum mibi inde emisistis. Propterea ego nominatus domnùs
+                        Ademari princeps, per hoc scriptum, trado vobis Artefuso et Cuniprando, in
+                        parte vestri monasterii habendum, casa cum sedimen, et sedimen et curtem
+                        suam, infra civitatem novam Salernitanam quam emptam habeo a filiis Ursi, et
+                        est ipsa casa in longitudine pedes quadraginta octo, et in latitudine pedes
+                        quadraginta tres, scepto inde ipsa casa lignicicia, nam illo alio cum ipsa
+                        casa Fabritta, et cum finis et mensuris, et cum curte et andito suo in
+                        integrum, in parte conveniencie vobis tradidi ad pars supradicti monasterii
+                        securiter habenda, ea racione, ut amodo et semper vos nominati et posteri
+                        vestri predictam casam et terram, qualiter superius legitur, in predicto
+                        vestro monasterio habere et possidere valeatis, de qua me repromitto et
+                        heredes meos obligo vobis et ad posteros ve­stros supradictam terram et
+                        casam ab omnes homines in antestare. et defendere. quod si non potuerimus,
+                        aut si nos ipsi forsitan per quodlibet ingenium retornare quesierimus, ante
+                        omnia a parte nostra, secundum legem, sacramenta vobis inde fiant persolta,
+                        ut nostro non fiat colludio, et ferquidam terrain et casas cum suis
+                        edificiis in eadem civitate vobis dare promittimus, qualis ista nostra
+                        dacione in illo die paruerit. Quod tibi Ragemprando notario scribere
+                        iussimus. Actum Salerno, in sacro palacio, mense et indiccione suprascripta,
+                        feliciter.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>CV I, n. 68, pp. 320-321</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
