@@ -5,7 +5,7 @@
         <fileDesc>
             <titleStmt>
                 <title>Roma, Biblioteca Vaticana, Chronicon Vultumense, Cod. Barb. lat. 2724
-                        (<foreign>Chronicon Vulturnense</foreign>, I, n. )</title>
+                        (<foreign>Chronicon Vulturnense</foreign>, I, n. 37)</title>
             </titleStmt>
             <editionStmt>
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
@@ -31,10 +31,10 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#"/>
-                            <rs type="record_source" ref="#"/>
-                            <rs type="document_tradition" ref="#"/>
-                            <rs type="fiscal_property"/>
+                            <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -42,11 +42,11 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate notBefore="0001" notAfter="0001" when="0001"> 
-                                <note type="displayed_date"></note>
-                                <note type="dating_elements"></note>
-                                <note type="topical_date"></note>
-                                <note type="redaction_date"></note>
+                            <origDate when="0833-08">
+                                <note type="displayed_date">833 August</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Benevento</note>
+                                <note type="redaction_date"/>
                             </origDate>
                             <origPlace/>
                         </origin>
@@ -74,7 +74,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2021-02-08">creation of record</change>
+                <change when="2021-07-15" who="gzornetta">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -82,11 +82,32 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab></ab>
+                    <ab>In nomine domini Dei salvatoris Iesu Christi. Nos vir gloriosissimus
+                        Sicardus, Dei providencia, Beneventane provincie princeps, per rogum
+                        Roffrid, referendarii nostri, firmamus in monasterio Beatissimi Vincencii,
+                        ubi venerabilis vir Epyphanius abbas, orator noster, preesse videtur,
+                        ecclesiam Sancti Secundini, cum integris suis pertinenciis, finibus
+                        Acerentinis, quam Petrus episcopus per suam offercionem ibidem dedit; seu et
+                        confirmamus in predicto cenobio substanciam Iohannis et Radoaldi, filii
+                        Piconis; et substanciam Ermelgrimi, filio Rapperti; tam et Stephani, filii
+                        Paldonis; simulque et Truppoaldi, filii Andree; quam et substaticiam
+                        Ragimberti, Radoald, filii Radiperti; et substanciam Trasemundi, filio
+                        Lupini, que vestro monasterio date sunt; simulque inibi confirmamus omnes
+                        servos et ancillas eorum, cum filiis, fi1iabus, cum nuris et nepotibus, et
+                        cum universis cespitibus eorum in iam dicto monasterio confirmamus, omnia
+                        possidenda in integrum, qualiter pro culpa, meritis eorum, ad sacrum nostrum
+                        palacium evenire debuerunt. in ea videlicet racione, ut a modo et deinceps,
+                        per hoc nostrum roboratum preceptum, cuncta, ut superius leguntur, rectores
+                        eiusdem cenobii securiter habere et possidere valeant, et a nullis ex
+                        nostris iudicibus, idest comitibus, gastaldeis, vel a quibuscumque agentibus
+                        habeant aliquam requisicionem, sed perpetuis temporibus possideant. Quod
+                        vero preceptum firmitatis, ex iussione suprascripte potestatis, scripsi ego
+                        Leo notarius. Actum Benevento, in sacro palacio, primo anno, mense augusto,
+                        undecima indiccione, feliciter.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p/>
+                <p>CV I, n. 37, pp. 292-293; Voigt 44</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>
