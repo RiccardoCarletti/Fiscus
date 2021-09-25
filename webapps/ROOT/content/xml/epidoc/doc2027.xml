@@ -5,7 +5,7 @@
         <fileDesc>
             <titleStmt>
                 <title>Roma, Biblioteca Vaticana, Chronicon Vultumense, Cod. Barb. lat. 2724
-                        (<foreign>Chronicon Vulturnense</foreign>, I, n. )</title>
+                        (<foreign>Chronicon Vulturnense</foreign>, I, n. 59)</title>
             </titleStmt>
             <editionStmt>
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
@@ -31,10 +31,10 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#"/>
-                            <rs type="record_source" ref="#"/>
-                            <rs type="document_tradition" ref="#"/>
-                            <rs type="fiscal_property"/>
+                            <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -42,11 +42,11 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate notBefore="0001" notAfter="0001" when="0001"> 
-                                <note type="displayed_date"></note>
-                                <note type="dating_elements"></note>
-                                <note type="topical_date"></note>
-                                <note type="redaction_date"></note>
+                            <origDate when="0833-05">
+                                <note type="displayed_date">833 May</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Benevento</note>
+                                <note type="redaction_date"/>
                             </origDate>
                             <origPlace/>
                         </origin>
@@ -82,11 +82,38 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab></ab>
+                    <ab>In nomine domini Dei salvatoris Iesu Christi. Nos vir gloriosissimus
+                        Sicardus, Dei providencia, Beneventane provincie princeps, per rogum
+                        Roffrid, referendarii nostri, concedimus in monasterio Beatissimi Vincencii
+                        martyris, quod situm, est in finibus Samnie, iuxta fluvio Vulturno, ubi vir
+                        verabi1is Epyphanius abbas, orator noster, preesse videtur, terras cum
+                        montibus uno se tenente, per hos fines: prima parte unde oritur riagine, que
+                        dicitur Ravennola, et quomodo decurrit iam dicta riagine de ipsa Ravennola,
+                        unde per tempus aqua decurrit, et qui exfinat inter hec terra et terras et
+                        montes, quos concessos habet domnus Arichis princeps in iam prefato cenobio;
+                        de secunda parte riagine, que dicitur Ravennola; da tercia parte unde
+                        incipit orire iam dicta Ravennola, deinde incipiente circa terras ei montes
+                        puplicos, usque in montem, qui est super urbem Benafro; quarta parte
+                        incipiente da iam dicto monte, qualiter vadit per cilios aliorum moncium,
+                        usque in montem iam dicti monasterii, qui est super terras, que vocatur
+                        Arcora, que est hereditas Sancte Dei genitricis Marie, que nominatur
+                        Oliveto, subiecta iam dicto monasterio, et qualiter vadit circa montes iam
+                        dicte ecclesie Sancte Marie, et montes iam dicti cenobii. ideo in iam dicto
+                        monasterio concessimus in integrum iam dictas terras et montes per iam
+                        dictos fines possidendum, in ea videlicet racione, ut a modo et deinceps,
+                        per hoc nostrum roboratum, preceptum, cuncta, ut superius leguntur, habere
+                        et possidere valeatis vos iam nominatus Epyphanius abbas, atque
+                        successoribus et rectoribus iam dicti vestri monasterii, ita ut a nullis ex
+                        nostris iudicibus, idest comitibus et gastaldeis, vel a quibuscumque
+                        hominibus non habeatis de predictis terris et montibus aliquam requisicionem
+                        vel molestacionem, sed perpetuis temporibus possideatis. Quod vero preceptum
+                        firmitatis, ex iussione tue potestatis, scripsi ego Leodericus notarius.
+                        Actum Benevento, in sacro palacio, primo anno principatus eius, mense magio,
+                        undecima indiccione, feliciter. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p/>
+                <p>CV I, 58, pp. 293-294</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>
