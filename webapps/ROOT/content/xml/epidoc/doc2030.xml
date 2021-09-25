@@ -5,7 +5,7 @@
         <fileDesc>
             <titleStmt>
                 <title>Roma, Biblioteca Vaticana, Chronicon Vultumense, Cod. Barb. lat. 2724
-                        (<foreign>Chronicon Vulturnense</foreign>, I, n. )</title>
+                        (<foreign>Chronicon Vulturnense</foreign>, I, n. 67)</title>
             </titleStmt>
             <editionStmt>
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
@@ -31,10 +31,10 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#"/>
-                            <rs type="record_source" ref="#"/>
-                            <rs type="document_tradition" ref="#"/>
-                            <rs type="fiscal_property"/>
+                            <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -42,11 +42,11 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate notBefore="0001" notAfter="0001" when="0001"> 
-                                <note type="displayed_date"></note>
-                                <note type="dating_elements"></note>
-                                <note type="topical_date"></note>
-                                <note type="redaction_date"></note>
+                            <origDate notBefore="0793-08" notAfter="0808-08">
+                                <note type="displayed_date">793-808 August</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Benevento</note>
+                                <note type="redaction_date"/>
                             </origDate>
                             <origPlace/>
                         </origin>
@@ -74,7 +74,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2021-02-08">creation of record</change>
+                <change when="2021-07-15" who="gzornetta">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -82,11 +82,20 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab></ab>
+                    <ab>In nomine domini Dei et salvatoris nostri Iesu Christi. Concessimus nos
+                        gloriosissimus domnus Grimoald, summus dux gentis Longobardorum, tibi
+                        Iohanni, abbati Christi martiris Vincencii mo­nasterii, casalem nomine Casa
+                        Summi, qui fuit de Vitaliano colono nostro, quatenus ab hac die habeatis et
+                        possideatis, et a nullo quemquam homine numquam habeatis aliquam questionem
+                        aut reprehensionem, sed, sicut superius diximus, perpetuis temporibus securi
+                        valeatis possidere ipsum supranominatum casale. Quam vero membrana
+                        concessionis dictavi ego Vuiso subdiaconus, ex iussione suprascripte
+                        potestatis, tibi Pergoaldo notario scribendum. Actum Benevento, in palacio,
+                        mense augusti, per indiccione prima, feliciter.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p/>
+                <p>CV I, n. 67, pp. 319-320; Voigt 29</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>
