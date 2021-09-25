@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title><foreign>Chronicon Vulturnense</foreign>, n. 31</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc2023</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">Yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0810-04">
+                                <note type="displayed_date">810 April </note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Benevento</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-07-06" who="gzornetta">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine Dei et salvatoris nostri Iesu Christi. Concessimus nos, vir
+                        gloriosissimus grimoaldus, Dei previdencia, Beneventane provincie princeps,
+                        per rogum Aodoaldi referendarii nostri, ­ in monasterio Sancti Vincencii
+                        martyris, qui situs est in finibus Samnie, iuxta Vulturno flumine, ubi
+                        venerabilis vir Iosue abbas custos esse videtur, curtem nostram, quami
+                        habemus in finibus territorio Benafrano, cum inclitis terris et montibus uno
+                        se tenente, et vocatur terra ipsa Cicerana, per hos fines: prima parte
+                        riagine que nominatur Ravennola, unde per tempus aqua decurrit; secunda
+                        parte iam dicto fluvio Vulturno; tercia parte via et silice, et quomodo
+                        ascendit riagine usque in cilium montis de ipsa curte pertinentes; quarta
+                        vero parte terras et montes puplici. ideo in iam dicto monasterio
+                        concessimus in integrum iam dictas terras et montes per iam dictos fines
+                        possidendum, in ea videlicet racione, ut a modo et deinceps per hoc nostrum
+                        roboratum preceptum cuncta, ut superius leguntur, tibi iam dicto Iosue
+                        venerabili abbati atque successoribus et rectoribus vestri monasterii
+                        securiter habere et possidere || valeatis, ita ut a nullis ex nostris
+                        iudicibus, idest comitibus seu castaldeis, vel a quibuscumque hominibus non
+                        babeatis de predictas terras et montes aliquam requisicionem, sed perpetuis
+                        temporibus possideatis. Quod vero preceptum, ex iussione tue potestatis,
+                        scripsi ego Leo notarius Benevento, in sacro palacio mense aprilis, tercia
+                        indiccione, feliciter.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p><foreign>Chronicon Vulturnense</foreign>, n. 31, pp. 244-245</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
