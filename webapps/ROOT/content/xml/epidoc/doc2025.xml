@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title><foreign>Chronicon Vulturnense</foreign>, n. 36</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc2025</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Offersio/donatio</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">Yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0815-09">
+                                <note type="displayed_date">815 September</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date"/>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-07-06" who="gzornetta">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine Domini. Temporibus domni nostri viri precellentissimi Grimoaldi,
+                        Dei providencia, Beneventane provincie principis, mense septembris, VIIII.
+                        indiccione. Ideoque ego Alahis, filius bone memorie Arichis, benigno
+                        desiderio, pro me redepmcione anime, per hanc meam chartulam conscripcionis,
+                        offero in monasterio Beati Vincencii, ubi Deo favente, Iosue abbas preest,
+                        omnes rebus substancie mee, que habeo in finibus Benevento et in Salerno; et
+                        rem meam quam habeo non longe ab ecclesia Sancti Medici, ubi Forano dicitur,
+                        vel que cetera nomina ibi vocatur, queque michi ibi a singulis hominibus
+                        datum fuit; simulque et rem meam quam habeo in finibus Capue, seu et in
+                        Telesinis et Alifanis finibus; simulque et silvam meam, que vocatur Silva
+                        Nigra, cum terra vacua in integrum, quam a parte bone memorie domni
+                        Grimoaldi concessam habui; nec non et molinum meum in Teonsa in integrum,
+                        cum oliveto quem a singulos homines comparatum et cambiatum habui; quam et
+                        insimul in prefato cenobio optuli omnes servos et ancillas meas, cum
+                        cespitibus et conquisitibus eorum; simulque et casas meas in civitatibus,
+                        tam in veteri Bene­vento quam et in Salerno cum berzario; et intus hanc
+                        Beneven­tum civitatem, tam de iuri parentum quam et quod ego emi, quam et
+                        ipsam casam novam quam ego condidi, casam cum curte et berzario; quam eciam
+                        et omnia peculia mea, tam caballos domitos et indomitos, iumenta, bacce,
+                        porcos, pecudes, capras; quam et insimul omnem rem meam quicquid per diversa
+                        loca habeo vel habiturus fuero in iam dicto Sancti Vincencii eveniant
+                        monasterio possidendum, sine heredum || meorum vel cuiuslibet requisicione.
+                        Et hanc cartulam eo tenore Tundipertum notarium scribere rogavi.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p><foreign>Chronicon Vulturnense</foreign>, n. 36, pp. 253-254</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
