@@ -5,7 +5,7 @@
         <fileDesc>
             <titleStmt>
                 <title>Roma, Biblioteca Vaticana, Chronicon Vultumense, Cod. Barb. lat. 2724
-                        (<foreign>Chronicon Vulturnense</foreign>, I, n. )</title>
+                        (<foreign>Chronicon Vulturnense</foreign>, I, n. 66)</title>
             </titleStmt>
             <editionStmt>
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
@@ -31,10 +31,10 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#"/>
-                            <rs type="record_source" ref="#"/>
-                            <rs type="document_tradition" ref="#"/>
-                            <rs type="fiscal_property"/>
+                            <rs type="text_type" ref="#">--Commutatio</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -42,11 +42,11 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate notBefore="0001" notAfter="0001" when="0001"> 
-                                <note type="displayed_date"></note>
-                                <note type="dating_elements"></note>
-                                <note type="topical_date"></note>
-                                <note type="redaction_date"></note>
+                            <origDate when="0849-11">
+                                <note type="displayed_date">849 November</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Salerno</note>
+                                <note type="redaction_date"/>
                             </origDate>
                             <origPlace/>
                         </origin>
@@ -74,7 +74,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2021-02-08">creation of record</change>
+                <change when="2021-07-15" who="gzornetta">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -82,11 +82,62 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab></ab>
+                    <ab>In nomine Domini. Domnus vir gloriosissimus Sikenolfus, Dei providencia,
+                        Longobardorum gentis princeps, anno regni nostri, Deo propicio, decimo,
+                        mense novembrio, terciadecima indiccione. Dum nostre eximie potestati
+                        congruum fuit vicariacionis ordine accipere da Iacobo, venerabile abbate,
+                        rector monasterii Sancti Vincencii, quod edificatum est super fluvio
+                        Vulturno, rem eius monasterii, cum curte et casis, seu ecclesia, quas habent
+                        in locum qui dicitur Tusciano, finibus Salernitanis, qui in ipso monasterio
+                        datum fuit per Truppoaldum episcopus, filius Andree, et daret eidem abbati
+                        eius monasterii habendam rem, que est propria nostra, in locum qui dicitur
+                        Ponte Lapideum, finibus cum finis, qui nobis pertinuit de iure parentibus
+                        nostris. dum cognitum est nobis ut, sine noticia de idoneos homines, non
+                        ipsum perficere valeremus, tunc convocavimus Mauroaldum abbatem, et
+                        Truppoaldum, et Maionem, seu Radechis comitibus nostris, et precepimus illis
+                        ut inter nos essent bec omnia adimplenda. ipsi quoque direxerunt super rem
+                        illam doctos homines, et preceperunt illis ut, cum Dei timore, ipsa
+                        appreciarent, quam et cum ipsis perrexit Audoaldus, prepositus ipsius
+                        monasterii, cum quo illuc abierunt et ad nos reversi sunt. narraverunt nobis
+                        ut rem illam, quas ego dare volebam, fuisset appreciata auri solidos mille
+                        quingentos absque condomas duas cum filie sue, que inde sunt pertinentes,
+                        idest Rodipertus cum uxore sua, et tres filie sue; et Domoaldus cum uxore et
+                        una filia sua, quam et de ipsis rebus eorum dixerunt similiter monasterii ut
+                        per doctos homines fuisset appreciatum, idest auri solidos mille X. Dum
+                        taliter nobis nunciatum est, et eundem abbatem inde cognitum fecimus,
+                        placuit ei et eius congrega- cioni hanc fieri commutacionem. tamen pro
+                        remelioranda causa ecclesie, sicut lex affirmat, relaxo ibidem rem ipsam,
+                        quod su­perfluum est balientem, et insuper adiungo ibi predictos servos et
+                        ancillas, que supra legitur. Sic ego nominatus Sykenolfus princeps, per hanc
+                        chartulam, trado tibi nominato Iacobi abbati integras ipsas res in
+                        supradicto loco, que habet fines: da capu fine via publica antiqua; de alio
+                        latu fine flumen Calore; de alia parte fine flumen Cotcia, et coniungentes
+                        se ambo ipsa flumina insimul de clauso isto sicut fines positi sunt, scepto
+                        ad meam potestatem Barunculum servum meum, cum uxore et due filie eius, et
+                        cum integro cespite, atque pertinencia eorum; de illo alio infra predictos
+                        fines integram sorcionem meam, eundem qui ad parentibus meis legibus a
+                        parcionariis eorum evenire debuit, totum in integrum, quomodo supra legitur,
+                        tibi qui supra Iacobi abbati, una cum ipsa remelioracione, et cum ipsis
+                        servis et ancillis, sicut suprascriptum est, tradidi possidenda. Pro quibus
+                        recepi a te predictam rem vestram in Tusciano, sicut chartula continet, quam
+                        nobis exinde firmasti, ea racione, ut amodo et semper tu nominatus Iacobus
+                        abbas et posteri tui supradictam meam vicariacionem, una cum ipsa
+                        remelioracionem, habere et possidere valeatis, absque omni requisicione mea
+                        vel heredum meorum, de quibus me nominatum Sikenolfum principem obligo et
+                        heredes meos conligo tibi et ad posteros tuos, ut si aliquo tempore hanc
+                        commutacionem disrumpere voluerimus, ante omnia omni tempore vacui et taciti
+                        exinde maneamus, et a nostra parte semper firmiter illa habeatis, et insuper
+                        quinquemilia beneventanos solidos vobis aut ad posteros vestros nos
+                        componere obligamus. Si vero alter quicumque homo exinde causaverit, et per
+                        legem et iusticiam ipsos convincere potuerit, ante &lt;omnia> secundum legem
+                        || sacramenta inde persolvamus, ut nostro non fiat concludio, et insuper
+                        dare vobis nos obligamus ferquidam rem in codem loco, qualis ista nostra
+                        vicariacione in illa die paruerit. Et hanc chartulam tibi Rageprando notario
+                        nostro scribere precepimus. Actum Salerno, in sacro palacio, feliciter.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p/>
+                <p>CV I, 66, pp. 316-318</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>
