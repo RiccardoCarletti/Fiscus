@@ -1225,6 +1225,8 @@
                     <note/>
                     <link type="places" corresp="#places/110" subtype="hasConnectionWith"/>
                     <link type="people" corresp="#people/374" subtype="fatherOf"/>
+                        <link type="people" corresp="#people/2002"
+                            subtype="legallyRecognisedUnionWith"/>
                 </person>
                 <person>
                     <persName>Paldo (944) iudex</persName>
@@ -3218,6 +3220,9 @@
                     <link type="juridical_persons" corresp="#juridical_persons/84"
                         subtype="benefactorOf"/>
                     <note>Zornetta 2020: 29-31</note>
+                        <link type="people" corresp="#people/2002" subtype="sonOf"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1900"
+                            subtype="benefactorOf"/>
                 </person>
                 <person>
                     <persName>Gisulfus (abbas Casinensis; 796-817) </persName>
@@ -4628,6 +4633,24 @@
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
                             subtype="link"/>
                         <link type="estates" corresp="#estates/1900" subtype="hasConnectionWith"/>
+                    </person>
+                    <person>
+                        <persName>Scauniperga (ducissa gentis Langobardorum; 751-756)</persName>
+                        <persName type="other"/>
+                        <idno>people/2002</idno>
+                        <note/>
+                        <link type="places" corresp="#places/110" subtype="hasConnectionWith"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1900"
+                            subtype="benefactorOf"/>
+                        <link type="people" corresp="#people/374" subtype="motherOf"/>
+                        <link type="people" corresp="#people/158"
+                            subtype="legallyRecognisedUnionWith"/>
+                    </person>
+                    <person>
+                        <persName/>
+                        <persName type="other"/>
+                        <idno>people/</idno>
+                        <note/>
                     </person>
                 </listPerson>
             </listPerson>
