@@ -83,16 +83,16 @@
             <div type="edition">
                 <div type="textpart">
                     <ab>In nomine domini Dei et salvatoris nostri Iesu Christi. Firmavimus nos
-                        gloriosissima domna <persName>Scaniperga</persName> et domnus <rs
-                            key="#Vir_gloriosus/vir_sublimis"> vir gloriosissimus</rs>
-                        <persName key="#Vir_gloriosus/vir_sublimis">Liudprand</persName>, summi
-                            <rs>ducibus</rs> gentis Longobardorum, per rogum <persName
-                            key="#Abbesses">Eufimie</persName>
+                        gloriosissima domna <persName key="#Marquis/duke" ref="#people/2002">Scaniperga</persName> et
+                        domnus <rs key="#Vir_gloriosus/vir_sublimis"> vir gloriosissimus</rs>
+                        <persName key="#Marquis/duke #Vir_gloriosus/vir_sublimis" ref="#people/374"
+                            >Liudprand</persName>, summi <rs key="#Marquis/duke">ducibus</rs> gentis
+                        Longobardorum, per rogum <persName key="#Abbesses">Eufimie</persName>
                         <rs key="#Abbesses">abbatisse</rs> et, oratricis nostre, in monasterio beate
                             <orgName key="#Abbesses">Sancte Marie</orgName> genitricis domini nostri
                         Iesu Christi, quod fundatum esse dinoscitur in locum, qui nominatur
-                            <placeName>Loco Sano</placeName>, ubi <persName key="#Abbesses"
-                            >Albileopa</persName>
+                            <placeName ref="#places/2301">Loco Sano</placeName>, ubi <persName
+                            key="#Abbesses" ref="#people/2003">Albileopa</persName>
                         <rs key="#Abbesses">abbatissa</rs> regimen tenere videtur, hoc est <rs
                             key="#Condomae #Agricultural_workers">condoma</rs> nomine <persName
                             key="#Condomae #Agricultural_workers"><name ref="Rodo"
@@ -140,7 +140,7 @@
                         est ad Porta Aurea, et vinea que posita est ad <orgName>Sancto
                             Vito</orgName> in <placeName>Quinto Decimo</placeName>. Secundum
                         qualiter hec, que supra legitur, in isto Dei loco concessum est a domno
-                        sancte memorie <persName>Romoald</persName> socero et avone nostro, et per
+                        sancte memorie <persName key="#Marquis/duke" ref="#people/2004">Romoald</persName> socero et avone nostro, et per
                         eius <rs key="#Marquis’/ducal/princely_diploma">preceptum</rs> firmatum, sed
                         quia per pravos homines delibata sunt de nominatum preceptum nomina de duas
                         condomas, idest Calbi et Ursi, quem in nostra ostendistis presencia, quem
@@ -151,9 +151,11 @@
                         firmavit potestas, quandoque ire presumat, sed nostra firmitas omni tempore
                         roborata permaneat. Quod vero <rs key="#Marquis’/ducal/princely_diploma"
                             >preceptum</rs> firmitatis, ex iussione et dictatu supra scripte domne
-                        Scaniperge, scripsi ego <persName key="#Notary" ref="Auderissus">Auderissius</persName>
-                        <rs key="#Notary">notarius</rs>. <date>Actum <placeName ref="#places/110" key="#Cities #Palatium">Benevento</placeName>, in
-                            <rs key="#Cities">palacium</rs>, mense novembrio, per indiccione octava</date>,
+                        Scaniperge, scripsi ego <persName key="#Notary" ref="Auderissus"
+                            >Auderissius</persName>
+                        <rs key="#Notary">notarius</rs>. <date>Actum <placeName ref="#places/110"
+                                key="#Cities #Palatium">Benevento</placeName>, in <rs key="#Cities"
+                                >palacium</rs>, mense novembrio, per indiccione octava</date>,
                         feliciter.</ab>
                 </div>
             </div>
