@@ -1227,6 +1227,7 @@
                     <link type="people" corresp="#people/374" subtype="fatherOf"/>
                         <link type="people" corresp="#people/2002"
                             subtype="legallyRecognisedUnionWith"/>
+                        <link type="people" corresp="#people/2004" subtype="sonOf"/>
                 </person>
                 <person>
                     <persName>Paldo (944) iudex</persName>
@@ -3223,6 +3224,7 @@
                         <link type="people" corresp="#people/2002" subtype="sonOf"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
                             subtype="benefactorOf"/>
+                        <link type="people" corresp="#people/2004" subtype="grandsonOf"/>
                 </person>
                 <person>
                     <persName>Gisulfus (abbas Casinensis; 796-817) </persName>
@@ -4647,10 +4649,20 @@
                             subtype="legallyRecognisedUnionWith"/>
                     </person>
                     <person>
-                        <persName/>
+                        <persName>Abileopa (abbatissa; ante 754)</persName>
                         <persName type="other"/>
-                        <idno>people/</idno>
+                        <idno>people/2003</idno>
                         <note/>
+                    </person>
+                    <person>
+                        <persName>Romualdus (dux gentis Langobardorum; 706-731)</persName>
+                        <persName type="other">Romualdo II di Benevento</persName>
+                        <idno>people/2004</idno>
+                        <note/>
+                        <link type="places" corresp="#places/110" subtype="hasConnectionWith"/>
+                        <link type="people" corresp="#people/158" subtype="fatherOf"/>
+                        <link type="people" corresp="#people/374" subtype="grandfatherOf"/>
+                        <link type="people" corresp="#people/2002" subtype="fatherInLawOf"/>
                     </person>
                 </listPerson>
             </listPerson>
