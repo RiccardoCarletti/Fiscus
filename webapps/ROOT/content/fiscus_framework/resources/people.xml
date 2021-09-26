@@ -3225,6 +3225,9 @@
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
                             subtype="benefactorOf"/>
                         <link type="people" corresp="#people/2004" subtype="grandsonOf"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/610"
+                            subtype="benefactorOf"/>
+                        <link type="people" corresp="#people/2005" subtype="benefactorOf"/>
                 </person>
                 <person>
                     <persName>Gisulfus (abbas Casinensis; 796-817) </persName>
@@ -4647,12 +4650,18 @@
                         <link type="people" corresp="#people/374" subtype="motherOf"/>
                         <link type="people" corresp="#people/158"
                             subtype="legallyRecognisedUnionWith"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/610"
+                            subtype="benefactorOf"/>
+                        <link type="people" corresp="#people/2005" subtype="benefactorOf"/>
                     </person>
                     <person>
-                        <persName>Abileopa (abbatissa; ante 754)</persName>
+                        <persName>Abileopa (ante 754) abbatissa</persName>
                         <persName type="other"/>
                         <idno>people/2003</idno>
                         <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/610"
+                            subtype="link"/>
+                        <link type="people" corresp="#people/2004" subtype="benefactorOf"/>
                     </person>
                     <person>
                         <persName>Romualdus (dux gentis Langobardorum; 706-731)</persName>
@@ -4663,6 +4672,16 @@
                         <link type="people" corresp="#people/158" subtype="fatherOf"/>
                         <link type="people" corresp="#people/374" subtype="grandfatherOf"/>
                         <link type="people" corresp="#people/2002" subtype="fatherInLawOf"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/610"
+                            subtype="benefactorOf"/>
+                    </person>
+                    <person>
+                        <persName>Eufimia (754) abbatissa</persName>
+                        <persName type="other"/>
+                        <idno>people/2005</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/610"
+                            subtype="link"/>
                     </person>
                 </listPerson>
             </listPerson>
