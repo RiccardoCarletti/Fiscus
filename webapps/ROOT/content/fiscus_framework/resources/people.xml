@@ -1492,8 +1492,8 @@
                     <link type="people" corresp="#people/186" subtype="agentFor"/>
                 </person>
                 <person>
-                    <persName>Sichardus (832-839) princeps</persName>
-                    <persName type="other"/>
+                    <persName>Sichardus (princeps; 832-839)</persName>
+                    <persName type="other">Sicardus</persName>
                     <idno>people/186</idno>
                     <note/>
                     <link type="people" corresp="#people/185" subtype="agentFor"/>
@@ -1506,6 +1506,12 @@
                     <link type="estates" corresp="#estates/146" subtype="link"/>
                     <link type="estates" corresp="#estates/149" subtype="link"/>
                     <link type="estates" corresp="#estates/147" subtype="link"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1900"
+                            subtype="benefactorOf"/>
+                        <link type="places" corresp="#places/110" subtype="hasConnectionWith"/>
+                        <link type="people" corresp="#people/1903" subtype="benefactorOf"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1903"
+                            subtype="link"/>
                 </person>
                 <person>
                     <persName>Authpert (834/835-837) abbas Casinensis</persName>
@@ -4714,12 +4720,28 @@
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
                             subtype="link"/>
+                        <link type="people" corresp="#people/186" subtype="gratitudeTo"/>
+                        <link type="people" corresp="#people/1904" subtype="gratitudeTo"/>
                     </person>
                     <person>
                         <persName>Petrus (833); episcopus </persName>
                         <persName type="other"/>
                         <idno>people/1904</idno>
                         <note/>
+                        <link type="people" corresp="#people/1903" subtype="benefactorOf"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1900"
+                            subtype="benefactorOf"/>
+                    </person>
+                    <person>
+                        <persName>Roffrit (833); referendarius</persName>
+                        <persName type="other">Rofrit; Roffrid; Rofridus</persName>
+                        <idno>people/1905</idno>
+                        <note/>
+                        <link type="places" corresp="#places/110" subtype="hasConnectionWith"/>
+                        <link type="people" corresp="#people/186" subtype="agentFor"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1900"
+                            subtype="link"/>
+                        <link type="people" corresp="#people/1903" subtype="link"/>
                     </person>
                 </listPerson>
             </listPerson>
