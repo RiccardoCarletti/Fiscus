@@ -4,8 +4,8 @@
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
-                <title>Roma, Biblioteca Vaticana, Chronicon Vultumense, Cod. Barb. lat. 2724
-                        (<foreign>Chronicon Vulturnense</foreign>, I, n. 36)</title>
+                <title>Roma, Biblioteca Vaticana, Chronicon Vultumense, Cod. Barb. lat. 2724, c.
+                    92r-v (<foreign>Chronicon Vulturnense</foreign>, I, n. 36)</title>
             </titleStmt>
             <editionStmt>
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
@@ -82,29 +82,59 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>In nomine Domini. Temporibus domni nostri viri precellentissimi Grimoaldi,
-                        Dei providencia, Beneventane provincie principis, mense septembris, VIIII.
-                        indiccione. Ideoque ego Alahis, filius bone memorie Arichis, benigno
-                        desiderio, pro me redepmcione anime, per hanc meam chartulam conscripcionis,
-                        offero in monasterio Beati Vincencii, ubi Deo favente, Iosue abbas preest,
-                        omnes rebus substancie mee, que habeo in finibus Benevento et in Salerno; et
-                        rem meam quam habeo non longe ab ecclesia Sancti Medici, ubi Forano dicitur,
-                        vel que cetera nomina ibi vocatur, queque michi ibi a singulis hominibus
-                        datum fuit; simulque et rem meam quam habeo in finibus Capue, seu et in
-                        Telesinis et Alifanis finibus; simulque et silvam meam, que vocatur Silva
-                        Nigra, cum terra vacua in integrum, quam a parte bone memorie domni
-                        Grimoaldi concessam habui; nec non et molinum meum in Teonsa in integrum,
-                        cum oliveto quem a singulos homines comparatum et cambiatum habui; quam et
-                        insimul in prefato cenobio optuli omnes servos et ancillas meas, cum
-                        cespitibus et conquisitibus eorum; simulque et casas meas in civitatibus,
-                        tam in veteri Bene­vento quam et in Salerno cum berzario; et intus hanc
-                        Beneven­tum civitatem, tam de iuri parentum quam et quod ego emi, quam et
-                        ipsam casam novam quam ego condidi, casam cum curte et berzario; quam eciam
-                        et omnia peculia mea, tam caballos domitos et indomitos, iumenta, bacce,
-                        porcos, pecudes, capras; quam et insimul omnem rem meam quicquid per diversa
-                        loca habeo vel habiturus fuero in iam dicto Sancti Vincencii eveniant
-                        monasterio possidendum, sine heredum || meorum vel cuiuslibet requisicione.
-                        Et hanc cartulam eo tenore Tundipertum notarium scribere rogavi.</ab>
+                    <ab>In nomine Domini. <date>Temporibus domni nostri <rs key="#Personal_rank"
+                                >viri precellentissimi</rs>
+                            <persName ref="#people/2000" key="#Princeps">Grimoaldi</persName>, Dei
+                            providencia, Beneventane provincie <rs key="#Princeps">principis</rs>,
+                            mense septembris, VIIII. indiccione</date>. Ideoque ego
+                            <persName>Alahis</persName>, filius bone memorie
+                            <persName>Arichis</persName>, benigno desiderio, pro me redepmcione
+                        anime, per hanc meam <rs key="#Offersio/donatio">chartulam
+                            conscripcionis</rs>, offero in <rs key="#Monasteries">monasterio</rs>
+                        <orgName ref="#juridical_persons/1900" key="#Monasteries #Abbots">Beati
+                            Vincencii</orgName>, ubi Deo favente, <persName ref="#people/2001"
+                            key="#Abbots">Iosue</persName>
+                        <rs key="#Abbots">abbas</rs> preest, omnes <rs key="#Landed_possessions"
+                            >rebus</rs> substancie mee, que habeo in <rs key="#Fines">finibus</rs>
+                        <geogName key="#Fines #Landed_possessions">Benevento</geogName> et in
+                            <geogName key="#Fines #Landed_possessions">Salerno</geogName>; et rem
+                        meam quam habeo non longe ab <rs>ecclesia</rs>
+                        <orgName key="#Churches">Sancti Medici</orgName>, ubi <placeName
+                            key="#Landed_possessions">Forano</placeName> dicitur, vel que cetera
+                        nomina ibi vocatur, queque michi ibi a singulis hominibus datum fuit;
+                        simulque et <rs key="#Landed_possessions">rem</rs> meam quam habeo in <rs
+                            key="#Fines">finibus</rs>
+                        <geogName key="#Fines #Landed_possessions">Capue</geogName>, seu et in
+                            <geogName key="#Fines #Landed_possessions">Telesinis</geogName> et
+                            <geogName key="#Fines #Landed_possessions">Alifanis</geogName>
+                        <rs key="#Fines">finibus</rs>; simulque et <rs key="#Forests">silvam</rs>
+                        meam, que vocatur <placeName
+                            key="#Landed_possessions #Forests #Fiscal_property #Textual_occurrence #Mention #Function #Exceptive #Outflow #Allocation_to_individuals"
+                            >Silva Nigra</placeName>, cum <rs key="#Landed_possessions">terra
+                            vacua</rs> in integrum, quam a parte bone memorie domni <persName
+                            ref="#people/373">Grimoaldi</persName> concessam habui; nec non et <rs
+                            key="#Mills">molinum</rs> meum in <placeName key="#Rivers"
+                            ref="#places/2305">Teonsa</placeName> in integrum, cum <rs key="#Oil"
+                            >oliveto</rs> quem a singulos homines comparatum et cambiatum habui;
+                        quam et insimul in prefato cenobio optuli omnes <rs
+                            key="#Slave_labour #Slave">servos et ancillas</rs> meas, cum cespitibus
+                        et conquisitibus eorum; simulque et <rs key="#Casae/cassinae_massaricie"
+                            >casas</rs> meas in civitatibus, tam in veteri Benevento quam et in
+                        Salerno cum <rs key="#Fruits/vegetables">berzario</rs>; et intus hanc
+                            <placeName key="#Cities #Casae/cassinae_massaricie #Fruits/vegetables"
+                            ref="#places/110">Beneventum</placeName>
+                        <rs key="#Cities">civitatem</rs>, tam de iuri parentum quam et quod ego emi,
+                        quam et ipsam <rs key="#Casae/cassinae_massaricie">casam novam</rs> quam ego
+                        condidi, <rs key="#Casae/cassinae_massaricie">casam cum curte</rs> et <rs
+                            key="#Fruits/vegetables">berzario</rs>; quam eciam et omnia peculia mea,
+                        tam <rs key="#Horses">caballos</rs> domitos et indomitos, <rs key="#Cows"
+                            >iumenta, bacce</rs>, <rs key="#Pigs">porcos</rs>, <rs key="#Sheep"
+                            >pecudes</rs>, <rs key="#Goats">capras</rs>; quam et insimul omnem rem
+                        meam quicquid per diversa loca habeo vel habiturus fuero in iam dicto Sancti
+                        Vincencii eveniant monasterio possidendum, sine heredum meorum vel
+                        cuiuslibet requisicione. Et hanc cartulam eo tenore <persName key="#Notary"
+                                ><name ref="Tundipertus">Tundipertum</name></persName>
+                        <rs key="#Notary">notarium</rs> scribere rogavi.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
