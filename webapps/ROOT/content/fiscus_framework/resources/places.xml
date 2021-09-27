@@ -9384,6 +9384,7 @@
                             subtype="link"/>
                         <link type="places" corresp="#places/110" subtype="isWithin"/>
                         <link type="people" corresp="#people/1912" subtype="link"/>
+                        <link type="places" corresp="#places/1909" subtype="isAdjacentTo"/>
                     </place>
                     <place>
                         <placeName>Calore; river (Benevento)</placeName>
@@ -9394,6 +9395,9 @@
                                 41.1848215, 14.4626107; 41.127987, 14.783478</geo></geogName>
                         <idno>places/1909</idno>
                         <note/>
+                        <link type="places" corresp="#places/110" subtype="isInVicinityOf"/>
+                        <link type="places" corresp="#places/111" subtype="isInVicinityOf"/>
+                        <link type="places" corresp="#places/609" subtype="hasConnectionWith"/>
                     </place>
                 </listPlace>
             </listPlace>
