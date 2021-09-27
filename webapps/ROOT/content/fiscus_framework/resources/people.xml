@@ -1492,7 +1492,7 @@
                     <link type="people" corresp="#people/186" subtype="agentFor"/>
                 </person>
                 <person>
-                    <persName>Sichardus (princeps; 832-839)</persName>
+                    <persName>Sichardus (princeps gentis Langobardorum; 832-839)</persName>
                     <persName type="other">Sicardus</persName>
                     <idno>people/186</idno>
                     <note>Thomas 2016: 117-122; Loré 2018; Zornetta 2020a: 169-185, 190-196,
@@ -2982,9 +2982,12 @@
                 </person>
                 <person>
                     <persName>Sichenolfus (princeps gentis Langobardorum; 839-849) </persName>
-                    <persName type="other"/>
+                    <persName type="other">Sikenolfus; Siconolfo</persName>
                     <idno>people/351</idno>
-                    <note>Primo principe di Salerno</note>
+                    <note>primo principe di Salerno</note>
+                        <link type="people" corresp="#people/1912" subtype="benefactorOf"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1900"
+                            subtype="benefactorOf"/>
                 </person>
                 <person>
                     <persName>Rodibertus (903; 905) abbas</persName>
@@ -4756,6 +4759,60 @@
                         <link type="juridical_persons" corresp="#juridical_persons/2312"
                             subtype="link"/>
                         <link type="people" corresp="#people/1903" subtype="link"/>
+                    </person>
+                    <person>
+                        <persName>Truppoaldus (ante 849); episcopus</persName>
+                        <persName type="other">Truppoaldus filius Andree</persName>
+                        <idno>people/1907</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1900"
+                            subtype="benefactorOf"/>
+                    </person>
+                    <person>
+                        <persName>Mauroaldus (849); abbas</persName>
+                        <persName type="other"/>
+                        <idno>people/1908</idno>
+                        <note/>
+                        <link type="people" corresp="#people/351" subtype="link"/>
+                    </person>
+                    <person>
+                        <persName>Truppoaldus (849); comes</persName>
+                        <persName type="other"/>
+                        <idno>people/1909</idno>
+                        <note/>
+                        <link type="people" corresp="#people/351" subtype="link"/>
+                    </person>
+                    <person>
+                        <persName>Maio (849); comes</persName>
+                        <persName type="other">Maione</persName>
+                        <idno>people/1910</idno>
+                        <note/>
+                        <link type="people" corresp="#people/351" subtype="link"/>
+                    </person>
+                    <person>
+                        <persName>Radechis (849); comes</persName>
+                        <persName type="other"/>
+                        <idno>people/1911</idno>
+                        <note/>
+                        <link type="people" corresp="#people/351" subtype="link"/>
+                    </person>
+                    <person>
+                        <persName>Audoald (849); prepositus</persName>
+                        <persName type="other"/>
+                        <idno>people/1911</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1900"
+                            subtype="professionalRelationship"/>
+                        <link type="people" corresp="#people/1912" subtype="link"/>
+                    </person>
+                    <person>
+                        <persName>Iacobus (abbas; 844-853)</persName>
+                        <persName type="other"/>
+                        <idno>people/1912</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1900"
+                            subtype="link"/>
+                        <link type="people" corresp="#people/351" subtype="gratitudeTo"/>
                     </person>
                 </listPerson>
             </listPerson>
