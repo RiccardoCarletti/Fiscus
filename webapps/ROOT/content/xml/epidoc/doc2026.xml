@@ -82,14 +82,18 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>In nomine domini Dei salvatoris Iesu Christi. Nos <rs>vir
-                            gloriosissimus</rs>
-                        <persName>Sicardus</persName>, Dei providencia, Beneventane provincie
-                            <rs>princeps</rs>, per rogum <persName>Roffrid</persName>,
-                            <rs>referendarii</rs> nostri, firmamus in <rs key="#Monasteries"
-                            >monasterio</rs>
-                        <orgName key="#Monasteries #Abbots" ref="#juridical_persons/1900">Beatissimi
-                            Vincencii</orgName>, ubi <rs>venerabilis vir</rs>
+                    <ab>In nomine domini Dei salvatoris Iesu Christi. Nos <rs
+                            key="#Vir_gloriosus/vir_sublimis">vir gloriosissimus</rs>
+                        <persName key="#Princeps #Vir_gloriosus/vir_sublimis" ref="#people/186"
+                            >Sicardus</persName>, Dei providencia, Beneventane provincie <rs
+                            key="#Princeps">princeps</rs>, per rogum <persName
+                            key="#Intercessory #Other_palatine_officer" ref="#people/1905"
+                            >Roffrid</persName>, <rs key="#Other_palatine_officer">referendarii</rs>
+                        nostri, firmamus in <rs key="#Monasteries">monasterio</rs>
+                        <orgName
+                            key="#Monasteries #Abbots #Churches #Landed_possessions #Slave_labour #Slave"
+                            ref="#juridical_persons/1900">Beatissimi Vincencii</orgName>, ubi
+                            <rs>venerabilis vir</rs>
                         <persName key="#Abbots" ref="#people/1903">Epyphanius</persName>
                         <rs key="#Abbots">abbas</rs>, orator noster, preesse videtur, <rs
                             key="#Churches">ecclesiam</rs>
@@ -97,7 +101,7 @@
                             >Sancti Secundini</orgName>, cum integris suis <rs
                             key="#Landed_possessions">pertinenciis</rs>, <rs key="#Fines"
                             >finibus</rs>
-                        <geogName key="#Fines #Churches #Landed_possessions " ref="#estates/1907"
+                        <geogName key="#Fines #Churches #Landed_possessions" ref="#estates/1907"
                             >Acerentinis</geogName>, quam <persName key="#Bishops"
                             ref="#people/1904">Petrus</persName>
                         <rs key="#Bishops">episcopus</rs> per suam offercionem ibidem dedit; seu et
