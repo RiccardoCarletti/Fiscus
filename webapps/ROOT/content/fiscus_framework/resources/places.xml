@@ -9231,7 +9231,7 @@
                     <place>
                         <placeName>Venafro (Isernia) </placeName>
                         <placeName type="other"/>
-                        <geogName type="coord"><geo/>41.4848417, 14.0459812</geogName>
+                        <geogName type="coord"><geo>41.4848417, 14.0459812</geo></geogName>
                         <idno>places/2300</idno>
                         <note/>
                     </place>
@@ -9300,6 +9300,46 @@
                         <geogName type="coord"><geo>40.7988432, 15.9416217</geo></geogName>
                         <idno>places/2308</idno>
                         <note/>
+                    </place>
+                    <place>
+                        <placeName>Ravennola; river (Isernia)</placeName>
+                        <placeName type="other">Ravindola</placeName>
+                        <geogName type="coord"><geo>41.5297846, 14.1204250</geo></geogName>
+                        <idno>places/2309</idno>
+                        <note>Marazzi 19-25; 31-32</note>
+                        <link type="people" corresp="#people/186" subtype="link"/>
+                        <link type="people" corresp="#people/1903" subtype="link"/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Venafrano</foreign>; <foreign>mons</foreign> (Venafro;
+                            Isernia)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo>41.4848417, 14.0459812</geo></geogName>
+                        <idno>places/2310</idno>
+                        <note/>
+                        <link type="places" corresp="#places/2309" subtype="isInVicinityOf"/>
+                        <link type="places" corresp="#places/2300" subtype="isInVicinityOf"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1900"
+                            subtype="link"/>
+                        <link type="people" corresp="#people/186" subtype="link"/>
+                        <link type="people" corresp="#people/1903" subtype="link"/>
+                    </place>
+                    <place>
+                        <placeName>Arcora; <foreign>terra</foreign> (Isernia)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo>41.5125662, 14.0620024</geo></geogName>
+                        <idno>places/2311</idno>
+                        <note><foreign>terra Arcora</foreign> is located near Pozzilli (Isernia);
+                            Marazzi 19-25; 31-32</note>
+                        <link type="juridical_persons" corresp="#juridical_persons/1900"
+                            subtype="link"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1904"
+                            subtype="link"/>
+                        <link type="places" corresp="#places/2300" subtype="isInVicinityOf"/>
+                        <link type="places" corresp="#places/2310" subtype="isInVicinityOf"/>
+                        <link type="places" corresp="#places/2309" subtype="isInVicinityOf"/>
+                        <link type="people" corresp="#people/186" subtype="link"/>
+                        <link type="people" corresp="#people/1903" subtype="link"/>
                     </place>
                 </listPlace>
             </listPlace>
