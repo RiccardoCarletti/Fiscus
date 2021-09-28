@@ -4816,12 +4816,20 @@
                     </person>
                     <person>
                         <persName>Ademarius (<foreign>princeps</foreign>; 853-861)</persName>
-                        <persName type="other">Ademaro</persName>
+                        <persName type="other">Ademaro di Salerno</persName>
                         <idno>people/1913</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
                             subtype="benefactorOf"/>
                         <link type="places" corresp="#places/84" subtype="hasConnectionWith"/>
+                        <link type="people" corresp="#people/1914" subtype="sonOf"/>
+                    </person>
+                    <person>
+                        <persName>Petrus (<foreign>princeps</foreign>; 853)</persName>
+                        <persName type="other">Pietro di Salerno</persName>
+                        <idno>people/1914</idno>
+                        <note/>
+                        <link type="people" corresp="#people/1913" subtype="fatherOf"/>
                     </person>
                 </listPerson>
             </listPerson>
