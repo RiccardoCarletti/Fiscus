@@ -4823,6 +4823,7 @@
                             subtype="benefactorOf"/>
                         <link type="places" corresp="#places/84" subtype="hasConnectionWith"/>
                         <link type="people" corresp="#people/1914" subtype="sonOf"/>
+                        <link type="people" corresp="#people/1915" subtype="benefactorOf"/>
                     </person>
                     <person>
                         <persName>Petrus (<foreign>princeps</foreign>; 853)</persName>
@@ -4830,6 +4831,15 @@
                         <idno>people/1914</idno>
                         <note/>
                         <link type="people" corresp="#people/1913" subtype="fatherOf"/>
+                    </person>
+                    <person>
+                        <persName>Iohannes (856-863; abbas vulturnensis)</persName>
+                        <persName type="other"/>
+                        <idno>people/1915</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1900"
+                            subtype="link"/>
+                        <link type="people" corresp="#people/1913" subtype="gratitudeTo"/>
                     </person>
                 </listPerson>
             </listPerson>
