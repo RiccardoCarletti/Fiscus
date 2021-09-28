@@ -4832,6 +4832,7 @@
                         <link type="places" corresp="#places/84" subtype="hasConnectionWith"/>
                         <link type="people" corresp="#people/1914" subtype="sonOf"/>
                         <link type="people" corresp="#people/1915" subtype="benefactorOf"/>
+                        <link type="people" corresp="#people/1917" subtype="sonOf"/>
                     </person>
                     <person>
                         <persName>Petrus (<foreign>princeps</foreign>; 853)</persName>
@@ -4839,6 +4840,10 @@
                         <idno>people/1914</idno>
                         <note/>
                         <link type="people" corresp="#people/1913" subtype="fatherOf"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1900"
+                            subtype="benefactorOf"/>
+                        <link type="people" corresp="#people/1917"
+                            subtype="legallyRecognisedUnionWith"/>
                     </person>
                     <person>
                         <persName>Iohannes (856-863; abbas Vulturnensis)</persName>
@@ -4848,6 +4853,27 @@
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
                             subtype="link"/>
                         <link type="people" corresp="#people/1913" subtype="gratitudeTo"/>
+                    </person>
+                    <person>
+                        <persName>Artefusus (858); prepositus</persName>
+                        <persName type="other"/>
+                        <idno>people/1916</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1900"
+                            subtype="agentFor"/>
+                        <link type="people" corresp="#people/1915"
+                            subtype="professionalRelationship"/>
+                    </person>
+                    <person>
+                        <persName>Audperga (ante 858)</persName>
+                        <persName type="other"/>
+                        <idno>people/1917</idno>
+                        <note/>
+                        <link type="people" corresp="#people/1914"
+                            subtype="legallyRecognisedUnionWith"/>
+                        <link type="people" corresp="#people/1913" subtype="motherOf"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1900"
+                            subtype="benefactorOf"/>
                     </person>
                 </listPerson>
             </listPerson>
