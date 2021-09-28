@@ -4911,6 +4911,20 @@
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
                             subtype="enmityFor"/>
                         <link type="people" corresp="#people/158" subtype="fidelisOf"/>
+                        <link type="people" corresp="#people/1923" subtype="fatherOf"/>
+                    </person>
+                    <person>
+                        <persName>Radoald (776)</persName>
+                        <persName type="other"/>
+                        <idno>people/1922</idno>
+                        <note/>
+                    </person>
+                    <person>
+                        <persName>Eufimia (776)</persName>
+                        <persName type="other"/>
+                        <idno>people/1923</idno>
+                        <note/>
+                        <link type="people" corresp="#people/1921" subtype="daughterOf"/>
                     </person>
                 </listPerson>
             </listPerson>
