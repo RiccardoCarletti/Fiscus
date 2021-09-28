@@ -4918,8 +4918,8 @@
                         <persName type="other"/>
                         <idno>people/1922</idno>
                         <note/>
-                        <link type="people" corresp="#people/1923" subtype="fatherInLawOf"/>
-                        <link type="people" corresp="#people/303" subtype="agentFor"/>
+                        <link type="people" corresp="#people/1923" subtype="brotherOf"/>
+                        <link type="people" corresp="#people/303" subtype="familyOf"/>
                     </person>
                     <person>
                         <persName>Eufimia (776)</persName>
@@ -4927,7 +4927,7 @@
                         <idno>people/1923</idno>
                         <note/>
                         <link type="people" corresp="#people/1921" subtype="daughterOf"/>
-                        <link type="people" corresp="#people/1920" subtype="daughterInLawOf"/>
+                        <link type="people" corresp="#people/1920" subtype="familyOf"/>
                     </person>
                     <person>
                         <persName>Iohannes (abbas Vulturnensis; 763-777)</persName>
@@ -4935,6 +4935,9 @@
                             Volturno</persName>
                         <idno>people/1924</idno>
                         <note/>
+                        <link type="people" corresp="#people/1922" subtype="enmityFor"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1600"
+                            subtype="link"/>
                     </person>
                 </listPerson>
             </listPerson>
