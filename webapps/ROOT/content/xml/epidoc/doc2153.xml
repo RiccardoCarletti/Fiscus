@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>D'Achery, Spicilegium, III (DD U, pp. 45-47)</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc2153</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0928-11-12">
+                                <note type="displayed_date">928 november 12</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Vienne</note>
+                                <note type="redaction_date">XVII sec sm</note>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-02-08" who="Chiara Stedile">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine domini Dei aeterni. Hugo gratia Dei rex. Si sacris et
+                        venerabilibus locis temporalia atque transitoria concedimus, magna a Domino
+                        remunerari in futuro nequaquam diffidimus. Idcirco noverit omnium fidelium
+                        sanctae Dei Ecclesiae nostrorumque praesentium scilciet et futurorum
+                        industria, nos pro timore Dei omnipotentis et pro remedio animarum parentum
+                        nostrorum concessisse atque per praesentem paginam donasse ecclesiae Sanctae
+                        Mariae et Sancti Teuderii, quae esse videtur sub regimine sanctae Viennensis
+                        ecclesiae, omnes res illas quas iuste et legaliter acquisivimus ab Enigrino
+                        libero homine, videlicet omnes illas res quas ipse habuit in singulis locis,
+                        scilicet in villa Comugiaco et in villa Boriaco atque Posiaco ec non et in
+                        Muneriaco atque Bontiaco et Madelliaco sub omni integritate, una cum casis,
+                        aquis aquarumve decursibus, molendinis, piscationibus, servis et ancillis
+                        utriusque sexus et cum omnibus quae dici et nominari possunt praedictis
+                        rebus iuste et legaliter pertinentibus in integrum, ut habeat, teneat
+                        firmiterque possideat nostra plenissima largitate, omnium hominum remota
+                        contradictione. Donamus igitur praedictae Sanctae Mariae Sanctique Teuderii
+                        ecclesiae totam illam proprietatem quam similiter iuste et legaliter
+                        acquisivimus in villa Rispatis a quadam femina nomine Anna cum omnibus
+                        integritatibus predictae proprietatis et cum servis et ancillis eidem
+                        proprietati pertinentibus. Concedimus etiam praedictae ecclesiae totam illam
+                        proprietatem quam acquisivimus a Guttivo et Autberto et ab heredibus eorum,
+                        quae proprietas adiacere videtur in villa Corbeliano, cum vineis et servis
+                        et cum illo servo nominative qui nominatur Berno cum uxore sua et filiis et
+                        filiabus. Confirmamus insuper per hoc nostrum regale praeceptum praedictae
+                        ecclesiae Sanctae Mariae et Sancti Teuderii illas res quas olim eidem
+                        ecclesiae per chartulam donavimus, videlicet ecclesiam Sancti Martini sitam
+                        in Veseroncia cum omnibus integritatibus suis, videlicet cum servis et
+                        ancillis utriusque sexus et cum terris, vineis, campis, pratis, pascuis,
+                        silvis, aquis aquarumque decursibus et cum lisdis et curvatis et cum omni
+                        districtu suo. Confirmamus igitur eidem ecclesiae omnes illas mobiles et
+                        immobiles res quae ibi iuste et legaliter a fidelibus viris collatae sunt et
+                        deinceps conferendae, ut per hoc nostrum regale praeceptum ita firmiter eas
+                        predicta ecclesia et abbas, qui pro tempore eidem eccleiae praefuerit, et
+                        monachi ibi pro tempore Deo servientes teneant et possideant, et tamquam in
+                        praesentia ipsas legales de ipsis rebus habeant firmitates, totiusque
+                        potestatis contradictione remota. Statuimus etiam ut ipsa ecclesia cum
+                        omnibus suis mobilibus et immobilibus rebus ab hodie et deinceps sub
+                        immunitatis tuitione et inconvulsa permaneat et secura consistat, omnium
+                        hominum verbositate deleta. Iubemus etiam atque praecipimus, ut nullius
+                        ministerii potestas super res ipsius ecclesiae placita celebret, neque
+                        aliquod servitium, quod ad publicam partem pertinuisse visum fuit, deinceps
+                        exquirere audeat, nec aliquem fugientem super ipsam terram sine licentia
+                        abbatis comprehendere neque extrahere praesumat. Contra quod nostrae
+                        donationis seu confirmationis atque immunitatis seu tuitionis praeceptum si
+                        quis temerario ausu insurgere tentaverit, sciat se compositurum auri optimi
+                        libras centum, medietatem camerae nostrae et medietatem praedictae ecclesiae
+                        et abbati atque monachis ibi pro tempore Deo servientibus. Quod ut verius
+                        credatur diligentiusque ab omnibus observetur, manu propria roborantes de
+                        annulo nostro subter annotari iussimus. Signum domni Hugonis invictissimi
+                        regis. Petrus notarius ad vicem Gerlanni abbatis et archicancellarii
+                        recognovi et subscripsi. Data pridie idus novembris, anno dominicae
+                        incarnationis DCCCCXXVIII, regni vero domni Hugonis piissimi regis tertio,
+                        indictione prima. Actum Vienna civitate. In Christi nomine feliciter,
+                        amen.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>DD U, pp. 45-47, n° XVI</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
