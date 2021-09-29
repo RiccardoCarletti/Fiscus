@@ -4,7 +4,7 @@
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
-                <title>Archivio di Stato di Milano, Museo Diplomatico, Pergamene-S.Benedetto, n.
+                <title>Archivio di Stato di Milano, Museo Diplomatico, Pergamene-S.Benedetto,
                     374/31</title>
             </titleStmt>
             <editionStmt>
@@ -45,7 +45,7 @@
                             <origDate when="1007-04-02">
                                 <note type="displayed_date">1007 April 2</note>
                                 <note type="dating_elements"/>
-                                <note type="topical_date">"in rocca Canusia"</note>
+                                <note type="topical_date">Canossa (Reggio Emilia)</note>
                                 <note type="redaction_date">XII</note>
                             </origDate>
                             <origPlace>Sanctus Benedictus in Pado Lironi; monasterium
@@ -86,19 +86,19 @@
                     <ab>(S.) In nomine domini Dei et salvatori nostri Iesu Christi. <date>Anno
                             millesimo VII indictione quinta, secundo die intrante mense
                             aprilis</date>. Ego in Dei nomine <persName
-                                key="#Offersio/donatio #Landed_possessions #Marquis/duke #Churches #Lombard #sonOf"
-                            >Teudaldus</persName>
+                            key="#Offersio/donatio #Landed_possessions #Marquis/duke #Churches #Lombard #sonOf"
+                            ref="#people/2122">Teudaldus</persName>
                         <rs>marchio</rs> filio quondam <persName
-                            key="#Marquis/duke #Lombard #fatherOf">Adelberti</persName> itemque
-                        marchio qui profeso sum ex nacione mea lege vivere <rs key="#Lombard"
-                            >Langobardorum</rs> presentibus dixi: Duro in statu sanitatis humane
-                        vite cursus peragitur necesse est ut ea que anime profutura sunt
-                        indesinenter agamus. Manifestus sum michi qui supra Tedaldus marchio eo quod
-                        volo pro anime mee mercede et parentum meorum <rs key="#Churches"
-                            >basilice</rs> ille quam edificavi in loco proprietatis mee factae in
-                        honore Sancti Benedicti et Sancte Marie et Sancte Michaelis Archangeli que
-                        est sita <placeName key="#Islands"><rs key="#Islands">insula</rs> Sancti
-                            Benedicti</placeName>
+                            key="#Marquis/duke #Lombard #fatherOf" ref="#people/2100"
+                            >Adelberti</persName> itemque marchio qui profeso sum ex nacione mea
+                        lege vivere <rs key="#Lombard">Langobardorum</rs> presentibus dixi: Duro in
+                        statu sanitatis humane vite cursus peragitur necesse est ut ea que anime
+                        profutura sunt indesinenter agamus. Manifestus sum michi qui supra Tedaldus
+                        marchio eo quod volo pro anime mee mercede et parentum meorum <rs
+                            key="#Churches">basilice</rs> ille quam edificavi in loco proprietatis
+                        mee factae in honore Sancti Benedicti et Sancte Marie et Sancte Michaelis
+                        Archangeli que est sita <placeName key="#Islands" ref="#places/2400"><rs
+                                key="#Islands">insula</rs> Sancti Benedicti</placeName>
                         <rs key="#Landed_possessions">campum</rs> Sancte Marie et alias quasdam res
                         meas sicut continetur in cartula quadam offersionis mee in qua multa
                         delegavi predicte basilice Sancti Benedicti qui est positus iuxta <rs
@@ -111,10 +111,10 @@
                         superioribus et inferioribus suis in integrum; et faciat omnem suam
                         hutilitatem sine mea et heredum meorum contradictione. Actum est hoc in <rs
                             key="#Fortress">rocca</rs>
-                        <placeName key="#Fortress">Canusia</placeName> feliciter. Signum +++++++++
-                        manibus <persName key="#Offersio/donatio #Witness"><name ref="Wido"
-                                >Vuido</name></persName> de <placeName>Palude</placeName> et
-                            <persName key="#Offersio/donatio #Witness"><name ref="Bonitius"
+                        <placeName key="#Fortress" ref="#places/2415">Canusia</placeName> feliciter.
+                        Signum +++++++++ manibus <persName key="#Offersio/donatio #Witness"><name
+                                ref="Wido">Vuido</name></persName> de <placeName>Palude</placeName>
+                        et <persName key="#Offersio/donatio #Witness"><name ref="Bonitius"
                                 >Bonizo</name></persName> seu <persName
                             key="#Offersio/donatio #Witness"><name ref="Martinus"
                             >Martino</name></persName> et <persName
