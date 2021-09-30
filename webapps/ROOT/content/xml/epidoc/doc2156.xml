@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Archivio di Stato di Torino: <foreign>Breme. Regolari di qua dai
+                        monti</foreign>, mazzo 2.</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc2156</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">Yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0929-07-24">
+                                <note type="displayed_date">929 july 24</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Pavia</note>
+                                <note type="redaction_date">XIII sec.</note>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-02-08" who="Chiara Stedile">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine domini Dei eterni. Hugo gratia Dei rex. Noverit omnium fidelium
+                        sancte Dei Ecclesie nostrorumque presencium et futurorum industria, qualiter
+                        per peticionem Ermengardis summe comitisse fidelissime sororis nostre
+                        congregatio sancte Novalisiensis ecclesie, que et nunc habitare videtur in
+                        civitate Taurinensi, pro incursione et more Paganorum, in basilica Sancti
+                        Andree apostoli, nostre suggessit maiestati, quatenus pro Dei amore animeque
+                        nostre remedio quandam curtem Bremedo videlicet et aliam sitam Policino et
+                        in honore sancte Marie Dei genitricis constructam, quas curtes olim ante hos
+                        dies Adelbertus gloriosissimus marchio per cartarum instrumenta Novalisiensi
+                        cenobio iure proprietario donavit, atque unam turrim in predicta civitate
+                        constructam cum omni sua integritate et cum terris sibi aderentibus, sicut
+                        ipse Adelbertus eam acquisivit et eidem loco concessit, nostre
+                        a[uctorit]atis pagina confirmaremus. Cuius peticionem ratam considerantes,
+                        hanc nostre auctoritatis paginam scribi iussimus, per quam iam dicto cenobio
+                        prescriptas duas curtes, Bremeto scilicet, quam ab Herlando emit, et
+                        Pollicinum, quam a Gisla eidem Adelberto evenit et iure proprietario tenuit
+                        et possedit, absque alicuius contradictione et inpulsione nostra regali
+                        onfirmacione roboramus et stabilimus ac perdonamus ipsi cenobio
+                        Novalisiensi, pariter cum predicta turre in predicta civitate constructa,
+                        sub omni integritate et cum terris sibi aderentibus, sicut idem [Ade]lbertus
+                        marchio eam acquisivit et eidem loco concessit, omnino transfundimus et
+                        stabilimus ad habendum, [tenendum,] et quicquid voluerit secundum Deum
+                        faciendum, omnium magnarum parv[arumque] personarum contradictione aut
+                        molestacione remota. Si quis vero hanc nostram confirmacionem violare
+                        temptaverit, mille libras auri conponere cogatur, medietatem palacio nostro
+                        et medietatem parti [eiusdem] Novalisiensis cenobii. Quod ut verius credatur
+                        diligenciusque observetur ab omnibus, manu propria roborantes ex anulo
+                        nostro insigniri iussimus. Signum domni (M) Hugonis piissimi regis. Data
+                        VIIII kal. Aug., anno dominice incarnacionis DCCCCXXVIIII, regni vero domni
+                        Hugonis [piissimi] regis quarto, indicione secunda. Actum Papie.
+                        Feliciter.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>DD U, pp. 63-64, n° XXI</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
