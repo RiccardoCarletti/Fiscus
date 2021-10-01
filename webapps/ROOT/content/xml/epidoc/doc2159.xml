@@ -98,8 +98,10 @@
                             key="#Intercessory #Count"><name ref="Samson">Samson</name></persName>
                         <rs key="#Count">comite</rs>
                         <persName key="#Bishops" ref="#people/1521">Sigefredus</persName>
-                        venerabilis <orgName ref="#juridical_persons/1420">sanctae <placeName
-                                ref="#places/53">Parmensis</placeName> aecclesiae</orgName>
+                        venerabilis <orgName ref="#juridical_persons/1420"
+                            key="#Houses #Mountains #Walls #Teloneum #Immunity #Districtio #Inquisitio #Churches #Monasteries #Other_clerics"
+                            >sanctae <placeName ref="#places/53">Parmensis</placeName>
+                            aecclesiae</orgName>
                         <rs key="#Bishops">episcopus</rs> nostrae serenitatis adiit <rs
                             key="#Intercessory">clementiam petens</rs>, quatenus precepta atque
                         auctoriattes piissimorum augustorum vel regum predecessorum nostrorum
@@ -132,39 +134,48 @@
                         nostrae proficere firmiter cognoscentes, hoc nostrae actoritatis apices
                         inscribi iussimus, quibus decernimus ut iam dictam abbatiam de Bercedo
                         integre et districtum iuris publici Parmensis civitatis cum ambitu murorum
-                        sive toloneum eiusdem civitatis nec non et Cortem Regiam cum pertinentia sua
-                        et Pratum Regium seu et locellum illum nomine Luculum cum finibus et
-                        terminationibus suis, ut dictum est, vel quicquid antiqui reges seu
-                        imperatores et reliqui homines Deum timentes memorate sancae Parmensi
+                        sive toloneum eiusdem civitatis nec non et <geogName
+                            key="#Curtes #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
+                            >Cortem Regiam</geogName> cum pertinentia sua et <placeName
+                            key="#Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
+                            >Pratum Regium</placeName> seu et locellum illum nomine Luculum cum
+                        finibus et terminationibus suis, ut dictum est, vel quicquid antiqui reges
+                        seu imperatores et reliqui homines Deum timentes memorate sancae Parmensi
                         aecclesiae suis preceptis vel testamentis contulerunt et postea
-                        precellentissimi reges atque sugusti sua auctoritate confirmaverunt, iuste
+                        precellentissimi reges atque augusti sua auctoritate confirmaverunt, iuste
                         et legaliter, stabilia atque inconvulsa nostris futurisque temporibus in sua
                         potestate vel iure sue sanctae Parmensis aecclesiae prescriptus Sigefredus
                         episcopus suique successores perpetualiter teneant. Statuimus etiam et
                         omnimodis interdicimus, ut nullus sub regno nostro constitutus de rebus
                         suprataxate Parmensis aecclesiae in quibuscumque comitatibus vel locis
                         aliquam diminorationem facere aut alias quaslibet annuales dominationes aut
-                        consuetudinario more exigere vel tollere aliquid aut clericos eiusdem
-                        aecclesiae in personis vel domibus suis ledere audeat; sed repulsa omni
+                        consuetudinario more exigere vel tollere aliquid aut <rs
+                            key="#Other_clerics">clericos</rs> eiusdem aecclesiae in personis vel
+                            <rs key="#Houses">domibus</rs> suis ledere audeat; sed repulsa omni
                         iniusta consuetudine liceat pretaxato venerabili episcopo Sigefredo suisque
                         successoribus omnes res iam dictae Parmensis aecclesiae, de quibus legitimam
                         vestituram tenuit vel tenere dinoscitur aut in futurum tentura est, cum
-                        universis sibi subiectis sub immunitatis nostrae defensione quieto ordine
-                        tenere atque pro incolomitate nostra altissimum Dominum exorare. Omnimodis
-                        etiam precipimus, ut, si de rebus iam dictae aecclesiae ullam diminorationem
-                        quislibet facere temptaverit, non sit necesse iam dicto episcopo eiusque
-                        successoribus sive eiusdem aecclesiae causam peragentibus ullam facere
-                        probationem, sed diligenter per bone fidei homines iureiurando, si opus
+                        universis sibi subiectis sub <rs key="#Immunity">immunitatis</rs> nostrae
+                        defensione quieto ordine tenere atque pro incolomitate nostra altissimum
+                        Dominum exorare. Omnimodis etiam precipimus, ut, si de rebus iam dictae
+                        aecclesiae ullam diminorationem quislibet facere temptaverit, non sit
+                        necesse iam dicto episcopo eiusque successoribus sive eiusdem aecclesiae
+                        causam peragentibus ullam facere probationem, sed diligenter <rs
+                            key="#Inquisitio">per bone fidei homines iureiurando</rs>, si opus
                         fuerit, finiatur. Quicumque ergo huius nostri precepti prevaricator
-                        exstiterit, trecentas auri optimi componat libras, medietatem kamerae
-                        nostrae et medietatem praefatae Parmensi aecclesiae et iam dicto Sigefredo
-                        episcopo eiusque successoribus qui pro tempore fuerint. Quod autem ut verius
-                        credatur diligentiusque ab omnibus observetur, manu propria roborantes de
-                        anulo nostro subter annotari iussimus. Signum domni (M) Hugonis
-                        gloriosissimi regis. Petrus notarius iussu regio recognovi et subscripsi
-                        (SR) (SI D). Data XV kal. Octub., anno dominicae incarnationis DCCCCXXVIIII,
-                        re[gni] ve[ro dom]ni Hugonis invictissimi regis quarto, indic. Tercia. Actum
-                        Parme. In Dei nomine feliciter, amen.</ab>
+                        exstiterit, <rs key="#Penalty">trecentas auri optimi componat libras</rs>,
+                            <rs key="#Camera_regis">medietatem kamerae nostrae</rs> et <rs
+                            key="#Camera_of_other_public_authorities">medietatem praefatae Parmensi
+                            aecclesiae</rs> et iam dicto Sigefredo episcopo eiusque successoribus
+                        qui pro tempore fuerint. Quod autem ut verius credatur diligentiusque ab
+                        omnibus observetur, manu propria roborantes de anulo nostro subter annotari
+                        iussimus. Signum domni (M) Hugonis gloriosissimi regis. <persName
+                            key="#Notary"><name ref="Petrus">Petrus</name></persName>
+                        <rs key="#Notary">notarius</rs> iussu regio recognovi et subscripsi (SR) (SI
+                        D). Data XV kal. Octub., anno dominicae incarnationis DCCCCXXVIIII, re[gni]
+                        ve[ro dom]ni Hugonis invictissimi regis quarto, indic. Tercia. Actum
+                            <placeName ref="#places/53">Parme</placeName>. In Dei nomine feliciter,
+                        amen.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
