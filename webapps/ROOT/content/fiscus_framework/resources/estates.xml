@@ -3123,6 +3123,8 @@
                         <link type="estates" corresp="#estates/808" subtype="isMadeOf"/>
                         <link type="estates" corresp="#estates/813" subtype="isMadeOf"/>
                         <link type="estates" corresp="#estates/814" subtype="isMadeOf"/>
+                        <link type="estates" corresp="#estates/815" subtype="isMadeOf"/>
+                        <link type="estates" corresp="#estates/816" subtype="isMadeOf"/>
                     </place>
                     <place>
                         <geogName>Clivus; <foreign>fundus</foreign></geogName>
@@ -3199,6 +3201,24 @@
                         <geogName type="other">Carcariola</geogName>
                         <idno>estates/814</idno>
                         <note>De Francesco 2004: 236. </note>
+                        <link type="people" corresp="#people/71" subtype="link"/>
+                        <link type="estates" corresp="#estates/805" subtype="isPartOf"/>
+                    </place>
+                    <place>
+                        <geogName>Pompilianus; <foreign>fundus</foreign></geogName>
+                        <geogName type="other"/>
+                        <idno>estates/815</idno>
+                        <note>De Francesco 2004: 236. Si tratta forse dello stesso fondo Πομπινιάνον
+                            menzionato in un'iscrizione greca tramandata dal Regesto Sublacense
+                            (ivi: 158-159). </note>
+                        <link type="people" corresp="#people/71" subtype="link"/>
+                        <link type="estates" corresp="#estates/805" subtype="isPartOf"/>
+                    </place>
+                    <place>
+                        <geogName>Paganus; <foreign>fundus</foreign></geogName>
+                        <geogName type="other"/>
+                        <idno>estates/816</idno>
+                        <note>De Francesco 2004: 158.</note>
                         <link type="people" corresp="#people/71" subtype="link"/>
                         <link type="estates" corresp="#estates/805" subtype="isPartOf"/>
                     </place>
