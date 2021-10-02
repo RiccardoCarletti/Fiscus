@@ -82,9 +82,10 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>Dum in <placeName key="#Palatium" ref="#places/110">Beneventano</placeName>
+                    <ab>Dum in <placeName key="#Palatium #Assembly" ref="#places/110"
+                            >Beneventano</placeName>
                         <rs key="#Palatium">palacio</rs> stetissem ego <persName
-                            key="#Gastaldus/vicegastaldus #Judge" ref="#people/1928"
+                            key="#Gastaldus/vicegastaldus #Judge #fidelisOf" ref="#people/1928"
                             >Lodoicus</persName>
                         <rs key="#Gastaldus/vicegastaldus">castaldeus</rs> et <rs key="#Judge"
                             >iudex</rs>, in presencia domne <persName key="#Queen" ref="#people/91"
@@ -101,31 +102,41 @@
                         <rs key="#Other_clerics">clericus</rs>, filius idem <persName><name
                                 ref="Bernardus">Bernardi</name></persName>, malo ordine introisset
                         in <rs key="#Monasteries">monasterio</rs>
-                        <orgName key="#Monasteries #Landed_possessions">Sancte Marie</orgName>, que
-                        vocatur ad Castanietum, propinquo <rs key="#Castle">castro</rs>
-                        <placeName key="#Castle #Landed_possessions">Piniano</placeName>, et contra
-                        racionem illud teneret cum <rs key="#Landed_possessions">terris</rs> cultis
-                        et incultis, in qua edificata est, querebat cum eo exinde facere finem. ipsa
-                        denique predicta domina Ageltruda augusta, et domnus Radelchis iusserunt
-                        eisdem Bernardo clerico, et iudici, ut ipse iudex pro parte palacii, et ipse
-                        Bernardus a parte sua, eo quod ipsum monasterium ipse tenere videretur, de
-                        hac re responderet abbati; et mihi qui supra Lodoici iudici fideli suo
-                        preceperat, ut auditis eorum querimoniis iustam legis racionem inter eos
-                        definiremus. Egresso quoque me ab eorum presencia continuo advocavi mecum
-                        interesse <persName key="#Gastaldus/vicegastaldus">Telbertum</persName>
+                        <orgName key="#Monasteries #Landed_possessions"
+                            ref="#juridical_persons/1908">Sancte Marie</orgName>, que vocatur ad
+                        Castanietum, propinquo <rs key="#Castle">castro</rs>
+                        <placeName key="#Castle #Landed_possessions" ref="#places/2321"
+                            >Piniano</placeName>, et contra racionem illud teneret cum <rs
+                            key="#Landed_possessions">terris</rs> cultis et incultis, in qua
+                        edificata est, querebat cum eo exinde facere finem. Ipsa denique predicta
+                        domina Ageltruda augusta, et domnus Radelchis iusserunt eisdem Bernardo
+                        clerico, et iudici, ut ipse iudex pro parte palacii, et ipse Bernardus a
+                        parte sua, eo quod ipsum monasterium ipse tenere videretur, de hac re
+                        responderet abbati; et mihi qui supra Lodoici iudici <rs key="#fidelisOf"
+                            >fideli</rs> suo preceperat, ut auditis eorum querimoniis iustam legis
+                        racionem inter eos definiremus. Egresso quoque me ab eorum presencia
+                        continuo advocavi mecum interesse <persName key="#Gastaldus/vicegastaldus"
+                                ><name ref="Telbertus">Telbertum</name></persName>
                         <rs key="#Gastaldus/vicegastaldus">castaldeum</rs>, <persName
-                            key="#Gastaldus/vicegastaldus #Judge">Otilonem</persName>
+                            key="#Gastaldus/vicegastaldus #Judge"><name ref="Otilo"
+                            >Otilonem</name></persName>
                         <rs key="#Gastaldus/vicegastaldus">castaldeum</rs> et <rs key="#Judge"
-                            >iudex</rs>, <persName>Gaiderisi</persName> filius
-                            <persName>Bernardi</persName>, <persName>Grimoaldus</persName> filius
-                            <persName>Ratonis</persName>, <persName>Zottone</persName> filius
-                            <persName>Claffonis</persName>, <persName>Potefrit</persName> filius
-                            <persName>Roffrit</persName>, <persName>Audoaldus</persName> filius
-                            <persName>Trasari</persName>, et <persName>Radelpoto</persName> filius
-                        predicti <persName>Roffrit</persName>, quatenus et ipsi in hac definicione
-                        pro firmissima securitate per partes assisteret. Interea superius memoratus
-                        Maio abbas, una cum <persName key="#Advocatus_of_other_public_authorities"
-                            >Adelgardo</persName> suo <rs
+                            >iudex</rs>, <persName><name ref="Gaideris">Gaiderisi</name></persName>
+                        filius <persName><name ref="Bernardus">Bernardi</name></persName>,
+                                <persName><name ref="Grimoaldus">Grimoaldus</name></persName> filius
+                                <persName><name ref="Rato">Ratonis</name></persName>,
+                                <persName><name ref="Zotto">Zottone</name></persName> filius
+                                <persName><name ref="Claffo">Claffonis</name></persName>,
+                                <persName><name ref="Potelfrit">Potefrit</name></persName> filius
+                                <persName><name ref="Roffrit">Roffrit</name></persName>,
+                                <persName><name ref="Audoaldus">Audoaldus</name></persName> filius
+                                <persName><name ref="Trasarius">Trasari</name></persName>, et
+                                <persName><name ref="Radelpotus">Radelpoto</name></persName> filius
+                        predicti <persName><name ref="Roffrit">Roffrit</name></persName>, quatenus
+                        et ipsi in hac definicione pro firmissima securitate per partes <rs
+                            key="#Assembly">assisteret</rs>. Interea superius memoratus Maio abbas,
+                        una cum <persName key="#Advocatus_of_other_public_authorities"><name
+                                ref="Adelgardus">Adelgardo</name></persName> suo <rs
                             key="#Advocatus_of_other_public_authorities">abbocatore</rs>
                         suprascripto causare ceperat cum eodem Bernardo, quod ipse contra racionem
                         introisset, ut dictum est, in predicto monasterio Sancte Marie, et res atque
