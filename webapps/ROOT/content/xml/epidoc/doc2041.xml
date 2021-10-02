@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Roma, Biblioteca Vaticana, Chronicon Vultumense, Cod. Barb. lat. 2724,
+                    166v-167v (<foreign>Chronicon Vulturnense</foreign>, II, n. 94)</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc2041</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Offersio/donatio</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">Yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0955-01">
+                                <note type="displayed_date">0955 January</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Benevento</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-09-14" who="gzornetta">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab></ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>In nomine Domini. Anno quadragesimo secundo regnante domno Constantino magno
+                    imperatore, et .xvI°. anno principatus domni Landulfi gloriosi principis, et
+                    .xiI°. anno principatus domni Pandulfi filii eius, mense ianuario, .xiiIa.
+                    indiccione. Ideoque nos Alfanus, et Aldemari, germani filii quondam Aldemari,
+                    qui fuit comes, et Audoaldus castaldeus, filius quondam Aldemari, et Landulfus
+                    castaldeus, filius bone memorie Potoni, sicut nobis aptum et congruum est, bona
+                    etenim nostra voluntate, et pro firma stabilitate interesse idoneos subscriptos
+                    testes, per hanc quoque cartulam unanimiter et pari consensu donavimus tibi
+                    Leoni, venerabili abbati monasterii Sancti Vincencii, situm super fluvium
+                    Vulturnum, integram ipsam curtem nostram de finibus Benafro propinquo ecclesia
+                    Sancti Nycandri, ubi dicitur Preta Lata, cum omnibus suis pertinenciis, que fuit
+                    domnica, quam quidam Aldemari thesaurarius bisavius noster, concessam habuit a
+                    parte sacri palacii, per preceptum ab anulis bonorum preceptorum utraque parte
+                    sigillatum, cum omnia et in omnibus ad eandem curtem pertinentibus. in primis
+                    ipsum ca[m]pum qui dicitur de Balzemundu, habet fines: de uno latere [.....],
+                    unde per tempus aqua decurrit, que dicitur Fermina; alio latere fossatu; unum
+                    caput tenet in silice; aliud caput in villa, que nominatur Cacafolline; alium
+                    campum ibique, habet fines: de una parte silice, que venit de Benafro, et pergit
+                    circa Sanctam Cristinam; alia parte via, que venit da Benafro, et pergit ad
+                    Sanctam Mariam; tercia parte in ipsa Fermina; quarta parte terra predicti vestri
+                    monasterii. infra hos vero fines exinde nec nobis, nec quarte partis uxorum
+                    nostrorum, nec cuique alteri habendum nullam reservavimus, sed in integrum
+                    eandem curtem cum omnibus suis pertinenciis et territoriis ad predictam curtem
+                    pertinentibus in finibus Benafro, una cum inferius et superius, et cum viis et
+                    anditis suis, et cum omnibus suis pertinenciis, tibi iam dicto Leoni abbati ad
+                    partem eiusdem monasterii, eiusque rectoribus donavimus habendum et possidendum.
+                    unde pro confirmandam hanc nostram donacionem recepimus a te, nomine Leone
+                    abbate, iuxta legem launegild camiso uno. similiter donavimus tibi, ad partem
+                    eiusdem vestri monasterii, supradictum preceptum concessionis ex ipsa curte, per
+                    supra susceptum launegild, ea racione, ut amodo et semper tu iam dictus Leo
+                    abbas, et pars eiusdem vestri monasterii eandem nostram donacionem habere et
+                    possidere valeatis securiter, inde faciendum vos et posteri vestri omnia que
+                    volueritis, sine contradiccione nostra et de nostris heredibus, et sine
+                    cuiuscumque requisicione. quod si aliquo tempore nos vel nostri heredes tecum,
+                    aut cum posteris tuis, seu cum parte eiusdem monasterii, per qualicumque inventa
+                    occasione causare aut contendere quesierimus de supradicta nostra donacione,
+                    volendo illam de vestra tollere proprietate et dominacione, vel si illud
+                    retornare aut removere quesierimus, centum solidos bizanteos tibi Leoni abbati,
+                    et ad posteros tuos, vel ad partem eiusdem monasterii pena nos, et nostros
+                    heredes componere obligamus, et in antea omni tempore per invitis taciti
+                    maneamus, et hec cartula omni tempore firma et stabilis permaneat. Quod te
+                    Sichelpotum clericum et notarium taliter scribere rogavimus. Actum in Benevento,
+                    feliciter feliciter feliciter.</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p>CV II, n. 94, pp. 69-70</p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
