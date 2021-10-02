@@ -5075,6 +5075,18 @@
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
                             subtype="link"/>
                     </person>
+                    <person>
+                        <persName>Bernardus (897) filius Bernardi</persName>
+                        <persName type="other"/>
+                        <idno>people/1933</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1900"
+                            subtype="enmityFor"/>
+                        <link type="places" corresp="#places/2321" subtype="hasConnectionWith"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/2321"
+                            subtype="link"/>
+                        <link type="people" corresp="#people/1926" subtype="enmityFor"/>
+                    </person>
                 </listPerson>
             </listPerson>
         </body>
