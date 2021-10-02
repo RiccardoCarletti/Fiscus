@@ -5007,6 +5007,8 @@
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
                             subtype="link"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1908"
+                            subtype="link"/>
                     </person>
                     <person>
                         <persName>Radelchis (881-884; 887-900; princeps gentis
@@ -5029,9 +5031,49 @@
                         <note/>
                         <link type="people" corresp="#people/1927" subtype="agentFor"/>
                         <link type="people" corresp="#people/91" subtype="link"/>
-                        <link type="juridical_persons" corresp="#juridical_persons/1900"
+                        <link type="juridical_persons" corresp="#juridical_persons/1908"
                             subtype="link"/>
                         <link type="places" corresp="#places/110" subtype="hasConnectionWith"/>
+                    </person>
+                    <person>
+                        <persName>Bernardus (897); missus</persName>
+                        <persName type="other"/>
+                        <idno>people/1929</idno>
+                        <note/>
+                        <link type="people" corresp="#people/1927" subtype="agentFor"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1908"
+                            subtype="link"/>
+                    </person>
+                    <person>
+                        <persName>Heroicus (897); missus</persName>
+                        <persName type="other"/>
+                        <idno>people/1930</idno>
+                        <note/>
+                        <link type="people" corresp="#people/1927" subtype="agentFor"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1908"
+                            subtype="link"/>
+                    </person>
+                    <person>
+                        <persName>Gisulfus (689-706; dux gentis Langobardorum)</persName>
+                        <persName type="other">Gisulfo I di Benevento</persName>
+                        <idno>people/1931</idno>
+                        <note/>
+                        <link type="places" corresp="#places/110" subtype="hasConnectionWith"/>
+                        <link type="people" corresp="#people/1932"
+                            subtype="legallyRecognisedUnionWith"/>
+                    </person>
+                    <person>
+                        <persName>Theuderada (663-705?); ducissa</persName>
+                        <persName type="other">Theodorada; Teodorada</persName>
+                        <idno>people/1932</idno>
+                        <note/>
+                        <link type="people" corresp="#people/1931"
+                            subtype="legallyRecognisedUnionWith"/>
+                        <link type="places" corresp="#places/110" subtype="hasConnectionWith"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1908"
+                            subtype="link"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1900"
+                            subtype="link"/>
                     </person>
                 </listPerson>
             </listPerson>
