@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Roma, Biblioteca Vaticana, Chronicon Vultumense, Cod. Barb. lat. 2724,
+                    153r-154r (<foreign>Chronicon Vulturnense</foreign>, II, n. 86)</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc2037</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">Yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0916-07-10">
+                                <note type="displayed_date">916 July 10</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Capua</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-09-05" who="gzornetta">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>IN nomine domini salvatoris nostri Iesu Christi Dei eterni. Landulfus divina
+                        ordinante providencia, et Atenulfus Longobardorum gentis antipatus patricius
+                        et patricius. Cum antipatricii excellencia peticione dilecti sui, iuste
+                        petenti clementer favet. quapropter noverit omnium fidelium nostrorum
+                        presencium scilicet ac futurorum sagacitas, Maionem dilectissimum nostrum
+                        obsecrasse nostram clemenciam, quatenus concederemus in monasterio Beati
+                        Vincencii levite, et martyris domini nostri Iesu Christi, ubi statim
+                        Godelpertus abbas regimen tenere videtur, quod edificatum est super Vulturni
+                        fluminis fontem, omnes res et possessiones iam fati cenobii, que esse
+                        videntur in finibus Benafranis, sicuti per precepta antecessorum nostrorum,
+                        videlicet imperatorum, regum, et principum, ac ducum, nec non offerciones,
+                        et scripciones quorumdam p. 38 Deo devotorum concessas, et confirmatas ante
+                        nos. cuius peticioni ob reverenciam iam dicti abbatis, omniumque venerabilum
+                        fratrum, qui in iam fato cenobio degunt, libenter assensum prebuimus, rata
+                        et congrua nobis suggerentes, pro salutis remedium anime nostre, hos nostre
+                        munificencie apices exinde fieri iussimus, per quos omnino concedimus, et
+                        confirmamus, et perpetualiter omnibus temporibus possidendum in iam fato
+                        monasterio Sancti Vincencii Christi martyris ipsas res in prefato loco
+                        Benafrano (per hos videlicet fines incipiente a fluvio, qui dicitur Sangro;
+                        inde per montes puplicos, usque in montem, qui dicitur Azze, et sic
+                        revolvente monte eodem, usque in fluvio, qui dicitur Melfa; et quemammodum
+                        decurrit ipsa Melfa, usque ubi coniungit se cum parvo fluvio, qui dicitur
+                        Mellarinus, et ab&lt;h>inc in vertice montis, qui dicitur Balbola, et sic
+                        per cilium eiusdem montis, usque in montem Archanum, et montem Marthe,
+                        montemque Casale, eosque videlicet montes extrinsecus circumdantes, in ortum
+                        usque riaginis, qui nominatur Ravennola; et a capite eiusdem riaginis iuxta
+                        montes puplicos venientes, usque in montem, qui est super Benafranam urbem;
+                        eodem vero revolvente monte, usque in cilium montis, qui est super terram,
+                        que vocatur Arcora, que est hereditas ecclesie Sancte Dei genitricis Marie,
+                        que Olivetum vocatur, subiecta prefati cenobii; et ecclesie similiter
+                        hereditas Sancte Christine cum inclitis terris suis, et cum reliquis finibus
+                        ipsa hereditas circumdata usque in fluvio Vulturno; nam iterum ex alia parte
+                        incipiente a primo fine per iam dicto fluvio Sangro, ipsoque relinquente
+                        fluvio quomodo decernit apparu colle, et pergens usque in rivum, qui dicitur
+                        Foruli; eodemque decurrente rivio usque in fluvio Vantra, et quomodo
+                        decurrit ipsum flumen in alio flumine qui p. 39 Vulturnus dicitur, et
+                        quemammodum decurrit ipsum flumen iuxta terras eiusdem monasterii usque in
+                        predictis finibus et terris ecclesie Sancte Marie), insuper concedimus et
+                        confirmamus in prefato cenobio omnia precepta antecessorum nostrorum,
+                        videlicet Karoli, Ludovici, atque Lotharii, ducum, et principum, seu omnes
+                        legales scripciones, eo scilicet ordine hec omnia in prefato monasterio
+                        concedimus, quo superius legitur, habendi et possidendi sine ullius comitis,
+                        castaldei vel iudicis, aut cuiuscumque magne seu parve persone
+                        contradiccione, vel inquietudine, sed quieto ordine habeat, et possideat
+                        omnia, que prelegitur, iam dictum monasterium in eo ordine, sicut superius
+                        legitur in perpetuum nullo aliquando contrario ingerente. Ut autem hec
+                        nostra concessio et confirmacio ab omnibus verius observetur, manu propria
+                        scripsimus, et anulo nostro subter iussimus sigillari. Data .VI°. idus
+                        iulias, anno .XVI°. principatus domni Landulfi, et .VII°. anno principatus
+                        domni Atenulfi, indiccione .IIII.a. Actum in Capua.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>CV II, n. 86, pp. 37-39</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
