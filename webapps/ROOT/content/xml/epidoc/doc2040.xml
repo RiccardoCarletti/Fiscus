@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title><title>Roma, Biblioteca Vaticana, Chronicon Vultumense, Cod. Barb. lat. 2724,
+                        173v (<foreign>Chronicon Vulturnense</foreign>, II, n. 97)</title></title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc2040</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">-Placitum/iudicatum</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">Uncertain</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0950-01">
+                                <note type="displayed_date">950 January</note>
+                                <note type="dating_elements">Anno dell'impero (d'Oriente)</note>
+                                <note type="topical_date">Benevento</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-09-11" who="gzornetta">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine Domini. Anno tricesimo septimo regnante domno Constantino magno
+                        imperatore, et undecimo anno principatus domni Landolfi gloriosi principis,
+                        et septimo anno principatus domni Pandolfi filio eius, mense ianuario,
+                        octava indiccione. Ideoque nos Iohannes, gracia Dei episcopus Sancte Sedis
+                        Beneventane, declaramus quia domnus Leo venerabilis abbas monasterii Sancti
+                        Vincencii, situs supra Vulturni fonte, venit Beneventum, ante superius
+                        dictus domnus Landolfus gloriosissima princeps causavit contra nos pro pars
+                        predicti nostri episcopii, et contra Alfanum gastaldeum pro pars sacri
+                        palacii, qui causam eiusdem sacri palacii peragebat de monasterio Domini
+                        Salvatoris, quod edificatum fuit in Alife, de quo dicebat ipse qui supra
+                        domnus Leo venerabilis abbas, ut predictum monasterium Domini Salvatoris
+                        liberum factum esset ab episcopo Beneventano, et palacio illum subdidisset
+                        in iam dicto suo monasterio Sancti Vincencii, ut talem dominacionem haberet
+                        ibi, quali&lt;ter> abbas debet habere in monasterio. Unde nos diximus verum
+                        non esset. et ille nobis guadiam de comprobandum talia, secundum legem per
+                        testes datam habuit, et positum mediatorem. sed dum ipse qui supra domnus
+                        Leo venerabilis abbas cum testes et sacramentales suos, pro pars iam dicti
+                        sui monasterii, secundum legem parati erant, volendo nobis complere, sicut
+                        guadiam nobis dedit, et positum mediatorem, ut diximus, nolentes nos
+                        testimonia et sacramenta ipsa ab eis recipere, per colloquia bonorum hominum
+                        venimus ad hanc convenienciam, ut semper qui supra domnus Leo venerabilis
+                        abbas et successores eius et pars iam dicti sui monasterii Sancti Vincencii
+                        potestatem et licenciam habeat in iam dicto monasterio Domini Salvatoris
+                        ponere, et ordinare monachum prepositum suum, sicut abbas debet ordinare, et
+                        sicut beatus Benedictus in sua regula instituit.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>CV II, n. 97, pp. 75-76</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
