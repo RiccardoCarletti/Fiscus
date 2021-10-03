@@ -9668,10 +9668,11 @@
                     <place>
                         <placeName>Calore; river (Benevento)</placeName>
                         <placeName type="other"/>
-                        <geogName type="coord"><geo>40.7799639, 15.0070339; 40.9294634, 15.0374419;
-                                41.0104433, 14.9591353; 41.0530092, 14.9566220; 41.2118913,
-                                14.6971433; 41.2223629, 14.6110865; 41.1836414, 14.4663928;
-                                41.1848215, 14.4626107; 41.127987, 14.783478</geo></geogName>
+                        <geogName type="coord"><geo style="line">40.7799639, 15.0070339; 40.9294634,
+                                15.0374419; 41.0104433, 14.9591353; 41.0530092, 14.9566220;
+                                41.2118913, 14.6971433; 41.2223629, 14.6110865; 41.1836414,
+                                14.4663928; 41.1848215, 14.4626107; 41.127987,
+                            14.783478</geo></geogName>
                         <idno>places/2315</idno>
                         <note/>
                         <link type="places" corresp="#places/110" subtype="isInVicinityOf"/>
@@ -9727,9 +9728,9 @@
                     <place>
                         <placeName>Caprafico; river (Caserta)</placeName>
                         <placeName type="other"/>
-                        <geogName type="coord"><geo>41.34661, 14.114427; 41.332804, 14.130525;
-                                41.357286, 14.160753; 41.389707, 14.179075; 41.400165, 14.117109;
-                                41.361395, 14.099819 </geo></geogName>
+                        <geogName type="coord"><geo style="line">41.34661, 14.114427; 41.332804,
+                                14.130525; 41.357286, 14.160753; 41.389707, 14.179075; 41.400165,
+                                14.117109; 41.361395, 14.099819 </geo></geogName>
                         <idno>places/2319</idno>
                         <note/>
                         <link type="places" corresp="#places/2319" subtype="isWithin"/>
@@ -9753,12 +9754,26 @@
                     <place>
                         <placeName>Sanctus Felix; <foreign>fracta</foreign> (Avellino)</placeName>
                         <placeName type="other"/>
-                        <geogName type="coord"><geo>40.983293, 14.999397; 40.981607, 14.985611;
-                                40.991453, 14.974864; 41.001346, 14.9954; 40.993913, 15.015898;
-                                40.980593, 15.005823 </geo></geogName>
+                        <geogName type="coord"><geo style="line">40.983293, 14.999397; 40.981607,
+                                14.985611; 40.991453, 14.974864; 41.001346, 14.9954; 40.993913,
+                                15.015898; 40.980593, 15.005823; 41.7762877, 13.9409342; 41.7574613,
+                                13.9889567; 41.7555292, 14.0669430; 41.7841569, 14.1078857;
+                                41.8551085, 14.1978956; 41.9250956, 14.2878811; 41.9730424,
+                                14.3674578; 42.1093886, 14.3653826; 42.1299402, 14.3796210;
+                                42.1964017, 14.5041103; 42.2360306, 14.5427656</geo></geogName>
                         <idno>places/2322</idno>
                         <note/>
                         <link type="places" corresp="#places/2301" subtype="isInVicinityOf"/>
+                    </place>
+                    <place>
+                        <placeName>Sangro; river</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo style="line">42.1169742, 14.0142390; 41.8149486,
+                                13.7898941; 41.7803703, 13.8292250; </geo></geogName>
+                        <idno>places/2323</idno>
+                        <note/>
+                        <link type="places" corresp="#places/2300" subtype="isInVicinityOf"/>
+                        <link type="estates" corresp="#estates/1901" subtype="isInVicinityOf"/>
                     </place>
                 </listPlace>
             </listPlace>
