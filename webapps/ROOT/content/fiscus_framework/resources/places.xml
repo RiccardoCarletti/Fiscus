@@ -9868,11 +9868,37 @@
                         <link type="estates" corresp="#estates/2312" subtype="isWithin"/>
                     </place>
                     <place>
-                        <placeName>ddd</placeName>
-                        <placeName type="other"/>
-                        <geogName type="coord"><geo/></geogName>
+                        <placeName>Triverno; river (Isernia)</placeName>
+                        <placeName type="other"><foreign>Tulibernum</foreign></placeName>
+                        <geogName type="coord"><geo style="line">41.5495394, 14.0989699; 41.5084336,
+                                14.0854408; 41.4943787, 14.1121496</geo></geogName>
                         <idno>places/2310</idno>
                         <note/>
+                    </place>
+                    <place>
+                        <placeName>Rava; river</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo style="line">41.464563, 14.045295; 41.467622,
+                                14.047806; 41.472182, 14.048121; 41.47641, 14.048854; 41.488491,
+                                14.063213; 41.506023, 14.06345; 41.511604, 14.05992; 41.51117,
+                                14.057052; 41.515586, 14.049268; 41.519567, 14.042538; 41.522108,
+                                14.03546; 41.519042, 14.025811; 41.522993,
+                            14.021175</geo></geogName>
+                        <idno>places/2331</idno>
+                        <note>Marazzi 2012: 25</note>
+                        <link type="places" corresp="#places/2311" subtype="isInVicinityOf"/>
+                    </place>
+                    <place>
+                        <placeName><foreign>terra Landoni</foreign> (Isernia)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo>41.440556, 14.00977; 41.424068, 14.072843;
+                                41.391472, 14.038811; 41.409388, 13.981601; 41.443687,
+                                13.967575</geo></geogName>
+                        <idno>places/2332</idno>
+                        <note/>
+                        <link type="places" corresp="#places/2300" subtype="isInVicinityOf"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1902"
+                            subtype="link"/>
                     </place>
                 </listPlace>
             </listPlace>
