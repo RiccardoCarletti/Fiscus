@@ -83,18 +83,20 @@
             <div type="edition">
                 <div type="textpart">
                     <ab>In nomine domini nostri Iesu Christi Dei eterni. <date>Quintodecimo anno
-                            principatus domini nostri <persName key="#Princeps">Landulfi</persName>
-                            gloriosi <rs key="#Princeps">principis</rs>, et duodecimo anno
-                            principatus domini <persName key="#Princeps">Pandulfi</persName> eius
-                            filii, mense novembris, .XIIIa. indiccione</date>. Dum nos <persName
-                            key="#Judge">Arechisi</persName>, <rs key="#Judge">iudex</rs>
+                            principatus domini nostri <persName key="#Princeps" ref="#people/156"
+                                >Landulfi</persName> gloriosi <rs key="#Princeps">principis</rs>, et
+                            duodecimo anno principatus domini <persName key="#Princeps"
+                                ref="#people/157">Pandulfi</persName> eius filii, mense novembris,
+                            .XIIIa. indiccione</date>. Dum nos <persName key="#Judge"
+                            >Arechisi</persName>, <rs key="#Judge">iudex</rs>
                         <rs key="#Cities">civitatis</rs>
                         <placeName key="#Cities #Assembly" ref="#places/173">Capuane</placeName>,
                         essemus inter ceteros ad iudicandum et definiendum causantibus, die autem
                         quadam stantibus nobis ante superius dictum domnum Landulfum gloriosum
                         principem, et cum aliis <rs key="#Assembly">nobilioribus viris</rs>,
                         venerunt ante eundem gloriosum principem domnus <persName key="#Abbots"
-                            >Leo</persName>, venerabilis <rs key="#Abbots">abbas</rs>
+                            ref="#people/1939">Leo</persName>, venerabilis <rs key="#Abbots"
+                            >abbas</rs>
                         <rs key="#Monasteries #Abbots">monasterii</rs>
                         <orgName ref="#juridical_persons/1900" key="#Monasteries">Sancti
                             Vincencii</orgName>, situm super <placeName key="#Rivers"
@@ -115,22 +117,26 @@
                             <placeName key="#Churches" ref="#places/2330">Olivetum</placeName>, et
                         de <rs key="#Landed_possessions">terris</rs> pertinentibus predicto
                         monasterio, que esse videntur in nominatis locis. et dum coniuncti essent,
-                        tunc supradictus domnus Leo abbas, erga secum habendo Hercembertum notarium
-                        abbocatorem sui monasterii, contra iam dictum Paldefrit comitem causare
-                        cepit dicendo, ut ipse Paldefrit comes teneret terras predicti sui
-                        monasterii, que esse videntur in nominatis locis. inde ab eo querebat audire
-                        responsum, et, secundum legem, cum eo exinde facere finem, unde ipse
-                        Paldefrit comes dixerat, ut nesciret terras ipsas, de qua per iudicium
-                        gloriosi principis vuadiati fuerunt tali tenore, ut amborum partes pergerent
-                        super ipsas terras, et facerent inter se exinde, secundum legem, finem. cum
-                        quibus nos qui suprascriptus Arichis iudex, una cum eis pariter perreximus
-                        super iam dictas terras, cum quibus et nobiscum venerunt Paulus diaconus et
-                        monachus, Adelpertus presbiter et monachus, et Grimoaldus presbiter et
-                        monachus, et monstraverunt eidem Paldefrit comiti terras, sicut cum predicto
-                        domno Leone abbate vuadiatus fuerat per hos fines et mensuras. hoc est ipsa
-                        terra, ubi ecclesia Sancti Quiri[ci] edificata est, et monte uno se tenente,
-                        ubi nominatur Morcanu, qui habet fines eadem terra: ab una parte incipiente
-                        a fluvio Vulturno circa terram nominati monasterii, que dicitur silva
+                        tunc supradictus domnus Leo abbas, erga secum habendo <persName
+                            key="#Notary #Advocatus_of_other_public_authorities" ref="#people/1941"
+                            >Hercembertum</persName>
+                        <rs key="#Notary">notarium</rs>
+                        <rs key="#Advocatus_of_other_public_authorities">abbocatorem</rs> sui
+                        monasterii, contra iam dictum Paldefrit comitem causare cepit dicendo, ut
+                        ipse Paldefrit comes teneret terras predicti sui monasterii, que esse
+                        videntur in nominatis locis. inde ab eo querebat audire responsum, et,
+                        secundum legem, cum eo exinde facere finem, unde ipse Paldefrit comes
+                        dixerat, ut nesciret terras ipsas, de qua per iudicium gloriosi principis
+                        vuadiati fuerunt tali tenore, ut amborum partes pergerent super ipsas
+                        terras, et facerent inter se exinde, secundum legem, finem. cum quibus nos
+                        qui suprascriptus Arichis iudex, una cum eis pariter perreximus super iam
+                        dictas terras, cum quibus et nobiscum venerunt Paulus diaconus et monachus,
+                        Adelpertus presbiter et monachus, et Grimoaldus presbiter et monachus, et
+                        monstraverunt eidem Paldefrit comiti terras, sicut cum predicto domno Leone
+                        abbate vuadiatus fuerat per hos fines et mensuras. hoc est ipsa terra, ubi
+                        ecclesia Sancti Quiri[ci] edificata est, et monte uno se tenente, ubi
+                        nominatur Morcanu, qui habet fines eadem terra: ab una parte incipiente a
+                        fluvio Vulturno circa terram nominati monasterii, que dicitur silva
                         Cicerana, usque in via Francisca, et aliquantum revolvente circa eadem via;
                         et deinde incipiente desuper eadem via limite in sursum usque in via, que
                         fuit silice; deinde incipiente super ipsa via, que fuit silice in sursum per
@@ -232,10 +238,8 @@
                         perpetuum ea omnia, qualiter superius gesta sunt, quam et pro securitate
                         predicti monasterii Sancti Vincencii, et de eius abbatibus, et rectoribus
                         hunc emisimus <rs key="#Placitum/iudicatum">iudicatum</rs>, quod tibi
-                            <persName key="#Placitum/iudicatum"><name ref="Erchempertus"
-                                >Ercemberti</name></persName>
-                        <rs key="#Notary">notario</rs>, qui interfuisti, scribere demandavimus.
-                        [.....] subscripsi.</ab>
+                        Ercemberti notario, qui interfuisti, scribere demandavimus. [.....]
+                        subscripsi.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
