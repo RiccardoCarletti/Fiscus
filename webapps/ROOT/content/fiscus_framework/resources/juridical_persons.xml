@@ -793,7 +793,7 @@
                     <orgName type="other"/>
                     <idno>juridical_persons/130</idno>
                     <note/>
-                    <link type="places" corresp="#places/315" subtype="hasConnectionWith"/>
+                    <link type="places" corresp="#places/315" subtype="isWithin"/>
                     <link type="places" corresp="#places/317" subtype="hasConnectionWith"/>
                 </org>     
                 <org>
@@ -3297,7 +3297,7 @@
                     </org>
                     <org>
                         <orgName>Sancta Maria de Oliveto; ecclesia (Isernia)</orgName>
-                        <orgName type="other"/>
+                        <orgName type="other">Sancta Maria ad Olivetum</orgName>
                         <idno>juridical_persons/1904</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
@@ -3377,6 +3377,41 @@
                         <link type="people" corresp="#people/305" subtype="link"/>
                         <link type="people" corresp="#people/154" subtype="link"/>
                         <link type="people" corresp="#people/1938" subtype="link"/>
+                    </org>
+                    <org>
+                        <orgName>Sanctus Quiricus <foreign>in Morcano</foreign>; ecclesia
+                            (Isernia)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/1911</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1900"
+                            subtype="link"/>
+                        <link type="places" corresp="#places/609" subtype="isInVicinityOf"/>
+                        <link type="estates" corresp="#estates/1900" subtype="isInVicinityOf"/>
+                        <link type="places" corresp="#places/2310" subtype="isInVicinityOf"/>
+                    </org>
+                    <org>
+                        <orgName>Sanctus Salvatoris; monasterium (Alife; Caserta)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/1912</idno>
+                        <note/>
+                        <link type="places" corresp="#places/112" subtype="isWithin"/>
+                    </org>
+                    <org>
+                        <orgName>Sancta Maria; episcopium (Benevento)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/1913</idno>
+                        <note/>
+                        <link type="places" corresp="#places/110" subtype="isWithin"/>
+                    </org>
+                    <org>
+                        <orgName>Sanctus Nycandrus; ecclesia (Isernia)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/1914</idno>
+                        <note/>
+                        <link type="places" corresp="#places/2300" subtype="isInVicinityOf"/>
+                        <link type="estates" corresp="#estates/1901" subtype="isWithin"/>
+                        <link type="places" corresp="#places/2333" subtype="isWithin"/>
                     </org>
                 </listOrg>
             </listOrg>
