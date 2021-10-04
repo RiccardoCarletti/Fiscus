@@ -34,7 +34,7 @@
                             <rs type="text_type" ref="#">-Placitum/iudicatum</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property">Uncertain</rs>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -83,25 +83,28 @@
             <div type="edition">
                 <div type="textpart">
                     <ab>In nomine Domini. <date>Anno tricesimo sexto regnante domino Constantino
-                            magno imperatore, et decimo anno principatus domni Landulfi gloriosi
-                            principis, et anno sexto principatus domni Pandulfi filii eius, mense
-                            iulio, septima indiccione</date>. Memoratorium factum a me <persName
-                            key="#Abbots" ref="#people/1939">Leone</persName>,<rs key="#Abbots">
-                            abbate</rs>
+                            magno imperatore, et decimo anno principatus domni <persName
+                                key="#Princeps" ref="#people/156">Landulfi</persName> gloriosi <rs
+                                key="#Princeps">principis</rs>, et anno sexto principatus domni
+                                <persName key="#Princeps" ref="#people/157">Pandulfi</persName>
+                            filii eius, mense iulio, septima indiccione</date>. Memoratorium factum
+                        a me <persName key="#Abbots" ref="#people/1939">Leone</persName>,<rs
+                            key="#Abbots"> abbate</rs>
                         <rs key="#Monasteries">monasterii</rs>
                         <orgName ref="#juridical_persons/1900" key="#Monasteries #Abbots">Sancti
                             Vincencii</orgName>, et <persName
                             key="#Advocatus_of_other_public_authorities #Other_palatine_officer"
-                            >Adelferi</persName>
+                            ref="#people/1944">Adelferi</persName>
                         <rs key="#Other_palatine_officer">referendario</rs><rs
                             key="#Advocatus_of_other_public_authorities"> abbocatore</rs> meo de
                         hoc, quod in sacratissimo <placeName ref="#places/110" key="#Palatium"
                             >Beneventano</placeName>
                         <rs key="#Palatium">palacio</rs>, in presencia domni Landulfi
                         excellentissimi principis, ubi coram eo residebat domnus <persName
-                            key="#Bishops">Iohannes</persName>, <rs key="#Bishops">pontiphex</rs>
-                        Sancte Beneventane Sedis, atque coram eis astante <persName
-                            key="#Judge #Gastaldus/vicegastaldus">Raimelfrid</persName>
+                            key="#Bishops" ref="#people/1945">Iohannes</persName>, <rs
+                            key="#Bishops">pontiphex</rs>
+                        <orgName>Sancte Beneventane Sedis</orgName>, atque coram eis astante
+                            <persName key="#Judge #Gastaldus/vicegastaldus">Raimelfrid</persName>
                         <rs key="#Gastaldus/vicegastaldus">castaldeo</rs> et <rs key="#Judge"
                             >iudice</rs>, per iudicium supradicte potestatis vuadiatus sum cum
                             <persName key="#Gastaldus/vicegastaldus">Alfano</persName>
