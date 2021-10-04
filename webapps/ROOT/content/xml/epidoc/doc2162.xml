@@ -82,13 +82,19 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>In nomine domini nostri Iesu Christi regis aeterni. Hugo gracia Dei divina
-                        favente clemencia rex. Noverit omnium fidelium sancte Dei Ecclesiae
-                        nostrorumque presencium scilicet ac futurorum, qualiter Sigefredus
-                        venerabilis episcopus et dilectus consiliarius noster deprecatus est
+                    <ab>In nomine domini nostri Iesu Christi regis aeterni. <persName
+                            key="#Emperor/king" ref="#people/79">Hugo</persName> gracia Dei divina
+                        favente clemencia <rs key="#Emperor/king">rex</rs>. Noverit omnium fidelium
+                        sancte Dei Ecclesiae nostrorumque presencium scilicet ac futurorum, qualiter
+                            <persName key="#Intercessory #Consiliarius_regis #Bishops"
+                            ref="#people/1521">Sigefredus</persName> venerabilis <rs key="#Bishops"
+                            >episcopus</rs> et dilectus <rs key="#Consiliarius_regis"
+                            >consiliarius</rs> noster <rs key="#Intercessory">deprecatus est</rs>
                         celsitudinem nostram, ut ob mercedis nostre aucmentum fratres consistentes
-                        in ecclesia Beati Antonini martiris et Victoris confessoris Christi ut sub
-                        nostra inmunitatis tuicione ac defensionis corroboracione suscipisemus.
+                        in <rs key="#Churches">ecclesia</rs>
+                        <orgName key="#Immunity #Inquisitio #Churches" ref="#juridical_persons/253"
+                            >Beati Antonini martiris et Victoris confessoris Christi</orgName> ut
+                        sub nostra inmunitatis tuicione ac defensionis corroboracione suscipisemus.
                         Cuius peticionibus ob amorem domni nostri Iesu Christi libenti animo
                         assensum prebentes, decrevimus ita fieri, et iussimus eis hoc nostre
                         auctoritatis preceptum fieri, per quod decernimus atque iubemus, ut nullus
