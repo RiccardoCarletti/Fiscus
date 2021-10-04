@@ -34,7 +34,7 @@
                             <rs type="text_type" ref="#">-Placitum/iudicatum</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property">Uncertain</rs>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -82,31 +82,51 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>In nomine Domini. Anno tricesimo septimo regnante domno Constantino magno
-                        imperatore, et undecimo anno principatus domni Landolfi gloriosi principis,
-                        et septimo anno principatus domni Pandolfi filio eius, mense ianuario,
-                        octava indiccione. Ideoque nos Iohannes, gracia Dei episcopus Sancte Sedis
-                        Beneventane, declaramus quia domnus Leo venerabilis abbas monasterii Sancti
-                        Vincencii, situs supra Vulturni fonte, venit Beneventum, ante superius
-                        dictus domnus Landolfus gloriosissima princeps causavit contra nos pro pars
-                        predicti nostri episcopii, et contra Alfanum gastaldeum pro pars sacri
-                        palacii, qui causam eiusdem sacri palacii peragebat de monasterio Domini
-                        Salvatoris, quod edificatum fuit in Alife, de quo dicebat ipse qui supra
+                    <ab>In nomine Domini. <date>Anno tricesimo septimo regnante domno Constantino
+                            magno imperatore, et undecimo anno principatus domni <persName
+                                key="#Princeps" ref="#people/156">Landolfi</persName> gloriosi <rs
+                                key="#Princeps">principis</rs>, et septimo anno principatus domni
+                                <persName key="#Princeps" ref="#people/157">Pandolfi</persName>
+                            filio eius, mense ianuario, octava indiccione</date>. Ideoque nos
+                            <persName key="#Bishops" ref="#people/1945">Iohannes</persName>, gracia
+                        Dei <rs key="#Bishops">episcopus</rs>
+                        <orgName key="#Bishops" ref="#juridical_persons/1913">Sancte Sedis
+                            Beneventane</orgName>, declaramus quia domnus <persName key="#Abbots"
+                            ref="#people/1939">Leo</persName> venerabilis <rs key="#Abbots"
+                            >abbas</rs>
+                        <rs key="#Monasteries">monasterii</rs>
+                        <orgName ref="#juridical_persons/1900" key="#Monasteries #Abbots">Sancti
+                            Vincencii</orgName>, situs supra <placeName ref="#places/609"
+                                >Vulturni</placeName> fonte, venit <placeName key="#Assembly" ref="#places/110"
+                            >Beneventum</placeName>, ante superius dictus domnus Landolfus
+                        gloriosissima princeps causavit contra nos pro pars predicti nostri
+                        episcopii, et contra <persName key="#Gastaldus/vicegastaldus"
+                            ref="#people/1947">Alfanum</persName>
+                        <rs key="#Gastaldus/vicegastaldus">gastaldeum</rs> pro pars sacri palacii,
+                        qui causam eiusdem sacri palacii peragebat de <rs key="#Monasteries"
+                            >monasterio</rs>
+                        <orgName
+                            key="#Monasteries #Fiscal_property #Textual_occurrence #Mention #Function #Redistributive #Outflow #Allocation_to_churches"
+                            ref="juridical_persons/1912">Domini Salvatoris</orgName>, quod
+                        edificatum fuit in <placeName
+                            key="#Monasteries #Fiscal_property #Textual_occurrence #Mention #Function #Redistributive #Outflow #Allocation_to_churches"
+                            ref="#places/112">Alife</placeName>, de quo dicebat ipse qui supra
                         domnus Leo venerabilis abbas, ut predictum monasterium Domini Salvatoris
                         liberum factum esset ab episcopo Beneventano, et palacio illum subdidisset
                         in iam dicto suo monasterio Sancti Vincencii, ut talem dominacionem haberet
                         ibi, qualiter abbas debet habere in monasterio. Unde nos diximus verum non
-                        esset. et ille nobis guadiam de comprobandum talia, secundum legem per
+                        esset. Et ille nobis guadiam de comprobandum talia, secundum legem per
                         testes datam habuit, et positum mediatorem. sed dum ipse qui supra domnus
                         Leo venerabilis abbas cum testes et sacramentales suos, pro pars iam dicti
                         sui monasterii, secundum legem parati erant, volendo nobis complere, sicut
                         guadiam nobis dedit, et positum mediatorem, ut diximus, nolentes nos
                         testimonia et sacramenta ipsa ab eis recipere, per colloquia bonorum hominum
-                        venimus ad hanc convenienciam, ut semper qui supra domnus Leo venerabilis
-                        abbas et successores eius et pars iam dicti sui monasterii Sancti Vincencii
-                        potestatem et licenciam habeat in iam dicto monasterio Domini Salvatoris
-                        ponere, et ordinare monachum prepositum suum, sicut abbas debet ordinare, et
-                        sicut beatus Benedictus in sua regula instituit.</ab>
+                        venimus ad hanc <rs key="#Convenentia">convenienciam</rs>, ut semper qui
+                        supra domnus Leo venerabilis abbas et successores eius et pars iam dicti sui
+                        monasterii Sancti Vincencii potestatem et licenciam habeat in iam dicto
+                        monasterio Domini Salvatoris ponere, et ordinare monachum prepositum suum,
+                        sicut abbas debet ordinare, et sicut beatus Benedictus in sua regula
+                        instituit.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
