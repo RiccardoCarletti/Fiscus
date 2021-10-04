@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Archivio Capitolare di S. Antonino di Piacenza, pergamene antiche, G
+                    sotto</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc2162</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">Yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0931-04-17">
+                                <note type="displayed_date">931 april 17</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Pavia</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-02-08" who="Chiara Stedile">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine domini nostri Iesu Christi regis aeterni. Hugo gracia Dei divina
+                        favente clemencia rex. Noverit omnium fidelium sancte Dei Ecclesiae
+                        nostrorumque presencium scilicet ac futurorum, qualiter Sigefredus
+                        venerabilis episcopus et dilectus consiliarius noster deprecatus est
+                        celsitudinem nostram, ut ob mercedis nostre aucmentum fratres consistentes
+                        in ecclesia Beati Antonini martiris et Victoris confessoris Christi ut sub
+                        nostra inmunitatis tuicione ac defensionis corroboracione suscipisemus.
+                        Cuius peticionibus ob amorem domni nostri Iesu Christi libenti animo
+                        assensum prebentes, decrevimus ita fieri, et iussimus eis hoc nostre
+                        auctoritatis preceptum fieri, per quod decernimus atque iubemus, ut nullus
+                        iudex publicus vel quislibet potestatis persona ex rebus quibus nunc iustam
+                        et legalem vestituram habent, aut in antea Deo auxiliante eidem ecclesiae ad
+                        usum sacertotum legali ordine quocumque ingenio ibidem collata fuerint aut
+                        data per diversa loca regni nostri, seu quas divina pietas ibi augeri
+                        voluerit, aliquam ingerere pres[umat inquiet]udinem vel diminoracione; s[e]d
+                        nec in ecclesias, domos vel agros seu reliquam possessiones memorate
+                        ecclesiae vel in eorum sacerdotibus in quibuslibet locis aut territoriis vel
+                        infra diccionis regni nostri aut causas iudiciario more audiendas vel freda
+                        , teloneum, mansionaticas aut fideiussores tollendos seu homines ipsorum
+                        supradictorum [sace]rtotum tam ingenuos quamque et servos distringendos aut
+                        quasibet illicitas occasiones aut redibiciones ullas ingredi audeat; sed
+                        liceat eis cum iam dictis omnibus rebus eorumque propriis mobilibus et
+                        inmobilibus ac familiis sub nostra manere tuicione atque inmunitatis
+                        defensione. Precipimus quoque de suprascriptis rebus eorum inquisiciones,
+                        hubi eis contemcio orta fuerit, per veraces homines circummanentes ipsius
+                        loci fieri ad rei veritatem inveniendam. Confirmamus propterea ac nostra
+                        corroboracione preceptum a dive memorie Karolo augusto eidem ecclesie de
+                        quibuscumque rebus mobilibus et immobilibus collatum, sive cetera munimina
+                        et cartarum instrumenta a quibuscumque hominibus iuste et legaliter eidem
+                        ecclesiae et sacerdotibus seu cuncto ordini cleri illic Domino famulancium
+                        devoluta, iubentes ut munimina et cetera cartarum instrumenta iuste et
+                        legaliter facta, que ab igne cremata sunt vel perdita, ita hac nostra regali
+                        auctoritate restituantur atque solidentur, tamquam si ab ige umquam tacta
+                        vel damnata numquam fuissent, omnium hominum contradiccione remota. Si quis
+                        autem ausu temerario hoc infringere conatus fuerit, volumus ut triginta
+                        libra suari optimi eorum persolvat. Ut hec auctoritas largicionis nostre
+                        firmior habeatur et per futura tempora a fidelibus nostris verius credatur
+                        et diligencius observetur, [man]u propria nostra subter eam firmavimus et
+                        anuli nostri inpressione asignari iussimus. Signum domni (MF) Hugonis
+                        invictissimi regis. Petrus cancellarius ad vicem Gerlanni abbatis et
+                        archicancellarii recognovi et subscripsi. (SR) (SID). Data XV kal. Mad.,
+                        anno dominice incarnacionis DCCCCXXXI, regni vero domni Hugonis
+                        gloriosissimi regi quinto, indiccione quarta. Actum Papia. Feliciter.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>DD U, pp. 79-81, n° XXVII</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
