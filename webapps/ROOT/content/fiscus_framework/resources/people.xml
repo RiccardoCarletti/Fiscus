@@ -1224,6 +1224,9 @@
                     <link type="people" corresp="#people/398" subtype="fatherOf"/>
                     <link type="people" corresp="#people/400" subtype="fatherOf"/>
                     <link type="people" corresp="#people/401" subtype="cousinOf"/>
+                    <link type="people" corresp="#people/1955" subtype="benefactorOf"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/1900"
+                        subtype="benefactorOf"/>
                 </person>
                 <person>
                     <persName>Gisulfus (731-732; 742-751; dux gentis Langobardorum)</persName>
@@ -2655,6 +2658,9 @@
                     <link type="people" corresp="#people/399" subtype="uncleOf"/>
                     <link type="people" corresp="#people/398" subtype="uncleOf"/>
                     <link type="juridical_persons" corresp="#juridical_persons/84" subtype="link"/>
+                        <link type="people" corresp="#people/1955" subtype="benefactorOf"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1900"
+                            subtype="benefactorOf"/>
                 </person>
                 <person>
                     <persName>Lando (963) comes</persName>
@@ -5355,13 +5361,17 @@
                             subtype="agentFor"/>
                         <link type="people" corresp="#people/315" subtype="link"/>
                         <link type="people" corresp="#people/315" subtype="link"/>
-                        <link type="people" corresp="#people/1954" subtype="agentFor"/>
+                        <link type="people" corresp="#people/1955" subtype="agentFor"/>
                     </person>
                     <person>
                         <persName>Paulus (962-981; abbas Vulturnensis)</persName>
                         <persName type="other">Paolo II</persName>
-                        <idno>people/1954</idno>
+                        <idno>people/1955</idno>
                         <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1900"
+                            subtype="link"/>
+                        <link type="people" corresp="#people/157" subtype="gratitudeTo"/>
+                        <link type="people" corresp="#people/315" subtype="gratitudeTo"/>
                     </person>
                 </listPerson>
             </listPerson>
