@@ -1202,6 +1202,11 @@
                         subtype="benefactorOf"/>
                     <link type="juridical_persons"
                         corresp="juridical_persons/84" subtype="benefactorOf"/>
+                    <link type="juridical_persons"
+                        corresp="juridical_persons/1900" subtype="benefactorOf"/>
+                    <link type="people" corresp="#people/1955" subtype="benefactorOf"/>
+                    <link type="places" corresp="#places/701" subtype="hasConnectionWith"/>
+                    <link type="places" corresp="#places/173" subtype="hasConnectionWith"/>
                 </person>
                 <person>
                     <persName>Pandolfus (princeps; 944-981)</persName>
@@ -1213,6 +1218,7 @@
                     <link type="people" corresp="#people/315" subtype="brotherOf"/>
                     <link type="people" corresp="#people/397" subtype="husbandOf"/>
                     <link type="places" corresp="#places/110" subtype="hasConnectionWith"/>
+                    <link type="places" corresp="#places/173" subtype="hasConnectionWith"/>
                     <link type="places" subtype="hasConnectionWith" corresp="#places/173"/>
                     <link type="people" corresp="#people/159" subtype="professionalRelationship"/>
                     <link type="juridical_persons" corresp="#juridical_persons/97"
@@ -1227,6 +1233,8 @@
                     <link type="people" corresp="#people/1955" subtype="benefactorOf"/>
                     <link type="juridical_persons" corresp="#juridical_persons/1900"
                         subtype="benefactorOf"/>
+                    <link type="places" corresp="#places/701" subtype="hasConnectionWith"/>
+                    <link type="people" corresp="#people/1954" subtype="link"/>
                 </person>
                 <person>
                     <persName>Gisulfus (731-732; 742-751; dux gentis Langobardorum)</persName>
@@ -2661,6 +2669,8 @@
                         <link type="people" corresp="#people/1955" subtype="benefactorOf"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
                             subtype="benefactorOf"/>
+                    <link type="people" corresp="#people/1954" subtype="link"/>
+                    <link type="places" corresp="#places/173" subtype="hasConnectionWith"/>
                 </person>
                 <person>
                     <persName>Lando (963) comes</persName>
