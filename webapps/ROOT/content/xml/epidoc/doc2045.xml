@@ -31,7 +31,7 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#">--Episcopal diploma</rs>
+                            <rs type="text_type" ref="#">--Offersio/donatio</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
                             <rs type="fiscal_property">Yes</rs>
@@ -82,17 +82,30 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>In nomine domini nostri Iesu Christi Dei eterni. Vicesimo septimo anno
-                        principatus domni Pandolfi gloriosi principis, et secundo anno principatus
-                        domini nostri Landolfi eius filio, mense marcio, terdecima indiccione.
-                        Ideoque ego Ardericus, Domini gracia episcopus episcopatui sancte Serniense
-                        Sedis, divina inspiracione compulsus, pro mercede et redemcione anime mee,
-                        ut de peccatis meis requiem invenire valeam, per hanc cartulam offerui in
-                        monasterio Sancti Vincencii, situs supra Vulturni fontes, ubi domnus Paulus
-                        Domini gracia abbas regimen tenere videtur, hoc est integra una ecclesia
-                        mea, vocabulo Sancti Rosi, qui fundata esse videtur in finibus Sessa, loco
-                        ubi nominatur Monticella. insimul et offeruit in eodem monasterio terras
-                        meas modia .XX., ubi predicta ecclesia fundata est, circa ipsa silice, ad
+                    <ab>In nomine domini nostri Iesu Christi Dei eterni. <date>Vicesimo septimo anno
+                            principatus domni <persName key="#Princeps" ref="#people/157"
+                                >Pandolfi</persName> gloriosi <rs key="#Princeps">principis</rs>, et
+                            secundo anno principatus domini nostri <persName key="#Princeps"
+                                ref="#people/167">Landolfi</persName> eius filio, mense marcio,
+                            terdecima indiccione</date>. Ideoque ego <persName key="#Bishops"
+                            ref="#people/1954">Ardericus</persName>, Domini gracia <rs
+                            key="#Bishops">episcopus</rs>
+                        <rs key="Churches">episcopatui</rs>
+                        <orgName key="#Bishops #Churches" ref="#juridical_persons/1915">sancte
+                            Serniense Sedis</orgName>, divina inspiracione compulsus, pro mercede et
+                        redemcione anime mee, ut de peccatis meis requiem invenire valeam, per hanc
+                            <rs key="#Offersio/donatio">cartulam</rs> offerui in <rs
+                            key="Monasteries">monasterio</rs>
+                        <orgName key="Monasteries #Abbots" ref="#juridical_persons/1900">Sancti
+                            Vincencii</orgName>, situs supra <placeName ref="#places/609"
+                            >Vulturni</placeName> fontes, ubi domnus <persName key="#Abbots"
+                            ref="#people/1955">Paulus</persName> Domini gracia <rs key="#Abbots"
+                            >abbas</rs> regimen tenere videtur, hoc est integra una <rs
+                            key="#Churches">ecclesia</rs> mea, vocabulo <orgName key="#Churches"
+                            >Sancti Rosi</orgName>, qui fundata esse videtur in finibus Sessa, loco
+                        ubi nominatur <placeName key="#Churches">Monticella</placeName>. Insimul et
+                        offeruit in eodem monasterio <rs key="#Landed_possessions">terras</rs> meas
+                        modia .XX., ubi predicta ecclesia fundata est, circa ipsa silice, ad
                         essagoma per passos, ut abeant per singulum modium de ipsa terra
                         racionabiliter per singula terra in longitudine passus .XXX., et per singula
                         capita per traversum habentes similiter passus .XXX. ad mensuram de passu
