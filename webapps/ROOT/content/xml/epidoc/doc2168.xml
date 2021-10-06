@@ -4,7 +4,8 @@
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
-                <title/>
+                <title>Archivio Vaticano di Roma, Privilegia eccl. Parmen. XVII sec., f. 63 (Arm.
+                    LXI, t. 28)</title>
             </titleStmt>
             <editionStmt>
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
@@ -30,10 +31,10 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#"/>
-                            <rs type="record_source" ref="#"/>
-                            <rs type="document_tradition" ref="#"/>
-                            <rs type="fiscal_property"/>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -41,11 +42,11 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate notBefore="0001" notAfter="0001" when="0001"> 
-                                <note type="displayed_date"></note>
-                                <note type="dating_elements"></note>
-                                <note type="topical_date"></note>
-                                <note type="redaction_date"></note>
+                            <origDate when="0881-03-13">
+                                <note type="displayed_date">881 march 13</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Pavia</note>
+                                <note type="redaction_date">XVII sec.</note>
                             </origDate>
                             <origPlace/>
                         </origin>
@@ -73,7 +74,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2021-02-08">creation of record</change>
+                <change when="2021-02-08" who="Chiara Stedile">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -81,11 +82,46 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab></ab>
+                    <ab>In nomine sanctae et individuae trinitatis. Carolus divina favente clementia
+                        imperator augustus. Decet nos omni tempore fidelium sancte dei ecclesiae
+                        nostrorumque supplices postulationes piis auribus clementer suscipere,
+                        quatenus de fidelibus fideliores sibi augustalis munificentia efficiat,
+                        insuper et ab eterno remuneratore, qui omnibus abundat bonis, retributionem
+                        eternae remunerationis percipiat. Quapropter omnibus fidelibus sancte dei
+                        ecclesiae nostrisque presentibus scilicet et futuris notum fieri volumus,
+                        quia Vuibodus venerabilis sancte Parmensis ecclesiae episcopus fidelis
+                        noster per Liutuuardum summum consiliarium nostrum adiit clementiam nostram,
+                        ut abbatiam monasterii quod dicitur Mediana sitam in honorem beati Pauli
+                        apostoli doctoris gentium sibi sueque ecclesiae iure proprietario cum
+                        omnibus adiacentiis et pertinentiis earum in integrum perpetuis temporibus
+                        concederemus. Cuius precibus benignitatis nostre aurem accomodantes eiusque
+                        erga nos devotissimam fidelitatem intendentes iussimus ei sancteque Parmensi
+                        ecclesiae in honorem sancte dei genetricis semperque virginis Marie dedicate
+                        hoc imperialis nostre auctoritatis conscribi preceptum, per quod concedimus
+                        et donamus atque largimur prelibatam abbatiam Medianam in honorem beati
+                        Pauli dedicatam cum omnibus adiacentiis et pertinentiis suis, cortibus
+                        capellis et edifitiis earum, terris campis pratis vineis silvis servis et
+                        ancillis utriusque sexus mobilibus et immobilibus cum omni integritate eorum
+                        et cum universis que dici aut nominari possunt ad predictam abbatiam
+                        pertinentibus nostra imperiali concessione, ut habeat teneat fruatur
+                        perenniter tam ille quam et successores eius ad partem sepe nominate sue
+                        ecclesiae faciantque exinde quicquid secundum eorum arbitrium melius eis
+                        previsum fuerit. Quicunque vero contra hanc nostram donationem concessionem
+                        seu largitionem ire agere causari vel de potestate predicte Parmensis
+                        ecclesiae subtrahere quesiverit, centum libras auri optimi cogatur
+                        persolvere, medietatem palatio nostro et medietatem praefato Vuibodo
+                        episcopo suisque successoribus ad partem predicte Parmensis ecclesiae,
+                        quibus violentia inlata fuerit. Et ut hec nostre donationis concessionis
+                        largitionis auctoritas presentibus futurisque temporibus plenissimum vigorem
+                        obtineat et verius credatur diligentiusque ab omnibus observetur, manu
+                        propria subter firmavimus et bulla nostra insigniri iussimus. Signum (M.)
+                        domni Caroli imperatoris augusti. Inquirinus notarius advicem Liutuuardi
+                        archicancellarii recognovit. Data iii idus martii anno incarnationis domini
+                        &lt;...>; actum Ticino palatio; in dei nomine feliciter amen.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p/>
+                <p>MGH DD Ka III, pp. 56-57, n° 33</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>
