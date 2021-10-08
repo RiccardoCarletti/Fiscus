@@ -81,20 +81,25 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>(C.) In nomine sancte et individue trinitatis. <rs>Otto</rs> dei gratia
-                            <rs>imperator</rs> Romanorum et semper augustus. Quia ecclesiasticis
+                    <ab>(C.) In nomine sancte et individue trinitatis. <rs key="#Emperor/king"
+                                ><persName key="#Emperor/king" ref="#people/7">Otto</persName></rs>
+                        dei gratia imperator Romanorum et semper augustus. Quia ecclesiasticis
                         institutis proficimus, merito ecclesiasticis profectibus insistimus. Cunctis
                         igitur deo nobisque nunc et in posterum militantibus pateat, nos pro anime
-                        nostre futura recompensatione et <persName><name>Heriberti</name></persName>
-                        nostri fidelis dilecti et sancte <placeName>Coloniensis</placeName> ecclesie
-                            <rs>archiepiscopi</rs> petitoria interventione iuxta nostre
-                            <rs>concessionis</rs> premissam auctoritatem
-                                <orgName><placeName>Yporegiensi</placeName> ecclesie</orgName> omnem
-                        eiusdem <rs>civitatis</rs>
-                        <rs>districtum </rs>et <rs>publicam functionem</rs> atque forinsecus
-                        circumcirca per tria miliaria presentis paginae aureis litteris decoratae
-                        testimonio et auctoritate concessisse corroborasse et firmiter habendum
-                        statuisse, cum <rs>curte</rs> una
+                        nostre futura recompensatione et <persName key="#Chancellor #Archbishops"
+                                ><name ref="Eribertus">Heriberti</name></persName> nostri fidelis
+                        dilecti et sancte <placeName key="#Mother_churches" ref="#places/1613"
+                            >Coloniensis</placeName> ecclesie <rs key="#Archbishops"
+                            >archiepiscopi</rs> petitoria interventione iuxta nostre <rs
+                            key="#Imperial/royal_diploma">concessionis</rs> premissam auctoritatem
+                            <orgName key="#Mother_churches" ref="#juridical_persons/404"><placeName
+                                key="#Mother_churches" ref="#places/563">Yporegiensi</placeName>
+                            ecclesie</orgName> omnem eiusdem <rs key="#Cities">civitatis</rs>
+                        <rs key="#Privileges #Districtio">districtum </rs>et <rs key="#Districtio"
+                            >publicam functionem</rs> atque forinsecus circumcirca per tria miliaria
+                        presentis paginae aureis litteris decoratae testimonio et auctoritate
+                        concessisse corroborasse et firmiter habendum statuisse, cum <rs
+                            key="#Curtes">curte</rs> una
                             <geogName><placeName>Romano</placeName></geogName> dicta sub titulo
                         acquisitionis sibi pertinente et altera
                                 <geogName><placeName>Florano</placeName></geogName> nominata cum
