@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    Diplomatico, * H 40</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                        </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc604</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">-Placitum/iudicatum</rs>
+                                    <rs type="record_source" ref="#">Original document</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate notBefore="0001" notAfter="0001" when="0001">
+                                    <note type="displayed_date">0904/12/25</note>
+                                    <note type="dating_elements"></note>
+                                    <note type="topical_date">Hic civitate Luca in laubia ipsius episcopatui Sancti Martini (Lucca)</note>
+                                        <note type="redaction_date"/>
+                             </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance>
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                            <place></place>
+                        </listPlace>
+                        <listPerson>
+                            <person></person>
+                        </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-01-06" who="ptomei">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab>
+                                Il vescovo di Lucca Pietro siede in giudizio a Lucca in laubia della chiesa di San Martino con il suddiacono Ghisalprando missus del marchese Adalberto, gli scabini Ghisalfridi, Benedetto, Adalperto, Leone e Cosperto; assistono, fra gli altri, Fra(...), Flaiperto, Auriperto, Ghisolfo del fu Giorgio notaio, Cosfridi di Adalprando, Leone, Arderado detto Ardo de Marila, Teuperto, Davide, Benedetto di Benedetto scabino, Erm(...), (...)malberto fratelli, Cristiano de Ovurno, altro Auriperto de Cumpito, Aufridi chierico, Sicalfridi chierico, Adalfridi e Gheripaldo de Wamo, Wilimundo, Gumperto chierico, Gumfridi, Ostriperto (...).
+Si presenta da una parte il notaio e scabino Pietro advocatus dello stesso vescovato, dall’altra i fratelli Ghisolfo e Tassilo del fu Ostriperto, in lite fra loro: secondo il notaio e scabino la chiesa di San Lorenzo sita in loco et finibus Arsina con la metà delle sue dipendenze è una pertinenza della chiesa di (...) sito hic Luca, qui est de suppotestatem del vescovato di San Martino; il fratelli non contraddicono questa affermazione, ammettendo che la chiesa con la metà delle sue dipendenze spettano ad pars ecclesie Sancti Georgii et predicti episcopatui Sancti Martini. 
+Si chiede al notaio Teuderando la scrittura della notitia.
+                                <persName>Autori: Pietro episcopus, Ghisalprando subdiaconus, Ghisalfridi notarius et schabinus, Benedetto schabinus, Adalperto notarius et schabinus, Leone notarius et schabinus, Cosperto notarius et schabinus, gg. Ghisolfo e Tassilo del fu Ostriperto.
+Scrittore: Teuderando notarius.
+Testimoni sottoscrittori: Fraolmi, Flaiperto, Giovanni, Roppaldo, Ghisolfo.
+Altro: Pietro notarius et schabinus, Auriperto, Ghisolfo del fu Giorgio notarius, Cosfridi di Adalprando, Leone, Arderado detto Ardo de Marila, Teuperto, Davide, Benedetto di Benedetto schabinus, Erm... , gg. ...malberto, Cristiano de Ovurno, Auriperto de Cumpito, Aufridi clericus, Sicalfridi clericus, Adalfridi, Gheripaldo de Wamo, Wilimundo, Gumperto clericus, Gumfridi, Ostriperto.</persName>
+                                <placeName>Luca (Lucca), Arsina (Arsina, Lucca).</placeName>
+                                <orgName>San Lorenzo di Arsina, San Giorgio in Pisticoro di Lucca, San Martino di Lucca (chiesa matrice).</orgName>
+                            </ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL, IV/2, App. n. 57, pp. 75-76</p>
+                        <p>I placiti del Regnum Italiae, I, n. 116, pp. 429-431</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                        <p>Anno di regno di Berengario.</p>
+                        <p><note>Mod_id: 20</note></p>
+                    </div>
+                </body>
+            </text>
+        </TEI>
