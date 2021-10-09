@@ -8199,7 +8199,7 @@
                     </place>
                     <place>
                         <placeName>Corfino (Castiglione di Grafagnana; Lucca)</placeName>
-                        <placeName type="other">Quarphine</placeName>
+                        <placeName type="other"><foreign>Quarphine</foreign></placeName>
                         <geogName type="coord"><geo>44.182561, 10.379421</geo></geogName>
                         <idno>places/2420</idno>
                         <note>Repetti I, p. 799.</note>
@@ -8210,7 +8210,7 @@
                     </place>
                     <place>
                         <placeName>Verrucole (San Romano in Garfagnana; Lucca)</placeName>
-                        <placeName type="other">Verrucola</placeName>
+                        <placeName type="other"><foreign>Verrucola</foreign></placeName>
                         <geogName type="coord"><geo>44.179849, 10.334323</geo></geogName>
                         <idno>places/2421</idno>
                         <note>Repetti V, p. 472.</note>
@@ -8221,7 +8221,7 @@
                     </place>
                     <place>
                         <placeName>Pian di Gragno (presso Barga; Lucca)</placeName>
-                        <placeName type="other">Gragno</placeName>
+                        <placeName type="other"><foreign>Gragno</foreign></placeName>
                         <geogName type="coord"><geo>44.062849, 10.473556</geo></geogName>
                         <idno>places/2422</idno>
                         <note>Repetti II, p. 477.</note>
@@ -8231,28 +8231,23 @@
                             subtype="link"/>
                     </place>
                     <place>
-                        <placeName>Cervara (presso Turano; Massa Carrara)</placeName>
+                        <placeName>Cervaria</placeName>
                         <placeName type="other"><foreign>Cervaria</foreign>;
                                 <foreign>Cerbaia</foreign></placeName>
-                        <geogName type="coord"><geo>44.246514, 10.151411</geo></geogName>
+                        <geogName type="coord"><geo/></geogName>
                         <idno>places/2423</idno>
-                        <note>Il Repetti conosce una Cervara, tutt'ora esistente, in alta val di
-                            Magra (I, p. 674) e una, oggi scoparsa, ricordata come parte di una
-                            sezione catastale di Turano (presso Fivizzano) di Massa (III, p. 115):
-                            per la maggiore vicinanza ai luoghi ricordati insieme, la seconda sembra
-                            più probabile. (In mancanza di indicazioni più precise, le coordinate
-                            indicate sono quelle di Turano).</note>
+                        <note>Località non identificata.</note>
                         <link type="juridical_persons" corresp="#juridical_persons/130"
                             subtype="link"/>
                         <link type="juridical_persons" corresp="#juridical_persons/2001"
                             subtype="link"/>
                     </place>
                     <place>
-                        <placeName>Cerretoli (Castelnuovo di Garfagnana; Lucca)</placeName>
+                        <placeName>Cerretoli (presso Palaia; Pisa)</placeName>
                         <placeName type="other"><foreign>Cerritulo</foreign></placeName>
-                        <geogName type="coord"><geo>44.111306, 10.376388</geo></geogName>
+                        <geogName type="coord"><geo>43.628065, 10.713146</geo></geogName>
                         <idno>places/2424</idno>
-                        <note>Repetti II, p. 3.</note>
+                        <note>Repetti I, p. 659.</note>
                         <link type="juridical_persons" corresp="#juridical_persons/130"
                             subtype="link"/>
                         <link type="juridical_persons" corresp="#juridical_persons/2001"
@@ -8330,13 +8325,11 @@
                     <place>
                         <placeName><foreign>Tredici</foreign> (Vicopisano; Pisa)</placeName>
                         <placeName type="other"><foreign>Trechese</foreign></placeName>
-                        <geogName type="coord"><geo>43.688413, 10.587926</geo></geogName>
+                        <geogName type="coord"><geo> 43.672572, 10.613585</geo></geogName>
                         <idno>places/2431</idno>
                         <note>Repetti V, p. 586.</note>
-                        <note>La posizione esatta della località è ignota, ma si sa che si trovava
-                            tra Vicopisano e Calcinaia e che vi sorgeva una chiesa dedicata a San
-                            Frediano. Si indicano pertanto le coordinate di un punto scelto
-                            casualmente, a metà strada tra i due luoghi.</note>
+                        <note>Il Repetti colloca la località ad Allori, presso Calcinaia, di cui
+                            resta oggi traccia odonomastica.</note>
                     </place>
                     <place>
                         <placeName>Bibbona (Livorno)</placeName>
@@ -8373,7 +8366,7 @@
                     </place>
                     <place>
                         <placeName>Rofena (Casole Val d'Elsa; Siena)</placeName>
-                        <placeName type="other">Roffeno</placeName>
+                        <placeName type="other"><foreign>Roffeno</foreign></placeName>
                         <geogName type="coord"><geo>43.356142, 11.071704</geo></geogName>
                         <idno>places/2435</idno>
                         <note>Repetti I, p. 190.</note>
@@ -8396,13 +8389,12 @@
                     <place>
                         <placeName><foreign>Agnano</foreign> (Lajatico; Pisa)</placeName>
                         <placeName type="other"/>
-                        <geogName type="coord"><geo>43.417844, 10.746645</geo></geogName>
+                        <geogName type="coord"><geo>43.415831, 10.729818 </geo></geogName>
                         <idno>places/2437</idno>
                         <note>Repetti I, p. 57.</note>
                         <note>La località è scomparsa senza lasciare tracce nella toponomastica
-                            odierna: il Repetti la indica tra Orciatico e Montecatini Val di Cecina
-                            (quindi le coordinate indicate corrispondono a un punto scelto
-                            casualmente tra I due punti di riferimento noti).</note>
+                            odierna, ma cartografia storica la colloca sulla sinistra orografica del
+                            torrente Ragone, tra Orciatico e Montecatini Val di Cecina.</note>
                         <link type="juridical_persons" corresp="#juridical_persons/130"
                             subtype="link"/>
                         <link type="juridical_persons" corresp="#juridical_persons/2001"
@@ -8466,10 +8458,11 @@
                     <place>
                         <placeName><foreign>Vuingule</foreign> (presso Montecalvoli;
                             Pisa)</placeName>
-                        <placeName type="other"><foreign>Wingulo</foreign></placeName>
-                        <geogName type="coord"><geo/></geogName>
+                        <placeName type="other"><foreign>Wingulo</foreign>; Winciulo; Vuinciulo;
+                            Guincioro; Wuinciole; Vuinzule; Guinciole</placeName>
+                        <geogName type="coord"><geo>43.678805, 10.661251</geo></geogName>
                         <idno>places/2443</idno>
-                        <note/>
+                        <note>Pescaglini Monti p. 331.</note>
                         <link type="juridical_persons" corresp="#juridical_persons/130"
                             subtype="link"/>
                         <link type="juridical_persons" corresp="#juridical_persons/2001"
