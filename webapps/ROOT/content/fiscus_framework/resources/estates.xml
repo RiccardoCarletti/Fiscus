@@ -3076,7 +3076,8 @@
                     </place>
                     <place>
                         <geogName>Cervara; <foreign>curtis</foreign></geogName>
-                        <geogName type="other"><foreign>Cervaria</foreign></geogName>
+                        <geogName type="other"><foreign>Cervaria</foreign>;
+                                <foreign>Cerbaria</foreign></geogName>
                         <idno>estates/2009</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/130"
@@ -3304,6 +3305,16 @@
                         <link type="juridical_persons" corresp="#juridical_persons/2001"
                             subtype="link"/>
                         <link type="places" corresp="#places/2427" subtype="isPartOf"/>
+                    </place>
+                    <place>
+                        <geogName><foreign>Sanctus Petrus in Gragno</foreign>;
+                                <foreign>curtis</foreign></geogName>
+                        <geogName type="other"/>
+                        <idno>estates/2030</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/130"
+                            subtype="link"/>
+                        <link type="places" corresp="#places/2422" subtype="isPartOf"/>
                     </place>
 
                 </listPlace>
