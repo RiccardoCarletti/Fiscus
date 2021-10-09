@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Archivio di Stato di Milano, Museo Diplomatico</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc5114</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1027-04-06">
+                                <note type="displayed_date">1027 April 6</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Roma</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-10-09" who="bferretti">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>(C.) In nomine sanctae et individuae trinitatis. <persName
+                            key="#Emperor/king" ref="#people/261">Chuonradus</persName> divina
+                        favente clementia Romanorum <rs key="#Emperor/king">imperator</rs> augustus.
+                        Si sanctarum dei ecclesiarum ordines corroborare studuerimus, intercessores
+                        suos aput deum pro nostris facinoribus non dubitamus. Idcirco noverit omnium
+                        fidelium sanctae dei aecclesiae nostrorumque presentium scilicet ac
+                        futurorum industria, quatinus interventu ac petitione <persName
+                            key="#Imperial/royal_diploma #Abbots">Benedicti</persName>
+                        <rs key="#Abbots">abbatis</rs>
+                        <orgName
+                            key="#Imperial/royal_diploma #Curtes #Landed_possessions #Castle #Churches #Monasteries #Cells/hermitages"
+                            ref="#juridical_persons/130">sancti Salvatoris
+                            <rs>monasterii</rs></orgName> scito in <geogName key="#Comitatus"
+                            ref="#estates/210"><rs key="#Comitatus">commitatu</rs>
+                            <placeName key="#Comitatus" ref="#places/4"
+                            >Lucensi</placeName></geogName> in loco qui dicitur
+                            <placeName>Sextus</placeName> per nostri precepti paginam confirmamus
+                        modisque omnibus corroboramus et idem monasterium cum <rs key="#Churches"
+                            >aecclesiis</rs>
+                        <rs key="#Cells/hermitages">capellis et oraculis</rs> seu <rs key="#Curtes"
+                            >cortibus</rs> et <rs key="#Castle">castellis</rs> cunctisque <rs
+                            key="#Landed_possessions">terris</rs> predicto monasterio per cartularum
+                        munitiones, tam quas modo habet quamque etiam inantea idem venerabilis locus
+                        deo iuvante adquirere poterit, tam infra civitatem Lucam quam et deforis,
+                        quarum vocabula sunt: aecclesiae sanctorum beati Benedicti et Anastasii et
+                        aecclesia domini Salvatoris quae dicitur Astrude cum omnia illorum
+                        pertinentia et aecclesia et curte sancti Ambrosii in Ascleto et aecclesia
+                        sancti Pauli in Coselle et aecclesia sancti Antonii et aecclesia sanctae
+                        Mariae in Campitello et aecclesia sancti Angeli in Guamo et ecclesia sancti
+                        Philippi cum omnibus illorum pertinentiis et aecclesia sancti Petri et
+                        sancti Columbani in loco Computo cum portione de ipso castello cum omnibus
+                        mansis et terris, quod sunt in ipso loco Computo et in Massa, cum aecclesia
+                        sancti Laurentii, quod sunt pertinentibus ad ipsum monasterium, aecclesia
+                        sancti Augustini et monte et poio qui dicitur Abozo, aecclesia sancti
+                        Martini, aecclesia sancti Apiani et sancti Laurentii in loco Colline et
+                        curte de Uilla cum poio qui dicitur Pedoni et in Colognora, aecclesia vero
+                        sancti Andreae in monte cum omnia sua pertinentia et medietas aecclesie
+                        sancti Petri et sanctae Mariae cum universis pertinentiis suis, quas
+                        venerabilis Maius abbas mutuavit cum Ugone marchione sibi in vicem ad
+                        proprietatem, et de ipsa aecclesia sanctae Marie aliam quartam portionem,
+                        quam dedit Domnucio filio boni memoriae Ildeprandi pro animae suae remedium
+                        et genitoris sui per cartulam offersionis ad partem ipsius monasterii,
+                        ecclesia vero sancti Comitii et sancti Angeli et castello vetero et castello
+                        novo in ipso loco Sexto, quod est constructum in monte et poio qui nominatur
+                        Monte Flagimperge, ecclesia sancti Benedicti cum castello in loco Insula et
+                        pratis et paludibus et fossis et piscareis et callabus et navilibus et
+                        silvis et palude qui dicitur Alteto et silva de Brusceto et Pallareto et
+                        Cassano et silva Nigra et portum de Fossitule et lacum de ipso Padule cum
+                        portu de Tunule, qui est de ipso lacu, cum [aqui]s et piscareis et callibus
+                        et silvis in circuitu ipsius laci et via de Galleno et via de Cerro [cum
+                        ca]lle quae nominatur call[e] Pottuli et villa de Oren[ta]no cum Cerbaria et
+                        Uasur[e] et poio de Galeno qui dicitur Uado alto et Semineta et medietatem
+                        de burgo de Galleno et villa Costafili et terris et mansis et silvis in loco
+                        Tonule, curte et aecclesia sancti Prosperi in loco Blentina cum omnia sua
+                        pertinentia, ecclesia sancti Iusti et curte de Tredeci cum aecclesia sancti
+                        Fridiani, nec non et curte de Anglo et medietatem aecclesie sancti [Angeli]
+                        de Armezano et terris et mansis in loco Uicofetri, curtes namque [III in]
+                        Cintoria cum aecclesiis scilicet sancti Martini et sancti Georgii, ecclesia
+                        sancti Salvatoris in loco qui dicitur Controni et curtem de Cerbaria et
+                        curte in loco quae dicitur Quarfine et curtem et aecclesi[a] sancti Petri
+                        quae dicitur in Gragno et predia de Castillone et de Antisana et [in lo]co
+                        [qui] dicitur Ualli et in Carricini et in Cicerana et in Bucini et in
+                        Castello nou[o] et in vocabulo qu[ae] dicitur Uerrucula et in Mollazano et
+                        in [Bran]calo corte sancti Hylarii, curtem de Guinculo cum aecclesia sancti
+                        Domini et cum castello, aecclesia sancti Benedicti et sancti Donati et in
+                        loco Uinciano aecclesia sancti Petri et in Leugnano aecclesia sancti
+                        Greg[o]rii et in loco qui dicitur Capiano curtem et aecclesiis, id est
+                        aecclesia sancti Quirici, sancti M[inia]ti, sancti Salvatoris, sancti
+                        Sauini, sancti Pauli cum terris aquis aquarumque decursibus piscareis
+                        venationibus silvis, medietatem de castello de Cerritulo cum integra
+                        aecclesia sancti Stephani et curtem de Palaria cum duabus aecclesiis sancti
+                        Martini et sancti Angeli, ecclesia sancti Angeli in Nebula et curtem de
+                        Quarazana, curtem de Filcini et curt[em de] Cosiniano et de Brisciana et
+                        aecclesia sancti Martini in Ferignano et curtem de Camuliano et curtem de
+                        Casa noua, curtem de Uallis cum aecclesia suisque pertinentiis. Concedimus
+                        eidem venerabili coenobio, quicquid dinoscitur habere in comitatu Pisano,
+                        inprimis curte domnicata foris civitate cum casis et cassinis et orto, in
+                        eodem vero loco casis et cassinis et orto et curte et [ter]ra, quae fuit
+                        quondam Cunizi filii Cuniberti, curtem vero sancti Cristophori et aliam
+                        curtem in loco Tabiano et curtem sancti Petri in Petritulo, curtem de
+                        Rasignano, curtem de Malendrone, ecclesia sancti Comicii iuxta fluvium
+                        [C]icina et saline que sunt in Campo maiore prope C[ici]na, curtem de
+                        Fontana, curtem de Ualle blancana prope Bibone. Similiter corroboramus iam
+                        prelibato cenobio hoc quod habet in comitatu Cornino, videlicet curtem de
+                        Massa et [ecclesia sancti Genesii et] curtem sancti Petri in Publico, curtem
+                        de Bibiano, curtem de Lano, curtem de Rofenae, curtem de Sermena cum
+                        ecclesia sancti Octabiani, pertinentia [de] Frosina et curtem de Caspugnano,
+                        curtem de Libiano, curtem de Agnano cum ecclesia sanctae Mariae cum tertia
+                        portione de ipso castello, curticella de Urceatico cum ipso castello, curtem
+                        de Sussiano, curtem de Leguli et Meletuli et aliquantas petias de terra, ubi
+                        fuit quondam aecclesia sancti Iusti, et curticella in loco Uignale et in
+                        loco Carpugnano mansam et in loco Pinu tres mansas cum domo Ualpretis et
+                        medietatem castelli in loco qui dicitur Campo-Marci, curtem sancto Iohanne
+                        cum poio et monte quae dicitur Uerrocula. Quin etiam omnes res et
+                        proprietates confirmamus, quae ubicumque repperiri possunt, et in comitatu
+                        Pistoriense aecclesia sancti Habundii cum campo Hieronimi et [mansis
+                        Ingello, Cerisiano, Casese, Casula, Mar [...] sala vel aliis locis].
+                        Concedimus etiam eidem monasterio omnibus cur[t]is capellis terris ortis
+                        vineis campis pratis mansis tam domnicalibus quam massaritiis aldiaritiis
+                        tributareis olivetis silvis montibus alpibus pascuis planitiebus paludibus
+                        areis piscareis salinariis molendinis aquis aquarumque ductibus servis
+                        ancillis aldiis et aldiabus utriusque sexus et cum omnibus quae dici vel
+                        nominari possunt prelibato monasterio pertinentibus vel aspicientibus omnia
+                        in integrum nostra regia potestate, prout iuste et legaliter possumus, in
+                        ius et dominium predicti abbatis monasterii domini et Salvatoris suorumque
+                        congregationis monachorum eorumque successorum; et li[ce]at [ceno]bio de
+                        propria congregatione abbatem eligere, si regulariter vixerint, ut numquam
+                        ulla super eos introducatur persona; et liceat eidem cenobio duos advocatos
+                        habere, his autem adiungimus duodecim liberos homines, cum quibus rem
+                        prelibati cenobii sacramento adquirant et defendant. Quibus ut nullum tortum
+                        malli adiciatur, transfu[ndimus a]c delegamus, ut potestatem habeant tenendi
+                        fruendi ordinandi comutandi vel quicquid eorum utilitas fuerit faciendi, et
+                        qualiter ab eis ordinatum vel concessum fuerit, stabile permaneat.
+                        Precipientes itaque iubemus, ut nullus dux marchio episcopus comes vicecomes
+                        sculdachio castaldio nullaque nostri imperii magna pa[rvaque] persona
+                        predicto monasterio de omnibus supra dictis rebus inquietare molestare
+                        disvestire vel potestative in eo ospitium facere aut aliquam publicam
+                        functionem cogere sine regalem presumat iuditium. Qui vero hoc fecerit,
+                        sciat se cumpositurum auri optimi libras mille, medietatem camerae nostrae
+                        et medietatem predic[to abbati] suisque successoribus. Quod ut verius
+                        credatur firmiusque ab omnibus [obse]rvetur, impressione sigilli nostri
+                        iussimus insigniri inferius. Signum domni serenisessimi et invictissimi
+                        imperatoris (M.) augusti. Hugo cancellarius vice domni Haribonis
+                        archiepiscopi et archicancellarii recognovit. (SI. D.) Anno ab incarnatione
+                        domini MXXVII, regnantis domni Chuonradi secundi III, imperatoris augusti
+                        Romanrum I, inditione X, VIII. id. april., luna XXV, feria V; Roma data;
+                        feliciter amen. </ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>MGH DD K II n. 80, pp. 106-109.</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
