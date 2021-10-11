@@ -1250,6 +1250,7 @@
                         <link type="people" corresp="#people/2004" subtype="sonOf"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1918"
                             subtype="benefactorOf"/>
+                        <link type="people" corresp="#people/1961" subtype="benefactorOf"/>
                 </person>
                 <person>
                     <persName>Paldo (944) iudex</persName>
@@ -5471,6 +5472,15 @@
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/1918"
                             subtype="agentFor"/>
+                    </person>
+                    <person>
+                        <persName>Albinus (ante 751); abbas</persName>
+                        <persName type="other"/>
+                        <idno>people/1961</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1918"
+                            subtype="link"/>
+                        <link type="people" corresp="#people/158" subtype="gratitudeTo"/>
                     </person>
                 </listPerson>
             </listPerson>
