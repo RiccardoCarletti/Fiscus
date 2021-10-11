@@ -4861,6 +4861,8 @@
                         <link type="people" corresp="#people/2002" subtype="fatherInLawOf"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1901"
                             subtype="benefactorOf"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1918"
+                            subtype="benefactorOf"/>
                     </person>
                     <person>
                         <persName>Eufimia (754) abbatissa</persName>
@@ -5485,6 +5487,7 @@
                         <link type="juridical_persons" corresp="#juridical_persons/1918"
                             subtype="agentFor"/>
                         <link type="people" corresp="#people/1955" subtype="agentFor"/>
+                        <link type="people" corresp="#people/1961" subtype="agentFor"/>
                     </person>
                     <person>
                         <persName>Magelpotus (976); advocatus</persName>
@@ -5493,6 +5496,7 @@
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/1918"
                             subtype="agentFor"/>
+                        <link type="people" corresp="#people/1961" subtype="agentFor"/>
                     </person>
                     <person>
                         <persName>Albinus (ante 751); abbas</persName>
@@ -5502,6 +5506,33 @@
                         <link type="juridical_persons" corresp="#juridical_persons/1918"
                             subtype="link"/>
                         <link type="people" corresp="#people/158" subtype="gratitudeTo"/>
+                    </person>
+                    <person>
+                        <persName>Godefrit (ante 751); marphais</persName>
+                        <persName type="other"/>
+                        <idno>people/1918</idno>
+                        <note/>
+                        <link type="people" corresp="#people/158" subtype="agentFor"/>
+                        <link type="people" corresp="#people/158" subtype="link"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1918"
+                            subtype="link"/>
+                    </person>
+                    <person>
+                        <persName>Aicho (ante 751); gasindius</persName>
+                        <persName type="other"/>
+                        <idno>people/1919</idno>
+                        <note/>
+                        <link type="people" corresp="#people/158" subtype="agentFor"/>
+                        <link type="people" corresp="#people/158" subtype="link"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1918"
+                            subtype="link"/>
+                    </person>
+                    <person>
+                        <persName>Marinus (978-984; consul Cajetanus)</persName>
+                        <persName type="other">Marino II di Gaeta</persName>
+                        <idno>people/1920</idno>
+                        <note/>
+                        <link type="places" corresp="#places/2343" subtype="hasConnectionWith"/>
                     </person>
                 </listPerson>
             </listPerson>

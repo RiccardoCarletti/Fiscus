@@ -101,8 +101,9 @@
                         custos <rs key="#Monasteries">monasterii</rs>
                         <orgName key="#Monasteries" ref="#juridical_persons/1918">Sancti
                             Martini</orgName>, situs in <rs key="#Mountains">monte</rs> qui dicitur
-                            <placeName key="#Mountains #Landed_possessions" ref="#places/2343"
-                            >Marsico</placeName>, ille erga secum abendo <persName
+                            <placeName
+                            key="#Mountains #Landed_possessions #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Allocation_to_churches"
+                            ref="#places/2343">Marsico</placeName>, ille erga secum abendo <persName
                             key="#Other_clerics #Advocatus" ref="#people/1960">Magelpotum</persName>
                         <rs key="#Other_clerics">clericum</rs> et <rs key="#Advocatus"
                             >abbocatorem</rs> ipsius monasterii. Et tamen ipse Petrus presbiter et
@@ -133,13 +134,13 @@
                             gloriosus</rs> domnus <persName
                             key="#Marquis/duke #Vir_gloriosus/vir_sublimis" ref="#people/158"
                             >Gisolfus</persName>, summus <rs key="#Marquis/duke">dux</rs> gentis
-                        Langobardorum, per rogum <persName key="#Marepahis">Godefrit</persName>
+                        Langobardorum, per rogum <persName key="#Marepahis" ref="#people/1938"
+                            >Godefrit</persName>
                         <rs key="#Marepahis">marepahis</rs> et <persName
-                            key="#Other_minor_officer #gasindiusOf">Aicha</persName>
-                        <rs key="#Other_minor_officer">baioario</rs> et <rs key="#gasindiusOf"
-                            >gasindio</rs> suo firmaverat in monasterio Sancti Martini, situs in
-                        monte Marsico, ubi Deo auxiliante, <persName key="#Abbots"
-                            ref="#people/1961">Albinus</persName>
+                            key="#gasindiusOf #Bavarian" ref="#people/1302">Aicha</persName>
+                        <rs key="#Bavarian">baioario</rs> et <rs key="#gasindiusOf">gasindio</rs>
+                        suo firmaverat in monasterio Sancti Martini, situs in monte Marsico, ubi Deo
+                        auxiliante, <persName key="#Abbots" ref="#people/1961">Albinus</persName>
                         <rs key="#Abbots">abbas</rs> regimen tenebatur, hoc est ipsum montem
                         Marsicum, qualiter a domino bone memorie <persName ref="#people/2004"
                             >Roamoaldo</persName> genitori suo in ipsum sanctum Dei locum concessum
@@ -147,88 +148,99 @@
                         videtur. Et dicebat ipse Petrus presbiter et monachus, cum iam dicto
                         abbocatore suprascripti monasterii, ut iam dicta terra, et monte Sancti
                         Martini ipsos per .XXX. annos legibus ipsos possideret, et talem per testes
-                        posset facere consignacionem. unde nos, qui supra iudex, interrogavimus
+                        posset facere consignacionem. Unde nos, qui supra iudex, interrogavimus
                         prenominatum Bassi, et Mari si aberet inde scripciones, vel alias raciones,
-                        quomodo de iam dicta terra, et monte sibi appropriare posset. quibus illi
+                        quomodo de iam dicta terra, et monte sibi appropriare posset. Quibus illi
                         manifestaverunt, et dixerunt: ut nullam scripcionem, vel alias raciones inde
-                        aberet, nisi per solam ereditacionem ipsos ibidem abere vellent. unde per
+                        aberet, nisi per solam ereditacionem ipsos ibidem abere vellent. Unde per
                         disposicionem suprascriptorum comitum et iudicium nostrum, qui supra iudici
-                        guadiati fuerunt cum ipso Petrus presbiter et monachus, atque prepositus,
+                        guadiati fuerunt cum ipso Petrus presbiter et monachus atque prepositus,
                         erga secum abendo predictum abbocatorem, tali tenore ut pariter perierent
-                        super iam dicta terra, et monte, et ipse Petrus presbiter, et monachus,
-                        atque prepositus plicaret ibidem ipsos testes suos, quem dixit abere, et
-                        faceret ipsos testes suos monstrare ipsa terra, et monte per finis, et
-                        faceret ipsos testes suos singulos ad singulos testificare dicendo: “Scio
-                        ipsa terra et monte, per ille finis, que vobis demonstravi, “triginta anos
-                        possedit parte Sancti Martini”; et firmaret ipsa testimonia secundum legem.
-                        et dum pro talia reconiuncti essent ad finiendum ipsos inter se, sicut
-                        guadiati fuerant, tunc ipsis, qui supra Bassi, et Mari parati erant ad
-                        recipiendam ipsam consignacionem. et ipse, qui supra Petrus presbiter, et
-                        monachus, atque prepositus paratus erat cum ipsa testimonia, idest Rachisi
-                        clerico atque notario, et Azzo, et Sasso, quem nos interrogavimus, ut si
-                        proinde veniret at testimonium ipsum retdendum de iam dicta terra et monte.
-                        illi toti tres, quasi uno ore, responderunt, ut proinde venissent at
-                        consignacionem ipsam faciendam, et tunc uterque parcium deprecaverunt me,
-                        qui supra iudicem, ut cum eis perieremus super terram, et monte ipso. qui
-                        dura super terra, et monte ipso reconiuncti essemus, statim ipsi, qui supra
-                        Rachisi clerico, et notario, et Azzo, et Sasso, qui ad testificandum
-                        venerant, ceperunt monstrare nobis, et ad suprascripti causatores terre, et
-                        monte per as fines: idest ab uno latere fine serra de ipso monte
-                        suprascripti monasterii, sicut vadit per cristone montis usque in locum, qui
-                        dicitur Petra Lata; aliud latum incipiente da ipso Agellano, qui per tempus
-                        aqua decurrit, sicut vadit per ipsa forma, qui est inter ac terra, et terra
-                        de filii Lupi iudici, et terra suprascripti monasterii, et terra
+                        super iam dicta terra et monte, et ipse Petrus presbiter et monachus atque
+                        prepositus plicaret ibidem ipsos testes suos, quem dixit abere, et faceret
+                        ipsos testes suos monstrare ipsa terra, et monte per finis, et faceret ipsos
+                        testes suos singulos ad singulos testificare dicendo: “Scio ipsa terra et
+                        monte, per ille finis, que vobis demonstravi, “triginta anos possedit parte
+                        Sancti Martini”; et firmaret ipsa testimonia secundum legem. Et dum pro
+                        talia reconiuncti essent ad finiendum ipsos inter se, sicut guadiati
+                        fuerant, tunc ipsis, qui supra Bassi, et Mari parati erant ad recipiendam
+                        ipsam consignacionem. Et ipse, qui supra Petrus presbiter, et monachus,
+                        atque prepositus paratus erat cum ipsa <rs key="#Witness">testimonia</rs>,
+                        idest <persName key="Other_clerics #Notary #Witness"><name ref="Rachis"
+                                >Rachisi</name></persName>
+                        <rs key="Other_clerics">clerico</rs> atque <rs key="Notary">notario</rs>, et
+                            <persName key="#Witness"><name ref="Azzo">Azzo</name></persName>, et
+                            <persName key="#Witness"><name ref="Sasso">Sasso</name></persName>, quem
+                        nos interrogavimus, ut si proinde veniret at testimonium ipsum retdendum de
+                        iam dicta terra et monte. Illi toti tres, quasi uno ore, responderunt, ut
+                        proinde venissent at consignacionem ipsam faciendam, et tunc uterque parcium
+                        deprecaverunt me, qui supra iudicem, ut cum eis perieremus super terram, et
+                        monte ipso. Qui dura super terra, et monte ipso reconiuncti essemus, statim
+                        ipsi, qui supra Rachisi clerico, et notario, et Azzo, et Sasso, qui ad
+                        testificandum venerant, ceperunt monstrare nobis, et ad suprascripti
+                        causatores terre, et monte per as fines: idest ab uno latere fine serra de
+                        ipso monte suprascripti monasterii, sicut vadit per cristone montis usque in
+                        locum, qui dicitur <placeName key="#Roads">Petra Lata</placeName>; aliud latum incipiente
+                        da ipso <placeName>Agellano</placeName>, qui per tempus aqua decurrit, sicut
+                        vadit per ipsa forma, qui est inter ac terra, et terra de filii <persName
+                            key="#Judge"><name ref="Lupus">Lupi</name></persName>
+                        <rs key="#Judge">iudici</rs>, et terra suprascripti monasterii, et terra
                         suprascripti domni Atenulfi comitis et terra, que datum abet pars
-                        suprascripti monasterii a parte domni Marini consuli, et terra de filii
-                        Iennari, et quomodo revolvit per caput de terra de suprascripti filii
-                        Iennari, et redit in iam dicta forma, qui est inter ac terra, et terra
-                        suprascripti domni Atenulfi comitis, et terra suprascripti monasterii Sancti
-                        Vincencii, et abinde sicut vadit per ipsa forma usque propinquo ecclesia
-                        Iohannis, et abinde sicut vadit per pede de ipso monte, per terra
-                        suprascripti domni Landenolfi comitis, et deinde vadit per pede de ipso
-                        monte per terra suprascripti domni Landolfi comitis, et deinde vadit per
-                        pede de ipso monte circa terra de hominibus, qui ibi affines sunt, et vadit
-                        usque in via publica, qui descendit da Petra Lata; unum caput a parte
-                        meridie in ipsu Agellanu, qui est inter ac terra, et monte [......]
-                        monasterio Sancte Crucis, subdita predicto monasterii Sancti Vincencii;
-                        aliud caput in iam dicta via da Petra Lata. et cum taliter monstratum
-                        fuisset utriusque, reversi fuimus ante iam dictis comitibus, intro iam dicta
-                        civitate, et nostra qui super iudici presencia; et tunc ipsi qui supra
-                        testes segregavimus eos ab invicem: predicto Sasso duci in unam partem, iam
-                        dicto Azzo in aliam partem, predicto Rachisi clerico et notario ante nos
-                        stare fecimus, qui Dei timore monuimus, ut quicquid ille exinde veraciter
-                        sciret, ita eos testificaret. quibus ille, extensa manu, tetigit ipsum, qui
-                        supra Petrus et monachus, et custos, atque prepositus, et testificando dixit
-                        ipsorum, qui supra Bassi, et Mari: “Scio ille terre, et monte per ille
-                        finis, que vobis “demonstravi, triginta anos possedit pars Sancti Martini”.
-                        deinde, eo amoto, fecimus venire suprascripto Azzo, quem et ipsum monuimus
-                        de Dei timore, monuimus uterque exinde sciret veraciter ita eos
-                        testificaret. quibus ille, estensa manu, tetigit ipsum prenominatum Petrus
-                        presbiter et monachus, et custos, atque prepositus, et testificando dixit
-                        ipsorum, qui supra Bassi, et Mari: “Scio ille “terre, et monte, [.....] que
-                        vobis demonstravi, triginta annos “possedit parte Sancti Martini”. et tunc,
-                        eo amoto, venit predicto Sassoque, et ipsum de Dei timore monuimus ut[er]que
-                        exinde veraciter sciret, ita eos testificaret. quibus ille, extensa manu,
-                        tetigit ipsum prenominatum Petrus presbiter, et monachus, et custos, atque
-                        prepositus, et testificando dixit ipsorum, qui super Bassi, et Mari: “Scio
-                        ille terre, et monte, [.....] que vobis demonstravi, triginta “annos
-                        possedit parte Sancti Martini”. Cumque taliter tot tres, quasi uno ore,
-                        testificasset, tunc a parte predicti Bassi, et Mari posita evangelia
-                        iuraverunt eorum ipsi testes, singulos ad singulos tangendo ipsa evangelia,
-                        et dixerunt per sacramentum, ut sic esse veritas, sicut illi de causa ista
-                        testimonium retdiderunt deinde iuravit ipse, qui supra Petrus presbiter, et
-                        monachus, atque prepositus cum undecim sacramentales suos legitimos, et ipsi
-                        singulos ad singulos tangendo ipsa evangelia, et dixerunt per sacramentum,
-                        ut sic esse veritas, sicut ipsi testes de ac causa testificaverunt. et est
-                        causacio ista finita et deliberata in omnibus. Cumque nos, qui supra Maraldo
-                        iudex taliter omnia supradicta ante nos facta atque perfecta conspeximus,
-                        pro recordando in perpetuum ea omnia suprascricta, ut amodo et deinceps,
-                        quieto nomine, abeat et possideat pars suprascripti monasterii Sancti
-                        Martini, et eiusdem rectoribus iam dicta terra, et monte absque omni
-                        contrarietate cuiusque personis, hunc eidem venerabilem locis exinde
-                        emisimus iudicatum, quem tibi Iohanni clerico atque scriba scribere
-                        iussimus. Actu Suessa. Ego qui supra <persName key="#Judge"><name
-                                ref="Maraldus">Maraldo</name></persName>
+                        suprascripti monasterii a parte domni <persName>Marini</persName>
+                        <rs key="#Consules">consuli</rs>, et terra de filii <persName><name
+                                ref="Ianuarius">Iennari</name></persName>, et quomodo revolvit per
+                        caput de terra de suprascripti filii Iennari, et redit in iam dicta forma,
+                        qui est inter ac terra, et terra suprascripti domni
+                       Atenulfi
+                       comitis, et terra suprascripti monasterii Sancti Vincencii, et
+                        abinde sicut vadit per ipsa forma usque propinquo <rs>ecclesia</rs>
+                        <orgName>Iohannis</orgName>, et abinde sicut vadit per pede de ipso monte,
+                        per terra suprascripti domni <persName>Landenolfi</persName>
+                        <rs>comitis</rs>, et deinde vadit per pede de ipso monte per terra
+                        suprascripti domni <persName key="#Counts">Landolfi</persName>
+                        <rs key="#Counts">comitis</rs>, et deinde vadit per pede de ipso monte circa terra de
+                        hominibus, qui ibi affines sunt, et vadit usque in <rs key="#Roads">via publica</rs>, qui
+                        descendit da Petra Lata; unum caput a parte meridie in ipsu Agellanu, qui
+                        est inter ac terra, et monte [......] <rs key="#Monasteries">monasterio</rs>
+                        <orgName key="#Monasteries">Sancte Crucis</orgName>, subdita predicto monasterii Sancti
+                        Vincencii; aliud caput in iam dicta via da Petra Lata. Et cum taliter
+                        monstratum fuisset utriusque, reversi fuimus ante iam dictis comitibus,
+                        intro iam dicta civitate, et nostra qui super iudici presencia; et tunc ipsi
+                        qui supra testes segregavimus eos ab invicem: predicto Sasso duci in unam
+                        partem, iam dicto Azzo in aliam partem, predicto Rachisi clerico et notario
+                        ante nos stare fecimus, qui Dei timore monuimus, ut quicquid ille exinde
+                        veraciter sciret, ita eos testificaret. quibus ille, extensa manu, tetigit
+                        ipsum, qui supra Petrus et monachus, et custos, atque prepositus, et
+                        testificando dixit ipsorum, qui supra Bassi, et Mari: “Scio ille terre, et
+                        monte per ille finis, que vobis “demonstravi, triginta anos possedit pars
+                        Sancti Martini”. deinde, eo amoto, fecimus venire suprascripto Azzo, quem et
+                        ipsum monuimus de Dei timore, monuimus uterque exinde sciret veraciter ita
+                        eos testificaret. quibus ille, estensa manu, tetigit ipsum prenominatum
+                        Petrus presbiter et monachus, et custos, atque prepositus, et testificando
+                        dixit ipsorum, qui supra Bassi, et Mari: “Scio ille “terre, et monte,
+                        [.....] que vobis demonstravi, triginta annos “possedit parte Sancti
+                        Martini”. et tunc, eo amoto, venit predicto Sassoque, et ipsum de Dei timore
+                        monuimus ut[er]que exinde veraciter sciret, ita eos testificaret. quibus
+                        ille, extensa manu, tetigit ipsum prenominatum Petrus presbiter, et
+                        monachus, et custos, atque prepositus, et testificando dixit ipsorum, qui
+                        super Bassi, et Mari: “Scio ille terre, et monte, [.....] que vobis
+                        demonstravi, triginta “annos possedit parte Sancti Martini”. Cumque taliter
+                        tot tres, quasi uno ore, testificasset, tunc a parte predicti Bassi, et Mari
+                        posita evangelia iuraverunt eorum ipsi testes, singulos ad singulos tangendo
+                        ipsa evangelia, et dixerunt per sacramentum, ut sic esse veritas, sicut illi
+                        de causa ista testimonium retdiderunt deinde iuravit ipse, qui supra Petrus
+                        presbiter, et monachus, atque prepositus cum undecim sacramentales suos
+                        legitimos, et ipsi singulos ad singulos tangendo ipsa evangelia, et dixerunt
+                        per sacramentum, ut sic esse veritas, sicut ipsi testes de ac causa
+                        testificaverunt. et est causacio ista finita et deliberata in omnibus.
+                        Cumque nos, qui supra Maraldo iudex taliter omnia supradicta ante nos facta
+                        atque perfecta conspeximus, pro recordando in perpetuum ea omnia
+                        suprascricta, ut amodo et deinceps, quieto nomine, abeat et possideat pars
+                        suprascripti monasterii Sancti Martini, et eiusdem rectoribus iam dicta
+                        terra, et monte absque omni contrarietate cuiusque personis, hunc eidem
+                        venerabilem locis exinde emisimus iudicatum, quem tibi Iohanni clerico atque
+                        scriba scribere iussimus. Actu Suessa. Ego qui supra <persName key="#Judge"
+                                ><name ref="Maraldus">Maraldo</name></persName>
                         <rs key="#Judge">iudex</rs>. Ego <persName key=""><name ref="Petrus"
                                 >Petrus</name></persName>. Ego <persName key=""><name ref="Garandus"
                                 >Garando</name></persName>. Ego <persName
