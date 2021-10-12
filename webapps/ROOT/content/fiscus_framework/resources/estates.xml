@@ -3296,7 +3296,7 @@
                         <link type="places" corresp="#places/2426"/>
                     </place>
                     <place>
-                        <geogName>Brusciana; curtis</geogName>
+                        <geogName>Brusciana; <foreign>curtis</foreign></geogName>
                         <geogName type="other"><foreign>Brisciniana</foreign>;
                                 <foreign>Brixana</foreign>; <foreign>Brisciana</foreign></geogName>
                         <idno>estates/2033</idno>
@@ -3304,6 +3304,25 @@
                         <link type="juridical_persons" corresp="#juridical_persons/130"
                             subtype="link"/>
                         <link type="places" corresp="#places/2445" subtype="isPartOf"/>
+                    </place>
+                    <place>
+                        <geogName><foreign>Corninus</foreign>;
+                            <foreign>comitatus</foreign></geogName>
+                        <geogName type="other"/>
+                        <idno>estates/2034</idno>
+                        <note/>
+                        <link type="places" corresp="#places/2456" subtype="isPartOf"/>
+                    </place>
+                    <place>
+                        <geogName>San Cristoforo; <foreign>curtis</foreign></geogName>
+                        <geogName type="other"/>
+                        <idno>estates/2035</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/130"
+                            subtype="link"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/2001"
+                            subtype="link"/>
+                        <link type="places" corresp="#places/2455" subtype="isPartOf"/>
                     </place>
 
                 </listPlace>
