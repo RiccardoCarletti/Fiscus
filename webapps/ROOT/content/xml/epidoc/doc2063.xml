@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Roma, Biblioteca Vaticana, Cod. Barb. lat. 2724, 174r-175r
+                        (<foreign>Chronicon Vulturnense</foreign>, II, n. 103) </title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc2063</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">Uncertain</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0951-09-26">
+                                <note type="displayed_date">951 September 26</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">pieve di San Marino, Pavia</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-10-15" who="gzornetta">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine domini Dei eterni. Berengarius et Adelbertus divina providente
+                        clemencia reges. Si iustis peticionibus nostrorum fidelium aures nostre
+                        pietatis inclinamus, ad statum regni nostri proficere nequaquam ambigimus.
+                        Quocirca omnium fidelium Sancte Dei Ecclesie, nostrorumque, presencium
+                        scilicet ac futurorum universitas noverit, qualiter quidam abbas nomine Leo
+                        cenobii Christi Martyris Vincencii, sito in finibus Beneventanis nostram
+                        adiens celsitudinem, detulit nobis precepta precessorum nostrorum
+                        imperatorum, et regum, ac parentum nostrorum, videlicet Desiderii, Caroli,
+                        Ludovici, atque Lotharii, et Hugonis et Lotharii, per que contulerunt ex
+                        suis rebus in prefatum monasterium ac confirmaverunt res et possessiones ibi
+                        a principibus, ducibus, reliquisque fidelibus collatas. unde prefatus abbas
+                        nostram exoravit clemenciam, ut eadem precepta, ac legales scripciones, nec
+                        non predia per diversos fines regni Italici coniacencia eidem cenobio
+                        collata, per nostre confirmacionis preceptum in prefatum venerabilem locum
+                        confirmaremus. cuius peticionibus faventes, pro Dei amore, animarumque
+                        nostrarum remedio, per hoc nostre confirmacionis preceptum, prout iuste et
+                        legaliter possumus, confirmamus ac penitus corroboramus in predicto cenobio
+                        Christi Martyris Vincencii omnia precepta precessorum nostrorum imperatorum,
+                        et regum, seu parentum nostrorum, videlicet Desiderii, Caroli, Ludovici,
+                        atque Lotharii, et Hugonis et Lotharii, verum eciam omnes res et
+                        possessiones per diversos fines regni Italici positas per eadem precepta,
+                        vel quolibet legalis titulo scripcionis a principibus, ducibus, reliquisque
+                        fidelibus ibidem collatas, nec non monasteria, et cellas inferius nominatas:
+                        monasterium si quidem in honore beati Petri apostoli, constructum in loco
+                        Trite, territorio Balvense; et in Pinne cellam unam, que vocatur Sancta
+                        Maria in Musano; (in Aprucio cellam unam in loco, qui vocatur Arole); item
+                        Sancta Maria in Duas Basilicas; item monasterium Beati Petri apostoli,
+                        positum iuxta fluvium Sabbati, territorio Beneventano; sed et monasterium
+                        Sancte Dei genitricis Marie in Loco Sano; monasterium quoque domini nostri
+                        Iesu Christi, quod positum est in Alife; nec non et monasterium Sancti
+                        Georgii, quod positum est in Salerno; seu et monasterium Sancte Marie in
+                        territorio Marsicano, quod situm est in loco Apinianici una cum castris,
+                        cappellis, titulis, casis, terris, vineis, campis, pratis, pascuis, silvis,
+                        piscariis, molendinis, aquis, aquarumque decursibus, servis et ancillis ad
+                        prelibatum monasterium respicientibus in integrum Christi videlicet Martyris
+                        Vincencii, quod positum est in finibus Beneventanis. Statuimus insuper hac
+                        nostra preceptali auctoritate decrevimus, ut si aliqua intencio orta fuerit
+                        de rebus, et familiis eiusdem monasterii, liceat advocatorem suum per
+                        inquisicionem circa manencium liberorum hominum, sicut lex habet, hoc
+                        definire, et cum definitum fuerit, tunc demum ipsas res et familias pars
+                        predicti cenobii nostra preceptali auctoritate habeat atque possideat iure
+                        quieto. Precipimus preterea pretaxatum monasterium cum omnibus pretaxatis
+                        monasteriis ac cellis, rebus quoque ac familiis ibidem aspicientibus una cum
+                        fratribus, ac monachis ibidem Deo famulantibus sub nostre tuicionis
+                        munburdum. statuentes ut abbates et prepositi eiusdem loci, iuxta priscam
+                        consuetudinem ad communem utilitatem fratrum sua disponant, absque alicuius
+                        contradiccione. precipientes itaque iubemus, ut nullus dux, marchio, comes,
+                        vicecomes, castaldeus, seu quelibet regni nostri magna, parvaque persona res
+                        predicti monasterii invadere, seu omnes liberos et servos distringere,
+                        pignorare, seu molestare audeat, absque legali iudicio, neque pensionem ab
+                        eis iniuste exigere presumat. Si quis igitur huius nostri precepti
+                        confirmacionem seu munburdi tuicionem aliquando infringere conatus fuerit,
+                        sciat se compositurum auri optimi libras centum, medietatem Camere nostre,
+                        et medietatem parti predicti monasterii. Quod ut verius credatur,
+                        diligenciusque ab omnibus observetur, manibus propriis roborantes, anulo
+                        nostro insigniri iussimus. Signum dominorum Berengarii et Adelberti regum
+                        [MM]. Hubertus cancellarius, ad vicem Bruningi episcopi et archicancellarii,
+                        recegnovi et subscripsi. Data .VI. kalendas octobris, anno Dominice
+                        incarnacionis .DCCCC.L.I., regni vero domni Berengarii atque Adelberti
+                        piissimorum regum primo, indiccione .Xa. Actum in plebe Sancti Marini, in
+                        Dei nomine, feliciter, amen.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>CV II, n. 103, pp. 90-94</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
