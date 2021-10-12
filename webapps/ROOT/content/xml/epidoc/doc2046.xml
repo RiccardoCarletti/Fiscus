@@ -34,7 +34,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property">Yes</rs>
+                            <rs type="fiscal_property">Uncertain</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -300,7 +300,7 @@
                         habet: de unu latu terra de Neapolitanis; aliud latu terra <persName><name
                                 ref="Sigenolfus">Sigenolfi</name></persName>; unum capud tenet in
                             <rs key="#Fundi">fundo</rs>
-                        <geogName key="#Fundi" ref="estates/2316">Fuscari</geogName>; aliud capu
+                        <geogName key="#Fundi" ref="#estates/2316">Fuscari</geogName>; aliud capu
                         tenet in terra Fuscari de Sancto Marcello; habet per singula latera passus
                         quinquaginta et unum, et per singula capita passus novem. Tricesima sexta
                             <rs key="#Petiae">pecia</rs>, habet finis: de unu latu terra
@@ -314,22 +314,21 @@
                         Tricesima septima <rs key="#Petiae">pecia</rs>: de unu latu terra, que tenet
                                 <persName><name ref="Petritoccolus">Petritoccolo</name></persName>;
                         aliud latu subscripta terra nostra de Tauro; unum capud tenet in terra
-                        heredum Boni; aliud capud terra <persName><name
-                                ref="Iohannes">Iohanni</name></persName> de
-                        Ferrunianu Pittuli; habet per singula latera passus quadraginta et novem, et
-                        per singula capita habet passus quattuordecim. Tricesima octava <rs
-                            key="#Petiae">pecia</rs>: de unu latu terra heredum Boni; de aliud latu
-                        terra suprascripti Sigenolfi; unum capud tenit in terra suprascripti
-                        Iohanni; aliud capud terra suprascripti Ursi Pennempede; habet per singula
-                        latera passus triginta et sex, et per singula capita passus novem. Tricesima
-                        nona <rs key="#Petiae">pecia</rs>: de unu latu terra suprascripti Ursi; de
-                        aliud latu terra, que fuit <persName><name ref="Martinolus"
-                            >Martinoli</name></persName>; unum capud terra heredum Boni; aliud capud
-                        terra de Neapolitanis; habet per singula latera passus viginti et duo, et
-                        per singula capita passus quattuordecim. Quadragesima <rs key="#Petiae"
-                            >pecia</rs>, habet finis: de unu latu terra, que fuit Martinoli; aliud
-                        latu et unu capu tenet in terra suprascripti Ursi; aliud capu <rs
-                            key="#Landed_possessions">terra</rs>
+                        heredum Boni; aliud capud terra <persName><name ref="Iohannes"
+                                >Iohanni</name></persName> de Ferrunianu Pittuli; habet per singula
+                        latera passus quadraginta et novem, et per singula capita habet passus
+                        quattuordecim. Tricesima octava <rs key="#Petiae">pecia</rs>: de unu latu
+                        terra heredum Boni; de aliud latu terra suprascripti Sigenolfi; unum capud
+                        tenit in terra suprascripti Iohanni; aliud capud terra suprascripti Ursi
+                        Pennempede; habet per singula latera passus triginta et sex, et per singula
+                        capita passus novem. Tricesima nona <rs key="#Petiae">pecia</rs>: de unu
+                        latu terra suprascripti Ursi; de aliud latu terra, que fuit <persName><name
+                                ref="Martinolus">Martinoli</name></persName>; unum capud terra
+                        heredum Boni; aliud capud terra de Neapolitanis; habet per singula latera
+                        passus viginti et duo, et per singula capita passus quattuordecim.
+                        Quadragesima <rs key="#Petiae">pecia</rs>, habet finis: de unu latu terra,
+                        que fuit Martinoli; aliud latu et unu capu tenet in terra suprascripti Ursi;
+                        aliud capu <rs key="#Landed_possessions">terra</rs>
                         <orgName key="#Landed_possessions">Sancti Nazarii</orgName>; habet per
                         singula latera passus triginta, et per singula capita passus tredecim.
                         Quadragesima prima <rs key="#Petiae">pecia</rs>: de unu latu terra
@@ -439,9 +438,10 @@
                             key="#Rural_communities">Linianu</placeName>; habet per singula latera
                         passus quinquaginta quattuor, et per singula capita passus sex. Tercia <rs
                             key="#Petiae">pecia</rs> nomina ad Croce, habet finis: de unu latu terra
-                                <persName><name key="#Priests" ref="Pepinus">Pepini</name></persName>
-                        <rs key="#Priests">presbiteri</rs>; aliud latu tenit in terra <persName><name
-                                key="#Priests" ref="Rico">Riconi</name></persName>
+                                <persName><name key="#Priests" ref="Pepinus"
+                            >Pepini</name></persName>
+                        <rs key="#Priests">presbiteri</rs>; aliud latu tenit in terra
+                                <persName><name key="#Priests" ref="Rico">Riconi</name></persName>
                         <rs key="#Priests">presbiteri</rs>; unum capud tenit in terra de homines de
                         Mairanu; aliud capud in via; habet per singula latera passus nonaginta, et
                         per singula capita passus decem. Quarta <rs key="#Petiae">pecia</rs>, finis
@@ -683,12 +683,12 @@
                         unum caput terra de Neapolitanis; aliud caput terra Sparanu; habet per
                         singula latera passus quadraginta et sex, et per singula capita passus octo.
                         Quinquagesima nona <rs key="#Petiae">pecia</rs>, ibique: de unu latu terra
-                        Sadiperti; aliud latu et unum caput terra de <rs key="#Monks">monachi</rs> de
-                        Cappella; aliud caput terra <persName><name ref="Audoaldus"
-                            >Audoaldi</name></persName>; habet per singula latera passus sexaginta
-                        duo, et per singula capita passus quinque. Sexagesima <rs key="#Petiae"
-                            >pecia</rs> de Leussolo, ibique, finis habet: de unu latu terra
-                                <persName><name ref="Alfanus">Alfani</name></persName>; de aliu latu
+                        Sadiperti; aliud latu et unum caput terra de <rs key="#Monks">monachi</rs>
+                        de Cappella; aliud caput terra <persName><name ref="Audoaldus"
+                                >Audoaldi</name></persName>; habet per singula latera passus
+                        sexaginta duo, et per singula capita passus quinque. Sexagesima <rs
+                            key="#Petiae">pecia</rs> de Leussolo, ibique, finis habet: de unu latu
+                        terra <persName><name ref="Alfanus">Alfani</name></persName>; de aliu latu
                         terra suprascripti Pauli; unum caput tenet in via; aliud caput terra
                                 <persName><name ref="Ianuarius">Gennari</name></persName>; habet per
                         singula latera passus viginti octo, et per singula capita passus septem.
