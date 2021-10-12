@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Roma, Biblioteca Vaticana, Cod. Barb. lat. 2724, 84v-86r (<foreign>Chronicon
+                        Vulturnense</foreign>, I, n. 29) </title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc2059</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">Uncertain</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0819-01-11">
+                                <note type="displayed_date">819 January 11</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Aachen</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-10-08" who="gzornetta">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>(In nomine domini Dei et salvatoris nostri Iesu Christi. Hludovicus, divina
+                        ordinante) clemencia, (imperator augustus. Cum peticionibus sacerdotum ac
+                        servorum Dei quas nostris auribus insinuaverint libenter annuimus, non solum
+                        regiam consuetudinem exercemus, sed eciam hoc nobis tam ad presentis vite
+                        prosperitatem, quam ad future beatitudinem adipisci non minimum emolumenti
+                        afferre confidimus. Iccirco notum sit omnibus fidelibus sancte Dei Ecclesie
+                        et nostris presentibus scilicet ac futuris, quia vir venerabilis Iosue,
+                        abbas monasterii) Beati (martiris Christi Vincencii; quod situm est in)
+                        territorio Beneventano, super fluvium Vulturnum, (nostram adiens serenitatem
+                        optulit optutibus nostris precepta Langobardorum) principum et ducum,
+                        videlicet Gysulfi et Sicardi, (nec non et preceptum pie recordacionis domni
+                        et genitoris nostri Caroli piissimi augusti, in quibus illi iam antecessorum
+                        quorum regum, quam et ducum vel aliorum || quorumlibet Deo devotorum
+                        hominum) concessiones et offerciones vel legales scriptiones, quas illi, pro
+                        amore vite future et pro remedio animarum suarum atque remissione peccatorum
+                        in (partibus predicti monasterii), de suis rebus (spontanea voluntate
+                        contulerunt, suggerens ac petens, ut eadem precepta) et offerciones seu
+                        omnes legales scripciones (nostre confirmacionis precepto confirmaremus.
+                        Cuius peticioni, ob amorem et honorem domini nostri Iesu Christi) et propter
+                        reverenciam eiusdem martyris Christi sancti Vincencii, cuius honori atque
+                        nomini predictum monasterium dicatum esse cognoscitur, (assensum prebentes),
+                        iuxta quod rogaverat, (predicta precepta) et omnes offerciones vel legales
+                        scripciones concedimus et (confirmamus) ac penitus corroboramus in prefato
+                        cenobio Christi martyris Vincencii omnes res et possessiones, per diversos
+                        fines regni Italici positas, per eadem precepta vel quaslibet legales
+                        scripciones a principibus, ducibus reliquisque fidelibus ibidem collatas,
+                        nec non et monasteria et cellas inferius nominatas, oinnia in prefato
+                        cenobio concedimus et confirmamus: in primis quoque cellam Sancti Sossii,
+                        cum inclita curte et vualdum, que est in partibus Liburie, qui dicitur
+                        Pantanu, que data est a dace Gysulfo in predicio cenobio, per hos quoque
+                        fines: prima parte est via antiqua, que de Ducenta venit, et sicut descendit
+                        via ipsa, et intrat in ipsum Pantanum et silvam et paludem coniuncta Lanco;
+                        a secunda vero parte via nichilominus est antiqua, que dicitur Vicina; a
+                        tercia vero iterum usque ad viam, que est antiqua, una cum ipsa piscina
+                        eiusdem monasterii et decernit via ipsa terras et vualdum ante dicti
+                        monasterii et aliam terram ipsius monasterii, que dicitur de Tortora, et
+                        terras aliorum hominum, que ibi affines sunt, et sicut incipit super ipsam
+                        piscinam, et qualiter volvit circa ipsam terram de eodem vualdo, et iam
+                        dictam terram, que dicitur de Tortora, et vadit ad ipsum Pantanum predicti
+                        monasterii et qualiter perexit super ipsum Pantanum, et silvam, et paludem,
+                        usque in ipsum Frigidum; a quarta autem parte, usque in iam dictum Frigidum,
+                        et predictum Laneum, cum omnibus intro habentibus, super vel subter, que
+                        dici vel nominari possunt, nostra imperiali auctoritate in eodem cenobio
+                        concedimus et confirmamus. Deinde similiter alium (vualdum) coniunctum in
+                        eodem loco, qui datus est in eodem monasterio a Sicardo, principe
+                        Beneventane civitatis, per (hos) scilicet (fines: ab uno latere via antiqua,
+                        que venit a Ducenta, et) ipsum (Vualdum predicti monasterii, et quemadmodum
+                        perexit usque in ipsum Pantanum eiusdem monasterii; ex alio) vero (latere)
+                        fine (via puplica, que vadit inter ipsum Macianum, et Scarafena, et terra de
+                        hominibus de Centora, et directe exit usque ad locum, qui dicitur Cree, unde
+                        aqua exit, et sic directe intrat in ipsum lacum Patriensem; et ab uno capite
+                        via puplica, que dicitur Vicana, et pergit ad Cumis; ab alio) autem (capite
+                        finit lacus Patriensis. hec autem) omnia qualiter super sunt indicata, et
+                        sicut precepta eiusdem continent monasterii, cum omnibus inferius
+                        superiusque consistentibus, cum viis et aquis, et cum Pantano ipso et ripis,
+                        et cum omnibus que dici possunt in eodem concedimus cenobio et confirmamus.
+                        item concedimus atque confirmamus in eodem cenobio monasterium Sancti Petri,
+                        quod situm est in territorio Capuano, non longe ab arcu Dyane, quod dicitur
+                        de Tuntulo, cum ecclesia Sancti Martini, que est in partibus Liburie, cum
+                        inclito casale, quod dicitur Severano, et cum aliis casalibus et
+                        territoriis, et pantanis, in loco ubi dicitur ad Trasanglu, sicut eius
+                        precepta continent et scripciones; quam et ecclesiam Sancti Vincencii in
+                        Liburia, ubi dicitur Tremoiola, cum omnibus territoriis suis. item cellam
+                        Sancti Vincencii de Cume, cum curte et casis suis. item cellam Sancti
+                        Georgii infra Salernitanam civitatem; cellam Sancti Vincencii in fluvio
+                        Tusciano; cellam Sancti Valentini in fluvio Bisentino; cellam Sancti
+                        Vincencii in fluvio Tensa, cum omnibus aliis cappellis et pertinenciis
+                        earum, et omnibus aliis cellis et terris, per diversos fines regni Italici
+                        positas, ex quibus pars legales iam dicti cenobii scripciones quocumque
+                        ostenderit tempore, in eodem monasterio concedimus et confirmamus, (ut
+                        abhinc in futurum) hec omnia, que supra diximus, (firma perseverent, ita
+                        videlicet ut quicquid in ipsis vel de ipsis rectores vel ministri) eiusdem
+                        (monasterii disponere vel ordinare) placuerint , (absque quorumlibet
+                        contradiccione ordinent atque disponant, prout utiliter congruere
+                        perspexerint. Et nulli sit deinceps licencia infra predictos fines) seu in
+                        cellis vel terris (aliquam contrarietatem) aut (molestiam partibus inferre
+                        cenobii. Neque) aliquis (per parentum possessiones) eius hereditates
+                        residere audeat, (excepto perveraces cartulas) et legales (consignaciones),
+                        sicut Aysulfus rex Langobardorum constituit de ecclesiis. Et nullus audeat
+                        abbates vel monachos eiusdem cenobii ad iurandum querere, quia contra
+                        divinam credimus esse legem, sed per scariones omnibus temporibus finem
+                        faciant, sicut prisca fuit consuetudo. Statuimus quoque ut nullus ex servis
+                        aut ex familia eiusdem monasterii vel eos, quos cortisianos vocant, audeat
+                        inquietare aut quodlibet pensum quisquam ei exactor tollere vel exigere
+                        presumat. (Quod si quislibet contra hanc nostram concessionem vel
+                        confirmacionem insurgere vel molestias inferre tem­ptaverit, sciat se
+                        compositurum auri purissimi libras) mille quingentas, (medietatem) Camere
+                        nostre (et medietatem) prefato (venerabili monasterio. Et ut hec nostre
+                        auctoritatis largicio firmiorem optineat vigorem et per curricula annorum
+                        inviolabilem atque incommutabilem optineat firmitatem et a fidelibus sancte
+                        Dei Ecclesie et nostris) verius, (presentibus sci1icet et futuris),
+                        (credatur, diligenciusque) ab omnibus (conservetur, manu propria subter
+                        scripsimus et anuli nostri impressione signari iussimus. Signum) domni
+                        (Hludovici serenissimi imperatoris. [M.] Data IIIo. idus) ianuarias, (anno
+                        Christo propicio) sexto (imperii domni HIudovici piissimi Augusti,
+                        indiccione XIIa. (Actum) Aquisgrani palacio regio, (in Dei nomine,
+                        feliciter).</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>CV I, n. 29, pp. 232-238</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>This is a copy of an authentic diploma but the form of the original text was
+                    remodeled and numerous interpolations were introduced. These were intended to
+                    give authority to both the Carolingian forgeries and the remaking of some
+                    earlier diplomas and <foreign>praecepta</foreign>. Vincenzo Federici assumes
+                    that the donation of both the Pantano wood and the church of San Sossio were
+                    indeed given to San Vincenzo al Volturno with this diploma. However, it wants to
+                    attribute greater antiquity to the donation of another wood in Liburia, close to
+                    that of Pantano, granted to the monastery later by Prince Sicardo of
+                    Benevento.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
