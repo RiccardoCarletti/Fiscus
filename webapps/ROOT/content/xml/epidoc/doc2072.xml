@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Roma, Biblioteca Vaticana, Cod. Barb. lat. 2724,  cc.
+                        338r-v(<foreign>Chronicon Vulturnense</foreign>, III, n. 206) </title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc2072</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Libellus/precaria/emphyteusis</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">Yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1066-07-06">
+                                <note type="displayed_date">1066 July 6</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date"/>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-10-18" who="gzornetta">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>[.....S]exta die stantis mense iulio, quarta indiccione. Nos tales homines,
+                        idest Aczoalde, et Iohannes filios quondam Toti, et Iohannes Fasane
+                        notarius, et Iohannes Yngue, et Iohannes filius Riccardi, et Pipo filius
+                        Piponi, et Iohannes filius Amiconi, nos toti habitatores de loco Sancte
+                        Marie, que dicitur Olivetum, qualiter presencia Ralchisi iudicis, et Iohanne
+                        iudice de supradicta Sancta Maria, et alios testes, sicut convenit inter
+                        nobis, et Beccius presbiter, et monachus atque prepositus monasterii Sancti
+                        Vincencii, situs super Vulturnis fluminis fontem, ubi domnus Iohannes
+                        venerabilis abbas preest, ille erga secum habendo Domnellu abbocatorem
+                        cenovii Sancti Vincencii, et tunc per eadem conveniencia voluntarie nostre
+                        guadiam dedimus, nos ad Raymundus, et Lando Yngue, et fidemiussores nos ei
+                        posuimus per ipsam conveniencia nos ipsi supradicti, quatinus qui super
+                        Aczo, et Iohannes Toti, et Iohannes Fasane, et Iohannes Yngue, et Iohannes
+                        Riccardi, et Pipo, et Iohannes Amiconi, vel nostris heredibus, debeamus
+                        tenere, et laborare, et fruere terris, que sunt pertinentes predicto
+                        monasterio Sancti Vincencii, que sunt infra comitatu Benafro, propinque
+                        supradicta ecclesia Sancte Marie, et propinqua ecclesia Sancte Cristine, et
+                        Sancti Quirici, que sunt ipse ecclesie intus ipsis terris, et sunt
+                        pertinentes supradicti monasterii; et victualium, et vinum, seu alia
+                        qualibet fruges ibidem Dominus dederit annualiter, nostre habeamus
+                        potestate, unde decimam partem debeamus dare ad abbates, vel successores,
+                        atque rectores supradicti monasterii de fruges illas, qualiter hic legitur,
+                        idest de grano, de ordeo, de milium, vel de farros, aut cannaba, et sicina;
+                        et de vinum, quod inde exierit similiter decimam porcionem, tractum totum
+                        nos istum adsignatum salvum intus aera, que est intus ipsis terris
+                        edificatam, et in nativitas Domini debeamus nos dare spallam bone porcine,
+                        ad partem eodem monasterio, et yscaticum demus eis nos de omnes porcos
+                        maiores decimam. et si hec taliter, qualiter unde super legitur non
+                        fecerimus, et non compleverimus ad partes ipsius monasterii omnia, qualiter
+                        preelegitur, ducentos bizanteos solidos aureos bonos pena nos componere
+                        obligamus ad partem eodem monasterio, et omnia, qualiter prelegitur,
+                        percompleamus. Unde si necesse fuerit ad pignorandum obligamus nos qui super
+                        supradictus Aczo, Iohannes Toti, Iohannes Fasane, Iohannes Yngue, Iohannes
+                        Riccardi, et Pipo, Iohannes Amiconi, per nos ipsis fidemiussores ad abbates,
+                        vel successores, iam prephati monasterii, aut cui hoc scriptum, pro parte
+                        supradicti monasterii, per nominative boui, bacce, iumente, et caballi, et
+                        porci, et de aliis rebus nostris usque ad legem.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>CV III, n. 206, pp. 101-103</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
