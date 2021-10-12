@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Roma, Biblioteca Vaticana, Cod. Barb. lat. 2724, 238v-240r
+                        (<foreign>Chronicon Vulturnense</foreign>, II, n. 143) </title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc2066</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">Uncertain</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0983-11-12">
+                                <note type="displayed_date">983 November 12</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Capua</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-10-15" who="gzornetta">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>(In nomine domini Dei eterni. Otto divina providente clemencia Romanorum
+                        imperator augustus. Ad hoc omnipotentis Dei misericordia humanitatem nostre
+                        fragilitatis in tantum culminis excellentiam promovere dignatus est,
+                        quatinus ecclesiarum sanctarum pervigili studio sollicitudinem gerentes,
+                        cultores earum paterno affectu ab omni incursione et pravitate hominum
+                        perversorum eripere studeremus. quocirca universitatem nostrorum fidelium
+                        latere nolumus, qualiter vir venerabilis Iohannes nomine abbas monasterii
+                        Sancti martyris Vincencii, quod est situm in finibus Beneventanis, et pene
+                        circumdatum fluvio, qui Vulturnus appellatur, nostram adiens celsitudinem
+                        detulit precepta precessorum nostrorum, videlicet regum, et imperatorum,
+                        principum, et ducum, per que detulerunt ex suis rebus in prefatum
+                        monasterium, ac confirmaverunt res et possessiones inibi ab imperatoribus,
+                        principibus, ducibus, reliquisque Christi fidelibus conlatas. unde iam
+                        dictus abbas nostram exoravit clemenciam, ut eadem precepta ac legales
+                        scripciones, nec non predia, per diversos fines Italici regni coniacencia,
+                        eidem cenobio conlata, per nostre confirmacionis pragmaticum, in prefatum
+                        venerabilem locum concederemus et confirmaremus. cuius dignis peticionibus
+                        faventes, pro Dei amore animeque nostre remedio, per hoc confirmacionis
+                        preceptum, prout iuste et legaliter possumus, concedimus, et confirmamus,
+                        atque corroboramus in predicto cenobio Sancti Vincencii martiris omnia
+                        precepta precessorum nostrorum, imperatorum, et regum, verum eciam omnes res
+                        et possessiones, per diversa loca regni Italici positas, per eadem precepta,
+                        vel quolibet legali titulo scripcionis a principibus, ducibus, reliquisque
+                        Christi fidelibus ibidem conlatas). (nam primitus manifestamus ipsas
+                        hereditates, que circumdant iam dictum cenobium, in Samnie partibus, has
+                        fines habentes: a Sangro quoque fluvio, et sic iusta montes, qui puplice se
+                        videntur, usque in montem, qui nunccupatur Azze, et sicut mons ipse revolvit
+                        usque in fluvium Melfa, et velut decurrit ipsum Melfa usque ubi coniungitur
+                        cum fluvicello, qui dicitur Mellarino, et ex hoc loco usque in cacumine
+                        montis, qui dicitur Balbola, et per verticem eiusdem montis usque in montem
+                        Archanum, et montem, qui dicitur Marthe, et in montem usque Casale, eosque
+                        scilicet montes exterius circumdantes usque unde ipsa oritur Ravennola, et a
+                        capite ipsius Ravennole venientes iuxta alios montes puplicos usque in
+                        montem, qui est super Benafranam urbem; eodem vero monte revolvente usque in
+                        montis verticem, qui super terram est, que ad Arcora dicitur, que est
+                        hereditas ecclesie Sancte Dei genitricis Marie, que vocatur ad Olivetum,
+                        subdita iam dicti monasterii; in eodem loco similiter constructa est
+                        ecclesia Sancte Cristine, subdita eiusdem monasterii, cum inclitis terris,
+                        et pertinenciis suis; deinde ab ipsa terra, que dicitur ad Arcora per
+                        diversos fines euntes usque in fluvio Vulturno; ex alia vero parte iterum
+                        incipiunt fines a priori loco simul cum Sangro fluvio usque in locum a quo
+                        recte aspicitur collem aparum, sicque pergens usque in rivio, qui dicitur
+                        Foruli, et decurrente ipso rivio usque in fluvio, qui nominatur Vantra, et
+                        qualiter decurrit ipsum flumen in iam dicto fluvio Vulturno, et quemadmodum
+                        decurrit ipsum flumen iusta terras predicti monasterii usque in predictis
+                        finibus, et terris Sancte Marie. hec vero hereditas per supradictos fines
+                        ideo in prefato cenobio concedimus et confirmamus, quia iam ibi concessum et
+                        confirmatum est a domno Lodovico imperatore, nec non et a serenissimo bone
+                        memorie patre nostro Ottone piissimus imperator augustus. ita videlicet non
+                        solum hec, verum eciam omnia, que ab ipsis imperatoribus concessa sunt, et
+                        confirmata, ea videlicet racione libenter concedimus, et confirmamus: hoc
+                        est ipsas hereditates superius nominatas, cum iam dictis finibus suis, et
+                        cum castellis, ecclesiis servis, et ancillis, cespitibusque suis, montibus,
+                        collibus, vallibus toronibus, aquis, pascuis, pratis, campis, silvis,
+                        molendinis, et cum omnibus que nominari possunt) (insuper concedimus in
+                        eodem cenobio montem, qui dicitur Acerum cum inclitis finibus suis, et
+                        inclitam ipsam vuallem Soranam cum omnibus ecclesiis, montibus campis, et
+                        silvis, et omnibus pertinenciis suis, et cum aliis ecclesiis, et terris, que
+                        sunt in finibus Sorane civitatis, et sicut precepta vel scripciones, et
+                        offerciones eiusdem monasterii continent). insuper concedimus et confirmamus
+                        in iam dicto cenobio omnia monasteria, terras, et cellas per diversa loca
+                        regni Italici constructas, et omnia, que nominatim scripta sunt in precepto
+                        domni Ottoni patris nostri serenissimi imperatoris. (recepimus preterea
+                        pretaxatum monasterium cum omnibus pretaxatis monasteriis, ac cellis, rebus
+                        quoque ac familiis ibidem aspicientibus, cum fratribus ac monachis ibidem
+                        Deo famulantibus, sub nostre tuicionis munburdum). (statuentes [...] abbates
+                        et prepositi eiusdem loci, iuxta priscam consuetudinem ad communem
+                        utilitatem fratrum sua providencia disponat absque alicuius contradiccione).
+                        precipientes itaque iubemus, ut nullus princeps, dux, marchio, comes,
+                        castaldio, seu qualibet regni nostri magna parvaque persona res predicti
+                        monasterii invadere, seu homines liberos et servos distringere, pignerare,
+                        seu molestare audeant, neque pensionem hab eis exigere presumant. (Si quis
+                        igitur huius nostri precepti confirmacionem seu mumburdi tuicionem aliquando
+                        infringere conatus fuerit, sciat se compositurum auri optimi libras mille
+                        quingentas, medietatem Camere nostre, et medietatem parti predicti
+                        monasterii). (Quod, ut verius credatur, diligenciusque ab omnibus
+                        observetur, manu propria roborantes, anulo nostro insigniri iussimus).
+                        (Signum domni secundi Ottonis, Romanorum imperatoris [M] et invictissimi
+                        augusti. Adelbertus cancellarius, ad vicem [...] Petri [...] episcopi et
+                        archicancellarii, recognovi et subscripsi. Data .II.idus novembrium, anno
+                        Dominice incarnacionis .DCCCCLXXXIII., indiccione .XI., regni vero domni
+                        secundi Ottonis .XXI., imperii quoque eius .XVI. Actum Capue, feliciter,
+                        amen).</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>CV II, n. 143, pp. 243-247</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
