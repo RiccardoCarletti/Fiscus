@@ -5334,10 +5334,11 @@
                     </place>
                     <place>
                         <placeName>Rosignano Marittimo (Livorno)</placeName>
-                        <placeName type="other"/>
+                        <placeName type="other"><foreign>Rasignano</foreign>;
+                                <foreign>Rainano</foreign></placeName>
                         <geogName type="coord"><geo>43.4048453, 10.4750458</geo></geogName>
                         <idno>places/580</idno>
-                        <note/>
+                        <note>Repetti IV p.823. </note>
                     </place>
                     <place>
                         <placeName><foreign>Ciceriana</foreign> (Spedaletto; Bagni di Lucca;
@@ -8464,8 +8465,11 @@
                     <place>
                         <placeName><foreign>Vuingule</foreign> (presso Montecalvoli;
                             Pisa)</placeName>
-                        <placeName type="other"><foreign>Wingulo</foreign>; Winciulo; Vuinciulo;
-                            Guincioro; Wuinciole; Vuinzule; Guinciole</placeName>
+                        <placeName type="other"><foreign>Wingulo</foreign>;
+                                <foreign>Winciulo</foreign>; <foreign>Vuinciulo</foreign>;
+                                <foreign>Guinculo</foreign>; <foreign>Guincioro</foreign>;
+                                <foreign>Wuinciole</foreign>; <foreign>Vuinzule</foreign>;
+                                <foreign>Guinciole</foreign></placeName>
                         <geogName type="coord"><geo>43.678805, 10.661251</geo></geogName>
                         <idno>places/2443</idno>
                         <note>Pescaglini Monti p. 331.</note>
@@ -8581,12 +8585,20 @@
                         <geogName type="coord"><geo>44.117934, 10.452737</geo></geogName>
                         <idno>places/2453</idno>
                         <note>Repetti I, p. 676.</note>
+                        <link type="juridical_persons" corresp="#juridical_persons/130"
+                            subtype="link"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/2001"
+                            subtype="link"/>
                     </place>
                     <place>
                         <placeName>Bucine (Pescaglia; Garfagnana; Lucca)</placeName>
                         <placeName type="other"><foreign>Bucini</foreign></placeName>
                         <geogName type="coord"><geo>43.9904, 10.37066</geo></geogName>
                         <idno>places/2454</idno>
+                        <link type="juridical_persons" corresp="#juridical_persons/130"
+                            subtype="link"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/2001"
+                            subtype="link"/>
                         <note/>
                     </place>
                     <place>
@@ -8607,6 +8619,20 @@
                         <note>Valle scavata dal fiume omonimo, al confine tra Maremma
                             pisano/livornese e Maremma grossetana. Il Cornia nasce non lontano da
                             Castelnuovo di Val di Cecina e sfocia nei pressi di Piombino.</note>
+                    </place>
+                    <place>
+                        <placeName>Torre di Tabbiano (San Giuliano Terme; Pisa)</placeName>
+                        <placeName type="other"><foreign>Tabiano</foreign></placeName>
+                        <geogName type="coord"><geo/></geogName>
+                        <idno>places/2457</idno>
+                        <note>La toponomastica odierna non conserva traccia della località, ma il
+                            Repetti la indica come dipendente dalla pieve di Rigoli (di cui quindi
+                            si indicano le coordinate).</note>
+                        <note>Repetti V, p. 495.</note>
+                        <link type="juridical_persons" corresp="#juridical_persons/130"
+                            subtype="link"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/2001"
+                            subtype="link"/>
                     </place>
                 </listPlace>
                 <listPlace n="Internullo Dario">
