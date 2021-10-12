@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>(BSSS 74 doc. 168)</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc1834</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#"/>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate notBefore="0001" notAfter="0001" when="1219-04-15">
+                                <note type="displayed_date">15 April 1219</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date"/>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-10-12" who="cciccopiedi">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>Anno dominice Incarnationis millesimo duc(c)entestimo decimonono. Inditione
+                        septima XV die Intrante aprili cum dominus <persName><name>Envrardus</name>
+                            de Lutri </persName><rs key="#Other_minor_officer">nuntius</rs>
+                        constitutus domini <persName key="#Emperor/king" ref="#people/521"
+                            >frederici</persName> dei gratia regis romanorum et semper augusti et
+                        regis cecilie et plenam iurisdictionem eidem domino envrardo a suprascripto
+                        domino rege concessam Sicuti per privilegium sigillatum sigillo domini regis
+                        apparebat scilicet a papia superius: venisset in civitate yporegie ad
+                        petendum et recipiendum nomine predicti domini regis fidelitates comunis
+                        sive hominum yporegie. Ipsi homines yporegie prefato domino envrardo nomine
+                        predicti domini regis predictam fidelitatem ei pacifice et benigne fecerunt
+                        et libenter unde ipse dominus Envrardus ibi incontinenti in plena credencia
+                        nomine memorati investivit dominum Guilielmum de sparoaria yporiensem
+                        potestatem nomine et ad partem comunis yporegie sive hominum yporegie de suo
+                        recto feudo et de omnibus eorum rationibus et honoribus et bonis usantiis.
+                        Ita quod comune yporegie habeat et teneat sicuti debet habere et tenere alia
+                        gentilis civitas et sicuti olim consueverant tenere et habere tempore domini
+                        frederici Imperatoris. Promittendo dominus Envrardus quod suprascriptam
+                        investituram sicuti superius legitur faciet laudare et confirmare prefato
+                        domino regi si fuerit requisitus. Actum yporegie suprascriptus dominus
+                        Envrardus hanc Cartam fieri iussit. Interfuerunt testes dominus Boyamundus
+                        de mercato et dominus Jacobus et obertus de turre et bonuiohannes de bolengo
+                        et maynfredus crassus et Ricardus de burgo et hanricus de puteo et
+                        fredericus et multi alij. Ego Petrus notarius sacri palacij interfui et hanc
+                        cartam inde scripsi. (S.T.) Ego Rubeus notarius sacri palatij Hautenticum
+                        huius exempli vidi et legi. Et sicut in illo continebatur sic et in isto
+                        scripsi exemplo. Nichi addito vel dempto quod mutet sensum. (S.T.) Ego
+                        Jacobus sacri palatii notarius hautenticum huius exempli vidi et legi et
+                        sicut in illo continebatur sic et in isto continetur exemplo. et ideo me
+                        subscripsi et signum meum apposuui. (S.T.) Ego Nicolaus notarius sacri
+                        palatii hautenticum huius exempli vidi et legi et sicut in illo continebatur
+                        sic et in isto firmavi et ideo me subscripsi. </ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>I presuli eporediesi non fecero uso del titolo di comes fintantoché gli altri
+                    soggetti politici operanti in seno alla civitas non posero in discussione il
+                    loro esercizio di un vasto spettro di attività attinenti alla sfera del
+                    publicum. A pesare sull’adozione del titolo di comes a partire dagli anni
+                    Venti-Trenta del Duecento fu perciò questo diploma  in favore del comune di
+                    Ivrea, attraverso il quale Federico II riconosceva agli Eporediesi «omnibus
+                    eorum rationibus et honoribus et bonis usantiis, ita quod commune Yporegie
+                    habeat et teneat sicuti debet habere et tenere alia gentilis civitas» . </p>
+            </div>
+        </body>
+    </text>
+</TEI>
