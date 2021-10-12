@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Roma, Biblioteca Vaticana, Cod. Barb. lat. 2724, 105r-v (<foreign>Chronicon
+                        Vulturnense</foreign>, I, n. 56) </title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc2057</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">Yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0833-02">
+                                <note type="displayed_date">833 February</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Benevento</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-10-08" who="gzornetta">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine domini Dei salvatoris nostri Iesu Christi. Nos vir gloriosissimus
+                        Sicardus, Dei providencia, Beneventane provincie princeps, per rogum
+                        Roffrid, referendarii nostri, concedimus in monasterio Beati Vincencii,
+                        situm in Smanie finibus, super flu­vium Vulturnum, ubi venerabilis vir
+                        Epyphanius abbas, orator noster, preesse videtur, hoc est terram et vualdum,
+                        posite in partibus Liburie, ubi dicitur Pantanu, hos fines habentes: ab uno
+                        latere via antiqua, que venit de Ducenta, et vualdum eiusdem monasterii,
+                        quod ibi datum est a domno Gysulfo duce, et quomodo perexit usque in ipsum
+                        Pantanum, et silvam eiusdem monasterii; ex alio latere via puplica, que
+                        vadit inter ipsum Maciana et Scarafena, et terra de hominibus de Centora, et
+                        sic directe exit usque ad locum, qui dicitur Cree, unde aqua exit, et sic
+                        directe intrat in ipsum lacum Patriensem; et ab uno capite via puplica, que
+                        dicitur Vicana, et pergit ad Cumas; ab alio capite definit lacus Patriensis.
+                        hec autem terra et vualdu ideo in iam dictum cenobium concedimus per iam
+                        dictos fines; seu concedimus atque firmamus, in eodem loco Liburie, cellam
+                        Sancti Sossii; cum inclito vualdo consistentes in iam dicto monasterio
+                        Sancti Vincencii, per ipsos fines, qualiter datum est in prefato cenobio per
+                        sigillatum preceptum a domno duce Gysulfo, ut a modo et deinceps, per hoc
+                        nostrum roboratum preceptum, una cum aquis, et paludibus, et pantanis, viis,
+                        et pascuis, campis, et silvis et || omnia infra ipsos fines manencia subter
+                        vel super, et simul cum alveis et cursibus de ipso Laneo et ipso Frigido,
+                        iam dictus venerabilis Epyphanius abbas et successores eiusdem monasterii
+                        firmiter et securiter possideant in perpetuum, ita ut a nullis umquam
+                        potestatibus, vel exactoribus, vel a quibuscuinque hominibus, nullis
+                        temporibus corrumpantur aut removeantur, vel molestentur, sed perpetuis
+                        temporibus pars eiusdem monasterii possideat. Quod vero preceptum
+                        firmitatis, ex iussione et potestate, scripsi ego Radipertus notarius Actum
+                        Benevento, in palacio, primo anno principatus eius, mense februario,
+                        undecima indiccione, feliciter. </ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>CV II, n. 56, pp. 291-292</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>This <foreign>praeceptum</foreign> was used as a source for the interpolation
+                    concerning the second Pantano forest in the Louis the Pious's diploma (CV I, no.
+                    29, p. 233, footnote 1). </p>
+            </div>
+        </body>
+    </text>
+</TEI>
