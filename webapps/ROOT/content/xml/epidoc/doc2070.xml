@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Roma, Biblioteca Vaticana, Cod. Barb. lat. 2724, cc. 247r-248v
+                        (<foreign>Chronicon Vulturnense</foreign>, II, n. 148) </title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc2070</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">Uncertain</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0981-10-10">
+                                <note type="displayed_date">981 October 10</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Benevento</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-10-15" who="gzornetta">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>(In nomine sancte et individue Trinitatis. Otto, divina favente clemencia,
+                        imperator augustus. Si ea, que sanctis iniuste sunt ablata restituerimus, ad
+                        salutem nostre anime provenire non diffidimus. quapropter omnium fidelium
+                        sancte Dei Ecclesie, nostrorumque presencium, ac futurorum comperiat
+                        universitas [...] monasterium Sancti Vincencii Iohannes venerabilis abbas,
+                        nostram adiens clemenciam, conqueri et reclamare ceperat, quod) monasterium
+                        Sancti Vincencii destructum a nefanda gente Agarenorum, pene omnibus
+                        destitutum rebus, et ab inimicis Dei ecclesiarum Dei contrarii iniuste
+                        retineri nostris temporibus videtur. scilicet cellam Sancti Donati; et
+                        monasterium Sancte Columbe; et Sancto Marciano: ab una parte fine Acerno; ab
+                        alia parte fine Fossato; alio capite fine Sancta Iusta; et ab alio capite
+                        coniunctum est cum ipso monasterio de Sancta Columba; simulque cella Sancti
+                        Iuliani de Vico Albo: ab una parte rivus, qui pergit per vallem de
+                        Castagnetum; ab alia parte rivus, qui dicitur de Mala Fide; ab alia parte
+                        via puplica, que venit ad Sanctam Mariam; et ab alio capite rivus, qui venit
+                        ad fontem Vetula, curtem Sancti Casti, et Sancte Marie, que sunt ad Sanctum
+                        Georgium; fine fonte Karoli, et fine valle de Vicu, quomodo in Rosanisco
+                        vadit, et Sanctum Maurum de Anglone cum pertinenciis suis; simulque campum
+                        Borrani qui dicitur, qui habet finis: ab una parte terra Richardi; ad alia
+                        parte via puplica; a tercia parte fine terra Adelberti, qui Sabinianus
+                        vocatur; quarta pars fine terra Sancti Angeli de Barregio; in valle, que
+                        dicitur Sorana ecclesiam Sancti Stephani cum omnibus suis pertinenciis;
+                        preterea in actu Balvense, in loco qui nuncupatur Quinque Milia ecclesiam
+                        Sancte Marie, que cella eiusdem monasterii dinoscitur, per fines hic
+                        subscriptas: qualiter vadit fluvius Sangro versum qua parte Rasinus fluit,
+                        et exinde decurrit rivus, qui exit de Quinque Milia usque in Petra, ubi fuit
+                        antiquitus castellum, et quomodo tota ipsa vallis vadit in rivo de Camarda,
+                        et ipse rivus decurrit in fluvius Sangro; atque ecclesiam Sancti Marcelli,
+                        propinqua Pectorano cum omnibus rebus ibidem subiacentibus: (que quoniam)
+                        ecclesias, et cellas, et curtes (ipsi Sancte iuste cognovimus pertinere
+                        Ecclesie, hac nostra preceptali auctoritate eidem monasterio et Sancte
+                        Ecclesie restituimus et reddimus) ipsas ecclesias, et cellas, et curtes (una
+                        cum omni eorum integritate, terris, vineis, pratis, pascuis, silvis,
+                        piscacionibus, aquis, rivis, molendinis, omnibusque rebus ad) ipsas
+                        ecclesias, et cellas, et curtes (pertinentibus, quatenus per hoc nostre
+                        auctoritatis preceptum habeat ipsum monasterium easdem) ecclesias, et
+                        cellas, et curtes (cum eorum omni integritate, habeantque potestatem
+                        prenominatus abbas, suique successores quicquid ad utilitatem ecclesie eis
+                        rectum visum fuerit faciendi, omnium hominum contradiccione remota. Si quis
+                        vero dux, princeps, marchio, comes, seu aliqua nostri regni inferior aud
+                        superior persona deinceps perscriptas) ecclesias, et cellas, et curtes, (aut
+                        pertinencias eorum ad prelibata Sancti Vincencii ecclesia tollere
+                        presumpserit, et hoc nostrum preceptum infregerit, cognoscat se compositurum
+                        auri optimi libras centum, medietatem Camere nostre, et medietatem
+                        pretextato abbati, suisque successoribus. Quod ut verius credatur et
+                        diligencius ab omnibus observetur, hanc paginam exinde conscribi et propria
+                        manu roborantes, subtus insigniri iussimus. Signum domni Ottonis serenissimi
+                        imperatoris et invictissimi augusti. Iohannes cancellarius, ad vicem [...]
+                        Petri [...] episcopi et archicancellarii, recognovi et subscripsi, Data .VI.
+                        idus octubris, anno Dominice incarnacionis .DCCCCLXXXI., imperii vero domni
+                        secundi Ottonis .XIIII., indiccione .X. Actum Beneventi, in palacio, in Dei
+                        nomine, feliciter, amen).</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>CV II, n. 148, pp. 263-266</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
