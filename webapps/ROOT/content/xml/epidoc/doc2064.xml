@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Roma, Biblioteca Vaticana, Cod. Barb. lat. 2724, 186r-188v
+                        (<foreign>Chronicon Vulturnense</foreign>, II, n. 115) </title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc2064</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">Uncertain</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0962-08-22">
+                                <note type="displayed_date">962 August 22</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Capua</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-02-08">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>(In nomine domini Dei eterni. Otto divina favente clemencia imperator
+                        augustus. Si fervore caritatis accensi, de statu ac restauracione
+                        ecclesiarum Dei diligenti cura et indagacione tractamus, regni nostri solium
+                        stabiliri, ac feliciter regnare cum Christo nequaquam ambigimus. Quocirca
+                        omnium fidelium Sancte Dei Ecclesie, nostrorumque presencium ac futurorum
+                        devocio noverit, qualiter Paulus, abbas cenobii Christi Martiris Vincencii,
+                        situm in territorio Beneventano, super fluvium Vulturnum, nostram adiens
+                        celsitudinem detulit precepta precessorum nostrorum imperatorum ac regum,
+                        videlicet Desiderii, Karoli, Lodovici, atque Lotharii, per quem contulerunt
+                        ex suis rebus in prefatum monasterium ac confirmaverunt res et possessiones
+                        ibi a principibus, ducibus, reliquisque fidelibus collatas. unde prefatus
+                        abbas nostram exoravit clemenciam, ut eadem precepta, ac legales
+                        scripciones, nec non predia per diversos fines regni Italici coniacencia
+                        idem cenobio collata, per nostre confirmacionis preceptum in prefatum
+                        venerabilem locum concederemus, et confirmaremus. cuius peticionibus
+                        faventes, pro Dei amore animarumque nostrarum remedio, per hoc nostre
+                        confirmacionis preceptum, prout iuste ac legaliter possumus, concedimus et
+                        confirmamus, ac penitus corroboramus in predicto cenobio Christi Martiris
+                        Vincencii omnia precepta precessorum nostrorum imperatorum et regum,
+                        videlicet Desiderii, Karoli, Lodovici, atque Lotharii, verumtamen omnes res
+                        et possessiones per diversas fines regni Italici posita, per eadem precepta,
+                        vel quolibet legali scripciones a principibus, ducibus, reliquisque
+                        fidelibus ibidem collatas, nec non monasteria, et cellas inferius
+                        nominatas); primitus videlicet declarantes ipsas hereditates, que circumdant
+                        ipsum monasterium per has quoque fines: (incipiente itaque fluvio, quod
+                        dicitur Sangro, deinde per montes puplicos usque in monte, qui dicitur Azze,
+                        et sic revolvente monte eodem usque in fluvio, quod dicitur Melfa, et
+                        quemadmodum decurrit ipsa Melfa usque ubi coniungit se cum parvo fluvio,
+                        quod dicitur Mellarino, et abhinc in vertice montis, qui dicitur Balbola, et
+                        sic per cilium eiusdem montis usque in montero Archanum, et montem Marthe,
+                        montemque Casale, eosque videlicet montes extrinsecus circumdantes in hortum
+                        usque riaginis Ravennola quod nominatur, et a capite eiusdem riaginis
+                        venientes iuxta montes puplicos in montem usque Benafrana, quod est super
+                        urbe, eodem vero revolvente monte usque in cilium montis, quod est super
+                        terra, que vocatur Arcora, que est ecclesie hereditas Sancte Dei genitricis
+                        Marie, que Olivetum vocatur, subiecta prefati monasterii, et ecclesia
+                        nichilominus hereditas Sancte Christine, subdita eiusdem cenovii, cum
+                        inclitis territoriis suis, et cum reliquis finibus ipsa hereditas circumdata
+                        in fluvio usque Vulturno; nam iterum ex alia parte inchoante a prima fine
+                        cum iam dicto fluvio Sangro, ipsoque relinquente quomodo decernit a paru
+                        colle, et pergens usque in rivio, que dicitur Foruli, eodemque decurrente
+                        rivio usque in fluvio Vantra, et quomodo decurrit ipsum flumen in alio
+                        flumine, quod Vulturnus vocatur, et quemadmodum ipsum decurrit flumen iuxta
+                        terras eiusdem monasterii usque in predictis finibus, et terris ecclesie
+                        Sancte Marie, per has quoque fines una cum servis, et ancillis,
+                        cespitibusque suis, nec non et cum castris, montibus, collibus, vallibus,
+                        toronibus, ecclesiis, aquis, molendinis, pascuis, et omnia infra ipsis
+                        finibus manencia: hac nostram presenti auctoritate in prefato cenovio
+                        concedimus et confirmamus), sicut iam dudum repperimus in predicto cenovio
+                        concessum et confirmatum esse a dompno Lodovico serenissimo imperatore, per
+                        sigillatum preceptum. interea concedimus insuper et confirmamus in eodem
+                        monasterio, siquidem (monasterium in honore Beati Petri apostoli
+                        constructum, positum in loco Trite, territorio Balvense; et in Penne cellam
+                        unam, que nunccupatur Sancta Maria in Musano; in Abrucio cellam unam in
+                        loco, qui vocatur Arole; item Sancta Maria in Duas Basilicas; seu et
+                        monasterium Sancte Marie in territorio Marsicano, quod situm est in loco
+                        Apinianici; item in finibus Sorane civitatis inclita valle Sorana cum
+                        omnibus ecclesiis et pertinenciis suis, et aliis, cum cellis, et terris in
+                        ipsis consistentibus partibus, subditis eiusdem cenovii, per cognitas fines,
+                        sicut precepta ei[us]dem continent monasterii, videlicet regum, principum,
+                        et ducum, seu aliorumque fidelium scripciones ibidem ab ipsis collatas,
+                        idest cellam Sancte Columbe; cellam Sancti Donati in Cominu; cellam Sancti
+                        Mauri in Anglone, quam et alias cellas, et terras in ipsis finibus; item
+                        cellam Sancte Agathe in loco Turcino; cellam Sancti Petri in Bariano cum
+                        omnibus servis, et ancillis, cespitibus, vineis, et terris, in omnibus sicut
+                        eiusdem monasterii continent scripciones; item cellam Sancti Salvatoris de
+                        Alife; cellam Sancti Martini de Monte Marsico; cellam Sancte Crucis; cellam
+                        Sancti Ylarii; cellam Sancti Petri de Tontole; cellam Sancti Vincencii de
+                        Tremoiola), que est iuxta limitem; (item cellam Sancti Sossii, cum inclito
+                        Vualdo suo in loco Liburie, ubi dicitur Pantanu, has fines habentes: a prima
+                        parte decurrit via antiqua, que venit de Ducenta, que decernit inter has
+                        terras, et Vualdu, et alia terra et Vualdu, quod fuit predicti monasterii,
+                        et qualiter descendit via ipsa et intrat in ipsum Pantanum, et silvam et
+                        paludem prefati monasterii, que est coniuncta Laneo; a secunda autem parte
+                        via est antiqua, que dicitur Vicana; a tercia vero iterum usque ad viam, que
+                        fuit antiqua, que vadit ad ipsam piscinam iamdicti monasterii, et decernit
+                        via ipsas terras et Vualdu ante dicti monasterii, et aliam terram prefati
+                        cenovii, que dicitur de Tortora, et terras aliorum hominum, quod ibi affines
+                        sunt, et sicut incipit super ipsam piscinam, et qualiter revolvit circa ipsa
+                        terra de eodem Vualdo, et iam dicta terra, que dicitur de Tortora, et vadit
+                        ad ipsum Pantanum predicti monasterii, et qualiter vadit et perexit per
+                        ipsum Pantanum, et silva, et paludem usque in ipsum Frigidum; a quarta autem
+                        parte usque in iam dictum Frigidum, et predictam Laneum) cum omnibus que
+                        infra has fines consistent vel manent; item (cellam Sancti Vincencii infra
+                        civitatem Neapolim; cellam, Sancti Vincencii de Cume, cellam Sancti Petri
+                        iuxta civitatem Beneventanam prope fluvio Sabbati; cellam Sancte Marie de
+                        Castanetu, que est in Castro Piniano; cellam Sancti Marci de Petra
+                        Cutuliana; cellam Sancti Petri de Vipera cum ipso casale, qui dicitur Leoni;
+                        cellam Sancte Marie de Planisi; cellam Sancti Iohannis de Lucere; cellam
+                        Sancte Marie de Quinque Milia; cellam Sancti Vincencii de Telese; cellam
+                        Sancti Iohannis de Lisene cum ipsa molina; cellam Sancti Eleutherii in
+                        Fundiliano; cellam Sancte Marie de Loco Sano; cellam Sancti Vincencii de
+                        Tocco; cellam infra Salernitanam civitatem in honorem Sancti Georgii
+                        constructam, cum omnibus suis pertinenciis; cellam Sancti Valentini in
+                        fluvio Vixentino; Sancti Vincencii cellam in fluvio Tusciano; cellam Sancti
+                        Vincencii in fluvio Tensa, et omnia ad iam dicta[m] abbaciam pertinencia,
+                        cum omnibus aliis capellis et pertinenciis earum, cum castellis, villis,
+                        casis, massariciis, mansis, silvis, pascuis, venacionibus, piscacionibus,
+                        vineis, arbustis, pratis, servis, ancillis, aldionibus, aldianis,
+                        reddivicionibus, nec non cum omnibus, que dici et nominari possunt in
+                        prefato monasterio concedimus et confirmamus, ea videlicet facione, quatinus
+                        prenominatus abbas et suis successores de omnibus castellis, et capellis,
+                        seu cellis, vel monasteriis, tam in hoc precepto quamque in aliis preceptis,
+                        offercionibus, atque scripcionibus, que continere videntur habeant
+                        potestatem tenendi, iuste commutandi, regendi, regulariter instruendi, vel
+                        quicquid iustum eis visura fuerit faciendi, absque contradiccione
+                        quorumlibet hominum. Sancimus insuper et nostra imperiali institucione
+                        corroboramus, ut si aliquo in tempore horta fuerit contencio de rebus iam
+                        nominati monasterii, nullus audeat deinceps per parentum possessiones ipsas
+                        hereditates residere, vel contendere presumat, excepto per verissimas
+                        cartulas et iustas consignaciones. Verumtamen statuimus atque firmamus, ob
+                        amore eterne vite et oracionibus fratrum, quorum preces annuimus, ut ipsam
+                        semper legem per annorum curricula pars predicti cenobii accipiat de omnibus
+                        suis territoriis ab omnibus hominibus, quam instituit Astulfus res
+                        Langobardorum de ecclesiis. nam ex ea quoque re lex alia nec recipiatur, nec
+                        a qualibet ulterius iudicetur persona. Si vero fuerit contencio de servis,
+                        vel de alia quacumque re inter aliquem vicinum suum, seu qualemcumque
+                        hominem, liceat eis se defendere, sicut prisca consuetudo fuit, per
+                        scariones eiusdem monasterii, nec audeat aliquis ipsos abbates, vel monachos
+                        ad sacramentum invitare, quod autem contra divina auctoritatem et contra
+                        regula est. precipientes insuper iubemus ut nullus rex, dux, princeps,
+                        marchio, comes, vicecomes, gastaldeus, sculdais, vel aliquis puplice rei
+                        exactor, iam dictum abbatem, vel successores suos, aut monachos ex eius
+                        cenovio, vel eius cellis inquietare, laniare de prediis monasterii, aut
+                        aliquibus rebus disvestire, aut per placita secularia ducere. recepimus
+                        preterea pretaxatum monasterium cum omnibus pretaxatis monasteriis, ac
+                        cellis rebus quoque hac familiis ibidem aspicientibus, cum fratribus hac
+                        monachis ibidem Deo famulantibus sub nostre tuicionis munburdum. concedimus
+                        quoque et corroboramus, ut nullus ex servis, aut ex familia eiusdem
+                        monasterii, vel eos quos cortisianos vocant, audeat inquietare aut ad
+                        puplicam, vel comitum placitum ducere, aut iudicare, neque in domibus vel
+                        casis eiusdem monasterii iudicium aut placitum tenere, nisi abba prefati
+                        cenovii, aut suus missus, ante cuius conspectum omnes sui residentes, sicut
+                        ante nostram presenciam, legem faciant et recipiant; neque placiaticum,
+                        portaticum, pontanicum, casaticum vel quodlibet pensum quisquam homo aut
+                        puplice rei exactor tollere, aut exigere presumat; set disponimus, ut
+                        abbates, et prepositi eiusdem loci iuxta priscam consuetudinem ad communem
+                        utilitatem fratrum sua disponant providencia, absque alicuius
+                        contradiccione. Si qui igitur huius nostri precepti institucionem, et
+                        confirmacionem seu munburdi tuicionem aliquando infringere temptaverit,
+                        sciat se compositurum auri optimi libras dua milia, medietatem Camere
+                        nostre, et medietatem parti predicti monasterii. Quod ut verius credatur,
+                        diligenciusque ab omnibus observetur, manu propria roborantes anulo nostro
+                        insigniri iussimus). (Signum gloriosissimi Ottonis imperatoris [M] augusti.
+                        Arnolfus presbiter, ad vicem Vuidonis episcopi et archicancellarii,
+                        recognovi et subscripsi. Data .XI.mo kalendas septembris, anno Dominice
+                        incarnacionis .DCCCCLXIII., imperii vero domni Ottonis piissimi imperatoris,
+                        indiccione .V. Actum) Capua (civitate, in Christi nomine feliciter, amen).
+                        IN nomine domini Dei eterni. Otto, divina favente clemencia, imperator
+                        augustus. Si fervore caritatis accensi de statu, ac restauracione
+                        ecclesiarum Dei diligenti cura et indagacione tractamus, regni nostri solium
+                        stabiliti ac feliciter regnare cum Christo nequaquam ambigimus. Quocirca
+                        omnium fidelium Sancte Dei Ecclesie, nostrorumque presenciam, ac futurarum
+                        devocio noverit, qualiter Paulus abbas cenobii Christi Martyris Vincencii,
+                        situm in finibus Beneventanis, nostram adiens celsitudinem detulit precepta
+                        precessorum nostrorum imperatorum, et regum, videlicet Desiderii, Karoli,
+                        Lodovici, atque Lotharii (per que contulerunt ex suis rebus in prefatum
+                        monasterium, ac confirmaverunt res, et possessiones ibi a principibus,
+                        ducibus, reliquisque fidelibus collatas. Unde prefatus abbas nostram
+                        exoravit clemenciam, ut eadem precepta ac legales scripciones, nec non
+                        predia, per diversos fines regni Italici coniacencia, idem cenobio collata,
+                        per nostre confirmacionis preceptum, in prefatum venerabilem locum
+                        confirmaremus. Cuius peticionibus faventes pro Dei amore animarumque
+                        nostrarum remedio, per hoc nostre confirmacionis preceptum, prout iuste, ac
+                        legaliter possumus, confirmamus, ac penitus corroboramus in predicto cenobio
+                        Christi Martyris Vincencii omnium precepta precessorum nostrorum
+                        imperatorum, et regum, videlicet Desiderii, Karoli, Lodovici, atque Lotharii
+                        verum eciam omnes res, et possessiones, per diversos fines regni Italici
+                        positas,per eadem precepta, vel quolibet legali titulo scripcionis a
+                        principibus, ducibus, reliquisque fidelibus ibidem collatas, nec non
+                        monasteria,et cellas inferius nominatas: monasterium siquidem in honore
+                        Beati Petri apostoli constructum, positum in loco Trite, territorio
+                        Balbense; et in Penne cellam unam, que nunccupatur Sancta Maria in Musano;
+                        in Abrucio cellam unam in loco, qui vocatur Arole; item Sancta Maria in Duas
+                        Basilicas; item monasterium Beati Petri apostoli, positum iuxta fluvium
+                        Sabbati, territorio Beneventano; set et cella Sancii Sossii in Liburie cum
+                        toto ipso vualdo, loco Pantano; monasterium quoque Domini et Salvatoris
+                        nostri Iesu Christi, quod positum est in Alife; nec non et monasterium
+                        Sancti Georgii, quod positum est in Salerno; seu et monasterium Sancte Marie
+                        in territorio Marsicano, quod situm est in loco Apinianici, una cum castris,
+                        cappellis, titulis, casis, terris, vineis, campis, pratis, pascuis, silvis,
+                        piscariis, molendinis, aquis, aquarumque decursibus, servis, et ancillis ad
+                        prelibatum monasterium pertinentibus, vel respicientibus in integrum Christi
+                        videlicet Martyris Vincencii, quod positum est in finibus Beneventanis.
+                        Statuimus insuper, ac nostra preceptali auctoritate decrevimus, ut si aliqua
+                        intencio orta fuerit de rebus, et familiis eiusdem monasterii, liceat
+                        advocatorem suum per. inquisicionem circamanencium liberorum hominum, sicut
+                        lex habet, hoc definire; et cum definitum fuerit, tunc demum ipsas res, ac
+                        familias pars predicti cenobii nostram preceptali auctoritate habeat, atque
+                        possideat iure quieto, recepimus preterea pretaxatum monasterium cum omnibus
+                        pretaxatis monasteriis, ac cellis, rebus quoque, ac familiis ibidem
+                        aspicientibus, una cum fratribus, ac monachis ibidem Deo famulantibus sub
+                        nostre tuicionis munburdum. Statuentes, ut abbates, et prepositi eiusdem
+                        loci, iuxta priscam consuetudinem, ad communem utilitatem fratrum sua
+                        disponant absque alicuius contradiccione. precipientes itaque iubemus, ut
+                        nullus dux, marchio, comes, vicecomes, gastaldio, seu quelibet regni nostri
+                        magna, parvaque persona, res predicti monasterii invadere, seu homines
+                        liberos, et servos distringere, pignorare, seu molestare audeat, absque
+                        legali iudicio, neque pensionem ab eis iniuste exigere presumit. Si quis
+                        igitur huius nostri precepti confirmacionem seu munburdi tuicionem aliquando
+                        infringere conatus fuerit, sciat se compositurum auri optimi libras centum,
+                        medietatem Camere nostre et medietatem parti predicti monasterii. Quod ut
+                        verius credatur, diligenciusque ab omnibus observetur, [...] manu propria
+                        roborantes, anulo nostro insigniri iussimus. Signum gloriosissimi Ottonis
+                        imperatoris [M] augusti. Arnolfus presbiter, advicem Vuidonis episcopi et
+                        archicancellarii, recognovi, et subscripsi. Data .XI. kalendas septembrium,
+                        anno Dominice incarnacionis .DCCCCLXIII., imperii vero domni Ottonis
+                        piissimi imperatoris .I., indiccione .V. Actum civitate Cumis, in Christi
+                        nomine feliciter, amen. </ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>CV I, n. 73-74, p. 6</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>This diploma contains interpolations intended to give authority to other
+                    interpolations added in the <foreign>Chronicon Vulturnense</foreign> to earlier
+                    imperial diplomas. The interpolations to this document were mainly intended to
+                    assign the properties in Valle Sorana, San Colomba, San Pietro in Vairano, San
+                    Marco in Pietra Cutiliana, San Giovanni in Lucera, Santa Maria di Cinquemilia
+                    and San Vincenzo di Tocco, which later came into the possession of the
+                    monastery, to a more remote period.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
