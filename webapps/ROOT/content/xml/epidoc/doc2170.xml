@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Archivio Capitolare di Lucca (MGH DD O I, pp. 330-331, n° 238)</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc2170</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">Yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0962-03-13">
+                                <note type="displayed_date">962 march 13</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Lucca</note>
+                                <note type="redaction_date">XI sec.</note>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-02-08" who="Chiara Stedile">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>Otto gratia dei imperator augustus. Quia decet regali magnificentie+ loca
+                        sancta ditari atque venerari et omnibus Christianis de animabus suarum curam
+                        atque sollicitudinem gerere, ideo dignum duximus modo in presenti
+                        sanctissimi Martini episcopi locum Luce+ situm in aliquod locupletari, ut et
+                        ipsis pro quibus donatum est ad refrigerium et nobis ad remedium proficiat
+                        sempiternum.   Quapropter considerantes nos hoc et in animo volventes prece
+                        et admonitione dilecte+ nostre+ coniugis Adeleheide+ regnique nostri
+                        consortis concedimus atque donamus predicto sancto loco, sicuti olim Hugo et
+                        Lotharius nostri predecessores reges pro remedio animarum Adelberti
+                        marchionis et Berte+ comitisse+ nec non et suarum dederunt beato Martino
+                        pontifici ecclesie+que sue+ site+ Luce+ suisque fidelibus ibi pro tempore
+                        deo famulantibus, sacerdotibus scilicet et diaconibus subdiaconibus quoque
+                        ce+terisque ibi pro tempore ordinatis, videlicet cortes duas, unam quam
+                        predicta Berta suo pretio comparavit et dicitur Massa Grausi consistens in
+                        ipso comitatu Lucensi cum terris et massariciis ibi pertinentibus, videlicet
+                        in loco Mozatico manentes duos, in Arsitulo manentes duos, in Montisano
+                        manentem unum, in Fioccle manentes quattuor, in Casule+ manentes tres, in
+                        Cerri manentem unum, in Scopeto manentes duos, in Platano manentem unum,
+                        iuxta ipsam cortem adiacentes manentes decem, in Collezani manentem unum, in
+                        Panicale manentem unum, qui omnes iam dicte+ corti [vicini ess]e videntur;
+                        in aliis locis et villis ad ipsam cortem pertinentes ad Toiano ultra portam
+                        manentes quinque, Are[tinia]no manentem unum, ad Turrim iuxta campum maiorem
+                        manentem unum, in Casule+ montanino manentem unum, in Bulisano manentes
+                        duos, in Corsanico manentes duos, in Cerbaiola manentem unum, in Bonazula
+                        iuxta Uersiliam campum unum, iuxta ecclesiam sancti Angeli in Cornuta campum
+                        unum, ad Metato campora duo, unum ex uno latere Sercli fluminis et alterum
+                        campum ex altero latere, unum caput tenent in terra sancti Antimi et alterum
+                        caput tenent cum ambobus lateribus in terra sancte+ Marie+, seu et petiolam
+                        unam de terra in insula iuxta flumen Sercli, cum omnibus pertinentiis
+                        eiusdem cortis nostra preceptaria auctoritate iam dicto sancto loco
+                        concedimus funditusque largimur.   Insuper etiam curtem aliam in eodem
+                        comitatu Lucensi adiacentem sancta Petronilla nomine prope Massam macinariam
+                        coniacentem cum capella in honore eiusdem sancte+ Petronille+ cum mansis
+                        viginti in Massa macinaria et duobus in Colugnule+ nec non et pratis in
+                        Ceppeto et in Turingana atque vinea et campis in loco Turingo nec non vinea
+                        et terris in Palatano et aliquantula terra in Ponte tecto, cum servis et
+                        ancillis omnibusque rebus et familiis ad easdem cortes pertinentibus; sicut
+                        Hugo et Lotharius prenominati reges preceptali auctoritate obtulerunt
+                        ecclesie+ beati Martini ubi caput Lucani episcopii esse dinoscitur, in usum
+                        et sumptum canonicorum ibidem pro tempore deo militantium, ita nos ibidem
+                        concedimus donamus atque largimur et de nostro iure et dominio in eorum ius
+                        et d[o]minium omnino transfundimus ac deleg[amus una cum casis sedi]minibus
+                        campis [terris] vineis pratis pascuis silvis aquis aquarumque decursibus
+                        molendinis piscationibus montibus vallibus planitiebus servis et ancillis
+                        aldionibus et aldianis cunctisque rebus et familiis iuste et legaliter ad
+                        easdem cortes pertinentibus et respicientibus in integrum, quatenus canonici
+                        in ecclesia beati Martini deo famulantes et pro animabus superius nominatis
+                        et pro nobis deum exorantes prefatas cortes cum omnibus ad eas pertinentibus
+                        in integrum illis concedimus, ut habeant teneant firmiterque possideant.  
+                        Statuimus ut episcopus loci nullam quoquam in tempore de prefatis cortibus
+                        potestatem habeat neque inde se intromittat nisi ad canonicorum auxilium et
+                        salvationem, et si quod absit a potestate eorum prefatas cortes cum omnibus
+                        ad se pertinentibus episcopus loci aut ullus invasor tulerit aut aliquid
+                        subtraxerit, tunc deveniant in potestatem ducis et marchionis Luce+
+                        civitatis, tandiu donec talis episcopus venerit qui prefatas cortes in iure
+                        et potestate canonicorum esse permittat.   Denique et plebem de Sugrominio
+                        in honore sancti Laurentii constructam quam Conradus eiusdem civitatis
+                        episcopus ex parte episcopii loco quarte+ portionis ex decimis predicte+
+                        canonice+ in usum et sumptum canonicorum per scriptum concessit, per hoc
+                        nostrum preceptum confirmamus et corroboramus, statuentes ut nullus
+                        episcoporum eandem plebem a potestate canonicorum tollere presumat.   De
+                        ce+tero totius ordinis canonicos predictasque cortes et plebem atque omnes
+                        illorum offersiones quascumque homines religiosi pro animabus pare[n]tum
+                        suorum in eodem loco dederunt vel quod inantea ibidem daturi sunt, cum
+                        omnibus rebus et familiis ad easdem cortes et plebem seu offersiones
+                        pertinentibus cunctasque res et familias canonicorum sub nostram defensionem
+                        et mundburdum rece+pimus atque precipientes iubemus, ut nullus dux marchio
+                        comes episcopus aut ulla regni nostri magna parvaque persona canonicos in
+                        ecclesia beati Martini deo servientes inquietare vel molestare audeat aut de
+                        prefatis cortibus et plebe vel offersionibus disvestire aut invasionem
+                        facere presumat aut de rebus eorum propriis sine legali iudicio disvestire
+                        seu ex familiis temptet, sed liceat eis prefatas cortes et plebem tenere cum
+                        omni offersione et pro pretaxatis animabus et nobis deum exorare quiete ac
+                        pacifice vivere omni contradictione remota.   Si quis igitur huius precepti
+                        violator extiterit, sciat se compositurum auri optimi libras centum,
+                        medietatem kamere+ nostre+ et medietatem canonicis in memorata ecclesia pro
+                        tempore deo famulantibus, et insuper e+terne+ damnationis pe+nam incurrat et
+                        cum Iuda traditore partem in die iudicii habeat.   Et ut hoc nostre+
+                        largitionis donum ratum in posterum maneat diligentiusque ab omnibus
+                        observetur, manu propria roborantes anuli nostri impressione subter annotari
+                        iussimus.   Signum domni Hottonis (M.) serenissimi imperatoris. Liutgerius
+                        cancellarius advicem Brunonis archicancellarii recognovi et subscripsi.  
+                        Data III. idus martii anno dominice+ incarnationis DCCCCLXII, anno vero
+                        imperii domni Ottonis primo, indictione V; actum Luce+; feliciter amen. </ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>MGH DD O I, pp. 330-331, n° 238</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>Conferma del diploma dei re Ugo e Lotario del 1 luglio 932 (DD U L, pp. 94-98, n°
+                    XXXI). Il contenuto è a sua volta confermato da Ottone II il 21 dicembre 982 (n°
+                    289), Ottone III nel settembre 998 (n° 301) e Corrado II il 23 febbraio 1038 (n°
+                    260).</p>
+            </div>
+        </body>
+    </text>
+</TEI>
