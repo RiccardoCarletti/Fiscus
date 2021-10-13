@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    Diplomatico, ++ C 81</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                        </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc605</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#"
+                                >--Libellus/precaria/emphyteusis</rs>
+                                    <rs type="record_source" ref="#">Original document</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property"/>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate when="0906-02">
+                                <note type="displayed_date">906 February</note>
+                                <note type="dating_elements">Anno di regno di Berengario</note>
+                                <note type="topical_date">Actum curte nostra ad Sanctum Vitum sito
+                                    Cornino (Vignale Vecchio, Piombino)</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance>
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                            <place></place>
+                        </listPlace>
+                        <listPerson>
+                            <person></person>
+                        </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-10-13" who="ptomei">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab>Martino detto Ildiberto del fu Ilprando riceve in livello dal
+                        vescovo di Lucca Pietro, una casa et res posta in loco ubi vocitatur ad
+                        Palmenta ubi vocitatur ad Leccito, di pertinenza della chiesa di San Regolo,
+                        qui est de pertenentia del vescovato di San Martino, con tutte le sue
+                        dipendenze, confinante unum latere fine terra Ursuli de Aqua Albule, alio
+                        lato in rivo Sicco et de fine rivo Sicco returna usque in ipsa Fontenella et
+                        inde usque foras in via qui dicitur ad Campo Agnelli et ind eusque in alia
+                        fine ipsa in terra Ursuli. Si impegna con i suoi figli ed eredi vineam
+                        plantare et edificare, a residere et habitare nella suddetta casa et res. Si
+                        impegna a versare al vescovo e ai suoi successori in festivitate Sancti
+                        Reguli in eius domus ecclesie sito Waldo il censo annuale di 9 denari
+                        d’argento, e a venire in ipso suprascripte domus ecclesie vestre Sancti
+                        Reguli pro iustitiam faciendum, a mandato del vescovo. Se non rispetterà i
+                        suddetti impegni, promette con i suoi figli ed eredi di versare al vescovo e
+                        ai suoi successori la pena di 50 soldi d’argento. Chiede al chierico, notaio
+                        e scabino Floriperto la stesura di due libelli. Autori: Pietro episcopus, +
+                        Martino detto Ildiberto del fu Ilprando. Scrittore: Floriperto clericus et
+                        notarius et schabinus. Testimoni sottoscrittori: Rodolfo, Baldo, Gottifridi.
+                        Altro: Orsulo de Aqua Albule. Luca (Lucca), Cornino (Vignale Vecchio,
+                        Piombino), Palmenta, Leccito, Aqua Albule, Fontenella, Campo Agnelli (Podere
+                        Campo Agnelli, Monterotondo Marittimo), Sicco (rio Secco), Waldo (Podere San
+                        Regolo, Monterotondo Marittimo). San Regolo in Gualdo, San Vito di Cornino,
+                        San Martino di Lucca (chiesa matrice).</ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL, 5/3, n. 1092, pp. 33-34.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                        <p/>
+                    </div>
+                </body>
+            </text>
+        </TEI>
