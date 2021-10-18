@@ -4,7 +4,8 @@
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
-                <title/>
+                <title>Archivio di Stato di Milano, Museo Diplomatico, Pergamene-S.Benedetto,
+                    596/261</title>
             </titleStmt>
             <editionStmt>
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
@@ -13,7 +14,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
-                <idno type="filename">doc1</idno>
+                <idno type="filename">doc5021</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -30,9 +31,9 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#"/>
-                            <rs type="record_source" ref="#"/>
-                            <rs type="document_tradition" ref="#"/>
+                            <rs type="text_type" ref="#">--Venditio</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
                             <rs type="fiscal_property"/>
                         </summary>
                         <msItem xml:id="msItem1">
@@ -41,13 +42,14 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate notBefore="0001" notAfter="0001" when="0001"> 
-                                <note type="displayed_date"></note>
-                                <note type="dating_elements"></note>
-                                <note type="topical_date"></note>
-                                <note type="redaction_date"></note>
+                            <origDate notBefore="1036-02-01" notAfter="1036-02-29">
+                                <note type="displayed_date">1036 Februar</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Gonzaga (Mantova)</note>
+                                <note type="redaction_date"/>
                             </origDate>
-                            <origPlace/>
+                            <origPlace>Sanctus Benedictus in Pado Lironi; monasterium
+                                (Mantova)</origPlace>
                         </origin>
                         <provenance>
                             <location>
@@ -73,7 +75,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2021-02-08">creation of record</change>
+                <change when="2021-10-18" who="bferretti">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -81,11 +83,53 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab></ab>
+                    <ab>(S.) In nomine Dei eterni. Chuonradus gratia Dei imperator augustus, anno
+                        inperii eius Deo propicio hic in Italia nono, mense februarii, indicione
+                        quarta. Constat nos Bonefacius marchio et dux filio quondam Teudaldi itemque
+                        marchio et Richelda cometissa iugalibus filia quondam Giselberti comes
+                        palacii qui professi sumus ex nacione nostra lege vivimus Langobardorum,
+                        ipso namque iugale meo qui supra Richelde cometisse mihi consenciente et
+                        iusta lege, una cum noticia et interrogatione de propinquioribus parentibus
+                        meis, it sunt. Lanfranco et Henricus consobrinis nepotibus meis, in quorum
+                        presentia vel testium certa facio professione quod nulla me pati violencia
+                        ad quispiam homine nec ab ipso iugale et mundoaldo meo nisi mea bona et
+                        spontanea voluntatem, accipissemus nos suprascriptis iugalibus comuniter
+                        sicuti et in presentia testium accepimus ad te Adelbertus presbiter de
+                        ordine et canonice sancte Mantuanensis ecclesie et filis quondam Rigizoni
+                        per misso tuo Lanfrancus iudex in adpreciatum valentem solidos quinquaginta,
+                        finitum precio pro pecia una de terra cum casa teranea super se abente iuris
+                        nostris que esse videtur infra civitate Mantue, quod est per mensura iusta
+                        tabulas dues. Quoerit ei fines: de mane via, de meridie heredes quondam
+                        Andree Cacarello, de sera Resola, de montis Rozo presbiter cum fratribus
+                        suis abet, sibeque alii sunt adfines. Que autem suprascripta pecia terra cum
+                        casa in suprascripta civitate una cum haccessione et ingresso suo, seu cum
+                        superiore et inferiore suo qualiter supra mensuras et coherencias legitur in
+                        integrum ab hac die tibi qui supra Adelberti presbiter pro suprascripto
+                        precio vendimus, tradamus, mancipamus, et nulli alii vendita, donata,
+                        alienata, obnoxiata vel tradita nisi tibi. Et facies exinde a presenti die
+                        tu et cui tu dederis vestrisque heredibus iure proprietario nomine quicquit
+                        volueritis sine omni nostra et heredum nostrorum contradicione. Quidem
+                        etspondimus adque promittimus nos corum supra Bonefacius marchio et dux et
+                        Richelde cometisse iugalibus et nostri heredibus tibi qui supra Adelberti
+                        presbiteri tuique heredibus aut cui vos dederitis suprascripta pecia terra
+                        cum casa qualiter supra legitur in integrum ab omne contradicentes homines
+                        defensare; quod si defendere non potuerimus aut si vobis exinde aliquit per
+                        quovis ingenio subtrahere quesierimus tunc in dublum eadem vendita ut supra
+                        legitur vobis restituamus, sicut pro tempore fuerit meliorata aut valuerit
+                        sub estimacione in consimile locum; et nichil nobis ex ipsum precio amplius
+                        aliquit redebere diximus. Acto loco ubi dicitur Gunziaga feliciter. + Signum
+                        ++ manibus suprascriptis Bonefacius marchio et dux seu Richelda cometissa
+                        iugalibus qui hac cartula vindicionis fieri rogaverunt et ipse Bofefacius
+                        marchio eidem coniux sua consensit ut supra. Signum ++ manibus
+                        suprascriptorum Lanfrancus et Henricus qui suprascripta Richelda ametanea
+                        eorum interrogaverunt ut supra. Signum +++ manibus Benzoni et Ardoini seu
+                        Ingezoni lege viventes Langobardorum rogatis testis. (S.) Ego Odelbertus
+                        notarius et iudex scriptor huius cartula vindicionis post tradita complevi
+                        et dedi. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p/>
+                <p>CDP I n. 21, pp. 115-116.</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>
