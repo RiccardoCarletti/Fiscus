@@ -34,7 +34,7 @@
                             <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -96,14 +96,17 @@
                             key="#motherOf" ref="#people/1524">Berte</persName> ceterorumque
                         parentum nostrorum concedimus sancto ac venerabili <rs key="#Monasteries"
                             >monasterio</rs>
-                        <orgName key="#Monasteries"><placeName>Cluniensi</placeName></orgName>, ubi
-                        nunc in presenti <persName key="#Abbots"><name ref="Odo"
-                            >Odo</name></persName> abbas esse videtur, duas curtes iure proprietatis
-                        nostre coniacentes in comitatu Lugdunensi, quarum una vocatur Savigneri et
-                        altera Ambrei, cum omnibus illorum integritatibus, preter Leutardum pistorem
-                        et quinque alios servientes inde pertinentes, qui nobis modo serviunt, quod
-                        nostre reservavimus potestati; videlicet cum capellis, casis, terris,
-                        vineis, campis, pratis, pascuis, silvis, salictis, sationibus, aquis
+                        <orgName key="#Monasteries"><placeName ref="#places/2723"
+                                >Cluniensi</placeName></orgName>, ubi nunc in presenti <persName
+                            key="#Abbots"><name ref="Odo">Odo</name></persName>
+                        <rs key="#Abbots">abbas</rs> esse videtur, <rs key="#Curtes">duas
+                            curtes</rs>
+                        <rs key="#Fiscal_property">iure proprietatis nostre</rs> coniacentes in <rs
+                            key="#Comitatus">comitatu</rs> Lugdunensi, quarum una vocatur Savigneri
+                        et altera Ambrei, cum omnibus illorum integritatibus, preter Leutardum
+                        pistorem et quinque alios servientes inde pertinentes, qui nobis modo
+                        serviunt, quod nostre reservavimus potestati; videlicet cum capellis, casis,
+                        terris, vineis, campis, pratis, pascuis, silvis, salictis, sationibus, aquis
                         aquarumque decursibus, montibus, vallibus, alpibus, planitiebus, servis et
                         ancillis utriusque sexus, preter ipsos sex, quod supra nostre potestati
                         reservavimus, serventes, aldionibus et aldianis et cum omnibus que dici vel
