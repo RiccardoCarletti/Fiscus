@@ -33,7 +33,7 @@
                             <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Original</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">No</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -81,35 +81,50 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>In nomine sanctae et individuae Trinitatis. Hugo et Lotharius gratia Dei
-                        reges. Si pro mercede aeterne retributionis sacerdotum et canonicorum curam
-                        et sollicitudinem gerimus, non solum ad hanc vitam transitoriam verum etiam
-                        ad haeternam nobis profuturum esse liquido credimus. Idcirco notum esse
-                        volumus omnibus fidelibus sanctae Dei Aecclesiae nostrisque scilicet
-                        presentibus et futuris, quoniam sacre canonice congregatio Mutinensis
-                        aecclesiae detulist nobis privilegia quedam in quibus aexaratum et scriptum
-                        fuit, quomodo quidam Geminianus et Leodoinus episcopi concesserunt eis
-                        quartam partionem de omnibus rebus ad supradictam sedem pertinentibus, id
-                        est tam de domibus quam et de ceteris aedificiis, terris coltis et incoltis,
-                        agris, vineis, pratis, pascuis, sivlis glandiferis vel etiam ceteris silvis,
-                        aquis aquarumve decursibus, mobilibus et inmobilibus et omnibus adiacentiis
-                        suis; insuper etia adiunctum fuit, qualiter concessum fuit eis quod
-                        Peresindus diaconus per libellum et inphiteosin de iure prefate aecclesiae
-                        habuit; sed ob firmitatis gratiam nostram deprecati sunt clementiam, ut
-                        preceptum mansuetudinis nostrae de universis rebus illorum, sicut in eorum
-                        privilegiis continetur, recipere mererentur. Nos autem ob amorem domini
-                        nostri Iesu Christi petitionibus illorum, in quantum iuste et legaliter
-                        possumus, satisfacientes, iussimus eis hos regales apices fieri atque
-                        conscribi. Per quod decernimus atque iubemus, ut nullus iudex publicus vel
-                        aliqua opposita persona aut eciam episcopus vel comes, liber vel servus in
-                        eorum rebus vel locis aliquid invadere aut in alico calumniari iniuste
+                    <ab>In nomine sanctae et individuae Trinitatis. <persName key="#Emperor/king"
+                            ref="#people/79">Hugo</persName> et <persName key="#Emperor/king"
+                            ref="#people/72">Lotharius</persName> gratia Dei <rs key="#Emperor/king"
+                            >reges</rs>. Si pro mercede aeterne retributionis <rs key="#Priests"
+                            >sacerdotum</rs> et <rs key="#Canons">canonicorum</rs> curam et
+                        sollicitudinem gerimus, non solum ad hanc vitam transitoriam verum etiam ad
+                        haeternam nobis profuturum esse liquido credimus. Idcirco notum esse volumus
+                        omnibus fidelibus sanctae Dei Aecclesiae nostrisque scilicet presentibus et
+                        futuris, quoniam <rs key="#Canons">sacre canonice congregatio</rs>
+                        <orgName key="#Canons" ref="#juridical_persons/96">Mutinensis
+                            aecclesiae</orgName> detulit nobis privilegia quedam in quibus aexaratum
+                        et scriptum fuit, quomodo quidam <persName key="#Bishops" ref="#people/246"
+                            >Geminianus</persName> et <persName key="#Bishops"><name ref="Leodoinus"
+                                >Leodoinus</name></persName>
+                        <rs key="#Bishops">episcopi</rs> concesserunt eis <rs key="#Size">quartam
+                            partionem de omnibus rebus</rs> ad supradictam sedem pertinentibus, id
+                        est tam de <rs key="#Houses">domibus</rs> quam et de ceteris aedificiis, <rs
+                            key="#Landed_possessions">terris coltis et incoltis</rs>, <rs
+                            key="#Fundi">agris</rs>, <rs key="#Wine">vineis</rs>, <rs
+                            key="#Hay/fodder">pratis</rs>, pascuis, <rs key="#Forests">silvis
+                            glandiferis vel etiam ceteris silvis</rs>, <rs key="#Rivers">aquis
+                            aquarumve decursibus</rs>, mobilibus et inmobilibus et omnibus
+                        adiacentiis suis; insuper etiam adiunctum fuit, qualiter concessum fuit eis
+                        quod <persName key="#Deacons"><name ref="Perisindus"
+                            >Peresindus</name></persName>
+                        <rs key="#Deacons">diaconus</rs> per <rs
+                            key="#Libellus/precaria/emphyteusis">libellum</rs> et <rs
+                            key="#Libellus/precaria/emphyteusis">inphiteosin</rs> de iure prefate
+                        aecclesiae habuit; sed ob firmitatis gratiam nostram deprecati sunt
+                        clementiam, ut preceptum mansuetudinis nostrae de universis rebus illorum,
+                        sicut in eorum privilegiis continetur, recipere mererentur. Nos autem ob
+                        amorem domini nostri Iesu Christi petitionibus illorum, in quantum iuste et
+                        legaliter possumus, satisfacientes, iussimus eis hos regales apices fieri
+                        atque conscribi. Per quod decernimus atque iubemus, ut nullus iudex publicus
+                        vel aliqua opposita persona aut eciam episcopus vel comes, liber vel servus
+                        in eorum rebus vel locis aliquid invadere aut in alico calumniari iniuste
                         audeat, sed liceat eos quiete et cum summa salvatione omnia eorum possidere,
                         sicut in eorum privilegiis continetur. Similiter autem sanccimus et
                         constituimus, ut quicquid modo habent, proprietates bonorum hominum,
                         donationes vel legales offersiones, et quicquid ipsi canonici de iam dicta
-                        aecclesia per paginam scriptionis habent ad censum reddendum vel de
-                        monasteriis aut in antea legaliter habere potuerint, omnia sub nostrae
-                        tuitionis mundburdo quieto et pacifico hordine habeant atque possideant,
+                        aecclesia per paginam scriptionis habent ad censum reddendum vel de <rs
+                            key="#Monasteries">monasteriis</rs> aut in antea legaliter habere
+                        potuerint, omnia sub nostrae <rs key="#Tuitio/bannum/mundeburdium">tuitionis
+                            mundburdo</rs> quieto et pacifico hordine habeant atque possideant,
                         nullo umquam eis aliquam iniuriam vel molestiam inferente, sed liceat eos
                         quiete vivere, ut libentius et securius Deo in divinis laudibus vacent et
                         pro nobis et omni stabilitate regni nostri assiduis precibus uberius exorare
