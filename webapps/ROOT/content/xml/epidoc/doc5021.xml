@@ -90,10 +90,11 @@
                         Constat nos <persName
                             key="#Marquis/duke #Lombard #sonOf #legallyRecognisedUnionWith #Venditio #Witness #Landed_possessions #Houses"
                             ref="#people/1">Bonefacius</persName>
-                        <rs key="#Marquis/duke">marchio et dux</rs> filio quondam <persName
+                        <rs key="#Marquis/duke">marchio et dux</rs>
+                        <rs key="#sonOf">filio</rs> quondam <persName
                             key="#Marquis/duke #Lombard #fatherOf" ref="#people/2122"
                             >Teudaldi</persName> itemque marchio et <persName
-                                key="#Countess #Lombard #daughterOf #legallyRecognisedUnionWith #Venditio #Witness #Landed_possessions #Houses"
+                            key="#Countess #Lombard #daughterOf #legallyRecognisedUnionWith #Venditio #Witness #Landed_possessions #Houses"
                             >Richelda</persName>
                         <rs key="#Countess">cometissa</rs>
                         <rs key="#legallyRecognisedUnionWith">iugalibus</rs> filia quondam <persName
@@ -113,9 +114,9 @@
                         testium accepimus ad te <persName key="#Priests #sonOf #Venditio"
                             >Adelbertus</persName>
                         <rs key="#Priests">presbiter</rs> de ordine et <orgName
-                            key="#Churches/religious_bodies #Baptismal_churches #Landed_possessions #Houses">canonice sancte
-                            Mantuanensis ecclesie</orgName> et filis quondam <persName
-                            key="#fatherOf">Rigizoni</persName> per <rs
+                            key="#Churches/religious_bodies #Baptismal_churches #Landed_possessions #Houses"
+                            >canonice sancte Mantuanensis ecclesie</orgName> et filis quondam
+                            <persName key="#fatherOf">Rigizoni</persName> per <rs
                             key="#Missus_of_other_public_authorities">misso</rs> tuo <persName
                             key="#Missus_of_other_public_authorities #Judge #Venditio #Witness"
                             >Lanfrancus</persName>
@@ -124,33 +125,34 @@
                             >pecia una de terra</rs> cum <rs key="#Houses">casa teranea</rs> super
                         se abente iuris nostris que esse videtur infra <rs key="#Cities"
                             >civitate</rs>
-                        <placeName key="#Cities" ref="#places/275">Mantue</placeName>, quod est per mensura iusta
-                        tabulas dues. Quoerit ei fines: de mane via, de meridie heredes quondam
-                        Andree Cacarello, de sera Resola, de montis Rozo presbiter cum fratribus
-                        suis abet, sibeque alii sunt adfines. Que autem suprascripta pecia terra cum
-                        casa in suprascripta civitate una cum haccessione et ingresso suo, seu cum
-                        superiore et inferiore suo qualiter supra mensuras et coherencias legitur in
-                        integrum ab hac die tibi qui supra Adelberti presbiter pro suprascripto
-                        precio vendimus, tradamus, mancipamus, et nulli alii vendita, donata,
-                        alienata, obnoxiata vel tradita nisi tibi. Et facies exinde a presenti die
-                        tu et cui tu dederis vestrisque heredibus iure proprietario nomine quicquit
-                        volueritis sine omni nostra et heredum nostrorum contradicione. Quidem
-                        etspondimus adque promittimus nos corum supra Bonefacius marchio et dux et
-                        Richelde cometisse iugalibus et nostri heredibus tibi qui supra Adelberti
-                        presbiteri tuique heredibus aut cui vos dederitis suprascripta pecia terra
-                        cum casa qualiter supra legitur in integrum ab omne contradicentes homines
-                        defensare; quod si defendere non potuerimus aut si vobis exinde aliquit per
-                        quovis ingenio subtrahere quesierimus tunc <rs key="#Penalty">in dublum</rs>
-                        eadem vendita ut supra legitur vobis restituamus, sicut pro tempore fuerit
-                        meliorata aut valuerit sub estimacione in consimile locum; et nichil nobis
-                        ex ipsum precio amplius aliquit redebere diximus. Acto loco ubi dicitur
-                            <placeName ref="#places/2414">Gunziaga</placeName> feliciter. + Signum
-                        ++ manibus suprascriptis Bonefacius marchio et dux seu Richelda cometissa
-                        iugalibus qui hac <rs key="#Venditio">cartula vindicionis</rs> fieri
-                        rogaverunt et ipse Bofefacius marchio eidem coniux sua consensit ut supra.
-                        Signum ++ manibus suprascriptorum Lanfrancus et Henricus qui suprascripta
-                        Richelda ametanea eorum interrogaverunt ut supra. Signum +++ manibus
-                            <persName key="#Witness #Venditio">Benzoni</persName> et <persName
+                        <placeName key="#Cities" ref="#places/275">Mantue</placeName>, quod est per
+                        mensura iusta tabulas dues. Quoerit ei fines: de mane via, de meridie
+                        heredes quondam Andree Cacarello, de sera Resola, de montis Rozo presbiter
+                        cum fratribus suis abet, sibeque alii sunt adfines. Que autem suprascripta
+                        pecia terra cum casa in suprascripta civitate una cum haccessione et
+                        ingresso suo, seu cum superiore et inferiore suo qualiter supra mensuras et
+                        coherencias legitur in integrum ab hac die tibi qui supra Adelberti
+                        presbiter pro suprascripto precio vendimus, tradamus, mancipamus, et nulli
+                        alii vendita, donata, alienata, obnoxiata vel tradita nisi tibi. Et facies
+                        exinde a presenti die tu et cui tu dederis vestrisque heredibus iure
+                        proprietario nomine quicquit volueritis sine omni nostra et heredum
+                        nostrorum contradicione. Quidem etspondimus adque promittimus nos corum
+                        supra Bonefacius marchio et dux et Richelde cometisse iugalibus et nostri
+                        heredibus tibi qui supra Adelberti presbiteri tuique heredibus aut cui vos
+                        dederitis suprascripta pecia terra cum casa qualiter supra legitur in
+                        integrum ab omne contradicentes homines defensare; quod si defendere non
+                        potuerimus aut si vobis exinde aliquit per quovis ingenio subtrahere
+                        quesierimus tunc <rs key="#Penalty">in dublum</rs> eadem vendita ut supra
+                        legitur vobis restituamus, sicut pro tempore fuerit meliorata aut valuerit
+                        sub estimacione in consimile locum; et nichil nobis ex ipsum precio amplius
+                        aliquit redebere diximus. Acto loco ubi dicitur <placeName
+                            ref="#places/2414">Gunziaga</placeName> feliciter. + Signum ++ manibus
+                        suprascriptis Bonefacius marchio et dux seu Richelda cometissa iugalibus qui
+                        hac <rs key="#Venditio">cartula vindicionis</rs> fieri rogaverunt et ipse
+                        Bofefacius marchio eidem coniux sua consensit ut supra. Signum ++ manibus
+                        suprascriptorum Lanfrancus et Henricus qui suprascripta Richelda ametanea
+                        eorum interrogaverunt ut supra. Signum +++ manibus <persName
+                            key="#Witness #Venditio">Benzoni</persName> et <persName
                             key="#Witness #Venditio">Ardoini</persName> seu <persName
                             key="#Witness #Venditio">Ingezoni</persName> lege viventes Langobardorum
                         rogatis <rs key="#Witness">testis</rs>. (S.) Ego <persName
