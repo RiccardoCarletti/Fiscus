@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Biblioteca Nazionale di Parigi, n° 2262 nouv. acq. lat., Cartulaire C de
+                    l'Abbaye de Cluny, c. 56</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc2175</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0933-03-08">
+                                <note type="displayed_date">933 march 8</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Pavia</note>
+                                <note type="redaction_date">XI exeunte-XII ineunte</note>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-02-08" who="Chiara Stedile">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine domini Dei aeterni. <persName key="#Emperor/king" ref="#people/79"
+                            >Hugo</persName> et <persName key="#Emperor/king" ref="#people/72"
+                            >Lotharius</persName> grats Dei <rs key="#Emperor/king">reges</rs>. Si
+                        venerabilibus Deoque dicatis locis temporalia largiti fuerimus beneficia,
+                        aeterna premia a Domino adipisci non dubitamus. Ideoque noverit omnium
+                        fidelium sanctae Dei Aecclesie nostrorumque preentium scilicet ac futurorum
+                        universitas, quia nos pro amore Dei omnipotentis sanctaeque Mariae virginis
+                        et beatorum apostolorum Petri scilicet et Pauli ceterorumque apostolorum
+                        amore remerioque animarum nostrarum seu patris et matris nostrae Teubaldi
+                        scilicet et Berte ceterorumque parentum nostrorum concedimus sancto ac
+                        venerabili monasterio Cluniensi, ubi nunc in presenti Odo abbas esse
+                        videtur, duas curtes iure proprietatis nostre coniacentes in comitatu
+                        Lugdunensi, quarum una vocatur Savigneri et altera Ambrei, cum omnibus
+                        illorum integritatibus, preter Leutardum pistorem et quinque alios
+                        servientes inde pertinentes, qui nobis modo serviunt, quod nostre
+                        reservavimus potestati; videlicet cum capellis, casis, terris, vineis,
+                        campis, pratis, pascuis, silvis, salictis, sationibus, aquis aquarumque
+                        decursibus, montibus, vallibus, alpibus, planitiebus, servis et ancillis
+                        utriusque sexus, preter ipsos sex, quod supra nostre potestati reservavimus,
+                        serventes, aldionibus et aldianis et cum omnibus que dici vel nominari
+                        possunt ad ipsas duas curtes iuste et legaliter pertinentibus in integrum,
+                        ipsos antepositos servientes, quatinus a presenti die cum omnibus illorum
+                        integritatibus, ipsos, ut diximus, sex servientes antepositos, sint in iure
+                        et dominio eiusdem coenobii et abbatis, qui nunc ibi est, successorumque
+                        suorum ad communem utilitatem fratrum ibi pro tempore Deo servientium, iure
+                        quieto et absque ulla contradictione. Quam nostram donationem si quis
+                        temerario ausu conatus fuerit infringere vel violari, sciat se ab
+                        omnipotente Deo dampnari quemadmodum de sacrilegio, seculariter autem
+                        cognoscat se compositurum auri obtimi libras centum, medietatem camere
+                        nostrae et medietatem abbati predicti coenobii suisque successoribus et
+                        fratribus qui ibi pro tempore fuerint. Quod ut verius credatur
+                        diligentiusque ab omnibus observetur, manibus propriis roborantes de anulo
+                        nostro subter adnotari iussimus. Signa serenissorum (M) (M) Hugonis et
+                        Lotharii regum. Petrus cancellarius ad vicem Gerlanni abbatis et
+                        archicancellarii recognovi et subscripsi. Data VIII id. mar., anno dominicae
+                        incarnationis DCCCCXXXIIII, regni autem domni Hugonis piissimi regis VIII,
+                        item domni Lotarii regis III, indictione VI. Actum Papia. In Dei nomine
+                        feliciter, amen.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>DD U L, pp. 105-107, n° XXXIV</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
