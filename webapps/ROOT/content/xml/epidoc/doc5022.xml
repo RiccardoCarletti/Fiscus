@@ -86,7 +86,7 @@
                     <ab>(S.) In nomine domini Dei eterni. <date>Anno ab incarnacione domini nostri
                             Iesu Christi milesimo quadragesimo quarto, quartodecimo die intrante
                             mense madius, indicione duodecima</date>. Costat me <persName
-                            key="#sonOf #Alemannus #Curtes #Castle #Fortress #Tower #Defensive_elements #Cells/hermitages #Landed_possessions #Domuscultae #Casae/cassinae_massaricie #Fisheries #Forests #Cereals #Wine #Hay/fodder #Houses"
+                            key="#sonOf #Alemannus #Venditio #Curtes #Castle #Fortress #Tower #Defensive_elements #Cells/hermitages #Landed_possessions #Domuscultae #Casae/cassinae_massaricie #Fisheries #Forests #Cereals #Wine #Hay/fodder #Houses"
                                 ><name ref="Gotefredus">Gotefredus</name></persName>
                         <rs key="#sonOf">filius</rs> quondam <persName key="#Alemannus #fatherOf"
                                 ><name ref="Heinricus">Henrici</name></persName> de <geogName
@@ -94,11 +94,10 @@
                             <placeName key="#Comitatus" ref="#places/2467"
                             >Machilincho</placeName></geogName> qui professo sum ex nacione mea lege
                         vivere <rs key="#Alemannus">Allamanorum</rs> accepisse sicuti et in
-                        presencia testium accepi ad te <persName key="#legallyRecognisedUnionWith"
+                        presencia <rs key="#Witness">testium</rs> accepi ad te <persName
+                            key="#legallyRecognisedUnionWith #Venditio #Curtes #Castle #Fortress #Tower #Defensive_elements #Cells/hermitages #Landed_possessions #Domuscultae #Casae/cassinae_massaricie #Fisheries #Forests #Cereals #Wine #Hay/fodder #Houses"
                             ref="#people/292">Biatrice</persName>
-                        <rs
-                            key="#legallyRecognisedUnionWith #Curtes #Castle #Fortress #Tower #Defensive_elements #Cells/hermitages #Landed_possessions #Domuscultae #Casae/cassinae_massaricie #Fisheries #Forests #Cereals #Wine #Hay/fodder #Houses"
-                            >coniux</rs>
+                        <rs key="#legallyRecognisedUnionWith">coniux</rs>
                         <persName key="#Marquis/duke #legallyRecognisedUnionWith" ref="#people/1"
                             >Bonefacii</persName>
                         <rs key="#Marquis/duke">marchioni et dux</rs>, consenciente predicto
@@ -177,7 +176,7 @@
                             >busscalibus seu silvis</rs> cum areis illorum iuges mille. Secunda vero
                         corte que nominatur Bibianello est area castri et turre et capelie et cassis
                         donicatis et masariciis et sediminibus et areis ubi vitis estant seu pratis
-                        atque terris arabilis iuges octocenti; de gerbidis et busscahbus seu silvis
+                        atque terris arabilis iuges octocenti; de gerbidis et busscalibus seu silvis
                         cu areis illorum iuges quattuorcenti. Tercia namque corte qui nominatur
                         Campaniola est area castri et capelle et cassis donicatis et masariciis et
                         sediminibus et areis ubi vitis estant seu pratis atque terris arabilis iuges
@@ -199,10 +198,11 @@
                         cartulam et pro isto precio omnia in tua qui supra Biatrice persistat
                         potestatem proprietario iure ut dictum est, tam castris et curtis et cassis
                         donicatis et masariciis seu reliquis terris, campis, pratis, passcuis,
-                        vineis, silvis, ac stallareis, insolis, <rs key="#Shores">ripis</rs>,
-                            rupinis, ac <rs key="#Marshes/lagoons/tombolos">paludibus</rs>, <rs
-                            key="#Mills">molendinis</rs> et pisscacionibus, coltis et incoltis,
-                        divissis et indivissis; una cum finibus, terminibus, accessionibus et <rs
+                        vineis, silvis, ac stallareis, <rs key="#Islands">insolis</rs>, <rs
+                            key="#Shores">ripis</rs>, rupinis, ac <rs
+                            key="#Marshes/lagoons/tombolos">paludibus</rs>, <rs key="#Mills"
+                            >molendinis</rs> et pisscacionibus, coltis et incoltis, divissis et
+                        indivissis; una cum finibus, terminibus, accessionibus et <rs
                             key="#Rights_of_use_on_woods/pastures/waters">usibus aquarum aquarumque
                             decursibus et fontaneis cum omni iure</rs>, adiacenciis et pertinenciis
                         earum rerum per loca et vocabula ad predictes cortes et roke et castris et
@@ -231,18 +231,28 @@
                         si ego ipse Gotefredus quod absit aut ullus de heredibus meis seu quislibet
                         oppositam persona fuerit qui contra hanc cartulam vendicionis venire, aut si
                         eam per covis ingenium inrumpere vel infrangere quesierimus, tunc inferamus
-                        parti contra quem exinde litem intulerimus multa quod est pena auro obtimo
-                        libras decem, argenti ponderas viginti, et quod repetierimus et vindicare
-                        non valeamus presens hanc cartulam vendicionis omni tempore firma et stabile
-                        permanead incolvulsa cum stipulacione supnixa; et bergamena ego qui supra
-                        Gotefredus manibus meis levavi et Rodulfus notarius scribere rogavi, in qua
-                        supter confirmans testibusque obtuli roborandam. Hactum in loco que
-                        nominatur Gunzacha feliciter. Signum manuum suprascripto Gotefredi qui hanc
-                        cartulam vendicionis fieri rogavi ut supra et suprascripto precio accepi.
-                        Signum manibus Marcuardo et Artulcho seu Ansenmo atque Gerardo rogatis
-                        testes lege Allamanorum viventes. Signum manibus Bennoni et item Bennoni seu
-                        Gandulfo testes. (S.) Ego Rodulfus notarius rogatus scripsi post tradita
-                        compievi et dedit. </ab>
+                        parti contra quem exinde litem intulerimus multa quod est pena <rs
+                            key="#Penalty">auro obtimo libras decem, argenti ponderas viginti</rs>,
+                        et quod repetierimus et vindicare non valeamus presens hanc cartulam
+                        vendicionis omni tempore firma et stabile permanead incolvulsa cum
+                        stipulacione supnixa; et bergamena ego qui supra Gotefredus manibus meis
+                        levavi et <persName key="#Venditio #Writer"><name ref="Rodulfus"
+                                >Rodulfus</name></persName>
+                        <rs key="#Notary">notarius</rs> scribere rogavi, in qua supter confirmans
+                        testibusque obtuli roborandam. Hactum in loco que nominatur <placeName
+                            ref="#places/2414">Gunzacha</placeName> feliciter. Signum manuum
+                        suprascripto Gotefredi qui hanc <rs key="#Venditio">cartulam
+                            vendicionis</rs> fieri rogavi ut supra et suprascripto precio accepi.
+                        Signum manibus <persName key="#Witness #Alemannus"
+                            ><name>Marcuardo</name></persName> et <persName
+                            key="#Witness #Alemannus"><name>Artulcho</name></persName> seu <persName
+                            key="#Witness #Alemannus"><name>Ansenmo</name></persName> atque
+                            <persName key="#Witness #Alemannus"><name ref="Gherardus"
+                            >Gerardo</name></persName> rogatis testes lege Allamanorum viventes.
+                        Signum manibus <persName key="#Witness"><name>Bennoni</name></persName> et
+                        item <persName key="#Witness"><name>Bennoni</name></persName> seu <persName
+                            key="#Witness"><name ref="Gandulfus">Gandulfo</name></persName> testes.
+                        (S.) Ego Rodulfus notarius rogatus scripsi post tradita compievi et dedit. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
