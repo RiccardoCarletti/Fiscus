@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Archivio Capitolare di Arezzo, arch, abb. S. Florae, n° 4</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc2174</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">Yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0933-01-16">
+                                <note type="displayed_date">933 [936] january 16</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Arezzo</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-02-08" who="Chiara Stedile">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>[In nomine domini nostri Iesu christi regis aeterni. Hugo et Lotharius
+                        gratia] Dei reges. Si sanctis ac venerabilibus locis quicquam ex his quae
+                        possidemus offrimus, procul dubio presentis et aeternae vitae prem[ium
+                        ad]ipisci [non tit]uba[mus]. [Quocirca noverit omnium fidelium sanctae Dei
+                        Ecclesiae nostrorumque presentium scilicet ac futurorum industria,]
+                        Sigefredum venerabilem episcopum dilectumque fidelem nostrum nostram
+                        humiliter adiisse clementiam, quatinus pro Dei omnipotentis timore [et
+                        remedio animae nostrae] in monasterio Sanctae Flora[e eiusdemque
+                        congregationi eorumque successoribus ibidem mil]ita[ntibus] quandam
+                        ecclesiam in honore sanctae Mariae constructam, in Monte Ionio edificatam,
+                        cum omnibus rebus et familiis ad eam in integrum pertine[ntibus, nec non et
+                        campum iuxta eandem ecclesiam regiae potestati hactenus] pertinentem, et
+                        omnem illam terram quam mater nostra Berta a Camerino adquisivit in Monte
+                        Ferentino, atque de silva Muclani quicquid nunc regiae parti legaliter
+                        pertinere videtur, nostra [prec]eptali auctoritate [concedere et largiri,
+                        insuper] quandam sortem in Querceto, quam frater noster Boso inclitus
+                        [m]archio eidem collegio per c[artulam] off[ersionis c]o[ntu]lit, quae
+                        laboratur per Bonipertum liberum hominem, ill[i]s [c]onfirmare et
+                        corroborare curavissemus. Cu[i]us [pe]ticionibus libenti animo pro Dei amore
+                        assensum prebentes, predictam ecclesiam cum sua integritate, omnibus rebus
+                        et familiis ad eam pertinentibus, nec non et campum iuxta eandem ecclesiam
+                        regiae potestati pertinentem et omnem illam terram in Monte Ferentino, quam
+                        mater nostra Berta a Camerino adquisivit, et predictam silvam in quantum
+                        legaliter ad nostram regiam partem pertinet, prout iuste et legaliter
+                        possumus, eidem ecclesiae et predictae congregationi pro Dei amore animaque
+                        matris nostrae concedimus et largimur; sortem insuper in Querceto, quam
+                        frater noster per cartulam predictae dedit congregationi, iam dictae
+                        ecclesiae et congregationi confirmamus et corroboramus; hec omnia itaque
+                        supradicta, videlicet ecclesiam et Campum Regium iuxta eam et terram in
+                        Monte Ferentini, silvam vero atque sortem, predictae Sanctae Florae
+                        ecclesiae eiusdemque congregationi eorumque successoribus ibidem
+                        militantibus una cum predicta capella, casi[s], terris, vineis, campis,
+                        pratis, silvis, pascuis, runculis, sationibus, aquis aquarumque decursibus,
+                        montibus, vallibus, alpibus, planitiebus, cum servis et ancillis et cum
+                        omnibus que dici vel nominari possunt ad predictam ecclesiam vel campum seu
+                        ad silvam vel sortem iuste et legaliter pertinentibus vel respicientibus in
+                        integrum, quatinus habeant, teneant firmiterque possideant iure quieto. Si
+                        quis igitur huius nostri precepti viltor extiterit, sciat se compositurum
+                        auri optimi libras quinquaginta, medietatem kamerae nostrae et m[edietatem]
+                        monachis predicto coenobio servientibus. [Quo]d ut verius credatur
+                        diligentiusque in posterum conservetur, manibus propriis roborantes de anulo
+                        nostro subter annotari iussimus. Signa serenissorum (MF) (MF) Hugonis et
+                        Lotharii regum. Petrus cancellarius ad vicem Gerlandi abbatis et
+                        archicancellarii recognovi et subscripsi. (SR) (SID). Data XVII kal. [febr.]
+                        anno dominicae incarnationis DCCCCXXXVI, regni autem domni Hugonis reg[is]
+                        VIII, et domni Lotharii item regis IIII, indictione VI. Actum in dom[o
+                        Sancti Donati. Feli]citer.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>DD U L, pp. 98-101</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
