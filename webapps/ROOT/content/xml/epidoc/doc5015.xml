@@ -43,9 +43,9 @@
                     <history>
                         <origin>
                             <origDate when="1008-08-26">
-                                <note type="displayed_date">1008 August</note>
+                                <note type="displayed_date">1008 August 26</note>
                                 <note type="dating_elements"/>
-                                <note type="topical_date">"vico Cuzolina"</note>
+                                <note type="topical_date">Gozzolina (Mantova)</note>
                                 <note type="redaction_date"/>
                             </origDate>
                             <origPlace>Sanctus Benedictus in Pado Lironi; monasterium
@@ -113,8 +113,8 @@
                             key="#Venditio #Fundi #Landed_possessions #Forests #Cereals #Hay/fodder"
                                 ><name ref="Teutius">Teuzo</name></persName> et <persName
                             key="#Venditio #Fundi #Landed_possessions #Forests #Cereals #Hay/fodder"
-                                ><name ref="Sichinzo">Sichinzo</name></persName> de loco
-                            <placeName>Midole</placeName>
+                                ><name ref="Sichinzo">Sichinzo</name></persName> de loco <placeName
+                            ref="#places/2475">Midole</placeName>
                         <rs key="#Price">argentum denarios bonos solidos viginti</rs>, finitum
                         precium pro omnibus rebus territoriis illis luris nostris quam abere visis
                         sumus in locas et <rs key="#Fundi">fundoras</rs>
@@ -153,12 +153,13 @@
                         nolle quod voluimus, sed quod ad nobis semel factum vel conscriptum est sub
                         iuxiurandu inviolabiliter conservare promittimus inconvulsa cum stipulacione
                         subnixa et nihil nobis ex ipsum precium redeberes disimus. Acto <placeName
-                            key="#Vici"><rs key="#Vici">vico</rs> Cuzolina</placeName>. + Aribertus
-                        presbiter a nobis facta subscripsi. + Gisempertus clericus a nobis facta
-                        subscripsi. Signum ++++ manibus predictorum; Penzoni seu Martini germanis et
-                        Iohannes adque Raginbaldi qui anc cartulam vindicionis fieri rogaverunt et
-                        suprascripto precio acceperunt eorumque relecta est. Signum +++ manibus
-                            <persName key="#Venditio #Witness #Roman"><name ref="Gisempertus"
+                            key="#Vici" ref="#places/2474"><rs key="#Vici">vico</rs>
+                            Cuzolina</placeName>. + Aribertus presbiter a nobis facta subscripsi. +
+                        Gisempertus clericus a nobis facta subscripsi. Signum ++++ manibus
+                        predictorum; Penzoni seu Martini germanis et Iohannes adque Raginbaldi qui
+                        anc cartulam vindicionis fieri rogaverunt et suprascripto precio acceperunt
+                        eorumque relecta est. Signum +++ manibus <persName
+                            key="#Venditio #Witness #Roman"><name ref="Gisempertus"
                                 >Gisemperti</name></persName> e <persName
                             key="#Venditio #Witness #Roman"><name ref="Rotius"
                             >Rozoni</name></persName> seu <persName key="#Venditio #Witness #Roman"
@@ -182,7 +183,10 @@
                 <p/>
             </div>
             <div type="commentary">
-                <p/>
+                <p>I luoghi <foreign>Gatalisco</foreign>, <foreign>Montanarico</foreign> e
+                        <foreign>Maurinisco</foreign> non sono identificati; solo il primo è
+                    menzionato come “luogo mantovano” dal <foreign>Dizionario toponomastico
+                        lombardo</foreign> (Olivieri 1961, p. 250).</p>
             </div>
         </body>
     </text>
