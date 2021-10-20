@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Archivio Capitolare di Parma (DD U L, pp. 115-122, n° XXXIX)</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc2179</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">-Placitum/iudicatum</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">Yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0935-09-18">
+                                <note type="displayed_date">935 september 18</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Pavia</note>
+                                <note type="redaction_date">XI sec.</note>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-02-08" who="Chiara Stedile">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>Dum in Dei nomine civitate Papia, in palacium noviter aedificatum ab domnum
+                        Uglonem gloriosissimum rex, in caminata dormitorii ipsius palacii, ubi ipse
+                        domnus Ugo et Lothario filio eius gloriosissimi reges preessent, in eorum
+                        presentia esse Sarilo comes palacii singulorum hominum iusticiam faciendum
+                        ac deliberandum, eramque cum eis: Atto Vercelensis, Batericus Eboriensis
+                        sanctarum Dei ecclesiarum venerabilibus episcopis; Ubertus illuster marchio
+                        et filio idem domni Ugoni piissimi regis; Ubertus, Lamfranccus, Gariardus,
+                        Giso, Rainulfus qui et Albericus, Iohannes, Teudinus et Martinus vassi idem
+                        domnorum regum; Iohannes, Arnustus, Vualfredus, Raginaldus, Vualpertus, item
+                        Iohannes, Adelgisus et Arialdus iudices domnorum regum; Otgerius et item
+                        Otgerius vasalli suprascripto Uberti marchio; Berengerius vasallo domni
+                        Sigefredi episcopo; Ansaldus de vico Alloni, Gariardus de Parpanense et
+                        reliqui plures. Ibique eorum veniens presentia predictus domnus Sigefredus
+                        u(ir) u(enerabilis) episcopus sanctae Parmense ecclesie et Adelbertus
+                        notarius filio quondam Staudeverti habitator eadem civitate Parma et
+                        advocato predicto episcopio sanctae Parmensis ecclesiae et idem domni
+                        Sigefredi episcopo, et ostenserunt ibi noticia una et preceptum unum, ubi
+                        continebatur: in predicta noticia, sicut hic subter legitur: Dum in Dei
+                        nomine, ad curte Veloniano finibus Parmense, qui est propria domni Adelberti
+                        comes et marchio, ubi Bertaldus vassus et missus domni Berengarii regis in
+                        iudicium residebat, per licenciam ipsius domni Adelberti marchioni,
+                        singulorum hominum iusticias faciendas ac deliberandas, residentibus ibi cum
+                        eo: ipse domnus Adelbertus marchio; Deodadus vicecomes; Adelbertus,
+                        Gundelprando, Benedicto, Amelgerio, Arifre, Gaudentio, Austremundo scavinis;
+                        Otberto, sigefredo, Arimundo, Liutaldo vasis domni Machioni; Armanno,
+                        Vuarinus, Bevinus vassi domni Elbungi episcopus; Ramberto de Tuliore,
+                        Autecherio de Pezenano, Ansprando et Aldeverto germanis de Fleso, Gariverto,
+                        Rotechildo germanis, Bernardo de vico Pauli, Ramberto, Gamperto de
+                        Gambaritico, Rimegauso, Cristofalo, Giso, Giselberto, Petrus, Constantinus
+                        notariis et reliquis multis. Ibique eorum veniens presentia Elbuncus
+                        venerabilis sancte Parmensis ecclesie episcopus una cum ipse Benedicto
+                        scavino et avocato ipsius episcopio, et ibi ostenserant preceptum unum, et
+                        nos eum ab ordine relegi fecimus, et in eo relegiente continebat: In nomine
+                        sanctae et individue Trinitatis. Karolus divina favente clementia imperator
+                        augustus. Imperiali clementia congruum fore credimus, venerabilium locorum
+                        statum iure regni nostri prosperis adheresfere successimus, quia si
+                        ecclesias omnipotentis Dei temporalibus donamus muneribus, thesaurum non
+                        deficientem nobis procul dubio thesaurizamus in celis, qui non consumat
+                        erugo, nec fures effodiunt, nec furari possent. Quapropter noverit omnium
+                        sanctae Dei Ecclesie nostrorumque fidelium presentium scilicet ac futurorum
+                        solercia, qualiter interventum ac peticione Berengarii nec non et Vualfredi
+                        sublimium comitum dilectorumque fidelium et coosiliariorum nostrorum
+                        Vuibodus sanctae Parmensis ecclesie reveremissimus episcopus dilectus
+                        fidelis noster nostri augustalis culmen postulavit regiminis, ut pro Dei
+                        amore animeque nostre omniumque parentum nostrorum mercedem locellum quedam,
+                        Luculo nomine, scito in alpinis ac scopulosis vastarum moncium locis in
+                        comitatu Parmensis, iuris regni nostri, sibi et ecclesie suae concederemus
+                        cum finibus et terminis suis inter gaium et costam Finalem, decurrentibus
+                        videlicet finibus illis ab alveo torrentis qui dicitur Incia per montem
+                        Comanensem, et inde protendentibus in montem de Calabiana, declinantibus
+                        capud in pratum Rotundum, venientibus silicet illis per montem de Valle
+                        Vicinaria inde vero in montem de Perito et inde in montem de Scaluga deinde
+                        autem per monte de Possesi, transeuntibus siquidem per montem Almaria et
+                        inde per costam Finalem descendentibus in prenominatum torrentem Inciam.
+                        Cuius precibus benigno favore inclinati, hoc nostrum eidem Vuibodo
+                        venerabile episcopo fideli nostro iussimus conscribi preceptum et hanc
+                        imperialis nostre concessionis paginam, per quam predictum locellum, nomine
+                        Luculum, situm in scopulosis moncium locis infra comitatum Parmense, cum
+                        designatis finibus et terminacionibus cum omnibus superioribus et
+                        inferioribus suis in integrum, sicut supra insertum est, donamus, concedimus
+                        atque largimur sempiternalem iure proprietario eidem Vuibodi episcopo
+                        suisque successoribus a parte predicte Parmensis ecclesie, ut habeat,
+                        teneat, possideat ac fruatur perenniter tam ipse Vuibodus episcopus quamque
+                        et successores eius a parte, ut dictum est, prelibate ecclesie in eternum,
+                        omnem publica inquietudine vel repeticionem remota atque extincta. Si quis
+                        vero, quod minime credimus, nostris et futuris temporibus contra hoc nostre
+                        donacionis, coocessionis seu largicionis preceptum in supradictis finibus et
+                        descriptis termioationis ab hinc et deinceps iam dicto Vuibodo episcopo
+                        suisque successoribus iniuste aliquam molestiam intulerit, sciat se
+                        compositurum auri optimi mancusos mille, medietatem palacio nostro et
+                        medietatem sepe nominato Vuibodo episcopo suisque successoribus quibus
+                        violentia inlata fuerit. Et ut hoc nostre donacionis seu concessionis
+                        edictum firmis habeant hac diligencius ab omnibus observetur, manum propria
+                        subter confirmavimus et bulla nostra iussimus insigniri. Signum domni Karoli
+                        serenissimi imperatoris augusti. Inquirinus notarius ad vicem Liutoardi
+                        archicangelarii recognovi et subscripsi. Dato tercio id. mar., anno
+                        iocarnationis Domini DCCCLXXX, et domni Caroli serenissimi imperatoris anno
+                        primo, per indic XIII. Actum Ticino, palacio regio. in Dei nomine feliciter,
+                        amen. Cum ipsum preceptum ab ordine relectum fuisset, interrogati sunt ipsis
+                        Elbuncus episcopus et Benedictus eius advocatum pro qua causa ibi ipsum
+                        ostenderent prcceptum. Qui dixerunt: uere pro ideo istum ostensimus
+                        preceptum, ut sciatis qualiter ego pars ipsius mee ecclesie ipsis rebus,
+                        quod in eo legitur, habeo et deteneo iure proprietario, et eum sirens et
+                        occultum vel conludiosum tenere non volo, et, quod plus est, volo ut dicant
+                        istis domnus Adelbertus comes et marchio et Berta coniuge eius vel iste
+                        Boniprandus eorum advocato, qui hic adpresens sunt, si ipsis rebus, quod in
+                        eodem legitur preceptum, nobis parti nostre ccclesie contradicere volerent
+                        an non. Qui et ipsis Adelberto et Berta iocalibus et Boniprando advocato
+                        eorum professi et manifesti dixerunt, quod ipsum preceptum in omnibus bonum
+                        et verum est, et ipsis rebus, quod in eo legitur, non contenderent nec
+                        contradicere quesisent, quia cum lege non poterent, sed propriis ipsius
+                        vestre ecclesie esse debent. Cum hec omnia taliter actum et manifestum
+                        fuisset, paruit nobis superscriptorum iudicum et auditores esse rectum, et
+                        iudicavimus ut ammodo in antea ipsis rebus iuxta ipsum preceptum ipse
+                        Helbuncus episcopus parti sue ecclesie habere et detinere deberet, et ipsis
+                        Adelberto et Berta iocalibus vel ipse Boniprandus eorum advocato fuissent
+                        sibi exinde taciti et contenti. Pro hac causa ad memoriam retinendum
+                        ammonuimus exinde Martinus notarius hanc noticiam commemoracionis scribere.
+                        Quidem et feci; anno domni Berengarii regis octavo decimo, mense madio,
+                        indie. nona. Signum manu Bertaldi vassus et missus domni regis, qui ut supra
+                        interfui. Signum manu Deodati vicecomes, qui ibi fuit. Ego Adelbertus
+                        scavinus ibi fui. Gundelprandus scavino ibi fui. Signum manu Amelgerii
+                        scavino, qui interfui. Signum manu Arfri et Gaudencii scavinis, qui ibi
+                        fuerunt. Ego Austremundo scavino ibi fui. Ego Rimegauso notario ibi fui. Ego
+                        Giselbertus notarius ibi fui. Ego Cristofalus notarius ibi fui. Ego Giso
+                        notario ibi fui. Ego Petrus notarius ibi fui. Ego Otbertus ibi fui. Ego
+                        Arimundo ibi fui. Signum manu Sigefredi et Liutaldi vassis domni Adelberti
+                        marchio, qui ibi fuerunt. Signum manu Almerici et Armanni et Vuarini et
+                        Bevini, qui ibi fuerunt. In predicto precepto continente in eo ab ordine per
+                        omnia ita: (Segue il testo del diploma di Ugo n. XXVI). Erat preceptum ipsum
+                        manum propria idem domni Hugoni gloriosissirnum rex firmatum et ab eius
+                        anulum sigilatum. Noticia ipsa et predictum preceptum ostensi et ab ordine
+                        lecti, interrogati sunt predictus domnus Sigefredus episcopus et Adelbertus
+                        notario et advocato ab his iudices et auditoribus, pro qua causa predicta
+                        noticia et iam dictum preceptum ostenderent. Qui dixerunt: vere ideo hic
+                        vestri presentie istam ostensimus noticia et preceptum, ut ne quislibet homo
+                        dicere possit, quod nos a parte predicto episcopio sanctae Parmensis
+                        ecclesie eis sirens aut occulte vel conludiose habuissemus aut
+                        detenuissemus, et, quod plus est, querimus ut dicant iste Albuinus iudex
+                        quondam Petri idemque iudici filius et avocato domnorum regum seu pars
+                        publice, qui hic adpresens est, si noticia ista et iam dictum preceptum
+                        bonum et verax sunt, vel si iam dictam curticella, qui vocatur Luculo, et
+                        predicta abbatia, qui dicitur Bercetum, et sicut fines dicernitur de eadem
+                        curticellam Luculo, sicut et in ista noticia et preceptum, que in ea
+                        continet, vel in isto alio precepto, quas iste domnus Hugo piissimus rex sue
+                        clementie feci, parti iam dicto episcopio predicte sancte Parmensis ecclesie
+                        da pars domnorum regum seu pars publice et quicquid in isti preceptas et
+                        noticia continet, qui da pars regia et pars publice pertenuit, contradicere
+                        aut sustrahere vult an non. Qui et ipse Alboinus iudex et avocatus dixit et
+                        professus est: v[e]re noticia ista et preceptum, que in ea legitur, et in
+                        istum alium preceptum, quam hic ostensistis, boni et uerax sunt, et predicta
+                        curticella, qui vocatur Luculo, cum sua pertinencia, sicut fines
+                        discernitur, et iam dicta abacia, qui dicitur Berceto, sive omnibus quicquid
+                        per istas preceptas in iam dicto episcopio datis vel concessi sunt da pars
+                        regia et pars publice pertenuerunt parti iam dicto episcopio da pars regia
+                        et pars publice; unde ego advocatus sum non contradixi, nec contradicere
+                        quero, quia nec legibus possum, eo quod propriis parti iam dicto episcopio
+                        iuxta ista noticia et preceptum, que in ea legitur, et iuxta istum alium
+                        preceptum cum lege esse debent, et pars regia seu pars publice nichil
+                        pertinent ad habendum nec pertinere debent cum lege. Et dum ibi adpresens
+                        esse Anscarius marchio quondam Adelberti idemque marchioni filio et Raperto,
+                        qui et Azo, filio quondam Garibaldi de loco Vedolio adiutor eius, qui eius
+                        causa ex regia iussione peragebat, interrogati sunt ab eisdem domnus
+                        Sigefredus presule et Adelbertus notario et advocato, quid contra iam dictam
+                        noticia et preceptum, que in ea legitur, seu in alium preceptum, ad domnum
+                        Hugonem emissum, qui ibi ostenserunt et lecti essent, dicere volerent, vel
+                        si iam dieta curticella, qui vocatur Luculo, cum sua pertinencia, sicut
+                        fines discernissent, partim iam dicto episcopio contradicere aut subtrahere
+                        volerent an non. Qui et ipsis Anschaio marchio et Raperto eius adiutor
+                        dixerunt et professi sunt: vere noticia ista et preceptum, que in ea
+                        legitur, sive istum alium preceptum, quam hic ostensistis, boni et verax
+                        sunt, et iam dicta curticella, qui dicitur Luculo, eum sua pertinentia,
+                        sicut fines discernistis, et quicquid da pars publiee pertenuit, qui in ista
+                        legitur noticia et preceptas, partim iam dicto episcopio sanctae Parmensis
+                        ecclesie contradicere nec subtrahere non querimus, quia nec legibus
+                        possumus, eo quod iusta istas preceptas et noticia propriis parti iam dicto
+                        episcopio sanctae Parmensis ecclesie cum lege esse debent, et michi
+                        Anscharii nichil pertinent ad habendum nec pertinere debet cum lege. Et
+                        taliter se predictus Anscario marchio exinde abvuarpivit et absascito fecit.
+                        His actis et maifestacio ut supra facta, rectum eorum omnibus paruit esse,
+                        et iudicaverunt, ut iuxta eorum altercacionem et predictorum Alboini iudex
+                        et avocato seu Anscharii marchio et Raperti eius adiutor professionem et
+                        manifestacionem, ut pars iam dicto episcopio sanctae parmensis ecclesie iam
+                        dictam curticellam, qui vocatur Luculo, et predicta abbacia, qui dicitur
+                        Bercetum, cum suorum pertinenciis et quicquid da pars regia et pars publice
+                        pertenuit, qui in ipsas continetur preceptas et noticia, ad suam
+                        proprietatem habere et detinere deberent. Et ipsis Alboinus iudex et avocato
+                        seu pars regia et pars publice atque predicti Anscarius marchio et Rapertus
+                        eius adiutor manerent inde taciti et contenti. Et finita est causa. Et hanc
+                        noticia pro securitate ipsius episcopio sancte Parmensis ecclese fieri
+                        iussimus. Quidem et ego Ritpertus notarius et iudex domnorum regum ex
+                        iussione superscripto Sariloni comes palacii et iudicum ammonicione scripsi;
+                        anno regni domni Hugoni et Lotharii filio eius gratia Dei reges Deo propicio
+                        domni Hugoni decimo, Lotharii vero quinto, quatordecimo kal. Octub., indic.
+                        Nona. Sarilo comes palacii subscripsi. Atto gratia Dei episcopus interfui.
+                        Ego Batericus episcopus interfui. Iohannes iudex domnorum regum interfui.
+                        Arnustus iudex domnorum regum interfui. Iohannes iudex dominorum regum
+                        interfui. Vualpertus iudex domnorum regum interfui. Vualfredus iudex
+                        domnorum regum interfui. Adelgisus iudex domnorum regum interfui. Lanfrancus
+                        ibi fuit.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>DD U L, pp. 115-122, n° XXXIX</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>Contiene un placito del maggio 906, che a sua volta riporta un diploma di Carlo
+                    III del 13 marzo 881 (MGH DD Ka III, pp. 54-55, n° 32). Contiene il diploma di
+                    Ugo del 16 settembre 930 (DD U, pp. 76-78, n° XXVI).</p>
+            </div>
+        </body>
+    </text>
+</TEI>
