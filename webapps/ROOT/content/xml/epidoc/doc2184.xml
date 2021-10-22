@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Biblioteca Ambrosiana di Milano, Privilegia Cumane ecclesiae, ms. F. S. V,
+                    24, c. 11</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc2184</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0937-06-15">
+                                <note type="displayed_date">937 june 15</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Como</note>
+                                <note type="redaction_date">XIV sec.</note>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-02-08" who="Chiara Stedile">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine domini Dei eterni. Hugo et Lotharius divina favente clementia
+                        reges. Noverit omnium sancte Dei Ecclesie nostrorumque presentium ac
+                        futurorum fidelium solercia, Azçonem venerabilem episcopum dilectumque
+                        fidelem nostrum nostram adisse clemenciam obsecrand ac multum rogitans, pro
+                        sempiterni retributoris amore et nostre nostrorumque parentum anime salute
+                        atque nostrorum decessorum et futurorum animarum remedio regum et
+                        imperatorum, sue ecclesie paupertati consulere ac necessitati subvenire
+                        dignaremur, maxime sacris et ecclesiasticis ordinibus sue destitute ecclesie
+                        clusas et pontem iuris regni nostri de Clavenna et omnem redditum et
+                        exhibitionem, que usque modo ad partem nostre rei publice exinde exire
+                        solebat, perpetualiter in usum ac canonicalem fratrum stipendium miserando
+                        pro Deo concederemus, ob id scilicet in stipendiis recreati ac
+                        necessitatibus sustentati liberius ac devocius sacris officiis valeant
+                        insistere, Deum exorare, presentibus ac futuris veniam supplicare. Cuius
+                        quia dignam previdimus postulationem, pro amore Dei et sancte Marie virginis
+                        eius precibus libenter adquievimus, concedentes atque confirmantes iam
+                        dictis sacris ordinibus, scilicet sacerdotibus, diaconibus, subdiaconibus
+                        ceterisque ordinibus divinis officiis incumbentibus, clusas et pontem iuris
+                        regni nostri de Clavenna cum omni redditu et exhibitione que inde exigi et
+                        solvi possunt in integrum, eo scilicet ordine, ut supradictus grex sancte
+                        Cumane ecclesie, tam presentes quam futuri, easdem clusas et pontem habeant,
+                        teneant in integrum, remota omni publica functione, et faciant inde quicquid
+                        voluerint ad cottidiani stipendii usum, ad laudem et gloriam omnipotentis
+                        Dei ac sancte Marie virginis sanctique Abondii confessoris, cum nostra
+                        plenissima auctoritate. Igitur iubendo sanctimus atque sanctiendo per hoc
+                        nostrum regale preceptum interdicimus, quod nullus dux, comes, vicecomes,
+                        episcopus, advocatus, vicedominus aut quislibet regni nostri procurator
+                        neque aliqua parva magnaque persona prelibatos canonicos de iam dictis
+                        clusis et ponte disvestire aut inquietare presumat, sed liceat predictis
+                        canonicis ipsas clusas et pontem eorumque successoribus pacifice eternaliter
+                        tenere. Si vero, quod minime credimus, contra huius nostri precepti statuta
+                        quisquam violator extiterit, sciat se compositurum auri purissimi libras
+                        ducentas, medietatem caere nostre et medietatem Cumane ecclesie eiusque
+                        canonicis. Et ut hoc verum esse certissime credatur ac diligencius ab
+                        omnibus conservetur, hoc preceptum nostra iussione exaratum, propriis
+                        manibus firmatum, sigillo nostre comunis ymaginis in fine est roboratum.
+                        Signa (M) (M) serenissorum domni Hugonis et Lotharii regum. Giseprandus
+                        capellanus ad vicem Azzonis episcopi et archicancellarii recognovi et
+                        subscripsi. Data XVII kal. iulii, anno dominice incarnationis DCCCCXXXVII,
+                        domni Hugonis piissimi regis XI, Lotharii vero filii eius item regis VII,
+                        indictione X. Actum Cumis civitate. Feliciter.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>DD U L, pp. 133-136, n° XLIV</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
