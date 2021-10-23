@@ -30,7 +30,7 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#">-Papal concession</rs>
+                            <rs type="text_type" ref="#">-Littera/mandatum</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
                             <rs type="fiscal_property"/>
@@ -82,23 +82,33 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>Leo episcopus servus servorum Dei Wiberto Mutinensi episcopo, salutem et
+                    <ab><persName key="#Bishops #Popes" ref="#people/2140">Leo</persName>
+                        <rs key="#Bishops">episcopus</rs>
+                        <rs key="#Popes">servus servorum Dei</rs>
+                        <persName key="#Bishops" ref="#people/2143">Wiberto</persName>
+                        <placeName ref="#places/38">Mutinensi</placeName> episcopo, salutem et
                         apostolicam benedictionem. Mirabilis Deus in sanctis suis, gloriosus et
                         mitis, et magnae misericordiae et super maliciam prestabilis, multorum
                         fidelium ut vera conperimus relacione, centupla remuneratione donavit,
-                        sancti sui confessoris meritum et laborem Symeonis. Reverentissimo abbati
-                        Sancto Benedicto exhibeatur honor, adiuncto sibi sotio Symeone monacho,
-                        heremita et diacono. Mantuanus episcopus novam ibi consecrabit aecclesiam,
-                        cui volumus ut exhibeas honorificentiam, scilicet interesse te volumus huic
-                        consecrationi, et huius corporis elevationi, et altare in eius honore
-                        consecretur, quem Deus summa virtutum clarificavit dignitate.</ab>
+                        sancti sui confessoris meritum et laborem <persName
+                            key="#Monks #Deacons #Churches"><name ref="Symeon"
+                            >Symeonis</name></persName>. Reverentissimo <rs key="#Abbots"
+                            >abbati</rs>
+                        <orgName key="#Abbots" ref="#juridical_persons/2001">Sancto
+                            Benedicto</orgName> exhibeatur honor, adiuncto sibi sotio Symeone <rs
+                            key="#Monks">monacho</rs>, heremita et <rs key="#Deacons">diacono</rs>.
+                            <placeName ref="#places/275">Mantuanus</placeName> episcopus novam ibi
+                        consecrabit <rs key="#Churches">aecclesiam</rs>, cui volumus ut exhibeas
+                        honorificentiam, scilicet interesse te volumus huic consecrationi, et huius
+                        corporis elevationi, et altare in eius honore consecretur, quem Deus summa
+                        virtutum clarificavit dignitate.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
                 <p>CDP I n. 26, pp. 129-130.</p>
             </div>
             <div type="bibliography" subtype="additional">
-                <p/>
+                <p>Golinelli 1974; Golinelli 1978.</p>
             </div>
             <div type="bibliography" subtype="links">
                 <p/>
