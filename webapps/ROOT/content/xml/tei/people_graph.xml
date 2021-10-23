@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="people">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="graph">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>People</title>
+                <title>People graph</title>
             </titleStmt>
             <publicationStmt>
                 <p></p>
@@ -16,7 +16,8 @@
     </teiHeader>
     <text>
         <body>
-            <p n="import"/> 
+            <p>The graph may take some time to load, so be patient!</p>
+            <addSpan xml:id="people_graph"/>
         </body>
     </text>
 </TEI>

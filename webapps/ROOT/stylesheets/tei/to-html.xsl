@@ -572,7 +572,7 @@
   </xsl:template>
   
   <!-- COMPLETE GRAPH -->
-  <xsl:template match="//tei:addSpan[@xml:id='graphs']">
+  <xsl:template match="//tei:addSpan[@xml:id='relation_graph']">
     <xsl:variable name="graph_items">
       <xsl:text>{nodes:[</xsl:text>
       <xsl:for-each select="$people//tei:person[not(descendant::tei:persName='XXX')][descendant::tei:persName!=''][descendant::tei:idno!='']|$juridical_persons//tei:org[not(descendant::tei:orgName='XXX')][descendant::tei:orgName!=''][descendant::tei:idno!='']|$estates//tei:place[not(descendant::tei:geogName='XXX')][descendant::tei:geogName!=''][descendant::tei:idno!='']|$places//tei:place[not(descendant::tei:placeName='XXX')][descendant::tei:placeName!=''][descendant::tei:idno!='']">
