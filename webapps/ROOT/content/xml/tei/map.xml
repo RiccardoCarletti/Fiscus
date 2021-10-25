@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="relationgraph">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="placesmap">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Relation graph</title>
+                <title>Map</title>
             </titleStmt>
             <publicationStmt>
                 <p></p>
@@ -16,8 +16,8 @@
     </teiHeader>
     <text>
         <body>
-            <p>The graph may take some time to load, so be patient!</p>
-            <addSpan xml:id="relation_graph"/>
+            <p>The map may take some time to load, so be patient!</p>
+            <addSpan xml:id="map"/>
         </body>
     </text>
 </TEI>

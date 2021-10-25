@@ -15,7 +15,8 @@
     <item label="Juridical persons" match="local-index-display-html" params="epidoc juridical_persons"/> 
     <item label="Keywords" match="local-index-display-html" params="epidoc keywords"/>
   </menu>
-  <menu label="Graphs">
+  <menu label="Maps and graphs">
+    <menu label="Map" match="local-tei-display-html" params="map"/>
     <menu label="Relation graph" match="local-tei-display-html" params="relation_graph"/>
     <menu label="People graph" match="local-tei-display-html" params="people_graph"/>
   </menu>

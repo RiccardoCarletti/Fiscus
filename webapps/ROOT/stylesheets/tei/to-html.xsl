@@ -295,7 +295,7 @@
       <p><xsl:if test="tei:orgName[@type='other']//text()|tei:persName[@type='other']//text()|tei:placeName[@type='other']//text()|tei:geogName[@type='other']//text()"><strong><xsl:text>Also known as: </xsl:text></strong><xsl:apply-templates select="tei:orgName[@type='other']|tei:persName[@type='other']|tei:placeName[@type='other']|tei:geogName[@type='other']"/><br/></xsl:if>
         
         <xsl:if test="tei:geogName/tei:geo/text()"><strong><xsl:text>Coordinates (Lat, Long): </xsl:text></strong>
-          <xsl:value-of select="tei:geogName/tei:geo"/> <a href="#" onclick="openPopupById($(this)[0].id);"><xsl:attribute name="id"><xsl:value-of select="substring-after(tei:idno, 'places/')"/></xsl:attribute><xsl:text> [See on map]</xsl:text></a><br/></xsl:if>
+          <xsl:value-of select="tei:geogName/tei:geo"/><a target="_blank"><xsl:attribute name="href"><xsl:text>map.html#</xsl:text><xsl:value-of select="substring-after(tei:idno, 'places/')"/></xsl:attribute><xsl:text> [See on map]</xsl:text></a><br/></xsl:if>
         <xsl:if test="tei:idno"><strong><xsl:text>Item number: </xsl:text></strong><xsl:value-of select="$this_id"/><br/></xsl:if>
         <xsl:if test="tei:note//text()"><strong><xsl:text>Commentary/Bibliography: </xsl:text></strong><xsl:for-each select="tei:note[node()]"><xsl:apply-templates select="."/><br/></xsl:for-each></xsl:if>
         <xsl:if test="//tei:org and matches($all_keys_jp, '.*[a-zA-Z].*')"><strong><xsl:text>Linked keywords: </xsl:text></strong> 
@@ -821,6 +821,7 @@
         toggle_golden_places.addTo(mymap);
         toggle_polygons.addTo(mymap);
         toggle_lines.addTo(mymap); 
+        openPopupById(window.location.href.substring(window.location.href.lastIndexOf("#") +1)); <!-- to open popup of specific place, whose id is at the end of the URL -->
          
         <!--var sliderControl = L.control.sliderControl({layer: L.layerGroup(markers)});
         mymap.addControl(sliderControl);
