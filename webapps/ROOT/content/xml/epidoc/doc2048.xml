@@ -82,30 +82,74 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>Ego Iohannes, gracia Dei humilis abbas monasterio Sancti Vincencii, situs
-                        super Vulturni fluminis, pertinenciis Beneventane civitatis, ante domnum
-                        Ottonem imperatorem augustum, et ante eum residente domnus Ceso, Domini
-                        gracia episcopus [.....]; et domnus Petrus, Dei gracia episcopus civitatis
-                        Papie; et domnus Giselvertus, gracia Dei episcopus Pergamo civitati; et ante
-                        eum residente Gunzolino marchio, et Azzolino Teatino comitibus, et ceteris
-                        sui magnates ante eum stantes: coniussi me ad legem cum Landolfo comite,
-                        filium cuiusdam Landenolfi comiti. Ego, qui suprascriptus Iohannes abbas,
-                        mecum habendo Audoaldus advocator nostri monasterii, et ostensimus ei ante
-                        supradictam potestatem precepta sigillata Gisolfi ducis et Arechis
-                        principis, quam et precepta Grimoaldi principis, et precepta Sicardi
-                        principis, quam et preceptum domni Lodoici imperatori, et preceptum domni
-                        Pandolfi, et domni Landolfi gloriosi principibus, et preceptum domni Ottoni
-                        imperatori, qua[m] et offersiones cartule nostri monasterii, quam et alia
-                        precepta et scripciones, nam cum relecte fuissent predicta precepta, et
-                        scripciones, et offersiones, inter quas continentes inter ipsas scripciones
-                        pena obligata se ipse Landolfus mille aureorum eidem ecclesie refutaverat
-                        puplice, si in futuro aliquando, aliquo conamine, eidem demoliretur ecclesie
-                        [.....] unde ipse qui supra Iohannes abbas, ante supradictum domnum Ottonem
-                        imperatorem augustum, una cum Audoaldo advocatore sui monasterii causaverat
-                        adversum ipsum Landulfum comitem, ut contrasset ei in parte sui monasterii
-                        terris, que pars sui monasterii possideret per triginta annos, et terris
-                        ipsis fuerat cultis, et incultis, montibus et silvis in Samnie partibus, in
-                        qua ipse vetus monasterii edificato esse dinoscitur. unde ipse, qui supra
+                    <ab>Ego <persName key="#Abbots">Iohannes</persName>, gracia Dei humilis <rs
+                            key="#Abbots">abbas</rs>
+                        <rs key="#Monasteries">monasterio</rs>
+                        <orgName key="#Monasteries" ref="#juridical_persons/1900">Sancti
+                            Vincencii</orgName>, situs super <placeName key="#Rivers"
+                            ref="#places/609">Vulturni</placeName>
+                        <rs key="#Rivers">fluminis</rs>, pertinenciis <placeName key="#Cities"
+                            ref="#places/110">Beneventane</placeName>
+                        <rs key="#Cities">civitatis</rs>, ante domnum <persName key="#Emperor/king"
+                            ref="#people/239">Ottonem</persName>
+                        <rs key="#Emperor/king">imperatorem</rs> augustum, et ante eum residente
+                        domnus <persName key="#Bishops">Ceso</persName>, Domini gracia <rs
+                            key="#Bishops">episcopus</rs> [...]; et domnus <persName key="#Bishops"
+                            >Petrus</persName>, Dei gracia <rs key="#Bishops">episcopus</rs>
+                        <rs key="#Cities">civitatis</rs>
+                        <placeName key="#Bishops #Cities" ref="#places/65">Papie</placeName>; et
+                        domnus <persName key="#Bishops">Giselvertus</persName>, gracia Dei <rs
+                            key="#Bishops">episcopus</rs>
+                        <placeName key="#Bishops #Cities" ref="#places/10">Pergamo</placeName>
+                        <rs key="#Cities">civitati</rs>; et ante eum residente <persName
+                            key="#Marquis/duke">Gunzolino</persName>
+                        <rs key="#Marquis/duke">marchio</rs>, et <persName key="#Count"
+                            >Azzolino</persName>
+                        <placeName key="#Count #Comitatus" ref="#places/1821">Teatino</placeName>
+                        <rs key="#Count">comitibus</rs>, et ceteris sui magnates ante eum <rs
+                            key="#Assembly">stantes</rs>: coniussi me ad legem cum <persName
+                            key="#Count">Landolfo</persName>
+                        <rs key="#Count">comite</rs>, filium cuiusdam <persName key="#Count"
+                            >Landenolfi</persName>
+                        <rs key="#Count">comiti</rs>. Ego, qui suprascriptus Iohannes abbas, mecum
+                        habendo <persName key="#Advocatus">Audoaldus</persName>
+                        <rs key="#Advocatus">advocator</rs> nostri monasterii, et ostensimus ei ante
+                        supradictam potestatem <rs key="#Marquis’/ducal/princely_diploma"
+                            >precepta</rs> sigillata <persName
+                            key="#Marquis/duke #Marquis’/ducal/princely_diploma" ref="#people/158"
+                            >Gisolfi</persName>
+                        <rs key="#Marquis/duke">ducis</rs> et <persName
+                            key="#Princeps #Marquis’/ducal/princely_diploma" ref="#people/303"
+                            >Arechis</persName>
+                        <rs key="#Princeps">principis</rs>, quam et precepta <persName
+                            key="#Princeps #Marquis’/ducal/princely_diploma" ref="#people/373"
+                            >Grimoaldi</persName>
+                        <rs key="#Princeps">principis</rs>, et precepta <persName
+                            key="#Princeps #Marquis’/ducal/princely_diploma" ref="#people/186"
+                            >Sicardi</persName>
+                        <rs key="#Princeps">principis</rs>, quam et <rs
+                            key="#Imperial/royal_diploma">preceptum</rs> domni <persName
+                            key="#Emperor/king #Imperial/royal_diploma" ref="#people/118"
+                            >Lodoici</persName>
+                        <rs key="#Emperor/king">imperatori</rs>, et preceptum domni<persName
+                            key="#Princeps #Marquis’/ducal/princely_diploma" ref="#people/157">
+                            Pandolfi</persName>, et domni <persName
+                            key="#Princeps #Marquis’/ducal/princely_diploma" ref="#people/315"
+                            >Landolfi</persName> gloriosi <rs key="#Princeps">principibus</rs>, et
+                        preceptum domni <persName key="#Emperor/king #Imperial/royal_diploma"
+                            >Ottoni</persName>
+                        <rs key="#Emperor/king">imperatori</rs>, quam et <rs key="#Offersio/donatio"
+                            >offersiones cartule</rs> nostri monasterii, quam et alia precepta et
+                        scripciones, nam cum relecte fuissent predicta precepta, et scripciones, et
+                        offersiones, inter quas continentes inter ipsas scripciones pena obligata se
+                        ipse Landolfus mille aureorum eidem ecclesie refutaverat puplice, si in
+                        futuro aliquando, aliquo conamine, eidem demoliretur ecclesie [.....] unde
+                        ipse qui supra Iohannes abbas, ante supradictum domnum Ottonem imperatorem
+                        augustum, una cum Audoaldo advocatore sui monasterii causaverat adversum
+                        ipsum Landulfum comitem, ut contrasset ei in parte sui monasterii terris,
+                        que pars sui monasterii possideret per triginta annos, et terris ipsis
+                        fuerat cultis, et incultis, montibus et silvis in Samnie partibus, in qua
+                        ipse vetus monasterii edificato esse dinoscitur. unde ipse, qui supra
                         Landolfus dixerat eique abbati, ut contrasset ei prephati sui monasterii
                         terris, et montibus, et silvis ipsis, eo quod dicebat puplice esset et
                         pertineret pro suo Yserniense comitatu, cuius finis dicebat predicta
