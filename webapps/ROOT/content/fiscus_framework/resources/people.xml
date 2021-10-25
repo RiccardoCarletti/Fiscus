@@ -2042,6 +2042,8 @@
                     <note/>
                     <link type="juridical_persons" corresp="#juridical_persons/131" subtype="link"/>
                         <link type="places" corresp="#places/65" subtype="hasConnectionWith"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/220"
+                            subtype="link"/>
                 </person>
                 <person>
                     <persName>Boso (992) abbas monasterii Sancti Anthimi</persName>
@@ -5739,11 +5741,22 @@
                             subtype="link"/>
                     </person>
                     <person>
-                        <persName>Ceso (981); episcopus</persName>
+                        <persName>Cesus (981); episcopus</persName>
                         <persName type="other"/>
                         <idno>people/1967</idno>
                         <note/>
                         <link type="people" corresp="#people/240" subtype="link"/>
+                    </person>
+                    <person>
+                        <persName>Giselbertus (975-982; episcopus Bergomensis)</persName>
+                        <persName type="other"/>
+                        <idno>people/1968</idno>
+                        <note/>
+                        <link type="people" corresp="#people/240" subtype="link"/>
+                        <link type="people" corresp="#people/1967" subtype="link"/>
+                        <link type="places" corresp="#places/10" subtype="hasConnectionWith"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/189"
+                            subtype="link"/>
                     </person>
                 </listPerson>
             </listPerson>
