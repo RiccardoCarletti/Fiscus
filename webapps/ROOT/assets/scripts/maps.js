@@ -45,6 +45,7 @@
         var land_places = [];
         var fallow_places = [];
         var uncertain_places = [];
+        var jp_linked_places = [];
             
             var LeafIcon = L.Icon.extend({ options: {iconSize: [14, 14]} });
         var purpleIcon = new LeafIcon({iconUrl: '../../../assets/images/purple.png'}),
@@ -148,6 +149,7 @@
         var toggle_golden_places = L.layerGroup(golden_places);
         var toggle_polygons = L.layerGroup(polygons_places);
         var toggle_lines = L.layerGroup(lines_places);
+        var toggle_jp_linked_places = L.layerGroup(jp_linked_places);
         
         var baseMaps = {
         "DARE": dare,
@@ -175,4 +177,9 @@
         var layers = [osm, terrain, watercolor];
         
         var markers = purple_places.concat(golden_places);
+        
         function openPopupById(id){ for(var i = 0; i < markers.length; ++i) { if (markers[i].options.id == id){ markers[i].openPopup(); }; }}
+        
+        function displayById(id){ for(var i = 0; i < markers.length; ++i) { if (markers[i].options.id == id){
+        toggle_jp_linked_places.addLayer(markers[i]); 
+         }; }}
