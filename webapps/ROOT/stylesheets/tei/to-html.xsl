@@ -637,8 +637,7 @@
           <xsl:when test="@xml:id='relation_graph'"><xsl:value-of select="$graph_labels"/></xsl:when>
           <xsl:when test="@xml:id='people_graph'"><xsl:value-of select="$people_graph_labels"/></xsl:when>
         </xsl:choose>, 
-        my_graph = "mygraph", 
-        box = "mygraph_box";
+        my_graph = "mygraph", box = "mygraph_box";
        </script>
       <script type="text/javascript" src="../../assets/scripts/networks.js"></script>
     </div>
