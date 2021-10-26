@@ -106,16 +106,18 @@
                         regni nostri seu quicquid ad eundem portum vel in eisdem finibus pertinere
                         dignoscitur, nec non et <geogName
                             key="#Forests #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
-                                ><rs
-                                key="#Forests #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
-                                >silvam de Gaio et Girano</rs>
-                        </geogName>cum <rs
-                            key="#Curtes #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
-                            >corte </rs>et cum omni integritate sua in longitudine et latitudine,
-                        prout hactenus nostre pertinuit parti per hoc nostre auctoritatis preceptum
-                        de nostro iure in ius et potestatem proprietariam prelibate sancte
-                        Cenedensis ecclesie, ubi presenti tempore <rs key="#Bishops">Ricpaldus
-                            venerabilis episcopus</rs> sacerdotii iura gubernat, ex integro
+                                ><placeName
+                                key="#Curtes #Forests #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
+                                    ><rs
+                                    key="#Forests #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
+                                    >silvam de Gaio et Girano</rs> cum <rs
+                                    key="#Curtes #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
+                                    >corte </rs></placeName></geogName>et cum omni integritate sua
+                        in longitudine et latitudine, prout hactenus nostre pertinuit parti per hoc
+                        nostre auctoritatis preceptum de nostro iure in ius et potestatem
+                        proprietariam prelibate sancte Cenedensis ecclesie, ubi presenti tempore
+                            <persName key="#Bishops"><rs key="#Bishops">Ricpaldus venerabilis
+                                episcopus</rs></persName> sacerdotii iura gubernat, ex integro
                         conferimus et largimur ad habendum, tenendum, possidendum seu quicquid
                         voluerit faciendum, remota totius potestatis inquietudine vel minoratione.
                         Si quis igitur contra hoc nostre donationis preceptum ausu nefario insurgere
@@ -125,12 +127,14 @@
                         prenominate <rs key="#Churches">ecclesie </rs>eiusque rectoribus. Quod ut
                         verius ab omnibus credatur diligen[tiusque ab omn]ibus observetur, manu
                         propria roboratum de anulo nostri nominis assignari subter precepimus.
-                        [Signum d]omni Bere[ngarii] (M) serenissimi regis. Ambrosius <rs
-                            key="#Chancellor">cancellarius</rs> ad vicem Ardingi <rs
-                            key="#Archchancellor">archicancellarii </rs>recognovi [et subscripsi]
-                        Data non. aug., anno dominice incarnationis .DCCCCXCVI., regni domni
-                        Berengarii piissimi regis .XXI., indictione .XI. Actum Summo lacu. in Dei
-                        nomine feliciter. </ab>
+                        [Signum d]omni Bere[ngarii] (M) serenissimi regis. <persName
+                            key="#Chancellor">Ambrosius <rs key="#Chancellor"
+                            >cancellarius</rs></persName> ad vicem <persName key="#Archchancellor"
+                            ref="#people/216">Ardingi <rs key="#Archchancellor">archicancellarii
+                            </rs></persName>recognovi [et subscripsi] Data non. aug., anno dominice
+                        incarnationis .DCCCCXCVI., regni domni Berengarii piissimi regis .XXI.,
+                        indictione .XI. Actum <placeName>Summo lacu</placeName>. in Dei nomine
+                        feliciter. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
