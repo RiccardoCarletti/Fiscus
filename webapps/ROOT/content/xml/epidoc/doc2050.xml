@@ -48,13 +48,13 @@
                                 <note type="topical_date">Spoleto</note>
                                 <note type="redaction_date"/>
                             </origDate>
-                            <origPlace><persName>Nicolaus</persName>
-                                <rs>episcopus</rs> servus servorum Dei dilecto filio
-                                    <persName>Iohanni</persName>
-                                <rs>abbati</rs> venerabilis <rs>monasterii</rs>
-                                <orgName>Christi martyris Vincencii</orgName> super ipsum fontem
-                                    <placeName>Vulturni</placeName>
-                                <rs>fluminis</rs> constructi, et per eum cunctis successoribus eius
+                            <origPlace><persName key="#Bishops" ref="people/1974">Nicolaus</persName>
+                                <rs key="#Bishops">episcopus</rs> servus servorum Dei dilecto filio
+                                <persName key="#Abbots" ref="people/1975">Iohanni</persName>
+                                <rs key="#Abbots">abbati</rs> venerabilis <rs key="#Monasteries">monasterii</rs>
+                                <orgName key="#Monasteries" ref="#juridical_persons/1900">Christi martyris Vincencii</orgName> super ipsum fontem
+                                <placeName key="#Rivers" ref="#places/609">Vulturni</placeName>
+                                <rs key="#Rivers">fluminis</rs> constructi, et per eum cunctis successoribus eius
                                 ibidem regulariter ad regimen promovendis in perpetuum. Et si
                                 omnibus sollicitudinem nostram, et Apostolice Sedis munimentum
                                 animarum pretendere debemus, piis tamen locis, et precipue
@@ -64,138 +64,138 @@
                                 Proinde benivola condescensione annuentes peticionibus tuis,
                                 karissime fili et abba Iohannes, per hanc apostolice auctoritatis
                                 decretalem paginam, secundum quod tuis antecessoribus nostri fecisse
-                                noscuntur, concedimus et confirmamus tibi, tuisque successoribus
+                                noscuntur, <rs key="#Papal_concession">concedimus</rs> et confirmamus tibi, tuisque successoribus
                                 post te regulariter promovendis in perpetuum prefatum monasterium
                                 Beati Vincencii martyris, situm super ipsum fontem Vulturni, in
                                 territorio Beneventano, in partibus Samnie cum omnibus suis
-                                pertinenciis, et cellis: videlicet <rs>monasterium</rs>
-                                <orgName>Beati Petri apostoli</orgName>, positum iuxta
-                                    <rs>fluvium</rs>
-                                <placeName>Sabbati</placeName>; <rs>monasterium</rs> quoque
-                                    <orgName>Sancti Adeodati</orgName> intra
-                                    <placeName>Beneventum</placeName>; et <rs>ecclesiam</rs>
-                                <orgName>Sancti Stephani</orgName>; <rs>cellam</rs>
-                                <orgName>Sancte Marie</orgName> in <placeName>Loco Sano</placeName>;
-                                    <rs>cellam</rs>
-                                <orgName>Sancti Georgii</orgName> intro <rs>civitatem</rs>
-                                <placeName>Salernitanam</placeName>, cum omnibus suis pertinenciis;
-                                    <rs>cellam</rs>
-                                <orgName>Sancti Iohannis</orgName> de <placeName>Lucere</placeName>;
-                                    <rs>cellam</rs>
-                                <orgName>Sancti Iohannis</orgName> de <placeName>Lisine</placeName>,
-                                cum omnibus suis pertinenciis; <rs>cellam</rs>
-                                <orgName>Sancte Marie</orgName> de <placeName>Planisi</placeName>;
-                                    <rs>cellam</rs>
-                                <orgName>Sancte Marie</orgName> in Castanieto; <rs>cellam</rs>
-                                <orgName>Sancti Petri</orgName> de Vipera, cum <rs>casale</rs>
-                                Leoni; <rs>cellam</rs>
-                                <orgName>Sancti Vincencii</orgName> de Tocco, cum cappellis, et
-                                pertinenciis, cum <rs>castellis</rs>, <rs>villis</rs>,
-                                    <rs>casis</rs>, <rs>mansis</rs>, <rs>massariciis</rs>,
-                                    <rs>colonis</rs>, redicionibus, nec non cum omnibus ad eum iure
-                                pertinentibus; <rs>cellam</rs>
-                                <orgName>Sancti Appollinaris</orgName>, positam in
-                                    <placeName>Boiano</placeName>; et <rs>ecclesiam</rs>
-                                <orgName>Sancte Lucie</orgName>; <rs>cellam</rs>
-                                <orgName>Sancti Salvatoris</orgName> in
-                                <placeName>Alife</placeName>, cum omnibus suis pertinenciis;
-                                    <rs>cellam</rs>
-                                <orgName>Sancti Vincencii</orgName> in
-                                    <placeName>Neapolim</placeName>; <rs>cellam</rs>
-                                <orgName>Sancti Sossii</orgName> in <placeName>Liburia</placeName>,
-                                in loco qui dicitur <placeName>Pantano</placeName>, cum ipso
-                                    <rs>gualdo</rs> integro, sicut suis antiquis terminibus
-                                clauditur; <rs>cellam</rs>
-                                <orgName>Sancti Vincencii</orgName> de <placeName>Cume</placeName>;
-                                    <rs>cellam</rs>
-                                <orgName>Sancti Vincencii</orgName> de <placeName>Capua</placeName>,
-                                cum omnibus suis pertinenciis; et <orgName>Sanctum Petrum</orgName>
-                                in <placeName>Oliveto</placeName>; <rs>cellam</rs>
-                                <orgName>Omnium Sanctorum</orgName>; in <placeName>Calvo</placeName>
-                                <rs>ecclesiam</rs>
-                                <orgName>Sancte Iulianes</orgName>, et <orgName>Sancti
-                                    Vitaliani</orgName>; in <placeName>Calinole</placeName>
-                                <rs>ecclesiam</rs>
-                                <orgName>Sancte Marie</orgName>; et <orgName>Sanctorum Cosme et
-                                    Damiani</orgName>; <rs>cellam</rs>
-                                <orgName>Sancti Ylarii</orgName>; <rs>cellam</rs>
-                                <orgName>Sancte Crucis</orgName>; <rs>cellam</rs>
-                                <orgName>Sancti Martini</orgName> in <placeName>monte
-                                    Marsico</placeName>; <rs>ecclesiam</rs>
-                                <orgName>Sancte Marie</orgName> in <placeName>Fauciano</placeName>;
-                                in <placeName>Suessa</placeName>
-                                <rs>cellam</rs>
-                                <orgName>Sancti Vincencii</orgName>; in <placeName>Tiano</placeName>
-                                <rs>cellam</rs>
-                                <orgName>Sancte Marie</orgName> in Foro, et aliam <rs>ecclesiam</rs>
-                                <orgName>Sancte Marie</orgName> in ipsa civitate <rs>cellam</rs>
-                                <orgName>Sancti Petri</orgName>, et <orgName>Sancti Viti</orgName>
-                                in <placeName>Bairano</placeName>, cum toto <rs>gualdo</rs>, cum
-                                    <rs>servis</rs> et ancillis; <rs>cellam</rs>
-                                <orgName>Sancti Vincencii</orgName> in
-                                <placeName>Telese</placeName>; <rs>cellam</rs>
-                                <orgName>Sancte Agathe</orgName> et <orgName>Sancti Petri</orgName>
-                                in <placeName>Torcino</placeName>; <rs>cellam</rs>
-                                <orgName>Sancte Marie</orgName> in <placeName>Oliveto</placeName> et
-                                    <orgName>Sancte Christine</orgName>; <rs>cellam</rs>
-                                <orgName>Sancti Eleutherii</orgName> in
-                                    <placeName>Fundiliano</placeName>; <rs>cellam</rs>
-                                <orgName>Sancte Columbe</orgName> in <placeName>Sora</placeName>;
-                                    <rs>cellam</rs>
-                                <orgName>Sancti Donati</orgName> in <placeName>Comino</placeName>;
-                                    <rs>cellam</rs>
-                                <orgName>Sancti Mauri</orgName> in <placeName>Anglone</placeName>;
-                                    <rs>cellam</rs>
-                                <orgName>Sancti Petri</orgName> de <placeName>Tontole</placeName>;
-                                    <rs>cellam</rs>
-                                <orgName>Sancti Vincencii</orgName> de
-                                    <placeName>Tremoiola</placeName>; in Marsi: <rs>cellam</rs>
-                                <orgName>Sancte Marie</orgName> in loco qui dicitur
-                                    <placeName>Apinianici</placeName>, cum <rs>servis</rs> et
-                                ancillis et cum omnibus suis pertinenciis; <rs>ecclesiam</rs>
-                                <orgName>Sancti Sebastiani</orgName> in
-                                    <placeName>Aquirano</placeName>; <rs>cellam</rs>
-                                <orgName>Sancte Marie</orgName> in
-                                <placeName>Bettorrita</placeName>; in <rs>comitatu</rs>
-                                <geogName>Balvense</geogName>: <rs>cellam</rs>
-                                <orgName>Sancti Ruphini</orgName>, <rs>ecclesiam</rs>
-                                <orgName>Sancti Felicis</orgName> et <orgName>Sancti
-                                    Comicii</orgName>; et <orgName>Sancti Petri</orgName> in
-                                    <placeName>Accole</placeName>; et <orgName>Sancti
-                                    Leopardi</orgName>; et <orgName>Sancti Vincencii</orgName> et
-                                    <orgName>Sancti Liberatoris</orgName>; <rs>cellam</rs>
-                                <orgName>Sancti Petri</orgName> de <placeName>Trite</placeName>, cum
-                                    <rs>servis</rs> et ancillis et cum omnibus pertinenciis suis; in
+                                pertinenciis, et cellis: videlicet <rs key="#Monasteries">monasterium</rs>
+                                <orgName key="#Monasteries">Beati Petri apostoli</orgName>, positum iuxta
+                                <rs key="#Rivers">fluvium</rs>
+                                <placeName key="#Rivers #Monasteries">Sabbati</placeName>; <rs key="#Monasteries">monasterium</rs> quoque
+                                <orgName key="#Monasteries">Sancti Adeodati</orgName> intra
+                                <placeName key="#Monasteries" ref="places/110">Beneventum</placeName>; et <rs key="#Churches">ecclesiam</rs>
+                                <orgName key="#Churches">Sancti Stephani</orgName>; <rs key="#Cells/hermitages">cellam</rs>
+                                <orgName key="#Cells/hermitages">Sancte Marie</orgName> in <placeName key="#Cells/hermitages" ref="places/2301">Loco Sano</placeName>;
+                                <rs key="Cells/hermitages">cellam</rs>
+                                <orgName key="#Cells/hermitages">Sancti Georgii</orgName> intro <rs key="#Cities">civitatem</rs>
+                                <placeName key="#Cells/hermitages">Salernitanam</placeName>, cum omnibus suis pertinenciis;
+                                <rs key="#Cells/hermitages">cellam</rs>
+                                <orgName key="#Cells/hermitages">Sancti Iohannis</orgName> de <placeName key="#Cells/hermitages">Lucere</placeName>;
+                                <rs key="#Cells/hermitages">cellam</rs>
+                                <orgName key="#Cells/hermitages">Sancti Iohannis</orgName> de <placeName key="#Cells/hermitages">Lisine</placeName>,
+                                cum omnibus suis pertinenciis; <rs key="#Cells/hermitages">cellam</rs>
+                                <orgName key="#Cells/hermitages">Sancte Marie</orgName> de <placeName key="#Cells/hermitages">Planisi</placeName>;
+                                <rs key="#Cells/hermitages">cellam</rs>
+                                <orgName key="#Cells/hermitages">Sancte Marie</orgName> in Castanieto; <rs key="#Cells/hermitages">cellam</rs>
+                                <orgName key="#Cells/hermitages #Casalia">Sancti Petri</orgName> de Vipera, cum <rs key="#Casalia">casale</rs>
+                                Leoni; <rs key="#Cells/hermitages">cellam</rs>
+                                <orgName key="#Cells/hermitages #Landed_possessions #Castle #Villas #Casae/cassinae_massaricie #Mansi #Agricultural_workers #Coloni/tenants">Sancti Vincencii</orgName> de Tocco, cum cappellis, et
+                                <rs key="#Landed_possessions">pertinenciis</rs>, cum <rs key="#Castle">castellis</rs>, <rs key="#Villas">villis</rs>,
+                                <rs key="#Casae/cassinae_massaricie">casis</rs>, <rs key="#Mansi">mansis</rs>, <rs key="#Agricultural_workers #Coloni/tenants">massariciis</rs>,
+                                <rs key="#Agricultural_workers #Coloni/tenants">colonis</rs>, redicionibus, nec non cum omnibus ad eum iure
+                                pertinentibus; <rs key="#Cells/hermitages">cellam</rs>
+                                <orgName key="#Cells/hermitages">Sancti Appollinaris</orgName>, positam in
+                                <placeName key="Cells/hermitages">Boiano</placeName>; et <rs key="#Churches">ecclesiam</rs>
+                                <orgName key="#Churches">Sancte Lucie</orgName>; <rs key="#Cells/hermitages">cellam</rs>
+                                <orgName key="#Cells/hermitages #Landed_possessions">Sancti Salvatoris</orgName> in
+                                <placeName key="#Cells/hermitages #Landed_possessions">Alife</placeName>, cum omnibus suis  <rs key="#Landed_possessions">pertinenciis</rs>;
+                                <rs key="#Cells/hermitages">cellam</rs>
+                                <orgName key="#Cells/hermitages">Sancti Vincencii</orgName> in
+                                <placeName key="#Cells/hermitages">Neapolim</placeName>; <rs key="#Cells/hermitages">cellam</rs>
+                                <orgName key="#Cells/hermitages #Gualdi">Sancti Sossii</orgName> in <placeName key="#Cells/hermitages #Gualdi">Liburia</placeName>,
+                                in loco qui dicitur <placeName key="#Cells/hermitages #Gualdi">Pantano</placeName>, cum ipso
+                                <rs key="#Gualdi">gualdo</rs> integro, sicut suis antiquis terminibus
+                                clauditur; <rs key="Cells/hermitages">cellam</rs>
+                                <orgName key="Cells/hermitages">Sancti Vincencii</orgName> de <placeName key="Cells/hermitages">Cume</placeName>;
+                                <rs key="#Cells/hermitages">cellam</rs>
+                                <orgName key="#Cells/hermitages #Landed_possessions">Sancti Vincencii</orgName> de <placeName key="#Cells/hermitages #Landed_possessions">Capua</placeName>,
+                                cum omnibus suis <rs key="#Landed_possessions">pertinenciis</rs>; et <orgName>Sanctum Petrum</orgName>
+                                in <placeName>Oliveto</placeName>; <rs key="#Cells/hermitages">cellam</rs>
+                                <orgName key="#Cells/hermitages">Omnium Sanctorum</orgName>; in <placeName key="#Churches">Calvo</placeName>
+                                <rs key="#Churches">ecclesiam</rs>
+                                <orgName key="#Churches">Sancte Iulianes</orgName>, et <orgName key="#Churches">Sancti
+                                    Vitaliani</orgName>; in <placeName key="#Churches">Calinole</placeName>
+                                <rs key="#Churches">ecclesiam</rs>
+                                <orgName key="#Churches">Sancte Marie</orgName>; et <orgName key="#Churches">Sanctorum Cosme et
+                                    Damiani</orgName>; <rs key="#Cells/hermitages">cellam</rs>
+                                <orgName key="#Cells/hermitages">Sancti Ylarii</orgName>; <rs key="#Cells/hermitages">cellam</rs>
+                                <orgName key="#Cells/hermitages">Sancte Crucis</orgName>; <rs key="#Cells/hermitages">cellam</rs>
+                                <orgName key="#Cells/hermitages">Sancti Martini</orgName> in <placeName key="#Cells/hermitages">monte
+                                    Marsico</placeName>; <rs key="#Churches">ecclesiam</rs>
+                                <orgName key="#Churches">Sancte Marie</orgName> in <placeName key="#Churches">Fauciano</placeName>;
+                                in <placeName key="#Cells/hermitages">Suessa</placeName>
+                                <rs key="#Cells/hermitages">cellam</rs>
+                                <orgName key="#Cells/hermitages">Sancti Vincencii</orgName>; in <placeName key="#Churches #Cells/hermitages">Tiano</placeName>
+                                <rs key="#Cells/hermitages">cellam</rs>
+                                <orgName key="#Cells/hermitages">Sancte Marie in Foro</orgName>, et aliam <rs key="#Churches">ecclesiam</rs>
+                                <orgName key="#Churches">Sancte Marie</orgName> in ipsa civitate <rs key="#Cells/hermitages">cellam</rs>
+                                <orgName key="#Cells/hermitages">Sancti Petri</orgName>, et <orgName key="#Cells/hermitages #Gualdi #Slave #Slave_labour">Sancti Viti</orgName>
+                                in <placeName key="#Cells/hermitages #Gualdi #Slave #Slave_labour">Bairano</placeName>, cum toto <rs key="#Gualdi">gualdo</rs>, cum
+                                <rs key="#Slave #Slave_labour">servis</rs> et ancillis; <rs key="#Cells/hermitages">cellam</rs>
+                                <orgName key="#Cells/hermitages">Sancti Vincencii</orgName> in
+                                <placeName key="#Cells/hermitages">Telese</placeName>; <rs key="#Cells/hermitages">cellam</rs>
+                                <orgName key="#Cells/hermitages">Sancte Agathe</orgName> et <orgName key="#Cells/hermitages">Sancti Petri</orgName>
+                                in <placeName key="#Cells/hermitages">Torcino</placeName>; <rs key="#Cells/hermitages">cellam</rs>
+                                <orgName key="#Cells/hermitages">Sancte Marie</orgName> in <placeName key="#Cells/hermitages">Oliveto</placeName> et
+                                <orgName key="#Cells/hermitages">Sancte Christine</orgName>; <rs key="#Cells/hermitages">cellam</rs>
+                                <orgName key="#Cells/hermitages">Sancti Eleutherii</orgName> in
+                                <placeName key="#Cells/hermitages">Fundiliano</placeName>; <rs key="#Cells/hermitages">cellam</rs>
+                                <orgName key="#Cells/hermitages">Sancte Columbe</orgName> in <placeName key="#Cells/hermitages">Sora</placeName>;
+                                <rs key="#Cells/hermitages">cellam</rs>
+                                <orgName key="#Cells/hermitages">Sancti Donati</orgName> in <placeName key="#Cells/hermitages">Comino</placeName>;
+                                <rs key="#Cells/hermitages">cellam</rs>
+                                <orgName key="#Cells/hermitages">Sancti Mauri</orgName> in <placeName key="#Cells/hermitages">Anglone</placeName>;
+                                <rs key="#Cells/hermitages">cellam</rs>
+                                <orgName key="#Cells/hermitages">Sancti Petri</orgName> de <placeName key="#Cells/hermitages">Tontole</placeName>;
+                                <rs key="#Cells/hermitages">cellam</rs>
+                                <orgName key="#Cells/hermitages">Sancti Vincencii</orgName> de
+                                <placeName key="#Cells/hermitages">Tremoiola</placeName>; in Marsi: <rs key="#Cells/hermitages">cellam</rs>
+                                <orgName key="#Cells/hermitages #Landed_possessions #Slave #Slave_labour">Sancte Marie</orgName> in loco qui dicitur
+                                <placeName key="#Cells/hermitages #Landed_possessions #Slave #Slave_labour">Apinianici</placeName>, cum <rs key="#Slave #Slave_labour">servis</rs> et
+                                ancillis et cum omnibus suis <rs key="#Landed_possessions">pertinenciis</rs>; <rs key="#Churches">ecclesiam</rs>
+                                <orgName key="#Churches">Sancti Sebastiani</orgName> in
+                                <placeName key="#Churches">Aquirano</placeName>; <rs key="#Cells/hermitages">cellam</rs>
+                                <orgName key="#Cells/hermitages">Sancte Marie</orgName> in
+                                <placeName key="#Cells/hermitages">Bettorrita</placeName>; in <rs key="#Comitatus">comitatu</rs>
+                                <geogName key="#Comitatus #Churches #Cells/hermitages #Slave #Slave_labour #Landed_possessions">Balvense</geogName>: <rs key="#Cells/hermitages">cellam</rs>
+                                <orgName key="#Cells/hermitages">Sancti Ruphini</orgName>, <rs key="#Churches">ecclesiam</rs>
+                                <orgName key="#Churches">Sancti Felicis</orgName> et <orgName key="#Churches">Sancti
+                                    Comicii</orgName>; et <orgName key="#Churches">Sancti Petri</orgName> in
+                                <placeName key="#Churches">Accole</placeName>; et <orgName key="#Churches">Sancti
+                                    Leopardi</orgName>; et <orgName key="#Churches">Sancti Vincencii</orgName> et
+                                <orgName key="#Churches">Sancti Liberatoris</orgName>; <rs key="#Cells/hermitages">cellam</rs>
+                                <orgName key="#Cells/hermitages #Slave #Slave_labour #Landed_possessions">Sancti Petri</orgName> de <placeName key="#Cells/hermitages #Slave #Slave_labour">Trite</placeName>, cum
+                                <rs key="#Slave #Slave_labour">servis</rs> et ancillis et cum omnibus <rs key="#Landed_possessions">pertinenciis</rs> suis; in
                                     <rs>territorio</rs>
-                                <placeName>Pinnense</placeName>: <rs>cellam</rs>
-                                <orgName>Sancte Marie</orgName> de <placeName>Musano</placeName>,
-                                cum <rs>servis</rs> et ancillis et cum omnibus pertinenciis suis;
-                                iuxta <rs>fluvium</rs>
-                                <placeName>Sangri</placeName>
-                                <rs>cellam</rs>
-                                <orgName>Sancte Marie, que dicitur Duas Basilicas</orgName>; in
-                                    <rs>comitatu</rs>
-                                <geogName>Teatino</geogName>: <rs>cellam</rs>
-                                <orgName>Sancti Angeli</orgName> in
-                                <placeName>Salavento</placeName>, cum omnibus rebus et
+                                <placeName key="#Cells/hermitages #Slave #Slave_labour #Landed_possessions #Rivers">Pinnense</placeName>: <rs key="#Cells/hermitages">cellam</rs>
+                                <orgName key="#Cells/hermitages #Slave #Slave_labour #Landed_possessions">Sancte Marie</orgName> de <placeName key="#Cells/hermitages #Slave #Slave_labour">Musano</placeName>,
+                                cum <rs key="#Slave #Slave_labour">servis</rs> et ancillis et cum omnibus <rs key="#Landed_possessions">pertinenciis</rs> suis;
+                                iuxta <rs key="#Rivers">fluvium</rs>
+                                <placeName key="#Rivers">Sangri</placeName>
+                                <rs key="#Cells/hermitages">cellam</rs>
+                                <orgName key="#Cells/hermitages">Sancte Marie, que dicitur Duas Basilicas</orgName>; in
+                                <rs key="#Comitatus">comitatu</rs>
+                                <geogName key="#Comitatus #Cells/hermitages #Rivers #Churches">Teatino</geogName>: <rs key="#Cells/hermitages">cellam</rs>
+                                <orgName key="#Cells/hermitages">Sancti Angeli</orgName> in
+                                <placeName key="#Cells/hermitages">Salavento</placeName>, cum omnibus rebus et
                                     <rs>servis</rs> vel ancillis et substanciis suis;
-                                    <rs>cellam</rs>
-                                <orgName>Sancti Bartholomei</orgName>; et <rs>ecclesiam</rs>
-                                <orgName>Sancti Donati</orgName> in <placeName>Monte
-                                    Golfari</placeName>; <rs>cellam</rs>
-                                <orgName>Sancte Marie</orgName> iuxta <rs>fluvium</rs>
-                                <placeName>Trinium</placeName>; <rs>cellam</rs>
-                                <orgName>Sancte Marie</orgName> in <placeName>Casale
-                                    Plano</placeName>; in alveolo <rs>cellam</rs>
-                                <orgName>Sancti Andree</orgName>; <rs>ecclesiam</rs>
-                                <orgName>Sancti Marci</orgName>; et <orgName>Sancti
-                                Angeli</orgName>, <rs>cellam</rs>
-                                <orgName>Sancti Valentini</orgName> in <rs>fluvio</rs>
-                                <placeName>Bisentino</placeName>; <rs>cellam</rs>
-                                <orgName>Sancti Vincencii</orgName> in <rs>fluvio</rs>
-                                <placeName>Tusciano</placeName>; <rs>cellam</rs>
-                                <orgName>Sancti Vincencii</orgName> in <rs>fluvio</rs>
-                                <placeName>Tensa</placeName>; cum omnibus suis pertinenciis.
+                                <rs key="#Cells/hermitages">cellam</rs>
+                                <orgName key="#Cells/hermitages">Sancti Bartholomei</orgName>; et <rs key="#Churches">ecclesiam</rs>
+                                <orgName key="#Churches">Sancti Donati</orgName> in <placeName key="#Churches #Mountains">Monte
+                                    Golfari</placeName>; <rs key="#Cells/hermitages">cellam</rs>
+                                <orgName key="#Cells/hermitages">Sancte Marie</orgName> iuxta <rs key="#Rivers">fluvium</rs>
+                                <placeName key="#Cells/hermitages #Rivers">Trinium</placeName>; <rs key="#Cells/hermitages">cellam</rs>
+                                <orgName key="#Cells/hermitages">Sancte Marie</orgName> in <placeName key="#Cells/hermitages">Casale
+                                    Plano</placeName>; in alveolo <rs key="#Cells/hermitages">cellam</rs>
+                                <orgName key="#Cells/hermitages">Sancti Andree</orgName>; <rs key="#Churches">ecclesiam</rs>
+                                <orgName key="#Churches">Sancti Marci</orgName>; et <orgName key="#Churches">Sancti
+                                    Angeli</orgName>, <rs key="#Cells/hermitages">cellam</rs>
+                                <orgName key="#Cells/hermitages">Sancti Valentini</orgName> in <rs key="#Rivers">fluvio</rs>
+                                <placeName key="#Cells/hermitages #Rivers">Bisentino</placeName>; <rs key="#Cells/hermitages">cellam</rs>
+                                <orgName key="#Cells/hermitages">Sancti Vincencii</orgName> in <rs key="#Rivers">fluvio</rs>
+                                <placeName key="#Cells/hermitages #Rivers">Tusciano</placeName>; <rs key="#Cells/hermitages">cellam</rs>
+                                <orgName key="#Cells/hermitages">Sancti Vincencii</orgName> in <rs key="#Rivers">fluvio</rs>
+                                <placeName key="#Cells/hermitages #Rivers">Tensa</placeName>; cum omnibus suis pertinenciis.
                                 Concedimus atque confirmamus, ut sub dicione iuris nostre Sancte,
                                 cui Deo auctore deservimus Ecclesie, nobis prefatum monasterium
                                 detinendum, ut nullius alterius ecclesie dicioni submittantur. Pro
@@ -245,7 +245,7 @@
                                 <rs key="#Notary">notarii</rs>, in mense marcio, et indiccione
                                 duodecima. Bene valete. [R] <date>Datam <placeName ref="places/568"
                                         >Spoleti</placeName> .VI. nonas marcii, anno Iesu Christi
-                                    millesimo quinquagesimo nono, per manus <persName key="#Bishops"
+                                    millesimo quinquagesimo nono, per manus <persName key="#Bishops" ref="people/1973"
                                         >Humberti</persName>
                                     <orgName key="#Bishops" ref="juridical_persons/1921">Sancte
                                         Ecclesie Silve Candide</orgName>
