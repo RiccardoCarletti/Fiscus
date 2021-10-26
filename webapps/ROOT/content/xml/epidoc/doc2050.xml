@@ -82,9 +82,9 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab><persName key="#Bishops" ref="people/1974">Nicolaus</persName>
+                    <ab><persName key="#Bishops" ref="#people/1974">Nicolaus</persName>
                         <rs key="#Bishops">episcopus</rs> servus servorum Dei dilecto filio
-                            <persName key="#Abbots" ref="people/1975">Iohanni</persName>
+                            <persName key="#Abbots" ref="#people/1975">Iohanni</persName>
                         <rs key="#Abbots">abbati</rs> venerabilis <rs key="#Monasteries"
                             >monasterii</rs>
                         <orgName key="#Monasteries" ref="#juridical_persons/1900">Christi martyris
@@ -109,23 +109,24 @@
                         <placeName key="#Rivers #Monasteries" ref="#places/2348"
                         >Sabbati</placeName>; <rs key="#Monasteries">monasterium</rs> quoque
                             <orgName key="#Monasteries" ref="#juridical_persons/1923">Sancti
-                            Adeodati</orgName> intra <placeName key="#Monasteries" ref="places/110"
+                            Adeodati</orgName> intra <placeName key="#Monasteries" ref="#places/110"
                             >Beneventum</placeName>; et <rs key="#Churches">ecclesiam</rs>
                         <orgName key="#Churches">Sancti Stephani</orgName>; <rs
                             key="#Cells/hermitages">cellam</rs>
                         <orgName key="#Cells/hermitages">Sancte Marie</orgName> in <placeName
-                            key="#Cells/hermitages" ref="places/2301">Loco Sano</placeName>; <rs
+                            key="#Cells/hermitages" ref="#places/2301">Loco Sano</placeName>; <rs
                             key="Cells/hermitages">cellam</rs>
                         <orgName key="#Cells/hermitages">Sancti Georgii</orgName> intro <rs
                             key="#Cities">civitatem</rs>
-                        <placeName key="#Cells/hermitages">Salernitanam</placeName>, cum omnibus
-                        suis pertinenciis; <rs key="#Cells/hermitages">cellam</rs>
+                        <placeName key="#Cells/hermitages" ref="#places/84"
+                        >Salernitanam</placeName>, cum omnibus suis pertinenciis; <rs
+                            key="#Cells/hermitages">cellam</rs>
                         <orgName key="#Cells/hermitages">Sancti Iohannis</orgName> de <placeName
                             key="#Cells/hermitages">Lucere</placeName>; <rs key="#Cells/hermitages"
                             >cellam</rs>
                         <orgName key="#Cells/hermitages">Sancti Iohannis</orgName> de <placeName
-                            key="#Cells/hermitages">Lisine</placeName>, cum omnibus suis
-                        pertinenciis; <rs key="#Cells/hermitages">cellam</rs>
+                            key="#Cells/hermitages" ref="#places/554">Lisine</placeName>, cum
+                        omnibus suis pertinenciis; <rs key="#Cells/hermitages">cellam</rs>
                         <orgName key="#Cells/hermitages">Sancte Marie</orgName> de <placeName
                             key="#Cells/hermitages">Planisi</placeName>; <rs key="#Cells/hermitages"
                             >cellam</rs>
