@@ -7823,6 +7823,20 @@
                         <link type="juridical_persons" corresp="#juridical_persons/101"
                             subtype="link"/>
                         <link type="people" corresp="#people/21" subtype="link"/>
+                        <link type="people" corresp="#people/155" subtype="link"/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Gaio et Girano</foreign> (Ghirano; fraz. Prata di
+                            Pordenone; Pordenone)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo>45.842673, 12.562866</geo></geogName>
+                        <idno>places/908</idno>
+                        <note/>
+                        <link type="places" corresp="#places/907" subtype="hasConnectionWith"/>
+                        <link type="people" corresp="#people/21" subtype="link"/>
+                        <link type="people" corresp="#people/155" subtype="link"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/101"
+                            subtype="link"/>
                     </place>
                 </listPlace>
                 <listPlace n="Collavini Simone">
@@ -10107,10 +10121,17 @@
                         <note/>
                     </place>
                     <place>
+                        <placeName>Pienza (Siena)</placeName>
+                        <placeName type="other">Corsignano</placeName>
+                        <geogName type="coord"><geo>43.078050, 11.677320</geo></geogName>
+                        <idno>places/2733</idno>
+                        <note/>
+                    </place>
+                    <place>
                         <placeName>Campagnatico (Grosseto)</placeName>
-                        <placeName type="other"/>
-                        <geogName type="coord"><geo/></geogName>
-                        <idno>places/2732</idno>
+                        <placeName type="other">Corsignano</placeName>
+                        <geogName type="coord"><geo>42.883808, 11.273530</geo></geogName>
+                        <idno>places/2734</idno>
                         <note/>
                     </place>
                 </listPlace>
@@ -10959,6 +10980,7 @@
                         <idno>places/2354</idno>
                         <note/>
                     </place>
+<<<<<<< HEAD
                     <place>
                         <placeName>Bojano (Campobasso)</placeName>
                         <placeName type="other">Boiano</placeName>
@@ -10973,6 +10995,8 @@
                         <idno>places/2356</idno>
                         <note/>
                     </place>
+=======
+>>>>>>> f9fe72c82be411614e830ade0a68d9d8df2f1014
                 </listPlace>
             </listPlace>
         </body>
