@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Archivio Vaticano, Instrum. miscell. 996, n. 2(1)</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc1028</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">Yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0908-08-05">
+                                <note type="displayed_date">908 August 5</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date"><foreign>Summo lacu</foreign></note>
+                                <note type="redaction_date">1282 November 19</note>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-02-08">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>C) In nomine omnipotentis Dei aeterni. Berengarius divina ordinante
+                        clementia rex. Morem sequimur piorum predecessorum nostrorum si ecclesiis
+                        Dei et eius sacerdotibus augmentum et utilitates conferimus. Idcirco omnium
+                        fidelium sancte Dei Ecclesie nostrorumque presentium scilicet ac futurorum
+                        noverit solertia, quia ob imprecationem Berctilla dilecte coniugis et
+                        consortis regni nostri concedimus sancte Cenedensi ecclesie ubi corpus beati
+                        Ticiani confessoris humatum quiescit unum portum in Liquentia quod Septimum
+                        dicitur et sicut predictum flumen oritur et defluit usque in mare de ambabus
+                        partibus ripe per quindecim pedes palisficturam, ripaticum, toloneum,
+                        mercatum iuris regni nostri seu quicquid ad eundem portum vel in eisdem
+                        finibus pertinere dignoscitur, nec non et silvam de Gaio et Girano cum corte
+                        et cum omni integritate sua in longitudine et latitudine, prout hactenus
+                        nostre pertinuit parti per hoc nostre auctoritatis preceptum de nostro iure
+                        in ius et potestatem proprietariam prelibate <rs>sancte Cenedensis
+                            ecclesie</rs>, ubi presenti tempore Ricpaldus venerabilis episcopus
+                        sacerdotii iura gubernat, ex integro conferimus et largimur ad habendum,
+                        tenendum, possidendum seu quicquid voluerit faciendum, remota totius
+                        potestatis inquietudine vel minoratione. Si quis igitur contra hoc nostre
+                        donationis preceptum ausu nefario insurgere temptaverit et a potestate iam
+                        dicte ecclesie subtrahere quesierit, sciat se compositurum auri optimi
+                        libras mille, medietatem [camere] palatii nostri et medietatem prenominate
+                        ecclesie eiusque rectoribus. Quod ut verius ab omnibus credatur
+                        diligen[tiusque ab omn]ibus observetur, manu propria roboratum de anulo
+                        nostri nominis assignari subter precepimus. [Signum d]omni Bere[ngarii] (M)
+                        serenissimi regis. Ambrosius cancellarius ad vicem Ardingi archicancellarii
+                        recognovi [et subscripsi] Data non. aug., anno dominice incarnationis
+                        .DCCCCXCVI., regni domni Berengarii piissimi regis .XXI., indictione .XI. ·
+                        Actum Summo lacu. in Dei nomine feliciter. </ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>- Copia <foreign>ex autentico</foreign> membr. del 1282 novembre 19, del notaio
+                        <foreign>Petrus de Cavexago</foreign>. Sul verso: «privilegium episcopatus
+                    Cenet. Cartula portus Buffoledi». </p>
+            </div>
+        </body>
+    </text>
+</TEI>
