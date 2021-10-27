@@ -1979,9 +1979,9 @@
                 </org>
                 <org>
                     <orgName>Sanctus Martinus; cella (Alife; Caserta)</orgName>
-                    <orgName type="other">cella di San Martino sul Volturno</orgName>
+                    <orgName type="other"></orgName>
                     <idno>juridical_persons/263</idno>
-                    <note><foreign>qui dicitur cella vetere</foreign></note>
+                    <note>cella di San Martino sul Volturno</note>
                     <link type="places" corresp="#places/112" subtype="isInVicinityOf"/>
                     <link type="places" corresp="#places/609" subtype="isInVicinityOf"/>
                     <link type="people" corresp="#people/408" subtype="link"/>
@@ -4630,6 +4630,15 @@
                         <idno>juridical_persons/1954</idno>
                         <note/>
                         <link type="places" corresp="#places/112" subtype="isWithin"/>
+                        <link type="estates" corresp="#estates/1905" subtype="isWithin"/>
+                    </org>
+                    <org>
+                        <orgName>Sanctus Martinus; cella (Alife; Caserta)</orgName>
+                        <orgName type="other"><foreign>qui dicitur cella vetere</foreign></orgName>
+                        <idno>juridical_persons/1955</idno>
+                        <note></note>
+                        <link type="places" corresp="#places/112" subtype="isWithin"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1912" subtype="link"/>
                         <link type="estates" corresp="#estates/1905" subtype="isWithin"/>
                     </org>
                 </listOrg>
