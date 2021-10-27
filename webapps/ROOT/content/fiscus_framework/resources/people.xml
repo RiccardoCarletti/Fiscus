@@ -1539,6 +1539,8 @@
                         <link type="people" corresp="#people/1903" subtype="benefactorOf"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1903"
                             subtype="link"/>
+                    <link type="people" corresp="#people/1986" subtype="sonOf"/>
+                    <link type="people" corresp="#people/351" subtype="brotherOf"/>
                 </person>
                 <person>
                     <persName>Authpert (834/835-837; abbas Casinensis)</persName>
@@ -3029,6 +3031,8 @@
                         <link type="people" corresp="#people/1912" subtype="benefactorOf"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
                             subtype="benefactorOf"/>
+                    <link type="people" corresp="#people/1986" subtype="sonOf"/>
+                    <link type="people" corresp="#people/186" subtype="brotherOf"/>
                 </person>
                 <person>
                     <persName>Rodibertus (903; 905) abbas</persName>
@@ -5950,6 +5954,16 @@
                         <link type="juridical_persons" corresp="#juridical_persons/1912"
                             subtype="agentFor"/>
                         <link type="people" corresp="#people/1983" subtype="agentFor"/>
+                    </person>
+                    <person>
+                        <persName>Sico (princeps)</persName>
+                        <persName type="other">Sicone di Benevento</persName>
+                        <idno>people/1986</idno>
+                        <note/>
+                        <link type="places" corresp="#places/110" subtype="hasConnectionWith"/>
+                        <link type="places" corresp="#places/112" subtype="hasConnectionWith"/>
+                        <link type="people" corresp="#people/351" subtype="fatherOf"/>
+                        <link type="people" corresp="#people/186" subtype="fatherOf"/>
                     </person>
                 </listPerson>
             </listPerson>
