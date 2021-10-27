@@ -2561,6 +2561,7 @@
                     <link type="juridical_persons" corresp="#juridical_persons/84" subtype="link"/>
                     <link type="places" corresp="#places/110" subtype="hasConnectionWith"/>
                     <link type="people" corresp="#people/373" subtype="fatherOf"/>
+                        <link type="people" corresp="#people/1976" subtype="fatherOf"/>
                 </person>
                 <person>
                     <persName>Atenolfus (933-943) princeps</persName>
@@ -5927,6 +5928,28 @@
                         <idno>people/1983</idno>
                         <note/>
                         <link type="places" corresp="#places/112" subtype="hasConnectionWith"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1912"
+                            subtype="link"/>
+                    </person>
+                    <person>
+                        <persName>Petrus (973); prepositus</persName>
+                        <persName type="other"/>
+                        <idno>people/1984</idno>
+                        <note/>
+                        <link type="places" corresp="#places/112" subtype="hasConnectionWith"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1912"
+                            subtype="agentFor"/>
+                        <link type="people" corresp="#people/1983" subtype="agentFor"/>
+                    </person>
+                    <person>
+                        <persName>Radoaldus (973); advocatus</persName>
+                        <persName type="other"/>
+                        <idno>people/1985</idno>
+                        <note/>
+                        <link type="places" corresp="#places/112" subtype="hasConnectionWith"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1912"
+                            subtype="agentFor"/>
+                        <link type="people" corresp="#people/1983" subtype="agentFor"/>
                     </person>
                 </listPerson>
             </listPerson>
