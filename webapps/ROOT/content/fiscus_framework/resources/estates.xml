@@ -2867,6 +2867,7 @@
                         <link type="people" corresp="#people/79" subtype="link"/>
                         <link type="people" corresp="#people/252" subtype="link"/>
                         <link type="people" corresp="#people/173" subtype="link"/>
+                        <link type="people" corresp="#people/261" subtype="link"/>
                 </place>
                 <place>
                     <geogName>Titinano; <foreign>curtis</foreign></geogName>
@@ -3337,15 +3338,22 @@
                         <geogName type="other"/>
                         <idno>estates/2031</idno>
                         <note/>
+                        <link type="places" corresp="#places/283tredic" subtype="hasConnectionWith"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/130"
+                            subtype="link"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/2001"
+                            subtype="link"/>
                     </place>
                     <place>
                         <geogName>Palaia; <foreign>curtis</foreign></geogName>
                         <geogName type="other"><foreign>Palaria</foreign></geogName>
                         <idno>estates/2032</idno>
-                        <note/>
+                        <note>Pescaglini Monti, pp. 419-422.</note>
                         <link type="juridical_persons" corresp="#juridical_persons/130"
                             subtype="link"/>
                         <link type="places" corresp="#places/2426" subtype="hasConnectionWith"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/2001"
+                            subtype="link"/>
                     </place>
                     <place>
                         <geogName>Brusciana; <foreign>curtis</foreign></geogName>
@@ -3444,7 +3452,9 @@
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/130"
                             subtype="link"/>
-                        <link type="places" corresp="#places/2464" subtype="isPartOf"/>
+                        <link type="places" corresp="#places/2464" subtype="hasConnectionWith"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/2001"
+                            subtype="link"/>
                     </place>
                     <place>
                         <geogName><foreign>Landasia</foreign>; <foreign>curtis</foreign></geogName>
@@ -3529,6 +3539,8 @@
                         <note/>
                         <link type="places" corresp="#places/633" subtype="hasConnectionWith"/>
                         <link type="juridical_persons" corresp="#juridical_persons/130"
+                            subtype="link"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/2001"
                             subtype="link"/>
                     </place>
 
@@ -5456,6 +5468,7 @@
                         <link type="people" corresp="#people/173" subtype="link"/>
                         <link type="juridical_persons" corresp="#juridical_persons/301"
                             subtype="link"/>
+                        <link type="people" corresp="#people/261" subtype="link"/>
                     </place>
                     <place>
                         <geogName>Sancti Simeonis; <foreign>curticella</foreign></geogName>
