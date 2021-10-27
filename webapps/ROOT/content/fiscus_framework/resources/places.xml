@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../fiscus-checker.sch"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -1790,7 +1791,7 @@
                         <link type="people" corresp="#people/117" subtype="link" cert="low"/>
                     </place>
                     <place>
-                        <placeName type="other">Rocca a Palmento; <foreign>La Rocca
+                        <placeName>Rocca a Palmento; <foreign>La Rocca
                             </foreign></placeName>
                         <idno>places/209</idno>
                         <note>Repetti 1833-1846: IV, 43, 789-790</note>
@@ -3119,7 +3120,7 @@
                         <placeName>Zenevredo (Pavia)</placeName>
                         <placeName type="other"/>
                         <geogName type="coord"><geo>45.055010, 9.327110</geo></geogName>
-                        <idno>places/333</idno>
+                        <idno>places/123</idno>
                         <note>De Angelis Cappabianca 1981</note>
                         <link type="estates" corresp="#estates/162" subtype="hasConnectionWith"/>
                     </place>
@@ -7318,7 +7319,7 @@
                 </listPlace>
                 <listPlace n="Ciccopiedi Caterina">
                     <place>
-                        <placeName type="other">Cerrione (Biella)</placeName>
+                        <placeName>Cerrione (Biella)</placeName>
                         <geogName type="coord"><geo>45.465187, 8.070488</geo></geogName>
                         <idno>places/800</idno>
                         <note/>
@@ -9232,6 +9233,9 @@
                         <geogName type="coord"><geo>43.840470, 13.015659</geo></geogName>
                         <idno>places/1808</idno>
                         <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/"/>
                     </place>
                     <place>
                         <placeName>Senigallia (Ancona)</placeName>

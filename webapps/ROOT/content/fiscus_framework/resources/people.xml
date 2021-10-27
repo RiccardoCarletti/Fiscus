@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../fiscus-checker.sch"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -16,7 +17,7 @@
     </teiHeader>
     <text>
         <body>
-            <listPerson>
+            <listPerson type="people">
                 <listPerson n="all">
                 <person>
                     <persName>Bonifacius (985-1052) marchio Tusciae</persName>
@@ -790,7 +791,7 @@
                     <link type="people" corresp="#people/115" subtype="link"/>
                 </person>
                 <person>
-                    <persName type="other">Atenolfus (944) comes Teanensis</persName>
+                    <persName>Atenolfus (944) comes Teanensis</persName>
                     <persName type="other"/>
                     <idno>people/114</idno>
                     <note>Cilento 1962</note>
@@ -1693,8 +1694,7 @@
                     <note/>
                 </person>
                 <person>
-                    <persName>Ingone (961-977) episcopus Vercellensis </persName>
-                    <persName/>
+                    <persName>Ingone (961-977) episcopus Vercellensis </persName> 
                     <persName type="other"/>
                     <idno>people/201</idno>
                     <note/>
@@ -1868,7 +1868,6 @@
                 </person>
                 <person>
                     <persName>Adrianus I (772-795) papa</persName>
-                    <persName/>
                     <persName type="other"/>
                     <idno>people/222</idno>
                     <note>Bertolini 2000</note>
@@ -2080,7 +2079,6 @@
                 </person>
                 <person>
                     <persName>Iohannes (q.822) episcopus Mutinensis</persName>
-                    <persName/>
                     <persName type="other"/>
                     <idno>people/245</idno>
                     <note/>

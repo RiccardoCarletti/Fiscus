@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../fiscus-checker.sch"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -2894,7 +2895,7 @@
                 </listPlace>
                 <listPlace n="Ciccopiedi Caterina">
                     <place>
-                        <geogName type="other">Romano; <foreign>curtis</foreign></geogName>
+                        <geogName>Romano; <foreign>curtis</foreign></geogName>
                         <idno>estates/400</idno>
                         <note/>
                     </place>
