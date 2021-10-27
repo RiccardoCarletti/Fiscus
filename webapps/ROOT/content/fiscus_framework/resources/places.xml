@@ -11204,6 +11204,9 @@
                         <idno>places/2374</idno>
                         <note/>
                         <link type="estates" corresp="#estates/1905" subtype="isWithin"/>
+                        <link type="people" corresp="#people/1976" subtype="link"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1912"
+                            subtype="link"/>
                     </place>
                     <place>
                         <placeName>Torano; river (Caserta)</placeName>
@@ -11214,6 +11217,17 @@
                         <idno>places/2375</idno>
                         <note/>
                         <link type="places" corresp="#places/112" subtype="isInVicinityOf"/>
+                    </place>
+                    <place>
+                        <placeName>Curnitu; locus (Alife; Caserta)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo>41.326295, 14.334412</geo></geogName>
+                        <idno>places/2376</idno>
+                        <note/>
+                        <link type="places" corresp="#places/112" subtype="isInVicinityOf"/>
+                        <link type="people" corresp="#people/1976" subtype="link"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1912"
+                            subtype="link"/>
                     </place>
                 </listPlace>
             </listPlace>
