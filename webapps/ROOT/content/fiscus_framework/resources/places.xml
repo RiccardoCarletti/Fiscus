@@ -8228,7 +8228,7 @@
                     </place>
                     <place>
                         <placeName>Canolo (Reggio Emilia)</placeName>
-                        <placeName type="other">Canole</placeName>
+                        <placeName type="other"><foreign>Canole</foreign></placeName>
                         <geogName type="coord"><geo>44.797612, 10.748405</geo></geogName>
                         <idno>places/2416</idno>
                         <note/>
@@ -8529,7 +8529,7 @@
                                 <foreign>Guintholo</foreign></placeName>
                         <geogName type="coord"><geo>43.678805, 10.661251</geo></geogName>
                         <idno>places/2443</idno>
-                        <note>Località ogginscomparsa, senza lasciare tracce topo-,
+                        <note>Località oggi scomparsa, senza lasciare tracce topo-,
                             odonomastiche.</note>
                         <note>Pescaglini Monti pp. 343-345.</note>
                         <link type="juridical_persons" corresp="#juridical_persons/130"
@@ -8542,7 +8542,7 @@
                         <placeName type="other"/>
                         <geogName type="coord"><geo/></geogName>
                         <idno>places/2444</idno>
-                        <note>Località ogginscomparsa, senza lasciare tracce topo-,
+                        <note>Località oggi scomparsa, senza lasciare tracce topo-,
                             odonomastiche.</note>
                         <link type="juridical_persons" corresp="#juridical_persons/130"
                             subtype="link"/>
@@ -8580,7 +8580,7 @@
                                 <foreign>Vinciano</foreign></placeName>
                         <geogName type="coord"><geo>43.720938, 10.72802</geo></geogName>
                         <idno>places/2447</idno>
-                        <note>Località ogginscomparsa, senza lasciare tracce topo-,
+                        <note>Località oggi scomparsa, senza lasciare tracce topo-,
                             odonomastiche.</note>
                         <note>Pescaglini Monti pp. 343-345.</note>
                         <link type="juridical_persons" corresp="#juridical_persons/130"
@@ -8605,6 +8605,10 @@
                         <geogName type="coord"><geo>43.543879, 10.685539</geo></geogName>
                         <idno>places/2449</idno>
                         <note>Repetti I, p. 492.</note>
+                        <link type="juridical_persons" corresp="#juridical_persons/130"
+                            subtype="link"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/2001"
+                            subtype="link"/>
                     </place>
                     <place>
                         <placeName>San Frediano a Settimo (Cascina; Pisa)</placeName>
@@ -8672,6 +8676,10 @@
                             Cristoforo nel territorio pisano, ma la toponomastica storica conosce
                             questa San Cristoforo, immediatamente a S di Pagnano, sull'Arno.</note>
                         <note>Repetti IV, p. 23.</note>
+                        <link type="juridical_persons" corresp="#juridical_persons/130"
+                            subtype="link"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/2001"
+                            subtype="link"/>
                     </place>
                     <place>
                         <placeName>Val di Cornia (Livorno)</placeName>
@@ -8698,11 +8706,15 @@
                     </place>
                     <place>
                         <placeName>Molazzana (Gallicano; Lucca)</placeName>
-                        <placeName type="other">Molezzana; Molezzano</placeName>
+                        <placeName type="other"><foreign>Molezzana</foreign>;
+                                <foreign>Molezzano</foreign>;
+                            <foreign>Mollazano</foreign></placeName>
                         <geogName type="coord"><geo>44.070822, 10.417023</geo></geogName>
                         <idno>places/2458</idno>
                         <note>Repetti III, p. 244.</note>
                         <link type="juridical_persons" corresp="#juridical_persons/130"
+                            subtype="link"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/2001"
                             subtype="link"/>
                     </place>
                     <place>
@@ -8739,6 +8751,8 @@
                         <note>Repetti I, p. 781.</note>
                         <link type="juridical_persons" corresp="#juridical_persons/130"
                             subtype="link"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/2001"
+                            subtype="link"/>
                     </place>
                     <place>
                         <placeName>Villa (Capannori; Lucca)</placeName>
@@ -8747,6 +8761,8 @@
                         <idno>places/2462</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/130"
+                            subtype="link"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/2001"
                             subtype="link"/>
                     </place>
                     <place>
@@ -8769,6 +8785,8 @@
                         <note>Repetti III, p. 686.</note>
                         <link type="juridical_persons" corresp="#juridical_persons/130"
                             subtype="link"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/2001"
+                            subtype="link"/>
                     </place>
                     <place>
                         <placeName>Galleno (Castelfranco di Sotto; Pisa)</placeName>
@@ -8777,6 +8795,8 @@
                         <idno>places/2465</idno>
                         <note>Repetti II; p. 382.</note>
                         <link type="juridical_persons" corresp="#juridical_persons/130"
+                            subtype="link"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/2001"
                             subtype="link"/>
                     </place>
                     <place>
@@ -8788,6 +8808,8 @@
                             un casale ne conserva la memoria toponomastica.  </note>
                         <note>Onori p. 13.</note>
                         <link type="juridical_persons" corresp="#juridical_persons/130"
+                            subtype="link"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/2001"
                             subtype="link"/>
                     </place>
                     <place>
@@ -8804,7 +8826,7 @@
                         <idno>places/2468</idno>
                         <note/>
                         <link type="people" corresp="#people/292" subtype="link"/>
-                        <link type="juridical_persons" corresp="#juridical_persons/130"
+                        <link type="juridical_persons" corresp="#juridical_persons/2001"
                             subtype="link"/>
                     </place>
                     <place>
@@ -8815,7 +8837,7 @@
                         <note>Microtoponimi: <foreign>Scalatico</foreign>,
                                 <foreign>Linatico</foreign>.</note>
                         <link type="people" corresp="#people/292" subtype="link"/>
-                        <link type="juridical_persons" corresp="#juridical_persons/130"
+                        <link type="juridical_persons" corresp="#juridical_persons/2001"
                             subtype="link"/>
                     </place>
                     <place>
@@ -8825,7 +8847,7 @@
                         <idno>places/2470</idno>
                         <note/>
                         <link type="people" corresp="#people/292" subtype="link"/>
-                        <link type="juridical_persons" corresp="#juridical_persons/130"
+                        <link type="juridical_persons" corresp="#juridical_persons/2001"
                             subtype="link"/>
                     </place>
                     <place>
@@ -8835,7 +8857,7 @@
                         <idno>places/2471</idno>
                         <note/>
                         <link type="people" corresp="#people/292" subtype="link"/>
-                        <link type="juridical_persons" corresp="#juridical_persons/130"
+                        <link type="juridical_persons" corresp="#juridical_persons/2001"
                             subtype="link"/>
                     </place>
                     <place>
@@ -8845,7 +8867,7 @@
                         <idno>places/2472</idno>
                         <note/>
                         <link type="people" corresp="#people/292" subtype="link"/>
-                        <link type="juridical_persons" corresp="#juridical_persons/130"
+                        <link type="juridical_persons" corresp="#juridical_persons/2001"
                             subtype="link"/>
                     </place>
                     <place>
