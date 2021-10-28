@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Archivio di Stato di Milano, Museo diplomatico, sec. X</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc2190</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">Yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0937-12-12">
+                                <note type="displayed_date">937 december 12</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Colombier (Morges)</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-02-08" who="Chiara Stedile">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine sanctae et individuae trinitatis. Hugo et Lotharius divina favente
+                        clementia reges. Condito ad imaginem et similitudinem suam primo homini
+                        creator omnium Deus coniugem adhibere voluit, ut, quia angelicum ordinem de
+                        celis propter superbiam eiectum solus Adam suplere nequiverat, cum Aeva sibi
+                        adlata coniuge filios filiasque gignendo in infinitum multiplicata prole
+                        decimum ordinem restauraret et viro mulier iuvamen existeret, quam non ut
+                        virum simpliciter de limo terre nasci voluit, sed eam de viri costa somno
+                        adempta producens in similem edidit formam, ut una videlicet eademque caro
+                        ambobus esset, et de osse mulier licet fragilem vigorem acciperet. Unde et
+                        scriptum est: derelinquat homo patrem et matrem et adherebit uxori suae et
+                        erunt duo in carne una. Ipse etiam mediator Dei et hominum novus homo
+                        adveniens in Chana Galileae nuptiis interesse easque sua presentia
+                        sanctificare voluit, sponsamque sibi sanctam Aecclesiam socians posteris
+                        exemplum reliquit, ut nuptialis federis connexio fieri non desinat, et ad
+                        procreandam postmodum sobolem mutua indissolubilique dilectione persistat.
+                        His itaque aliisque informatus exemplis, ego in Christi nomine Hugo superni
+                        muneris gratia rex, divinae dispositionis predestinatione consultuque
+                        nostrorum fidelium Bertam reginam mihi in coniugium copulare decernens,
+                        sponsare disposui. Quapropter omnium fidelium sanctae Dei Aecclesiae
+                        nostrorumque presentium ac futurorum industria noverit, qualiter prefate
+                        Berte reginae sponsae meae quasdam cortes iuris nostri, cortem scilicet de
+                        Senna et cortem de Gaumundio cortemque de Setiaco et castellum de Rivo Torto
+                        atque cortem de Urba cum omnibus earum pertinentiis, quae plus quam mille
+                        mansos habere videntur; in Tuscana etiam cortem de Notiana cum mansis
+                        quadraginta et cortem de Advena cum mansis sexaginta, cortem de Longiano cum
+                        mansis triginta et cortem de Blentena cum mansis sexaginta; in Impori cortem
+                        quae dicitur Curte Nova cum mansis septuaginta et cortem de Sancto Quirico
+                        cum mansis quadraginta; in Pistoriensi etiam comitatu cortem de Pinto cum
+                        mansis quingentis; in comitatu quoque Lunensi Agulliam cum mansis centum,
+                        abbatiam de Valeriana cum mansis itidem centum et cortem de Valle Plana cum
+                        mansis quadraginta et cortem de Cumano cum mansis sexaginta cortemque iterum
+                        quae dicitur Nova cum mansis sexaginta per hanc nostri precepti paginam sub
+                        dotis nomine concedimus, donamus penitusque largimur, et de nostro iure et
+                        dominio in eius ius et dominium omnino transfundimus et delegamus una cum
+                        aecclesiis et capellis, castellis, casis, servis et ancillis, aldionibus et
+                        aldiis, terris, campis, vineis, pratis, silvis, montibus, vallibus,
+                        planitiebus, aquis aquarumque decursibus, molendinis, piscationibus
+                        omnibusque rebus mobilibus et immobilibus ad prelibatas cortes et abbatias
+                        in integrum pertinentibus, quatinus proprietario iure habeat, teneat
+                        firmiterque possideat, habeatque potestatem donandi, vendendi, commutandi,
+                        alienandi, pro anima iudicandi et quicquid eius decreverit voluntas
+                        faciendi, omnium hominum contradictione remota. Si quis igitur hoc nostrae
+                        dotis preceptum infringere temptaverit, noverit se compositurum auri optimi
+                        libras duo milia prefate Bertae reginae nostrae coniugi nostrisque et suis
+                        heredibus. Quod ut verius credatur diligentiusque ab omnibus observetur,
+                        manibus propriis roborantes anuli nostri inpressione subter iussimus
+                        insigniri. Signa serenissorum (MF) (MF) domni Hugonis et Lotharii regum.
+                        Giseprandus notarius ad vicem Azzonis episcopi et archicancellarii recognovi
+                        et subscripsi. (SR) (SI D). Data pridie idus decembris, anno dominicae
+                        incarnationis DCCCCXXXVIII, regni vero domni Hugonis XII, filii Lotharii
+                        item regis VII, indictione XI. Actum in Burgundia, in corte que Columbaris
+                        dicitur. Feliciter, amen.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>DD U L, pp. 139-141, n° XLVI</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
