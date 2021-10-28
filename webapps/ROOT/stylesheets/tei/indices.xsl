@@ -55,6 +55,19 @@
 
   <!-- separate results by having or not a @ref -->
   <xsl:template match="response/result">
+    <button type="button" onclick="topFunction()" id="scroll" title="Go to top">⬆  </button>
+    <script type="text/javascript">
+      mybutton = document.getElementById("scroll");
+      window.onscroll = function() {scrollFunction()};
+      function scrollFunction() {
+      if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) { mybutton.style.display = "block"; } 
+      else { mybutton.style.display = "none"; }
+      }
+      function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+      }
+    </script>
     <table class="index tablesorter" style="width:100%">
           <xsl:apply-templates select="/aggregation/index_metadata/tei:div/tei:div[@type='headings']" />
           <tbody>

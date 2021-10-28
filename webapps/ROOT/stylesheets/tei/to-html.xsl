@@ -299,18 +299,7 @@
   <xsl:template match="//tei:p[@n='import']">
     <div class="imported_list">
       <button onclick="topFunction()" id="scroll" title="Go to top">⬆  </button> 
-      <script type="text/javascript">
-        mybutton = document.getElementById("scroll");
-        window.onscroll = function() {scrollFunction()};
-        function scrollFunction() {
-        if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) { mybutton.style.display = "block"; } 
-        else { mybutton.style.display = "none"; }
-        }
-        function topFunction() {
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
-        } 
-      </script>
+      <script type="text/javascript" src="../../assets/scripts/scroll-page.js"/>
       <xsl:if test="ancestor::tei:TEI[@xml:id='places']"><xsl:apply-templates select="$places"/></xsl:if>
       <xsl:if test="ancestor::tei:TEI[@xml:id='juridical_persons']"><xsl:apply-templates select="$juridical_persons"/></xsl:if>
       <xsl:if test="ancestor::tei:TEI[@xml:id='estates']"><xsl:apply-templates select="$estates"/></xsl:if>
