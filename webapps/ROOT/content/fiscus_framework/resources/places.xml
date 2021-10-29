@@ -11319,11 +11319,51 @@
                         <note>Franco 2017: 55</note>
                     </place>
                     <place>
-                        <placeName>Baia e Latina</placeName>
+                        <placeName>Baia e Latina (Caserta)</placeName>
                         <placeName type="other"/>
                         <geogName type="coord"><geo>41.2889, 14.272699 </geo></geogName>
                         <idno>places/2380</idno>
                         <note>Franco 2017: 58</note>
+                    </place>
+                    <place>
+                        <placeName>Sepicciano (Caserta)</placeName>
+                        <placeName type="other">Sepicciano di Piedimonte Matese</placeName>
+                        <geogName type="coord"><geo>41.348077, 14.381104 </geo></geogName>
+                        <idno>places/2381</idno>
+                        <note/>
+                    </place>
+                    <place>
+                        <placeName>Campisi (Caserta)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo/></geogName>
+                        <idno>places/2382</idno>
+                        <note/>
+                        <link type="places" corresp="#places/2381" subtype="isInVicinityOf"/>
+                        <link type="places" corresp="#places/2383" subtype="isInVicinityOf"/>
+                    </place>
+                    <place>
+                        <placeName>Piedimonte Matese (Caserta)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo>41.349842, 14.369247 </geo></geogName>
+                        <idno>places/2383</idno>
+                        <note/>
+                    </place>
+                    <place>
+                        <placeName>Ponte di Merola</placeName>
+                        <placeName type="other"><foreign>pons Merculi</foreign></placeName>
+                        <geogName type="coord"><geo/></geogName>
+                        <idno>places/2384</idno>
+                        <note/>
+                        <link type="places" corresp="#places/2383" subtype="isInVicinityOf"/>
+                    </place>
+                    <place>
+                        <placeName>Merdarulo; river</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo/></geogName>
+                        <idno>places/2385</idno>
+                        <note/>
+                        <link type="places" corresp="#places/2383" subtype="isInVicinityOf"/>
+                        <link type="places" corresp="#places/112" subtype="isInVicinityOf"/>
                     </place>
                 </listPlace>
             </listPlace>
