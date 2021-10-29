@@ -176,15 +176,9 @@
    <field name="language_code" stored="true" indexed="true"
           multiValued="true" required="false" type="string" />
    <field name="index_numeral_value" stored="true" indexed="false"
-          multiValued="false" required="false" type="string" />
-   <field name="index_institution_role" stored="true" indexed="true"
-     multiValued="false" required="false" type="string" />
-   <field name="index_institution_type" stored="true" indexed="true"
      multiValued="false" required="false" type="string" />
    <field name="index_external_resource" type="string" required="false"
      multiValued="false" stored="true" indexed="true" />
-   <field name="index_base_form" stored="true" indexed="true"
-     multiValued="false" required="false" type="string" />
    <field name="index_date" stored="true" indexed="true"
      multiValued="false" required="false" type="string" />
    <field name="index_keys" stored="true" indexed="true"

@@ -42,14 +42,8 @@
             </xsl:choose>
           </field>
           <field name="index_external_resource">
-            <xsl:choose>
-              <xsl:when test="$estate-id"><xsl:value-of select="concat('../../texts/estates.html#', substring-after(translate($estate-id/tei:idno, '#', ''), 'estates/'))" /></xsl:when>
-              <xsl:otherwise><xsl:text>~</xsl:text></xsl:otherwise>
-            </xsl:choose>
+              <xsl:if test="$estate-id"><xsl:value-of select="concat('../../texts/estates.html#', substring-after(translate($estate-id/tei:idno, '#', ''), 'estates/'))" /></xsl:if>
           </field>
-          <!--<field name="index_base_form">
-            <xsl:value-of select="." />
-          </field>-->
           <!--<field name="index_keys">
             <xsl:value-of select="lower-case(translate(replace(@key, ' #', '; '), '#', ''))" />
           </field>-->
@@ -72,9 +66,6 @@
                   <xsl:when test="starts-with(normalize-space(.), '\s')"><xsl:value-of select="substring(normalize-space(.), 2)"/></xsl:when>
                   <xsl:otherwise><xsl:value-of select="normalize-space(.)"/></xsl:otherwise>
                 </xsl:choose>
-          </field>
-          <field name="index_external_resource">
-            <xsl:text>~</xsl:text>
           </field>
           <xsl:apply-templates select="current-group()" />
         </doc>
