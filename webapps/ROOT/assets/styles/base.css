@@ -35,6 +35,10 @@ h1 {
     font-size: 36px;
 }
 
+h4 {
+    font-size: 16px;
+}
+
 b {
     color: #3A2A4C;
 }
@@ -94,7 +98,7 @@ div#edition {
 }
 
 
-/* lists and team members */
+/* lists, indices and team members */
 div.list_item {
     padding-bottom: 2em;
 }
@@ -109,8 +113,10 @@ margin-left:20px;
     font-weight: bold;
     color: #3A2A4C;
     font-size: 20px;
-    padding-bottom: 0;
     font-variant: small-caps;
+    padding-bottom:0;
+    margin-bottom:0.5em;
+    padding-top: 2.5em;
 }
 
 #team_members h3 {
@@ -119,6 +125,33 @@ margin-left:20px;
     padding-top: 30px;
     padding-bottom: 10px;
     font-variant: small-caps;
+}
+
+.expander, .expander:hover, .expander:enabled {
+    background-color: #f6f6f6;
+    border-style: none;
+    padding: 12px 10px 10px 10px;
+    color: black;
+    margin-left: 0;
+    margin-bottom: 10px;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.index_item {
+    padding:1em;
+    margin-top:1em;
+    margin-bottom:1em;
+    border: 1px solid #3A2A4C;
+}
+
+.index_item_name {
+    color: #3A2A4C;
+    font-size: 20px;
+    font-variant: small-caps;
+    padding-top:0;
+    padding-bottom:0;
+    margin-bottom:0.5em;
 }
 
 /* Back to top arrow */

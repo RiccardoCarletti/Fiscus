@@ -9,31 +9,8 @@
   <xsl:import href="indices.xsl" />
 
   <xsl:template name="render-instance-location">
-    <!-- This field contains a single string with each location
-         component separated by a "#". The components are (as taken
-         from stylesheets/solr/epidoc-index-utils.xsl):
-
-           * The content/xml subdirectory containing the indexed
-           field, to be used in generating the map:match id used in
-           generating the URL of the document containing this
-           instance, via kiln:url-for-match. (This is the
-           $subdirectory parameter.)
-
-           * The path to the file (minus extension) this instance
-           belongs to, relative to the content subdirectory (ie, the
-           value in the preceding item), to be passed to the
-           kiln:url-for-match call to generate the URL of the document
-           containing this instance.
-
-           * The text part numbers in descending hierarchical sequence
-           for the instance, separated by ".".
-
-           * The line number of the instance.
-
-           * A Boolean marker (0 or 1) marking if the instance is
-           partially or completely resotre (1) or not (0).
-
-    -->
+    <!-- This field contains a single string with each location component separated by a "#". 
+      The components are taken from stylesheets/solr/epidoc-index-utils.xsl. -->
     <xsl:variable name="location_parts" select="tokenize(., '#')" />
     <xsl:variable name="match_id">
       <xsl:text>local-</xsl:text>
@@ -53,8 +30,9 @@
             </xsl:otherwise>
           </xsl:choose>
           <xsl:text>]</xsl:text></span>
-        <xsl:if test="$location_parts[4]!='~'"><span class="index-instance-file-keys"><xsl:text>: </xsl:text><xsl:value-of select="$location_parts[4]" /></span></xsl:if>
-       <!-- <xsl:if test="$location_parts[5]!=''"><span class="index-instance-file-links"><xsl:text> [Linked to:</xsl:text><xsl:value-of select="$location_parts[5]" /><xsl:text>]</xsl:text></span></xsl:if>-->
+        <xsl:if test="$location_parts[4]!=''">
+          <span class="index-instance-file-keys"><xsl:text>: </xsl:text><xsl:value-of select="$location_parts[4]" /></span>
+        </xsl:if>
       </a>
     </li>
     <br/>
