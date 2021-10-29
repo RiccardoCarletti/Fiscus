@@ -97,15 +97,15 @@
                             Zenonis </orgName><rs key="#Relics">ubi corpus ipsius quiescit</rs>,
                         preceptali inscriptione res pertinentes <geogName
                             key="#Fiscal_property #Textual_occurrence #Mention #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
-                                ><rs
+                            ref="#estates/510"><rs
                                 key="#Curtes #Fiscal_property #Textual_occurrence #Mention #Outflow #Allocation_to_churches"
                                 >de corte nostra </rs>Meleto</geogName> sitas <geogName key="#Fines"
-                                ><rs key="#Fines">in Garda </rs></geogName>iuxta <orgName
-                            key="#Churches"><rs key="#Churches">eclesiam </rs>Sancti Severi
-                        </orgName>cum <rs key="#Oil">olivis</rs> et <rs key="#Wine">vineis </rs>ad
-                        habendum <rs key="#Iure_proprietatis/pleno_iure">iure perpetuo</rs>
-                        largiremur. Nos igitur ratam eius arbitrantes petitionem predictas res, quae
-                        sunt <rs
+                            ref="#estates/508"><rs key="#Fines">in Garda </rs></geogName>iuxta
+                            <orgName key="#Churches" ref="#juridical_persons/502"><rs
+                                key="#Churches">eclesiam </rs>Sancti Severi </orgName>cum <rs
+                            key="#Oil">olivis</rs> et <rs key="#Wine">vineis </rs>ad habendum <rs
+                            key="#Iure_proprietatis/pleno_iure">iure perpetuo</rs> largiremur. Nos
+                        igitur ratam eius arbitrantes petitionem predictas res, quae sunt <rs
                             key="#Landed_possessions #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
                             >iugera octo</rs>, sitas in finibus Gardensis cum <rs key="#Oil"
                             >olivetis</rs>, <rs key="#Wine">vineis </rs><rs
@@ -115,14 +115,18 @@
                         nostra Meleto pertinuerunt in integrum, ubicumque infra Gardam invente
                         fuerint, hereditario iure prefati Sancti Zenonis coenobio per hoc
                         munificentiae nostrae preceptum concedimus et firmamus. <rs key="#Manentes"
-                            >manentes </rs>preterea duos, quos <persName key="#Countess">Gisla
-                            </persName><rs key="#Countess">comitissa</rs><orgName key="#Monasteries"
-                            ref="#juridical_persons/90"><rs key="#Monasteries"> predicto sancto loco
-                            </rs></orgName>obtulit, qui pertinuerunt <geogName
-                            key="#Curtes #Fiscal_property #Mention"><rs
-                                key="#Curtes #Fiscal_property #Textual_occurrence #Mention">de curte
-                            </rs>Albareto</geogName>, quam nos eidem Gisle <rs
-                            key="#Imperial/royal_diploma">per preceptum</rs> contulimus, eidem
+                            >manentes </rs>preterea duos, quos <persName key="#Countess"
+                            ref="#people/621">Gisla </persName><rs key="#Countess"
+                            >comitissa</rs><orgName key="#Monasteries" ref="#juridical_persons/90"
+                                ><rs key="#Monasteries"> predicto sancto loco
+                        </rs></orgName>obtulit, qui pertinuerunt <geogName
+                            key="#Curtes #Fiscal_property #Mention #Outflow #Allocation_to_individuals #Manentes"
+                            ref="#estates/509"><placeName
+                                key="#Curtes #Fiscal_property #Textual_occurrence #Mention #Outflow #Allocation_to_individuals #Manentes"
+                                ref="#places/910"><rs
+                                    key="#Curtes #Fiscal_property #Textual_occurrence #Mention">de
+                                    curte </rs>Albareto</placeName></geogName>, quam nos eidem Gisle
+                            <rs key="#Imperial/royal_diploma">per preceptum</rs> contulimus, eidem
                         sancto coenobio ad habendum et <rs key="#Iure_proprietatis/pleno_iure"
                             >proprietario iure</rs> tenendum firmiter corroboramus. super predictas
                             <rs key="#Landed_possessions">quoque res </rs>illud concedimus et
@@ -162,7 +166,11 @@
                 <p>http://cdavr.dtesis.univr.it/index.php/orfanotrofio-femminile/of-diplomi</p>
             </div>
             <div type="commentary">
-                <p/>
+                <p>L'identità della <foreign>comitissa</foreign> Gisla è ignota e risulta perduto il
+                        <foreign>preceptum</foreign> di Berengario che le assegnava il possesso
+                    della corte regia di Albaredo; quest'ultima sembra poter essere identificata con
+                    Albaredo (TN), la cui collocazione sarebbe, dunque, coerente con l’area
+                    geografica individuata dagli altri toponimi menzionati. </p>
             </div>
         </body>
     </text>
