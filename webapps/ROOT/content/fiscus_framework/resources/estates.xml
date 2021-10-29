@@ -62,12 +62,16 @@
                 
                 <place>
                     <geogName>Nozzano; <foreign>curtis</foreign></geogName>
+                    <geogName type="other"><foreign>Notiana</foreign></geogName>
                     <idno>estates/36</idno>
-                    <note>Tomei 2019a, pp. 23, 26-27.</note>
+                    <note>Tomei 2019a, pp. 23, 26-27. Vignodelli 2014.</note>
                     <link type="places" corresp="#places/21"
                         subtype="hasConnectionWith"/>
                     <link type="places" corresp="#places/22"
                         subtype="hasConnectionWith"/>
+                        <link type="people" corresp="#people/72" subtype="link"/>
+                        <link type="people" corresp="#people/79" subtype="link"/>
+                        <link type="people" corresp="#people/1529" subtype="link"/>
                 </place>
                 
                 <place>
@@ -119,9 +123,12 @@
                 <place>
                     <geogName>Orba; <foreign>curtis</foreign></geogName>
                     <idno>estates/46</idno>
-                    <note></note>
+                    <note>Vignodelli 2012.</note>
                     <link type="places" corresp="#places/17"
                         subtype="hasConnectionWith"/>
+                        <link type="people" corresp="#people/72" subtype="link"/>
+                        <link type="people" corresp="#people/79" subtype="link"/>
+                        <link type="people" corresp="#people/1529" subtype="link"/>
                 </place>
                 
                 <place>
@@ -5620,6 +5627,16 @@
                         <link type="people" corresp="#people/79" subtype="link"/>
                         <link type="people" corresp="#people/1529" subtype="link"/>
                         <link type="places" corresp="#places/2738" subtype="isPartOf"/>
+                    </place>
+                    <place>
+                        <geogName>Rivo Torto; <foreign>castrum</foreign></geogName>
+                        <geogName type="other"/>
+                        <idno>estates/2321</idno>
+                        <note>Vignodelli 2012.</note>
+                        <link type="people" corresp="#people/72" subtype="link"/>
+                        <link type="people" corresp="#people/79" subtype="link"/>
+                        <link type="people" corresp="#people/1529" subtype="link"/>
+                        <link type="places" corresp="#places/1611" subtype="isPartOf"/>
                     </place>
                 </listPlace>
                 <listPlace n="Tabarrini Lorenzo">
