@@ -83,21 +83,23 @@
                 <body>
                     <div type="edition">
                         <div type="textpart">
-                            <ab><persName><name>Gumpaldo</name></persName> del <persName>fu
-                                <name>Dampo</name></persName> riceve in livello dal <rs
-                            key="#Bishops">vescovo</rs> di Lucca <persName ref="#people/213"
+                            <ab><persName><name ref="Gundebaldus">Gumpaldo</name></persName> del
+                            <persName>fu <name ref="Dampo">Dampo</name></persName> riceve in livello
+                        dal <rs key="#Bishops">vescovo</rs> di Lucca <persName ref="#people/213"
                             key="#Bishops">Pietro</persName>, una casella posta infra <rs
                             key="#Castle">castello</rs>
                         <placeName key="#Castle #Churches" ref="#places/63">Sancte Marie que dicitur
                             ad Monte</placeName>, che già in precedenza teneva, di pertinenza della
                             <orgName key="#Churches" ref="#juridical_persons/72"><rs key="#Churches"
                                 >chiesa</rs> di Santa Maria</orgName>, confinante uno capo con una
-                        casa della stessa chiesa tenuta dal prete Teupaldo, alio capo con terra
-                        della stessa chiesa, lato uno con una casa della stessa chiesa tenuta da
-                                <persName><name>Aggo</name></persName> e
-                            <persName><name>Poto</name></persName>, alio lato con una casa della
-                        stessa chiesa tenuta da <persName><name>Gunteramo</name></persName> e
-                            <persName key="#Subdeacons"><name>Tao</name></persName>
+                        casa della stessa chiesa tenuta dal <rs key="#Priests">prete</rs>
+                        <persName key="#Priests"><name ref="Teobaldus">Teupaldo</name></persName>,
+                        alio capo con terra della stessa chiesa, lato uno con una casa della stessa
+                        chiesa tenuta da <persName><name ref="Aggo">Aggo</name></persName> e
+                                <persName><name ref="Podo">Poto</name></persName>, alio lato con una
+                        casa della stessa chiesa tenuta da <persName><name ref="Gunderamus"
+                                >Gunteramo</name></persName> e <persName key="#Subdeacons"><name
+                                ref="Tao">Tao</name></persName>
                         <rs key="#Subdeacons">suddiacono</rs>, con tutte le sue dipendenze. Si
                         impegna a versare pro omni censum et iustitiam al vescovo e ai suoi
                         successori ad ipsa ecclesie Sancte Marie ogni mese di ottobre il censo
@@ -108,12 +110,18 @@
                         Ottiene la potestas con i suoi hominibus di entrare e uscire per <rs
                             key="#Clusae/gates">porte et pusterule</rs> de ipso castello e di
                         transitare usque ad suprascripta casa; di disporre liberamente delle moudias
-                        della casa. Chiede al notaio e scabino Pietro la stesura di due cartulas.
-                        Actum Luca. Autori: Pietro episcopus, Gumpaldo del fu Dampo. Scrittore:
-                        Pietro notarius et schabinus. Testimoni sottoscrittori: Teudilascio
-                        notarius, Gumberto, Leone. Altro: Teupaldo presbiter, Aggo, Poto, Gunteramo,
-                        Tao subdiaconus. Luca (Lucca), Monte (Santa Maria a Monte). Santa Maria a
-                        Monte, San Martino di Lucca (chiesa matrice).</ab>
+                        della casa. Chiede al <rs key="#Writer #Notary">notaio</rs> e <rs
+                            key="#Scabini">scabino</rs>
+                        <persName key="#Writer #Notary #Scabini"><name ref="Petrus"
+                            >Pietro</name></persName> la stesura di due <rs
+                            key="#Libellus/precaria/emphyteusis">cartulas</rs>. Actum <placeName
+                            ref="#places/4" key="#Mother_churches #Bishops">Luca</placeName>. <rs
+                            key="#Witness">Testimoni</rs> sottoscrittori: <persName
+                            key="#Witness #Notary"><name ref="Teudelasius"
+                            >Teudilascio</name></persName>
+                        <rs key="#Notary">notarius</rs>, <persName key="#Witness"><name
+                                ref="Gumbertus">Gumberto</name></persName>, <persName key="#Witness"
+                                ><name ref="Leo">Leone</name></persName>.</ab>
                         </div>
                     </div>
                     <div type="bibliography" subtype="editions">
@@ -126,7 +134,8 @@
                         <p/>
                     </div>
                     <div type="commentary">
-                        <p/>
+                        <p>Sottoscrizioni autografe: Gumpaldo, il notaio Teudilascio, Gumberto,
+                    Leone.</p>
                     </div>
                 </body>
             </text>
