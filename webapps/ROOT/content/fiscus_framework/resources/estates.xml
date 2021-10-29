@@ -5916,7 +5916,9 @@
                         <geogName type="other"/>
                         <idno>estates/1918</idno>
                         <note/>
-                        <link type="juridical_persons" corresp="#juridical_persons/1955"
+                        <link type="juridical_persons" corresp="#juridical_persons/1982"
+                            subtype="link"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1912"
                             subtype="link"/>
                     </place>
                     <place>
@@ -5924,7 +5926,9 @@
                         <geogName type="other"/>
                         <idno>estates/1919</idno>
                         <note/>
-                        <link type="juridical_persons" corresp="#juridical_persons/1956"
+                        <link type="juridical_persons" corresp="#juridical_persons/1983"
+                            subtype="link"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1912"
                             subtype="link"/>
                         <link type="estates" corresp="#estates/1905" subtype="isWithin"/>
                     </place>
@@ -5933,9 +5937,22 @@
                         <geogName type="other"/>
                         <idno>estates/1984</idno>
                         <note/>
-                        <link type="juridical_persons" corresp="#juridical_persons/1956"
+                        <link type="juridical_persons" corresp="#juridical_persons/1984"
                             subtype="link"/>
                         <link type="estates" corresp="#estates/1905" subtype="isWithin"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1912"
+                            subtype="link"/>
+                    </place>
+                    <place>
+                        <geogName><foreign>Vualderada</foreign>; curtis</geogName>
+                        <geogName type="other">Gualderada</geogName>
+                        <idno>estates/1985</idno>
+                        <note/>
+                        <link type="places" corresp="#places/2378" subtype="isInVicinityOf"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1986"
+                            subtype="link"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1912"
+                            subtype="link"/>
                     </place>
                 </listPlace>
             </listPlace>
