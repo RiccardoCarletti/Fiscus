@@ -5,10 +5,9 @@
                 xmlns:tei="http://www.tei-c.org/ns/1.0"
                 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
-  <!-- XSLT to convert index metadata and index Solr results into
-       HTML. This is the common functionality for both TEI and EpiDoc
-       indices. It should be imported by the specific XSLT for the
-       document type (eg, indices-epidoc.xsl). -->
+  <!-- XSLT to convert index metadata and index Solr results into HTML. This is the common functionality 
+    for both TEI and EpiDoc indices. It should be imported by the specific XSLT for the document type 
+    (eg, indices-epidoc.xsl). -->
 
   <xsl:import href="to-html.xsl" />
 
@@ -19,44 +18,12 @@
   <xsl:template match="index_metadata" mode="head">
     <xsl:apply-templates select="tei:div/tei:head/node()" />
   </xsl:template>
-
-  <xsl:template match="tei:div[@type='headings']/tei:list/tei:item">
-    <th scope="col">
-      <xsl:apply-templates/>
-    </th>
-  </xsl:template>
-
-  <xsl:template match="tei:div[@type='headings']">
-    <thead>
-      <tr>
-        <xsl:apply-templates select="tei:list/tei:item"/>
-      </tr>
-    </thead>
-  </xsl:template>
-
-  <xsl:template match="result/doc">
-    <tr>
-      <xsl:if test="str[@name='index_external_resource'] and str[@name='index_external_resource']!='~'">
-        <xsl:attribute name="id"><xsl:value-of select="substring-after(str[@name='index_external_resource'], '#')"/></xsl:attribute>
-      </xsl:if>
-      <xsl:apply-templates select="str[@name='index_item_name']" />
-      <xsl:apply-templates select="str[@name='index_abbreviation_expansion']"/>
-      <xsl:apply-templates select="str[@name='index_numeral_value']"/>
-      <xsl:apply-templates select="arr[@name='language_code']"/>
-      <xsl:apply-templates select="str[@name='index_institution_type']" />
-      <xsl:apply-templates select="str[@name='index_institution_role']" />
-      <xsl:apply-templates select="str[@name='index_external_resource']" />
-      <xsl:apply-templates select="str[@name='index_base_form']" />
-      <xsl:apply-templates select="str[@name='index_keys']" />
-      <xsl:apply-templates select="str[@name='index_date']" />
-      <xsl:apply-templates select="arr[@name='index_instance_location']" />
-    </tr>
-  </xsl:template>
-
-  <!-- separate results by having or not a @ref -->
+  
+  <!-- lists -->
   <xsl:template match="response/result">
     <button type="button" onclick="topFunction()" id="scroll" title="Go to top">⬆  </button>
     <script type="text/javascript">
+      <!-- button for scrolling down -->
       mybutton = document.getElementById("scroll");
       window.onscroll = function() {scrollFunction()};
       function scrollFunction() {
@@ -68,136 +35,65 @@
       document.documentElement.scrollTop = 0;
       }
     </script>
-    <table class="index tablesorter" style="width:100%">
-          <xsl:apply-templates select="/aggregation/index_metadata/tei:div/tei:div[@type='headings']" />
-          <tbody>
-            <xsl:apply-templates select="doc[str[@name='index_item_name'][not(starts-with(., '~'))][not(starts-with(., '#'))]]"><xsl:sort select="lower-case(.)"/></xsl:apply-templates>
-          </tbody>
-        </table>
+    <button type="button" class="expander" onclick="$('.expanded').toggle();">Show/Hide all linked items</button>
+    
+    <div>
+        <xsl:apply-templates select="doc[str[@name='index_item_name'][not(starts-with(., '~'))][not(starts-with(., '#'))]]">
+          <xsl:sort select="lower-case(.)"/>
+        </xsl:apply-templates>
+    </div>
     
     <xsl:if test="doc[str[@name='index_item_name'][starts-with(., '#')]]">
-      <table class="index tablesorter" style="width:100%">
-        <xsl:apply-templates select="/aggregation/index_metadata/tei:div/tei:div[@type='headings']" />
-        <tbody>
-          <xsl:apply-templates select="doc[str[@name='index_item_name'][starts-with(., '#')]]"><xsl:sort select="lower-case(.)"/></xsl:apply-templates>
-        </tbody>
-      </table>
+      <h2>Personal names normalized forms</h2>
+      <div>
+          <xsl:apply-templates select="doc[str[@name='index_item_name'][starts-with(., '#')]]">
+            <xsl:sort select="lower-case(.)"/>
+          </xsl:apply-templates>
+        </div>
     </xsl:if>
     
     <xsl:if test="doc[str[@name='index_item_name'][starts-with(., '~')]]">
-      <table class="index tablesorter" style="width:100%">
-          <xsl:apply-templates select="/aggregation/index_metadata/tei:div/tei:div[@type='headings']" />
-          <tbody>
-            <xsl:apply-templates select="doc[str[@name='index_item_name'][starts-with(., '~')]]"><xsl:sort select="lower-case(.)"/></xsl:apply-templates>
-          </tbody>
-        </table>
+      <h2>Items that have not been identified/normalized</h2>
+      <div>
+          <xsl:apply-templates select="doc[str[@name='index_item_name'][starts-with(., '~')]]">
+            <xsl:sort select="lower-case(.)"/>
+          </xsl:apply-templates>
+      </div>
     </xsl:if>
   </xsl:template>
 
-  <xsl:template match="str[@name='index_abbreviation_expansion']">
-    <td>
-      <xsl:value-of select="." />
-    </td>
+  <!-- items in lists -->
+  <xsl:template match="result/doc">
+    <div id="{substring-after(str[@name='index_external_resource'], '#')}" class="index_item">
+      <xsl:apply-templates select="str[@name='index_item_name']" />
+      <xsl:apply-templates select="str[@name='index_external_resource']" />
+      <xsl:apply-templates select="arr[@name='index_instance_location']" />
+    </div>
   </xsl:template>
 
+  <!-- items name -->
   <xsl:template match="str[@name='index_item_name']">
-    <th scope="row">
-      <xsl:value-of select="replace(replace(., '~ ', ''), '# ', '')"/>
-    </th>
-  </xsl:template>
-
-  <xsl:template match="arr[@name='index_instance_location']">
-    <td>
-      <ul class="index-instances inline-list">
-        <xsl:apply-templates select="str">
-          <xsl:sort>
-            <xsl:variable name="id" select="substring-before(substring-after(., '#doc'), '#')"/>
-            <xsl:variable name="date" select="substring-before(substring-after(substring-after(., '#doc'), '#'), '#')"/>
-            <xsl:value-of select="$date"/>
-            <!-- <xsl:choose>
-              <xsl:when test="string-length($id) = 1"><xsl:value-of select="concat('000',$id)"/></xsl:when>
-              <xsl:when test="string-length($id) = 2"><xsl:value-of select="concat('00',$id)"/></xsl:when>
-              <xsl:when test="string-length($id) = 3"><xsl:value-of select="concat('0',$id)"/></xsl:when>
-              <xsl:when test="string-length($id) = 4"><xsl:value-of select="$id"/></xsl:when>
-              <xsl:otherwise><xsl:value-of select="."/></xsl:otherwise>
-            </xsl:choose>-->
-          </xsl:sort>
-        </xsl:apply-templates>
-      </ul>
-    </td>
+      <h3 class="index_item_name"><xsl:value-of select="replace(replace(., '~ ', ''), '# ', '')"/></h3>
   </xsl:template>
   
-  <xsl:template match="str[@name='index_institution_type']">
-    <td>
-      <xsl:value-of select="."/>
-    </td>
-  </xsl:template>
-  
-  <xsl:template match="str[@name='index_institution_role']">
-    <td>
-      <xsl:value-of select="."/>
-    </td>
-  </xsl:template>
-  
+  <!-- items links to external resources -->
   <xsl:template match="str[@name='index_external_resource']">
-    <td>
-      <xsl:choose>
-        <xsl:when test=".!='~'">
-          <xsl:for-each select="tokenize(., ' ')">
-            <a>
-              <xsl:attribute name="href"><xsl:value-of select="."/></xsl:attribute>
-              <xsl:text>See entry</xsl:text>
-            </a>
-            <xsl:text> </xsl:text>
-          </xsl:for-each>
-        </xsl:when>
-        <xsl:otherwise><xsl:text>~</xsl:text></xsl:otherwise>
-      </xsl:choose>
-    </td>
+    <p><strong>Item entry: </strong><a target="_blank" href="{.}"><xsl:text>➚</xsl:text></a></p>
   </xsl:template>
   
-  <xsl:template match="str[@name='index_base_form']">
-    <td>
-      <xsl:value-of select="."/>
-    </td>
-  </xsl:template>
-  
-  <xsl:template match="str[@name='index_keys']">
-    <td>
-      <xsl:value-of select="."/>
-    </td>
-  </xsl:template>
-  
-  <xsl:template match="str[@name='index_date']">
-    <td>
-      <xsl:value-of select="."/>
-    </td>
+  <!-- items list of linked documents -->
+  <xsl:template match="arr[@name='index_instance_location']">
+    <h4><xsl:text>Linked documents by date: </xsl:text></h4>
+    <button type="button" class="expander" onclick="$(this).next().toggle();">Show/Hide</button>
+    <ul class="index-instances inline-list expanded hidden">
+        <xsl:apply-templates select="str">
+          <xsl:sort><xsl:value-of select="substring-before(substring-after(substring-after(., '#doc'), '#'), '#')"/></xsl:sort>
+        </xsl:apply-templates>
+    </ul>
   </xsl:template>
 
-  <xsl:template match="str[@name='index_numeral_value']">
-    <td>
-      <xsl:value-of select="."/>
-    </td>
-  </xsl:template>
-
-  <xsl:template match="arr[@name='language_code']">
-    <td>
-      <ul class="inline-list">
-        <xsl:apply-templates select="str"/>
-      </ul>
-    </td>
-  </xsl:template>
-
-  <xsl:template match="arr[@name='language_code']/str">
-    <li>
-      <xsl:value-of select="."/>
-    </li>
-  </xsl:template>
-
+  <!-- items single linked documents; template called from indices-epidoc.xsl -->
   <xsl:template match="arr[@name='index_instance_location']/str">
-    <!-- This template must be defined in the calling XSLT (eg,
-         indices-epidoc.xsl) since the format of the location data is
-         not universal. -->
     <xsl:call-template name="render-instance-location" />
   </xsl:template>
 

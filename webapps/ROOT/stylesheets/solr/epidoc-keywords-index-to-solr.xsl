@@ -41,10 +41,9 @@
             <xsl:value-of select="normalize-space(replace($key-value, '_', ' '))" />
           </field>
           <field name="index_external_resource">
-            <xsl:choose>
-              <xsl:when test="$key"><xsl:value-of select="concat('https://ausohnum.huma-num.fr/concept/', $key[1]/@xml:id)" /></xsl:when>
-              <xsl:otherwise><xsl:text>~</xsl:text></xsl:otherwise>
-            </xsl:choose>
+              <xsl:if test="$key">
+                <xsl:value-of select="concat('https://ausohnum.huma-num.fr/concept/', $key[1]/@xml:id)" />
+              </xsl:if>
           </field>
           <!--<field name="index_keys">
             <xsl:value-of select="$keyword" />
@@ -53,34 +52,6 @@
         </doc>
       </xsl:for-each>
     </add>
-    
-      <!--<add>
-        <xsl:for-each-group select="//tei:rs[ancestor::tei:div[@type='edition']][@key!='']/@key" group-by="lower-case(translate(., '#', ''))">
-        <doc>
-          <field name="document_type">
-            <xsl:value-of select="$subdirectory" />
-            <xsl:text>_</xsl:text>
-            <xsl:value-of select="$index_type" />
-            <xsl:text>_index</xsl:text>
-          </field>
-          <xsl:call-template name="field_file_path" />
-          <field name="index_item_name">
-            <xsl:choose>
-              <xsl:when test="starts-with(., '#')">
-                <xsl:value-of select="lower-case(replace(substring(translate(., '_', ' '), 2), ' #', '; '))" />
-              </xsl:when>
-              <xsl:otherwise>
-                <xsl:value-of select="lower-case(replace(translate(., '_', ' '), ' #', '; '))" />
-              </xsl:otherwise>
-            </xsl:choose>
-          </field>
-            <!-\-<field name="index_keys">
-              <xsl:value-of select="." />
-            </field>-\->
-          <xsl:apply-templates select="current-group()" />
-        </doc>
-      </xsl:for-each-group>
-      </add>-->
   </xsl:template>
 
   <xsl:template match="tei:rs/@key">

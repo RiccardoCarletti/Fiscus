@@ -41,14 +41,8 @@
             </xsl:choose>
           </field>
           <field name="index_external_resource">
-            <xsl:choose>
-              <xsl:when test="$person-id"><xsl:value-of select="concat('../../texts/people.html#', substring-after(translate($person-id/tei:idno, '#', ''), 'people/'))" /></xsl:when>
-              <xsl:otherwise><xsl:text>~</xsl:text></xsl:otherwise>
-            </xsl:choose>
+              <xsl:if test="$person-id"><xsl:value-of select="concat('../../texts/people.html#', substring-after(translate($person-id/tei:idno, '#', ''), 'people/'))" /></xsl:if>
           </field>
-          <!--<field name="index_base_form">
-            <xsl:value-of select="." />
-          </field>-->
           <!--<field name="index_keys">
             <xsl:value-of select="lower-case(translate(replace(@key, ' #', '; '), '#', ''))" />
           </field>-->
@@ -72,9 +66,6 @@
                   <xsl:otherwise><xsl:value-of select="normalize-space(.)"/></xsl:otherwise>
                 </xsl:choose>
           </field>
-          <field name="index_external_resource">
-            <xsl:text>~</xsl:text>
-          </field>
           <xsl:apply-templates select="current-group()" />
         </doc>
       </xsl:for-each-group>
@@ -95,9 +86,6 @@
               <xsl:otherwise><xsl:value-of select="normalize-space(tei:name[1]/@ref)"/></xsl:otherwise>
             </xsl:choose>
           </field>
-          <field name="index_external_resource">
-            <xsl:text>~</xsl:text>
-          </field>
           <xsl:apply-templates select="current-group()" />
         </doc>
       </xsl:for-each-group>
@@ -117,9 +105,6 @@
               <xsl:when test="starts-with(normalize-space(ancestor::tei:name[1]/@ref), '\s')"><xsl:value-of select="substring(normalize-space(ancestor::tei:name[1]/@ref), 2)"/></xsl:when>
               <xsl:otherwise><xsl:value-of select="normalize-space(ancestor::tei:name[1]/@ref)"/></xsl:otherwise>
             </xsl:choose>
-          </field>
-          <field name="index_external_resource">
-            <xsl:text>~</xsl:text>
           </field>
           <xsl:apply-templates select="current-group()" />
         </doc>
