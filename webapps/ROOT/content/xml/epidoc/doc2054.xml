@@ -43,10 +43,10 @@
                     <history>
                         <origin>
                             <origDate notBefore="0758" notAfter="0788">
-                                <note type="displayed_date"/>
+                                <note type="displayed_date">758-788</note>
                                 <note type="dating_elements"/>
                                 <note type="topical_date"/>
-                                <note type="redaction_date">758-788</note>
+                                <note type="redaction_date"/>
                             </origDate>
                             <origPlace/>
                         </origin>
@@ -82,12 +82,22 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>[…] princeps [Arichis] vero, iisdem cum multis affis donariis, contulit ad
-                        eundem locum preceptum firmitatis ex omnibus, que possederat, vel possidere
-                        videbatur, adiciens et alia plura, que infra fluvium, qui dicitur Carnellus,
-                        et sicut decurrit rivus Saonis, qui de Saxo procedit, designata sunt; servos
-                        quoque et ancillas, quotquot in his manere videbantur, cum suis cespitibus,
-                        ut habeat et possideat, perpetuis tradidit temporibus. </ab>
+                    <ab>[…] <rs key="#Princeps">princeps</rs> [<persName key="#Princeps"
+                            ref="#people/303">Arichis</persName>] vero, iisdem cum multis affis
+                        donariis, contulit ad eundem <orgName
+                            key="#Landed_possessions #Slave #Slave_labour"
+                            ref="#juridical_persons/1900">locum</orgName>
+                        <rs key="#Marquis’/ducal/princely_diploma">preceptum</rs> firmitatis ex <rs
+                            key="#Landed_possessions">omnibus</rs>, que possederat, vel possidere
+                        videbatur, adiciens et alia plura, que infra <rs key="#Rivers">fluvium</rs>,
+                        qui dicitur <placeName
+                            key="#Rivers #Landed_possessions #Slave #Slave_labour"
+                            >Carnellus</placeName>, et sicut decurrit rivus <placeName
+                            key="#Rivers #Landed_possessions #Slave #Slave_labour" ref="#places/695"
+                            >Saonis</placeName>, qui de <placeName>Saxo</placeName> procedit,
+                        designata sunt; <rs key="#Slave #Slave_labour">servos</rs> quoque et
+                        ancillas, quotquot in his manere videbantur, cum suis cespitibus, ut habeat
+                        et possideat, perpetuis tradidit temporibus. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
