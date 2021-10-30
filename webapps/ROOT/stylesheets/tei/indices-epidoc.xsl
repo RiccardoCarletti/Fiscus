@@ -35,7 +35,6 @@
         </xsl:if>
       </a>
     </li>
-    <br/>
   </xsl:template>
 
 </xsl:stylesheet>

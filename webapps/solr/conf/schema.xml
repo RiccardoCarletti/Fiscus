@@ -148,7 +148,9 @@
    <field name="mentioned_places" type="string" indexed="true"
           multiValued="true" stored="true" required="false" />
    <field name="mentioned_people" type="string" indexed="true"
-          multiValued="true" stored="true" required="false" />
+     multiValued="true" stored="true" required="false" />
+   <field name="mentioned_juridical_persons" type="string" indexed="true"
+     multiValued="true" stored="true" required="false" />
    <field name="record_source" type="string" required="false"
           multiValued="true" stored="true" indexed="true" />
    <field name="mentioned_estates" stored="true" indexed="true"
@@ -179,12 +181,28 @@
      multiValued="false" required="false" type="string" />
    <field name="index_external_resource" type="string" required="false"
      multiValued="false" stored="true" indexed="true" />
+   <field name="index_total_items" type="string" required="false"
+     multiValued="false" stored="true" indexed="true" />
+   <field name="index_item_number" type="string" required="false"
+     multiValued="false" stored="true" indexed="true" />
+   <field name="index_coordinates" type="string" required="false"
+     multiValued="false" stored="true" indexed="true" />
+   <field name="index_other_names" type="string" required="false"
+     multiValued="false" stored="true" indexed="true" />
+   <field name="index_notes" type="string" required="false"
+     multiValued="false" stored="true" indexed="true" />
+   <field name="index_linked_keywords" type="string" required="false"
+     multiValued="false" stored="true" indexed="true" />
+   <field name="index_linked_people" type="string" required="false"
+     multiValued="false" stored="true" indexed="true" />
+   <field name="index_linked_places" type="string" required="false"
+     multiValued="false" stored="true" indexed="true" />
+   <field name="index_linked_juridical_persons" type="string" required="false"
+     multiValued="false" stored="true" indexed="true" />
+   <field name="index_linked_estates" type="string" required="false"
+     multiValued="false" stored="true" indexed="true" />
    <field name="index_date" stored="true" indexed="true"
      multiValued="false" required="false" type="string" />
-   <field name="index_keys" stored="true" indexed="true"
-     multiValued="false" required="false" type="string" />
-   <field name="mentioned_juridical_persons" required="false" indexed="true"
-     multiValued="true" stored="true" type="string" />
    <field name="topical_date" required="false" indexed="true"
      multiValued="true" stored="true" type="string" />
    <field name="redaction_date" required="false" indexed="true"

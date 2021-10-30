@@ -525,7 +525,7 @@
           </li></xsl:for-each></ul><br/></xsl:if>
           
           <xsl:if test="$linkedplaces!=''"><strong><xsl:text>Linked places: </xsl:text></strong>
-            <xsl:if test="ancestor::tei:listOrg"><a target="_blank" href="{concat('map.html#jp#',translate(string-join($linkedplaces, '#'),'places/',''),'#')}"><xsl:text>[See on map]</xsl:text></a><br/></xsl:if>
+            <a target="_blank" href="{concat('map.html#select#',translate(string-join($linkedplaces, '#'),'places/',''),'#')}"><xsl:text>[See on map]</xsl:text></a><br/>
         <ul><xsl:for-each select="$linkedplaces"><xsl:variable name="key" select="translate(translate(.,' ',''), '#', '')"/>
           <li class="linked_item"><a href="{concat('./places.html#', substring-after($key, 'places/'))}"><xsl:apply-templates select="$places//tei:place[descendant::tei:idno=$key][1]/tei:placeName[1]"/></a>
             <xsl:variable name="subtype">
@@ -684,16 +684,16 @@
         L.control.layers(baseMaps, overlayMaps).addTo(mymap);
         L.control.scale().addTo(mymap);
         L.Control.geocoder().addTo(mymap);
-        if (!window.location.href.includes('jp')) {
+        if (!window.location.href.includes('select')) {
             toggle_purple_places.addTo(mymap); 
             toggle_golden_places.addTo(mymap);
             toggle_polygons.addTo(mymap);
             toggle_lines.addTo(mymap); 
         }
         <!-- to display only places linked to a specific juridical person, whose IDs are in the URL -->
-        if (window.location.href.includes('jp')) { toggle_jp_linked_places.addTo(mymap); }
+        if (window.location.href.includes('select')) { toggle_select_linked_places.addTo(mymap); }
         var url = String(window.location.href);
-        url.substring(url.indexOf("jp#") +1, url.lastIndexOf("#")).split("#").forEach(el => displayById(el));
+        url.substring(url.indexOf("select#") +1, url.lastIndexOf("#")).split("#").forEach(el => displayById(el));
         <!-- to open popup of specific place, whose ID is at the end of the URL -->
         openPopupById(window.location.href.substring(window.location.href.lastIndexOf("#") +1));
         

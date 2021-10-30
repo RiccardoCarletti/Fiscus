@@ -23,7 +23,7 @@
   <xsl:template match="response/result">
     <button type="button" onclick="topFunction()" id="scroll" title="Go to top">⬆  </button>
     <script type="text/javascript">
-      <!-- button for scrolling down -->
+      <!-- scrolling down button -->
       mybutton = document.getElementById("scroll");
       window.onscroll = function() {scrollFunction()};
       function scrollFunction() {
@@ -35,6 +35,8 @@
       document.documentElement.scrollTop = 0;
       }
     </script>
+    
+    <p>Total items: <xsl:value-of select="doc[1]/str[@name='index_total_items']" /></p>
     <button type="button" class="expander" onclick="$('.expanded').toggle();">Show/Hide all linked items</button>
     
     <div>
@@ -64,35 +66,156 @@
 
   <!-- items in lists -->
   <xsl:template match="result/doc">
-    <div id="{substring-after(str[@name='index_external_resource'], '#')}" class="index_item">
+    <div id="{substring-after(str[@name='index_item_number'], '/')}" class="index_item">
+      <div>
       <xsl:apply-templates select="str[@name='index_item_name']" />
+      <xsl:apply-templates select="str[@name='index_other_names']" />
+      <xsl:apply-templates select="str[@name='index_item_number']" />
+      <xsl:apply-templates select="str[@name='index_coordinates']" />
+      <xsl:apply-templates select="str[@name='index_notes']" />
       <xsl:apply-templates select="str[@name='index_external_resource']" />
+      <xsl:apply-templates select="str[@name='index_linked_keywords']" />
+      </div>
+      <xsl:apply-templates select="str[@name='index_linked_estates']" />
+      <xsl:apply-templates select="str[@name='index_linked_juridical_persons']" />
+      <xsl:apply-templates select="str[@name='index_linked_people']" />
+      <xsl:apply-templates select="str[@name='index_linked_places']" />
       <xsl:apply-templates select="arr[@name='index_instance_location']" />
     </div>
   </xsl:template>
 
-  <!-- items name -->
+  <!-- item name -->
   <xsl:template match="str[@name='index_item_name']">
       <h3 class="index_item_name"><xsl:value-of select="replace(replace(., '~ ', ''), '# ', '')"/></h3>
   </xsl:template>
   
-  <!-- items links to external resources -->
-  <xsl:template match="str[@name='index_external_resource']">
-    <p><strong>Item entry: </strong><a target="_blank" href="{.}"><xsl:text>➚</xsl:text></a></p>
+  <!-- item other names -->
+  <xsl:template match="str[@name='index_other_names']">
+    <p><strong>Also known as: </strong><xsl:value-of select="."/></p>
   </xsl:template>
   
-  <!-- items list of linked documents -->
-  <xsl:template match="arr[@name='index_instance_location']">
-    <h4><xsl:text>Linked documents by date: </xsl:text></h4>
+  <!-- item number -->
+  <xsl:template match="str[@name='index_item_number']">
+    <p><strong>Item number: </strong><xsl:value-of select="."/></p>
+  </xsl:template>
+  
+  <!-- item coordinates -->
+  <xsl:template match="str[@name='index_coordinates']">
+    <p><strong>Coordinates (Lat, Long): </strong>
+      <a target="_blank" href="{concat('../../texts/map.html#',substring-after(ancestor::doc/str[@name='index_item_number'], 'places/'))}" class="open_map"><xsl:text>See on map</xsl:text></a>
+      <xsl:text> </xsl:text><xsl:value-of select="."/></p>
+  </xsl:template>
+  
+  <!-- item notes -->
+  <xsl:template match="str[@name='index_notes']">
+    <p><strong>Commentary/Bibliography: </strong><xsl:value-of select="."/></p>
+  </xsl:template>
+  
+  <!-- item links to external resources -->
+  <xsl:template match="str[@name='index_external_resource']">
+    <p><strong>Item number: </strong><a target="_blank" href="{.}"><xsl:value-of select="substring-after(., 'concept/')"/></a></p>
+  </xsl:template>
+  
+  <!-- item linked keywords -->
+  <xsl:template match="str[@name='index_linked_keywords']">
+    <p><strong>Linked keywords: </strong><xsl:value-of select="."/></p>
+  </xsl:template>
+  
+  <!-- item list of linked estates -->
+  <xsl:template match="str[@name='index_linked_estates']">
+    <xsl:variable name="item" select="tokenize(., '£')"/>
+    <div class="linked_elements">
+    <h4 class="inline"><xsl:text>Linked estates:</xsl:text></h4>
+    <xsl:text> </xsl:text>
     <button type="button" class="expander" onclick="$(this).next().toggle();">Show/Hide</button>
-    <ul class="index-instances inline-list expanded hidden">
+    <ul class="expanded hidden">
+      <xsl:for-each select="$item">
+        <li>
+          <a target="_blank" href="{concat('estates.html#', substring-before(., '#'))}">
+            <xsl:value-of select="substring-before(substring-after(., '#'), '@')"/>
+          <span class="link_type"><xsl:value-of select="substring-after(., '@')"/></span>
+          </a>
+        </li>
+      </xsl:for-each>
+    </ul>
+    </div>
+  </xsl:template>
+  
+  <!-- item list of linked juridical persons -->
+  <xsl:template match="str[@name='index_linked_juridical_persons']">
+    <xsl:variable name="item" select="tokenize(., '£')"/>
+    <div class="linked_elements">
+      <h4 class="inline"><xsl:text>Linked juridical persons:</xsl:text></h4>
+    <xsl:text> </xsl:text>
+    <button type="button" class="expander" onclick="$(this).next().toggle();">Show/Hide</button>
+    <ul class="expanded hidden">
+      <xsl:for-each select="$item">
+        <li>
+          <a target="_blank" href="{concat('juridical_persons.html#', substring-before(., '#'))}">
+            <xsl:value-of select="substring-before(substring-after(., '#'), '@')"/>
+            <span class="link_type"><xsl:value-of select="substring-after(., '@')"/></span>
+          </a>
+        </li>
+      </xsl:for-each>
+    </ul>
+    </div>
+  </xsl:template>
+  
+  <!-- item list of linked people -->
+  <xsl:template match="str[@name='index_linked_people']">
+    <xsl:variable name="item" select="tokenize(., '£')"/>
+    <div class="linked_elements">
+      <h4 class="inline"><xsl:text>Linked people:</xsl:text></h4>
+    <xsl:text> </xsl:text>
+    <button type="button" class="expander" onclick="$(this).next().toggle();">Show/Hide</button>
+    <ul class="expanded hidden">
+      <xsl:for-each select="$item">
+        <li>
+          <a target="_blank" href="{concat('people.html#', substring-before(., '#'))}">
+            <xsl:value-of select="substring-before(substring-after(., '#'), '@')"/>
+            <span class="link_type"><xsl:value-of select="substring-after(., '@')"/></span>
+          </a>
+        </li>
+      </xsl:for-each>
+    </ul>
+    </div>
+  </xsl:template>
+  
+  <!-- item list of linked places -->
+  <xsl:template match="str[@name='index_linked_places']">
+    <xsl:variable name="item" select="tokenize(substring-after(., '~'), '£')"/>
+    <div class="linked_elements">
+      <h4 class="inline"><xsl:text>Linked places: </xsl:text></h4>
+      <a target="_blank" href="{concat('../../texts/map.html#', substring-before(substring-after(., 'map.html#'), '~'))}" class="open_map">See on map</a>
+      <xsl:text> </xsl:text>
+    <button type="button" class="expander" onclick="$(this).next().toggle();">Show/Hide</button>
+    <ul class="expanded hidden">
+      <xsl:for-each select="$item">
+        <li>
+          <a target="_blank" href="{concat('places.html#', substring-before(., '#'))}">
+            <xsl:value-of select="substring-before(substring-after(., '#'), '@')"/>
+            <span class="link_type"><xsl:value-of select="substring-after(., '@')"/></span>
+          </a>
+        </li>
+      </xsl:for-each>
+    </ul>
+    </div>
+  </xsl:template>
+  
+  <!-- item list of linked documents -->
+  <xsl:template match="arr[@name='index_instance_location']">
+    <div class="linked_elements">
+      <h4 class="inline"><xsl:text>Linked documents by date (</xsl:text><xsl:value-of select="count(str)"/><xsl:text>):</xsl:text></h4>
+    <xsl:text> </xsl:text>
+    <button type="button" class="expander" onclick="$(this).next().toggle();">Show/Hide</button>
+    <ul class="expanded hidden">
         <xsl:apply-templates select="str">
           <xsl:sort><xsl:value-of select="substring-before(substring-after(substring-after(., '#doc'), '#'), '#')"/></xsl:sort>
         </xsl:apply-templates>
     </ul>
+    </div>
   </xsl:template>
-
-  <!-- items single linked documents; template called from indices-epidoc.xsl -->
+  <!-- item single linked documents; template called from indices-epidoc.xsl -->
   <xsl:template match="arr[@name='index_instance_location']/str">
     <xsl:call-template name="render-instance-location" />
   </xsl:template>
