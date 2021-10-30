@@ -37,14 +37,14 @@
             <xsl:text>_index</xsl:text>
           </field>
           <xsl:call-template name="field_file_path" />
+          <xsl:if test="$key">
           <field name="index_item_name">
             <xsl:value-of select="normalize-space(replace($key-value, '_', ' '))" />
           </field>
           <field name="index_external_resource">
-              <xsl:if test="$key">
-                <xsl:value-of select="concat('https://ausohnum.huma-num.fr/concept/', $key[1]/@xml:id)" />
-              </xsl:if>
+                <xsl:value-of select="concat('https://ausohnum.huma-num.fr/concept/', $key[1]/@xml:id)" />    
           </field>
+          </xsl:if>
           <field name="index_total_items">
             <xsl:value-of select="string(count(document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/fiscus_framework/resources/thesaurus.xml'))//tei:catDesc))"/>
           </field>
