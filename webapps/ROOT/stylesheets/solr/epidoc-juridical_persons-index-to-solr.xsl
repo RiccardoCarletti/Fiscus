@@ -18,7 +18,7 @@
     <add>
       <xsl:for-each-group select="//tei:orgName[ancestor::tei:div/@type='edition'][@ref!='']" group-by="lower-case(translate(replace(@ref, ' #', '; '), '#', ''))">
         <xsl:variable name="jur-id" select="translate(replace(@ref, ' #', '; '), '#', '')"/>
-        <xsl:variable name="juridical-id" select="document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/fiscus_framework/resources/juridical_persons.xml'))//tei:org[translate(translate(descendant::tei:idno, '#', ''), ' ', '')=$jur-id][descendant::tei:orgName!=''][1]"/>
+        <xsl:variable name="juridical-id" select="document('../../content/fiscus_framework/resources/juridical_persons.xml')//tei:org[translate(translate(descendant::tei:idno, '#', ''), ' ', '')=$jur-id][descendant::tei:orgName!=''][1]"/>
         <doc>
           <field name="document_type">
             <xsl:value-of select="$subdirectory" />
@@ -56,7 +56,7 @@
             </field>
           </xsl:if>
           <field name="index_total_items">
-            <xsl:value-of select="string(count(document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/fiscus_framework/resources/juridical_persons.xml'))//tei:org[not(descendant::tei:orgName='XXX')]))"/>
+            <xsl:value-of select="string(count(document('../../content/fiscus_framework/resources/juridical_persons.xml')//tei:org[not(descendant::tei:orgName='XXX')]))"/>
           </field>
           
           <xsl:variable name="all_keys">
@@ -286,7 +286,7 @@
                 </xsl:choose>
           </field>
           <field name="index_total_items">
-            <xsl:value-of select="string(count(document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/fiscus_framework/resources/juridical_persons.xml'))//tei:org[not(descendant::tei:orgName='XXX')]))"/>
+            <xsl:value-of select="string(count(document('../../content/fiscus_framework/resources/juridical_persons.xml')//tei:org[not(descendant::tei:orgName='XXX')]))"/>
           </field>
           <xsl:apply-templates select="current-group()" />
         </doc>

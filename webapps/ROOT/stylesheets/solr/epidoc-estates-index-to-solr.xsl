@@ -18,7 +18,7 @@
     <add>
       <xsl:for-each-group select="//tei:geogName[ancestor::tei:div/@type='edition'][@ref!='']" group-by="lower-case(translate(replace(@ref, ' #', '; '), '#', ''))">
         <xsl:variable name="est-id" select="translate(replace(@ref, ' #', '; '), '#', '')"/>
-        <xsl:variable name="estate-id" select="document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/fiscus_framework/resources/estates.xml'))//tei:place[translate(translate(descendant::tei:idno, '#', ''), ' ', '')=$est-id][descendant::tei:geogName!=''][1]"/>
+        <xsl:variable name="estate-id" select="document('../../content/fiscus_framework/resources/estates.xml')//tei:place[translate(translate(descendant::tei:idno, '#', ''), ' ', '')=$est-id][descendant::tei:geogName!=''][1]"/>
         <doc>
           <field name="document_type">
             <xsl:value-of select="$subdirectory" />
@@ -55,7 +55,7 @@
           </field>
           </xsl:if>
           <field name="index_total_items">
-            <xsl:value-of select="string(count(document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/fiscus_framework/resources/estates.xml'))//tei:place[not(descendant::tei:geogName='XXX')]))"/>
+            <xsl:value-of select="string(count(document('../../content/fiscus_framework/resources/estates.xml')//tei:place[not(descendant::tei:geogName='XXX')]))"/>
           </field>
           
           <xsl:variable name="all_keys">
@@ -286,11 +286,25 @@
                 </xsl:choose>
           </field>
           <field name="index_total_items">
-            <xsl:value-of select="string(count(document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/fiscus_framework/resources/estates.xml'))//tei:place[not(descendant::tei:geogName='XXX')]))"/>
+            <xsl:value-of select="string(count(document('../../content/fiscus_framework/resources/estates.xml')//tei:place[not(descendant::tei:geogName='XXX')]))"/>
           </field>
           <xsl:apply-templates select="current-group()" />
         </doc>
       </xsl:for-each-group>
+      
+      <!--<xsl:variable name="estate" select="document('../../content/fiscus_framework/resources/estates.xml')//tei:geogName[not(contains(concat(' ', translate(string-join($root//tei:div[@type='edition']//tei:rs/@ref), '#', ''), ' '), concat(' ', following-sibling::tei:idno, ' ')))]"/>
+      <xsl:for-each-group select="$estate" group-by=".">
+        <doc>
+          <field name="document_type">
+            <xsl:value-of select="$subdirectory" /><xsl:text>_</xsl:text><xsl:value-of select="$index_type" /><xsl:text>_index</xsl:text>
+          </field>
+          <xsl:call-template name="field_file_path" />
+          <field name="index_item_name">
+            <xsl:text>!!! </xsl:text><xsl:value-of select="."/>
+          </field>
+          <xsl:apply-templates select="current-group()" />
+        </doc>
+      </xsl:for-each-group>-->
     </add>
   </xsl:template>
 
