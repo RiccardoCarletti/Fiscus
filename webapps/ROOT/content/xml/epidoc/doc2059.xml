@@ -122,14 +122,14 @@
                         vel quaslibet legales scripciones a principibus, ducibus reliquisque
                         fidelibus ibidem collatas, nec non et monasteria et cellas inferius
                         nominatas, oinnia in prefato cenobio concedimus et confirmamus: in primis
-                        quoque <rs>cellam</rs>
+                        quoque <rs key="#Cells/hermitages">cellam</rs>
                         <orgName
-                            key="#Curtis #Landed_possessions #Gualdi #Rivers #Roads #Other_basins #Forests"
+                            key="#Cells/hermitages #Curtes #Landed_possessions #Gualdi #Rivers #Roads #Other_basins #Forests"
                             ref="#juridical_persons/1933">Sancti Sossii</orgName>, cum inclita
-                            <geogName key="#Curtis" ref="#estates/1927">curte</geogName> et <rs
-                            key="#Gualdi">vualdum,</rs> que est in partibus
-                            <placeName>Liburie</placeName>, qui dicitur <placeName
-                            key="#Forests #Curtis #Gualdi #Rivers #Other_basins #Landed_possessions #Marshes/lagoons/tombolos #Fiscal_property #Textual_occurrence #Mention #Roads"
+                            <geogName key="#Curtes" ref="#estates/1927">curte</geogName> et <rs
+                            key="#Gualdi">vualdum,</rs> que est in partibus <placeName
+                            ref="#places/605">Liburie</placeName>, qui dicitur <placeName
+                            key="#Forests #Curtes #Gualdi #Rivers #Other_basins #Landed_possessions #Marshes/lagoons/tombolos #Fiscal_property #Textual_occurrence #Mention #Roads"
                             ref="#places/2351">Pantanu</placeName>, que data est a <rs
                             key="#Marquis/duke">duce</rs>
                         <persName key="#Gualdi #Marquis/duke" ref="#people/158">Gysulfo</persName>
@@ -202,12 +202,14 @@
                         suis. Item <rs key="#Cells/hermitages">cellam</rs>
                         <orgName key="#Cells/hermitages #Casae/cassinae_massaricie #Curtes"
                             ref="#juridical_persons/1934">Sancti Vincencii</orgName> de <placeName
-                                key="#Cells/hermitages #Curtes #Casae/cassinae_massaricie" ref="#places/2356">Cume</placeName>, cum <rs key="#Curtes">curte</rs> et
-                        <rs key="#Casae/cassinae_massaricie">casis</rs> suis. Item <rs
+                            key="#Cells/hermitages #Curtes #Casae/cassinae_massaricie"
+                            ref="#places/2356">Cume</placeName>, cum <rs key="#Curtes">curte</rs> et
+                            <rs key="#Casae/cassinae_massaricie">casis</rs> suis. Item <rs
                             key="#Cells/hermitages">cellam</rs>
-                        <orgName key="#Cells/hermitages" ref="#juridical_persons/1925">Sancti Georgii</orgName> infra
-                        <placeName key="#Cities" ref="#places/84">Salernitanam</placeName>
-                        <rs  key="#Cities">civitatem</rs>; <rs key="#Cells/hermitages">cellam</rs>
+                        <orgName key="#Cells/hermitages" ref="#juridical_persons/1925">Sancti
+                            Georgii</orgName> infra <placeName key="#Cities" ref="#places/84"
+                            >Salernitanam</placeName>
+                        <rs key="#Cities">civitatem</rs>; <rs key="#Cells/hermitages">cellam</rs>
                         <orgName key="#Cells/hermitages #Rivers #Landed_possessions"
                             ref="#juridical_persons/1957">Sancti Vincencii</orgName> in <rs
                             key="#Rivers">fluvio</rs>
@@ -228,30 +230,32 @@
                         tempore, in eodem monasterio concedimus et confirmamus, ut abhinc in futurum
                         hec omnia, que supra diximus, firma perseverent, ita videlicet ut quicquid
                         in ipsis vel de ipsis rectores vel ministri eiusdem monasterii disponere vel
-                        ordinare placuerint , absque quorumlibet contradiccione ordinent atque
+                        ordinare placuerint, absque quorumlibet contradiccione ordinent atque
                         disponant, prout utiliter congruere perspexerint. Et nulli sit deinceps
                         licencia infra predictos fines seu in cellis vel terris aliquam
                         contrarietatem aut molestiam partibus inferre cenobii. Neque aliquis per
                         parentum possessiones eius hereditates residere audeat, excepto perveraces
-                        cartulas et legales consignaciones, sicut Aysulfus rex Langobardorum
-                        constituit de ecclesiis. Et nullus audeat abbates vel monachos eiusdem
-                        cenobii ad iurandum querere, quia contra divinam credimus esse legem, sed
-                        per scariones omnibus temporibus finem faciant, sicut prisca fuit
-                        consuetudo. Statuimus quoque ut nullus ex servis aut ex familia eiusdem
-                        monasterii vel eos, quos cortisianos vocant, audeat inquietare aut quodlibet
-                        pensum quisquam ei exactor tollere vel exigere presumat. Quod si quislibet
-                        contra hanc nostram concessionem vel confirmacionem insurgere vel molestias
-                        inferre tem­ptaverit, sciat se compositurum auri purissimi libras mille
-                        quingentas, medietatem Camere nostre et medietatem prefato venerabili
-                        monasterio. Et ut hec nostre auctoritatis largicio firmiorem optineat
-                        vigorem et per curricula annorum inviolabilem atque incommutabilem optineat
-                        firmitatem et a fidelibus sancte Dei Ecclesie et nostris verius, presentibus
-                        sci1icet et futuris, credatur, diligenciusque ab omnibus conservetur, manu
-                        propria subter scripsimus et anuli nostri impressione signari iussimus.
-                        Signum domni Hludovici serenissimi imperatoris. [M.] <date>Data IIIo. Idus
-                            ianuarias, anno Christo propicio sexto imperii domni HIudovici piissimi
-                            Augusti, indiccione XIIa. Actum <placeName key="#Palatium"
-                                ref="#places/83">Aquisgrani</placeName>
+                        cartulas et legales consignaciones, sicut <persName key="#Emperor/king"
+                            ref="#people/48">Aysulfus</persName>
+                        <rs key="#Emperor/king">rex</rs> Langobardorum constituit de ecclesiis. Et
+                        nullus audeat abbates vel monachos eiusdem cenobii ad iurandum querere, quia
+                        contra divinam credimus esse legem, sed per scariones omnibus temporibus
+                        finem faciant, sicut prisca fuit consuetudo. Statuimus quoque ut nullus ex
+                        servis aut ex familia eiusdem monasterii vel eos, quos cortisianos vocant,
+                        audeat inquietare aut quodlibet pensum quisquam ei exactor tollere vel
+                        exigere presumat. Quod si quislibet contra hanc nostram concessionem vel
+                        confirmacionem insurgere vel molestias inferre temptaverit, sciat se
+                        compositurum auri purissimi libras mille quingentas, medietatem Camere
+                        nostre et medietatem prefato venerabili monasterio. Et ut hec nostre
+                        auctoritatis largicio firmiorem optineat vigorem et per curricula annorum
+                        inviolabilem atque incommutabilem optineat firmitatem et a fidelibus sancte
+                        Dei Ecclesie et nostris verius, presentibus sci1icet et futuris, credatur,
+                        diligenciusque ab omnibus conservetur, manu propria subter scripsimus et
+                        anuli nostri impressione signari iussimus. Signum domni Hludovici
+                        serenissimi imperatoris. [M.] <date>Data IIIo. Idus ianuarias, anno Christo
+                            propicio sexto imperii domni HIudovici piissimi Augusti, indiccione
+                            XIIa. Actum <placeName key="#Palatium" ref="#places/83"
+                                >Aquisgrani</placeName>
                             <rs key="#Palatium">palacio</rs> regio</date>, in Dei nomine,
                         feliciter.</ab>
                 </div>
