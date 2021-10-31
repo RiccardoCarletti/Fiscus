@@ -759,6 +759,8 @@
                     <link type="juridical_persons" corresp="#juridical_persons/131" subtype="link"/>
                     <link type="people" corresp="#people/242" subtype="fatherOf"/>
                     <link type="people" corresp="#people/267" subtype="grandfatherOf"/>
+                    <link type="people" corresp="#people/1990" subtype="benefactorOf"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/1900" subtype="benefactorOf"/>
                 </person>
                 <person>
                     <persName>Aio (884-891) princeps </persName>
@@ -842,13 +844,19 @@
                     <idno>people/118</idno>
                     <note/>
                     <link type="juridical_persons"
-                        corresp="#juridical_persons/131 #juridical_persons/30 #juridical_persons/47"
+                        corresp="#juridical_persons/131" subtype="link"/> 
+                    <link type="juridical_persons"
+                        corresp="#juridical_persons/30" subtype="link"/>
+                    <link type="juridical_persons"
+                        corresp="#juridical_persons/47"
                         subtype="link"/>
                     <link type="people" corresp="#people/119" subtype="link"/>
                     <link type="people" corresp="#people/120" subtype="link"/>
                     <link type="places" corresp="#places/83" subtype="hasConnectionWith"/>
                         <link type="estates" corresp="#estates/1201" subtype="hasConnectionWith"/>
                         <link type="estates" corresp="#estates/1202" subtype="hasConnectionWith"/>
+                    <link type="people" corresp="#people/2001" subtype="benefactorOf"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/1900" subtype="benefactorOf"/>
                 </person>
                 <person>
                     <persName>Petrus (804-824/5) abbas Nonantulensis</persName>
@@ -5082,6 +5090,7 @@
                         <link type="places" corresp="#places/2346" subtype="hasConnectionWith"/>
                         <link type="places" corresp="#places/2300" subtype="hasConnectionWith"/>
                         <link type="places" corresp="#places/2347" subtype="hasConnectionWith"/>
+                        <link type="people" corresp="#people/118" subtype="gratitudeTo"/>
                     </person>
                     <person>
                         <persName>Scauniperga (ducissa gentis Langobardorum; 751-756)</persName>
@@ -5372,6 +5381,9 @@
                         <link type="juridical_persons" corresp="#juridical_persons/1908"
                             subtype="link"/>
                         <link type="people" corresp="#people/115" subtype="gratitudeTo"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1993"
+                            subtype="link"/>
+                        <link type="places" corresp="#places/2805" subtype="hasConnectionWith"/>
                     </person>
                     <person>
                         <persName>Radelchis (881-884; 887-900; princeps gentis
@@ -6026,6 +6038,15 @@
                             subtype="link"/>
                         <link type="places" corresp="#places/2399" subtype="hasConnectionWith"/>
                         <link type="places" corresp="#places/2800" subtype="hasConnectionWith"/>
+                    </person>
+                    <person>
+                        <persName>Artefusus (863-872; abbas Vulturnensis)</persName>
+                        <persName type="other"/>
+                        <idno>people/1990</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1900"
+                            subtype="link"/>
+                        <link type="people" corresp="#people/110" subtype="gratitudeTo"/>
                     </person>
                 </listPerson>
             </listPerson>
