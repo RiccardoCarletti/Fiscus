@@ -10682,24 +10682,6 @@
                         <link type="people" corresp="#people/1938" subtype="link"/>
                     </place>
                     <place>
-                        <placeName>Arcora; <foreign>terra</foreign> (Isernia)</placeName>
-                        <placeName type="other"/>
-                        <geogName type="coord"><geo>41.5125662, 14.0620024</geo></geogName>
-                        <idno>places/2311</idno>
-                        <note><foreign>terra Arcora</foreign> is located near Pozzilli (Isernia);
-                            Marazzi 19-25; 31-32</note>
-                        <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
-                        <link type="juridical_persons" corresp="#juridical_persons/1904"
-                            subtype="link"/>
-                        <link type="places" corresp="#places/2300" subtype="isInVicinityOf"/>
-                        <link type="places" corresp="#places/2310" subtype="isInVicinityOf"/>
-                        <link type="places" corresp="#places/2309" subtype="isInVicinityOf"/>
-                        <link type="people" corresp="#people/186" subtype="link"/>
-                        <link type="people" corresp="#people/1903" subtype="link"/>
-                        <link type="estates" corresp="#estates/1916" subtype="isWithin"/>
-                    </place>
-                    <place>
                         <placeName>Campiniano; <foreign>locus</foreign> (Venafro;
                             Isernia)</placeName>
                         <placeName type="other"/>
@@ -10866,12 +10848,14 @@
                         <link type="estates" corresp="#estates/1916" subtype="isInVicinityOf"/>
                     </place>
                     <place>
-                        <placeName>Meta; mountain (L'Aquila)</placeName>
-                        <placeName type="other"><foreign>mons quid dicitur
-                            Azze</foreign></placeName>
-                        <geogName type="coord"><geo>41.6939674, 13.9396083</geo></geogName>
+                        <placeName>Azze; mountain (L'Aquila)</placeName>
+                        <placeName type="other"><foreign>
+                            Acze</foreign></placeName>
+                        <geogName type="coord"><geo>41.614695, 13.991001
+                        </geo></geogName>
                         <idno>places/2324</idno>
-                        <note>Marazzi 2012: 20-21</note>
+                        <note>Si tratta di una delle vette dei Monti delle Mainarde. Marazzi 2012:
+                            20-21.</note>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
                             subtype="link"/>
                         <link type="estates" corresp="#estates/1916" subtype="isWithin"/>
@@ -11591,6 +11575,13 @@
                         <link type="places" corresp="#places/2351" subtype="isInVicinityOf"/>
                         <link type="places" corresp="#places/701" subtype="isInVicinityOf"/>
                         <link type="places" corresp="#places/605" subtype="isWithin"/>
+                    </place>
+                    <place>
+                        <placeName>da inserire</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"></geogName>
+                        <idno>places/2311</idno>
+                        <note/>
                     </place>
                 </listPlace>
             </listPlace>
