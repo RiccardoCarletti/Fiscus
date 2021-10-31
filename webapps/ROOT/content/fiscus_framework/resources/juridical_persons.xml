@@ -4311,13 +4311,16 @@
                         <link type="places" corresp="#places/2351" subtype="isWithin"/>
                     </org>
                     <org>
-                        <orgName>Sanctus Petrus <foreign>de Tontolo</foreign>; cella (Caserta)</orgName>
-                        <orgName type="other"/>
+                        <orgName>Sanctus Petrus <foreign>de Tontolo</foreign>; monasterium (Caserta)</orgName>
+                        <orgName type="other"><foreign>non longe ab arcu Dyane</foreign></orgName>
                         <idno>juridical_persons/1937</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
                             subtype="link"/>
                         <link type="places" corresp="#places/173" subtype="isInVicinityOf"/>
+                            <link type="places" corresp="#places/605" subtype="isWithin"/>
+                            <link type="places" corresp="#places/2803" subtype="isInVicinityOf"/>
+                            <link type="places" corresp="#places/2804" subtype="isWithin"/>
                     </org>
                     <org>
                         <orgName>Sancta Colomba de Sora; cella (Frosinone)</orgName>
@@ -4815,13 +4818,13 @@
                             subtype="link"/>
                     </org>
                     <org>
-                        <orgName>Sanctus Petrus <foreign>de Tuntulo</foreign>; monasterium (Caserta)</orgName>
-                        <orgName type="other"><foreign>non longe ab arcu Dyane</foreign></orgName>
-                        <idno>juridical_persons/2803</idno>
+                        <orgName>Sanctus Martinus; ecclesia (Caserta)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/1992</idno>
                         <note/>
                         <link type="places" corresp="#places/605" subtype="isWithin"/>
-                        <link type="places" corresp="#places/2803" subtype="isInVicinityOf"/>
-                        <link type="places" corresp="#places/2804" subtype="isWithin"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1937"
+                            subtype="link"/>
                     </org>
                 </listOrg>
             </listOrg>
