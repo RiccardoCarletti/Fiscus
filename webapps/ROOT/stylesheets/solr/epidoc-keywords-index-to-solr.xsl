@@ -46,7 +46,7 @@
           </field>
           </xsl:if>
           <field name="index_total_items">
-            <xsl:value-of select="string(count(document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/fiscus_framework/resources/thesaurus.xml'))//tei:catDesc))"/>
+            <xsl:value-of select="string(count(document('../../content/fiscus_framework/resources/thesaurus.xml')//tei:catDesc))"/>
           </field>
           <xsl:apply-templates select="$keyword" />
         </doc>

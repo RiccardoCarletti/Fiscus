@@ -106,9 +106,17 @@
       <xsl:text> </xsl:text><xsl:value-of select="."/></p>
   </xsl:template>
   
-  <!-- item notes -->
+  <!-- item notes, handling also included URIs -->
   <xsl:template match="str[@name='index_notes']">
-    <p><strong>Commentary/Bibliography: </strong><xsl:value-of select="."/></p>
+    <p><strong>Commentary/Bibliography: </strong>
+      <xsl:analyze-string select="." regex="(http:|https:)(\S+?)(\.|\)|\]|;|,|\?|!|:)?(\s|$)">
+        <xsl:matching-substring>
+          <a target="_blank" href="{concat(regex-group(1),regex-group(2))}"><xsl:value-of select="concat(regex-group(1),regex-group(2))"/></a>
+          <xsl:value-of select="concat(regex-group(3),regex-group(4))"/>
+        </xsl:matching-substring>
+        <xsl:non-matching-substring><xsl:value-of select="."/></xsl:non-matching-substring>
+      </xsl:analyze-string>
+    </p>
   </xsl:template>
   
   <!-- item links to external resources -->

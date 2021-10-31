@@ -18,7 +18,7 @@
     <add>
       <xsl:for-each-group select="//tei:placeName[ancestor::tei:div/@type='edition'][@ref!='']" group-by="lower-case(translate(replace(@ref, ' #', '; '), '#', ''))">
         <xsl:variable name="pl-id" select="translate(replace(@ref, ' #', '; '), '#', '')"/>
-        <xsl:variable name="place-id" select="document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/fiscus_framework/resources/places.xml'))//tei:place[translate(translate(descendant::tei:idno, '#', ''), ' ', '')=$pl-id][descendant::tei:placeName!=''][1]"/>
+        <xsl:variable name="place-id" select="document('../../content/fiscus_framework/resources/places.xml')//tei:place[translate(translate(descendant::tei:idno, '#', ''), ' ', '')=$pl-id][descendant::tei:placeName!=''][1]"/>
         <doc>
           <field name="document_type">
             <xsl:value-of select="$subdirectory" />
@@ -55,7 +55,7 @@
             </field>
           </xsl:if>
           <field name="index_total_items">
-            <xsl:value-of select="string(count(document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/fiscus_framework/resources/places.xml'))//tei:place[not(descendant::tei:placeName='XXX')]))"/>
+            <xsl:value-of select="string(count(document('../../content/fiscus_framework/resources/places.xml')//tei:place[not(descendant::tei:placeName='XXX')]))"/>
           </field>
           <field name="index_coordinates">
             <xsl:value-of select="$place-id/tei:geogName[@type='coord']"/>
@@ -288,7 +288,7 @@
                 </xsl:choose>
           </field>
           <field name="index_total_items">
-            <xsl:value-of select="string(count(document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/fiscus_framework/resources/places.xml'))//tei:place[not(descendant::tei:placeName='XXX')]))"/>
+            <xsl:value-of select="string(count(document('../../content/fiscus_framework/resources/places.xml')//tei:place[not(descendant::tei:placeName='XXX')]))"/>
           </field>
           <xsl:apply-templates select="current-group()" />
         </doc>

@@ -18,7 +18,7 @@
     <add>
       <xsl:for-each-group select="//tei:persName[ancestor::tei:div/@type='edition'][@ref!='']" group-by="lower-case(translate(replace(@ref, ' #', '; '), '#', ''))">
         <xsl:variable name="pers-id" select="translate(replace(@ref, ' #', '; '), '#', '')"/>
-        <xsl:variable name="person-id" select="document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/fiscus_framework/resources/people.xml'))//tei:person[translate(translate(descendant::tei:idno, '#', ''), ' ', '')=$pers-id][descendant::tei:persName!=''][1]"/>
+        <xsl:variable name="person-id" select="document('../../content/fiscus_framework/resources/people.xml')//tei:person[translate(translate(descendant::tei:idno, '#', ''), ' ', '')=$pers-id][descendant::tei:persName!=''][1]"/>
         <doc>
           <field name="document_type">
             <xsl:value-of select="$subdirectory" />
@@ -54,7 +54,7 @@
             </field>
           </xsl:if>
           <field name="index_total_items">
-            <xsl:value-of select="string(count(document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/fiscus_framework/resources/people.xml'))//tei:person[not(descendant::tei:persName='XXX')]))"/>
+            <xsl:value-of select="string(count(document('../../content/fiscus_framework/resources/people.xml')//tei:person[not(descendant::tei:persName='XXX')]))"/>
           </field>
           
           <xsl:variable name="all_keys">
@@ -284,7 +284,7 @@
                 </xsl:choose>
           </field>
           <field name="index_total_items">
-            <xsl:value-of select="string(count(document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/fiscus_framework/resources/people.xml'))//tei:person[not(descendant::tei:persName='XXX')]))"/>
+            <xsl:value-of select="string(count(document('../../content/fiscus_framework/resources/people.xml')//tei:person[not(descendant::tei:persName='XXX')]))"/>
           </field>
           <xsl:apply-templates select="current-group()" />
         </doc>
@@ -307,7 +307,7 @@
             </xsl:choose>
           </field>
           <field name="index_total_items">
-            <xsl:value-of select="string(count(document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/fiscus_framework/resources/people.xml'))//tei:person[not(descendant::tei:persName='XXX')]))"/>
+            <xsl:value-of select="string(count(document('../../content/fiscus_framework/resources/people.xml')//tei:person[not(descendant::tei:persName='XXX')]))"/>
           </field>
           <xsl:apply-templates select="current-group()" />
         </doc>
@@ -330,7 +330,7 @@
             </xsl:choose>
           </field>
           <field name="index_total_items">
-            <xsl:value-of select="string(count(document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/fiscus_framework/resources/people.xml'))//tei:person[not(descendant::tei:persName='XXX')]))"/>
+            <xsl:value-of select="string(count(document('../../content/fiscus_framework/resources/people.xml')//tei:person[not(descendant::tei:persName='XXX')]))"/>
           </field>
           <xsl:apply-templates select="current-group()" />
         </doc>
