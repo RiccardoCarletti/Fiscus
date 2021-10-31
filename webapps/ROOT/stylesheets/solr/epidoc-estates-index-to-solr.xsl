@@ -15,9 +15,18 @@
 
   <xsl:template match="/">
     <xsl:variable name="root" select="." />
+    <xsl:variable name="all_mentions">
+      <xsl:for-each select="$root//tei:div[@type='edition']//tei:geogName/@ref"><xsl:value-of select="concat(' ', replace(., '#', ''), ' ')"/></xsl:for-each>
+    </xsl:variable>
+    <xsl:variable name="not_mentioned" select="document('../../content/fiscus_framework/resources/estates.xml')//tei:geogName[not(@type='other')][not(@type='coord')][not(.='XXX')][not(contains(normalize-space($all_mentions), normalize-space(concat(' ', following-sibling::tei:idno, ' '))))]"/>
     <add>
-      <xsl:for-each-group select="//tei:geogName[ancestor::tei:div/@type='edition'][@ref!='']" group-by="lower-case(translate(replace(@ref, ' #', '; '), '#', ''))">
-        <xsl:variable name="est-id" select="translate(replace(@ref, ' #', '; '), '#', '')"/>
+      <xsl:for-each-group select="//tei:geogName[ancestor::tei:div/@type='edition'][@ref!='']|$not_mentioned" group-by="concat(translate(replace(@ref, ' #', '; '), '#', ''),'-',translate(translate(following-sibling::tei:idno, '#', ''), ' ', ''))">
+        <xsl:variable name="est-id">
+          <xsl:choose>
+            <xsl:when test="ancestor::tei:div[@type='edition']"><xsl:value-of select="translate(replace(@ref, ' #', '; '), '#', '')"/></xsl:when>
+            <xsl:otherwise><xsl:value-of select="translate(translate(following-sibling::tei:idno, '#', ''), ' ', '')"/></xsl:otherwise>
+          </xsl:choose>
+        </xsl:variable>
         <xsl:variable name="estate-id" select="document('../../content/fiscus_framework/resources/estates.xml')//tei:place[translate(translate(descendant::tei:idno, '#', ''), ' ', '')=$est-id][descendant::tei:geogName!=''][1]"/>
         <doc>
           <field name="document_type">
@@ -32,13 +41,6 @@
               <xsl:when test="$estate-id"><xsl:value-of select="$estate-id/tei:geogName[1]" />
               </xsl:when>
               <xsl:when test="$est-id and not($estate-id)"><xsl:value-of select="$est-id" /></xsl:when>
-              <xsl:otherwise>
-                <xsl:text>~ </xsl:text>
-                <xsl:choose>
-                  <xsl:when test="starts-with(normalize-space(.), '\s')"><xsl:value-of select="substring(normalize-space(.), 2)"/></xsl:when>
-                  <xsl:otherwise><xsl:value-of select="normalize-space(.)"/></xsl:otherwise>
-                </xsl:choose>
-              </xsl:otherwise>
             </xsl:choose>
           </field>
           <xsl:if test="$estate-id/tei:geogName[@type='other']//text()">
@@ -70,11 +72,12 @@
               <xsl:sort order="ascending"/><xsl:value-of select="."/><xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if>
             </xsl:for-each>
           </xsl:variable>
-          <xsl:if test="matches($all_keys_sorted, '.*[a-zA-Z].*')">
+          <xsl:if test="$estate-id and matches($all_keys_sorted, '.*[a-zA-Z].*')">
             <field name="index_linked_keywords">
               <xsl:value-of select="$all_keys_sorted"/>
             </field>
           </xsl:if>
+          
           
           <!-- ### Linked items start ### -->
           <xsl:variable name="places" select="document('../../content/fiscus_framework/resources/places.xml')//tei:listPlace[@type='places']"/>
@@ -131,7 +134,8 @@
           <xsl:variable name="links_places"><xsl:for-each select="$linked_places|$linking_places"><xsl:value-of select="." /><xsl:text> </xsl:text></xsl:for-each></xsl:variable>
           <xsl:variable name="linkedplaces" select="distinct-values(tokenize(normalize-space($links_places), '\s+'))" />
           
-          <xsl:if test="$linkedjp!=''">
+          
+          <xsl:if test="$estate-id and $linkedjp!=''">
             <field name="index_linked_juridical_persons">
               <xsl:for-each select="$linkedjp"><xsl:variable name="key" select="translate(translate(.,' ',''), '#', '')"/>
               <xsl:value-of select="substring-after($key, 'juridical_persons/')"/><xsl:text>#</xsl:text>
@@ -164,7 +168,7 @@
           </field>
           </xsl:if>
           
-          <xsl:if test="$linkedest!=''">
+          <xsl:if test="$estate-id and $linkedest!=''">
             <field name="index_linked_estates">
               <xsl:for-each select="$linkedest"><xsl:variable name="key" select="translate(translate(.,' ',''), '#', '')"/>
               <xsl:value-of select="substring-after($key, 'estates/')"/><xsl:text>#</xsl:text>
@@ -197,12 +201,13 @@
           </field>
           </xsl:if>
           
-          <xsl:if test="$linkedplaces!=''">
+          <xsl:if test="$estate-id and $linkedplaces!=''">
             <field name="index_linked_places">
               <xsl:value-of select="concat('map.html#select#',translate(string-join($linkedplaces, '#'),'places/',''),'#')"/><xsl:text>~</xsl:text>
-            <xsl:for-each select="$linkedplaces"><xsl:variable name="key" select="translate(translate(.,' ',''), '#', '')"/>
+            <xsl:for-each select="$linkedplaces">
+              <xsl:variable name="key" select="translate(translate(.,' ',''), '#', '')"/>
               <xsl:value-of select="substring-after($key, 'places/')"/><xsl:text>#</xsl:text>
-                <xsl:value-of select="$places//tei:place[descendant::tei:idno=$key][1]/tei:placeName[1]"/><xsl:text>@</xsl:text>
+              <xsl:value-of select="$places//tei:place[descendant::tei:idno=$key][1]/tei:placeName[1]"/><xsl:text>@</xsl:text>
                 <xsl:variable name="subtype">
                   <xsl:choose>
                     <xsl:when test="$links[contains(concat(@corresp, ' '), concat($key, ' '))][@subtype!='']">
@@ -231,7 +236,7 @@
           </field>
           </xsl:if>
           
-          <xsl:if test="$linkedpeople!=''">
+          <xsl:if test="$estate-id and $linkedpeople!=''">
             <field name="index_linked_people">
               <xsl:for-each select="$linkedpeople"><xsl:variable name="key" select="translate(translate(.,' ',''), '#', '')"/>
               <xsl:value-of select="substring-after($key, 'people/')"/><xsl:text>#</xsl:text>
@@ -264,10 +269,10 @@
           </field>
           </xsl:if>
           <!-- ### Linked items end ### -->
-          
           <xsl:apply-templates select="current-group()" />
         </doc>
       </xsl:for-each-group>
+      
       
       <xsl:for-each-group select="//tei:geogName[ancestor::tei:div/@type='edition'][not(@ref) or @ref='']" group-by="lower-case(.)">
         <doc>
@@ -291,24 +296,10 @@
           <xsl:apply-templates select="current-group()" />
         </doc>
       </xsl:for-each-group>
-      
-      <!--<xsl:variable name="estate" select="document('../../content/fiscus_framework/resources/estates.xml')//tei:geogName[not(contains(concat(' ', translate(string-join($root//tei:div[@type='edition']//tei:rs/@ref), '#', ''), ' '), concat(' ', following-sibling::tei:idno, ' ')))]"/>
-      <xsl:for-each-group select="$estate" group-by=".">
-        <doc>
-          <field name="document_type">
-            <xsl:value-of select="$subdirectory" /><xsl:text>_</xsl:text><xsl:value-of select="$index_type" /><xsl:text>_index</xsl:text>
-          </field>
-          <xsl:call-template name="field_file_path" />
-          <field name="index_item_name">
-            <xsl:text>!!! </xsl:text><xsl:value-of select="."/>
-          </field>
-          <xsl:apply-templates select="current-group()" />
-        </doc>
-      </xsl:for-each-group>-->
     </add>
   </xsl:template>
 
-  <xsl:template match="tei:geogName">
+  <xsl:template match="tei:geogName[ancestor::tei:div[@type='edition']]">
     <xsl:call-template name="field_index_instance_location" />
   </xsl:template>
 

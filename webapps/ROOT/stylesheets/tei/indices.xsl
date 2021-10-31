@@ -46,7 +46,7 @@
     </div>
     
     <xsl:if test="doc[str[@name='index_item_name'][starts-with(., '#')]]">
-      <h2>Personal names normalized forms</h2>
+      <h3 class="sublist_heading">Personal names normalized forms</h3>
       <div>
           <xsl:apply-templates select="doc[str[@name='index_item_name'][starts-with(., '#')]]">
             <xsl:sort select="lower-case(.)"/>
@@ -55,7 +55,7 @@
     </xsl:if>
     
     <xsl:if test="doc[str[@name='index_item_name'][starts-with(., '~')]]">
-      <h2>Items that have not been identified/normalized</h2>
+      <h3 class="sublist_heading">Items that have not been normalized</h3>
       <div>
           <xsl:apply-templates select="doc[str[@name='index_item_name'][starts-with(., '~')]]">
             <xsl:sort select="lower-case(.)"/>
