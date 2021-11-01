@@ -86,12 +86,22 @@
 
   <!-- item name -->
   <xsl:template match="str[@name='index_item_name']">
-      <h3 class="index_item_name"><xsl:value-of select="replace(replace(., '~ ', ''), '# ', '')"/></h3>
+    <h3 class="index_item_name">
+      <xsl:analyze-string select="replace(replace(normalize-space(.), '~ ', ''), '# ', '')" regex="italicsstart(.*?)italicsend">
+        <xsl:matching-substring><i><xsl:value-of select="regex-group(1)"/></i></xsl:matching-substring>
+      <xsl:non-matching-substring><xsl:value-of select="."/></xsl:non-matching-substring>
+    </xsl:analyze-string>
+    </h3>
   </xsl:template>
   
   <!-- item other names -->
   <xsl:template match="str[@name='index_other_names']">
-    <p><strong>Also known as: </strong><xsl:value-of select="."/></p>
+    <p><strong>Also known as: </strong>
+      <xsl:analyze-string select="normalize-space(.)" regex="italicsstart(.*?)italicsend">
+        <xsl:matching-substring><i><xsl:value-of select="regex-group(1)"/></i></xsl:matching-substring>
+        <xsl:non-matching-substring><xsl:value-of select="."/></xsl:non-matching-substring>
+      </xsl:analyze-string>
+    </p>
   </xsl:template>
   
   <!-- item number -->
@@ -109,12 +119,25 @@
   <!-- item notes, handling also included URIs -->
   <xsl:template match="str[@name='index_notes']">
     <p><strong>Commentary/Bibliography: </strong>
-      <xsl:analyze-string select="." regex="(http:|https:)(\S+?)(\.|\)|\]|;|,|\?|!|:)?(\s|$)">
-        <xsl:matching-substring>
-          <a target="_blank" href="{concat(regex-group(1),regex-group(2))}"><xsl:value-of select="concat(regex-group(1),regex-group(2))"/></a>
-          <xsl:value-of select="concat(regex-group(3),regex-group(4))"/>
-        </xsl:matching-substring>
-        <xsl:non-matching-substring><xsl:value-of select="."/></xsl:non-matching-substring>
+      <xsl:analyze-string select="normalize-space(.)" regex="italicsstart(.*?)italicsend">
+        <xsl:matching-substring><i>
+          <xsl:analyze-string select="regex-group(1)" regex="(http:|https:)(\S+?)(\.|\)|\]|;|,|\?|!|:)?(\s|$)">
+            <xsl:matching-substring>
+              <a target="_blank" href="{concat(regex-group(1),regex-group(2))}"><xsl:value-of select="concat(regex-group(1),regex-group(2))"/></a>
+              <xsl:value-of select="concat(regex-group(3),regex-group(4))"/>
+            </xsl:matching-substring>
+            <xsl:non-matching-substring><xsl:value-of select="."/></xsl:non-matching-substring>
+          </xsl:analyze-string>
+        </i></xsl:matching-substring>
+        <xsl:non-matching-substring>
+          <xsl:analyze-string select="." regex="(http:|https:)(\S+?)(\.|\)|\]|;|,|\?|!|:)?(\s|$)">
+            <xsl:matching-substring>
+              <a target="_blank" href="{concat(regex-group(1),regex-group(2))}"><xsl:value-of select="concat(regex-group(1),regex-group(2))"/></a>
+              <xsl:value-of select="concat(regex-group(3),regex-group(4))"/>
+            </xsl:matching-substring>
+            <xsl:non-matching-substring><xsl:value-of select="."/></xsl:non-matching-substring>
+          </xsl:analyze-string>
+        </xsl:non-matching-substring>  
       </xsl:analyze-string>
     </p>
   </xsl:template>
@@ -140,7 +163,10 @@
       <xsl:for-each select="$item">
         <li>
           <a target="_blank" href="{concat('estates.html#', substring-before(., '#'))}">
-            <xsl:value-of select="substring-before(substring-after(., '#'), '@')"/>
+            <xsl:analyze-string select="substring-before(substring-after(normalize-space(.), '#'), '@')" regex="italicsstart(.*?)italicsend">
+              <xsl:matching-substring><i><xsl:value-of select="regex-group(1)"/></i></xsl:matching-substring>
+              <xsl:non-matching-substring><xsl:value-of select="."/></xsl:non-matching-substring>
+            </xsl:analyze-string>
           <span class="link_type"><xsl:value-of select="substring-after(., '@')"/></span>
           </a>
         </li>
@@ -160,7 +186,10 @@
       <xsl:for-each select="$item">
         <li>
           <a target="_blank" href="{concat('juridical_persons.html#', substring-before(., '#'))}">
-            <xsl:value-of select="substring-before(substring-after(., '#'), '@')"/>
+            <xsl:analyze-string select="substring-before(substring-after(normalize-space(.), '#'), '@')" regex="italicsstart(.*?)italicsend">
+              <xsl:matching-substring><i><xsl:value-of select="regex-group(1)"/></i></xsl:matching-substring>
+              <xsl:non-matching-substring><xsl:value-of select="."/></xsl:non-matching-substring>
+            </xsl:analyze-string>
             <span class="link_type"><xsl:value-of select="substring-after(., '@')"/></span>
           </a>
         </li>
@@ -180,7 +209,10 @@
       <xsl:for-each select="$item">
         <li>
           <a target="_blank" href="{concat('people.html#', substring-before(., '#'))}">
-            <xsl:value-of select="substring-before(substring-after(., '#'), '@')"/>
+            <xsl:analyze-string select="substring-before(substring-after(normalize-space(.), '#'), '@')" regex="italicsstart(.*?)italicsend">
+              <xsl:matching-substring><i><xsl:value-of select="regex-group(1)"/></i></xsl:matching-substring>
+              <xsl:non-matching-substring><xsl:value-of select="."/></xsl:non-matching-substring>
+            </xsl:analyze-string>
             <span class="link_type"><xsl:value-of select="substring-after(., '@')"/></span>
           </a>
         </li>
@@ -201,7 +233,10 @@
       <xsl:for-each select="$item">
         <li>
           <a target="_blank" href="{concat('places.html#', substring-before(., '#'))}">
-            <xsl:value-of select="substring-before(substring-after(., '#'), '@')"/>
+            <xsl:analyze-string select="substring-before(substring-after(normalize-space(.), '#'), '@')" regex="italicsstart(.*?)italicsend">
+              <xsl:matching-substring><i><xsl:value-of select="regex-group(1)"/></i></xsl:matching-substring>
+              <xsl:non-matching-substring><xsl:value-of select="."/></xsl:non-matching-substring>
+            </xsl:analyze-string>
             <span class="link_type"><xsl:value-of select="substring-after(., '@')"/></span>
           </a>
         </li>
