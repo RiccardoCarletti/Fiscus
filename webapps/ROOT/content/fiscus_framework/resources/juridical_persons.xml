@@ -800,9 +800,12 @@
                         Lucca)</orgName>
                     <orgName type="other"/>
                     <idno>juridical_persons/130</idno>
-                    <note/>
+                    <note>Vignodelli 2012.</note>
                     <link type="places" corresp="#places/315" subtype="isWithin"/>
                     <link type="places" corresp="#places/317" subtype="hasConnectionWith"/>
+                        <link type="people" corresp="#people/72" subtype="link"/>
+                        <link type="people" corresp="#people/1301" subtype="link"/>
+                        <link type="estates" corresp="#estates/210" subtype="isWithin"/>
                 </org>     
                 <org>
                     <orgName>Sanctus Anthimus in Valle Starcia; monasterium</orgName>
@@ -825,6 +828,8 @@
                     <link type="juridical_persons"
                         corresp="#juridical_persons/171 #juridical_persons/193 #juridical_persons/169 #juridical_persons/195 #juridical_persons/200 #juridical_persons/175 #juridical_persons/198 #juridical_persons/199 #juridical_persons/174 #juridical_persons/172 #juridical_persons/183 #juridical_persons/168 #juridical_persons/176 #juridical_persons/177 #juridical_persons/196 #juridical_persons/170 #juridical_persons/182 #juridical_persons/141 #juridical_persons/173 #juridical_persons/181 #juridical_persons/194 #juridical_persons/167 #juridical_persons/178 #juridical_persons/197"
                         subtype="link"/>
+                        <link type="people" corresp="#people/72" subtype="link"/>
+                        <link type="people" corresp="#people/1301" subtype="link"/>
                 </org>
                 <org>
                     <orgName>Sanctus Silvester; ecclesia (Lucca)</orgName>
@@ -3925,6 +3930,15 @@
                         <idno>juridical_persons/1709</idno>
                         <note/>
                         <link type="places" corresp="#places/2718" subtype="isWithin"/>
+                    </org>
+                    <org>
+                        <orgName>Sanctus Saturninus de Fabrica; plebs</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/1710</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/68"
+                            subtype="link"/>
+                        <link type="places" corresp="#places/2112" subtype="isWithin"/>
                     </org>
                 </listOrg>
                 <listOrg n="Vignodelli Giacomo">
