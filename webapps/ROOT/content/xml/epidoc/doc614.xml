@@ -4,7 +4,8 @@
             <teiHeader xml:lang="en">
                 <fileDesc>
                     <titleStmt>
-                        <title>ASDL, AAL, D, ++ M 83 (n. 1128)</title>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    Diplomatico, ++ M 83</title>
                     </titleStmt>
                     <editionStmt>
                         <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
@@ -30,10 +31,10 @@
                             </msIdentifier>
                             <msContents>
                                 <summary>
-                                    <rs type="text_type" ref="#">Cartula ordinationis</rs>
-                                    <rs type="record_source" ref="#"/>
-                                    <rs type="document_tradition" ref="#"/>
-                                    <rs type="fiscal_property"/>
+                                    <rs type="text_type" ref="#">--Ordinatio</rs>
+                                    <rs type="record_source" ref="#">Original document</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
                                 </summary>
                                 <msItem xml:id="msItem1">
                                     <textLang mainLang="" otherLangs=""/>
@@ -41,12 +42,12 @@
                             </msContents>
                             <history>
                                 <origin>
-                                    <origDate notBefore="0001" notAfter="0001" when="0001">
-                                    <note type="displayed_date">0907/04/10</note>
-                                    <note type="dating_elements"></note>
-                                    <note type="topical_date">Actum Luca (Lucca)</note>
-                                        <note type="redaction_date"/>
-                             </origDate>
+                                    <origDate when="0907-04-10">
+                                <note type="displayed_date">907 April 10</note>
+                                <note type="dating_elements">Stile dell'incarnazione</note>
+                                <note type="topical_date">Lucca</note>
+                                <note type="redaction_date"/>
+                            </origDate>
                                     <origPlace/>
                                 </origin>
                                 <provenance>
@@ -81,19 +82,42 @@
                 <body>
                     <div type="edition">
                         <div type="textpart">
-                            <ab>
-                                Il vescovo di Lucca Pietro, con il consenso sacerdotum seo filli ipsius ecclesie, ordina il prete Domenico del fu Ildimari nella pieve di San Saturnino sita loco et finibus Fabrica, con tutte le sue dipendenze.
-Chiede al notaio e scabino Pietro la stesura di due cartulas.
-                                <persName>Autori: Pietro episcopus, Domenico presbiter del fu Ildimari.
-Scrittore: Pietro notarius et schabinus.
-Testimoni sottoscrittori: Vivenzio archipresbiter et vicedominus, Eripaldo presbiter et cardinalis, Daniele presbiter et cardinalis, Ropprando presbiter et cardinalis, Ghisalprando presbiter et cardinalis, Sicardo presbiter et cardinalis et primicerius, Teufridi presbiter et cardinalis, Suntripaldo presbiter et cardinalis, Ghisolfo presbiter et cardinalis, Lopo presbiter et cardinalis, Pietro presbiter et cardinalis, Natale presbiter, Romaldo presbiter, Domenico presbiter, ... presbiter, ... presbiter, Rachiperto presbiter, Stefano presbiter et cantor, Fraolmi, Ausilio presbiter, ... presbiter, ... presbiter, ...idi presbiter, Teuperto presbiter, Giordano presbiter, ... , ... , ... , Andrea diaconus et cardinalis, Grasolfo diaconus et cardinalis, Lopo diaconus, Teopaldo diaconus, Raipodo diaconus, Ghisalfridi notarius et schabinus, Balduino subdiaconus, Domenico diaconus, Andrea diaconus, Gherardo diaconus, Giovanni subdiaconus, Andrea presbiter, Somaldo presbiter, Vivenzio subdiaconus, Leone presbiter, Teuperto presbiter, Poso presbiter.</persName>
-                                <placeName>Luca (Lucca), Fabrica (Podere Pieve Vecchia, San Miniato).</placeName>
-                                <orgName>San Saturnino di Fabbrica (chiesa battesimale), San Martino di Lucca (chiesa matrice).</orgName>
-                            </ab>
+                            <ab>Il <rs key="#Bishops">vescovo</rs> di Lucca <persName
+                            ref="#people/213" key="#Bishops">Pietro</persName>, con il consenso
+                        sacerdotum seo filli ipsius ecclesie, ordina il <rs key="#Priests"
+                            >prete</rs>
+                        <persName key="#Priests"><name ref="Dominicus">Domenico</name></persName>
+                        del <persName>fu <name>Ildimari</name></persName> nella <orgName
+                            key="#Baptismal_churches"><rs key="#Baptismal_churches">pieve</rs> di
+                            San Saturnino</orgName> sita loco et finibus <placeName
+                            ref="#places/2112">Fabrica</placeName>, con tutte le sue dipendenze.
+                        Chiede al <rs key="#Writer #Notary">notaio</rs> e <rs key="#Scabini"
+                            >scabino</rs>
+                        <persName key="#Writer #Notary #Scabini"><name ref="Petrus"
+                            >Pietro</name></persName> la stesura di due cartulas. Actum Luca.
+                        Autori: Pietro episcopus, Domenico presbiter del fu Ildimari. Scrittore:
+                        Pietro notarius et schabinus. Testimoni sottoscrittori: Vivenzio
+                        archipresbiter et vicedominus, Eripaldo presbiter et cardinalis, Daniele
+                        presbiter et cardinalis, Ropprando presbiter et cardinalis, Ghisalprando
+                        presbiter et cardinalis, Sicardo presbiter et cardinalis et primicerius,
+                        Teufridi presbiter et cardinalis, Suntripaldo presbiter et cardinalis,
+                        Ghisolfo presbiter et cardinalis, Lopo presbiter et cardinalis, Pietro
+                        presbiter et cardinalis, Natale presbiter, Romaldo presbiter, Domenico
+                        presbiter, ... presbiter, ... presbiter, Rachiperto presbiter, Stefano
+                        presbiter et cantor, Fraolmi, Ausilio presbiter, ... presbiter, ...
+                        presbiter, ...idi presbiter, Teuperto presbiter, Giordano presbiter, ... ,
+                        ... , ... , Andrea diaconus et cardinalis, Grasolfo diaconus et cardinalis,
+                        Lopo diaconus, Teopaldo diaconus, Raipodo diaconus, Ghisalfridi notarius et
+                        schabinus, Balduino subdiaconus, Domenico diaconus, Andrea diaconus,
+                        Gherardo diaconus, Giovanni subdiaconus, Andrea presbiter, Somaldo
+                        presbiter, Vivenzio subdiaconus, Leone presbiter, Teuperto presbiter, Poso
+                        presbiter. Luca (Lucca), Fabrica (Podere Pieve Vecchia, San Miniato). San
+                        Saturnino di Fabbrica (chiesa battesimale), San Martino di Lucca (chiesa
+                        matrice).</ab>
                         </div>
                     </div>
                     <div type="bibliography" subtype="editions">
-                        <p>MDL, IV/2, App. n. 58, pp. 76-77</p>
+                        <p>MDL, 4/2, App. n. 58, pp. 76-77.</p>
                     </div>
                     <div type="bibliography" subtype="additional">
                         <p/>
@@ -102,9 +126,7 @@ Testimoni sottoscrittori: Vivenzio archipresbiter et vicedominus, Eripaldo presb
                         <p/>
                     </div>
                     <div type="commentary">
-                        <p>Stile dell’incarnazione.
-Doppia dedicazione pieve.</p>
-                        <p><note>Mod_id: 14</note></p>
+                        <p/>
                     </div>
                 </body>
             </text>
