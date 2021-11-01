@@ -11577,10 +11577,25 @@
                         <link type="places" corresp="#places/605" subtype="isWithin"/>
                     </place>
                     <place>
-                        <placeName>da inserire</placeName>
-                        <placeName type="other"/>
-                        <geogName type="coord"></geogName>
+                        <placeName>Barrea (L'Aquila)</placeName>
+                        <placeName type="other"><foreign>Barreggio</foreign>; <foreign>Barregio</foreign></placeName>
+                        <geogName type="coord"><geo>41.758508, 13.991089</geo></geogName>
                         <idno>places/2311</idno>
+                        <note/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Arole</foreign>; locus (L'Aquila)</placeName>
+                        <placeName type="other"></placeName>
+                        <geogName type="coord"/>
+                        <idno>places/2806</idno>
+                        <note>Airola (Avellino)?</note>
+                        <link type="places" corresp="#places/2807" subtype="isInVicinityOf"/>
+                    </place>
+                    <place>
+                        <placeName>L'Aquila</placeName>
+                        <placeName type="other"></placeName>
+                        <geogName type="coord"/>
+                        <idno>places/2807</idno>
                         <note/>
                     </place>
                 </listPlace>
