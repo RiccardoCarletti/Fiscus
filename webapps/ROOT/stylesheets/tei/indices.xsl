@@ -112,7 +112,7 @@
   <!-- item coordinates -->
   <xsl:template match="str[@name='index_coordinates']">
     <p><strong>Coordinates (Lat, Long): </strong>
-      <a target="_blank" href="{concat('../../texts/map.html#',substring-after(ancestor::doc/str[@name='index_item_number'], 'places/'))}" class="open_map"><xsl:text>See on map</xsl:text></a>
+      <a target="_blank" href="{concat('../../texts/map.html#',substring-after(parent::doc/str[@name='index_item_number'], 'places/'))}" class="open_map"><xsl:text>See on map</xsl:text></a>
       <xsl:text> </xsl:text><xsl:value-of select="."/></p>
   </xsl:template>
   
