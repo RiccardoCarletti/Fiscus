@@ -3960,6 +3960,7 @@
                         <idno>juridical_persons/1901</idno>
                         <note>Palmieri 1996: 76; Zornetta 2020a: 62-65</note>
                         <link type="places" corresp="#places/2301" subtype="isWithin"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1900" subtype="link"/>
                     </org>
                     <org>
                         <orgName>Sanctus Medicus <foreign>in loco Forano</foreign>;
@@ -4082,6 +4083,8 @@
                         <orgName type="other"/>
                         <idno>juridical_persons/1912</idno>
                         <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1900"
+                            subtype="link"/>
                         <link type="places" corresp="#places/112" subtype="isWithin"/>
                         <link type="estates" corresp="#estates/1905" subtype="isWithin"/>
                         <link type="places" corresp="#places/2374" subtype="hasConnectionWith"/>
@@ -4203,7 +4206,7 @@
                         <link type="places" corresp="#places/2301" subtype="isWithin"/>
                     </org>
                     <org>
-                        <orgName>Sanctus Georgius; cella (Salerno)</orgName>
+                        <orgName>Sanctus Georgius; monasterium (Salerno)</orgName>
                         <orgName type="other"/>
                         <idno>juridical_persons/1925</idno>
                         <note/>
@@ -4720,7 +4723,7 @@
                         <link type="juridical_persons" corresp="#juridical_persons/1912" subtype="link"/>
                         <link type="estates" corresp="#estates/1905" subtype="isWithin"/>
                         <link type="people" corresp="#people/1976" subtype="link"/>
-                        <link type="juridical_persons" corresp="#juridical_persons/1912"
+                        <link type="juridical_persons" corresp="#juridical_persons/1900"
                             subtype="link"/>
                     </org>
                     <org>
@@ -4839,9 +4842,18 @@
                         <orgName type="other">Sanct'Angelo <foreign>in Barreggio</foreign>; Sant'Angelo <foreign>in Bareggio</foreign></orgName>
                         <idno>juridical_persons/1994</idno>
                         <note/>
-                        <link type="juridical_persons" corresp="#juridical_persons/1937"
+                        <link type="juridical_persons" corresp="#juridical_persons/1900"
                             subtype="link"/>
                         <link type="places" corresp="#places/2311" subtype="isWithin"/>
+                    </org>
+                    <org>
+                        <orgName>Iesus Christus; monasterium (Alife; Caserta)</orgName>
+                        <orgName type="other"></orgName>
+                        <idno>juridical_persons/1995</idno>
+                        <note/>
+                        <link type="places" corresp="#places/112" subtype="isWithin"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1900"
+                            subtype="link"/>
                     </org>
                 </listOrg>
             </listOrg>
