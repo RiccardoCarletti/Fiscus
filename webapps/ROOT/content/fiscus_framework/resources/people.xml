@@ -963,6 +963,9 @@
                     <link type="people" corresp="#people/131" subtype="legallyRecognisedUnionWith"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1200"
                             subtype="link"/>
+                    <link type="people" corresp="#people/1992" subtype="benefactorOf"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/1900"
+                        subtype="benefactorOf"/>
                 </person>
                 <person>
                     <persName>Cunegonda (978?-1039) imperatrix</persName>
@@ -6076,6 +6079,15 @@
                         <link type="juridical_persons" corresp="#juridical_persons/1932"
                             subtype="link"/>
                         <link type="places" corresp="#places/2396" subtype="hasConnectionWith"/>
+                    </person>
+                    <person>
+                        <persName>Hilarius (863-872; abbas Vulturnensis)</persName>
+                        <persName type="other">Ilario di Matera</persName>
+                        <idno>people/1992</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1900"
+                            subtype="link"/>
+                        <link type="people" corresp="#people/130" subtype="gratitudeTo"/>
                     </person>
                 </listPerson>
             </listPerson>
