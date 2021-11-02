@@ -112,7 +112,8 @@
                         Italici positas, per eadem precepta vel quolibet legali titulo scripcionis a
                         principibus, ducibus, reliquisque Christi fidelibus ibidem collatas, nec non
                         monasteria, cellas, et castella inferius nominata, nominative infra hos
-                        fines: <rs key="#Landed_possessions">terram cultam et incultam</rs>, positam de ipsa Zittula, quomodo mittit
+                        fines: <rs key="#Landed_possessions">terram cultam et incultam</rs>, positam de ipsa <geogName
+                            key="#Landed_possessions" ref="#estates/1931">Zittula</geogName>, quomodo mittit
                         in ipso <placeName
                             ref="#places/2323">Sangro</placeName>, et quomodo ascendit per ipsum Sangrum usque in montem Malum,
                         et quomodo subiit in ipsum <rs key="#Mountains">montem</rs> de <placeName
@@ -193,11 +194,16 @@
                         successoribus. Quod ut verius credatur, diligenciusque ab omnibus
                         observetur, presentem paginam, manu propria roborantes, anulum nostrum
                         inferius imprimere iussimus. Signum domni secundi Ottonis, Romanorum
-                        imperatoris [M] et invictissimi augusti. Adelbertus cancellarius, ad vicem
-                        [...] Petri [...] episcopi et archicancellarii, recognovi et subscripsi.
-                        Data .II. idus novembrium, anno Domince incarnacionis .DCCCCLXXXIII.,
+                        imperatoris [M] et invictissimi augusti. <persName key="#Chancellor"><name ref="Adelbertus"
+                            >Adelbertus</name></persName> <rs key="#Chancellor">cancellarius</rs>, ad vicem
+                        [...] <persName
+                            key="#Bishops #Archchancellor"><name ref="Petrus"
+                                >Petri</name></persName> [...] <rs key="#Bishops">episcopi</rs> et <rs
+                                    key="#Archchancellor">archicancellarii</rs>, recognovi et subscripsi.
+                        <date>Data .II. idus novembrium, anno Domince incarnacionis .DCCCCLXXXIII.,
                         indiccione .XI., regni vero domni secundi Ottonis .XXI., imperii quoque eius
-                        .XVI. Actum Capue, feliciter, amen.</ab>
+                        .XVI. Actum <placeName ref="#places/173"
+                            >Capue</placeName></date>, feliciter, amen.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
