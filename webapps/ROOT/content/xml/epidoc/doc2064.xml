@@ -123,7 +123,7 @@
                         circumdant ipsum monasterium per has quoque fines: incipiente itaque <rs
                             key="#Rivers">fluvio</rs>, quod dicitur <placeName key="#Rivers"
                             ref="#places/2323">Sangro</placeName>, deinde per <rs
-                            key="#Mountains #Fiscal_property #Mention">montes puplicos</rs> usque in
+                                key="#Mountains #Fiscal_property #Textual_occurrence #Mention">montes puplicos</rs> usque in
                             <rs key="#Mountains">monte</rs>, qui dicitur <placeName key="#Mountains"
                             ref="#places/2324">Azze</placeName>, et sic revolvente monte eodem usque
                         in <rs key="#Rivers">fluvio</rs>, quod dicitur <placeName key="#Rivers"
@@ -145,11 +145,11 @@
                             key="#Landed_possessions">terra</rs>, que vocatur <geogName
                             key="#Landed_possessions" ref="#estates/1929">Arcora</geogName>, que est
                             <rs key="#Churches">ecclesie</rs> hereditas <orgName
-                            key="#Churches #Landed_possessions #Fiscal_property #Mention"
+                                key="#Churches #Landed_possessions #Fiscal_property #Textual_occurrence #Mention"
                             ref="#juridical_persons/1904">Sancte Dei genitricis Marie</orgName>, que
                             <placeName key="#Churches" ref="#places/2330">Olivetum</placeName>
                         vocatur, subiecta prefati monasterii, et <rs key="#Churches">ecclesia</rs>
-                        nichilominus hereditas <orgName key="#Churches #Fiscal_property #Mention"
+                        nichilominus hereditas <orgName key="#Churches #Fiscal_property #Textual_occurrence #Mention"
                             ref="#juridical_persons/1910">Sancte Christine</orgName>, subdita
                         eiusdem cenovii, cum inclitis <rs key="#Landed_possessions">territoriis</rs>
                         suis, et cum reliquis finibus ipsa hereditas circumdata in fluvio usque
@@ -209,10 +209,13 @@
                         in omnibus sicut eiusdem monasterii continent scripciones; item <rs
                             key="#Cells/hermitages">cellam</rs>
                         <orgName key="#Cells/hermitages" ref="#juridical_persons/1919">Sancti
-                            Salvatoris</orgName> de <placeName key="#Cells/hermitages" ref="#places/112"
-                            >Alife</placeName>; <rs key="#Cells/hermitages">cellam</rs>
-                        <orgName key="#Cells/hermitages #Fiscal_property #Textual_occurrence #Object" ref="#juridical_persons/1918">Sancti
-                            Martini</orgName> de <placeName key="#Cells/hermitages #Fiscal_property #Textual_occurrence #Object"
+                            Salvatoris</orgName> de <placeName key="#Cells/hermitages"
+                            ref="#places/112">Alife</placeName>; <rs key="#Cells/hermitages"
+                            >cellam</rs>
+                        <orgName
+                            key="#Cells/hermitages #Fiscal_property #Textual_occurrence #Object"
+                            ref="#juridical_persons/1918">Sancti Martini</orgName> de <placeName
+                            key="#Cells/hermitages #Fiscal_property #Textual_occurrence #Object"
                             ref="#places/2345">Monte Marsico</placeName>; <rs
                             key="#Cells/hermitages">cellam</rs>
                         <orgName key="#Cells/hermitages" ref="#juridical_persons/1919">Sancte
@@ -225,12 +228,12 @@
                             Vincencii de Tremoiola</orgName>, que est iuxta limitem; item <rs
                             key="#Cells/hermitages">cellam</rs>
                         <orgName
-                            key="#Gualdi #Landed_possessions #Marshes/lagoons/tombolos #Other_basins #Fisheries #Forests #Fiscal_property #Mention #Cells/hermitages"
+                            key="#Marshes/lagoons/tombolos #Landed_possessions #Forests #Gualdi #Fisheries #Other_basins #Fiscal_property #Textual_occurrence #Mention #Cells/hermitages"
                             ref="#juridical_persons/1933">Sancti Sossii</orgName>, cum inclito <rs
                             key="#Gualdi">vualdo</rs> suo in loco <placeName
                             key="#Cells/hermitages #Landed_possessions #Gualdi #Marshes/lagoons/tombolos #Roads #Forests #Other_basins #Fisheries"
                             ref="#places/605">Liburie</placeName>, ubi dicitur <placeName
-                            key="#Cells/hermitages #Landed_possessions #Gualdi #Roads #Marshes/lagoons/tombolos #Forests #Other_basins #Fisheries"
+                                key="#Cells/hermitages #Landed_possessions #Gualdi #Roads #Marshes/lagoons/tombolos #Forests #Other_basins #Fisheries #Fiscal_property #Textual_occurrence #Mention"
                             ref="#places/2351">Pantanu</placeName>, has fines habentes: a prima
                         parte decurrit <rs key="#Roads">via antiqua</rs>, que venit de Ducenta, que
                         decernit inter has terras, et vualdu, et alia terra et <rs key="#Gualdi"
@@ -267,14 +270,14 @@
                             >Beneventanam</placeName> prope <rs key="#Rivers">fluvio</rs>
                         <placeName key="#Rivers #Cells/hermitages" ref="#places/2348"
                             >Sabbati</placeName>; <rs key="#Cells/hermitages">cellam</rs>
-                        <orgName key="#Fiscal_property #Mention #Cells/hermitages"
+                        <orgName key="#Fiscal_property #Textual_occurrence #Mention #Cells/hermitages"
                             ref="#juridical_persons/1908">Sancte Marie de Castanetu</orgName>, que
-                        est in <placeName key="#Fiscal_property #Mention #Cells/hermitages"
+                        est in <placeName key="#Fiscal_property #Textual_occurrence #Mention #Cells/hermitages"
                             ref="#places/2321">Castro Piniano</placeName>; <rs
                             key="#Cells/hermitages">cellam</rs>
-                        <orgName key="#Cells/hermitages">Sancti Marci</orgName> de <placeName key="#Cells/hermitages" ref="#places/2817"
-                            >Petra Cutuliana</placeName>;
-                            <rs key="#Cells/hermitages">cellam</rs>
+                        <orgName key="#Cells/hermitages" ref="#juridical_persons/1997">Sancti
+                            Marci</orgName> de <placeName key="#Cells/hermitages" ref="#places/2817"
+                            >Petra Cutuliana</placeName>; <rs key="#Cells/hermitages">cellam</rs>
                         <orgName key="#Cells/hermitages #Casalia" ref="#juridical_persons/1929"
                             >Sancti Petri de Vipera</orgName> cum ipso <rs key="#Casalia"
                             >casale</rs>, qui dicitur <geogName key="#Casalia" ref="#estates/1917"
@@ -285,9 +288,10 @@
                         <orgName key="#Cells/hermitages" ref="#juridical_persons/1926">Sancti
                             Iohannis</orgName> de <placeName key="#Cells/hermitages"
                             ref="#places/2349">Lucere</placeName>; <rs key="#Cells/hermitages"
-                                >cellam</rs> <orgName key="#Cells/hermitages" ref="#juridical_persons/1996">Sancte Marie</orgName> de <placeName key="#Cells/hermitages"
-                                    ref="#places/2815">Quinque Milia</placeName>; <rs key="#Cells/hermitages"
                             >cellam</rs>
+                        <orgName key="#Cells/hermitages" ref="#juridical_persons/1996">Sancte
+                            Marie</orgName> de <placeName key="#Cells/hermitages" ref="#places/2815"
+                            >Quinque Milia</placeName>; <rs key="#Cells/hermitages">cellam</rs>
                         <orgName key="#Cells/hermitages" ref="#juridical_persons/1948">Sancti
                             Vincencii</orgName> de <placeName key="#Cells/hermitages"
                             ref="#places/111">Telese</placeName>; <rs key="#Cells/hermitages"
@@ -300,7 +304,7 @@
                             Eleutheri</orgName>i in <placeName key="#Cells/hermitages"
                             ref="#places/2361">Fundiliano</placeName>; <rs key="#Cells/hermitages"
                             >cellam</rs>
-                        <orgName key="#Fiscal_property #Mention #Cells/hermitages"
+                        <orgName key="#Fiscal_property #Textual_occurrence #Mention #Cells/hermitages"
                             ref="#juridical_persons/1901">Sancte Marie</orgName> de <placeName
                             key="#Cells/hermitages" ref="#places/2301">Loco Sano</placeName>; cellam
                             <orgName key="#Cells/hermitages" ref="#juridical_persons/1930">Sancti
@@ -344,10 +348,10 @@
                         cartulas et iustas consignaciones. Verumtamen statuimus atque firmamus, ob
                         amore eterne vite et oracionibus fratrum, quorum preces annuimus, ut ipsam
                         semper legem per annorum curricula pars predicti cenobii accipiat de omnibus
-                        suis territoriis ab omnibus hominibus, quam instituit <persName key="#Emperor/king"
-                            ref="#people/48">Astulfus</persName> <rs key="#Emperor/king"
-                                >rex Langobardorum</rs> de ecclesiis. Nam
-                        ex ea quoque re lex alia nec recipiatur, nec a qualibet ulterius iudicetur
+                        suis territoriis ab omnibus hominibus, quam instituit <persName
+                            key="#Emperor/king" ref="#people/48">Astulfus</persName>
+                        <rs key="#Emperor/king">rex Langobardorum</rs> de ecclesiis. Nam ex ea
+                        quoque re lex alia nec recipiatur, nec a qualibet ulterius iudicetur
                         persona. Si vero fuerit contencio de servis, vel de alia quacumque re inter
                         aliquem vicinum suum, seu qualemcumque hominem, liceat eis se defendere,
                         sicut prisca consuetudo fuit, per scariones eiusdem monasterii, nec audeat
@@ -355,20 +359,20 @@
                         contra divina auctoritatem et contra regula est. Precipientes insuper
                         iubemus ut nullus rex, dux, princeps, marchio, comes, vicecomes, gastaldeus,
                         sculdais, vel aliquis puplice rei exactor, iam dictum abbatem, vel
-                        successores suos, aut <rs key="#Monks"
-                            >monachos</rs> ex eius cenovio, vel eius cellis inquietare,
-                        laniare de prediis monasterii, aut aliquibus rebus disvestire, aut per
-                        placita secularia ducere. Recepimus preterea pretaxatum monasterium cum
-                        omnibus pretaxatis monasteriis, ac cellis rebus quoque hac familiis ibidem
-                        aspicientibus, cum fratribus hac monachis ibidem Deo famulantibus sub nostre
-                        tuicionis munburdum. concedimus quoque et corroboramus, ut nullus ex servis,
-                        aut ex familia eiusdem monasterii, vel eos quos cortisianos vocant, audeat
-                        inquietare aut ad puplicam, vel comitum placitum ducere, aut iudicare, neque
-                        in domibus vel casis eiusdem monasterii iudicium aut placitum tenere, nisi
-                        abba prefati cenovii, aut suus missus, ante cuius conspectum omnes sui
-                        residentes, sicut ante nostram presenciam, legem faciant et recipiant; <rs key="#Tolls #Exemption"> neque
-                        placiaticum, portaticum, pontaticum, casaticum vel quodlibet pensum quisquam
-                        homo aut puplice rei exactor tollere aut exigere presumat</rs>; set disponimus,
+                        successores suos, aut <rs key="#Monks">monachos</rs> ex eius cenovio, vel
+                        eius cellis inquietare, laniare de prediis monasterii, aut aliquibus rebus
+                        disvestire, aut per placita secularia ducere. Recepimus preterea pretaxatum
+                        monasterium cum omnibus pretaxatis monasteriis, ac cellis rebus quoque hac
+                        familiis ibidem aspicientibus, cum fratribus hac monachis ibidem Deo
+                        famulantibus sub nostre tuicionis munburdum. concedimus quoque et
+                        corroboramus, ut nullus ex servis, aut ex familia eiusdem monasterii, vel
+                        eos quos cortisianos vocant, audeat inquietare aut ad puplicam, vel comitum
+                        placitum ducere, aut iudicare, neque in domibus vel casis eiusdem monasterii
+                        iudicium aut placitum tenere, nisi abba prefati cenovii, aut suus missus,
+                        ante cuius conspectum omnes sui residentes, sicut ante nostram presenciam,
+                        legem faciant et recipiant; <rs key="#Tolls #Exemption"> neque placiaticum,
+                            portaticum, pontaticum, casaticum vel quodlibet pensum quisquam homo aut
+                            puplice rei exactor tollere aut exigere presumat</rs>; set disponimus,
                         ut abbates, et prepositi eiusdem loci iuxta priscam consuetudinem ad
                         communem utilitatem fratrum sua disponant providencia, absque alicuius
                         contradiccione. Si qui igitur huius nostri precepti institucionem, et
