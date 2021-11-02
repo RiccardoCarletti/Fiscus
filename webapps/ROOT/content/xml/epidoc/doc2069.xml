@@ -93,7 +93,7 @@
                         <rs key="#Abbots">abbas</rs>
                         <rs key="#Monasteries">cenobii</rs>
                         <orgName
-                            key="#Monasteries #Abbots #Monks #Churches #Aldius #Landed_possessions #Mountains #Forests #Rivers #Riverbed #Castle #Animals #Hay/fodder #Villas #Mansi #Casae/cassinae_massaricie #Fish #Fisheries #Wine #Slave #Slave_labour"
+                            key="#Monasteries #Abbots #Monks #Immunity #Tolls #Exemption #Churches #Aldius #Landed_possessions #Mountains #Forests #Rivers #Riverbed #Castle #Animals #Hay/fodder #Villas #Mansi #Casae/cassinae_massaricie #Fish #Fisheries #Wine #Slave #Slave_labour"
                             ref="#juridical_persons/1900">Christi martyris Vincencii</orgName>,
                         situm in <rs key="#Fines #Abbots #Monasteries">territorio</rs>
                         <geogName key="#Fines #Abbots #Monks #Monasteries #Cells/hermitages"
@@ -152,7 +152,7 @@
                         revolvente monte usque in cilium montis, qui est super <rs
                             key="#Landed_possessions">terram</rs>, que vocatur <geogName
                             key="#Landed_possessions #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Allocation_to_churches"
-                            ref="estates/1929">Arcora</geogName>, que est <rs key="#Churches"
+                            ref="#estates/1929">Arcora</geogName>, que est <rs key="#Churches"
                             >ecclesia</rs> hereditas [...] <orgName
                             key="#Landed_possessions #Churches #Fiscal_property #Textual_occurrence #Mention"
                             ref="#juridical_persons/1904">Dei genitricis Marie</orgName>, que
@@ -186,7 +186,7 @@
                             ref="#juridical_persons/1967">beati Petri apostoli</orgName>
                         constructum, positum in loco <placeName key="#Monasteries"
                             ref="#places/2357">Trite</placeName>, <rs key="#Fines">territorio</rs>
-                        <geogName key="#Comitatus #Monasteries" ref="#estates/313"
+                        <geogName key="#Fines #Monasteries" ref="#estates/313"
                             >Vualvense</geogName>; et in <placeName
                             key="#Cells/hermitages #Slave #Slave_labour #Landed_possessions #Rivers"
                             ref="#places/1820">Penne</placeName>
@@ -194,11 +194,11 @@
                             key="#Cells/hermitages #Slave #Slave_labour #Landed_possessions"
                             ref="#juridical_persons/1974">Sancta Maria in Musano</orgName>; in
                         Abruzo <rs key="#Cells/hermitages">cellam</rs> unam in loco, qui vocatur
-                        <placeName key="#Cells/hermitages" ref="#places/2806">Arole</placeName>; item <orgName
-                            key="#Cells/hermitages" ref="#juridical_persons/1956">Sancta Maria in
-                            Duas Basilicas</orgName> iuxta <placeName key="#Cells/hermitages"
-                            ref="#places/2323">Sangrum</placeName>; seu et <rs key="#Monasteries"
-                            >monasterium</rs>
+                            <placeName key="#Cells/hermitages" ref="#places/2806">Arole</placeName>;
+                        item <orgName key="#Cells/hermitages" ref="#juridical_persons/1956">Sancta
+                            Maria in Duas Basilicas</orgName> iuxta <placeName
+                            key="#Cells/hermitages" ref="#places/2323">Sangrum</placeName>; seu et
+                            <rs key="#Monasteries">monasterium</rs>
                         <orgName key="#Cells/hermitages" ref="#juridical_persons/1940">Sancte
                             Marie</orgName> in territorio Marsicano, quod situm est in loco
                         Apinianici; et in <rs key="#Fines">finibus</rs>
@@ -253,40 +253,36 @@
                             de Tontole</orgName>; <rs key="#Cells/hermitages">cellam</rs>
                         <orgName key="#Cells/hermitages" ref="#juridical_persons/1936">Sancti
                             Vincencii de Tremojola</orgName>, que est iuxta limitem; sed <rs
-                                key="#Cells/hermitages">cellam</rs> <orgName key="#Gualdi #Forests #Other_basins #Landed_possessions #Marshes/lagoons/tombolos #Rivers #Fiscal_property #Textual_occurrence #Mention 
+                            key="#Cells/hermitages">cellam</rs>
+                        <orgName
+                            key="#Gualdi #Forests #Other_basins #Landed_possessions #Marshes/lagoons/tombolos #Rivers #Fiscal_property #Textual_occurrence #Mention 
                                     #Cells/hermitages"
-                                    ref="#juridical_persons/1933">Sancti Sossii</orgName> cum inclito <rs key="#Gualdi"
-                                        >vualdo</rs>
-                        suo, in loco <placeName
-                            key="#Cells/hermitages #Gualdi #Forests #Landed_possessions #Roads #Marshes/lagoons/tombolos #Other_basins" ref="#places/605">Liburie</placeName>, ubi dicitur 
-                        <placeName key="#Cells/hermitages #Forests #Landed_possessions #Gualdi #Roads #Marshes/lagoons/tombolos #Other_basins"
-                                ref="#places/2351">Pantanum</placeName> has fines habentes: a prima parte
-                        decurrit <rs key="#Roads"
-                            >via antiqua</rs>, que venit de Ducenta, que decernit inter has <rs key="#Landed_possessions"
-                                >terras</rs>,
-                        et vualdu, et alias terras, et vualdu, quod fuit predicti monasterii, et
-                        qualiter descendit via ipsa, et intrat in ipsum Pantanum, et silvam, et
-                        <rs key="#Marshes/lagoons/tombolos"
-                            >paludem</rs> prefati monasterii, que est coniuncta <placeName
-                                >Laneo</placeName>; a secunda autem parte
-                        <rs key="#Roads"
-                            >via est antiqua</rs>, que dicitur <rs key="#Roads"
-                                >Vicana</rs>; a tercia vero iterum usque ad viam, que
-                        fuit antiqua, que vadit ad ipsam <rs key="#Other_basins"
-                            >piscinam</rs> iam dicti monasterii, et decernit
-                        vias ipsas terras, et vualdu antedicti monasterii, et aliam <rs key="#Roads"
-                            >terram</rs> prefati
-                        cenobii, que dicitur de <geogName key="#Landed_possessions" ref="estates/1926"
-                            >Tortora</geogName>, et terras aliorum hominum, que ibi affines
-                        sunt, et sicut incipit super ipsam piscinam, et qualiter revolvit circa
-                        ipsam terram de eodem vualdo, et iam dictam terram, que dicitur de Tortora,
-                        et vadit ad ipsum Pantanum predicti monasterii, et qualiter vadit et pergens
-                        per ipsum Pantanum, et <rs key="#Forests"
-                            >silvam</rs>, et paludem usque in ipsum <placeName
-                                >Frigidum</placeName>; a quarta
-                        autem parte usque in iam dictum Frigidum, et predictum Laneum cum omnibus,
-                        que infra has fines consistent vel manent; sed <rs key="#Cells/hermitages"
-                            >cellam</rs>
+                            ref="#juridical_persons/1933">Sancti Sossii</orgName> cum inclito <rs
+                            key="#Gualdi">vualdo</rs> suo, in loco <placeName
+                            key="#Cells/hermitages #Gualdi #Forests #Landed_possessions #Roads #Marshes/lagoons/tombolos #Other_basins"
+                            ref="#places/605">Liburie</placeName>, ubi dicitur <placeName
+                            key="#Cells/hermitages #Forests #Landed_possessions #Gualdi #Roads #Marshes/lagoons/tombolos #Other_basins"
+                            ref="#places/2351">Pantanum</placeName> has fines habentes: a prima
+                        parte decurrit <rs key="#Roads">via antiqua</rs>, que venit de Ducenta, que
+                        decernit inter has <rs key="#Landed_possessions">terras</rs>, et vualdu, et
+                        alias terras, et vualdu, quod fuit predicti monasterii, et qualiter
+                        descendit via ipsa, et intrat in ipsum Pantanum, et silvam, et <rs
+                            key="#Marshes/lagoons/tombolos">paludem</rs> prefati monasterii, que est
+                        coniuncta <placeName>Laneo</placeName>; a secunda autem parte <rs
+                            key="#Roads">via est antiqua</rs>, que dicitur <rs key="#Roads"
+                            >Vicana</rs>; a tercia vero iterum usque ad viam, que fuit antiqua, que
+                        vadit ad ipsam <rs key="#Other_basins">piscinam</rs> iam dicti monasterii,
+                        et decernit vias ipsas terras, et vualdu antedicti monasterii, et aliam <rs
+                            key="#Roads">terram</rs> prefati cenobii, que dicitur de <geogName
+                            key="#Landed_possessions" ref="estates/1926">Tortora</geogName>, et
+                        terras aliorum hominum, que ibi affines sunt, et sicut incipit super ipsam
+                        piscinam, et qualiter revolvit circa ipsam terram de eodem vualdo, et iam
+                        dictam terram, que dicitur de Tortora, et vadit ad ipsum Pantanum predicti
+                        monasterii, et qualiter vadit et pergens per ipsum Pantanum, et <rs
+                            key="#Forests">silvam</rs>, et paludem usque in ipsum
+                            <placeName>Frigidum</placeName>; a quarta autem parte usque in iam
+                        dictum Frigidum, et predictum Laneum cum omnibus, que infra has fines
+                        consistent vel manent; sed <rs key="#Cells/hermitages">cellam</rs>
                         <orgName key="#Cells/hermitages" ref="#juridical_persons/1932">Sancti
                             Vincencii</orgName> infra <rs key="#Cities">civitatem</rs>
                         <placeName key="#Cells/hermitages #Cities" ref="#places/2350"
@@ -346,61 +342,68 @@
                             ref="#places/84">Salernitanam</placeName>
                         <rs key="#Cities">civitatem</rs> in honore <orgName key="#Cells/hermitages"
                             ref="#juridical_persons/1925">sancti Georgii</orgName> constructam, cum
-                        omnibus suis pertinenciis; <rs key="#Cells/hermitages"
-                            >cellam</rs> <orgName key="#Cells/hermitages" ref="#juridical_persons/1959">Sancti 
-                                Valentini</orgName> in <rs key="#Rivers">fluvio</rs> <placeName key="#Cells/hermitages #Rivers" ref="#places/2370"
-                                    >Bixentino</placeName>;
-                        <orgName key="#Cells/hermitages" ref="#juridical_persons/1957">Sancti Vincencii</orgName> <rs key="#Cells/hermitages"
-                            >cellam</rs> in <rs key="#Rivers">fluvio</rs> <placeName key="#Cells/hermitages #Rivers" ref="#places/2369"
-                                >Tusciano</placeName>; 
-                        <rs key="#Cells/hermitages"
-                            >cellam</rs> <orgName key="#Cells/hermitages #Landed_possessions" ref="#juridical_persons/1960">Sancti Vincencii</orgName> in
-                        <rs key="#Rivers">fluvio</rs> <placeName key="#Cells/hermitages #Rivers" ref="#places/2305"
-                            >Tensa</placeName>, et omnia ad iam dictam abbaciam <rs key="#Landed_possessions">pertinencia</rs>, cum omnibus aliis
-                        cappellis et pertinenciis earum, cum <rs key="#Castle">castellis</rs>, <rs
+                        omnibus suis pertinenciis; <rs key="#Cells/hermitages">cellam</rs>
+                        <orgName key="#Cells/hermitages" ref="#juridical_persons/1959">Sancti
+                            Valentini</orgName> in <rs key="#Rivers">fluvio</rs>
+                        <placeName key="#Cells/hermitages #Rivers" ref="#places/2370"
+                            >Bixentino</placeName>; <orgName key="#Cells/hermitages"
+                            ref="#juridical_persons/1957">Sancti Vincencii</orgName>
+                        <rs key="#Cells/hermitages">cellam</rs> in <rs key="#Rivers">fluvio</rs>
+                        <placeName key="#Cells/hermitages #Rivers" ref="#places/2369"
+                            >Tusciano</placeName>; <rs key="#Cells/hermitages">cellam</rs>
+                        <orgName key="#Cells/hermitages #Landed_possessions"
+                            ref="#juridical_persons/1960">Sancti Vincencii</orgName> in <rs
+                            key="#Rivers">fluvio</rs>
+                        <placeName key="#Cells/hermitages #Rivers" ref="#places/2305"
+                            >Tensa</placeName>, et omnia ad iam dictam abbaciam <rs
+                            key="#Landed_possessions">pertinencia</rs>, cum omnibus aliis cappellis
+                        et pertinenciis earum, cum <rs key="#Castle">castellis</rs>, <rs
                             key="#Villas">villis</rs>, <rs key="#Casae/cassinae_massaricie">casis,
                             massariciis</rs>, <rs key="#Mansi">mansis</rs>, <rs key="#Forests"
                             >silvis</rs>, <rs key="#Hay/fodder #Animals">pascuis</rs>, venacionibus,
                             <rs key="#Fisheries #Fish">piscacionibus</rs>, <rs key="#Wine"
                             >vineis</rs>, arbustis, pratis, <rs key="#Slave #Slave_labour"
-                                >servis</rs>, ancillis, <rs key="#Aldius"
-                                    >aldionibus</rs>, aldianis, redivicionibus, nec non
-                        cum omnibus, que dici et nominari possit in prefato monasterio concedimus,
-                        et confirmamus. Ea videlicet racione, quatinus prenominatus abbas, et suis
-                        successores de omnibus castellis, et capellis [...], vel monasteriis tam in
-                        hoc precepto, quamque in aliis preceptis, offercionibus, atque
-                        scripcionibus, que continere videtur, habeant potestatem tenendi, iuste
-                        commutandi, ordinandi, regulariter instruendi, vel quicquid iustum [...],
-                        visum fuerit faciendi, absque omni contradiccione quorumlibet hominum.
-                        Sancimus insuper, et nostra imperiali institucione corroboramus, ut si
-                        aliquo in tempore fuerit orta contencio de rebus iam dicti monasterii,
-                        nullus audeat deinceps per parentum possessiones ipsas hereditates residere,
-                        vel contendere presumat, excepto per verissimas cartulas, et iustas
-                        consignaciones. verumtamen statuimus atque firmamus, ob amorem eterne vite,
-                        et oracionibus fratrum, quorum preces annuimus, ut ipsam semper legem per
-                        annorum curricula pars predicti cenobii accipiat de omnibus suis territoriis
-                        ab omnibus hominibus, quam instituit Astulfus rex Langobardorum De
-                        ecclesiis. Nam ex ea quoque re lex alia nec recipiatur, nec [...] qualibet
-                        ulterius iudicetur persona. si vero fuerit contencio de servis, vel de alia
-                        quacumque re, inter aliquem vicinum suum, seu qualecumque hominem, liceat
-                        eis se defendere, sicut prisca consuetudo fuit per scariones eiusdem
-                        monasterii, nec audeat alicuis ipsos abbates, vel monachos ad sacramentum
-                        invitare, quia contra divinam auctoritatem et [...] regulam est.
-                        precipientes insuper iubemus ut nullus rex, dux, princeps, marchio, comes,
+                            >servis</rs>, ancillis, <rs key="#Aldius">aldionibus</rs>, aldianis,
+                        redivicionibus, nec non cum omnibus, que dici et nominari possit in prefato
+                        monasterio concedimus, et confirmamus. Ea videlicet racione, quatinus
+                        prenominatus abbas, et suis successores de omnibus castellis, et capellis
+                        [...], vel monasteriis tam in hoc precepto, quamque in aliis preceptis,
+                        offercionibus, atque scripcionibus, que continere videtur, habeant
+                        potestatem tenendi, iuste commutandi, ordinandi, regulariter instruendi, vel
+                        quicquid iustum [...], visum fuerit faciendi, absque omni contradiccione
+                        quorumlibet hominum. Sancimus insuper, et nostra imperiali institucione
+                        corroboramus, ut si aliquo in tempore fuerit orta contencio de rebus iam
+                        dicti monasterii, nullus audeat deinceps per parentum possessiones ipsas
+                        hereditates residere, vel contendere presumat, excepto per verissimas
+                        cartulas, et iustas consignaciones. Verumtamen statuimus atque firmamus, ob
+                        amorem eterne vite, et oracionibus fratrum, quorum preces annuimus, ut ipsam
+                        semper legem per annorum curricula pars predicti cenobii accipiat de omnibus
+                        suis territoriis ab omnibus hominibus, quam instituit <persName
+                            key="#Emperor/king #Juridical_sources #Lex" ref="#people/48"
+                            >Astulfus</persName>
+                        <rs key="#Emperor/king">rex Langobardorum</rs> De ecclesiis. Nam ex ea
+                        quoque re lex alia nec recipiatur, nec [...] qualibet ulterius iudicetur
+                        persona. Si vero fuerit contencio de servis, vel de alia quacumque re, inter
+                        aliquem vicinum suum, seu qualecumque hominem, liceat eis se defendere,
+                        sicut prisca consuetudo fuit per scariones eiusdem monasterii, nec audeat
+                        alicuis ipsos abbates, vel monachos ad sacramentum invitare, quia contra
+                        divinam auctoritatem et [...] regulam est. Precipientes insuper iubemus ut
+                            <rs key="#Immunity">nullus</rs> rex, dux, princeps, marchio, comes,
                         vicecomes, gastaldeus, sculdascius, vet aliquis publice rei exactor iam
                         dictum abbatem, vei suos successores, aut monachos ex eius cenobio, vel eius
                         cellis inquietare, laniare de prediis monasterii, aut aliquibus rebus
                         disvestire [...], aut per placita secularia ducere, recepimus preterea
                         pretextatum monasterium cum omnibus pretextatis monasteriis, ac cellis,
                         rebus quoque, ac familiis ibidem aspicientibus cum fratribus, ac monachis
-                        ibidem Deo famulantibus, sub nostre tuicionis munburdum. concedimus quoque,
-                        et corroboramus, ut nullus ex servis, aut ex familia eiusdem monasterii vel
-                        eos, qui cortisianas vocant audeat inquietare, aut ad publicam, vel comitum
-                        placitum ducere, aut iudicare, neque in domibus vel casis eiusdem monasterii
-                        iudicium, aut placitum tenere, nisi abbas prefati monasterii, aut suus
-                        missus, ante cuius conspectum omnes sui residentes, sicut ante nostram
-                        presenciam legem faciat et recipiat, neque placiaticum, portaticum,
-                        pontanaticum, casaticum, vel quodlibet pensum quisquam homo, aut publice rei
+                        ibidem Deo famulantibus, sub nostre tuicionis munburdum. Concedimus quoque,
+                        et corroboramus, <rs key="#Districtio">ut nullus</rs> ex servis, aut ex
+                        familia eiusdem monasterii vel eos, qui cortisianas vocant audeat
+                        inquietare, aut ad publicam, vel comitum placitum ducere, aut iudicare,
+                        neque in domibus vel casis eiusdem monasterii iudicium, aut placitum tenere,
+                        nisi abbas prefati monasterii, aut suus missus, ante cuius conspectum omnes
+                        sui residentes, sicut ante nostram presenciam legem faciat et recipiat, <rs
+                            key="#Tolls #Exemption">neque placiaticum, portaticum, pontanaticum,
+                            casaticum, vel quodlibet pensum quisquam homo</rs>, aut publice rei
                         exactor tollere, aut exigere presumat, sed disponimus, ut abbates et
                         prepositi eiusdem loci, iuxta priscam consuetudinem ad communem utilitatem
                         fratrum sua disponant providencia, absque alicuius contradiccione. Si quis
