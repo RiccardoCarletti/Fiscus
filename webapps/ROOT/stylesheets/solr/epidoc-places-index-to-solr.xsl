@@ -13,15 +13,12 @@
   <xsl:param name="index_type" />
   <xsl:param name="subdirectory" />
 
-  <xsl:template match="//tei:foreign|//tei:title" mode="italics">
-    <xsl:text>italicsstart</xsl:text><xsl:apply-templates select="."/><xsl:text>italicsend</xsl:text>
-  </xsl:template>
-  
   <xsl:template match="/">
-    <xsl:variable name="root" select="." /><xsl:variable name="all_mentions">
+    <xsl:variable name="root" select="." />
+    <xsl:variable name="all_mentions">
       <xsl:for-each select="$root//tei:div[@type='edition']//tei:placeName/@ref"><xsl:value-of select="concat(' ', replace(., '#', ''), ' ')"/></xsl:for-each>
     </xsl:variable>
-    <xsl:variable name="not_mentioned" select="document('../../content/fiscus_framework/resources/places.xml')//tei:placeName[not(@type='other')][not(.='XXX')][not(contains(normalize-space($all_mentions), normalize-space(concat(' ', following-sibling::tei:idno, ' '))))]"/>
+    <xsl:variable name="not_mentioned" select="$places/tei:place/tei:placeName[not(@type='other')][not(.='XXX')][not(contains(normalize-space($all_mentions), normalize-space(concat(' ', following-sibling::tei:idno, ' '))))]"/>
     
     <add>
       <xsl:for-each-group select="//tei:placeName[ancestor::tei:div/@type='edition'][@ref!='']|$not_mentioned" group-by="concat(translate(replace(@ref, ' #', '; '), '#', ''),'-',translate(translate(following-sibling::tei:idno, '#', ''), ' ', ''))">
@@ -31,7 +28,7 @@
             <xsl:otherwise><xsl:value-of select="translate(translate(following-sibling::tei:idno, '#', ''), ' ', '')"/></xsl:otherwise>
           </xsl:choose>
         </xsl:variable>
-        <xsl:variable name="element-id" select="document('../../content/fiscus_framework/resources/places.xml')//tei:place[translate(translate(descendant::tei:idno, '#', ''), ' ', '')=$el-id][descendant::tei:placeName!=''][1]"/>
+        <xsl:variable name="element-id" select="$places/tei:place[translate(translate(child::tei:idno, '#', ''), ' ', '')=$el-id][child::tei:placeName!=''][1]"/>
         <doc>
           <field name="document_type">
             <xsl:value-of select="$subdirectory" />
@@ -53,16 +50,18 @@
               <xsl:apply-templates mode="italics" select="$element-id/tei:placeName[@type='other']"/>
             </field>
           </xsl:if>
+          <xsl:if test="$element-id/tei:idno//text()">
           <field name="index_item_number">
             <xsl:value-of select="translate(translate($element-id/tei:idno[1],' ',''),'#','')"/>
           </field>
+          </xsl:if>
           <xsl:if test="$element-id/tei:note//text()">
             <field name="index_notes">
               <xsl:apply-templates mode="italics" select="$element-id/tei:note"/>
             </field>
           </xsl:if>
           <field name="index_total_items">
-            <xsl:value-of select="string(count(document('../../content/fiscus_framework/resources/places.xml')//tei:place[not(descendant::tei:placeName='XXX')]))"/>
+            <xsl:value-of select="string(count($places/tei:place[not(child::tei:placeName='XXX')]))"/>
           </field>
           <field name="index_coordinates">
             <xsl:value-of select="$element-id/tei:geogName[@type='coord']"/>
@@ -87,49 +86,42 @@
           </xsl:if>
           
           <!-- ### Linked items start ### -->
-          <xsl:variable name="places" select="document('../../content/fiscus_framework/resources/places.xml')//tei:listPlace[@type='places']"/>
-          <xsl:variable name="juridical_persons" select="document('../../content/fiscus_framework/resources/juridical_persons.xml')//tei:listOrg[@type='juridical_persons']"/>
-          <xsl:variable name="estates" select="document('../../content/fiscus_framework/resources/estates.xml')//tei:listPlace[@type='estates']"/>
-          <xsl:variable name="people" select="document('../../content/fiscus_framework/resources/people.xml')//tei:listPerson[@type='people']"/>
-          <xsl:variable name="thesaurus" select="document('../../content/fiscus_framework/resources/thesaurus.xml')//tei:taxonomy"/>
-          <xsl:variable name="all_items" select="$places|$juridical_persons|$estates|$people"/>
           <xsl:variable name="idno" select="translate(translate($element-id/tei:idno, '#', ''), ' ', '')"/>
           <xsl:variable name="links" select="$element-id/tei:link"/>
-          
           <xsl:variable name="linked_people">
             <xsl:for-each select="$links[@type='people']/@corresp[.!='']"><xsl:variable name="links1" select="distinct-values(tokenize(., '\s+'))"/>
               <xsl:for-each select="$links1"><xsl:variable name="link" select="translate(., '#', '')"/>
-                <xsl:value-of select="$people//tei:person[descendant::tei:idno=$link][1]//tei:idno"/><xsl:text> </xsl:text></xsl:for-each></xsl:for-each>
+                <xsl:value-of select="$people/tei:person[child::tei:idno=$link][1]/tei:idno"/><xsl:text> </xsl:text></xsl:for-each></xsl:for-each>
           </xsl:variable>
           <xsl:variable name="linking_people">
-            <xsl:for-each select="$people//tei:link/@corresp[.!='']"><xsl:variable name="link" select="."/>
-              <xsl:if test="contains(concat($link, ' '), concat($idno, ' '))"><xsl:value-of select="$link/ancestor::tei:person/tei:idno"/><xsl:text> </xsl:text></xsl:if></xsl:for-each>
+            <xsl:for-each select="$people/tei:person/tei:link/@corresp[.!='']"><xsl:variable name="link" select="."/>
+              <xsl:if test="contains(concat($link, ' '), concat($idno, ' '))"><xsl:value-of select="$link/parent::tei:person/tei:idno"/><xsl:text> </xsl:text></xsl:if></xsl:for-each>
           </xsl:variable>
           <xsl:variable name="linked_places">
             <xsl:for-each select="$links[@type='places']/@corresp[.!='']"><xsl:variable name="links1" select="distinct-values(tokenize(., '\s+'))"/>
               <xsl:for-each select="$links1"><xsl:variable name="link" select="translate(., '#', '')"/>
-                <xsl:value-of select="$places//tei:place[descendant::tei:idno=$link][1]//tei:idno"/><xsl:text> </xsl:text></xsl:for-each></xsl:for-each>
+                <xsl:value-of select="$places/tei:place[child::tei:idno=$link][1]/tei:idno"/><xsl:text> </xsl:text></xsl:for-each></xsl:for-each>
           </xsl:variable>
           <xsl:variable name="linking_places">
-            <xsl:for-each select="$places//tei:link/@corresp[.!='']"><xsl:variable name="link" select="."/>
-              <xsl:if test="contains(concat($link, ' '), concat($idno, ' '))"><xsl:value-of select="$link/ancestor::tei:place/tei:idno"/><xsl:text> </xsl:text></xsl:if></xsl:for-each>
+            <xsl:for-each select="$places/tei:place/tei:link/@corresp[.!='']"><xsl:variable name="link" select="."/>
+              <xsl:if test="contains(concat($link, ' '), concat($idno, ' '))"><xsl:value-of select="$link/parent::tei:place/tei:idno"/><xsl:text> </xsl:text></xsl:if></xsl:for-each>
           </xsl:variable>
           <xsl:variable name="linked_jp">
             <xsl:for-each select="$links[@type='juridical_persons']/@corresp[.!='']"><xsl:variable name="links1" select="distinct-values(tokenize(., '\s+'))"/>
-              <xsl:for-each select="$links1"><xsl:variable name="link" select="translate(., '#', '')"/><xsl:value-of select="$juridical_persons//tei:org[descendant::tei:idno=$link][1]//tei:idno"/><xsl:text> </xsl:text></xsl:for-each></xsl:for-each>
+              <xsl:for-each select="$links1"><xsl:variable name="link" select="translate(., '#', '')"/><xsl:value-of select="$juridical_persons/tei:org[child::tei:idno=$link][1]/tei:idno"/><xsl:text> </xsl:text></xsl:for-each></xsl:for-each>
           </xsl:variable>
           <xsl:variable name="linking_jp">
-            <xsl:for-each select="$juridical_persons//tei:link/@corresp[.!='']"><xsl:variable name="link" select="."/>
-              <xsl:if test="contains(concat($link, ' '), concat($idno, ' '))"><xsl:value-of select="$link/ancestor::tei:org/tei:idno"/><xsl:text> </xsl:text></xsl:if></xsl:for-each>
+            <xsl:for-each select="$juridical_persons/tei:org/tei:link/@corresp[.!='']"><xsl:variable name="link" select="."/>
+              <xsl:if test="contains(concat($link, ' '), concat($idno, ' '))"><xsl:value-of select="$link/parent::tei:org/tei:idno"/><xsl:text> </xsl:text></xsl:if></xsl:for-each>
           </xsl:variable>
           <xsl:variable name="linked_estates">
             <xsl:for-each select="$links[@type='estates']/@corresp[.!='']"><xsl:variable name="links1" select="distinct-values(tokenize(., '\s+'))"/>
               <xsl:for-each select="$links1"><xsl:variable name="link" select="translate(., '#', '')"/>
-                <xsl:value-of select="$estates//tei:place[descendant::tei:idno=$link][1]//tei:idno"/><xsl:text> </xsl:text></xsl:for-each></xsl:for-each>
+                <xsl:value-of select="$estates/tei:place[child::tei:idno=$link][1]/tei:idno"/><xsl:text> </xsl:text></xsl:for-each></xsl:for-each>
           </xsl:variable>
           <xsl:variable name="linking_estates">
-            <xsl:for-each select="$estates//tei:link/@corresp[.!='']"><xsl:variable name="link" select="."/>
-              <xsl:if test="contains(concat($link, ' '), concat($idno, ' '))"><xsl:value-of select="$link/ancestor::tei:place/tei:idno"/><xsl:text> </xsl:text></xsl:if></xsl:for-each>
+            <xsl:for-each select="$estates/tei:place/tei:link/@corresp[.!='']"><xsl:variable name="link" select="."/>
+              <xsl:if test="contains(concat($link, ' '), concat($idno, ' '))"><xsl:value-of select="$link/parent::tei:place/tei:idno"/><xsl:text> </xsl:text></xsl:if></xsl:for-each>
           </xsl:variable>
           <xsl:variable name="links_est"><xsl:for-each select="$linked_estates|$linking_estates"><xsl:value-of select="." /><xsl:text> </xsl:text></xsl:for-each></xsl:variable>
           <xsl:variable name="linkedest" select="distinct-values(tokenize(normalize-space($links_est), '\s+'))" />
@@ -144,13 +136,13 @@
             <field name="index_linked_juridical_persons">
               <xsl:for-each select="$linkedjp"><xsl:variable name="key" select="translate(translate(.,' ',''), '#', '')"/>
                 <xsl:value-of select="substring-after($key, 'juridical_persons/')"/><xsl:text>#</xsl:text>
-                <xsl:apply-templates mode="italics" select="$juridical_persons//tei:org[descendant::tei:idno=$key][1]/tei:orgName[1]"/><xsl:text>@</xsl:text>
+                <xsl:apply-templates mode="italics" select="$juridical_persons/tei:org[child::tei:idno=$key][1]/tei:orgName[1]"/><xsl:text>@</xsl:text>
                 <xsl:variable name="subtype">
                   <xsl:choose>
                     <xsl:when test="$links[contains(concat(@corresp, ' '), concat($key, ' '))][@subtype!='']">
                       <xsl:value-of select="$links[contains(concat(@corresp, ' '), concat($key, ' '))]/@subtype"/></xsl:when>
-                    <xsl:when test="$all_items//tei:*[descendant::tei:idno=$key][1]//tei:link[contains(concat(translate(@corresp, '#', ''), ' '), concat($idno, ' '))][@subtype!='']">
-                      <xsl:variable name="reverse" select="$all_items//tei:*[descendant::tei:idno=$key][1]//tei:link[contains(concat(translate(@corresp, '#', ''), ' '), concat($idno, ' '))]/@subtype"/>
+                    <xsl:when test="$all_items/tei:*[child::tei:idno=$key][1]/tei:link[contains(concat(translate(@corresp, '#', ''), ' '), concat($idno, ' '))][@subtype!='']">
+                      <xsl:variable name="reverse" select="$all_items/tei:*[child::tei:idno=$key][1]/tei:link[contains(concat(translate(@corresp, '#', ''), ' '), concat($idno, ' '))]/@subtype"/>
                       <xsl:choose>
                         <xsl:when test="$thesaurus//tei:catDesc[@n=$reverse][@corresp!='']"><xsl:value-of select="$thesaurus//tei:catDesc[@n=$reverse]/@corresp"/></xsl:when>
                         <xsl:when test="$reverse='hasConnectionWith'"><xsl:text>hasConnectionWith</xsl:text></xsl:when>
@@ -167,7 +159,7 @@
                   </xsl:choose>
                 </xsl:variable>
                 <xsl:if test="$subtype"><xsl:text> (</xsl:text><xsl:value-of select="$subtype"/><xsl:text>)</xsl:text></xsl:if>
-                <xsl:if test="$links[contains(concat(@corresp, ' '), concat($key, ' '))][@cert='low'] or $all_items//tei:*[descendant::tei:idno=$key][1]//tei:link[contains(concat(translate(@corresp, '#', ''), ' '), concat($idno, ' '))][@cert='low']"><xsl:text> [</xsl:text>from uncertain tradition<xsl:text>]</xsl:text></xsl:if>
+                <xsl:if test="$links[contains(concat(@corresp, ' '), concat($key, ' '))][@cert='low'] or $all_items/tei:*[child::tei:idno=$key][1]/tei:link[contains(concat(translate(@corresp, '#', ''), ' '), concat($idno, ' '))][@cert='low']"><xsl:text> [</xsl:text>from uncertain tradition<xsl:text>]</xsl:text></xsl:if>
                 <xsl:if test="position()!=last()"><xsl:text>£</xsl:text></xsl:if>
               </xsl:for-each>
             </field>
@@ -177,13 +169,13 @@
             <field name="index_linked_estates">
               <xsl:for-each select="$linkedest"><xsl:variable name="key" select="translate(translate(.,' ',''), '#', '')"/>
                 <xsl:value-of select="substring-after($key, 'estates/')"/><xsl:text>#</xsl:text>
-                <xsl:apply-templates mode="italics" select="$estates//tei:place[descendant::tei:idno=$key][1]/tei:geogName[1]"/><xsl:text>@</xsl:text>
+                <xsl:apply-templates mode="italics" select="$estates/tei:place[child::tei:idno=$key][1]/tei:geogName[1]"/><xsl:text>@</xsl:text>
                 <xsl:variable name="subtype">
                   <xsl:choose>
                     <xsl:when test="$links[contains(concat(@corresp, ' '), concat($key, ' '))][@subtype!='']">
                       <xsl:value-of select="$links[contains(concat(@corresp, ' '), concat($key, ' '))]/@subtype"/></xsl:when>
-                    <xsl:when test="$all_items//tei:*[descendant::tei:idno=$key]//tei:link[contains(concat(translate(@corresp, '#', ''), ' '), concat($idno, ' '))][@subtype!='']">
-                      <xsl:variable name="reverse" select="$all_items//tei:*[descendant::tei:idno=$key][1]//tei:link[contains(concat(translate(@corresp, '#', ''), ' '), concat($idno, ' '))]/@subtype"/>
+                    <xsl:when test="$all_items/tei:*[child::tei:idno=$key]/tei:link[contains(concat(translate(@corresp, '#', ''), ' '), concat($idno, ' '))][@subtype!='']">
+                      <xsl:variable name="reverse" select="$all_items/tei:*[child::tei:idno=$key][1]/tei:link[contains(concat(translate(@corresp, '#', ''), ' '), concat($idno, ' '))]/@subtype"/>
                       <xsl:choose>
                         <xsl:when test="$thesaurus//tei:catDesc[@n=$reverse][@corresp!='']"><xsl:value-of select="$thesaurus//tei:catDesc[@n=$reverse]/@corresp"/></xsl:when>
                         <xsl:when test="$reverse='hasConnectionWith'"><xsl:text>hasConnectionWith</xsl:text></xsl:when>
@@ -200,7 +192,7 @@
                   </xsl:choose>
                 </xsl:variable>
                 <xsl:if test="$subtype"><xsl:text> (</xsl:text><xsl:value-of select="$subtype"/><xsl:text>)</xsl:text></xsl:if>
-                <xsl:if test="$links[contains(concat(@corresp, ' '), concat($key, ' '))][@cert='low'] or $all_items//tei:*[descendant::tei:idno=$key][1]//tei:link[contains(concat(translate(@corresp, '#', ''), ' '), concat($idno, ' '))][@cert='low']"><xsl:text> [</xsl:text>from uncertain tradition<xsl:text>]</xsl:text></xsl:if>
+                <xsl:if test="$links[contains(concat(@corresp, ' '), concat($key, ' '))][@cert='low'] or $all_items/tei:*[child::tei:idno=$key][1]/tei:link[contains(concat(translate(@corresp, '#', ''), ' '), concat($idno, ' '))][@cert='low']"><xsl:text> [</xsl:text>from uncertain tradition<xsl:text>]</xsl:text></xsl:if>
                 <xsl:if test="position()!=last()"><xsl:text>£</xsl:text></xsl:if>
               </xsl:for-each>
             </field>
@@ -211,13 +203,13 @@
               <xsl:value-of select="concat('map.html#select#',translate(string-join($linkedplaces, '#'),'places/',''),'#')"/><xsl:text>~</xsl:text>
               <xsl:for-each select="$linkedplaces"><xsl:variable name="key" select="translate(translate(.,' ',''), '#', '')"/>
                 <xsl:value-of select="substring-after($key, 'places/')"/><xsl:text>#</xsl:text>
-                <xsl:apply-templates mode="italics" select="$places//tei:place[descendant::tei:idno=$key][1]/tei:placeName[1]"/><xsl:text>@</xsl:text>
+                <xsl:apply-templates mode="italics" select="$places/tei:place[child::tei:idno=$key][1]/tei:placeName[1]"/><xsl:text>@</xsl:text>
                 <xsl:variable name="subtype">
                   <xsl:choose>
                     <xsl:when test="$links[contains(concat(@corresp, ' '), concat($key, ' '))][@subtype!='']">
                       <xsl:value-of select="$links[contains(concat(@corresp, ' '), concat($key, ' '))]/@subtype"/></xsl:when>
-                    <xsl:when test="$all_items//tei:*[descendant::tei:idno=$key]//tei:link[contains(concat(translate(@corresp, '#', ''), ' '), concat($idno, ' '))][@subtype!='']">
-                      <xsl:variable name="reverse" select="$all_items//tei:*[descendant::tei:idno=$key][1]//tei:link[contains(concat(translate(@corresp, '#', ''), ' '), concat($idno, ' '))]/@subtype"/>
+                    <xsl:when test="$all_items/tei:*[child::tei:idno=$key]/tei:link[contains(concat(translate(@corresp, '#', ''), ' '), concat($idno, ' '))][@subtype!='']">
+                      <xsl:variable name="reverse" select="$all_items/tei:*[child::tei:idno=$key][1]/tei:link[contains(concat(translate(@corresp, '#', ''), ' '), concat($idno, ' '))]/@subtype"/>
                       <xsl:choose>
                         <xsl:when test="$thesaurus//tei:catDesc[@n=$reverse][@corresp!='']"><xsl:value-of select="$thesaurus//tei:catDesc[@n=$reverse]/@corresp"/></xsl:when>
                         <xsl:when test="$reverse='hasConnectionWith'"><xsl:text>hasConnectionWith</xsl:text></xsl:when>
@@ -234,7 +226,7 @@
                   </xsl:choose>
                 </xsl:variable>
                 <xsl:if test="$subtype"><xsl:text> (</xsl:text><xsl:value-of select="$subtype"/><xsl:text>)</xsl:text></xsl:if>
-                <xsl:if test="$links[contains(concat(@corresp, ' '), concat($key, ' '))][@cert='low'] or $all_items//tei:*[descendant::tei:idno=$key][1]//tei:link[contains(concat(translate(@corresp, '#', ''), ' '), concat($idno, ' '))][@cert='low']"><xsl:text> [</xsl:text>from uncertain tradition<xsl:text>]</xsl:text></xsl:if>
+                <xsl:if test="$links[contains(concat(@corresp, ' '), concat($key, ' '))][@cert='low'] or $all_items/tei:*[child::tei:idno=$key][1]/tei:link[contains(concat(translate(@corresp, '#', ''), ' '), concat($idno, ' '))][@cert='low']"><xsl:text> [</xsl:text>from uncertain tradition<xsl:text>]</xsl:text></xsl:if>
                 <xsl:if test="position()!=last()"><xsl:text>£</xsl:text></xsl:if>
               </xsl:for-each>
             </field>
@@ -244,13 +236,13 @@
             <field name="index_linked_people">
               <xsl:for-each select="$linkedpeople"><xsl:variable name="key" select="translate(translate(.,' ',''), '#', '')"/>
                 <xsl:value-of select="substring-after($key, 'people/')"/><xsl:text>#</xsl:text>
-                <xsl:apply-templates mode="italics" select="$people//tei:person[descendant::tei:idno=$key][1]/tei:persName[1]"/><xsl:text>@</xsl:text>
+                <xsl:apply-templates mode="italics" select="$people/tei:person[child::tei:idno=$key][1]/tei:persName[1]"/><xsl:text>@</xsl:text>
                 <xsl:variable name="subtype">
                   <xsl:choose>
                     <xsl:when test="$links[contains(concat(@corresp, ' '), concat($key, ' '))][@subtype!='']">
                       <xsl:value-of select="$links[contains(concat(@corresp, ' '), concat($key, ' '))]/@subtype"/></xsl:when>
-                    <xsl:when test="$all_items//tei:*[descendant::tei:idno=$key]//tei:link[contains(concat(translate(@corresp, '#', ''), ' '), concat($idno, ' '))][@subtype!='']">
-                      <xsl:variable name="reverse" select="$all_items//tei:*[descendant::tei:idno=$key][1]//tei:link[contains(concat(translate(@corresp, '#', ''), ' '), concat($idno, ' '))]/@subtype"/>
+                    <xsl:when test="$all_items/tei:*[child::tei:idno=$key]/tei:link[contains(concat(translate(@corresp, '#', ''), ' '), concat($idno, ' '))][@subtype!='']">
+                      <xsl:variable name="reverse" select="$all_items/tei:*[child::tei:idno=$key][1]/tei:link[contains(concat(translate(@corresp, '#', ''), ' '), concat($idno, ' '))]/@subtype"/>
                       <xsl:choose>
                         <xsl:when test="$thesaurus//tei:catDesc[@n=$reverse][@corresp!='']"><xsl:value-of select="$thesaurus//tei:catDesc[@n=$reverse]/@corresp"/></xsl:when>
                         <xsl:when test="$reverse='hasConnectionWith'"><xsl:text>hasConnectionWith</xsl:text></xsl:when>
@@ -267,7 +259,7 @@
                   </xsl:choose>
                 </xsl:variable>
                 <xsl:if test="$subtype"><xsl:text> (</xsl:text><xsl:value-of select="$subtype"/><xsl:text>)</xsl:text></xsl:if>
-                <xsl:if test="$links[contains(concat(@corresp, ' '), concat($key, ' '))][@cert='low'] or $all_items//tei:*[descendant::tei:idno=$key][1]//tei:link[contains(concat(translate(@corresp, '#', ''), ' '), concat($idno, ' '))][@cert='low']"><xsl:text> [</xsl:text>from uncertain tradition<xsl:text>]</xsl:text></xsl:if>
+                <xsl:if test="$links[contains(concat(@corresp, ' '), concat($key, ' '))][@cert='low'] or $all_items/tei:*[child::tei:idno=$key][1]/tei:link[contains(concat(translate(@corresp, '#', ''), ' '), concat($idno, ' '))][@cert='low']"><xsl:text> [</xsl:text>from uncertain tradition<xsl:text>]</xsl:text></xsl:if>
                 <xsl:if test="position()!=last()"><xsl:text>£</xsl:text></xsl:if>
               </xsl:for-each>
             </field>
@@ -295,7 +287,7 @@
                 </xsl:choose>
           </field>
           <field name="index_total_items">
-            <xsl:value-of select="string(count(document('../../content/fiscus_framework/resources/places.xml')//tei:place[not(descendant::tei:placeName='XXX')]))"/>
+            <xsl:value-of select="string(count($places/tei:place[not(child::tei:placeName='XXX')]))"/>
           </field>
           <xsl:apply-templates select="current-group()" />
         </doc>
