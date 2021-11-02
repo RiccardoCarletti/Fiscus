@@ -125,7 +125,7 @@
                         >fluvio</rs>, qui dicitur
                         <placeName key="#Rivers"
                             ref="#places/2323">Sangro</placeName>, deinde per <placeName
-                            key="#Mountains #Fiscal_property #Textual_occurrence #Mention"
+                                key="#Mountains #Churches #Landed_possessions #Mountains #Forests #Rivers #Riverbed #Castle #Animals #Hay/fodder #Fiscal_property #Textual_occurrence #Mention"
                             ref="#places/2814">montes puplicos</placeName> usque in <rs key="#Mountains">monte</rs>, qui dicitur 
                         <placeName
                             key="#Mountains #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Allocation_to_churches"
@@ -176,7 +176,8 @@
                         Marie. Per has quoque fines, una cum servis, et ancillis, cespitibusque
                         suis, necnon et cum <rs key="#Castle">castris</rs>, montibus, collibus, vallibus, toronibus,
                         ecclesiis, <rs key="#Rivers #Riverbed"
-                            >aquis</rs>, <rs key="#Animals #Hay/fodder">pascuis</rs>, et omnia infra ipsis finibus manencia, ac nostra
+                            >aquis</rs>, <rs key="#Animals #Hay/fodder">pascuis</rs>, et omnia infra ipsis finibus manencia, 
+                        ac nostra
                         presenti auctoritate, in prephato monasterio concedimus et confirmamus,
                         sicut iam dudum repperimus in predicto cenobio concessum, et confirmatum
                         esse a domno Lodovico serenissimo imperatore per sigillatum preceptum.
@@ -190,15 +191,33 @@
                         pertinenciis suis, et aliis cum cellis, et terris in ipsis consistentibus
                         partibus, subditis eiusdem cenobii, per cognitas fines, sicut precepta
                         eiusdem continent monasterii, videlicet regum, principum, et ducum, seu
-                        aliorumque fidelium scripciones ibidem ab ipsis collatas; sed cellam Sancte
-                        Columbe; cellam Sancti Donati in Cominu; cellam Sancti Mauri in Anglone;
-                        quam et alias cellas, et terras in ipsis finibus; sed cellam Sancte Agathe
-                        in loco Turcino; cellam Sancti Petri de Vairano, cum omnibus servis, et
-                        ancillis, cespitibus, vineis, et terris in omnibus sicut eiusdem monasterii
-                        continent scripciones; sed cellam Sancti Salvatoris de Alife; cellam Sancti
-                        Martini de monte Marsico; cellam Sancte Crucis; cellam Sancti Ylarii; cellam
-                        Sancti Petri de Tontole; cellam Sancti Vincencii de Tremojola, que est iuxta
-                        limitem; sed cellam Sancti Sossii cum inclito vualdo suo, in loco Liburie,
+                        aliorumque fidelium scripciones ibidem ab ipsis collatas; sed <rs key="#Cells/hermitages">cellam</rs> <orgName key="#Cells/hermitages" ref="#juridical_persons/1938">Sancte
+                        Columbe</orgName>; <rs key="#Cells/hermitages">cellam</rs> 
+                        <orgName key="#Cells/hermitages #Landed_possessions" ref="#juridical_persons/1939">Sancti Donati</orgName> in <placeName key="#Cells/hermitages"
+                            ref="#places/2358">Cominu</placeName>; <rs key="#Cells/hermitages">cellam</rs>
+                        <orgName key="#Cells/hermitages #Landed_possessions" ref="#juridical_persons/1941">Sancti Mauri</orgName> in <placeName key="#Cells/hermitages" ref="#places/2360"
+                            >Anglone</placeName>;
+                        quam et alias cellas, et <rs key="#Landed_possessions">terras</rs> in ipsis finibus; sed <rs key="#Cells/hermitages">cellam</rs> <orgName key="#Cells/hermitages" ref="#juridical_persons/1943">Sancte Agathe</orgName>
+                        in loco <placeName key="#Cells/hermitages"
+                            ref="#places/2362">Turcino</placeName>;
+                        <rs key="#Cells/hermitages">cellam</rs>  <orgName key="#Cells/hermitages #Wine #Landed_possessions #Slave #Slave_labour" ref="#juridical_persons/1955">Sancti Petri</orgName>
+                        de <placeName key="#Cells/hermitages #Slave #Slave_labour" ref="#places/177"
+                            >Vairano</placeName>, cum omnibus <rs key="#Slave #Slave_labour">servis</rs>, et
+                        ancillis, cespitibus, <rs key="#Wine">vineis</rs>, et <rs key="#Landed_possessions">terris</rs> in omnibus sicut eiusdem monasterii
+                        continent scripciones; sed  <rs key="#Cells/hermitages">cellam</rs>  <orgName key="#Cells/hermitages" ref="#juridical_persons/1919">
+                            Sancti Salvatoris</orgName> de <placeName key="#Cells/hermitages"
+                                ref="#places/112">Alife</placeName>; <rs key="#Cells/hermitages">cellam</rs> <orgName
+                                    key="#Fiscal_property #Textual_occurrence #Object #Cells/hermitages"
+                                    ref="#juridical_persons/1918">Sancti
+                                    Martini</orgName> de <placeName
+                                        key="#Cells/hermitages #Fiscal_property #Textual_occurrence #Object" ref="#places/2345">monte Marsico</placeName>; <rs key="#Cells/hermitages">cellam</rs> 
+                        <orgName key="#Cells/hermitages" ref="#juridical_persons/1919">Sancte Crucis</orgName>
+                        ; <rs key="#Cells/hermitages">cellam</rs> <orgName key="#Cells/hermitages" ref="#juridical_persons/1949">Sancti Ylarii</orgName>
+                        ; <rs key="#Cells/hermitages">cellam</rs>
+                        <orgName key="#Cells/hermitages" ref="#juridical_persons/1937">Sancti Petri de Tontole</orgName>; 
+                        <rs key="#Cells/hermitages">cellam</rs> <orgName key="#Cells/hermitages" ref="#juridical_persons/1936">Sancti Vincencii de Tremojola</orgName>, que est iuxta
+                        limitem; sed <rs key="#Cells/hermitages">cellam</rs>
+                        Sancti Sossii cum inclito vualdo suo, in loco Liburie,
                         ubi dicitur Pantanum has fines habentes: a prima parte decurrit via antiqua,
                         que venit de Ducenta, que decernit inter has terras, et vualdu, et alias
                         terras, et vualdu, quod fuit predicti monasterii, et qualiter descendit via
@@ -213,20 +232,58 @@
                         Pantanum predicti monasterii, et qualiter vadit et pergens per ipsum
                         Pantanum, et silvam, et paludem usque in ipsum Frigidum; a quarta autem
                         parte usque in iam dictum Frigidum, et predictum Laneum cum omnibus, que
-                        infra has fines consistent vel manent; sed cellam Sancti Vincencii infra
-                        civitatem Neapolim; cellam Sancti Vincencii de Cume; Sancti Petri cellam
-                        iuxta civitatem Beneventanam, prope fluvio Sabbati; cellam Sancte Marie de
-                        Castaneto, que est in castro Piniano; cellam Sancti Marci de Petra Cutilia;
-                        cellam Sancti Petri de Vipera cum ipso casale, qui dicitur Leoni; cellam
-                        Sancte Marie de Planisi; cellam Sancti Iohannis de Lucere; cellam Sancte
-                        Marie de Quinque Milia; cellam Sancti Vincencii de Telese; cellam Sancti
-                        Iohannis de Lisine cum ipsa molina; cellam Sancti Eleutheri in Fundiliano;
-                        cellam Sancte Marie de Loco Sano; cellam Sancti Vincencii de Tocco; cellam
-                        infra Salernitanam civitatem in honore sancti Georgii constructam, cum
+                        infra has fines consistent vel manent; sed <rs key="#Cells/hermitages">cellam</rs>
+                        <orgName key="#Cells/hermitages" ref="#juridical_persons/1932">Sancti Vincencii</orgName> infra
+                        <rs key="#Cities">civitatem</rs>  <placeName key="#Cells/hermitages #Cities" ref="#places/2350"
+                            >Neapolim</placeName>; <rs key="#Cells/hermitages">cellam</rs> <orgName
+                                key="Cells/hermitages" ref="#juridical_persons/1934">Sancti Vincencii</orgName> de <placeName key="Cells/hermitages"
+                                    ref="#places/2356">Cume</placeName>; <orgName key="#Cells/hermitages" ref="#juridical_persons/1922">Sancti Petri</orgName> <rs key="#Cells/hermitages">cellam</rs>
+                        iuxta <rs key="#Cities">civitatem</rs> <placeName key="#Cells/hermitages" ref="#places/110"
+                            >Beneventanam</placeName>, prope <rs key="#Rivers">fluvio</rs> <placeName key="#Rivers #Cells/hermitages" ref="#places/2348"
+                                >Sabbati</placeName>; <rs key="#Cells/hermitages">cellam</rs> <orgName key="#Fiscal_property #Textual_occurrence #Mention #Cells/hermitages"
+                                    ref="#juridical_persons/1908">Sancte Marie de
+                                    Castaneto</orgName>, que est in <placeName key="#Cells/hermitages"
+                                        ref="#places/2321">castro Piniano</placeName>; <rs key="#Cells/hermitages">cellam</rs>
+                        <orgName key="#Cells/hermitages" ref="#juridical_persons/1997">Sancti Marci</orgName> de 
+                        <placeName key="#Cells/hermitages" ref="#places/2817"
+                            >Petra Cutilia</placeName>;
+                        <rs key="#Cells/hermitages">cellam</rs> <orgName key="#Cells/hermitages #Casalia" ref="#juridical_persons/1929"
+                            >Sancti Petri de Vipera</orgName> cum ipso <rs key="#Casalia"
+                                >casale</rs>, qui dicitur <geogName key="#Casalia" ref="#estates/1917"
+                                    >Leoni</geogName>; <rs key="#Cells/hermitages">cellam</rs>
+                        <orgName key="#Cells/hermitages" ref="#juridical_persons/1928">Sancte Marie</orgName> de 
+                        <placeName key="#Cells/hermitages" ref="#places/2352"
+                            >Planisi</placeName>; <rs key="#Cells/hermitages">cellam</rs> <orgName key="#Cells/hermitages" ref="#juridical_persons/1926">Sancti Iohannis</orgName> de 
+                        <placeName key="#Cells/hermitages"
+                            ref="#places/2349">Lucere</placeName>; <rs key="#Cells/hermitages">cellam</rs>
+                        <orgName key="#Cells/hermitages" ref="#juridical_persons/1996">Sancte
+                            Marie</orgName> de <placeName key="#Cells/hermitages"
+                                ref="#places/2815">Quinque Milia</placeName>; 
+                        <rs key="#Cells/hermitages">cellam</rs> <orgName key="#Cells/hermitages" ref="#juridical_persons/1948">Sancti Vincencii</orgName> de 
+                        <placeName key="#Cells/hermitages"
+                            ref="#places/111">Telese</placeName>; <rs key="#Cells/hermitages">cellam</rs> 
+                        <orgName key="#Cells/hermitages #Mills" ref="#juridical_persons/1927">Sancti
+                            Iohannis</orgName> de <placeName key="#Cells/hermitages"
+                                ref="#places/554">Lisine</placeName> cum ipsa <rs key="#Mills"
+                                    >molina</rs>; <rs key="#Cells/hermitages">cellam</rs> 
+                        <orgName key="#Cells/hermitages" ref="#juridical_persons/1942">Sancti Eleutheri</orgName>
+                        in <placeName key="#Cells/hermitages"
+                            ref="#places/2361">Fundiliano</placeName>;
+                        <rs key="#Cells/hermitages">cellam</rs> <orgName key="#Fiscal_property #Mention #Cells/hermitages"
+                            ref="#juridical_persons/1901">Sancte Marie</orgName> de <placeName
+                                key="#Cells/hermitages" ref="#places/2301">Loco Sano</placeName>
+                              ; 
+                        <rs key="#Cells/hermitages">cellam</rs> <orgName key="#Cells/hermitages" ref="#juridical_persons/1930">Sancti Vincencii</orgName> de <placeName key="#Cells/hermitages"
+                            ref="#places/2354">Tocco</placeName>; <rs key="#Cells/hermitages">cellam</rs>
+                        infra <placeName key="#Cells/hermitages #Cities"
+                            ref="#places/84">Salernitanam</placeName> <rs key="# Cities">civitatem</rs> in honore <orgName key="#Cells/hermitages"
+                            ref="#juridical_persons/1925">sancti Georgii</orgName> constructam, cum
                         omnibus suis pertinenciis; cellam Sancti Valentini in fluvio Bixentino;
                         Sancti Vincencii cellam in fluvio Tusciano; cellam Sancti Vincencii in
                         fluvio Tensa, et omnia ad iam dictam abbaciam pertinencia, cum omnibus aliis
-                        cappellis et pertinenciis earum, cum castellis, villis, casis, massariciis,
+                        cappellis et pertinenciis earum, cum <rs key="#Castle"
+                            >castellis</rs>, <rs key="#Villas"
+                                >villis</rs>, casis, massariciis,
                         mansis, silvis, pascuis, venacionibus, piscacionibus, vineis, arbustis,
                         pratis, servis, ancillis, aldionibus, aldianis, redivicionibus, nec non cum
                         omnibus, que dici et nominari possit in prefato monasterio concedimus, et
