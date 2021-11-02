@@ -92,7 +92,7 @@
                         venerabilis <persName key="#Abbots" ref="#people/1966">Iohannes</persName> nomine,
                         <rs key="#Abbots">abbas</rs>
                         <rs key="#Monasteries">monasterii</rs>
-                        <orgName key="#Monasteries #Abbots #Cells/hermitages #Landed_possessions #Rivers" ref="#juridical_persons/1900">Sancti martiris Vincencii</orgName>,
+                        <orgName key="#Monasteries #Abbots #Tolls #Exemption #Districtio #Mills #Cells/hermitages #Landed_possessions #Rivers" ref="#juridical_persons/1900">Sancti martiris Vincencii</orgName>,
                         quod est situm in <rs key="#Fines">finibus</rs>
                         <geogName key="#Fines #Rivers #Monasteries #Abbots" ref="#estates/1902">Beneventanis</geogName>, et pene circundatum
                         <rs key="#Rivers">fluvio</rs>, qui <placeName key="#Rivers" ref="#places/609">Vulturnus</placeName> appellatur,
@@ -178,16 +178,18 @@
                         eiusdem monasterii, nec audeat aliquis ipsos abbates, vel monachos ad
                         sacramentum invitare, quia contra divinam auctoritatem, et contra regulam
                         est. dedimus insuper eisdem monachis licenciam, ut habeant potestatem
-                        molendina edificandi, et alia necessaria faciendi in Vulturno fluvio, iusta
-                        murum Capuane civitatis, in omni loco prefati fluvii, qui iuste ab eis et
-                        legaliter cognoscitur detineri. concedimus quoque et corroboramus, ut nullus
+                        <rs key="#Mills">molendina</rs> edificandi, et alia necessaria faciendi in <placeName key="#Rivers #Mills"
+                            ref="#places/609">Vulturno</placeName> <rs key="#Rivers">fluvio</rs>, iusta
+                            murum <placeName key="#Mills #Cities #Rivers" ref="#places/173"
+                            >Capuane</placeName> <rs key="#Cities">civitatis</rs>, in omni loco prefati fluvii, qui iuste ab eis et
+                        legaliter cognoscitur detineri. Concedimus quoque et corroboramus, <rs key="#Districtio">ut nullus</rs>
                         ex servis aut ex familia eiusdem monasterii, vel eos quos cortisianos
                         vocant, audeant inquietare, aut ad pupplica, vel comitum placitum ducere,
                         aut iudicare, neque in domibus vel casis eiusdem monasterii iudicium, aut
                         placitum tenere, nisi abbas prefati cenobii, aut suus missus, ante cuius
                         conspectum omnes sui residentes, sicut ante nostram presenciam legem
-                        faciant, et recipiant. neque placiaticum, portaticum, pontanicum, casaticum,
-                        quisquam homo, aut puplice rei exactor tollere aut exigere presumat. Si quis
+                        faciant, et recipiant. Neque <rs key="#Tolls #Exemption"> placiaticum, portaticum, pontanicum, casaticum,
+                        quisquam homo, aut puplice rei exactor tollere aut exigere presumat</rs>. Si quis
                         autem, quod non credimus, hanc nostram institucionem vel confirmacionem
                         infringere temptaverit, sciat se compositurum auri optimi libras mille,
                         medietatem Camere nostre, et medietatem iam dicto abbati, et suis
