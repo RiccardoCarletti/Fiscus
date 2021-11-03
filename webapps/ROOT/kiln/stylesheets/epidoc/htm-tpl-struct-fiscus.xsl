@@ -357,20 +357,20 @@
 
   <xsl:template match="t:persName[ancestor::t:div[@type = 'edition']]">
     <span class="persName"><xsl:apply-templates/></span>
-    <xsl:if test="@ref !=''"><a target="_blank" class="links hidden"><xsl:attribute name="href"><xsl:value-of select="concat('../indices/epidoc/people.html#', substring-after(translate(@ref, '#', ''), 'people/'))"/></xsl:attribute> ➚</a></xsl:if>
+    <xsl:if test="@ref !=''"><a target="_blank" class="links hidden"><xsl:attribute name="href"><xsl:value-of select="concat('../epidoc/people.html#', substring-after(translate(@ref, '#', ''), 'people/'))"/></xsl:attribute> ➚</a></xsl:if>
   </xsl:template>
   <xsl:template match="t:placeName[ancestor::t:div[@type = 'edition']]">
     <span class="placeName"><xsl:apply-templates/></span>
-    <xsl:if test="@ref !=''"><a target="_blank" class="links hidden"><xsl:attribute name="href"><xsl:value-of select="concat('../indices/epidoc/places.html#', substring-after(translate(@ref, '#', ''), 'places/'))"/></xsl:attribute> ➚</a></xsl:if>
+    <xsl:if test="@ref !=''"><a target="_blank" class="links hidden"><xsl:attribute name="href"><xsl:value-of select="concat('../epidoc/places.html#', substring-after(translate(@ref, '#', ''), 'places/'))"/></xsl:attribute> ➚</a></xsl:if>
   </xsl:template>
   <xsl:template match="t:orgName[ancestor::t:div[@type = 'edition']]">
     <span class="orgName"><xsl:apply-templates/></span>
-    <xsl:if test="@ref !=''"><a target="_blank" class="links hidden"><xsl:attribute name="href"><xsl:value-of select="concat('../indices/epidoc/juridical_persons.html#', substring-after(translate(@ref, '#', ''), 'juridical_persons/'))"/></xsl:attribute> ➚</a></xsl:if>
+    <xsl:if test="@ref !=''"><a target="_blank" class="links hidden"><xsl:attribute name="href"><xsl:value-of select="concat('../epidoc/juridical_persons.html#', substring-after(translate(@ref, '#', ''), 'juridical_persons/'))"/></xsl:attribute> ➚</a></xsl:if>
   </xsl:template>
   
   <xsl:template match="t:geogName[ancestor::t:div[@type = 'edition']]">
     <span class="geogName"><xsl:apply-templates/></span>
-    <xsl:if test="@ref !=''"><a target="_blank" class="links hidden"><xsl:attribute name="href"><xsl:value-of select="concat('../indices/epidoc/estates.html#', substring-after(translate(@ref, '#', ''), 'estates/'))"/></xsl:attribute> ➚</a></xsl:if>
+    <xsl:if test="@ref !=''"><a target="_blank" class="links hidden"><xsl:attribute name="href"><xsl:value-of select="concat('../epidoc/estates.html#', substring-after(translate(@ref, '#', ''), 'estates/'))"/></xsl:attribute> ➚</a></xsl:if>
   </xsl:template>
   
   <xsl:template match="t:rs[ancestor::t:div[@type = 'edition']]">

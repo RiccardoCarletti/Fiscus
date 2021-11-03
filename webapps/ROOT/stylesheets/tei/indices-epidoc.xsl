@@ -18,7 +18,7 @@
       <xsl:text>-display-html</xsl:text>
     </xsl:variable>
     <li>
-      <a href="{kiln:url-for-match($match_id, ($language, $location_parts[2]), 0)}">
+      <a target="_blank" href="{kiln:url-for-match($match_id, ($language, $location_parts[2]), 0)}">
         <span class="index-instance-file"><xsl:value-of select="substring-after($location_parts[2], 'doc')" /></span>
         <span class="index-instance-file-date"><xsl:text> [</xsl:text>
           <xsl:choose>

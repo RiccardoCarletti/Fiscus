@@ -219,7 +219,7 @@
         <map:serialize />
       </map:match>
 
-      <map:match id="local-index-display-html" pattern="*/indices/*/*.html">
+      <map:match id="local-index-display-html" pattern="*/*/*.html"> <!-- it was */indices/*/*.html -->
         <map:aggregate element="aggregation" label="content">
           <map:part src="cocoon://_internal/menu/{1}/main.xml?url={1}/indices/{2}/{3}.html" />
           <map:part src="cocoon://internal/search/index_query.xml?fq=document_type:{url-encode:{2}_{3}_index}" />
