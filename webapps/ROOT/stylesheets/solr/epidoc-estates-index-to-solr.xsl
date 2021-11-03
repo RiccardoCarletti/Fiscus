@@ -60,9 +60,11 @@
               <xsl:apply-templates mode="italics" select="$element-id/tei:note"/>
           </field>
           </xsl:if>
-          <field name="index_total_items">
+          <xsl:if test="$element-id/tei:idno='estates/100'"><!-- to prevent having this indexed for all instances -->
+            <field name="index_total_items">
             <xsl:value-of select="string(count($estates/tei:place[not(child::tei:geogName='XXX')]))"/>
           </field>
+          </xsl:if>
           
           <xsl:variable name="all_keys">
             <xsl:for-each select="$root//tei:geogName[translate(replace(@ref, ' #', '; '), '#', '')=$el-id][@key]">
@@ -285,9 +287,6 @@
                   <xsl:when test="starts-with(normalize-space(.), '\s')"><xsl:value-of select="substring(normalize-space(.), 2)"/></xsl:when>
                   <xsl:otherwise><xsl:value-of select="normalize-space(.)"/></xsl:otherwise>
                 </xsl:choose>
-          </field>
-          <field name="index_total_items">
-            <xsl:value-of select="string(count($estates/tei:place[not(child::tei:geogName='XXX')]))"/>
           </field>
           <xsl:apply-templates select="current-group()" />
         </doc>

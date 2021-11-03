@@ -166,7 +166,7 @@
    <field indexed="true" multiValued="true" name="ancient_document_type"
      required="false" stored="true" type="string" />
     <field name="complete_edition" indexed="true" multiValued="true"
-     stored="false" type="text_general" /> 
+     stored="false" type="text_general" />
 
    <!-- User index fields. -->
    <field name="index_item_name" stored="true" indexed="true"
@@ -200,6 +200,22 @@
    <field name="index_linked_juridical_persons" type="string" required="false"
      multiValued="false" stored="true" indexed="true" />
    <field name="index_linked_estates" type="string" required="false"
+     multiValued="false" stored="true" indexed="true" />
+   <field name="index_map_polygons" type="string" required="false"
+     multiValued="false" stored="true" indexed="true" />
+   <field name="index_map_lines" type="string" required="false"
+     multiValued="false" stored="true" indexed="true" />
+   <field name="index_map_points" type="string" required="false"
+     multiValued="false" stored="true" indexed="true" />
+   <field name="index_map_labels" type="string" required="false"
+     multiValued="false" stored="true" indexed="true" />
+   <field name="index_graph_items" type="string" required="false"
+     multiValued="false" stored="true" indexed="true" />
+   <field name="index_people_graph_items" type="string" required="false"
+     multiValued="false" stored="true" indexed="true" />
+   <field name="index_graph_labels" type="string" required="false"
+     multiValued="false" stored="true" indexed="true" />
+   <field name="index_people_graph_labels" type="string" required="false"
      multiValued="false" stored="true" indexed="true" />
    <field name="index_date" stored="true" indexed="true"
      multiValued="false" required="false" type="string" />

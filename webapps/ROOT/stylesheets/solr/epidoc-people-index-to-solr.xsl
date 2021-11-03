@@ -60,9 +60,11 @@
               <xsl:apply-templates mode="italics" select="$element-id/tei:note"/>
             </field>
           </xsl:if>
-          <field name="index_total_items">
+          <xsl:if test="$element-id/tei:idno='people/1'"><!-- to prevent having this indexed for all instances -->
+            <field name="index_total_items">
             <xsl:value-of select="string(count($people/tei:person[not(child::tei:persName='XXX')]))"/>
           </field>
+          </xsl:if>
           
           <xsl:variable name="all_keys">
             <xsl:for-each select="$root//tei:persName[translate(replace(@ref, ' #', '; '), '#', '')=$el-id][@key]">
@@ -283,9 +285,6 @@
                   <xsl:otherwise><xsl:value-of select="normalize-space(.)"/></xsl:otherwise>
                 </xsl:choose>
           </field>
-          <field name="index_total_items">
-            <xsl:value-of select="string(count($people/tei:person[not(child::tei:persName='XXX')]))"/>
-          </field>
           <xsl:apply-templates select="current-group()" />
         </doc>
       </xsl:for-each-group>
@@ -306,9 +305,6 @@
               <xsl:otherwise><xsl:value-of select="normalize-space(descendant::tei:name[1]/@ref)"/></xsl:otherwise>
             </xsl:choose>
           </field>
-          <field name="index_total_items">
-            <xsl:value-of select="string(count($people/tei:person[not(child::tei:persName='XXX')]))"/>
-          </field>
           <xsl:apply-templates select="current-group()" />
         </doc>
       </xsl:for-each-group>
@@ -328,9 +324,6 @@
               <xsl:when test="starts-with(normalize-space(ancestor::tei:name[1]/@ref), '\s')"><xsl:value-of select="substring(normalize-space(ancestor::tei:name[1]/@ref), 2)"/></xsl:when>
               <xsl:otherwise><xsl:value-of select="normalize-space(ancestor::tei:name[1]/@ref)"/></xsl:otherwise>
             </xsl:choose>
-          </field>
-          <field name="index_total_items">
-            <xsl:value-of select="string(count($people/tei:person[not(child::tei:persName='XXX')]))"/>
           </field>
           <xsl:apply-templates select="current-group()" />
         </doc>
