@@ -4,8 +4,8 @@
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
-                <title>Roma, Biblioteca Vaticana, Cod. Barb. lat. 2724,  cc.
-                        338r-v(<foreign>Chronicon Vulturnense</foreign>, III, n. 206) </title>
+                <title>Roma, Biblioteca Vaticana, Cod. Barb. lat. 2724, cc. 338r-v
+                        (<foreign>Chronicon Vulturnense</foreign>, III, n. 206) </title>
             </titleStmt>
             <editionStmt>
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
@@ -97,54 +97,67 @@
                                 <persName><name ref="Iohannes">Iohannes</name></persName> filius
                                 <persName><name ref="Amico">Amiconi</name></persName>, nos toti
                         habitatores de loco <placeName key="#Judge" ref="#places/2330">Sancte Marie,
-                            que dicitur Olivetum</placeName>, qualiter presencia Ralchisi <rs
-                            key="#Judge">iudicis</rs>, et Iohanne <rs key="#Judge">iudice</rs> de
-                        supradicta Sancta Maria, et alios testes, sicut convenit inter nobis, et
-                        Beccius <rs key="#Priests">presbiter</rs> et <rs key="#Monks">monachus</rs>
-                        atque <rs key="#Prevosts">prepositus</rs>
+                            que dicitur Olivetum</placeName>, qualiter presencia <persName
+                            key="#Judge"><name ref="Ralchisus">Ralchisi</name></persName>
+                        <rs key="#Judge">iudicis</rs>, et <persName key="#Judge"><name
+                                ref="Iohannes">Iohanne</name></persName>
+                        <rs key="#Judge">iudice</rs> de supradicta Sancta Maria, et alios testes,
+                        sicut convenit inter nobis, et <persName>Beccius</persName>
+                        <rs key="#Priests">presbiter</rs> et <rs key="#Monks">monachus</rs> atque
+                            <rs key="#Prevosts">prepositus</rs>
                         <rs key="#Monasteries">monasterii</rs>
-                        <orgName key="#Monasteries #Abbots #Monks #Landed_possessions #Churches #Cereals #Hemp #Silk #Wine #Pigs #Rent_in_kind" ref="#juridical_persons/1900"
-                            >Christi Martyris Vincencii</orgName>, siti in Sancti Vincencii, situs
-                        super <placeName key="#Rivers" ref="#places/609">Vulturnis</placeName>
+                        <orgName
+                            key="#Monasteries #Abbots #Monks #Landed_possessions #Churches #Cereals #Hemp #Silk #Wine #Pigs #Rent_in_kind"
+                            ref="#juridical_persons/1900">Christi Martyris Vincencii</orgName>, siti
+                        in Sancti Vincencii, situs super <placeName key="#Rivers" ref="#places/609"
+                            >Vulturnis</placeName>
                         <rs key="#Rivers">fluminis</rs> fontem, ubi domnus <persName key="#Abbots"
                             ref="#people/1975">Iohannes</persName> venerabilis <rs key="#Abbots"
                             >abbas</rs> preest, ille erga secum habendo <persName key="#Advocatus"
                             >Domnellu</persName>
                         <rs key="#Advocatus">abbocatorem</rs> cenovii Sancti Vincencii, et tunc per
-                        eadem conveniencia voluntarie nostre guadiam dedimus, nos ad <persName key="#Agricultural_workers"><name
-                            ref="Raymundus">Raymundus</name></persName>, et <persName key="#Agricultural_workers"><name
-                                ref="Lando Yngue">Lando Yngue</name></persName>, et fidemiussores
-                        nos ei posuimus per ipsam conveniencia nos ipsi supradicti, quatinus qui
-                        super Aczo, et Iohannes Toti, et Iohannes Fasane, et Iohannes Yngue, et
-                        Iohannes Riccardi, et Pipo, et Iohannes Amiconi, vel nostris heredibus,
-                        debeamus tenere, et laborare, et fruere <rs key="#Landed_possessions">terris</rs>, que sunt pertinentes
-                        predicto monasterio Sancti Vincencii, que sunt infra <rs key="#Comitatus">comitatu</rs> 
-                            <geogName key="#Churches #Comitatus"
-                            ref="#estates/1901">Benafro</geogName>, propinque supradicta <rs key="#Churches">ecclesia</rs>
-                        <orgName key="#Churches #Landed_possessions" ref="#juridical_persons/1904">Sancte Marie</orgName>, et
-                        propinqua ecclesia <orgName key="#Churches #Landed_possessions" ref="#juridical_persons/1910">Sancte
-                            Cristine</orgName>, et <orgName key="#Churches #Landed_possessions">Sancti Quirici</orgName>, que sunt ipse
-                        ecclesie intus ipsis terris, et sunt pertinentes supradicti monasterii; et
-                        victualium, et vinum, seu alia qualibet fruges ibidem Dominus dederit
-                        annualiter, nostre habeamus potestate, unde <rs key="#Rent_in_kind">decimam</rs> partem debeamus dare ad
+                        eadem conveniencia voluntarie nostre guadiam dedimus, nos ad <persName
+                            key="#Agricultural_workers"><name ref="Raymundus"
+                            >Raymundus</name></persName>, et <persName key="#Agricultural_workers"
+                                ><name ref="Lando Yngue">Lando Yngue</name></persName>, et
+                        fidemiussores nos ei posuimus per ipsam conveniencia nos ipsi supradicti,
+                        quatinus qui super Aczo, et Iohannes Toti, et Iohannes Fasane, et Iohannes
+                        Yngue, et Iohannes Riccardi, et Pipo, et Iohannes Amiconi, vel nostris
+                        heredibus, debeamus tenere, et laborare, et fruere <rs
+                            key="#Landed_possessions">terris</rs>, que sunt pertinentes predicto
+                        monasterio Sancti Vincencii, que sunt infra <rs key="#Comitatus"
+                            >comitatu</rs>
+                        <geogName key="#Churches #Comitatus" ref="#estates/1901">Benafro</geogName>,
+                        propinque supradicta <rs key="#Churches">ecclesia</rs>
+                        <orgName key="#Churches #Landed_possessions" ref="#juridical_persons/1904"
+                            >Sancte Marie</orgName>, et propinqua ecclesia <orgName
+                            key="#Churches #Landed_possessions" ref="#juridical_persons/1910">Sancte
+                            Cristine</orgName>, et <orgName key="#Churches #Landed_possessions"
+                            >Sancti Quirici</orgName>, que sunt ipse ecclesie intus ipsis terris, et
+                        sunt pertinentes supradicti monasterii; et victualium, et vinum, seu alia
+                        qualibet fruges ibidem Dominus dederit annualiter, nostre habeamus
+                        potestate, unde <rs key="#Rent_in_kind">decimam</rs> partem debeamus dare ad
                         abbates, vel successores, atque rectores supradicti monasterii de fruges
-                        illas, qualiter hic legitur, idest de <rs key="#Cereals #Rent_in_kind">grano, de ordeo, de milium, vel de
-                            farros</rs>, aut <rs key="#Hemp #Rent_in_kind">cannaba</rs>, et <rs key="#Silk #Rent_in_kind">sicina</rs>; et de <rs key="#Wine #Rent_in_kind">vinum</rs>, 
-                        quod inde exierit similiter
-                        decimam porcionem, tractum totum nos istum adsignatum salvum intus aera, que
-                        est intus ipsis terris edificatam, et in nativitas Domini debeamus nos dare
-                        <rs key="#Pigs #Rent_in_kind">spallam bone porcine</rs>, ad partem eodem monasterio, et yscaticum demus eis nos
-                        de omnes porcos maiores decimam. Et si hec taliter, qualiter unde super
-                        legitur non fecerimus, et non compleverimus ad partes ipsius monasterii
-                        omnia, qualiter preelegitur, ducentos bizanteos solidos aureos bonos pena
-                        nos componere obligamus ad partem eodem monasterio, et omnia, qualiter
+                        illas, qualiter hic legitur, idest de <rs key="#Cereals #Rent_in_kind"
+                            >grano, de ordeo, de milium, vel de farros</rs>, aut <rs
+                            key="#Hemp #Rent_in_kind">cannaba</rs>, et <rs key="#Silk #Rent_in_kind"
+                            >sicina</rs>; et de <rs key="#Wine #Rent_in_kind">vinum</rs>, quod inde
+                        exierit similiter decimam porcionem, tractum totum nos istum adsignatum
+                        salvum intus aera, que est intus ipsis terris edificatam, et in nativitas
+                        Domini debeamus nos dare <rs key="#Pigs #Rent_in_kind">spallam bone
+                            porcine</rs>, ad partem eodem monasterio, et yscaticum demus eis nos de
+                        omnes porcos maiores decimam. Et si hec taliter, qualiter unde super legitur
+                        non fecerimus, et non compleverimus ad partes ipsius monasterii omnia,
+                        qualiter preelegitur, ducentos bizanteos solidos aureos bonos pena nos
+                        componere obligamus ad partem eodem monasterio, et omnia, qualiter
                         prelegitur, percompleamus. Unde si necesse fuerit ad pignorandum obligamus
                         nos qui super supradictus Aczo, Iohannes Toti, Iohannes Fasane, Iohannes
                         Yngue, Iohannes Riccardi, et Pipo, Iohannes Amiconi, per nos ipsis
                         fidemiussores ad abbates, vel successores, iam prephati monasterii, aut cui
-                        hoc scriptum, pro parte supradicti monasterii, per nominative <rs key="#Cows">boui</rs>, bacce,
-                        iumente, et <rs key="#Horses">caballi</rs>, et <rs key="#Pigs">porci</rs>, et de aliis rebus nostris usque ad
-                        legem.</ab>
+                        hoc scriptum, pro parte supradicti monasterii, per nominative <rs
+                            key="#Cows">boui</rs>, bacce, iumente, et <rs key="#Horses"
+                        >caballi</rs>, et <rs key="#Pigs">porci</rs>, et de aliis rebus nostris
+                        usque ad legem.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
