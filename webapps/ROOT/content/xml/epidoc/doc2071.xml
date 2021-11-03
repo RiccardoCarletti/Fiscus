@@ -84,23 +84,25 @@
                 <div type="textpart">
                     <ab>In nomine sancte et individue Trinitatis. <persName ref="#people/261"
                             >Conradus</persName>, divina favente clemencia, Romanorum
-                            <rs>imperator</rs> augustus. Omnium sancte Dei Ecclesie fidelium et
+                        <rs key="#Emperor/king">imperator</rs> augustus. Omnium sancte Dei Ecclesie fidelium et
                         nostrorum, presentibus scilicet ac futurorum universitas noverit, quod
-                            <persName ref="#people/1992">Ylarius</persName>, abbas coenobii <orgName
-                            ref="#juridical_persons/1900">Christi Martyris Vincencii</orgName>, siti
-                        in <rs>territorio</rs>
-                        <geogName ref="#estates/1902">Beneventano</geogName>, super <rs>fluvium</rs>
-                        <placeName ref="#places/609">Vulturnum</placeName>, nostram adiens
+                        <persName key="#Abbots" ref="#people/1992">Ylarius</persName>, <rs key="#Abbots">abbas</rs> <rs key="#Monasteries">coenobii</rs> <orgName
+                            key="#Monasteries #Abbots" ref="#juridical_persons/1900">Christi Martyris Vincencii</orgName>, siti
+                        in <rs key="#Fines">territorio</rs>
+                        <geogName key="#Fines #Monasteries #Abbots #Rivers" ref="#estates/1902">Beneventano</geogName>, super <rs key="#Rivers">fluvium</rs>
+                        <placeName key="#Rivers" ref="#places/609">Vulturnum</placeName>, nostram adiens
                         celsitudinem, detulit precepta precessorum nostrorum imperatorum, et regum
                         [...], per que contulerunt ex suis rebus in prefatum monasterium, ac
                         confirmaverunt res, et possessiones ibi a principibus, ducibus, reliquisque
-                        fidelibus collatas. unde prefatus abbas nos exoravit, ut eadem precepta, ac
+                        fidelibus collatas. Unde prefatus abbas nos exoravit, ut eadem precepta, ac
                         legales scripciones, nec non predia per diversas fines regni Italici
                         coniacencia eidem cenobio collata, per nostre confirmacionis preceptum, in
                         prefatum locum concederemus, et confirmaremus. Cuius peticionibus faventes,
-                        ob interventum Gisle imperatricis nostre dilecte contectalis, ac regis
-                        Henrici nostri amantissimi filii, per hanc preceptalem confirmacionem,
-                        (prout iuste et legaliter possumus, concedimus, et confirmamus, ac penitus
+                        ob interventum <persName key="#Queen #Intercessory" ref="#people/262"
+                            >Gisle</persName> <rs key="#Queen">imperatricis</rs> nostre dilecte contectalis, ac regis
+                        <persName key="#Intercessory" ref="#people/237"
+                            >Henrici</persName> nostri amantissimi filii, per hanc <rs key="#Imperial/royal_diploma">preceptalem confirmacionem</rs>,
+                        prout iuste et legaliter possumus, concedimus, et confirmamus, ac penitus
                         corroboramus in predicto monasterio omnia precepta precessorum nostrorum
                         imperatorum et regum, videlicet Desiderii, Karoli, Lodoici, atque Lotharii
                         atque imperatoris Henrici, verumtamen omnes res, et possessiones per
@@ -203,7 +205,11 @@
                         duomilia, medietatem Camere nostre, et medietatem parti predicti monasterii.
                         quod ut verius credatur, manu propria roborantes, sigillo nostro iussimus
                         insigniri). Signum domni Conradi Romanorum [M] imperatoris augusti.
-                        Kadelohus cancellarius, vice Hermanni archicancellarii, recognovit.
+                        <persName key="#Chancellor"><name
+                            ref="Kadelohus">Kadelohus</name></persName> cancellarius, vice <persName
+                            key="#Bishops #Archchancellor"><name ref="Hermannus"
+                                >Hermanni</name></persName> <rs
+                        key="#Archchancellor">archicancellarii</rs>, recognovit.
                             <date>Datum .III. kalendas iunii, anno Dominice incarnacionis
                             .MXXXVIII., indiccione .VI., anno domni Chonradi regni .XIIII., imperii
                             .XIII. Actum in <placeName ref="#places2823">Vetere Capua</placeName></date>, feliciter,
@@ -211,7 +217,7 @@
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p>CV III, n. 187, pp. 22-27</p>
+                <p>CV III, n. 187, pp. 22-27; MGH DD Ko II, n. 268, pp. 369-372</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>
