@@ -4947,7 +4947,8 @@
                         <orgName type="other"/>
                         <idno>juridical_persons/1999</idno>
                         <note/>
-                        <link type="places" corresp="#places/2818" subtype="isWithin"/>
+                        <link type="places" corresp="#places/2818" subtype="isInVicinityOf"/>
+                        <link type="places" corresp="#places/2000" subtype="isInVicinityOf"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
                             subtype="link"/>
                     </org>
@@ -4956,7 +4957,17 @@
                         <orgName type="other"/>
                         <idno>juridical_persons/2300</idno>
                         <note/>
-                        <link type="places" corresp="#places/2000" subtype="isWithin"/>
+                        <link type="places" corresp="#places/2000" subtype="isInVicinityOf"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1900"
+                            subtype="link"/>
+                    </org>
+                    <org>
+                        <orgName>Sanctus Stephanus; church (Frosinone)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/2301</idno>
+                        <note/>
+                        <link type="places" corresp="#places/2819" subtype="isInVicinityOf"/>
+                        <link type="places" corresp="#places/2000" subtype="isInVicinityOf"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
                             subtype="link"/>
                     </org>
