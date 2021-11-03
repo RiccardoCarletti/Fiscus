@@ -87,7 +87,7 @@
                         <rs key="#Emperor/king">imperator</rs> augustus. Omnium sancte Dei Ecclesie fidelium et
                         nostrorum, presentibus scilicet ac futurorum universitas noverit, quod
                         <persName key="#Abbots" ref="#people/1992">Ylarius</persName>, <rs key="#Abbots">abbas</rs> <rs key="#Monasteries">coenobii</rs> <orgName
-                            key="#Monasteries #Abbots" ref="#juridical_persons/1900">Christi Martyris Vincencii</orgName>, siti
+                            key="#Monasteries #Abbots #Landed_possessions #Mountains #Rivers #Riverbed #Castle #Animals #Hay/fodder #Slave #Slave_labour" ref="#juridical_persons/1900">Christi Martyris Vincencii</orgName>, siti
                         in <rs key="#Fines">territorio</rs>
                         <geogName key="#Fines #Monasteries #Abbots #Rivers" ref="#estates/1902">Beneventano</geogName>, super <rs key="#Rivers">fluvium</rs>
                         <placeName key="#Rivers" ref="#places/609">Vulturnum</placeName>, nostram adiens
@@ -117,42 +117,104 @@
                         legales scripciones a principibus, ducibus reliquisque fidelibus ibidem
                         collatas, nec non monasteria et cellas inferius nominatas, primitus
                         videlicet declarantes ipsas hereditates, que circumdant ipsum monasterium,
-                        per has quoque fines: incipientes itaque a fluvio, qui dicitur Sangro,
-                        deinde per montes publicos usque in montem, qui dicitur Acze, et sic
-                        revolventes montes eodem usque in fluvio, qui dicitur Melfa, et quemadmodum
-                        decurrit ipsa Melfa, usque ubi coniungit se cum Mellarino, et abhinc in
-                        verticem montis, qui dicitur Barbola, et sic per cilium montis eiusdem,
-                        usque in montem Archanum, et montem Marthe, montemque Casale; eosque
-                        videlicet montes extrinsecus circumdantes in hortum riaginis, Ravennola qui
-                        nominatur; et a capite eiusdem riaginis venientes iuxta montes puplicos,
-                        usque in montem Benafranum, qui est super urbem; eodem vero revolvente monte
-                        usque in cilium montis, qui est super terram, que vocatur Arcora, que est
-                        ecclesie hereditas Sancte Dei genitricis Marie, que vocatur Olivetum,
-                        subiecta prefato monasterio, et ecclesie nichilominus hereditas Sancte
-                        Cristine, subdita eidem cenobio cum territoriis suis, et cum reliquis
-                        finibus, ipsa hereditas circumdata usque in fluvium Vulturnum; nam iterum ex
+                        per has quoque fines: incipientes itaque a <rs key="#Rivers">fluvio</rs>, qui dicitur <placeName
+                            key="#Rivers" ref="#places/2323">Sangro</placeName>,
+                        deinde per <placeName
+                            key="#Mountains #Fiscal_property #Textual_occurrence #Mention"
+                            ref="#places/2814">montes publicos</placeName> usque in <rs
+                                key="#Mountains">montem</rs>, qui dicitur <placeName
+                                    key="#Mountains #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Allocation_to_churches"
+                                    ref="#places/2324">Acze</placeName>, et sic
+                        revolventes montes eodem usque in <rs key="#Rivers">fluvio</rs>, qui dicitur <placeName key="#Rivers"
+                            ref="#places/2327">Melfa</placeName>, et quemadmodum
+                        decurrit ipsa Melfa, usque ubi coniungit se cum <placeName key="#Rivers" ref="#places/2813">Mellarino</placeName>, et abhinc in
+                        verticem <rs
+                            key="#Mountains #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Allocation_to_churches"
+                            >montis</rs>, qui dicitur Barbola, et sic per cilium montis eiusdem,
+                        usque in montem Archanum, et montem Marthe, montemque <placeName
+                            key="#Mountains #Landed_possessions #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Allocation_to_churches"
+                            ref="#places/2325">Casale</placeName>; eosque
+                        videlicet montes extrinsecus circumdantes in hortum <rs key="#Rivers">riaginis</rs>
+                        , <placeName key="#Rivers" ref="#places/2309">Ravennola</placeName> qui
+                        nominatur; et a capite eiusdem riaginis venientes iuxta <rs
+                            key="#Mountains #Fiscal_property #Textual_occurrence #Mention">montes puplicos</rs>,
+                        usque in montem <placeName
+                            key="#Mountains #Landed_possessions #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Allocation_to_churches"
+                            ref="#places/2326">Benafranum</placeName>, qui est super <placeName
+                                key="#Cities" ref="#places/2300">urbem</placeName>; eodem vero revolvente monte
+                        usque in cilium montis, qui est super <rs
+                            key="#Landed_possessions">terram</rs>, que vocatur <geogName
+                                key="#Landed_possessions #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Allocation_to_churches"
+                                ref="#estates/1929">Arcora</geogName>, que est
+                        <rs key="#Churches"
+                            >ecclesie</rs> hereditas <orgName
+                                key="#Landed_possessions #Churches #Fiscal_property #Textual_occurrence #Mention"
+                                ref="#juridical_persons/1904">Sancte Dei genitricis Marie</orgName>, que vocatur <placeName
+                                    key="#Churches #Landed_possessions #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Allocation_to_churches"
+                                    ref="#places/2330">Olivetum</placeName>,
+                        subiecta prefato monasterio, et ecclesie nichilominus hereditas <orgName key="#Churches #Landed_possessions"
+                            ref="#juridical_persons/1910">Sancte
+                            Cristine</orgName>, subdita eidem cenobio cum <rs key="#Landed_possessions">territoriis</rs> suis, et cum reliquis
+                        finibus, ipsa hereditas circumdata usque in <rs
+                            key="#Rivers">fluvium</rs> <placeName key="#Rivers" ref="#places/609">Vulturnum</placeName>; nam iterum ex
                         alia parte inchoantes a primo fine cum iam dicto fluvio Sangro, ipsosque
-                        relinquentes, quomodo decernit aparu colle, et pergens usque in rivum qui
-                        dicitur Foruli, eodemque decurrente rivo, usque in fluvium Vantra, et
+                        relinquentes, quomodo decernit aparu colle, et pergens usque in <rs
+                            key="#Rivers">rivum</rs> qui
+                        dicitur <placeName key="#Rivers"
+                            ref="#places/2328">Foruli</placeName>, eodemque decurrente rivo, 
+                        usque in <rs key="#Rivers">fluvium</rs> <placeName key="#Rivers" ref="#places/2329">Vantra</placeName>, et
                         quomodo decurrit ipsum flumen in alio flumine quod Vulturnus vocatur, et
                         quemadmodum ipsum decurrit flumen, iuxta terras eiusdem monasterii, usque in
-                        predictos fines, et terras ecclesie Sancte Marie. per has quoque fines una
-                        cum servis et ancillis cespitibusque suis, necnon et castris, montibus,
-                        collibus, vallibus, ecclesiis, aquis, pascuis, et omnia infra ipsos fines
+                        predictos fines, et <rs key="#Landed_possessions">terras</rs> ecclesie Sancte Marie. 
+                        Per has quoque fines una
+                        cum <rs key="#Slave #Slave_labour">servis</rs> et ancillis cespitibusque suis, 
+                        necnon et <rs key="#Castle">castris</rs>, montibus,
+                        collibus, vallibus, ecclesiis, <rs key="#Rivers #Riverbed"
+                            >aaquis</rs>, <rs key="#Animals #Hay/fodder">pascuis</rs>, et omnia infra ipsos fines
                         manencia, per nostram presentem autoritatem prefato monasterio concedimus,
-                        et confirmamus. insuper corroboramus in eodem monasterio: monasterium Petri
-                        apostoli, positum in loco Trite; et in Penne cellam unam, que dicitur Sancta
-                        Maria in Musano; in Abruczo cellam unam in loco, qui dicitur Arole; item
-                        Sancta Maria in Duas Basilicas: seu et monasterium Sancte Marie in
-                        territorio Marsicano, in loco Apinianici; item in finibus Sorane civitatis
-                        inclitam vallem Soranam, cum omnibus pertinenciis et terris in ipsis
+                        et confirmamus. Insuper corroboramus in eodem monasterio: <rs key="#Monasteries"
+                            >monasterium</rs> <orgName key="#Monasteries"
+                            ref="#juridical_persons/1967">Petri
+                            apostoli</orgName>, positum in loco <placeName key="#Monasteries"
+                                ref="#places/2357">Trite</placeName>; et in <placeName
+                                    key="#Cells/hermitages #Slave #Slave_labour #Landed_possessions #Rivers"
+                                    ref="#places/1820">Penne</placeName> <rs key="#Cells/hermitages">cellam</rs> unam, 
+                        que dicitur <orgName
+                            key="#Cells/hermitages #Slave #Slave_labour #Landed_possessions"
+                            ref="#juridical_persons/1974">Sancta
+                            Maria in Musano</orgName>; in Abruczo <rs key="#Cells/hermitages">cellam</rs> unam in 
+                        loco, qui dicitur <placeName key="#Cells/hermitages" ref="#places/2806">Arole</placeName>; item
+                        <orgName key="#Cells/hermitages" ref="#juridical_persons/1956">Sancta Maria in Duas Basilicas</orgName>
+                        : seu et <rs key="#Monasteries">monasterium</rs> <orgName key="#Cells/hermitages" ref="#juridical_persons/1940">Sancte Marie</orgName> in
+                        territorio Marsicano, in loco Apinianici; item in <rs key="#City_territory">finibus</rs> <placeName key="#Cities City_territory #Cells/hermitages #Landed_possessions" ref="#places/2001">
+                            Sorane</placeName> <rs key="#Cities">civitatis</rs>
+                        inclitam <placeName key="#Cells/hermitages #Landed_possessions" ref="#places/2819">vallem Soranam</placeName>
+                        , cum omnibus <rs key="#Landed_possessions">pertinenciis</rs> et terris in ipsis
                         partibus consistentibus, subditas eidem monasterio, per cognitas fines,
                         sicut precepta eiusdem continent cenobii, et scripciones ibidem a bonis
-                        hominibus collate: idest cellam Sancte Columbe; cellam Sancti Donati in
-                        Comino; cellam Sancti Mauri in Anglone, et alias cellas, et terras in ipsis
-                        finibus; igitur cellam Sancte Agathe in loco Turcino; cellam Sancti Petri de
-                        Vayrano, cum omnibus servis et ancillis, cespitibus, vineis et terris, et in
-                        omnibus sicut eiusdem monasterii continent scripciones; item p. 25 cellam
+                        hominibus collate: idest <rs key="#Cells/hermitages">cellam</rs>
+                        <orgName key="#Cells/hermitages" ref="#juridical_persons/1938">Sancte Columbe</orgName>
+                        ; <rs key="#Cells/hermitages">cellam</rs> <orgName key="#Cells/hermitages #Landed_possessions"
+                            ref="#juridical_persons/1939">Sancti Donati</orgName> in
+                        <placeName
+                            key="#Cells/hermitages" ref="#places/2358">Comino</placeName>; <rs key="#Cells/hermitages">cellam</rs> 
+                        <orgName key="#Cells/hermitages #Landed_possessions"
+                            ref="#juridical_persons/1941">Sancti Mauri</orgName> in <placeName
+                                key="#Cells/hermitages" ref="#places/2360">Anglone</placeName>, et alias cellas, et 
+                        <rs key="#Landed_possessions">terras</rs> in ipsis
+                        finibus; igitur <rs key="#Cells/hermitages">cellam</rs> 
+                        <orgName key="#Cells/hermitages" ref="#juridical_persons/1943">Sancte Agathe</orgName>
+                        in loco <placeName key="#Cells/hermitages"
+                            ref="#places/2362">Turcino</placeName>; <rs key="#Cells/hermitages">cellam</rs>
+                        <orgName
+                            key="#Cells/hermitages #Wine #Landed_possessions #Slave #Slave_labour"
+                            ref="#juridical_persons/1955">Sancti Petri</orgName> de
+                        <placeName
+                            key="#Cells/hermitages #Slave #Slave_labour" ref="#places/177"
+                            >Vayrano</placeName>, cum omnibus <rs key="#Slave #Slave_labour"
+                                >servis</rs> et ancillis, cespitibus, <rs key="#Wine">vineis</rs> et 
+                        <rs key="#Landed_possessions">terris</rs>, et in
+                        omnibus sicut eiusdem monasterii continent scripciones; item cellam
                         Sancti Salvatoris de Alife; cellam Sancti Martini de monte Marsico; cellam
                         Sancte Crucis; cellam Sancti Ylarii; cellam Sancte Marie in Calinule; cellam
                         Sancti Petri de Tontole; cellam Sancti Vincencii de Tremojola; item cellam
