@@ -6486,7 +6486,7 @@
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
                             subtype="link"/>
-                        <link type="places" corresp="#places/2001" subtype="isWithin"/>
+                        <link type="places" corresp="#places/2001" subtype="hasWithin"/>
                     </place>
                     <place>
                         <geogName>Zittula; terra de</geogName>
@@ -6497,6 +6497,16 @@
                             subtype="link"/>
                         <link type="places" corresp="#places/2323" subtype="isInVicinityOf"/>
                         <link type="places" corresp="#places/2324" subtype="isInVicinityOf"/>
+                    </place>
+                    <place>
+                        <geogName>Sanctus Castus et Sancta Maria; curtis</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/1932</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1900"
+                            subtype="link"/>
+                        <link type="places" corresp="#places/2001" subtype="isInVicinityOf"/>
+                        <link type="places" corresp="#places/2819" subtype="isInVicinityOf"/>
                     </place>
                 </listPlace>
             </listPlace>
