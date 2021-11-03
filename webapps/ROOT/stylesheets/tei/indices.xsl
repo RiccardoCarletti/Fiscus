@@ -19,11 +19,10 @@
     <xsl:apply-templates select="tei:div/tei:head/node()" />
   </xsl:template>
   
-  <!-- lists -->
   <xsl:template match="response/result">
+    <!-- scrolling down button -->
     <button type="button" onclick="topFunction()" id="scroll" title="Go to top">⬆  </button>
     <script type="text/javascript">
-      <!-- scrolling down button -->
       mybutton = document.getElementById("scroll");
       window.onscroll = function() {scrollFunction()};
       function scrollFunction() {
@@ -36,9 +35,14 @@
       }
     </script>
     
-    <p>Total items: <xsl:value-of select="doc[1]/str[@name='index_total_items']" /></p>
+    <!-- items counter -->
+    <div>
+      <p>Total items: <xsl:value-of select="doc/str[@name='index_total_items']" /></p>
     <button type="button" class="expander" onclick="$('.expanded').toggle();">Show/Hide all linked items</button>
+    </div>
     
+    
+    <!-- LISTS -->
     <div>
         <xsl:apply-templates select="doc[str[@name='index_item_name'][not(starts-with(., '~'))][not(starts-with(., '#'))]]">
           <xsl:sort select="lower-case(.)"/>
@@ -63,8 +67,10 @@
       </div>
     </xsl:if>
   </xsl:template>
-
-  <!-- items in lists -->
+  
+  
+  <!-- ITEMS IN LISTS -->
+  <!-- items in lists structure -->
   <xsl:template match="result/doc">
     <div id="{substring-after(str[@name='index_item_number'], '/')}" class="index_item">
       <div>

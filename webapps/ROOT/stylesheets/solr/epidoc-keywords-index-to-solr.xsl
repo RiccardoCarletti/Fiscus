@@ -45,9 +45,11 @@
                 <xsl:value-of select="concat('https://ausohnum.huma-num.fr/concept/', $key[1]/@xml:id)" />    
           </field>
           </xsl:if>
-          <field name="index_total_items">
-            <xsl:value-of select="string(count(document('../../content/fiscus_framework/resources/thesaurus.xml')//tei:catDesc))"/>
+          <xsl:if test="$key/@xml:id='c26024'"><!-- to prevent having this indexed for all instances -->
+            <field name="index_total_items">
+            <xsl:value-of select="string(count($thesaurus//tei:catDesc))"/>
           </field>
+          </xsl:if>
           <xsl:apply-templates select="$keyword" />
         </doc>
       </xsl:for-each>
