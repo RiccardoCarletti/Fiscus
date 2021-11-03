@@ -33,8 +33,8 @@
                         <summary>
                             <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
-                            <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="document_tradition" ref="#">Uncertain tradition</rs>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -42,11 +42,11 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate notBefore="0001" notAfter="0001" when="0001"> 
-                                <note type="displayed_date"></note>
-                                <note type="dating_elements"></note>
-                                <note type="topical_date"></note>
-                                <note type="redaction_date"></note>
+                            <origDate notAfter="0915">
+                                <note type="displayed_date">- 915</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date"/>
+                                <note type="redaction_date">XVIII exeunte</note>
                             </origDate>
                             <origPlace/>
                         </origin>
@@ -95,7 +95,11 @@
                 <p/>
             </div>
             <div type="commentary">
-                <p/>
+                <p>Tutte le fonti segnalate dall'editore datano il diploma all'anno 917 circa. Anche
+                    se nell'intitulatio si legge il titolo imperatore, nel contesto e nella signatio
+                    si parla di Berengario re e ciò induce l'ed. a individuare come termine ad quem
+                    il dicembre 915. Il diploma è considerato autentico, nonostante il testo
+                    lacunoso e scorretto. </p>
             </div>
         </body>
     </text>
