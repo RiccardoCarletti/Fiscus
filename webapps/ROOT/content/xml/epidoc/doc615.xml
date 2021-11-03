@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    Diplomatico, + L 99</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                        </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc615</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Ordinatio</rs>
+                                    <rs type="record_source" ref="#">Original document</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate when="0907-04-29">
+                                <note type="displayed_date">907 April 29</note>
+                                <note type="dating_elements">Stile dell’incarnazione</note>
+                                <note type="topical_date">Lucca</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance>
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                            <place></place>
+                        </listPlace>
+                        <listPerson>
+                            <person></person>
+                        </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-11-03" who="ptomei">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab>Il vescovo di Lucca Pietro, con il consenso sacerdotum seo filli
+                        ipsius ecclesie, ordina il prete Azzo figlio di Adalperga nella pieve di San
+                        Martino sita in loco et finibus Tripallo, con tutte le sue dipendenze.
+                        Chiede al notaio e scabino Pietro la stesura di due cartulas. Actum Luca.
+                        Autori: Pietro episcopus, Azzo presbiter di Adalperga. Scrittore: Pietro
+                        notarius et schabinus. Testimoni sottoscrittori: Vivenzio archipresbiter et
+                        vicedominus, Eripaldo presbiter et cardinalis, Ropprando presbiter et
+                        cardinalis, Teufridi presbiter, Daniele presbiter et cardinalis, Lopo
+                        presbiter, Ataprando presbiter, Sicardo presbiter, Stefano presbiter,
+                        Sisemundo presbiter, Domniperto presbiter, Natale presbiter, Ghisalfridi
+                        presbiter, Andrea presbiter, Andrea diaconus, Filuarto presbiter, Ostrifuso
+                        presbiter, Lorenzo presbiter, Cuniperto presbiter, Rachiperto presbiter,
+                        Domenico diaconus, Fraolmi, Richimundo, + Giovanni detto Bonizio del fu
+                        Teudilascio, + Flaiperto del fu Lopo. Luca (Lucca), Tripallo (Tripalle,
+                        Crespina). San Martino di Tripalle (chiesa battesimale), San Martino di
+                        Lucca (chiesa matrice).</ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL, V/3, n. 1102, pp. 40-41</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                        <p/>
+                    </div>
+                </body>
+            </text>
+        </TEI>
