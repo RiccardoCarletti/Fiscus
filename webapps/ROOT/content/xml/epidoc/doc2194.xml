@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Archivio di Stato di Torino, Libro Verde di Asti, c. 97 b.</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc2194</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">Yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0938-07-23">
+                                <note type="displayed_date">938 july 23</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Pavia</note>
+                                <note type="redaction_date">XIV sec. s.m.</note>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-02-08" who="Chiara Stedile">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine domini Dei eterni. Hugo et Lotharius gracia Dei reges. Si sacris
+                        ac venerabilibus locis ex nostrarum rerum facultatibus aliquid conferimus,
+                        et collata a ceteris fidelibusconfirmamus, presentis et eterne vite gaudia
+                        adipisci non titubamus. Quapropter omnium sancte Dei Ecclesie fidelium
+                        nostrorumque presencium ac futurorum comperiat solercia, Bruningum sancte
+                        Astensis ecclesie venerabilem episcopum dilectumque fidelem nostrum nostram
+                        exorasse clemenciam, quatinus prefate sancte ecclesie in honore sancte Marie
+                        constructe quoddam castrum suora Astensem civitatem situm, quod Castellum
+                        Vetus nuncupatur, cum capella in honore sancti Ambrosii ibidem edificata cum
+                        omnibus eius pertinentiis, braydam quoque unam et pratum unum iuxta fluvium
+                        Versa, ubi nuncupatur Madingo, et massaricia sex cum servis et ancillis ea
+                        renitentibus per nostri precepti paginam donare et concedere, cinfirmare
+                        quoque et corroborare dignaremur. Cuius petitionibus libenter faventes, pro
+                        Dei amore animarumque nostrarum remedio pretaxate sancte Astensi ecclesie
+                        per hoc nostrum preceptum donamus, iuste et legaliter concedimus atque
+                        largimur, insuper confirmamus et corroboramus predictum castrum, quod
+                        Castellum Vetus nuncupatur, supra Astensem civitatem situm, cum predicta
+                        capella in honore sancti Ambrosii edificata et omnibus rebus ibidem
+                        pertinentibus, cum muris et fossatis, cum brayda et prato, una cum casis et
+                        massariciis ac familiis utriusque sexus, quorum nomina sunt: Secundus cum
+                        muliere sua Lovemperga, Resto cum muliere sua Almelberga, Astisianus,
+                        Augenia, Lubedeo, Hodo, Georgius, Benedicta, Iussimundus, Maziverga,
+                        Grimaldus, Ingelberga, cum filiis et filiabus illorum, seu cum sediminibus,
+                        campis, vineis, terris, pratis, pascuis, silvis, aquis aquarumque
+                        decursibus, molendinis, piscationibus, montibus, vallibus, planiciebus
+                        omnibusque rebus et familiis, totum in integrum, sicut superius comprehensum
+                        est, funditus concedimus et omnino confirmamus. Si quis igitur huius
+                        precepti violator extiterit, sciat se compositurum auri optimi libras
+                        centum, medietatem camere nostre et medietatem parti predicte sancte
+                        Astensis ecclesie. Quod ut veius credatur et diligencius observetur, manibus
+                        propriis roborantes anuli nostri impressione subter insigniri fecimus. Signa
+                        serenissorum (M) (M) Hugonis et Lotharii regum. Giseprandus cancellarius ad
+                        vicem Azzonis episcopi et archicancellarii recognovi et subscripsi. Data
+                        decimo kal. augusti, anno incarnationis dominice DCCCCXXXVIII, anno domni
+                        Hugonis piissimi regis XIII, Lotharii vero VIII, indicione XI. Actum Papie.
+                        Feliciter, amen.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>DD U L, pp. 150-152, n° L</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
