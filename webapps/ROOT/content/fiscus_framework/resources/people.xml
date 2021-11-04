@@ -1252,6 +1252,7 @@
                     <link type="people" corresp="#people/167" subtype="fatherOf"/>
                     <link type="juridical_persons"
                         corresp="juridical_persons/84" subtype="benefactorOf"/>
+                    <link type="people" corresp="#people/309" subtype="benefactorOf"/>
                     <link type="people" corresp="#people/399" subtype="fatherOf"/>
                     <link type="people" corresp="#people/398" subtype="fatherOf"/>
                     <link type="people" corresp="#people/400" subtype="fatherOf"/>
@@ -1356,6 +1357,7 @@
                     <link type="people" corresp="#people/399" subtype="brotherOf"/>
                     <link type="people" corresp="#people/398" subtype="brotherOf"/>
                     <link type="people" corresp="#people/400" subtype="brotherOf"/>
+                    <link type="people" corresp="#people/309" subtype="benefactorOf"/>
                 </person>
                 <person>
                     <persName>Adelgarda (963) abbatissa</persName>
@@ -2651,7 +2653,9 @@
                     <note>Leccisotti 1960</note>
                     <link type="places" corresp="#places/173" subtype="hasConnectionWith"/>
                     <link type="juridical_persons" corresp="#juridical_persons/84" subtype="link"/>
-                    <link type="people" corresp="#people/167 #people/157" subtype="link"/>
+                    <link type="people" corresp="#people/157" subtype="gratitudeTo"/>
+                    <link type="people" corresp="#people/315" subtype="gratitudeTo"/>
+                    <link type="people" corresp="#people/167" subtype="gratitudeTo"/>
                 </person>
                 <person>
                     <persName>Balsari (700) episcopus Lucensis</persName>
@@ -2711,7 +2715,8 @@
                     <link type="people" corresp="#people/400" subtype="uncleOf"/>
                     <link type="people" corresp="#people/399" subtype="uncleOf"/>
                     <link type="people" corresp="#people/398" subtype="uncleOf"/>
-                    <link type="juridical_persons" corresp="#juridical_persons/84" subtype="link"/>
+                    <link type="people" corresp="#people/309" subtype="benefactorOf"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/84" subtype="benefactorOf"/>
                         <link type="people" corresp="#people/1955" subtype="benefactorOf"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
                             subtype="benefactorOf"/>
@@ -6150,6 +6155,18 @@
                         <link type="people" corresp="#people/399"
                             subtype="agentOf"/>
                         <link type="people" corresp="#people/401"
+                            subtype="link"/>
+                    </person>
+                    <person>
+                        <persName>Grimoaldus (981); comes</persName>
+                        <persName type="other"/>
+                        <idno>people/1996</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/84"
+                            subtype="link"/>
+                        <link type="people" corresp="#people/167"
+                            subtype="agentOf"/>
+                        <link type="people" corresp="#people/309"
                             subtype="link"/>
                     </person>
                 </listPerson>
