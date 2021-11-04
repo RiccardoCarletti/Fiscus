@@ -94,7 +94,8 @@
                                 ><rs key="#Churches">Beatissimae Iustinae virginis
                             ecclesiam</rs></orgName> non longe <rs key="#Rivers">a flumine
                             Brentae</rs>
-                        <placeName>valle nuncupatae Solanae </placeName>sive omne[m <rs
+                        <placeName key="#Churches" ref="#places/910">valle nuncupatae Solanae
+                        </placeName>sive omne[m <rs
                             key="#Landed_possessions #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches"
                             >terram]</rs>
                         <geogName key="#Fines" ref="#estates/511"><rs key="#Fines"
@@ -103,16 +104,18 @@
                         </geogName>ad nostram iurisdictionem pertinentem, nec non et] <rs
                             key="#Profits_of_justice">omnem iudiciariam potestatem</rs> tam <rs
                             key="#Arimannus">arimanorum </rs>quam aliorum <rs key="#Freeborn"
-                            >liberorum hominum</rs> qui nunc in praedicta Valle Solane habitant aut
-                        habitaturi sunt, <orgName key="#Churches" ref="#juridical_persons/65"><rs
-                                key="#Churches">episcopio sive Patavensi ecclesie </rs></orgName>ubi
-                            <persName key="#Bishops" ref="#people/622">Sib[ico] </persName><rs
-                            key="#Bishops">episcopus </rs>preesse videtur per hoc nostrae
-                        auctoritatis praeceptum <rs key="#Iure_proprietatis/pleno_iure">iure
-                            proprietario</rs> [concedere] dignaremur. Nos quoque id * * * * * * *
-                        dierum * * * * consequi posse retributionem ab omnipotente Deo considerantes
-                        et praedictorum nostrorum fidelium precibus aures nostrae serenitatis
-                        inflectentes, pretaxatas <rs
+                            >liberorum hominum</rs> qui nunc <placeName
+                            key="#Profits_of_justice #Freeborn #Arimannus" ref="#places/910">in
+                            praedicta Valle Solane</placeName> habitant aut habitaturi sunt,
+                            <orgName key="#Churches" ref="#juridical_persons/65"><rs key="#Churches"
+                                >episcopio sive Patavensi ecclesie </rs></orgName>ubi <persName
+                            key="#Bishops" ref="#people/622">Sib[ico] </persName><rs key="#Bishops"
+                            >episcopus </rs>preesse videtur per hoc nostrae auctoritatis praeceptum
+                            <rs key="#Iure_proprietatis/pleno_iure">iure proprietario</rs>
+                        [concedere] dignaremur. Nos quoque id * * * * * * * dierum * * * * consequi
+                        posse retributionem ab omnipotente Deo considerantes et praedictorum
+                        nostrorum fidelium precibus aures nostrae serenitatis inflectentes,
+                        pretaxatas <rs
                             key="#Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches #Aqueducts"
                             >vias publicas iuris regni nostri</rs> pertinentes <geogName
                             key="#Comitatus" ref="#estates/125"><rs key="#Comitatus">de Comitatu
