@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Bacchini, <foreign>Dell'istoria del monastero di San Benedetto di
+                        Polirone</foreign>, Modena 1696, pp. 31-32.</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc5043</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Ordinatio</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1089-12-01">
+                                <note type="displayed_date">[1089] December 1</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date"/>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace>Sanctus Benedictus in Pado Lironi; monasterium
+                                (Mantova)</origPlace>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-11-04" who="bferretti">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine Sanctae, et Individuae Trinitatis. Anno Dominicae Incarnationis
+                        millesimo octuagesimo ... Indictione XIII. KI. Decembris. Quia monasterium
+                        Sancti Martini situm in Collibus destitutum per patre, pastore, et rectore
+                        fluctuabit, nos fundatores ipsius loci, scilicet Sigismundus et Ugo domini,
+                        mulctaque cogitantes de ordinatione praefati loci, et secum ibidem
+                        commorantium, tandem auctore Domino prout nobis utilius visum est in salubre
+                        et utile consilium devenimus ut iura et potestas, ac ordinatio ipsius
+                        monasterii concurreret abbati monasterii Sancti Benedicti situm inter Padum
+                        et Larionem. Quapropter communi consilio, et voluntate monachorum ibidem
+                        commorantium, et nostro, ac nostrorum haeredum, subicimus, atque
+                        cornnrlittimus venerabili tibi, Vuilielmo abbati Sancti Benedicti, tuisque
+                        successoribus praefatum monasterium cum omnibus suis rebus quas modo habet,
+                        vel in antea adquisierit meliorandum, corrigendum, emendandum atque regendum
+                        secundum regulam, et instituta Sanctissimi Benedicti, iuxta morem
+                        Cluniacensis monasterii, donec monasterium Sancti Benedicti in Cluniacensi
+                        ordinatione permanserit. Vel si quis praefatum monasterium Sancti Benedicti
+                        a Cluniacensi ordinatione separatum fuerit, supradictam in ordinationem
+                        Cluniacensis abbatis deveniat. Ut autem haec omnia rata, et filma omni
+                        tempore maneant, ordinamus nos, nostrosque haeredes, ac prohaeredes, aut si
+                        quis nostrum, aut praedictorum ea quae a nobis superius concessa temerario
+                        ausu infringere, vel corumpere temptaverit rebus, vel rerum admonitus a
+                        monachis, vel eorum missis infra duos menses proximos non emendaverit ...
+                        facto ex re capite tantum ex iniuria in ... rectoris centum librarurn
+                        argenti, poena persolvat medietatem praefatae Ecclesiae si accipere
+                        voluerit, et videbitur ipsi abbati. Quoniam etiam anatematis vinculo sit
+                        annodatus, et maledictionem Domini, Genitricis, et beati Petri, omniumque
+                        sanctorum consequatur. Qui autem ea quae memorata sunt observaverit
+                        benedictionem omnipotentis Domini, et supradictorum, consequatur, insuper
+                        vitam aeternam. Seculare tantum potestate defensionis a nobis reservantibus
+                        secundum Domini promittimus etiam nos germanus Sigismundus, et Ugo,
+                        nostrisque haeredes, et prohaeredes, ut si quis nostrurn mortuus fuerit in
+                        episcopatu Lucensi, aut Pistoiensi, vel Pisensi per nostra tempora
+                        sepellierit ad monasterium Sancti Martini in Collibus. + Signum rnanibus
+                        Sigismundi etc. + Signum manus Ugonis. P. Gibellus interfuit, Gerardus iudex
+                        ... interfuit. Ugo causidicus interfuit. Vildebrandus notarius Domini
+                        Imperatoris scripsit. Vuido quondam Rustici de Vrigio interfuit. </ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>CDP I n. 42bis, pp. 159-160.</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
