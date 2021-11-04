@@ -767,7 +767,7 @@
                     <persName type="other"/>
                     <idno>people/111</idno>
                     <note>Gasparri 1988: 129-130</note>
-                    <link type="juridical_persons" corresp="#juridical_persons/84" subtype="link"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/84" subtype="benefactorOf"/>
                     <link type="people" corresp="#people/112" subtype="brotherOf"/>
                     <link type="places" corresp="#places/110" subtype="hasConnectionWith"/>
                     <link type="people" corresp="#people/115" subtype="fatherOf"/>
@@ -797,9 +797,9 @@
                     <persName type="other"/>
                     <idno>people/114</idno>
                     <note>Cilento 1962</note>
-                    <link type="places" subtype="hasConnectionWith"/>
                     <link type="people" corresp="#people/154" subtype="sonOf"/>
-                    <link type="juridical_persons" corresp="#juridical_persons/97" subtype="link"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/97" subtype="benefactorOf"/>
+                    <link type="people" corresp="#people/160" subtype="benefactorOf"/>
                     <link type="people" corresp="#people/156" subtype="cousinOf"/>
                     <link type="places" corresp="#places/174" subtype="hasConnectionWith"/>
                     <link type="people" corresp="#people/170" subtype="fatherOf"/>
@@ -1301,6 +1301,7 @@
                     <link type="estates" corresp="#estates/121" subtype="hasConnectionWith"/>
                     <link type="places" corresp="#places/193" subtype="hasConnectionWith"/>
                     <link type="places" corresp="#places/194" subtype="hasConnectionWith"/>
+                    <link type="people" corresp="#people/114" subtype="gratitudeTo"/>
                 </person>
                 <person>
                     <persName>Acetruda (745?) abbatissa</persName>
@@ -1576,7 +1577,7 @@
                     <note/>
                     <link type="juridical_persons" corresp="#juridical_persons/84" subtype="link"/>
                     <link type="estates" corresp="#estates/140" subtype="hasConnectionWith"/>
-                    <link type="people" corresp="#people/186" subtype="benefactorOf"/>
+                    <link type="people" corresp="#people/186" subtype="gratitudeTo"/>
                     <link type="estates" corresp="#estates/148" subtype="link"/>
                     <link type="estates" corresp="#estates/146" subtype="link"/>
                     <link type="estates" corresp="#estates/149" subtype="link"/>
