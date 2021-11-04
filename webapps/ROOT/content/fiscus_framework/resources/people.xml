@@ -1227,6 +1227,7 @@
                         subtype="benefactorOf"/>
                     <link type="juridical_persons"
                         corresp="juridical_persons/84" subtype="benefactorOf"/>
+                    <link type="people" corresp="#people/196" subtype="benefactorOf"/>
                     <link type="juridical_persons"
                         corresp="juridical_persons/1900" subtype="benefactorOf"/>
                     <link type="people" corresp="#people/1955" subtype="benefactorOf"/>
@@ -1252,6 +1253,7 @@
                     <link type="people" corresp="#people/167" subtype="fatherOf"/>
                     <link type="juridical_persons"
                         corresp="juridical_persons/84" subtype="benefactorOf"/>
+                    <link type="people" corresp="#people/196" subtype="benefactorOf"/>
                     <link type="people" corresp="#people/309" subtype="benefactorOf"/>
                     <link type="people" corresp="#people/399" subtype="fatherOf"/>
                     <link type="people" corresp="#people/398" subtype="fatherOf"/>
@@ -1680,7 +1682,9 @@
                     <persName type="other">Maielpotus</persName>
                     <idno>people/196</idno>
                     <note><foreign>Chronica Monasterii Casinensis</foreign>, I, 60</note>
-                    <link type="people" corresp="#people/156" subtype="benefactorOf"/>
+                    <link type="people" corresp="#people/156" subtype="gratitudeTo"/>
+                    <link type="people" corresp="#people/157" subtype="gratitudeTo"/>
+                    <link type="people" corresp="#people/305" subtype="gratitudeTo"/>
                     <link type="juridical_persons" corresp="#juridical_persons/84" subtype="link"/>
                     <link type="estates" subtype="hasConnectionWith" corresp="#estates/150"/> 
                 </person>
@@ -2614,10 +2618,12 @@
                     <persName type="other"/>
                     <idno>people/305</idno>
                     <note>Beolchini 2004</note>
-                    <link type="people" corresp="#people/304 #people/156" subtype="fatherOf"/>
+                    <link type="people" corresp="#people/304" subtype="fatherOf"/>
+                    <link type="people" corresp="#people/156" subtype="fatherOf"/>
                     <link type="people" corresp="#people/194" subtype="sonOf"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
                             subtype="benefactorOf"/>
+                    <link type="people" corresp="#people/196" subtype="benefactorOf"/>
                 </person>
                 <person>
                     <persName>Felix (685) episcopus Lucensis</persName>
@@ -3405,6 +3411,7 @@
                     <link type="juridical_persons" corresp="juridical_persons/84" subtype="link"/>
                     <link type="people" corresp="#people/157" subtype="link"/>
                     <link type="people" corresp="#people/156" subtype="link"/>
+                    <link type="people" corresp="#people/196" subtype="link"/>
                 </person>
                 <person>
                     <persName>Alamundus (749-750) vir magnificus</persName>
