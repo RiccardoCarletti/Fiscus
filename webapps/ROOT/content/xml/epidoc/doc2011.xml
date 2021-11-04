@@ -33,7 +33,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Original document</rs>
                             <rs type="document_tradition" ref="#">Original</rs>
-                            <rs type="fiscal_property">Yes</rs>
+                            <rs type="fiscal_property">No</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -87,17 +87,17 @@
                         domni <persName key="#Princeps" ref="#people/305">Landolfi</persName> divina
                         ordinante providentia Langobardorum gentis <rs key="#Princeps"
                             >principes</rs>. Cum principalis excellentia petitione dilecti iuste
-                        petenti clementer favet, igitur noverit <rs key="#Assembly">omnium fidelium nostrorum presentium</rs>
-                        scilicet ac futurorum sagacitas quia <persName key="#Intercessory #Bishops"
-                            >Adalbertus</persName> veneravilis <rs key="#Bishops">episcopus</rs>
-                        sancte <orgName ref="#juridical_persons/105" key="#Bishops">Capuane
-                            sedis</orgName> exoravit nostram clementiam ut, pro amore Dei et mercede
-                        ac redemptione animȩ nostrȩ <rs key="#Marquis’/ducal/princely_diploma"
-                            >concederemus et confirmaremus</rs> in<rs key="#Monasteries">
-                            monasterio</rs>
+                        petenti clementer favet, igitur noverit <rs key="#Assembly">omnium fidelium
+                            nostrorum presentium</rs> scilicet ac futurorum sagacitas quia <persName
+                            key="#Intercessory #Bishops" ref="#people/384">Adalbertus</persName>
+                        veneravilis <rs key="#Bishops">episcopus</rs> sancte <orgName
+                            ref="#juridical_persons/105" key="#Bishops">Capuane sedis</orgName>
+                        exoravit nostram clementiam ut, pro amore Dei et mercede ac redemptione
+                        animȩ nostrȩ <rs key="#Marquis’/ducal/princely_diploma">concederemus et
+                            confirmaremus</rs> in<rs key="#Monasteries"> monasterio</rs>
                         <orgName ref="#juridical_persons/84"
-                            key="#Monasteries #Abbots #Mills #Freeborn #Slave_labour #Slave">Beatissimi
-                            Benedicti</orgName> situm in <rs key="#Castle">castro</rs>
+                            key="#Monasteries #Abbots #Mills #Freeborn #Slave_labour #Slave"
+                            >Beatissimi Benedicti</orgName> situm in <rs key="#Castle">castro</rs>
                         <placeName key="#Castle #Monasteries" ref="#places/109">Casino</placeName>,
                         ubi nunc, Deo favente, <persName key="#Abbots" ref="#people/196"
                             >Magelpotus</persName> veneravilis <rs key="#Abbots">abbas</rs> regimen
@@ -125,7 +125,7 @@
                         insimul cum ripis ex utraque parte positis, ut licentiam et potestatem
                         haveat pars ipsius monasterii facere ibi molinum et omnia quȩ necessaria
                         fuerint. Simulque et concedimus in eodem monasterio omnes <rs
-                            key="#Freeborn #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Allocation_to_churches"
+                            key="#Freeborn"
                             >feminas liveras</rs> que sivi <rs key="#Slave_labour #Slave"
                             >serbos</rs> maritos copulaverunt ipsius monasterii vel que sivi tempore
                         nostro copulaverint, insimul cum eisdem servis sivi copulatis et cum filiis,
@@ -163,7 +163,8 @@
                             <date>Data III kalendas Septembrii anno quinto principatus domni
                             Landolfi gloriosi principis et anno secundo principatus domni Pandolfi
                             eius filii, indictione secunda. Actum in <rs key="#Cities">civitate</rs>
-                                <placeName key="#Cities #Assembly" ref="#s">Capuana</placeName></date>.</ab>
+                            <placeName key="#Cities #Assembly" ref="#s"
+                        >Capuana</placeName></date>.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
