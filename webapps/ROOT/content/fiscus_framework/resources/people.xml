@@ -2896,8 +2896,8 @@
                     <idno>people/332</idno>
                     <note>Tagliente 2018</note>
                     <link type="places" corresp="#places/173" subtype="hasConnectionWith"/>
-                    <link type="people" corresp="#people/305" subtype="link"/>
-                    <link type="people" corresp="#people/154" subtype="link"/>
+                    <link type="people" corresp="#people/305" subtype="gratitudeTo"/>
+                    <link type="people" corresp="#people/154" subtype="gratitudeTo"/>
                     <link type="juridical_persons" corresp="#juridical_persons/84" subtype="link"/>
                 </person>
                 <person>
@@ -6151,6 +6151,18 @@
                             subtype="link"/>
                         <link type="people" corresp="#people/407"
                             subtype="gratitudeTo"/>
+                    </person>
+                    <person>
+                        <persName>Petrus (917); abbas</persName>
+                        <persName type="other"/>
+                        <idno>people/1996</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/84"
+                            subtype="link"/>
+                        <link type="people" corresp="#people/154"
+                            subtype="link"/>
+                        <link type="people" corresp="#people/305"
+                            subtype="link"/>
                     </person>
                 </listPerson>
             </listPerson>
