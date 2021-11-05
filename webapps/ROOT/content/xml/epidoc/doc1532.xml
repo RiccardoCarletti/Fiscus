@@ -82,9 +82,21 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>Idem. Anualdo tribuno fundum Casamaior et Longoieianum ex corpore patrimonii
-                        Lavicani territorio Prenestino miliario ab urbe Roma minus plus .XII.,
-                        prestat numero semis quartum auri solidi.</ab>
+                    <ab>Idem (<persName key="#Popes" ref="#people/71">Gregorius iunior</persName>
+                        locat) <persName><name ref="Ansualdus">Anualdo</name></persName>
+                        <rs>tribuno</rs>
+                        <rs key="#Fundi">fundum</rs>
+                        <geogName
+                            key="#Fundi #Fiscal_property #Object #Outflow #Allocation_to_individuals #Rent_in_money"
+                            >Casamaior</geogName> et <geogName
+                            key="#Fundi #Fiscal_property #Object #Outflow #Allocation_to_individuals #Rent_in_money"
+                            >Longoieianum</geogName> ex corpore <rs key="#Patrimonium"
+                            >patrimonii</rs>
+                        <geogName key="#Patrimonium" ref="#estates/192">Lavicani</geogName>
+                        <rs key="#City_territory">territorio</rs>
+                        <geogName key="#City_territory">Prenestino</geogName> miliario ab urbe Roma
+                        minus plus .XII., <rs key="#Rent_in_money">prestat numero semis quartum auri
+                            solidi</rs>.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
