@@ -81,23 +81,32 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>In nomine domini nostri Iesu Christi regnante domino Berengario <rs
-                            key="#Emperor/king">rege</rs> hic in Italia. anno nono decimo. sub die
+                    <ab>In nomine domini nostri Iesu Christi regnante domino <persName
+                            key="#Emperor/king" ref="#people/21">Berengario</persName>
+                        <rs key="#Emperor/king">rege</rs> hic in Italia. anno nono decimo. sub die
                         primo mense septenbrio indicione . . . . . feliciter. Dilectissimo atque
-                        amantissimo michi semper Ingelfredus <rs key="#Alemannus">ex genere
-                            Alemannorum</rs> qui habitaturus <rs key="#Fines">in fine
-                            Furvulanense</rs>
-                        <rs key="#friendshipFor">amicus meus michi fideliter servire </rs> visus
-                        est. Ego in Dei nomini omnipotentis Adelardus <rs key="#Bishops">venerapilis
-                            episcopus</rs>
-                        <rs key="#Churches">sancte Veronensis ecclesie </rs>amicus et donator tuus
+                        amantissimo michi semper <persName key="#Alemannus #friendshipFor"
+                            ref="#people/165">Ingelfredus</persName>
+                        <rs key="#Alemannus">ex genere Alemannorum</rs> qui habitaturus <geogName
+                            key="#Fines" ref="#estates/504"><rs key="#Fines">in fine
+                                Furvulanense</rs>
+                        </geogName><rs key="#friendshipFor">amicus meus michi fideliter servire
+                        </rs> visus est. Ego in Dei nomini omnipotentis <persName
+                            key="#Bishops #friendshipFor" ref="#people/123">Adelardus</persName>
+                        <rs key="#Bishops">venerapilis episcopus</rs>
+                        <orgName key="#Churches"><rs key="#Churches">sancte Veronensis ecclesie
+                            </rs></orgName><rs key="#friendshipFor">amicus </rs>et donator tuus
                         presens et presentibus dixi. scribere previdi dilectionis tue ex meo dono et
                         consensu atque concedo et trado tibi infrascripto Ingelfredo concedere atque
                         confirmare visus sum a presenti die et hora ad proprietatem tuam habendum
-                        idest in integrum omnibus rebus illis quas michi advenit a Wicherio et site
-                        sunt ipse res <rs key="#Comitatus">in comitatu Montisiligano </rs>seu in
-                        Cona aut in Montagnana seu in Petriolo vel per singula loca in suprascripto
-                        comitatu Montisilicano tam <rs key="#Curtes">curtis</rs>
+                        idest in integrum omnibus rebus illis <rs>quas michi advenit </rs>a
+                            <persName key="#nephewOf">Wicherio </persName>et site sunt ipse res
+                                <geogName><rs key="#Comitatus">in comitatu Montisiligano
+                            </rs></geogName>seu in <geogName><placeName>Cona
+                        </placeName></geogName>aut <geogName><placeName>in Montagnana</placeName>
+                        </geogName>seu in <geogName><placeName>Petriolo</placeName>
+                        </geogName>vel per singula loca in suprascripto comitatu Montisilicano tam
+                            <rs key="#Curtes">curtis</rs>
                         <rs key="#Domuscultae">domi cultis </rs><rs key="#Casae/cassinae_massaricie"
                             >massariciis </rs>de <rs key="#Wine">vineis </rs>vero tam de <rs
                             key="#Cereals">terris aratoris seu agris</rs>. <rs key="#Wine"
