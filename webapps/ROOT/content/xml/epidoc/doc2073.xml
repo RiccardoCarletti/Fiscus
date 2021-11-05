@@ -4,9 +4,8 @@
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
-                <title><title>Roma, Biblioteca Vaticana, Cod. Barb. lat. 2724, cc. 147r-148v
-                            (<foreign>Chronicon Vulturnense</foreign>, II, n. 80) </title></title>
-            </titleStmt>
+                <title>Roma, Biblioteca Vaticana, Cod. Barb. lat. 2724, cc. 147r-148v
+                            (<foreign>Chronicon Vulturnense</foreign>, II, n. 80) </title></titleStmt>
             <editionStmt>
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
                     <date when="2021">2021</date>
@@ -31,10 +30,10 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#"/>
-                            <rs type="record_source" ref="#"/>
-                            <rs type="document_tradition" ref="#"/>
-                            <rs type="fiscal_property"/>
+                            <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">Uncertain</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -42,11 +41,11 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate notBefore="0001" notAfter="0001" when="0001"> 
-                                <note type="displayed_date"></note>
-                                <note type="dating_elements"></note>
-                                <note type="topical_date"></note>
-                                <note type="redaction_date"></note>
+                            <origDate when="0892-08">
+                                <note type="displayed_date">892 August </note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Benevento</note>
+                                <note type="redaction_date"/>
                             </origDate>
                             <origPlace/>
                         </origin>
@@ -82,54 +81,56 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>In nomine Domini. Ego Georgius patricius, imperialis protospatharius et
-                        stratigos Cephalonie atque Longobardie, dum residerem in Dei nomine intus
-                        palacio Beneventi, entilma facio tibi Maioni, venerabili abbati monasterii
-                        Sancti Vincencii, insuper et tibi Adelperto, preposito Beati Petri apostoli,
-                        quod edificatum est foras Beneventani erga fluvio Sabbati, quam et rector
-                        monasterii Sancte Dei genitricis Marie, quod edificatum est in Loco Sano,
-                        que supradicta monasteria subiecta sunt monasterio Sancti Vincencii, ut non
-                        quiscumque homo sit, qui audeat aut presumat facere aliquam contrarietatem,
-                        aut lesionem in causam de predictis tribus monasteriis, ubicumque habuerint
-                        pertinencia, in quacumque terra et loca ubi fuerit dominacio sanctorum
-                        imperatorum, ut nullam forciam, aut applicacionem ibidem faciant servi
-                        sanctorum imperatorum, nec in predictis monasteriis, seu cellis, sive
-                        curtis, et omnibus eorum pertinenciis, neque de omnibus servis, aut de
-                        omnibus eorum subiectis, qui in eorum pertinenciis sunt residentes. et
-                        nullam dicionem, aut tributum, sive portaticum, aut portunaticum, vel
-                        ripaticum a vobis predictis Maione abbate, et Adelperto preposito, qui estis
-                        rectores ex predictis venerabilibus locis, nec a nullo monacho vestro, vel a
-                        servis, et omnibus subditis vobis umquam exigant. et nullus homo presumat
-                        vel audeat exinde quodcumque tollere, vel contraire, res, domos, servos, vel
-                        ancillas, omnia et in omnibus, que in predictis monasteriis concessa sunt a
-                        regibus Francorum, sive a principibus Longobardorum per precepta, vel omnia,
-                        que per chartas, vel offerciones, sive per empcionem, vel quocumque nomine
-                        concessum, aut paratum habuistis, vel amodo in antea quolibet modo fuerit
-                        ibidem concessum aut paratum, ut amodo et semper, pro statu sanctorum
-                        imperatorum, et illorum mercede, vos et vestri successores omnia, que
-                        superius leguntur, firmiter et securiter possideatis. et nullus homo
-                        presumat de sua civitate qualemcumque monachum, a maiore usque ad minimum,
-                        de predictis monasteriis de suis habitacionibus foras eicere, aut quamlibet
-                        novam consuetudinem super eosdem monachos, et eorum monasteria, et in
-                        omnibus eorum pertinenciis inducere, aut facere, pro eo quod vos monachos de
-                        predictis venerabilibus locis die noctuque pro sanitate, et prosperitate
-                        invictissimorum imperatorum, et pro omni illorum exercitu dominum Deum
-                        exoratis. pro quo hanc entilma in illorum mercede vobis firmamus predictorum
-                        abbatis et eius prepositi in parte, ex vestra monasteria, et ad vestris
-                        successoribus. et innotescimus ac protestamur vos christianos omnes, qui
-                        fideles estis, et oratis pro sanctissimis imperatoribus, tam episcopos omnes
-                        Domino servientes, quam et protospatharios, et spatarios, candidatos,
-                        cartularios, et protonotarios, tomarcos, armenos, grecos, seu longobardos
-                        gastaldeos, et omnibus hominibus precipimus, qui fideles sunt Dei, et
-                        sanctorum imperatorum, videntes et cognoscentes istam nostram entilma, ut
-                        sic ipsa pleniter observetis, et firmiter ea adimpleatis, sicut supra omnia
-                        continet, et quomodo pro statu sanctorum imperatorum ad hec tria prescripta
-                        monasteria firmavimus. Et qui istam entilma non observaverit, aut firmiter
-                        eam non adimpleverit, sciat se esse dapmnatum, contepmtor et offensor Dei,
-                        et sanctorum imperatorum, et statim omnes res illius in palacio sanctorum
-                        imperatorum deveniant, insuper et Dei iram, et nostram superinductam, et
-                        magnum patibulum sciat se sustinere. Quam vero entilmam nostram vullavimus
-                        cum vulla nostra plumbea mense augusto decima indiccione.</ab>
+                    <ab>In nomine Domini. Ego <persName>Georgius</persName>
+                        <rs>patricius</rs>, imperialis <rs>protospatharius</rs> et<rs>
+                            stratigos</rs> Cephalonie atque Longobardie, dum residerem in Dei nomine
+                        intus palacio Beneventi, entilma facio tibi Maioni, venerabili abbati
+                        monasterii Sancti Vincencii, insuper et tibi Adelperto, preposito Beati
+                        Petri apostoli, quod edificatum est foras Beneventani erga fluvio Sabbati,
+                        quam et rector monasterii Sancte Dei genitricis Marie, quod edificatum est
+                        in Loco Sano, que supradicta monasteria subiecta sunt monasterio Sancti
+                        Vincencii, ut non quiscumque homo sit, qui audeat aut presumat facere
+                        aliquam contrarietatem, aut lesionem in causam de predictis tribus
+                        monasteriis, ubicumque habuerint pertinencia, in quacumque terra et loca ubi
+                        fuerit dominacio sanctorum imperatorum, ut nullam forciam, aut applicacionem
+                        ibidem faciant servi sanctorum imperatorum, nec in predictis monasteriis,
+                        seu cellis, sive curtis, et omnibus eorum pertinenciis, neque de omnibus
+                        servis, aut de omnibus eorum subiectis, qui in eorum pertinenciis sunt
+                        residentes. et nullam dicionem, aut tributum, sive portaticum, aut
+                        portunaticum, vel ripaticum a vobis predictis Maione abbate, et Adelperto
+                        preposito, qui estis rectores ex predictis venerabilibus locis, nec a nullo
+                        monacho vestro, vel a servis, et omnibus subditis vobis umquam exigant. et
+                        nullus homo presumat vel audeat exinde quodcumque tollere, vel contraire,
+                        res, domos, servos, vel ancillas, omnia et in omnibus, que in predictis
+                        monasteriis concessa sunt a regibus Francorum, sive a principibus
+                        Longobardorum per precepta, vel omnia, que per chartas, vel offerciones,
+                        sive per empcionem, vel quocumque nomine concessum, aut paratum habuistis,
+                        vel amodo in antea quolibet modo fuerit ibidem concessum aut paratum, ut
+                        amodo et semper, pro statu sanctorum imperatorum, et illorum mercede, vos et
+                        vestri successores omnia, que superius leguntur, firmiter et securiter
+                        possideatis. et nullus homo presumat de sua civitate qualemcumque monachum,
+                        a maiore usque ad minimum, de predictis monasteriis de suis habitacionibus
+                        foras eicere, aut quamlibet novam consuetudinem super eosdem monachos, et
+                        eorum monasteria, et in omnibus eorum pertinenciis inducere, aut facere, pro
+                        eo quod vos monachos de predictis venerabilibus locis die noctuque pro
+                        sanitate, et prosperitate invictissimorum imperatorum, et pro omni illorum
+                        exercitu dominum Deum exoratis. pro quo hanc entilma in illorum mercede
+                        vobis firmamus predictorum abbatis et eius prepositi in parte, ex vestra
+                        monasteria, et ad vestris successoribus. et innotescimus ac protestamur vos
+                        christianos omnes, qui fideles estis, et oratis pro sanctissimis
+                        imperatoribus, tam episcopos omnes Domino servientes, quam et
+                        protospatharios, et spatarios, candidatos, cartularios, et protonotarios,
+                        tomarcos, armenos, grecos, seu longobardos gastaldeos, et omnibus hominibus
+                        precipimus, qui fideles sunt Dei, et sanctorum imperatorum, videntes et
+                        cognoscentes istam nostram entilma, ut sic ipsa pleniter observetis, et
+                        firmiter ea adimpleatis, sicut supra omnia continet, et quomodo pro statu
+                        sanctorum imperatorum ad hec tria prescripta monasteria firmavimus. Et qui
+                        istam entilma non observaverit, aut firmiter eam non adimpleverit, sciat se
+                        esse dapmnatum, contepmtor et offensor Dei, et sanctorum imperatorum, et
+                        statim omnes res illius in palacio sanctorum imperatorum deveniant, insuper
+                        et Dei iram, et nostram superinductam, et magnum patibulum sciat se
+                        sustinere. Quam vero entilmam nostram vullavimus cum vulla nostra plumbea
+                        mense augusto decima indiccione.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
