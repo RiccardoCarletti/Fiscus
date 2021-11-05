@@ -81,11 +81,12 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>In nomine Domini. Ego <persName key="#Patricius" ref="#people/2400"
+                    <ab>In nomine Domini. Ego <persName key="#Patricius #Other_palatine_officer" ref="#people/2400"
                             >Georgius</persName>
-                        <rs key="#Patricius">patricius</rs>, imperialis <rs>protospatharius</rs>
-                            et<rs> stratigos</rs> Cephalonie atque Longobardie, dum residerem in Dei
-                        nomine intus <rs key="#Palatia">palacio</rs>
+                        <rs key="#Patricius">patricius</rs>, imperialis <rs
+                            key="#Other_palatine_officer">protospatharius</rs> et<rs key="#Other_palatine_officer"> stratigos</rs>
+                        Cephalonie atque Longobardie, dum residerem in Dei nomine intus <rs
+                            key="#Palatia">palacio</rs>
                         <placeName key="#Palatia" ref="#places/110">Beneventi</placeName>, entilma
                         facio tibi <persName key="#Abbots" ref="#people/1926">Maioni</persName>,
                         venerabili <rs key="#Abbots">abbati</rs>
