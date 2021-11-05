@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Roma, Biblioteca Vaticana, Cod. Barb. lat. 2724, cc. 204v-205r
+                        (<foreign>Chronicon Vulturnense</foreign>, II, n. 128) </title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc2075</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Libellus/precaria/emphyteusis</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">Uncertain</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0971-02">
+                                <note type="displayed_date">971 February</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Benevento</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-11-05" who="gzornetta">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine Domini. Vicesimo octavo anno principatus domni Pandolfi gloriosi
+                        principis, et tercio anno principatus domni Landolfi filio eius, mense
+                        februario, quartadecima indiccione. Memoratorium factum a me Paulus, humilis
+                        abbas monasterii Sancti Vincencii, quod edificatum est super fluvio
+                        Vulturno, et Madelfrid, clericus atque notarius et scriba advocatorem
+                        eiusdem nostri monasterii, de hoc quod in sacratissimo Benevent[an]o
+                        palacio, ante idoneos homines qui subterscripti sunt, ordine conveniencie
+                        iuxta legem, dedimus et tradidimus Iohanni filius Maraldi clerici; et
+                        Michaheli clerici filius Saudi clerici; et Iohannes filius Iohannis iudicis,
+                        qui sunt commorantes ex civitate Lisine, ipsa ecclesia cum ipso castello ex
+                        ipso montecellu, pertinentem predicti nostri monasterii, de finibus ex eadem
+                        civitate Lisine, super ipso fluvio Caldole, p. 179 et eum ipso molino
+                        quomodo edificatum est in eodem fluvio Caldole, et cum ipsa piscacione et
+                        pertinenciis suis ex eodem fluvio Caldole, et cum ipso fluvio Sagri, cum
+                        piscacione et pertinenciis, et ipsa foce de Sancto Focato cum piscacione et
+                        pertinenciis, et terris et vineis eiusdem nostri monasterii pertinentibus,
+                        de finibus ex ipsa civitate Lisine, et muricetis suis et cum aliis omnibus
+                        aquis et pascuis suis eiusdem nostri monasterii pertinentibus, de finibus
+                        eiusdem civitati, et casis et castris et casaline et fosse de intus eadem
+                        civitate, pertinentes ipsius nostri monasterii, quam et a foras eadem
+                        civitate Lisine, tali tenore illud eorum dedimus et tradidimus cum due
+                        mancipie eiusdem nostre ecclesie, nomina illarum Domeneca et Segarda cum
+                        duobus filiis suis, ut amodo et usque ad decem annos expletos in integrum
+                        illud prelegitur ipsum tenere, dominaremus et laboraremus, et ad laborandum
+                        daremus, et ipsum resideremus, et omnem suam utilitatem illud peragere, et
+                        amodo et usque in eodem constitutum quanta piscacione in ipse eorum Dominus
+                        dederit totum illud sue proprietatis haberemus, et quantum frugium ex ipso
+                        molino et de ipsis rebus illorum Dominus dederit totum illud sibi habeant;
+                        et pro censu ex ipse atque et molinum, et de rebus, et de ipse case et
+                        casaline, et fosse et pro ipse ancille et servis annualiter daretis ipsis et
+                        suis heredibus mihi vel ad successoribus meis aut mandaretis nobis omni anno
+                        in kalendas ianuarias quinquaginta solidi Constantini boni pesanti, de
+                        quibus guadiam nobis dederunt supradicti Iohannes et Michahele clerici, et
+                        Iohannes, et mediatores nobis posuerunt Aio diaconus et abbas et Iohannes
+                        germanis filii quondam Roffridi, tali tenore ut si ea que prelegitur ipsis
+                        et suis heredibus mihi vel ad successoribus meis seu ad partem iam dicti
+                        nostri monasterii non adimpleverint vel si hoc qualitercumque se retrahere
+                        aut removere quesierint, centum solidos Constantinos nobis componere
+                        obligaverunt, p. 180 vel illius homini qui hunc brebem a parte eiusdem
+                        nostri monasterii eorum in causacionem ostenderint et omnia, ut dictum est,
+                        per innvitis nobis adimplerent, per ea[n]dem guadiam et predictos mediatores
+                        et obligata pena, et ante posuerunt ad pignerandum ad ipsi mediatori nostri
+                        sine calumnia, in omnia sua legitima et inlegitima, et ad completum eodem
+                        constitutum remitteremus in integrum illud ad partem iam dicti nostri
+                        monasterii, cum ipsum brebem, quod inde eorum emisimus atque firmavimus, per
+                        eandem guadiam et predictos mediatores et obligata pena. Actum Beneventi
+                        feliciter. Ego Sikelpoto clericus et notarius interfui. Ego Gaiderisi. Ego
+                        Ademari. Ego Adelfe. Ego Dauferi me subscripsi.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>CV II, n. 128, pp. 178-180</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
