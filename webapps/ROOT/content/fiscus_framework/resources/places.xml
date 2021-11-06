@@ -5092,6 +5092,8 @@
                             subtype="link"/>
                         <link type="juridical_persons" corresp="#juridical_persons/84"
                             subtype="link"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1900"
+                            subtype="link"/>
                     </place>
                     <place>
                         <placeName>Antraccoli (Lucca; Lucca)</placeName>
@@ -11929,12 +11931,31 @@
                         <note/>
                     </place>
                     <place>
-                        <placeName>da inserire</placeName>
+                        <placeName>Caldole; canal (Lesina; Foggia)</placeName>
                         <placeName type="other"/>
                         <geogName type="coord"><geo>
                         </geo></geogName>
                         <idno>places/685</idno>
                         <note/>
+                        <link type="places" corresp="#places/554" subtype="isInVicinityOf"/>
+                    </place>
+                    <place>
+                        <placeName>Sanctus Focatus; canal (Lesina; Foggia)</placeName>
+                        <placeName type="other">canale San Focato; Focicchia</placeName>
+                        <geogName type="coord"><geo>
+                        </geo></geogName>
+                        <idno>places/2827</idno>
+                        <note/>
+                        <link type="places" corresp="#places/554" subtype="isInVicinityOf"/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Sagrus</foreign>; canal (Lesina; Foggia)</placeName>
+                        <placeName type="other">canale San Focato; Focicchia</placeName>
+                        <geogName type="coord"><geo>
+                        </geo></geogName>
+                        <idno>places/2828</idno>
+                        <note/>
+                        <link type="places" corresp="#places/554" subtype="isInVicinityOf"/>
                     </place>
                 </listPlace>
             </listPlace>
