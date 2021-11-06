@@ -82,8 +82,10 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>In nomine Domini. <date>Anno tricesimo septimo principatus domni Pandulfi
-                            gloriosi principis, et duodecimo anno principatus domni Landolfi magni
+                    <ab>In nomine Domini. <date>Anno tricesimo septimo principatus domni <persName
+                        key="#Princeps" ref="#people/157">Pandulfi</persName>
+                        gloriosi <rs
+                            key="#Princeps">principis</rs>, et duodecimo anno principatus domni <persName key="#Princeps" ref="#people/167">Landolfi</persName> magni
                             principis filio eius, mense augusto, ottava indiccione</date>.
                         Memoratorium factum a nobis Sadi, venerabili presbitero atque preposito
                         monasterio Sancti Vincencii, situs supra fontem Vulturni fluminis mecum
@@ -191,11 +193,13 @@
                         heredes ad partem ipsius monasterii Sancti Vincencii, eiusque abbatibus,
                         atque rectoribus componere obligavit penam [.....] seu illius homini, qui
                         hec scripcione, pro parte ipsius monasterii, illorum ostenderit, et in antea
-                        omni tempore exinde taciti permaneamus. Ego Balsamus notarius interfui et
+                        omni tempore exinde taciti permaneamus. Ego <persName key="#Witness"><name ref="Balsamus">Balsamus</name></persName>
+                        <rs key="#Notary">notarius</rs> interfui et
                         scripsi in eodem sacratissimo archiepiscopio Beneventano. Ego qui supra
                         Ludovicus. Ego qui supra Dauferi me subscripsi. Ego qui supra Radelchis me
                         subscripsi. Ego qui supra Teudelgrimus. Ego qui supra Adelmari comite. Ego
-                        qui supra Dauferi. Ego Guisenolfus. Ego Madelfrit. Ego Gondelgardus.</ab>
+                        qui supra Dauferi. Ego <persName key="#Witness"><name ref="Guisenolfus">Guisenolfus</name></persName>.
+                        Ego <persName key="#Witness"><name ref="Madelfrit">Madelfrit</name></persName>. Ego <persName key="#Witness"><name ref="Gondelgardus">Gondelgardus</name></persName>.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
