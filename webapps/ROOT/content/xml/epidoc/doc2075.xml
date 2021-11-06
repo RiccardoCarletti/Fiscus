@@ -82,60 +82,90 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>In nomine Domini. <date>Vicesimo octavo anno principatus domni
-                        <persName key="#Princeps">Pandolfi</persName> gloriosi <rs key="#Princeps">principis</rs>, et tercio
-                        anno principatus domni <persName key="#Princeps">Landolfi</persName> filio eius, mense
-                            februario, quartadecima indiccione</date>. Memoratorium factum a me
-                        <persName key="#Abbots" ref="#people/1955">Paulus</persName>, humilis <rs key="#Abbots">abbas</rs>
+                    <ab>In nomine Domini. <date>Vicesimo octavo anno principatus domni <persName
+                                key="#Princeps" ref="#people/157">Pandolfi</persName> gloriosi <rs
+                                key="#Princeps">principis</rs>, et tercio anno principatus domni
+                                <persName key="#Princeps" ref="#people/167">Landolfi</persName>
+                            filio eius, mense februario, quartadecima indiccione</date>.
+                        Memoratorium factum a me <persName key="#Abbots" ref="#people/1955"
+                            >Paulus</persName>, humilis <rs key="#Abbots">abbas</rs>
                         <rs key="#Monasteries">monasterii</rs>
-                        <orgName key="#Monasteries #Abbots">Sancti Vincencii</orgName>, quod edificatum est super
-                        <rs key="#Rivers">fluvio</rs>
-                        <placeName key="#Rivers">Vulturno</placeName>, et <persName key="#Other_clerics #Notary #Advocatus" ref="#people/2401">Madelfrid</persName>,
-                        <rs key="#Other_clerics">clericus</rs> atque <rs key="#Notary">notarius</rs> et scriba <rs key="#Advocatus">advocatorem</rs>
-                        eiusdem nostri monasterii, de hoc quod in sacratissimo <placeName
-                            key="#Palatia" ref="#places/110">Beneventano</placeName>
-                        <rs key="#Palatia">palacio</rs>, ante idoneos homines qui subterscripti sunt, ordine
-                        conveniencie iuxta legem, dedimus et tradidimus Iohanni filius Maraldi
-                        clerici; et Michaheli clerici filius Saudi clerici; et Iohannes filius
-                        Iohannis iudicis, qui sunt commorantes ex civitate Lisine, ipsa ecclesia cum
-                        ipso castello ex ipso montecellu, pertinentem predicti nostri monasterii, de
-                        finibus ex eadem civitate Lisine, super ipso fluvio Caldole, et eum ipso
-                        molino quomodo edificatum est in eodem fluvio Caldole, et cum ipsa
-                        piscacione et pertinenciis suis ex eodem fluvio Caldole, et cum ipso fluvio
-                        Sagri, cum piscacione et pertinenciis, et ipsa foce de Sancto Focato cum
-                        piscacione et pertinenciis, et terris et vineis eiusdem nostri monasterii
-                        pertinentibus, de finibus ex ipsa civitate Lisine, et muricetis suis et cum
-                        aliis omnibus aquis et pascuis suis eiusdem nostri monasterii pertinentibus,
-                        de finibus eiusdem civitati, et casis et castris et casaline et fosse de
-                        intus eadem civitate, pertinentes ipsius nostri monasterii, quam et a foras
-                        eadem civitate Lisine, tali tenore illud eorum dedimus et tradidimus cum due
-                        mancipie eiusdem nostre ecclesie, nomina illarum Domeneca et Segarda cum
-                        duobus filiis suis, ut amodo et usque ad decem annos expletos in integrum
-                        illud prelegitur ipsum tenere, dominaremus et laboraremus, et ad laborandum
-                        daremus, et ipsum resideremus, et omnem suam utilitatem illud peragere, et
-                        amodo et usque in eodem constitutum quanta piscacione in ipse eorum Dominus
-                        dederit totum illud sue proprietatis haberemus, et quantum frugium ex ipso
+                        <orgName key="#Monasteries #Abbots">Sancti Vincencii</orgName>, quod
+                        edificatum est super <rs key="#Rivers">fluvio</rs>
+                        <placeName key="#Rivers" ref="#places/609">Vulturno</placeName>, et
+                            <persName key="#Other_clerics #Notary #Advocatus" ref="#people/2401"
+                            >Madelfrid</persName>, <rs key="#Other_clerics">clericus</rs> atque <rs
+                            key="#Notary">notarius</rs> et scriba <rs key="#Advocatus"
+                            >advocatorem</rs> eiusdem nostri monasterii, de hoc quod in sacratissimo
+                            <placeName key="#Palatia" ref="#places/110">Beneventano</placeName>
+                        <rs key="#Palatia">palacio</rs>, ante idoneos homines qui subterscripti
+                        sunt, ordine conveniencie iuxta legem, dedimus et tradidimus <persName><name
+                                ref="Iohannes">Iohanni</name></persName> filius <persName
+                            key="#Other_clerics"><name ref="Maraldus">Maraldi</name></persName>
+                        <rs key="#Other_clerics">clerici</rs>; et <persName key="#Other_clerics"
+                                ><name ref="Michael">Michaheli</name></persName> clerici filius
+                            <persName key="#Other_clerics"><name ref="Saudus"
+                            >Saudi</name></persName>
+                        <rs key="#Other_clerics">clerici</rs>; et <persName><name ref="Iohannes"
+                                >Iohannes</name></persName> filius <persName key="#Judge"><name
+                                ref="Iohannes">Iohannis</name></persName>
+                        <rs key="#Judge">iudicis</rs>, qui sunt commorantes ex <rs key="#Cities"
+                            >civitate</rs>
+                        <placeName
+                            key="#Cities #City_territory #Houses #Cereals #Animals #Hay/fodder #Casalini/fundamenta #Landed_possessions #Wine #Mills #Churches #Castle #Slave #Slave_labour"
+                            ref="#places/554">Lisine</placeName>, ipsa <rs key="#Churches"
+                            >ecclesia</rs> cum ipso <rs key="#Castle">castello</rs> ex ipso
+                        montecellu, pertinentem predicti nostri monasterii, de <rs
+                            key="#City_territory">finibus</rs> ex eadem civitate Lisine, super ipso
+                            <rs key="#Rivers">fluvio</rs>
+                        <placeName key="#Rivers #Mills #Fisheries #Fish">Caldole</placeName>, et eum
+                        ipso <rs key="#Mills">molino</rs> quomodo edificatum est in eodem fluvio
+                        Caldole, et cum ipsa <rs key="#Fisheries #Fish">piscacione</rs> et
+                        pertinenciis suis ex eodem fluvio Caldole, et cum ipso <rs key="#Rivers"
+                            >fluvio</rs>
+                        <placeName key="#Rivers #Fisheries #Fish">Sagri</placeName>, cum <rs
+                            key="#Fisheries #Fish">piscacione</rs> et pertinenciis, et ipsa foce de
+                            <placeName key="#Rivers #Fisheries #Fish">Sancto Focato</placeName> cum
+                            <rs key="#Fisheries #Fish">piscacione</rs> et pertinenciis, et <rs
+                            key="#Landed_possessions">terris</rs> et <rs key="#Wine">vineis</rs>
+                        eiusdem nostri monasterii pertinentibus, de finibus ex ipsa civitate Lisine,
+                        et muricetis suis et cum aliis omnibus aquis et <rs
+                            key="#Animals #Hay/fodder">pascuis</rs> suis eiusdem nostri monasterii
+                        pertinentibus, de finibus eiusdem civitati, et <rs key="#Houses">casis</rs>
+                        et <rs key="#Castle">castris</rs> et <rs key="#Casalini/fundamenta"
+                            >casaline</rs> et fosse de intus eadem civitate, pertinentes ipsius
+                        nostri monasterii, quam et a foras eadem civitate Lisine, tali tenore illud
+                        eorum dedimus et tradidimus cum due <rs key="#Slave #Slave_labour">mancipie</rs> eiusdem nostre
+                        ecclesie, nomina illarum <persName key="#Slave #Slave_labour"><name ref="Domenica"
+                            >Domeneca</name></persName> et <persName key="#Slave #Slave_labour"><name ref="Segarda"
+                                >Segarda</name></persName> cum duobus filiis suis, ut amodo et usque
+                        ad decem annos expletos in integrum illud prelegitur ipsum tenere,
+                        dominaremus et laboraremus, et ad laborandum daremus, et ipsum resideremus,
+                        et omnem suam utilitatem illud peragere, et amodo et usque in eodem
+                        constitutum quanta piscacione in ipse eorum Dominus dederit totum illud sue
+                        proprietatis haberemus, et quantum <rs key="#Cereals">frugium</rs> ex ipso
                         molino et de ipsis rebus illorum Dominus dederit totum illud sibi habeant;
-                        et pro censu ex ipse atque et molinum, et de rebus, et de ipse case et
-                        casaline, et fosse et pro ipse ancille et servis annualiter daretis ipsis et
-                        suis heredibus mihi vel ad successoribus meis aut mandaretis nobis omni anno
-                        in kalendas ianuarias quinquaginta solidi Constantini boni pesanti, de
-                        quibus guadiam nobis dederunt supradicti Iohannes et Michahele clerici, et
-                        Iohannes, et mediatores nobis posuerunt Aio diaconus et abbas et Iohannes
-                        germanis filii quondam Roffridi, tali tenore ut si ea que prelegitur ipsis
-                        et suis heredibus mihi vel ad successoribus meis seu ad partem iam dicti
-                        nostri monasterii non adimpleverint vel si hoc qualitercumque se retrahere
-                        aut removere quesierint, centum solidos Constantinos nobis componere
-                        obligaverunt, vel illius homini qui hunc brebem a parte eiusdem nostri
-                        monasterii eorum in causacionem ostenderint et omnia, ut dictum est, per
-                        innvitis nobis adimplerent, per eandem guadiam et predictos mediatores et
-                        obligata pena, et ante posuerunt ad pignerandum ad ipsi mediatori nostri
-                        sine calumnia, in omnia sua legitima et inlegitima, et ad completum eodem
-                        constitutum remitteremus in integrum illud ad partem iam dicti nostri
-                        monasterii, cum ipsum brebem, quod inde eorum emisimus atque firmavimus, per
-                        eandem guadiam et predictos mediatores et obligata pena. Actum Beneventi
-                        feliciter. Ego Sikelpoto clericus et notarius interfui. Ego Gaiderisi. Ego
-                        Ademari. Ego Adelfe. Ego Dauferi me subscripsi.</ab>
+                        et pro <rs key="#Census">censu</rs> ex ipse atque et molinum, et de rebus,
+                        et de ipse case et casaline, et fosse et pro ipse ancille et servis
+                        annualiter daretis ipsis et suis heredibus mihi vel ad successoribus meis
+                        aut mandaretis nobis omni anno in kalendas ianuarias quinquaginta solidi
+                        Constantini boni pesanti, de quibus guadiam nobis dederunt supradicti
+                        Iohannes et Michahele clerici, et Iohannes, et mediatores nobis posuerunt
+                        Aio diaconus et abbas et Iohannes germanis filii quondam Roffridi, tali
+                        tenore ut si ea que prelegitur ipsis et suis heredibus mihi vel ad
+                        successoribus meis seu ad partem iam dicti nostri monasterii non
+                        adimpleverint vel si hoc qualitercumque se retrahere aut removere
+                        quesierint, centum solidos Constantinos nobis componere obligaverunt, vel
+                        illius homini qui hunc brebem a parte eiusdem nostri monasterii eorum in
+                        causacionem ostenderint et omnia, ut dictum est, per innvitis nobis
+                        adimplerent, per eandem guadiam et predictos mediatores et obligata pena, et
+                        ante posuerunt ad pignerandum ad ipsi mediatori nostri sine calumnia, in
+                        omnia sua legitima et inlegitima, et ad completum eodem constitutum
+                        remitteremus in integrum illud ad partem iam dicti nostri monasterii, cum
+                        ipsum brebem, quod inde eorum emisimus atque firmavimus, per eandem guadiam
+                        et predictos mediatores et obligata pena. Actum Beneventi feliciter. Ego
+                        Sikelpoto clericus et notarius interfui. Ego Gaiderisi. Ego Ademari. Ego
+                        Adelfe. Ego Dauferi me subscripsi.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
