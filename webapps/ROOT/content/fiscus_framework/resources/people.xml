@@ -5951,7 +5951,7 @@
                         <link type="estates" corresp="#estates/1914" subtype="hasConnectionWith"/>
                     </person>
                     <person>
-                        <persName>Audoaldus (981); advocatus</persName>
+                        <persName>Audoaldus (980-981); advocatus</persName>
                         <persName type="other"/>
                         <idno>people/1972</idno>
                         <note/>
@@ -6002,13 +6002,14 @@
                         <link type="places" corresp="#places/112" subtype="hasConnectionWith"/>
                     </person>
                     <person>
-                        <persName>Landolfus (956-083; episcopus)</persName>
+                        <persName>Landolfus (956-983; episcopus)</persName>
                         <persName type="other">Landolfo I</persName>
                         <idno>people/1977</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/1913"
                             subtype="link"/>
                         <link type="places" corresp="#places/110" subtype="hasConnectionWith"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/"/>
                     </person>
                     <person>
                         <persName>Pando (973); gastaldus et iudex</persName>
@@ -6265,11 +6266,35 @@
                         <idno>people/2402</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="agentFor"/>
+                            subtype="link"/>
                         <link type="people" corresp="#people/157"
                             subtype="agentFor"/>
                         <link type="places" corresp="#places/110" subtype="hasConnectionWith"/>
                         <link type="places" corresp="#places/554" subtype="hasConnectionWith"/>
+                    </person>
+                    <person>
+                        <persName>Ludovicus (980); gastaldus</persName>
+                        <persName type="other"/>
+                        <idno>people/2403</idno>
+                        <note/>
+                        <link type="people" corresp="#people/157"
+                            subtype="agentFor"/>
+                        <link type="people" corresp="#people/167"
+                            subtype="agentFor"/>
+                        <link type="places" corresp="#places/110" subtype="hasConnectionWith"/>
+                    </person>
+                    <person>
+                        <persName>Dauferius (980); gastaldus</persName>
+                        <persName type="other"/>
+                        <idno>people/2404</idno>
+                        <note/>
+                        <link type="people" corresp="#people/157"
+                            subtype="agentFor"/>
+                        <link type="people" corresp="#people/167"
+                            subtype="agentFor"/>
+                        <link type="people" corresp="#people/2403"
+                            subtype="link"/>
+                        <link type="places" corresp="#places/110" subtype="hasConnectionWith"/>
                     </person>
                 </listPerson>
             </listPerson>
