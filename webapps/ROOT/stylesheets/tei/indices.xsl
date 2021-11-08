@@ -294,6 +294,7 @@
     <button type="button" class="expander" onclick="$(this).next().toggle();">Show/Hide</button>
     <ul class="expanded hidden">
       <xsl:for-each select="$item">
+        <xsl:sort select="substring-after(translate(translate(., 'italicsstart', ''), 'italicsend', ''), '#')"/>
         <li>
           <a target="_blank" href="{concat('estates.html#', substring-before(., '#'))}">
             <xsl:analyze-string select="substring-before(substring-after(normalize-space(.), '#'), '@')" regex="italicsstart(.*?)italicsend">
@@ -317,6 +318,7 @@
     <button type="button" class="expander" onclick="$(this).next().toggle();">Show/Hide</button>
     <ul class="expanded hidden">
       <xsl:for-each select="$item">
+        <xsl:sort select="substring-after(translate(translate(., 'italicsstart', ''), 'italicsend', ''), '#')"/>
         <li>
           <a target="_blank" href="{concat('juridical_persons.html#', substring-before(., '#'))}">
             <xsl:analyze-string select="substring-before(substring-after(normalize-space(.), '#'), '@')" regex="italicsstart(.*?)italicsend">
@@ -340,6 +342,7 @@
     <button type="button" class="expander" onclick="$(this).next().toggle();">Show/Hide</button>
     <ul class="expanded hidden">
       <xsl:for-each select="$item">
+        <xsl:sort select="substring-after(translate(translate(., 'italicsstart', ''), 'italicsend', ''), '#')"/>
         <li>
           <a target="_blank" href="{concat('people.html#', substring-before(., '#'))}">
             <xsl:analyze-string select="substring-before(substring-after(normalize-space(.), '#'), '@')" regex="italicsstart(.*?)italicsend">
@@ -364,6 +367,7 @@
     <button type="button" class="expander" onclick="$(this).next().toggle();">Show/Hide</button>
     <ul class="expanded hidden">
       <xsl:for-each select="$item">
+        <xsl:sort select="substring-after(translate(translate(., 'italicsstart', ''), 'italicsend', ''), '#')"/>
         <li>
           <a target="_blank" href="{concat('places.html#', substring-before(., '#'))}">
             <xsl:analyze-string select="substring-before(substring-after(normalize-space(.), '#'), '@')" regex="italicsstart(.*?)italicsend">
