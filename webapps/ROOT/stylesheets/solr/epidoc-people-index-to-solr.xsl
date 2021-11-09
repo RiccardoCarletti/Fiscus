@@ -19,16 +19,19 @@
       <xsl:for-each select="$root//tei:div[@type='edition']//tei:persName/@ref"><xsl:value-of select="concat(' ', replace(., '#', ''), ' ')"/></xsl:for-each>
     </xsl:variable>
     <xsl:variable name="not_mentioned" select="$people/tei:person/tei:persName[not(@type='other')][not(.='XXX')][not(contains(normalize-space($all_mentions), normalize-space(concat(' ', following-sibling::tei:idno, ' '))))]"/>
+    <xsl:variable name="id-values">
+      <xsl:for-each select="//tei:persName[ancestor::tei:div/@type='edition'][@ref!='']/@ref|$not_mentioned/following-sibling::tei:idno">
+        <xsl:value-of select="normalize-space(translate(., '#', ''))" />
+        <xsl:text> </xsl:text>
+      </xsl:for-each>
+    </xsl:variable>
+    <xsl:variable name="ids" select="distinct-values(tokenize(normalize-space($id-values), '\s+'))" /> 
     
     <add>
-      <xsl:for-each-group select="//tei:persName[ancestor::tei:div/@type='edition'][@ref!='']|$not_mentioned" group-by="concat(translate(replace(@ref, ' #', '; '), '#', ''),'-',translate(translate(following-sibling::tei:idno, '#', ''), ' ', ''))">
-        <xsl:variable name="el-id">
-          <xsl:choose>
-            <xsl:when test="ancestor::tei:div[@type='edition']"><xsl:value-of select="translate(replace(@ref, ' #', '; '), '#', '')"/></xsl:when>
-            <xsl:otherwise><xsl:value-of select="translate(translate(following-sibling::tei:idno, '#', ''), ' ', '')"/></xsl:otherwise>
-          </xsl:choose>
-        </xsl:variable>
+      <xsl:for-each select="$ids">
+        <xsl:variable name="el-id" select="."/>
         <xsl:variable name="element-id" select="$people/tei:person[translate(translate(child::tei:idno, '#', ''), ' ', '')=$el-id][child::tei:persName!=''][1]"/>
+        <xsl:variable name="item" select="$root//tei:persName[ancestor::tei:div/@type='edition'][@ref!=''][contains(concat(' ', translate(@ref, '#', ''), ' '), $el-id)]|$not_mentioned"/>
         <doc>
           <field name="document_type">
             <xsl:value-of select="$subdirectory" />
@@ -264,10 +267,9 @@
             </field>
           </xsl:if>
           <!-- ### Linked items end ### -->
-          
-          <xsl:apply-templates select="current-group()" />
+          <xsl:apply-templates select="$item" />
         </doc>
-      </xsl:for-each-group>
+      </xsl:for-each>
       
       <xsl:for-each-group select="//tei:persName[ancestor::tei:div/@type='edition'][not(@ref) or @ref=''][not(descendant::tei:name[@ref!=''])][not(ancestor::tei:name[@ref!=''])]" group-by="lower-case(.)">
         <doc>
