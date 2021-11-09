@@ -122,10 +122,14 @@
     
     <!-- PLACES COORDINATES -->
     <pattern id="Test_coordinates_correctness">
-        <rule context="//t:geo">
-            <report test="starts-with(., ' ') or ends-with(., ' ')">there are extra spaces in the coordinates of one or more places</report>
-            <!-- ... to be continued -->
+        <rule context="//t:geo[text()!=''][@style='line']|//t:geo[not(@style='line')][contains(., ';')]">
+            <report test="not(matches(., '^(\d{1,2}(\.\d+){0,1},\s+?\d{1,2}(\.\d+){0,1};\s+?)+\d{1,2}(\.\d+){0,1},\s+?\d{1,2}(\.\d+){0,1}$'))">The coordinates of one or more places are not correct. Examples: POINT: 43.575, 11.871 POLYGON/LINE: 45.351, 9.475; 45.345, 9.477; 45.346, 9.481</report>
+        </rule>
+        <rule context="//t:geo[text()!=''][not(@style='line')][not(contains(., ';'))]">
+            <report test="not(matches(., '^\d{1,2}(\.\d+){0,1},\s+?\d{1,2}(\.\d+){0,1}$'))">The coordinates of one or more places are not correct. Examples: POINT: 43.575, 11.871 POLYGON/LINE: 45.351, 9.475; 45.345, 9.477; 45.346, 9.481</report>
         </rule>
     </pattern>
+    
+    <!-- add checker for @key/@ref in documents? -->
     
 </schema>
