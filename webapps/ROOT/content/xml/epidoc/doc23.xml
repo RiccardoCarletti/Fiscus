@@ -32,7 +32,7 @@
                         <summary>
                             <rs type="text_type" ref="#">Imperial/royal diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
-                            <rs type="document_tradition" ref="ausohnum.huma-num.fr/concept/c26112">Original</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
                             <rs type="fiscal_property">yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
@@ -82,15 +82,15 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>(C)IN NOMINE D(OMI)NI DEI AETERNI. <persName key="#emperor/king" ref="people/21">BERENGARIUS</persName>
+                    <ab>(C)IN NOMINE D(OMI)NI DEI AETERNI. <persName key="#emperor/king" ref="#people/21">BERENGARIUS</persName>
 <rs key="#emperor/king">REX</rs>. NOVERIT OMNIUM FIDELIUM SANCTAE DEI
-                        ECCLESIAE NOSTRORUMQUE PRESENTIUM SCILICET AC FUTURORUM INDUSTRIA, <persName key="#abbesses" ref="people/67">Berchtam, religiosissimam <orgName key="#monasteries" ref="juridical_persons/30">monasterii Sanctae
+                        ECCLESIAE NOSTRORUMQUE PRESENTIUM SCILICET AC FUTURORUM INDUSTRIA, <persName key="#abbesses" ref="#people/67">Berchtam, religiosissimam <orgName key="#monasteries" ref="#juridical_persons/30">monasterii Sanctae
 Iulię</orgName>
 <rs key="#abbesses">abbatissam</rs> dilectamque filiam
 nostram</persName>, suppliciter nostram exorasse clementiam, quatenus
 quandam <rs key="#roads">viam publicam</rs> in circuitu <rs key="#castle">castelli</rs> prefati monasterii, quod <placeName key="#castle">Sendali</placeName> dicitur, discurrentem finibus <rs key="#comitatus">comitatus</rs>
-<placeName key="#comitatus" ref="places/9">Brixiensis</placeName>, in <rs key="#pagus">pago et fundo</rs>
-<placeName key="#pagus" ref="places/26">Temolina</placeName>, eidem monasterio, <rs key="#iure_proprietatis/pleno_iure">iure proprietario</rs>, ad incidendum
+<placeName key="#comitatus" ref="#places/9">Brixiensis</placeName>, in <rs key="#pagus">pago et fundo</rs>
+<placeName key="#pagus" ref="#places/26">Temolina</placeName>, eidem monasterio, <rs key="#iure_proprietatis/pleno_iure">iure proprietario</rs>, ad incidendum
 concedere dignaremur. Cuius precibus acclinati, eandem viam publicam
 existentem in circuitu prefati castelli monasterio Beatę Iuliae, iure
 proprietario, <rs key="#public_infrastructures">ad incidendum</rs> et <rs key="#public_infrastructures">fossata facienda</rs> omnemque <rs key="#public_infrastructures">monitionem edificandam </rs>et quicquid
