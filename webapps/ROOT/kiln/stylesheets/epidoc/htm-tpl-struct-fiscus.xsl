@@ -17,50 +17,21 @@
         <xsl:value-of select="substring-after(replace(//t:publicationStmt//t:idno, ' ', ''), 'doc')"/>
         <br/>
         <b>Author(s): </b>
+        <xsl:variable name="first-author" select="lower-case(//t:change[1]/@who)"/>
+        <xsl:variable name="last-author" select="lower-case(//t:change[last()]/@who)"/>
+        <xsl:variable name="name" select="document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/xml/tei/team.xml'))//t:p[@xml:id]"/> 
+        <xsl:variable name="first-author-name" select="$name[@xml:id=$first-author]"/>
+        <xsl:variable name="last-author-name" select="$name[@xml:id=$last-author]"/>
         <xsl:choose>
-          <xsl:when test="contains(lower-case(//t:change[1]/@who), 'lazzari')"><xsl:text>Tiziana Lazzari</xsl:text></xsl:when>
-          <xsl:when test="contains(lower-case(//t:change[1]/@who), 'tabarrini')"><xsl:text>Lorenzo Tabarrini</xsl:text></xsl:when>
-          <xsl:when test="contains(lower-case(//t:change[1]/@who), 'vignodelli')"><xsl:text>Giacomo Vignodelli</xsl:text></xsl:when>
-          <xsl:when test="contains(lower-case(//t:change[1]/@who), 'collavini')"><xsl:text>Simone Maria Collavini</xsl:text></xsl:when>
-          <xsl:when test="contains(lower-case(//t:change[1]/@who), 'tomei')"><xsl:text>Paolo Tomei</xsl:text></xsl:when>
-          <xsl:when test="contains(lower-case(//t:change[1]/@who), 'internullo')"><xsl:text>Dario Internullo</xsl:text></xsl:when>
-          <xsl:when test="contains(lower-case(//t:change[1]/@who), 'vlore')"><xsl:text>Vito Loré</xsl:text></xsl:when>
-          <xsl:when test="contains(lower-case(//t:change[1]/@who), 'ciccopiedi')"><xsl:text>Caterina Ciccopiedi</xsl:text></xsl:when>
-          <xsl:when test="contains(lower-case(//t:change[1]/@who), 'manarini')"><xsl:text>Edoardo Manarini</xsl:text></xsl:when>
-          <xsl:when test="contains(lower-case(//t:change[1]/@who), 'vallerani')"><xsl:text>Massimo Valerio Vallerani</xsl:text></xsl:when>
-          <xsl:when test="contains(lower-case(//t:change[1]/@who), 'cinello')"><xsl:text>Erika Cinello</xsl:text></xsl:when>
-          <xsl:when test="contains(lower-case(//t:change[1]/@who), 'tagliente')"><xsl:text>Antonio Tagliente</xsl:text></xsl:when>
-          <xsl:when test="contains(lower-case(//t:change[1]/@who), 'zornetta')"><xsl:text>Giulia Zornetta</xsl:text></xsl:when>
-          <xsl:when test="contains(lower-case(//t:change[1]/@who), 'dimuro')"><xsl:text>Alessandro Di Muro</xsl:text></xsl:when>
-          <xsl:when test="contains(lower-case(//t:change[1]/@who), 'magos')"><xsl:text>Victor Rivera Magos</xsl:text></xsl:when>
-          <xsl:when test="contains(lower-case(//t:change[1]/@who), 'motta')"><xsl:text>Loris Motta</xsl:text></xsl:when>
-          <xsl:when test="contains(lower-case(//t:change[1]/@who), 'ferretti')"><xsl:text>Beatrice Ferretti</xsl:text></xsl:when>
-          <xsl:when test="contains(lower-case(//t:change[1]/@who), 'defalco')"><xsl:text>Fabrizio De Falco</xsl:text></xsl:when>
-          <xsl:when test="contains(lower-case(//t:change[1]/@who), 'cortese')"><xsl:text>Maria Elena Cortese</xsl:text></xsl:when>
-          <xsl:otherwise><xsl:value-of select="//t:change[1]/@who"/></xsl:otherwise>
+          <xsl:when test="$first-author-name"><xsl:value-of select="$first-author-name/t:emph"/></xsl:when>
+          <xsl:when test="$first-author"><xsl:value-of select="$first-author"/></xsl:when>
+          <xsl:otherwise><xsl:text>-</xsl:text></xsl:otherwise>
         </xsl:choose>
         <xsl:text> (file creation on </xsl:text><xsl:value-of select="//t:change[1]/@when"/><xsl:text>); </xsl:text>
         <xsl:choose>
-          <xsl:when test="contains(lower-case(//t:change[last()]/@who), 'lazzari')"><xsl:text>Tiziana Lazzari</xsl:text></xsl:when>
-          <xsl:when test="contains(lower-case(//t:change[last()]/@who), 'tabarrini')"><xsl:text>Lorenzo Tabarrini</xsl:text></xsl:when>
-          <xsl:when test="contains(lower-case(//t:change[last()]/@who), 'vignodelli')"><xsl:text>Giacomo Vignodelli</xsl:text></xsl:when>
-          <xsl:when test="contains(lower-case(//t:change[last()]/@who), 'collavini')"><xsl:text>Simone Maria Collavini</xsl:text></xsl:when>
-          <xsl:when test="contains(lower-case(//t:change[last()]/@who), 'tomei')"><xsl:text>Paolo Tomei</xsl:text></xsl:when>
-          <xsl:when test="contains(lower-case(//t:change[last()]/@who), 'internullo')"><xsl:text>Dario Internullo</xsl:text></xsl:when>
-          <xsl:when test="contains(lower-case(//t:change[last()]/@who), 'vlore')"><xsl:text>Vito Loré</xsl:text></xsl:when>
-          <xsl:when test="contains(lower-case(//t:change[last()]/@who), 'ciccopiedi')"><xsl:text>Caterina Ciccopiedi</xsl:text></xsl:when>
-          <xsl:when test="contains(lower-case(//t:change[last()]/@who), 'emanarini')"><xsl:text>Edoardo Manarini</xsl:text></xsl:when>
-          <xsl:when test="contains(lower-case(//t:change[last()]/@who), 'mvvallerani')"><xsl:text>Massimo Valerio Vallerani</xsl:text></xsl:when>
-          <xsl:when test="contains(lower-case(//t:change[last()]/@who), 'cinello')"><xsl:text>Erika Cinello</xsl:text></xsl:when>
-          <xsl:when test="contains(lower-case(//t:change[last()]/@who), 'tagliente')"><xsl:text>Antonio Tagliente</xsl:text></xsl:when>
-          <xsl:when test="contains(lower-case(//t:change[last()]/@who), 'zornetta')"><xsl:text>Giulia Zornetta</xsl:text></xsl:when>
-          <xsl:when test="contains(lower-case(//t:change[last()]/@who), 'dimuro')"><xsl:text>Alessandro Di Muro</xsl:text></xsl:when>
-          <xsl:when test="contains(lower-case(//t:change[last()]/@who), 'magos')"><xsl:text>Victor Rivera Magos</xsl:text></xsl:when>
-          <xsl:when test="contains(lower-case(//t:change[last()]/@who), 'motta')"><xsl:text>Loris Motta</xsl:text></xsl:when>
-          <xsl:when test="contains(lower-case(//t:change[last()]/@who), 'ferretti')"><xsl:text>Beatrice Ferretti</xsl:text></xsl:when>
-          <xsl:when test="contains(lower-case(//t:change[last()]/@who), 'defalco')"><xsl:text>Fabrizio De Falco</xsl:text></xsl:when>
-          <xsl:when test="contains(lower-case(//t:change[last()]/@who), 'cortese')"><xsl:text>Maria Elena Cortese</xsl:text></xsl:when>
-          <xsl:otherwise><xsl:value-of select="//t:change[last()]/@who"/></xsl:otherwise>
+          <xsl:when test="$last-author-name"><xsl:value-of select="$last-author-name/t:emph"/></xsl:when>
+          <xsl:when test="$last-author"><xsl:value-of select="$last-author"/></xsl:when>
+          <xsl:otherwise><xsl:text>-</xsl:text></xsl:otherwise>
         </xsl:choose>
         <xsl:text> (last change on </xsl:text><xsl:value-of select="//t:change[last()]/@when"/><xsl:text>)</xsl:text>
         <!--<xsl:for-each select="//t:change"><xsl:value-of select="@who"/>

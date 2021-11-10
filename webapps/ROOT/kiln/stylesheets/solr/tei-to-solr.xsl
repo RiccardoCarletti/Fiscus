@@ -48,33 +48,13 @@
   </xsl:template>
 
   <xsl:template match="tei:listChange/tei:change[1]" mode="facet_author">
+    <xsl:variable name="author" select="lower-case(@who)"/>
+    <xsl:variable name="name" select="document('../../../content/xml/tei/team.xml')//tei:p[@xml:id=$author]"/>  
     <field name="author">
       <xsl:choose>
-        <xsl:when test="contains(lower-case(@who), 'lazzari')"><xsl:text>Tiziana Lazzari</xsl:text></xsl:when>
-        <xsl:when test="contains(lower-case(@who), 'tabarrini')"><xsl:text>Lorenzo Tabarrini</xsl:text></xsl:when>
-        <xsl:when test="contains(lower-case(@who), 'vignodelli')"><xsl:text>Giacomo Vignodelli</xsl:text></xsl:when>
-        <xsl:when test="contains(lower-case(@who), 'collavini')"><xsl:text>Simone Maria Collavini</xsl:text></xsl:when>
-        <xsl:when test="contains(lower-case(@who), 'tomei')"><xsl:text>Paolo Tomei</xsl:text></xsl:when>
-        <xsl:when test="contains(lower-case(@who), 'internullo')"><xsl:text>Dario Internullo</xsl:text></xsl:when>
-        <xsl:when test="contains(lower-case(@who), 'vlore')"><xsl:text>Vito Loré</xsl:text></xsl:when>
-        <xsl:when test="contains(lower-case(@who), 'ciccopiedi')"><xsl:text>Caterina Ciccopiedi</xsl:text></xsl:when>
-        <xsl:when test="contains(lower-case(@who), 'manarini')"><xsl:text>Edoardo Manarini</xsl:text></xsl:when>
-        <xsl:when test="contains(lower-case(@who), 'vallerani')"><xsl:text>Massimo Valerio Vallerani</xsl:text></xsl:when>
-        <xsl:when test="contains(lower-case(@who), 'cinello')"><xsl:text>Erika Cinello</xsl:text></xsl:when>
-        <xsl:when test="contains(lower-case(@who), 'tagliente')"><xsl:text>Antonio Tagliente</xsl:text></xsl:when>
-        <xsl:when test="contains(lower-case(@who), 'zornetta')"><xsl:text>Giulia Zornetta</xsl:text></xsl:when>
-        <xsl:when test="contains(lower-case(@who), 'dimuro')"><xsl:text>Alessandro Di Muro</xsl:text></xsl:when>
-        <xsl:when test="contains(lower-case(@who), 'magos')"><xsl:text>Victor Rivera Magos</xsl:text></xsl:when>
-        <xsl:when test="contains(lower-case(@who), 'motta')"><xsl:text>Loris Motta</xsl:text></xsl:when>
-        <xsl:when test="contains(lower-case(@who), 'ferretti')"><xsl:text>Beatrice Ferretti</xsl:text></xsl:when>
-        <xsl:when test="contains(lower-case(@who), 'defalco')"><xsl:text>Fabrizio De Falco</xsl:text></xsl:when>
-        <xsl:when test="contains(lower-case(@who), 'cortese')"><xsl:text>Maria Elena Cortese</xsl:text></xsl:when>
-        <xsl:otherwise>
-          <xsl:choose>
-            <xsl:when test="@who"><xsl:value-of select="@who"/></xsl:when>
-            <xsl:otherwise><xsl:text>-</xsl:text></xsl:otherwise>
-          </xsl:choose>
-        </xsl:otherwise>
+        <xsl:when test="$name"><xsl:value-of select="$name[1]/tei:emph"/></xsl:when>
+        <xsl:when test="$author and not($name)"><xsl:value-of select="@who"/></xsl:when>
+        <xsl:otherwise><xsl:text>-</xsl:text></xsl:otherwise>
       </xsl:choose>
     </field>
   </xsl:template>
@@ -195,7 +175,7 @@
 
   <xsl:template name="field_document_id">
     <field name="document_id">
-      <xsl:variable name="idno" select="/tei:*/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:idno[@type='filename']" />
+      <xsl:variable name="idno" select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:idno[@type='filename']" />
       <xsl:choose>
         <xsl:when test="$idno">
           <xsl:value-of select="$idno" />
@@ -220,7 +200,7 @@
   </xsl:template>
 
   <xsl:template name="field_author">
-    <xsl:apply-templates mode="facet_author" select="//tei:listChange/tei:change[1]" />
+    <xsl:apply-templates mode="facet_author" select="/tei:TEI/tei:teiHeader/tei:revisionDesc/tei:listChange/tei:change[1]" />
   </xsl:template>
 
   <xsl:template name="field_lemmatised_text">
@@ -230,7 +210,7 @@
   </xsl:template>
 
   <xsl:template name="field_provenance">
-    <xsl:apply-templates mode="facet_provenance" select="//tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:origPlace" />
+    <xsl:apply-templates mode="facet_provenance" select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:origPlace" />
   </xsl:template>
 
   <xsl:template name="field_text">
