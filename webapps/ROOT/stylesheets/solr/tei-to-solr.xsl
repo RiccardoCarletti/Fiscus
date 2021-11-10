@@ -217,7 +217,7 @@
       
       <xsl:if test="$thesaurus[ancestor::tei:category[5]][not(ancestor::tei:category[6])]">
         <field name="keywords_-_level_5">
-          <xsl:number value="count($thesaurus/ancestor::tei:category[5]/preceding-sibling::tei:category) + 1" format="01" /><xsl:text>.</xsl:text>
+          <xsl:number value="count($thesaurus/ancestor::tei:category[5]/preceding-sibling::tei:category) + 1" format="1" /><xsl:text>.</xsl:text>
           <xsl:number value="count($thesaurus/ancestor::tei:category[4]/preceding-sibling::tei:category) + 1" format="01" /><xsl:text>.</xsl:text>
           <xsl:number value="count($thesaurus/ancestor::tei:category[3]/preceding-sibling::tei:category) + 1" format="01" /><xsl:text>.</xsl:text>
           <xsl:number value="count($thesaurus/ancestor::tei:category[2]/preceding-sibling::tei:category) + 1" format="01" /><xsl:text>.</xsl:text>
@@ -225,7 +225,7 @@
           <xsl:value-of select="translate(translate($thesaurus/@n, '/', '／'), '_', ' ')"/>
         </field>
         <field name="keywords_-_level_4">
-          <xsl:number value="count($thesaurus/ancestor::tei:category[5]/preceding-sibling::tei:category) + 1" format="01" /><xsl:text>.</xsl:text>
+          <xsl:number value="count($thesaurus/ancestor::tei:category[5]/preceding-sibling::tei:category) + 1" format="1" /><xsl:text>.</xsl:text>
           <xsl:number value="count($thesaurus/ancestor::tei:category[4]/preceding-sibling::tei:category) + 1" format="01" /><xsl:text>.</xsl:text>
           <xsl:number value="count($thesaurus/ancestor::tei:category[3]/preceding-sibling::tei:category) + 1" format="01" /><xsl:text>.</xsl:text>
           <xsl:number value="count($thesaurus/ancestor::tei:category[2]/preceding-sibling::tei:category) + 1" format="01" /><xsl:text>. </xsl:text>
@@ -238,12 +238,12 @@
           <xsl:value-of select="translate(translate($thesaurus/ancestor::tei:category[3]/child::tei:catDesc/@n, '/', '／'), '_', ' ')"/>
         </field>
         <field name="keywords_-_level_2">
-          <xsl:number value="count($thesaurus/ancestor::tei:category[5]/preceding-sibling::tei:category) + 1" format="01" /><xsl:text>.</xsl:text>
+          <xsl:number value="count($thesaurus/ancestor::tei:category[5]/preceding-sibling::tei:category) + 1" format="1" /><xsl:text>.</xsl:text>
           <xsl:number value="count($thesaurus/ancestor::tei:category[4]/preceding-sibling::tei:category) + 1" format="01" /><xsl:text>. </xsl:text>
           <xsl:value-of select="translate(translate($thesaurus/ancestor::tei:category[4]/child::tei:catDesc/@n, '/', '／'), '_', ' ')"/>
         </field>
         <field name="keywords_-_level_1">
-          <xsl:number value="count($thesaurus/ancestor::tei:category[5]/preceding-sibling::tei:category) + 1" format="01" /><xsl:text>. </xsl:text>
+          <xsl:number value="count($thesaurus/ancestor::tei:category[5]/preceding-sibling::tei:category) + 1" format="1" /><xsl:text>. </xsl:text>
           <xsl:value-of select="translate(translate($thesaurus/ancestor::tei:category[5]/child::tei:catDesc/@n, '/', '／'), '_', ' ')"/>
         </field>
       </xsl:if>
@@ -251,62 +251,62 @@
       
       <xsl:if test="$thesaurus[ancestor::tei:category[4]][not(ancestor::tei:category[5])]">
         <field name="keywords_-_level_4">
-          <xsl:number value="count($thesaurus/ancestor::tei:category[4]/preceding-sibling::tei:category) + 1" format="01" /><xsl:text>.</xsl:text>
+          <xsl:number value="count($thesaurus/ancestor::tei:category[4]/preceding-sibling::tei:category) + 1" format="1" /><xsl:text>.</xsl:text>
           <xsl:number value="count($thesaurus/ancestor::tei:category[3]/preceding-sibling::tei:category) + 1" format="01" /><xsl:text>.</xsl:text>
           <xsl:number value="count($thesaurus/ancestor::tei:category[2]/preceding-sibling::tei:category) + 1" format="01" /><xsl:text>.</xsl:text>
           <xsl:number value="count($thesaurus/ancestor::tei:category[1]/preceding-sibling::tei:category) + 1" format="01" /><xsl:text>. </xsl:text>
           <xsl:value-of select="translate(translate($thesaurus/@n, '/', '／'), '_', ' ')"/>
         </field>
         <field name="keywords_-_level_3">
-          <xsl:number value="count($thesaurus/ancestor::tei:category[4]/preceding-sibling::tei:category) + 1" format="01" /><xsl:text>.</xsl:text>
+          <xsl:number value="count($thesaurus/ancestor::tei:category[4]/preceding-sibling::tei:category) + 1" format="1" /><xsl:text>.</xsl:text>
           <xsl:number value="count($thesaurus/ancestor::tei:category[3]/preceding-sibling::tei:category) + 1" format="01" /><xsl:text>.</xsl:text>
           <xsl:number value="count($thesaurus/ancestor::tei:category[2]/preceding-sibling::tei:category) + 1" format="01" /><xsl:text>. </xsl:text>
           <xsl:value-of select="translate(translate($thesaurus/ancestor::tei:category[2]/child::tei:catDesc/@n, '/', '／'), '_', ' ')"/>
         </field>
         <field name="keywords_-_level_2">
-          <xsl:number value="count($thesaurus/ancestor::tei:category[4]/preceding-sibling::tei:category) + 1" format="01" /><xsl:text>.</xsl:text>
+          <xsl:number value="count($thesaurus/ancestor::tei:category[4]/preceding-sibling::tei:category) + 1" format="1" /><xsl:text>.</xsl:text>
           <xsl:number value="count($thesaurus/ancestor::tei:category[3]/preceding-sibling::tei:category) + 1" format="01" /><xsl:text>. </xsl:text>
           <xsl:value-of select="translate(translate($thesaurus/ancestor::tei:category[3]/child::tei:catDesc/@n, '/', '／'), '_', ' ')"/>
         </field>
         <field name="keywords_-_level_1">
-          <xsl:number value="count($thesaurus/ancestor::tei:category[4]/preceding-sibling::tei:category) + 1" format="01" /><xsl:text>. </xsl:text>
+          <xsl:number value="count($thesaurus/ancestor::tei:category[4]/preceding-sibling::tei:category) + 1" format="1" /><xsl:text>. </xsl:text>
           <xsl:value-of select="translate(translate($thesaurus/ancestor::tei:category[4]/child::tei:catDesc/@n, '/', '／'), '_', ' ')"/>
         </field>
       </xsl:if>
       
       <xsl:if test="$thesaurus[ancestor::tei:category[3]][not(ancestor::tei:category[4])]">
         <field name="keywords_-_level_3">
-          <xsl:number value="count($thesaurus/ancestor::tei:category[3]/preceding-sibling::tei:category) + 1" format="01" /><xsl:text>.</xsl:text>
+          <xsl:number value="count($thesaurus/ancestor::tei:category[3]/preceding-sibling::tei:category) + 1" format="1" /><xsl:text>.</xsl:text>
           <xsl:number value="count($thesaurus/ancestor::tei:category[2]/preceding-sibling::tei:category) + 1" format="01" /><xsl:text>.</xsl:text>
           <xsl:number value="count($thesaurus/ancestor::tei:category[1]/preceding-sibling::tei:category) + 1" format="01" /><xsl:text>. </xsl:text>
           <xsl:value-of select="translate(translate($thesaurus/@n, '/', '／'), '_', ' ')"/>
         </field>
         <field name="keywords_-_level_2">
-          <xsl:number value="count($thesaurus/ancestor::tei:category[3]/preceding-sibling::tei:category) + 1" format="01" /><xsl:text>.</xsl:text>
+          <xsl:number value="count($thesaurus/ancestor::tei:category[3]/preceding-sibling::tei:category) + 1" format="1" /><xsl:text>.</xsl:text>
           <xsl:number value="count($thesaurus/ancestor::tei:category[2]/preceding-sibling::tei:category) + 1" format="01" /><xsl:text>. </xsl:text>
           <xsl:value-of select="translate(translate($thesaurus/ancestor::tei:category[2]/child::tei:catDesc/@n, '/', '／'), '_', ' ')"/>
         </field>
         <field name="keywords_-_level_1">
-          <xsl:number value="count($thesaurus/ancestor::tei:category[3]/preceding-sibling::tei:category) + 1" format="01" /><xsl:text>. </xsl:text>
+          <xsl:number value="count($thesaurus/ancestor::tei:category[3]/preceding-sibling::tei:category) + 1" format="1" /><xsl:text>. </xsl:text>
           <xsl:value-of select="translate(translate($thesaurus/ancestor::tei:category[3]/child::tei:catDesc/@n, '/', '／'), '_', ' ')"/>
         </field>
       </xsl:if>
       
       <xsl:if test="$thesaurus[ancestor::tei:category[2]][not(ancestor::tei:category[3])]">
         <field name="keywords_-_level_2">
-          <xsl:number value="count($thesaurus/ancestor::tei:category[2]/preceding-sibling::tei:category) + 1" format="01" /><xsl:text>.</xsl:text>
+          <xsl:number value="count($thesaurus/ancestor::tei:category[2]/preceding-sibling::tei:category) + 1" format="1" /><xsl:text>.</xsl:text>
           <xsl:number value="count($thesaurus/ancestor::tei:category[1]/preceding-sibling::tei:category) + 1" format="01" /><xsl:text>. </xsl:text>
           <xsl:value-of select="translate(translate($thesaurus/@n, '/', '／'), '_', ' ')"/>
         </field>
         <field name="keywords_-_level_1">
-          <xsl:number value="count($thesaurus/ancestor::tei:category[2]/preceding-sibling::tei:category) + 1" format="01" /><xsl:text>. </xsl:text>
+          <xsl:number value="count($thesaurus/ancestor::tei:category[2]/preceding-sibling::tei:category) + 1" format="1" /><xsl:text>. </xsl:text>
           <xsl:value-of select="translate(translate($thesaurus/ancestor::tei:category[2]/child::tei:catDesc/@n, '/', '／'), '_', ' ')"/>
         </field>
       </xsl:if>
       
       <xsl:if test="$thesaurus[ancestor::tei:category[1]][not(ancestor::tei:category[2])]">
         <field name="keywords_-_level_1">
-          <xsl:number value="count($thesaurus/ancestor::tei:category[1]/preceding-sibling::tei:category) + 1" format="01" /><xsl:text>. </xsl:text>
+          <xsl:number value="count($thesaurus/ancestor::tei:category[1]/preceding-sibling::tei:category) + 1" format="1" /><xsl:text>. </xsl:text>
           <xsl:value-of select="translate(translate($thesaurus/@n, '/', '／'), '_', ' ')"/>
         </field>
       </xsl:if>
