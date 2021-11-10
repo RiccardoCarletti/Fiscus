@@ -98,107 +98,8 @@
     </field>
   </xsl:template>
   
-  <xsl:template match="tei:rs[@key!='']" mode="facet_mentioned_keywords_-_terms">
-    <xsl:variable name="keyvalue">
-      <xsl:choose>
-        <xsl:when test="starts-with(@key, ' ')"><xsl:value-of select="substring(normalize-space(@key), 2)"/></xsl:when>
-        <xsl:otherwise><xsl:value-of select="normalize-space(@key)"/></xsl:otherwise>
-      </xsl:choose>
-    </xsl:variable>
-    <xsl:for-each select="tokenize($keyvalue, ' #')">
-      <xsl:variable name="key" select="translate(., '#', '')"/>
-      <xsl:variable name="thesaurus" select="document('../../content/fiscus_framework/resources/thesaurus.xml')//tei:catDesc[lower-case(@n)=lower-case($key)]"/>
-      <!-- All keys -->
-      <field name="mentioned_keywords_-_terms">
-        <xsl:choose>
-          <xsl:when test="$thesaurus">
-            <xsl:value-of select="translate(translate($thesaurus/@n, '/', '／'), '_', ' ')"/>
-          </xsl:when>
-          <xsl:otherwise>
-            <xsl:value-of select="lower-case(translate(translate($key, '_', ' '), '/', '／'))"/>
-          </xsl:otherwise>
-        </xsl:choose>
-      </field>
-        <!--<xsl:if test="$thesaurus">      
-          <field name="mentioned_keywords"><xsl:value-of select="translate(translate($thesaurus/@n, '/', '／'), '_', ' ')"/></field>
-      <!-\- A field for each of the 5+1 levels. Index each *value* at appropriate levels. 
-        Add support for Solr facet.pivot. 
-        Add support for displaying facet_pivot results, with some JS for toggling.-\->
-        </xsl:if>-->
-    </xsl:for-each>
-  </xsl:template>
-  
-  <xsl:template match="tei:rs[@key!='']" mode="facet_mentioned_keywords_-_categories">
-    <xsl:variable name="keyvalue">
-      <xsl:choose>
-        <xsl:when test="starts-with(@key, ' ')"><xsl:value-of select="substring(normalize-space(@key), 2)"/></xsl:when>
-        <xsl:otherwise><xsl:value-of select="normalize-space(@key)"/></xsl:otherwise>
-      </xsl:choose>
-    </xsl:variable>
-    <xsl:for-each select="tokenize($keyvalue, ' #')">
-      <xsl:variable name="key" select="translate(., '#', '')"/>
-      <xsl:variable name="thesaurus" select="document('../../content/fiscus_framework/resources/thesaurus.xml')//tei:catDesc[lower-case(@n)=lower-case($key)]"/>
-      <xsl:if test="contains($thesaurus, '*')">
-        <!-- Fifth level -->
-        <field name="mentioned_keywords_-_categories">
-          <xsl:value-of select="concat('5. ', translate(translate($thesaurus/@n, '/', '／'), '_', ' '))" />
-        </field>
-      </xsl:if>
-      <xsl:if test="contains($thesaurus, '▸') or contains($thesaurus, '*')">
-        <!-- Fourth level -->
-        <field name="mentioned_keywords_-_categories">
-          <xsl:choose>
-            <xsl:when test="contains($thesaurus, '▸')">
-              <xsl:value-of select="concat('4. ', translate(translate($thesaurus/@n, '/', '／'), '_', ' '))" />
-            </xsl:when>
-            <xsl:when test="contains($thesaurus, '*')">
-              <xsl:value-of select="concat('4. ', translate(translate($thesaurus/ancestor::tei:category/tei:catDesc[contains(., '▸')]/@n, '/', '／'), '_', ' '))" />
-            </xsl:when>
-          </xsl:choose>
-        </field>
-      </xsl:if>
-      <!-- Third level -->
-      <xsl:if test="contains($thesaurus, '◦') or contains($thesaurus, '▸') or contains($thesaurus, '*')">
-        <field name="mentioned_keywords_-_categories">
-          <xsl:choose>
-            <xsl:when test="contains($thesaurus, '◦')">
-              <xsl:value-of select="concat('3. ', translate(translate($thesaurus/@n, '/', '／'), '_', ' '))" />
-            </xsl:when>
-            <xsl:when test="contains($thesaurus, '▸') or contains($thesaurus, '*')">
-              <xsl:value-of select="concat('3. ', translate(translate($thesaurus/ancestor::tei:category/tei:catDesc[contains(., '◦')]/@n, '/', '／'), '_', ' '))" />
-            </xsl:when>
-          </xsl:choose>
-        </field>
-      </xsl:if>
-      <!-- Second level -->
-      <xsl:if test="contains($thesaurus, '•') or contains($thesaurus, '◦') or contains($thesaurus, '▸') or contains($thesaurus, '*')">
-        <field name="mentioned_keywords_-_categories">
-          <xsl:choose>
-            <xsl:when test="contains($thesaurus, '•')">
-              <xsl:value-of select="concat('2. ', translate(translate($thesaurus/@n, '/', '／'), '_', ' '))" />
-            </xsl:when>
-            <xsl:when test="contains($thesaurus, '◦') or contains($thesaurus, '▸') or contains($thesaurus, '*')">
-              <xsl:value-of select="concat('2. ', translate(translate($thesaurus/ancestor::tei:category/tei:catDesc[contains(., '•')]/@n, '/', '／'), '_', ' '))" />
-            </xsl:when>
-          </xsl:choose>
-        </field>
-      </xsl:if>
-      <!-- First level -->
-      <field name="mentioned_keywords_-_categories">
-        <xsl:choose>
-          <xsl:when test="contains($thesaurus, '•') or contains($thesaurus, '◦') or contains($thesaurus, '▸') or contains($thesaurus, '*')">
-            <xsl:value-of select="concat('1. ', translate(translate($thesaurus/ancestor::tei:category/tei:catDesc[not(contains(., '•'))][not(contains(., '◦'))][not(contains(., '▸'))][not(contains(., '*'))]/@n, '/', '／'), '_', ' '))" />
-          </xsl:when>
-          <xsl:otherwise>
-            <xsl:value-of select="concat('1. ', translate(translate($thesaurus/@n, '/', '／'), '_', ' '))" />
-          </xsl:otherwise>
-        </xsl:choose>
-      </field>
-    </xsl:for-each>
-  </xsl:template>
-  
-  <xsl:template match="tei:persName[@ref!='']" mode="facet_mentioned_people">
-    <field name="mentioned_people">
+  <xsl:template match="tei:persName[@ref!='']" mode="facet_people">
+    <field name="people">
       <xsl:variable name="ref" select="translate(@ref,' #', '')"/>
       <xsl:choose>
         <xsl:when test="document('../../content/fiscus_framework/resources/people.xml')//tei:person[descendant::tei:idno=$ref][descendant::tei:persName!='']">
@@ -213,8 +114,8 @@
     </field>
   </xsl:template>
   
-  <xsl:template match="tei:placeName[@ref!='']" mode="facet_mentioned_places">
-    <field name="mentioned_places">
+  <xsl:template match="tei:placeName[@ref!='']" mode="facet_places">
+    <field name="places">
       <xsl:variable name="ref" select="translate(@ref,' #', '')"/>
       <xsl:choose>
         <xsl:when test="document('../../content/fiscus_framework/resources/places.xml')//tei:place[descendant::tei:idno=$ref][descendant::tei:placeName[not(@type)]!='']">
@@ -229,8 +130,8 @@
     </field>
   </xsl:template>
   
-  <xsl:template match="tei:orgName[@ref!='']" mode="facet_mentioned_juridical_persons">
-    <field name="mentioned_juridical_persons">
+  <xsl:template match="tei:orgName[@ref!='']" mode="facet_juridical_persons">
+    <field name="juridical_persons">
       <xsl:variable name="ref" select="translate(@ref,' #', '')"/>
       <xsl:choose>
         <xsl:when test="document('../../content/fiscus_framework/resources/juridical_persons.xml')//tei:org[descendant::tei:idno=$ref][descendant::tei:orgName!='']">
@@ -245,8 +146,8 @@
     </field>
   </xsl:template>
   
-  <xsl:template match="tei:geogName[@ref!='']" mode="facet_mentioned_estates">
-    <field name="mentioned_estates">
+  <xsl:template match="tei:geogName[@ref!='']" mode="facet_estates">
+    <field name="estates">
       <xsl:variable name="ref" select="translate(@ref,' #', '')"/>
       <xsl:choose>
         <xsl:when test="document('../../content/fiscus_framework/resources/estates.xml')//tei:place[descendant::tei:idno=$ref][descendant::tei:geogName!='']">
@@ -261,8 +162,8 @@
     </field>
   </xsl:template>
   
-  <xsl:template match="tei:date" mode="facet_mentioned_dates">
-    <field name="mentioned_dates">
+  <xsl:template match="tei:date" mode="facet_dates">
+    <field name="dates">
       <xsl:value-of select="translate(translate(., '/', '／'), '?', '')" />
     </field>
   </xsl:template>
@@ -279,6 +180,139 @@
     </field>
   </xsl:template>
   
+  <xsl:template match="tei:rs[@key!='']" mode="facet_keywords_-_alphabetically">
+    <xsl:variable name="keyvalue">
+      <xsl:choose>
+        <xsl:when test="starts-with(@key, ' ')"><xsl:value-of select="substring(normalize-space(@key), 2)"/></xsl:when>
+        <xsl:otherwise><xsl:value-of select="normalize-space(@key)"/></xsl:otherwise>
+      </xsl:choose>
+    </xsl:variable>
+    <xsl:for-each select="tokenize($keyvalue, ' #')">
+      <xsl:variable name="key" select="translate(., '#', '')"/>
+      <xsl:variable name="thesaurus" select="document('../../content/fiscus_framework/resources/thesaurus.xml')//tei:catDesc[lower-case(@n)=lower-case($key)]"/>
+      <!-- All keys -->
+      <field name="keywords_-_alphabetically">
+        <xsl:choose>
+          <xsl:when test="$thesaurus">
+            <xsl:value-of select="translate(translate($thesaurus/@n, '/', '／'), '_', ' ')"/>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:value-of select="lower-case(translate(translate($key, '_', ' '), '/', '／'))"/>
+          </xsl:otherwise>
+        </xsl:choose>
+      </field>
+    </xsl:for-each>
+  </xsl:template>
+  
+  <xsl:template match="tei:rs[@key!='']" mode="facet_keywords">
+    <xsl:variable name="keyvalue">
+      <xsl:choose>
+        <xsl:when test="starts-with(@key, ' ')"><xsl:value-of select="substring(normalize-space(@key), 2)"/></xsl:when>
+        <xsl:otherwise><xsl:value-of select="normalize-space(@key)"/></xsl:otherwise>
+      </xsl:choose>
+    </xsl:variable>
+    <xsl:for-each select="tokenize($keyvalue, ' #')">
+      <xsl:variable name="key" select="translate(., '#', '')"/>
+      <xsl:variable name="thesaurus" select="document('../../content/fiscus_framework/resources/thesaurus.xml')//tei:catDesc[lower-case(@n)=lower-case($key)]"/>
+      
+      <xsl:if test="$thesaurus[ancestor::tei:category[5]][not(ancestor::tei:category[6])]">
+        <field name="keywords_-_level_5">
+          <xsl:number value="count($thesaurus/ancestor::tei:category[5]/preceding-sibling::tei:category) + 1" format="01" /><xsl:text>.</xsl:text>
+          <xsl:number value="count($thesaurus/ancestor::tei:category[4]/preceding-sibling::tei:category) + 1" format="01" /><xsl:text>.</xsl:text>
+          <xsl:number value="count($thesaurus/ancestor::tei:category[3]/preceding-sibling::tei:category) + 1" format="01" /><xsl:text>.</xsl:text>
+          <xsl:number value="count($thesaurus/ancestor::tei:category[2]/preceding-sibling::tei:category) + 1" format="01" /><xsl:text>.</xsl:text>
+          <xsl:number value="count($thesaurus/ancestor::tei:category[1]/preceding-sibling::tei:category) + 1" format="01" /><xsl:text>. </xsl:text>
+          <xsl:value-of select="translate(translate($thesaurus/@n, '/', '／'), '_', ' ')"/>
+        </field>
+        <field name="keywords_-_level_4">
+          <xsl:number value="count($thesaurus/ancestor::tei:category[5]/preceding-sibling::tei:category) + 1" format="01" /><xsl:text>.</xsl:text>
+          <xsl:number value="count($thesaurus/ancestor::tei:category[4]/preceding-sibling::tei:category) + 1" format="01" /><xsl:text>.</xsl:text>
+          <xsl:number value="count($thesaurus/ancestor::tei:category[3]/preceding-sibling::tei:category) + 1" format="01" /><xsl:text>.</xsl:text>
+          <xsl:number value="count($thesaurus/ancestor::tei:category[2]/preceding-sibling::tei:category) + 1" format="01" /><xsl:text>. </xsl:text>
+          <xsl:value-of select="translate(translate($thesaurus/ancestor::tei:category[2]/child::tei:catDesc/@n, '/', '／'), '_', ' ')"/>
+        </field>
+        <field name="keywords_-_level_3">
+          <xsl:number value="count($thesaurus/ancestor::tei:category[5]/preceding-sibling::tei:category) + 1" format="01" /><xsl:text>.</xsl:text>
+          <xsl:number value="count($thesaurus/ancestor::tei:category[4]/preceding-sibling::tei:category) + 1" format="01" /><xsl:text>.</xsl:text>
+          <xsl:number value="count($thesaurus/ancestor::tei:category[3]/preceding-sibling::tei:category) + 1" format="01" /><xsl:text>. </xsl:text>
+          <xsl:value-of select="translate(translate($thesaurus/ancestor::tei:category[3]/child::tei:catDesc/@n, '/', '／'), '_', ' ')"/>
+        </field>
+        <field name="keywords_-_level_2">
+          <xsl:number value="count($thesaurus/ancestor::tei:category[5]/preceding-sibling::tei:category) + 1" format="01" /><xsl:text>.</xsl:text>
+          <xsl:number value="count($thesaurus/ancestor::tei:category[4]/preceding-sibling::tei:category) + 1" format="01" /><xsl:text>. </xsl:text>
+          <xsl:value-of select="translate(translate($thesaurus/ancestor::tei:category[4]/child::tei:catDesc/@n, '/', '／'), '_', ' ')"/>
+        </field>
+        <field name="keywords_-_level_1">
+          <xsl:number value="count($thesaurus/ancestor::tei:category[5]/preceding-sibling::tei:category) + 1" format="01" /><xsl:text>. </xsl:text>
+          <xsl:value-of select="translate(translate($thesaurus/ancestor::tei:category[5]/child::tei:catDesc/@n, '/', '／'), '_', ' ')"/>
+        </field>
+      </xsl:if>
+      
+      
+      <xsl:if test="$thesaurus[ancestor::tei:category[4]][not(ancestor::tei:category[5])]">
+        <field name="keywords_-_level_4">
+          <xsl:number value="count($thesaurus/ancestor::tei:category[4]/preceding-sibling::tei:category) + 1" format="01" /><xsl:text>.</xsl:text>
+          <xsl:number value="count($thesaurus/ancestor::tei:category[3]/preceding-sibling::tei:category) + 1" format="01" /><xsl:text>.</xsl:text>
+          <xsl:number value="count($thesaurus/ancestor::tei:category[2]/preceding-sibling::tei:category) + 1" format="01" /><xsl:text>.</xsl:text>
+          <xsl:number value="count($thesaurus/ancestor::tei:category[1]/preceding-sibling::tei:category) + 1" format="01" /><xsl:text>. </xsl:text>
+          <xsl:value-of select="translate(translate($thesaurus/@n, '/', '／'), '_', ' ')"/>
+        </field>
+        <field name="keywords_-_level_3">
+          <xsl:number value="count($thesaurus/ancestor::tei:category[4]/preceding-sibling::tei:category) + 1" format="01" /><xsl:text>.</xsl:text>
+          <xsl:number value="count($thesaurus/ancestor::tei:category[3]/preceding-sibling::tei:category) + 1" format="01" /><xsl:text>.</xsl:text>
+          <xsl:number value="count($thesaurus/ancestor::tei:category[2]/preceding-sibling::tei:category) + 1" format="01" /><xsl:text>. </xsl:text>
+          <xsl:value-of select="translate(translate($thesaurus/ancestor::tei:category[2]/child::tei:catDesc/@n, '/', '／'), '_', ' ')"/>
+        </field>
+        <field name="keywords_-_level_2">
+          <xsl:number value="count($thesaurus/ancestor::tei:category[4]/preceding-sibling::tei:category) + 1" format="01" /><xsl:text>.</xsl:text>
+          <xsl:number value="count($thesaurus/ancestor::tei:category[3]/preceding-sibling::tei:category) + 1" format="01" /><xsl:text>. </xsl:text>
+          <xsl:value-of select="translate(translate($thesaurus/ancestor::tei:category[3]/child::tei:catDesc/@n, '/', '／'), '_', ' ')"/>
+        </field>
+        <field name="keywords_-_level_1">
+          <xsl:number value="count($thesaurus/ancestor::tei:category[4]/preceding-sibling::tei:category) + 1" format="01" /><xsl:text>. </xsl:text>
+          <xsl:value-of select="translate(translate($thesaurus/ancestor::tei:category[4]/child::tei:catDesc/@n, '/', '／'), '_', ' ')"/>
+        </field>
+      </xsl:if>
+      
+      <xsl:if test="$thesaurus[ancestor::tei:category[3]][not(ancestor::tei:category[4])]">
+        <field name="keywords_-_level_3">
+          <xsl:number value="count($thesaurus/ancestor::tei:category[3]/preceding-sibling::tei:category) + 1" format="01" /><xsl:text>.</xsl:text>
+          <xsl:number value="count($thesaurus/ancestor::tei:category[2]/preceding-sibling::tei:category) + 1" format="01" /><xsl:text>.</xsl:text>
+          <xsl:number value="count($thesaurus/ancestor::tei:category[1]/preceding-sibling::tei:category) + 1" format="01" /><xsl:text>. </xsl:text>
+          <xsl:value-of select="translate(translate($thesaurus/@n, '/', '／'), '_', ' ')"/>
+        </field>
+        <field name="keywords_-_level_2">
+          <xsl:number value="count($thesaurus/ancestor::tei:category[3]/preceding-sibling::tei:category) + 1" format="01" /><xsl:text>.</xsl:text>
+          <xsl:number value="count($thesaurus/ancestor::tei:category[2]/preceding-sibling::tei:category) + 1" format="01" /><xsl:text>. </xsl:text>
+          <xsl:value-of select="translate(translate($thesaurus/ancestor::tei:category[2]/child::tei:catDesc/@n, '/', '／'), '_', ' ')"/>
+        </field>
+        <field name="keywords_-_level_1">
+          <xsl:number value="count($thesaurus/ancestor::tei:category[3]/preceding-sibling::tei:category) + 1" format="01" /><xsl:text>. </xsl:text>
+          <xsl:value-of select="translate(translate($thesaurus/ancestor::tei:category[3]/child::tei:catDesc/@n, '/', '／'), '_', ' ')"/>
+        </field>
+      </xsl:if>
+      
+      <xsl:if test="$thesaurus[ancestor::tei:category[2]][not(ancestor::tei:category[3])]">
+        <field name="keywords_-_level_2">
+          <xsl:number value="count($thesaurus/ancestor::tei:category[2]/preceding-sibling::tei:category) + 1" format="01" /><xsl:text>.</xsl:text>
+          <xsl:number value="count($thesaurus/ancestor::tei:category[1]/preceding-sibling::tei:category) + 1" format="01" /><xsl:text>. </xsl:text>
+          <xsl:value-of select="translate(translate($thesaurus/@n, '/', '／'), '_', ' ')"/>
+        </field>
+        <field name="keywords_-_level_1">
+          <xsl:number value="count($thesaurus/ancestor::tei:category[2]/preceding-sibling::tei:category) + 1" format="01" /><xsl:text>. </xsl:text>
+          <xsl:value-of select="translate(translate($thesaurus/ancestor::tei:category[2]/child::tei:catDesc/@n, '/', '／'), '_', ' ')"/>
+        </field>
+      </xsl:if>
+      
+      <xsl:if test="$thesaurus[ancestor::tei:category[1]][not(ancestor::tei:category[2])]">
+        <field name="keywords_-_level_1">
+          <xsl:number value="count($thesaurus/ancestor::tei:category[1]/preceding-sibling::tei:category) + 1" format="01" /><xsl:text>. </xsl:text>
+          <xsl:value-of select="translate(translate($thesaurus/@n, '/', '／'), '_', ' ')"/>
+        </field>
+      </xsl:if>
+    </xsl:for-each>
+  </xsl:template>
+  
   <!-- This template is called by the Kiln tei-to-solr.xsl as part of
        the main doc for the indexed file. Put any code to generate
        additional Solr field data (such as new facets) here. -->
@@ -290,73 +324,59 @@
     <xsl:call-template name="field_document_tradition" />
     <xsl:call-template name="field_topical_date"/>
     <xsl:call-template name="field_redaction_date"/>
-    <xsl:call-template name="field_mentioned_keywords_-_categories"/>
-    <xsl:call-template name="field_mentioned_keywords_-_terms"/>
-    <xsl:call-template name="field_mentioned_people"/>
-    <xsl:call-template name="field_mentioned_places"/>
-    <xsl:call-template name="field_mentioned_juridical_persons"/>
-    <xsl:call-template name="field_mentioned_estates"/>
-    <xsl:call-template name="field_mentioned_dates"/>
+    <xsl:call-template name="field_keywords"/>
+    <xsl:call-template name="field_keywords_-_alphabetically"/>
+    <xsl:call-template name="field_people"/>
+    <xsl:call-template name="field_places"/>
+    <xsl:call-template name="field_juridical_persons"/>
+    <xsl:call-template name="field_estates"/>
+    <xsl:call-template name="field_dates"/>
     <xsl:call-template name="field_person_name"/>
     <xsl:call-template name="field_complete_edition"/>
   </xsl:template>
   
+  <xsl:template name="field_keywords">
+    <xsl:apply-templates mode="facet_keywords" select="/tei:TEI/tei:text/tei:body/tei:div[@type='edition']"/>
+  </xsl:template>
+  <xsl:template name="field_keywords_-_alphabetically">
+    <xsl:apply-templates mode="facet_keywords_-_alphabetically" select="/tei:TEI/tei:text/tei:body/tei:div[@type='edition']"/>
+  </xsl:template>
   <xsl:template name="field_ancient_document_type">
     <xsl:apply-templates mode="facet_ancient_document_type" select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msContents/tei:summary/tei:rs[@type='text_type']"/>
   </xsl:template>
-  
   <xsl:template name="field_fiscal_property">
     <xsl:apply-templates mode="facet_fiscal_property" select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msContents/tei:summary/tei:rs[@type='fiscal_property']" />
   </xsl:template>
-  
   <xsl:template name="field_record_source">
     <xsl:apply-templates mode="facet_record_source" select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msContents/tei:summary/tei:rs[@type='record_source']"/>
   </xsl:template>
-  
   <xsl:template name="field_document_tradition">
     <xsl:apply-templates mode="facet_document_tradition" select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msContents/tei:summary/tei:rs[@type='document_tradition']" />
   </xsl:template>
-  
   <xsl:template name="field_topical_date">
-    <xsl:apply-templates mode="facet_topical_date" select="/tei:TEI/tei:teiHeader//tei:origDate/tei:note[@type='topical_date']"/>
+    <xsl:apply-templates mode="facet_topical_date" select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:origDate/tei:note[@type='topical_date']"/>
   </xsl:template>
-  
   <xsl:template name="field_redaction_date">
-    <xsl:apply-templates mode="facet_redaction_date" select="/tei:TEI/tei:teiHeader//tei:origDate/tei:note[@type='redaction_date']"/>
+    <xsl:apply-templates mode="facet_redaction_date" select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:origDate/tei:note[@type='redaction_date']"/>
   </xsl:template>
-  
-  <xsl:template name="field_mentioned_keywords_-_categories">
-    <xsl:apply-templates mode="facet_mentioned_keywords_-_categories" select="//tei:text/tei:body/tei:div[@type='edition']"/>
+  <xsl:template name="field_people">
+    <xsl:apply-templates mode="facet_people" select="/tei:TEI/tei:text/tei:body/tei:div[@type='edition']" />
   </xsl:template>
-  
-  <xsl:template name="field_mentioned_keywords_-_terms">
-    <xsl:apply-templates mode="facet_mentioned_keywords_-_terms" select="//tei:text/tei:body/tei:div[@type='edition']"/>
+  <xsl:template name="field_places">
+    <xsl:apply-templates mode="facet_places" select="/tei:TEI/tei:text/tei:body/tei:div[@type='edition']" />
   </xsl:template>
-  
-  <xsl:template name="field_mentioned_people">
-    <xsl:apply-templates mode="facet_mentioned_people" select="//tei:text/tei:body/tei:div[@type='edition']" />
+  <xsl:template name="field_juridical_persons">
+    <xsl:apply-templates mode="facet_juridical_persons" select="/tei:TEI/tei:text/tei:body/tei:div[@type='edition']" />
   </xsl:template>
-  
-  <xsl:template name="field_mentioned_places">
-    <xsl:apply-templates mode="facet_mentioned_places" select="//tei:text/tei:body/tei:div[@type='edition']" />
-  </xsl:template>
-  
-  <xsl:template name="field_mentioned_juridical_persons">
-    <xsl:apply-templates mode="facet_mentioned_juridical_persons" select="//tei:text/tei:body/tei:div[@type='edition']" />
-  </xsl:template>
-  
-  <xsl:template name="field_mentioned_estates">
-    <xsl:apply-templates mode="facet_mentioned_estates" select="//tei:text/tei:body/tei:div[@type='edition']" />
+  <xsl:template name="field_estates">
+    <xsl:apply-templates mode="facet_estates" select="/tei:TEI/tei:text/tei:body/tei:div[@type='edition']" />
    </xsl:template>
-  
-  <xsl:template name="field_mentioned_dates">
-    <xsl:apply-templates mode="facet_mentioned_dates" select="//tei:text/tei:body/tei:div[@type='edition']" />
+  <xsl:template name="field_dates">
+    <xsl:apply-templates mode="facet_dates" select="/tei:TEI/tei:text/tei:body/tei:div[@type='edition']" />
   </xsl:template>
-  
   <xsl:template name="field_person_name">
-    <xsl:apply-templates mode="facet_person_name" select="//tei:text/tei:body/tei:div[@type='edition']" />
+    <xsl:apply-templates mode="facet_person_name" select="/tei:TEI/tei:text/tei:body/tei:div[@type='edition']" />
   </xsl:template>
-  
   <xsl:template name="field_complete_edition">
     <xsl:apply-templates mode="facet_complete_edition" select="/tei:TEI" />
   </xsl:template>

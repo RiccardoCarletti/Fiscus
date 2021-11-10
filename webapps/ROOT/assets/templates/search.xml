@@ -82,34 +82,23 @@
           </form>
           <!-- List of currently applied facets. -->
           <xsl:apply-templates mode="search-results" select="/aggregation/response/lst[@name='responseHeader']/lst[@name='params']/*[@name='fq']" />
-          <!-- List available facets. -->
+          <!-- List available facets. -->  
          
-           <!--<xsl:apply-templates select="/aggregation/response/lst[@name='facet_counts']/lst[@name='facet_fields']"
-                               mode="search-results" />-->
-          <h4>Filters</h4>
-          
+          <!--<xsl:apply-templates select="/aggregation/response/lst[@name='facet_counts']/lst[@name='facet_fields']" mode="search-results" />-->
+          <h3>Filters</h3>
+          <h4>Document details</h4>
           <div class="section-container accordion" data-section="accordion">
-            <xsl:apply-templates select="/aggregation/response/lst[@name='facet_counts']/lst[@name='facet_fields']/lst[@name='author']" mode="search-results" />
-            <xsl:apply-templates select="/aggregation/response/lst[@name='facet_counts']/lst[@name='facet_fields']/lst[@name='ancient_document_type']" mode="search-results" />
-            <xsl:apply-templates select="/aggregation/response/lst[@name='facet_counts']/lst[@name='facet_fields']/lst[@name='record_source']" mode="search-results" />
-            <xsl:apply-templates select="/aggregation/response/lst[@name='facet_counts']/lst[@name='facet_fields']/lst[@name='document_tradition']" mode="search-results" />
-            <xsl:apply-templates select="/aggregation/response/lst[@name='facet_counts']/lst[@name='facet_fields']/lst[@name='fiscal_property']" mode="search-results" />
-            <xsl:apply-templates select="/aggregation/response/lst[@name='facet_counts']/lst[@name='facet_fields']/lst[@name='provenance']" mode="search-results" />
-            <xsl:apply-templates select="/aggregation/response/lst[@name='facet_counts']/lst[@name='facet_fields']/lst[@name='topical_date']" mode="search-results" />
-            <xsl:apply-templates select="/aggregation/response/lst[@name='facet_counts']/lst[@name='facet_fields']/lst[@name='redaction_date']" mode="search-results" />
+            <xsl:apply-templates select="/aggregation/response/lst[@name='facet_counts']/lst[@name='facet_fields']/lst[@name='author' or @name='ancient_document_type' or @name='record_source' or @name='document_tradition' or @name='fiscal_property' or @name='provenance' or @name='topical_date' or @name='redaction_date']" mode="search-results" />
+          </div>
+          <h4>Mentioned elements</h4>
+          <div class="section-container accordion" data-section="accordion">
+            <xsl:apply-templates select="/aggregation/response/lst[@name='facet_counts']/lst[@name='facet_fields']/lst[@name='places' or @name='estates' or @name='people' or @name='juridical_persons' or @name='dates']" mode="search-results" />
           </div>
           
+          <h4>Keywords</h4>
           <div class="section-container accordion" data-section="accordion">
-            <xsl:apply-templates select="/aggregation/response/lst[@name='facet_counts']/lst[@name='facet_fields']/lst[@name='mentioned_places']" mode="search-results" />
-            <xsl:apply-templates select="/aggregation/response/lst[@name='facet_counts']/lst[@name='facet_fields']/lst[@name='mentioned_estates']" mode="search-results" />
-            <xsl:apply-templates select="/aggregation/response/lst[@name='facet_counts']/lst[@name='facet_fields']/lst[@name='mentioned_people']" mode="search-results" />
-            <xsl:apply-templates select="/aggregation/response/lst[@name='facet_counts']/lst[@name='facet_fields']/lst[@name='mentioned_juridical_persons']" mode="search-results" />
-            <xsl:apply-templates select="/aggregation/response/lst[@name='facet_counts']/lst[@name='facet_fields']/lst[@name='mentioned_dates']" mode="search-results" />
-          </div>
-          
-          <div class="section-container accordion" data-section="accordion">
-            <xsl:apply-templates select="/aggregation/response/lst[@name='facet_counts']/lst[@name='facet_fields']/lst[@name='mentioned_keywords_-_categories']" mode="search-results" />
-            <xsl:apply-templates select="/aggregation/response/lst[@name='facet_counts']/lst[@name='facet_fields']/lst[@name='mentioned_keywords_-_terms']" mode="search-results" />
+            <xsl:apply-templates select="/aggregation/response/lst[@name='facet_counts']/lst[@name='facet_fields']/lst[@name='keywords_-_alphabetically']" mode="search-results" />
+            <xsl:apply-templates select="/aggregation/response/lst[@name='facet_counts']/lst[@name='facet_fields']/lst[@name='keywords_-_level_1' or @name='keywords_-_level_2' or @name='keywords_-_level_3' or @name='keywords_-_level_4' or @name='keywords_-_level_5']" mode="search-results" />
           </div>
           
         </div>

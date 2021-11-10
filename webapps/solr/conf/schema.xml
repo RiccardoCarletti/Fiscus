@@ -116,9 +116,6 @@
           required="false" stored="true" type="string" />
    <field indexed="true" multiValued="true" name="editor"
           required="false" stored="true" type="text_general" />
-   <!-- publication_date is treated as a string, because Solr's date
-        field type requires a UTC time, and we may wish to store only
-        a year. -->
    <field indexed="true" multiValued="false" name="publication_date"
           required="false" stored="true" type="string" />
    <field indexed="true" multiValued="true" name="origin_date"
@@ -137,36 +134,48 @@
           required="false" stored="true" type="text_general" />
    <field name="lemmatised_text" type="text_general" indexed="true"
           stored="false" multiValued="true" />
+   <field name="complete_edition" indexed="true" multiValued="true"
+     stored="false" type="text_general" />
    <field name="provenance" type="string" indexed="true"
           multiValued="true" stored="true" required="false" />
    <field name="fiscal_property" type="string" indexed="true"
           multiValued="true" stored="true" required="false" />
    <field name="document_tradition" type="string" indexed="true"
           multiValued="true" stored="true" required="false" />
-   <field name="mentioned_persons" type="string" indexed="true"
-          multiValued="true" stored="true" required="false" />
-   <field name="mentioned_places" type="string" indexed="true"
-          multiValued="true" stored="true" required="false" />
-   <field name="mentioned_people" type="string" indexed="true"
-     multiValued="true" stored="true" required="false" />
-   <field name="mentioned_juridical_persons" type="string" indexed="true"
-     multiValued="true" stored="true" required="false" />
    <field name="record_source" type="string" required="false"
           multiValued="true" stored="true" indexed="true" />
-   <field name="mentioned_estates" stored="true" indexed="true"
-     multiValued="true" required="false" type="string" />
+   <field name="ancient_document_type" indexed="true" 
+     multiValued="true" required="false" stored="true" type="string" />
+   <field name="topical_date" required="false" indexed="true"
+     multiValued="true" stored="true" type="string" />
+   <field name="redaction_date" required="false" indexed="true"
+     multiValued="true" stored="true" type="string" />
    <field name="person_name" stored="true" indexed="true"
-     multiValued="true" required="false" type="string" />   
-   <field name="mentioned_keywords_-_categories" stored="true" indexed="true"
      multiValued="true" required="false" type="string" />
-   <field name="mentioned_keywords_-_terms" stored="true" indexed="true"
+   <field name="persons" type="string" indexed="true"
+     multiValued="true" stored="true" required="false" />  
+   <field name="places" type="string" indexed="true"
+     multiValued="true" stored="true" required="false" />
+   <field name="estates" stored="true" indexed="true"
      multiValued="true" required="false" type="string" />
-   <field name="mentioned_dates" stored="true" indexed="true"
+   <field name="people" type="string" indexed="true"
+     multiValued="true" stored="true" required="false" />
+   <field name="juridical_persons" type="string" indexed="true"
+     multiValued="true" stored="true" required="false" />
+   <field name="dates" stored="true" indexed="true"
      multiValued="true" required="false" type="string" />
-   <field indexed="true" multiValued="true" name="ancient_document_type"
-     required="false" stored="true" type="string" />
-    <field name="complete_edition" indexed="true" multiValued="true"
-     stored="false" type="text_general" />
+   <field name="keywords_-_alphabetically" stored="true" indexed="true"
+     multiValued="true" required="false" type="string" />
+   <field name="keywords_-_level_1" stored="true" indexed="true"
+     multiValued="true" required="false" type="string" />
+   <field name="keywords_-_level_2" stored="true" indexed="true"
+     multiValued="true" required="false" type="string" />
+   <field name="keywords_-_level_3" stored="true" indexed="true"
+     multiValued="true" required="false" type="string" />
+   <field name="keywords_-_level_4" stored="true" indexed="true"
+     multiValued="true" required="false" type="string" />
+   <field name="keywords_-_level_5" stored="true" indexed="true"
+     multiValued="true" required="false" type="string" />
 
    <!-- User index fields. -->
    <field name="index_item_name" stored="true" indexed="true"
@@ -219,10 +228,6 @@
      multiValued="false" stored="true" indexed="true" />
    <field name="index_date" stored="true" indexed="true"
      multiValued="false" required="false" type="string" />
-   <field name="topical_date" required="false" indexed="true"
-     multiValued="true" stored="true" type="string" />
-   <field name="redaction_date" required="false" indexed="true"
-     multiValued="true" stored="true" type="string" />
    <!-- Concordance fields. -->
    <field name="concordance_bibliography_ref" stored="true" indexed="true"
           multiValued="false" required="false" type="string" />
