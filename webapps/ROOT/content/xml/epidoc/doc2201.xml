@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Archivio Capitolare di Lucca: CC. 4, Banco XII</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc2201</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">Yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0941-03-26">
+                                <note type="displayed_date">941 march 26</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Lucca</note>
+                                <note type="redaction_date">XI sec.</note>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-02-08" who="cstedile">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine sancte et individue Trinitatis. Hugo et Lotharius divina favente
+                        clementia reges. Si sanctis ac venerabilibus locis ex predium nostrorum
+                        rebus aliquid offerimus, instantis et future vite premium adipisci non
+                        titubamus. Quapropter omnium sancte Dei Ecclesie fidelium nostorrumque
+                        presentium ac futurorum noverit universitas, qualiter pro Dei amore
+                        animarumque Adelberti marchionis matrisque nostre Berte coniugis eius ac
+                        nostrarum animarum remedio quandam cortem iuris nostri Sancte Petronille
+                        nomine, que nobis hereditario iure ex parte eiusdem matris nostre evenit,
+                        prope Massam Macinariam coniacentem, cum capella in honore eiusdem sancte
+                        Petronille cum mansis viginti in Massa Macinaria et duobus in loco Colugnue
+                        nec non et pratis in Cepeto et in Turingana atque vinea et campis in loco
+                        Turingo, nec non vinea et terris in Palatiano et aliquantula terra in
+                        Pontetecto, cum servis et ancillis omnibusque rebus et familiis ad eandem
+                        cortem et capellam pertinentibus, ecclesie Beati Martini, ubi caput Lucani
+                        episcopii esse dinoscitur, in usum et sumptum canonicorum ibidem pro tempore
+                        Deo militantium, prout iuste et legaliter possumus, concedimus, donamus
+                        atque largimur, et de nostro iure et dominio in eorum ius et dominium omnino
+                        transfundimus et delegamus una cum casis, sediminibus, campis, terris,
+                        vineis, pratis, pascuis, silvis, aquis aquarumque decuribus, molendinis,
+                        piscationibus, montibus, vallibus, planitiebus, servis et ancillis,
+                        aldionibus et aldianis cunctisque rebus et familiis iuste et legaliter ad
+                        eandem cortem pertinentibus et respicientibus in integrum, quatenus canonici
+                        in ecclesia Beati Martini Deo famulantes et pro animabus Adelberti
+                        marchionis matrisque nostre Berte coniugis eius et pro nobis Dominum
+                        exorantes prefatam cortem cum omnibus ad se pertinentibus in integrum
+                        habeant, teneant, firmiterque possideant. Insuper etiam cortem illam que
+                        Massa Grausi dicitur, quam mater nostra de patris nostri suoque pretio
+                        comparavit, quam etiam nos dudum prefate ecclesie Beati Martini in usum et
+                        sumptum canonicorum pro animabus Adelberti marchionis matrisque nostre Berte
+                        contulimus, per hanc nostre preceptionis paginam confirmamus pleniterque
+                        corroboramus, ut habeant, teneant, firmiterque possideant. Statuimus ut
+                        episcopus loci nullam quoquam in tempore de prefatis cortibus potestatem
+                        habeat neque inde se intromittat, nisi ad canonicorum auxilium et
+                        salvationem; et si, quod absit, a potestate eorum prefatas cortes cum
+                        omnibus ad se pertinentibus episcopus loci aut ullus invasor tulerit aut
+                        subtraxerit, tunc deveniant in ius et potestatem unius ex propinquioribus
+                        arentibus nostris, tandiu donec talis episcopus venerit, qui pre fatas
+                        cortes in iure et potestate canonicorum esse permittat. Denique et plebem de
+                        Sugrominio in honore Sancti Laurentii constructam, quam Cunradus sancte
+                        Lucame ecclesie episcopus ex parte episcopii loco quarte portionis ex
+                        decimis predicte canonice in usum et sumptum canonicorum per scriptum
+                        concessit, per hoc nostrum preceptum confirmamus et corroboramus, statuentes
+                        ut nullus episcoporum eandem plebem a potestate canonicorum tollere
+                        presumat. De cetero totius ordinis canonicos predictasque cortes et plebem
+                        cum omnibus rebus et familiis ad easdem cortes et plebem pertinentibus
+                        cunctasque res et familias canonicorum sub nostra defensionem et mundiburdum
+                        recepimus, atque precipientes iubemus, ut nullus dux, marchio, comes,
+                        episcopus, aut ulla regni nostri magna parvaque persona canonicos in
+                        ecclesia Beati Martini Deo servientes inquietare audeat, aut de prefatis
+                        cortibus et plebe disvestire aut invasionem facere presumat, vel de rebus
+                        eorum propriis disvestire sine legali iudicio seu familiis temptet; sed
+                        liceat eis prefatas cortes et plebem tenere et pro pretaxatis animabus et
+                        nobis Deum exorare, quiete ac pacifice vivere, omni contradictione remota.
+                        Si quis igitur huius precepti violator extiterit, sciat se compositutum auri
+                        optimi libras centum, medietatem kamere nostre et medietatem canonicis in
+                        memorata ecclesia pro tempore Deo famulantibus; et insuper eternae
+                        damnationis penam incurrat, et sum Iusa traditore partem in die iudicii
+                        habeat. Et ut hoc nostre largitionis donum ratum in posterum maneat
+                        diligentiusque ab omnibus observetur, manibus propriis roborantes anuli
+                        nostri impressione subter annotari iussimus. Signa piissimorum (M) (M)
+                        Hugoni et Lotharii regum. Giseprandus cancellarius ad vicem Bosonis episcopi
+                        et archicancellarii recognovi et subscripsi. Data VII kal. april., ano
+                        dominice incarnationis DCCCCXLI, regni vero domni Hugonis regis XV, filii
+                        eius Lotharii item regis X, indictione XIIII. Actum Luce. Feliciter,
+                        amen.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>DD U L, pp. 166-169, n° LVI</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
