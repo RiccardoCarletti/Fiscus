@@ -168,14 +168,14 @@
     </div>
     </xsl:if>
 
-
     <!-- LISTS -->
-    <div>
+    <xsl:if test="doc[str[@name='index_item_name']][not(str[@name='index_thesaurus_hierarchy'])]">
+      <div>
         <xsl:apply-templates select="doc[str[@name='index_item_name'][not(starts-with(., '~'))][not(starts-with(., '#'))]]">
           <xsl:sort select="lower-case(.)"/>
         </xsl:apply-templates>
     </div>
-
+    </xsl:if>
     <xsl:if test="doc[str[@name='index_item_name'][starts-with(., '#')]]">
       <h3 class="sublist_heading">Personal names normalized forms</h3>
       <div>
@@ -184,7 +184,6 @@
           </xsl:apply-templates>
         </div>
     </xsl:if>
-
     <xsl:if test="doc[str[@name='index_item_name'][starts-with(., '~')]]">
       <h3 class="sublist_heading">Items that have not been normalized</h3>
       <div>
@@ -193,12 +192,32 @@
           </xsl:apply-templates>
       </div>
     </xsl:if>
+    
+    <!-- THESAURUS HIERARCHICAL LIST  -->
+    <xsl:if test="doc[str[@name='index_thesaurus_hierarchy']]">
+      <div id="thesaurus_hierarchy">
+        <xsl:apply-templates select="doc">
+          <xsl:sort select="lower-case(.)"/><!-- <xsl:sort select="doc/str[@name='index_thesaurus_hierarchy']"/> -->
+        </xsl:apply-templates>
+      </div>
+    </xsl:if>
   </xsl:template>
-
+  
+  <!-- ITEMS IN THESAURUS HIERARCHICAL LIST  -->
+  <xsl:template match="result/doc[str[@name='index_thesaurus_hierarchy']]">
+    <div id="{str[@name='index_item_name']}" class="index_item">
+      <xsl:apply-templates select="str[@name='index_item_name']" />
+      <button type="button" class="expander" onclick="$(this).next().toggle();">Show/Hide</button>
+      <div class="expanded hidden">
+        <div><xsl:apply-templates select="str[@name='index_external_resource']" /></div>
+        <xsl:apply-templates select="arr[@name='index_instance_location']" />
+      </div>
+    </div>
+  </xsl:template>
 
   <!-- ITEMS IN LISTS -->
   <!-- items in lists structure -->
-  <xsl:template match="result/doc">
+  <xsl:template match="result/doc[str[@name='index_item_name']][not(str[@name='index_thesaurus_hierarchy'])]">
     <div id="{substring-after(str[@name='index_item_number'], '/')}" class="index_item">
       <div>
       <xsl:apply-templates select="str[@name='index_item_name']" />

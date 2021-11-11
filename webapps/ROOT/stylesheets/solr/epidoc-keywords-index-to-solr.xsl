@@ -25,10 +25,10 @@
     <xsl:variable name="keys" select="distinct-values(tokenize($key-values, '\s+'))" />
     
     <add>
-      <xsl:for-each select="$keys">
-        <xsl:variable name="key-value" select="."/>
-        <xsl:variable name="key" select="document('../../content/fiscus_framework/resources/thesaurus.xml')//tei:catDesc[lower-case(@n)=$key-value]"/>
-        <xsl:variable name="keyword" select="$root//tei:div[@type='edition']//tei:rs[@key!=''][@key!=' '][@key!='#']/@key[contains(concat(' ', replace(lower-case(.), '#', ''), ' '), concat(' ', $key-value, ' '))]" />
+      <xsl:for-each select="$keys"> <!-- + never used keys? -->
+        <xsl:variable name="key" select="."/>
+        <xsl:variable name="thes" select="document('../../content/fiscus_framework/resources/thesaurus.xml')//tei:catDesc[lower-case(@n)=lower-case($key)]"/>
+        <xsl:variable name="keyword" select="$root//tei:div[@type='edition']//tei:rs[@key!=''][@key!=' '][@key!='#']/@key[contains(concat(' ', replace(lower-case(.), '#', ''), ' '), concat(' ', lower-case($key), ' '))]" />
         <doc>
           <field name="document_type">
             <xsl:value-of select="$subdirectory" />
@@ -37,15 +37,45 @@
             <xsl:text>_index</xsl:text>
           </field>
           <xsl:call-template name="field_file_path" />
-          <xsl:if test="$key">
+          <xsl:if test="$thes">
           <field name="index_item_name">
-            <xsl:value-of select="normalize-space(replace($key-value, '_', ' '))" />
+            <xsl:value-of select="translate(translate($thes/@n, '/', '／'), '_', ' ')" />
           </field>
           <field name="index_external_resource">
-                <xsl:value-of select="concat('https://ausohnum.huma-num.fr/concept/', $key[1]/@xml:id)" />    
+            <xsl:value-of select="concat('https://ausohnum.huma-num.fr/concept/', $thes[1]/@xml:id)" />    
           </field>
+            
+            <field name="index_thesaurus_hierarchy"> 
+              <xsl:text>-</xsl:text>
+              <!--<xsl:if test="$thes[ancestor::tei:category[5]][not(ancestor::tei:category[6])]">
+              <xsl:value-of select="translate(translate($thes/@n, '/', '／'), '_', ' ')"/>
+              <xsl:value-of select="translate(translate($thes/ancestor::tei:category[2]/child::tei:catDesc/@n, '/', '／'), '_', ' ')"/>
+              <xsl:value-of select="translate(translate($thes/ancestor::tei:category[3]/child::tei:catDesc/@n, '/', '／'), '_', ' ')"/>
+              <xsl:value-of select="translate(translate($thes/ancestor::tei:category[4]/child::tei:catDesc/@n, '/', '／'), '_', ' ')"/>
+              <xsl:value-of select="translate(translate($thes/ancestor::tei:category[5]/child::tei:catDesc/@n, '/', '／'), '_', ' ')"/>
+            </xsl:if>
+              <xsl:if test="$thes[ancestor::tei:category[4]][not(ancestor::tei:category[5])]">
+              <xsl:value-of select="translate(translate($thes/@n, '/', '／'), '_', ' ')"/>
+              <xsl:value-of select="translate(translate($thes/ancestor::tei:category[2]/child::tei:catDesc/@n, '/', '／'), '_', ' ')"/>
+              <xsl:value-of select="translate(translate($thes/ancestor::tei:category[3]/child::tei:catDesc/@n, '/', '／'), '_', ' ')"/>
+              <xsl:value-of select="translate(translate($thes/ancestor::tei:category[4]/child::tei:catDesc/@n, '/', '／'), '_', ' ')"/>
+            </xsl:if>
+              <xsl:if test="$thes[ancestor::tei:category[3]][not(ancestor::tei:category[4])]">
+              <xsl:value-of select="translate(translate($thes/@n, '/', '／'), '_', ' ')"/>
+              <xsl:value-of select="translate(translate($thes/ancestor::tei:category[2]/child::tei:catDesc/@n, '/', '／'), '_', ' ')"/>
+              <xsl:value-of select="translate(translate($thes/ancestor::tei:category[3]/child::tei:catDesc/@n, '/', '／'), '_', ' ')"/>
+            </xsl:if>
+              <xsl:if test="$thes[ancestor::tei:category[2]][not(ancestor::tei:category[3])]">
+              <xsl:value-of select="translate(translate($thes/@n, '/', '／'), '_', ' ')"/>
+              <xsl:value-of select="translate(translate($thes/ancestor::tei:category[2]/child::tei:catDesc/@n, '/', '／'), '_', ' ')"/>
+            </xsl:if>
+              <xsl:if test="$thes[ancestor::tei:category[1]][not(ancestor::tei:category[2])]">
+              <xsl:value-of select="translate(translate($thes/@n, '/', '／'), '_', ' ')"/>
+            </xsl:if>-->
+            </field>
+            
           </xsl:if>
-          <xsl:if test="$key/@xml:id='c26024'"><!-- to prevent having this indexed for all instances -->
+          <xsl:if test="$thes/@xml:id='c26024'"><!-- to prevent having this indexed for all instances -->
             <field name="index_total_items">
             <xsl:value-of select="string(count($thesaurus//tei:catDesc))"/>
           </field>
