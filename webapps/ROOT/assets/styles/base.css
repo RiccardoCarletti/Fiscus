@@ -97,7 +97,6 @@ div#edition {
     padding-top: 20px;
 }
 
-
 /* lists, indices and team members */
 div.list_item {
     padding-bottom: 2em;
@@ -127,13 +126,13 @@ margin-left:20px;
     font-variant: small-caps;
 }
 
-.expander, .expander:hover, .expander:link, .expander:visited, .expander:focus, .expander:active, .expander:enabled, .open_map, .open_map:hover, .open_map:link, .open_map:visited, .open_map:focus, .open_map:active, .open_map_map:enabled {
+.expander, .expander:hover, .expander:link, .expander:visited, .expander:focus, .expander:active, .expander:enabled, .open_link, .open_link:hover, .open_link:link, .open_link:visited, .open_link:focus, .open_link:active, .open_link_map:enabled {
     background-color: #f6f6f6;
     border-style: none;
     border-radius: 12px;
     color: #3A2A4C;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 12px;
     padding: 9px 9px 7px 9px;
     margin: 0 5px 10px 5px;
 }
@@ -162,7 +161,7 @@ margin-left:20px;
     padding-bottom: 0.8em;
 }
 
-ul.expanded {
+ul.expanded, .expanded ul {
   list-style: circle inside none;
 }
 
@@ -172,6 +171,55 @@ ul.expanded {
 
 div#hidden {
     display: none;
+}
+
+/* Keywords list */
+.plus {
+    background-color: white !important;
+    margin: 0 1.75em 0 -4em !important;
+}
+
+.keywords_list .index_item_name + button {
+    background-color: white !important;
+    border: 1px solid #3A2A4C !important;
+}
+
+.index_item_name a, .index_item_name a:hover, .index_item_name a:link, .index_item_name a:visited, .index_item_name a:focus, .index_item_name a:active, .index_item_name a:enabled {
+    color: #3A2A4C;
+}
+
+.keywords_list {
+    padding: 0.5em 1em 0em 1em;
+    margin-top:1em;
+    margin-bottom:1em;
+    margin-right: 20em;
+    line-height: 2.5em;
+    /*border: 1px solid #f6f6f6;*/
+}
+
+.level1 {
+    margin-left: 0.5em;
+    background-color: #ebe6f1;
+}
+
+.level2 {
+    margin-left: 2em;
+    background-color: #f1ebe6;
+}
+
+.level3 {
+    margin-left: 3.5em;
+    background-color: #e6f1eb;
+}
+
+.level4 {
+    margin-left: 5em;
+    background-color: #eef1ff;
+}
+
+.level5 {
+    margin-left: 6.5em;
+    background-color: #f6faea;
 }
 
 /* Back to top arrow */

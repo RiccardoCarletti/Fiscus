@@ -228,6 +228,10 @@
      multiValued="false" stored="true" indexed="true" />
    <field name="index_thesaurus_hierarchy" stored="true" indexed="true"
      multiValued="false" required="false" type="string" />
+   <field name="index_thesaurus_level" stored="true" indexed="true"
+     multiValued="false" required="false" type="string" />
+   <field name="index_thesaurus_descendants" stored="true" indexed="true"
+     multiValued="false" required="false" type="string" />
    <field name="index_date" stored="true" indexed="true"
      multiValued="false" required="false" type="string" />
    <!-- Concordance fields. -->

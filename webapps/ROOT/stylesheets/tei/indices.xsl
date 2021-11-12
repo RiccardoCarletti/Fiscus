@@ -164,7 +164,10 @@
     <xsl:if test="doc/str[@name='index_total_items']">
     <div>
       <p>Total items: <xsl:value-of select="doc/str[@name='index_total_items']" /></p>
-    <button type="button" class="expander" onclick="$('.expanded').toggle();">Show/Hide all linked items</button>
+      <xsl:if test="doc[str[@name='index_thesaurus_hierarchy']]">
+        <button type="button" class="expander" onclick="$('.level2, .level3, .level4, .level5').toggleClass('hidden'); $(this).text($(this).text() == 'Show all keywords' ? 'Hide all keywords' : 'Show all keywords');">Show all keywords</button><xsl:text> </xsl:text>
+      </xsl:if>
+      <button type="button" class="expander" onclick="$('.expanded').toggleClass('hidden'); $(this).text($(this).text() == 'Show all linked items' ? 'Hide all linked items' : 'Show all linked items');">Show all linked items</button>
     </div>
     </xsl:if>
 
@@ -196,8 +199,8 @@
     <!-- THESAURUS HIERARCHICAL LIST  -->
     <xsl:if test="doc[str[@name='index_thesaurus_hierarchy']]">
       <div id="thesaurus_hierarchy">
-        <xsl:apply-templates select="doc">
-          <xsl:sort select="lower-case(.)"/><!-- <xsl:sort select="doc/str[@name='index_thesaurus_hierarchy']"/> -->
+        <xsl:apply-templates select="doc[str[@name='index_thesaurus_hierarchy']]">
+          <xsl:sort select="lower-case(str[@name='index_thesaurus_hierarchy'])"/> <!-- or index_item_name -->
         </xsl:apply-templates>
       </div>
     </xsl:if>
@@ -205,13 +208,35 @@
   
   <!-- ITEMS IN THESAURUS HIERARCHICAL LIST  -->
   <xsl:template match="result/doc[str[@name='index_thesaurus_hierarchy']]">
-    <div id="{str[@name='index_item_name']}" class="index_item">
-      <xsl:apply-templates select="str[@name='index_item_name']" />
-      <button type="button" class="expander" onclick="$(this).next().toggle();">Show/Hide</button>
-      <div class="expanded hidden">
-        <div><xsl:apply-templates select="str[@name='index_external_resource']" /></div>
-        <xsl:apply-templates select="arr[@name='index_instance_location']" />
+    <xsl:variable name="hidden"><xsl:if test="str[@name='index_thesaurus_level']!='level1'"><xsl:text>hidden</xsl:text></xsl:if></xsl:variable>
+    <div id="{translate(translate(str[@name='index_item_name'], '／', '/'), ' ', '_')}" class="keywords_list {str[@name='index_thesaurus_level']} {$hidden}">
+      <xsl:choose><!-- toggle descendants; button text based on .hidden -->
+        <xsl:when test="str[@name='index_thesaurus_level']='level1' and str[@name='index_thesaurus_descendants']='yes'">
+          <button type="button" class="expander plus" onclick="$(this).parent().nextUntil('.level1', '.level2').toggleClass('hidden'); $(this).text($(this).text() == '+' ? '–' : '+');">+</button><xsl:text> </xsl:text>
+        </xsl:when>
+        <xsl:when test="str[@name='index_thesaurus_level']='level2' and str[@name='index_thesaurus_descendants']='yes'">
+          <button type="button" class="expander plus" onclick="$(this).parent().nextUntil('.level2, level.1', '.level3').toggleClass('hidden'); $(this).text($(this).text() == '+' ? '–' : '+');">+</button><xsl:text> </xsl:text>
+        </xsl:when>
+        <xsl:when test="str[@name='index_thesaurus_level']='level3' and str[@name='index_thesaurus_descendants']='yes'">
+          <button type="button" class="expander plus" onclick="$(this).parent().nextUntil('.level3, .level2, .level1', '.level4').toggleClass('hidden'); $(this).text($(this).text() == '+' ? '–' : '+');">+</button><xsl:text> </xsl:text>
+        </xsl:when>
+        <xsl:when test="str[@name='index_thesaurus_level']='level4' and str[@name='index_thesaurus_descendants']='yes'">
+          <button type="button" class="expander plus" onclick="$(this).parent().nextUntil('.level4, .level3, .level2, .level1', '.level5').toggleClass('hidden'); $(this).text($(this).text() == '+' ? '–' : '+');">+</button><xsl:text> </xsl:text>
+        </xsl:when>
+      </xsl:choose>
+      <h3 class="index_item_name inline"><a target="_blank" href="{str[@name='index_external_resource']}"><xsl:value-of select="str[@name='index_item_name']" /></a></h3>
+        <xsl:if test="arr[@name='index_instance_location']">
+          <xsl:text> </xsl:text><button type="button" class="expander" onclick="$(this).next().toggleClass('hidden'); $(this).text($(this).text() == 'Show' ? 'Hide' : 'Show');">Show</button>
+          <div class="expanded hidden linked_elements">
+            <h4 class="inline"><xsl:text>Linked documents by date (</xsl:text><xsl:value-of select="count(arr[@name='index_instance_location']/str)"/><xsl:text>):</xsl:text></h4>
+            <ul>
+              <xsl:apply-templates select="arr[@name='index_instance_location']/str">
+                <xsl:sort><xsl:value-of select="substring-before(substring-after(substring-after(., '#doc'), '#'), '#')"/></xsl:sort>
+              </xsl:apply-templates>
+            </ul>
       </div>
+        </xsl:if>
+        
     </div>
   </xsl:template>
 
@@ -264,7 +289,7 @@
   <!-- item coordinates -->
   <xsl:template match="str[@name='index_coordinates']">
     <p><strong>Coordinates (Lat, Long): </strong>
-      <a target="_blank" href="{concat('map.html#',substring-after(parent::doc/str[@name='index_item_number'], 'places/'))}" class="open_map"><xsl:text>See on map</xsl:text></a>
+      <a target="_blank" href="{concat('map.html#',substring-after(parent::doc/str[@name='index_item_number'], 'places/'))}" class="open_link"><xsl:text>See on map</xsl:text></a>
       <xsl:text> </xsl:text><xsl:value-of select="."/></p>
   </xsl:template>
 
@@ -310,7 +335,7 @@
     <div class="linked_elements">
     <h4 class="inline"><xsl:text>Linked estates:</xsl:text></h4>
     <xsl:text> </xsl:text>
-    <button type="button" class="expander" onclick="$(this).next().toggle();">Show/Hide</button>
+      <button type="button" class="expander" onclick="$(this).next().toggleClass('hidden'); $(this).text($(this).text() == 'Show' ? 'Hide' : 'Show');">Show</button>
     <ul class="expanded hidden">
       <xsl:for-each select="$item">
         <xsl:sort select="substring-after(translate(translate(., 'italicsstart', ''), 'italicsend', ''), '#')"/>
@@ -334,7 +359,7 @@
     <div class="linked_elements">
       <h4 class="inline"><xsl:text>Linked juridical persons:</xsl:text></h4>
     <xsl:text> </xsl:text>
-    <button type="button" class="expander" onclick="$(this).next().toggle();">Show/Hide</button>
+      <button type="button" class="expander" onclick="$(this).next().toggleClass('hidden'); $(this).text($(this).text() == 'Show' ? 'Hide' : 'Show');">Show</button>
     <ul class="expanded hidden">
       <xsl:for-each select="$item">
         <xsl:sort select="substring-after(translate(translate(., 'italicsstart', ''), 'italicsend', ''), '#')"/>
@@ -358,7 +383,7 @@
     <div class="linked_elements">
       <h4 class="inline"><xsl:text>Linked people:</xsl:text></h4>
     <xsl:text> </xsl:text>
-    <button type="button" class="expander" onclick="$(this).next().toggle();">Show/Hide</button>
+      <button type="button" class="expander" onclick="$(this).next().toggleClass('hidden'); $(this).text($(this).text() == 'Show' ? 'Hide' : 'Show');">Show</button>
     <ul class="expanded hidden">
       <xsl:for-each select="$item">
         <xsl:sort select="substring-after(translate(translate(., 'italicsstart', ''), 'italicsend', ''), '#')"/>
@@ -381,9 +406,9 @@
     <xsl:variable name="item" select="tokenize(substring-after(., '~'), '£')"/>
     <div class="linked_elements">
       <h4 class="inline"><xsl:text>Linked places: </xsl:text></h4>
-      <a target="_blank" href="{concat('map.html#', substring-before(substring-after(., 'map.html#'), '~'))}" class="open_map">See on map</a>
+      <a target="_blank" href="{concat('map.html#', substring-before(substring-after(., 'map.html#'), '~'))}" class="open_link">See on map</a>
       <xsl:text> </xsl:text>
-    <button type="button" class="expander" onclick="$(this).next().toggle();">Show/Hide</button>
+      <button type="button" class="expander" onclick="$(this).next().toggleClass('hidden'); $(this).text($(this).text() == 'Show' ? 'Hide' : 'Show');">Show</button>
     <ul class="expanded hidden">
       <xsl:for-each select="$item">
         <xsl:sort select="substring-after(translate(translate(., 'italicsstart', ''), 'italicsend', ''), '#')"/>
@@ -406,7 +431,7 @@
     <div class="linked_elements">
       <h4 class="inline"><xsl:text>Linked documents by date (</xsl:text><xsl:value-of select="count(str)"/><xsl:text>):</xsl:text></h4>
     <xsl:text> </xsl:text>
-    <button type="button" class="expander" onclick="$(this).next().toggle();">Show/Hide</button>
+      <button type="button" class="expander" onclick="$(this).next().toggleClass('hidden'); $(this).text($(this).text() == 'Show' ? 'Hide' : 'Show');">Show</button>
     <ul class="expanded hidden">
         <xsl:apply-templates select="str">
           <xsl:sort><xsl:value-of select="substring-before(substring-after(substring-after(., '#doc'), '#'), '#')"/></xsl:sort>
