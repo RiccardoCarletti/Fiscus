@@ -165,9 +165,11 @@
     <div>
       <p>Total items: <xsl:value-of select="doc/str[@name='index_total_items']" /></p>
       <xsl:if test="doc[str[@name='index_thesaurus_hierarchy']]">
-        <button type="button" class="expander toggle_all" onclick="$('.level2, .level3, .level4, .level5').toggleClass('hidden'); $(this).text($('.level2, .level3, .level4, .level5').hasClass('hidden') ? 'Show all keywords' : 'Hide all keywords');  $('.plus').text($('.plus').parent().next().hasClass('hidden') ? '+' : '–'); ">Show all keywords</button><xsl:text> </xsl:text>
+        <button type="button" class="expander toggle_all" onclick="$('.level2, .level3, .level4, .level5').removeClass('hidden'); $('.plus').text($('.plus').parent().next().hasClass('hidden') ? '+' : '–');">Show all</button><xsl:text> </xsl:text>
+        <button type="button" class="expander toggle_all" onclick="$('.level2, .level3, .level4, .level5').addClass('hidden'); $('.plus').text($('.plus').parent().next().hasClass('hidden') ? '+' : '–');">Hide all</button><xsl:text> </xsl:text>
       </xsl:if>
-      <button type="button" class="expander toggle_all" onclick="$('.expanded').toggleClass('hidden'); $(this).text($('.expanded').hasClass('hidden') ? 'Show all linked items' : 'Hide all linked items'); $('.expander:not(.plus):not(.toggle_all)').text($('.expander:not(.plus):not(.toggle_all)').next().hasClass('hidden') ? 'Show' : 'Hide');">Show all linked items</button>
+      <button type="button" class="expander toggle_all" onclick="$('.expanded').removeClass('hidden'); $('.expander:not(.plus):not(.toggle_all)').text($('.expander:not(.plus):not(.toggle_all)').next().hasClass('hidden') ? 'Show' : 'Hide');">Show all linked items</button><xsl:text> </xsl:text>
+      <button type="button" class="expander toggle_all" onclick="$('.expanded').addClass('hidden'); $('.expander:not(.plus):not(.toggle_all)').text($('.expander:not(.plus):not(.toggle_all)').next().hasClass('hidden') ? 'Show' : 'Hide');">Hide all linked items</button>
     </div>
     </xsl:if>
 
@@ -210,7 +212,7 @@
   <xsl:template match="result/doc[str[@name='index_thesaurus_hierarchy']]">
     <xsl:variable name="hidden"><xsl:if test="str[@name='index_thesaurus_level']!='level1'"><xsl:text>hidden</xsl:text></xsl:if></xsl:variable>
     <div id="{translate(translate(str[@name='index_item_name'], '／', '/'), ' ', '_')}" class="keywords_list {str[@name='index_thesaurus_level']} {$hidden}">
-      <xsl:choose><!-- toggle descendants; toggle_all: add/remove .hidden instead of toggle it -->
+      <xsl:choose><!-- toggle descendants -->
         <xsl:when test="str[@name='index_thesaurus_level']='level1' and str[@name='index_thesaurus_descendants']='yes'">
           <button type="button" class="expander plus" onclick="$(this).parent().nextUntil('.level1', '.level2').toggleClass('hidden'); $(this).text($(this).parent().next().hasClass('hidden') ? '+' : '–');">+</button><xsl:text> </xsl:text>
         </xsl:when>
