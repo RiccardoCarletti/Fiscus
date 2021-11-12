@@ -165,9 +165,9 @@
     <div>
       <p>Total items: <xsl:value-of select="doc/str[@name='index_total_items']" /></p>
       <xsl:if test="doc[str[@name='index_thesaurus_hierarchy']]">
-        <button type="button" class="expander" onclick="$('.level2, .level3, .level4, .level5').toggleClass('hidden'); $(this).text($(this).text() == 'Show all keywords' ? 'Hide all keywords' : 'Show all keywords');">Show all keywords</button><xsl:text> </xsl:text>
+        <button type="button" class="expander toggle_all" onclick="$('.level2, .level3, .level4, .level5').toggleClass('hidden'); $(this).text($('.level2, .level3, .level4, .level5').hasClass('hidden') ? 'Show all keywords' : 'Hide all keywords');  $('.plus').text($('.plus').parent().next().hasClass('hidden') ? '+' : '–'); ">Show all keywords</button><xsl:text> </xsl:text>
       </xsl:if>
-      <button type="button" class="expander" onclick="$('.expanded').toggleClass('hidden'); $(this).text($(this).text() == 'Show all linked items' ? 'Hide all linked items' : 'Show all linked items');">Show all linked items</button>
+      <button type="button" class="expander toggle_all" onclick="$('.expanded').toggleClass('hidden'); $(this).text($('.expanded').hasClass('hidden') ? 'Show all linked items' : 'Hide all linked items'); $('.expander:not(.plus):not(.toggle_all)').text($('.expander:not(.plus):not(.toggle_all)').next().hasClass('hidden') ? 'Show' : 'Hide');">Show all linked items</button>
     </div>
     </xsl:if>
 
@@ -210,23 +210,23 @@
   <xsl:template match="result/doc[str[@name='index_thesaurus_hierarchy']]">
     <xsl:variable name="hidden"><xsl:if test="str[@name='index_thesaurus_level']!='level1'"><xsl:text>hidden</xsl:text></xsl:if></xsl:variable>
     <div id="{translate(translate(str[@name='index_item_name'], '／', '/'), ' ', '_')}" class="keywords_list {str[@name='index_thesaurus_level']} {$hidden}">
-      <xsl:choose><!-- toggle descendants; button text based on .hidden -->
+      <xsl:choose><!-- toggle descendants; toggle_all: add/remove .hidden instead of toggle it -->
         <xsl:when test="str[@name='index_thesaurus_level']='level1' and str[@name='index_thesaurus_descendants']='yes'">
-          <button type="button" class="expander plus" onclick="$(this).parent().nextUntil('.level1', '.level2').toggleClass('hidden'); $(this).text($(this).text() == '+' ? '–' : '+');">+</button><xsl:text> </xsl:text>
+          <button type="button" class="expander plus" onclick="$(this).parent().nextUntil('.level1', '.level2').toggleClass('hidden'); $(this).text($(this).parent().next().hasClass('hidden') ? '+' : '–');">+</button><xsl:text> </xsl:text>
         </xsl:when>
         <xsl:when test="str[@name='index_thesaurus_level']='level2' and str[@name='index_thesaurus_descendants']='yes'">
-          <button type="button" class="expander plus" onclick="$(this).parent().nextUntil('.level2, level.1', '.level3').toggleClass('hidden'); $(this).text($(this).text() == '+' ? '–' : '+');">+</button><xsl:text> </xsl:text>
+          <button type="button" class="expander plus" onclick="$(this).parent().nextUntil('.level2, level.1', '.level3').toggleClass('hidden'); $(this).text($(this).parent().next().hasClass('hidden') ? '+' : '–');">+</button><xsl:text> </xsl:text>
         </xsl:when>
         <xsl:when test="str[@name='index_thesaurus_level']='level3' and str[@name='index_thesaurus_descendants']='yes'">
-          <button type="button" class="expander plus" onclick="$(this).parent().nextUntil('.level3, .level2, .level1', '.level4').toggleClass('hidden'); $(this).text($(this).text() == '+' ? '–' : '+');">+</button><xsl:text> </xsl:text>
+          <button type="button" class="expander plus" onclick="$(this).parent().nextUntil('.level3, .level2, .level1', '.level4').toggleClass('hidden'); $(this).text($(this).parent().next().hasClass('hidden') ? '+' : '–');">+</button><xsl:text> </xsl:text>
         </xsl:when>
         <xsl:when test="str[@name='index_thesaurus_level']='level4' and str[@name='index_thesaurus_descendants']='yes'">
-          <button type="button" class="expander plus" onclick="$(this).parent().nextUntil('.level4, .level3, .level2, .level1', '.level5').toggleClass('hidden'); $(this).text($(this).text() == '+' ? '–' : '+');">+</button><xsl:text> </xsl:text>
+          <button type="button" class="expander plus" onclick="$(this).parent().nextUntil('.level4, .level3, .level2, .level1', '.level5').toggleClass('hidden'); $(this).text($(this).parent().next().hasClass('hidden') ? '+' : '–');">+</button><xsl:text> </xsl:text>
         </xsl:when>
       </xsl:choose>
       <h3 class="index_item_name inline"><a target="_blank" href="{str[@name='index_external_resource']}"><xsl:value-of select="str[@name='index_item_name']" /></a></h3>
         <xsl:if test="arr[@name='index_instance_location']">
-          <xsl:text> </xsl:text><button type="button" class="expander" onclick="$(this).next().toggleClass('hidden'); $(this).text($(this).text() == 'Show' ? 'Hide' : 'Show');">Show</button>
+          <xsl:text> </xsl:text><button type="button" class="expander" onclick="$(this).next().toggleClass('hidden'); $(this).text($(this).next().hasClass('hidden') ? 'Show' : 'Hide');">Show</button>
           <div class="expanded hidden linked_elements">
             <h4 class="inline"><xsl:text>Linked documents by date (</xsl:text><xsl:value-of select="count(arr[@name='index_instance_location']/str)"/><xsl:text>):</xsl:text></h4>
             <ul>
@@ -335,7 +335,7 @@
     <div class="linked_elements">
     <h4 class="inline"><xsl:text>Linked estates:</xsl:text></h4>
     <xsl:text> </xsl:text>
-      <button type="button" class="expander" onclick="$(this).next().toggleClass('hidden'); $(this).text($(this).text() == 'Show' ? 'Hide' : 'Show');">Show</button>
+      <button type="button" class="expander" onclick="$(this).next().toggleClass('hidden'); $(this).text($(this).next().hasClass('hidden') ? 'Show' : 'Hide');">Show</button>
     <ul class="expanded hidden">
       <xsl:for-each select="$item">
         <xsl:sort select="substring-after(translate(translate(., 'italicsstart', ''), 'italicsend', ''), '#')"/>
@@ -359,7 +359,7 @@
     <div class="linked_elements">
       <h4 class="inline"><xsl:text>Linked juridical persons:</xsl:text></h4>
     <xsl:text> </xsl:text>
-      <button type="button" class="expander" onclick="$(this).next().toggleClass('hidden'); $(this).text($(this).text() == 'Show' ? 'Hide' : 'Show');">Show</button>
+      <button type="button" class="expander" onclick="$(this).next().toggleClass('hidden'); $(this).text($(this).next().hasClass('hidden') ? 'Show' : 'Hide');">Show</button>
     <ul class="expanded hidden">
       <xsl:for-each select="$item">
         <xsl:sort select="substring-after(translate(translate(., 'italicsstart', ''), 'italicsend', ''), '#')"/>
@@ -383,7 +383,7 @@
     <div class="linked_elements">
       <h4 class="inline"><xsl:text>Linked people:</xsl:text></h4>
     <xsl:text> </xsl:text>
-      <button type="button" class="expander" onclick="$(this).next().toggleClass('hidden'); $(this).text($(this).text() == 'Show' ? 'Hide' : 'Show');">Show</button>
+      <button type="button" class="expander" onclick="$(this).next().toggleClass('hidden'); $(this).text($(this).next().hasClass('hidden') ? 'Show' : 'Hide');">Show</button>
     <ul class="expanded hidden">
       <xsl:for-each select="$item">
         <xsl:sort select="substring-after(translate(translate(., 'italicsstart', ''), 'italicsend', ''), '#')"/>
@@ -408,7 +408,7 @@
       <h4 class="inline"><xsl:text>Linked places: </xsl:text></h4>
       <a target="_blank" href="{concat('map.html#', substring-before(substring-after(., 'map.html#'), '~'))}" class="open_link">See on map</a>
       <xsl:text> </xsl:text>
-      <button type="button" class="expander" onclick="$(this).next().toggleClass('hidden'); $(this).text($(this).text() == 'Show' ? 'Hide' : 'Show');">Show</button>
+      <button type="button" class="expander" onclick="$(this).next().toggleClass('hidden'); $(this).text($(this).next().hasClass('hidden') ? 'Show' : 'Hide');">Show</button>
     <ul class="expanded hidden">
       <xsl:for-each select="$item">
         <xsl:sort select="substring-after(translate(translate(., 'italicsstart', ''), 'italicsend', ''), '#')"/>
@@ -431,7 +431,7 @@
     <div class="linked_elements">
       <h4 class="inline"><xsl:text>Linked documents by date (</xsl:text><xsl:value-of select="count(str)"/><xsl:text>):</xsl:text></h4>
     <xsl:text> </xsl:text>
-      <button type="button" class="expander" onclick="$(this).next().toggleClass('hidden'); $(this).text($(this).text() == 'Show' ? 'Hide' : 'Show');">Show</button>
+      <button type="button" class="expander" onclick="$(this).next().toggleClass('hidden'); $(this).text($(this).next().hasClass('hidden') ? 'Show' : 'Hide');">Show</button>
     <ul class="expanded hidden">
         <xsl:apply-templates select="str">
           <xsl:sort><xsl:value-of select="substring-before(substring-after(substring-after(., '#doc'), '#'), '#')"/></xsl:sort>
