@@ -165,8 +165,8 @@
     <div>
       <p>Total items: <xsl:value-of select="doc/str[@name='index_total_items']" /></p>
       <xsl:if test="doc[str[@name='index_thesaurus_hierarchy']]">
-        <button type="button" class="expander toggle_all" onclick="$('.level2, .level3, .level4, .level5').removeClass('hidden'); $('.plus').text($('.plus').parent().next().hasClass('hidden') ? '+' : '–');">Show all</button><xsl:text> </xsl:text>
-        <button type="button" class="expander toggle_all" onclick="$('.level2, .level3, .level4, .level5').addClass('hidden'); $('.plus').text($('.plus').parent().next().hasClass('hidden') ? '+' : '–');">Hide all</button><xsl:text> </xsl:text>
+        <button type="button" class="expander toggle_all" onclick="$('.level2, .level3, .level4, .level5').removeClass('hidden'); $('.plus:not(.minus)').addClass('hidden'); $('.minus').removeClass('hidden');">Show all</button><xsl:text> </xsl:text>
+        <button type="button" class="expander toggle_all" onclick="$('.level2, .level3, .level4, .level5').addClass('hidden'); $('.plus:not(.minus)').removeClass('hidden'); $('.minus').addClass('hidden');">Hide all</button><xsl:text> </xsl:text>
       </xsl:if>
       <button type="button" class="expander toggle_all" onclick="$('.expanded').removeClass('hidden'); $('.expander:not(.plus):not(.toggle_all)').text($('.expander:not(.plus):not(.toggle_all)').next().hasClass('hidden') ? 'Show' : 'Hide');">Show all linked items</button><xsl:text> </xsl:text>
       <button type="button" class="expander toggle_all" onclick="$('.expanded').addClass('hidden'); $('.expander:not(.plus):not(.toggle_all)').text($('.expander:not(.plus):not(.toggle_all)').next().hasClass('hidden') ? 'Show' : 'Hide');">Hide all linked items</button>
@@ -212,18 +212,22 @@
   <xsl:template match="result/doc[str[@name='index_thesaurus_hierarchy']]">
     <xsl:variable name="hidden"><xsl:if test="str[@name='index_thesaurus_level']!='level1'"><xsl:text>hidden</xsl:text></xsl:if></xsl:variable>
     <div id="{translate(translate(str[@name='index_item_name'], '／', '/'), ' ', '_')}" class="keywords_list {str[@name='index_thesaurus_level']} {$hidden}">
-      <xsl:choose><!-- toggle descendants -->
+      <xsl:choose>
         <xsl:when test="str[@name='index_thesaurus_level']='level1' and str[@name='index_thesaurus_descendants']='yes'">
-          <button type="button" class="expander plus" onclick="$(this).parent().nextUntil('.level1', '.level2').toggleClass('hidden'); $(this).text($(this).parent().next().hasClass('hidden') ? '+' : '–');">+</button><xsl:text> </xsl:text>
+          <button type="button" class="expander plus" onclick="$(this).parent().nextUntil('.level1', '.level2').removeClass('hidden'); $(this).toggleClass('hidden'); $(this).next().removeClass('hidden');">+</button><xsl:text> </xsl:text>
+          <button type="button" class="expander plus minus hidden" onclick="$(this).parent().nextUntil('.level1', '.level2, .level3, .level4, .level5').addClass('hidden'); $(this).addClass('hidden'); $(this).prev().removeClass('hidden'); $(this).parent().nextUntil('.level1', '.level2, .level3, .level4, .level5').children('.minus').addClass('hidden'); $(this).parent().nextUntil('.level1', '.level2, .level3, .level4, .level5').children('.plus:not(.minus)').removeClass('hidden');">–</button><xsl:text> </xsl:text>
         </xsl:when>
         <xsl:when test="str[@name='index_thesaurus_level']='level2' and str[@name='index_thesaurus_descendants']='yes'">
-          <button type="button" class="expander plus" onclick="$(this).parent().nextUntil('.level2, level.1', '.level3').toggleClass('hidden'); $(this).text($(this).parent().next().hasClass('hidden') ? '+' : '–');">+</button><xsl:text> </xsl:text>
+          <button type="button" class="expander plus" onclick="$(this).parent().nextUntil('.level2, level.1', '.level3').removeClass('hidden'); $(this).addClass('hidden'); $(this).next().removeClass('hidden');">+</button><xsl:text> </xsl:text>
+          <button type="button" class="expander plus minus hidden" onclick="$(this).parent().nextUntil('.level2, .level1', '.level3, .level4, .level5').addClass('hidden'); $(this).addClass('hidden'); $(this).prev().removeClass('hidden'); $(this).parent().nextUntil('.level2, .level1', '.level3, .level4, .level5').children('.minus').addClass('hidden'); $(this).parent().nextUntil('.level2, .level1', '.level3, .level4, .level5').children('.plus:not(.minus)').removeClass('hidden');">–</button><xsl:text> </xsl:text>
         </xsl:when>
         <xsl:when test="str[@name='index_thesaurus_level']='level3' and str[@name='index_thesaurus_descendants']='yes'">
-          <button type="button" class="expander plus" onclick="$(this).parent().nextUntil('.level3, .level2, .level1', '.level4').toggleClass('hidden'); $(this).text($(this).parent().next().hasClass('hidden') ? '+' : '–');">+</button><xsl:text> </xsl:text>
+          <button type="button" class="expander plus" onclick="$(this).parent().nextUntil('.level3, .level2, .level1', '.level4').removeClass('hidden'); $(this).addClass('hidden'); $(this).next().removeClass('hidden');">+</button><xsl:text> </xsl:text>
+          <button type="button" class="expander plus minus hidden" onclick="$(this).parent().nextUntil('.level3, .level2, .level1', '.level4, .level5').addClass('hidden'); $(this).addClass('hidden'); $(this).prev().removeClass('hidden'); $(this).parent().nextUntil('.level3, .level2, .level1', '.level4, .level5').children('.minus').addClass('hidden'); $(this).parent().nextUntil('.level3, .level2, .level1', '.level4, .level5').children('.plus:not(.minus)').removeClass('hidden');">–</button><xsl:text> </xsl:text>
         </xsl:when>
         <xsl:when test="str[@name='index_thesaurus_level']='level4' and str[@name='index_thesaurus_descendants']='yes'">
-          <button type="button" class="expander plus" onclick="$(this).parent().nextUntil('.level4, .level3, .level2, .level1', '.level5').toggleClass('hidden'); $(this).text($(this).parent().next().hasClass('hidden') ? '+' : '–');">+</button><xsl:text> </xsl:text>
+          <button type="button" class="expander plus" onclick="$(this).parent().nextUntil('.level4, .level3, .level2, .level1', '.level5').removeClass('hidden'); $(this).addClass('hidden'); $(this).next().removeClass('hidden');">+</button><xsl:text> </xsl:text>
+          <button type="button" class="expander plus minus hidden" onclick="$(this).parent().nextUntil('.level4, .level3, .level2, .level1', '.level5').addClass('hidden'); $(this).addClass('hidden'); $(this).prev().removeClass('hidden');">–</button><xsl:text> </xsl:text>
         </xsl:when>
       </xsl:choose>
       <h3 class="index_item_name inline"><a target="_blank" href="{str[@name='index_external_resource']}"><xsl:value-of select="str[@name='index_item_name']" /></a></h3>
