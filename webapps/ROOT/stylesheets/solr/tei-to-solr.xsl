@@ -25,8 +25,8 @@
   <xsl:template match="tei:summary/tei:rs[@type='text_type']" mode="facet_ancient_document_type">
     <field name="ancient_document_type">
       <xsl:choose>
-        <xsl:when test="text()">
-          <xsl:value-of select="translate(translate(., '-', ''), '/', '／')"/>
+        <xsl:when test="text()!='-'">
+          <xsl:value-of select="normalize-space(translate(translate(., '-', ''), '/', '／'))"/>
         </xsl:when>
         <xsl:otherwise>
           <xsl:text>-</xsl:text>
