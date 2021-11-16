@@ -52,7 +52,7 @@
     <xsl:variable name="name" select="document('../../../content/xml/tei/team.xml')//tei:p[@xml:id=$author]"/>  
     <field name="author">
       <xsl:choose>
-        <xsl:when test="$name"><xsl:value-of select="$name[1]/tei:emph"/></xsl:when>
+        <xsl:when test="$name"><xsl:value-of select="concat($name[1]/tei:emph/tei:surname, ' ', $name[1]/tei:emph/tei:forename)"/></xsl:when>
         <xsl:when test="$author and not($name)"><xsl:value-of select="@who"/></xsl:when>
         <xsl:otherwise><xsl:text>-</xsl:text></xsl:otherwise>
       </xsl:choose>
