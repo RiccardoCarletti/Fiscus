@@ -16,9 +16,9 @@
   <xsl:template match="/">
     <xsl:variable name="root" select="." />
     <xsl:variable name="all_mentions">
-      <xsl:for-each select="$root//tei:div[@type='edition']//tei:geogName/@ref"><xsl:value-of select="concat(' ', replace(., '#', ''), ' ')"/></xsl:for-each>
+      <xsl:for-each select="$root//tei:div[@type='edition']//tei:geogName/@ref"><xsl:value-of select="concat(' ', replace(normalize-space(.), '#', ''), ' ')"/></xsl:for-each>
     </xsl:variable>
-    <xsl:variable name="not_mentioned" select="$estates/tei:place/tei:geogName[not(@type='other')][not(@type='coord')][not(.='XXX')][not(contains(normalize-space($all_mentions), normalize-space(concat(' ', following-sibling::tei:idno, ' '))))]"/> 
+    <xsl:variable name="not_mentioned" select="$estates/tei:place/tei:geogName[not(@type='other')][not(@type='coord')][not(.='XXX')][not(contains($all_mentions, concat(' ', normalize-space(following-sibling::tei:idno), ' ')))]"/> 
     <xsl:variable name="id-values">
       <xsl:for-each select="//tei:geogName[ancestor::tei:div/@type='edition'][@ref!='']/@ref|$not_mentioned/following-sibling::tei:idno">
         <xsl:value-of select="normalize-space(translate(., '#', ''))" />

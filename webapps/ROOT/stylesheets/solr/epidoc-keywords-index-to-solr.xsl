@@ -16,9 +16,9 @@
   <xsl:template match="/">
     <xsl:variable name="root" select="." />
     <xsl:variable name="all_mentions">
-      <xsl:for-each select="$root//tei:div[@type='edition']//tei:rs/@key"><xsl:value-of select="concat(' ', replace(., '#', ''), ' ')"/></xsl:for-each>
+      <xsl:for-each select="$root//tei:div[@type='edition']//tei:rs/@key"><xsl:value-of select="concat(' ', replace(normalize-space(.), '#', ''), ' ')"/></xsl:for-each>
     </xsl:variable>
-    <xsl:variable name="not_mentioned" select="$thesaurus//tei:catDesc[not(contains(lower-case(normalize-space($all_mentions)), normalize-space(concat(' ', lower-case(@n), ' '))))]"/>
+    <xsl:variable name="not_mentioned" select="$thesaurus//tei:catDesc[not(contains(lower-case($all_mentions), concat(' ', lower-case(normalize-space(@n)), ' ')))]"/>
     
     <xsl:variable name="key-values">
       <xsl:for-each select="//tei:rs[ancestor::tei:div/@type='edition'][@key!=''][@key!=' '][@key!='#']/@key|$not_mentioned/@n">
