@@ -4,7 +4,7 @@
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
-                <title/>
+                <title>Archivio capitolare di Santa Maria di Novara (MGH DD Km; doc. 535)</title>
             </titleStmt>
             <editionStmt>
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
@@ -30,9 +30,9 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#"/>
-                            <rs type="record_source" ref="#"/>
-                            <rs type="document_tradition" ref="#"/>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
                             <rs type="fiscal_property"/>
                         </summary>
                         <msItem xml:id="msItem1">
@@ -41,11 +41,11 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate notBefore="0001" notAfter="0001" when="0001"> 
-                                <note type="displayed_date"></note>
-                                <note type="dating_elements"></note>
-                                <note type="topical_date"></note>
-                                <note type="redaction_date"></note>
+                            <origDate notBefore="0001" notAfter="0001" when="0877-10-19">
+                                <note type="displayed_date">19 October 877</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Peschiera sul Garda</note>
+                                <note type="redaction_date"/>
                             </origDate>
                             <origPlace/>
                         </origin>
@@ -73,7 +73,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2021-02-08">creation of record</change>
+                <change when="2021-11-17" who="cciccopiedi">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -85,7 +85,7 @@
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p/>
+                <p>BSSS 78</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>
@@ -94,7 +94,11 @@
                 <p/>
             </div>
             <div type="commentary">
-                <p/>
+                <p>Il diploma è una conferma di quello di Ludovico II con la sola aggiunta della
+                    restituzione alla chiesa di Novara della chiesa di S. Clemente, posta nella
+                    città, che sembra gli fosse stata tolta ingiustamente probabilmente
+                    dall'arcivescovo di Milano. L'edizione dei BSSS 78 datano il diploma al 29 e non
+                    al 19 di ottobre. </p>
             </div>
         </body>
     </text>
