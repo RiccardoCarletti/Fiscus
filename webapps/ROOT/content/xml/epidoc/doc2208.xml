@@ -4,7 +4,8 @@
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
-                <title/>
+                <title>Archivio di Stato di Milano, Museo diplomatico, sec. X (DD U L, pp. 189-193,
+                    n° LXIV)</title>
             </titleStmt>
             <editionStmt>
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
@@ -30,10 +31,10 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#"/>
-                            <rs type="record_source" ref="#"/>
-                            <rs type="document_tradition" ref="#"/>
-                            <rs type="fiscal_property"/>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -41,11 +42,11 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate notBefore="0001" notAfter="0001" when="0001"> 
-                                <note type="displayed_date"></note>
-                                <note type="dating_elements"></note>
-                                <note type="topical_date"></note>
-                                <note type="redaction_date"></note>
+                            <origDate when="0942-08-15">
+                                <note type="displayed_date">942 august 15</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Pavia</note>
+                                <note type="redaction_date">XI sec.</note>
                             </origDate>
                             <origPlace/>
                         </origin>
@@ -73,7 +74,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2021-02-08">creation of record</change>
+                <change when="2021-02-08" who="cstedile">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -81,11 +82,66 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab></ab>
+                    <ab>In nomine sanctae et individuae Trinitatis. <persName key="#Emperor/king"
+                            ref="#people/79">Hugo</persName> et <persName key="#Emperor/king"
+                            ref="#people/72">Lotharius</persName> divina favente clementia <rs
+                            key="#Emperor/king">reges</rs>. Humanam hac conditione naturam
+                        consistere [cr]edimus, ut dignitate sui aut benevivendo Creatori deificata
+                        consotietur, secundum quod scriptum est: Ego dixi: dii estis et filii
+                        excelsi omnes; aut proprio vicio depravata [in best]ialem inrationabilitatem
+                        deturpetur; testimonio scripture qua dicitur: Ho[mo] cum in honore esset,
+                        non intellexit; comparatus [est] iumentis insipientibus et similis factus
+                        est illis. Haec igitur considerantes, quibus valemus auxiliis predia
+                        sanctarum volumus ecclesiarum sublimare, quatenus cum eis locis Deo
+                        servientibus crescit stipendium, locorum patronis devotioni nostre
+                        faventibus apud Omnipotentem retributionis cumulus augeatur. Quam[vis]
+                        en[im] ceteris sacris locis sit famulandum, illi tamen loco opere pretium
+                        est famulari ac predia augere cui post evocationem animae resolutum corpus
+                        sepolture tradendum, si divina permiserit providentia, disposuimus. Proinde
+                        notum esse volumus divine religionis fidelibus presentium temporum ac
+                        futurorum, quod <orgName key="#Monasteries" ref="#juridical_persons/95"><rs
+                                key="#Monasteries">monasterio</rs> confessoris Christi
+                            Ambrosii</orgName>, iuxta <placeName ref="#places/147">Mediolanensem
+                            civitatem</placeName> sito, ubi eiusdem sanctorumque Gervasii ac
+                        P[ro]tasii martirum corpora condita quiescunt, pro Dei amore animaeque
+                        matris [nostrae Bertae] et nostrarum animarum remedio per huius precepti
+                        paginam in usum [et sumptum monachorum] ibidem pro tempore Deo servientium
+                        concedimus, donamus atque la[rgimur] cortes iuris nostri, videlicet cortem
+                        de Pasiliano cum omnibus ad se pertinentibus [et cortem de Feliti]ano cum
+                        omnibus ad se pertinentibus, quae nobis hereditario iure ex parte matris
+                        nostrae advenerunt, et cortem de Monte iuris nostri cum capellis et
+                        castellis ib[idem constr]uctis, cum massariciis quoque, servis et ancillis,
+                        aldionibus et aldiabus &lt;et cum tota districta omnium hominum in eisdem
+                        cortibus habitantium, cum> terris, vineis, campis, pratis, silvis, aquis
+                        aquarumque decursibus, molendinis, piscationibus, ripis, paludibus,
+                        montibus, collibus, vallibus, planitiebus omnibusque re[b]us et familiis ad
+                        prefatas cortes pertine[nti]bus in integrum, ut pars predicti coenobii iam
+                        dictas cortes cum omnibus ad se pertinentibus ad usum et sumptum monachorum
+                        ibi pro tempore Deo famulantium habeat, teneat, firmiterque possideat.
+                        Statuimus regalisque auctoritate [san]cimus, ut nullus archiepiscopus vel
+                        abbas ullo in tempore easdem cortes vel ex his quae [ad e]as pertinent
+                        potestatem habeant tollendi, libellum faciendi, [aut per alicuius]
+                        scripturae seriem a sumptu et stipendio coenobitarum aliendandi, sed,
+                        remo[ta egestate] et alimoniis quoque ex eisdem cortibus manentibus, p[ro
+                        nostrae matris Bertae anima et]pro nostra Omnipotentis clementiam libere
+                        valeant exo[rare. Si quis igitur] hoc preceptum infringere, quod absit,
+                        temptaverit, nostraeque dispositionis [e]molumentum, sicut decrevimus,
+                        manere nol[uerit], conatus eius apud Omnipotentem irritus [maneat,
+                        co]gaturque componere auri obrizi libras mille, atque a sanctorum [m]artyrum
+                        Gervasio Protasioque et confessore [Am]brosio iustorumque omnium consortio
+                        segregat[ur] et insuper anathematis ultione percussus in extremi examinis
+                        die cum Iuda traditore eiusque cotribulibus partecipet. Quod ut verius
+                        credatur diligentiusque ab omnibus observe[t]ur, manibus propriis roborantes
+                        bulla aurea [nostr]is imag[ini]bus insignita subter annotari iussimus. Signa
+                        serenissimorum (M) (M) [Hugonis et Lotharii regum. Giseprandus cancellarium
+                        ad vicem Bosonis ep[iscopi et ar]chicancellarii recognovi et subscripsi.
+                        Dat. XVIII kal. sept., anno dominice incarnationis [DCCCCXLII], regni vero
+                        domni Hugonis regis XVII, filii eius Lotharii item regis XIII, indic. XV.
+                        Actum Papie. [Feli]citer, amen.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p/>
+                <p>DD U L, pp. 189-194, n° LXIV</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>
@@ -94,7 +150,8 @@
                 <p/>
             </div>
             <div type="commentary">
-                <p/>
+                <p>Ottone I conferma al monastero le corti il 10 ottobre 951 (MGH DD O I, pp.
+                    217-218, n° 138).</p>
             </div>
         </body>
     </text>
