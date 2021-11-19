@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Archivio Capitolare di Arezzo, n° XXXVI B</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc2213</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">Yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0943-10-21">
+                                <note type="displayed_date">943 october 21</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Pavia</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-02-08" who="cstedile">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine domini Dei aeterni. Hugo et Lotharius divina providente clementia
+                        reges. Regalem decet exellentiam iustis fidelium petitionibus adsensum
+                        prebere. Quocirca omnium fidelium sanctae Dei Ecclesie nostrorumque
+                        presentium ac futurorum devotio noverit, qualiter interventu ac petitione
+                        Ilderici comitis dilectique fidelis nostri, prout interventu ac petitione
+                        ilderici comitis dilectique fidelis nostri, prout iuste et legaliter
+                        possumus, per hoc nostre confirmationis preceptum confirmamus ac
+                        corroboramus Bernardo nostri fideli omnes res proprietatis sue iuste et
+                        legaliter adquisitas et adquirendas, sive familias emptionis commutationis
+                        cel quolibet titulo legalis scriptionis sibi pertinentes: res in casale
+                        Manditiano, in Campriano et Blatiano, vel per singula loca et vocabula regni
+                        nostri adiacentes; recipientes eundem Bernardum et filios suos sub nostre
+                        tuitionis mundburdum una cum omnibus rebus mobilibus et immobilibus sibi
+                        iuste et legaliter pertinentibus, servis et ancillis. Precipientes itaque
+                        iubemus, ut nullus dux, marchio, comes, vicecomes, seu quelibet regni nostri
+                        magna parvaque persona predictum Bernardum molestare vel de suis rebus
+                        desvestire audeat, absque legali iuditio. Si quis igitur huius nostri
+                        precepti confirmationem seu mundburdi tuitionem aliquando infringere conatus
+                        fuerit, sciat se compositurum auri optimi libras quinquaginta, medietatem
+                        kamere nostre et medietatem prefato [Be]rnardo suisque heredibus. Quod ut
+                        verius credatur diligentiusque ab omnibus observetur, manibus pro[]riis
+                        roborantes anulo nostro insigniri iussimus. Signa serenissimorum (MF) (MF)
+                        Hugonis et Lotharii regum. Giseprandus cancellarius ad vicem Bosonis
+                        episcopi et archicancellarii recognovi et subscripsi (SR) (SID). Data XII
+                        kal. novembris, anno dominice incarnationis DCCCCXLIII, regni vero domni
+                        Hugonis XVIII, Lotharii XIII, indictione secunda. Actum Papie,
+                        feliciter.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>DD U L, pp. 210-212, n° LXXI</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
