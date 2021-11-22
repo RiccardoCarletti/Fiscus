@@ -4,7 +4,7 @@
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
-                <title/>
+                <title>Archivio capitolare di Santa Maria di Novara (DD B I; doc. 64)</title>
             </titleStmt>
             <editionStmt>
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
@@ -13,7 +13,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
-                <idno type="filename">doc1</idno>
+                <idno type="filename">doc1839</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -30,10 +30,10 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#"/>
-                            <rs type="record_source" ref="#"/>
-                            <rs type="document_tradition" ref="#"/>
-                            <rs type="fiscal_property"/>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">Uncertain</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -41,11 +41,11 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate notBefore="0001" notAfter="0001" when="0001"> 
-                                <note type="displayed_date"></note>
-                                <note type="dating_elements"></note>
-                                <note type="topical_date"></note>
-                                <note type="redaction_date"></note>
+                            <origDate notBefore="0001" notAfter="0001" when="0904">
+                                <note type="displayed_date">904</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date"/>
+                                <note type="redaction_date"/>
                             </origDate>
                             <origPlace/>
                         </origin>
@@ -73,7 +73,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2021-02-08">creation of record</change>
+                <change when="2021-11-22" who="cciccopiedi">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -81,7 +81,44 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab></ab>
+                    <ab>In nomine domini nostri Ihesu Xpisti dei eterni Berengarius gratia dei rex.
+                        Si sanctis ac venerabilibus locis nostre memoriae augmentum tribuimus vel
+                        privilegia apostolicorum seu predecessorum nostrorum regum videlicet ac
+                        imperatorum precepta roboramus apud deum veniam promereri non diffidimus.
+                        Unde notum volumus omnibus sanctae dei ecclesiae fidelibus tam presentibus
+                        quam futuris qualiter vir venerabilis noster fidelis scilicet Garibaldus
+                        novariensis episcopus nostram expetit clementiam interventu ac petitione
+                        venerabilis Adelberti bergomensis episcopi quatenus omnia privilegia
+                        apostolica ipsius sanctae novariensis ecclesiae atque omnium predecessorum
+                        nostrum regum vel imperatorum precepta eiusdem iamdicte ecclesiae surarum
+                        omnium rerum cum auctoritate subnixa confirmationis et corroborationis
+                        nostre precepto innovare dignaremur. Cuius petitionibus animum concessionis
+                        accomodantes in omnibus iuxta privilegia et precepta roborata suam
+                        petitionem stipulare ratum duximus, hoc est abbatiam in honorem sancti
+                        Archangeli Michaelis et sancti Ianuarii martyris Christi aedificatam iuxta
+                        Leocedio cum cellis et sinodochiis atque capellis cum servis et ancillis et
+                        aldionibus utriusque sexus et cum omnibus pertinentiis suisque adiacentiis
+                        seu et universas res iam dictae sanctae Novariensis ecclesiea unecunque vel
+                        qualitercunque iuste et legaliter acquisitas, praecipientes et statuentes
+                        sub nostrae immunitatis tuitione perpetuo consistere et a nulla potestativa
+                        vel tirannica persona quasi regali auctoritate aliquid exigenda presumatur
+                        qualibet violentia aut teloneum vel ripaticum atque districtum seu
+                        arbustericiam aut quamcumque redibitionem publicam quoquo modo exigere, et
+                        cum reliquis aliis sacratis locis, cortibus cunctisque rebus et familiis
+                        utriusque sexus aldianibuque et libellariis, liberis etiam hominibus et
+                        servis ad eudem episcopium pertinentibus. deinceps sicut a sanctis
+                        apostolocis et beatae memoriae predecessoribus nostris privilegiis et
+                        preceptis summa auctoritate statutum est ita etiam scripto mani et annulo
+                        corroborationis nostre perpetuam immunitatis nostre firmitatem relinquimus
+                        confirmamus et corroborarum absque contradictione ullius vim inferentis
+                        personae. Quod si quis, quod minime credimus hoc nostre regalis clementiae
+                        indultum molestare presempserit mulctamus cum poena districtionis nostre
+                        compositorum centum libras auri optimi medietatem parti nostre medietatem
+                        sancte ecclesiae cui vim presumptuosam intulerit. Et ut hec in dei nomine
+                        institurionis nostre acutoritas perpetuae obtienat firmitatis tenorem et ab
+                        omnibus fidelibus nostris presentibus et futuris dilegentius observetur mani
+                        corroborationis nostre firmavimus et annuli nostri impressione insigni
+                        iussimus. Signum domni (M) Berengarii gloriossisimi regis. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
@@ -94,7 +131,26 @@
                 <p/>
             </div>
             <div type="commentary">
-                <p/>
+                <p>Per questo diploma abbiamo solo il testo che ci offre Muratori Antiq. ital. VI,
+                    323, secondo copia comunicatagli dal Costa il 20 gennaio 1716. Nell'edizione
+                    BSSS 78 manca il riferimento alla concessione dell'abbazia di Lucedio con questo
+                    commento: «lo Schiaparelli, nell'intedimento di portare un altro colpo al
+                    diploma berengariano assegnante il monastero di San Michele di Lucedio alla
+                    chiesa di Vercelli, e al placito in cui esso diploma è contenuto (dipl. 5 e 6)
+                    non ha rilevato o non si è accorto che la parte del presente precetto in cui si
+                    parla dell'abbazia di San Michele di Lucedio [seppure non del tutto falso] è
+                    certo una interpolazione mediante surrogazione di un tratto specifico ad altro
+                    generico». Il diploma di Berengario a cui si fa riferimento e che concederebbe
+                    l'abbazia di Lucedio al vescovo di Vercelli per il Manaresi è amplicamente
+                    manipolato. La donazione fu confermata nel marzo 901 con un placito a Pavia ma
+                    ritenuto sospetto in quanto contraddetto dalla presenza a Pavia, a partire
+                    dall'11 marzo 901 di Ludovico III e da una successiva conferma da parte di
+                    Berengario I a favore della chiesa di Novara (questa del 905). Al di là del
+                    fatto che i documenti abbiano potuto subire alterazioni la contraddizione si
+                    potrebbe anche spiegare con l'oscillazione dello schieramento dei vescovi a
+                    favore dell'uno o dell'altro re. Lucedio fu riconosciuta a Vercelli con
+                    sicurezza con il diploma di Ottone III a Leone del 7 maggio 999,  D. 323/999.
+                    Cfr. Cancian (1975)  </p>
             </div>
         </body>
     </text>
