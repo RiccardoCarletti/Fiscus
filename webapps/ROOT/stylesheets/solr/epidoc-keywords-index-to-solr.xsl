@@ -43,7 +43,7 @@
           <xsl:call-template name="field_file_path" />
           <xsl:if test="$thes">
           <field name="index_item_name">
-            <xsl:value-of select="translate(translate($thes/@n, '/', '／'), '_', ' ')" />
+            <xsl:value-of select="translate(replace($thes/@n, '/', ' / '), '_', ' ')" />
           </field>
           <field name="index_external_resource">
             <xsl:value-of select="concat('https://ausohnum.huma-num.fr/concept/', $thes[1]/@xml:id)" />    

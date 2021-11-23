@@ -211,7 +211,7 @@
   <!-- ITEMS IN THESAURUS HIERARCHICAL LIST  -->
   <xsl:template match="result/doc[str[@name='index_thesaurus_hierarchy']]">
     <xsl:variable name="hidden"><xsl:if test="str[@name='index_thesaurus_level']!='level1'"><xsl:text>hidden</xsl:text></xsl:if></xsl:variable>
-    <div id="{translate(translate(str[@name='index_item_name'], '／', '/'), ' ', '_')}" class="keywords_list {str[@name='index_thesaurus_level']} {$hidden}">
+    <div id="{translate(replace(str[@name='index_item_name'], ' / ', '/'), ' ', '_')}" class="keywords_list {str[@name='index_thesaurus_level']} {$hidden}">
       <xsl:choose>
         <xsl:when test="str[@name='index_thesaurus_level']='level1' and str[@name='index_thesaurus_descendants']='yes'">
           <button type="button" class="expander plus" onclick="$(this).parent().nextUntil('.level1', '.level2').removeClass('hidden'); $(this).toggleClass('hidden'); $(this).next().removeClass('hidden');">+</button><xsl:text> </xsl:text>
