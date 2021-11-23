@@ -163,8 +163,8 @@
                                 >Aribertus</name></persName>, Teuzo, <persName
                             key="#Placitum/iudicatum #Judge"><name ref="Iohannes"
                             >Iohannes</name></persName>, Adelbertus iudices domni imperatoris,
-                            <persName key="#Placitum/iudicatum #Witness #Notary"
-                            ><name>Causus</name></persName>, <persName
+                            <persName key="#Placitum/iudicatum #Witness #Notary"><name ref="Gausus"
+                                >Causus</name></persName>, <persName
                             key="#Placitum/iudicatum #Notary"><name ref="Berno"
                             >Berno</name></persName>, <persName key="#Placitum/iudicatum #Notary"
                                 ><name ref="Ansfrit">Ansefre</name></persName>, <persName
@@ -175,26 +175,27 @@
                             key="#Placitum/iudicatum #vassusOf"><name ref="Boso"
                             >Boso</name></persName>, <persName key="#Placitum/iudicatum #vassusOf"
                                 ><name ref="Garimundus">Vuarmundus</name></persName>, Tetbaldus,
-                            <persName key="#Placitum/iudicatum #vassusOf"
-                            ><name>Framsit</name></persName>, <persName
+                            <persName key="#Placitum/iudicatum #vassusOf"><name ref="Framsit"
+                                >Framsit</name></persName>, <persName
                             key="#Placitum/iudicatum #vassusOf"><name ref="Walterius"
                                 >Vualterius</name></persName>, <persName
                             key="#Placitum/iudicatum #vassusOf" ref="#people/2117"
                             >Gausbertus</persName>, <persName key="#Placitum/iudicatum #vassusOf"
                             ref="#people/2118">Elinus</persName>, <persName
-                            key="#Placitum/iudicatum #vassusOf"><name>Gaithulfus</name></persName>,
-                            <persName key="#Placitum/iudicatum #vassusOf"><name ref="Stefanus"
+                            key="#Placitum/iudicatum #vassusOf"><name ref="Gausulfus"
+                                >Gaithulfus</name></persName>, <persName
+                            key="#Placitum/iudicatum #vassusOf"><name ref="Stefanus"
                                 >Stephanus</name></persName>, <persName
-                            key="#Placitum/iudicatum #vassusOf"><name>Rodericus</name></persName>,
-                            <persName key="#Placitum/iudicatum #vassusOf"
-                            ><name>Verno</name></persName>, <persName
+                            key="#Placitum/iudicatum #vassusOf" ref="#people/2120"
+                            >Rodericus</persName>, <persName key="#Placitum/iudicatum #vassusOf"
+                                ><name ref="Vernus">Verno</name></persName>, <persName
                             key="#Placitum/iudicatum #vassusOf"><name ref="Gezo"
                             >Gezo</name></persName>, Vuatpertus, Ansprandus, Ildevertus germanis,
                             <persName key="#Placitum/iudicatum #vassusOf"><name ref="Maginfredus"
                                 >Manfredus</name></persName>, <persName
                             key="#Placitum/iudicatum #vassusOf"><name ref="Sigefredus"
                                 >Sigifredus</name></persName>, <persName
-                            key="#Placitum/iudicatum #vassusOf"><name ref="Abselmus"
+                            key="#Placitum/iudicatum #vassusOf"><name ref="Anselmus"
                             >Anselmus</name></persName>, <persName
                             key="#Placitum/iudicatum #vassusOf"><name ref="Gherardus"
                                 >Girardus</name></persName>
@@ -236,7 +237,7 @@
                             key="#Rivers">fluvio Padi</rs> ubi [<rs key="#Castle">castrum</rs> inibi
                         con]structum vel edifficatum fuit seu cum <rs key="#Fisheries"
                             >pisscacionibus</rs> ipsius loci seu <placeName
-                                key="#Commutatio #Islands #Landed_possessions #Forests #Cereals #Wine"
+                            key="#Commutatio #Islands #Landed_possessions #Forests #Cereals #Wine"
                             ref="#places/2402">insula Gurgo Pedangnolo</placeName> cum suorum
                         pertinenciis; et sunt rebus ipsis per [mensura et racionem] ad pertica
                         legittima de pedes duodecim mensurata inter <rs key="#Landed_possessions"
@@ -262,16 +263,18 @@
                         ipsa civitate in loco <placeName
                             key="#Commutatio #Landed_possessions #Cereals #Wine #Hay/fodder"
                             >Rosolani</placeName> et in loco <placeName
-                                key="#Commutatio #Landed_possessions #Cereals #Wine #Hay/fodder">villa
+                            key="#Commutatio #Landed_possessions #Cereals #Wine #Hay/fodder">villa
                             Irculi</placeName> inter sediminas et areis ubi vites super estant seu
                         terris arabilis [et <rs key="#Hay/fodder">pratis</rs> modia] triginta; et
                         illis aliis rebus in <rs key="#Areas">locis et fundo</rs>
-                        <placeName key="#Commutatio #Areas #Landed_possessions #Forests">Reslacovio</placeName>,
                         <placeName key="#Commutatio #Areas #Landed_possessions #Forests"
+                            >Reslacovio</placeName>, <placeName
+                            key="#Commutatio #Areas #Landed_possessions #Forests"
                             >Paradiso</placeName> seu <placeName
-                                key="#Commutatio #Areas #Landed_possessions #Forests">Viriliolo</placeName> et
-                        <geogName key="#Commutatio #Curtes #Landed_possessions #Forests" ref="#estates/2005"><rs
-                                key="#Curtes">curte</rs> que dicitur
+                            key="#Commutatio #Areas #Landed_possessions #Forests"
+                            >Viriliolo</placeName> et <geogName
+                            key="#Commutatio #Curtes #Landed_possessions #Forests"
+                            ref="#estates/2005"><rs key="#Curtes">curte</rs> que dicitur
                             Vualangi</geogName> vel ubicumque [per locis infra prenominatis] finis
                         per mensura legitima modia centumnonaginta, <rs key="#Landed_possessions"
                             >terris</rs> cum silvis et buscalibus modia milletriginta; preter
@@ -323,89 +326,92 @@
                         archipresbiter et prepositus in hac commutacione a me facta subscripsi. +
                         Ego Bernerius [diaconus et <rs key="#Missus">missus</rs>] qui supra ipsas
                         res accessi et previdi ut supra subscripsi. + Ego <persName
-                            key="#Commutatio #Witness #Deacons"><name ref="Aribaldus">Aribaldo</name></persName>
-                        diaconus subscripsi. + Ego <persName key="#Commutatio #Witness #Deacons"><name
-                                ref="Iohannes">Iohannes</name></persName> diaconus [subscripsi]. +
-                        Ego <persName key="#Commutatio #Witness #Archdeacons"><name ref="Constantinus"
+                            key="#Commutatio #Witness #Deacons"><name ref="Aribaldus"
+                                >Aribaldo</name></persName> diaconus subscripsi. + Ego <persName
+                            key="#Commutatio #Witness #Deacons"><name ref="Iohannes"
+                            >Iohannes</name></persName> diaconus [subscripsi]. + Ego <persName
+                            key="#Commutatio #Witness #Archdeacons"><name ref="Constantinus"
                                 >Constantinus</name></persName>
                         <rs key="#Archdeacons">archidiaconus</rs> subscripsi. + Ego Grasulfus
                         diaconus missus qui super ipsas res accessi et previdi ut supra manu mea
-                        subscripsi. + Ego <persName key="#Commutatio #Witness #Priests"><name ref="Iohannes"
-                                >Iohannes</name></persName> presbiter. + Ego Andreas presbiter et
-                        missus qui super ipsis rebus accesi et previdi ut supra subscripsi. + Ego
-                        <persName key="#Commutatio #Witness #Deacons"><name ref="Iohannes"
-                            >Iohannes</name></persName> diaconus subscripsi. + Ego <persName
-                                key="#Commutatio #Witness #Subdeacons"><name ref="Adalbertus"
-                            >Adelbertus</name></persName>
+                        subscripsi. + Ego <persName key="#Commutatio #Witness #Priests"><name
+                                ref="Iohannes">Iohannes</name></persName> presbiter. + Ego Andreas
+                        presbiter et missus qui super ipsis rebus accesi et previdi ut supra
+                        subscripsi. + Ego <persName key="#Commutatio #Witness #Deacons"><name
+                                ref="Iohannes">Iohannes</name></persName> diaconus subscripsi. + Ego
+                            <persName key="#Commutatio #Witness #Subdeacons"><name ref="Adalbertus"
+                                >Adelbertus</name></persName>
                         <rs key="#Subdeacons">subdiaconus</rs> subscripsi. + Ego <persName
-                            key="#Commutatio #Witness #Priests"><name ref="Martinus">Martinus</name></persName>
-                        presbiter manu mea subscripsi. + Ego <persName key="#Commutatio #Witness #Priests"><name
-                                ref="Saliprandus">Selprandus</name></persName> presbiter subscripsi.
-                        Ego <persName key="#Commutatio #Witness #Subdeacons"><name ref="Normannus"
+                            key="#Commutatio #Witness #Priests"><name ref="Martinus"
+                            >Martinus</name></persName> presbiter manu mea subscripsi. + Ego
+                            <persName key="#Commutatio #Witness #Priests"><name ref="Saliprandus"
+                                >Selprandus</name></persName> presbiter subscripsi. Ego <persName
+                            key="#Commutatio #Witness #Subdeacons"><name ref="Normannus"
                                 >Normannus</name></persName> subd[iaconus] subscripsi. Signum
                         manibus Vuiberti et Richardi seu Artaldi qui super ipsiis res accesserunt et
                         previderunt atque estimaverunt ut supra. Signum manibus <persName
-                            key="#Commutatio #Witness"><name ref="Christianus">Cristiani</name></persName> et
-                        <persName key="#Commutatio #Witness"><name ref="Iohannes">Iohanni</name></persName>
-                        seu <persName key="#Commutatio #Witness"><name ref="Petrus">Petroni</name></persName> de
-                        civitate Regio <rs key="#Witness">testes</rs>. Signum manibus <persName
-                            key="#Commutatio #Witness #Roman"><name ref="Iohannes/Gundiclio">Iohanni qui dicitur
-                                Gundiclio</name></persName> et Ansel [...] homini <rs key="#Roman"
-                            >Romani</rs> testes. + Scripsi ego Urso notarius et iudex domno regi
-                        post traditam complevi et dedi.». Cartula ipsa commutacionis ostensa et ab
-                        ordine lecta, interrogatus est ipse Adelbertus comes qui et Atto pro quid
-                        cartula commutacionis ipsa ostenderet, qui dixit: «Vere ideo cartula ipsa
-                        commutacionis ibi vestri ostensi presencia, ut ne quislibet homo dicere
-                        possit exinde aliquid adversus me, quos ego eam silens aut occulta vel
-                        conludiosa habuissem vel detinuissem, et nunc casis et rebus ipsis que sunt
-                        in locas et fundas insola que dicitur Moricula atque insula Sancti Benedicti
-                        prope f1uvio Padi quod in ista commutacionis cartula legitur ad meam habeo
-                        etdeteneo proprietatem; et si quislibet homo adversus me exinde aliqui
-                        dicere vult, paratus sum cum ipsa cartula commutacionis in racione standum
-                        et legitime finem percipiendum, et quod plus est quero ut dicat iste domnus
-                        Ermenaldus et Martinus archipresbiter et prepositus canonice ipsius
-                        episcopio et Ursus iudex <rs key="#Advocatus_of_other_public_authorities"
-                            >eorum et ipsius episcopio seu cannonice avocatus</rs>, qui hic ad
-                        presens sunt, si cartula ipsa commutacionis bona et verax est vel si ipse
-                        Martinus archipresbiter et prepositus eam fieri rogavit et manu sua propria
-                        firmasset, vel si casis et rebus ipsis quod ista commutacionis cartula
-                        legitur mihi contradicere aut subtrahere querunt an non». Qui et ipsis
-                        Ermenaldus episcopus et Martinus archipresbiter et prepositus ipsius
-                        cannonice et Ursus iudex eorum et ipsius episcopio et canonice advocatus
-                        unianimiter dixerunt et professi sunt: «Cartula ipsa commutacionis, quam tu
-                        hic ostensisti, bona et verax est et ego Martinus archipresbiter et
-                        prepositus eam fieri et firmare rogavi et manu mea propria firmavi, et casis
-                        et rebus ipsis quod in ista legitur commutacionis cartula pro illis casis et
-                        rebus, quas tu Adelbertus comes ad vicem pro illis casis et rebus ad partem
-                        predicte canonice commutacionis cartula dedistis, que sunt in locas et
-                        fundas Crhuxto et fluvio Quarismo et fluvio Rodano et fluvio Baniolo et in
-                        loco qui dicitur Grasito silva que dicitur Mantuana, et a nobis datis et
-                        consignatis et adinpletis habetis iusta ista commutacionis cartula et casis
-                        et rebus ipsis quas tu Adelbertus comes da nos recepistis iusta istam
-                        commutacionis cartulam tuis propriis cum lege esse debent et nobis da parte
-                        iam dicto episcopio seu da parte predicte canonice ad habendurn nec
-                        requirendum nichil pertinet nec pertinere debet cum lege, pro eo quod exinde
-                        nullum scriptum nullam firrnitatem nullamque racionem inde non habuimus nec
-                        habemus neque habere vel invenire possumus da parte iam dicto episcopio seu
-                        cannonice per quam tibi casis et rebus ipsis quas tu Adelbertus qui et Atto
-                        comes da parte iam diete cannonice per istam commutacionis cartulam de nos
-                        recepisti contradicere aut subtrahere possumus, set ut diximus, tuis
-                        propriis cum lege esse debent». Is peractis et manifestacio ut supra facta,
-                        rectum eorum omnibus quorum supra iudicum et auditoribus paruit esse, et
-                        iudicaverunt ut iusta eorum altercacionem et eorum domni Ermenaldi episcopi
-                        et Martini archipresbitero et prepositus ipsius cannonice seu Ursoni iudici
-                        et advocatori professione et rnanifestacione ipse Adelbertus qui et Atto
-                        comes casis et rebus ipsis, quibus sunt positis in locas et fundas insola
-                        Moricula seu insola Sancti Benedicti prope fluvio Padi seu insula Gurgo
-                        Pedanno cum suarum ad suam proprietatem habeat et detinere deberet, et ipse
-                        domnus Ermenaldus episcopus et prepositus seu Ursus iudex eorum advocatus
-                        seu pars iam dicto episcopio et canonice manerent da pars iam dicto
-                        episcopio et cannonice inde taciti et contempti. Et in eo modo finita est
-                        causa. Et hanc noticiam pro securitate eidem Adelberti comes qui et Atto
-                        fieri ammonuerunt. Quidem et ego <persName
-                            key="#Placitum/iudicatum #Writer #Notary #Judge"
-                                    ><rs><name>Anianinus</name></rs></persName> notarius et iudex
-                        domni imperatoris ac regi ex iussione suprascripto misso et iudicum
+                            key="#Commutatio #Witness"><name ref="Christianus"
+                            >Cristiani</name></persName> et <persName key="#Commutatio #Witness"
+                                ><name ref="Iohannes">Iohanni</name></persName> seu <persName
+                            key="#Commutatio #Witness"><name ref="Petrus">Petroni</name></persName>
+                        de civitate Regio <rs key="#Witness">testes</rs>. Signum manibus <persName
+                            key="#Commutatio #Witness #Roman"><name ref="Iohannes/Gundiclio">Iohanni
+                                qui dicitur Gundiclio</name></persName> et Ansel [...] homini <rs
+                            key="#Roman">Romani</rs> testes. + Scripsi ego Urso notarius et iudex
+                        domno regi post traditam complevi et dedi.». Cartula ipsa commutacionis
+                        ostensa et ab ordine lecta, interrogatus est ipse Adelbertus comes qui et
+                        Atto pro quid cartula commutacionis ipsa ostenderet, qui dixit: «Vere ideo
+                        cartula ipsa commutacionis ibi vestri ostensi presencia, ut ne quislibet
+                        homo dicere possit exinde aliquid adversus me, quos ego eam silens aut
+                        occulta vel conludiosa habuissem vel detinuissem, et nunc casis et rebus
+                        ipsis que sunt in locas et fundas insola que dicitur Moricula atque insula
+                        Sancti Benedicti prope f1uvio Padi quod in ista commutacionis cartula
+                        legitur ad meam habeo etdeteneo proprietatem; et si quislibet homo adversus
+                        me exinde aliqui dicere vult, paratus sum cum ipsa cartula commutacionis in
+                        racione standum et legitime finem percipiendum, et quod plus est quero ut
+                        dicat iste domnus Ermenaldus et Martinus archipresbiter et prepositus
+                        canonice ipsius episcopio et Ursus iudex <rs
+                            key="#Advocatus_of_other_public_authorities">eorum et ipsius episcopio
+                            seu cannonice avocatus</rs>, qui hic ad presens sunt, si cartula ipsa
+                        commutacionis bona et verax est vel si ipse Martinus archipresbiter et
+                        prepositus eam fieri rogavit et manu sua propria firmasset, vel si casis et
+                        rebus ipsis quod ista commutacionis cartula legitur mihi contradicere aut
+                        subtrahere querunt an non». Qui et ipsis Ermenaldus episcopus et Martinus
+                        archipresbiter et prepositus ipsius cannonice et Ursus iudex eorum et ipsius
+                        episcopio et canonice advocatus unianimiter dixerunt et professi sunt:
+                        «Cartula ipsa commutacionis, quam tu hic ostensisti, bona et verax est et
+                        ego Martinus archipresbiter et prepositus eam fieri et firmare rogavi et
+                        manu mea propria firmavi, et casis et rebus ipsis quod in ista legitur
+                        commutacionis cartula pro illis casis et rebus, quas tu Adelbertus comes ad
+                        vicem pro illis casis et rebus ad partem predicte canonice commutacionis
+                        cartula dedistis, que sunt in locas et fundas Crhuxto et fluvio Quarismo et
+                        fluvio Rodano et fluvio Baniolo et in loco qui dicitur Grasito silva que
+                        dicitur Mantuana, et a nobis datis et consignatis et adinpletis habetis
+                        iusta ista commutacionis cartula et casis et rebus ipsis quas tu Adelbertus
+                        comes da nos recepistis iusta istam commutacionis cartulam tuis propriis cum
+                        lege esse debent et nobis da parte iam dicto episcopio seu da parte predicte
+                        canonice ad habendurn nec requirendum nichil pertinet nec pertinere debet
+                        cum lege, pro eo quod exinde nullum scriptum nullam firrnitatem nullamque
+                        racionem inde non habuimus nec habemus neque habere vel invenire possumus da
+                        parte iam dicto episcopio seu cannonice per quam tibi casis et rebus ipsis
+                        quas tu Adelbertus qui et Atto comes da parte iam diete cannonice per istam
+                        commutacionis cartulam de nos recepisti contradicere aut subtrahere
+                        possumus, set ut diximus, tuis propriis cum lege esse debent». Is peractis
+                        et manifestacio ut supra facta, rectum eorum omnibus quorum supra iudicum et
+                        auditoribus paruit esse, et iudicaverunt ut iusta eorum altercacionem et
+                        eorum domni Ermenaldi episcopi et Martini archipresbitero et prepositus
+                        ipsius cannonice seu Ursoni iudici et advocatori professione et
+                        rnanifestacione ipse Adelbertus qui et Atto comes casis et rebus ipsis,
+                        quibus sunt positis in locas et fundas insola Moricula seu insola Sancti
+                        Benedicti prope fluvio Padi seu insula Gurgo Pedanno cum suarum ad suam
+                        proprietatem habeat et detinere deberet, et ipse domnus Ermenaldus episcopus
+                        et prepositus seu Ursus iudex eorum advocatus seu pars iam dicto episcopio
+                        et canonice manerent da pars iam dicto episcopio et cannonice inde taciti et
+                        contempti. Et in eo modo finita est causa. Et hanc noticiam pro securitate
+                        eidem Adelberti comes qui et Atto fieri ammonuerunt. Quidem et ego <persName
+                            key="#Placitum/iudicatum #Writer #Notary #Judge"><rs><name
+                                    ref="Anianinus">Anianinus</name></rs></persName> notarius et
+                        iudex domni imperatoris ac regi ex iussione suprascripto misso et iudicum
                         amonicione scripsi. <date>Anno imperii domni <persName key="#Emperor/king"
                                 ref="#people/173">Ottoni</persName> gratia Dei et item <persName
                                 ref="#people/239">Ottoni</persName> gratia Dei <rs
