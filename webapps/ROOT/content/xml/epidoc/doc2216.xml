@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Archivio Capitolare di Parma (DD U L, pp. 219-223, n° LXXV)</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc2216</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">-Placitum/iudicatum</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">Yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0944-05">
+                                <note type="displayed_date">944 may</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Reggio Emilia</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-02-08" who="cstedile">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>Dum in Dei nomine, civitate Regio, ubi dumnus Ugo et Lotarius filio eius
+                        reges preerant, ad domum ipsius sancte Regiensis eclesie infra castro ipsius
+                        domui, in sala qui est iusta ipsam matrem eclesia, laubia ipsius sale, per
+                        iusione ipsorum domni Ugoni et Lottari regibus in iudicium resideret
+                        Raimundus comes et misus dumnorum regum unicuique iusticias faciendas ac
+                        deliberandas, residentibus cum eo: Lisiardus, Rodulfus, Erardus, Amicho
+                        vasis eidem dumnorum regum; Vualpertus, Liuprandus, Deusdedit, Unaldus,
+                        Constabilis, Ildeprandus, Richardus iudices dumnorum regum; Adelbertus,
+                        Ildeprandus, Stabile, Rimpertus notarius, Ito filius quondam Cluvoni de
+                        Gurgo, Ugo filius quondam Everardi de Motelena, Berengarius, Rainerius de
+                        civitate Parma, Nandivaldus de Fleso, Leo de Sorbolo, Guncio, qui et Azo,
+                        Dominicus, Ubertus de loco Montiglo, et reliqui multis. Ibique eorum veniens
+                        presencia Iohannes diaconus et prepositus canonice sancte Parmense eclesie,
+                        ubi dumnus Deodadus episcopus esse videetur, canonica ipsa cum omni sua
+                        integritate pertinere videtur de sub regimine et potestate ipsi episcopio
+                        sancte Parmensis eclesie, una cum Madelbertus notarius et ipsius canonice
+                        advocatus, et ostenserunt ibi cartulas numerus quatuor, ubi in prima cartula
+                        continebatur ab ordine per omnia ita, sicut ic subter legitur: [quattro
+                        carte edite in Bullettino dell'Istituto stor. Ital. N° 21, pp. 151 sgg.].
+                        Cartulas ipsas vincidiones ostensas et ab ordine lectas, interrogati sunt
+                        ipsis Iohannes diaconus et prepositus seu Madelbertus notarius advocatus pro
+                        quit cartulas ipsas ibi ostenderent, qui dixerunt: vere cartulas istas ic
+                        vestri ostensimus presencia, ut ne quislibet omo dicere possit, quod nos nec
+                        parti ipsius canonice eas silens aut ocultas vel coludiosas abuisemus aut
+                        tenuisemus, et nunc cortes ipsas domui cultiles, que sunt in locas et fundas
+                        Sablone et Marzalia, cum castro et capella in unum ex ipsas abentem, cum
+                        casis masariciis et omnibus rebus, servis et ancillis, aldiones et aldianas
+                        ibidem abentibus vel exinde pertinentibus cum omni earum integritatem et
+                        pertinencia, que in istas legitur cartulas, a parte ipsius canonice sancte
+                        Parmensis eclesie abemus et detinemus ad propietatem iusta istas cartulas,
+                        et, quod plus est, querimus, ut dicat iste Richardus, qui et Rigizo, filius
+                        quondam Meresoni de loco Autiminiano, qui ic apresens est, si cartulas
+                        istas, quam ic ostensimus, bonas aut veraces sunt, vel si cortes ipsas domui
+                        cultiles, que sunt locas et fundas Sablone et Marzalia, cum casis masariciis
+                        et omnibus rebus ad eas pertinentibus, cum servis et ancillis, aldiones et
+                        aldianas adque cum omni earum integritate et pertinencia, que in istas
+                        legitur cartulas, nobis parti ipsius canonice sancte Parmensis eclesie
+                        contradicere aut subtrare queret a non. Qui et ipse Richardus, qui et
+                        Rigizo, dixit et profesus est: vere cartulas ipsas, quas vos Iohannes
+                        diaconus et prepositus seu Madelbertus notarius et advocatus ic ostensistis,
+                        bonas et veraces sunt, et omnia ita verum est, sicut in eas legitur, et
+                        curtes ipsas domui cultiles, que sunt in locas et fundas Sablone et
+                        Marzalis, cum castello et capella inibi abente, cum casis masariciis et
+                        omnibus rebus et familiis ad eas pertinentibus, cum omni earum integritatem
+                        et pertinencia, que in ipsas legitur cartulas, parti ipsius canonice
+                        Parmensis non contradisi nec contradico neque contradicere quero, quia nec
+                        legibus possum, eo quod iusta ipsas cartulas propias ipsius canonice cum
+                        lege esse debent et mihi ad abendum nec requirendum nihil pertinent nec
+                        pertinere debent cum lege, pro eo quod exinde nullam firmitatem nullamque
+                        racione nec scripcionem umquam inde non abui nec abeo nec abere possum, per
+                        quam curtes ipsas domui cultiles in easdem locas et fundas Sablone et
+                        Marzalia, cum castro et capella in unam ex ipsas abente, cum casis
+                        masariciis et omnibus rebus ad eas pertinentibus, cum servis et ancillis,
+                        aldiones et aldianas ibidem abentibus vel exinde pertinentibus parti ipsius
+                        canonice contradicere aut subtrare possum; set, ut disi, propias ipsius
+                        canonice sunt et legibus esse debent. Is actis et manifestacio u supra
+                        facta, rectum eorum omnibus corum supradictis iudices et auditoribus paruit
+                        esse, et iudicaverunt ut, iusta eorum altercacionem et eidem Richaldi, qui
+                        et Rigizo, profexionem et magnifestacionem, ipsius Iohannes diaconus et
+                        prepositus adque Madelbertus notarius et advocatus ad parte ipsius canonice
+                        sancte Parmensis eclesie ipsas curtes domui cultiles, in easdem locas et
+                        fundas Sablone et Marzalia, cum omnibus casis et rebus et familiis ad eas
+                        pertinentibus, cum omni earum integritate et pertinencia, iusta ipsas
+                        cartulas, ad propietatem abere et detinere deberent; et ipse Richaldus, qui
+                        et Rigizo, manead inde tacitus et contemptus. Ibi locum in eodem iudicio
+                        spopondi ipse Richaldus, qui et Rigizo, adversus eosdem Iohannes diaconus et
+                        prepositus et adversus eundem Madelbertus notarius et advocatus a parte
+                        ipsius canonice sancte Parmense eclesie, si umquam in tempore ipse
+                        Richaldus, qui et Rigizo, aut suos heredes vel sumitenses personas adversus
+                        eadem canonicam sancte Parmensis eclesie de ipsas curtes domui cultiles, que
+                        sunt in easdem locas et fundas Sablone et Marzalia, cum omni earum
+                        integritatem essent aut causasent vel ullam porcionem aut minoracionem da
+                        parte ipsius canonice facere quererent et exinde omni tempore taciti et
+                        contenti non permansisent et eadem canonica sancte Parmensis eclesie ipsas
+                        curtes domui cultiles, que sunt in prefatas locas et fundas Sablone et
+                        Marzalia, cum omni earum integritatem et pertinencia ipsam canonica eas
+                        quietas et inlibatas abere esse non permesissent aut si aparuiset ullum
+                        datum aut factum seu colibet anteriore aut posteriore scriptum fecissent aut
+                        in aliam partem in iudicio refludasset aut mostransent quod parti ipsius
+                        canonice ipsas cortes domui cultiles cum omni earum integritatem in aliquit
+                        subtraere quesissent vel si per placitas fatigare quesissent, tunc oblicavit
+                        et spopondi ipse Richaldus pro se et suis heredibus cumponere ad parte
+                        ipsius canonice pena arginti libras sexcenti, et insuper curtes ipsas et
+                        castello vel capella cum casis et omnibus rebus ad eas pertinentibus in
+                        easdem locas et fundas Sablone et Marzalia cum omni earum integritatem et
+                        pertinencia in dublum cum eadem familia, sicut pro tempore fuerint
+                        melioratas aut valuerint sub extimacionem in consimiles locas. Et ac noticia
+                        pro securitate ipsius canonice sancte Parmensis eclesie fieri admonuerunt.
+                        Quidem et ego Bruningo notarius ex iussione suprascripto Raimundi comes et
+                        misus seu iudicum amunicionem scripsi; anno domnorum regum Ugoni et Lottari
+                        filio eius, domni Ugoni regi octava decimo, domni vero Lottari regi tercio
+                        decimo, mense madio, indic. secunda. S(ignum) m(anu) suprascripto Raimmundus
+                        comes et misus, ut supra interfuit. Vualpertus iudex domnorum regum
+                        interfui. Unaldus iudex domnorum regum interfui. Constabilis iudex domni
+                        regis interfui. S(igna) manibus suprascriptorum Itoni et Ugoni seu Rainerii,
+                        qui ut supra interfuerunt. S(igna) manibus suprascriptorum Guncioni et
+                        Dominici seu Uberti, qui ut supra interfuerunt.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>DD U L, pp. 219-223, n° LXXV</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
