@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Bruxelles, Biblioteca Bollandiana, cod. 220, Collectanea Burgundica</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc2217</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">Yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0945-01-25">
+                                <note type="displayed_date">945 january 25</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Pavia</note>
+                                <note type="redaction_date">XVII sec.</note>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-02-08" who="cstedile">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine domini Dei aeterni. Hgo et Lotharius divina providente clementia
+                        reges. Si praedia ecclesiarum Dei largis augmentamus muneribus, largiora
+                        aeternae vitae praemia consequi minime dubitamus. Quocirca omnium fidelium
+                        sanctae Dei Ecclesiae nostrorumque praesentium ac futurorum devotio noverit,
+                        qualiter pro Dei amore animarumque nostrarum et Tetbaldi avi seu genitoris
+                        nostri nec non Berilionis patris Ingelberti remedio offerimus Deo et
+                        ecclesiae Beati Mauricii martyris Christi fundatae Viennae, ubi Sobo
+                        archiepiscopus praeesse videtur, ac per hoc nostrum praeceptum, prout iuste
+                        et legaliter possumus, donamus atque largimur cortem unam iuris nostri quae
+                        Casteneto inferiore nuncupatur superiore positam in comitatu Viennensi, una
+                        cum mansis, casis, terris, vineis, campis, pratis, pascuis, silvis,
+                        piscariis, molendinis, diversisque territoriis, montibus, vallibus, alpibus,
+                        planitiebus, aquis aquarumve decursibus universisque appenditiis, servis
+                        quoque et ancillis, aldionibus et aldiabus ad ipsam cortem et res
+                        aspicientibus in integrum, ac de nostro iure et dominio in prefatae
+                        ecclesiae ius et dominium omnino transfundimus ac delegamus, ut in perpetuum
+                        habeat, possideat et fruatur iure quieto, omnium hominum controversia
+                        remota. Si quis igitur hanc nostri praecepti oblationem invadere aut
+                        infringere tentaverit, noverit se compositurum auri optimi libras ducentas,
+                        medietatem camerae regiae et medietatem prefatae ecclesiae et episcopo qui
+                        inibi pro tempore fuerit; insuper cum Iuda traditore aeterna damnatione
+                        mulctetur, et in praesens anathematis iaculo feriatur. Quod ut verius
+                        credatur diligentiusque ab omnibus observetur, manibus propriis roborantes
+                        anulo nostro insigniri iussimus. Signa serenissorum (M) (M) Hugonis et
+                        Lotharii regum. Giseprandus episcopus et cancellarius ad vicem Bosonis
+                        episcopi archicancellarii recognovi et subscripsi. Data octavo kalendas
+                        februarii, anno dominicae incarnationis DCCCCXLV, regni vero domni Hugonis
+                        XVIII, Lotharii XIIII, indictione tertia. Actum Papiae. Feliciter,
+                        amen.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>DD U L, pp. 223-226, n° LXXVI</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
