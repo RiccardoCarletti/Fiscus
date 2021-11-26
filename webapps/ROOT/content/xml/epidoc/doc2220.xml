@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Biblioteca Ambrosiana di Milano, D I, n° 26</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc2220</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">Yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0945-03-29">
+                                <note type="displayed_date">945 march 29</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Pavia</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-02-08" who="cstedile">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine sanctae et individuae Trinitatis. Hugo et Lotharius divina
+                        providente clementia rege[s. Regum pri]ncipumque dignitatem in hoc fulciri
+                        cognoscimus, si iustis suorum fidelium petitionibus adsensum prebuerit.
+                        Quocirca omnium fidelium sanctae Dei Aecclesie nostrorumque presentium ac
+                        futuroru[m devotio] noverit, qualiter interventu ac petitione Lanfranci et
+                        Aledrammi comitum dilector[um] nostrorum fidelium per hoc nostrum preceptum
+                        donamus atque largimur Rotrude comitisse, que [Roza vocatur, et] Elisiardo
+                        comiti atque Rotlinde uxori sue et filie nostre quasdam res iuri regni
+                        nostri quondam pertinentes, positas in comitatu Terdonensi in locis et
+                        fundis Garbanigo, Petra Nigra, Besemuntio, nec non et tria molendina iuxta
+                        Ticinensem urbem in fluvio Catarona prope monasterium quod Deodote dicitur,
+                        simul cum areis terre et corticulis atque terris positis ubi extant ipsa
+                        molendina, sicut hactenus a nobis detenta sunt. Predictas igitur res atque
+                        molendina de iure regni et nostro in prefatorum hominum nostrorum fidelium
+                        ius et dominium omnino transfundimus ac delegamus una cum terris, vineis,
+                        campis, pratis, pascuis, molendinis, montibus, alpibus, planitiebus, aquis
+                        aquarumve decursibus et cum omnibus que dici vel nominari possunt, servis et
+                        ancillis ad ipsas res aspitientibus in integrum, statuentes ut si quis ex
+                        supradictis Rotruda et Elisiardo atque Rotlinda vivendo alteri superstes
+                        fuerit, de supradictis rebus sibi invicem hereditario iure succedant,
+                        habeantque potestatem tenendi, donandi, vendendi, commutandi, pro anima
+                        [i]udicandi, vel quicquid eorum decreverit animus faciendi, omnium hominum
+                        contradictione remota. Si quis igitur huius nostr[i] precepti violator
+                        exstiterit, sciat se compositurum [au]ri optimi libras centum, medietatem
+                        kamere nostre et medietatem prefatis nostris fidelibus suorumque heredibus.
+                        Quod ut verius credatur diligentiusque ab omnibus observetur, [m]anibus
+                        propriis roborantes anulo nostro insigniri iussimus. Signa serenissimorum
+                        (MF) (MF) Hugonis et Lotharii regum. Giseprandus episcopus et cancellarius
+                        ad vicem Bosonis episcopi et archicancellarii recognovi et subscripsi (SR)
+                        (SI D). Data IIII kal. aprilis, anno dominic[e] incarnationis DCCCCXLV,
+                        regni vero domni Hug[onis XV]IIII, Lotharii XIIII, indictione tertia. Actum
+                        Papie. Feliciter.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>DD U L, pp. 230-232, n° LXXIX</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
