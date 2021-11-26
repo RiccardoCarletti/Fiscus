@@ -86,7 +86,7 @@
                     <ab>(S.) Dum in Dei nomine <placeName key="#Castle" ref="#places/2414"><rs
                                 key="#Castle">castro</rs> Gunzaga</placeName>, in caminata maiore
                         sala <persName
-                            key="#Placitum/iudicatum #Commutatio #Islands #Fundi #Casae/cassinae_massaricie #Landed_possessions #Forests #Cereals #Wine #Hay/fodder #Coloni/tenants #Castle #Count #Cells/hermitages #Lombard #sonOf"
+                            key="#Placitum/iudicatum #Commutatio #Islands #Areas #Fundi #Casae/cassinae_massaricie #Landed_possessions #Forests #Cereals #Wine #Hay/fodder #Coloni/tenants #Castle #Count #Cells/hermitages #Lombard #sonOf"
                             ref="#people/2100">Adelberti</persName>
                         <rs key="#Count">comiti</rs> per eius data licencia in iudicio resideret
                             <persName key="#Placitum/iudicatum #Witness #Count #Missus_regis"
@@ -117,11 +117,10 @@
                             >Davit</name></persName>
                         <rs key="#vassusOf">vassi</rs> suprascripti Adelberti comitis et reliqui
                         plures. Ibique eorum veniens presencia Adelbertus qui et Atto comes filius
-                        bone memorie <persName key="#Lombard #fatherOf"><name ref="Sigefredus"
-                                >Sigifredi</name></persName> et ostensit ibi munimen unum quod est
-                            <rs key="#Placitum/iudicatum">noticia</rs> ubi continebatur ab ordine
-                        sicut hic subter legitur: «(S.) Dum in Dei nomine <rs key="#Cities"
-                            >civitate</rs>
+                        bone memorie <persName key="#Lombard #fatherOf" ref="#people/2101"
+                            >Sigifredi</persName> et ostensit ibi munimen unum quod est <rs
+                            key="#Placitum/iudicatum">noticia</rs> ubi continebatur ab ordine sicut
+                        hic subter legitur: «(S.) Dum in Dei nomine <rs key="#Cities">civitate</rs>
                         <placeName key="#Cities" ref="#places/65">Papia</placeName> in <rs
                             key="#Palatium">pallatio</rs> domni <rs key="#Emperor/king"
                             >imperatoris</rs>, in caminata que extat ante caminata dormitorio ipsius
@@ -149,23 +148,22 @@
                             key="#Placitum/iudicatum #Witness #Judge"><name ref="Deusdedit"
                                 >Deodatus</name></persName>
                         <rs key="#Judge">iudices</rs> idem domni imperatoris et reliqui plures.
-                        Ibique eorum veniens presentia <persName
-                            key="#Commutatio #Islands #Areas #Casae/cassinae_massaricie #Landed_possessions #Forests #Cereals #Wine #Hay/fodder #Coloni/tenants #Cells/hermitages"
-                            ref="#people/2100">Adelbertus comes qui Atto</persName> vocatur filius
-                        bone memorie <persName ref="#people/2101">Sigefredi</persName> et ostensi
-                        ibi <rs key="#Commutatio">cartula una commutacionis</rs> ubi continebatur in
-                        ea ad ordine sicut hic subter legitur: «(S.) In nomine domini Dei et
-                        salvatoris nostri Iesu Christi. <date><persName ref="#people/173"
-                                >Otto</persName> divina ordina[nte prov]dencia imperator augusto [et
-                            item] <persName ref="#people/239">Otto</persName> filio eius gratia Dei
-                            rex, anno imperii et regni eorum hic in Italia Dei propicio primo, die
-                            decimo mense oct[ub]ris, indicione sexta.</date> Commutacione bone fidei
-                        innoscitur esse contractum eodemque nexu publicum vicem empcionis obligant
-                        contrahentes. Placuit itaque bona convenit voluntate inter domnus <persName
-                            key="#Commutatio #Witness #Mother_churches #Bishops"
+                        Ibique eorum veniens presentia Adelbertus comes qui Atto vocatur filius bone
+                        memorie Sigefredi et ostensi ibi <rs key="#Commutatio">cartula una
+                            commutacionis</rs> ubi continebatur in ea ad ordine sicut hic subter
+                        legitur: «(S.) In nomine domini Dei et salvatoris nostri Iesu Christi.
+                                <date><persName ref="#people/173">Otto</persName> divina ordina[nte
+                            prov]dencia imperator augusto [et item] <persName ref="#people/239"
+                                >Otto</persName> filio eius gratia Dei rex, anno imperii et regni
+                            eorum hic in Italia Dei propicio primo, die decimo mense oct[ub]ris,
+                            indicione sexta.</date> Commutacione bone fidei innoscitur esse
+                        contractum eodemque nexu publicum vicem empcionis obligant contrahentes.
+                        Placuit itaque bona convenit voluntate inter domnus <persName
+                            key="#Commutatio #Witness #Mother_churches #Bishops" ref="#people/2102"
                             >Vuilielmus</persName> huius <orgName
                             key="#Commutatio #Islands #Areas #Casae/cassinae_massaricie #Landed_possessions #Forests #Cereals #Wine #Hay/fodder #Coloni/tenants #Cells/hermitages #Mother_churches #Bishops"
-                            >sancte Mantuanensis ecclesie</orgName>
+                            ref="#juridical_persons/1426">sancte <placeName key="#Mother_churches"
+                                ref="#places/275">Mantuanensis</placeName> ecclesie</orgName>
                         <rs key="#Bishops">episcopus</rs> nec non et inter Adelbertus qui et Atto
                         comes bone memorie Sigifredi filius de <rs key="#Comitatus">comitatu</rs>
                         <geogName key="#Comitatus" ref="#estates/210">Lu[c]ense</geogName> qui
@@ -179,7 +177,7 @@
                         inibi constructa et edifficata in <rs key="#Areas">loco et fundo</rs> ubi
                         nominatur <placeName
                             key="#Islands #Areas #Landed_possessions #Forests #Cereals #Cells/hermitages"
-                                ><rs key="#Islands">Insula</rs> qui dicitur Sancti
+                            ref="#places/2400"><rs key="#Islands">Insula</rs> qui dicitur Sancti
                             Benedicti</placeName> qui est ad honorem ipsius sancti Benedicti
                         confessoris Christi, cum <rs key="#Forests">silva et buscalibus</rs> se uno
                         tenente iuris ipsius sancte Mantuanensis ecclesie et episcopio, qui reiacet
@@ -193,18 +191,19 @@
                         ad invicem recepit ipse domnus Vuilielmus episcopus ab eadem Adelbertus
                         comes ampliorata et meliorata causa ad iure et proprietatem ipsius sue
                         ecclesie, idest capella una cum area sua in qua estat iuris sui quod est ad
-                        honorem <placeName key="#Cells/hermitages">sancti Posscidonii</placeName>,
-                        qui est constructa et edifficata in loco et fundo ubi nominatur <placeName
+                        honorem <orgName>sancti Posscidonii</orgName>, qui est constructa et
+                        edifficata in loco et fundo ubi nominatur <placeName
                             key="#Areas #Landed_possessions #Cereals #Wine #Hay/fodder#Cells/hermitages"
-                            >Garfaniana</placeName> qui est in <geogName key="#Comitatus"
-                            ref="#estates/193">comitatu Regense</geogName> cum casis et rebus ipsis
-                        in eodem loco ad ipsam capellam cum sua integritate pertinentibus vel
-                        asspicientibus sicut dictum est de ipsis rebus qui est iuris ipsius
-                        Adelberti comes, et est ipsis rebus ad suprascriptam mensuram inter <rs
-                            key="#Landed_possessions">sediminas</rs> ubi <rs key="#Wine">vites</rs>
-                        super estant seu terris arabilis et <rs key="#Hay/fodder">pratis</rs> iuges
-                        decem; verum etiam et <rs key="#Casae/cassinae_massaricie">masaricia</rs>
-                        una iure predicti Adelberti comes qui reiacet in loco et fundo <placeName
+                            ref="#places/2405">Garfaniana</placeName> qui est in <geogName
+                            key="#Comitatus" ref="#estates/193">comitatu Regense</geogName> cum
+                        casis et rebus ipsis in eodem loco ad ipsam capellam cum sua integritate
+                        pertinentibus vel asspicientibus sicut dictum est de ipsis rebus qui est
+                        iuris ipsius Adelberti comes, et est ipsis rebus ad suprascriptam mensuram
+                        inter <rs key="#Landed_possessions">sediminas</rs> ubi <rs key="#Wine"
+                            >vites</rs> super estant seu terris arabilis et <rs key="#Hay/fodder"
+                            >pratis</rs> iuges decem; verum etiam et <rs
+                            key="#Casae/cassinae_massaricie">masaricia</rs> una iure predicti
+                        Adelberti comes qui reiacet in loco et fundo <placeName
                             key="#Areas #Casae/cassinae_massaricie #Landed_possessions #Cereals #Wine #Hay/fodder #Coloni/tenants"
                             ref="#places/2406">Siniano</placeName> cum sua pertinentia quod per
                             <persName key="#Coloni/tenants"><name ref="Petrus"
