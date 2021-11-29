@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Archivio di Stato di Venezia, San Zaccaria, Pergamene, busta 20, n. 188. </title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc1034</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Offersio/donatio</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">Uncertain</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0914-12">
+                                <note type="displayed_date">914 December</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Verona</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace>Archivio di San Zaccaria</origPlace>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-02-08" who="ecinello">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine Domini nostri Iesu Christi. Regnante domno nostro Berengario rege
+                        hic in Italia anno vigesimo septimo. Sub die mensis decembris indictione
+                        tercia feliciter. Monasterio sancti Zacharie puellarum quod est constructum
+                        in finibus Venetiarum non longe a palatio de Rivoalto sanctum venerabilem
+                        locum.[1] Ego quidem in Dei omnipotentis nomine Ingelfredus gratia Dei comes
+                        comitatu Veronense et filius [bone memorie] Grimaldo ex Aleman[n]orum
+                        genere[2] cognito Dei omnipotentis timore et remedio anime mee vel
+                        parentorum meorum ut aliquid de rebus meis quas hic subter designavero in
+                        ipsum sanctum monasterium ordinare desidero iuvante Domino volo ut sic
+                        permaneat in perpetuum dixi primo * omnium do cedo trado atque offero in
+                        suprascripto monasterio ad eius iure abendum idest quod dono in suprascripto
+                        sancto * monasterio offero hoc est curtes meas iuris proprietatis mee cum
+                        omni domui cultile et pertinendi sua quas habere et posidere visus sum que
+                        posite sunt in finibus et Montesilicano comitatu in loco et fundo et villa
+                        que nominatur Petriolo[3] cum sua capella qui est vocabulum sancti Thome
+                        apostoli qui est constructa retro muris de ipso castello in costa ipsius
+                        Montesilicano et curte que nominatur Cona[4] cum sua capella que est ibi
+                        edificata ad honorem sancte Marie ad ipsas namque curtes et ad predictas
+                        capellas una cum domo et cultile et sediminas earum cum curtes ortos et
+                        viridiarios suos cum olivetas et pomiferas supra se abentis cum omnibus
+                        rebus terris et vineis cum omni domui cultile ibidem pertinente et foris una
+                        casalis massariciis cum casi[s] curtis ortis areis et sediminas earum cum
+                        terris et vineis campis pratis pascuis silvis salectis sacionibus rupinis
+                        ripis decimis pinsionibus piscationibus venetionibus nolendinis cum
+                        aquimulis suis rivis ac paludibus aquis aquariunque decursibus et ”cum casis
+                        et rebus ad eandem curtes et capellis prenominatis et masariciis et casalis
+                        pertinente in integrum ubi exinde inventum fuerit per singulas locas et
+                        fundoras consistentes vel aspicientem ista omnia ut supra legitur ad
+                        supprascripto monasterio do cedo trado sub eandem videlicet rationem et
+                        tenore ut usque dum ego quidem suprascriptus Ingelfredus comes et Aitengo
+                        filio meo in hoc seculo advixerimus omnia in nostra sit potestate ad
+                        iudicandum et ordinandum et faciendum in omnibus quicquid nobis decreverit
+                        animus et voluntas quo ordine ut si ipse Aitengo filio meo post meum
+                        remanserit discessum et absque filii filiabus legitimi aut sine testamento
+                        et ordinatione seu traditione de hoc seculo transitus fuerit tunc ist[a]
+                        omnia pariter ut supra legitur in integrum deveniat in suprascripto
+                        monasterio et potestate et ordinatione abatisse qui ibidem modo est aut in
+                        antea pro temporibus fuerit ordinandum et regendum et gubernandum pro anima
+                        nostra vel parentorum nostrorum distribuendum iuxta Deum qualiter melius
+                        providerit ut nobis peccatores vel parentorum nostrorum proficiat ad salutem
+                        ad gaudium sempiternum. Et quod absit fieri esse* non credo si pontifex aut
+                        abbatissa huius monasterii ipsas res meas de ipso monasterio sancto
+                        abstrahere voluerit aut in beneficio dare voluerit pro qualibet ingenio tunc
+                        habeat sibi Deum contrarium patrem filium et spiritum sanctum et sub
+                        anathema trecentorum decem et octo patrum constrictus maneat et cum Iuda
+                        traditore Domini nostri Ieusu Christi in infernum damnetur incendium et suam
+                        nunquam mereatur adimplere voluntatem. Et ideo si post nostrum Ingelfredi
+                        comitis et Aytengo filio meo amborum discessum aut si ipse Aitengus [sine …]
+                        filiis et filiabus legitimis aut sine testamento mortuus fuerit vel si alii
+                        heredes vel parentibus nostris surrexerimus qui carta hanc meam paginam
+                        offersionis que ego meo bono animo fieri decrevi ire quando[cum]que
+                        temptaverit aut eam infringere aut interdicere vel subtrahere aut minuare
+                        quesierint tunc componat qui hoc facere voluerit a parte suprascripto
+                        monasterio pena auri obtimi libras centum et argentum pondera[s] ducentas
+                        coactos absolvant et quod repetierit nichil vindicare valeant et in
+                        suprascripta anathema [sub]iaceat sed presens hec mea pagina offersionis
+                        sicut supra legitur […] suprascripto monasterio sub eandem videlicet
+                        rationem ut supra legitur firmam et stabilis inconvulsa plena et in[…]eat
+                        cum stipulatione subnixa. Et quia ego ipse Ingelfredus comes hanc
+                        pergamena[m] et atramentario et pinnam totum simul de terra levavi et
+                        Martinus notarius tradidi ad* scribendum et testes similiter rogatos obtuli
+                        ad roborandum. Acto in civitate Verona feliciter. Signum + mano suprascripto
+                        Ingelfredus comes qui paginam offersionis fieri rogavi ad omnia suprascripta
+                        et ei relecta est. Signum + manibus Uberto vasso suprascripto Ingelfredi
+                        comes et Machelmo filius quondam Bernerio et Frediberto filius quendam
+                        Artecauso ex Alemannorum genere omnes testes. Signum + manibus Richerio
+                        filius quondam Attoni ex Allemanorum genere testis. Signum + manibus Gisoni
+                        de Suavus testis. Signum + manus Ansprando qui Azo vocatur testis. Signum +
+                        manu me Ingauso vasso domno regis et Iugo qui Azo vocatur vivente lege
+                        Allemannis testes. + Ego Ildebertus scavinus rogatus mano mea subscripsi.
+                        Signum + manus Hedericho et Rumo germanis et Heregerio ex Allamannorum
+                        genere testes. Signum + manu Milonis vasso domno regis Francorum testis.[5]
+                        + Ego Pedelbertus rogatus mano mea subscripsi. + Ego Gusus notarius mano mea
+                        subscripsi. Ego qui suprascriptus Martinus notarius rogatus hanc paginam
+                        offersionis scripsi et posto traditam complevi.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>Fainelli, CDV, II/1, n. 126 (914), pp. 163-166. </p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p><rs>http://saame.it/fonte/documenti-veneziani-venezia-8/</rs></p>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
