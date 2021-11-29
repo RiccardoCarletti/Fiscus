@@ -3182,11 +3182,14 @@
                     </place>
                     <place>
                         <geogName>Gonzaga; <foreign>curtis</foreign></geogName>
-                        <geogName type="other"/>
+                        <geogName type="other"><foreign>Gunziaga</foreign></geogName>
                         <idno>estates/2003</idno>
                         <note/>
                         <link type="people" corresp="#people/2100" subtype="link"/>
                         <link type="juridical_persons" corresp="#juridical_persons/501"
+                            subtype="link"/>
+                        <link type="places" corresp="#places/2424" subtype="hasConnectionWith"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/2001"
                             subtype="link"/>
                     </place>
                     <place>
@@ -3721,18 +3724,6 @@
                         <link type="juridical_persons" corresp="#juridical_persons/130"
                             subtype="link"/>
                         <link type="juridical_persons" corresp="#juridical_persons/2001"
-                            subtype="link"/>
-                    </place>
-                    <place>
-                        <geogName>Gonzaga; <foreign>curtis</foreign></geogName>
-                        <geogName type="other"><foreign>Gunziaga</foreign></geogName>
-                        <idno>estates/2054</idno>
-                        <note/>
-                        <link type="places" corresp="#places/2414" subtype="hasConnectionWith"/>
-                        <link type="people" corresp="#people/2100" subtype="link"/>
-                        <link type="juridical_persons" corresp="#juridical_persons/2001"
-                            subtype="link"/>
-                        <link type="juridical_persons" corresp="#juridical_persons/501"
                             subtype="link"/>
                     </place>
 
