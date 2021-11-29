@@ -44,7 +44,7 @@
                             <origDate when="0864-11-02">
                                 <note type="displayed_date">864 November 2</note>
                                 <note type="dating_elements"/>
-                                <note type="topical_date"><foreign>Orco</foreign></note>
+                                <note type="topical_date"><foreign>Orco curte regia</foreign></note>
                                 <note type="redaction_date">X-XI</note>
                             </origDate>
                             <origPlace>Sanctus Sixtus (Piacenza); monasterium</origPlace>
@@ -81,19 +81,26 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab> In nomine domini nostri Iesu Christi dei aeterni. Hludouuicus gratia dei
+                    <ab> In nomine domini nostri Iesu Christi dei aeterni. <persName
+                            ref="#people/267" key="#Emperor/king">Hludouuicus</persName> gratia dei
                             <rs key="#Emperor/king">imperator</rs> augustus. Dignum est, ut
                         imperialis maiestas opem suae potestatis cunctis suis impertiatur fidelibus,
                         quanto magis etiam ei, quam thoro inviolabili suae excellentiae coniugem
                         copulavit. Quapropter omnium fidelium sanctae dei aecclesiae nostrorum
-                        scilicet ac futurorum magnitudo comperiat, quia Engilberga nobis amantissima
-                        coniux <rs key="#Queen">augusta</rs> nostram adiens mansuetudinem deprecata
-                        est, quatenus <rs key="#Curtes">curtes</rs> nostras, unam scilicet, qui
-                        dicitur Uuardistallam et alteram, quae vocitatur Luciariam, qui ad eandem
-                        curtem Uuardistallam aspicere videtur, simulque et <rs key="#Churches"
-                            >capellas</rs> duas cum dotibus earum, unam videlicet in honorem sancti
-                        Petri principis apostolorum constructa et altera in honore sancti Georgii,
-                        proprietario iure ei concederemus. Cuius precibus hoc multimode dilecionis
+                        scilicet ac futurorum magnitudo comperiat, quia <persName ref="#people/55"
+                            key="#Queen">Engilberga</persName> nobis amantissima coniux <rs
+                            key="#Queen">augusta</rs> nostram adiens mansuetudinem deprecata est,
+                        quatenus <rs key="#Curtes">curtes</rs> nostras, unam scilicet, qui dicitur
+                            <placeName ref="#places/33" key="#Curtes #Churches"><geogName
+                                ref="#estates/40" key="#Curtes #Churches"
+                            >Uuardistallam</geogName></placeName> et alteram, quae vocitatur
+                            <placeName ref="#places/32" key="#Curtes"><geogName ref="#estates/38"
+                                key="#Curtes #Churches">Luciariam</geogName></placeName>, qui ad
+                        eandem curtem Uuardistallam aspicere videtur, simulque et <rs
+                            key="#Churches">capellas</rs> duas cum dotibus earum, unam videlicet in
+                        honorem sancti Petri principis apostolorum constructa et altera in honore
+                        sancti Georgii, <rs key="#Iure_proprietatis/pleno_iure">proprietario
+                            iure</rs> ei concederemus. Cuius precibus hoc multimode dilecionis
                         amorem assidueque devocionis sinceritatem aurem accommodantes hoc nostrae
                         mansuetudinis preceptum fieri decrevimus, per quod predicte coniugi nostrae
                         karissimae hereditario iure prefatas curtes Uuardistallam atque Luciariam
@@ -110,10 +117,10 @@
                         ausu temerario aut iniqua machinatione contradicente. Ut autem haec nostrae
                         auctoritatis concessio inviolata permaneat, manu propria subter firmavimus
                         et bulla nostra insigniri praecepimus.   Signum (M.) domni Hludouuici
-                        serenissimi augusti.   (C.) Iohannes sacri palatii protonotarius (SR.)  
-                        Data IIII non. novemb., anno Christo propitio imperii domni Hludouuici
-                        piissimi augusti XV, indictione XIII; actum Orco curte regia; in dei nomine
-                        feliciter amen. (B. D.)</ab>
+                        serenissimi augusti.   (C.) Iohannes sacri palatii <rs key="#Notary"
+                            >protonotarius</rs> (SR.)   Data IIII non. novemb., anno Christo
+                        propitio imperii domni Hludouuici piissimi augusti XV, indictione XIII;
+                        actum Orco curte regia; in dei nomine feliciter amen. (B. D.)</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
