@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Archivio di Stato di Parma (MGH DD Lu II, n. 46, pp. 157-158)</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc825</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#"/>
+                            <rs type="record_source" ref="#"/>
+                            <rs type="document_tradition" ref="#"/>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate notBefore="0001" notAfter="0001" when="0001"> 
+                                <note type="displayed_date"></note>
+                                <note type="dating_elements"></note>
+                                <note type="topical_date"></note>
+                                <note type="redaction_date">IX-X</note>
+                            </origDate>
+                            <origPlace>Sanctus Sixtus (Piacenza); monasterium</origPlace>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-11-30" who="ltabarrini">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab> In nomine domini nostri Iesu Christi dei aeterni. Hludouuicus divina
+                        ordinante providentia imperator augustus. Universorum sanctae dei aeclesiae
+                        fidelium tam praesentium quamque et futurorum noverit sollertia nos per hoc
+                        nostrae munificentiae imperiale preceptum concessisse ac aeternaliter
+                        confirmasse sub perpetua dominatione dilectae coniugi nostrae, clarissimae
+                        scilicet augustae Angilbergae, Sextum cortem nostram in comitatu Cremonensi,
+                        sed et cortem nostram Leocarni in comitatu Stationensi simulque Aticianum
+                        cortem nostram in comitatu Dianensi. Ipsas cortes, Sextum videlicet,
+                        Leocarni et Aticianum, cum omnibus appendiciis et pertinentiis earum, cum
+                        familia diversi sexus et etatis, cum universis rebus intrinsecus et
+                        extrinsecus, tam mobilibus integriter quamque et immobilibus ad easdem
+                        cortes respicientibus massariciis aldionariciis libellariis iudiciariis
+                        conditionariis vicanalibus alpibus piscariis, ubicumque et quantumcumque ex
+                        antiquo earundem dominio consuetudenario more pertinuisse dinoscitur, omnia
+                        et in omnibus iam dictae augustae, amabili coniugi nostrae, ex hoc nunc et
+                        in posterum mancipamus ac stabilimus iure proprietario habendas tenendas
+                        possidendas fruendas ac dominandas; et quicquid exinde elegerit et voluerit
+                        sibique placuerit in vita et post mortem, in omnibus perpetuam habeat
+                        potestatem faciendi. Si quis vero, quod non credimus, huic nostrae imperiali
+                        preceptioni contraire aut in aliquo molestari temptaverit, primitus dei
+                        omnipotentis incurrat iram; deinde sancimus, ut componere cogatur centum
+                        libras auri probatissimi ei, cui molestari non erubuit; et haec nostra
+                        praesens concessio, sicuti constituimus, inviolata permaneat. Unicuique vero
+                        nostrorum successorum, qui per tempora fuerint, interdicimus et sub divina
+                        invocatione adiuramus et obtestamur, ut nostrae deliberationis facta, ut a
+                        nobis edita sunt, ita sinant rata irrefragabiliter sempiternaliterque
+                        permanere. Si vero, quod non credimus, nostra irruperint, sentiant in
+                        praesenti severitatem aeterni iudicis et in futuro cum Iuda veritatis
+                        proditore sempiternam luant combustionem. Et ut pleniorem haec nostra
+                        presens donatio atque concessio optineat vigorem veriusque ac firmius ab
+                        universis credatur et observetur, manu propria subter eam firmavimus et
+                        bullis nostris roborari precepimus.   Signum (M.) domni Hludouuici
+                        serenissimi augusti.   Ego Gauginus iussu piissimi augusti domni Hludouuici
+                        scripsi et (SR.) (B. D.)   Acta Capua civitate IIII non. iul.; data anno
+                        Christo propitio serenissimi augusti domni Hludouuici XVIII, indictione III;
+                        in dei nomine feliciter (NT.: amen).</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>CDPr, n. VIII, pp. 115-117; Astegiano, <foreign>Codex Diplomaticus
+                        Cremonae</foreign> I, p. 28, n. 12.</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>Benassi segnala come il diploma sia stato a lungo ritenuto non originale – lo
+                    segnala anche una nota tergale di secolo XVIII.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
