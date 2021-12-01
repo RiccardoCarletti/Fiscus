@@ -31,7 +31,7 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="text_type" ref="#">-Placitum/iudicatum</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
                             <rs type="fiscal_property">Yes</rs>
@@ -42,12 +42,12 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate when="0903-01">
-                                <note type="displayed_date">903 january</note>
+                            <origDate notBefore="0903-01-31" notAfter="0903-12-31">
+                                <note type="displayed_date">903 January</note>
                                 <note type="dating_elements"/>
                                 <note type="topical_date">Piacenza</note>
                                 <note type="redaction_date">XII ineunte</note>
-                             </origDate>
+                            </origDate>
                             <origPlace/>
                         </origin>
                         <provenance>
